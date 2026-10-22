@@ -847,6 +847,32 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
 .dz-btns { position: absolute; right: 16px; bottom: 16px; display: flex; gap: 8px; }
 .dz-stop { padding: 9px 16px; border-radius: 999px; border: 1px solid rgba(255,255,255,.4); background: rgba(0,0,0,.45); color: #fff; font-weight: 600; font-size: 14px; }
 .dz-stop:hover { background: rgba(255,255,255,.15); }
+/* The Sparky crew: seven recoloured Sparkys run in from both sides, dance, then run back out. Blinking stays at
+   2 flashes a second or slower (well under the 3-a-second limit for flashing that can trigger seizures). */
+.dz-dancer { position: absolute; left: var(--x); bottom: var(--y); width: var(--w); translate: -50% 0; visibility: hidden; pointer-events: none; }
+.dz-dancer img { width: 100%; height: auto; display: block; filter: var(--f) drop-shadow(0 10px 16px rgba(0,0,0,.5)); }
+.dz-back { --y: calc(26vh + 34px); --w: min(11vw, 15vh, 100px); }
+.dz-front { --y: 64px; --w: min(14vw, 18vh, 120px); z-index: 2; } /* stands above the bottom buttons */
+.dz-mid { --y: 1.5vh; } /* the middle dancer stands below the DJ deck */
+.dz-sparky { z-index: 1; } .dz-btns, .dz-colour, .dz-say { z-index: 3; }
+.disco.crew-in .dz-dancer, .disco.crew-out .dz-dancer { visibility: visible; }
+.disco.crew-in .dz-dancer { animation: dzCrewIn 1.3s cubic-bezier(.3,.1,.3,1) var(--d) both; }
+.disco.crew-out .dz-dancer { animation: dzCrewOut 1.4s cubic-bezier(.6,0,.8,.4) var(--d) both; }
+.dz-dancer img { transform-origin: 50% 100%; }
+/* Each dancer repeats a 4-beat routine locked to the music's 120 BPM (one step per 0.5 s). While running in or out
+   they skip; in the middle of the party the whole crew does the hop-hop-spin together. */
+.disco.crew-in .dz-dancer img { animation: dzSkip .5s ease-in-out infinite, var(--move) 2s ease-in-out 1.6s infinite; }
+.disco.crew-out .dz-dancer img { animation: dzSkip .5s ease-in-out infinite; }
+.disco.crew-in.crew-sync .dz-dancer img { animation: dzSpinHop 2s ease-in-out infinite; }
+.dz-lasers { position: absolute; left: 50%; bottom: 26vh; width: 0; height: 0; opacity: 0; transition: opacity .4s; }
+.dz-lasers i { position: absolute; left: -2px; bottom: 0; width: 4px; height: 120vmax; border-radius: 4px; background: linear-gradient(to top, var(--c), transparent 85%); transform-origin: 50% 100%; filter: drop-shadow(0 0 6px var(--c)); animation: dzLaser var(--t) ease-in-out infinite alternate; }
+.disco.crew-in .dz-lasers { opacity: .8; }
+.disco.crew-in .dz-lights i { animation: dzFlick 1s steps(2, jump-none) infinite; }
+.disco.crew-in .dz-lights .dz-l2 { animation-delay: -.5s; }
+.disco.crew-in .dz-floor span { animation: dzTile 1s steps(2, jump-none) infinite; }
+.disco.crew-in .dz-sparky img { animation: dzDJ .3s ease-in-out infinite alternate; }
+.disco.crew-in .dz-rec { animation-duration: .7s; }
+.disco.crew-in .dz-ball { filter: drop-shadow(0 0 28px var(--dz, #fff)); }
 @keyframes dzSpin { to { rotate: 360deg; } }
 @keyframes dzSwing { from { rotate: -10deg; } to { rotate: 10deg; } }
 @keyframes dzMoonIn { from { left: 115%; } to { left: 50%; } }
@@ -854,8 +880,27 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
 @keyframes dzGlide { from { transform: rotate(-4deg) translateY(0); } to { transform: rotate(3deg) translateY(-6px); } }
 @keyframes dzBob { from { transform: translateY(0) rotate(-3deg); } to { transform: translateY(-10px) rotate(3deg); } }
 @keyframes dzEq { from { height: 20%; } to { height: 100%; } }
-@media (max-width: 560px) { .dz-sparky { width: 130px; } .dz-say { font-size: 15px; top: 14vh; } .dz-ball { font-size: 54px; } }
-@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+@keyframes dzCrewIn { from { translate: calc(var(--from) * 75vw - 50%) 0; } to { translate: -50% 0; } }
+@keyframes dzCrewOut { from { translate: -50% 0; } to { translate: calc(var(--from) * 75vw - 50%) 0; } }
+@keyframes dzSkip { 0%, 100% { transform: translateY(0) scale(1.06, .94); } 50% { transform: translateY(-16px) scale(.96, 1.05) rotate(4deg); } }
+/* side step: down-left, up, down-right, up, with a little squash on every landing */
+@keyframes dzBounceStep { 0%, 50%, 100% { transform: translate(0, 0) scale(1.07, .93); } 12% { transform: translate(-10px, -18px) rotate(-8deg) scale(.95, 1.06); } 25% { transform: translate(-14px, 0) scale(1.08, .92); } 62% { transform: translate(10px, -18px) rotate(8deg) scale(.95, 1.06); } 75% { transform: translate(14px, 0) scale(1.08, .92); } }
+/* hop, hop, big jump with a twirl on the spot, land */
+@keyframes dzSpinHop { 0%, 25%, 50%, 100% { transform: translateY(0) rotateY(0) scale(1.06, .94); } 12%, 37% { transform: translateY(-14px) scale(.96, 1.05); } 62% { transform: translateY(-34px) rotateY(180deg) scale(.94, 1.06); } 80% { transform: translateY(-10px) rotateY(360deg); } 90% { transform: translateY(0) rotateY(360deg) scale(1.1, .9); } }
+/* penguin waddle: tip side to side with tiny heel hops */
+@keyframes dzWaddle { 0%, 50%, 100% { transform: rotate(0) translateY(0); } 25% { transform: rotate(-14deg) translateY(-8px) translateX(-6px); } 75% { transform: rotate(14deg) translateY(-8px) translateX(6px); } }
+/* moonwalk slide back and forth with a lean */
+@keyframes dzSlide { 0%, 100% { transform: translateX(-16px) skewX(8deg); } 45% { transform: translateX(16px) skewX(8deg); } 50% { transform: translateX(16px) skewX(-8deg) translateY(-6px); } 95% { transform: translateX(-16px) skewX(-8deg); } }
+/* pop and tilt: a squash-stretch pop on every beat, head tilting left then right */
+@keyframes dzPop { 0%, 25%, 50%, 75%, 100% { transform: scale(1.08, .92); } 12% { transform: scale(.94, 1.1) rotate(-10deg) translateY(-8px); } 37% { transform: scale(.94, 1.1) rotate(10deg) translateY(-8px); } 62% { transform: scale(.94, 1.1) rotate(-10deg) translateY(-8px); } 87% { transform: scale(.9, 1.14) translateY(-14px); } }
+/* turnaround: hop, look back over the shoulder, hop back to face front */
+@keyframes dzTurn { 0%, 100% { transform: scaleX(1) translateY(0); } 20% { transform: scaleX(1) translateY(-14px) rotate(-6deg); } 40%, 60% { transform: scaleX(-1) translateY(0); } 70% { transform: scaleX(-1) translateY(-14px) rotate(6deg); } 90% { transform: scaleX(1) translateY(0) scale(1.06, .94); } }
+@keyframes dzDJ { from { transform: translateY(0) rotate(-8deg) scale(1); } to { transform: translateY(-14px) rotate(8deg) scale(1.06); } }
+@keyframes dzLaser { from { rotate: var(--a1); } to { rotate: var(--a2); } }
+@keyframes dzFlick { from { opacity: .3; } to { opacity: .8; } }
+@keyframes dzTile { from { opacity: .25; } to { opacity: .85; } }
+@media (max-width: 560px) { .dz-sparky { width: 130px; } .dz-say { font-size: 15px; top: 14vh; } .dz-ball { font-size: 54px; } .dz-back { --w: 15vw; --y: calc(26vh + 80px); } .dz-front { --w: 19vw; } .dz-mid { --y: 64px; } }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } .disco.crew-out .dz-dancer, .dz-lasers { visibility: hidden; } }
 </style>
 </head>
 <body>
@@ -912,6 +957,8 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
 <div class="disco" id="disco" hidden role="dialog" aria-modal="true" aria-label="Disco mode with DJ Sparky">
   <div class="dz-lights" aria-hidden="true"><i class="dz-l1"></i><i class="dz-l2"></i><i class="dz-l3"></i></div>
   <div class="dz-beams" aria-hidden="true"></div>
+  <div class="dz-lasers" aria-hidden="true"></div>
+  <div class="dz-crew" id="dzCrew" aria-hidden="true"></div>
   <div class="dz-ball" aria-hidden="true">🪩</div>
   <p class="dz-say" id="dzSay" aria-live="polite"></p>
   <button class="dz-sparky" id="dzSparky" type="button" aria-label="Tap DJ Sparky to stop the party"><img data-buddy="me" src="assets/sparky-blue.webp" alt="DJ Sparky"></button>
@@ -1135,8 +1182,8 @@ $('#bulb').onclick = () => {
 };
 
 /* ---------- disco mode ----------
-   Sparky moonwalks into the middle, DJs while the lights fade through every colour one by one, then waves and
-   moonwalks off and Spark goes back to Light. The bulb, tapping Sparky, "Stop the party" or Esc end it early. */
+   Sparky moonwalks into the middle and DJs, the Sparky crew dances while the lights cycle through every colour,
+   then everyone leaves and Spark goes back to Light. The bulb, tapping Sparky, "Stop the party" or Esc end it early. */
 const DISCO_COLOURS = [['Red', '#ff3b5c'], ['Orange', '#ff8a2b'], ['Yellow', '#ffd93b'], ['Green', '#3ddc84'], ['Teal', '#2fd3c7'], ['Blue', '#3b82ff'], ['Purple', '#9b5cff'], ['Pink', '#ff5cc8']];
 let DISCO = null;
 
@@ -1166,6 +1213,7 @@ function startMusic() {
     else { noise(t, 'highpass', 8000, 0.25, 0.05); tone(t, chord[1], 'square', 0.07, 0.16, 2400); tone(t, chord[2], 'square', 0.07, 0.16, 2400); tone(t, chord[3], 'square', 0.06, 0.16, 2400); }
     if (beat === 2 || beat === 6) noise(t, 'bandpass', 1500, 0.5, 0.14);
     tone(t, chord[0] + (beat % 2 ? 12 : 0) - 12, 'sawtooth', 0.32, eighth * 0.85, 600);
+    if (DISCO && DISCO.hype) tone(t, chord[1 + s % 3] + 12, 'triangle', 0.09, eighth * 0.9, 5000); // a bright arpeggio while the crew dances
   };
   const iv = setInterval(() => { while (next < ctx.currentTime + 0.15) { play(step++, next); next += eighth; } }, 25);
   DISCO.music = { out, iv };
@@ -1186,22 +1234,51 @@ function discoPaint(i) {
   $('#dzFloor').querySelectorAll('span').forEach((t, k) => { t.style.backgroundColor = c(k + Math.floor(k / 8)); });
   $('#dzColour').textContent = `🎨 ${DISCO_COLOURS[i % DISCO_COLOURS.length][0]}`;
 }
+/* The show runs about 30 seconds: DJ Sparky moonwalks in (0–3.6 s) and starts DJing; at 7 s the crew of seven
+   coloured Sparkys runs in from both sides and dances while the lights blink and lasers sweep; at 23 s the crew
+   runs off; at 26.5 s DJ Sparky waves and moonwalks out, and the room is back to Light by about 30 s. */
+const DZ_T = { dj: 3600, crew: 7000, leave: 23000, end: 26500 };
+// [name, CSS filter on the blue Sparky, dance move, x, row]; the blue picture's details recolour with hue-rotate.
+const DZ_CREW = [
+  ['Red', 'hue-rotate(150deg) saturate(1.4)', 'dzBounceStep', '10%', 'back'],
+  ['Yellow', 'hue-rotate(200deg) saturate(1.8) brightness(1.08)', 'dzWaddle', '27%', 'back'],
+  ['Purple', 'hue-rotate(55deg) saturate(1.3)', 'dzPop', '73%', 'back'],
+  ['Green', 'hue-rotate(260deg) saturate(1.3)', 'dzSpinHop', '90%', 'back'],
+  ['Black', 'invert(.92) hue-rotate(180deg) contrast(1.1)', 'dzSlide', '17%', 'front'],
+  ['Pink', 'hue-rotate(115deg) saturate(1.3)', 'dzTurn', '50%', 'front'],
+  ['White', 'grayscale(1) brightness(1.15)', 'dzBounceStep', '83%', 'front']];
+const DZ_LASERS = [['#ff3b5c', -60, 10, 1.7], ['#3ddc84', -30, 40, 2.3], ['#3b82ff', 50, -20, 1.9], ['#ffd93b', 65, -5, 2.6], ['#ff5cc8', -45, 55, 2.1], ['#2fd3c7', 20, -55, 2.8]];
+function buildCrew() {
+  const blue = BUDDIES.blue.src, pink = (BUDDIES.pink || BUDDIES.blue).src;
+  // The DJ is the student's own Sparky; if that's the pink one, the pink dancer becomes a blue one.
+  $('#dzCrew').innerHTML = DZ_CREW.map(([name, f, move, x, row], k) => {
+    const left = parseFloat(x) < 50, swap = name === 'Pink' && S.settings.buddy === 'pink';
+    return `<div class="dz-dancer dz-${row}${x === '50%' ? ' dz-mid' : ''}" style="--x:${x};--f:${name === 'Pink' ? 'none' : f};--move:${move};--from:${left ? -1 : 1};--d:${(k * 0.18).toFixed(2)}s"><img src="${name === 'Pink' && !swap ? pink : blue}" alt=""></div>`;
+  }).join('');
+  $('.dz-lasers').innerHTML = DZ_LASERS.map(([c, a1, a2, t]) => `<i style="--c:${c};--a1:${a1}deg;--a2:${a2}deg;--t:${t}s"></i>`).join('');
+}
+function stage(s) { const d = $('#disco'); d.classList.remove('in', 'dj', 'out'); d.classList.add(s); }
 function startDisco() {
-  const d = $('#disco'), say = t => { $('#dzSay').textContent = t; };
+  const d = $('#disco'), say = t => { $('#dzSay').textContent = t; }, later = (ms, f) => DISCO.timers.push(setTimeout(f, ms));
+  if (DISCO) { DISCO.timers.forEach(t => { clearTimeout(t); clearInterval(t); }); stopMusic(0.1); } // never two shows at once
   if (!$('#dzFloor').children.length) $('#dzFloor').innerHTML = '<span></span>'.repeat(24);
-  applyBuddy();
+  buildCrew(); applyBuddy();
+  $('#dzFloor').querySelectorAll('span').forEach(t => { t.style.animationDelay = `-${(Math.random()).toFixed(2)}s`; });
   d.hidden = false; d.className = 'disco in'; say('Here comes DJ Sparky…'); discoPaint(0);
   DISCO = { timers: [] };
   paintMusicBtn(); startMusic();
   let i = 0;
-  DISCO.timers.push(setTimeout(() => { d.className = 'disco dj'; say('DJ Sparky in the house! 🎶 Watch every colour light up!'); }, 3600));
-  DISCO.timers.push(setTimeout(() => {
-    const iv = setInterval(() => {
-      i++; discoPaint(i);
-      if (i === DISCO_COLOURS.length) { clearInterval(iv); say('That was every colour! Party over… bye! 👋'); DISCO.timers.push(setTimeout(() => stopDisco(true), 1800)); }
-    }, 1500);
-    DISCO.timers.push(iv);
-  }, 3600));
+  later(DZ_T.dj, () => {
+    stage('dj'); say('DJ Sparky in the house! 🎶');
+    DISCO.timers.push(setInterval(() => discoPaint(++i), 1500));
+  });
+  later(DZ_T.crew, () => { d.classList.add('crew-in'); DISCO.hype = true; say('Here comes the Sparky crew! 🕺 Everybody dance!'); });
+  later(DZ_T.crew + 5000, () => { say('Red, yellow, purple, green, black, pink and white… all the Sparkys! 🎉 All together now!'); d.classList.add('crew-sync'); });
+  later(DZ_T.crew + 9000, () => d.classList.remove('crew-sync'));
+  later(DZ_T.crew + 10500, () => say('DJ Sparky, turn it up! 🔊'));
+  later(DZ_T.leave, () => { d.classList.remove('crew-sync'); d.classList.replace('crew-in', 'crew-out'); DISCO.hype = false; say('Bye, Sparky crew! 👋'); });
+  later(DZ_T.leave + 1900, () => d.classList.remove('crew-out'));
+  later(DZ_T.end, () => { say('What a party! Bye everyone! 👋'); stopDisco(true); });
   $('#dzStop').focus();
 }
 function stopDisco(finished) {
@@ -1210,7 +1287,8 @@ function stopDisco(finished) {
   stopMusic(finished ? 2.5 : 1.2);
   DISCO = { timers: [] };
   if (!finished) $('#dzSay').textContent = 'Okay, party over! Bye! 👋';
-  d.className = 'disco out';
+  stage('out');
+  if (d.classList.contains('crew-in')) d.classList.replace('crew-in', 'crew-out'); // stopped early: the crew runs off too
   const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
   DISCO.timers.push(setTimeout(() => { d.hidden = true; d.className = 'disco'; DISCO = null; setTheme('light'); $('#bulb').focus(); }, reduce ? 300 : finished ? 3000 : 1600));
 }
