@@ -214,27 +214,44 @@
   /* Values in Sparky's final answer line ("**Answer:** x = 6", "\(x = \frac{3}{2}\)", "1.5", "₹2,035"). */
   function answerOf(reply) {
     const t = String(reply || '');
-    const m = /\*\*\s*(final\s+)?answer\s*:?\s*\*\*\s*:?([^\n]*)/i.exec(t) || /^\s*(final\s+)?answer\s*:([^\n]*)/im.exec(t);
+    const m = /\*\*[ \t]*(final[ \t]+)?answer[ \t]*:?[ \t]*\*\*[ \t]*:?([^\n]*)/i.exec(t) || /^[ \t]*(final[ \t]+)?answer[ \t]*:([^\n]*)/im.exec(t);
     if (!m) return null;
-    const line = plain(m[2]).replace(/\*\*/g, ' ').replace(/₹|\brs\.?|\brupees?\b|\bpaise\b/gi, ' ')
-      .replace(/\b(sq(uare)?|cubic)\s+/gi, ' ').replace(/\b(cm|mm|km|m|kg|g|mg|l|ml|litres?|liters?|metres?|meters?|units?|degrees?|hours?|hrs?|days?|minutes?|mins?|seconds?|secs?|years?|km\/h|kmph|m\/s)\b\s*(\^\s*\(\s*\d\s*\))?/gi, ' ');
+    // An answer written as a list under the label ("**Answer:**\n- Mean: 17\n- Median: 15") counts too.
+    let text = m[2];
+    for (const l of t.slice(m.index + m[0].length).split('\n').slice(1)) {
+      if (/^\s*([-*•]|\d+[.)])\s+/.test(l)) text += '; ' + l.replace(/^\s*([-*•]|\d+[.)])\s+/, '');
+      else if (!text.replace(/[\s*:;]/g, '') && l.trim() && !/^\s*👉/.test(l)) text = l; // the answer on the next line
+      else if (l.trim() || text.trim()) break;
+    }
+    const line = plain(text).replace(/\*\*/g, ' ').replace(/₹|\brs\.?|\brupees?\b|\bpaise\b/gi, ' ')
+      .replace(/\b(km\s*\/\s*h|kmph|m\s*\/\s*s|km per hour|metres? per second|meters? per second)\b/gi, ' ')
+      .replace(/\b(sq(uare)?|cubic)\s+/gi, ' ')
+      .replace(/\b(cm|mm|km|m|kg|g|mg|l|ml|litres?|liters?|metres?|meters?|units?|degrees?|hours?|hrs?|days?|minutes?|mins?|seconds?|secs?|years?)\b\s*(\^\s*\(?\s*[23]\s*\)?)?/gi, ' ');
     const assigns = [], nums = [];
-    const value = t => {
-      let c = t.replace(/[a-z]{2,}/gi, w => (/^(sqrt|cbrt)$/i.test(w) ? w : ' ')).replace(/[:]/g, ' ').trim().replace(/[.]+$/, '');
-      if (!/\d/.test(c)) return null;
-      let v = evaluate(c);
-      if (v === null) { c = c.replace(/[()]/g, ' '); v = evaluate(c); }
-      return v === null ? null : { raw: c.replace(/\s+/g, ''), v };
+    /* Every number in a piece of text: words and units dropped, "3 : 4" or "0.7 … 0.05" read as separate numbers,
+       and "20%" read both as 20 (how answers state percentages) and as 0.2. */
+    const values = s => {
+      const c = s.replace(/(sqrt|cbrt)|[a-zA-Z’'"]+/g, (w, f) => (f ? f : ' ')).replace(/[:]/g, ' ').trim().replace(/[.]+$/, '');
+      const out = [];
+      for (let piece of c.split(/(?<=[\d)%])\s+(?=[-−]?\s*[\d(√∛])/)) {
+        piece = piece.trim(); if (!/\d/.test(piece)) continue;
+        let v = evaluate(piece);
+        if (v === null) v = evaluate(piece.replace(/[()]/g, ' '));
+        if (v === null) continue;
+        out.push({ raw: piece.replace(/\s+/g, ''), v });
+        if (/%\s*$/.test(piece)) { const w = evaluate(piece.replace(/%\s*$/, '')); if (w !== null) out.push({ raw: piece.replace(/%\s*$/, '').replace(/\s+/g, ''), v: w, alt: true }); }
+      }
+      return out;
     };
     for (const seg of line.split(/,(?!\d{3}\b)|;|\bor\b|\band\b|\bi\.e\.?/i)) {
       const parts = seg.split('=');
-      const last = value(parts[parts.length - 1]);
-      if (!last) continue;
+      const vals = values(parts[parts.length - 1]);
+      if (!vals.length) continue;
       const lhs = parts.length > 1 ? parts[0].trim() : '';
-      if (/^\(?\s*[a-z]\s*\)?$/i.test(lhs)) assigns.push(Object.assign({ x: lhs.replace(/[()\s]/g, '').toLowerCase() }, last));
-      nums.push(last);
+      if (/^\(?\s*[a-z]\s*\)?$/i.test(lhs) && vals.length === 1) assigns.push(Object.assign({ x: lhs.replace(/[()\s]/g, '').toLowerCase() }, vals[0]));
+      nums.push(...vals);
     }
-    return { line: m[2].trim(), assigns, nums };
+    return { line: text.trim(), assigns, nums };
   }
   /* Compares the reply's answer with an exact solution of the original question.
      status: 'agree' | 'disagree' | 'unknown' (couldn't read the question or the answer with certainty). */
@@ -246,7 +263,7 @@
     if (p.kind === 'equation') {
       if (p.identity || p.none) return { status: 'unknown', reason: p.identity ? 'true for every value' : 'no real solution', problem: p };
       const got = a.assigns.filter(s => s.x === p.x);
-      const vals = got.length ? got : a.nums;
+      const vals = got.length ? got : a.nums.filter(g => !g.alt);
       if (!vals.length) return { status: 'unknown', reason: 'no value in the answer line', problem: p };
       const ok = p.roots.every(r => vals.some(g => roughly(r, g.v, g.raw))) && vals.every(g => p.roots.some(r => roughly(r, g.v, g.raw)));
       const sub = p.roots.map(r => `${p.x} = ${show(r)}`).join(', ');

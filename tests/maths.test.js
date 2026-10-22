@@ -181,3 +181,33 @@ test('regression: maths rules tell Sparky to read shop questions sensibly and sa
   const r = AI.route(CASES.find(x => x.id === 'pl-9').q);
   assert.equal(r.subject, 'math'); assert.equal(r.needsCode, true); assert.equal(r.needsSearch, false);
 });
+
+/* ---------- regressions: answer formats the live benchmark showed were misread ---------- */
+test('regression: units, percentages, ratios, worded and list answers are read correctly', () => {
+  const nums = a => M.answerOf(a).nums.map(x => M.show(x.v));
+  assert.ok(nums('**Answer:** \\(20\\%\\)').includes('20'), 'a percentage answer is 20, not only 0.2');
+  assert.deepEqual(nums('**Answer:** \\(80\\text{ km/h}\\)'), ['80']);
+  assert.deepEqual(nums('**Answer:** \\( 50\\text{ cm}^2 \\)'), ['50'], 'cm² is a unit, not a square');
+  assert.deepEqual(nums('**Answer:** \\(480\\text{ cm}^3\\)'), ['480']);
+  assert.deepEqual(nums('**Answer:** \\(3 : 4\\)'), ['3', '4'], 'a ratio is two numbers, not 12');
+  assert.deepEqual(nums('**Answer:** \\(0.7\\) is greater than \\(0.65\\) by \\(0.05\\).'), ['7/10', '13/20', '1/20']);
+  assert.deepEqual(nums("**Answer:** Aman's present age is 30 years and his daughter's present age is 10 years."), ['30', '10']);
+  assert.deepEqual(nums('**Answer:**\n* **Mean:** \\(17\\)\n* **Median:** \\(15\\)\n* **Range:** \\(13\\)\n\n👉 next'), ['17', '15', '13']);
+  assert.ok(nums('**Answer:** \\(10,000\\text{ cm}^2\\)').includes('10000'));
+  assert.deepEqual(nums('**Answer:** $20\\text{ m/s}$'), ['20']);
+  assert.equal(M.check('What is 3/8 as a percentage?', '**Answer:** 37.5%').status, 'agree');
+  assert.equal(M.check('Solve x² − 5x + 6 = 0', '**Answer:** \\(x = 2\\)').status, 'disagree', 'still catches a missing root');
+});
+test('regression: grader compares the first algebraic form and keeps two-letter terms like 2ab', () => {
+  const { sameExpression } = require('./maths-grade.js');
+  const g = (id, line) => grade(CASES.find(x => x.id === id), { text: `**Answer:** ${line}`, route: AI.route(CASES.find(x => x.id === id).q), tools: {}, checks: null });
+  assert.equal(g('alg-6', '\\( 2a^2 + 2ab - 2 \\)').fails.filter(f => f.mode === 'B').length, 0);
+  assert.equal(g('fac-5', '\\((2y + 3)^2\\) (or \\((2y + 3)(2y + 3)\\))').fails.filter(f => f.mode === 'B').length, 0);
+  assert.ok(!sameExpression('2a^2 + 2 - 2', '2a^2+2ab-2'));
+});
+test('regression: an answer on the line after the label is read', () => {
+  const nums = a => M.answerOf(a).nums.map(x => M.show(x.v));
+  assert.deepEqual(nums('**Answer:**\n\\[ x = 6 \\]\n\n👉 Try 3x + 4 = 25'), ['6']);
+  assert.deepEqual(nums('**Answer:**\n\n65°'), ['65']);
+  assert.deepEqual(nums('**Answer:** \\(x = 6\\)\n\n👉 Try 3x+4=25'), ['6']);
+});

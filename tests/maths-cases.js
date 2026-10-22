@@ -132,7 +132,7 @@ module.exports = [
   C('mensuration', 'men-5', 'Find the total surface area of a cube with edge 6 cm.', { expect: ['216'], unit: /cm/i, py: '6*6*6', modes: ['G'] }),
   C('mensuration', 'men-6', 'Find the volume of a cylinder of radius 7 cm and height 10 cm. Use π = 22/7.', { expect: ['1540'], unit: /cm/i, py: 'F(22,7)*7*7*10', modes: ['G'] }),
   C('mensuration', 'men-7', 'Find the curved surface area of a cylinder of radius 3.5 cm and height 10 cm. Use π = 22/7.', { expect: ['220'], unit: /cm/i, py: '2*F(22,7)*F(7,2)*10', modes: ['G'] }),
-  C('mensuration', 'men-8', 'A rectangle has a perimeter of 30 cm. Is its area uniquely determined? Explain why or why not.', { must: [/\bno\b|not (uniquely|fixed|determined)|can'?t be (found|determined)|cannot be/i, /for example|e\.g\.|like|could be|\d+\s*cm\s*(×|\\times|x|by)\s*\d+/i], modes: ['T', 'H'] }),
+  C('mensuration', 'men-8', 'A rectangle has a perimeter of 30 cm. Is its area uniquely determined? Explain why or why not.', { must: [/\bno\b|not (uniquely|fixed|determined)|can'?t be (found|determined)|cannot be/i, /for example|e\.g\.|like|could be|\d+\s*(cm\s*)?(×|\\times|x|by)\s*\d+/i], modes: ['T', 'H'] }),
   C('mensuration', 'men-9', 'The area of a rhombus is 96 cm² and one diagonal is 16 cm. Find the other diagonal.', { expect: ['12'], unit: /cm/i, py: 'F(2*96,16)', modes: ['A'] }),
   C('mensuration', 'men-10', 'How many cubes of side 2 cm fit exactly inside a box 10 cm × 8 cm × 6 cm?', { expect: ['60'], py: '(10//2)*(8//2)*(6//2)', modes: ['G'] }),
   // 14. Data handling

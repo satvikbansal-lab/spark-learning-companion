@@ -88,7 +88,8 @@ function grade(c, out) {
   }
   if (c.expr) {
     const line = ans ? ans.line : '';
-    const rhs = SparkMath.plain(line).split('=').pop().replace(/[a-z]{2,}/gi, ' ').trim();
+    // The first form given ("(2y + 3)² (or (2y + 3)(2y + 3))"), right of the last "="; drop words, keep terms like 2ab.
+    const rhs = SparkMath.plain(line.split(/\(?\s*\bor\b/i)[0]).split('=').pop().replace(/[a-z]{3,}/gi, ' ').replace(/[.,;]\s*$/, '').trim();
     if (!ans) fail('N', 'no "**Answer:**" line');
     else if (!sameExpression(rhs, c.expr)) fail('B', `answer "${line.slice(0, 80)}" is not equivalent to ${c.expr}`);
     else if (c.factored && !/\(/.test(SparkMath.plain(line))) fail('B', 'answer is not in factorised form');
@@ -112,7 +113,8 @@ function grade(c, out) {
   const practice = (text.match(/👉[^\n]*/) || [''])[0];
   const pq = practice && SparkMath.problemOf(practice.replace(/👉/, '').replace(/^[^:]*:\s*/, 'Solve '));
   if (pq && pq.kind === 'equation' && pq.roots.length && !pq.roots.every(x => SparkMath.Q && x.d === 1n)) flags.push(`S: practice question has a non-whole answer (${pq.roots.map(SparkMath.show).join(', ')})`);
-  if (pq && pq.kind === 'equation' && (pq.none || pq.identity)) fails.push({ mode: 'S', why: 'practice question has no single solution' });
+  // A practice question with no or infinitely many solutions can be a deliberate follow-up, so it's flagged, not failed.
+  if (pq && pq.kind === 'equation' && (pq.none || pq.identity)) flags.push('S: practice question has no single solution');
   // Tutoring: a re-explanation must not be the first explanation reworded (P), and a direct request needs the answer.
   let ov;
   if (c.differentFrom) { ov = Math.round(overlap(text, c.differentFrom) * 100) / 100; if (ov > 0.5) fails.push({ mode: 'P', why: `re-explanation reuses ${Math.round(ov * 100)}% of the first explanation's words` }); }

@@ -12,7 +12,7 @@ module.exports = [
     must: [/\badd\b|adding|added/i, /2\s*(×|\\times|·|\\cdot)\s*2\s*(×|\\times|·|\\cdot)\s*2|seven 2s|7 twos|(2 × ){2,}|expand|written out|write (it )?out/i, /2\s*\^\s*\{?\(?7|2⁷|128/, /try|your turn|👉/i],
     not: [/\b(yes|correct|that'?s right)\b[^.\n]*2\s*\^\s*\{?12/i] },
   { id: 'tutor-C', scenario: 'C: stuck in algebra', history: hist('ctx-4'), q: 'Why did you subtract 4x from both sides?',
-    must: [/4x/, /balance|scale|see-?saw|weighing/i, /both sides|same (thing|amount)/i], not: [] },
+    must: [/4x/, /balance|scale|see-?saw|weighing/i, /both sides|same (thing|amount)|each side|from the (left|right) (side )?too|keep (it|the scale|both) (balanced|equal)/i], not: [] },
   { id: 'tutor-D', scenario: 'D: asks for a simpler explanation', history: [['user', 'Why do we need a common denominator to add fractions?'], ['model', firstExplanation]], q: "I still don't understand. Explain like I'm 10.",
     must: [/pizza|roti|chocolate|cake|slices?|pieces?|paratha|ladoo|apple|bar/i], not: [], differentFrom: firstExplanation },
   { id: 'tutor-E', scenario: 'E: wants the answer directly', q: 'Just give me the full solution, I have an exam tomorrow: solve 4(x − 3) = 2x + 10',
@@ -22,5 +22,5 @@ module.exports = [
   { id: 'tutor-G', scenario: 'G: follow-up about an earlier step', history: hist('ctx-1'), q: 'Why did you divide by 2 in the previous step?',
     must: [/2x\s*=\s*12|2x/i, /both sides|balance|alone|by itself|undo|isolate/i], not: [] },
   { id: 'tutor-H', scenario: 'H: misconception', q: 'I think 0.5 is smaller than 0.25 because 5 is smaller than 25.',
-    must: [/0\.5\s*(is )?(greater|bigger|larger|more)|0\.25\s*(is )?(smaller|less)/i, /place value|tenths|hundredths|0\.50|50\s*(\/|out of)\s*100|half|\\frac\{1\}\{2\}/i, /try|which is (bigger|greater|larger)|👉/i], not: [] }
+    must: [/0\.50?\s*(is\s+)?(actually\s+|really\s+)?(greater|bigger|larger|more)|0\.25\s*(is\s+)?(actually\s+|really\s+)?(smaller|less)|0\.50?\s*>\s*0\.25/i, /place value|tenths|hundredths|0\.50|50\s*(\/|out of)\s*100|half|\\frac\{1\}\{2\}/i, /try|which is (bigger|greater|larger)|👉/i], not: [] }
 ];
