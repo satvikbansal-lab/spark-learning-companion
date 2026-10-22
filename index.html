@@ -208,7 +208,8 @@ svg { display: block; }
 .w-img { width: 130px; height: auto; display: block; filter: drop-shadow(0 10px 16px rgba(0,0,0,.25)); }
 .walker.entering .w-btn { animation: walkIn 1.1s cubic-bezier(.2,.8,.3,1) both; }
 .walker.entering .w-img { animation: step .22s ease-in-out infinite alternate; }
-.walker.talking .w-bubble, .walker.leaving .w-bubble { opacity: 1; }
+.walker.talking .w-bubble, .walker.ready .w-bubble, .walker.leaving .w-bubble { opacity: 1; }
+.walker.ready .w-img { animation: talkBob 1.2s ease-in-out infinite alternate; }
 .walker.leaving .w-bubble { opacity: 0; }
 .walker.talking .w-img { animation: talkBob .45s ease-in-out infinite alternate; }
 .walker.leaving .w-btn { animation: walkOut .9s ease-in both; }
@@ -1145,7 +1146,7 @@ ${known}`;
 const VOICE_STYLE = `
 
 VOICE CALL MODE: right now you are talking OUT LOUD with them like a friendly buddy on a call. Reply in 2-4 short, natural spoken sentences. No lists, no markdown, no symbols, no emoji, and don't read out stage labels. Sound warm, playful and encouraging, like a kind older friend. Still teach with your Spark Funnel, one stage per reply: the big-picture story, then the closer look, then the final answer with a memory hook. Write maths in words, e.g. "three by four divided by one half".`;
-const TTS_MODELS = ['gemini-2.5-flash-preview-tts', 'gemini-3.1-flash-tts-preview', 'gemini-3.8-flash-tts'];
+const TTS_MODELS = ['gemini-3.1-flash-tts-preview', 'gemini-3.8-flash-tts', 'gemini-2.5-flash-preview-tts'];
 const Rec = window.SpeechRecognition || window.webkitSpeechRecognition;
 const V = { open: false, state: 'idle', rec: null, audio: null, auto: true, ttsDown: false };
 const micSvg = '<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>';
@@ -1220,39 +1221,82 @@ async function talk(text) {
 function plainSpeech(md) {
   return String(md || '').replace(/```[\s\S]*?```/g, '').replace(/[*_`#>]/g, '').replace(/\[(.*?)\]\(.*?\)/g, '$1').replace(/^\s*[-•]\s+/gm, '').replace(/\n{2,}/g, '\n').trim();
 }
-let SPEAK_ID = 0;
-async function speak(text) {
-  const words = plainSpeech(text).slice(0, 1500); if (!words) return;
+/* Browsers only allow sound that starts from a tap. One shared player is unlocked on the first tap,
+   then reused for every answer, so audio that arrives seconds later can still play. */
+let SPEAK_ID = 0, AUDIO_UNLOCKED = false, TTS_PRIMED = false;
+const PLAYER = new Audio(); PLAYER.preload = 'auto';
+let SILENT_URL = null;
+function unlockAudio() {
+  if (!AUDIO_UNLOCKED && PLAYER.paused) {
+    try {
+      SILENT_URL = SILENT_URL || URL.createObjectURL(pcmToWav(btoa(String.fromCharCode.apply(null, new Uint8Array(2400))), 24000));
+      PLAYER.src = SILENT_URL;
+      const pr = PLAYER.play(); if (pr) pr.then(() => { AUDIO_UNLOCKED = true; }).catch(() => {});
+    } catch (e) {}
+  }
+  if (!TTS_PRIMED && 'speechSynthesis' in window) {
+    try { const u = new SpeechSynthesisUtterance(' '); u.volume = 0; speechSynthesis.speak(u); TTS_PRIMED = true; } catch (e) {}
+  }
+}
+['pointerdown', 'touchend', 'keydown'].forEach(ev => document.addEventListener(ev, unlockAudio, true));
+
+/* speak(text, { beforePlay, onCaption }) resolves true when something was heard.
+   beforePlay lets Sparky finish walking in; onCaption gets the sentence being spoken right now. */
+async function speak(text, opts = {}) {
+  const words = plainSpeech(text).slice(0, 1500); if (!words) return false;
   stopSpeaking(); const id = ++SPEAK_ID;
+  const sentences = (words.match(/[^.!?\n]+[.!?]*\s*/g) || [words]).map(x => x.trim()).filter(Boolean);
   const voiceName = S.settings.voiceName || 'Leda';
+  let clip = null;
   if (hasAI() && voiceName !== 'browser' && !V.ttsDown) {
-    try { await speakGemini(words, voiceName, id); return; }
+    try { clip = await fetchVoice(words, voiceName); }
     catch (e) { console.warn('Gemini voice unavailable, using browser voice', e); V.ttsDown = true; setTimeout(() => { V.ttsDown = false; }, 120000); }
   }
-  if (id === SPEAK_ID) await speakBrowser(words);
+  if (opts.beforePlay) await opts.beforePlay();
+  if (id !== SPEAK_ID) { if (clip) URL.revokeObjectURL(clip); return true; }
+  if (clip) {
+    const ok = await playClip(clip, id, sentences, opts.onCaption);
+    if (ok || id !== SPEAK_ID) return true;
+  }
+  return speakBrowser(sentences, id, opts.onCaption);
 }
-async function speakGemini(words, voiceName, id) {
-  let last;
-  for (const model of TTS_MODELS) {
-    const r = await aiPost(model, false, ({
-        contents: [{ role: 'user', parts: [{ text: `Say this warmly and cheerfully, like a kind, playful best friend talking to an 11-year-old: ${words}` }] }],
-        generationConfig: { responseModalities: ['AUDIO'], speechConfig: { voiceConfig: { prebuiltVoiceConfig: { voiceName } } } }
-      }));
+async function fetchVoice(words, voiceName) {
+  const order = [...new Set([V.ttsModel, ...TTS_MODELS].filter(Boolean))]; let last;
+  for (const model of order) {
+    const r = await aiPost(model, false, {
+      contents: [{ role: 'user', parts: [{ text: `Say this warmly and cheerfully, like a kind, playful best friend talking to an 11-year-old: ${words}` }] }],
+      generationConfig: { responseModalities: ['AUDIO'], speechConfig: { voiceConfig: { prebuiltVoiceConfig: { voiceName } } } }
+    });
     if (!r.ok) { last = r.status; continue; }
     const j = await r.json();
-    const part = (j.candidates && j.candidates[0] && j.candidates[0].content && j.candidates[0].content.parts || []).find(p => p.inlineData);
+    const part = (j.candidates && j.candidates[0] && j.candidates[0].content && j.candidates[0].content.parts || []).find(x => x.inlineData);
     if (!part) { last = 'no audio'; continue; }
-    if (id !== SPEAK_ID) return;
+    V.ttsModel = model;
     const mime = (part.inlineData.mimeType || '').toLowerCase();
     const rate = Number((/rate=(\d+)/.exec(mime) || [])[1]) || 24000;
     const blob = /wav|mpeg|mp3|ogg/.test(mime) ? new Blob([Uint8Array.from(atob(part.inlineData.data), c => c.charCodeAt(0))], { type: mime.split(';')[0] }) : pcmToWav(part.inlineData.data, rate);
-    const url = URL.createObjectURL(blob);
-    const audio = new Audio(url); V.audio = audio;
-    await new Promise(res => { audio.onended = audio.onerror = audio.onpause = res; audio.play().catch(res); });
-    URL.revokeObjectURL(url); if (V.audio === audio) V.audio = null;
-    return;
+    return URL.createObjectURL(blob);
   }
   throw new Error('No Gemini voice available (' + last + ')');
+}
+function playClip(url, id, sentences, onCaption) {
+  return new Promise(res => {
+    const a = PLAYER; let started = false, finished = false;
+    const total = sentences.reduce((n, x) => n + x.length, 0) || 1;
+    const caption = () => {
+      if (!onCaption || !a.duration || !isFinite(a.duration)) return;
+      const at = a.currentTime / a.duration * total; let acc = 0;
+      for (const x of sentences) { acc += x.length; if (acc >= at) { onCaption(x); break; } }
+    };
+    const done = ok => { if (finished) return; finished = true; a.ontimeupdate = a.onplaying = a.onended = a.onerror = a.onpause = null; URL.revokeObjectURL(url); res(ok); };
+    a.ontimeupdate = caption;
+    a.onplaying = () => { started = true; if (onCaption && sentences[0]) onCaption(sentences[0]); };
+    a.onended = () => done(true);
+    a.onerror = () => done(started);
+    a.onpause = () => { if (id !== SPEAK_ID) done(true); };
+    a.src = url;
+    const pr = a.play(); if (pr) pr.catch(err => { console.warn('Sound was blocked by the browser', err); done(false); });
+  });
 }
 function pcmToWav(b64data, rate) {
   const pcm = Uint8Array.from(atob(b64data), c => c.charCodeAt(0));
@@ -1264,20 +1308,29 @@ function pcmToWav(b64data, rate) {
   new Uint8Array(buf, 44).set(pcm);
   return new Blob([buf], { type: 'audio/wav' });
 }
-function speakBrowser(words) {
-  return new Promise(res => {
-    if (!('speechSynthesis' in window)) return res();
-    const u = new SpeechSynthesisUtterance(words);
-    const voices = speechSynthesis.getVoices();
-    u.voice = voices.find(v => /en-IN/i.test(v.lang) && /female|veena|heera|neerja/i.test(v.name)) || voices.find(v => /en-IN/i.test(v.lang)) || voices.find(v => /Samantha|Google UK English Female|Google US English/i.test(v.name)) || null;
-    u.pitch = 1.25; u.rate = 1.03;
-    u.onend = u.onerror = () => res();
-    speechSynthesis.cancel(); speechSynthesis.speak(u);
-  });
+async function speakBrowser(sentences, id, onCaption) {
+  if (!('speechSynthesis' in window)) return false;
+  const voices = speechSynthesis.getVoices();
+  const voice = voices.find(v => /en-IN/i.test(v.lang) && /female|veena|heera|neerja/i.test(v.name)) || voices.find(v => /en-IN/i.test(v.lang)) || voices.find(v => /Samantha|Google UK English Female|Google US English/i.test(v.name)) || null;
+  speechSynthesis.cancel();
+  let heard = false;
+  for (const line of sentences) {
+    if (id !== SPEAK_ID) return true;
+    const ok = await new Promise(res => {
+      const u = new SpeechSynthesisUtterance(line); u.voice = voice; u.pitch = 1.25; u.rate = 1.03;
+      const timer = setTimeout(() => res(heard), 20000);
+      u.onstart = () => { heard = true; if (onCaption) onCaption(line); };
+      u.onend = () => { clearTimeout(timer); res(true); };
+      u.onerror = e => { clearTimeout(timer); res(e.error === 'interrupted' || e.error === 'canceled'); };
+      speechSynthesis.speak(u);
+    });
+    if (!ok) return heard;
+  }
+  return heard;
 }
 function stopSpeaking() {
   SPEAK_ID++;
-  if (V.audio) { const a = V.audio; V.audio = null; a.pause(); }
+  if (!PLAYER.paused && PLAYER.src !== SILENT_URL) PLAYER.pause();
   if ('speechSynthesis' in window) speechSynthesis.cancel();
 }
 $('#voiceBtn').onclick = openVoice;
@@ -1317,15 +1370,22 @@ async function readAloud(id) {
   if (W.msgId === id) return stopReading();
   stopReading(true);
   W.msgId = id; readButtons();
-  const words = plainSpeech(m.text);
   const wk = $('#walker'), txt = $('#wText');
-  txt.textContent = words.length > 220 ? words.slice(0, 220).replace(/\s\S*$/, '') + '…' : words;
+  txt.innerHTML = 'Getting my voice ready <span class="typing"><i></i><i></i><i></i></span>';
   wk.hidden = false; wk.className = 'walker entering';
-  await new Promise(r => setTimeout(r, 1100));
+  const walkIn = new Promise(r => setTimeout(r, 1100)).then(() => { if (W.msgId === id && wk.className !== 'walker talking') wk.className = 'walker ready'; });
+  const heard = await speak(m.text, {
+    beforePlay: () => walkIn,
+    onCaption: line => { if (W.msgId !== id) return; wk.className = 'walker talking'; txt.textContent = line; }
+  });
   if (W.msgId !== id) return;
-  wk.className = 'walker talking';
-  await speak(words);
-  if (W.msgId === id) stopReading();
+  if (!heard) {
+    wk.className = 'walker ready';
+    txt.textContent = "I couldn't play my voice. Turn up the volume (or switch off silent mode), then tap Read it to me again.";
+    setTimeout(() => { if (W.msgId === id) stopReading(); }, 5000);
+    return;
+  }
+  stopReading();
 }
 function stopReading(quick) {
   const was = W.msgId; W.msgId = null; stopSpeaking(); readButtons();
