@@ -123,8 +123,8 @@
       const pc = /(\d{1,3}(?:\.\d)?)\s*%/.exec(q);
       if (pc && /\b(show|visual|what (is|does)|mean|picture|grid)\b/i.test(q) && !/\bof\b/i.test(q)) return { type: 'percent', percent: Number(pc[1]), intro: 'Let\u2019s colour it in on a grid of 100 squares!' };
     }
-    if (/\b(solar system|planets?)\b/i.test(q) && !/\d/.test(q)) return { type: 'planets', intro: 'Let\u2019s fly past the planets! Tap one to visit it.' };
-    if (/\b(electricity|electric circuit|circuit|light (a|the) bulb|bulb (glow|light)|switch and (a )?bulb)\b/i.test(q)) return { type: 'circuit', intro: 'Close the switch and watch what happens to the bulb!' };
+    if (/\b(solar system|planets?)\b/i.test(q) && !/\d/.test(q)) return { type: 'planets', intro: 'Let\u2019s fly past the planets! Tap one to visit it.', search: ['Solar System', 'Planet'] };
+    if (/\b(electricity|electric circuit|circuit|light (a|the) bulb|bulb (glow|light)|switch and (a )?bulb)\b/i.test(q)) return { type: 'circuit', intro: 'Close the switch and watch what happens to the bulb!', search: ['Electric light', 'Electric battery'] };
     return null;
   }
 
@@ -424,7 +424,8 @@
       cp: { type: 'NUMBER' }, sp: { type: 'NUMBER' }, quantity: { type: 'NUMBER' }, item: { type: 'STRING' },
       angles: { type: 'ARRAY', items: { type: 'NUMBER' } }, start: { type: 'NUMBER' }, moves: { type: 'ARRAY', items: { type: 'NUMBER' } },
       numerator: { type: 'NUMBER' }, denominator: { type: 'NUMBER' }, percent: { type: 'NUMBER' },
-      followups: { type: 'ARRAY', items: { type: 'STRING' } }
+      followups: { type: 'ARRAY', items: { type: 'STRING' } },
+      search: { type: 'ARRAY', items: { type: 'STRING' } }
     },
     required: ['type', 'title', 'intro', 'alt']
   };
@@ -443,7 +444,7 @@ Choose the single most useful type, or "none" if a visual would not really help 
 - triangle: angles of a triangle given in the question (angles, in degrees).
 - numberline: adding or subtracting integers, especially negatives (start, moves).
 - fraction / percent / equation / circuit / planets: only if the question is about that (numbers must come from the question).
-Rules: every fact must agree with the answer below and be true; never invent numbers; ${few}; title at most 6 words; every text field short (info and step text under 30 words); never repeat words; intro = one short friendly line from ${buddy || 'Sparky'} to the child (e.g. "Let's discover how a television works!"); alt = one sentence describing the visual for someone who can't see it; followups = up to 2 short questions the child might ask next; note = say "A simplified model" if the picture simplifies the science. No markup, no code.
+Rules: every fact must agree with the answer below and be true; never invent numbers; ${few}; title at most 6 words; every text field short (info and step text under 30 words); never repeat words; intro = one short friendly line from ${buddy || 'Sparky'} to the child (e.g. "Let's discover how a television works!"); alt = one sentence describing the visual for someone who can't see it; search = 1-3 exact English Wikipedia article titles whose pictures show what the child asked about (e.g. ["Television"], ["Hamburger", "Pizza"], ["Photosynthesis", "Leaf"]), even when type is none (for a maths question, its topic, e.g. ["Fraction"]), but [] for feelings or anything unsafe; followups = up to 2 short questions the child might ask next; note = say "A simplified model" if the picture simplifies the science. No markup, no code.
 Leave out fields the chosen type doesn't use. Fill EVERY field the chosen type needs; each part needs both a name and an info sentence (${Object.entries(NEEDS).map(([k, v]) => `${k}: ${v}`).join('; ')}). A visual with missing fields cannot be shown.
 Example for "What is a bicycle?": {"type":"labelled","title":"Parts of a bicycle","intro":"Let's look at what makes a bicycle go!","alt":"A bicycle with its wheels, pedals, chain, handlebar and seat labelled.","object":"bicycle","emoji":"🚲","parts":[{"name":"Pedals","info":"You push them with your feet to turn the chain."},{"name":"Chain","info":"Carries the push from the pedals to the back wheel."},{"name":"Wheels","info":"Roll along the ground to move you forward."},{"name":"Handlebar","info":"Lets you steer left and right."},{"name":"Brakes","info":"Squeeze them to slow down and stop safely."}],"followups":["How do gears work?"]}
 
@@ -458,7 +459,89 @@ ANSWER: ${JSON.stringify(String(answer).slice(0, 2500))}`;
     return String(text || '').trim().length >= 6;
   }
 
+  /* ---------- real pictures from Wikipedia (free, openly licensed, credited) ----------
+     Only article titles are sent to Wikipedia, never the child's message. Pictures come from the articles
+     themselves (the lead picture first), so they are chosen by editors to show that very topic. */
+  const SENSITIVE = /\b(war|wars|battle|weapon|gun|bomb|blood|injur|wound|surgery|disease|corpse|dead|death|kill|murder|drug|nude|naked|sex|porn|torture|terror|accident|suicide)\b/i;
+  function cleanTerms(list) {
+    // Judge the original text: anything with markup or odd characters is dropped, not cleaned up and sent.
+    return [...new Set((Array.isArray(list) ? list : []).filter(t => typeof t === 'string' && t.length <= 60 && /^[\p{L}\p{N} ,'().-]+$/u.test(t.trim())).map(t => str(t, 60)).filter(t => t && !SENSITIVE.test(t)))].slice(0, 3);
+  }
+  const SKIP_FILE = /logo|icon|flag|symbol|commons-|wiki|edit|question_book|padlock|ambox|crystal|nuvola|disambig|portal|signature|coat_of_arms|seal_of|stub|\.svg$|\.gif$|\.tiff?$|\.pdf$/i;
+  // Wikimedia's own image servers; nothing else is ever drawn.
+  const WIKIMEDIA_IMG = /^https:\/\/(upload|thumb)\.wikimedia\.org\//;
+  /* terms → up to `max` pictures [{ src, large, title, alt, page, credit, license }]. fetchJSON(url) → parsed JSON or null.
+     About 3-5 small requests: titles + lead pictures in one, each article's pictures in page order, licences in one. */
+  async function wikiImages(terms, fetchJSON, max = 4) {
+    const W = 'https://en.wikipedia.org/w/api.php?format=json&origin=*&';
+    const words = cleanTerms(terms); if (!words.length) return [];
+    const get = async u => { try { return await fetchJSON(W + u); } catch (e) { return null; } };
+    // 1. The exact articles (following redirects) and their lead pictures.
+    const q1 = await get(`action=query&redirects=1&prop=pageimages&piprop=name&pilicense=free&titles=${encodeURIComponent(words.join('|'))}`);
+    const found = Object.values((q1 && q1.query && q1.query.pages) || {}).filter(p => p && p.title && !('missing' in p) && !('invalid' in p));
+    const rename = {}; for (const r of [...((q1 && q1.query && q1.query.normalized) || []), ...((q1 && q1.query && q1.query.redirects) || [])]) rename[r.from] = r.to;
+    const resolve = w => { let t = w; for (let k = 0; k < 3 && rename[t]; k++) t = rename[t]; return t; };
+    let arts = words.map(w => found.find(p => p.title === resolve(w))).filter(Boolean);
+    if (!arts.length) { // the title wasn't exact: search once for the first term
+      const sr = await get(`action=query&list=search&srlimit=1&srnamespace=0&srsearch=${encodeURIComponent(words[0])}`);
+      const t = sr && sr.query && sr.query.search && sr.query.search[0] && sr.query.search[0].title;
+      if (t) arts = [{ title: t }];
+    }
+    arts = arts.filter(p => !SENSITIVE.test(p.title)).slice(0, 3);
+    if (!arts.length) return [];
+    // 2. Pictures in the order they appear in each article (the first ones illustrate the topic best).
+    const per = Math.max(1, Math.ceil(max / arts.length)), files = [];
+    for (const art of arts) {
+      const pr = await get(`action=parse&prop=images&redirects=1&page=${encodeURIComponent(art.title)}`);
+      const inPage = ((pr && pr.parse && pr.parse.images) || []).map(f => `File:${f}`);
+      const own = [art.pageimage && `File:${art.pageimage}`, ...inPage].filter(f => f && !SKIP_FILE.test(f) && /\.(jpe?g|png|webp)$/i.test(f)).map(f => f.replace(/_/g, ' '));
+      [...new Set(own)].slice(0, per + 2).forEach(f => files.push({ f, a: art.title }));
+    }
+    if (!files.length) return [];
+    // 3. Licences, credits and thumbnails for all of them at once.
+    const info = await get(`action=query&prop=imageinfo&iiprop=url|extmetadata&iiurlwidth=960&titles=${encodeURIComponent(files.map(x => x.f).join('|'))}`);
+    const byFile = {};
+    for (const p of Object.values((info && info.query && info.query.pages) || {})) if (p && p.title) byFile[p.title.replace(/_/g, ' ')] = p;
+    for (const n of (info && info.query && info.query.normalized) || []) if (byFile[n.to]) byFile[n.from.replace(/_/g, ' ')] = byFile[n.to];
+    const out = [], used = {};
+    for (const { f, a } of files) {
+      const p = byFile[f], ii = p && p.imageinfo && p.imageinfo[0]; if (!ii || !ii.thumburl) continue;
+      const meta = ii.extmetadata || {}, lic = meta.LicenseShortName && meta.LicenseShortName.value;
+      if (!lic || /fair use|non-free/i.test(lic) || (used[a] || 0) >= per) continue;
+      const thumb = String(ii.thumburl).split('?')[0];
+      if (!WIKIMEDIA_IMG.test(thumb)) continue;
+      const desc = str(String((meta.ImageDescription && meta.ImageDescription.value) || '').replace(/<[^>]*>/g, ' '), 120);
+      const artist = str(String((meta.Artist && meta.Artist.value) || '').replace(/<[^>]*>/g, ' '), 60);
+      used[a] = (used[a] || 0) + 1;
+      out.push({ src: thumb.replace(/\/\d+px-/, '/500px-'), large: thumb, title: a, alt: desc || `A picture of ${a}`, page: `https://en.wikipedia.org/wiki/${encodeURIComponent(a.replace(/ /g, '_'))}`, file: str(String(ii.descriptionurl || '').split('?')[0], 300), credit: artist, license: str(lic, 40) });
+      if (out.length >= max) break;
+    }
+    return out;
+  }
+  /* Search words for ANY question, used when the model didn't name articles: maths gets its topic, everything else
+     its key words ("Why do cats purr?" → "cats purr"; "burger vs pizza" → "burger", "pizza"). Small talk → []. */
+  const MATH_TOPICS = [[/\b(equation|solve|algebra)\b|\d\s*[a-z]\s*[-+=]|[a-z]\s*=\s*\d/i, 'Equation'], [/\bfractions?\b|\d\s*\/\s*\d/i, 'Fraction'], [/percent|%/i, 'Percentage'], [/\b(profit|loss|discount|cost price|selling price|gst|tax|shop)/i, 'Shopping'], [/\b(ratio|proportion)/i, 'Ratio'], [/\b(probability|dice|die|coins?)\b/i, 'Dice'], [/\b(triangle|angle)/i, 'Triangle'], [/\b(circle|radius|diameter|circumference)\b|π/i, 'Circle'], [/\b(area|perimeter|rectangle)\b/i, 'Rectangle'], [/\b(volume|cube|cuboid|cylinder)\b/i, 'Cube'], [/\b(mean|median|mode|average|data|graph|chart)\b/i, 'Chart'], [/\b(square root|cube root|power|exponent)/i, 'Exponentiation'], [/\b(speed|distance|km\/h|train)\b/i, 'Speedometer'], [/\binterest\b/i, 'Interest'], [/\b(integers?|negative|number line)\b/i, 'Number line']];
+  const STOP = new Set(('what whats is are was were be the a an how does do did why who whom whose where when which explain tell me about show can could you please of in on at to for from and or but i my me we our your it its this that these those between difference vs versus with without simple simply words word like im give example examples real world mean means meaning work works working make makes made define definition kind kinds type types thing things some any more most very really just also than then there here into out up down over under should would will shall may might must let lets know want need help understand learn teach easy easiest way ways same different other another one two write writing story stories poem poems essay paragraph letter speech draft ideas idea brainstorm improve check correct hint answer try kya hai hain hota hoti hote kaise kyun kyon batao samjhao bataiye mein ka ki ke ko se aur ya ek yeh ye woh wo nahi').split(' '));
+  function termsFor(text, route) {
+    const t = String(text || '').replace(/\s+/g, ' ').trim();
+    if (!t || (route && route.kind === 'chat') || t.length < 3) return [];
+    if (route && route.subject === 'math') { const m = MATH_TOPICS.find(([re]) => re.test(t)); return [m ? m[1] : 'Mathematics']; }
+    const parts = t.split(/\s+(?:vs\.?|versus|or|and)\s+|,/i).slice(0, 3);
+    const out = parts.map(p => p.toLowerCase().replace(/[^a-z0-9 '-]/g, ' ').split(' ').filter(w => w.length > 1 && !STOP.has(w) && !/^\d+$/.test(w)).slice(0, 4).join(' ')).filter(Boolean);
+    return cleanTerms(out.length ? out : []);
+  }
+
+  /* Only pictures that came from Wikimedia's own servers are ever drawn. */
+  function cleanImages(list) {
+    return (Array.isArray(list) ? list : []).filter(i => i && WIKIMEDIA_IMG.test(i.src) && WIKIMEDIA_IMG.test(i.large || i.src)).slice(0, 4);
+  }
+  function renderImages(list) {
+    const imgs = cleanImages(list); if (!imgs.length) return '';
+    return `<figure class="vz-imgs" aria-label="Pictures from Wikipedia"><div class="vz-imgrow">${imgs.map((im, i) => `<button type="button" class="vz-img" data-vz-img="${i}" aria-label="Show bigger: ${esc(im.alt)}"><img src="${esc(im.src)}" alt="${esc(im.alt)}" loading="lazy" decoding="async" referrerpolicy="no-referrer"><span>${esc(im.title)}</span></button>`).join('')}</div>
+      <figcaption>Pictures from <a href="${esc(imgs[0].page)}" target="_blank" rel="noopener noreferrer">Wikipedia</a> (free licences; tap a picture for its credit).</figcaption></figure>`;
+  }
+
   /* Why a spec couldn't be shown, so one retry can ask for exactly what was missing. */
   const missing = raw => raw && TYPES.includes(raw.type) ? `Your JSON for type "${raw.type}" was missing or had invalid fields. It needs: ${NEEDS[raw.type] || 'its fields'}. Reply with the complete JSON.` : 'Reply with complete JSON for one visual type.';
-  return { validate, render, handle, input, localSpec, equationSteps, specPrompt, wanted, missing, SCHEMA, PLANETS, ART, TYPES };
+  return { validate, render, handle, input, localSpec, equationSteps, specPrompt, wanted, missing, cleanTerms, termsFor, wikiImages, cleanImages, renderImages, SCHEMA, PLANETS, ART, TYPES };
 });

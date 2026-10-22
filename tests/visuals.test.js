@@ -125,3 +125,63 @@ test('wanted: no visual call for chit-chat, hints, attempts, writing help or voi
   assert.equal(w('What is a television?', { voice: true }), false);
   assert.equal(w('What is a television?'), true);
 });
+
+/* ---------- real pictures from Wikipedia ---------- */
+const fakeWiki = calls => async url => {
+  calls.push(url);
+  const q = new URL(url).searchParams;
+  if (q.get('prop') === 'pageimages') return { query: { normalized: [{ from: 'television', to: 'Television' }], pages: { 1: { title: 'Television', pageimage: 'TV_set.jpg' } } } };
+  if (q.get('action') === 'parse') return { parse: { title: 'Television', images: ['Wikipedia-logo.png', 'Old_TV.jpg', 'Diagram.svg', 'Studio.jpg', 'Hack.jpg'] } };
+  if (q.get('prop') === 'imageinfo') {
+    const page = (title, lic, host = 'https://upload.wikimedia.org/x/900px-a.jpg?utm_source=en.wikipedia.org') => ({ title, imageinfo: [{ thumburl: host, descriptionurl: 'https://commons.wikimedia.org/wiki/' + title, extmetadata: { LicenseShortName: { value: lic }, ImageDescription: { value: `<b>${title}</b> photo` }, Artist: { value: '<a href="x">Ann</a>' } } }] });
+    return { query: { pages: { a: page('File:TV set.jpg', 'CC BY-SA 4.0'), b: page('File:Old TV.jpg', 'Public domain', 'https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Old_TV.jpg/960px-Old_TV.jpg'), c: page('File:Studio.jpg', 'Fair use'), d: page('File:Hack.jpg', 'CC0', 'https://evil.example/x.jpg') } } };
+  }
+  return null;
+};
+test('pictures: only article titles are sent, and only free Wikimedia images come back', async () => {
+  const calls = [];
+  const imgs = await V.wikiImages(['television'], fakeWiki(calls));
+  assert.equal(imgs.length, 2, 'fair-use and off-site images are dropped');
+  assert.deepEqual(imgs.map(i => i.license), ['CC BY-SA 4.0', 'Public domain']);
+  assert.ok(imgs.every(i => /^https:\/\/(upload|thumb)\.wikimedia\.org\//.test(i.src)));
+  assert.match(imgs[0].src, /\/500px-a\.jpg$/, 'small thumbnails in the gallery (tracking query removed), the large one in the popup');
+  assert.equal(imgs[0].title, 'Television', 'lowercase titles are resolved to the real article');
+  assert.ok(calls.length <= 4, `few requests (${calls.length})`);
+  assert.equal(imgs[0].alt, 'File:TV set.jpg photo', 'descriptions are plain text');
+  assert.equal(imgs[0].credit, 'Ann');
+  assert.ok(calls.every(u => u.startsWith('https://en.wikipedia.org/w/api.php?')));
+  assert.ok(calls.every(u => !/my name|riya/i.test(u)));
+  assert.doesNotMatch(calls.find(u => /prop=imageinfo/.test(u)), /logo|\.svg/i, 'logos and diagrams are skipped');
+});
+test('pictures: unsafe or odd search terms are never sent', async () => {
+  assert.deepEqual(V.cleanTerms(['Television', 'Gun violence', 'Pizza', '<script>', 'Hamburger', 'Extra']), ['Television', 'Pizza', 'Hamburger']);
+  const calls = [];
+  assert.deepEqual(await V.wikiImages(['War crimes', 'Bomb'], fakeWiki(calls)), []);
+  assert.equal(calls.length, 0);
+});
+test('pictures: rendering accepts only Wikimedia addresses and escapes text', () => {
+  const html = V.renderImages([
+    { src: 'https://upload.wikimedia.org/a/400px-x.jpg', large: 'https://upload.wikimedia.org/a/900px-x.jpg', title: 'TV', alt: 'A "TV" <set>', page: 'https://en.wikipedia.org/wiki/TV' },
+    { src: 'javascript:alert(1)', title: 'bad', alt: 'bad' },
+    { src: 'https://evil.example/x.jpg', title: 'bad2', alt: 'bad2' }
+  ]);
+  assert.equal((html.match(/<img /g) || []).length, 1);
+  assert.match(html, /alt="A &quot;TV&quot; &lt;set&gt;"/);
+  assert.match(html, /loading="lazy"/);
+  assert.match(html, /Pictures from <a href="https:\/\/en.wikipedia.org\/wiki\/TV"/, 'credited to Wikipedia');
+  assert.equal(V.renderImages([]), '');
+});
+test('pictures for every question: search words for any topic, none for small talk', () => {
+  const t = q => V.termsFor(q, AI.route(q, { prevSubject: /\d/.test(q) ? 'math' : undefined }));
+  assert.deepEqual(t('Why do cats purr?'), ['cats purr']);
+  assert.deepEqual(t('How does the internet work?'), ['internet']);
+  assert.deepEqual(t('Who was Akbar?'), ['akbar']);
+  assert.deepEqual(t('kya hai photosynthesis'), ['photosynthesis'], 'Hinglish filler words are dropped');
+  assert.deepEqual(t('burger vs pizza, which is healthier?').slice(0, 2), ['burger', 'pizza'], 'two topics get two searches');
+  assert.deepEqual(t('Solve 2x + 5 = 17'), ['Equation'], 'maths gets its topic, not the numbers');
+  assert.deepEqual(t('Give me a hint for 5x - 7 = 3x + 9'), ['Equation'], 'hints get pictures too');
+  assert.deepEqual(t('What is 3/4?'), ['Fraction']);
+  assert.deepEqual(t('Help me write a story about a dragon'), ['dragon'], 'task words (write, story) are not the topic');
+  assert.deepEqual(t('hi'), []);
+  assert.deepEqual(t('thanks!'), []);
+});

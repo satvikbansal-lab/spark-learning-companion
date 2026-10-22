@@ -604,6 +604,20 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
 @media (max-width: 820px) { .topic-bg { grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); grid-auto-rows: 104px; } .topic-bg span { font-size: 32px; } .topic-bg span:nth-child(3n) { font-size: 24px; } }
 .view .notes-wrap, .view .tpage { background: var(--bg); }
 @media (max-width: 820px) { .subject-bg { -webkit-mask-size: 220px; mask-size: 220px; } }
+/* pictures from Wikipedia */
+.vz-imgs { margin: 2px 0 0; max-width: 100%; width: min(560px, 92%); display: grid; gap: 6px; }
+.vz-imgrow { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+.vz-img { display: grid; gap: 4px; padding: 0; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; background: var(--panel); text-align: left; }
+.vz-img:hover { border-color: color-mix(in srgb, var(--accent) 50%, var(--line)); }
+.vz-img img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; background: var(--soft); }
+.vz-img span { padding: 0 8px 6px; font-size: 12px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.vz-imgs figcaption { font-size: 11.5px; color: var(--muted); }
+.vz-imgs figcaption a { color: var(--accent-text); }
+.img-dlg { width: min(760px, calc(100% - 24px)); }
+.img-dlg img { width: 100%; max-height: 70vh; object-fit: contain; border-radius: 10px; background: var(--soft); }
+.img-dlg p { font-size: 12.5px; }
+@media (max-width: 560px) { .vz-imgs { width: 100%; } .vz-imgrow { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
 /* visual learning cards (drawn by spark-visuals.js; never model markup) */
 .vz { margin: 2px 0 0; max-width: 100%; width: min(560px, 92%); box-sizing: border-box; min-width: 0; border: 1px solid var(--line); border-radius: 16px; background: var(--panel); padding: 14px 16px; display: grid; gap: 10px; animation: rise .22s ease both; }
 .vz-head { display: flex; align-items: center; gap: 10px; }
@@ -769,6 +783,8 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
   <form class="v-type" id="vForm"><input id="vText" placeholder="Or type to Spark here" aria-label="Type to Spark" autocomplete="off"><button class="btn" type="submit">Send</button></form>
   <p class="v-hint">Tap the mic and talk. Spark answers out loud, then listens again. Tap Spark's face to interrupt.</p>
 </div>
+
+<dialog id="imgDlg" class="img-dlg"><div class="dlg"><img id="imgBig" alt=""><p id="imgCredit"></p><div class="row"><button class="btn pri" id="imgClose">Close</button></div></div></dialog>
 
 <dialog id="memDlg"><div class="dlg">
   <h2>What Spark remembers</h2>
@@ -1126,7 +1142,7 @@ async function makeVisual(n, user, reply, rt) {
   };
   const ctx = { question: user.text, answer: reply.text };
   const local = SparkVisuals.localSpec(user.text, rt);
-  let spec = local ? SparkVisuals.validate(local, ctx) : null;
+  let spec = local ? SparkVisuals.validate(local, ctx) : null, terms = local && local.search;
   if (!spec && hasAI()) {
     reply.visualPending = true; paintIt();
     try {
@@ -1134,6 +1150,7 @@ async function makeVisual(n, user, reply, rt) {
       const prompt = SparkVisuals.specPrompt({ question: user.text, answer: reply.text, level: SparkAI.levelOf(S.settings.grade), buddy: bn() });
       const models = [S.settings.model || DEFAULT_MODEL, DEFAULT_MODEL, 'gemini-3.5-flash', ...LITE_MODELS];
       let raw = await geminiJSON(prompt, SparkVisuals.SCHEMA, models, 2000);
+      terms = raw && raw.search;
       spec = raw && raw.type !== 'none' ? SparkVisuals.validate(raw, ctx) : null;
       // One retry that names what was missing; after that, the text answer stands on its own.
       if (!spec && raw && raw.type !== 'none') { raw = await geminiJSON(`${prompt}\n\n${SparkVisuals.missing(raw)}`, SparkVisuals.SCHEMA, models, 2000); spec = raw && raw.type !== 'none' ? SparkVisuals.validate(raw, ctx) : null; }
@@ -1141,8 +1158,34 @@ async function makeVisual(n, user, reply, rt) {
     reply.visualPending = false;
   }
   if (spec) reply.visual = spec;
+  await addPictures(n, user, reply, rt, terms);
   save(); paintIt();
 }
+/* Real pictures for every question: free, credited Wikipedia images for the article titles the model named,
+   or for the question's own key words. Remembered per topic, so the same pictures aren't fetched twice. */
+const PIC_CACHE = new Map();
+async function addPictures(n, user, reply, rt, terms) {
+  let words = SparkVisuals.cleanTerms(terms);
+  if (!words.length) words = SparkVisuals.termsFor(user.text, rt);
+  if (!words.length) return;
+  const key = words.join('|').toLowerCase();
+  try {
+    if (!PIC_CACHE.has(key)) PIC_CACHE.set(key, await SparkVisuals.wikiImages(words, u => fetch(u, { referrerPolicy: 'no-referrer' }).then(r => (r.ok ? r.json() : null))));
+    const imgs = PIC_CACHE.get(key); if (imgs && imgs.length) reply.images = imgs; else PIC_CACHE.delete(key);
+  } catch (e) { PIC_CACHE.delete(key); console.warn('pictures skipped', e); }
+}
+/* Tap a picture: show it bigger with its credit and licence. */
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-vz-img]'); if (!b) return;
+  const msg = b.closest('.msg'), c = cur(), m = msg && c && c.messages.find(x => 'm-' + x.id === msg.id);
+  const im = m && SparkVisuals.cleanImages(m.images)[Number(b.dataset.vzImg)]; if (!im) return;
+  $('#imgBig').src = im.large; $('#imgBig').alt = im.alt;
+  $('#imgCredit').innerHTML = `${esc(im.alt)}<br>From the Wikipedia article <a href="${esc(im.page)}" target="_blank" rel="noopener noreferrer">${esc(im.title)}</a>${im.credit ? ` · Picture by ${esc(im.credit)}` : ''} · ${esc(im.license)}${/^https:\/\/(commons|en)\.wikimedia\.org\/|^https:\/\/en\.wikipedia\.org\//.test(im.file) ? ` · <a href="${esc(im.file)}" target="_blank" rel="noopener noreferrer">details</a>` : ''}`;
+  $('#imgDlg').showModal();
+});
+$('#imgClose').onclick = () => $('#imgDlg').close();
+// A picture that fails to load is removed instead of showing a broken image.
+document.addEventListener('error', e => { const i = e.target; if (i && i.tagName === 'IMG' && i.closest('.vz-img')) i.closest('.vz-img').remove(); }, true);
 function visualFor(el) {
   const fig = el.closest('figure.vz'), msg = fig && fig.closest('.msg'), c = cur();
   const m = msg && c && c.messages.find(x => 'm-' + x.id === msg.id);
@@ -1300,7 +1343,8 @@ function msgHTML(m) {
     : m.check ? '<div class="chk warn">Sparky’s calculator check didn’t run, so double-check this answer.</div>' : '';
   const vz = m.visual ? SparkVisuals.render(m.visual, { band: SparkAI.levelOf(S.settings.grade).band, mascot: buddyImg('vz-buddy', true) })
     : m.visualPending ? `<div class="vz-loading">${buddyImg('think-img', true)}<span>${esc(bn())} is drawing a picture…</span><span class="typing"><i></i><i></i><i></i></span></div>` : '';
-  return `<div class="msg ${m.role}" id="m-${m.id}"><div class="bubble">${img}${body}</div>${chk}${src}${vz}${m.role === 'model' ? `<div class="who">${buddyImg('who-img', true)}<span>${esc(bn())}</span>${!m.pending && m.text && !m.text.startsWith('\u26A0') ? `<button class="read-btn" data-read="${m.id}">${speakerSvg}${W.msgId === m.id ? 'Stop reading' : 'Read it to me'}</button>` : ''}${tools}</div>${practiceButtons(m)}` : ''}</div>`;
+  const pics = !m.pending && m.images ? SparkVisuals.renderImages(m.images) : '';
+  return `<div class="msg ${m.role}" id="m-${m.id}"><div class="bubble">${img}${body}</div>${chk}${src}${pics}${vz}${m.role === 'model' ? `<div class="who">${buddyImg('who-img', true)}<span>${esc(bn())}</span>${!m.pending && m.text && !m.text.startsWith('\u26A0') ? `<button class="read-btn" data-read="${m.id}">${speakerSvg}${W.msgId === m.id ? 'Stop reading' : 'Read it to me'}</button>` : ''}${tools}</div>${practiceButtons(m)}` : ''}</div>`;
 }
 function renderChat() {
   const n = nb();
@@ -1454,6 +1498,8 @@ async function send(textOverride, opts = {}) {
   save(); paint(); renderSide(); updateStrip(n);
   busy = false; const sb = $('#sendBtn'); if (sb) sb.disabled = false;
   if (!opts.voice && n.kind !== 'thought' && reply.text && !reply.text.startsWith('\u26A0') && SparkVisuals.wanted(rt, user.text)) makeVisual(n, user, reply, rt);
+  // Every other question still gets real pictures (never for private My Thoughts pages).
+  else if (n.kind !== 'thought' && reply.text && !reply.text.startsWith('\u26A0')) addPictures(n, user, reply, rt, null).then(() => { save(); const el = $('#m-' + reply.id); if (el) el.outerHTML = msgHTML(reply); });
   if (opts.onDone) opts.onDone(reply);
   if (n.kind === 'thought') { renderSide(); return reply; }
   const tiny = !user.image && !user.material && /^(next|ok|okay|yes|no|haan|nahi|thanks|thank you|hmm+|go on|next, take me closer|next, show me the final answer)[\s.!?]*$/i.test(user.text.trim());

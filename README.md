@@ -7,6 +7,7 @@ An AI learning companion for students aged 6–15 (Class 1–10), built for the 
 - **My Thoughts:** private pages. Spark only joins a page when you switch "Talk with Spark" on.
 - **Voice buddy:** talk to Sparky out loud. It waits for natural pauses, asks you to check anything it misheard, says what each maths step does (the equation stays on screen), and you can tap Sparky to interrupt.
 - **Visual learning cards:** after each answer, Sparky opens a small interactive visual when it helps: labelled objects you can tap (a TV, a bicycle, the heart, a plant), a balance scale that solves equations step by step, fraction pizzas, a 100-square percentage grid, number lines, a circuit with a working switch, the planets in order (not to scale), step-by-step processes, side-by-side comparisons, timelines, profit and loss bars and an adjustable triangle. The model only describes the visual; `spark-visuals.js` validates it and draws it, and maths visuals are rebuilt from the question with the exact checker.
+- **Real pictures for every question:** 3-4 free, openly licensed photos from Wikipedia/Wikimedia Commons under each answer (tap for a bigger view with the photographer's credit and licence). Only article titles or the question's key words are sent to Wikipedia, never the whole message; private My Thoughts pages never fetch pictures. No key and no cost.
 - **A room that fits the subject:** a faint maths, science, history, geography, language, writing or coding pattern sits behind the chat, decided from your own questions and steady across a conversation.
 - Light and dark themes, switched with the bulb.
 
@@ -43,7 +44,7 @@ Google Search grounding depends on your Gemini plan. On the free plan it is usua
 ## Tests
 
 ```bash
-node --test tests/              # offline: 66 tests (maths checker, routing, prompts, rendering, visuals, backgrounds, voice text, OpenRouter, gateway)
+node --test tests/              # offline: 70 tests (maths checker, routing, prompts, rendering, visuals, backgrounds, voice text, OpenRouter, gateway)
 python3 tests/verify_expected.py    # recomputes every benchmark answer with Python/sympy
 SPARK_URL=http://localhost:5174 MODELS=gemini-flash-latest LABEL=mine node tests/maths-eval.mjs   # 152-case maths benchmark + 8 tutoring scenarios, live
 node tests/maths-report.mjs mine [other-label]   # summary and comparison
