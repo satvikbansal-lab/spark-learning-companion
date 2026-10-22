@@ -6,7 +6,7 @@
 <title>Spark</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&family=Geist+Mono:wght@400;500&display=swap">
 <style>
 /* Spark: monochrome workspace. Sidebar of notebooks, one main pane with Chat / Notes / Progress tabs. Black or white only; the bulb flips it. */
 :root {
@@ -19,7 +19,10 @@
   --inv-bg: #0A0A0A;
   --inv-ink: #FFFFFF;
   --glow: #F5C542;
-  --font: "Geist", -apple-system, "Segoe UI", system-ui, sans-serif;
+  --font: "Nunito", -apple-system, "Segoe UI", system-ui, sans-serif;
+  --display: "Fredoka", "Nunito", system-ui, sans-serif;
+  --accent: #2F80FF;
+  --accent-soft: rgba(47, 128, 255, .16);
   --mono: "Geist Mono", ui-monospace, Menlo, monospace;
   color-scheme: light;
 }
@@ -47,7 +50,8 @@ svg { display: block; }
 /* sidebar */
 .side { background: var(--panel); border-right: 1px solid var(--line); display: flex; flex-direction: column; min-height: 0; }
 .brand { display: flex; align-items: center; gap: 10px; padding: 18px 18px 10px; font-weight: 700; font-size: 18px; letter-spacing: -0.02em; }
-.brand .mark { width: 26px; height: 26px; border-radius: 8px; background: var(--inv-bg); color: var(--inv-ink); display: grid; place-items: center; }
+.brand .mark { width: 38px; height: 38px; border-radius: 50%; background: var(--accent-soft); overflow: hidden; display: grid; place-items: center; }
+.brand .mark img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 14%; transform: scale(1.5) translateY(14%); }
 .side-scroll { flex: 1; min-height: 0; overflow-y: auto; padding-bottom: 10px; }
 .sec-h { display: flex; align-items: center; justify-content: space-between; margin: 16px 10px 4px 18px; }
 .sec-h h4 { margin: 0; font-size: 11px; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
@@ -57,7 +61,7 @@ svg { display: block; }
 .nb-list { padding: 0 8px; display: grid; gap: 2px; align-content: start; }
 .nb { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 8px; padding: 8px 10px; border-radius: 8px; text-align: left; width: 100%; }
 .nb:hover { background: var(--soft); }
-.nb.active { background: var(--inv-bg); color: var(--inv-ink); }
+.nb.active { background: var(--inv-bg); color: var(--inv-ink); box-shadow: inset 4px 0 0 var(--accent); }
 .nb .t { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .nb .c { font-family: var(--mono); font-size: 11px; opacity: .7; }
 .side-foot { border-top: 1px solid var(--line); padding: 10px; display: grid; gap: 2px; }
@@ -88,10 +92,10 @@ svg { display: block; }
 .ladder { display: flex; align-items: center; gap: 6px; justify-content: center; padding: 10px 20px 0; flex-wrap: wrap; }
 .step { font-size: 12px; font-weight: 500; padding: 4px 10px; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); display: flex; align-items: center; gap: 6px; }
 .step.done { color: var(--ink); }
-.step.now { background: var(--inv-bg); color: var(--inv-ink); border-color: var(--inv-bg); }
+.step.now { background: var(--accent); color: #fff; border-color: var(--accent); }
 .step .k { font-family: var(--mono); font-size: 10.5px; opacity: .7; }
 .ladder .sep { width: 14px; height: 1px; background: var(--line); }
-.funnel-next { font-size: 12px; font-weight: 600; padding: 4px 12px; border-radius: 999px; background: var(--inv-bg); color: var(--inv-ink); margin-left: 6px; }
+.funnel-next { font-size: 12px; font-weight: 600; padding: 4px 12px; border-radius: 999px; background: var(--accent); color: #fff; margin-left: 6px; }
 .funnel-next:hover { opacity: .85; }
 
 /* chat */
@@ -156,13 +160,8 @@ svg { display: block; }
 .v-close { position: absolute; top: calc(16px + env(safe-area-inset-top, 0px)); right: calc(16px + env(safe-area-inset-right, 0px)); width: 40px; height: 40px; border-radius: 12px; display: grid; place-items: center; font-size: 22px; color: var(--muted); }
 .v-close:hover { background: var(--soft); color: var(--ink); }
 .v-where { font-size: 12.5px; color: var(--muted); font-family: var(--mono); }
-.buddy { position: relative; width: 168px; height: 160px; border-radius: 48% 52% 46% 54% / 56% 52% 48% 44%; background: var(--ink); cursor: pointer; animation: bob 3.2s ease-in-out infinite; border: 0; padding: 0; }
-.buddy .eye { position: absolute; top: 58px; width: 18px; height: 26px; border-radius: 50%; background: var(--bg); animation: blink 4.2s infinite; transition: translate .35s; }
-.buddy .eye.l { left: 50px; } .buddy .eye.r { right: 50px; }
-.buddy .cheek { position: absolute; top: 88px; width: 22px; height: 12px; border-radius: 50%; background: rgba(255, 140, 165, .55); }
-.buddy .cheek.l { left: 30px; } .buddy .cheek.r { right: 30px; }
-.buddy .mouth { position: absolute; top: 98px; left: 50%; width: 30px; height: 12px; margin-left: -15px; border-radius: 0 0 18px 18px; background: var(--bg); }
-.buddy .spark { position: absolute; top: -14px; right: 18px; color: var(--glow); }
+.buddy { position: relative; width: 210px; height: 240px; border-radius: 40%; background: transparent; cursor: pointer; animation: bob 3.2s ease-in-out infinite; border: 0; padding: 0; }
+.buddy .vimg { width: 100%; height: 100%; object-fit: contain; transition: rotate .35s, scale .35s; filter: drop-shadow(0 10px 18px rgba(0,0,0,.18)); }
 .voice.listening .buddy { animation: bob 3.2s ease-in-out infinite, ring 1.4s ease-out infinite; }
 .voice.listening .eye { translate: 0 -3px; height: 28px; }
 .voice.thinking .eye { translate: 7px -6px; }
@@ -182,6 +181,79 @@ svg { display: block; }
 .v-type input { flex: 1; min-width: 0; border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; background: var(--panel); }
 .v-hint { margin: 0; font-size: 12.5px; color: var(--muted); max-width: 420px; }
 .field select { border: 1px solid var(--line); border-radius: 10px; padding: 9px 11px; background: var(--panel); color: var(--ink); }
+
+/* kid-friendly type */
+.brand, .title-in, .empty h2, .empty h3, .qa b, .v-status, .dlg h2, .lead, .tile .v, .welcome h2, .tab, .btn, .read-btn, .say, .sec-h h4, .step, .funnel-next { font-family: var(--display); }
+.btn.big { padding: 11px 22px; font-size: 16px; border-radius: 14px; }
+.send { background: var(--accent); color: #fff; border-radius: 14px; }
+/* Sparky in the chat */
+.hello { display: flex; align-items: center; gap: 12px; justify-content: center; }
+.hero-img { width: 120px; height: auto; animation: bob 3.2s ease-in-out infinite; filter: drop-shadow(0 8px 14px rgba(0,0,0,.15)); }
+.say { position: relative; background: var(--accent-soft); border: 1.5px solid var(--accent); border-radius: 18px; padding: 10px 14px; font-size: 16px; font-weight: 500; text-align: left; max-width: 260px; }
+.say::before { content: ""; position: absolute; left: -9px; top: 50%; width: 14px; height: 14px; margin-top: -7px; background: var(--bg); border-left: 1.5px solid var(--accent); border-bottom: 1.5px solid var(--accent); rotate: 45deg; }
+.who-img { width: 22px; height: 22px; border-radius: 50%; object-fit: cover; object-position: 50% 12%; background: var(--accent-soft); }
+.who span { font-weight: 700; color: var(--ink); }
+.read-btn { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 999px; border: 1.5px solid var(--accent); color: var(--accent) !important; font-size: 12.5px; font-weight: 600; text-decoration: none !important; }
+.read-btn:hover, .read-btn.on { background: var(--accent); color: #fff !important; }
+.thinking { display: inline-flex; align-items: center; gap: 8px; color: var(--muted); }
+.think-img { width: 30px; height: 30px; object-fit: contain; animation: hop .7s ease-in-out infinite alternate; }
+@keyframes hop { to { translate: 0 -5px; rotate: 6deg; } }
+/* walking read-aloud Sparky */
+.walker { position: fixed; right: calc(18px + env(safe-area-inset-right, 0px)); bottom: calc(96px + env(safe-area-inset-bottom, 0px)); z-index: 35; display: flex; align-items: flex-end; gap: 6px; pointer-events: none; }
+.walker[hidden] { display: none; }
+.w-bubble { pointer-events: auto; max-width: min(300px, 62vw); background: var(--bg); color: var(--ink); border: 2px solid var(--accent); border-radius: 18px 18px 4px 18px; padding: 10px 12px; font-size: 14px; line-height: 1.45; box-shadow: 0 10px 30px rgba(0,0,0,.18); margin-bottom: 70px; display: grid; gap: 6px; opacity: 0; transition: opacity .3s; }
+.w-bubble p { margin: 0; max-height: 9.5em; overflow: hidden; }
+.w-bubble button { justify-self: end; font-size: 12px; font-weight: 700; color: var(--accent); }
+.w-btn { pointer-events: auto; padding: 0; border: 0; background: none; cursor: pointer; }
+.w-img { width: 130px; height: auto; display: block; filter: drop-shadow(0 10px 16px rgba(0,0,0,.25)); }
+.walker.entering .w-btn { animation: walkIn 1.1s cubic-bezier(.2,.8,.3,1) both; }
+.walker.entering .w-img { animation: step .22s ease-in-out infinite alternate; }
+.walker.talking .w-bubble, .walker.leaving .w-bubble { opacity: 1; }
+.walker.leaving .w-bubble { opacity: 0; }
+.walker.talking .w-img { animation: talkBob .45s ease-in-out infinite alternate; }
+.walker.leaving .w-btn { animation: walkOut .9s ease-in both; }
+.walker.leaving .w-img { animation: step .22s ease-in-out infinite alternate; }
+@keyframes walkIn { from { translate: 140% 0; } to { translate: 0 0; } }
+@keyframes walkOut { from { translate: 0 0; } to { translate: 160% 0; } }
+@keyframes step { from { rotate: -6deg; translate: 0 0; } to { rotate: 6deg; translate: 0 -8px; } }
+@keyframes talkBob { from { scale: 1; rotate: -2deg; } to { scale: 1.04; rotate: 2deg; } }
+/* voice call uses Sparky too */
+.voice.listening .buddy { animation: bob 3.2s ease-in-out infinite; }
+.voice.listening .vimg { filter: drop-shadow(0 0 22px var(--accent)); }
+.voice.thinking .vimg { rotate: -8deg; }
+.voice.speaking .vimg { animation: talkBob .4s ease-in-out infinite alternate; }
+.v-mic { background: var(--accent); color: #fff; }
+/* welcome */
+.welcome { position: fixed; inset: 0; z-index: 60; background: var(--bg); display: grid; place-items: center; padding: max(24px, env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) max(24px, env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); overflow-y: auto; }
+.welcome[hidden] { display: none; }
+.wel-card { width: min(560px, 100%); display: grid; gap: 16px; text-align: center; justify-items: center; }
+.wel-card h2 { margin: 0; font-size: clamp(26px, 5vw, 34px); letter-spacing: -0.01em; }
+.wel-card > p { margin: 0; color: var(--muted); font-size: 16.5px; max-width: 44ch; }
+.wel-dots { display: flex; gap: 8px; }
+.wel-dots span { width: 10px; height: 10px; border-radius: 50%; background: var(--line); }
+.wel-dots span.on { background: var(--accent); width: 26px; border-radius: 999px; }
+.wel-dots span.done { background: var(--ink); }
+.wel-pair { display: flex; gap: 6px; align-items: flex-end; }
+.wel-pair img { width: min(170px, 38vw); height: auto; animation: bob 3s ease-in-out infinite; filter: drop-shadow(0 10px 16px rgba(0,0,0,.15)); }
+.wel-pair img.d2 { animation-delay: -1.5s; }
+.wel-form { display: grid; gap: 8px; width: min(380px, 100%); text-align: left; }
+.wel-form label { font-weight: 700; font-size: 15px; }
+.wel-form input { border: 2px solid var(--line); border-radius: 14px; padding: 12px 14px; font-size: 17px; background: var(--panel); }
+.wel-form input:focus { border-color: var(--accent); outline: none; }
+.wel-actions { display: flex; gap: 10px; justify-content: center; margin-top: 6px; }
+.chips { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+.chip { padding: 10px 18px; border-radius: 999px; border: 2px solid var(--line); font-family: var(--display); font-size: 16px; font-weight: 500; }
+.chip:hover { border-color: var(--accent); }
+.chip.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+.pick { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; width: 100%; }
+.pick-card { display: grid; justify-items: center; gap: 4px; padding: 14px 10px 16px; border-radius: 22px; border: 2.5px solid var(--line); background: var(--panel); transition: transform .15s, border-color .15s; }
+.pick-card img { width: 100%; max-width: 170px; height: auto; transition: transform .25s; }
+.pick-card b { font-family: var(--display); font-size: 18px; font-weight: 600; }
+.pick-card span { font-size: 13.5px; color: var(--muted); }
+.pick-card:hover { transform: translateY(-3px); border-color: var(--c); }
+.pick-card.on { border-color: var(--c); background: var(--cs); }
+.pick-card.on img { transform: scale(1.06) rotate(-3deg); }
+@media (max-width: 820px) { .walker { bottom: calc(110px + env(safe-area-inset-bottom, 0px)); } .w-img { width: 104px; } .hero-img { width: 96px; } }
 .src-tag { font-style: normal; font-size: 11px; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 1px 7px; margin-left: 6px; white-space: nowrap; }
 .typing { display: inline-flex; gap: 4px; padding: 4px 0; }
 .typing i { width: 6px; height: 6px; border-radius: 50%; background: var(--muted); animation: blink 1.2s infinite; }
@@ -191,8 +263,10 @@ svg { display: block; }
 .empty { max-width: 560px; margin: 8vh auto 0; text-align: center; display: grid; gap: 14px; justify-items: center; padding: 0 20px; }
 .empty h2 { margin: 0; font-size: 26px; letter-spacing: -0.02em; }
 .empty p { margin: 0; color: var(--muted); }
-.quick { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 10px; width: 100%; margin-top: 8px; }
-.qa { border: 1px solid var(--line); border-radius: 12px; padding: 12px; text-align: left; display: grid; gap: 4px; background: var(--bg); }
+.quick { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; width: 100%; margin-top: 8px; }
+.qa { border: 1.5px solid var(--line); border-radius: 18px; padding: 14px; text-align: left; display: grid; gap: 4px; background: var(--bg); transition: transform .15s, border-color .15s; }
+.qa:hover { transform: translateY(-2px); border-color: var(--accent) !important; }
+.qa .ic { width: 34px; height: 34px; border-radius: 12px; background: var(--accent-soft); color: var(--accent); display: grid; place-items: center; margin-bottom: 4px; }
 .qa:hover { border-color: var(--ink); }
 .qa b { font-weight: 600; font-size: 14px; }
 .qa span { font-size: 12.5px; color: var(--muted); }
@@ -266,7 +340,7 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
 .row { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
 .btn { padding: 8px 14px; border-radius: 10px; border: 1px solid var(--line); font-weight: 500; font-size: 14px; }
 .btn:hover { border-color: var(--ink); }
-.btn.pri { background: var(--inv-bg); color: var(--inv-ink); border-color: var(--inv-bg); }
+.btn.pri { background: var(--accent); color: #fff; border-color: var(--accent); }
 .mem-list { display: grid; gap: 6px; max-height: 46vh; overflow-y: auto; }
 .mem { display: flex; gap: 10px; align-items: start; border: 1px solid var(--line); border-radius: 10px; padding: 9px 11px; font-size: 14px; }
 .mem span { flex: 1; }
@@ -290,7 +364,7 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
 <body>
 <div class="app" id="app">
   <aside class="side" id="side">
-    <div class="brand"><span class="mark"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8z"/></svg></span>Spark</div>
+    <div class="brand"><span class="mark"><img data-buddy="decor" src="assets/sparky-blue.webp" alt=""></span>Spark</div>
     <div class="side-scroll">
       <div class="sec-h"><h4>Study notebooks</h4><button class="add" id="newNb" aria-label="New notebook" title="New notebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button></div>
       <nav class="nb-list" id="nbList" aria-label="Study notebooks"></nav>
@@ -321,12 +395,18 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
   </main>
 </div>
 
+<div class="walker" id="walker" hidden aria-live="polite">
+  <div class="w-bubble"><p id="wText"></p><button id="wStop" type="button">Stop</button></div>
+  <button class="w-btn" id="wImg" type="button" aria-label="Stop reading"><img class="w-img" data-buddy="me" src="assets/sparky-blue.webp" alt="Sparky"></button>
+</div>
+
+<div class="welcome" id="welcome" hidden role="dialog" aria-modal="true" aria-label="Welcome to Spark"><div class="wel-card" id="welBody"></div></div>
+
 <div class="voice" id="voice" hidden role="dialog" aria-modal="true" aria-label="Talk with Spark">
   <button class="v-close" id="vClose" aria-label="End voice chat" title="End voice chat">×</button>
   <span class="v-where" id="vWhere"></span>
   <button class="buddy" id="buddy" aria-label="Spark. Tap to talk or to interrupt">
-    <svg class="spark" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8z"/></svg>
-    <span class="eye l"></span><span class="eye r"></span><span class="cheek l"></span><span class="cheek r"></span><span class="mouth"></span>
+    <img class="vimg" data-buddy="me" src="assets/sparky-blue.webp" alt="Sparky">
   </button>
   <p class="v-status" id="vStatus" aria-live="polite">Hi!</p>
   <p class="v-heard" id="vHeard"></p>
@@ -354,7 +434,10 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
   <div class="field"><label for="sName">Your first name</label><input id="sName" placeholder="Riya"></div>
   <div class="field"><label for="sGrade">Class</label><input id="sGrade" placeholder="Class 7"></div>
   <div class="field"><label for="sTeach">Teaching style</label><select id="sTeach"><option value="explain">Spark Funnel: a story first, then a closer look, then the final answer</option><option value="challenge">Challenge me: I try first, Spark gives hints</option></select></div>
-  <div class="field"><label for="sVoice">Spark's voice</label><select id="sVoice">
+  <div class="field"><label for="sBuddy">Your Sparky</label><select id="sBuddy"><option value="blue">Blue Sparky: cool and curious</option><option value="pink">Pink Sparky: cheerful and kind</option></select></div>
+  <div class="field"><label for="sBuddyName">Your buddy's name</label><input id="sBuddyName" maxlength="20" placeholder="Sparky"></div>
+  <label class="check"><input type="checkbox" id="sAutoRead"><span><b>Read every answer aloud</b><br>Sparky walks in and reads each new answer in your study notebooks.</span></label>
+  <div class="field"><label for="sVoice">Sparky's voice</label><select id="sVoice">
     <option value="Leda">Leda: bright and friendly</option>
     <option value="Puck">Puck: playful and upbeat</option>
     <option value="Aoede">Aoede: light and breezy</option>
@@ -508,7 +591,7 @@ $('#sparkToggle').onclick = () => { const t = th(); if (!t) return; t.chatOn = !
 /* ---------- tabs ---------- */
 document.querySelector('.tabs').onclick = e => { const t = e.target.closest('.tab'); if (!t) return; S.tab = t.dataset.tab; save(); renderMain(); };
 
-function render() { applyTheme(); renderSide(); renderMain(); }
+function render() { applyTheme(); applyBuddy(); renderSide(); renderMain(); }
 function renderMain() {
   const thought = S.mode === 'thought' && th();
   if (S.mode === 'thought' && !thought) S.mode = 'nb';
@@ -550,20 +633,20 @@ function funnelHTML(n) {
 document.addEventListener('click', e => { const b = e.target.closest('[data-funnel-next]'); if (b && !busy) send(b.dataset.funnelNext); });
 function msgHTML(m) {
   const img = (m.image ? `<img src="${m.image.data}" alt="Photo you shared">` : '') + (m.material ? `<span class="file-chip">${docSvg}${esc(m.material.name)}</span>` : '');
-  const body = m.pending && !m.text ? '<span class="typing"><i></i><i></i><i></i></span>' : (m.role === 'user' ? '<p>' + esc(m.text).replace(/\n/g, '<br>') + '</p>' : md(m.text));
+  const body = m.pending && !m.text ? `<span class="thinking">${buddyImg('think-img', true)}<span>${esc(bn())} is thinking</span><span class="typing"><i></i><i></i><i></i></span></span>` : (m.role === 'user' ? '<p>' + esc(m.text).replace(/\n/g, '<br>') + '</p>' : md(m.text));
   const tools = '';
   const src = m.sources && m.sources.length && !m.pending ? `<div class="srcs">Checked with: ${m.sources.slice(0, 4).map(s => `<a href="${esc(s.uri)}" target="_blank" rel="noopener">${esc(s.title)}</a>`).join(' · ')}</div>` : '';
-  return `<div class="msg ${m.role}" id="m-${m.id}"><div class="bubble">${img}${body}</div>${src}${m.role === 'model' ? `<div class="who">Spark ${tools}</div>` : ''}</div>`;
+  return `<div class="msg ${m.role}" id="m-${m.id}"><div class="bubble">${img}${body}</div>${src}${m.role === 'model' ? `<div class="who">${buddyImg('who-img', true)}<span>${esc(bn())}</span>${!m.pending && m.text && !m.text.startsWith('\u26A0') ? `<button class="read-btn" data-read="${m.id}">${speakerSvg}${W.msgId === m.id ? 'Stop reading' : 'Read it to me'}</button>` : ''}${tools}</div>` : ''}</div>`;
 }
 function renderChat() {
   const n = nb();
   const demo = !hasAI() ? `<div class="banner"><span>Demo mode: no Gemini key yet, so replies are a scripted fractions example. Add your key for real answers.</span><button id="bannerSet">Add key</button></div>` : '';
-  const empty = !n.messages.length ? `<div class="empty"><h2>${S.settings.name ? 'Hi ' + esc(S.settings.name) + '.' : 'Hi there.'} What are we working on?</h2><p>Ask anything. Spark teaches with its Funnel: first the big picture as a story, then a closer look, then the final answer and a trick to remember it.</p>
+  const empty = !n.messages.length ? `<div class="empty"><div class="hello">${buddyImg('hero-img')}<div class="say">Hi ${esc(S.settings.name || 'there')}! I'm ${esc(bn())}. What shall we learn today?</div></div><h2>Ask me anything</h2><p>I'll teach it with my Funnel: first the big picture as a story, then a closer look, then the final answer and a trick to remember it.</p>
     <div class="quick">
-      <button class="qa" data-qa="explain"><b>Explain my notes</b><span>Upload a PDF, photo or text file and learn it step by step</span></button>
-      <button class="qa" data-qa="check"><b>Check my homework</b><span>Snap a finished page and explain two answers</span></button>
-      <button class="qa" data-qa="stuck"><b>I'm stuck on a problem</b><span>Type it or add a photo</span></button>
-      <button class="qa" data-qa="think"><b>Brainstorm with me</b><span>A project, a story, an idea to grow</span></button>
+      <button class="qa" data-qa="explain"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6v18h12V7z"/><path d="M14 3v4h4M9 12h6M9 16h6"/></svg></span><b>Explain my notes</b><span>Upload a PDF, photo or text file and learn it step by step</span></button>
+      <button class="qa" data-qa="check"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg></span><b>Check my homework</b><span>Snap a finished page and explain two answers</span></button>
+      <button class="qa" data-qa="stuck"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6V14M12 17.5v.01"/></svg></span><b>I'm stuck on a problem</b><span>Type it or add a photo</span></button>
+      <button class="qa" data-qa="think"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.6 10.8c.6.5 1 1.2 1.1 2V16h5v-.2c.1-.8.5-1.5 1.1-2A6 6 0 0 0 12 3z"/></svg></span><b>Brainstorm with me</b><span>A project, a story, an idea to grow</span></button>
     </div></div>` : '';
   $('#view').innerHTML = `${demo}${matsHTML(n)}${ladderHTML(n)}<div class="msgs" id="msgs"><div class="msgs-in">${empty}${n.messages.map(msgHTML).join('')}</div></div>
     <div class="composer"><div class="comp-in">
@@ -665,6 +748,7 @@ async function send(textOverride, opts = {}) {
     reply.text = (reply.text ? reply.text + '\n\n' : '') + '⚠ ' + err.message;
   }
   reply.pending = false;
+  if (S.settings.autoRead && !opts.voice && n.kind !== 'thought' && reply.text && !reply.text.startsWith('\u26A0')) setTimeout(() => readAloud(reply.id), 200);
   const sm = /^[\s*_#]*Stage\s*([123])/i.exec(reply.text || '');
   if (sm && n.kind !== 'thought') n.funnel = { step: Number(sm[1]) - 1 };
   save(); paint(); renderSide(); updateStrip(n);
@@ -679,7 +763,7 @@ async function send(textOverride, opts = {}) {
 
 /* ---------- Gemini ---------- */
 const TEACH_EXPLAIN = `HOW YOU TEACH: THE SPARK FUNNEL (your signature method, one stage per reply)
-You are Spark, a teacher famous for one way of teaching that makes things easy to understand and hard to forget. When they ask a new question (a concept, a fact, a "why" or "how", or a homework problem), teach it over THREE replies, moving from broad to exact, all built on ONE story you create for this question.
+You are a teacher famous for one way of teaching that makes things easy to understand and hard to forget. When they ask a new question (a concept, a fact, a "why" or "how", or a homework problem), teach it over THREE replies, moving from broad to exact, all built on ONE story you create for this question.
 
 STAGE 1 · BIG PICTURE (this reply only)
 - Start with the simplest possible idea of the topic, told as a short, vivid story (4-6 lines) with a character and a setting they know: everyday Indian life, or their interests.
@@ -718,7 +802,7 @@ function systemPrompt(n) {
   const mats = (n.materials || []).map(m => m.name).join(', ') || 'none';
   const others = S.notebooks.filter(x => x.id !== n.id).map(x => x.title).join(', ') || 'none';
   const teaching = s.teach === 'challenge' ? TEACH_CHALLENGE : TEACH_EXPLAIN;
-  return `You are Spark, a warm, fun and brilliant learning buddy for ${s.name || 'a student'}${s.grade ? ' in ' + s.grade : ''} (age 11-13, India, CBSE/ICSE). Your job is to make learning feel easy, exciting and theirs: explain things so simply that they click, then get them thinking and creating.
+  return `You are ${bn()}, a friendly robot learning buddy in the Spark app: warm, fun and brilliant. You're teaching ${s.name || 'a student'}${s.grade ? ' in ' + s.grade : ''} (age 11-13, India, CBSE/ICSE). Your job is to make learning feel easy, exciting and theirs: explain things so simply that they click, then get them thinking and creating.
 
 ACCURACY COMES FIRST: think carefully before replying and double-check every fact, number and step. Never make things up. If you're not sure, say so plainly. When a fact could be out of date or you are unsure, use Google Search. Stories and analogies must never bend the facts.
 
@@ -1040,7 +1124,7 @@ function thoughtPrompt(t) {
   const s = S.settings;
   const page = pageText(t).slice(0, 6000) || '(the page is empty so far)';
   const known = S.memories.map(m => '- ' + m.text).join('\n') || '- nothing yet';
-  return `You are Spark, invited by ${s.name || 'a student'}${s.grade ? ' in ' + s.grade : ''} (age 11-13, India) into one private page of their journal, titled "${t.title}". They switched you on because they want someone to think with.
+  return `You are ${bn()}, a friendly robot buddy from the Spark app, invited by ${s.name || 'a student'}${s.grade ? ' in ' + s.grade : ''} (age 11-13, India) into one private page of their journal, titled "${t.title}". They switched you on because they want someone to think with.
 
 HOW TO BE HERE:
 - Listen first. Reflect back what you hear in one sentence, then ask ONE gentle, curious question that helps them go deeper or untangle it.
@@ -1082,7 +1166,7 @@ function openVoice() {
   $('#vWhere').textContent = (S.mode === 'thought' ? 'Thoughts · ' : 'Notebook · ') + (cur().title || 'Untitled');
   $('#vHeard').textContent = ''; $('#vSaid').textContent = '';
   const name = S.settings.name ? ' ' + S.settings.name : '';
-  const hello = S.mode === 'thought' ? `Hey${name}! I'm here. What's on your mind?` : `Hi${name}! It's Spark. What are we working on today?`;
+  const hello = S.mode === 'thought' ? `Hey${name}! I'm here. What's on your mind?` : `Hi${name}! It's ${bn()}. What are we learning today?`;
   if (!Rec) { setVoice('idle', 'Type to me below'); $('#vSaid').textContent = 'Voice listening works in Chrome, Edge or Safari. You can still type, and I’ll talk back.'; return; }
   setVoice('speaking', 'Spark'); $('#vSaid').textContent = hello;
   speak(hello).then(() => { if (V.open) listen(); });
@@ -1136,17 +1220,18 @@ async function talk(text) {
 function plainSpeech(md) {
   return String(md || '').replace(/```[\s\S]*?```/g, '').replace(/[*_`#>]/g, '').replace(/\[(.*?)\]\(.*?\)/g, '$1').replace(/^\s*[-•]\s+/gm, '').replace(/\n{2,}/g, '\n').trim();
 }
+let SPEAK_ID = 0;
 async function speak(text) {
   const words = plainSpeech(text).slice(0, 1500); if (!words) return;
-  stopSpeaking();
+  stopSpeaking(); const id = ++SPEAK_ID;
   const voiceName = S.settings.voiceName || 'Leda';
   if (hasAI() && voiceName !== 'browser' && !V.ttsDown) {
-    try { await speakGemini(words, voiceName); return; }
+    try { await speakGemini(words, voiceName, id); return; }
     catch (e) { console.warn('Gemini voice unavailable, using browser voice', e); V.ttsDown = true; setTimeout(() => { V.ttsDown = false; }, 120000); }
   }
-  await speakBrowser(words);
+  if (id === SPEAK_ID) await speakBrowser(words);
 }
-async function speakGemini(words, voiceName) {
+async function speakGemini(words, voiceName, id) {
   let last;
   for (const model of TTS_MODELS) {
     const r = await aiPost(model, false, ({
@@ -1157,7 +1242,7 @@ async function speakGemini(words, voiceName) {
     const j = await r.json();
     const part = (j.candidates && j.candidates[0] && j.candidates[0].content && j.candidates[0].content.parts || []).find(p => p.inlineData);
     if (!part) { last = 'no audio'; continue; }
-    if (!V.open && V.state !== 'speaking') return;
+    if (id !== SPEAK_ID) return;
     const mime = (part.inlineData.mimeType || '').toLowerCase();
     const rate = Number((/rate=(\d+)/.exec(mime) || [])[1]) || 24000;
     const blob = /wav|mpeg|mp3|ogg/.test(mime) ? new Blob([Uint8Array.from(atob(part.inlineData.data), c => c.charCodeAt(0))], { type: mime.split(';')[0] }) : pcmToWav(part.inlineData.data, rate);
@@ -1191,6 +1276,7 @@ function speakBrowser(words) {
   });
 }
 function stopSpeaking() {
+  SPEAK_ID++;
   if (V.audio) { const a = V.audio; V.audio = null; a.pause(); }
   if ('speechSynthesis' in window) speechSynthesis.cancel();
 }
@@ -1201,6 +1287,100 @@ $('#buddy').onclick = () => { if (V.state === 'speaking') { stopSpeaking(); if (
 $('#vForm').onsubmit = e => { e.preventDefault(); const i = $('#vText'), t = i.value.trim(); if (!t) return; i.value = ''; stopListening(); talk(t); };
 document.addEventListener('keydown', e => { if (e.key === 'Escape' && V.open) closeVoice(); });
 if ('speechSynthesis' in window) speechSynthesis.getVoices();
+
+/* ---------- Sparky: the buddy the student picks, shown across the app ---------- */
+const BUDDIES = {
+  blue: { src: 'assets/sparky-blue.webp', accent: '#2F80FF', soft: 'rgba(47, 128, 255, .16)', label: 'Blue Sparky', vibe: 'Cool and curious' },
+  pink: { src: 'assets/sparky-pink.webp', accent: '#FF4FA0', soft: 'rgba(255, 79, 160, .16)', label: 'Pink Sparky', vibe: 'Cheerful and kind' }
+};
+const buddy = () => BUDDIES[S.settings.buddy] || BUDDIES.blue;
+const bn = () => (S.settings.buddyName || '').trim() || 'Sparky';
+function applyBuddy() {
+  const b = buddy(), root = document.documentElement.style;
+  root.setProperty('--accent', b.accent); root.setProperty('--accent-soft', b.soft);
+  document.querySelectorAll('img[data-buddy]').forEach(i => { if (i.getAttribute('src') !== b.src) i.src = b.src; i.alt = i.dataset.buddy === 'decor' ? '' : bn(); });
+}
+const buddyImg = (cls, decor) => `<img class="${cls}" data-buddy="${decor ? 'decor' : 'me'}" src="${buddy().src}" alt="${decor ? '' : esc(bn())}">`;
+
+/* Read it to me: Sparky walks in, reads the answer aloud, then walks off. */
+const W = { msgId: null };
+const speakerSvg = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/></svg>';
+function readButtons() {
+  document.querySelectorAll('[data-read]').forEach(b => {
+    const on = b.dataset.read === W.msgId;
+    b.innerHTML = `${speakerSvg}${on ? 'Stop reading' : 'Read it to me'}`;
+    b.classList.toggle('on', on);
+  });
+}
+async function readAloud(id) {
+  const m = cur() && cur().messages.find(x => x.id === id); if (!m || !m.text) return;
+  if (W.msgId === id) return stopReading();
+  stopReading(true);
+  W.msgId = id; readButtons();
+  const words = plainSpeech(m.text);
+  const wk = $('#walker'), txt = $('#wText');
+  txt.textContent = words.length > 220 ? words.slice(0, 220).replace(/\s\S*$/, '') + '…' : words;
+  wk.hidden = false; wk.className = 'walker entering';
+  await new Promise(r => setTimeout(r, 1100));
+  if (W.msgId !== id) return;
+  wk.className = 'walker talking';
+  await speak(words);
+  if (W.msgId === id) stopReading();
+}
+function stopReading(quick) {
+  const was = W.msgId; W.msgId = null; stopSpeaking(); readButtons();
+  const wk = $('#walker'); if (!was || wk.hidden) return;
+  if (quick) { wk.hidden = true; return; }
+  wk.className = 'walker leaving';
+  setTimeout(() => { if (!W.msgId) wk.hidden = true; }, 900);
+}
+$('#wStop').onclick = () => stopReading();
+$('#wImg').onclick = () => stopReading();
+document.addEventListener('click', e => { const b = e.target.closest('[data-read]'); if (b) readAloud(b.dataset.read); });
+
+/* Welcome: name, class, then choose your Sparky. Shown the first time Spark opens. */
+const WEL = { step: 0, name: '', grade: '', buddy: 'blue', buddyName: '' };
+function openWelcome() {
+  WEL.step = 0; WEL.name = S.settings.name || ''; WEL.grade = S.settings.grade || ''; WEL.buddy = S.settings.buddy || 'blue'; WEL.buddyName = S.settings.buddyName || '';
+  $('#welcome').hidden = false; renderWelcome();
+}
+function renderWelcome() {
+  const box = $('#welBody'), s = WEL.step;
+  const pb = BUDDIES[WEL.buddy] || BUDDIES.blue; document.documentElement.style.setProperty('--accent', pb.accent); document.documentElement.style.setProperty('--accent-soft', pb.soft);
+  const dots = `<div class="wel-dots">${[0, 1, 2].map(i => `<span class="${i === s ? 'on' : i < s ? 'done' : ''}"></span>`).join('')}</div>`;
+  if (s === 0) {
+    box.innerHTML = `${dots}<div class="wel-pair"><img src="${BUDDIES.blue.src}" alt="" class="wel-wave"><img src="${BUDDIES.pink.src}" alt="" class="wel-wave d2"></div>
+      <h2>Hi! Welcome to Spark</h2><p>We're the Sparkys, your learning buddies. We explain anything with stories, help you brainstorm, and cheer you on.</p>
+      <form class="wel-form" id="welForm"><label for="welName">What's your name?</label><input id="welName" maxlength="30" autocomplete="given-name" placeholder="Your first name" value="${esc(WEL.name)}">
+      <div class="wel-actions"><button class="btn pri big" type="submit">Next</button></div></form>`;
+    $('#welForm').onsubmit = e => { e.preventDefault(); const v = $('#welName').value.trim(); if (!v) { $('#welName').focus(); return toast('Type your first name to continue'); } WEL.name = v; WEL.step = 1; renderWelcome(); };
+    $('#welName').focus();
+  } else if (s === 1) {
+    const opts = ['Class 5', 'Class 6', 'Class 7', 'Class 8', 'Class 9', 'Other'];
+    box.innerHTML = `${dots}<h2>Nice to meet you, ${esc(WEL.name)}!</h2><p>Which class are you in? It helps us explain things at the right level.</p>
+      <div class="chips" role="radiogroup" aria-label="Your class">${opts.map(o => `<button type="button" role="radio" class="chip ${WEL.grade === o ? 'on' : ''}" aria-checked="${WEL.grade === o}" data-grade="${o}">${o}</button>`).join('')}</div>
+      <div class="wel-actions"><button class="btn" type="button" id="welBack">Back</button><button class="btn pri big" type="button" id="welNext">Next</button></div>`;
+    box.querySelector('.chips').onclick = e => { const c = e.target.closest('[data-grade]'); if (!c) return; WEL.grade = c.dataset.grade; renderWelcome(); };
+    $('#welBack').onclick = () => { WEL.step = 0; renderWelcome(); };
+    $('#welNext').onclick = () => { WEL.step = 2; renderWelcome(); };
+  } else {
+    box.innerHTML = `${dots}<h2>Choose your Sparky</h2><p>Your buddy will explain things, read answers aloud and celebrate with you.</p>
+      <div class="pick" role="radiogroup" aria-label="Choose your Sparky">${Object.entries(BUDDIES).map(([k, b]) => `<button type="button" role="radio" aria-checked="${WEL.buddy === k}" class="pick-card ${WEL.buddy === k ? 'on' : ''}" data-buddy-pick="${k}" style="--c:${b.accent};--cs:${b.soft}"><img src="${b.src}" alt=""><b>${b.label}</b><span>${b.vibe}</span></button>`).join('')}</div>
+      <form class="wel-form" id="welForm2"><label for="welBuddy">Give your buddy a name</label><input id="welBuddy" maxlength="20" placeholder="Sparky" value="${esc(WEL.buddyName)}">
+      <div class="wel-actions"><button class="btn" type="button" id="welBack">Back</button><button class="btn pri big" type="submit">Let's go!</button></div></form>`;
+    box.querySelector('.pick').onclick = e => { const c = e.target.closest('[data-buddy-pick]'); if (!c) return; WEL.buddy = c.dataset.buddyPick; WEL.buddyName = $('#welBuddy').value; renderWelcome(); };
+    $('#welBack').onclick = () => { WEL.buddyName = $('#welBuddy').value; WEL.step = 1; renderWelcome(); };
+    $('#welForm2').onsubmit = e => { e.preventDefault(); WEL.buddyName = $('#welBuddy').value.trim(); finishWelcome(); };
+  }
+}
+function finishWelcome() {
+  const st = S.settings;
+  st.name = WEL.name; st.grade = WEL.grade === 'Other' ? '' : WEL.grade; st.buddy = WEL.buddy; st.buddyName = WEL.buddyName; st.onboarded = true;
+  save(); $('#welcome').hidden = true; render();
+  const hello = { id: 'hello', role: 'model', text: `Hi ${st.name}! I'm ${bn()}, your learning buddy. Ask me anything and I'll explain it with a story, step by step. Tap "Read it to me" under any answer and I'll come and read it out loud!` };
+  const n = nb(); if (n && !n.messages.length) { n.messages.push(Object.assign({}, hello, { id: uid(), ts: Date.now() })); save(); renderMain(); }
+  const last = n && n.messages[n.messages.length - 1]; if (last && last.role === 'model') readAloud(last.id);
+}
 
 /* ---------- progress ---------- */
 function renderProgress() {
@@ -1237,6 +1417,7 @@ $('#memForm').onsubmit = e => { e.preventDefault(); const v = $('#memInput').val
 /* ---------- settings ---------- */
 function openSettings() {
   const s = S.settings; $('#sKey').value = s.apiKey; $('#sModel').value = s.model || DEFAULT_MODEL; $('#sName').value = s.name; $('#sGrade').value = s.grade;
+  $('#sBuddy').value = s.buddy || 'blue'; $('#sBuddyName').value = s.buddyName || ''; $('#sAutoRead').checked = !!s.autoRead;
   $('#sVoice').value = s.voiceName || 'Leda'; $('#sTeach').value = s.teach || 'explain';
   $('#sThink').checked = s.think !== false; $('#sSearch').checked = s.search === true; $('#sThoughts').checked = s.learnThoughts !== false;
   $('#setDlg').showModal();
@@ -1245,6 +1426,7 @@ $('#openSet').onclick = openSettings;
 $('#setForm').onsubmit = e => {
   e.preventDefault(); const s = S.settings;
   s.apiKey = $('#sKey').value.trim(); s.model = $('#sModel').value.trim() || DEFAULT_MODEL; s.name = $('#sName').value.trim(); s.grade = $('#sGrade').value.trim();
+  s.buddy = $('#sBuddy').value; s.buddyName = $('#sBuddyName').value.trim(); s.autoRead = $('#sAutoRead').checked;
   s.voiceName = $('#sVoice').value; s.teach = $('#sTeach').value;
   s.think = $('#sThink').checked; s.search = $('#sSearch').checked; s.learnThoughts = $('#sThoughts').checked;
   save(); $('#setDlg').close(); render(); toast(s.apiKey ? 'Saved. Spark is using your Gemini key.' : SERVER_AI ? 'Saved. Spark is using this site\u2019s Gemini connection.' : 'Saved. Spark is in demo mode.');
@@ -1262,6 +1444,7 @@ $('#importIn').onchange = async e => {
 $('#resetBtn').onclick = () => { if (!confirm('Delete every notebook, note and memory on this device?')) return; const key = S.settings.apiKey; S = seed(); S.settings.apiKey = key; save(); $('#setDlg').close(); render(); };
 
 render();
+if (!S.settings.onboarded) openWelcome();
 </script>
 </body>
 </html>
