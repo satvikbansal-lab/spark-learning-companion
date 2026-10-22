@@ -255,6 +255,101 @@ svg { display: block; }
 .pick-card.on { border-color: var(--c); background: var(--cs); }
 .pick-card.on img { transform: scale(1.06) rotate(-3deg); }
 @media (max-width: 820px) { .walker { bottom: calc(110px + env(safe-area-inset-bottom, 0px)); } .w-img { width: 104px; } .hero-img { width: 96px; } }
+
+/* practice cards */
+.practice .pcard { width: 100%; max-width: 560px; background: var(--panel); border: 1.5px solid var(--accent); border-radius: 20px; padding: 16px; display: grid; gap: 14px; }
+.p-head { display: flex; align-items: center; gap: 10px; }
+.p-head b { font-family: var(--display); font-size: 17px; font-weight: 600; flex: 1; min-width: 0; }
+.p-tag { font-family: var(--display); font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 999px; background: var(--accent); color: #fff; }
+.p-count { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.qz-q { display: grid; gap: 8px; }
+.qz-text { margin: 0; font-size: 15.5px; }
+.qz-opts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.qz-opt { text-align: left; padding: 11px 12px; min-height: 44px; border-radius: 14px; border: 1.5px solid var(--line); background: var(--bg); font-size: 14.5px; line-height: 1.35; transition: transform .12s, border-color .12s; }
+.qz-opt:not(:disabled):hover { border-color: var(--accent); transform: translateY(-1px); }
+.qz-opt.right { border-color: #22A06B; background: rgba(34, 160, 107, .14); font-weight: 700; }
+.qz-opt.wrong { border-color: #E5484D; background: rgba(229, 72, 77, .12); }
+.qz-opt.dim { opacity: .5; }
+.qz-opt:disabled { cursor: default; }
+.qz-why { margin: 0; font-size: 14px; padding: 8px 12px; border-radius: 12px; background: var(--soft); }
+.qz-why.ok { border-left: 4px solid #22A06B; } .qz-why.no { border-left: 4px solid #E5484D; }
+.qz-end { display: flex; gap: 12px; align-items: center; padding: 10px 12px; border-radius: 16px; background: var(--accent-soft); }
+.qz-end b { font-family: var(--display); font-size: 17px; display: block; }
+.qz-end span { font-size: 14px; color: var(--muted); }
+.cele-img { width: 64px; height: auto; animation: hop .5s ease-in-out infinite alternate; }
+.practice.cheer .pcard { animation: cheer .6s ease; }
+@keyframes cheer { 30% { scale: 1.02; } 60% { scale: .99; } }
+.flip { position: relative; width: 100%; min-height: 150px; border: 0; padding: 0; background: none; perspective: 900px; cursor: pointer; }
+.f-side { position: absolute; inset: 0; display: grid; place-content: center; gap: 8px; padding: 18px; border-radius: 18px; text-align: center; font-family: var(--display); font-size: 19px; font-weight: 500; backface-visibility: hidden; transition: transform .45s; }
+.f-front { background: var(--bg); border: 1.5px dashed var(--accent); }
+.f-front small { font-family: var(--font); font-size: 12px; color: var(--muted); font-weight: 400; }
+.f-back { background: var(--accent); color: #fff; transform: rotateY(180deg); font-size: 17px; }
+.flip.on .f-front { transform: rotateY(180deg); } .flip.on .f-back { transform: rotateY(360deg); }
+.f-nav { display: flex; justify-content: space-between; gap: 8px; }
+.f-nav .btn:disabled { opacity: .4; cursor: default; }
+.after3 { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 2px; }
+.after3 button { font-family: var(--display); font-size: 14px; font-weight: 600; padding: 7px 14px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); border: 1.5px solid var(--accent); }
+.after3 button:hover { background: var(--accent); color: #fff; }
+.review-row { max-width: 760px; width: calc(100% - 40px); margin: 10px auto 0; }
+.review-chip { display: inline-flex; align-items: center; gap: 8px; font-family: var(--display); font-weight: 600; font-size: 14px; padding: 6px 14px 6px 6px; border-radius: 999px; background: var(--accent); color: #fff; }
+/* parent view */
+.parent { position: fixed; inset: 0; z-index: 55; background: var(--bg); overflow-y: auto; padding: max(20px, env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) max(28px, env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); }
+.parent[hidden] { display: none; }
+.pv-wrap { position: relative; max-width: 820px; margin: 0 auto; }
+.pv-wrap .v-close { position: absolute; top: 0; right: 0; }
+.pv-body { display: grid; gap: 24px; }
+.pv-top { display: flex; align-items: center; gap: 16px; justify-content: space-between; padding-right: 44px; }
+.pv-top h2 { margin: 2px 0 4px; font-family: var(--display); font-size: clamp(24px, 4.5vw, 32px); }
+.pv-top p { margin: 0; color: var(--muted); }
+.pv-eyebrow { font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+.pv-img { width: 96px; height: auto; flex-shrink: 0; }
+.parent section { display: grid; gap: 8px; }
+.parent h3 { margin: 0; font-size: 13px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.pv-tips { display: grid; gap: 8px; }
+.pv-tips p { margin: 0; padding: 12px 14px; border-radius: 14px; background: var(--accent-soft); font-size: 16px; }
+.parent section .btn { justify-self: start; }
+.pv-item { display: grid; grid-template-columns: auto 1fr auto; gap: 12px; align-items: start; padding: 10px 12px; border: 1px solid var(--line); border-radius: 14px; }
+.pv-item b { display: block; } .pv-item div span { font-size: 13.5px; color: var(--muted); }
+.pv-item em { font-style: normal; font-size: 12px; color: var(--muted); white-space: nowrap; }
+.pv-score { font-family: var(--display); font-weight: 600; font-size: 16px; color: var(--accent); min-width: 36px; }
+.pv-note { display: flex; gap: 8px; align-items: center; margin: 0; font-size: 13px; color: var(--muted); }
+/* phone polish */
+@media (max-width: 820px) {
+  .top .title-in { font-size: 16px; padding: 4px 2px; }
+  .top .icon-btn { width: 34px; height: 34px; }
+  .msgs { padding: 12px 12px 6px; }
+  .bubble { max-width: 94%; }
+  .msg.model .bubble { max-width: 100%; }
+  .composer { padding: 8px 10px calc(10px + env(safe-area-inset-bottom, 0px)); }
+  .hint-line { display: none; }
+  .ladder { flex-wrap: nowrap; overflow-x: auto; justify-content: flex-start; padding: 8px 12px 0; scrollbar-width: none; }
+  .ladder .step, .funnel-next { flex-shrink: 0; }
+  .empty { margin-top: 3vh; }
+  .empty h2 { font-size: 22px; }
+  .qa { padding: 12px; }
+  .qa span:not(.ic) { font-size: 12px; }
+  .walker { right: calc(8px + env(safe-area-inset-right, 0px)); bottom: calc(92px + env(safe-area-inset-bottom, 0px)); }
+  .w-img { width: 92px; }
+  .w-bubble { font-size: 13.5px; max-width: 62vw; margin-bottom: 56px; }
+  .review-row, .mats { width: calc(100% - 24px); }
+  .buddy { width: 170px; height: 196px; }
+  .pv-img { width: 72px; }
+}
+@media (max-width: 480px) {
+  .top { flex-wrap: wrap; row-gap: 8px; }
+  .top .title-in { flex: 1 1 50%; min-width: 50%; }
+  .tabs, .spark-toggle { order: 10; }
+  #delNb { order: 11; margin-left: auto; }
+  .tabs .tab { padding: 5px 12px; font-size: 13.5px; }
+  .comp-row textarea { font-size: 16px; }
+  .qz-opts { grid-template-columns: 1fr; }
+  .hello { flex-direction: column; }
+  .say::before { left: 50%; top: -8px; margin: 0 0 0 -7px; rotate: 135deg; }
+  .pv-item { grid-template-columns: auto 1fr; }
+  .pv-item em { grid-column: 2; }
+  .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .tiles .tile:last-child:nth-child(odd) { grid-column: 1 / -1; }
+}
 .src-tag { font-style: normal; font-size: 11px; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 1px 7px; margin-left: 6px; white-space: nowrap; }
 .typing { display: inline-flex; gap: 4px; padding: 4px 0; }
 .typing i { width: 6px; height: 6px; border-radius: 50%; background: var(--muted); animation: blink 1.2s infinite; }
@@ -374,6 +469,7 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
       <nav class="nb-list" id="thList" aria-label="My Thoughts pages"></nav>
     </div>
     <div class="side-foot">
+      <button class="side-btn" id="openParent"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19a5.5 5.5 0 0 1 11 0"/><circle cx="17" cy="9.5" r="2.4"/><path d="M15.2 14.6A4.5 4.5 0 0 1 21 19"/></svg>Parent view</button>
       <button class="side-btn" id="openMem"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4a3 3 0 0 0-3 3v.2A3 3 0 0 0 4 10a3 3 0 0 0 1 2.2A3 3 0 0 0 6 17a3 3 0 0 0 3 3 3 3 0 0 0 3-3V7a3 3 0 0 0-3-3z"/><path d="M15 4a3 3 0 0 1 3 3v.2A3 3 0 0 1 20 10a3 3 0 0 1-1 2.2A3 3 0 0 1 18 17a3 3 0 0 1-3 3 3 3 0 0 1-3-3"/></svg>What Spark remembers<span class="n" id="memCount">0</span></button>
       <button class="side-btn" id="openSet"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>Settings</button>
     </div>
@@ -400,6 +496,8 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
   <div class="w-bubble"><p id="wText"></p><button id="wStop" type="button">Stop</button></div>
   <button class="w-btn" id="wImg" type="button" aria-label="Stop reading"><img class="w-img" data-buddy="me" src="assets/sparky-blue.webp" alt="Sparky"></button>
 </div>
+
+<div class="parent" id="parent" hidden role="dialog" aria-modal="true" aria-label="Parent view"><div class="pv-wrap"><button class="v-close" id="parentClose" aria-label="Close parent view">×</button><div class="pv-body" id="parentBody"></div></div></div>
 
 <div class="welcome" id="welcome" hidden role="dialog" aria-modal="true" aria-label="Welcome to Spark"><div class="wel-card" id="welBody"></div></div>
 
@@ -496,6 +594,8 @@ function load() {
       if (!s.settings.model || /^gemini-(2\.5|3\.8)-flash$/.test(s.settings.model)) s.settings.model = DEFAULT_MODEL;
       if (s.settings.v !== 2) { s.settings.search = false; s.settings.v = 2; }
       migrateThoughts(s);
+      // A reply that was still loading when the page closed can't finish now.
+      for (const c of [...s.notebooks, ...s.thoughts]) c.messages = (c.messages || []).filter(m => !m.pending || m.text).map(m => (m.pending ? Object.assign(m, { pending: false }) : m));
       return s;
     }
   } catch (e) {}
@@ -543,9 +643,16 @@ function langRule() {
 }/* Gemini access: a key pasted in Settings is used directly from the browser; otherwise the site's own server key is used through /api/gemini (set as GEMINI_API_KEY on Vercel). */
 let SERVER_AI = false;
 const hasAI = () => !!S.settings.apiKey || SERVER_AI;
-function aiPost(model, stream, body) {
-  if (S.settings.apiKey) return fetch(endpoint(stream, model), { method: 'POST', headers: { 'Content-Type': 'application/json', 'x-goog-api-key': S.settings.apiKey }, body: JSON.stringify(body) });
-  return fetch('/api/gemini', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ model, stream, body }) });
+function aiPost(model, stream, body, timeoutMs) {
+  const ctl = timeoutMs ? new AbortController() : null;
+  const opts = { method: 'POST', headers: { 'Content-Type': 'application/json' }, signal: ctl ? ctl.signal : undefined };
+  const req = S.settings.apiKey
+    ? fetch(endpoint(stream, model), Object.assign(opts, { headers: { 'Content-Type': 'application/json', 'x-goog-api-key': S.settings.apiKey }, body: JSON.stringify(body) }))
+    : fetch('/api/gemini', Object.assign(opts, { body: JSON.stringify({ model, stream, body }) }));
+  if (!ctl) return req;
+  const timer = setTimeout(() => ctl.abort(), timeoutMs);
+  // A request that hangs is treated like a busy model (504) so the caller moves on to the next one.
+  return req.then(r => { clearTimeout(timer); return r; }, () => { clearTimeout(timer); return new Response('{"error":{"message":"Timed out"}}', { status: 504 }); });
 }
 fetch('/api/gemini', { cache: 'no-store' }).then(r => r.ok ? r.json() : null).then(j => { if (j && j.configured) { SERVER_AI = true; if (!V.open) renderMain(); } }).catch(() => {});
 
@@ -665,11 +772,13 @@ function funnelHTML(n) {
 }
 document.addEventListener('click', e => { const b = e.target.closest('[data-funnel-next]'); if (b && !busy) send(b.dataset.funnelNext); });
 function msgHTML(m) {
+  if (m.kind === 'quiz' && m.quiz) return quizHTML(m);
+  if (m.kind === 'cards' && m.cards) return cardsHTML(m);
   const img = (m.image ? `<img src="${m.image.data}" alt="Photo you shared">` : '') + (m.material ? `<span class="file-chip">${docSvg}${esc(m.material.name)}</span>` : '');
   const body = m.pending && !m.text ? `<span class="thinking">${buddyImg('think-img', true)}<span>${esc(bn())} is thinking</span><span class="typing"><i></i><i></i><i></i></span></span>` : (m.role === 'user' ? '<p>' + esc(m.text).replace(/\n/g, '<br>') + '</p>' : md(m.text));
   const tools = '';
   const src = m.sources && m.sources.length && !m.pending ? `<div class="srcs">Checked with: ${m.sources.slice(0, 4).map(s => `<a href="${esc(s.uri)}" target="_blank" rel="noopener">${esc(s.title)}</a>`).join(' · ')}</div>` : '';
-  return `<div class="msg ${m.role}" id="m-${m.id}"><div class="bubble">${img}${body}</div>${src}${m.role === 'model' ? `<div class="who">${buddyImg('who-img', true)}<span>${esc(bn())}</span>${!m.pending && m.text && !m.text.startsWith('\u26A0') ? `<button class="read-btn" data-read="${m.id}">${speakerSvg}${W.msgId === m.id ? 'Stop reading' : 'Read it to me'}</button>` : ''}${tools}</div>` : ''}</div>`;
+  return `<div class="msg ${m.role}" id="m-${m.id}"><div class="bubble">${img}${body}</div>${src}${m.role === 'model' ? `<div class="who">${buddyImg('who-img', true)}<span>${esc(bn())}</span>${!m.pending && m.text && !m.text.startsWith('\u26A0') ? `<button class="read-btn" data-read="${m.id}">${speakerSvg}${W.msgId === m.id ? 'Stop reading' : 'Read it to me'}</button>` : ''}${tools}</div>${practiceButtons(m)}` : ''}</div>`;
 }
 function renderChat() {
   const n = nb();
@@ -681,12 +790,13 @@ function renderChat() {
       <button class="qa" data-qa="stuck"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6V14M12 17.5v.01"/></svg></span><b>I'm stuck on a problem</b><span>Type it or add a photo</span></button>
       <button class="qa" data-qa="think"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.6 10.8c.6.5 1 1.2 1.1 2V16h5v-.2c.1-.8.5-1.5 1.1-2A6 6 0 0 0 12 3z"/></svg></span><b>Brainstorm with me</b><span>A project, a story, an idea to grow</span></button>
     </div></div>` : '';
-  $('#view').innerHTML = `${demo}${matsHTML(n)}${ladderHTML(n)}<div class="msgs" id="msgs"><div class="msgs-in">${empty}${n.messages.map(msgHTML).join('')}</div></div>
+  const rv = (n.review || []).length ? `<div class="review-row"><button class="review-chip" data-review>${buddyImg('who-img', true)}Review ${n.review.length} tricky question${n.review.length === 1 ? '' : 's'}</button></div>` : '';
+  $('#view').innerHTML = `${demo}${matsHTML(n)}${rv}${ladderHTML(n)}<div class="msgs" id="msgs"><div class="msgs-in">${empty}${n.messages.map(msgHTML).join('')}</div></div>
     <div class="composer"><div class="comp-in">
       <div class="attach-prev" id="attachPrev" hidden></div>
       <div class="comp-row">
         <button class="icon-btn" id="attachBtn" aria-label="Add a photo or notes" title="Add a photo, or upload notes (PDF / text)"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg></button>
-        <textarea id="input" rows="1" placeholder="Ask, share what you tried, or just think out loud…" aria-label="Message"></textarea>
+        <textarea id="input" rows="1" placeholder="Ask Sparky anything…" aria-label="Message"></textarea>
         <button class="send" id="sendBtn" aria-label="Send"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
       </div></div><div class="hint-line">Enter to send · Shift+Enter for a new line · everything is saved automatically</div></div>`;
   const ta = $('#input');
@@ -788,7 +898,9 @@ async function send(textOverride, opts = {}) {
   busy = false; const sb = $('#sendBtn'); if (sb) sb.disabled = false;
   if (opts.onDone) opts.onDone(reply);
   if (n.kind === 'thought') { renderSide(); return reply; }
-  try { await learn(n, user, reply); } catch (e) { console.warn('progress update failed', e); }
+  const tiny = !user.image && !user.material && /^(next|ok|okay|yes|no|haan|nahi|thanks|thank you|hmm+|go on|next, take me closer|next, show me the final answer)[\s.!?]*$/i.test(user.text.trim());
+  if (tiny) { if (sm) applyLearning(n, { stage: ['funnel_broad', 'funnel_narrow', 'funnel_final'][Number(sm[1]) - 1], childAttempted: false, childExplained: false, concepts: [], memories: [] }); }
+  else try { await learn(n, user, reply); } catch (e) { console.warn('progress update failed', e); }
   updateStrip(n);
   renderSide();
   return reply;
@@ -925,20 +1037,29 @@ async function apiError(r) {
   const e = new Error(`Gemini error ${r.status}${detail ? ': ' + detail : ''}`); e.status = r.status; return e;
 }
 /* Tries the chosen setup first, then quietly drops what failed: Google Search (often not in free quota), the thinking setting, then a busy model. */
-async function geminiFetch(stream, build) {
-  const s = S.settings, models = [...new Set([s.model || DEFAULT_MODEL, DEFAULT_MODEL, 'gemini-3.5-flash', 'gemini-3.5-flash-lite', 'gemini-flash-lite-latest', 'gemini-3.1-flash-lite'])];
+/* Free-plan friendly: a model that answers "quota used up" (429) is skipped for 15 minutes,
+   and background jobs (progress tracking, quizzes, parent tips) use the lighter models first. */
+const COOL = {};
+const LITE_MODELS = ['gemini-3.5-flash-lite', 'gemini-flash-lite-latest', 'gemini-3.1-flash-lite', 'gemini-3.5-flash', DEFAULT_MODEL];
+async function geminiFetch(stream, build, prefer) {
+  const s = S.settings, all = [...new Set(prefer || [s.model || DEFAULT_MODEL, DEFAULT_MODEL, 'gemini-3.5-flash', 'gemini-3.5-flash-lite', 'gemini-flash-lite-latest', 'gemini-3.1-flash-lite'])];
+  const ready = all.filter(m => !(COOL[m] > Date.now())), models = ready.length ? ready : all;
   const plans = [];
   for (const model of models) {
     if (s.search === true) plans.push({ model, search: true, thinkCfg: true });
     plans.push({ model, search: false, thinkCfg: true }, { model, search: false, thinkCfg: false });
   }
   let last;
-  const call = p => aiPost(p.model, stream, build(p));
+  const bg = !!prefer && !stream;
+  const call = p => aiPost(p.model, stream, build(p), bg ? 30000 : stream ? 0 : 60000);
   for (const p of plans) {
+    if (COOL[p.model] > Date.now() && p.model !== models[models.length - 1]) continue;
     let r = await call(p);
-    for (let wait = 1500; (r.status === 503 || r.status === 500) && wait <= 3000; wait *= 2) { await new Promise(res => setTimeout(res, wait)); r = await call(p); }
+    for (let wait = 1500; (r.status === 503 || r.status === 500) && wait <= (bg ? 1500 : 3000); wait *= 2) { await new Promise(res => setTimeout(res, wait)); r = await call(p); }
+    if (!r.ok && (r.status === 503 || r.status === 500 || r.status === 504)) { COOL[p.model] = Math.max(COOL[p.model] || 0, Date.now() + 60 * 1000); }
     if (r.ok) return r;
     last = r;
+    if (r.status === 429) { COOL[p.model] = Date.now() + 15 * 60 * 1000; continue; }
     if (r.status === 401 || r.status === 403) break;
     if (r.status === 400) { const t = await r.clone().text(); if (/API key/i.test(t)) break; }
   }
@@ -974,8 +1095,8 @@ async function geminiStream(n, onText, onSources, extra) {
   if (!text) throw new Error('Gemini sent an empty reply. Try again.');
   return text;
 }
-async function geminiJSON(prompt, schema) {
-  const r = await geminiFetch(false, () => ({ contents: [{ role: 'user', parts: [{ text: prompt }] }], generationConfig: { temperature: 0.2, responseMimeType: 'application/json', responseSchema: schema } }));
+async function geminiJSON(prompt, schema, prefer = LITE_MODELS) {
+  const r = await geminiFetch(false, () => ({ contents: [{ role: 'user', parts: [{ text: prompt }] }], generationConfig: { temperature: 0.2, responseMimeType: 'application/json', responseSchema: schema } }), prefer);
   const j = await r.json();
   return JSON.parse(j.candidates[0].content.parts.filter(p => !p.thought).map(p => p.text || '').join(''));
 }
@@ -1310,9 +1431,13 @@ async function speak(text, opts = {}) {
   const voiceName = S.settings.voiceName || 'Leda';
   const code = langOf(words);
   let clip = null;
-  if (hasAI() && voiceName !== 'browser' && !V.ttsDown) {
-    try { clip = await fetchVoice(words, voiceName); }
-    catch (e) { console.warn('Gemini voice unavailable, using browser voice', e); V.ttsDown = true; setTimeout(() => { V.ttsDown = false; }, 120000); }
+  const key = opts.cacheKey && voiceName !== 'browser' ? `${opts.cacheKey}:${voiceName}` : null;
+  if (key) { const hit = await idb.get(key).catch(() => null); if (hit && hit.blob) clip = URL.createObjectURL(hit.blob); }
+  if (!clip && hasAI() && voiceName !== 'browser' && !V.ttsDown) {
+    try {
+      clip = await fetchVoice(words, voiceName);
+      if (key) fetch(clip).then(r => r.blob()).then(blob => idb.put({ id: key, blob })).catch(() => {});
+    } catch (e) { console.warn('Gemini voice unavailable, using browser voice', e); V.ttsDown = true; setTimeout(() => { V.ttsDown = false; }, /429/.test(e.message) ? 30 * 60 * 1000 : 120000); }
   }
   if (opts.beforePlay) await opts.beforePlay();
   if (id !== SPEAK_ID) { if (clip) URL.revokeObjectURL(clip); return true; }
@@ -1472,6 +1597,7 @@ async function readAloud(id) {
   wk.hidden = false; wk.className = 'walker entering';
   const walkIn = new Promise(r => setTimeout(r, 1100)).then(() => { if (W.msgId === id && wk.className !== 'walker talking') wk.className = 'walker ready'; });
   const heard = await speak(speechText(m.text) || m.text, {
+    cacheKey: 'tts:' + m.id,
     beforePlay: () => walkIn,
     onCaption: line => { if (W.msgId !== id) return; wk.className = 'walker talking'; txt.textContent = line; }
   });
@@ -1538,6 +1664,165 @@ function finishWelcome() {
   const n = nb(); if (n && !n.messages.length) { n.messages.push(Object.assign({}, hello, { id: uid(), ts: Date.now() })); save(); renderMain(); }
   const last = n && n.messages[n.messages.length - 1]; if (last && last.role === 'model') readAloud(last.id);
 }
+
+/* ---------- practice: quick quizzes and flip-cards after the final answer ---------- */
+const QUIZ_SCHEMA = {
+  type: 'OBJECT',
+  properties: {
+    topic: { type: 'STRING' },
+    questions: { type: 'ARRAY', items: { type: 'OBJECT', properties: {
+      q: { type: 'STRING' }, options: { type: 'ARRAY', items: { type: 'STRING' } }, answer: { type: 'INTEGER' }, why: { type: 'STRING' }
+    }, required: ['q', 'options', 'answer', 'why'] } }
+  },
+  required: ['topic', 'questions']
+};
+const CARDS_SCHEMA = {
+  type: 'OBJECT',
+  properties: { topic: { type: 'STRING' }, cards: { type: 'ARRAY', items: { type: 'OBJECT', properties: { front: { type: 'STRING' }, back: { type: 'STRING' } }, required: ['front', 'back'] } } },
+  required: ['topic', 'cards']
+};
+const plainLangRule = () => langRule().replace(/\s*Keep these labels[\s\S]*$/, '');
+const isFinalStage = m => m && m.role === 'model' && !m.kind && !m.pending && /^[\s*_#]*Stage\s*3/i.test(m.text || '');
+function lessonContext(n, uptoId) {
+  const msgs = n.messages.filter(m => !m.kind && !m.pending && m.text);
+  const end = uptoId ? msgs.findIndex(m => m.id === uptoId) + 1 || msgs.length : msgs.length;
+  return msgs.slice(Math.max(0, end - 8), end).map(m => (m.role === 'user' ? 'STUDENT: ' : 'TEACHER: ') + m.text).join('\n\n');
+}
+async function makePractice(fromId, type) {
+  const n = nb(); if (busy) return toast(`${bn()} is still answering. One moment.`);
+  if (!hasAI()) return toast('Quizzes need the Gemini connection. Add a key in Settings.');
+  const holder = { id: uid(), role: 'model', text: '', ts: Date.now(), pending: true };
+  n.messages.push(holder); save(); renderChat();
+  try {
+    const ctx = lessonContext(n, fromId);
+    if (type === 'quiz') {
+      const r = await geminiJSON(`Make a quick, fun 3-question multiple-choice quiz for a student aged 11-13 about the lesson below. Test understanding of the real concept (not names or details from the story). Each question has exactly 4 short options and one correct answer (answer = its index 0-3). "why" is one short, friendly sentence explaining the right answer. topic = the school topic in 1-3 words. Never mention stages, the story map or the memory hook by name. ${plainLangRule()}
+
+LESSON:
+${ctx}`, QUIZ_SCHEMA);
+      const qs = (r.questions || []).filter(q => q.options && q.options.length >= 2).slice(0, 3).map(q => ({ q: q.q, options: q.options.slice(0, 4), answer: Math.min(Math.max(0, q.answer | 0), Math.min(3, q.options.length - 1)), why: q.why }));
+      if (!qs.length) throw new Error('empty quiz');
+      Object.assign(holder, { kind: 'quiz', pending: false, topic: r.topic || 'This topic', quiz: { questions: qs, picked: [] } });
+    } else {
+      const r = await geminiJSON(`Make 5 flashcards for a student aged 11-13 about the lesson below. front = a short, real question about the concept (for example "What is a map?" or "What does the scale on a map show?"); back = a short, clear answer (under 20 words). Cover the definition, each key part, and end with one card whose back is the memory trick. Never use lesson headings like "Stage 1", "Big picture", "Story map" or "Memory hook" as a front. topic = the school topic in 1-3 words. ${plainLangRule()}
+
+LESSON:
+${ctx}`, CARDS_SCHEMA);
+      const cards = (r.cards || []).filter(c => c.front && c.back).slice(0, 6);
+      if (!cards.length) throw new Error('empty cards');
+      Object.assign(holder, { kind: 'cards', pending: false, topic: r.topic || 'This topic', cards, at: 0, flipped: false, known: [] });
+    }
+  } catch (e) {
+    Object.assign(holder, { pending: false, text: '⚠ I couldn’t make that just now. Try again in a minute.' });
+  }
+  save(); renderChat();
+}
+function reviewQuiz() {
+  const n = nb(), qs = (n.review || []).slice(0, 3); if (!qs.length) return;
+  n.messages.push({ id: uid(), role: 'model', ts: Date.now(), kind: 'quiz', review: true, topic: 'Tricky ones', quiz: { questions: qs.map(q => Object.assign({}, q)), picked: [] } });
+  save(); renderChat();
+}
+function quizHTML(m) {
+  const qz = m.quiz, done = qz.picked.filter(x => x !== undefined && x !== null).length;
+  const score = qz.questions.reduce((a, q, i) => a + (qz.picked[i] === q.answer ? 1 : 0), 0);
+  const items = qz.questions.map((q, qi) => {
+    const pick = qz.picked[qi], answered = pick !== undefined && pick !== null;
+    return `<div class="qz-q"><p class="qz-text"><b>${qi + 1}.</b> ${esc(q.q)}</p><div class="qz-opts">${q.options.map((o, oi) => {
+      const cls = !answered ? '' : oi === q.answer ? 'right' : oi === pick ? 'wrong' : 'dim';
+      return `<button class="qz-opt ${cls}" data-qopt="${m.id}|${qi}|${oi}" ${answered ? 'disabled' : ''}>${esc(o)}</button>`;
+    }).join('')}</div>${answered ? `<p class="qz-why ${pick === q.answer ? 'ok' : 'no'}">${pick === q.answer ? 'Yes! ' : 'Not quite. '}${esc(q.why)}</p>` : ''}</div>`;
+  }).join('');
+  const total = qz.questions.length;
+  const end = done === total ? `<div class="qz-end">${buddyImg('cele-img', true)}<div><b>You got ${score} out of ${total}!</b><span>${score === total ? 'Perfect score. That idea is solid now.' : score >= total - 1 ? 'So close. I’ll bring the tricky one back later.' : 'Good try! We’ll practise these again soon.'}</span></div></div>` : '';
+  return `<div class="msg model practice" id="m-${m.id}"><div class="pcard"><div class="p-head"><span class="p-tag">${m.review ? 'Review' : 'Quiz'}</span><b>${esc(m.topic)}</b><span class="p-count">${done}/${total}</span></div>${items}${end}</div><div class="who">${buddyImg('who-img', true)}<span>${esc(bn())}</span></div></div>`;
+}
+function cardsHTML(m) {
+  const c = m.cards[m.at] || m.cards[0], last = m.cards.length - 1;
+  return `<div class="msg model practice" id="m-${m.id}"><div class="pcard"><div class="p-head"><span class="p-tag">Flashcards</span><b>${esc(m.topic)}</b><span class="p-count">${m.at + 1}/${m.cards.length}</span></div>
+    <button class="flip ${m.flipped ? 'on' : ''}" data-flip="${m.id}" aria-label="Flip card"><span class="f-side f-front">${esc(c.front)}<small>Tap to flip</small></span><span class="f-side f-back">${esc(c.back)}</span></button>
+    <div class="f-nav"><button class="btn" data-cnav="${m.id}|-1" ${m.at === 0 ? 'disabled' : ''}>Back</button><button class="btn pri" data-cnav="${m.id}|1" ${m.at === last ? 'disabled' : ''}>Next card</button></div></div>
+    <div class="who">${buddyImg('who-img', true)}<span>${esc(bn())}</span></div></div>`;
+}
+function practiceButtons(m) {
+  return isFinalStage(m) ? `<div class="after3"><button data-quiz="${m.id}">Quiz me</button><button data-cards="${m.id}">Flashcards</button></div>` : '';
+}
+function answerQuiz(mid, qi, oi) {
+  const n = nb(), m = n.messages.find(x => x.id === mid); if (!m || !m.quiz) return;
+  const qz = m.quiz; if (qz.picked[qi] !== undefined && qz.picked[qi] !== null) return;
+  qz.picked[qi] = oi;
+  const q = qz.questions[qi], right = oi === q.answer;
+  n.review = n.review || [];
+  if (!right && !n.review.some(r => r.q === q.q)) n.review.push(Object.assign({ topic: m.topic }, q));
+  if (right && m.review) n.review = n.review.filter(r => r.q !== q.q);
+  const total = qz.questions.length;
+  if (qz.picked.filter(x => x !== undefined && x !== null).length === total) {
+    const score = qz.questions.reduce((a, x, i) => a + (qz.picked[i] === x.answer ? 1 : 0), 0);
+    n.quizzes = n.quizzes || []; n.quizzes.push({ ts: Date.now(), topic: m.topic, score, total });
+    if (!m.review) applyLearning(n, { stage: 'chat', childAttempted: true, childExplained: false, memories: [],
+      concepts: [{ name: m.topic, status: score === total ? 'solid' : score >= total - 1 ? 'learning' : 'shaky', evidence: `Quiz: ${score} out of ${total} right` }] });
+    n.moments.push({ ts: Date.now(), text: `${m.review ? 'Review' : 'Quiz'} on ${m.topic}: ${score}/${total}` });
+  }
+  save();
+  const el = $('#m-' + mid); if (el) { el.outerHTML = quizHTML(m); const q2 = $('#m-' + mid); if (q2 && right) { q2.classList.add('cheer'); setTimeout(() => q2.classList.remove('cheer'), 900); } }
+}
+document.addEventListener('click', e => {
+  const t = e.target.closest('[data-qopt],[data-flip],[data-cnav],[data-quiz],[data-cards],[data-review]'); if (!t) return;
+  if (t.dataset.quiz) return makePractice(t.dataset.quiz, 'quiz');
+  if (t.dataset.cards) return makePractice(t.dataset.cards, 'cards');
+  if (t.hasAttribute('data-review')) return reviewQuiz();
+  if (t.dataset.qopt) { const [mid, qi, oi] = t.dataset.qopt.split('|'); return answerQuiz(mid, +qi, +oi); }
+  const n = nb();
+  if (t.dataset.flip) { const m = n.messages.find(x => x.id === t.dataset.flip); if (!m) return; m.flipped = !m.flipped; save(); t.classList.toggle('on', m.flipped); return; }
+  if (t.dataset.cnav) { const [mid, d] = t.dataset.cnav.split('|'); const m = n.messages.find(x => x.id === mid); if (!m) return; m.at = Math.min(m.cards.length - 1, Math.max(0, m.at + Number(d))); m.flipped = false; save(); const el = $('#m-' + mid); if (el) el.outerHTML = cardsHTML(m); }
+});
+
+/* ---------- parent view: a calm summary across every study notebook (never the private Thoughts pages) ---------- */
+const TIPS_SCHEMA = { type: 'OBJECT', properties: { questions: { type: 'ARRAY', items: { type: 'STRING' } } }, required: ['questions'] };
+function parentData() {
+  const week = Date.now() - 7 * 864e5, days = new Set(); let asked = 0;
+  const strong = [], practise = [], quizzes = [];
+  for (const n of S.notebooks) {
+    for (const m of n.messages) if (m.role === 'user' && m.ts > week) { asked++; days.add(new Date(m.ts).toDateString()); }
+    for (const [k, v] of Object.entries(n.concepts)) (v.status === 'solid' ? strong : practise).push({ name: k, status: v.status, evidence: v.evidence, book: n.title, ts: v.updated || 0 });
+    for (const q of n.quizzes || []) quizzes.push(Object.assign({ book: n.title }, q));
+  }
+  strong.sort((a, b) => b.ts - a.ts); practise.sort((a, b) => (a.status === 'shaky' ? 0 : 1) - (b.status === 'shaky' ? 0 : 1) || b.ts - a.ts); quizzes.sort((a, b) => b.ts - a.ts);
+  return { asked, days: days.size, strong, practise, quizzes };
+}
+function openParent() { $('#parent').hidden = false; renderParent(); $('#app').classList.remove('drawer'); }
+function renderParent() {
+  const d = parentData(), s = S.settings, who = esc(s.name || 'Your child');
+  const avg = d.quizzes.length ? Math.round(d.quizzes.reduce((a, q) => a + q.score / q.total, 0) / d.quizzes.length * 100) : null;
+  const tips = S.parentTips && S.parentTips.items && S.parentTips.items.length ? S.parentTips.items
+    : d.practise.slice(0, 3).map(c => `Can you explain ${c.name} to me like I'm your little cousin?`);
+  const row = c => `<div class="pv-item"><span class="dot ${c.status}" aria-hidden="true"></span><div><b>${esc(c.name)}</b><span>${esc(c.evidence || '')}</span></div><em>${esc(c.book)}</em></div>`;
+  $('#parentBody').innerHTML = `
+    <div class="pv-top"><div><span class="pv-eyebrow">Parent view</span><h2>${who}${s.grade ? ` · ${esc(s.grade)}` : ''}</h2><p>How learning with ${esc(bn())} is going over the last 7 days.</p></div>${buddyImg('pv-img', true)}</div>
+    <div class="tiles">
+      <div class="tile"><span class="v">${d.asked}</span><span class="l">Questions asked</span></div>
+      <div class="tile"><span class="v">${d.days}</span><span class="l">Days active</span></div>
+      <div class="tile"><span class="v">${d.strong.length}</span><span class="l">Topics going well</span></div>
+      <div class="tile"><span class="v">${d.practise.length}</span><span class="l">Topics to practise</span></div>
+      <div class="tile"><span class="v">${avg === null ? '–' : avg + '%'}</span><span class="l">Average quiz score</span></div>
+    </div>
+    <section><h3>Ask at dinner</h3><div class="pv-tips">${tips.length ? tips.map(t => `<p>“${esc(t)}”</p>`).join('') : '<p class="none">Questions will appear once your child has learned a few topics.</p>'}</div>
+      ${hasAI() && (d.strong.length + d.practise.length) ? '<button class="btn" id="pvTips">Suggest fresh questions</button>' : ''}</section>
+    <section><h3>Going well</h3>${d.strong.length ? d.strong.slice(0, 8).map(row).join('') : '<p class="none">Nothing here yet.</p>'}</section>
+    <section><h3>Needs a little practice</h3>${d.practise.length ? d.practise.slice(0, 8).map(row).join('') : '<p class="none">Nothing here yet.</p>'}</section>
+    <section><h3>Recent quizzes</h3>${d.quizzes.length ? d.quizzes.slice(0, 6).map(q => `<div class="pv-item"><span class="pv-score">${q.score}/${q.total}</span><div><b>${esc(q.topic)}</b><span>${new Date(q.ts).toLocaleDateString(undefined, { day: 'numeric', month: 'short' })}</span></div><em>${esc(q.book)}</em></div>`).join('') : '<p class="none">No quizzes yet. They appear after a topic\u2019s final answer.</p>'}</section>
+    <p class="pv-note">${lockSvg} Private Thoughts pages are never shown here. Everything stays on this device.</p>`;
+  const b = $('#pvTips'); if (b) b.onclick = async () => {
+    b.disabled = true; b.textContent = 'Thinking of good questions…';
+    try {
+      const topics = [...d.practise, ...d.strong].slice(0, 6).map(c => `${c.name} (${c.status})`).join(', ');
+      const r = await geminiJSON(`A parent wants to chat with their child (age 11-13) at dinner about what they're learning. Topics: ${topics}. Write 3 warm, curious questions the parent can ask, in simple English, that get the child explaining in their own words. Focus more on topics that need practice. No yes/no questions. Each under 20 words.`, TIPS_SCHEMA);
+      S.parentTips = { ts: Date.now(), items: (r.questions || []).slice(0, 3) }; save(); renderParent();
+    } catch (e) { b.disabled = false; b.textContent = 'Suggest fresh questions'; toast('Couldn’t get new questions right now.'); }
+  };
+}
+$('#openParent').onclick = openParent;
+$('#parentClose').onclick = () => { $('#parent').hidden = true; };
+document.addEventListener('keydown', e => { if (e.key === 'Escape' && !$('#parent').hidden) $('#parent').hidden = true; });
 
 /* ---------- progress ---------- */
 function renderProgress() {
