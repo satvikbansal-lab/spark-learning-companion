@@ -434,6 +434,7 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
   <label class="check"><input type="checkbox" id="sThoughts"><span><b>Let Spark learn from my Thoughts</b><br>Spark never replies there. It only notes what helps it teach you, and you can see and delete every note.</span></label>
   <div class="field"><label for="sName">Your first name</label><input id="sName" placeholder="Riya"></div>
   <div class="field"><label for="sGrade">Class</label><input id="sGrade" placeholder="Class 7"></div>
+  <div class="field"><label for="sLang">Language Sparky talks in</label><select id="sLang"></select><p>Auto answers in whatever language you write in: Hindi, Punjabi, Hinglish and more.</p></div>
   <div class="field"><label for="sTeach">Teaching style</label><select id="sTeach"><option value="explain">Spark Funnel: a story first, then a closer look, then the final answer</option><option value="challenge">Challenge me: I try first, Spark gives hints</option></select></div>
   <div class="field"><label for="sBuddy">Your Sparky</label><select id="sBuddy"><option value="blue">Blue Sparky: cool and curious</option><option value="pink">Pink Sparky: cheerful and kind</option></select></div>
   <div class="field"><label for="sBuddyName">Your buddy's name</label><input id="sBuddyName" maxlength="20" placeholder="Sparky"></div>
@@ -508,6 +509,38 @@ function save() {
 }
 const nb = () => S.notebooks.find(n => n.id === S.activeId) || S.notebooks[0];
 const cur = () => S.mode === 'thought' ? th() : nb();
+/* Languages Sparky can talk in. 'auto' answers in whatever language the student writes in. */
+const LANGS = {
+  auto: { name: 'Auto: match how I write', bcp: 'en-IN' },
+  en: { name: 'English', bcp: 'en-IN' },
+  hi: { name: 'हिंदी Hindi', bcp: 'hi-IN', script: 'Devanagari' },
+  pa: { name: 'ਪੰਜਾਬੀ Punjabi', bcp: 'pa-IN', script: 'Gurmukhi' },
+  mr: { name: 'मराठी Marathi', bcp: 'mr-IN', script: 'Devanagari' },
+  bn: { name: 'বাংলা Bengali', bcp: 'bn-IN', script: 'Bengali' },
+  gu: { name: 'ગુજરાતી Gujarati', bcp: 'gu-IN', script: 'Gujarati' },
+  ta: { name: 'தமிழ் Tamil', bcp: 'ta-IN', script: 'Tamil' },
+  te: { name: 'తెలుగు Telugu', bcp: 'te-IN', script: 'Telugu' }
+};
+function langRule() {
+  const code = S.settings.lang || 'auto', L = LANGS[code] || LANGS.auto;
+  const c = cur(), lastUser = c && [...c.messages].reverse().find(m => m.role === 'user');
+  const seen = lastUser ? scriptLang(lastUser.text) : 'en';
+  const hint = code === 'auto' && seen !== 'en' ? ` Their latest message is written in ${LANGS[seen].script} script (${LANGS[seen].name.split(' ').pop()}), so reply in ${LANGS[seen].name.split(' ').pop()} using ${LANGS[seen].script} script.` : '';
+  const keep = 'Keep these labels in English exactly as written so the app can read them: "Stage 1 · Big picture", "Stage 2 · Closer look", "Stage 3 · Final answer", "Story map:", "Memory hook:".';
+  if (code === 'auto') return `LANGUAGE: reply in the same language the student uses in their latest message, fluently and naturally, the way a friendly teacher from that region would speak to a child. MATCH THEIR SCRIPT EXACTLY: if their message is written in Devanagari (हिंदी), your whole reply must be in Devanagari; Gurmukhi (ਪੰਜਾਬੀ) gets Gurmukhi; Bengali, Tamil, Telugu, Gujarati and other scripts likewise. Only use English letters for Hindi or Punjabi when they themselves wrote in English letters (Hinglish or Roman Punjabi). Use simple, everyday words, not formal or bookish ones, and keep common school terms (like photosynthesis, fraction) in English in brackets when it helps. If they switch language, switch with them.${hint} ${keep}`;
+  if (code === 'en') return `LANGUAGE: always reply in simple English, even if they write in another language. ${keep}`;
+  return `LANGUAGE: always reply in ${L.name.split(' ').pop()}, written in ${L.script} script, fluently and naturally, like a friendly teacher from that region talking to a child, even if they write in English. Use simple, everyday words, not formal or bookish ones, and give important school terms in English in brackets the first time. ${keep}`;
+}
+function scriptLang(text) {
+  const t = String(text || '');
+  if (/[਀-੿]/.test(t)) return 'pa';
+  if (/[ঀ-৿]/.test(t)) return 'bn';
+  if (/[઀-૿]/.test(t)) return 'gu';
+  if (/[஀-௿]/.test(t)) return 'ta';
+  if (/[ఀ-౿]/.test(t)) return 'te';
+  if (/[ऀ-ॿ]/.test(t)) return S.settings.lang === 'mr' ? 'mr' : 'hi';
+  return 'en';
+}
 /* Gemini access: a key pasted in Settings is used directly from the browser; otherwise the site's own server key is used through /api/gemini (set as GEMINI_API_KEY on Vercel). */
 let SERVER_AI = false;
 const hasAI = () => !!S.settings.apiKey || SERVER_AI;
@@ -846,7 +879,9 @@ BRAINSTORMING (they share an idea, a project, a story, a question with no single
 - When useful, give a simple structure: a mini mind-map, pros/cons, or first / then / finally steps.
 - End with one small, doable next step they could try today.
 
-STYLE: friendly, upbeat and clear, like a favourite older cousin who's great at explaining. Be concise: every sentence must teach or delight, so cut filler. Don't greet them or introduce yourself in replies, and don't talk about being a robot, unless they ask. Lead with the explanation, not with questions. Short paragraphs, **bold** for key words, short lists or steps where they help. A tasteful emoji now and then is fine. Plain English; Hinglish is fine if they use it. No LaTeX: write maths like 3/4 ÷ 1/2 = 3/2. Never shame a wrong answer; treat mistakes as interesting. Keep it age-appropriate and never ask for personal details like address, school name or phone number.
+STYLE: friendly, upbeat and clear, like a favourite older cousin who's great at explaining. Be concise: every sentence must teach or delight, so cut filler. Don't greet them or introduce yourself in replies, and don't talk about being a robot, unless they ask. Lead with the explanation, not with questions. Short paragraphs, **bold** for key words, short lists or steps where they help. A tasteful emoji now and then is fine. Plain, simple words in whatever language you're replying in. No LaTeX: write maths like 3/4 ÷ 1/2 = 3/2. Never shame a wrong answer; treat mistakes as interesting. Keep it age-appropriate and never ask for personal details like address, school name or phone number.
+
+${langRule()}
 
 WHAT YOU REMEMBER ABOUT THEM (use naturally, e.g. "last time fractions tripped you up"):
 ${mem}
@@ -1149,7 +1184,9 @@ THEIR PAGE RIGHT NOW:
 """${page}"""
 
 WHAT YOU KNOW ABOUT THEM (use quietly, never list it back):
-${known}`;
+${known}
+
+${langRule()}`;
 }
 
 /* ---------- voice buddy: listen with the browser, think with Gemini, talk back with a Gemini voice ---------- */
@@ -1190,7 +1227,7 @@ function listen() {
   if (!Rec || !V.open) return;
   stopSpeaking();
   const rec = new Rec(); V.rec = rec;
-  rec.lang = 'en-IN'; rec.interimResults = true; rec.continuous = false; rec.maxAlternatives = 1;
+  rec.lang = (LANGS[S.settings.lang] || LANGS.auto).bcp; rec.interimResults = true; rec.continuous = false; rec.maxAlternatives = 1;
   let finalText = '';
   rec.onresult = e => {
     let interim = ''; finalText = '';
@@ -1270,7 +1307,7 @@ function unlockAudio() {
 async function speak(text, opts = {}) {
   const words = plainSpeech(text).slice(0, 1500); if (!words) return false;
   stopSpeaking(); const id = ++SPEAK_ID;
-  const sentences = (words.match(/[^.!?\n]+[.!?]*\s*/g) || [words]).map(x => x.trim()).filter(Boolean);
+  const sentences = (words.match(/[^.!?।\n]+[.!?।]*\s*/g) || [words]).map(x => x.trim()).filter(Boolean);
   const voiceName = S.settings.voiceName || 'Leda';
   let clip = null;
   if (hasAI() && voiceName !== 'browser' && !V.ttsDown) {
@@ -1289,7 +1326,7 @@ async function fetchVoice(words, voiceName) {
   const order = [...new Set([V.ttsModel, ...TTS_MODELS].filter(Boolean))]; let last;
   for (const model of order) {
     const r = await aiPost(model, false, {
-      contents: [{ role: 'user', parts: [{ text: `Read this aloud in a natural, neutral accent, like a friendly 12-year-old kid talking normally. Speak clearly at a relaxed, normal pace, calm and simple. No acting, no dramatic voices, no over-excitement: ${words}` }] }],
+      contents: [{ role: 'user', parts: [{ text: words }] }],
       generationConfig: { responseModalities: ['AUDIO'], speechConfig: { voiceConfig: { prebuiltVoiceConfig: { voiceName } } } }
     });
     if (!r.ok) { last = r.status; continue; }
@@ -1339,13 +1376,17 @@ function pcmToWav(b64data, rate) {
 async function speakBrowser(sentences, id, onCaption) {
   if (!('speechSynthesis' in window)) return false;
   const voices = speechSynthesis.getVoices();
-  const voice = voices.find(v => /Google US English|Samantha|Ava|Allison|Google UK English Female|Microsoft (Aria|Jenny|Ana)/i.test(v.name)) || voices.find(v => /^en[-_](US|GB)/i.test(v.lang)) || voices.find(v => /^en/i.test(v.lang)) || null;
+  const code = scriptLang(sentences.join(' ')), bcp = (LANGS[code] || LANGS.en).bcp;
+  const voice = code === 'en'
+    ? voices.find(v => /Google US English|Samantha|Ava|Allison|Google UK English Female|Microsoft (Aria|Jenny|Ana)/i.test(v.name)) || voices.find(v => /^en[-_](US|GB)/i.test(v.lang)) || voices.find(v => /^en/i.test(v.lang)) || null
+    : voices.find(v => v.lang.replace('_', '-').toLowerCase() === bcp.toLowerCase()) || voices.find(v => v.lang.toLowerCase().startsWith(code)) || null;
+  if (code !== 'en' && !voice) return false;
   speechSynthesis.cancel();
   let heard = false;
   for (const line of sentences) {
     if (id !== SPEAK_ID) return true;
     const ok = await new Promise(res => {
-      const u = new SpeechSynthesisUtterance(line); u.voice = voice; if (voice) u.lang = voice.lang; u.pitch = 1.15; u.rate = 0.88;
+      const u = new SpeechSynthesisUtterance(line); u.voice = voice; u.lang = voice ? voice.lang : bcp; u.pitch = 1.15; u.rate = 0.88;
       const timer = setTimeout(() => res(heard), 20000);
       u.onstart = () => { heard = true; if (onCaption) onCaption(line); };
       u.onend = () => { clearTimeout(timer); res(true); };
@@ -1409,7 +1450,10 @@ async function readAloud(id) {
   if (W.msgId !== id) return;
   if (!heard) {
     wk.className = 'walker ready';
-    txt.textContent = "I couldn't play my voice. Turn up the volume (or switch off silent mode), then tap Read it to me again.";
+    const lc = scriptLang(m.text);
+    txt.textContent = lc !== 'en'
+      ? `I can't speak ${LANGS[lc].name.split(' ').pop()} on this device right now. Read along with me, or try again later when my AI voice is back.`
+      : "I couldn't play my voice. Turn up the volume (or switch off silent mode), then tap Read it to me again.";
     setTimeout(() => { if (W.msgId === id) stopReading(); }, 5000);
     return;
   }
@@ -1507,6 +1551,7 @@ function openSettings() {
   const s = S.settings; $('#sKey').value = s.apiKey; $('#sModel').value = s.model || DEFAULT_MODEL; $('#sName').value = s.name; $('#sGrade').value = s.grade;
   $('#sBuddy').value = s.buddy || 'blue'; $('#sBuddyName').value = s.buddyName || ''; $('#sAutoRead').checked = !!s.autoRead;
   $('#sVoice').value = s.voiceName || 'Leda'; $('#sTeach').value = s.teach || 'explain';
+  $('#sLang').innerHTML = Object.entries(LANGS).map(([k, l]) => `<option value="${k}">${l.name}</option>`).join(''); $('#sLang').value = s.lang || 'auto';
   $('#sThink').checked = s.think !== false; $('#sSearch').checked = s.search === true; $('#sThoughts').checked = s.learnThoughts !== false;
   $('#setDlg').showModal();
 }
@@ -1515,7 +1560,7 @@ $('#setForm').onsubmit = e => {
   e.preventDefault(); const s = S.settings;
   s.apiKey = $('#sKey').value.trim(); s.model = $('#sModel').value.trim() || DEFAULT_MODEL; s.name = $('#sName').value.trim(); s.grade = $('#sGrade').value.trim();
   s.buddy = $('#sBuddy').value; s.buddyName = $('#sBuddyName').value.trim(); s.autoRead = $('#sAutoRead').checked;
-  s.voiceName = $('#sVoice').value; s.teach = $('#sTeach').value;
+  s.voiceName = $('#sVoice').value; s.teach = $('#sTeach').value; s.lang = $('#sLang').value;
   s.think = $('#sThink').checked; s.search = $('#sSearch').checked; s.learnThoughts = $('#sThoughts').checked;
   save(); $('#setDlg').close(); render(); toast(s.apiKey ? 'Saved. Spark is using your Gemini key.' : SERVER_AI ? 'Saved. Spark is using this site\u2019s Gemini connection.' : 'Saved. Spark is in demo mode.');
 };
