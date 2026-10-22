@@ -5,7 +5,8 @@ An AI learning companion for students aged 6–15 (Class 1–10), built for the 
 - **Study notebooks:** one chat for every subject. Concept questions use the Spark Funnel (a story first, then a closer look, then the exact answer). Maths problems are solved step by step with a check, and Gemini's Python tool verifies the numbers. A Progress tab tracks concepts as solid, learning or shaky, but only from the student's own answers.
 - **Learn from Notes:** upload a PDF, photo or text file and Spark teaches from it.
 - **My Thoughts:** private pages. Spark only joins a page when you switch "Talk with Spark" on.
-- **Voice buddy:** talk to Sparky out loud; maths is read as words.
+- **Voice buddy:** talk to Sparky out loud. It waits for natural pauses, asks you to check anything it misheard, says what each maths step does (the equation stays on screen), and you can tap Sparky to interrupt.
+- **A room that fits the subject:** a faint maths, science, history, geography, language, writing or coding pattern sits behind the chat, decided from your own questions and steady across a conversation.
 - Light and dark themes, switched with the bulb.
 
 ## How a question is answered
@@ -19,15 +20,19 @@ An AI learning companion for students aged 6–15 (Class 1–10), built for the 
 ## Run locally
 
 ```bash
-python3 -m http.server 5173
+OPENROUTER_API_KEY=... node scripts/dev.mjs      # or GEMINI_API_KEY=...; serves http://localhost:5174 with /api/gemini
+SPARK_ENV_FILE=../openrouter/.env.local node scripts/dev.mjs   # or read the key from a .env file
 ```
 
-Open http://localhost:5173 and paste a Gemini API key in Settings (it stays in that browser).
+Without a server key you can also run `python3 -m http.server 5173` and paste a Gemini API key in Settings (it stays in that browser).
 
 ## Deploy on Vercel
 
 1. Import this repository in Vercel. No build settings are needed.
-2. In **Settings → Environment Variables**, add `GEMINI_API_KEY` with your key from Google AI Studio.
+2. In **Settings → Environment Variables**, add one of:
+   - `GEMINI_API_KEY`: your key from Google AI Studio. Gives the maths checker (code execution), Google Search and Gemini voices.
+   - `OPENROUTER_API_KEY`: reaches Google's Gemini models through OpenRouter (Google servers only). Optional `OPENROUTER_MODEL` (default `google/gemini-3.7-flash`) and `OPENROUTER_LITE_MODEL` (default `google/gemini-3.5-flash-lite`). Code execution, search and Gemini voices aren't available this way; Spark knows that, still checks answers with its own exact checker, and speaks with the browser voice.
+   If both are set, `GEMINI_API_KEY` is used.
 3. Redeploy. The site then uses the server key through `/api/gemini`, and visitors don't need their own key.
 
 `/api/gemini` only forwards the request shapes Spark sends. It only allows the code-execution and Google Search tools, adds child-safe content filters, caps output length and request size, refuses requests that don't come from the site itself, and rate-limits each visitor.
@@ -37,7 +42,10 @@ Google Search grounding depends on your Gemini plan. On the free plan it is usua
 ## Tests
 
 ```bash
-node --test tests/              # offline: routing, prompt, parsing, rendering, gateway (no key or network)
+node --test tests/              # offline: 50 tests (maths checker, routing, prompts, rendering, backgrounds, voice text, OpenRouter, gateway)
+python3 tests/verify_expected.py    # recomputes every benchmark answer with Python/sympy
+SPARK_URL=http://localhost:5174 MODELS=gemini-flash-latest LABEL=mine node tests/maths-eval.mjs   # 152-case maths benchmark + 8 tutoring scenarios, live
+node tests/maths-report.mjs mine [other-label]   # summary and comparison
 node tests/live-eval.mjs        # live: ~30 real questions graded for correctness (uses Gemini quota)
 GEMINI_API_KEY=... node tests/live-eval.mjs   # live, straight to Google instead of the deployed site
 ```

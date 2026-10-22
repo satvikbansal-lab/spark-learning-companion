@@ -164,7 +164,7 @@
   /* ---------- reading a question and an answer ---------- */
   /* The one equation or calculation in a question, if there is exactly one and nothing else to interpret. */
   function problemOf(question) {
-    const words = String(question || '').replace(/\bdivided by\b/gi, '÷').replace(/\b(multiplied by|times)\b/gi, '×').replace(/\bplus\b/gi, '+').replace(/\bminus\b/gi, '−')
+    const words = String(question || '').replace(/\bdivided by\b/gi, '÷').replace(/\b(multiplied by|times)\b/gi, '×').replace(/\bplus\b/gi, '+').replace(/\bminus\b/gi, '−').replace(/\b(equals|is equal to|equal to)\b/gi, '=')
       .replace(/(\d%?|\))\s+of\s+(?=[\d(₹])/gi, '$1 × ').replace(/₹\s*/g, '');
     const q = plain(words).replace(/\?+\s*$/, '');
     // A student's own attempt ("I got …", "is it …") is checked by Sparky, not here.

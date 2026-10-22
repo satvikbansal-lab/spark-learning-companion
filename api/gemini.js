@@ -1,9 +1,11 @@
 // Server-side gateway to Gemini so the API key never reaches the browser.
-// Set GEMINI_API_KEY in the Vercel project's Environment Variables.
+// Set GEMINI_API_KEY in the Vercel project's Environment Variables, or OPENROUTER_API_KEY to reach Gemini through
+// OpenRouter instead (see api/_openrouter.js). GEMINI_API_KEY wins when both are set.
 // The gateway only forwards the request shapes Spark itself sends: chat with an optional maths checker
 // (code execution) or Google Search, structured JSON jobs, and text-to-speech. It adds child-safe
 // content filters and a per-visitor rate limit, so the key can't be used as a general-purpose proxy.
 const { Readable } = require('node:stream');
+const openrouter = require('./_openrouter.js');
 
 const MODEL = /^gemini-[a-z0-9.\-]{1,60}$/;
 const SAFETY = ['HARM_CATEGORY_HARASSMENT', 'HARM_CATEGORY_HATE_SPEECH', 'HARM_CATEGORY_SEXUALLY_EXPLICIT', 'HARM_CATEGORY_DANGEROUS_CONTENT']
@@ -86,15 +88,17 @@ function sameSite(req) {
 }
 
 module.exports = async (req, res) => {
-  const key = process.env.GEMINI_API_KEY;
+  const key = process.env.GEMINI_API_KEY, orKey = !key && process.env.OPENROUTER_API_KEY;
   res.setHeader('Cache-Control', 'no-store');
 
-  if (req.method === 'GET') return res.status(200).json({ configured: Boolean(key) });
+  // The app reads which tools this connection has, so it never promises a calculator or web search that won't run.
+  if (req.method === 'GET') return res.status(200).json(key ? { configured: true, provider: 'gemini', tools: { code: true, search: true }, tts: true }
+    : orKey ? { configured: true, provider: 'openrouter', model: openrouter.MAIN, tools: { code: false, search: false }, tts: false } : { configured: false });
   if (req.method !== 'POST') return res.status(405).json({ error: { message: 'Use POST.' } });
 
   // Only this site's own pages may use the key (requests without an Origin or Referer are refused too).
   if (!sameSite(req)) return res.status(403).json({ error: { message: 'Not allowed.' } });
-  if (!key) return res.status(500).json({ error: { message: 'GEMINI_API_KEY is not set on the server.' } });
+  if (!key && !orKey) return res.status(500).json({ error: { message: 'GEMINI_API_KEY is not set on the server.' } });
   const ip = String(req.headers['x-forwarded-for'] || '').split(',')[0].trim() || (req.socket && req.socket.remoteAddress) || 'unknown';
   if (limited(ip)) return res.status(429).json({ error: { code: 429, message: 'Too many requests from this device. Wait a minute and try again.' } });
 
@@ -102,6 +106,9 @@ module.exports = async (req, res) => {
   if (!MODEL.test(model || '')) return res.status(400).json({ error: { message: 'Bad request.' } });
   const [body, why] = clean(model, (req.body || {}).body);
   if (!body) return res.status(400).json({ error: { message: why } });
+
+  const ctl0 = new AbortController();
+  if (orKey) { res.on('close', () => { if (!res.writableEnded) ctl0.abort(); }); return openrouter.forward(res, { model, stream, body, key: orKey, signal: ctl0.signal }); }
 
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:${stream ? 'streamGenerateContent?alt=sse' : 'generateContent'}`;
   const ctl = new AbortController();

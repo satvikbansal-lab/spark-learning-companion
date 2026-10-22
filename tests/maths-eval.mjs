@@ -34,6 +34,9 @@ const only = (process.env.ONLY || '').split(',').filter(Boolean);
 // The app's real language rule (index.html langRule, auto mode).
 const LANG = 'LANGUAGE: Reply in the language the student is using: English, Hindi (as Hinglish) or Punjabi (as Roman Punjabi). If they switch, switch with them. ALWAYS WRITE IN ENGLISH LETTERS ONLY. Never use Devanagari, Gurmukhi or any other script, even if the student does. Hindi is written as natural Hinglish, the way Indian kids text (e.g. "Imagine karo ki tum ek naye sheher mein ho"). Punjabi is written in Roman Punjabi (e.g. "Socho ki tusi ek nave sheher vich ho"). Use simple, everyday words, and keep school terms (like map, photosynthesis, fraction) in English.';
 
+// Which tools the server's connection really has (OpenRouter has no code execution or search), so the prompt never promises them.
+const INFO = KEY ? { tools: { code: true, search: true } } : await fetch(`${SITE}/api/gemini`).then(r => r.json()).catch(() => ({}));
+const AVAIL = INFO.tools || {};
 const out = join(here, 'results', `maths-${LABEL}.jsonl`);
 mkdirSync(join(here, 'results'), { recursive: true });
 const done = new Set(existsSync(out) && !process.env.FRESH ? readFileSync(out, 'utf8').split('\n').filter(Boolean).map(l => { const r = JSON.parse(l); return r.error ? null : `${r.id}#${r.trial}`; }).filter(Boolean) : []);
@@ -59,7 +62,7 @@ async function ask(c) {
   const rt = AI.route(c.q, { hasImage: !!c.image, prevSubject: c.history ? AI.route(c.history[0][1]).subject : undefined, prevModelText: prev && prev[1] });
   const contents = (c.history || []).map(([role, text]) => ({ role, parts: [{ text }] }));
   contents.push({ role: 'user', parts: [...(c.image ? [{ inlineData: { mimeType: 'image/png', data: fixture(c.image) } }] : []), { text: c.q }] });
-  const want = AI.toolsFor(rt, { search: true }), tries = [];
+  const want = AI.toolsFor(rt, { search: true }, AVAIL), tries = [];
   for (const model of MODELS) {
     for (const tools of [want, { code: want.code }, {}]) {
       const system = AI.systemPrompt({ buddy: 'Sparky', name: 'Riya', grade: GRADE, teach: c.teach || 'explain', langRule: LANG, notebook: 'Maths', route: rt, code: !!tools.code, search: !!tools.search });
@@ -86,7 +89,7 @@ let pool = [];
 if (suite !== 'tutor') pool.push(...BENCH.map(c => Object.assign({ suite: 'bench' }, c)));
 if (suite !== 'bench') pool.push(...TUTOR.map(c => Object.assign({ suite: 'tutor', cat: 'tutoring' }, c)));
 if (only.length) pool = pool.filter(c => only.includes(c.id) || only.includes(c.cat));
-console.log(`Spark maths eval [${LABEL}] · ${pool.length} cases × ${TRIALS} · ${KEY ? 'direct Gemini API' : SITE} · ${MODELS.join(', ')} · ${GRADE} · re-check ${RECHECK ? 'on' : 'off'}`);
+console.log(`Spark maths eval [${LABEL}] · ${pool.length} cases × ${TRIALS} · ${KEY ? 'direct Gemini API' : SITE}${INFO.provider ? ' (' + INFO.provider + (INFO.model ? ' ' + INFO.model : '') + ')' : ''} · ${MODELS.join(', ')} · ${GRADE} · re-check ${RECHECK ? 'on' : 'off'}`);
 let n = 0, quotaStops = 0;
 for (const c of pool) {
   for (let trial = 1; trial <= TRIALS; trial++) {

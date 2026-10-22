@@ -215,7 +215,8 @@ svg { display: block; }
 .v-status { margin: 4px 0 0; font-size: 20px; font-weight: 600; letter-spacing: -0.01em; }
 .v-heard, .v-said { margin: 0; max-width: 560px; font-size: 15px; line-height: 1.5; min-height: 1.5em; }
 .v-heard { color: var(--muted); font-style: italic; }
-.v-said { max-height: 26vh; overflow-y: auto; }
+.v-said { max-height: 30vh; overflow-y: auto; }
+.v-said p { margin: 0 0 6px; } .v-said .math-d { display: block; margin: 6px 0; }
 .v-mic { width: 72px; height: 72px; border-radius: 50%; display: grid; place-items: center; }
 .v-mic:disabled { opacity: .35; cursor: default; }
 .v-type { display: flex; gap: 8px; width: min(460px, 100%); }
@@ -585,6 +586,14 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
   .ask-hint { display: none; }
   .ask-row { justify-content: flex-end; }
 }
+/* subject-aware background: one faint pattern behind the conversation (patterns live in SUBJECT_ART) */
+.main { position: relative; }
+.subject-bg { position: absolute; inset: 61px 0 0 0; z-index: 0; pointer-events: none; opacity: 0; transition: opacity 220ms ease; background-color: color-mix(in srgb, var(--ink) 55%, var(--accent)); -webkit-mask-image: var(--art); mask-image: var(--art); -webkit-mask-size: 280px; mask-size: 280px; -webkit-mask-repeat: repeat; mask-repeat: repeat; }
+.subject-bg.on { opacity: .065; }
+:root[data-theme="dark"] .subject-bg.on { opacity: .08; }
+.main > .top, .main > .view { position: relative; z-index: 1; }
+.view .notes-wrap, .view .tpage { background: var(--bg); }
+@media (max-width: 820px) { .subject-bg { -webkit-mask-size: 220px; mask-size: 220px; } }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
 </style>
 </head>
@@ -626,6 +635,7 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
       <button class="icon-btn" id="delNb" aria-label="Delete notebook" title="Delete notebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3"/></svg></button>
       <button class="icon-btn bulb" id="bulb" aria-label="Switch light / dark theme" title="Switch theme"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path class="glass" d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.6 10.8c.6.5 1 1.2 1.1 2V16h5v-.2c.1-.8.5-1.5 1.1-2A6 6 0 0 0 12 3z"/></svg></button>
     </header>
+    <div class="subject-bg" id="subjectBg" aria-hidden="true"></div>
     <section class="view" id="view"></section>
   </main>
 </div>
@@ -647,7 +657,7 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
   </button>
   <p class="v-status" id="vStatus" aria-live="polite">Hi!</p>
   <p class="v-heard" id="vHeard"></p>
-  <p class="v-said" id="vSaid"></p>
+  <div class="v-said" id="vSaid"></div>
   <button class="v-mic" id="vMic" aria-label="Start talking"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></button>
   <form class="v-type" id="vForm"><input id="vText" placeholder="Or type to Spark here" aria-label="Type to Spark" autocomplete="off"><button class="btn" type="submit">Send</button></form>
   <p class="v-hint">Tap the mic and talk. Spark answers out loud, then listens again. Tap Spark's face to interrupt.</p>
@@ -777,9 +787,11 @@ function langRule() {
   const code = S.settings.lang || 'auto';
   const c = cur(), lastUser = c && [...c.messages].reverse().find(m => m.role === 'user');
   const seen = lastUser ? langOf(lastUser.text) : 'en';
+  const asked = c ? SparkAI.languageWanted(c.messages.filter(m => m.role === 'user').map(m => m.text), 'auto', () => null) : null;
   const keep = 'Keep these labels in English exactly as written: "Stage 1 · Big picture", "Stage 2 · Closer look", "Stage 3 · Final answer", "Story map:", "Memory hook:".';
   const how = 'ALWAYS WRITE IN ENGLISH LETTERS ONLY. Never use Devanagari, Gurmukhi or any other script, even if the student does. Hindi is written as natural Hinglish, the way Indian kids text (e.g. "Imagine karo ki tum ek naye sheher mein ho"). Punjabi is written in Roman Punjabi (e.g. "Socho ki tusi ek nave sheher vich ho"). Use simple, everyday words, and keep school terms (like map, photosynthesis, fraction) in English.';
-  const target = code === 'hi' ? 'Hindi' : code === 'pa' ? 'Punjabi' : code === 'en' ? 'English' : seen === 'hi' ? 'Hindi' : seen === 'pa' ? 'Punjabi' : null;
+  const pick = code !== 'auto' ? code : asked || seen;
+  const target = pick === 'hi' ? 'Hindi' : pick === 'pa' ? 'Punjabi' : (code === 'en' || asked === 'en') ? 'English' : null;
   const which = target ? `Reply in ${target}${target === 'Hindi' ? ' (Hinglish)' : target === 'Punjabi' ? ' (Roman Punjabi)' : ''}.` : 'Reply in the language the student is using: English, Hindi (as Hinglish) or Punjabi (as Roman Punjabi). If they switch, switch with them.';
   return `LANGUAGE: ${which} ${how} ${keep}`;
 }/* Gemini access: a key pasted in Settings is used directly from the browser; otherwise the site's own server key is used through /api/gemini (set as GEMINI_API_KEY on Vercel). */
@@ -796,7 +808,11 @@ function aiPost(model, stream, body, timeoutMs) {
   // A request that hangs is treated like a busy model (504) so the caller moves on to the next one.
   return req.then(r => { clearTimeout(timer); return r; }, () => { clearTimeout(timer); return new Response('{"error":{"message":"Timed out"}}', { status: 504 }); });
 }
-fetch('/api/gemini', { cache: 'no-store' }).then(r => r.ok ? r.json() : null).then(j => { if (j && j.configured) { SERVER_AI = true; if (!V.open) renderMain(); } }).catch(() => {});
+/* What the site's connection can do: Gemini directly has the maths checker, web search and Gemini voices; through
+   OpenRouter it has none of them, and the app plans each reply around that instead of promising them. */
+let SERVER_INFO = {};
+fetch('/api/gemini', { cache: 'no-store' }).then(r => r.ok ? r.json() : null).then(j => { if (j && j.configured) { SERVER_AI = true; SERVER_INFO = j; if (!V.open) renderMain(); } }).catch(() => {});
+const serverTools = () => (S.settings.apiKey || !SERVER_INFO.tools ? {} : SERVER_INFO.tools);
 
 /* Uploaded study notes are too big for localStorage, so the files live in IndexedDB. */
 const idb = (() => {
@@ -900,7 +916,7 @@ $('#sparkToggle').onclick = () => { const t = th(); if (!t) return; t.chatOn = !
 /* ---------- tabs ---------- */
 document.querySelector('.tabs').onclick = e => { const t = e.target.closest('.tab'); if (!t) return; S.tab = t.dataset.tab; save(); renderMain(); };
 
-function render() { applyTheme(); applyBuddy(); applySide(); renderSide(); renderMain(); }
+function render() { applyTheme(); applyBuddy(); applySide(); renderSide(); renderMain(); applySubjectBg(); }
 function renderMain() {
   if (!PAGES[S.mode]) S.mode = 'home';
   if (S.mode === 'thought' && !th()) S.mode = 'nb';
@@ -919,6 +935,45 @@ function renderMain() {
   if (S.tab !== 'chat' && S.tab !== 'progress') S.tab = 'chat';
   document.querySelectorAll('.tab').forEach(t => { t.classList.toggle('on', t.dataset.tab === S.tab); t.setAttribute('aria-selected', t.dataset.tab === S.tab); });
   if (S.tab === 'progress') renderProgress(); else renderChat();
+}
+
+/* ---------- subject-aware background ----------
+   Each subject has a small, tiling line drawing. It is used as a mask, so it takes the theme's own colours and
+   works in light and dark. No images are downloaded; nothing moves. */
+const SUBJECT_ART = (() => {
+  const T = (x, y, t, sz = 22, extra = '') => `<text x="${x}" y="${y}" font-size="${sz}" font-family="Georgia,serif" ${extra}>${t}</text>`;
+  const svg = inner => `<svg xmlns="http://www.w3.org/2000/svg" width="280" height="280" viewBox="0 0 280 280" fill="none" stroke="#000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">${inner}</svg>`;
+  const art = {
+    math: `<path d="M0 70H280M0 140H280M0 210H280M70 0V280M140 0V280M210 0V280" stroke-width=".6" opacity=".55"/><g fill="#000" stroke="none">${T(18, 48, 'π', 26)}${T(150, 40, 'x²', 22)}${T(92, 118, '√9 = 3', 18)}${T(196, 176, '∑', 26)}${T(30, 196, '½ + ¼', 18)}${T(160, 252, 'a² + b² = c²', 15)}</g><path d="M222 110l40 0l-40-36z"/><circle cx="56" cy="248" r="16"/>`,
+    science: `<g transform="translate(60 62)"><path d="M0-26L22.5-13V13L0 26L-22.5 13V-13Z"/><path d="M22.5-13L40-24M0 26V44"/><circle cx="40" cy="-24" r="4"/></g><g transform="translate(196 170)"><ellipse rx="34" ry="12"/><ellipse rx="34" ry="12" transform="rotate(60)"/><ellipse rx="34" ry="12" transform="rotate(-60)"/><circle r="4" fill="#000"/></g><path d="M48 184h24M54 184v22l-14 30h40l-14-30v-22"/><circle cx="214" cy="56" r="7"/><circle cx="236" cy="70" r="5"/>`,
+    english: `<g fill="#000" stroke="none">${T(26, 70, '“', 64)}${T(196, 236, '”', 64)}${T(140, 120, 'Aa', 24)}</g><path d="M60 170c20-8 40-8 60 0v56c-20-8-40-8-60 0zM120 170c20-8 40-8 60 0v56c-20-8-40-8-60 0z"/><path d="M190 40h60M190 54h48M190 68h56" stroke-width="1.2"/>`,
+    languages: `<g fill="#000" stroke="none">${T(30, 70, 'अ', 34)}${T(160, 60, 'क', 30)}${T(96, 150, 'Aa', 26)}${T(200, 160, 'ਸ', 30)}${T(40, 230, 'ग', 30)}${T(150, 250, 'आ', 30)}</g>`,
+    history: `<path d="M40 40h60v10H40zM46 50v60M58 50v60M70 50v60M82 50v60M94 50v60M36 110h68v10H36z"/><path d="M150 200c0-8 6-12 14-12h80c8 0 14 4 14 12s-6 12-14 12h-80M164 188v40c0 8-6 12-14 12" /><path d="M20 250H130" /><circle cx="36" cy="250" r="5" fill="#000"/><circle cx="76" cy="250" r="5" fill="#000"/><circle cx="116" cy="250" r="5" fill="#000"/><path d="M196 40h40M200 40c0 22 16 22 16 34s-16 12-16 34M232 40c0 22-16 22-16 34s16 12 16 34M196 108h40"/>`,
+    geography: `<circle cx="70" cy="74" r="44"/><path d="M26 74h88M70 30c-22 22-22 66 0 88M70 30c22 22 22 66 0 88"/><path d="M130 170c30-24 70-24 100 0s70 24 100 0M110 200c30-24 70-24 100 0s70 24 100 0M90 230c30-24 70-24 100 0s70 24 100 0" stroke-width="1.1"/><path d="M190 60l12-30l12 30l-12-8z"/>`,
+    gk: `<path d="M70 40a26 26 0 0 0-16 46c4 4 6 8 6 12h20c0-4 2-8 6-12a26 26 0 0 0-16-46zM62 108h16"/><path d="M200 150l7 15 16 2-12 11 3 16-14-8-14 8 3-16-12-11 16-2z"/><circle cx="80" cy="220" r="26"/><path d="M80 200l6 20-6 20-6-20z"/>`,
+    reasoning: `<g fill="#000" stroke="none">${T(196, 70, '?', 40)}</g><circle cx="40" cy="40" r="5" fill="#000"/><circle cx="90" cy="40" r="5"/><circle cx="40" cy="90" r="5"/><circle cx="90" cy="90" r="5" fill="#000"/><path d="M40 40L90 90"/><path d="M150 170h40v40h-40zM190 190h14a10 10 0 1 1 0 0M170 210v14a10 10 0 1 0 0 0" /><path d="M40 200l20 20 20-20 20 20 20-20"/>`,
+    writing: `<path d="M50 220L190 80l20 20L70 240l-26 6z"/><path d="M180 90l20 20"/><path d="M150 40h100M150 56h80M20 150h70M20 166h50" stroke-width="1.2"/><path d="M230 170c-30 10-40 40-40 70c20-20 50-30 40-70z"/>`,
+    coding: `<g fill="#000" stroke="none">${T(20, 60, '&lt;/&gt;', 26)}${T(180, 220, '{ }', 28)}</g><circle cx="190" cy="60" r="7"/><circle cx="240" cy="100" r="7"/><circle cx="190" cy="130" r="7"/><path d="M196 64l38 32M196 126l38-24"/><path d="M30 160h60M30 176h90M46 192h50" stroke-width="1.2"/>`
+  };
+  const out = {};
+  for (const [k, v] of Object.entries(art)) out[k] = `url("data:image/svg+xml,${encodeURIComponent(svg(v))}")`;
+  return out;
+})();
+let BG_TIMER = null;
+function applySubjectBg() {
+  const el = $('#subjectBg'); if (!el) return;
+  let theme = 'general';
+  if (S.mode === 'nb') {
+    const n = nb();
+    const r = SparkAI.subjectTheme(n.messages.filter(m => m.role === 'user').map(m => m.text || ''), n.title, n.theme);
+    theme = r.theme; if (n.theme !== theme) { n.theme = theme; save(); }
+  }
+  if (el.dataset.subject === theme) return;
+  const show = () => { el.dataset.subject = theme; if (SUBJECT_ART[theme]) { el.style.setProperty('--art', SUBJECT_ART[theme]); el.classList.add('on'); } };
+  clearTimeout(BG_TIMER);
+  // Fade the old pattern out, swap, fade in (instant when reduced motion is on).
+  if (el.classList.contains('on') && !matchMedia('(prefers-reduced-motion: reduce)').matches) { el.classList.remove('on'); BG_TIMER = setTimeout(show, 200); }
+  else { el.classList.remove('on'); show(); }
 }
 
 /* ---------- home ---------- */
@@ -1170,6 +1225,10 @@ async function send(textOverride, opts = {}) {
   const prevModel = [...n.messages].reverse().find(m => m.role === 'model' && m.text && !m.kind);
   const rt = SparkAI.route(user.text, { hasImage: !!user.image || !!user.material, prevSubject: n.lastSubject, prevModelText: prevModel && prevModel.text });
   rt.voice = !!opts.voice; if (rt.subject !== 'general') n.lastSubject = rt.subject;
+  // Still confused after a re-explanation? Each time, the next explanation switches to a different approach.
+  if (rt.confused || rt.kind === 'reexplain') n.confusedStreak = (n.confusedStreak || 0) + 1; else if (rt.kind !== 'chat') n.confusedStreak = 0;
+  rt.confusedStreak = n.confusedStreak || 0;
+  setTimeout(applySubjectBg, 0); // after this message is added below
   const reply = { id: uid(), role: 'model', text: '', ts: Date.now(), pending: true };
   n.messages.push(user, reply); n.updated = Date.now();
   if (ta) ta.value = '';
@@ -1182,7 +1241,7 @@ async function send(textOverride, opts = {}) {
       if (ck) reply.check = { ok: ck.ok > 0, code: okRun ? okRun.code.slice(0, 1500) : '', output: okRun ? okRun.output.slice(0, 600) : '' };
       if (acc.sources.length) reply.sources = acc.sources.slice(0, 6);
       if (rt.needsSearch && !(acc.plan && acc.plan.tools.search)) reply.offline = true;
-      if (rt.subject === 'math' && !opts.voice && n.kind !== 'thought') {
+      if (rt.subject === 'math' && n.kind !== 'thought') {
         let v = SparkMath.check(user.text, reply.text);
         if (v.status === 'disagree') {
           // An exact solution of the original question disagrees with the answer: retry once, then say so honestly.
@@ -1311,7 +1370,7 @@ async function geminiFetch(stream, build, prefer, want = {}) {
 /* Streams one reply. Returns { text, checks, sources, queries, finish, plan } and calls onText as text arrives. */
 async function geminiStream(n, onText, onSources, extra, rt = {}) {
   const think = S.settings.think !== false, contents = await toContents(n);
-  const want = n.kind === 'thought' ? {} : SparkAI.toolsFor(rt, S.settings);
+  const want = n.kind === 'thought' ? {} : SparkAI.toolsFor(rt, S.settings, serverTools());
   const mathy = rt.subject === 'math' || !!rt.needsCode;
   const r = await geminiFetch(true, p => SparkAI.requestBody({
     system: (n.kind === 'thought' ? thoughtPrompt(n) : systemPrompt(n, Object.assign({}, rt, { tools: p.tools }))) + (extra || ''),
@@ -1569,9 +1628,9 @@ ${langRule()}`;
 /* ---------- voice buddy: listen with the browser, think with Gemini, talk back with a Gemini voice ---------- */
 const VOICE_STYLE = `
 
-VOICE CALL MODE: right now you are talking OUT LOUD with them like a friendly buddy on a call. Reply in 2-4 short, natural spoken sentences. No lists, no markdown, no symbols, no emoji, and don't read out stage labels. Sound warm, playful and encouraging, like a kind older friend. Concept questions still use your Spark Funnel, one stage per reply. For a maths problem, say the key steps, the check and the answer briefly. Write maths in words, e.g. "three quarters divided by one half".`;
+VOICE CALL MODE: right now you are talking OUT LOUD with them like a friend on a call. Reply in 2-5 short, natural spoken sentences, the way a person talks: contractions, no lists, no markdown, no emoji, no stage labels. Warm and calm, not over-excited. Concept questions still use your Spark Funnel, one stage per reply. For maths, don't read symbols one by one (never "open bracket"): say what each step DOES and why ("take 4x away from both sides, so all the x's are together"), one step per sentence, then the answer and how you know it's right. You may add the key equation on its own line inside \\[ \\] so they can see it on screen, and for a maths problem end with one line "**Answer:** …" in symbols; both are shown, not read aloud. Everything else is spoken words ("x equals six", "three quarters").`;
 const TTS_MODELS = ['gemini-3.1-flash-tts-preview', 'gemini-3.8-flash-tts', 'gemini-2.5-flash-preview-tts'];
-const Rec = window.SpeechRecognition || window.webkitSpeechRecognition;
+let Rec = window.SpeechRecognition || window.webkitSpeechRecognition; // let: tests swap in a fake recogniser
 const V = { open: false, state: 'idle', rec: null, audio: null, auto: true, ttsDown: false };
 const micSvg = '<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>';
 const stopSvg = '<svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="6" width="12" height="12" rx="2"/></svg>';
@@ -1603,45 +1662,67 @@ function closeVoice() {
 }
 function listen() {
   if (!Rec || !V.open) return;
+  if (busy) { setVoice('thinking', 'Thinking…'); return; }
   stopSpeaking();
   const rec = new Rec(); V.rec = rec;
-  rec.lang = (LANGS[S.settings.lang] || LANGS.auto).bcp; rec.interimResults = true; rec.continuous = false; rec.maxAlternatives = 1;
-  let finalText = '';
+  // Listen in the language they want to talk in ("explain in Hindi" switches the mic to Hindi too).
+  const c = cur(), want = SparkAI.languageWanted(c ? c.messages.filter(m => m.role === 'user').map(m => m.text) : [], S.settings.lang || 'auto', () => null);
+  rec.lang = (LANGS[want] || LANGS[S.settings.lang] || LANGS.auto).bcp;
+  // Continuous mode with our own pause timer: children pause mid-sentence, and the browser's default cuts them off.
+  rec.interimResults = true; rec.continuous = true; rec.maxAlternatives = 1;
+  let finalText = '', interim = '', confidence = 1, quiet = null;
+  const done = ms => { clearTimeout(quiet); quiet = setTimeout(() => { try { rec.stop(); } catch (e) {} }, ms); };
+  const cap = setTimeout(() => { try { rec.stop(); } catch (e) {} }, 30000);
   rec.onresult = e => {
-    let interim = ''; finalText = '';
-    for (const r of e.results) { if (r.isFinal) finalText += r[0].transcript; else interim += r[0].transcript; }
-    $('#vHeard').textContent = '“' + (finalText || interim) + '”';
+    finalText = ''; interim = '';
+    for (const r of e.results) { if (r.isFinal) { finalText += r[0].transcript + ' '; if (typeof r[0].confidence === 'number' && r[0].confidence > 0) confidence = Math.min(confidence, r[0].confidence); } else interim += r[0].transcript; }
+    $('#vHeard').textContent = '“' + (finalText + interim).trim() + '”';
+    done(interim ? 2600 : 1600); // stop after a natural pause
   };
   rec.onerror = e => {
-    if (e.error === 'not-allowed' || e.error === 'service-not-allowed') { V.auto = false; setVoice('idle', 'Mic is blocked'); $('#vSaid').textContent = 'Allow microphone access in your browser, or type below.'; }
-    else if (e.error === 'no-speech') { setVoice('idle', 'Tap the mic when you’re ready'); }
+    const why = {
+      'not-allowed': ['Mic is blocked', 'Allow microphone access in your browser’s address bar, then tap the mic. You can also type below.'],
+      'service-not-allowed': ['Mic is blocked', 'This browser won’t let Spark use the microphone. You can type below instead.'],
+      'audio-capture': ['No microphone found', 'Plug in or switch on a microphone, then tap the mic. Or type below.'],
+      'network': ['Can’t hear you right now', 'Speech recognition needs the internet. Check your connection, or type below.'],
+      'language-not-supported': ['That language isn’t supported here', 'Try English in this browser, or type below.']
+    }[e.error];
+    if (why) { V.auto = false; setVoice('idle', why[0]); $('#vSaid').textContent = why[1]; }
+    else if (e.error === 'no-speech') { V.auto = false; setVoice('idle', 'I didn’t hear anything. Tap the mic when you’re ready'); }
   };
   rec.onend = () => {
+    clearTimeout(quiet); clearTimeout(cap);
     if (V.rec !== rec) return; V.rec = null;
-    const said = finalText.trim();
-    if (said && V.open) talk(said); else if (V.state === 'listening') setVoice('idle', 'Tap the mic when you’re ready');
+    const said = (finalText || (interim.split(/\s+/).length >= 3 ? interim : '')).trim();
+    // Nothing useful heard ("um", a cough): don't send anything.
+    if (!said || /^(um+|uh+|hmm+|ah+|er+|mm+)[.!?]?$/i.test(said) || said.length < 2) { if (V.open && V.state === 'listening') setVoice('idle', 'Tap the mic when you’re ready'); return; }
+    // The browser wasn't sure what it heard: let them check or fix it before sending.
+    if (confidence < 0.55) { const i = $('#vText'); i.value = said; setVoice('idle', 'Did I hear that right? Fix it if needed, then press Send'); i.focus(); return; }
+    if (V.open) talk(said);
   };
-  try { rec.start(); setVoice('listening', 'Listening…'); $('#vHeard').textContent = ''; }
+  try { rec.start(); setVoice('listening', 'Listening… (pause when you’re done)'); $('#vHeard').textContent = ''; }
   catch (e) { setVoice('idle', 'Tap the mic to talk'); }
 }
 function stopListening() { const r = V.rec; V.rec = null; if (r) { try { r.abort(); } catch (e) {} } }
 async function talk(text) {
   if (!V.open || !text.trim()) return;
-  if (busy) { toast('Spark is still answering. One moment.'); return; }
+  if (busy || V.talking) { toast('Spark is still answering. One moment.'); return; }
+  V.talking = true;
   $('#vHeard').textContent = '“' + text + '”';
   setVoice('thinking', 'Thinking…'); $('#vSaid').textContent = '';
   await send(text, {
     voice: true,
     onDone: async reply => {
       if (!V.open) return;
-      const words = plainSpeech(speechText(reply.text) || reply.text);
-      $('#vSaid').textContent = words;
+      // The on-screen answer line is for reading, not for saying twice.
+      const words = plainSpeech(speechText(reply.text.replace(/^\s*\*\*\s*answer\s*:?\s*\*\*.*$/gim, '')) || reply.text);
+      $('#vSaid').innerHTML = md(reply.text);
       if (reply.text.startsWith('⚠')) { setVoice('idle', 'Hmm, that didn’t work'); return; }
       setVoice('speaking', 'Spark');
       await speak(words);
       if (V.open && V.auto && Rec) listen(); else if (V.open) setVoice('idle', 'Your turn');
     }
-  });
+  }).finally(() => { V.talking = false; });
 }
 function speechText(md) {
   const out = []; let skip = false;
@@ -1650,6 +1731,7 @@ function speechText(md) {
     if (!bare || /^-{3,}$/.test(bare)) continue;
     if (/^stage\s*[123]\b/i.test(bare)) continue;
     if (/^👉/.test(bare)) continue;
+    if (/^(\\\[[\s\S]*\\\]|\$\$[\s\S]*\$\$)$/.test(l)) continue; // equations shown on screen, explained in words
     if (/^story\s*map\b/i.test(bare)) { skip = true; continue; }
     if (skip) { if (/^([-*•]|\d+[.)])\s/.test(l)) continue; skip = false; }
     out.push(l);
@@ -1691,7 +1773,7 @@ async function speak(text, opts = {}) {
   let clip = null;
   const key = opts.cacheKey && voiceName !== 'browser' ? `${opts.cacheKey}:${voiceName}` : null;
   if (key) { const hit = await idb.get(key).catch(() => null); if (hit && hit.blob) clip = URL.createObjectURL(hit.blob); }
-  if (!clip && hasAI() && voiceName !== 'browser' && !V.ttsDown) {
+  if (!clip && hasAI() && voiceName !== 'browser' && !V.ttsDown && (S.settings.apiKey || SERVER_INFO.tts !== false)) {
     try {
       clip = await fetchVoice(words, voiceName);
       if (key) fetch(clip).then(r => r.blob()).then(blob => idb.put({ id: key, blob })).catch(() => {});

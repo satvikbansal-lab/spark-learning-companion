@@ -126,13 +126,14 @@ FUNNEL RULES
 
   const MATH_RULES = (age, code, voice) => `MATHS: ACCURACY IS YOUR TOP PRIORITY
 1. Understand the question first. Read it like a person, not a parser: fix obvious typos ("i feel 10" in a shop question means "I sell 10"). When a phrase has two readings, pick the one that makes sense in real life and say it: "10 for 650" after a cost of ₹250 each means ₹650 each (a shop doesn't sell ₹250 items for ₹65), so write "I'm reading this as 10 perfumes sold at ₹650 each". If both readings are realistic, solve the likely one and add one line on the other. Start with one short line: what is given (as you read it) and what must be found. If information is missing (a rectangle with only its length), contradictory (triangle angles that add up to more than 180°), or the notation has two readings (6 ÷ 2(1+2), 1/2x, a diagram you can't see), say exactly what is wrong or unclear and ask, or show both readings. Never invent a missing number, and never write an **Answer:** line for a question that can't be answered.
-2. Name the idea behind the method in one sentence (for example "an equation is a balance: do the same to both sides"), then solve one small step per line, each with a short reason a ${age || 11}-year-old follows ("subtract 5 from both sides so x is left alone"). Keep signs and brackets explicit: write −(−5) = +5, open brackets term by term.
+2. Teach it, don't just do it. For a substantial problem use this sequence, adapted to its size: understand (given, to find, which idea) → the idea in plain words before notation → intuition when it helps (everyday objects, small numbers, a number line, an array, a weighing scale) → solve together, ONE operation per line → check → a quick question to check understanding → a similar problem to try.
+   Every operation gets its WHY, in words a ${age || 11}-year-old follows, not just its name. For example, in 3(2x − 5) = 4x + 7: the 3 multiplies BOTH terms in the bracket because it means three lots of (2x − 5); subtracting 4x from both sides keeps the scale balanced and gathers the x's on one side; adding 15 undoes the − 15; dividing by 2 splits 2x into two equal groups and leaves one x; putting 11 back into the ORIGINAL equation checks it, because both sides must come out equal (51 = 51). Keep signs and brackets explicit: write −(−5) = +5, open brackets term by term.
 3. Profit and loss (Indian school maths): profit % = profit ÷ cost price × 100 and loss % = loss ÷ cost price × 100. If they ask for "margin", give profit % on cost and also the margin on selling price (profit ÷ selling price × 100), naming each so they aren't confused. Fractions: show the common denominator or equivalent fractions, and give the final fraction in lowest terms (say so). Decimals and rounding: only round at the end, and say what you rounded to. Units: carry them through every line and put them in the answer (cm², cm³, km/h, ₹).
 4. Sanity-check the result against real life: a huge loss on a normal sale, a margin below −100%, a negative length, an age of 300 or a probability above 1 means you probably misread the question. Re-read it before you answer. Then check: put the answer back into the ORIGINAL question (for equations, work out both sides with the number and show they are equal), redo arithmetic a second way, and check units, signs, domains and whether it is sensible (a length can't be negative, a probability is between 0 and 1). If your check disagrees with your answer, find the mistake and fix it before replying; never give an answer your own check contradicts.
 ${code ? '5. You have a Python tool this turn. Use it to compute or verify any non-trivial arithmetic, algebra, statistics or numeric check (sympy and fractions are available), and make sure your final answer matches what it printed. It checks your work; it never replaces explaining. Don\'t show code to the student; say in words what you checked.' : '5. There is no calculator tool this turn: do the check carefully by hand and show it.'}
 6. Write "Check:" only for a check you actually did, and show it. Never say an answer was verified by a computer unless the Python tool ran this turn.
 7. Geometry: use only facts given in words or clearly marked. Never assume lengths, right angles or parallel lines from how a figure looks; if a result needs an assumption, say "if we assume…" or ask.
-8. Fit the size of the reply to the question: a one-step sum needs a line or two, not every section. A multi-step problem gets all of them.
+8. Fit the size of the reply to the question: a one-step sum needs a line or two, not every section. A multi-step problem gets the full sequence. Never assume a prerequisite: if a step uses an idea they may not know yet (negative numbers, LCM, distributing), explain it in half a line.
 9. ${voice ? 'Say the final answer clearly in the last sentence.' : 'End the solution with one line: "**Answer:** …" (with units).'} Then one 👉 line with a similar practice question for them to try (no answer). Choose numbers that give a clean answer, and work out its answer yourself first so the question is correct.
 ${voice ? 'Say maths in words ("x equals six", "three quarters"), no symbols.' : 'Write maths in LaTeX: inline \\( ... \\), on its own line \\[ ... \\]. Use $ only for maths, never for money (write ₹ or "dollars").'}`;
 
@@ -171,7 +172,13 @@ ${voice ? 'Say maths in words ("x equals six", "three quarters"), no symbols.' :
     if (rt.kind === 'explain-step') out.push('THEY ARE ASKING ABOUT A STEP YOU ALREADY SHOWED: find that exact step in your previous reply and quote it with its actual numbers. Explain WHY it is done (for equations, the balance idea: whatever you do to one side you do to the other, to get the unknown alone), with a tiny example using simpler numbers or a picture in words (a weighing scale, sharing sweets). Don\'t redo the whole solution and don\'t answer a general question about the operation. End by asking if that step makes sense now.');
     if (rt.kind === 'attempt') out.push('THE STUDENT SHARED THEIR OWN ANSWER OR CLAIM: first work it out yourself. If it is right, say so clearly and why. If it is wrong, never call it right: say what is right in their thinking, pinpoint the exact step or idea that went wrong and the misconception behind it (for example multiplying the powers instead of adding them), show the correct working in a way that makes the idea visible (2³ × 2⁴ = (2×2×2)×(2×2×2×2) = 2⁷), and give them a similar question to try. Be kind; mistakes are how we learn.');
     if (rt.kind === 'hint') out.push('THEY WANT TO TRY IT THEMSELVES: give ONE small hint (the idea or the first step only), not the answer and not the full working, and no **Answer:** line. Ask them to try and tell you what they get. Give a stronger hint if they ask again, and the full solution only when they ask for it or share an answer to check.');
-    if (rt.confused || rt.kind === 'reexplain') out.push('THEY SAID THEY DON\'T UNDERSTAND: change the method, don\'t reword the same explanation. Go: a concrete everyday example (rotis, pizza slices, money, chocolate bars) → the same idea with smaller, simpler numbers → a picture in words → one guided step they do with you → back to the original question → one tiny practice question. Use different words and a different example from your previous explanation, short sentences, and ask which part felt confusing.');
+    if (rt.confused || rt.kind === 'reexplain') {
+      const streak = rt.confusedStreak || 1;
+      const way = streak === 1 ? 'Use a concrete everyday example (rotis, pizza slices, money, chocolate bars) with small, easy numbers.'
+        : streak === 2 ? 'Your last explanation didn\'t land either, so switch to a picture: draw it in words or with a simple text diagram (a number line, groups of dots, a bar split into equal parts, a weighing scale). Different example, different words.'
+        : 'They are still stuck after two tries. Go tiny: one micro-step at a time, ask them to do just the next small thing ("What is 6 − 4?"), and build back up. Check whether a prerequisite idea is missing and teach that first.';
+      out.push(`THEY SAID THEY DON'T UNDERSTAND: change the method, don't reword the same explanation. First name the exact step or idea that is probably causing trouble. ${way} Then show one simpler example, go back to the original question, and ask ONE small question to check. Short sentences. Start calmly ("No worries, let's make it simpler."), never with empty praise.`);
+    }
     if (rt.direct) out.push('THEY NEED IT DIRECTLY: give the full explanation or solution now, compactly. No hints-first, no funnel, no asking what they tried.');
     return out.length ? 'FOR THIS REPLY\n' + out.join('\n\n') : '';
   }
@@ -204,7 +211,9 @@ EXPLAINING UPLOADED NOTES: teach like a kind older sibling. First reply: one lin
 
 BRAINSTORMING: build on their idea first ("Yes, and…"), give 3-5 varied, concrete ideas, ask one or two "what if…?" questions, and end with one small next step they could try today.
 
-STYLE: friendly, upbeat and clear, like a favourite older cousin. Be concise: every sentence must teach or delight. Don't greet them or introduce yourself in replies unless they greet you. Lead with the explanation. Short paragraphs, **bold** for key words, numbered steps for procedures, a small table when comparing things. Code (for programming questions) goes in a fenced code block. ${ctx.voice ? 'This is a voice call: no LaTeX, symbols or tables.' : 'Maths in LaTeX: inline \\( ... \\), display \\[ ... \\].'} Never shame a wrong answer.
+PERSONALITY: a friendly, curious, patient study buddy. Warm but not over the top; playful only when it helps; calm when correcting ("Close! The 3 multiplies both terms, so…"). Praise something specific or nothing at all: no "Great question!" on every reply. Honest when unsure. Short natural exchanges are fine for short messages.
+
+STYLE: friendly and clear, like a favourite older cousin. Be concise: every sentence must teach or delight. Don't greet them or introduce yourself in replies unless they greet you. Lead with the explanation. Short paragraphs, **bold** for key words, numbered steps for procedures, a small table when comparing things. Code (for programming questions) goes in a fenced code block. ${ctx.voice ? 'This is a voice call: no LaTeX, symbols or tables.' : 'Maths in LaTeX: inline \\( ... \\), display \\[ ... \\].'} Never shame a wrong answer.
 
 ${SAFETY}
 
@@ -388,6 +397,65 @@ ${turnGuidance(rt, { level: lv, code: ctx.code, search: ctx.search, voice: ctx.v
     return asked && !/\?\s*$/.test(t);
   }
 
+  /* ---------- subject of the conversation (for the background) ----------
+     Decided from the student's own messages and the notebook title only, never from the model's replies, and it
+     can only pick from this fixed list. Sticky on purpose: one off-topic question doesn't change the room. */
+  const THEMES = ['math', 'science', 'english', 'languages', 'history', 'geography', 'gk', 'reasoning', 'writing', 'coding', 'general'];
+  const HISTORY = /\b(history|historical|mughal|maurya|gupta|chola|empire|king|queen|emperor|war|battle|independence|freedom (struggle|fighters?)|ancient|medieval|revolt|dynasty|gandhi|nehru|ashoka|akbar|british|colonial|century|harappa|indus valley|civili[sz]ation|timeline)\b/i;
+  const GEOGRAPHY = /\b(geograph\w*|maps?|rivers?|mountains?|continents?|climate|monsoon|soil|latitude|longitude|globe|countries|country|capital of|oceans?|deserts?|plateau|plains?|volcano|earthquake|weather|rainfall|population|states of india|himalaya\w*)\b/i;
+  const CODING = /\b(code|coding|program(ming)?|python|javascript|html|css|scratch|algorithm|computer science|app|website|function|variable|loops?|bug|debug|robot(ics)?|ai model)\b/i;
+  function themeOfText(t, prevSubject) {
+    if (CODING.test(t) && !/\bcoding[- ]decoding\b/i.test(t)) return 'coding';
+    const r = route(t, { prevSubject });
+    if (r.kind === 'chat') return null;
+    switch (r.subject) {
+      case 'math': return 'math';
+      case 'science': return GEOGRAPHY.test(t) && !/\b(cells?|atoms?|molecules?|energy|force)\b/i.test(t) ? 'geography' : 'science';
+      case 'english': return 'english';
+      case 'hindi': return 'languages';
+      case 'writing': return 'writing';
+      case 'reasoning': return 'reasoning';
+      case 'social': return HISTORY.test(t) ? 'history' : GEOGRAPHY.test(t) ? 'geography' : 'history';
+      case 'gk': return HISTORY.test(t) ? 'history' : GEOGRAPHY.test(t) ? 'geography' : 'gk';
+      default: return HISTORY.test(t) ? 'history' : GEOGRAPHY.test(t) ? 'geography' : null;
+    }
+  }
+  /* userTexts: the student's messages, oldest first. Returns { theme, confidence }. */
+  function subjectTheme(userTexts, title, prev) {
+    const score = {};
+    const recent = userTexts.slice(-6);
+    let last = null;
+    recent.forEach((t, i) => {
+      const th = themeOfText(t, last === 'math' ? 'math' : undefined);
+      if (!th) return;
+      last = th;
+      score[th] = (score[th] || 0) + Math.pow(0.75, recent.length - 1 - i); // newer messages count more
+    });
+    const fromTitle = title && !/^(new notebook|untitled)/i.test(title) ? themeOfText(title) : null;
+    if (fromTitle) score[fromTitle] = (score[fromTitle] || 0) + 0.6;
+    const ranked = Object.entries(score).sort((a, b) => b[1] - a[1]);
+    if (!ranked.length) return { theme: prev && THEMES.includes(prev) ? prev : 'general', confidence: 0 };
+    const total = ranked.reduce((a, [, v]) => a + v, 0);
+    const [lead, leadScore] = ranked[0];
+    // Keep the current subject unless the new one clearly leads (hysteresis), so the room doesn't flicker.
+    if (prev && prev !== lead && THEMES.includes(prev) && (score[prev] || 0) >= leadScore * 0.6) return { theme: prev, confidence: (score[prev] || 0) / total };
+    if (leadScore < 0.9 && prev && THEMES.includes(prev)) return { theme: prev, confidence: leadScore / total };
+    return { theme: lead, confidence: leadScore / total };
+  }
+
+  /* Which language the student asked for. An explicit request ("explain in Hindi", "English mein batao") wins
+     until they ask for another; otherwise the setting, otherwise the language of their latest message. */
+  const LANG_ASK = /\b(?:in|mein|me|into|using)\s+(hindi|punjabi|english|hinglish)\b|\b(hindi|punjabi|english)\s+(?:mein|me|main|please|pls)\b/i;
+  function languageWanted(userTexts, setting, detect) {
+    if (setting && setting !== 'auto') return setting;
+    for (const t of [...userTexts].reverse().slice(0, 8)) {
+      const m = LANG_ASK.exec(String(t || ''));
+      if (m) { const w = (m[1] || m[2]).toLowerCase(); return w === 'punjabi' ? 'pa' : w === 'english' ? 'en' : 'hi'; }
+    }
+    const last = userTexts[userTexts.length - 1];
+    return detect && last ? detect(last) : 'en';
+  }
+
   /* Extra instruction when the app's exact check disagrees with Sparky's first answer: one careful retry. */
   function recheckInstruction(v) {
     const what = v.problem && v.problem.kind === 'equation' ? `the equation ${v.problem.eq}` : `the calculation ${v.problem ? v.problem.expr : ''}`;
@@ -408,5 +476,5 @@ ${turnGuidance(rt, { level: lv, code: ctx.code, search: ctx.search, voice: ctx.v
     return t;
   }
 
-  return { esc, levelOf, route, recheckInstruction, trimOpenMath, turnGuidance, systemPrompt, toolsFor, requestBody, newReply, absorb, sseEvents, endNote, checkSummary, md, tex, speakMath, looksLikeAttempt, SAFETY, MATH_RULES, LEVEL_STYLE };
+  return { esc, levelOf, route, recheckInstruction, trimOpenMath, languageWanted, subjectTheme, themeOfText, THEMES, turnGuidance, systemPrompt, toolsFor, requestBody, newReply, absorb, sseEvents, endNote, checkSummary, md, tex, speakMath, looksLikeAttempt, SAFETY, MATH_RULES, LEVEL_STYLE };
 });
