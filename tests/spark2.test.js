@@ -114,3 +114,20 @@ test('OpenRouter: streamed replies come back in Gemini shape, keep-alives and re
     assert.equal(r2.code, 402); assert.match(r2.body.error.message, /credits have run out/);
   } finally { global.fetch = realFetch; }
 });
+
+/* ---------- topic icons behind the chat ---------- */
+test('topic icons: any topic gets its own pictures, and each message can change them', () => {
+  const ic = q => AI.topicIcons(q).join('');
+  assert.match(ic('burger vs pizza, which is healthier?'), /🍔.*🍕|🍕.*🍔/, 'both foods shown');
+  assert.match(ic('What is the internet?'), /🌐/);
+  assert.match(ic('Tell me about planets'), /🪐/);
+  assert.match(ic('Solve 2x + 5 = 17'), /➗/);
+  assert.match(ic('How do rockets fly to the moon?'), /🚀/);
+  assert.doesNotMatch(ic('How do rockets fly to the moon?'), /✈️/, '"fly" alone is not aeroplanes');
+  assert.equal(ic('what is quantum entanglement in simple words?'), '', 'unknown topics go to the model, not a wrong guess');
+  assert.equal(ic('hi'), '', 'small talk keeps the current pictures');
+});
+test('topic icons: only real emoji are accepted from the model', () => {
+  assert.deepEqual(AI.cleanIcons(['🍔', '<script>alert(1)</script>', '🍕🍕', 'pizza', '🇮🇳', '👨‍👩‍👧']), ['🍔', '🍕', '🇮🇳', '👨‍👩‍👧']);
+  assert.equal(AI.cleanIcons(['😀', '😃', '😄', '😁', '😆', '😅']).length, 5, 'at most five');
+});

@@ -443,6 +443,68 @@ ${turnGuidance(rt, { level: lv, code: ctx.code, search: ctx.search, voice: ctx.v
     return { theme: lead, confidence: leadScore / total };
   }
 
+  /* ---------- topic icons (the faint pictures behind the chat) ----------
+     Every student message gets 3-5 picture-icons for whatever it is about, study or not ("burger vs pizza",
+     "what is the internet", "planets"). A word list covers common topics instantly; for anything else the app
+     asks a light model in the background. Only real emoji are ever accepted, so text can't inject anything. */
+  const TOPIC_ICONS = [
+    [/\bburgers?\b/, '🍔🍟🥤'], [/\bpizzas?\b/, '🍕🧀🍅'], [/\b(food|eat|eating|meal|lunch|dinner|breakfast|snack|hungry|recipe|cook(ing)?)\b/, '🍽️🥗🍳'],
+    [/\b(fruits?|apples?|bananas?|mangoe?s?|oranges?|grapes?)\b/, '🍎🍌🥭🍇'], [/\b(vegetables?|carrots?|potato(es)?|tomato(es)?|onions?)\b/, '🥕🥔🍅🥦'],
+    [/\b(chocolates?|sweets?|candy|cakes?|ice ?cream|desserts?|ladoo|mithai)\b/, '🍫🍰🍦🍬'], [/\b(tea|coffee|milk|juice|drinks?)\b/, '☕🥛🧃'],
+    [/\b(rice|roti|chapati|dal|biryani|samosa|dosa|idli|paratha)\b/, '🍛🫓🥘'], [/\b(noodles?|pasta|sandwich(es)?|fries)\b/, '🍜🥪🍟'],
+    [/\b(planets?|solar system|space|universe|galaxy|galaxies|stars?|astronauts?|nasa|isro|rockets?|orbits?|satellites?)\b/, '🪐🌍🚀⭐🌙'], [/\b(moon|lunar|eclipse)\b/, '🌙🌑🔭'],
+    [/\b(sun|solar|sunlight)\b/, '☀️🌞🔆'], [/\b(mars|jupiter|saturn|venus|mercury|neptune|uranus)\b/, '🪐🔭🌌'], [/\b(earth|globe)\b/, '🌍🗺️🧭'],
+    [/\b(internet|web|website|online|wifi|wi-fi|network|google|browser)\b/, '🌐💻📶🔗'], [/\b(computers?|laptops?|keyboard|software|hardware|cpu)\b/, '💻⌨️🖱️🖥️'],
+    [/\b(phones?|mobile|smartphone|apps?)\b/, '📱📲🔋'], [/\b(code|coding|program(ming)?|python|javascript|scratch|html)\b/, '💻⌨️🧩🔣'],
+    [/\b(robots?|ai|artificial intelligence|machine learning|chatgpt|gemini)\b/, '🤖🧠💡'], [/\b(games?|gaming|video games?|minecraft|roblox|puzzles?)\b/, '🎮🕹️🧩'],
+    [/\b(cricket|bat|wicket|ipl)\b/, '🏏🏟️🏆'], [/\b(football|soccer|fifa)\b/, '⚽🥅🏆'], [/\b(basketball)\b/, '🏀⛹️🏆'], [/\b(tennis|badminton)\b/, '🎾🏸🏆'],
+    [/\b(sports?|olympics?|race|running|exercise|yoga|gym|fitness)\b/, '🏃🏅🧘🏆'], [/\b(swim(ming)?|pool)\b/, '🏊🌊🥽'],
+    [/\b(music|songs?|sing(ing)?|guitar|piano|drums?|dance|dancing)\b/, '🎵🎸🎹🥁'], [/\b(movies?|films?|cinema|cartoons?|tv|netflix|youtube)\b/, '🎬🍿📺'],
+    [/\b(art|drawing|painting|colou?rs?|sketch|craft)\b/, '🎨🖌️✏️🖍️'], [/\b(books?|read(ing)?|stor(y|ies)|novel|library|poems?)\b/, '📚📖✍️'],
+    [/\b(dogs?|puppy|puppies)\b/, '🐶🐾🦴'], [/\b(cats?|kittens?)\b/, '🐱🐾🧶'], [/\b(birds?|parrots?|eagles?|peacocks?)\b/, '🐦🦜🪶'],
+    [/\b(fish|sharks?|whales?|dolphins?|ocean animals?)\b/, '🐟🦈🐋🐬'], [/\b(lions?|tigers?|elephants?|monkeys?|jungle|forest animals?|wild animals?)\b/, '🦁🐯🐘🐒'],
+    [/\b(dinosaurs?|fossils?)\b/, '🦕🦖🦴'], [/\b(insects?|bees?|butterfl(y|ies)|ants?|spiders?)\b/, '🐝🦋🐜🕷️'], [/\b(animals?|pets?|zoo)\b/, '🐾🦁🐘🐶'],
+    [/\b(plants?|trees?|flowers?|leaf|leaves|seeds?|photosynthesis|garden)\b/, '🌱🌳🌸🍃'], [/\b(forests?|jungles?)\b/, '🌲🌳🍃'],
+    [/\b(rain|clouds?|storms?|thunder|lightning|weather|monsoon)\b/, '🌧️⛈️☁️🌈'], [/\b(snow|winter|cold|ice)\b/, '❄️⛄🧊'], [/\b(summer|hot|heat)\b/, '☀️🌡️🔥'],
+    [/\b(water|rivers?|lakes?|water cycle)\b/, '💧🌊🏞️'], [/\b(oceans?|seas?|beach|waves?)\b/, '🌊🏖️🐚'], [/\b(mountains?|himalaya\w*|hills?|volcano(es)?)\b/, '⛰️🏔️🌋'],
+    [/\b(fire|flames?|burn(ing)?)\b/, '🔥🧯🌡️'], [/\b(electricity|electric|current|circuits?|battery|batteries|bulbs?|magnets?)\b/, '⚡🔋💡🧲'],
+    [/\b(light|rainbow|prism|mirror|lens)\b/, '💡🌈🔦🔍'], [/\b(sound|noise|echo|vibration)\b/, '🔊🎵👂'], [/\b(atoms?|molecules?|chemistry|chemical|reaction|acids?|bases?|elements?)\b/, '⚛️🧪⚗️🔬'],
+    [/\b(experiments?|lab|laboratory|science|scientist)\b/, '🔬🧪🧫🔭'], [/\b(force|gravity|motion|speed|friction|newton)\b/, '🍎⬇️🚀🧲'],
+    [/\b(body|heart|blood|bones?|brain|lungs?|stomach|digestion|organs?|skeleton)\b/, '🫀🧠🦴🫁'], [/\b(teeth|tooth|dentist)\b/, '🦷🪥😁'],
+    [/\b(health|doctor|medicine|hospital|germs?|virus(es)?|bacteria|vaccines?|sick|fever)\b/, '🩺💊🦠🏥'],
+    [/\b(cars?|bus(es)?|trains?|bikes?|bicycles?|traffic|vehicles?)\b/, '🚗🚌🚆🚲'], [/\b(planes?|aeroplanes?|airplanes?|flights?|airports?|pilots?)\b/, '✈️🛫☁️'], [/\b(ships?|boats?|sailing)\b/, '🚢⛵⚓'],
+    [/\b(money|rupees?|price|bank|banks|profit|loss|discount|savings?|shopping|shopkeeper)\b|₹/, '💰🪙🛒🏦'],
+    [/\b(history|ancient|kings?|queens?|empire|mughals?|war|battle|independence|freedom|castle|fort)\b/, '🏰👑📜⚔️'],
+    [/\b(maps?|countr(y|ies)|capital|continents?|geography|travel|cities|city)\b/, '🗺️🧭🌍✈️'], [/\b(india|indian|delhi|mumbai)\b/, '🇮🇳🕌🛺'],
+    [/\b(festival|diwali|holi|eid|christmas|birthday|party|celebrat\w*)\b/, '🎉🪔🎂🎈'], [/\b(school|teachers?|exams?|homework)\b/, '🏫📝📚✏️'],
+    [/\b(friends?|family|mom|mum|dad|brother|sister|grandma|grandpa|dadi|nani)\b/, '👨‍👩‍👧‍👦🤝❤️'], [/\b(feel(ing)?s?|happy|sad|angry|scared|worried|nervous|lonely)\b/, '💭❤️🌈🤗'],
+    [/\b(sleep|dream|night|bed)\b/, '🌙😴💤⭐'], [/\b(clocks?|calendars?|o'?clock|time zones?)\b/, '⏰🕒📅⏳'], [/\b(writing|essays?|letter writing|poems?|grammar|spelling|vocabulary)\b/, '✍️📝🔤📖'],
+    [/\b(hindi|punjabi|language|translate)\b/, '🔤🗣️📖'], [/\b(environment|pollution|recycl\w*|climate|global warming|plastic)\b/, '♻️🌍🌱🏭'], [/\b(energy|solar panels?|wind)\b/, '⚡☀️🌬️🔋'],
+    [/\b(geometry|triangles?|angles?|shapes?|circles?|squares?|rectangles?|polygons?)\b/, '📐📏🔺⭕'], [/\b(fractions?|percent(age)?|ratio|decimals?)\b/, '➗🍕💯🔢'],
+    [/\b(graph|chart|data|statistics|mean|median|average)\b/, '📊📈🔢'], [/\b(probability|dice|die|coins?|chance)\b/, '🎲🪙🃏']
+  ];
+  const MATH_ICONS = '➕➖✖️➗🔢📐', SUBJECT_ICONS = { science: '🔬🧪⚛️🌱', history: '🏰📜👑⏳', geography: '🗺️🧭🌍⛰️', english: '📖✍️🔤💬', languages: '🔤🗣️📖', writing: '✍️📝📖💡', coding: '💻⌨️🧩🔣', reasoning: '🧩❓💡🔢', gk: '💡🌍📚🔍' };
+  const EMOJI = /\p{Extended_Pictographic}(?:️|‍\p{Extended_Pictographic}|\p{Emoji_Modifier})*|[\u{1F1E6}-\u{1F1FF}]{2}/gu;
+  const splitEmoji = str => String(str || '').match(EMOJI) || [];
+  /* Icons for one message. Returns up to `max` emoji, or [] when it can't tell (the app then asks the model). */
+  function topicIcons(text, max = 5) {
+    const t = String(text || '').toLowerCase();
+    const found = [];
+    for (const [re, icons] of TOPIC_ICONS) { const m = re.exec(t); if (m) found.push([m.index, splitEmoji(icons)]); }
+    found.sort((a, b) => a[0] - b[0]);
+    const out = [];
+    // Take the first icon of each matched topic, then the rest, so "burger vs pizza" shows both.
+    for (let round = 0; round < 4 && out.length < max; round++) for (const [, icons] of found) if (icons[round] && !out.includes(icons[round]) && out.length < max) out.push(icons[round]);
+    if (out.length) return out;
+    const r = route(t);
+    if (r.kind === 'chat') return [];
+    if (r.subject === 'math') return splitEmoji(MATH_ICONS).slice(0, max);
+    const th = themeOfText(t);
+    return th && SUBJECT_ICONS[th] ? splitEmoji(SUBJECT_ICONS[th]).slice(0, max) : [];
+  }
+  /* Cleans a model's suggestion: only emoji, at most `max`, no repeats. */
+  const cleanIcons = (list, max = 5) => [...new Set((Array.isArray(list) ? list : [list]).flatMap(splitEmoji))].slice(0, max);
+
   /* Which language the student asked for. An explicit request ("explain in Hindi", "English mein batao") wins
      until they ask for another; otherwise the setting, otherwise the language of their latest message. */
   const LANG_ASK = /\b(?:in|mein|me|into|using)\s+(hindi|punjabi|english|hinglish)\b|\b(hindi|punjabi|english)\s+(?:mein|me|main|please|pls)\b/i;
@@ -476,5 +538,5 @@ ${turnGuidance(rt, { level: lv, code: ctx.code, search: ctx.search, voice: ctx.v
     return t;
   }
 
-  return { esc, levelOf, route, recheckInstruction, trimOpenMath, languageWanted, subjectTheme, themeOfText, THEMES, turnGuidance, systemPrompt, toolsFor, requestBody, newReply, absorb, sseEvents, endNote, checkSummary, md, tex, speakMath, looksLikeAttempt, SAFETY, MATH_RULES, LEVEL_STYLE };
+  return { esc, levelOf, route, recheckInstruction, trimOpenMath, languageWanted, subjectTheme, themeOfText, THEMES, topicIcons, cleanIcons, turnGuidance, systemPrompt, toolsFor, requestBody, newReply, absorb, sseEvents, endNote, checkSummary, md, tex, speakMath, looksLikeAttempt, SAFETY, MATH_RULES, LEVEL_STYLE };
 });
