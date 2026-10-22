@@ -1628,7 +1628,7 @@ ${langRule()}`;
 /* ---------- voice buddy: listen with the browser, think with Gemini, talk back with a Gemini voice ---------- */
 const VOICE_STYLE = `
 
-VOICE CALL MODE: right now you are talking OUT LOUD with them like a friend on a call. Reply in 2-5 short, natural spoken sentences, the way a person talks: contractions, no lists, no markdown, no emoji, no stage labels. Warm and calm, not over-excited. Concept questions still use your Spark Funnel, one stage per reply. For maths, don't read symbols one by one (never "open bracket"): say what each step DOES and why ("take 4x away from both sides, so all the x's are together"), one step per sentence, then the answer and how you know it's right. You may add the key equation on its own line inside \\[ \\] so they can see it on screen, and for a maths problem end with one line "**Answer:** …" in symbols; both are shown, not read aloud. Everything else is spoken words ("x equals six", "three quarters").`;
+VOICE CALL MODE: right now you are talking OUT LOUD with them like a friend on a call. Reply in 2-5 short, natural spoken sentences, the way a person talks: no lists, no markdown, no emoji, no stage labels. Use very simple, everyday words a 10-year-old knows, one idea per sentence, and say any harder word's meaning right away. Warm and calm, not over-excited. Concept questions still use your Spark Funnel, one stage per reply. For maths, don't read symbols one by one (never "open bracket"): say what each step DOES and why ("take 4x away from both sides, so all the x's are together"), one step per sentence, then the answer and how you know it's right. You may add the key equation on its own line inside \\[ \\] so they can see it on screen, and for a maths problem end with one line "**Answer:** …" in symbols; both are shown, not read aloud. Everything else is spoken words ("x equals six", "three quarters").`;
 const TTS_MODELS = ['gemini-3.1-flash-tts-preview', 'gemini-3.8-flash-tts', 'gemini-2.5-flash-preview-tts'];
 let Rec = window.SpeechRecognition || window.webkitSpeechRecognition; // let: tests swap in a fake recogniser
 const V = { open: false, state: 'idle', rec: null, audio: null, auto: true, ttsDown: false };
@@ -1840,7 +1840,7 @@ function playClip(url, id, sentences, onCaption) {
     a.onpause = () => { if (id !== SPEAK_ID) done(true); };
     // Every voice model talks at its own speed; play them all at one calm pace (about 125 words a minute).
     const wordCount = sentences.join(' ').split(/\s+/).filter(Boolean).length;
-    a.onloadedmetadata = () => { if (isFinite(a.duration) && a.duration > 0 && wordCount > 3) a.playbackRate = Math.min(1.15, Math.max(1, 2.4 / (wordCount / a.duration))); };
+    a.onloadedmetadata = () => { if (isFinite(a.duration) && a.duration > 0 && wordCount > 3) a.playbackRate = Math.min(1.1, Math.max(1, 1.9 / (wordCount / a.duration))); };
     a.src = url; a.preservesPitch = true; a.playbackRate = 1;
     const pr = a.play(); if (pr) pr.catch(err => { console.warn('Sound was blocked by the browser', err); done(false); });
   });

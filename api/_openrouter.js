@@ -14,7 +14,7 @@ const PROVIDER = { only: ['google-vertex', 'google-ai-studio'], allow_fallbacks:
 const TTS = process.env.OPENROUTER_TTS_MODEL || 'google/gemini-3.8-flash-tts';
 const VOICES = ['Zephyr', 'Puck', 'Charon', 'Kore', 'Fenrir', 'Leda', 'Orus', 'Aoede', 'Callirrhoe', 'Autonoe', 'Enceladus', 'Iapetus', 'Umbriel', 'Algieba', 'Despina', 'Erinome', 'Algenib', 'Rasalgethi', 'Laomedeia', 'Achernar', 'Alnilam', 'Schedar', 'Gacrux', 'Pulcherrima', 'Achird', 'Zubenelgenubi', 'Vindemiatrix', 'Sadachbia', 'Sadaltager', 'Sulafat'];
 // Delivery is sent as instructions, never inside the text, so it isn't read aloud.
-const VOICE_STYLE = 'Speak warmly and naturally, like a kind, friendly older friend explaining something to a child. Normal pace, clear, with natural pauses between sentences. Not over-excited.';
+const VOICE_STYLE = 'Neutral, standard accent: no regional, foreign or strong accent and no special character voice. Speak simply and very clearly, like a kind teacher talking to a 10-year-old: a little slower than normal conversation, every word pronounced clearly, numbers said carefully, and a short pause after each sentence. Warm and calm, not dramatic or over-excited.';
 
 /* Spark asks for Gemini model names; lighter background jobs (progress, quizzes) ask for "lite" ones. */
 function modelFor(geminiModel) {

@@ -85,8 +85,9 @@ test("OpenRouter: Sparky's voice becomes a Google TTS speech request with the ch
   assert.deepEqual({ ...sp('Puck'), instructions: undefined }, { model: OR.TTS, input: 'x equals six.', voice: 'Puck', instructions: undefined, response_format: 'pcm' });
   assert.match(OR.TTS, /^google\/gemini-.*tts/);
   assert.equal(sp('alloy').voice, 'Leda', 'unknown voices fall back to Leda');
-  assert.match(sp('Leda').instructions, /warmly/);
-  assert.doesNotMatch(sp('Leda').input, /warmly/, 'the style is never read aloud');
+  assert.match(sp('Leda').instructions, /no regional, foreign or strong accent/);
+  assert.match(sp('Leda').instructions, /10-year-old/);
+  assert.doesNotMatch(sp('Leda').input, /accent/, 'the style is never read aloud');
 });
 test('OpenRouter: lite jobs, JSON schemas, PDFs and voice models', () => {
   assert.equal(OR.toChat('gemini-3.5-flash-lite', { contents: [{ role: 'user', parts: [{ text: 'x' }] }] }).model, OR.LITE);
