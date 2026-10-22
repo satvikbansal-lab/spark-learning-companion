@@ -78,6 +78,11 @@ svg { display: block; }
 .sec-h h4 { margin: 0; font-size: 11px; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
 .sec-h .add { width: 26px; height: 26px; border-radius: 7px; display: grid; place-items: center; color: var(--muted); }
 .sec-h .add:hover { background: var(--soft); color: var(--ink); }
+.sec-toggle { display: flex; align-items: center; gap: 6px; flex: 1; min-width: 0; padding: 4px 0; border-radius: 8px; color: var(--muted); text-align: left; }
+.sec-toggle:hover, .sec-toggle:hover h4 { color: var(--ink); }
+.sec-chev { flex-shrink: 0; transition: rotate var(--t); }
+.sec-toggle[aria-expanded="true"] .sec-chev { rotate: 90deg; }
+.sec-count { margin-left: 2px; font-family: var(--mono); font-size: 11px; color: var(--muted); }
 .sec-note { margin: 0 18px 6px; font-size: 11.5px; color: var(--muted); line-height: 1.4; }
 .nb-list { padding: 0 8px; display: grid; gap: 2px; align-content: start; }
 .nb { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 8px; padding: 7px 10px; border-radius: 10px; text-align: left; width: 100%; font-size: 14px; color: var(--muted); }
@@ -729,11 +734,11 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
       <button class="nav-i" data-nav="progress" title="Progress"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h16M7 16v-4M12 16V7M17 16v-6"/></svg><span class="lbl">Progress</span></button>
     </nav>
     <div class="side-scroll">
-      <div class="sec-h"><h4>Notebooks</h4><button class="add" id="newNb" aria-label="New notebook" title="New notebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button></div>
-      <nav class="nb-list" id="nbList" aria-label="Study notebooks"></nav>
-      <div class="sec-h"><h4>Thought pages</h4><button class="add" id="newTh" aria-label="New page" title="New page"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button></div>
-      <p class="sec-note">Private pages. Spark only joins a page if you switch it on.</p>
-      <nav class="nb-list" id="thList" aria-label="My Thoughts pages"></nav>
+      <div class="sec-h"><button type="button" class="sec-toggle" data-sec="nb" aria-expanded="false" aria-controls="nbBox"><svg class="sec-chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg><h4>Notebooks</h4><span class="sec-count" id="nbCount"></span></button><button class="add" id="newNb" aria-label="New notebook" title="New notebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button></div>
+      <div id="nbBox" hidden><nav class="nb-list" id="nbList" aria-label="Study notebooks"></nav></div>
+      <div class="sec-h"><button type="button" class="sec-toggle" data-sec="th" aria-expanded="false" aria-controls="thBox"><svg class="sec-chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg><h4>Thought pages</h4><span class="sec-count" id="thCount"></span></button><button class="add" id="newTh" aria-label="New page" title="New page"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button></div>
+      <div id="thBox" hidden><p class="sec-note">Private pages. Spark only joins a page if you switch it on.</p>
+      <nav class="nb-list" id="thList" aria-label="My Thoughts pages"></nav></div>
     </div>
     <div class="side-foot">
       <button class="side-btn" id="openParent" title="Parent view"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19a5.5 5.5 0 0 1 11 0"/><circle cx="17" cy="9.5" r="2.4"/><path d="M15.2 14.6A4.5 4.5 0 0 1 21 19"/></svg><span class="lbl">Parent view</span></button>
@@ -976,14 +981,28 @@ function renderSide() {
   $('#thList').innerHTML = S.thoughts.slice().sort((a, b) => b.updated - a.updated).map(t =>
     `<button class="nb ${S.mode === 'thought' && t.id === S.activeThoughtId ? 'active' : ''}" data-id="${t.id}"><span class="t">${esc(t.title || 'Untitled page')}</span><span class="c">${t.chatOn ? 'Spark · ' : ''}${day(t.updated)}</span></button>`).join('');
   $('#memCount').textContent = S.memories.length;
+  applySections();
   document.querySelectorAll('#mainNav [data-nav]').forEach(b => { if (b.dataset.nav === S.mode) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current'); });
 }
 const closeDrawer = () => $('#app').classList.remove('drawer');
+/* Notebooks and Thought pages fold open and closed; Spark remembers which are open. */
+function applySections() {
+  const open = S.settings.open || {};
+  for (const [k, box, list] of [['nb', 'nbBox', S.notebooks], ['th', 'thBox', S.thoughts]]) {
+    const b = document.querySelector(`.sec-toggle[data-sec="${k}"]`); if (!b) continue;
+    $('#' + box).hidden = !open[k];
+    b.setAttribute('aria-expanded', String(!!open[k]));
+    b.title = open[k] ? 'Hide' : 'Show all';
+    $('#' + k + 'Count').textContent = open[k] ? '' : `· ${list.length}`;
+  }
+}
+function setSection(k, on) { S.settings.open = Object.assign({}, S.settings.open, { [k]: on }); save(); applySections(); }
+document.querySelectorAll('.sec-toggle').forEach(b => { b.onclick = () => setSection(b.dataset.sec, !((S.settings.open || {})[b.dataset.sec])); });
 function focusTitle() { const t = $('#titleIn'); t.focus(); t.select(); }
 $('#nbList').onclick = e => { const b = e.target.closest('.nb'); if (!b) return; S.mode = 'nb'; S.activeId = b.dataset.id; save(); closeDrawer(); render(); };
 $('#thList').onclick = e => { const b = e.target.closest('.nb'); if (!b) return; S.mode = 'thought'; S.activeThoughtId = b.dataset.id; save(); closeDrawer(); render(); };
-$('#newNb').onclick = () => { const n = newNotebook('New notebook'); S.notebooks.unshift(n); S.activeId = n.id; S.mode = 'nb'; S.tab = 'chat'; save(); render(); closeDrawer(); focusTitle(); };
-$('#newTh').onclick = () => { const t = newThought('Untitled page'); S.thoughts.unshift(t); S.activeThoughtId = t.id; S.mode = 'thought'; save(); render(); closeDrawer(); focusTitle(); };
+$('#newNb').onclick = () => { setSection('nb', true); const n = newNotebook('New notebook'); S.notebooks.unshift(n); S.activeId = n.id; S.mode = 'nb'; S.tab = 'chat'; save(); render(); closeDrawer(); focusTitle(); };
+$('#newTh').onclick = () => { setSection('th', true); const t = newThought('Untitled page'); S.thoughts.unshift(t); S.activeThoughtId = t.id; S.mode = 'thought'; save(); render(); closeDrawer(); focusTitle(); };
 $('#menuBtn').onclick = () => $('#app').classList.toggle('drawer');
 document.querySelector('.main').addEventListener('click', e => { if ($('#app').classList.contains('drawer') && !e.target.closest('#menuBtn')) closeDrawer(); });
 
