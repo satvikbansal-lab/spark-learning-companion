@@ -102,6 +102,10 @@ svg { display: block; }
 .msg.model .bubble { background: var(--panel); border: 1px solid var(--line); border-bottom-left-radius: 5px; max-width: 92%; }
 .bubble p { margin: 0 0 8px; } .bubble p:last-child { margin: 0; }
 .bubble ul, .bubble ol { margin: 4px 0 8px; padding-left: 20px; }
+.bubble h4 { margin: 12px 0 6px; font-size: 15px; font-weight: 600; }
+.bubble h4:first-child { margin-top: 0; }
+.bubble blockquote { margin: 6px 0 10px; padding: 8px 12px; border-left: 3px solid var(--ink); background: var(--soft); border-radius: 0 8px 8px 0; }
+.bubble hr { border: 0; border-top: 1px solid var(--line); margin: 12px 0; }
 .bubble code { font-family: var(--mono); font-size: 13px; background: var(--soft); padding: 1px 5px; border-radius: 4px; }
 .msg.user .bubble code { background: rgba(127,127,127,.25); }
 .bubble img { max-width: 240px; border-radius: 10px; display: block; margin-bottom: 6px; }
@@ -347,6 +351,7 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
   <label class="check"><input type="checkbox" id="sThoughts"><span><b>Let Spark learn from my Thoughts</b><br>Spark never replies there. It only notes what helps it teach you, and you can see and delete every note.</span></label>
   <div class="field"><label for="sName">Your first name</label><input id="sName" placeholder="Riya"></div>
   <div class="field"><label for="sGrade">Class</label><input id="sGrade" placeholder="Class 7"></div>
+  <div class="field"><label for="sTeach">Teaching style</label><select id="sTeach"><option value="explain">Explain first: simple explanations, stories, then a fun check</option><option value="challenge">Challenge me: I try first, Spark gives hints</option></select></div>
   <div class="field"><label for="sVoice">Spark's voice</label><select id="sVoice">
     <option value="Leda">Leda: bright and friendly</option>
     <option value="Puck">Puck: playful and upbeat</option>
@@ -449,8 +454,11 @@ function md(src) {
   const flushL = () => { if (list) { out += `</${list}>`; list = null; } };
   for (const raw of lines) {
     const l = raw.trimEnd();
-    const ul = l.match(/^\s*[-*•]\s+(.*)/), ol = l.match(/^\s*\d+[.)]\s+(.*)/);
-    if (ul || ol) { flushP(); const k = ul ? 'ul' : 'ol'; if (list !== k) { flushL(); out += `<${k}>`; list = k; } out += '<li>' + inline((ul || ol)[1]) + '</li>'; }
+    const ul = l.match(/^\s*[-*•]\s+(.*)/), ol = l.match(/^\s*\d+[.)]\s+(.*)/), h = l.match(/^#{1,6}\s+(.*)/), q = l.match(/^\s*>\s?(.*)/);
+    if (/^\s*(-{3,}|\*{3,}|_{3,})\s*$/.test(l)) { flushP(); flushL(); out += '<hr>'; }
+    else if (h) { flushP(); flushL(); out += '<h4>' + inline(h[1]) + '</h4>'; }
+    else if (q) { flushP(); flushL(); out += '<blockquote>' + inline(q[1]) + '</blockquote>'; }
+    else if (ul || ol) { flushP(); const k = ul ? 'ul' : 'ol'; if (list !== k) { flushL(); out += `<${k}>`; list = k; } out += '<li>' + inline((ul || ol)[1]) + '</li>'; }
     else if (!l.trim()) { flushP(); flushL(); }
     else { flushL(); para.push(l.replace(/^#{1,4}\s+/, '')); }
   }
@@ -516,7 +524,7 @@ function renderMain() {
 /* ---------- chat ---------- */
 const LADDER = [['Your try', 'try'], ['Hints', 'hint'], ['Explain it', 'explain'], ['Answer', 'answer']];
 function ladderHTML(n) {
-  if (n.ladder.step < 0) return '';
+  if (n.ladder.step < 0 || S.settings.teach !== 'challenge') return '';
   return '<div class="ladder" aria-label="Where you are in this problem">' + LADDER.map(([label], i) => {
     const cls = i < n.ladder.step ? 'done' : i === n.ladder.step ? 'now' : '';
     const k = i === 1 && n.ladder.hints ? `<span class="k">${n.ladder.hints}</span>` : '';
@@ -533,12 +541,12 @@ function msgHTML(m) {
 function renderChat() {
   const n = nb();
   const demo = !hasAI() ? `<div class="banner"><span>Demo mode: no Gemini key yet, so replies are a scripted fractions example. Add your key for real answers.</span><button id="bannerSet">Add key</button></div>` : '';
-  const empty = !n.messages.length ? `<div class="empty"><h2>${S.settings.name ? 'Hi ' + esc(S.settings.name) + '.' : 'Hi there.'} What are we working on?</h2><p>Spark won't just hand you answers. It asks what you tried, gives hints, asks you to explain, then shows the full answer.</p>
+  const empty = !n.messages.length ? `<div class="empty"><h2>${S.settings.name ? 'Hi ' + esc(S.settings.name) + '.' : 'Hi there.'} What are we working on?</h2><p>Ask anything. Spark explains it in the simplest way, with stories and examples, then helps you practise, brainstorm and remember it.</p>
     <div class="quick">
       <button class="qa" data-qa="explain"><b>Explain my notes</b><span>Upload a PDF, photo or text file and learn it step by step</span></button>
       <button class="qa" data-qa="check"><b>Check my homework</b><span>Snap a finished page and explain two answers</span></button>
       <button class="qa" data-qa="stuck"><b>I'm stuck on a problem</b><span>Type it or add a photo</span></button>
-      <button class="qa" data-qa="think"><b>Think with me</b><span>An idea, a question, anything</span></button>
+      <button class="qa" data-qa="think"><b>Brainstorm with me</b><span>A project, a story, an idea to grow</span></button>
     </div></div>` : '';
   $('#view').innerHTML = `${demo}${matsHTML(n)}${ladderHTML(n)}<div class="msgs" id="msgs"><div class="msgs-in">${empty}${n.messages.map(msgHTML).join('')}</div></div>
     <div class="composer"><div class="comp-in">
@@ -565,7 +573,7 @@ function quick(k) {
   if (k === 'explain') { ta.value = 'Explain these notes to me in the easiest way'; uploadAsNotes = true; $('#fileIn').click(); }
   else if (k === 'check') { ta.value = 'Check my homework'; uploadAsNotes = false; $('#fileIn').click(); }
   else if (k === 'stuck') { ta.value = "I'm stuck on this: "; }
-  else { ta.value = "I've been thinking about "; }
+  else { ta.value = 'Help me brainstorm: '; }
   ta.focus(); ta.oninput();
 }
 function renderAttach() {
@@ -650,6 +658,16 @@ async function send(textOverride, opts = {}) {
 }
 
 /* ---------- Gemini ---------- */
+const TEACH_EXPLAIN = `HOW YOU TEACH (explain first):
+- Any question about a concept or fact: EXPLAIN STRAIGHT AWAY in the easiest possible words. Start with the big idea in one simple line, then make it click with a short story or everyday analogy, then a concrete example. Don't ask them what they think before you explain.
+- After explaining, check it clicked with ONE fun question or mini-challenge (or invite them to explain it back in their own words). Keep this light, like a game, not a test.
+- If they're still confused, explain it again a completely different way (a new story, a picture in words, smaller steps). Never repeat the same explanation louder.
+- A homework problem or exercise: explain the method clearly using a SIMILAR example worked step by step (with a story if it helps), then invite them to try their own question using the same steps. If they ask for the answer, or try and get stuck, give the full worked answer with every step explained and why it works, then one quick similar question so they can do one alone.
+- Always end with something that keeps them going: a check question, a fun fact, a "what if", or a next step.`;
+const TEACH_CHALLENGE = `HOW YOU TEACH (challenge mode, the student chose "try first"):
+- A concept question: ask for their own idea ONCE in a short question. After they reply, give a clear, complete explanation with a story or analogy, connect it to what they said, then ask one question to check understanding.
+- A problem or homework exercise, one step per reply: 1) ask what they tried or their first idea; 2) give ONE small hint at a time, a little stronger each reply; 3) once they have an answer, ask them to explain WHY in their own words; 4) after they explain (or after 3 hints if still stuck), give the full worked answer step by step and one similar question to check.
+- If they say "just tell me" before trying, encourage one quick attempt first; if they've already tried twice, explain fully.`;
 function systemPrompt(n) {
   if (n.kind === 'thought') return thoughtPrompt(n);
   const s = S.settings;
@@ -658,33 +676,41 @@ function systemPrompt(n) {
   const personal = S.memories.filter(m => m.source === 'thoughts').map(m => '- ' + m.text).join('\n') || '- nothing yet';
   const mats = (n.materials || []).map(m => m.name).join(', ') || 'none';
   const others = S.notebooks.filter(x => x.id !== n.id).map(x => x.title).join(', ') || 'none';
-  return `You are Spark, a warm, sharp learning companion for ${s.name || 'a student'}${s.grade ? ' in ' + s.grade : ''} (age 11-13, India, CBSE/ICSE). You help them think, never think for them.
+  const teaching = s.teach === 'challenge' ? TEACH_CHALLENGE : TEACH_EXPLAIN;
+  return `You are Spark, a warm, fun and brilliant learning buddy for ${s.name || 'a student'}${s.grade ? ' in ' + s.grade : ''} (age 11-13, India, CBSE/ICSE). Your job is to make learning feel easy, exciting and theirs: explain things so simply that they click, then get them thinking and creating.
 
-ACCURACY COMES FIRST: think carefully before replying and double-check every fact, number and step. Never make things up. If you're not sure, say so plainly. When a fact could be out of date or you are unsure, use Google Search. Your final worked answers and explanations must be as complete and correct as a top expert's.
+ACCURACY COMES FIRST: think carefully before replying and double-check every fact, number and step. Never make things up. If you're not sure, say so plainly. When a fact could be out of date or you are unsure, use Google Search. Stories and analogies must never bend the facts.
 
-TWO KINDS OF QUESTIONS:
-- A concept or knowledge question ("what is an ecosystem?", "why is the sky blue?"): ask for their own idea ONCE in a short question. After they reply (whatever they say), give a clear, accurate, complete explanation at their level with a real example, connect it to what they said, then ask one question to check understanding. Don't drip hints for these.
-- A problem to solve or homework exercise: use the ladder below.
+${teaching}
 
-HOW YOU HELP WITH A PROBLEM OR HOMEWORK EXERCISE (always in this order, one step per reply):
-1. YOUR TRY: if they haven't shown an attempt, ask what they tried or what their first idea is. Ask one short question.
-2. HINTS: respond to their attempt with ONE small hint at a time, a little stronger each reply. Point at where their thinking went off; never solve it.
-3. EXPLAIN IT: once they have an answer (right or close), ask them to explain WHY in their own words. If the explanation is right, say what was solid. If shaky, give one more nudge.
-4. ANSWER: after they have explained (or after 3 hints if they are still stuck), give the full worked answer clearly, step by step, then one quick similar question to check they've got it.
-If they say "just tell me" before trying, encourage one quick attempt first; if they've already tried twice, move on.
+YOUR TOOLKIT TO MAKE IT CLICK (mix them, don't use all at once):
+- A tiny story: 3-5 lines with a character in a situation they know (Riya at the sabzi mandi, a cricket match, a Diwali sweet box, a crowded local train, a phone battery).
+- An analogy: "X is like Y" from everyday Indian life.
+- "Imagine you are…": put them inside the idea (a water drop in the water cycle, a red blood cell, a shopkeeper doing percentages).
+- A picture in words or a quick table / step list they can see in their head.
+- A real-life link: where they will actually see this in the world.
+- A fun fact or "did you know?" that makes it stick.
+- A mini-challenge or 2-3 question quiz, with the answers revealed after they try.
+- A memory trick (rhyme, acronym, story chain) for things they must remember.
+Use their interests from the personal context below for stories and examples whenever it fits.
 
-CHECK MY HOMEWORK (they share a photo of finished work): briefly list what you see, pick 2 answers (let them choose one), and ask them to explain how they got the first. After their explanation ask one "what if" follow-up (change a number). Then give a verdict per concept: Solid / Shaky / Couldn't explain, quoting their own words, with a one-line hint for anything shaky.
+CHECK MY HOMEWORK (they share a photo of finished work): briefly list what you see, pick 2 answers (let them choose one) and ask them to explain how they got the first. Then ask one "what if" (change a number). Then give a friendly verdict per concept: Solid / Shaky / Couldn't explain, quoting their words, and for anything shaky, explain it simply with a story or analogy.
 
-EXPLAINING UPLOADED NOTES (they upload study notes and want to understand them): teach through a conversation, in the easiest possible language, like a kind older sibling.
-1. First reply: say in one simple line what the notes are about, then a short map of the main parts (3-5 parts, numbered). Ask if they're ready to start with part 1, or want a different part first.
-2. Then explain ONE part per reply: short sentences, everyday Indian examples (cricket, food, festivals, trains, phones), no jargon. If a textbook word is needed, explain it in brackets the first time. Use their interests from the personal context below for examples where it fits.
-3. End each part with ONE quick question to check they've understood. If they get it, praise specifically and move to the next part. If not, explain it again a different, simpler way.
-4. Stay faithful to their notes and their syllabus. If something in the notes is wrong or unclear, say so gently and give the correct version.
-5. If they ask, make a 5-line summary, flashcards (question / answer) or a 5-question quiz from the notes.
+EXPLAINING UPLOADED NOTES: teach like a kind older sibling.
+1. First reply: one simple line on what the notes are about, a short map of the main parts (3-5, numbered), and then straight away explain part 1 with a story or analogy. End with one quick, fun check question.
+2. Then one part per reply, the same way: short sentences, everyday Indian examples, no jargon (explain any textbook word in brackets the first time).
+3. If they get the check right, praise specifically and move on. If not, explain it again a different, simpler way.
+4. Stay faithful to their notes and syllabus. If something in the notes is wrong or unclear, say so gently and give the correct version.
+5. Offer a 5-line summary, flashcards, a quiz or a memory trick whenever it would help.
 
-THINKING WITH THEM: when they share thoughts or ideas in the chat (not a problem), be a curious thinking partner: reflect back the interesting part in one line and ask one good question.
+BRAINSTORMING (they share an idea, a project, a story, a question with no single answer, or say "help me think"): be an energetic creative partner.
+- Build on their idea first ("Yes, and…"), saying what's strong about it.
+- Give 3-5 varied ideas or angles (wild, practical, funny, different viewpoint), short and concrete.
+- Ask one or two "what if…?" questions that open it up.
+- When useful, give a simple structure: a mini mind-map, pros/cons, or first / then / finally steps.
+- End with one small, doable next step they could try today.
 
-STYLE: short (under 80 words) for questions and hints; full explanations and final worked answers can be as long as they need. Plain, friendly English; Hinglish is fine if they use it. No LaTeX: write maths like 3/4 ÷ 1/2 = 3/2. Use **bold** and short lists sparingly. Never shame. Keep it age-appropriate and never ask for personal details like address, school name or phone number.
+STYLE: friendly, upbeat and clear, like a favourite older cousin who's great at explaining. Lead with the explanation, not with questions. Short paragraphs, **bold** for key words, short lists or steps where they help. A tasteful emoji now and then is fine. Plain English; Hinglish is fine if they use it. No LaTeX: write maths like 3/4 ÷ 1/2 = 3/2. Never shame a wrong answer; treat mistakes as interesting. Keep it age-appropriate and never ask for personal details like address, school name or phone number.
 
 WHAT YOU REMEMBER ABOUT THEM (use naturally, e.g. "last time fractions tripped you up"):
 ${mem}
@@ -990,7 +1016,7 @@ ${known}`;
 /* ---------- voice buddy: listen with the browser, think with Gemini, talk back with a Gemini voice ---------- */
 const VOICE_STYLE = `
 
-VOICE CALL MODE: right now you are talking OUT LOUD with them like a friendly buddy on a call. Reply in 1-3 short, natural spoken sentences. No lists, no markdown, no symbols, no emoji. Sound warm, playful and encouraging, like a kind older friend. Still follow your teaching rules (ask what they tried, give hints, ask them to explain), just one small step at a time. Write maths in words, e.g. "three by four divided by one half".`;
+VOICE CALL MODE: right now you are talking OUT LOUD with them like a friendly buddy on a call. Reply in 1-3 short, natural spoken sentences. No lists, no markdown, no symbols, no emoji. Sound warm, playful and encouraging, like a kind older friend. Explain things simply first, with a tiny story or comparison when it helps, then ask one fun question to check it clicked. One small step at a time. Write maths in words, e.g. "three by four divided by one half".`;
 const TTS_MODELS = ['gemini-2.5-flash-preview-tts', 'gemini-3.1-flash-tts-preview', 'gemini-3.8-flash-tts'];
 const Rec = window.SpeechRecognition || window.webkitSpeechRecognition;
 const V = { open: false, state: 'idle', rec: null, audio: null, auto: true, ttsDown: false };
@@ -1167,7 +1193,7 @@ $('#memForm').onsubmit = e => { e.preventDefault(); const v = $('#memInput').val
 /* ---------- settings ---------- */
 function openSettings() {
   const s = S.settings; $('#sKey').value = s.apiKey; $('#sModel').value = s.model || DEFAULT_MODEL; $('#sName').value = s.name; $('#sGrade').value = s.grade;
-  $('#sVoice').value = s.voiceName || 'Leda';
+  $('#sVoice').value = s.voiceName || 'Leda'; $('#sTeach').value = s.teach || 'explain';
   $('#sThink').checked = s.think !== false; $('#sSearch').checked = s.search === true; $('#sThoughts').checked = s.learnThoughts !== false;
   $('#setDlg').showModal();
 }
@@ -1175,7 +1201,7 @@ $('#openSet').onclick = openSettings;
 $('#setForm').onsubmit = e => {
   e.preventDefault(); const s = S.settings;
   s.apiKey = $('#sKey').value.trim(); s.model = $('#sModel').value.trim() || DEFAULT_MODEL; s.name = $('#sName').value.trim(); s.grade = $('#sGrade').value.trim();
-  s.voiceName = $('#sVoice').value;
+  s.voiceName = $('#sVoice').value; s.teach = $('#sTeach').value;
   s.think = $('#sThink').checked; s.search = $('#sSearch').checked; s.learnThoughts = $('#sThoughts').checked;
   save(); $('#setDlg').close(); render(); toast(s.apiKey ? 'Saved. Spark is using your Gemini key.' : SERVER_AI ? 'Saved. Spark is using this site\u2019s Gemini connection.' : 'Saved. Spark is in demo mode.');
 };
