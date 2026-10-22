@@ -439,8 +439,8 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
   <div class="field"><label for="sBuddyName">Your buddy's name</label><input id="sBuddyName" maxlength="20" placeholder="Sparky"></div>
   <label class="check"><input type="checkbox" id="sAutoRead"><span><b>Read every answer aloud</b><br>Sparky walks in and reads each new answer in your study notebooks.</span></label>
   <div class="field"><label for="sVoice">Sparky's voice</label><select id="sVoice">
-    <option value="Leda">Leda: bright and friendly</option>
-    <option value="Puck">Puck: playful and upbeat</option>
+    <option value="Leda">Leda: young and friendly (recommended)</option>
+    <option value="Puck">Puck: young and lively</option>
     <option value="Aoede">Aoede: light and breezy</option>
     <option value="Kore">Kore: calm and clear</option>
     <option value="Zephyr">Zephyr: cheerful</option>
@@ -1253,6 +1253,7 @@ let SILENT_URL = null;
 function unlockAudio() {
   if (!AUDIO_UNLOCKED && PLAYER.paused) {
     try {
+      PLAYER.playbackRate = 1;
       SILENT_URL = SILENT_URL || URL.createObjectURL(pcmToWav(btoa(String.fromCharCode.apply(null, new Uint8Array(2400))), 24000));
       PLAYER.src = SILENT_URL;
       const pr = PLAYER.play(); if (pr) pr.then(() => { AUDIO_UNLOCKED = true; }).catch(() => {});
@@ -1288,7 +1289,7 @@ async function fetchVoice(words, voiceName) {
   const order = [...new Set([V.ttsModel, ...TTS_MODELS].filter(Boolean))]; let last;
   for (const model of order) {
     const r = await aiPost(model, false, {
-      contents: [{ role: 'user', parts: [{ text: `Say this warmly and cheerfully, like a kind, playful best friend talking to an 11-year-old: ${words}` }] }],
+      contents: [{ role: 'user', parts: [{ text: `Read this aloud in a natural, neutral accent, like a friendly 12-year-old kid talking normally. Speak clearly at a relaxed, normal pace, calm and simple. No acting, no dramatic voices, no over-excitement: ${words}` }] }],
       generationConfig: { responseModalities: ['AUDIO'], speechConfig: { voiceConfig: { prebuiltVoiceConfig: { voiceName } } } }
     });
     if (!r.ok) { last = r.status; continue; }
@@ -1312,13 +1313,16 @@ function playClip(url, id, sentences, onCaption) {
       const at = a.currentTime / a.duration * total; let acc = 0;
       for (const x of sentences) { acc += x.length; if (acc >= at) { onCaption(x); break; } }
     };
-    const done = ok => { if (finished) return; finished = true; a.ontimeupdate = a.onplaying = a.onended = a.onerror = a.onpause = null; URL.revokeObjectURL(url); res(ok); };
+    const done = ok => { if (finished) return; finished = true; a.ontimeupdate = a.onplaying = a.onended = a.onerror = a.onpause = a.onloadedmetadata = null; URL.revokeObjectURL(url); res(ok); };
     a.ontimeupdate = caption;
     a.onplaying = () => { started = true; if (onCaption && sentences[0]) onCaption(sentences[0]); };
     a.onended = () => done(true);
     a.onerror = () => done(started);
     a.onpause = () => { if (id !== SPEAK_ID) done(true); };
-    a.src = url;
+    // Every voice model talks at its own speed; play them all at one calm pace (about 125 words a minute).
+    const wordCount = sentences.join(' ').split(/\s+/).filter(Boolean).length;
+    a.onloadedmetadata = () => { if (isFinite(a.duration) && a.duration > 0 && wordCount > 3) a.playbackRate = Math.min(1.6, Math.max(0.9, 2.1 / (wordCount / a.duration))); };
+    a.src = url; a.preservesPitch = true; a.playbackRate = 1;
     const pr = a.play(); if (pr) pr.catch(err => { console.warn('Sound was blocked by the browser', err); done(false); });
   });
 }
@@ -1335,13 +1339,13 @@ function pcmToWav(b64data, rate) {
 async function speakBrowser(sentences, id, onCaption) {
   if (!('speechSynthesis' in window)) return false;
   const voices = speechSynthesis.getVoices();
-  const voice = voices.find(v => /en-IN/i.test(v.lang) && /female|veena|heera|neerja/i.test(v.name)) || voices.find(v => /en-IN/i.test(v.lang)) || voices.find(v => /Samantha|Google UK English Female|Google US English/i.test(v.name)) || null;
+  const voice = voices.find(v => /Google US English|Samantha|Ava|Allison|Google UK English Female|Microsoft (Aria|Jenny|Ana)/i.test(v.name)) || voices.find(v => /^en[-_](US|GB)/i.test(v.lang)) || voices.find(v => /^en/i.test(v.lang)) || null;
   speechSynthesis.cancel();
   let heard = false;
   for (const line of sentences) {
     if (id !== SPEAK_ID) return true;
     const ok = await new Promise(res => {
-      const u = new SpeechSynthesisUtterance(line); u.voice = voice; u.pitch = 1.25; u.rate = 1.03;
+      const u = new SpeechSynthesisUtterance(line); u.voice = voice; if (voice) u.lang = voice.lang; u.pitch = 1.15; u.rate = 0.88;
       const timer = setTimeout(() => res(heard), 20000);
       u.onstart = () => { heard = true; if (onCaption) onCaption(line); };
       u.onend = () => { clearTimeout(timer); res(true); };
