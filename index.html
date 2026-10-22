@@ -1500,7 +1500,7 @@ function playClip(url, id, sentences, onCaption) {
     a.onpause = () => { if (id !== SPEAK_ID) done(true); };
     // Every voice model talks at its own speed; play them all at one calm pace (about 125 words a minute).
     const wordCount = sentences.join(' ').split(/\s+/).filter(Boolean).length;
-    a.onloadedmetadata = () => { if (isFinite(a.duration) && a.duration > 0 && wordCount > 3) a.playbackRate = Math.min(1.6, Math.max(0.9, 2.1 / (wordCount / a.duration))); };
+    a.onloadedmetadata = () => { if (isFinite(a.duration) && a.duration > 0 && wordCount > 3) a.playbackRate = Math.min(1.15, Math.max(1, 2.4 / (wordCount / a.duration))); };
     a.src = url; a.preservesPitch = true; a.playbackRate = 1;
     const pr = a.play(); if (pr) pr.catch(err => { console.warn('Sound was blocked by the browser', err); done(false); });
   });
@@ -1518,9 +1518,14 @@ function pcmToWav(b64data, rate) {
 async function speakBrowser(sentences, id, onCaption, code = 'en', spoken = '') {
   if (!('speechSynthesis' in window)) return false;
   const voices = speechSynthesis.getVoices();
-  const find = c => c === 'en'
-    ? voices.find(v => /Google US English|Samantha|Ava|Allison|Google UK English Female|Microsoft (Aria|Jenny|Ana)/i.test(v.name)) || voices.find(v => /^en[-_](US|GB)/i.test(v.lang)) || voices.find(v => /^en/i.test(v.lang)) || null
-    : voices.find(v => v.lang.replace('_', '-').toLowerCase() === LANGS[c].bcp.toLowerCase()) || voices.find(v => v.lang.toLowerCase().startsWith(c)) || null;
+  // Prefer natural-sounding voices (Edge "Natural", Chrome "Google", Apple "Premium/Enhanced") and skip novelty voices.
+  const NOVELTY = /Albert|Bad News|Bahh|Bells|Boing|Bubbles|Cellos|Deranged|Good News|Hysterical|Jester|Junior|Organ|Superstar|Trinoids|Whisper|Wobble|Zarvox|Fred|Ralph|Kathy|Grandma|Grandpa|Rocko|Shelley|Eddy|Flo|Reed|Sandy/i;
+  const score = v => (/Natural|Neural|Online/i.test(v.name) ? 6 : 0) + (/Premium|Enhanced/i.test(v.name) ? 5 : 0) + (/Google/i.test(v.name) ? 4 : 0)
+    + (/Samantha|Ava|Allison|Aria|Jenny|Ana|Swara|Lekha|Kalpana|Heera/i.test(v.name) ? 2 : 0) + (/^en[-_](US|GB|IN)/i.test(v.lang) ? 1 : 0);
+  const find = c => {
+    const pool = voices.filter(v => !NOVELTY.test(v.name) && (c === 'en' ? /^en/i.test(v.lang) : v.lang.toLowerCase().replace('_', '-').startsWith(c)));
+    return pool.sort((a, b) => score(b) - score(a))[0] || null;
+  };
   let voice = find(code), lines = sentences;
   const native = spoken && spoken !== sentences.join(' ') ? (spoken.match(/[^.!?।\n]+[.!?।]*\s*/g) || [spoken]).map(x => x.trim()).filter(Boolean) : null;
   if (voice && native) lines = native;
@@ -1533,7 +1538,7 @@ async function speakBrowser(sentences, id, onCaption, code = 'en', spoken = '') 
     if (id !== SPEAK_ID) return true;
     const line = lines[i], shown = lines === sentences ? line : sentences[Math.min(Math.round(i * sentences.length / lines.length), sentences.length - 1)];
     const ok = await new Promise(res => {
-      const u = new SpeechSynthesisUtterance(line); u.voice = voice; u.lang = voice ? voice.lang : 'en-IN'; u.pitch = 1.15; u.rate = 0.88;
+      const u = new SpeechSynthesisUtterance(line); u.voice = voice; u.lang = voice ? voice.lang : 'en-IN'; u.pitch = 1; u.rate = 0.95;
       let started = false;
       const begin = () => { if (started) return; started = true; heard = true; if (onCaption) onCaption(shown); };
       // Some browsers never fire start/end events, so also watch speechSynthesis.speaking and use a time estimate.
