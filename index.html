@@ -109,6 +109,106 @@ svg { display: block; }
 .icon-btn { width: 36px; height: 36px; display: grid; place-items: center; border-radius: 10px; }
 .icon-btn:hover { background: var(--soft); }
 .bulb svg .glass { fill: none; transition: fill .25s; }
+:root[data-theme="warm"] {
+  --bg: #FFF7EE;
+  --panel: #FFFCF8;
+  --soft: #F6EBDD;
+  --line: #EADBC8;
+  --ink: #2E2219;
+  --muted: #7A6654;
+  --inv-bg: #2E2219;
+  --inv-ink: #FFF7EE;
+  --accent: #E2577F;
+  --accent-soft: #FCE9E6;
+  --accent-ink: #FFFFFF;
+  --accent-text: #B2365E;
+  --good: #2E8B57;
+  --bad: #C8453C;
+  --shadow: 0 1px 2px rgba(80, 50, 20, .05), 0 4px 16px rgba(80, 50, 20, .08);
+  color-scheme: light;
+}
+:root[data-theme="warm"] .bulb svg .glass { fill: #FFC56B; stroke: #E59A2E; }
+:root[data-theme="warm"] .bulb { filter: drop-shadow(0 0 5px rgba(255, 170, 70, .55)); }
+:root[data-theme="sunny"] {
+  --bg: #FFFBE8;
+  --panel: #FFFEF6;
+  --soft: #FBF1C9;
+  --line: #F0E2A6;
+  --ink: #2A2410;
+  --muted: #6E6232;
+  --inv-bg: #2A2410;
+  --inv-ink: #FFFBE8;
+  --accent: #E8710A;
+  --accent-soft: #FFF0D6;
+  --accent-ink: #FFFFFF;
+  --accent-text: #A84B05;
+  --good: #2E8B57;
+  --bad: #C8453C;
+  --shadow: 0 1px 2px rgba(90,70,0,.05), 0 4px 16px rgba(90,70,0,.08);
+  color-scheme: light;
+}
+:root[data-theme="sunny"] .bulb svg .glass { fill: #FFD23F; stroke: #FFD23F; }
+:root[data-theme="sunny"] .bulb { filter: drop-shadow(0 0 5px rgba(255,200,40,.65)); }
+:root[data-theme="ocean"] {
+  --bg: #F2F8FC;
+  --panel: #FFFFFF;
+  --soft: #E6F1F8;
+  --line: #D3E4EF;
+  --ink: #0F2533;
+  --muted: #4F6B7C;
+  --inv-bg: #0F2533;
+  --inv-ink: #F2F8FC;
+  --accent: #1E88C8;
+  --accent-soft: #E3F2FB;
+  --accent-ink: #FFFFFF;
+  --accent-text: #0F6496;
+  --good: #1F9D63;
+  --bad: #D9434A;
+  --shadow: 0 1px 2px rgba(10,40,60,.05), 0 4px 16px rgba(10,40,60,.08);
+  color-scheme: light;
+}
+:root[data-theme="ocean"] .bulb svg .glass { fill: #7CC8F2; stroke: #7CC8F2; }
+:root[data-theme="ocean"] .bulb { filter: drop-shadow(0 0 5px rgba(60,160,230,.55)); }
+:root[data-theme="forest"] {
+  --bg: #F3F8F1;
+  --panel: #FFFFFF;
+  --soft: #E7F0E3;
+  --line: #D3E3CD;
+  --ink: #18271A;
+  --muted: #54695A;
+  --inv-bg: #18271A;
+  --inv-ink: #F3F8F1;
+  --accent: #2F9E5B;
+  --accent-soft: #E4F4E9;
+  --accent-ink: #FFFFFF;
+  --accent-text: #1C7340;
+  --good: #1F9D63;
+  --bad: #D9434A;
+  --shadow: 0 1px 2px rgba(20,50,20,.05), 0 4px 16px rgba(20,50,20,.08);
+  color-scheme: light;
+}
+:root[data-theme="forest"] .bulb svg .glass { fill: #8FD9A8; stroke: #8FD9A8; }
+:root[data-theme="forest"] .bulb { filter: drop-shadow(0 0 5px rgba(60,180,100,.55)); }
+:root[data-theme="ambient"] {
+  --bg: #1A1726;
+  --panel: #221E33;
+  --soft: #2C2740;
+  --line: #3A3452;
+  --ink: #F1EEFA;
+  --muted: #B3ABCB;
+  --inv-bg: #F1EEFA;
+  --inv-ink: #1A1726;
+  --accent: #B794F6;
+  --accent-soft: #33294A;
+  --accent-ink: #1A1426;
+  --accent-text: #CDB4FF;
+  --good: #3DCB8A;
+  --bad: #FF6B70;
+  --shadow: 0 1px 2px rgba(0,0,0,.3), 0 6px 20px rgba(0,0,0,.25);
+  color-scheme: dark;
+}
+:root[data-theme="ambient"] .bulb svg .glass { fill: #C9A8FF; stroke: #C9A8FF; }
+:root[data-theme="ambient"] .bulb { filter: drop-shadow(0 0 5px rgba(185,145,255,.6)); }
 :root[data-theme="dark"] .bulb svg .glass { fill: var(--glow); stroke: var(--glow); }
 :root[data-theme="dark"] .bulb { filter: drop-shadow(0 0 6px rgba(245,197,66,.55)); }
 
@@ -595,12 +695,12 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
 .main { position: relative; }
 .subject-bg { position: absolute; inset: 61px 0 0 0; z-index: 0; pointer-events: none; opacity: 0; transition: opacity 220ms ease; background-color: color-mix(in srgb, var(--ink) 55%, var(--accent)); -webkit-mask-image: var(--art); mask-image: var(--art); -webkit-mask-size: 280px; mask-size: 280px; -webkit-mask-repeat: repeat; mask-repeat: repeat; }
 .subject-bg.on { opacity: .065; }
-:root[data-theme="dark"] .subject-bg.on { opacity: .08; }
+:root[data-theme="dark"] .subject-bg.on, :root[data-theme="ambient"] .subject-bg.on { opacity: .08; }
 .main > .top, .main > .view { position: relative; z-index: 1; }
 /* topic icons: faint grey pictures of whatever the latest message is about; they replace the subject pattern */
 .topic-bg { position: absolute; inset: 61px 0 0 0; z-index: 0; pointer-events: none; overflow: hidden; display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); grid-auto-rows: 130px; place-items: center; opacity: 0; transition: opacity 220ms ease; filter: grayscale(1); }
 .topic-bg.on { opacity: .16; }
-:root[data-theme="dark"] .topic-bg.on { opacity: .18; }
+:root[data-theme="dark"] .topic-bg.on, :root[data-theme="ambient"] .topic-bg.on { opacity: .18; }
 .topic-bg span { font-size: 40px; line-height: 1; }
 .topic-bg span:nth-child(odd) { transform: translate(16px, 14px) rotate(-12deg); }
 .topic-bg span:nth-child(even) { transform: translate(-14px, -12px) rotate(10deg); }
@@ -719,6 +819,43 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
 .vz-loading { max-width: 92%; display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--muted); }
 .vz-sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 @media (max-width: 560px) { .vz { width: 100%; padding: 12px; } .vz-labelled, .vz-compare { grid-template-columns: 1fr; } .vz-vs { justify-self: center; } .vz-barrow { grid-template-columns: 1fr auto; } .vz-barbox { grid-column: 1 / -1; grid-row: 2; } .vz-pans { font-size: 14px; margin-top: -40px; } }
+/* disco mode: Sparky moonwalks in and DJs while the lights fade through every colour. Colours change smoothly
+   about every 1.5 s (never strobing); with reduced motion nothing moves and the colours simply change. */
+.disco { position: fixed; inset: 0; z-index: 80; background: #07070d; overflow: hidden; color: #fff; font-family: var(--font); }
+.dz-lights i { position: absolute; width: 75vmax; height: 75vmax; border-radius: 50%; filter: blur(70px); opacity: .55; transition: background-color 1.4s ease; }
+.dz-l1 { left: -25vmax; top: -30vmax; } .dz-l2 { right: -30vmax; top: 5vmax; } .dz-l3 { left: 5vmax; bottom: -40vmax; }
+.dz-beams { position: absolute; inset: -60%; background: repeating-conic-gradient(from 0deg, rgba(255,255,255,.07) 0 5deg, transparent 5deg 30deg); animation: dzSpin 22s linear infinite; }
+.dz-ball { position: absolute; top: 3vh; left: 50%; font-size: 68px; line-height: 1; translate: -50% 0; transform-origin: 50% -60px; animation: dzSwing 3s ease-in-out infinite alternate; filter: drop-shadow(0 0 18px rgba(255,255,255,.5)); }
+.dz-say { position: absolute; top: 16vh; left: 50%; translate: -50% 0; margin: 0; padding: 10px 16px; max-width: min(420px, 86vw); background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.25); border-radius: 16px; backdrop-filter: blur(6px); font-size: 17px; font-weight: 600; text-align: center; }
+.dz-say:empty { display: none; }
+.dz-sparky { position: absolute; left: 50%; bottom: calc(26vh + 40px); width: 170px; padding: 0; border: 0; background: none; cursor: pointer; translate: -50% 0; }
+.dz-sparky img { width: 100%; height: auto; display: block; filter: drop-shadow(0 12px 22px rgba(0,0,0,.5)); }
+.dz-phones { position: absolute; top: 4%; left: 50%; translate: -50% 0; font-size: 46px; opacity: 0; transition: opacity .4s; }
+.disco.dj .dz-phones { opacity: 1; }
+.disco.in .dz-sparky { animation: dzMoonIn 3.6s cubic-bezier(.35,.05,.25,1) both; }
+.disco.in .dz-sparky img, .disco.out .dz-sparky img { animation: dzGlide .42s ease-in-out infinite alternate; }
+.disco.dj .dz-sparky img { animation: dzBob .45s ease-in-out infinite alternate; }
+.disco.out .dz-sparky { animation: dzMoonOut 3s cubic-bezier(.6,0,.8,.4) both; }
+.dz-deck { position: absolute; left: 50%; bottom: 26vh; translate: -50% 0; width: min(300px, 80vw); height: 58px; display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 0 12px; border-radius: 14px; background: linear-gradient(#1d1d2b, #12121b); border: 1px solid rgba(255,255,255,.18); box-shadow: 0 10px 30px rgba(0,0,0,.5); opacity: 0; transition: opacity .5s; }
+.disco.dj .dz-deck, .disco.out .dz-deck { opacity: 1; }
+.dz-rec { width: 40px; height: 40px; border-radius: 50%; background: repeating-radial-gradient(#222 0 2px, #333 2px 4px); border: 2px solid #555; position: relative; animation: dzSpin 1.6s linear infinite; }
+.dz-rec::after { content: ""; position: absolute; inset: 14px; border-radius: 50%; background: var(--dz, #ff5cc8); transition: background-color 1.4s; }
+.dz-eq { flex: 1; display: flex; align-items: flex-end; justify-content: center; gap: 4px; height: 36px; }
+.dz-eq i { width: 8px; height: 30%; border-radius: 3px; background: var(--dz, #ff5cc8); transition: background-color 1.4s; animation: dzEq .6s ease-in-out infinite alternate; }
+.dz-eq i:nth-child(2) { animation-delay: -.2s; } .dz-eq i:nth-child(3) { animation-delay: -.45s; } .dz-eq i:nth-child(4) { animation-delay: -.1s; } .dz-eq i:nth-child(5) { animation-delay: -.35s; } .dz-eq i:nth-child(6) { animation-delay: -.5s; } .dz-eq i:nth-child(7) { animation-delay: -.25s; }
+.dz-floor { position: absolute; left: 0; right: 0; bottom: 0; height: 24vh; display: grid; grid-template-columns: repeat(8, 1fr); grid-template-rows: repeat(3, 1fr); gap: 4px; padding: 4px; transform: perspective(500px) rotateX(38deg); transform-origin: bottom; }
+.dz-floor span { border-radius: 4px; opacity: .55; transition: background-color 1.4s ease; }
+.dz-colour { position: absolute; left: 16px; bottom: 16px; margin: 0; font-size: 14px; font-weight: 600; padding: 6px 12px; border-radius: 999px; background: rgba(0,0,0,.45); }
+.dz-stop { position: absolute; right: 16px; bottom: 16px; padding: 9px 16px; border-radius: 999px; border: 1px solid rgba(255,255,255,.4); background: rgba(0,0,0,.45); color: #fff; font-weight: 600; font-size: 14px; }
+.dz-stop:hover { background: rgba(255,255,255,.15); }
+@keyframes dzSpin { to { rotate: 360deg; } }
+@keyframes dzSwing { from { rotate: -10deg; } to { rotate: 10deg; } }
+@keyframes dzMoonIn { from { left: 115%; } to { left: 50%; } }
+@keyframes dzMoonOut { from { left: 50%; } to { left: -25%; } }
+@keyframes dzGlide { from { transform: rotate(-4deg) translateY(0); } to { transform: rotate(3deg) translateY(-6px); } }
+@keyframes dzBob { from { transform: translateY(0) rotate(-3deg); } to { transform: translateY(-10px) rotate(3deg); } }
+@keyframes dzEq { from { height: 20%; } to { height: 100%; } }
+@media (max-width: 560px) { .dz-sparky { width: 130px; } .dz-say { font-size: 15px; top: 14vh; } .dz-ball { font-size: 54px; } }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
 </style>
 </head>
@@ -773,6 +910,18 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
 
 <div class="parent" id="parent" hidden role="dialog" aria-modal="true" aria-label="Parent view"><div class="pv-wrap"><button class="v-close" id="parentClose" aria-label="Close parent view">×</button><div class="pv-body" id="parentBody"></div></div></div>
 
+<div class="disco" id="disco" hidden role="dialog" aria-modal="true" aria-label="Disco mode with DJ Sparky">
+  <div class="dz-lights" aria-hidden="true"><i class="dz-l1"></i><i class="dz-l2"></i><i class="dz-l3"></i></div>
+  <div class="dz-beams" aria-hidden="true"></div>
+  <div class="dz-ball" aria-hidden="true">🪩</div>
+  <p class="dz-say" id="dzSay" aria-live="polite"></p>
+  <button class="dz-sparky" id="dzSparky" type="button" aria-label="Tap DJ Sparky to stop the party"><img data-buddy="me" src="assets/sparky-blue.webp" alt="DJ Sparky"><span class="dz-phones" aria-hidden="true">🎧</span></button>
+  <div class="dz-deck" aria-hidden="true"><span class="dz-rec"></span><div class="dz-eq"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="dz-rec"></span></div>
+  <div class="dz-floor" id="dzFloor" aria-hidden="true"></div>
+  <p class="dz-colour" id="dzColour" aria-live="polite"></p>
+  <button class="dz-stop" id="dzStop" type="button">Stop the party</button>
+</div>
+
 <div class="welcome" id="welcome" hidden role="dialog" aria-modal="true" aria-label="Welcome to Spark"><div class="wel-card" id="welBody"></div></div>
 
 <div class="voice" id="voice" hidden role="dialog" aria-modal="true" aria-label="Talk with Spark">
@@ -813,6 +962,7 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
   <div class="field"><label for="sBuddy">Your Sparky</label><select id="sBuddy"><option value="blue">Blue Sparky: cool and curious</option><option value="pink">Pink Sparky: cheerful and kind</option></select></div>
   <div class="field"><label for="sBuddyName">Your buddy's name</label><input id="sBuddyName" maxlength="20" placeholder="Sparky"></div>
   <label class="check"><input type="checkbox" id="sAutoRead"><span><b>Read every answer aloud</b><br>Sparky walks in and reads each new answer in your study notebooks.</span></label>
+  <div class="field"><label for="sTheme">Theme</label><select id="sTheme"></select><p>Or tap the bulb at the top to step through them all, ending with a disco party.</p></div>
   <div class="field"><label for="sVoice">Sparky's voice</label><select id="sVoice">
     <option value="Leda">Leda: young and friendly (recommended)</option>
     <option value="Puck">Puck: young and lively</option>
@@ -964,12 +1114,68 @@ const md = src => SparkAI.md(src, window.katex);
 window.onKatex = () => { if ((S.mode === 'nb' && S.tab === 'chat' || S.mode === 'thought') && !busy && $('#msgs')) renderConversation(); };
 
 /* ---------- theme ---------- */
-function applyTheme() { document.documentElement.setAttribute('data-theme', S.settings.theme); }
-$('#bulb').onclick = () => {
+const THEMES = { light: 'Light', warm: 'Warm light', sunny: 'Sunshine', ocean: 'Ocean', forest: 'Forest', ambient: 'Ambient', dark: 'Dark' };
+// The bulb steps through every theme, then throws a disco party, then starts again at Light.
+const NEXT_THEME = { light: 'warm', warm: 'sunny', sunny: 'ocean', ocean: 'forest', forest: 'ambient', ambient: 'dark', dark: 'disco' };
+function applyTheme() {
+  if (!THEMES[S.settings.theme]) S.settings.theme = 'light';
+  document.documentElement.setAttribute('data-theme', S.settings.theme);
+  const next = NEXT_THEME[S.settings.theme], b = $('#bulb');
+  b.title = `${THEMES[S.settings.theme]} · click for ${next === 'disco' ? 'disco mode 🪩' : THEMES[next]}`;
+  b.setAttribute('aria-label', `Theme: ${THEMES[S.settings.theme]}. Switch to ${next === 'disco' ? 'disco mode' : THEMES[next]}`);
+}
+function setTheme(t) {
   const r = document.documentElement; r.classList.add('theme-anim');
-  S.settings.theme = S.settings.theme === 'dark' ? 'light' : 'dark'; applyTheme(); save();
+  S.settings.theme = t; applyTheme(); save();
   setTimeout(() => r.classList.remove('theme-anim'), 240);
+}
+$('#bulb').onclick = () => {
+  if (DISCO) return stopDisco();
+  const next = NEXT_THEME[S.settings.theme] || 'light';
+  if (next === 'disco') startDisco(); else setTheme(next);
 };
+
+/* ---------- disco mode ----------
+   Sparky moonwalks into the middle, DJs while the lights fade through every colour one by one, then waves and
+   moonwalks off and Spark goes back to Light. The bulb, tapping Sparky, "Stop the party" or Esc end it early. */
+const DISCO_COLOURS = [['Red', '#ff3b5c'], ['Orange', '#ff8a2b'], ['Yellow', '#ffd93b'], ['Green', '#3ddc84'], ['Teal', '#2fd3c7'], ['Blue', '#3b82ff'], ['Purple', '#9b5cff'], ['Pink', '#ff5cc8']];
+let DISCO = null;
+function discoPaint(i) {
+  const c = k => DISCO_COLOURS[(i + k) % DISCO_COLOURS.length][1], d = $('#disco');
+  d.querySelector('.dz-l1').style.backgroundColor = c(0); d.querySelector('.dz-l2').style.backgroundColor = c(3); d.querySelector('.dz-l3').style.backgroundColor = c(5);
+  d.style.setProperty('--dz', c(0));
+  $('#dzFloor').querySelectorAll('span').forEach((t, k) => { t.style.backgroundColor = c(k + Math.floor(k / 8)); });
+  $('#dzColour').textContent = `🎨 ${DISCO_COLOURS[i % DISCO_COLOURS.length][0]}`;
+}
+function startDisco() {
+  const d = $('#disco'), say = t => { $('#dzSay').textContent = t; };
+  if (!$('#dzFloor').children.length) $('#dzFloor').innerHTML = '<span></span>'.repeat(24);
+  applyBuddy();
+  d.hidden = false; d.className = 'disco in'; say('Here comes DJ Sparky…'); discoPaint(0);
+  DISCO = { timers: [] };
+  let i = 0;
+  DISCO.timers.push(setTimeout(() => { d.className = 'disco dj'; say('DJ Sparky in the house! 🎶 Watch every colour light up!'); }, 3600));
+  DISCO.timers.push(setTimeout(() => {
+    const iv = setInterval(() => {
+      i++; discoPaint(i);
+      if (i === DISCO_COLOURS.length) { clearInterval(iv); say('That was every colour! Party over… bye! 👋'); DISCO.timers.push(setTimeout(() => stopDisco(true), 1800)); }
+    }, 1500);
+    DISCO.timers.push(iv);
+  }, 3600));
+  $('#dzStop').focus();
+}
+function stopDisco(finished) {
+  if (!DISCO) return;
+  const d = $('#disco'); DISCO.timers.forEach(t => { clearTimeout(t); clearInterval(t); });
+  DISCO = { timers: [] };
+  if (!finished) $('#dzSay').textContent = 'Okay, party over! Bye! 👋';
+  d.className = 'disco out';
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  DISCO.timers.push(setTimeout(() => { d.hidden = true; d.className = 'disco'; DISCO = null; setTheme('light'); $('#bulb').focus(); }, reduce ? 300 : finished ? 3000 : 1600));
+}
+$('#dzStop').onclick = () => stopDisco();
+$('#dzSparky').onclick = () => stopDisco();
+document.addEventListener('keydown', e => { if (e.key === 'Escape' && DISCO) stopDisco(); });
 
 /* ---------- sidebar ---------- */
 function renderSide() {
@@ -2457,6 +2663,7 @@ function openSettings() {
   const s = S.settings; $('#sKey').value = s.apiKey; $('#sModel').value = s.model || DEFAULT_MODEL; $('#sName').value = s.name; $('#sGrade').value = s.grade;
   $('#sBuddy').value = s.buddy || 'blue'; $('#sBuddyName').value = s.buddyName || ''; $('#sAutoRead').checked = !!s.autoRead;
   $('#sVoice').value = s.voiceName || 'Leda'; $('#sTeach').value = s.teach || 'explain';
+  $('#sTheme').innerHTML = Object.entries(THEMES).map(([k, n]) => `<option value="${k}">${n}</option>`).join('') + '<option value="disco">🪩 Disco party with DJ Sparky</option>'; $('#sTheme').value = s.theme;
   $('#sLang').innerHTML = Object.entries(LANGS).map(([k, l]) => `<option value="${k}">${l.name}</option>`).join(''); $('#sLang').value = s.lang || 'auto';
   $('#sThink').checked = s.think !== false; $('#sSearch').checked = s.search !== false; $('#sThoughts').checked = s.learnThoughts !== false;
   $('#setDlg').showModal();
@@ -2467,6 +2674,7 @@ $('#setForm').onsubmit = e => {
   s.apiKey = $('#sKey').value.trim(); s.model = $('#sModel').value.trim() || DEFAULT_MODEL; s.name = $('#sName').value.trim(); s.grade = $('#sGrade').value.trim();
   s.buddy = $('#sBuddy').value; s.buddyName = $('#sBuddyName').value.trim(); s.autoRead = $('#sAutoRead').checked;
   s.voiceName = $('#sVoice').value; s.teach = $('#sTeach').value; s.lang = $('#sLang').value;
+  const pickedTheme = $('#sTheme').value; if (THEMES[pickedTheme]) s.theme = pickedTheme; else if (pickedTheme === 'disco') setTimeout(startDisco, 300);
   s.think = $('#sThink').checked; s.search = $('#sSearch').checked; s.learnThoughts = $('#sThoughts').checked;
   save(); $('#setDlg').close(); render(); toast(s.apiKey ? 'Saved. Spark is using your Gemini key.' : SERVER_AI ? 'Saved. Spark is using this site\u2019s Gemini connection.' : 'Saved. Spark is in demo mode.');
 };
