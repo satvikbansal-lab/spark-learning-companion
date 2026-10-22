@@ -730,7 +730,7 @@ async function apiError(r) {
 }
 /* Tries the chosen setup first, then quietly drops what failed: Google Search (often not in free quota), the thinking setting, then a busy model. */
 async function geminiFetch(stream, build) {
-  const s = S.settings, models = [...new Set([s.model || DEFAULT_MODEL, DEFAULT_MODEL, 'gemini-3.5-flash', 'gemini-3.1-flash-lite'])];
+  const s = S.settings, models = [...new Set([s.model || DEFAULT_MODEL, DEFAULT_MODEL, 'gemini-3.5-flash', 'gemini-3.5-flash-lite', 'gemini-flash-lite-latest', 'gemini-3.1-flash-lite'])];
   const plans = [];
   for (const model of models) {
     if (s.search === true) plans.push({ model, search: true, thinkCfg: true });
