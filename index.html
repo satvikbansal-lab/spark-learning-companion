@@ -377,6 +377,8 @@ svg { display: block; }
 .comp-row textarea { flex: 1; border: 0; background: none; resize: none; padding: 8px 6px; max-height: 180px; min-height: 40px; outline: none; line-height: 1.5; }
 .send { width: 36px; height: 36px; border-radius: 10px; background: var(--inv-bg); color: var(--inv-ink); display: grid; place-items: center; }
 .send:disabled { opacity: .35; cursor: default; }
+.mic-btn { width: 36px; height: 36px; border-radius: 12px; display: grid; place-items: center; background: var(--accent-soft); color: var(--accent); flex-shrink: 0; }
+.mic-btn:hover { background: var(--accent); color: #fff; }
 .hint-line { max-width: 760px; margin: 6px auto 0; font-size: 11.5px; color: var(--muted); text-align: center; }
 
 /* notes */
@@ -485,7 +487,6 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
       </div>
       <button class="spark-toggle" id="sparkToggle" role="switch" aria-checked="false" hidden><span class="sw" aria-hidden="true"></span>Talk with Spark</button>
       <button class="icon-btn" id="delNb" aria-label="Delete notebook" title="Delete notebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3"/></svg></button>
-      <button class="icon-btn" id="voiceBtn" aria-label="Talk to Spark by voice" title="Talk to Spark"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></button>
       <button class="icon-btn bulb" id="bulb" aria-label="Switch black / white theme" title="Switch theme"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path class="glass" d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.6 10.8c.6.5 1 1.2 1.1 2V16h5v-.2c.1-.8.5-1.5 1.1-2A6 6 0 0 0 12 3z"/></svg></button>
     </header>
     <section class="view" id="view"></section>
@@ -797,6 +798,7 @@ function renderChat() {
       <div class="comp-row">
         <button class="icon-btn" id="attachBtn" aria-label="Add a photo or notes" title="Add a photo, or upload notes (PDF / text)"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg></button>
         <textarea id="input" rows="1" placeholder="Ask Sparky anything…" aria-label="Message"></textarea>
+        <button class="mic-btn" type="button" data-voice aria-label="Talk to Sparky by voice" title="Talk to Sparky"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></button>
         <button class="send" id="sendBtn" aria-label="Send"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
       </div></div><div class="hint-line">Enter to send · Shift+Enter for a new line · everything is saved automatically</div></div>`;
   const ta = $('#input');
@@ -1242,7 +1244,8 @@ function renderThoughtChat() {
     <div class="msgs" id="msgs"><div class="msgs-in">${empty}${t.messages.map(msgHTML).join('')}</div></div>
     <div class="composer"><div class="comp-in"><div class="attach-prev" id="attachPrev" hidden></div><div class="comp-row">
       <textarea id="input" rows="1" placeholder="Say what's on your mind…" aria-label="Message to Spark"></textarea>
-      <button class="send" id="sendBtn" aria-label="Send"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+      <button class="mic-btn" type="button" data-voice aria-label="Talk to Sparky by voice" title="Talk to Sparky"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></button>
+        <button class="send" id="sendBtn" aria-label="Send"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
     </div></div></div>`;
   const ta = $('#input');
   ta.oninput = () => { ta.style.height = 'auto'; ta.style.height = Math.min(ta.scrollHeight, 160) + 'px'; };
@@ -1560,7 +1563,7 @@ function stopSpeaking() {
   if (!PLAYER.paused && PLAYER.src !== SILENT_URL) PLAYER.pause();
   if ('speechSynthesis' in window) speechSynthesis.cancel();
 }
-$('#voiceBtn').onclick = openVoice;
+document.addEventListener('click', e => { if (e.target.closest('[data-voice]')) openVoice(); });
 $('#vClose').onclick = closeVoice;
 $('#vMic').onclick = () => { if (V.state === 'listening') { V.auto = false; stopListening(); setVoice('idle', 'Paused. Tap the mic to talk'); } else { V.auto = true; listen(); } };
 $('#buddy').onclick = () => { if (V.state === 'speaking') { stopSpeaking(); if (Rec) listen(); } else if (V.state === 'idle' && Rec) { V.auto = true; listen(); } };
