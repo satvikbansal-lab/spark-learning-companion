@@ -830,8 +830,6 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
 .dz-say:empty { display: none; }
 .dz-sparky { position: absolute; left: 50%; bottom: calc(26vh + 40px); width: 170px; padding: 0; border: 0; background: none; cursor: pointer; translate: -50% 0; }
 .dz-sparky img { width: 100%; height: auto; display: block; filter: drop-shadow(0 12px 22px rgba(0,0,0,.5)); }
-.dz-phones { position: absolute; top: 4%; left: 50%; translate: -50% 0; font-size: 46px; opacity: 0; transition: opacity .4s; }
-.disco.dj .dz-phones { opacity: 1; }
 .disco.in .dz-sparky { animation: dzMoonIn 3.6s cubic-bezier(.35,.05,.25,1) both; }
 .disco.in .dz-sparky img, .disco.out .dz-sparky img { animation: dzGlide .42s ease-in-out infinite alternate; }
 .disco.dj .dz-sparky img { animation: dzBob .45s ease-in-out infinite alternate; }
@@ -846,7 +844,8 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
 .dz-floor { position: absolute; left: 0; right: 0; bottom: 0; height: 24vh; display: grid; grid-template-columns: repeat(8, 1fr); grid-template-rows: repeat(3, 1fr); gap: 4px; padding: 4px; transform: perspective(500px) rotateX(38deg); transform-origin: bottom; }
 .dz-floor span { border-radius: 4px; opacity: .55; transition: background-color 1.4s ease; }
 .dz-colour { position: absolute; left: 16px; bottom: 16px; margin: 0; font-size: 14px; font-weight: 600; padding: 6px 12px; border-radius: 999px; background: rgba(0,0,0,.45); }
-.dz-stop { position: absolute; right: 16px; bottom: 16px; padding: 9px 16px; border-radius: 999px; border: 1px solid rgba(255,255,255,.4); background: rgba(0,0,0,.45); color: #fff; font-weight: 600; font-size: 14px; }
+.dz-btns { position: absolute; right: 16px; bottom: 16px; display: flex; gap: 8px; }
+.dz-stop { padding: 9px 16px; border-radius: 999px; border: 1px solid rgba(255,255,255,.4); background: rgba(0,0,0,.45); color: #fff; font-weight: 600; font-size: 14px; }
 .dz-stop:hover { background: rgba(255,255,255,.15); }
 @keyframes dzSpin { to { rotate: 360deg; } }
 @keyframes dzSwing { from { rotate: -10deg; } to { rotate: 10deg; } }
@@ -915,11 +914,11 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
   <div class="dz-beams" aria-hidden="true"></div>
   <div class="dz-ball" aria-hidden="true">🪩</div>
   <p class="dz-say" id="dzSay" aria-live="polite"></p>
-  <button class="dz-sparky" id="dzSparky" type="button" aria-label="Tap DJ Sparky to stop the party"><img data-buddy="me" src="assets/sparky-blue.webp" alt="DJ Sparky"><span class="dz-phones" aria-hidden="true">🎧</span></button>
+  <button class="dz-sparky" id="dzSparky" type="button" aria-label="Tap DJ Sparky to stop the party"><img data-buddy="me" src="assets/sparky-blue.webp" alt="DJ Sparky"></button>
   <div class="dz-deck" aria-hidden="true"><span class="dz-rec"></span><div class="dz-eq"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="dz-rec"></span></div>
   <div class="dz-floor" id="dzFloor" aria-hidden="true"></div>
   <p class="dz-colour" id="dzColour" aria-live="polite"></p>
-  <button class="dz-stop" id="dzStop" type="button">Stop the party</button>
+  <div class="dz-btns"><button class="dz-stop" id="dzMusic" type="button" aria-pressed="true">🔊 Music on</button><button class="dz-stop" id="dzStop" type="button">Stop the party</button></div>
 </div>
 
 <div class="welcome" id="welcome" hidden role="dialog" aria-modal="true" aria-label="Welcome to Spark"><div class="wel-card" id="welBody"></div></div>
@@ -1140,6 +1139,46 @@ $('#bulb').onclick = () => {
    moonwalks off and Spark goes back to Light. The bulb, tapping Sparky, "Stop the party" or Esc end it early. */
 const DISCO_COLOURS = [['Red', '#ff3b5c'], ['Orange', '#ff8a2b'], ['Yellow', '#ffd93b'], ['Green', '#3ddc84'], ['Teal', '#2fd3c7'], ['Blue', '#3b82ff'], ['Purple', '#9b5cff'], ['Pink', '#ff5cc8']];
 let DISCO = null;
+
+/* DJ Sparky's music: an original 120 BPM disco loop played by the browser itself (Web Audio), so there are no
+   files, no cost and no copyright. Kick on every beat, claps on 2 and 4, hi-hats on the off-beats, an octave-
+   bouncing bass and chord stabs over C–Am–F–G, one chord per bar. It starts from the tap that opens the party,
+   which browsers need before they allow sound, and the 🔊 button turns it off (remembered). */
+const DZ_BPM = 120, DZ_CHORDS = [[48, 64, 67, 72], [45, 64, 69, 72], [41, 65, 69, 72], [43, 62, 67, 71]];
+const midiHz = n => 440 * Math.pow(2, (n - 69) / 12);
+let DZ_CTX = null, DZ_NOISE = null;
+function musicOn() { return S.settings.discoMusic !== false; }
+function startMusic() {
+  if (!musicOn() || !DISCO || DISCO.music) return;
+  const AC = window.AudioContext || window.webkitAudioContext; if (!AC) return;
+  try { DZ_CTX = DZ_CTX || new AC(); } catch (e) { return; }
+  const ctx = DZ_CTX; if (ctx.state === 'suspended') ctx.resume().catch(() => {});
+  if (!DZ_NOISE) { DZ_NOISE = ctx.createBuffer(1, ctx.sampleRate, ctx.sampleRate); const d = DZ_NOISE.getChannelData(0); for (let i = 0; i < d.length; i++) d[i] = Math.random() * 2 - 1; }
+  const out = ctx.createGain(); out.gain.setValueAtTime(0.0001, ctx.currentTime); out.gain.exponentialRampToValueAtTime(0.32, ctx.currentTime + 0.6); out.connect(ctx.destination);
+  const env = (g, t, peak, len) => { g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(peak, t + 0.005); g.gain.exponentialRampToValueAtTime(0.0001, t + len); };
+  const kick = t => { const o = ctx.createOscillator(), g = ctx.createGain(); o.frequency.setValueAtTime(140, t); o.frequency.exponentialRampToValueAtTime(45, t + 0.18); env(g, t, 0.9, 0.3); o.connect(g).connect(out); o.start(t); o.stop(t + 0.32); };
+  const noise = (t, type, freq, peak, len) => { const s = ctx.createBufferSource(), f = ctx.createBiquadFilter(), g = ctx.createGain(); s.buffer = DZ_NOISE; f.type = type; f.frequency.value = freq; env(g, t, peak, len); s.connect(f).connect(g).connect(out); s.start(t, Math.random() * 0.5); s.stop(t + len + 0.02); };
+  const tone = (t, note, wave, peak, len, cut) => { const o = ctx.createOscillator(), f = ctx.createBiquadFilter(), g = ctx.createGain(); o.type = wave; o.frequency.value = midiHz(note); f.type = 'lowpass'; f.frequency.value = cut; env(g, t, peak, len); o.connect(f).connect(g).connect(out); o.start(t); o.stop(t + len + 0.02); };
+  const eighth = 30 / DZ_BPM; let step = 0, next = ctx.currentTime + 0.1;
+  const play = (s, t) => { // s counts eighth notes; 8 per bar
+    const chord = DZ_CHORDS[Math.floor(s / 8) % DZ_CHORDS.length], beat = s % 8;
+    if (beat % 2 === 0) kick(t);
+    else { noise(t, 'highpass', 8000, 0.25, 0.05); tone(t, chord[1], 'square', 0.07, 0.16, 2400); tone(t, chord[2], 'square', 0.07, 0.16, 2400); tone(t, chord[3], 'square', 0.06, 0.16, 2400); }
+    if (beat === 2 || beat === 6) noise(t, 'bandpass', 1500, 0.5, 0.14);
+    tone(t, chord[0] + (beat % 2 ? 12 : 0) - 12, 'sawtooth', 0.32, eighth * 0.85, 600);
+  };
+  const iv = setInterval(() => { while (next < ctx.currentTime + 0.15) { play(step++, next); next += eighth; } }, 25);
+  DISCO.music = { out, iv };
+}
+function stopMusic(fade = 1) {
+  const m = DISCO && DISCO.music; if (!m) return;
+  clearInterval(m.iv); DISCO.music = null;
+  const t = DZ_CTX.currentTime; m.out.gain.cancelScheduledValues(t); m.out.gain.setValueAtTime(m.out.gain.value, t); m.out.gain.exponentialRampToValueAtTime(0.0001, t + fade);
+  setTimeout(() => m.out.disconnect(), fade * 1000 + 300);
+}
+function paintMusicBtn() { const b = $('#dzMusic'), on = musicOn(); b.textContent = on ? '🔊 Music on' : '🔇 Music off'; b.setAttribute('aria-pressed', String(on)); }
+$('#dzMusic').onclick = () => { S.settings.discoMusic = !musicOn(); save(); paintMusicBtn(); if (musicOn() && !$('#disco').classList.contains('out')) startMusic(); else stopMusic(0.3); };
+
 function discoPaint(i) {
   const c = k => DISCO_COLOURS[(i + k) % DISCO_COLOURS.length][1], d = $('#disco');
   d.querySelector('.dz-l1').style.backgroundColor = c(0); d.querySelector('.dz-l2').style.backgroundColor = c(3); d.querySelector('.dz-l3').style.backgroundColor = c(5);
@@ -1153,6 +1192,7 @@ function startDisco() {
   applyBuddy();
   d.hidden = false; d.className = 'disco in'; say('Here comes DJ Sparky…'); discoPaint(0);
   DISCO = { timers: [] };
+  paintMusicBtn(); startMusic();
   let i = 0;
   DISCO.timers.push(setTimeout(() => { d.className = 'disco dj'; say('DJ Sparky in the house! 🎶 Watch every colour light up!'); }, 3600));
   DISCO.timers.push(setTimeout(() => {
@@ -1167,6 +1207,7 @@ function startDisco() {
 function stopDisco(finished) {
   if (!DISCO) return;
   const d = $('#disco'); DISCO.timers.forEach(t => { clearTimeout(t); clearInterval(t); });
+  stopMusic(finished ? 2.5 : 1.2);
   DISCO = { timers: [] };
   if (!finished) $('#dzSay').textContent = 'Okay, party over! Bye! 👋';
   d.className = 'disco out';
