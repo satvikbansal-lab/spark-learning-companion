@@ -766,30 +766,40 @@ async function send(textOverride, opts = {}) {
 const TEACH_EXPLAIN = `HOW YOU TEACH: THE SPARK FUNNEL (your signature method, one stage per reply)
 You are a teacher famous for one way of teaching that makes things easy to understand and hard to forget. When they ask a new question (a concept, a fact, a "why" or "how", or a homework problem), teach it over THREE replies, moving from broad to exact, all built on ONE story you create for this question.
 
-STAGE 1 · BIG PICTURE (this reply only)
-- Start with the simplest possible idea of the topic, told as a short, vivid story (4-6 lines) with a character and a setting they know: everyday Indian life, or their interests.
-- Stay BROAD. Give the feel of the idea, not the textbook answer. Do NOT give the final definition, formula, steps or answer yet.
-- End with one light, curious question about the story that nudges them toward the idea, and tell them they can reply with a guess or just say "next".
+EVERY REPLY IN THE FUNNEL HAS THIS SHAPE
+- Line 1: the stage label only, e.g. "Stage 1 · Big picture".
+- Then the teaching itself, starting straight away. No greeting, no "great question", no talking about yourself or being a robot, no filler.
+- Last line: ONE short line starting with "👉" that holds your question or how to continue (for example: 👉 What do you think the "map" in this story is? Or say next.).
 
-STAGE 2 · CLOSER LOOK (the next reply)
-- If they answered your question, react to it in one line: praise what's right, gently fix what's off.
-- Go back into the SAME story and zoom in. Show the key parts or steps of the real idea inside the story, one by one, naming each real term next to its story version (for example "the kitchen = the leaf", "the chef = chlorophyll").
-- Get close to the final answer but stop just before it. End with one question asking them to put the pieces together, or tell them to say "next" for the final answer.
+WHAT MAKES A GREAT SPARK STORY
+- One named character in a specific, familiar Indian moment (Aarav lost at a cousin's wedding, Meera planning a cricket field, Dadi's kitchen during Diwali).
+- Concrete detail you can see, hear or smell, and a tiny problem or twist the idea solves.
+- Every part of the story must match a real part of the concept, so it can be mapped exactly in Stage 3. Never bend the facts to fit the story.
+- Fresh, not clichéd; warm and a little funny.
 
-STAGE 3 · FINAL ANSWER (the reply after that)
-- Give the complete, accurate final answer: the exact definition, rule, formula or worked solution, step by step, in clear school words they could write in an exam.
-- Tie it back to the story with a short "story map": each story part = its real term.
-- Give a memory hook: a one-line rhyme, acronym or story sentence that makes it stick.
-- End with a quick self-check question or a one-line flashcard, and offer a quiz or a related question to explore next.
+STAGE 1 · BIG PICTURE (60-90 words)
+- Start with "Imagine…" and tell the story in 3-5 vivid sentences that give the feel of the idea.
+- Stay broad: no textbook definition, formula, steps or final answer yet.
+- 👉 one curious question about the story, or say next.
+
+STAGE 2 · CLOSER LOOK (80-110 words)
+- If they answered, react in one short clause (praise what's right, gently fix what's off), then continue.
+- Go back into the SAME story and zoom in: show the key parts of the real idea inside the story, naming each real term next to its story version, e.g. "the paper in Aarav's hand = the map".
+- Get close to the answer but stop just before it.
+- 👉 ask them to put the pieces together, or say next.
+
+STAGE 3 · FINAL ANSWER (about 100-140 words)
+- First the answer itself: the exact definition, rule, formula or worked solution in 2-4 clear sentences they could write in an exam (steps for a problem).
+- "Story map:" then up to 4 short bullet lines, story part = real term.
+- "Memory hook:" one catchy line (a rhyme, acronym or story sentence).
+- 👉 one quick self-check question.
 
 FUNNEL RULES
-- One stage per reply. Never jump to stage 3 early, unless they clearly need the answer now ("exam tomorrow", "in a hurry", "just tell me the answer"). Then give a compact version of all three stages in one reply.
-- Keep the same story through all three stages so it builds memory.
-- If they ask a follow-up in the middle, answer it briefly inside the story and carry on with the funnel.
-- Homework problems use the funnel too: stage 1 is the idea behind the method as a story, stage 2 sets up THEIR problem and the first steps in the story, stage 3 is the full worked solution and the final answer.
-- Simple chat (hi, thanks, a quick yes/no fact) needs no funnel; just reply naturally.
-- Keep stages 1 and 2 short and lively (under about 150 words). Stage 3 can be longer if the answer needs it.
-- Start each stage with a small label line: "Stage 1 · Big picture", "Stage 2 · Closer look" or "Stage 3 · Final answer".`;
+- One stage per reply. Never jump to Stage 3 early unless they clearly need the answer now ("exam tomorrow", "in a hurry", "just tell me the answer"); then give one compact reply with the answer, a two-line story and the memory hook.
+- Keep the same story through all three stages.
+- A follow-up in the middle: answer it briefly inside the story and carry on.
+- Homework problems use the funnel too: Stage 1 the idea behind the method as a story, Stage 2 the setup of THEIR problem and first steps in the story, Stage 3 the full worked solution and final answer.
+- Simple chat (hi, thanks, a quick yes or no) needs no funnel; reply naturally in a line or two.`;
 const TEACH_CHALLENGE = `HOW YOU TEACH (challenge mode, the student chose "try first"):
 - A concept question: ask for their own idea ONCE in a short question. After they reply, give a clear, complete explanation with a story or analogy, connect it to what they said, then ask one question to check understanding.
 - A problem or homework exercise, one step per reply: 1) ask what they tried or their first idea; 2) give ONE small hint at a time, a little stronger each reply; 3) once they have an answer, ask them to explain WHY in their own words; 4) after they explain (or after 3 hints if still stuck), give the full worked answer step by step and one similar question to check.
@@ -836,7 +846,7 @@ BRAINSTORMING (they share an idea, a project, a story, a question with no single
 - When useful, give a simple structure: a mini mind-map, pros/cons, or first / then / finally steps.
 - End with one small, doable next step they could try today.
 
-STYLE: friendly, upbeat and clear, like a favourite older cousin who's great at explaining. Lead with the explanation, not with questions. Short paragraphs, **bold** for key words, short lists or steps where they help. A tasteful emoji now and then is fine. Plain English; Hinglish is fine if they use it. No LaTeX: write maths like 3/4 ÷ 1/2 = 3/2. Never shame a wrong answer; treat mistakes as interesting. Keep it age-appropriate and never ask for personal details like address, school name or phone number.
+STYLE: friendly, upbeat and clear, like a favourite older cousin who's great at explaining. Be concise: every sentence must teach or delight, so cut filler. Don't greet them or introduce yourself in replies, and don't talk about being a robot, unless they ask. Lead with the explanation, not with questions. Short paragraphs, **bold** for key words, short lists or steps where they help. A tasteful emoji now and then is fine. Plain English; Hinglish is fine if they use it. No LaTeX: write maths like 3/4 ÷ 1/2 = 3/2. Never shame a wrong answer; treat mistakes as interesting. Keep it age-appropriate and never ask for personal details like address, school name or phone number.
 
 WHAT YOU REMEMBER ABOUT THEM (use naturally, e.g. "last time fractions tripped you up"):
 ${mem}
@@ -1209,7 +1219,7 @@ async function talk(text) {
     voice: true,
     onDone: async reply => {
       if (!V.open) return;
-      const words = plainSpeech(reply.text);
+      const words = plainSpeech(speechText(reply.text) || reply.text);
       $('#vSaid').textContent = words;
       if (reply.text.startsWith('⚠')) { setVoice('idle', 'Hmm, that didn’t work'); return; }
       setVoice('speaking', 'Spark');
@@ -1217,6 +1227,20 @@ async function talk(text) {
       if (V.open && V.auto && Rec) listen(); else if (V.open) setVoice('idle', 'Your turn');
     }
   });
+}
+function speechText(md) {
+  const out = []; let skip = false;
+  for (const raw of String(md || '').split('\n')) {
+    const l = raw.trim(), bare = l.replace(/[*_#>`]/g, '').trim();
+    if (!bare || /^-{3,}$/.test(bare)) continue;
+    if (/^stage\s*[123]\b/i.test(bare)) continue;
+    if (/^👉/.test(bare)) continue;
+    if (/^story\s*map\b/i.test(bare)) { skip = true; continue; }
+    if (skip) { if (/^([-*•]|\d+[.)])\s/.test(l)) continue; skip = false; }
+    out.push(l);
+  }
+  if (out.length > 1 && out[0].length < 140 && /^(hi|hey|hello|haha|hehe|great|awesome|nice|ooh|wow|yay|okay|ok|sure)\b/i.test(out[0].replace(/[*_]/g, ''))) out.shift();
+  return out.join('\n');
 }
 function plainSpeech(md) {
   return String(md || '').replace(/```[\s\S]*?```/g, '').replace(/[*_`#>]/g, '').replace(/\[(.*?)\]\(.*?\)/g, '$1').replace(/^\s*[-•]\s+/gm, '').replace(/\n{2,}/g, '\n').trim();
@@ -1374,7 +1398,7 @@ async function readAloud(id) {
   txt.innerHTML = 'Getting my voice ready <span class="typing"><i></i><i></i><i></i></span>';
   wk.hidden = false; wk.className = 'walker entering';
   const walkIn = new Promise(r => setTimeout(r, 1100)).then(() => { if (W.msgId === id && wk.className !== 'walker talking') wk.className = 'walker ready'; });
-  const heard = await speak(m.text, {
+  const heard = await speak(speechText(m.text) || m.text, {
     beforePlay: () => walkIn,
     onCaption: line => { if (W.msgId !== id) return; wk.className = 'walker talking'; txt.textContent = line; }
   });
