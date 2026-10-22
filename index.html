@@ -509,39 +509,38 @@ function save() {
 }
 const nb = () => S.notebooks.find(n => n.id === S.activeId) || S.notebooks[0];
 const cur = () => S.mode === 'thought' ? th() : nb();
-/* Languages Sparky can talk in. 'auto' answers in whatever language the student writes in. */
+/* Spark writes in English letters only (English, Hinglish or Roman Punjabi) and speaks English, Hindi or Punjabi. */
 const LANGS = {
-  auto: { name: 'Auto: match how I write', bcp: 'en-IN' },
+  auto: { name: 'Auto: match how I talk', bcp: 'en-IN' },
   en: { name: 'English', bcp: 'en-IN' },
-  hi: { name: 'हिंदी Hindi', bcp: 'hi-IN', script: 'Devanagari' },
-  pa: { name: 'ਪੰਜਾਬੀ Punjabi', bcp: 'pa-IN', script: 'Gurmukhi' },
-  mr: { name: 'मराठी Marathi', bcp: 'mr-IN', script: 'Devanagari' },
-  bn: { name: 'বাংলা Bengali', bcp: 'bn-IN', script: 'Bengali' },
-  gu: { name: 'ગુજરાતી Gujarati', bcp: 'gu-IN', script: 'Gujarati' },
-  ta: { name: 'தமிழ் Tamil', bcp: 'ta-IN', script: 'Tamil' },
-  te: { name: 'తెలుగు Telugu', bcp: 'te-IN', script: 'Telugu' }
+  hi: { name: 'Hindi (written in Hinglish)', short: 'Hindi', bcp: 'hi-IN' },
+  pa: { name: 'Punjabi (written in English letters)', short: 'Punjabi', bcp: 'pa-IN' }
 };
-function langRule() {
-  const code = S.settings.lang || 'auto', L = LANGS[code] || LANGS.auto;
-  const c = cur(), lastUser = c && [...c.messages].reverse().find(m => m.role === 'user');
-  const seen = lastUser ? scriptLang(lastUser.text) : 'en';
-  const hint = code === 'auto' && seen !== 'en' ? ` Their latest message is written in ${LANGS[seen].script} script (${LANGS[seen].name.split(' ').pop()}), so reply in ${LANGS[seen].name.split(' ').pop()} using ${LANGS[seen].script} script.` : '';
-  const keep = 'Keep these labels in English exactly as written so the app can read them: "Stage 1 · Big picture", "Stage 2 · Closer look", "Stage 3 · Final answer", "Story map:", "Memory hook:".';
-  if (code === 'auto') return `LANGUAGE: reply in the same language the student uses in their latest message, fluently and naturally, the way a friendly teacher from that region would speak to a child. MATCH THEIR SCRIPT EXACTLY: if their message is written in Devanagari (हिंदी), your whole reply must be in Devanagari; Gurmukhi (ਪੰਜਾਬੀ) gets Gurmukhi; Bengali, Tamil, Telugu, Gujarati and other scripts likewise. Only use English letters for Hindi or Punjabi when they themselves wrote in English letters (Hinglish or Roman Punjabi). Use simple, everyday words, not formal or bookish ones, and keep common school terms (like photosynthesis, fraction) in English in brackets when it helps. If they switch language, switch with them.${hint} ${keep}`;
-  if (code === 'en') return `LANGUAGE: always reply in simple English, even if they write in another language. ${keep}`;
-  return `LANGUAGE: always reply in ${L.name.split(' ').pop()}, written in ${L.script} script, fluently and naturally, like a friendly teacher from that region talking to a child, even if they write in English. Use simple, everyday words, not formal or bookish ones, and give important school terms in English in brackets the first time. ${keep}`;
-}
-function scriptLang(text) {
+const HI_WORDS = new Set('hai hain kya karo kar mein main tum tumhe tumhara tumhari nahi nahin aur ka ke ko ho ek yeh ye woh wo hota hoti jaise kaise kyun kyon batao matlab accha acha bahut sab apne apna jab tab phir bhi se par lekin chahiye raha rahi rahe gaya gayi tha thi kuch koi'.split(' '));
+const PA_WORDS = new Set('hunda hundi hunde tusi tuhanu tuhada tuhadi assi sanu saada nal naal vich nu kithe ehda dasso kiven kive changa pher vi ton tak hai ki karo eh oh da di de ne je jado'.split(' '));
+const PA_ONLY = new Set('hunda hundi hunde tusi tuhanu tuhada tuhadi assi sanu saada nal naal vich nu kithe ehda dasso kiven kive changa pher ton jado'.split(' '));
+/* Which language is this text in? Works for Hindi/Punjabi script and for Hinglish / Roman Punjabi. */
+function langOf(text) {
   const t = String(text || '');
   if (/[਀-੿]/.test(t)) return 'pa';
-  if (/[ঀ-৿]/.test(t)) return 'bn';
-  if (/[઀-૿]/.test(t)) return 'gu';
-  if (/[஀-௿]/.test(t)) return 'ta';
-  if (/[ఀ-౿]/.test(t)) return 'te';
-  if (/[ऀ-ॿ]/.test(t)) return S.settings.lang === 'mr' ? 'mr' : 'hi';
+  if (/[ऀ-ॿ]/.test(t)) return 'hi';
+  const w = t.toLowerCase().match(/[a-z']+/g) || []; if (!w.length) return 'en';
+  let h = 0, p = 0, only = 0;
+  for (const x of w) { if (HI_WORDS.has(x)) h++; if (PA_WORDS.has(x)) p++; if (PA_ONLY.has(x)) only++; }
+  if (only >= 2 || (only >= 1 && p > h)) return 'pa';
+  if (h >= 2 && h / w.length > 0.1) return 'hi';
   return 'en';
 }
-/* Gemini access: a key pasted in Settings is used directly from the browser; otherwise the site's own server key is used through /api/gemini (set as GEMINI_API_KEY on Vercel). */
+function langRule() {
+  const code = S.settings.lang || 'auto';
+  const c = cur(), lastUser = c && [...c.messages].reverse().find(m => m.role === 'user');
+  const seen = lastUser ? langOf(lastUser.text) : 'en';
+  const keep = 'Keep these labels in English exactly as written: "Stage 1 · Big picture", "Stage 2 · Closer look", "Stage 3 · Final answer", "Story map:", "Memory hook:".';
+  const how = 'ALWAYS WRITE IN ENGLISH LETTERS ONLY. Never use Devanagari, Gurmukhi or any other script, even if the student does. Hindi is written as natural Hinglish, the way Indian kids text (e.g. "Imagine karo ki tum ek naye sheher mein ho"). Punjabi is written in Roman Punjabi (e.g. "Socho ki tusi ek nave sheher vich ho"). Use simple, everyday words, and keep school terms (like map, photosynthesis, fraction) in English.';
+  const target = code === 'hi' ? 'Hindi' : code === 'pa' ? 'Punjabi' : code === 'en' ? 'English' : seen === 'hi' ? 'Hindi' : seen === 'pa' ? 'Punjabi' : null;
+  const which = target ? `Reply in ${target}${target === 'Hindi' ? ' (Hinglish)' : target === 'Punjabi' ? ' (Roman Punjabi)' : ''}.` : 'Reply in the language the student is using: English, Hindi (as Hinglish) or Punjabi (as Roman Punjabi). If they switch, switch with them.';
+  return `LANGUAGE: ${which} ${how} ${keep}`;
+}/* Gemini access: a key pasted in Settings is used directly from the browser; otherwise the site's own server key is used through /api/gemini (set as GEMINI_API_KEY on Vercel). */
 let SERVER_AI = false;
 const hasAI = () => !!S.settings.apiKey || SERVER_AI;
 function aiPost(model, stream, body) {
@@ -879,7 +878,7 @@ BRAINSTORMING (they share an idea, a project, a story, a question with no single
 - When useful, give a simple structure: a mini mind-map, pros/cons, or first / then / finally steps.
 - End with one small, doable next step they could try today.
 
-STYLE: friendly, upbeat and clear, like a favourite older cousin who's great at explaining. Be concise: every sentence must teach or delight, so cut filler. Don't greet them or introduce yourself in replies, and don't talk about being a robot, unless they ask. Lead with the explanation, not with questions. Short paragraphs, **bold** for key words, short lists or steps where they help. A tasteful emoji now and then is fine. Plain, simple words in whatever language you're replying in. No LaTeX: write maths like 3/4 ÷ 1/2 = 3/2. Never shame a wrong answer; treat mistakes as interesting. Keep it age-appropriate and never ask for personal details like address, school name or phone number.
+STYLE: friendly, upbeat and clear, like a favourite older cousin who's great at explaining. Be concise: every sentence must teach or delight, so cut filler. Don't greet them or introduce yourself in replies, and don't talk about being a robot, unless they ask. Lead with the explanation, not with questions. Short paragraphs, **bold** for key words, short lists or steps where they help. A tasteful emoji now and then is fine. Plain, simple words, always written in English letters. No LaTeX: write maths like 3/4 ÷ 1/2 = 3/2. Never shame a wrong answer; treat mistakes as interesting. Keep it age-appropriate and never ask for personal details like address, school name or phone number.
 
 ${langRule()}
 
@@ -1309,9 +1308,12 @@ async function speak(text, opts = {}) {
   stopSpeaking(); const id = ++SPEAK_ID;
   const sentences = (words.match(/[^.!?।\n]+[.!?।]*\s*/g) || [words]).map(x => x.trim()).filter(Boolean);
   const voiceName = S.settings.voiceName || 'Leda';
+  const code = langOf(words);
+  const spoken = code === 'en' ? words : await toNativeScript(words, code);
+  if (id !== SPEAK_ID) return true;
   let clip = null;
   if (hasAI() && voiceName !== 'browser' && !V.ttsDown) {
-    try { clip = await fetchVoice(words, voiceName); }
+    try { clip = await fetchVoice(spoken, voiceName); }
     catch (e) { console.warn('Gemini voice unavailable, using browser voice', e); V.ttsDown = true; setTimeout(() => { V.ttsDown = false; }, 120000); }
   }
   if (opts.beforePlay) await opts.beforePlay();
@@ -1320,7 +1322,19 @@ async function speak(text, opts = {}) {
     const ok = await playClip(clip, id, sentences, opts.onCaption);
     if (ok || id !== SPEAK_ID) return true;
   }
-  return speakBrowser(sentences, id, opts.onCaption);
+  return speakBrowser(sentences, id, opts.onCaption, code, spoken);
+}
+/* The screen shows Hinglish / Roman Punjabi; voices pronounce Hindi and Punjabi far better from their own script. */
+async function toNativeScript(text, code) {
+  if (!hasAI() || (code !== 'hi' && code !== 'pa') || /[ऀ-ॿ਀-੿]/.test(text)) return text;
+  try {
+    const from = code === 'hi' ? 'Hinglish (Hindi written in English letters)' : 'Roman Punjabi (Punjabi written in English letters)';
+    const to = code === 'hi' ? 'Hindi in Devanagari script' : 'Punjabi in Gurmukhi script';
+    const r = await geminiFetch(false, () => ({ contents: [{ role: 'user', parts: [{ text: `Rewrite this ${from} text as ${to}, so it can be read aloud. Keep exactly the same words, order and meaning. Write English words the way they sound. Output only the rewritten text.\n\n${text}` }] }], generationConfig: { temperature: 0 } }));
+    const j = await r.json();
+    const out = (j.candidates && j.candidates[0] && j.candidates[0].content && j.candidates[0].content.parts || []).filter(x => !x.thought).map(x => x.text || '').join('').trim();
+    return out || text;
+  } catch (e) { return text; }
 }
 async function fetchVoice(words, voiceName) {
   const order = [...new Set([V.ttsModel, ...TTS_MODELS].filter(Boolean))]; let last;
@@ -1373,22 +1387,27 @@ function pcmToWav(b64data, rate) {
   new Uint8Array(buf, 44).set(pcm);
   return new Blob([buf], { type: 'audio/wav' });
 }
-async function speakBrowser(sentences, id, onCaption) {
+async function speakBrowser(sentences, id, onCaption, code = 'en', spoken = '') {
   if (!('speechSynthesis' in window)) return false;
   const voices = speechSynthesis.getVoices();
-  const code = scriptLang(sentences.join(' ')), bcp = (LANGS[code] || LANGS.en).bcp;
-  const voice = code === 'en'
+  const find = c => c === 'en'
     ? voices.find(v => /Google US English|Samantha|Ava|Allison|Google UK English Female|Microsoft (Aria|Jenny|Ana)/i.test(v.name)) || voices.find(v => /^en[-_](US|GB)/i.test(v.lang)) || voices.find(v => /^en/i.test(v.lang)) || null
-    : voices.find(v => v.lang.replace('_', '-').toLowerCase() === bcp.toLowerCase()) || voices.find(v => v.lang.toLowerCase().startsWith(code)) || null;
-  if (code !== 'en' && !voice) return false;
+    : voices.find(v => v.lang.replace('_', '-').toLowerCase() === LANGS[c].bcp.toLowerCase()) || voices.find(v => v.lang.toLowerCase().startsWith(c)) || null;
+  let voice = find(code), lines = sentences;
+  const native = spoken && spoken !== sentences.join(' ') ? (spoken.match(/[^.!?।\n]+[.!?।]*\s*/g) || [spoken]).map(x => x.trim()).filter(Boolean) : null;
+  if (voice && native) lines = native;
+  // No Punjabi voice on this device: a Hindi voice reads Roman Punjabi well enough. No Hindi voice: an Indian English voice reads Hinglish.
+  if (!voice && code === 'pa') voice = find('hi');
+  if (!voice && code !== 'en') voice = voices.find(v => /en[-_]IN/i.test(v.lang)) || find('en');
   speechSynthesis.cancel();
   let heard = false;
-  for (const line of sentences) {
+  for (let i = 0; i < lines.length; i++) {
     if (id !== SPEAK_ID) return true;
+    const line = lines[i], shown = lines === sentences ? line : sentences[Math.min(Math.round(i * sentences.length / lines.length), sentences.length - 1)];
     const ok = await new Promise(res => {
-      const u = new SpeechSynthesisUtterance(line); u.voice = voice; u.lang = voice ? voice.lang : bcp; u.pitch = 1.15; u.rate = 0.88;
+      const u = new SpeechSynthesisUtterance(line); u.voice = voice; u.lang = voice ? voice.lang : 'en-IN'; u.pitch = 1.15; u.rate = 0.88;
       const timer = setTimeout(() => res(heard), 20000);
-      u.onstart = () => { heard = true; if (onCaption) onCaption(line); };
+      u.onstart = () => { heard = true; if (onCaption) onCaption(shown); };
       u.onend = () => { clearTimeout(timer); res(true); };
       u.onerror = e => { clearTimeout(timer); res(e.error === 'interrupted' || e.error === 'canceled'); };
       speechSynthesis.speak(u);
@@ -1450,10 +1469,7 @@ async function readAloud(id) {
   if (W.msgId !== id) return;
   if (!heard) {
     wk.className = 'walker ready';
-    const lc = scriptLang(m.text);
-    txt.textContent = lc !== 'en'
-      ? `I can't speak ${LANGS[lc].name.split(' ').pop()} on this device right now. Read along with me, or try again later when my AI voice is back.`
-      : "I couldn't play my voice. Turn up the volume (or switch off silent mode), then tap Read it to me again.";
+    txt.textContent = "I couldn't play my voice. Turn up the volume (or switch off silent mode), then tap Read it to me again.";
     setTimeout(() => { if (W.msgId === id) stopReading(); }, 5000);
     return;
   }
