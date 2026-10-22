@@ -150,6 +150,8 @@ svg { display: block; }
 .chk pre { margin: 8px 0 0; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--panel); font-family: var(--mono); font-size: 12px; white-space: pre-wrap; overflow-x: auto; color: var(--ink); }
 .chk.warn { display: inline-block; padding: 2px 10px; border-radius: 999px; background: color-mix(in srgb, var(--bad) 12%, transparent); color: var(--bad); }
 .bubble .katex { font-size: 1.06em; }
+.chk.ok summary { background: color-mix(in srgb, var(--good) 12%, transparent); }
+.chk p { margin: 8px 0 0; color: var(--ink); }
 .bubble .math-d { display: block; margin: 4px 0; overflow-x: auto; overflow-y: hidden; padding: 2px 0; }
 .bubble .math-d .katex-display { margin: 0; }
 .math-raw { font-family: var(--mono); }
@@ -689,6 +691,7 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
 
 <input type="file" id="fileIn" accept="image/*,application/pdf,text/plain,.txt,.md" hidden>
 <input type="file" id="notesIn" accept="image/*,application/pdf,text/plain,.txt,.md" hidden>
+<script src="spark-math.js"></script>
 <script src="spark-ai.js"></script>
 
 <script>
@@ -1045,14 +1048,18 @@ function msgHTML(m) {
   if (m.kind === 'quiz' && m.quiz) return quizHTML(m);
   if (m.kind === 'cards' && m.cards) return cardsHTML(m);
   const img = (m.image ? `<img src="${m.image.data}" alt="Photo you shared">` : '') + (m.material ? `<span class="file-chip">${docSvg}${esc(m.material.name)}</span>` : '');
-  const body = m.pending && !m.text ? `<span class="thinking">${buddyImg('think-img', true)}<span>${esc(bn())} is thinking</span><span class="typing"><i></i><i></i><i></i></span></span>` : (m.role === 'user' ? '<p>' + esc(m.text).replace(/\n/g, '<br>') + '</p>' : md(m.text));
+  const body = m.pending && !m.text ? `<span class="thinking">${buddyImg('think-img', true)}<span>${esc(bn())} is thinking</span><span class="typing"><i></i><i></i><i></i></span></span>` : (m.role === 'user' ? '<p>' + esc(m.text).replace(/\n/g, '<br>') + '</p>' : md(m.pending ? SparkAI.trimOpenMath(m.text) : m.text));
   const tools = '';
   const safeUrl = u => /^https:\/\//i.test(u) ? u : '#';
   const src = m.sources && m.sources.length && !m.pending ? `<div class="srcs"><span>Searched the web:</span>${m.sources.slice(0, 5).map(s => `<a href="${esc(safeUrl(s.uri))}" target="_blank" rel="noopener noreferrer" title="${esc(s.title)}">${esc(s.title)}</a>`).join('')}</div>`
     : m.offline && !m.pending ? '<div class="srcs"><span>Couldn\u2019t search online just now, so this may be out of date.</span></div>' : '';
-  const chk = m.check && !m.pending ? (m.check.ok
-    ? `<details class="chk"><summary>\u2713 Checked with a calculator</summary>${m.check.code ? `<pre>${esc(m.check.code)}</pre>` : ''}${m.check.output ? `<pre>${esc(m.check.output)}</pre>` : ''}</details>`
-    : '<div class="chk warn">Sparky\u2019s calculator check didn\u2019t run, so double-check this answer.</div>') : '';
+  const code = m.check && m.check.ok ? `${m.check.code ? `<pre>${esc(m.check.code)}</pre>` : ''}${m.check.output ? `<pre>${esc(m.check.output)}</pre>` : ''}` : '';
+  const v = m.verify;
+  const chk = m.pending ? (m.rechecking ? '<div class="chk"><span class="typing"><i></i><i></i><i></i></span> Double-checking this answer…</div>' : '')
+    : v && v.status === 'agree' ? `<details class="chk ok"><summary>✓ Answer checked</summary><p>${esc(v.note)}</p>${code}</details>`
+    : v && v.status === 'disagree' ? `<div class="chk warn">⚠ This answer didn’t pass Sparky’s exact check: ${esc(v.note)} Please go through it carefully.</div>`
+    : m.check && m.check.ok ? `<details class="chk ok"><summary>✓ Checked with a calculator</summary>${code}</details>`
+    : m.check ? '<div class="chk warn">Sparky’s calculator check didn’t run, so double-check this answer.</div>' : '';
   return `<div class="msg ${m.role}" id="m-${m.id}"><div class="bubble">${img}${body}</div>${chk}${src}${m.role === 'model' ? `<div class="who">${buddyImg('who-img', true)}<span>${esc(bn())}</span>${!m.pending && m.text && !m.text.startsWith('\u26A0') ? `<button class="read-btn" data-read="${m.id}">${speakerSvg}${W.msgId === m.id ? 'Stop reading' : 'Read it to me'}</button>` : ''}${tools}</div>${practiceButtons(m)}` : ''}</div>`;
 }
 function renderChat() {
@@ -1161,7 +1168,7 @@ async function send(textOverride, opts = {}) {
   if (pendingImg) { user.image = pendingImg; pendingImg = null; }
   if (opts.material) user.material = { id: opts.material.id, name: opts.material.name };
   const prevModel = [...n.messages].reverse().find(m => m.role === 'model' && m.text && !m.kind);
-  const rt = SparkAI.route(user.text, { hasImage: !!user.image || !!user.material, prevSubject: n.lastSubject });
+  const rt = SparkAI.route(user.text, { hasImage: !!user.image || !!user.material, prevSubject: n.lastSubject, prevModelText: prevModel && prevModel.text });
   rt.voice = !!opts.voice; if (rt.subject !== 'general') n.lastSubject = rt.subject;
   const reply = { id: uid(), role: 'model', text: '', ts: Date.now(), pending: true };
   n.messages.push(user, reply); n.updated = Date.now();
@@ -1175,6 +1182,21 @@ async function send(textOverride, opts = {}) {
       if (ck) reply.check = { ok: ck.ok > 0, code: okRun ? okRun.code.slice(0, 1500) : '', output: okRun ? okRun.output.slice(0, 600) : '' };
       if (acc.sources.length) reply.sources = acc.sources.slice(0, 6);
       if (rt.needsSearch && !(acc.plan && acc.plan.tools.search)) reply.offline = true;
+      if (rt.subject === 'math' && !opts.voice && n.kind !== 'thought') {
+        let v = SparkMath.check(user.text, reply.text);
+        if (v.status === 'disagree') {
+          // An exact solution of the original question disagrees with the answer: retry once, then say so honestly.
+          reply.rechecking = true; paint();
+          try {
+            const again = await geminiStream(n, t => { reply.text = t; paint(); }, null, SparkAI.recheckInstruction(v), rt);
+            const ck2 = SparkAI.checkSummary(again), ok2 = again.checks.find(c => c.outcome === 'OUTCOME_OK');
+            reply.check = ck2 ? { ok: ck2.ok > 0, code: ok2 ? ok2.code.slice(0, 1500) : '', output: ok2 ? ok2.output.slice(0, 600) : '' } : null;
+            v = SparkMath.check(user.text, reply.text);
+          } catch (e) { console.warn('re-check failed', e); }
+          reply.rechecking = false;
+        }
+        if (v.status !== 'unknown') reply.verify = { status: v.status, note: v.note };
+      }
     }
     else await mockStream(n, user, t => { reply.text = t; paint(); });
   } catch (err) {
@@ -1263,7 +1285,7 @@ async function geminiFetch(stream, build, prefer, want = {}) {
   }
   let last, searchRefused = null;
   const bg = !!prefer && !stream;
-  const call = p => aiPost(p.model, stream, build(p), bg ? 30000 : stream ? 0 : 60000);
+  const call = p => aiPost(p.model, stream, build(p), bg ? 30000 : stream ? 45000 : 60000);
   for (const p of plans) {
     if (COOL[p.model] > Date.now() && p.model !== models[models.length - 1]) continue;
     if (p.tools.search && TOOL_COOL.search > Date.now()) continue;
@@ -1307,7 +1329,10 @@ async function geminiStream(n, onText, onSources, extra, rt = {}) {
     }
   };
   for (;;) {
-    const { done, value } = await reader.read();
+    let idle;
+    const { done, value } = await Promise.race([reader.read(), new Promise((_, no) => { idle = setTimeout(() => no(new Error('stalled')), 90000); })])
+      .catch(e => { reader.cancel().catch(() => {}); if (acc.text) { acc.finish = 'OTHER'; return { done: true }; } throw new Error('Gemini stopped responding. Please send that again.'); })
+      .finally(() => clearTimeout(idle));
     if (done) { buf += dec.decode(); break; }
     buf += dec.decode(value, { stream: true });
     const out = SparkAI.sseEvents(buf); buf = out.rest; feed(out.events);

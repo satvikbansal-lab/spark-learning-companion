@@ -22,56 +22,78 @@
   const LEVEL_STYLE = {
     young: 'They are young: very short sentences (under 12 words), everyday words, one idea at a time, things they can touch or count (toffees, toys, rotis). No jargon at all.',
     middle: 'Simple words; explain any school term in brackets the first time; relatable Indian everyday examples.',
-    older: 'Use the correct subject terms and notation, give the real "why", and be exam-precise (CBSE/ICSE level).',
+    older: 'Use the correct subject terms and notation (explain each new term once), give the real "why", and be exam-precise (CBSE/ICSE level), but keep sentences short (under 20 words) and friendly.',
     unknown: 'Simple words; explain any school term the first time; adjust up or down once you see how they write.'
   };
 
   /* ---------- question router ----------
-     Cheap keyword rules, no model call. They decide the subject, whether the maths checker or web search
-     should be attached, and which short instructions to add for this one reply. */
+     Cheap rules, no model call. They decide the subject, what kind of turn this is (a new problem, the student's
+     own attempt, a question about an earlier step, a request for a hint…), and whether the maths checker or web
+     search should be attached. Maths is decided from several signals (an expression, maths vocabulary in English,
+     Hinglish or Hindi, word-problem phrasing), never from "contains a number" alone. */
   const RX = {
-    current: /\b(latest|currently|current|today'?s?|tonight|yesterday|this (week|month|year)|right now|recent(ly)?|news|live score|scores?|weather|forecast|price of|cost of|rate of|exchange rate|who is the (current |present |new )?(president|prime minister|pm|cm|chief minister|captain|ceo|governor|chief justice|coach)|who won|winners?|election|released|launch(ed)?|upcoming|aaj|abhi|kal ka|20(2[4-9]|3\d))\b/i,
+    timeWord: /\b(latest|currently|current|today'?s?|tonight|right now|recent(ly)?|this (week|month|year)|live|upcoming|so far this|20(2[4-9]|3\d))\b|\baaj\b|\babhi\b/i,
+    changing: /\b(price|cost|rate|scores?|weather|forecast|president|prime minister|pm|cm|chief minister|captain|ceo|governor|chief justice|coach|election|winners?|champions?|record|released|launch(ed)?|news|population of|ranking)\b/i,
+    alwaysCurrent: /\b(news|live score|weather|forecast|exchange rate|who won( the)? (latest|last|recent|this|yesterday)|election results?)\b/i,
     historic: /\b(battle|war|ancient|medieval|empire|dynasty|in (1[0-9]{3}))\b/i,
     hindi: /[ऀ-ॿ]|\b(hindi|vyakaran|sangya|sarvanam|kriya|visheshan|muhavar[ae]|lokokti|paryayvachi|vilom|samas|sandhi|matra|kavita|nibandh)\b/i,
     english: /\b(grammar|tenses?|nouns?|pronouns?|verbs?|adjectives?|adverbs?|prepositions?|conjunctions?|articles?|synonyms?|antonyms?|vocabulary|meaning of|spell(ing)?|punctuation|comprehension|passage|active voice|passive voice|(in)?direct speech|idioms?|phrasal verbs?|plural|past tense|sentence)\b/i,
     writing: /\b(write (a|an|me|my)|essay|story|poem|letter|speech|paragraph|improve my|edit my|check my writing|brainstorm|ideas? for|project idea)\b/i,
     science: /\b(photosynthesis|cells?|atoms?|molecules?|force|energy|gravity|light|sound|electric(ity)?|current electricity|magnet(ism)?|acids?|bases?|chemical|reaction|plants?|animals?|human body|organs?|digest(ion)?|respirat(ion|ory)|evaporat(e|ion)|water cycle|ecosystem|planets?|solar system|experiment|bacteria|virus(es)?|friction|motion|heat|temperature|matter|states of matter|nutrition|habitat|fossil|volcano|earthquake|rain(bow)?|sky blue)\b/i,
-    social: /\b(history|geography|civics|constitution|parliament|democracy|mughal|maurya|gupta|freedom struggle|independence|gandhi|map|continent|countr(y|ies)|capital of|river|mountain|climate|monsoon|soil|population|economy|government|rights|rajya sabha|lok sabha)\b/i,
+    social: /\b(history|geography|civics|constitution|parliament|democracy|mughal|maurya|gupta|freedom struggle|independence|gandhi|map|continent|countr(y|ies)|capital of|river|mountain|climate|monsoon|soil|government|rights|rajya sabha|lok sabha)\b/i,
     reasoning: /\b(pattern|series|next number|next term|odd one out|puzzle|riddle|logic(al)?|reasoning|coding[- ]decoding|blood relation|analog(y|ies)|sudoku)\b/i,
-    mathWord: /\b(solve|simplify|evaluate|calculate|compute|factori[sz]e|expand|find (the )?(value|area|perimeter|volume|sum|difference|product|quotient|lcm|hcf|mean|median|mode|probability|angle|length|ratio)|how (many|much)|percent(age)?|ratio|proportion|fractions?|decimals?|equations?|area|perimeter|volume|surface area|radius|diameter|circumference|angles?|triangles?|rectangle|square|circle|polygon|probability|mean|median|mode|average|lcm|hcf|gcd|primes?|square root|cube root|exponents?|powers?|interest|profit|loss|discount|speed|distance|time taken|integral|derivative|differentiate|integrate|matri(x|ces)|logarithm|log|sin|cos|tan|trigonometry|quadratic|polynomial|algebra|integers?|divisible|multiple|factor|unit conversion|convert|km|cm|kg|litres?|bhag|guna|jod|ghata|kitn[ae])\b/i,
-    mathExpr: /(\d\s*[-+*\/×÷^%]\s*\(?\d)|(\d\s*[a-z]\b\s*[-+=])|(\b[a-z]\s*\^\s*\d)|(\d\s*\/\s*\d)|(\b[a-z]\s*=\s*-?\d)|(=\s*-?\d)|√|π|\\frac|\bsqrt\b|\d\s*%|\b\d+(\.\d+)?\s*(cm|m|km|kg|g|l|ml|°)\b/i,
-    direct: /\b(just (tell|give)( me)?( the)? (answer|solution)|direct(ly)? answer|exam (is )?(tomorrow|today)|in a hurry|quick answer|no hints?|seedha (batao|answer)|jaldi)\b/i,
-    confused: /\b((don'?t|do not|didn'?t|did not|still (don'?t|can'?t)|not able to|can'?t) (get|understand|follow)|confus(ed|ing)|samajh? (nahi|nhi)|nahi samjh?a|explain (it )?again|simpler|still lost|what do you mean)\b/i,
+    // Maths vocabulary: topics, operations, and the way word problems are phrased (English, Hinglish, Hindi).
+    mathWord: /\b(solve|simplify|evaluate|calculate|compute|factori[sz]e|expand|find (the )?(value|area|perimeter|volume|sum|difference|product|quotient|lcm|hcf|mean|median|mode|range|probability|angle|length|ratio|number|integers?)|how (many|much|long|far|old)|percent(age)?|ratio|proportion(al)?|fractions?|decimals?|recurring|equations?|area|perimeter|volume|surface area|radius|diameter|circumference|hypotenuse|diagonals?|angles?|triangles?|quadrilateral|parallelogram|rhombus|trapezium|rectangle|square|cube|cuboid|cylinder|circle|polygon|hexagon|octagon|probability|tossed|die|dice|mean|median|mode|average|lcm|hcf|gcd|primes?|square root|cube root|exponents?|powers?|standard form|identity|interest|profit|loss|discount|marked price|cost price|selling price|gst|tax|speed|distance|time taken|km\/h|per (hour|metre|meter|kg|litre|day|year|annum)|matri(x|ces)|logarithm|trigonometry|quadratic|polynomial|algebra(ic)?|integers?|rational|divisible|multiples?|factors?|unit conversion|convert|multiplied|subtracted|added|divided|divide|multiply|subtract|sum of|difference of|product of|twice|thrice|times as (old|many|much)|consecutive|years? old|older|younger|ages?|costs?|spends?|change do|workers?|machines?|pipes?|tank|fills?|leaves (the \w+ )?at|arriv(e|es|al)|depart(s|ure)?|journey|greater than|smaller than|bigger than|less than|more than|equal to|bhag|guna|jod(o|na|ne)?|ghata(o|na)?|kitn[aei]|sankhya|number kya|prashn|hal karo)\b|[₹]|(कितना|कितने|संख्या|योग|गुणा|भाग|प्रतिशत|क्षेत्रफल|त्रिभुज|कोण|ज्ञात कीजिए|हल कीजिए)/i,
+    // An actual expression: numbers with operators (ASCII or Unicode), powers, roots, an equation, a percentage, a measurement.
+    mathExpr: /(\d\s*\)?\s*[-+*\/×÷^%−–·]\s*\(?\s*[-−]?\d)|(\d\s*[a-z]\b\s*[-+=−])|(\b[a-z]\s*[\^²³⁴])|(\d\s*[²³⁴⁻])|(\d\s*\/\s*\d)|(\b[a-z]\s*=\s*[-−]?\d)|(=\s*[-−]?\d)|[√∛π]|\\frac|\bsqrt\b|\d\s*%|\b\d+(\.\d+)?\s*(cm|mm|m|km|kg|g|l|ml|°)(\b|²|³)|\d\s*:\s*\d|\d+\.\d*…|\.\.\./i,
+    yearsOnly: /^[^0-9]*\b(1[0-9]{3}|20[0-9]{2})\b[^0-9]*$/,
+    direct: /\b(just (tell|give)( me)?( the)? (full )?(answer|solution)|give me the (full |whole |complete )?(answer|solution)|direct(ly)? answer|exam (is )?(tomorrow|today)|in a hurry|quick answer|no hints?|seedha (batao|answer)|jaldi)\b/i,
+    confused: /\b((don'?t|do not|didn'?t|did not|still (don'?t|can'?t)|not able to|can'?t) (get|understand|follow)|i don'?t understand|confus(ed|ing)|samajh? (nahi|nhi)|nahi samjh?a|explain (it )?again|simpler|easier way|in simple words|like i'?m \d+|eli\d+|still lost|what do you mean)\b/i,
+    explainStep: /\b(why|how) (did|do|does|is|are|was|were|can|could) (you|we|it|that|this|i)\b|\b(previous|last|that|this|first|second|third|next) step\b|\bwhere did .{1,30} come from\b|\bwhat does (that|this) step\b|\bwhy (is|was|does) (that|this|it)\b/i,
+    attempt: /\b(i got|i get|i found|my answer|i think|i calculated|i solved|i did|i wrote|is (this|that|it|my answer) (right|correct)|am i (right|correct)|where did i go wrong|what did i do wrong|my friend says|(she|he) says|is (she|he) right|check my (answer|working|work))\b/i,
+    hint: /\b(hint|clue|let me try|i want to try|i'?ll try|try (it )?(myself|on my own|by myself)|don'?t (tell|give|show) (me )?the (answer|solution)|without (telling|giving|showing) (me )?the (answer|solution))\b/i,
     chat: /^\s*(hi+|hey+|hello+|thanks?( you)?|thank u|ok(ay)?|cool|nice|bye|good (morning|night|evening)|haha+|hmm+|yes|no|next|go on)[\s.!?]*$/i,
     quickFact: /^\s*(who (is|was|invented|discovered|wrote)|which|where|when|what is the (capital|largest|smallest|longest|tallest|highest|national|currency|full form))\b/i,
     concept: /^\s*(what (is|are|was|were|does|do)|why|how (does|do|is|are|did)|explain|tell me about|define|difference between|kya (hai|hota)|kyun|kaise)\b/i
   };
   function route(text, ctx = {}) {
     const t = String(text || '');
-    const hasDigits = /\d/.test(t);
-    const isMathExpr = RX.mathExpr.test(t);
+    const hasDigits = /[\d०-९]/.test(t);
+    const isMathExpr = RX.mathExpr.test(t) && !RX.yearsOnly.test(t);
+    const mathWords = (t.match(new RegExp(RX.mathWord.source, 'gi')) || []).length;
+    const followUp = !!ctx.prevSubject;
     const r = { subject: 'general', kind: 'question', needsCode: false, needsSearch: false, direct: RX.direct.test(t), confused: RX.confused.test(t) };
     if (RX.chat.test(t)) { r.kind = 'chat'; return r; }
-    if (RX.hindi.test(t) && !isMathExpr) r.subject = 'hindi';
-    else if (RX.reasoning.test(t)) r.subject = 'reasoning';
-    else if (isMathExpr || (RX.mathWord.test(t) && (hasDigits || /\b(solve|simplify|factori[sz]e|equation|algebra|probability|quadratic)\b/i.test(t)))) r.subject = 'math';
+    // Two maths words, or one plus a number, or "solve" on its own; a lone year ("in 1857") is not maths.
+    const mathy = isMathExpr || (mathWords >= 1 && hasDigits && !(mathWords === 1 && RX.yearsOnly.test(t) && !/\d\s*(cm|m|km|kg|%)/.test(t))) || mathWords >= 2 || /\bsolve\b/i.test(t) && !RX.reasoning.test(t);
+    if (RX.reasoning.test(t) && !/\b(equation|solve)\b/i.test(t)) r.subject = 'reasoning';
+    else if (mathy) r.subject = 'math';
+    else if (RX.hindi.test(t)) r.subject = 'hindi';
     else if (RX.writing.test(t)) r.subject = 'writing';
     else if (RX.english.test(t)) r.subject = 'english';
     else if (RX.quickFact.test(t) && t.length < 90) r.subject = 'gk';
     else if (RX.science.test(t)) r.subject = 'science';
     else if (RX.social.test(t)) r.subject = 'social';
-    else if (RX.mathWord.test(t)) r.subject = 'math';
-    // A follow-up like "and for 3x + 2 = 11?" or "why?" keeps the subject of the conversation.
-    if (r.subject === 'general' && ctx.prevSubject && t.length < 80) r.subject = ctx.prevSubject;
-    if (r.subject === 'math') r.kind = hasDigits || isMathExpr || /\b(solve|simplify|evaluate|calculate|find|factori[sz]e|expand|prove)\b/i.test(t) ? 'problem' : 'concept';
+    else if (mathWords >= 1 && /\b(denominator|numerator|fraction|exponent|equation|algebra|factori[sz]|percent|ratio|angle|triangle|probability)/i.test(t)) r.subject = 'math';
+    // A follow-up like "and for 3x + 2 = 11?" or "why did you do that?" keeps the subject of the conversation.
+    if (r.subject === 'general' && followUp && (t.length < 120 || RX.explainStep.test(t) || RX.confused.test(t))) r.subject = ctx.prevSubject;
+    // What kind of turn is this?
+    if (followUp && RX.explainStep.test(t) && !RX.attempt.test(t)) r.kind = 'explain-step';
+    else if (r.confused && !isMathExpr) r.kind = 'reexplain';
+    else if (RX.hint.test(t)) r.kind = 'hint';
+    else if (RX.attempt.test(t) || (ctx.prevModelText && /👉/.test(ctx.prevModelText) && /^\s*[-−]?\s*[a-z]?\s*=?\s*[-−]?\d[\d\s./,]*\s*[a-z²³%]*\s*[.!?]?\s*$/i.test(t))) r.kind = 'attempt';
+    else if (r.subject === 'math') r.kind = hasDigits || isMathExpr || /\b(solve|simplify|evaluate|calculate|find|factori[sz]e|expand|prove|how (many|much|long|far|old)|what is the (probability|value|sum|mean|median|mode|area|perimeter|volume)|one|two|three|four|five|six|seven|eight|nine|ten|first \w+)\b/i.test(t) ? 'problem' : 'concept';
     else if (r.subject === 'reasoning') r.kind = 'problem';
     else if (r.subject === 'writing') r.kind = 'creative';
     else if (RX.concept.test(t)) r.kind = 'concept';
-    if (RX.current.test(t) && !(RX.historic.test(t) && !/\b(latest|current|today|news|202\d)\b/i.test(t))) { r.needsSearch = true; if (r.subject === 'general') r.subject = 'gk'; r.kind = 'current'; }
+    if (r.subject !== 'math' && r.subject !== 'reasoning' && !(RX.historic.test(t) && !/\b(latest|current|today|news|202\d)\b/i.test(t)) && (RX.alwaysCurrent.test(t) || (RX.timeWord.test(t) && (RX.changing.test(t) || /^\s*(who|what|when|where|which|how much|is)\b/i.test(t))))) {
+      r.needsSearch = true; if (r.subject === 'general') r.subject = 'gk'; r.kind = 'current';
+    }
     if (r.subject === 'general' && RX.quickFact.test(t)) r.subject = 'gk';
-    r.needsCode = r.kind === 'problem' && (r.subject === 'math' || (r.subject === 'reasoning' && hasDigits));
+    // The maths checker runs for problems and for checking a student's own numeric answer, not for explaining a step or a hint.
+    r.needsCode = (r.kind === 'problem' || (r.kind === 'attempt' && (isMathExpr || hasDigits))) && (r.subject === 'math' || (r.subject === 'reasoning' && hasDigits));
     if (ctx.hasImage && !t.trim()) r.kind = 'image';
-    if (ctx.hasImage && /\b(solve|answer|question|sum|homework|worksheet|check)\b/i.test(t)) { r.needsCode = true; if (r.subject === 'general') r.subject = 'math'; }
+    if (ctx.hasImage && /\b(solve|answer|question|sum|homework|worksheet|check|this)\b/i.test(t) && r.kind !== 'hint') { r.needsCode = true; if (r.subject === 'general') r.subject = 'math'; if (r.kind === 'question') r.kind = 'problem'; }
     return r;
   }
 
@@ -103,13 +125,15 @@ FUNNEL RULES
 - If they say "just tell me" before trying, encourage one quick attempt first; if they've already tried twice or have an exam soon, explain fully.`;
 
   const MATH_RULES = (age, code, voice) => `MATHS: ACCURACY IS YOUR TOP PRIORITY
-1. Read the question twice. Start with one short line saying what is given and what is asked. If information is missing, or the notation is ambiguous (like 1/2x, 6÷2(1+2), or a diagram you can't see), say exactly what is unclear, then either ask, or state the reading you are using.
-2. Decide the method yourself, then solve one small step per line, each with a short reason a ${age || 11}-year-old follows ("subtract 5 from both sides so x is left alone").
-3. Check before you answer: put the answer back into the ORIGINAL question (for equations, show both sides are equal), redo arithmetic a second way, and check units, signs, rounding, domains and whether it is sensible (a length can't be negative, a probability is between 0 and 1).
-${code ? '4. You have a Python tool this turn. Use it for any non-trivial arithmetic, algebra, statistics or numeric check (sympy and fractions are available), but only to compute or verify, never instead of explaining. Don\'t show code to the student; say in words what you checked.' : '4. There is no calculator tool this turn: do the check carefully by hand and show it.'}
-5. Write "Check:" only for a check you actually did, and show it. Never say an answer was verified by a computer unless the Python tool ran this turn.
-6. Geometry: use only facts given in words or clearly marked. Never assume lengths, right angles or parallel lines from how a diagram looks; say "if we assume…".
-7. ${voice ? 'Say the final answer clearly in the last sentence.' : 'End the solution with one line: "**Answer:** …" (with units).'} Then one 👉 line with a similar practice question for them to try (no answer).
+1. Understand the question first. Start with one short line: what is given and what must be found. If information is missing (a rectangle with only its length), contradictory (triangle angles that add up to more than 180°), or the notation has two readings (6 ÷ 2(1+2), 1/2x, a diagram you can't see), say exactly what is wrong or unclear and ask, or show both readings. Never invent a missing number, and never write an **Answer:** line for a question that can't be answered.
+2. Name the idea behind the method in one sentence (for example "an equation is a balance: do the same to both sides"), then solve one small step per line, each with a short reason a ${age || 11}-year-old follows ("subtract 5 from both sides so x is left alone"). Keep signs and brackets explicit: write −(−5) = +5, open brackets term by term.
+3. Fractions: show the common denominator or equivalent fractions, and give the final fraction in lowest terms (say so). Decimals and rounding: only round at the end, and say what you rounded to. Units: carry them through every line and put them in the answer (cm², cm³, km/h, ₹).
+4. Check before you answer: put the answer back into the ORIGINAL question (for equations, work out both sides with the number and show they are equal), redo arithmetic a second way, and check units, signs, domains and whether it is sensible (a length can't be negative, a probability is between 0 and 1). If your check disagrees with your answer, find the mistake and fix it before replying; never give an answer your own check contradicts.
+${code ? '5. You have a Python tool this turn. Use it to compute or verify any non-trivial arithmetic, algebra, statistics or numeric check (sympy and fractions are available), and make sure your final answer matches what it printed. It checks your work; it never replaces explaining. Don\'t show code to the student; say in words what you checked.' : '5. There is no calculator tool this turn: do the check carefully by hand and show it.'}
+6. Write "Check:" only for a check you actually did, and show it. Never say an answer was verified by a computer unless the Python tool ran this turn.
+7. Geometry: use only facts given in words or clearly marked. Never assume lengths, right angles or parallel lines from how a figure looks; if a result needs an assumption, say "if we assume…" or ask.
+8. Fit the size of the reply to the question: a one-step sum needs a line or two, not every section. A multi-step problem gets all of them.
+9. ${voice ? 'Say the final answer clearly in the last sentence.' : 'End the solution with one line: "**Answer:** …" (with units).'} Then one 👉 line with a similar practice question for them to try (no answer). Choose numbers that give a clean answer, and work out its answer yourself first so the question is correct.
 ${voice ? 'Say maths in words ("x equals six", "three quarters"), no symbols.' : 'Write maths in LaTeX: inline \\( ... \\), on its own line \\[ ... \\]. Use $ only for maths, never for money (write ₹ or "dollars").'}`;
 
   const SAFETY = `SAFETY (you are talking with a child):
@@ -144,8 +168,11 @@ ${voice ? 'Say maths in words ("x equals six", "three quarters"), no symbols.' :
     if (rt.subject === 'math' && rt.kind === 'problem' && opts.teach !== 'challenge') out.push('THIS QUESTION is a maths problem: don\'t use the three-stage funnel. Give a one-line idea of the method, then the full worked solution with the check, the answer line and a practice question, all in this reply.');
     if (SUBJECT[rt.subject]) out.push(SUBJECT[rt.subject]);
     if (rt.kind === 'current') out.push(opts.search ? 'THIS QUESTION needs up-to-date information: use the search results, mention when the information is from, and don\'t claim more than they say.' : 'THIS QUESTION needs up-to-date information but live search isn\'t available: answer from what you know, say clearly it may be out of date (and from about when), and suggest checking a trusted news site or asking an adult.');
-    if (rt.confused) out.push('THEY SAID THEY DON\'T UNDERSTAND: re-explain from a different angle with smaller steps, simpler words and a new concrete example. Don\'t repeat the same explanation. Ask which step lost them.');
-    if (rt.direct) out.push('THEY NEED IT DIRECTLY: give the full explanation or solution now, compactly. No hints-first, no funnel.');
+    if (rt.kind === 'explain-step') out.push('THEY ARE ASKING ABOUT A STEP YOU ALREADY SHOWED: find that exact step in your previous reply and quote it with its actual numbers. Explain WHY it is done (for equations, the balance idea: whatever you do to one side you do to the other, to get the unknown alone), with a tiny example using simpler numbers or a picture in words (a weighing scale, sharing sweets). Don\'t redo the whole solution and don\'t answer a general question about the operation. End by asking if that step makes sense now.');
+    if (rt.kind === 'attempt') out.push('THE STUDENT SHARED THEIR OWN ANSWER OR CLAIM: first work it out yourself. If it is right, say so clearly and why. If it is wrong, never call it right: say what is right in their thinking, pinpoint the exact step or idea that went wrong and the misconception behind it (for example multiplying the powers instead of adding them), show the correct working in a way that makes the idea visible (2³ × 2⁴ = (2×2×2)×(2×2×2×2) = 2⁷), and give them a similar question to try. Be kind; mistakes are how we learn.');
+    if (rt.kind === 'hint') out.push('THEY WANT TO TRY IT THEMSELVES: give ONE small hint (the idea or the first step only), not the answer and not the full working, and no **Answer:** line. Ask them to try and tell you what they get. Give a stronger hint if they ask again, and the full solution only when they ask for it or share an answer to check.');
+    if (rt.confused || rt.kind === 'reexplain') out.push('THEY SAID THEY DON\'T UNDERSTAND: change the method, don\'t reword the same explanation. Go: a concrete everyday example (rotis, pizza slices, money, chocolate bars) → the same idea with smaller, simpler numbers → a picture in words → one guided step they do with you → back to the original question → one tiny practice question. Use different words and a different example from your previous explanation, short sentences, and ask which part felt confusing.');
+    if (rt.direct) out.push('THEY NEED IT DIRECTLY: give the full explanation or solution now, compactly. No hints-first, no funnel, no asking what they tried.');
     return out.length ? 'FOR THIS REPLY\n' + out.join('\n\n') : '';
   }
 
@@ -284,6 +311,7 @@ ${turnGuidance(rt, { level: lv, code: ctx.code, search: ctx.search, voice: ctx.v
     s = s.replace(/```[ \t]*([\w+-]*)[ \t]*\n?([\s\S]*?)(?:```|$)/g, (_, lang, code) => '\n' + keep(`<pre class="code"><code${lang ? ` data-lang="${esc(lang)}"` : ''}>${esc(code.replace(/\n$/, ''))}</code></pre>`) + '\n');
     s = s.replace(/`([^`\n]+)`/g, (_, c) => keep(`<code>${esc(c)}</code>`));
     s = s.replace(/\\\[([\s\S]+?)\\\]|\$\$([\s\S]+?)\$\$/g, (_, a, b) => keep(`<span class="math-d">${tex((a || b).trim(), true, katex)}</span>`));
+    s = s.replace(/\\begin\{(aligned|align\*?|equation\*?|gather\*?|array|cases|matrix|pmatrix|bmatrix)\}[\s\S]*?\\end\{\1\}/g, m => keep(`<span class="math-d">${tex(m.replace(/\\begin\{align\*?\}/, '\\begin{aligned}').replace(/\\end\{align\*?\}/, '\\end{aligned}'), true, katex)}</span>`));
     s = s.replace(/\\\(([\s\S]+?)\\\)/g, (_, a) => keep(tex(a.trim(), false, katex)));
     // $…$ only when it looks like maths: no space just inside the dollars, and not followed by a digit ("$5 and $10" stays money).
     s = s.replace(/(^|[^\\$\w])\$([^\s$](?:[^$\n]*?[^\s\\$])?)\$(?![\w\d])/g, (m, pre, a) => pre + keep(tex(a, false, katex)));
@@ -345,5 +373,25 @@ ${turnGuidance(rt, { level: lv, code: ctx.code, search: ctx.search, voice: ctx.v
     return asked && !/\?\s*$/.test(t);
   }
 
-  return { esc, levelOf, route, turnGuidance, systemPrompt, toolsFor, requestBody, newReply, absorb, sseEvents, endNote, checkSummary, md, tex, speakMath, looksLikeAttempt, SAFETY, MATH_RULES, LEVEL_STYLE };
+  /* Extra instruction when the app's exact check disagrees with Sparky's first answer: one careful retry. */
+  function recheckInstruction(v) {
+    const what = v.problem && v.problem.kind === 'equation' ? `the equation ${v.problem.eq}` : `the calculation ${v.problem ? v.problem.expr : ''}`;
+    return `\n\nEXACT CHECK FAILED: Spark's exact calculator read the question as ${what} and got ${v.expected}, but your draft answer said ${v.got}. Work through the ORIGINAL question again from the start, slowly, checking every sign, bracket and fraction. If the question does mean that, give the corrected full solution with the check and the **Answer:** line. If it means something different, explain the two readings briefly. Don't mention this note or say that an answer was corrected.`;
+  }
+  /* While a reply is still streaming, hide a maths expression whose closing delimiter hasn't arrived yet,
+     so the student never sees half-typed LaTeX flash on screen. */
+  function trimOpenMath(text) {
+    let t = String(text || '');
+    const count = re => (t.match(re) || []).length;
+    for (const [open, close] of [['\\(', '\\)'], ['\\[', '\\]']]) {
+      const o = t.split(open).length - 1, c = t.split(close).length - 1;
+      if (o > c) t = t.slice(0, t.lastIndexOf(open));
+    }
+    if (count(/\$\$/g) % 2) t = t.slice(0, t.lastIndexOf('$$'));
+    const begins = count(/\\begin\{/g), ends = count(/\\end\{/g);
+    if (begins > ends) t = t.slice(0, t.lastIndexOf('\\begin{'));
+    return t;
+  }
+
+  return { esc, levelOf, route, recheckInstruction, trimOpenMath, turnGuidance, systemPrompt, toolsFor, requestBody, newReply, absorb, sseEvents, endNote, checkSummary, md, tex, speakMath, looksLikeAttempt, SAFETY, MATH_RULES, LEVEL_STYLE };
 });
