@@ -1058,7 +1058,7 @@ function msgHTML(m) {
   const chk = m.pending ? (m.rechecking ? '<div class="chk"><span class="typing"><i></i><i></i><i></i></span> Double-checking this answer…</div>' : '')
     : v && v.status === 'agree' ? `<details class="chk ok"><summary>✓ Answer checked</summary><p>${esc(v.note)}</p>${code}</details>`
     : v && v.status === 'disagree' ? `<div class="chk warn">⚠ This answer didn’t pass Sparky’s exact check: ${esc(v.note)} Please go through it carefully.</div>`
-    : m.check && m.check.ok ? `<details class="chk ok"><summary>✓ Checked with a calculator</summary>${code}</details>`
+    : m.check && m.check.ok ? `<details class="chk ok"><summary>✓ Sums checked with a calculator</summary><p>Sparky re-did the arithmetic with Python. This checks the calculations, not how the question was read.</p>${code}</details>`
     : m.check ? '<div class="chk warn">Sparky’s calculator check didn’t run, so double-check this answer.</div>' : '';
   return `<div class="msg ${m.role}" id="m-${m.id}"><div class="bubble">${img}${body}</div>${chk}${src}${m.role === 'model' ? `<div class="who">${buddyImg('who-img', true)}<span>${esc(bn())}</span>${!m.pending && m.text && !m.text.startsWith('\u26A0') ? `<button class="read-btn" data-read="${m.id}">${speakerSvg}${W.msgId === m.id ? 'Stop reading' : 'Read it to me'}</button>` : ''}${tools}</div>${practiceButtons(m)}` : ''}</div>`;
 }

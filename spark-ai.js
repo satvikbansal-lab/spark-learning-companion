@@ -125,10 +125,10 @@ FUNNEL RULES
 - If they say "just tell me" before trying, encourage one quick attempt first; if they've already tried twice or have an exam soon, explain fully.`;
 
   const MATH_RULES = (age, code, voice) => `MATHS: ACCURACY IS YOUR TOP PRIORITY
-1. Understand the question first. Start with one short line: what is given and what must be found. If information is missing (a rectangle with only its length), contradictory (triangle angles that add up to more than 180°), or the notation has two readings (6 ÷ 2(1+2), 1/2x, a diagram you can't see), say exactly what is wrong or unclear and ask, or show both readings. Never invent a missing number, and never write an **Answer:** line for a question that can't be answered.
+1. Understand the question first. Read it like a person, not a parser: fix obvious typos ("i feel 10" in a shop question means "I sell 10"). When a phrase has two readings, pick the one that makes sense in real life and say it: "10 for 650" after a cost of ₹250 each means ₹650 each (a shop doesn't sell ₹250 items for ₹65), so write "I'm reading this as 10 perfumes sold at ₹650 each". If both readings are realistic, solve the likely one and add one line on the other. Start with one short line: what is given (as you read it) and what must be found. If information is missing (a rectangle with only its length), contradictory (triangle angles that add up to more than 180°), or the notation has two readings (6 ÷ 2(1+2), 1/2x, a diagram you can't see), say exactly what is wrong or unclear and ask, or show both readings. Never invent a missing number, and never write an **Answer:** line for a question that can't be answered.
 2. Name the idea behind the method in one sentence (for example "an equation is a balance: do the same to both sides"), then solve one small step per line, each with a short reason a ${age || 11}-year-old follows ("subtract 5 from both sides so x is left alone"). Keep signs and brackets explicit: write −(−5) = +5, open brackets term by term.
-3. Fractions: show the common denominator or equivalent fractions, and give the final fraction in lowest terms (say so). Decimals and rounding: only round at the end, and say what you rounded to. Units: carry them through every line and put them in the answer (cm², cm³, km/h, ₹).
-4. Check before you answer: put the answer back into the ORIGINAL question (for equations, work out both sides with the number and show they are equal), redo arithmetic a second way, and check units, signs, domains and whether it is sensible (a length can't be negative, a probability is between 0 and 1). If your check disagrees with your answer, find the mistake and fix it before replying; never give an answer your own check contradicts.
+3. Profit and loss (Indian school maths): profit % = profit ÷ cost price × 100 and loss % = loss ÷ cost price × 100. If they ask for "margin", give profit % on cost and also the margin on selling price (profit ÷ selling price × 100), naming each so they aren't confused. Fractions: show the common denominator or equivalent fractions, and give the final fraction in lowest terms (say so). Decimals and rounding: only round at the end, and say what you rounded to. Units: carry them through every line and put them in the answer (cm², cm³, km/h, ₹).
+4. Sanity-check the result against real life: a huge loss on a normal sale, a margin below −100%, a negative length, an age of 300 or a probability above 1 means you probably misread the question. Re-read it before you answer. Then check: put the answer back into the ORIGINAL question (for equations, work out both sides with the number and show they are equal), redo arithmetic a second way, and check units, signs, domains and whether it is sensible (a length can't be negative, a probability is between 0 and 1). If your check disagrees with your answer, find the mistake and fix it before replying; never give an answer your own check contradicts.
 ${code ? '5. You have a Python tool this turn. Use it to compute or verify any non-trivial arithmetic, algebra, statistics or numeric check (sympy and fractions are available), and make sure your final answer matches what it printed. It checks your work; it never replaces explaining. Don\'t show code to the student; say in words what you checked.' : '5. There is no calculator tool this turn: do the check carefully by hand and show it.'}
 6. Write "Check:" only for a check you actually did, and show it. Never say an answer was verified by a computer unless the Python tool ran this turn.
 7. Geometry: use only facts given in words or clearly marked. Never assume lengths, right angles or parallel lines from how a figure looks; if a result needs an assumption, say "if we assume…" or ask.
@@ -297,6 +297,7 @@ ${turnGuidance(rt, { level: lv, code: ctx.code, search: ctx.search, voice: ctx.v
 
   /* ---------- rendering ---------- */
   function tex(src, display, katex) {
+    src = src.replace(/(\d),(?=\d{2,3}(?!\d))/g, '$1{,}'); // 7,500 and 1,00,000 are numbers, not lists
     if (katex) {
       try { return katex.renderToString(src, { displayMode: display, throwOnError: false, strict: 'ignore', trust: false, output: 'htmlAndMathml' }); } catch (e) {}
     }
@@ -319,9 +320,9 @@ ${turnGuidance(rt, { level: lv, code: ctx.code, search: ctx.search, voice: ctx.v
       .replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>')
       .replace(/(^|[^*\w])\*([^*\n]+)\*(?!\w)/g, '$1<i>$2</i>')
       .replace(/\[([^\]\n]+)\]\((https?:\/\/[^\s)]+)\)/g, (m, t, u) => `<a href="${u}" target="_blank" rel="noopener noreferrer">${t}</a>`);
-    const lines = s.split('\n'); let out = '', list = null, para = [];
+    const lines = s.split('\n'); let out = '', list = null, para = [], olNext = 0, olGap = false;
     const flushP = () => { if (para.length) { out += '<p>' + para.map(inline).join('<br>') + '</p>'; para = []; } };
-    const flushL = () => { if (list) { out += `</${list}>`; list = null; } };
+    const flushL = () => { if (list) { if (list === 'ol') olGap = true; out += `</${list}>`; list = null; } };
     const cells = l => l.trim().replace(/^\|/, '').replace(/\|$/, '').split('|').map(c => c.trim());
     for (let i = 0; i < lines.length; i++) {
       const l = lines[i].trimEnd();
@@ -335,12 +336,26 @@ ${turnGuidance(rt, { level: lv, code: ctx.code, search: ctx.search, voice: ctx.v
       }
       const ul = l.match(/^\s*[-*•]\s+(.*)/), ol = l.match(/^\s*\d+[.)]\s+(.*)/), h = l.match(/^#{1,6}\s+(.*)/), q = l.match(/^\s*>\s?(.*)/);
       if (/^\s*(-{3,}|\*{3,}|_{3,})\s*$/.test(l)) { flushP(); flushL(); out += '<hr>'; }
-      else if (/^\s*\u0000\d+\u0000\s*$/.test(l) && /<pre class="code"|class="math-d"/.test(store[Number(l.trim().slice(1, -1))] || '')) { flushP(); flushL(); out += l.trim(); }
-      else if (h) { flushP(); flushL(); out += '<h4>' + inline(h[1]) + '</h4>'; }
+      else if (/^\s*\u0000\d+\u0000\s*$/.test(l) && /<pre class="code"|class="math-d"/.test(store[Number(l.trim().slice(1, -1))] || '')) { flushP(); const keepGap = list === 'ol' || olGap; flushL(); olGap = keepGap; out += l.trim(); }
+      else if (h) { flushP(); flushL(); olGap = false; out += '<h4>' + inline(h[1]) + '</h4>'; }
       else if (q) { flushP(); flushL(); out += '<blockquote>' + inline(q[1]) + '</blockquote>'; }
-      else if (ul || ol) { flushP(); const k = ul ? 'ul' : 'ol'; if (list !== k) { flushL(); out += `<${k}>`; list = k; } out += '<li>' + inline((ul || ol)[1]) + '</li>'; }
+      else if (ul || ol) {
+        flushP(); const k = ul ? 'ul' : 'ol';
+        if (list !== k) {
+          flushL();
+          if (k === 'ol') {
+            // "1." after a maths line that interrupted the list continues the count instead of restarting at 1.
+            const n = Number(/^\s*(\d+)/.exec(l)[1]); const start = olGap && n <= olNext ? olNext + 1 : n;
+            out += start > 1 ? `<ol start="${start}">` : '<ol>'; olNext = start - 1;
+          } else out += '<ul>';
+          list = k;
+        }
+        if (k === 'ol') olNext++;
+        olGap = false;
+        out += '<li>' + inline((ul || ol)[1]) + '</li>';
+      }
       else if (!l.trim()) { flushP(); flushL(); }
-      else { flushL(); para.push(l); }
+      else { flushL(); olGap = false; para.push(l); }
     }
     flushP(); flushL();
     return out.replace(/\u0000(\d+)\u0000/g, (_, k) => store[Number(k)]);

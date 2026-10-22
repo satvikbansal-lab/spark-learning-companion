@@ -94,6 +94,8 @@ module.exports = [
   C('profit-loss', 'pl-5', 'After a 10% discount, a bag costs ₹900. What was its marked price?', { expect: ['1000'], py: 'F(900, F(9,10))', modes: ['D'] }),
   C('profit-loss', 'pl-6', 'A phone costs ₹12,000 plus 18% GST. What is the total price?', { expect: ['14160'], py: '12000*F(118,100)', modes: ['A'] }),
   C('profit-loss', 'pl-7', 'By selling a pen for ₹45, a shopkeeper loses 10%. What was the cost price?', { expect: ['50'], py: 'F(45, F(9,10))', modes: ['D'] }),
+  // From a real student message (with its typo): "10 for 650" after a ₹250 cost means ₹650 each.
+  C('profit-loss', 'pl-9', 'one perfume costs me 250 rupees i feel 10 for 650 10 for 550 10 for 500 tell me the total profit and my profit margin percent', { expect: ['9500'], py: '10*650 + 10*550 + 10*500 - 30*250', must: [/126\.6|55\.8/, /each|per (perfume|piece|bottle)|reading|assum/i], not: [/-\s*₹?\s*5,?800|341/], modes: ['D'] }),
   C('profit-loss', 'pl-8', 'Riya buys 3 notebooks at ₹45 each and 2 pens at ₹12 each. She is 13 years old and lives 2 km from school. How much does she spend?', { expect: ['159'], py: '3*45+2*12', modes: ['D'] }),
   // 10. Ratio, proportion, direct and inverse proportion
   C('ratio', 'rt-1', 'Divide ₹840 between Asha and Ben in the ratio 3:4.', { expect: ['360', '480'], py: '[840*F(3,7), 840*F(4,7)]', modes: ['A'] }),

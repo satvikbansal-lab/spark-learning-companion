@@ -162,3 +162,22 @@ test('benchmark: at least 100 distinct cases covering all 20 areas, each with an
   for (const x of CASES) assert.ok(x.expect || x.expr || x.must || x.between, `${x.id} has nothing to grade`);
   for (const x of CASES.filter(x => x.expect || x.expr)) assert.ok(x.py, `${x.id} has no independent Python check`);
 });
+
+/* ---------- regressions from a real student conversation (perfume shop) ---------- */
+test('regression: numbered steps keep counting when display maths sits between them', () => {
+  const h = AI.md('1. First:\n\\[10+10+10=30\\]\n1. Cost:\n\\[30 \\times 250\\]\n1. Third', K);
+  assert.match(h, /<ol><li>First:<\/li><\/ol>.*<ol start="2"><li>Cost:<\/li><\/ol>.*<ol start="3"><li>Third<\/li><\/ol>/s);
+  assert.match(AI.md('1. a\n\nA paragraph\n\n1. b', K), /<p>A paragraph<\/p><ol><li>b/, 'a real new list still starts at 1');
+});
+test('regression: thousands separators stay one number in maths', () => {
+  assert.match(AI.md('\\(30 \\times 250 = 7,500\\) and \\(1,00,000\\)', K), /7\{,\}500.*1\{,\}00\{,\}000/s);
+  assert.doesNotMatch(AI.md('\\(f(x, y)\\)', K), /\{,\}/, 'commas between letters are left alone');
+});
+test('regression: maths rules tell Sparky to read shop questions sensibly and sanity-check results', () => {
+  const p = AI.systemPrompt({ grade: 'Class 8', route: AI.route(CASES.find(x => x.id === 'pl-9').q), code: true });
+  assert.match(p, /"10 for 650" after a cost of ₹250 each means ₹650 each/);
+  assert.match(p, /margin below −100%/);
+  assert.match(p, /profit % = profit ÷ cost price × 100/);
+  const r = AI.route(CASES.find(x => x.id === 'pl-9').q);
+  assert.equal(r.subject, 'math'); assert.equal(r.needsCode, true); assert.equal(r.needsSearch, false);
+});
