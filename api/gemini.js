@@ -93,7 +93,7 @@ module.exports = async (req, res) => {
 
   // The app reads which tools this connection has, so it never promises a calculator or web search that won't run.
   if (req.method === 'GET') return res.status(200).json(key ? { configured: true, provider: 'gemini', tools: { code: true, search: true }, tts: true }
-    : orKey ? { configured: true, provider: 'openrouter', model: openrouter.MAIN, tools: { code: false, search: false }, tts: false } : { configured: false });
+    : orKey ? { configured: true, provider: 'openrouter', model: openrouter.MAIN, tools: { code: false, search: false }, tts: true, voice: openrouter.TTS } : { configured: false });
   if (req.method !== 'POST') return res.status(405).json({ error: { message: 'Use POST.' } });
 
   // Only this site's own pages may use the key (requests without an Origin or Referer are refused too).

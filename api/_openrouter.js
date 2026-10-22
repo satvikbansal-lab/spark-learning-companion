@@ -4,16 +4,21 @@
 // Only Google models, served only by Google (Vertex or AI Studio), as OpenRouter's provider routing allows.
 // Gemini's own code-execution and Google Search tools aren't available through OpenRouter: they are dropped,
 // and GET /api/gemini tells the app, so Sparky never claims a calculator or web check that didn't happen.
+// Sparky's voice uses Google's Gemini TTS through OpenRouter's speech endpoint (same voice names, e.g. Leda).
 // The file name starts with "_" so Vercel doesn't publish it as its own endpoint.
 
 const BASE = 'https://openrouter.ai/api/v1';
 const MAIN = process.env.OPENROUTER_MODEL || 'google/gemini-3.7-flash';
 const LITE = process.env.OPENROUTER_LITE_MODEL || 'google/gemini-3.5-flash-lite';
 const PROVIDER = { only: ['google-vertex', 'google-ai-studio'], allow_fallbacks: false };
+const TTS = process.env.OPENROUTER_TTS_MODEL || 'google/gemini-3.8-flash-tts';
+const VOICES = ['Zephyr', 'Puck', 'Charon', 'Kore', 'Fenrir', 'Leda', 'Orus', 'Aoede', 'Callirrhoe', 'Autonoe', 'Enceladus', 'Iapetus', 'Umbriel', 'Algieba', 'Despina', 'Erinome', 'Algenib', 'Rasalgethi', 'Laomedeia', 'Achernar', 'Alnilam', 'Schedar', 'Gacrux', 'Pulcherrima', 'Achird', 'Zubenelgenubi', 'Vindemiatrix', 'Sadachbia', 'Sadaltager', 'Sulafat'];
+// Delivery is sent as instructions, never inside the text, so it isn't read aloud.
+const VOICE_STYLE = 'Speak warmly and naturally, like a kind, friendly older friend explaining something to a child. Normal pace, clear, with natural pauses between sentences. Not over-excited.';
 
 /* Spark asks for Gemini model names; lighter background jobs (progress, quizzes) ask for "lite" ones. */
 function modelFor(geminiModel) {
-  if (/tts/.test(geminiModel)) return null; // text-to-speech isn't offered through OpenRouter; the app uses the browser voice
+  if (/tts/.test(geminiModel)) return null; // voices go through speak() below, not the chat endpoint
   return /lite/.test(geminiModel) ? LITE : MAIN;
 }
 /* Gemini's schema types are upper-case ("OBJECT"); JSON Schema wants lower-case. */
@@ -60,8 +65,32 @@ function toChat(geminiModel, body, stream) {
 const FINISH = { stop: 'STOP', length: 'MAX_TOKENS', content_filter: 'SAFETY', error: 'OTHER', tool_calls: 'STOP' };
 const geminiChunk = (text, finish, model) => ({ candidates: [Object.assign({ content: { role: 'model', parts: text ? [{ text }] : [] } }, finish ? { finishReason: FINISH[finish] || 'OTHER' } : {})], modelVersion: model });
 
+/* Sparky's voice: a Gemini TTS request becomes an OpenRouter speech request. Gemini TTS only returns raw PCM
+   (16-bit, 24 kHz, mono), which goes back labelled the way Gemini labels it, so the app's player handles it as before. */
+function toSpeech(body) {
+  const input = (body.contents || []).flatMap(c => c.parts || []).map(p => p.text || '').join(' ').trim().slice(0, 3000);
+  const asked = body.generationConfig && body.generationConfig.speechConfig && body.generationConfig.speechConfig.voiceConfig && body.generationConfig.speechConfig.voiceConfig.prebuiltVoiceConfig && body.generationConfig.speechConfig.voiceConfig.prebuiltVoiceConfig.voiceName;
+  return { model: TTS, input, voice: VOICES.includes(asked) ? asked : 'Leda', instructions: VOICE_STYLE, response_format: 'pcm' };
+}
+async function speak(res, { body, key, signal }) {
+  const req = toSpeech(body);
+  if (!req.input) return res.status(400).json({ error: { code: 400, message: 'Nothing to say.' } });
+  let up;
+  try {
+    up = await fetch(`${BASE}/audio/speech`, { method: 'POST', signal, headers: { Authorization: `Bearer ${key}`, 'Content-Type': 'application/json', 'X-Title': 'Spark' }, body: JSON.stringify(req) });
+  } catch (e) { return res.status(502).json({ error: { code: 502, message: 'Could not reach OpenRouter.' } }); }
+  if (!up.ok) {
+    let msg = ''; try { const j = await up.json(); msg = (j.error && j.error.message) || ''; } catch (e) {}
+    return res.status(up.status).json({ error: { code: up.status, message: msg || 'The voice is unavailable right now.' } });
+  }
+  const audio = Buffer.from(await up.arrayBuffer());
+  if (!audio.length) return res.status(502).json({ error: { code: 502, message: 'The voice came back empty.' } });
+  return res.status(200).json({ candidates: [{ content: { role: 'model', parts: [{ inlineData: { mimeType: 'audio/L16;codec=pcm;rate=24000', data: audio.toString('base64') } }] }, finishReason: 'STOP' }], modelVersion: TTS });
+}
+
 /* Sends the request and writes a Gemini-shaped reply to res (a Node/Vercel response). */
 async function forward(res, { model: geminiModel, stream, body, key, signal }) {
+  if (/tts/.test(geminiModel)) return speak(res, { body, key, signal });
   const chat = toChat(geminiModel, body, stream);
   if (!chat) return res.status(501).json({ error: { code: 501, message: 'That model is not available through OpenRouter.' } });
   let up;
@@ -103,4 +132,4 @@ async function forward(res, { model: geminiModel, stream, body, key, signal }) {
   res.end();
 }
 
-module.exports = { toChat, forward, modelFor, jsonSchema, MAIN, LITE };
+module.exports = { toChat, toSpeech, forward, modelFor, jsonSchema, MAIN, LITE, TTS };

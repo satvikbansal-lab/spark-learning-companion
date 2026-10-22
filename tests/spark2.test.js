@@ -80,9 +80,17 @@ test('OpenRouter: Gemini requests become Google-only chat requests', () => {
   assert.equal(req.tools, undefined, 'Gemini-only tools are not sent');
   assert.equal(req.stream, true);
 });
+test("OpenRouter: Sparky's voice becomes a Google TTS speech request with the chosen voice", () => {
+  const sp = v => OR.toSpeech({ contents: [{ role: 'user', parts: [{ text: 'x equals six.' }] }], generationConfig: { responseModalities: ['AUDIO'], speechConfig: { voiceConfig: { prebuiltVoiceConfig: { voiceName: v } } } } });
+  assert.deepEqual({ ...sp('Puck'), instructions: undefined }, { model: OR.TTS, input: 'x equals six.', voice: 'Puck', instructions: undefined, response_format: 'pcm' });
+  assert.match(OR.TTS, /^google\/gemini-.*tts/);
+  assert.equal(sp('alloy').voice, 'Leda', 'unknown voices fall back to Leda');
+  assert.match(sp('Leda').instructions, /warmly/);
+  assert.doesNotMatch(sp('Leda').input, /warmly/, 'the style is never read aloud');
+});
 test('OpenRouter: lite jobs, JSON schemas, PDFs and voice models', () => {
   assert.equal(OR.toChat('gemini-3.5-flash-lite', { contents: [{ role: 'user', parts: [{ text: 'x' }] }] }).model, OR.LITE);
-  assert.equal(OR.toChat('gemini-3.1-flash-tts-preview', { contents: [] }), null);
+  assert.equal(OR.toChat('gemini-3.1-flash-tts-preview', { contents: [] }), null, 'voices are not chat requests');
   const j = OR.toChat('gemini-3.5-flash-lite', { contents: [{ role: 'user', parts: [{ text: 'x' }] }], generationConfig: { responseMimeType: 'application/json', responseSchema: { type: 'OBJECT', properties: { a: { type: 'ARRAY', items: { type: 'STRING' } } } } } });
   assert.deepEqual(j.response_format.json_schema.schema, { type: 'object', properties: { a: { type: 'array', items: { type: 'string' } } } });
   const pdf = OR.toChat('gemini-flash-latest', { contents: [{ role: 'user', parts: [{ inlineData: { mimeType: 'application/pdf', data: 'JVBE' } }, { text: 'explain' }] }] });
