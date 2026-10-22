@@ -91,6 +91,8 @@ svg { display: block; }
 .step.now { background: var(--inv-bg); color: var(--inv-ink); border-color: var(--inv-bg); }
 .step .k { font-family: var(--mono); font-size: 10.5px; opacity: .7; }
 .ladder .sep { width: 14px; height: 1px; background: var(--line); }
+.funnel-next { font-size: 12px; font-weight: 600; padding: 4px 12px; border-radius: 999px; background: var(--inv-bg); color: var(--inv-ink); margin-left: 6px; }
+.funnel-next:hover { opacity: .85; }
 
 /* chat */
 .msgs { flex: 1; overflow-y: auto; padding: 18px 20px 8px; }
@@ -351,7 +353,7 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
   <label class="check"><input type="checkbox" id="sThoughts"><span><b>Let Spark learn from my Thoughts</b><br>Spark never replies there. It only notes what helps it teach you, and you can see and delete every note.</span></label>
   <div class="field"><label for="sName">Your first name</label><input id="sName" placeholder="Riya"></div>
   <div class="field"><label for="sGrade">Class</label><input id="sGrade" placeholder="Class 7"></div>
-  <div class="field"><label for="sTeach">Teaching style</label><select id="sTeach"><option value="explain">Explain first: simple explanations, stories, then a fun check</option><option value="challenge">Challenge me: I try first, Spark gives hints</option></select></div>
+  <div class="field"><label for="sTeach">Teaching style</label><select id="sTeach"><option value="explain">Spark Funnel: a story first, then a closer look, then the final answer</option><option value="challenge">Challenge me: I try first, Spark gives hints</option></select></div>
   <div class="field"><label for="sVoice">Spark's voice</label><select id="sVoice">
     <option value="Leda">Leda: bright and friendly</option>
     <option value="Puck">Puck: playful and upbeat</option>
@@ -524,13 +526,28 @@ function renderMain() {
 /* ---------- chat ---------- */
 const LADDER = [['Your try', 'try'], ['Hints', 'hint'], ['Explain it', 'explain'], ['Answer', 'answer']];
 function ladderHTML(n) {
-  if (n.ladder.step < 0 || S.settings.teach !== 'challenge') return '';
+  if (S.settings.teach !== 'challenge') return funnelHTML(n);
+  if (n.ladder.step < 0) return '';
   return '<div class="ladder" aria-label="Where you are in this problem">' + LADDER.map(([label], i) => {
     const cls = i < n.ladder.step ? 'done' : i === n.ladder.step ? 'now' : '';
     const k = i === 1 && n.ladder.hints ? `<span class="k">${n.ladder.hints}</span>` : '';
     return (i ? '<span class="sep"></span>' : '') + `<span class="step ${cls}">${label}${k}</span>`;
   }).join('') + '</div>';
 }
+function updateStrip(n) {
+  if (S.mode === 'thought' || S.tab !== 'chat' || nb().id !== n.id || !$('#msgs')) return;
+  const lad = document.querySelector('.ladder'), html = ladderHTML(n);
+  if (lad) lad.outerHTML = html || ''; else if (html) $('#msgs').insertAdjacentHTML('beforebegin', html);
+}
+const FUNNEL = ['Big picture', 'Closer look', 'Final answer'];
+function funnelHTML(n) {
+  const f = n.funnel; if (!f || f.step < 0) return '';
+  const steps = FUNNEL.map((label, i) => (i ? '<span class="sep"></span>' : '') + `<span class="step ${i < f.step ? 'done' : i === f.step ? 'now' : ''}"><span class="k">${i + 1}</span>${label}</span>`).join('');
+  const next = f.step === 0 ? '<button class="funnel-next" data-funnel-next="Next, take me closer">Go closer ›</button>'
+    : f.step === 1 ? '<button class="funnel-next" data-funnel-next="Next, show me the final answer">Final answer ›</button>' : '';
+  return `<div class="ladder funnel" aria-label="Spark Funnel: where you are in this question">${steps}${next}</div>`;
+}
+document.addEventListener('click', e => { const b = e.target.closest('[data-funnel-next]'); if (b && !busy) send(b.dataset.funnelNext); });
 function msgHTML(m) {
   const img = (m.image ? `<img src="${m.image.data}" alt="Photo you shared">` : '') + (m.material ? `<span class="file-chip">${docSvg}${esc(m.material.name)}</span>` : '');
   const body = m.pending && !m.text ? '<span class="typing"><i></i><i></i><i></i></span>' : (m.role === 'user' ? '<p>' + esc(m.text).replace(/\n/g, '<br>') + '</p>' : md(m.text));
@@ -541,7 +558,7 @@ function msgHTML(m) {
 function renderChat() {
   const n = nb();
   const demo = !hasAI() ? `<div class="banner"><span>Demo mode: no Gemini key yet, so replies are a scripted fractions example. Add your key for real answers.</span><button id="bannerSet">Add key</button></div>` : '';
-  const empty = !n.messages.length ? `<div class="empty"><h2>${S.settings.name ? 'Hi ' + esc(S.settings.name) + '.' : 'Hi there.'} What are we working on?</h2><p>Ask anything. Spark explains it in the simplest way, with stories and examples, then helps you practise, brainstorm and remember it.</p>
+  const empty = !n.messages.length ? `<div class="empty"><h2>${S.settings.name ? 'Hi ' + esc(S.settings.name) + '.' : 'Hi there.'} What are we working on?</h2><p>Ask anything. Spark teaches with its Funnel: first the big picture as a story, then a closer look, then the final answer and a trick to remember it.</p>
     <div class="quick">
       <button class="qa" data-qa="explain"><b>Explain my notes</b><span>Upload a PDF, photo or text file and learn it step by step</span></button>
       <button class="qa" data-qa="check"><b>Check my homework</b><span>Snap a finished page and explain two answers</span></button>
@@ -647,23 +664,47 @@ async function send(textOverride, opts = {}) {
   } catch (err) {
     reply.text = (reply.text ? reply.text + '\n\n' : '') + '⚠ ' + err.message;
   }
-  reply.pending = false; save(); paint(); renderSide();
+  reply.pending = false;
+  const sm = /^[\s*_#]*Stage\s*([123])/i.exec(reply.text || '');
+  if (sm && n.kind !== 'thought') n.funnel = { step: Number(sm[1]) - 1 };
+  save(); paint(); renderSide(); updateStrip(n);
   busy = false; const sb = $('#sendBtn'); if (sb) sb.disabled = false;
   if (opts.onDone) opts.onDone(reply);
   if (n.kind === 'thought') { renderSide(); return reply; }
   try { await learn(n, user, reply); } catch (e) { console.warn('progress update failed', e); }
-  if (S.mode !== 'thought' && S.tab === 'chat' && nb().id === n.id) { const lad = document.querySelector('.ladder'); const html = ladderHTML(n); if (lad) lad.outerHTML = html || ''; else if (html) $('#msgs').insertAdjacentHTML('beforebegin', html); }
+  updateStrip(n);
   renderSide();
   return reply;
 }
 
 /* ---------- Gemini ---------- */
-const TEACH_EXPLAIN = `HOW YOU TEACH (explain first):
-- Any question about a concept or fact: EXPLAIN STRAIGHT AWAY in the easiest possible words. Start with the big idea in one simple line, then make it click with a short story or everyday analogy, then a concrete example. Don't ask them what they think before you explain.
-- After explaining, check it clicked with ONE fun question or mini-challenge (or invite them to explain it back in their own words). Keep this light, like a game, not a test.
-- If they're still confused, explain it again a completely different way (a new story, a picture in words, smaller steps). Never repeat the same explanation louder.
-- A homework problem or exercise: explain the method clearly using a SIMILAR example worked step by step (with a story if it helps), then invite them to try their own question using the same steps. If they ask for the answer, or try and get stuck, give the full worked answer with every step explained and why it works, then one quick similar question so they can do one alone.
-- Always end with something that keeps them going: a check question, a fun fact, a "what if", or a next step.`;
+const TEACH_EXPLAIN = `HOW YOU TEACH: THE SPARK FUNNEL (your signature method, one stage per reply)
+You are Spark, a teacher famous for one way of teaching that makes things easy to understand and hard to forget. When they ask a new question (a concept, a fact, a "why" or "how", or a homework problem), teach it over THREE replies, moving from broad to exact, all built on ONE story you create for this question.
+
+STAGE 1 · BIG PICTURE (this reply only)
+- Start with the simplest possible idea of the topic, told as a short, vivid story (4-6 lines) with a character and a setting they know: everyday Indian life, or their interests.
+- Stay BROAD. Give the feel of the idea, not the textbook answer. Do NOT give the final definition, formula, steps or answer yet.
+- End with one light, curious question about the story that nudges them toward the idea, and tell them they can reply with a guess or just say "next".
+
+STAGE 2 · CLOSER LOOK (the next reply)
+- If they answered your question, react to it in one line: praise what's right, gently fix what's off.
+- Go back into the SAME story and zoom in. Show the key parts or steps of the real idea inside the story, one by one, naming each real term next to its story version (for example "the kitchen = the leaf", "the chef = chlorophyll").
+- Get close to the final answer but stop just before it. End with one question asking them to put the pieces together, or tell them to say "next" for the final answer.
+
+STAGE 3 · FINAL ANSWER (the reply after that)
+- Give the complete, accurate final answer: the exact definition, rule, formula or worked solution, step by step, in clear school words they could write in an exam.
+- Tie it back to the story with a short "story map": each story part = its real term.
+- Give a memory hook: a one-line rhyme, acronym or story sentence that makes it stick.
+- End with a quick self-check question or a one-line flashcard, and offer a quiz or a related question to explore next.
+
+FUNNEL RULES
+- One stage per reply. Never jump to stage 3 early, unless they clearly need the answer now ("exam tomorrow", "in a hurry", "just tell me the answer"). Then give a compact version of all three stages in one reply.
+- Keep the same story through all three stages so it builds memory.
+- If they ask a follow-up in the middle, answer it briefly inside the story and carry on with the funnel.
+- Homework problems use the funnel too: stage 1 is the idea behind the method as a story, stage 2 sets up THEIR problem and the first steps in the story, stage 3 is the full worked solution and the final answer.
+- Simple chat (hi, thanks, a quick yes/no fact) needs no funnel; just reply naturally.
+- Keep stages 1 and 2 short and lively (under about 150 words). Stage 3 can be longer if the answer needs it.
+- Start each stage with a small label line: "Stage 1 · Big picture", "Stage 2 · Closer look" or "Stage 3 · Final answer".`;
 const TEACH_CHALLENGE = `HOW YOU TEACH (challenge mode, the student chose "try first"):
 - A concept question: ask for their own idea ONCE in a short question. After they reply, give a clear, complete explanation with a story or analogy, connect it to what they said, then ask one question to check understanding.
 - A problem or homework exercise, one step per reply: 1) ask what they tried or their first idea; 2) give ONE small hint at a time, a little stronger each reply; 3) once they have an answer, ask them to explain WHY in their own words; 4) after they explain (or after 3 hints if still stuck), give the full worked answer step by step and one similar question to check.
@@ -812,7 +853,7 @@ async function geminiJSON(prompt, schema) {
 const LEARN_SCHEMA = {
   type: 'OBJECT',
   properties: {
-    stage: { type: 'STRING', enum: ['ask_attempt', 'hint', 'ask_explain', 'answer', 'verdict', 'chat'] },
+    stage: { type: 'STRING', enum: ['ask_attempt', 'hint', 'ask_explain', 'answer', 'verdict', 'funnel_broad', 'funnel_narrow', 'funnel_final', 'chat'] },
     childAttempted: { type: 'BOOLEAN' },
     childExplained: { type: 'BOOLEAN' },
     concepts: { type: 'ARRAY', items: { type: 'OBJECT', properties: { name: { type: 'STRING' }, status: { type: 'STRING', enum: ['solid', 'learning', 'shaky'] }, evidence: { type: 'STRING' } }, required: ['name', 'status', 'evidence'] } },
@@ -834,7 +875,7 @@ STUDENT: ${user.text}${user.image ? ' [shared a photo]' : ''}
 TUTOR: ${reply.text}
 
 Return:
-- stage: what the TUTOR's reply did: ask_attempt (asked what they tried), hint, ask_explain (asked them to explain), answer (gave the full worked answer), verdict (gave a homework-check verdict), chat (anything else).
+- stage: what the TUTOR's reply did: ask_attempt (asked what they tried), hint, ask_explain (asked them to explain), answer (gave the full worked answer), verdict (gave a homework-check verdict), funnel_broad (Stage 1: a big-picture story without the final answer), funnel_narrow (Stage 2: zoomed into the story, close to the answer but not giving it), funnel_final (Stage 3: gave the final answer with a story map or memory hook), chat (anything else).
 - childAttempted: true if the STUDENT's message shows their own attempt or idea.
 - childExplained: true if the STUDENT explained their reasoning in their own words.
 - concepts: only concepts where this exchange shows evidence of understanding. Short school-topic names (reuse existing names where they match: ${known}). status: solid = explained correctly; learning = partly there; shaky = wrong or couldn't explain. evidence = under 15 words, quoting the student where possible. Empty if none.
@@ -847,6 +888,9 @@ function applyLearning(n, r) {
   if (r.childAttempted) { st.attempts++; n.moments.push({ ts: now, text: 'Tried it first before asking for help' }); }
   if (r.childExplained) { st.explanations++; n.moments.push({ ts: now, text: 'Explained their thinking in their own words' }); }
   const map = { ask_attempt: 0, hint: 1, ask_explain: 2, answer: 3, verdict: 3 };
+  const fmap = { funnel_broad: 0, funnel_narrow: 1, funnel_final: 2 };
+  if (r.stage in fmap) n.funnel = { step: fmap[r.stage] };
+  if (r.stage === 'funnel_final') { st.answers++; n.moments.push({ ts: now, text: 'Reached the final answer through the Spark Funnel' }); }
   if (r.stage === 'hint') { st.hints++; n.ladder.hints = (n.ladder.step === 1 ? n.ladder.hints : 0) + 1; }
   if (r.stage === 'answer') { st.answers++; n.moments.push({ ts: now, text: 'Worked through a full answer' }); }
   if (r.stage === 'verdict') { st.checks++; n.moments.push({ ts: now, text: 'Finished a homework check' }); }
@@ -1016,7 +1060,7 @@ ${known}`;
 /* ---------- voice buddy: listen with the browser, think with Gemini, talk back with a Gemini voice ---------- */
 const VOICE_STYLE = `
 
-VOICE CALL MODE: right now you are talking OUT LOUD with them like a friendly buddy on a call. Reply in 1-3 short, natural spoken sentences. No lists, no markdown, no symbols, no emoji. Sound warm, playful and encouraging, like a kind older friend. Explain things simply first, with a tiny story or comparison when it helps, then ask one fun question to check it clicked. One small step at a time. Write maths in words, e.g. "three by four divided by one half".`;
+VOICE CALL MODE: right now you are talking OUT LOUD with them like a friendly buddy on a call. Reply in 2-4 short, natural spoken sentences. No lists, no markdown, no symbols, no emoji, and don't read out stage labels. Sound warm, playful and encouraging, like a kind older friend. Still teach with your Spark Funnel, one stage per reply: the big-picture story, then the closer look, then the final answer with a memory hook. Write maths in words, e.g. "three by four divided by one half".`;
 const TTS_MODELS = ['gemini-2.5-flash-preview-tts', 'gemini-3.1-flash-tts-preview', 'gemini-3.8-flash-tts'];
 const Rec = window.SpeechRecognition || window.webkitSpeechRecognition;
 const V = { open: false, state: 'idle', rec: null, audio: null, auto: true, ttsDown: false };
