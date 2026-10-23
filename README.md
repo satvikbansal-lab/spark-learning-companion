@@ -38,6 +38,8 @@ Without a server key you can also run `python3 -m http.server 5173` and paste a 
 
 Parent View needs a small database: in Vercel, **Storage → Create Database → Upstash for Redis**, connected to this project (it adds `KV_REST_API_URL` and `KV_REST_API_TOKEN`). Optional: `SPARK_PIN_PEPPER`, a long random secret mixed into PIN hashes. Without the database, Parent View says it isn’t set up; it never falls back to a browser-only lock. Locally, `scripts/dev.mjs` uses an in-memory store that forgets everything when it stops.
 
+**Without a database** Parent View still works in device mode: the PIN is kept on the device as a PBKDF2 hash (never the PIN itself), and the same calculations (`spark-parent.js`) build the reports, journey and timeline from activity recorded on that device; the parent’s controls are applied by the app there. The screens label this mode clearly. It stops casual changes but not a determined, tech-savvy child; connecting the database switches to server-enforced protection automatically.
+
 Limits, stated plainly: there are no accounts, so whoever sets the PIN first controls Parent View; activity is recorded by the app on the child’s device; the controls apply to everything done in Spark but can’t stop a child using another website.
 
 ## Deploy on Vercel

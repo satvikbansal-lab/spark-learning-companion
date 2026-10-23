@@ -1344,6 +1344,7 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
 <script src="spark-visuals.js"></script>
 <script src="spark-ai.js"></script>
 <script src="spark-quiz.js"></script>
+<script src="spark-parent.js"></script>
 
 <script>
 'use strict';
@@ -2255,6 +2256,7 @@ async function send(textOverride, opts = {}) {
   else if (n.kind !== 'thought' && reply.text && !reply.text.startsWith('\u26A0')) shown = addPictures(n, user, reply, rt, null).then(() => { save(); const el = $('#m-' + reply.id); if (el) el.outerHTML = msgHTML(reply); });
   // A real teaching unit (the funnel's final stage, a worked solution, an explanation, a part of uploaded notes)
   // ends with a quick check. It waits for the visual so its questions can refer to the picture.
+  if (n.kind !== 'thought' && plSafety(user.text)) reply.safety = true; // device-only Parent View: category only; never on private pages
   if (n.kind !== 'thought' && rt.kind === 'hint') famEvent({ id: user.id, t: 'hint', topic: n.title, subject: rt.subject });
   if (n.kind !== 'thought' && !reply.safety && SparkQuiz.shouldQuiz(rt, reply.text, { enabled: true, voice: !!opts.voice, material: !!(n.materials || []).length && !['attempt', 'hint', 'explain-step', 'chat'].includes(rt.kind) })) famEvent({ id: reply.id, t: 'lesson', topic: n.title, subject: rt.subject });
   if (n.kind !== 'thought' && !reply.safety && SparkQuiz.shouldQuiz(rt, reply.text, { enabled: quizzesOn() && hasAI(), voice: !!opts.voice, material: !!(n.materials || []).length && !['attempt', 'hint', 'explain-step', 'chat'].includes(rt.kind), sinceLast: sinceLastCheck(n) })) {
@@ -2285,8 +2287,10 @@ function systemPrompt(n, rt = {}) {
     materials: (n.materials || []).map(m => m.name), others: S.notebooks.filter(x => x.id !== n.id).map(x => x.title),
     route: rt, code: !!(rt.tools && rt.tools.code), search: !!(rt.tools && rt.tools.search), voice: !!rt.voice,
     quizCards: quizzesOn() && !rt.voice
-  });
+  }) + deviceRules();
 }
+/* Device-only Parent View: the parent's rules go into Sparky's instructions here (in server mode the server adds them). */
+const deviceRules = () => (S.parentLocal && !(S.family && S.family.device) ? '\n\n' + SparkParent.parentRules(S.parentLocal.controls).replace('enforced by the server', 'applied by this app') : '');
 const ageText = () => { const l = SparkAI.levelOf(S.settings.grade); return l.age ? `aged about ${l.age} (Class ${l.klass})` : 'aged 6-15'; };
 async function toContents(n) {
   const msgs = n.messages.filter(m => !m.pending && (m.text || m.image)).slice(-30);
@@ -2364,7 +2368,8 @@ async function geminiFetch(stream, build, prefer, want = {}) {
 /* Streams one reply. Returns { text, checks, sources, queries, finish, plan } and calls onText as text arrives. */
 async function geminiStream(n, onText, onSources, extra, rt = {}) {
   const think = S.settings.think !== false, contents = await toContents(n);
-  const want = n.kind === 'thought' ? {} : SparkAI.toolsFor(rt, S.settings, serverTools());
+  const webOff = S.parentLocal && !(S.family && S.family.device) && !S.parentLocal.controls.web; // device-only Parent View
+  const want = n.kind === 'thought' ? {} : SparkAI.toolsFor(rt, webOff ? Object.assign({}, S.settings, { search: false }) : S.settings, serverTools());
   const mathy = rt.subject === 'math' || !!rt.needsCode;
   const r = await geminiFetch(true, p => SparkAI.requestBody({
     system: (n.kind === 'thought' ? thoughtPrompt(n) : systemPrompt(n, Object.assign({}, rt, { tools: p.tools }))) + (extra || ''),
@@ -3400,13 +3405,128 @@ document.addEventListener('click', e => {
    activity and to try to unlock), never the PIN. See api/_parent.js for the full security model and its limits. */
 const FAM = () => S.family || (S.family = { device: null, outbox: [], child: null });
 async function famCall(op, data = {}) {
+  if (PV.local) return localCall(op, data);
   const r = await fetch('/api/family', { method: 'POST', credentials: 'same-origin', headers: Object.assign({ 'Content-Type': 'application/json' }, FAM().device ? { 'x-spark-device': FAM().device } : {}), body: JSON.stringify(Object.assign({ op }, data)) });
   let j = {}; try { j = await r.json(); } catch (e) {}
   if (!r.ok) { const e = new Error(j.error || 'Something went wrong. Try again.'); e.status = r.status; e.code = j.code; e.retryAfter = j.retryAfter; throw e; }
   return j;
 }
 const localDay = (d = new Date()) => d.toLocaleDateString('en-CA'); // YYYY-MM-DD in this device's own time zone
-const PV = { tab: 'home', days: 7, rtab: 'day', rdate: null, idle: null, mine: false };
+/* ---------- Parent View on this device (used when the site has no database) ----------
+   The same screens and the same calculations (spark-parent.js), answered from this device instead of the server.
+   The PIN is kept only as a PBKDF2 hash with a random salt, wrong PINs lock it for longer and longer, and it locks on
+   reload, on close and after 5 idle minutes. Controls are applied by the app here. Because everything lives in this
+   browser, a determined, tech-savvy child could get around it; the screens say so, and connecting a database switches
+   Parent View to the server-enforced mode automatically. */
+const PL = () => S.parentLocal || null;
+const PL_EVENTS_DAYS = 60;
+const te = new TextEncoder(), toB64 = buf => btoa(String.fromCharCode(...new Uint8Array(buf))), fromB64 = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
+async function pbkdf2(secret, salt, it) { const k = await crypto.subtle.importKey('raw', te.encode(secret), 'PBKDF2', false, ['deriveBits']); return toB64(await crypto.subtle.deriveBits({ name: 'PBKDF2', hash: 'SHA-256', salt: fromB64(salt), iterations: it }, k, 256)); }
+async function hashLocal(secret) { const s = toB64(crypto.getRandomValues(new Uint8Array(16))), it = 210000; return { s, it, h: await pbkdf2(secret, s, it) }; }
+async function checkLocal(secret, rec) { if (!rec || !secret) return false; const h = await pbkdf2(String(secret), rec.s, rec.it); let d = h.length ^ rec.h.length; for (let i = 0; i < Math.min(h.length, rec.h.length); i++) d |= h.charCodeAt(i) ^ rec.h.charCodeAt(i); return d === 0; }
+const localCode = () => { const A = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789', b = crypto.getRandomValues(new Uint8Array(16)); let s = ''; for (const x of b) s += A[x % A.length]; return s.match(/.{4}/g).join('-'); };
+const plErr = (status, message, extra) => Object.assign(new Error(message), { status }, extra || {});
+const plAudit = what => { PL().audit = [{ ts: Date.now(), what }, ...(PL().audit || [])].slice(0, 50); };
+const hashStr = s => { let h = 2166136261; for (const c of s) h = Math.imul(h ^ c.charCodeAt(0), 16777619); return (h >>> 0).toString(36); };
+function plByDay(days) { const set = new Set(days), m = {}; for (const d of days) m[d] = []; for (const e of (PL() && PL().events) || []) if (set.has(e.day)) m[e.day].push(e); return m; }
+const plDays = (end, n) => [...Array(n)].map((_, i) => SparkParent.addDays(end, i - n + 1));
+async function plFail() {
+  const f = PL().fails || { n: 0, until: 0 }; f.n++; const wait = SparkParent.lockoutFor(f.n); f.until = wait ? Date.now() + wait * 1000 : 0; PL().fails = f; save();
+  return { retryAfter: wait, left: Math.max(0, 5 - f.n) };
+}
+const LOCAL_OPS = {
+  async status() { const p = PL(); return { linked: !!p, pinSet: !!(p && p.pin), resetAt: (p && p.resetAt) || null, unlocked: !!PV.localUnlocked, storage: 'device' }; },
+  async setup(d) {
+    const why = SparkParent.pinProblem(d.pin); if (why) throw plErr(400, why);
+    if (d.pin !== d.confirm) throw plErr(400, 'The two PINs don’t match.');
+    const p = PL(), reset = p && p.resetAt && Date.now() >= p.resetAt;
+    if (p && p.pin && !reset) throw plErr(409, 'A parent PIN is already set on this device. Unlock with it, or use the recovery code.');
+    const code = localCode();
+    if (!p) S.parentLocal = { created: Date.now(), controls: SparkParent.cleanControls(d.controls || {}), audit: [], events: [], safety: [], reports: {} };
+    Object.assign(PL(), { pin: await hashLocal(d.pin), rec: await hashLocal(SparkParent.normCode(code)), resetAt: null, fails: null });
+    plAudit(reset ? 'Parent PIN replaced after the 24-hour reset wait (no recovery code was used)' : 'Parent View set up on this device');
+    PV.localUnlocked = true; save(); return { ok: true, deviceToken: null, recoveryCode: code };
+  },
+  async unlock(d) {
+    const p = PL(); if (!p || !p.pin) throw plErr(404, 'Parent View isn’t set up on this device yet.');
+    const f = p.fails || {}; if (f.until > Date.now()) { const s = Math.ceil((f.until - Date.now()) / 1000); throw plErr(429, `Too many wrong PINs. Try again in ${s} seconds.`, { retryAfter: s }); }
+    if (!(await checkLocal(String(d.pin || ''), p.pin))) { const r = await plFail(); throw plErr(401, r.retryAfter ? `Wrong PIN. Parent View is locked for ${r.retryAfter} seconds.` : `Wrong PIN. ${r.left} tr${r.left === 1 ? 'y' : 'ies'} left before a short lock.`, { retryAfter: r.retryAfter }); }
+    p.fails = null; PV.localUnlocked = true; save(); return { ok: true, resetAt: p.resetAt || null };
+  },
+  async recover(d) {
+    const p = PL(); if (!p || !p.rec) throw plErr(404, 'Parent View isn’t set up on this device yet.');
+    const why = SparkParent.pinProblem(d.pin); if (why) throw plErr(400, why);
+    const f = p.fails || {}; if (f.until > Date.now()) throw plErr(429, 'Too many tries. Try again later.', { retryAfter: Math.ceil((f.until - Date.now()) / 1000) });
+    if (!(await checkLocal(SparkParent.normCode(d.code), p.rec))) { const r = await plFail(); throw plErr(401, 'That recovery code isn’t right.', { retryAfter: r.retryAfter }); }
+    const code = localCode(); Object.assign(p, { pin: await hashLocal(d.pin), rec: await hashLocal(SparkParent.normCode(code)), resetAt: null, fails: null });
+    plAudit('Parent PIN changed with the recovery code (a new code was issued)'); PV.localUnlocked = true; save(); return { ok: true, recoveryCode: code };
+  },
+  async 'reset-request'() { const p = PL(); if (!p) throw plErr(404, 'Parent View isn’t set up on this device yet.'); if (!p.resetAt) { p.resetAt = Date.now() + 24 * 3600 * 1000; plAudit('PIN reset requested without the recovery code (takes effect after 24 hours)'); save(); } return { ok: true, resetAt: p.resetAt }; },
+  async lock() { PV.localUnlocked = false; return { ok: true }; },
+  async child() { const p = PL(); if (!p) return { linked: false }; const c = p.controls; return { linked: true, features: { voice: c.voice, uploads: c.uploads, fun: c.fun, web: c.web }, homework: c.homework, language: c.language }; },
+  async events() { return { ok: true, saved: 0 }; },
+  /* ---- unlocked only ---- */
+  async controls() { return { controls: SparkParent.cleanControls(PL().controls), options: SparkParent.OPTIONS }; },
+  async 'controls-set'(d) { PL().controls = SparkParent.cleanControls(d.controls, PL().controls); save(); return { ok: true, controls: PL().controls }; },
+  async journey(d) { const end = d.end || localDay(), n = [1, 7, 14, 30].includes(d.days) ? d.days : 7; return SparkParent.journey(plByDay(plDays(end, n)), end, n, PL().controls.goalDays); },
+  async timeline(d) { const end = d.end || localDay(), n = [1, 7, 14, 30].includes(d.days) ? d.days : 7, days = plDays(end, n), by = plByDay(days); return { period: { from: days[0], to: end, days: n }, items: SparkParent.timeline(days.flatMap(x => by[x])) }; },
+  async report(d) {
+    const period = d.period === 'week' ? 'week' : 'day', date = d.date || localDay(), c = PL().controls;
+    const days = period === 'day' ? [date] : plDays(date, 14), by = plByDay(days);
+    const facts = period === 'day' ? SparkParent.dayFacts(by[date], date) : SparkParent.weekFacts(by, date, days.slice(0, 7).flatMap(x => by[x]), c.goalDays);
+    const key = `${period}:${date}`, hash = hashStr(JSON.stringify(facts)), cached = (PL().reports || {})[key];
+    if (cached && cached.hash === hash && !(d.refresh && Date.now() - cached.generated > 60000)) return Object.assign({}, cached, { facts, cached: true });
+    let interp = null, aiError = false;
+    if (!facts.active) interp = SparkParent.fallbackReport(facts);
+    else { try { interp = SparkParent.validateReport(await geminiJSON(SparkParent.reportPrompt(facts, c.klass), SparkParent.REPORT_SCHEMA, quizModels(), 1500), facts); } catch (e) {} if (!interp) { interp = SparkParent.fallbackReport(facts); aiError = true; } }
+    const rep = { period, date, hash, generated: Date.now(), interpretation: interp, aiError };
+    PL().reports = Object.fromEntries(Object.entries(Object.assign({}, PL().reports, { [key]: rep })).slice(-40)); save();
+    return Object.assign({}, rep, { facts, cached: false });
+  },
+  async ask(d) {
+    const end = d.date || localDay(), c = PL().controls, j = SparkParent.journey(plByDay(plDays(end, 30)), end, 30, c.goalDays);
+    if (!j.active) return { answer: 'There’s no learning activity recorded in the last 30 days, so I can’t answer that from Spark’s records yet.', evidence: [], estimate: false, insufficient: true };
+    let r = null; try { r = SparkParent.validateAsk(await geminiJSON(SparkParent.askPrompt2(d.question, j, c.klass), SparkParent.ASK2_SCHEMA, quizModels(), 800)); } catch (e) {}
+    if (!r) throw plErr(503, 'Ask Spark isn’t available right now. Try again in a minute.', { code: 'ai_unavailable' });
+    return r;
+  },
+  async safety() { const list = PL().safety || []; return { events: list, unseen: list.filter(e => !e.seen).length }; },
+  async 'safety-seen'() { (PL().safety || []).forEach(e => { e.seen = true; }); save(); return { ok: true }; },
+  async audit() { return { audit: PL().audit || [], resetAt: PL().resetAt || null }; },
+  async 'reset-cancel'() { if (PL().resetAt) { PL().resetAt = null; plAudit('PIN reset request cancelled by the parent'); save(); } return { ok: true }; },
+  async 'pin-change'(d) {
+    if (!(await checkLocal(String(d.old || ''), PL().pin))) { const r = await plFail(); throw plErr(401, 'Your current PIN isn’t right.', { retryAfter: r.retryAfter }); }
+    const why = SparkParent.pinProblem(d.pin); if (why) throw plErr(400, why); if (d.pin !== d.confirm) throw plErr(400, 'The two PINs don’t match.');
+    PL().pin = await hashLocal(d.pin); plAudit('Parent PIN changed'); save(); return { ok: true };
+  },
+  async delete(d) { if (!(await checkLocal(String(d.pin || ''), PL().pin))) { await plFail(); throw plErr(401, 'Your PIN isn’t right.'); } S.parentLocal = null; PV.localUnlocked = false; save(); return { ok: true }; }
+};
+const LOCAL_OPEN = new Set(['status', 'setup', 'unlock', 'recover', 'reset-request', 'lock', 'child', 'events']);
+async function localCall(op, data) {
+  const fn = LOCAL_OPS[op]; if (!fn) throw plErr(400, 'Unknown request.');
+  if (!LOCAL_OPEN.has(op) && !PV.localUnlocked) throw plErr(401, 'Parent View is locked.', { code: 'locked' });
+  return fn(data || {});
+}
+/* Activity and safety signals, kept on this device for the device-only Parent View: category and time only. */
+function plRecord(e) {
+  const p = PL(); if (!p || FAM().device) return;
+  p.events = (p.events || []).filter(x => x.id !== e.id);
+  p.events.push(Object.assign({ ts: Date.now(), day: localDay(), subject: 'general', hints: 0 }, e, { topic: String(e.topic || 'A topic').slice(0, 60) }));
+  const keep = Date.now() - PL_EVENTS_DAYS * 864e5; p.events = p.events.filter(x => x.ts > keep).slice(-3000);
+  save();
+}
+function plSafety(text) {
+  const p = PL(); if (!p || FAM().device) return false;
+  const hits = SparkParent.classify(text); const now = Date.now();
+  for (const h of hits) {
+    if ((p.safety || []).some(x => x.category === h.category && now - x.ts < 600000)) continue;
+    p.safety = [SparkParent.safetyEvent(h, now), ...(p.safety || [])].slice(0, 200);
+  }
+  if (hits.length) save();
+  return hits.some(h => h.kind !== 'privacy');
+}
+
+const PV = { tab: 'home', days: 7, rtab: 'day', rdate: null, idle: null, mine: false, local: !!S.parentLocal, localUnlocked: false };
 const CAT_NAME = { self_harm: 'Talk of hurting themselves', abuse: 'A possible sign of being hurt or unsafe touch', bullying: 'Possible bullying or feeling left out', violence_weapons: 'A request about weapons or hurting someone', sexual_content: 'A request for adult content', drugs: 'A request about drugs', personal_info: 'Shared personal details', blocked_reply: 'A reply blocked by the safety filter' };
 const KIND_NAME = { signal: 'Possible concern', blocked: 'Request declined', privacy: 'Privacy reminder' };
 const SEV_NAME = { high: 'Important', medium: 'Worth knowing', low: 'Minor' };
@@ -3421,7 +3541,7 @@ async function openParent() {
   let st;
   try { st = await famCall('status'); }
   catch (e) {
-    if (e.code === 'no_store') return (body.innerHTML = `<div class="pv-gate">${buddyImg('pv-img', true)}<h2>Parent View isn’t ready on this site yet</h2><p>Parent View keeps reports and controls on Spark’s server behind a parent PIN, and this site’s database hasn’t been connected yet. Your child’s own Progress page still shows what they’ve learned.</p></div>`);
+    if (e.code === 'no_store') { PV.local = true; return openParent(); } // no database: Parent View on this device
     return (body.innerHTML = `<div class="pv-gate"><h2>Parent View couldn’t load</h2><p>${esc(e.message)}</p><button class="btn pri" id="pvRetry">Try again</button></div>`, $('#pvRetry').onclick = openParent);
   }
   if (!st.pinSet || (st.resetAt && Date.now() >= st.resetAt)) return pvSetup(!!st.resetAt);
@@ -3435,7 +3555,7 @@ function pvSetup(afterReset) {
     <span class="pv-eyebrow">For parents</span><h2>${afterReset ? 'Choose a new parent PIN' : 'Set up Parent View'}</h2>
     ${afterReset ? '<p>A PIN reset was requested more than 24 hours ago, so a new PIN can be set. This change is recorded in Parent View’s history.</p>' : `<p>Parent View is for you, not your child. It has:</p>
     <ul class="pv-list"><li>Daily and weekly learning reports made only from what your child actually did</li><li>Learning insights and what to revise next</li><li>Content and safety controls that Spark’s server enforces</li><li>Safety alerts: the kind of alert and what Spark did, never your child’s messages</li><li>Ask Spark: questions about your child’s learning</li></ul>`}
-    <p class="pv-small">Set this up yourself: whoever creates the PIN controls Parent View. Spark’s server checks the PIN; it isn’t stored on this device.</p>
+    <p class="pv-small">Set this up yourself: whoever creates the PIN controls Parent View. ${PV.local ? 'The PIN is kept on this device only as a secure hash (the PIN itself is never stored).' : 'Spark’s server checks the PIN; it isn’t stored on this device.'}</p>
     <form id="pvSetup" class="pv-form">${pinInput('pvPin1', 'Create a parent PIN (6 to 8 digits)', 'new-password')}${pinInput('pvPin2', 'Type it again', 'new-password')}
       <p class="pv-err" id="pvErr" role="alert"></p><button class="btn pri">Create PIN</button></form></div>`;
   $('#pvPin1').focus();
@@ -3494,7 +3614,7 @@ async function parentLock(why) {
 }
 function pvTouch() { clearTimeout(PV.idle); PV.idle = setTimeout(() => { if (!$('#parent').hidden) parentLock('idle'); }, 5 * 60 * 1000); }
 // Leaving or reloading the page locks Parent View on the server too.
-window.addEventListener('pagehide', () => { if (PV.mine && navigator.sendBeacon) navigator.sendBeacon('/api/family', new Blob([JSON.stringify({ op: 'lock' })], { type: 'application/json' })); });
+window.addEventListener('pagehide', () => { if (PV.mine && !PV.local && navigator.sendBeacon) navigator.sendBeacon('/api/family', new Blob([JSON.stringify({ op: 'lock' })], { type: 'application/json' })); });
 ['pointerdown', 'keydown', 'scroll'].forEach(ev => $('#parent').addEventListener(ev, () => { if (PV.idle) pvTouch(); }, { passive: true }));
 /* The dashboard. Every number comes from the server's learning record (api/_parent.js: journey, reports, timeline);
    this file only draws it. Measured facts and Spark's inferences are labelled apart wherever they appear. */
@@ -3674,7 +3794,8 @@ const CTRL = {
   language: ['Language', [['auto', 'Match how my child writes', ''], ['en', 'English', ''], ['hi', 'Hinglish', ''], ['pa', 'Punjabi (English letters)', '']]],
   alerts: ['Safety alerts on the Home page', [['important', 'Important ones', 'Possible concerns and declined requests.'], ['all', 'Everything', 'Also privacy reminders.'], ['off', 'None', 'Everything is still listed below.']]]
 };
-const ENFORCED = '<span class="pvx-badge enf">Enforced by Spark’s server</span>', APPONLY = '<span class="pvx-badge app">App setting</span>', NA = '<span class="pvx-badge na">Not available</span>';
+const ENFORCED_S = '<span class="pvx-badge enf">Enforced by Spark’s server</span>', APPONLY = '<span class="pvx-badge app">App setting</span>', NA = '<span class="pvx-badge na">Not available</span>';
+const ENF = () => (PV.local ? '<span class="pvx-badge app">Applied by the app on this device</span>' : ENFORCED_S);
 /* Changes that loosen a protection: the parent confirms them first. */
 const SENSITIVE_CHANGES = [['homework', v => v === 'direct', 'Direct answers will be allowed'], ['sensitive', v => v === 'standard', 'Extra care on sensitive topics will be off'], ['web', v => v === true, 'Web lookups will be allowed'], ['uploads', v => v === true, 'Photos and uploads will be allowed'], ['voice', v => v === true, 'Voice will be allowed']];
 async function pvSettings(pane) {
@@ -3683,22 +3804,23 @@ async function pvSettings(pane) {
   const radios = k => { const [title, opts] = CTRL[k]; return `<fieldset class="pv-set"><legend>${title}</legend>${opts.map(([v, l, d]) => `<label class="pv-opt"><input type="radio" name="pc-${k}" value="${v}" ${c[k] === v ? 'checked' : ''}><span><b>${l}</b>${d ? `<small>${d}</small>` : ''}</span></label>`).join('')}</fieldset>`; };
   const toggle = (k, l, d, badge) => `<label class="check pv-toggle"><input type="checkbox" id="pc-${k}" ${c[k] ? 'checked' : ''}><span><b>${l}</b> ${badge}<br>${d}</span></label>`;
   pane.innerHTML = `${sectionHead('Safety & settings', 'Protected by your parent PIN. Your child can’t change these.')}
+    ${PV.local ? '<p class="pv-warn" role="note"><b>Device mode.</b> This site has no database connected, so your PIN, settings and reports are kept on this device and applied by the app. That stops casual changes, but a tech-savvy child could get around it. Connect a database (Vercel → Storage) and Parent View switches to server-enforced protection automatically.</p>' : ''}
     <section class="pvx-card">${sectionHead('Safety status')}<ul class="pvx-status-list">
-      <li><span>Core child-safety rules (no unsafe or adult content, no requests for personal details)</span><b class="ok">Always on</b>${ENFORCED}</li>
-      <li><span>Safety check on every message, with a caring reply and helplines for serious signals</span><b class="ok">On</b>${ENFORCED}</li>
-      <li><span>Parent PIN</span><b class="ok">Set · stored only as a secure hash</b>${ENFORCED}</li>
+      <li><span>Core child-safety rules (no unsafe or adult content, no requests for personal details)</span><b class="ok">Always on</b>${ENFORCED_S}</li>
+      <li><span>Safety check on every message, with a caring reply and helplines for serious signals</span><b class="ok">On</b>${ENFORCED_S}</li>
+      <li><span>Parent PIN</span><b class="ok">Set · stored only as a secure hash${PV.local ? ' on this device' : ''}</b>${ENF()}</li>
       <li><span>Auto-lock after 5 minutes, on close, and on leaving the page</span><b class="ok">On</b></li>
       <li><span>Email or text alerts</span><b>Not yet</b>${NA}</li>
       <li><span>Screen-time limits, or blocking other apps and websites</span><b>Not possible from Spark</b>${NA}</li></ul></section>
     <section class="pvx-card">${sectionHead('Safety alerts', `${safety.unseen ? `${safety.unseen} new. ` : ''}Only the kind of signal, when, and what Spark did. Never the message. A “possible concern” isn’t a judgement: it’s a reason to check in kindly.`)}
       ${safety.events.length ? safety.events.slice(0, 30).map(e => `<div class="pv-item ${e.seen ? '' : 'new'}"><span class="pv-sev ${e.severity}">${SEV_NAME[e.severity]}</span><div><b>${esc(CAT_NAME[e.category] || 'Safety event')}</b><span>${esc(KIND_NAME[e.kind] || '')} · ${esc(e.action)}${e.review ? ' · A gentle check-in is recommended.' : ''}</span></div><em>${esc(pvWhen(e.ts))}</em></div>`).join('') + (safety.unseen ? '<button class="btn" id="pvSeen">Mark all as seen</button>' : '') : '<p class="none">No safety events recorded.</p>'}</section>
-    <form id="pvCtl" class="pvx-card pv-ctl">${sectionHead('Content boundaries', '', ENFORCED)}
+    <form id="pvCtl" class="pvx-card pv-ctl">${sectionHead('Content boundaries', '', ENF())}
       <label class="pv-field">Your child’s class<select id="pc-klass"><option value="">Not set</option>${[...Array(12)].map((_, i) => `<option ${c.klass === 'Class ' + (i + 1) ? 'selected' : ''}>Class ${i + 1}</option>`).join('')}</select></label>
       ${radios('homework')}${radios('sensitive')}${radios('style')}${radios('language')}
       ${sectionHead('AI features')}
-      ${toggle('web', 'Web lookups', 'For news and today’s facts. Off: Spark answers from what it knows and says it may be out of date.', ENFORCED)}
-      ${toggle('uploads', 'Photos and uploads', 'Homework photos and uploading notes.', ENFORCED)}
-      ${toggle('voice', 'Voice', 'Talking with Sparky and answers read aloud.', ENFORCED)}
+      ${toggle('web', 'Web lookups', 'For news and today’s facts. Off: Spark answers from what it knows and says it may be out of date.', ENF())}
+      ${toggle('uploads', 'Photos and uploads', 'Homework photos and uploading notes.', ENF())}
+      ${toggle('voice', 'Voice', 'Talking with Sparky and answers read aloud.', ENF())}
       ${toggle('fun', 'Fun extras', 'The DJ Sparky disco. Hidden in the app; it never reaches the AI, so there’s nothing to enforce.', APPONLY)}
       ${sectionHead('Reporting preferences')}
       ${radios('alerts')}
@@ -3746,7 +3868,7 @@ function pvChart(f) {
 /* Learning activity is recorded only once a parent has set up Parent View on this device. Each event has a fixed id,
    so a resend (or a redraw) can never count twice; the server also ignores repeats. */
 function famEvent(e) {
-  if (!FAM().device) return;
+  if (!FAM().device) return plRecord(e);
   const out = FAM().outbox = (FAM().outbox || []).filter(x => x.id !== e.id);
   out.push(Object.assign({ ts: Date.now(), day: localDay() }, e));
   if (out.length > 300) out.splice(0, out.length - 300);
@@ -3759,7 +3881,7 @@ async function flushEvents() {
   catch (e) { if (e.status === 401) { f.device = null; f.outbox = []; save(); } }
 }
 async function refreshChildFeatures() {
-  if (!FAM().device) { FAM().child = null; return applyChildFeatures(); }
+  if (!FAM().device) { FAM().child = PL() ? await LOCAL_OPS.child() : null; return applyChildFeatures(); }
   try { const r = await famCall('child'); FAM().child = r.linked ? r : null; if (!r.linked) FAM().device = null; save(); } catch (e) {}
   applyChildFeatures();
 }
