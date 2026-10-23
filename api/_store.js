@@ -28,6 +28,12 @@ function upstash(url, token) {
     hset: async (k, field, v, ttl) => { await cmd('HSET', k, field, v); if (ttl) await cmd('EXPIRE', k, Math.round(ttl)); },
     hgetall: async k => { const a = (await cmd('HGETALL', k)) || []; const o = {}; for (let i = 0; i < a.length; i += 2) o[a[i]] = a[i + 1]; return o; },
     hlen: k => cmd('HLEN', k),
+    /* Many hashes in one round trip (Upstash pipeline). */
+    hgetallMany: async keys => {
+      if (!keys.length) return [];
+      const r = await call('/pipeline', keys.map(k => ['HGETALL', k]));
+      return r.map(x => { const a = (x && x.result) || [], o = {}; for (let i = 0; i < a.length; i += 2) o[a[i]] = a[i + 1]; return o; });
+    },
     lpush: async (k, v, max, ttl) => { await cmd('LPUSH', k, v); if (max) await cmd('LTRIM', k, 0, max - 1); if (ttl) await cmd('EXPIRE', k, Math.round(ttl)); },
     lrange: (k, a, b) => cmd('LRANGE', k, a, b).then(x => x || [])
   };
@@ -48,6 +54,7 @@ function memory() {
     hset: async (k, f, v, ttl) => { const h = live(k) ? m.get(k) : {}; h[f] = String(v); m.set(k, h); ttlOf(k, ttl); },
     hgetall: async k => Object.assign({}, live(k) ? m.get(k) : {}),
     hlen: async k => (live(k) ? Object.keys(m.get(k)).length : 0),
+    hgetallMany: async keys => keys.map(k => Object.assign({}, live(k) ? m.get(k) : {})),
     lpush: async (k, v, max, ttl) => { const l = live(k) ? m.get(k) : []; l.unshift(String(v)); if (max) l.length = Math.min(l.length, max); m.set(k, l); ttlOf(k, ttl); },
     lrange: async (k, a, b) => (live(k) ? m.get(k).slice(a, b < 0 ? undefined : b + 1) : []),
     _clear: () => { m.clear(); exp.clear(); }

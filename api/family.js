@@ -62,9 +62,16 @@ async function ipBlocked(st, req, add) {
 }
 
 async function eventsFor(st, fid, days) {
-  const out = {};
-  for (const d of days) out[d] = Object.values(await st.hgetall(`ev:${fid}:${d}`)).map(J).filter(Boolean);
+  const out = {}, all = await st.hgetallMany(days.map(d => `ev:${fid}:${d}`));
+  days.forEach((d, i) => { out[d] = Object.values(all[i] || {}).map(J).filter(Boolean); });
   return out;
+}
+/* The period a parent asked for: an end day within the kept history, and 1, 7, 14 or 30 days back from it. */
+function periodOf(b) {
+  const end = typeof b.end === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(b.end) ? b.end : P.dayOf(Date.now());
+  const age = (Date.now() - new Date(end + 'T12:00:00Z').getTime()) / 864e5;
+  const days = [1, 7, 14, 30].includes(b.days) ? b.days : 7;
+  return age < -1.5 || age > 45 ? null : { end, days, list: [...Array(days)].map((_, i) => P.addDays(end, i - days + 1)) };
 }
 /* Reports: the facts are recomputed from stored events; the AI part is cached until the facts change, and only
    regenerated on demand at most once a minute. A failed AI call falls back to a plain facts-only summary. */
@@ -180,20 +187,29 @@ const OPS = {
     const c = await controlsOf(st, s.fid);
     return report(st, s.fid, period, date, !!b.refresh, c);
   },
+  /* The learning journey for a period: topics with status and evidence, strengths, gaps, milestones, consistency. */
+  async journey(st, req, res, b, s) {
+    const p = periodOf(b); if (!p) return fail(res, 400, 'Choose a period within the last 45 days.');
+    const c = await controlsOf(st, s.fid);
+    return P.journey(await eventsFor(st, s.fid, p.list), p.end, p.days, c.goalDays);
+  },
+  async timeline(st, req, res, b, s) {
+    const p = periodOf(b); if (!p) return fail(res, 400, 'Choose a period within the last 45 days.');
+    const byDay = await eventsFor(st, s.fid, p.list);
+    return { period: { from: p.list[0], to: p.end, days: p.days }, items: P.timeline(p.list.flatMap(d => byDay[d])) };
+  },
+  /* Ask Spark: answered only from the last 30 days of the learning record, with the evidence it used. */
   async ask(st, req, res, b, s) {
     const q = P.str(b.question, 400); if (q.length < 3) return fail(res, 400, 'Type a question first.');
     if ((await st.incr('ask:' + s.fid, 3600)) > 20) return fail(res, 429, 'That’s a lot of questions for one hour. Try again later.');
-    const today = typeof b.date === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(b.date) ? b.date : P.dayOf(Date.now());
-    const days = [...Array(14)].map((_, i) => P.addDays(today, i - 13)), byDay = await eventsFor(st, s.fid, days);
-    const facts = P.weekFacts(byDay, today, [], (await controlsOf(st, s.fid)).goalDays);
-    facts.period = 'last 14 days'; facts.from = days[0];
-    if (!facts.active) return { answer: 'There’s no learning activity recorded in the last 14 days, so I can’t answer that from Spark’s records yet.', grounded: true };
+    const p = periodOf({ end: b.date, days: 30 }) || periodOf({ days: 30 });
+    const c = await controlsOf(st, s.fid), j = P.journey(await eventsFor(st, s.fid, p.list), p.end, 30, c.goalDays);
+    if (!j.active) return { answer: 'There’s no learning activity recorded in the last 30 days, so I can’t answer that from Spark’s records yet.', evidence: [], estimate: false, insufficient: true };
     try {
-      const r = await ai({ prompt: P.askPrompt(q, facts, (await controlsOf(st, s.fid)).klass), schema: P.ASK_SCHEMA, maxTokens: 600 });
-      const answer = r && P.str(r.answer, 1200).split(/(?<=[.!?])\s+/).filter(x => !P.UNSUPPORTED.test(x)).join(' ');
-      if (!answer) throw new Error('empty');
-      return { answer, grounded: true };
-    } catch (e) { return fail(res, 503, 'Spark couldn’t answer just now. Try again in a minute.'); }
+      const r = P.validateAsk(await ai({ prompt: P.askPrompt2(q, j, c.klass), schema: P.ASK2_SCHEMA, maxTokens: 800 }));
+      if (!r) throw new Error('empty');
+      return r;
+    } catch (e) { return fail(res, 503, 'Ask Spark isn’t available right now. Try again in a minute.', { code: 'ai_unavailable' }); }
   },
   async safety(st, req, res, b, s) {
     const list = (await st.lrange('safe:' + s.fid, 0, 99)).map(J).filter(Boolean);

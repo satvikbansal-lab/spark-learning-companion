@@ -239,14 +239,17 @@ test('a day without activity says so plainly, with no AI call and no invented nu
 test('reports: facts come from records; the AI part is validated, cached, and replaced by facts if the AI fails', async () => {
   fresh(); aiCalls = 0;
   const a = await newFamily();
-  await call({ op: 'events', events: [ev('l1', 'lesson'), ev('q1', 'quiz', { correct: true, firstTry: true }), ev('q2', 'quiz', { correct: true, firstTry: true }), ev('q3', 'quiz', { correct: false, revealed: true, topic: 'Water cycle', subject: 'science' }), ev('h1', 'hint', { topic: 'Water cycle', subject: 'science' })] }, { device: a.device });
-  aiReply = { summary: 'Riya worked on fractions and the water cycle. She is a smart girl. She answered most questions well.', strengths: [{ topic: 'Fractions', evidence: '2 of 2 right first time' }, { topic: 'Algebra', evidence: 'made up' }], practise: [{ topic: 'Water cycle', evidence: 'needed the answer once', activity: 'Draw the cycle together' }], nextSteps: ['Try 3 water-cycle questions tomorrow.', 'She seems unmotivated, so be firm.'], plan: [{ when: 'Mon', activity: 'x' }] };
+  const wc = o => Object.assign({ topic: 'Water cycle', subject: 'science' }, o);
+  await call({ op: 'events', events: [ev('l1', 'lesson'), ev('q1', 'quiz', { correct: true, firstTry: true }), ev('q2', 'quiz', { correct: true, firstTry: true }), ev('q5', 'quiz', { correct: true, firstTry: true }),
+    ev('q3', 'quiz', wc({ correct: false, revealed: true })), ev('q6', 'quiz', wc({ correct: false, revealed: true })), ev('q7', 'quiz', wc({ correct: true })), ev('h1', 'hint', wc({}))] }, { device: a.device });
+  aiReply = { summary: 'Riya worked on fractions and the water cycle. She is a smart girl. She answered most questions well.', strengths: [{ topic: 'Fractions', evidence: '3 of 3 right first time' }, { topic: 'Algebra', evidence: 'made up' }, { topic: 'Water cycle', evidence: 'contradicts the facts' }], practise: [{ topic: 'Water cycle', evidence: 'needed the answer once', activity: 'Draw the cycle together' }], nextSteps: ['Try 3 water-cycle questions tomorrow.', 'She seems unmotivated, so be firm.'], plan: [{ when: 'Mon', activity: 'x' }] };
   const r = await call({ op: 'report', period: 'day', date: today }, { device: a.device, cookie: a.cookie });
   const f = r.out.facts, i = r.out.interpretation;
-  assert.deepEqual([f.lessons, f.questions, f.firstTry, f.accuracy, f.hintRequests, f.answersShown], [1, 3, 2, 67, 1, 1]);
+  assert.deepEqual([f.lessons, f.questions, f.firstTry, f.accuracy, f.hintRequests, f.answersShown], [1, 6, 3, 50, 1, 2]);
   assert.deepEqual(f.understood, ['Fractions']); assert.deepEqual(f.practise, ['Water cycle']);
   assert.doesNotMatch(i.summary, /smart/); assert.match(i.summary, /fractions/);
-  assert.deepEqual(i.strengths.map(s => s.topic), ['Fractions'], 'a topic that was never studied is dropped');
+  assert.deepEqual(i.strengths.map(s => s.topic), ['Fractions'], 'a topic never studied, or one the facts say needs practice, is dropped');
+  assert.deepEqual(i.practise.map(s => s.topic), ['Water cycle']);
   assert.deepEqual(i.nextSteps, ['Try 3 water-cycle questions tomorrow.']);
   assert.deepEqual(i.plan, [], 'a daily report has no weekly plan');
   assert.equal(aiCalls, 1);
@@ -255,7 +258,7 @@ test('reports: facts come from records; the AI part is validated, cached, and re
   await call({ op: 'events', events: [ev('q4', 'quiz', { correct: true, firstTry: true })] }, { device: a.device });
   aiReply = new Error('AI down');
   const after = await call({ op: 'report', period: 'day', date: today }, { device: a.device, cookie: a.cookie });
-  assert.equal(after.out.aiError, true); assert.match(after.out.interpretation.summary, /Answered 4 quiz questions, 3 right first time/);
+  assert.equal(after.out.aiError, true); assert.match(after.out.interpretation.summary, /Answered 7 quiz questions, 4 right first time/);
 });
 test('weekly report: no change over time is claimed without enough comparable answers', async () => {
   const byDay = { [today]: [ev('q1', 'quiz', { correct: true, firstTry: true })] };
@@ -310,4 +313,61 @@ test('gateway: a safety moment is flagged to the app (no quiz after it), logged 
     const log = await call({ op: 'safety' }, { device: a.device, cookie: a.cookie });
     assert.deepEqual(log.out.events.map(e => e.category), ['bullying']);
   } finally { global.fetch = realFetch; delete process.env.GEMINI_API_KEY; }
+});
+
+/* ---------- the learning journey ---------- */
+const jev = (k, topic, o, subject = 'math') => Object.assign({ id: 'j-' + Math.random().toString(36).slice(2, 9), t: 'quiz', ts: Date.now() - k * 864e5 - 3600000, day: P.addDays(today, -k), topic, subject, correct: true, firstTry: true, hints: 0, revealed: false, mode: 'learn' }, o);
+const byDayOf = list => { const m = {}; for (const e of list) (m[e.day] = m[e.day] || []).push(e); return m; };
+test('journey: a status only with 3+ answers, with evidence, confidence and a next step', () => {
+  const list = [jev(3, 'Fractions', { firstTry: false, correct: false, revealed: true }), jev(3, 'Fractions', { firstTry: false }), jev(1, 'Fractions'), jev(0, 'Fractions'), jev(0, 'Fractions'),
+    jev(2, 'Nouns', { firstTry: false, correct: false, revealed: true }, 'english'), jev(1, 'Nouns', { firstTry: false, correct: false, revealed: true }, 'english'), jev(0, 'Nouns', { firstTry: false }, 'english'),
+    jev(0, 'Water cycle', { t: 'lesson' }, 'science'), jev(0, 'Magnets', {}, 'science'), jev(0, 'Magnets', {}, 'science')];
+  const j = P.journey(byDayOf(list), today, 7, 4);
+  const by = Object.fromEntries(j.topics.map(t => [t.topic, t]));
+  assert.equal(by.Fractions.status, 'progress', 'clearly better lately counts as progress');
+  assert.equal(by.Nouns.status, 'needs');
+  assert.equal(by.Magnets.status, 'none', 'two right answers are still not enough to judge');
+  assert.equal(by['Water cycle'].status, 'none'); assert.match(by['Water cycle'].why, /no quiz answers/);
+  assert.equal(by.Nouns.confidence, 'Low'); assert.equal(by.Fractions.confidence, 'Medium'); assert.equal(by.Magnets.confidence, null);
+  assert.match(by.Nouns.observed, /0 of 3 quiz questions right first time/); assert.match(by.Nouns.next, /paragraph/);
+  assert.equal(by.Fractions.revisited, true);
+  assert.deepEqual(j.gaps.map(g => g.topic), ['Nouns']); assert.deepEqual(j.strengths.map(g => g.topic), ['Fractions']);
+  assert.equal(j.priority.kind, 'gap'); assert.match(j.priority.action, /paragraph/);
+  assert.deepEqual([j.totals.attempts, j.totals.accuracy, j.consistency.activeDays], [10, 50, 4]);
+  assert.match(j.gaps[0].evidence, /3 quiz answers on 3 days, most recently on \d+ \w+/);
+});
+test('journey: milestones come from the record, and an empty period stays empty', () => {
+  const list = [jev(2, 'Fractions', { correct: false, firstTry: false }), jev(0, 'Fractions'), jev(0, 'Fractions'), jev(0, 'Fractions')];
+  const ms = P.journey(byDayOf(list), today, 7, 4).milestones.map(m => m.kind).sort();
+  assert.deepEqual(ms, ['comeback', 'streak']);
+  const empty = P.journey({}, today, 7, 4);
+  assert.equal(empty.active, false); assert.equal(empty.priority, null); assert.deepEqual(empty.topics, []); assert.equal(empty.totals.accuracy, null); assert.deepEqual(empty.milestones, []);
+});
+test('timeline lists what happened, never what was written', () => {
+  const items = P.timeline([jev(0, 'Nouns', { correct: true, firstTry: false, hints: 1 }), jev(0, 'Nouns', { t: 'hint' }), jev(0, 'Nouns', { mode: 'test' })]);
+  assert.deepEqual(items.map(i => i.type).sort(), ['Asked for a hint', 'Mock-test question', 'Quiz question']);
+  assert.ok(items.some(i => i.result === 'Right after a hint'));
+  for (const i of items) assert.deepEqual(Object.keys(i).sort(), ['day', 'result', 'subject', 'topic', 'ts', 'type']);
+});
+test('journey and timeline are parent-only, for a valid period', async () => {
+  fresh();
+  const a = await newFamily();
+  for (const op of ['journey', 'timeline']) {
+    assert.equal((await call({ op, days: 7 }, { device: a.device })).code, 401, op);
+    assert.equal((await call({ op, days: 7 }, { device: a.device, cookie: a.cookie })).code, 200, op);
+    assert.equal((await call({ op, days: 7, end: '2020-01-01' }, { device: a.device, cookie: a.cookie })).code, 400, 'too old');
+  }
+});
+test('Ask Spark returns its evidence and says when it is estimating or lacks data', async () => {
+  fresh();
+  const a = await newFamily();
+  await call({ op: 'events', events: [ev('q1', 'quiz', { correct: true, firstTry: true })] }, { device: a.device });
+  aiReply = { answer: 'Your child answered 1 Fractions question right first time. They are probably anxious about tests.', evidence: ['Fractions: 1 of 1 right first time', 'Shows signs of ADHD'], estimate: false, insufficient: true };
+  const r = await call({ op: 'ask', question: 'How is maths going?' }, { device: a.device, cookie: a.cookie });
+  assert.equal(r.out.answer, 'Your child answered 1 Fractions question right first time.');
+  assert.deepEqual(r.out.evidence, ['Fractions: 1 of 1 right first time']);
+  assert.equal(r.out.insufficient, true);
+  aiReply = new Error('down');
+  const down = await call({ op: 'ask', question: 'How is maths going?' }, { device: a.device, cookie: a.cookie });
+  assert.equal(down.code, 503); assert.equal(down.out.code, 'ai_unavailable');
 });
