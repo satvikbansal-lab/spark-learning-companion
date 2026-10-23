@@ -461,6 +461,15 @@ svg { display: block; }
 .pv-item b { display: block; } .pv-item div span { font-size: 13.5px; color: var(--muted); }
 .pv-item em { font-style: normal; font-size: 12px; color: var(--muted); white-space: nowrap; }
 .pv-score { font-family: var(--display); font-weight: 600; font-size: 16px; color: var(--accent-text); min-width: 36px; }
+.pv-text { margin: 0; line-height: 1.5; }
+.pv-tag { font-size: 11px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; padding: 2px 7px; border-radius: 999px; background: color-mix(in srgb, var(--good) 15%, transparent); color: var(--ink); vertical-align: 1px; margin-left: 6px; }
+.pv-tag.soft { background: var(--soft); color: var(--muted); }
+.pv-small { margin: 0 0 8px; font-size: 13px; color: var(--muted); }
+.pv-goal { display: grid; gap: 8px; } .pv-goal select, .pv-rem input { padding: 6px 8px; border-radius: 8px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); font: inherit; }
+.pv-bar { height: 10px; border-radius: 999px; background: var(--soft); overflow: hidden; } .pv-bar i { display: block; height: 100%; border-radius: inherit; background: var(--accent); }
+.pv-goal-t { font-size: 13.5px; color: var(--muted); }
+.pv-rem, .pv-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.pv-priv { display: grid; gap: 10px; font-size: 14px; } .pv-priv p { margin: 0; line-height: 1.5; }
 .pv-note { display: flex; gap: 8px; align-items: center; margin: 0; font-size: 13px; color: var(--muted); }
 /* phone polish */
 @media (max-width: 820px) {
@@ -879,6 +888,50 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
 @keyframes ckConf { 0% { opacity: 1; transform: translate(0, 0) rotate(0) scale(.6); } 75% { opacity: 1; } 100% { opacity: 0; transform: translate(var(--x), calc(var(--y) + 26px)) rotate(var(--r)) scale(1); } }
 @keyframes ckPopper { 0% { opacity: 0; transform: scale(.3) rotate(-30deg); } 35% { opacity: 1; transform: scale(1.25) rotate(10deg); } 70% { opacity: 1; transform: scale(1) rotate(0); } 100% { opacity: 0; transform: translateY(-10px); } }
 @media (max-width: 560px) { .quizmsg .ck { padding: 12px; } .ck-q { font-size: 16px; } .ck-acts .btn { flex: 1 1 auto; } }
+/* study packs */
+.pack-hero, .pack-top { display: flex; gap: 18px; align-items: flex-start; justify-content: space-between; }
+.pack-hero { padding: 22px; border-radius: 20px; background: var(--panel); border: 1px solid var(--line); box-shadow: var(--shadow); justify-content: flex-start; }
+.pack-hero h2, .pack-top h2 { margin: 4px 0 8px; font-family: var(--display); font-size: 24px; }
+.pack-hero p { margin: 0 0 14px; color: var(--muted); line-height: 1.5; }
+.pack-buddy { width: 84px; height: auto; flex: none; }
+.pack-err { color: var(--muted); font-size: 14px; }
+.pk-sum { margin: 0; line-height: 1.55; }
+.pack-modes { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+.pk-mode { display: grid; gap: 4px; text-align: left; padding: 14px; border-radius: 16px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); }
+.pk-mode span { font-size: 22px; } .pk-mode b { font-family: var(--display); font-size: 15px; } .pk-mode small { color: var(--muted); font-size: 12.5px; line-height: 1.35; }
+.pk-mode:not(:disabled):hover { border-color: var(--accent); transform: translateY(-1px); }
+.pk-mode:disabled { opacity: .5; cursor: default; }
+.pk-warn { padding: 12px 14px; border-radius: 14px; border-left: 4px solid #E0A100; background: color-mix(in srgb, #FFC93C 16%, var(--panel)); font-size: 14px; }
+.pk-warn ul { margin: 6px 0; padding-left: 20px; } .pk-warn span { color: var(--muted); }
+.pk-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+.pk-head h3 { margin: 0; } .pk-tools { display: flex; gap: 8px; }
+.pk-legend { margin: 8px 0 14px; font-size: 13px; color: var(--muted); display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.pk-src, .pk-extra-tag { padding: 2px 8px; border-radius: 999px; font-size: 12px; font-weight: 600; }
+.pk-src { background: var(--soft); color: var(--ink); } .pk-extra-tag { background: var(--accent-soft); color: var(--accent-text); }
+.pk-unit { padding: 16px; border-radius: 16px; background: var(--panel); border: 1px solid var(--line); margin-bottom: 12px; display: grid; gap: 10px; }
+.pk-unit > p { margin: 0; line-height: 1.55; }
+.pk-uh { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.pk-uh h4 { margin: 0; font-family: var(--display); font-size: 17px; flex: 1; min-width: 140px; }
+.pk-num { width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center; background: var(--accent); color: var(--accent-ink); font-weight: 700; font-size: 13px; flex: none; }
+.pk-page { font-size: 12px; color: var(--muted); padding: 2px 8px; border-radius: 999px; background: var(--soft); }
+.pk-block h4 { margin: 0 0 4px; font-size: 12.5px; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.pk-block ul { margin: 0; padding-left: 20px; display: grid; gap: 3px; font-size: 14.5px; }
+.pk-block dl { margin: 0; display: grid; gap: 6px; font-size: 14.5px; } .pk-block dt { font-weight: 600; } .pk-block dd { margin: 0; color: var(--ink); } .pk-block small { color: var(--muted); font-weight: 400; }
+.pk-formula li { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 14px; }
+.pk-extra { padding: 10px 12px; border-radius: 12px; background: var(--accent-soft); } .pk-extra h4 { color: var(--accent-text); }
+.pk-long { display: grid; gap: 4px; } .pk-lq { margin: 0; font-weight: 600; }
+.pk-unit details summary { cursor: pointer; font-weight: 600; color: var(--accent-text); }
+.pk-key ol { margin: 10px 0 0; padding-left: 22px; display: grid; gap: 8px; font-size: 14px; } .pk-key p { margin: 0; }
+[data-pe] { border-radius: 6px; outline: none; } [data-pe]:hover { background: var(--soft); } [data-pe]:focus { background: var(--soft); box-shadow: 0 0 0 2px var(--accent); }
+.linkish { background: none; border: 0; padding: 0; color: var(--accent-text); text-decoration: underline; font: inherit; cursor: pointer; }
+@media (max-width: 560px) { .pack-top .pack-buddy { display: none; } .pack-modes { grid-template-columns: 1fr 1fr; } .pack-hero { flex-direction: column; } }
+@media print {
+  body { background: #fff !important; color: #000 !important; }
+  .side, .top, .composer, .pack-modes, .pk-tools, .pk-learn, .pv-note, .pack-buddy, .pk-legend, .subject-bg, .topic-bg, .walker, .toast, .disco { display: none !important; }
+  .app, .main, .prog, .pack-page { display: block !important; overflow: visible !important; height: auto !important; padding: 0 !important; }
+  .pk-unit { break-inside: avoid; border-color: #bbb; box-shadow: none; }
+  [data-pe]:hover, [data-pe]:focus { background: none; box-shadow: none; }
+}
 /* disco mode: Sparky moonwalks in and DJs while the lights fade through every colour. Colours change smoothly
    about every 1.5 s (never strobing); with reduced motion nothing moves and the colours simply change. */
 .disco { position: fixed; inset: 0; z-index: 80; background: #07070d; overflow: hidden; color: #fff; font-family: var(--font); }
@@ -995,6 +1048,7 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
       <h1 class="top-title" id="topTitle" hidden></h1>
       <div class="tabs" role="tablist">
         <button class="tab" data-tab="chat" role="tab">Chat</button>
+        <button class="tab" data-tab="pack" role="tab" hidden>Study pack</button>
         <button class="tab" data-tab="progress" role="tab">Progress</button>
       </div>
       <button class="spark-toggle" id="sparkToggle" role="switch" aria-checked="false" hidden><span class="sw" aria-hidden="true"></span>Talk with Spark</button>
@@ -1462,9 +1516,11 @@ function renderMain() {
   $('#titleIn').setAttribute('aria-label', thought ? 'Page title' : 'Notebook name');
   $('#delNb').setAttribute('aria-label', thought ? 'Delete page' : 'Delete notebook'); $('#delNb').title = thought ? 'Delete page' : 'Delete notebook';
   if (thought) return renderThought();
-  if (S.tab !== 'chat' && S.tab !== 'progress') S.tab = 'chat';
+  const hasNotes = !!(c.materials || []).length;
+  document.querySelector('.tab[data-tab="pack"]').hidden = !hasNotes;
+  if (S.tab !== 'chat' && S.tab !== 'progress' && !(S.tab === 'pack' && hasNotes)) S.tab = 'chat';
   document.querySelectorAll('.tab').forEach(t => { t.classList.toggle('on', t.dataset.tab === S.tab); t.setAttribute('aria-selected', t.dataset.tab === S.tab); });
-  if (S.tab === 'progress') renderProgress(); else renderChat();
+  if (S.tab === 'progress') renderProgress(); else if (S.tab === 'pack') renderPack(); else renderChat();
 }
 
 /* ---------- subject-aware background ----------
@@ -1763,7 +1819,7 @@ function renderChat() {
       <button class="qa" data-qa="stuck"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6V14M12 17.5v.01"/></svg></span><b>I'm stuck on a problem</b><span>Type it or add a photo</span></button>
       <button class="qa" data-qa="think"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.6 10.8c.6.5 1 1.2 1.1 2V16h5v-.2c.1-.8.5-1.5 1.1-2A6 6 0 0 0 12 3z"/></svg></span><b>Brainstorm with me</b><span>A project, a story, an idea to grow</span></button>
     </div></div>` : '';
-  const rv = (n.review || []).length ? `<div class="review-row"><button class="review-chip" data-review>${buddyImg('who-img', true)}Review ${n.review.length} tricky question${n.review.length === 1 ? '' : 's'}</button></div>` : '';
+  const rc = reviewCount(n), rv = rc ? `<div class="review-row"><button class="review-chip" data-review>${buddyImg('who-img', true)}Review ${rc} tricky question${rc === 1 ? '' : 's'}</button></div>` : '';
   $('#view').innerHTML = `${demo}${matsHTML(n)}${rv}${ladderHTML(n)}<div class="msgs" id="msgs"><div class="msgs-in">${empty}${n.messages.map(msgHTML).join('')}</div></div>
     <div class="composer"><div class="comp-in">
       ${n.kind !== 'thought' && quizzesOn() ? `<div class="quiz-bar"><button class="quiz-chip" id="quizMe" type="button" title="Four-choice questions on what you just learned">🎯 Quiz me</button></div>` : ''}
@@ -1825,6 +1881,7 @@ async function readMaterial(f) {
 async function attachMaterial(n, r, ask) {
   await idb.put({ id: r.mat.id, mime: r.mat.mime, data: r.data });
   n.materials = n.materials || []; n.materials.push(r.mat); save();
+  const pt = document.querySelector('.tab[data-tab="pack"]'); if (pt && S.mode === 'nb') pt.hidden = false; // notes → the Study pack tab
   send(ask, { material: r.mat });
 }
 async function addMaterial(f) {
@@ -2058,8 +2115,9 @@ async function geminiStream(n, onText, onSources, extra, rt = {}) {
   onText(acc.text);
   return acc;
 }
-async function geminiJSON(prompt, schema, prefer = LITE_MODELS, maxTokens) {
-  const r = await geminiFetch(false, () => ({ contents: [{ role: 'user', parts: [{ text: prompt }] }], generationConfig: Object.assign({ temperature: 0.2, responseMimeType: 'application/json', responseSchema: schema }, maxTokens ? { maxOutputTokens: maxTokens } : {}) }), prefer);
+async function geminiJSON(prompt, schema, prefer = LITE_MODELS, maxTokens, files = []) {
+  // files: [{ mime, data }] (base64), e.g. the student's uploaded notes for a study pack.
+  const r = await geminiFetch(false, () => ({ contents: [{ role: 'user', parts: [...files.map(f => ({ inlineData: { mimeType: f.mime, data: f.data } })), { text: prompt }] }], generationConfig: Object.assign({ temperature: 0.2, responseMimeType: 'application/json', responseSchema: schema }, maxTokens ? { maxOutputTokens: maxTokens } : {}) }), prefer);
   const j = await r.json();
   const parts = j.candidates && j.candidates[0] && j.candidates[0].content && j.candidates[0].content.parts;
   if (!parts) throw new Error('Gemini returned no result.');
@@ -2688,7 +2746,7 @@ const quizModels = () => [S.settings.model || DEFAULT_MODEL, DEFAULT_MODEL, 'gem
 /* Adds a check card after message `after` (or at the end). opts: { mode, count, lesson, notes, subject, quiz, title } */
 async function makeCheck(n, after, opts = {}) {
   if (!opts.quiz && !hasAI()) return null;
-  const m = { id: uid(), role: 'model', kind: 'check', ts: Date.now(), pending: true, from: after && after.id, say: opts.say || CHECK_INTRO[Math.floor(Math.random() * CHECK_INTRO.length)], opts: { mode: opts.mode || 'learn', count: opts.count || 3, notes: !!opts.notes, subject: opts.subject || n.lastSubject || '', lesson: opts.lesson || '' } };
+  const m = { id: uid(), role: 'model', kind: 'check', ts: Date.now(), pending: true, from: after && after.id, say: opts.say || CHECK_INTRO[Math.floor(Math.random() * CHECK_INTRO.length)], opts: { mode: opts.mode || 'learn', review: !!opts.review, count: opts.count || 3, notes: !!opts.notes, subject: opts.subject || n.lastSubject || '', lesson: opts.lesson || '' } };
   const at = after ? n.messages.indexOf(after) : -1;
   if (at >= 0) n.messages.splice(at + 1, 0, m); else n.messages.push(m);
   save(); paintCheck(n, m, true);
@@ -2814,6 +2872,19 @@ function recordCheck(n, m) {
   Object.assign(q, { score: s.right, total: s.asked, firstTry: s.firstTry, updated: Date.now() });
   const logged = n.quizLog.filter(r => r.check === m.id).length;
   for (const r of s.rows.slice(logged)) n.quizLog.push(Object.assign({ ts: Date.now(), check: m.id, topic: m.topic, mode: m.check.mode }, r));
+  // Missed, or needed help: saved for "Review mistakes". Right first time in a review: taken off the list.
+  const st = m.check; m.reviewed = m.reviewed || [];
+  for (const qi of st.queue) {
+    const it = st.items[qi]; if (!it || m.reviewed.includes(qi)) continue;
+    const q = st.qs[qi], first = it.status === 'correct' && it.attempts === 1 && !it.hints && !it.simpler;
+    const resolved = st.mode === 'test' ? !!st.results : ['correct', 'revealed'].includes(it.status);
+    if (!resolved) continue;
+    m.reviewed.push(qi);
+    const ok = st.mode === 'test' ? (st.results.rows.find(r => r.qi === qi) || {}).ok : first;
+    const same = x => SparkQuiz.norm(x.q) === SparkQuiz.norm(q.q);
+    if (ok && m.opts.review) { n.mistakes = (n.mistakes || []).filter(x => !same(x)); n.review = (n.review || []).filter(x => !same(x)); }
+    else if (!ok) { n.mistakes = n.mistakes || []; if (!n.mistakes.some(same)) n.mistakes.push(Object.assign({}, q, { topic: m.topic })); n.mistakes = n.mistakes.slice(-20); }
+  }
   const last = s.rows[s.rows.length - 1];
   if (last && m.check.mode !== 'test') {
     const evidence = last.firstTry ? 'Quick check: right first try' : last.correct ? `Quick check: right after ${last.hints || last.simpler ? 'a hint' : 'a second try'}` : 'Quick check: needed the answer shown';
@@ -2963,10 +3034,14 @@ ${ctx}`, CARDS_SCHEMA);
   }
   save(); if (S.mode === 'nb' && S.tab === 'chat' && nb() === n) renderChat();
 }
+/* Review: questions they missed or needed help with (quiz cards, study packs, and the older quizzes), again. */
+const reviewCount = n => (n.mistakes || []).length + (n.review || []).length;
 function reviewQuiz() {
-  const n = nb(), qs = (n.review || []).slice(0, 3); if (!qs.length) return;
-  n.messages.push({ id: uid(), role: 'model', ts: Date.now(), kind: 'quiz', review: true, topic: 'Tricky ones', quiz: { questions: qs.map(q => Object.assign({}, q)), picked: [] } });
-  save(); renderChat();
+  const n = nb();
+  const old = (n.review || []).map(q => ({ format: 'mcq', level: 1, q: q.q, options: q.options, answer: q.answer, why: q.why, hint: `Think back to what you learned about ${q.topic || 'this'}.`, wrong: q.options.map(() => '') }));
+  const qs = [...(n.mistakes || []), ...old].slice(0, 5).map((q, i) => Object.assign({}, q, { id: 'r' + i, simpler: undefined, level: 1 }));
+  if (!qs.length) return toast('No tricky questions to review yet.');
+  return makeCheck(n, null, { quiz: { topic: 'Tricky ones', questions: qs }, mode: 'practice', review: true, title: 'Tricky ones', say: 'Let’s try the tricky ones again! You’ve got this. 💪' });
 }
 function quizHTML(m) {
   const qz = m.quiz, done = qz.picked.filter(x => x !== undefined && x !== null).length;
@@ -3038,37 +3113,165 @@ function parentData() {
 function openParent() { $('#parent').hidden = false; renderParent(); $('#app').classList.remove('drawer'); }
 function renderParent() {
   const d = parentData(), s = S.settings, who = esc(s.name || 'Your child');
-  const avg = d.quizzes.length ? Math.round(d.quizzes.reduce((a, q) => a + q.score / q.total, 0) / d.quizzes.length * 100) : null;
+  const r = SparkQuiz.report(S.notebooks), w = r.thisWeek, g = S.parent || (S.parent = { goalDays: 4, time: '17:00' });
   const tips = S.parentTips && S.parentTips.items && S.parentTips.items.length ? S.parentTips.items
-    : d.practise.slice(0, 3).map(c => `Can you explain ${c.name} to me like I'm your little cousin?`);
+    : [...r.practise.map(t => ({ name: t.topic })), ...d.practise].slice(0, 3).map(c => `Can you explain ${c.name} to me like I'm your little cousin?`);
   const row = c => `<div class="pv-item"><span class="dot ${c.status}" aria-hidden="true"></span><div><b>${esc(c.name)}</b><span>${esc(c.evidence || '')}</span></div><em>${esc(c.book)}</em></div>`;
+  const trow = (t, good) => `<div class="pv-item"><span class="pv-score">${t.firstTry}/${t.asked}</span><div><b>${esc(t.topic)}</b><span>${t.firstTry} of ${t.asked} quiz question${t.asked === 1 ? '' : 's'} right first time${t.revealed ? ` · asked to see ${t.revealed === 1 ? 'one answer' : t.revealed + ' answers'}` : ''}</span></div><em>${esc(t.book)}</em></div>`;
+  const pct = (a, b) => (b ? Math.round(a / b * 100) + '%' : '–');
+  const goalPct = Math.min(100, Math.round(w.days / g.goalDays * 100));
   $('#parentBody').innerHTML = `
-    <div class="pv-top"><div><span class="pv-eyebrow">Parent view</span><h2>${who}${s.grade ? ` · ${esc(s.grade)}` : ''}</h2><p>How learning with ${esc(bn())} is going over the last 7 days.</p></div>${buddyImg('pv-img', true)}</div>
+    <div class="pv-top"><div><span class="pv-eyebrow">Parent view</span><h2>${who}${s.grade ? ` · ${esc(s.grade)}` : ''}</h2><p>What ${who === 'Your child' ? 'your child' : who} actually did with ${esc(bn())} in the last 7 days. Every number here comes from saved activity on this device.</p></div>${buddyImg('pv-img', true)}</div>
     <div class="tiles">
-      <div class="tile"><span class="v">${d.asked}</span><span class="l">Questions asked</span></div>
-      <div class="tile"><span class="v">${d.days}</span><span class="l">Days active</span></div>
-      <div class="tile"><span class="v">${d.strong.length}</span><span class="l">Topics going well</span></div>
-      <div class="tile"><span class="v">${d.practise.length}</span><span class="l">Topics to practise</span></div>
-      <div class="tile"><span class="v">${avg === null ? '–' : avg + '%'}</span><span class="l">Average quiz score</span></div>
+      <div class="tile"><span class="v">${w.sessions}</span><span class="l">Study sessions</span></div>
+      <div class="tile"><span class="v">${w.days}</span><span class="l">Days active</span></div>
+      <div class="tile"><span class="v">${w.quizQs}</span><span class="l">Quiz questions answered</span></div>
+      <div class="tile"><span class="v">${pct(w.firstTry, w.quizQs)}</span><span class="l">Right first time${w.quizQs ? ` (${w.firstTry} of ${w.quizQs})` : ''}</span></div>
+      <div class="tile"><span class="v">${w.asked}</span><span class="l">Questions asked</span></div>
     </div>
+    <section><h3>Quiz trend</h3><p class="pv-text">${r.trend ? `Right first time: <b>${r.trend.now}%</b> this week, ${r.trend.before}% the week before (from ${w.quizQs} and ${r.lastWeek.quizQs} answered questions). Different weeks cover different topics, so treat this as a rough guide.` : `Not enough quizzes yet to show a trend. It appears once there are at least ${r.minTrend} answered quiz questions in each of two weeks (this week: ${w.quizQs}, last week: ${r.lastWeek.quizQs}).`}</p></section>
+    <section><h3>Weekly goal</h3><div class="pv-goal"><label>Study on <select id="pvGoal">${[2, 3, 4, 5, 6, 7].map(k => `<option value="${k}" ${k === g.goalDays ? 'selected' : ''}>${k}</option>`).join('')}</select> days a week</label>
+      <div class="pv-bar" role="progressbar" aria-valuemin="0" aria-valuemax="${g.goalDays}" aria-valuenow="${Math.min(w.days, g.goalDays)}" aria-label="Days studied this week"><i style="width:${goalPct}%"></i></div><span class="pv-goal-t">${w.days} of ${g.goalDays} days this week${w.days >= g.goalDays ? ' · goal reached 🎉' : ''}</span>
+      <div class="pv-rem"><label>Reminder at <input type="time" id="pvTime" value="${esc(g.time || '17:00')}"></label><button class="btn" id="pvIcs">Add a daily reminder to my calendar</button></div>
+      <p class="pv-small">The reminder is a calendar file for your own calendar app. Spark sends no notifications and needs no account.</p></div></section>
+    ${r.chapters.length ? `<section><h3>Exam preparation</h3>${r.chapters.map(c => `<div class="pv-item"><span class="pv-score">${c.test ? `${c.test.score}/${c.test.total}` : '–'}</span><div><b>${esc(c.title)}</b><span>${c.units} part${c.units === 1 ? '' : 's'} · ${c.practised} practice question${c.practised === 1 ? '' : 's'} answered · ${c.test ? `latest mock test ${c.test.score} of ${c.test.total} (${new Date(c.test.ts).toLocaleDateString(undefined, { day: 'numeric', month: 'short' })})` : 'no mock test yet'}${c.mistakes ? ` · ${c.mistakes} to review` : ''}</span></div><em>${esc(c.book)}</em></div>`).join('')}</section>` : ''}
+    <section><h3>Needs more practice <span class="pv-tag">recorded</span></h3>${r.practise.length ? r.practise.slice(0, 6).map(t => trow(t)).join('') : '<p class="none">Nothing yet. Topics appear here when quiz questions weren’t right first time.</p>'}</section>
+    <section><h3>Going well <span class="pv-tag">recorded</span></h3>${r.strong.length ? r.strong.slice(0, 6).map(t => trow(t, true)).join('') : '<p class="none">Nothing yet. Topics appear here after at least 2 quiz questions mostly right first time.</p>'}</section>
     <section><h3>Ask at dinner</h3><div class="pv-tips">${tips.length ? tips.map(t => `<p>“${esc(t)}”</p>`).join('') : '<p class="none">Questions will appear once your child has learned a few topics.</p>'}</div>
-      ${hasAI() && (d.strong.length + d.practise.length) ? '<button class="btn" id="pvTips">Suggest fresh questions</button>' : ''}</section>
-    <section><h3>Going well</h3>${d.strong.length ? d.strong.slice(0, 8).map(row).join('') : '<p class="none">Nothing here yet.</p>'}</section>
-    <section><h3>Needs a little practice</h3>${d.practise.length ? d.practise.slice(0, 8).map(row).join('') : '<p class="none">Nothing here yet.</p>'}</section>
-    <section><h3>Recent quizzes</h3>${d.quizzes.length ? d.quizzes.slice(0, 6).map(q => `<div class="pv-item"><span class="pv-score">${q.score}/${q.total}</span><div><b>${esc(q.topic)}</b><span>${new Date(q.ts).toLocaleDateString(undefined, { day: 'numeric', month: 'short' })}</span></div><em>${esc(q.book)}</em></div>`).join('') : '<p class="none">No quizzes yet. They appear after a topic\u2019s final answer.</p>'}</section>
+      ${hasAI() && (d.strong.length + d.practise.length + r.practise.length + r.strong.length) ? '<button class="btn" id="pvTips">Suggest fresh questions</button>' : ''}</section>
+    <section><h3>${esc(bn())}’s estimate from chats <span class="pv-tag soft">estimate</span></h3><p class="pv-small">Based on how your child answered in conversation, not on a test. It can be wrong; use it as a conversation starter.</p>${[...d.practise, ...d.strong].length ? [...d.practise.slice(0, 5), ...d.strong.slice(0, 5)].map(row).join('') : '<p class="none">Nothing here yet.</p>'}</section>
+    <section><h3>Recent quizzes</h3>${d.quizzes.length ? d.quizzes.slice(0, 6).map(q => `<div class="pv-item"><span class="pv-score">${q.score}/${q.total}</span><div><b>${esc(q.topic)}</b><span>${q.mode === 'test' ? 'Mock test · ' : ''}${new Date(q.ts).toLocaleDateString(undefined, { day: 'numeric', month: 'short' })}</span></div><em>${esc(q.book)}</em></div>`).join('') : '<p class="none">No quizzes yet. They appear after Sparky explains something.</p>'}</section>
+    <section><h3>Privacy and sharing</h3><div class="pv-priv">
+      <p><b>Stored only on this device.</b> There are no accounts, and Spark shares nothing with anyone unless you export it yourself.</p>
+      <p><b>Sent to the AI to answer:</b> your child’s messages and uploaded notes go to Google’s Gemini models through this site’s server. Picture searches send only a few key words to Wikipedia. Private My Thoughts pages are never shown here and never fetch pictures.</p>
+      <label class="check"><input type="checkbox" id="pvThoughts" ${s.learnThoughts !== false ? 'checked' : ''}><span>Let Spark learn your child’s interests from their private Thoughts pages (used only to pick examples; never shown or quoted)</span></label>
+      <div class="pv-row"><button class="btn" id="pvExport">Download all data</button><button class="btn" id="pvMem">See what Spark remembers</button><button class="btn" id="pvDelete">Delete everything</button></div>
+    </div></section>
     <p class="pv-note">${lockSvg} Private Thoughts pages are never shown here. Everything stays on this device.</p>`;
+  $('#pvGoal').onchange = e => { g.goalDays = +e.target.value; save(); renderParent(); };
+  $('#pvTime').onchange = e => { g.time = e.target.value || '17:00'; save(); };
+  $('#pvIcs').onclick = () => downloadReminder(g.time || '17:00');
+  $('#pvThoughts').onchange = e => { s.learnThoughts = e.target.checked; save(); };
+  $('#pvExport').onclick = () => $('#exportBtn').click();
+  $('#pvMem').onclick = () => { $('#parent').hidden = true; $('#openMem').click(); };
+  $('#pvDelete').onclick = () => $('#resetBtn').click();
   const b = $('#pvTips'); if (b) b.onclick = async () => {
     b.disabled = true; b.textContent = 'Thinking of good questions…';
     try {
-      const topics = [...d.practise, ...d.strong].slice(0, 6).map(c => `${c.name} (${c.status})`).join(', ');
-      const r = await geminiJSON(`A parent wants to chat with their child (${ageText()}) at dinner about what they're learning. Topics: ${topics}. Write 3 warm, curious questions the parent can ask, in simple English, that get the child explaining in their own words. Focus more on topics that need practice. No yes/no questions. Each under 20 words.`, TIPS_SCHEMA);
-      S.parentTips = { ts: Date.now(), items: (r.questions || []).slice(0, 3) }; save(); renderParent();
+      const topics = [...r.practise.map(t => `${t.topic} (needs practice)`), ...d.practise.map(c => `${c.name} (${c.status})`), ...r.strong.map(t => `${t.topic} (going well)`), ...d.strong.map(c => `${c.name} (${c.status})`)].slice(0, 6).join(', ');
+      const res = await geminiJSON(`A parent wants to chat with their child (${ageText()}) at dinner about what they're learning. Topics: ${topics}. Write 3 warm, curious questions the parent can ask, in simple English, that get the child explaining in their own words. Focus more on topics that need practice. No yes/no questions. Each under 20 words.`, TIPS_SCHEMA);
+      S.parentTips = { ts: Date.now(), items: (res.questions || []).slice(0, 3) }; save(); renderParent();
     } catch (e) { b.disabled = false; b.textContent = 'Suggest fresh questions'; toast('Couldn’t get new questions right now.'); }
   };
+}
+/* A daily study reminder as a standard calendar file (.ics), for the parent's own calendar app. */
+function downloadReminder(time) {
+  const [h, mi] = String(time).split(':').map(x => String(+x || 0).padStart(2, '0'));
+  const d = new Date(), day = `${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}${String(d.getDate()).padStart(2, '0')}`;
+  const who = S.settings.name ? `${S.settings.name}: ` : '';
+  const ics = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Spark//Study reminder//EN', 'BEGIN:VEVENT', `UID:spark-${uid()}@spark`, `DTSTAMP:${day}T000000`, `DTSTART:${day}T${h}${mi}00`, 'DURATION:PT20M', 'RRULE:FREQ=DAILY', `SUMMARY:${who}Study time with ${bn()} 📚`, 'DESCRIPTION:A short session: ask a question or take a quiz card.', 'BEGIN:VALARM', 'TRIGGER:PT0M', 'ACTION:DISPLAY', 'DESCRIPTION:Study time', 'END:VALARM', 'END:VEVENT', 'END:VCALENDAR'].join('\r\n');
+  const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([ics], { type: 'text/calendar' }));
+  a.download = 'spark-study-reminder.ics'; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  toast('Open the file to add the reminder to your calendar.');
 }
 $('#openParent').onclick = openParent;
 $('#parentClose').onclick = () => { $('#parent').hidden = true; };
 document.addEventListener('keydown', e => { if (e.key === 'Escape' && !$('#parent').hidden) $('#parent').hidden = true; });
+
+/* ---------- study packs: exam-ready notes made from the student's own upload ----------
+   One request sends the notes file itself; SparkQuiz.validatePack() keeps only well-formed parts. What came from
+   the notes and what Sparky added are kept apart and labelled, unreadable parts are listed instead of guessed,
+   and every part is editable (plain text) and printable. The chapter quiz runs on the same quiz engine. */
+let PACK_BUSY = false;
+async function makePack(n) {
+  if (PACK_BUSY) return;
+  if (!hasAI()) return toast('Study packs need the Gemini connection. Add a key in Settings.');
+  const mat = (n.materials || [])[n.materials.length - 1]; if (!mat) return;
+  const f = await idb.get(mat.id).catch(() => null);
+  if (!f) return toast('I can’t find that file on this device any more. Upload it again.');
+  PACK_BUSY = true; n.packState = 'making'; renderPack();
+  try {
+    const lv = SparkAI.levelOf(S.settings.grade);
+    const prompt = SparkQuiz.packPrompt({ age: ageText(), band: lv.band, subject: n.lastSubject, lang: plainLangRule() });
+    let raw = await geminiJSON(prompt, SparkQuiz.PACK_SCHEMA, quizModels(), 8000, [{ mime: f.mime, data: f.data }]);
+    let pack = SparkQuiz.validatePack(raw, { subject: n.lastSubject });
+    if (!pack) { raw = await geminiJSON(prompt + '\n\nYour last answer was incomplete. Include at least one unit with a title and summary, and the quiz.', SparkQuiz.PACK_SCHEMA, quizModels(), 8000, [{ mime: f.mime, data: f.data }]); pack = SparkQuiz.validatePack(raw, { subject: n.lastSubject }); }
+    if (!pack) throw new Error('incomplete pack');
+    n.pack = Object.assign(pack, { from: mat.name, ts: Date.now() }); n.packState = '';
+    n.moments.push({ ts: Date.now(), text: `Made a study pack from ${mat.name}` });
+  } catch (e) { console.warn('study pack failed', e); n.packState = 'failed'; }
+  PACK_BUSY = false; save();
+  if (S.mode === 'nb' && S.tab === 'pack' && nb() === n) renderPack();
+}
+/* Editable text: data-pe holds the path inside the pack ("units.0.summary"); edits are saved as plain text. */
+const pe = (path, text, tag = 'p', cls = '') => `<${tag} class="${cls}" contenteditable="plaintext-only" spellcheck="true" data-pe="${path}">${esc(text)}</${tag}>`;
+function renderPack() {
+  const n = nb(), p = n.pack, mat = (n.materials || [])[n.materials.length - 1];
+  if (!p) {
+    $('#view').innerHTML = `<div class="prog"><div class="prog-in pack-start">
+      <section class="pack-hero">${buddyImg('pack-buddy', true)}<div><h2>Turn your notes into a study pack</h2><p>From <b>${esc(mat ? mat.name : 'your notes')}</b>: a chapter summary, key terms and formulas with page numbers, worked examples, common mistakes, memory tricks, flashcards, practice questions with an answer key, and a mock test. Anything ${esc(bn())} adds that isn’t in your notes is marked.</p>
+      ${n.packState === 'making' ? `<p class="ck-wait">${esc(bn())} is reading your notes and writing the pack. This takes about a minute<span class="typing" aria-hidden="true"><i></i><i></i><i></i></span></p>` : `<button class="btn pri" id="makePack">${n.packState === 'failed' ? 'Try again' : 'Make my study pack'}</button>${n.packState === 'failed' ? '<p class="pack-err">I couldn’t finish the pack that time. Your notes are fine. Try again.</p>' : ''}`}</div></section>
+    </div></div>`;
+    const b = $('#makePack'); if (b) b.onclick = () => makePack(n);
+    return;
+  }
+  const qs = p.quiz ? p.quiz.questions : [], mistakes = reviewCount(n);
+  const list = (items, path, title, cls) => items.length ? `<div class="pk-block ${cls || ''}"><h4>${title}</h4><ul>${items.map((t, i) => `<li>${pe(`${path}.${i}`, t, 'span')}</li>`).join('')}</ul></div>` : '';
+  $('#view').innerHTML = `<div class="prog pack-page"><div class="prog-in pack">
+    <section class="pack-top"><div><span class="pv-eyebrow">Study pack · from ${esc(p.from || 'your notes')}</span>${pe('title', p.title, 'h2')}${pe('summary', p.summary, 'p', 'pk-sum')}</div>${buddyImg('pack-buddy', true)}</section>
+    <section class="pack-modes" aria-label="Study modes">
+      <button class="pk-mode" data-pk="learn"><span>📖</span><b>Learn a chapter</b><small>One small part at a time, with a quiz card after each</small></button>
+      <button class="pk-mode" data-pk="revise"><span>⚡</span><b>Revise quickly</b><small>The revision sheet below, and flashcards</small></button>
+      <button class="pk-mode" data-pk="practise" ${qs.length ? '' : 'disabled'}><span>🎯</span><b>Practise questions</b><small>${qs.length} questions, with hints and help</small></button>
+      <button class="pk-mode" data-pk="test" ${qs.length ? '' : 'disabled'}><span>📝</span><b>Take a mock test</b><small>No hints; marks at the end</small></button>
+      <button class="pk-mode" data-pk="review" ${mistakes ? '' : 'disabled'}><span>🔁</span><b>Review mistakes</b><small>${mistakes ? `${mistakes} question${mistakes === 1 ? '' : 's'} to try again` : 'Nothing to review yet'}</small></button>
+    </section>
+    ${p.unreadable.length ? `<section class="pk-warn" role="note"><b>Couldn’t read clearly:</b><ul>${p.unreadable.map(u => `<li>${esc(u)}</li>`).join('')}</ul><span>Check these parts against your notes or ask your teacher. ${esc(bn())} didn’t guess them.</span></section>` : ''}
+    <section id="pkSheet"><div class="pk-head"><h3>Revision sheet</h3><span class="pk-tools"><button class="btn" data-pk="cards" ${p.cards.length ? '' : 'disabled'}>Flashcards</button><button class="btn" data-pk="print">Print</button></span></div>
+      <p class="pk-legend"><span class="pk-src">From your notes</span><span class="pk-extra-tag">Added by ${esc(bn())}</span> Tap any text to edit it.</p>
+      ${p.units.map((u, i) => `<article class="pk-unit"><div class="pk-uh"><span class="pk-num">${i + 1}</span>${pe(`units.${i}.title`, u.title, 'h4')}${u.pages ? `<span class="pk-page">p. ${esc(u.pages)}</span>` : ''}<button class="btn pk-learn" data-pk="unit" data-i="${i}">Learn this</button></div>
+        ${pe(`units.${i}.summary`, u.summary)}
+        ${u.terms.length ? `<div class="pk-block"><h4>Key terms</h4><dl>${u.terms.map((t, j) => `<div><dt>${pe(`units.${i}.terms.${j}.term`, t.term, 'span')}${t.page ? ` <small>p. ${esc(t.page)}</small>` : ''}</dt><dd>${pe(`units.${i}.terms.${j}.meaning`, t.meaning, 'span')}</dd></div>`).join('')}</dl></div>` : ''}
+        ${list(u.formulas, `units.${i}.formulas`, 'Formulas', 'pk-formula')}${list(u.examples, `units.${i}.examples`, 'Worked examples')}${list(u.mistakes, `units.${i}.mistakes`, 'Common mistakes')}${list(u.memory, `units.${i}.memory`, 'Memory tricks')}
+        ${u.extra.length ? `<div class="pk-block pk-extra"><h4>Added by ${esc(bn())} <small>(not in your notes)</small></h4><ul>${u.extra.map((t, j) => `<li>${pe(`units.${i}.extra.${j}`, t, 'span')}</li>`).join('')}</ul></div>` : ''}
+      </article>`).join('')}
+      ${p.longAnswer.length ? `<article class="pk-unit"><h4>Long-answer practice</h4>${p.longAnswer.map((l, i) => `<div class="pk-long">${pe(`longAnswer.${i}.q`, l.q, 'p', 'pk-lq')}<details><summary>Points for full marks</summary><ul>${l.points.map((t, j) => `<li>${pe(`longAnswer.${i}.points.${j}`, t, 'span')}</li>`).join('')}</ul></details></div>`).join('')}</article>` : ''}
+      ${qs.length ? `<article class="pk-unit pk-key"><details><summary>Answer key for the chapter quiz (${qs.length} questions)</summary><ol>${qs.map(q => `<li><p>${esc(q.q)}${q.page ? ` <small>p. ${esc(q.page)}</small>` : ''}</p><p><b>${esc(SparkQuiz.answerText(q))}</b> · ${esc(q.why)}</p></li>`).join('')}</ol></details></article>` : ''}
+    </section>
+    <p class="pv-note">${lockSvg} Made from your upload and saved only on this device. <button class="linkish" id="remakePack">Make it again</button></p>
+  </div></div>`;
+}
+/* The study modes all run in the chat, on the same quiz engine. */
+function packAct(act, i) {
+  const n = nb(), p = n.pack; if (!p) return;
+  const toChat = () => { S.tab = 'chat'; save(); renderMain(); };
+  if (act === 'print') { document.querySelectorAll('.pack details').forEach(d => { d.open = true; }); return window.print(); } // answer keys print open
+  if (act === 'revise') return $('#pkSheet').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  if (act === 'cards') { n.messages.push({ id: uid(), role: 'model', ts: Date.now(), kind: 'cards', topic: p.title, cards: p.cards, at: 0, flipped: false, known: [] }); save(); return toChat(); }
+  if (act === 'learn' || act === 'unit') {
+    const k = act === 'unit' ? +i : Math.min(p.units.length - 1, n.packUnit || 0), u = p.units[k];
+    n.packUnit = k + 1; toChat();
+    return send(`Teach me part ${k + 1} of my notes: "${u.title}"${u.pages ? ` (page ${u.pages})` : ''}. Stay faithful to my notes.`);
+  }
+  if (act === 'practise' || act === 'test') {
+    toChat();
+    return makeCheck(n, null, { quiz: { topic: p.title, questions: p.quiz.questions }, mode: act === 'test' ? 'test' : 'practice', title: p.title, say: act === 'test' ? 'Mock test time! 📝 Answer every question, then I’ll mark them all at the end.' : 'Let’s practise this chapter! 🎯' });
+  }
+  if (act === 'review') { toChat(); return reviewQuiz(); }
+}
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-pk]'); if (b && !b.disabled) return packAct(b.dataset.pk, b.dataset.i);
+  if (e.target.closest('#remakePack') && !PACK_BUSY) { const n = nb(); if (confirm('Make the study pack again from your notes? Your edits will be replaced.')) { n.pack = null; save(); makePack(n); } }
+});
+document.addEventListener('focusout', e => {
+  const el = e.target.closest && e.target.closest('[data-pe]'); if (!el) return;
+  const n = nb(); if (!n || !n.pack) return;
+  const path = el.dataset.pe.split('.'), last = path.pop();
+  let o = n.pack; for (const k of path) { o = o && o[k]; } if (!o || typeof o[last] !== 'string') return;
+  const v = el.textContent.replace(/\s+/g, ' ').trim().slice(0, 1200);
+  if (v && v !== o[last]) { o[last] = v; n.pack.edited = Date.now(); save(); }
+  else if (!v) el.textContent = o[last];
+});
 
 /* ---------- progress ---------- */
 function renderProgress() {

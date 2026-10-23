@@ -315,3 +315,96 @@ test('a missing answer is recovered only from an unambiguous "wrong" list, and m
 test('numeric options that are equal in value (1/2 and 2/4) make a question ambiguous, so it is dropped', () => {
   assert.equal(Q.cleanQuestion({ level: 1, format: 'mcq', q: 'What is 4 ÷ 8?', options: ['1/2', '2/4', '1/4', '2'], answer: '1/2', math: '4/8', hint: 'h', why: 'w' }, 'math'), null);
 });
+test('the study-pack schema stays within provider limits (no nested easier question) but keeps key fields required', () => {
+  const qi = Q.PACK_SCHEMA.properties.quiz.properties.questions.items;
+  assert.equal(qi.properties.simpler, undefined);
+  assert.ok(qi.required.includes('answer'));
+  assert.ok(Q.PACK_SCHEMA.properties.units.items.required.includes('mistakes'));
+  assert.ok(Q.schemaFor('mcq', 3).properties.questions.items.properties.simpler, 'quiz cards keep their easier follow-up');
+});
+
+/* ---------- 13. the parent report reflects saved activity only ---------- */
+const H = 36e5, NOW = Date.UTC(2026, 9, 23, 12);
+const book = (title, log, msgs = [], extra = {}) => Object.assign({ title, messages: msgs, quizLog: log, quizzes: [], concepts: {} }, extra);
+const row = (h, topic, correct, firstTry, more = {}) => Object.assign({ ts: NOW - h * H, topic, correct, firstTry, hints: 0, revealed: false, mode: 'learn' }, more);
+test('parent report: nothing saved → zeros, no trend, nothing invented', () => {
+  const r = Q.report([book('Empty', [])], NOW);
+  assert.deepEqual([r.thisWeek.sessions, r.thisWeek.quizQs, r.thisWeek.days], [0, 0, 0]);
+  assert.equal(r.trend, null); assert.deepEqual(r.practise, []); assert.deepEqual(r.strong, []);
+});
+test('parent report: sessions, days, first-try rate and topics come from the saved rows', () => {
+  const msgs = [{ role: 'user', ts: NOW - 2 * H, text: 'Explain fractions' }, { role: 'user', ts: NOW - 1.9 * H, text: 'next' }, { role: 'user', ts: NOW - 30 * H, text: 'what is a noun' }, { role: 'user', ts: NOW - 30 * H, text: 'quiz me on nouns' }];
+  const log = [row(1.85, 'Fractions', true, true), row(1.8, 'Fractions', true, true), row(1.75, 'Fractions', true, true), row(1.7, 'Fractions', true, true), row(1.6, 'Fractions', true, false, { hints: 1 }), row(29.5, 'Nouns', false, false, { revealed: true })];
+  const r = Q.report([book('Maths', log, msgs)], NOW);
+  assert.equal(r.thisWeek.sessions, 2, 'two bursts of activity a day apart');
+  assert.equal(r.thisWeek.days, 2);
+  assert.equal(r.thisWeek.asked, 3, '"quiz me" requests are not counted as questions asked');
+  assert.deepEqual([r.thisWeek.quizQs, r.thisWeek.right, r.thisWeek.firstTry], [6, 5, 4]);
+  assert.equal(Q.report([book('Maths', log.slice(2), msgs)], NOW).strong.length, 0, '2 of 3 first time is not yet "going well"');
+  assert.deepEqual(r.practise.map(t => t.topic), ['Nouns']);
+  assert.deepEqual(r.strong.map(t => t.topic), ['Fractions']);
+});
+test('parent report: a trend needs enough answered questions in both weeks', () => {
+  const few = [...Array(6)].map((_, i) => row(10 + i, 'A', true, true)).concat([row(24 * 8, 'A', true, false)]);
+  assert.equal(Q.report([book('B', few)], NOW).trend, null);
+  const both = [...Array(6)].map((_, i) => row(10 + i, 'A', true, i < 4)).concat([...Array(5)].map((_, i) => row(24 * 8 + i, 'A', true, i < 2)));
+  assert.deepEqual(Q.report([book('B', both)], NOW).trend, { now: 67, before: 40 });
+});
+test('parent report: chapters show their real mock-test result', () => {
+  const n = book('Science', [row(3, 'Water', true, true, { mode: 'practice' })], [], { pack: { title: 'The Water Cycle', units: [{}, {}, {}] }, quizzes: [{ mode: 'test', topic: 'The Water Cycle', score: 6, total: 8, ts: NOW - H }], mistakes: [{}, {}] });
+  const c = Q.report([n], NOW).chapters[0];
+  assert.deepEqual([c.title, c.units, c.practised, c.test.score, c.test.total, c.mistakes], ['The Water Cycle', 3, 1, 6, 8, 2]);
+});
+
+/* ---------- 12. teacher assessments are reviewed and approved before they can be shared ---------- */
+const teacherItem = () => ({ id: 'abc123', title: 'Equations test', by: 'Ms Rao', status: 'draft', mode: 'test', subject: 'math', questions: mathsQuiz().questions });
+test('a draft cannot be shared; approving re-checks every question; any edit returns it to draft', () => {
+  const item = teacherItem();
+  assert.equal(Q.encodeAssignment(item), null, 'drafts never become links');
+  assert.equal(Q.approve(item, 'math').ok, true);
+  assert.equal(item.status, 'approved');
+  assert.match(Q.encodeAssignment(item), /^A1\./);
+  Q.edited(item);
+  assert.equal(item.status, 'draft');
+  assert.equal(Q.encodeAssignment(item), null);
+});
+test('approval catches a wrong key the teacher chose and broken questions', () => {
+  const item = teacherItem();
+  const mcq = item.questions.find(q => /3\/4/.test(q.q));
+  mcq.answer = mcq.options.indexOf('6'); // the teacher picks 6 for 3/4 of 12
+  item.questions.push({ format: 'mcq', q: 'Broken', options: ['a', 'a'], answer: 0, hint: 'h', why: 'w', level: 1 });
+  const r = Q.approve(item, 'math');
+  assert.equal(r.ok, false); assert.equal(item.status, 'draft');
+  assert.match(r.problems[0].msg, /“9”/);
+  assert.equal(r.problems.length, 2);
+});
+test('assignment links round-trip and reject tampering', () => {
+  const item = teacherItem(); Q.approve(item, 'math');
+  const a = Q.decodeAssignment(Q.encodeAssignment(item));
+  assert.equal(a.title, 'Equations test'); assert.equal(a.by, 'Ms Rao'); assert.equal(a.quiz.questions.length, 3);
+  assert.equal(a.quiz.questions.find(q => q.format === 'number').key, '8');
+  for (const bad of ['', 'A1.%%%', 'A1.' + Buffer.from('{"id":"x"}').toString('base64url'), 'R1.abcdefghijk', 'A1.' + Buffer.from(JSON.stringify({ id: 'abc123', t: 'x', q: [{ format: 'mcq', q: '<script>', options: ['a'], answer: 'a' }] })).toString('base64url')]) assert.equal(Q.decodeAssignment(bad), null, bad);
+});
+test('results codes carry only the answers, are validated, and the class view never ranks students', () => {
+  const item = teacherItem(); Q.approve(item, 'math');
+  const a = Q.decodeAssignment(Q.encodeAssignment(item));
+  const take = (name, picks) => { const st = Q.start(a.quiz, { mode: 'test' }); picks.forEach((p, k) => { Q.submit(st, p(Q.current(st).q)); if (k < picks.length - 1) Q.next(st); }); Q.finishTest(st); return Q.resultCode(a, name, st); };
+  const right = q => (q.format === 'number' ? '8' : q.answer), wrong = q => (q.format === 'number' ? '5' : (q.answer + 1) % q.options.length);
+  const codes = [take('Zoya', [right, right, right]), take('Aarav', [wrong, wrong, right]), take('Meera', [right, wrong, right])];
+  const results = codes.map(c => Q.readResult(c, item));
+  assert.deepEqual(results.map(r => r.score), [3, 1, 2]);
+  const an = Q.analyse(item, results);
+  assert.deepEqual(an.students.map(s => s.student), ['Aarav', 'Meera', 'Zoya'], 'alphabetical, not by score');
+  assert.equal(an.completed, 3);
+  const q2 = an.questions[1];
+  assert.equal(q2.right, 1); assert.ok(q2.common && q2.common.count === 2);
+  assert.ok(an.tricky.length >= 1);
+  assert.equal(Q.readResult(codes[0], Object.assign({}, item, { id: 'other1' })), null, 'a code for another assignment is refused');
+  assert.equal(Q.readResult('R1.' + Buffer.from(JSON.stringify({ a: 'abc123', n: 'X', r: [[99, 1, 0, 1]] })).toString('base64url'), item), null);
+  assert.match(Q.followUpPrompt(item, an, 'support'), /EASIER/);
+});
+test('lesson plans are validated', () => {
+  assert.equal(Q.validateLesson({ title: 'x', steps: [] }), null);
+  const l = Q.validateLesson({ title: 'Fractions', objectives: ['Students will be able to name fractions'], steps: [{ minutes: 500, title: 'Starter', detail: 'Pizza.' }], check: [], homework: '', support: '', stretch: '' });
+  assert.equal(l.steps[0].minutes, 90);
+});
