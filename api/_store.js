@@ -5,8 +5,10 @@
 // store() returns null and the parent features say they aren't set up, rather than pretending to be secure.
 // The file name starts with "_" so Vercel doesn't publish it as its own endpoint.
 
-const URL_ = process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL;
-const TOKEN = process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN;
+// The integration can add a custom prefix (e.g. STORAGE_KV_REST_API_URL), so any prefix is accepted.
+const envEnding = (...ends) => { for (const e of ends) { if (process.env[e]) return process.env[e]; const k = Object.keys(process.env).find(n => n.endsWith('_' + e) && process.env[n]); if (k) return process.env[k]; } return ''; };
+const URL_ = envEnding('KV_REST_API_URL', 'UPSTASH_REDIS_REST_URL');
+const TOKEN = envEnding('KV_REST_API_TOKEN', 'UPSTASH_REDIS_REST_TOKEN');
 
 /* Upstash: each command is a JSON array; a pipeline is an array of them. */
 function upstash(url, token) {
