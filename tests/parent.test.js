@@ -287,3 +287,27 @@ test('deleting Parent View needs the PIN and removes the parent-side records', a
   const st = await call({ op: 'status' }, { device: a.device });
   assert.equal(st.out.linked, false);
 });
+
+/* ---------- the whole gateway, with the AI faked ---------- */
+test('gateway: a safety moment is flagged to the app (no quiz after it), logged for the parent, and answered with care', async () => {
+  fresh();
+  const a = await newFamily();
+  const realFetch = global.fetch, sent = [];
+  process.env.GEMINI_API_KEY = 'test-key-not-real';
+  global.fetch = async (url, opts) => { sent.push(JSON.parse(opts.body)); return new Response('data: {"candidates":[{"content":{"parts":[{"text":"I am here for you."}]}}]}\r\n\r\n', { status: 200, headers: { 'content-type': 'text/event-stream' } }); };
+  const run = async text => {
+    const res = { code: 200, headers: {}, chunks: [], status(c) { this.code = c; return this; }, json(o) { this.out = o; return this; }, setHeader(k, v) { this.headers[k.toLowerCase()] = v; }, write(c) { this.chunks.push(c); return true; }, end() { this.done = true; }, on() {}, once() {}, emit() {}, writableEnded: false };
+    const req = { method: 'POST', headers: { host: HOST, origin: `https://${HOST}`, 'x-forwarded-for': '9.9.9.9', 'x-spark-device': a.device }, body: { model: 'gemini-flash-latest', stream: true, body: chatBody(text) }, socket: {} };
+    await gateway(req, res); await new Promise(r => setTimeout(r, 50));
+    return res;
+  };
+  try {
+    const sad = await run('Everyone hates me at school');
+    assert.equal(sad.headers['x-spark-safety'], 'bullying');
+    assert.match(sent[0].systemInstruction.parts.at(-1).text, /not their fault/);
+    const fine = await run('What is photosynthesis?');
+    assert.equal(fine.headers['x-spark-safety'], undefined);
+    const log = await call({ op: 'safety' }, { device: a.device, cookie: a.cookie });
+    assert.deepEqual(log.out.events.map(e => e.category), ['bullying']);
+  } finally { global.fetch = realFetch; delete process.env.GEMINI_API_KEY; }
+});

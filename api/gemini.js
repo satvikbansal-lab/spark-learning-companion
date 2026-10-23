@@ -162,6 +162,8 @@ module.exports = async (req, res) => {
   const [body, status, err] = applyControls(model, cleaned, fam, hits);
   if (!body) return res.status(status).json({ error: err });
   logSafety(fam, hits);
+  // Tells the app this was a safety moment (the category only), so it doesn't follow a caring reply with a quiz.
+  if (hits.some(h => h.kind !== 'privacy')) res.setHeader('x-spark-safety', hits[0].category);
 
   const ctl0 = new AbortController();
   if (orKey) { res.on('close', () => { if (!res.writableEnded) ctl0.abort(); }); return openrouter.forward(res, { model, stream, body, key: orKey, signal: ctl0.signal }); }

@@ -12,7 +12,9 @@ An AI learning companion for students aged 6–15 (Class 1–10), built for the 
 - **Visual learning cards:** after each answer, Sparky opens a small interactive visual when it helps: labelled objects you can tap (a TV, a bicycle, the heart, a plant), a balance scale that solves equations step by step, fraction pizzas, a 100-square percentage grid, number lines, a circuit with a working switch, the planets in order (not to scale), step-by-step processes, side-by-side comparisons, timelines, profit and loss bars and an adjustable triangle. The model only describes the visual; `spark-visuals.js` validates it and draws it, and maths visuals are rebuilt from the question with the exact checker.
 - **Real pictures for every question:** 3-4 free, openly licensed photos from Wikipedia/Wikimedia Commons under each answer (tap for a bigger view with the photographer's credit and licence). Only article titles or the question's key words are sent to Wikipedia, never the whole message; private My Thoughts pages never fetch pictures. No key and no cost.
 - **A room that fits the subject:** a faint maths, science, history, geography, language, writing or coding pattern sits behind the chat, decided from your own questions and steady across a conversation.
-- **Parent view:** study sessions, days active, quiz questions and right-first-time rate this week, all from saved activity; a trend only when two weeks have enough answers to compare; recorded results kept apart from Sparky's estimates; exam prep per chapter; a weekly goal with a calendar reminder; and privacy controls.
+- **Learn, My Study Space, My Progress:** the home screen is a launchpad (continue learning, learn from my notes, learn something new, practise for my exam) with recent topics, revision suggestions, recent quizzes and a streak, shown only when there is real data behind them.
+- **Parent View, protected on the server:** a parent sets a 6–8 digit parent PIN (hashed with scrypt on the server, never stored in the browser; escalating lockouts after wrong tries; a one-time recovery code; a reset without it waits 24 hours and stays in the history). Unlocking gives an HttpOnly session cookie (15 minutes idle, 2 hours at most); closing, reloading or 5 minutes without use locks it. Seven sections: Overview, Daily report, Weekly report, Learning insights, Content & safety, Ask Spark, Settings & privacy. Reports are built only from recorded activity (topics, lessons, quiz answers, hints); Spark’s AI summary is labelled as a learning aid, checked so it can’t invent topics or label the child, cached until the facts change, and replaced by a facts-only summary if the AI fails.
+- **Content & safety controls, enforced by the server:** homework help (guide / hints first / direct), extra care on sensitive topics, class, explanation style, language, web lookups, voice, uploads and fun extras. Core child-safety rules can’t be switched off. A safety check on each message adds a caring response where needed (with India helplines Tele-MANAS 14416 and Childline 1098) and logs only the category, time and what Spark did, never the message.
 - Seven themes (Light, Warm light, Sunshine, Ocean, Forest, Ambient, Dark), switched with the bulb or in Settings. One more tap after Dark starts a 30-second disco: DJ Sparky moonwalks in and DJs to his own beat (made by the browser, no music files; "🔊 Music on" turns it off), then a crew of seven coloured Sparkys runs in and dances cute routines on the beat while the lights blink (never faster than twice a second) and lasers sweep. The crew runs off, DJ Sparky waves goodbye and the room goes back to Light. Tap Sparky, the bulb, "Stop the party" or Esc to end it early.
 
 ## How a question is answered
@@ -32,6 +34,12 @@ SPARK_ENV_FILE=../openrouter/.env.local node scripts/dev.mjs   # or read the key
 
 Without a server key you can also run `python3 -m http.server 5173` and paste a Gemini API key in Settings (it stays in that browser).
 
+## Parent View storage
+
+Parent View needs a small database: in Vercel, **Storage → Create Database → Upstash for Redis**, connected to this project (it adds `KV_REST_API_URL` and `KV_REST_API_TOKEN`). Optional: `SPARK_PIN_PEPPER`, a long random secret mixed into PIN hashes. Without the database, Parent View says it isn’t set up; it never falls back to a browser-only lock. Locally, `scripts/dev.mjs` uses an in-memory store that forgets everything when it stops.
+
+Limits, stated plainly: there are no accounts, so whoever sets the PIN first controls Parent View; activity is recorded by the app on the child’s device; the controls apply to everything done in Spark but can’t stop a child using another website.
+
 ## Deploy on Vercel
 
 1. Import this repository in Vercel. No build settings are needed.
@@ -48,7 +56,7 @@ Google Search grounding depends on your Gemini plan. On the free plan it is usua
 ## Tests
 
 ```bash
-node --test tests/              # offline: 111 tests (maths checker, routing, prompts, rendering, visuals, quiz engine, study packs, parent report, teacher review, OpenRouter, gateway)
+node --test tests/              # offline: 134 tests (maths checker, routing, prompts, rendering, visuals, quiz engine, study packs, teacher review, Parent View security, controls, safety, reports, OpenRouter, gateway)
 python3 tests/verify_expected.py    # recomputes every benchmark answer with Python/sympy
 SPARK_URL=http://localhost:5174 MODELS=gemini-flash-latest LABEL=mine node tests/maths-eval.mjs   # 152-case maths benchmark + 8 tutoring scenarios, live
 node tests/maths-report.mjs mine [other-label]   # summary and comparison
