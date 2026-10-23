@@ -143,8 +143,8 @@ module.exports = async (req, res) => {
   res.setHeader('Cache-Control', 'no-store');
 
   // The app reads which tools this connection has, so it never promises a calculator or web search that won't run.
-  if (req.method === 'GET') return res.status(200).json(key ? { configured: true, provider: 'gemini', tools: { code: true, search: true }, tts: true, parent: !!store() }
-    : orKey ? { configured: true, provider: 'openrouter', model: openrouter.MAIN, tools: { code: false, search: false }, tts: true, voice: openrouter.TTS, parent: !!store() } : { configured: false, parent: !!store() });
+  if (req.method === 'GET') return res.status(200).json(key ? { configured: true, provider: 'gemini', tools: { code: true, search: true }, tts: true, parent: !!store(), parentStore: store() ? store().kind : 'none' }
+    : orKey ? { configured: true, provider: 'openrouter', model: openrouter.MAIN, tools: { code: false, search: false }, tts: true, voice: openrouter.TTS, parent: !!store(), parentStore: store() ? store().kind : 'none' } : { configured: false, parent: !!store(), parentStore: store() ? store().kind : 'none' });
   if (req.method !== 'POST') return res.status(405).json({ error: { message: 'Use POST.' } });
 
   // Only this site's own pages may use the key (requests without an Origin or Referer are refused too).

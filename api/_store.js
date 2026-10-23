@@ -1,6 +1,7 @@
 // Server-side storage for parent-only data (parent PIN hashes, sessions, content controls, learning activity,
 // reports, safety events). Upstash Redis over its REST API: Vercel's Upstash integration sets KV_REST_API_URL and
-// KV_REST_API_TOKEN (older setups: UPSTASH_REDIS_REST_URL and UPSTASH_REDIS_REST_TOKEN).
+// KV_REST_API_TOKEN (older setups: UPSTASH_REDIS_REST_URL and UPSTASH_REDIS_REST_TOKEN), or a plain REDIS_URL
+// (see api/_redis.js).
 // Without those, an in-memory store is used ONLY when SPARK_DEV_MEMORY=1 (local dev and tests); in production
 // store() returns null and the parent features say they aren't set up, rather than pretending to be secure.
 // The file name starts with "_" so Vercel doesn't publish it as its own endpoint.
@@ -9,6 +10,8 @@
 const envEnding = (...ends) => { for (const e of ends) { if (process.env[e]) return process.env[e]; const k = Object.keys(process.env).find(n => n.endsWith('_' + e) && process.env[n]); if (k) return process.env[k]; } return ''; };
 const URL_ = envEnding('KV_REST_API_URL', 'UPSTASH_REDIS_REST_URL');
 const TOKEN = envEnding('KV_REST_API_TOKEN', 'UPSTASH_REDIS_REST_TOKEN');
+// Or a single connection string (redis:// or rediss://), which some Redis integrations add instead.
+const REDIS_URL = envEnding('REDIS_URL', 'KV_URL');
 
 /* Upstash: each command is a JSON array; a pipeline is an array of them. */
 function upstash(url, token) {
@@ -65,6 +68,7 @@ let shared = null;
 function store() {
   if (shared) return shared;
   if (URL_ && TOKEN) return (shared = upstash(URL_, TOKEN));
+  if (/^rediss?:\/\//.test(REDIS_URL)) return (shared = require('./_redis.js').client(REDIS_URL));
   if (process.env.SPARK_DEV_MEMORY === '1') return (shared = memory());
   return null;
 }
