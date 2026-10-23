@@ -819,6 +819,66 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
 .vz-loading { max-width: 92%; display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--muted); }
 .vz-sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 @media (max-width: 560px) { .vz { width: 100%; padding: 12px; } .vz-labelled, .vz-compare { grid-template-columns: 1fr; } .vz-vs { justify-self: center; } .vz-barrow { grid-template-columns: 1fr auto; } .vz-barbox { grid-column: 1 / -1; grid-row: 2; } .vz-pans { font-size: 14px; margin-top: -40px; } }
+/* quiz cards (quick checks): pop in, four big choices, a party-popper for right answers. Wrong answers are soft
+   (never red), and with reduced motion nothing moves (the global rule at the end turns animations off). */
+.quizmsg .ck { width: 100%; max-width: 560px; background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 16px; display: grid; gap: 12px; box-shadow: var(--shadow); }
+.quizmsg .ck.fresh { animation: ckIn .45s cubic-bezier(.2,1.4,.4,1) both; }
+.ck-face { position: relative; display: flex; align-items: center; gap: 12px; padding: 10px 12px; border-radius: 16px; background: var(--accent-soft); }
+.ck-buddy { width: 56px; height: auto; flex: none; transition: transform .3s; }
+.ck-buddy.happy { transform: rotate(-6deg) scale(1.04); } .ck-buddy.think { transform: rotate(5deg); }
+.ck-buddy.pop { animation: ckHop .32s ease-in-out 4 alternate; }
+.ck-say { margin: 0; font-family: var(--display); font-weight: 600; font-size: 16px; line-height: 1.35; }
+.ck-q { margin: 0; font-size: 17px; font-weight: 600; line-height: 1.4; }
+.ck-how { margin: -6px 0 0; font-size: 12.5px; color: var(--muted); }
+.ck-easier, .ck-page { display: inline-block; margin-right: 8px; padding: 2px 8px; border-radius: 999px; font-size: 12px; font-weight: 600; vertical-align: 2px; background: var(--soft); color: var(--accent-text); }
+.ck-opts .qz-opt { font-size: 15.5px; min-height: 52px; padding: 12px 14px; }
+.ck.fresh .ck-opts .qz-opt { animation: ckIn .4s cubic-bezier(.2,1.4,.4,1) both; }
+.ck-opts .qz-opt:nth-child(1) { animation-delay: .08s; } .ck-opts .qz-opt:nth-child(2) { animation-delay: .16s; } .ck-opts .qz-opt:nth-child(3) { animation-delay: .24s; } .ck-opts .qz-opt:nth-child(4) { animation-delay: .32s; }
+.ck-opts .qz-opt:not(:disabled):active { transform: scale(.97); }
+.ck-opts .qz-opt.right.won { animation: ckPop .45s ease both; }
+.ck-fb.pop { animation: ckIn .35s ease both; }
+.qz-opt.tried { opacity: .55; text-decoration: line-through; text-decoration-color: var(--muted); }
+.qz-opt.chosen { border-color: var(--accent); background: var(--accent-soft); }
+.ck-fb:empty { display: none; }
+.ck-fb { padding: 10px 12px; border-radius: 14px; background: var(--soft); font-size: 14.5px; line-height: 1.45; }
+.ck-fb p { margin: 0; } .ck-fb p + p { margin-top: 6px; }
+.ck-fb.good { background: color-mix(in srgb, var(--good) 13%, var(--panel)); border-left: 4px solid var(--good); }
+.ck-fb.help { background: var(--accent-soft); border-left: 4px solid var(--accent); }
+.ck-fb.info { border-left: 4px solid var(--line); }
+.ck-ans b { color: var(--accent-text); }
+.ck-acts { display: flex; flex-wrap: wrap; gap: 8px; }
+.ck-acts .btn { min-height: 40px; }
+.btn.ghost { background: none; border-color: transparent; color: var(--muted); }
+.ck-wait { display: flex; align-items: center; gap: 10px; margin: 0; color: var(--muted); font-size: 14px; }
+.ck-end { margin: 0; font-size: 15px; }
+.ck-form { display: flex; gap: 8px; align-items: flex-end; }
+.ck-form input, .ck-form textarea { flex: 1; min-width: 0; padding: 11px 12px; border-radius: 12px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); font: inherit; font-size: 15.5px; }
+.ck-form textarea { resize: vertical; }
+.ck-mic { width: 42px; height: 42px; flex: none; display: grid; place-items: center; border-radius: 12px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); }
+.ck-mic.on { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.ck-pool { display: flex; flex-wrap: wrap; gap: 8px; }
+.ck-chip { padding: 9px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); font-size: 14px; }
+.ck-chip:disabled { opacity: .4; }
+.ck-seq { margin: 10px 0; padding-left: 22px; display: grid; gap: 4px; font-size: 14.5px; } .ck-seq .ph { color: var(--muted); list-style: none; margin-left: -22px; }
+.ck-row { display: flex; gap: 8px; }
+.ck-match { display: grid; gap: 8px; } .ck-match label { display: grid; gap: 4px; font-size: 14px; }
+.ck-match select { padding: 9px 10px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); font: inherit; }
+.ck-results { margin: 0; padding-left: 20px; display: grid; gap: 10px; font-size: 14px; } .ck-results p { margin: 0; } .ck-results .ck-why { color: var(--muted); }
+.ck-results li.ok::marker { color: var(--good); }
+.ck-burst { position: absolute; left: 40px; top: 30px; width: 0; height: 0; pointer-events: none; z-index: 2; }
+.ck-burst i { position: absolute; left: 0; top: 0; width: 8px; height: 12px; border-radius: 2px; background: var(--c); opacity: 0; animation: ckConf var(--t) cubic-bezier(.15,.7,.3,1) forwards; }
+.ck-burst i:nth-child(3n) { border-radius: 50%; width: 9px; height: 9px; }
+.ck-popper { position: absolute; left: 18px; top: -46px; font-size: 32px; animation: ckPopper .9s ease both; }
+.ck-popper.still { animation: none; }
+.quiz-bar { display: flex; justify-content: flex-start; margin-bottom: 8px; }
+.quiz-chip { display: inline-flex; align-items: center; gap: 6px; padding: 7px 14px; border-radius: 999px; border: 1px solid var(--accent); background: var(--accent-soft); color: var(--accent-text); font-weight: 600; font-size: 14px; }
+.quiz-chip:hover { background: var(--accent); color: var(--accent-ink); }
+@keyframes ckIn { from { opacity: 0; transform: translateY(10px) scale(.92); } to { opacity: 1; transform: none; } }
+@keyframes ckPop { 0% { transform: scale(1); } 40% { transform: scale(1.07); } 100% { transform: scale(1); } }
+@keyframes ckHop { from { transform: translateY(0) rotate(-4deg); } to { transform: translateY(-10px) rotate(4deg); } }
+@keyframes ckConf { 0% { opacity: 1; transform: translate(0, 0) rotate(0) scale(.6); } 75% { opacity: 1; } 100% { opacity: 0; transform: translate(var(--x), calc(var(--y) + 26px)) rotate(var(--r)) scale(1); } }
+@keyframes ckPopper { 0% { opacity: 0; transform: scale(.3) rotate(-30deg); } 35% { opacity: 1; transform: scale(1.25) rotate(10deg); } 70% { opacity: 1; transform: scale(1) rotate(0); } 100% { opacity: 0; transform: translateY(-10px); } }
+@media (max-width: 560px) { .quizmsg .ck { padding: 12px; } .ck-q { font-size: 16px; } .ck-acts .btn { flex: 1 1 auto; } }
 /* disco mode: Sparky moonwalks in and DJs while the lights fade through every colour. Colours change smoothly
    about every 1.5 s (never strobing); with reduced motion nothing moves and the colours simply change. */
 .disco { position: fixed; inset: 0; z-index: 80; background: #07070d; overflow: hidden; color: #fff; font-family: var(--font); }
@@ -1007,6 +1067,7 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
   <div class="field"><label for="sTeach">Teaching style</label><select id="sTeach"><option value="explain">Spark Funnel: a story first, then a closer look, then the final answer</option><option value="challenge">Challenge me: I try first, Spark gives hints</option></select></div>
   <div class="field"><label for="sBuddy">Your Sparky</label><select id="sBuddy"><option value="blue">Blue Sparky: cool and curious</option><option value="pink">Pink Sparky: cheerful and kind</option></select></div>
   <div class="field"><label for="sBuddyName">Your buddy's name</label><input id="sBuddyName" maxlength="20" placeholder="Sparky"></div>
+  <label class="check"><input type="checkbox" id="sQuiz"><span><b>Quiz cards after lessons</b><br>After Sparky explains something, a short four-choice quiz checks what you understood.</span></label>
   <label class="check"><input type="checkbox" id="sAutoRead"><span><b>Read every answer aloud</b><br>Sparky walks in and reads each new answer in your study notebooks.</span></label>
   <div class="field"><label for="sTheme">Theme</label><select id="sTheme"></select><p>Or tap the bulb at the top to step through them all, ending with a disco party.</p></div>
   <div class="field"><label for="sVoice">Sparky's voice</label><select id="sVoice">
@@ -1028,6 +1089,7 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
 <script src="spark-math.js"></script>
 <script src="spark-visuals.js"></script>
 <script src="spark-ai.js"></script>
+<script src="spark-quiz.js"></script>
 
 <script>
 'use strict';
@@ -1670,6 +1732,7 @@ function funnelHTML(n) {
 }
 document.addEventListener('click', e => { const b = e.target.closest('[data-funnel-next]'); if (b && !busy) send(b.dataset.funnelNext); });
 function msgHTML(m) {
+  if (m.kind === 'check') return checkHTML(m);
   if (m.kind === 'quiz' && m.quiz) return quizHTML(m);
   if (m.kind === 'cards' && m.cards) return cardsHTML(m);
   const img = (m.image ? `<img src="${m.image.data}" alt="Photo you shared">` : '') + (m.material ? `<span class="file-chip">${docSvg}${esc(m.material.name)}</span>` : '');
@@ -1703,6 +1766,7 @@ function renderChat() {
   const rv = (n.review || []).length ? `<div class="review-row"><button class="review-chip" data-review>${buddyImg('who-img', true)}Review ${n.review.length} tricky question${n.review.length === 1 ? '' : 's'}</button></div>` : '';
   $('#view').innerHTML = `${demo}${matsHTML(n)}${rv}${ladderHTML(n)}<div class="msgs" id="msgs"><div class="msgs-in">${empty}${n.messages.map(msgHTML).join('')}</div></div>
     <div class="composer"><div class="comp-in">
+      ${n.kind !== 'thought' && quizzesOn() ? `<div class="quiz-bar"><button class="quiz-chip" id="quizMe" type="button" title="Four-choice questions on what you just learned">🎯 Quiz me</button></div>` : ''}
       <div class="attach-prev" id="attachPrev" hidden></div>
       <div class="comp-row">
         <button class="icon-btn" id="attachBtn" aria-label="Add a photo or notes" title="Add a photo, or upload notes (PDF / text)"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg></button>
@@ -1714,6 +1778,7 @@ function renderChat() {
   ta.oninput = () => { ta.style.height = 'auto'; ta.style.height = Math.min(ta.scrollHeight, 180) + 'px'; };
   ta.onkeydown = e => { if (e.key === 'Enter' && !e.shiftKey && !e.isComposing) { e.preventDefault(); send(); } };
   $('#sendBtn').onclick = send; $('#attachBtn').onclick = () => $('#fileIn').click();
+  const qz = $('#quizMe'); if (qz) qz.onclick = () => quizMe(n, '');
   const bs = $('#bannerSet'); if (bs) bs.onclick = openSettings;
   const ms = $('#mats'); if (ms) ms.onclick = e => { const b = e.target.closest('[data-rmmat]'); if (b) removeMaterial(b.dataset.rmmat); };
   $('#msgs').onclick = e => {
@@ -1792,6 +1857,8 @@ async function send(textOverride, opts = {}) {
   const text = (typeof textOverride === 'string' ? textOverride : ta ? ta.value : '').trim();
   if (!text && !pendingImg) return;
   const n = cur(); if (!n) return;
+  const qm = !pendingImg && n.kind !== 'thought' && /^\s*(?:please\s+)?(?:quiz|test)\s+me(?:\s+(?:on|about|in))?\s*(.*?)[\s.!?]*$/i.exec(text);
+  if (qm) { if (ta) ta.value = ''; return quizMe(n, qm[1]); }
   const user = { id: uid(), role: 'user', text: text || 'Here is a photo.', ts: Date.now() };
   if (pendingImg) { user.image = pendingImg; pendingImg = null; }
   if (opts.material) user.material = { id: opts.material.id, name: opts.material.name };
@@ -1841,9 +1908,15 @@ async function send(textOverride, opts = {}) {
   if (sm && n.kind !== 'thought') n.funnel = { step: Number(sm[1]) - 1 };
   save(); paint(); renderSide(); updateStrip(n);
   busy = false; const sb = $('#sendBtn'); if (sb) sb.disabled = false;
-  if (!opts.voice && n.kind !== 'thought' && reply.text && !reply.text.startsWith('\u26A0') && SparkVisuals.wanted(rt, user.text)) makeVisual(n, user, reply, rt);
+  let shown = Promise.resolve();
+  if (!opts.voice && n.kind !== 'thought' && reply.text && !reply.text.startsWith('\u26A0') && SparkVisuals.wanted(rt, user.text)) shown = makeVisual(n, user, reply, rt);
   // Every other question still gets real pictures (never for private My Thoughts pages).
-  else if (n.kind !== 'thought' && reply.text && !reply.text.startsWith('\u26A0')) addPictures(n, user, reply, rt, null).then(() => { save(); const el = $('#m-' + reply.id); if (el) el.outerHTML = msgHTML(reply); });
+  else if (n.kind !== 'thought' && reply.text && !reply.text.startsWith('\u26A0')) shown = addPictures(n, user, reply, rt, null).then(() => { save(); const el = $('#m-' + reply.id); if (el) el.outerHTML = msgHTML(reply); });
+  // A real teaching unit (the funnel's final stage, a worked solution, an explanation, a part of uploaded notes)
+  // ends with a quick check. It waits for the visual so its questions can refer to the picture.
+  if (n.kind !== 'thought' && SparkQuiz.shouldQuiz(rt, reply.text, { enabled: quizzesOn() && hasAI(), voice: !!opts.voice, material: !!(n.materials || []).length && !['attempt', 'hint', 'explain-step', 'chat'].includes(rt.kind), sinceLast: sinceLastCheck(n) })) {
+    shown.catch(() => {}).then(() => makeCheck(n, reply, { subject: rt.subject, notes: !!(n.materials || []).length }));
+  }
   if (opts.onDone) opts.onDone(reply);
   if (n.kind === 'thought') { renderSide(); return reply; }
   const tiny = !user.image && !user.material && /^(next|ok|okay|yes|no|haan|nahi|thanks|thank you|hmm+|go on|next, take me closer|next, show me the final answer)[\s.!?]*$/i.test(user.text.trim());
@@ -1867,7 +1940,8 @@ function systemPrompt(n, rt = {}) {
     personal: S.memories.filter(m => m.source === 'thoughts').map(m => m.text),
     notebook: n.title, concepts: Object.entries(n.concepts).map(([k, v]) => `${k}: ${v.status} (${v.evidence})`),
     materials: (n.materials || []).map(m => m.name), others: S.notebooks.filter(x => x.id !== n.id).map(x => x.title),
-    route: rt, code: !!(rt.tools && rt.tools.code), search: !!(rt.tools && rt.tools.search), voice: !!rt.voice
+    route: rt, code: !!(rt.tools && rt.tools.code), search: !!(rt.tools && rt.tools.search), voice: !!rt.voice,
+    quizCards: quizzesOn() && !rt.voice
   });
 }
 const ageText = () => { const l = SparkAI.levelOf(S.settings.grade); return l.age ? `aged about ${l.age} (Class ${l.klass})` : 'aged 6-15'; };
@@ -2586,6 +2660,257 @@ function finishWelcome() {
   const last = n && n.messages[n.messages.length - 1]; if (last && last.role === 'model') readAloud(last.id);
 }
 
+/* ---------- quick checks: a short quiz after each real teaching explanation ----------
+   The engine (what to ask, grading, retries, adaptivity) is spark-quiz.js. This part draws the card, saves its
+   state inside the chat message, records real results for Progress and the parent view, and celebrates. The
+   celebration is fired by the answer itself, never by drawing the card, so revisiting a chat never replays it. */
+const CHECK_INTRO = ['Your turn, explorer! Let’s see what you discovered.', 'Quick check! Show me what you found out.', 'Ready? Let’s try it out!', 'Your turn! Let’s see that brain work. 🧠'];
+const quizzesOn = () => S.settings.quizzes !== false;
+function sinceLastCheck(n) { let k = 0; for (let i = n.messages.length - 1; i >= 0; i--) { const m = n.messages[i]; if (m.kind === 'check') return k; if (m.role === 'model' && !m.kind) k++; } return 99; }
+function describeVisual(v) {
+  if (!v) return '';
+  const bits = (v.parts || v.steps || v.items || v.events || []).map(x => x && (x.name || x.title || x.label || x.when)).filter(Boolean).slice(0, 8);
+  return `a ${v.type} picture "${v.title || ''}"${bits.length ? ` showing ${bits.join(', ')}` : ''}`;
+}
+/* "Quiz me": four-choice questions on what was just learned here, or on the topic they name. */
+async function quizMe(n, topic) {
+  if (busy) return toast(`${bn()} is still answering. One moment.`);
+  if (!hasAI()) return toast('Quizzes need the Gemini connection. Add a key in Settings.');
+  const t = String(topic || '').trim().slice(0, 120);
+  const last = [...n.messages].reverse().find(m => m.role === 'model' && !m.kind && !m.pending && m.text && !m.text.startsWith('\u26A0'));
+  if (!t && !last) return toast('Ask me about something first, or type “quiz me on fractions”.');
+  const lesson = t ? `The student asked to be quizzed on: ${t}. Make the questions about that school topic at their level.${last ? `\n\nWhat they studied here recently (use it if it is the same topic):\n${lessonContext(n, last.id)}` : ''}` : lessonContext(n, last.id);
+  if (t) { n.messages.push({ id: uid(), role: 'user', text: `Quiz me on ${t}`, ts: Date.now() }); n.updated = Date.now(); }
+  const m = await makeCheck(n, null, { mode: 'practice', count: 5, lesson, subject: t ? SparkAI.route(t).subject : n.lastSubject, say: 'Quiz time! 🎯 Pick the right answer.' });
+  renderSide(); return m;
+}
+const quizModels = () => [S.settings.model || DEFAULT_MODEL, DEFAULT_MODEL, 'gemini-3.5-flash', ...LITE_MODELS];
+/* Adds a check card after message `after` (or at the end). opts: { mode, count, lesson, notes, subject, quiz, title } */
+async function makeCheck(n, after, opts = {}) {
+  if (!opts.quiz && !hasAI()) return null;
+  const m = { id: uid(), role: 'model', kind: 'check', ts: Date.now(), pending: true, from: after && after.id, say: opts.say || CHECK_INTRO[Math.floor(Math.random() * CHECK_INTRO.length)], opts: { mode: opts.mode || 'learn', count: opts.count || 3, notes: !!opts.notes, subject: opts.subject || n.lastSubject || '', lesson: opts.lesson || '' } };
+  const at = after ? n.messages.indexOf(after) : -1;
+  if (at >= 0) n.messages.splice(at + 1, 0, m); else n.messages.push(m);
+  save(); paintCheck(n, m, true);
+  return fillCheck(n, m, after, opts);
+}
+async function fillCheck(n, m, after, opts = {}) {
+  m.pending = true; m.failed = false; paintCheck(n, m);
+  try {
+    let quiz = opts.quiz || null;
+    if (!quiz) {
+      const lv = SparkAI.levelOf(S.settings.grade);
+      const formats = m.opts.mode === 'test' ? 'mixed' : 'mcq';
+      const prompt = SparkQuiz.quizPrompt({ lesson: opts.lesson || m.opts.lesson || lessonContext(n, m.from), age: ageText(), band: lv.band, subject: m.opts.subject, visual: describeVisual(after && after.visual), notes: m.opts.notes, count: m.opts.count, startLevel: 1, formats, lang: plainLangRule() });
+      const ask = extra => geminiJSON(prompt + (extra || ''), SparkQuiz.schemaFor(formats, m.opts.count), quizModels(), 4000);
+      const raw = await ask();
+      quiz = SparkQuiz.validate(raw, { subject: m.opts.subject, formats });
+      // Questions whose answers couldn't be confirmed were dropped. Too few left: ask once more and keep the good ones.
+      if (!quiz || quiz.questions.length < Math.ceil(m.opts.count / 2)) {
+        const more = await ask('\n\nSome questions could not be used (a missing or ambiguous answer, or maths without "math"). Write a fresh set and follow every rule exactly.').catch(() => null);
+        const all = [...((raw && raw.questions) || []), ...((more && more.questions) || [])];
+        quiz = SparkQuiz.validate({ topic: (raw && raw.topic) || (more && more.topic), questions: all }, { subject: m.opts.subject, formats, max: m.opts.count }) || quiz;
+      }
+    }
+    if (!quiz) throw new Error('no usable questions');
+    m.check = SparkQuiz.start(quiz, { mode: m.opts.mode });
+    m.topic = opts.title || quiz.topic; m.pending = false; m.fb = null; m.mood = '';
+  } catch (e) { console.warn('quick check failed', e); m.pending = false; m.failed = true; }
+  save(); paintCheck(n, m, true);
+  return m;
+}
+function paintCheck(n, m, scroll) {
+  if (S.mode !== 'nb' || S.tab !== 'chat' || nb() !== n) return;
+  const el = $('#m-' + m.id), box = $('#msgs'), atEnd = box && box.scrollHeight - box.scrollTop - box.clientHeight < 120;
+  if (el) el.outerHTML = checkHTML(m); else renderChat();
+  if (scroll && atEnd) scrollBottom();
+}
+const CK_FORMAT = { mcq: 'Pick one', truefalse: 'True or false?', number: 'Type a number', fill: 'Fill in the gap', order: 'Put these in order', match: 'Match each word to its meaning', short: 'Explain in your own words' };
+function checkHTML(m) {
+  // The pop-in plays once per question: when it first appears, never when an answer redraws the card.
+  const showing = m.check ? `${m.check.at}|${m.check.queue[m.check.at]}|${(SparkQuiz.current(m.check) || { it: {} }).it.simpler ? 's' : ''}|${m.check.done ? 'd' : ''}` : m.pending ? 'wait' : 'x';
+  const fresh = m.shown !== showing; m.shown = showing;
+  const newFb = !!m.fbNew; m.fbNew = false; // the feedback pops once, when the answer is given
+  const head = t => `<div class="msg model quizmsg" id="m-${m.id}"><div class="ck${fresh ? ' fresh' : ''}" data-ckid="${m.id}"><div class="p-head"><span class="p-tag">${m.opts && m.opts.mode === 'test' ? 'Mock test' : m.opts && m.opts.mode === 'practice' ? 'Practice' : 'Quick check'}</span><b>${esc(m.topic || 'Your turn')}</b>${t || ''}</div>`;
+  const face = (mood, say) => `<div class="ck-face"><img class="ck-buddy ${mood || ''}" data-buddy="decor" src="${buddy().src}" alt=""><p class="ck-say">${esc(say || '')}</p></div>`;
+  if (m.pending) return head() + face('', m.say) + `<p class="ck-wait">${esc(bn())} is making your questions<span class="typing" aria-hidden="true"><i></i><i></i><i></i></span></p></div></div>`;
+  if (m.failed || !m.check) return head() + face('', 'I couldn’t make the quick check just now.') + `<div class="ck-acts"><button class="btn pri" data-ck="retrymake">Try again</button><button class="btn" data-ck="close">Skip it</button></div></div></div>`;
+  const st = m.check;
+  if (st.mode === 'test' && st.results) return head(`<span class="p-count">${st.results.score}/${st.results.total}</span>`) + face('happy', m.say) + testResultsHTML(st) + `<div class="ck-acts"><button class="btn" data-ck="close">Done</button></div></div></div>`;
+  if (st.done) {
+    const s = SparkQuiz.summary(st);
+    return head(`<span class="p-count">${s.right}/${s.asked}</span>`) + face('happy', m.say) + `<p class="ck-end">${s.asked ? `You answered ${s.asked} question${s.asked === 1 ? '' : 's'} on ${esc(st.topic)}${s.right ? `, ${s.right} right` : ''}.` : 'Check closed.'} Ask me anything to keep exploring.</p></div></div>`;
+  }
+  const c = SparkQuiz.current(st); if (!c) return '';
+  const { q, it } = c, closed = ['correct', 'revealed', 'skipped'].includes(it.status), test = st.mode === 'test';
+  const count = test ? `${st.at + 1}/${st.queue.length}` : `Question ${st.queue.length}`;
+  let body = `<p class="ck-q">${it.simpler ? '<span class="ck-easier">An easier one first</span>' : ''}${q.page ? `<span class="ck-page">Page ${esc(q.page)}</span>` : ''}${esc(q.q)}</p><p class="ck-how">${CK_FORMAT[q.format]}</p>`;
+  const tried = it.picked || [];
+  if (q.format === 'mcq' || q.format === 'truefalse') {
+    body += `<div class="qz-opts ck-opts">${q.options.map((o, i) => {
+      const cls = closed && i === q.answer ? `right${newFb && it.status === 'correct' ? ' won' : ''}` : tried.includes(i) && !test ? 'tried' : test && it.response === i ? 'chosen' : '';
+      return `<button class="qz-opt ${cls}" data-ck="opt" data-v="${i}" ${closed || (tried.includes(i) && !test) ? 'disabled' : ''}>${esc(o)}</button>`;
+    }).join('')}</div>`;
+  } else if (q.format === 'order') {
+    const order = SparkQuiz.shuffled(q.steps.length, m.id + q.id), sel = m.sel || [];
+    body += `<div class="ck-order"><div class="ck-pool">${order.map(i => `<button class="ck-chip" data-ck="pick" data-v="${i}" ${sel.includes(i) || closed ? 'disabled' : ''}>${esc(q.steps[i])}</button>`).join('')}</div>
+      <ol class="ck-seq">${(closed ? q.steps.map((s, i) => i) : sel).map(i => `<li>${esc(q.steps[i])}</li>`).join('') || '<li class="ph">Tap the steps above in order</li>'}</ol>
+      ${closed ? '' : `<div class="ck-row"><button class="btn" data-ck="unpick" ${sel.length ? '' : 'disabled'}>Undo</button><button class="btn pri" data-ck="send-order" ${sel.length === q.steps.length ? '' : 'disabled'}>Check</button></div>`}</div>`;
+  } else if (q.format === 'match') {
+    const order = SparkQuiz.shuffled(q.pairs.length, m.id + q.id), sel = m.sel || [];
+    body += `<div class="ck-match">${q.pairs.map((p, i) => `<label><b>${esc(p.term)}</b><select data-ck-m="${i}" ${closed ? 'disabled' : ''}><option value="">Choose…</option>${order.map(j => `<option value="${j}" ${(closed ? i : sel[i]) === j ? 'selected' : ''}>${esc(q.pairs[j].meaning)}</option>`).join('')}</select></label>`).join('')}
+      ${closed ? '' : '<div class="ck-row"><button class="btn pri" data-ck="send-match">Check</button></div>'}</div>`;
+  } else {
+    const long = q.format === 'short';
+    body += closed ? '' : `<form class="ck-form" data-ck-form="${m.id}">${long ? `<textarea name="a" rows="3" placeholder="Write it in your own words" aria-label="Your answer">${esc(m.draft || '')}</textarea>` : `<input name="a" autocomplete="off" spellcheck="${q.format === 'fill'}" placeholder="${q.format === 'number' ? 'Your answer, e.g. 12 or 3/4' : 'Your answer'}" aria-label="Your answer" value="${esc(m.draft || '')}">`}
+      ${Rec ? `<button type="button" class="ck-mic" data-ck="mic" aria-label="Say your answer" title="Say your answer">${micSvg20}</button>` : ''}<button class="btn pri" ${st.lock ? 'disabled' : ''}>${st.lock ? 'Checking…' : 'Check'}</button></form>`;
+  }
+  const fb = m.fb ? `<div class="ck-fb ${m.fb.tone}${newFb ? ' pop' : ''}" role="status" aria-live="polite">${m.fb.answer ? `<p class="ck-ans">Answer: <b>${esc(m.fb.answer)}</b></p>` : ''}${m.fb.text ? `<p>${esc(m.fb.text)}</p>` : ''}</div>` : '<div class="ck-fb" role="status" aria-live="polite"></div>';
+  let acts = '';
+  if (test) acts = it.status === 'answered' ? `<button class="btn pri" data-ck="next">${st.at < st.queue.length - 1 ? 'Next question' : 'Finish test'}</button>` : '<button class="btn" data-ck="skip">Skip</button>';
+  else if (!closed) acts = `<button class="btn" data-ck="hint">💡 Hint</button><button class="btn" data-ck="reveal">Show me the answer</button><button class="btn ghost" data-ck="skip">Skip</button>`;
+  else acts = `${SparkQuiz.hasHarder(st) && it.status === 'correct' ? '<button class="btn pri" data-ck="harder">Try a trickier one</button>' : ''}${SparkQuiz.hasMore(st) ? `<button class="btn ${it.status === 'correct' && SparkQuiz.hasHarder(st) ? '' : 'pri'}" data-ck="next">${it.status === 'correct' ? 'Practise another' : 'Try a similar question'}</button>` : ''}<button class="btn ghost" data-ck="close">Back to learning</button>`;
+  return head(`<span class="p-count">${count}</span>`) + face(m.mood, m.say) + body + fb + `<div class="ck-acts">${acts}</div></div></div>`;
+}
+function testResultsHTML(st) {
+  const r = st.results;
+  return `<p class="ck-end"><b>You scored ${r.score} out of ${r.total}.</b> ${r.score === r.total ? 'Every answer right!' : 'Here’s each answer, so you can see what to practise.'}</p><ol class="ck-results">${r.rows.map(x => `<li class="${x.ok ? 'ok' : x.open ? 'open' : 'no'}"><p>${esc(x.q)}</p><p class="ck-ans">${x.ok ? '✓ Right' : x.open ? 'Not checked (no connection)' : x.answered ? 'Not quite' : 'Skipped'} · Answer: <b>${esc(x.answer)}</b></p>${x.ok ? '' : `<p class="ck-why">${esc(x.feedback || x.why)}</p>`}</li>`).join('')}</ol>`;
+}
+/* What happens after each event: Sparky's line, the feedback box, records, and (only for a fresh correct answer) the party. */
+function applyCheckEvent(n, m, ev) {
+  const st = m.check;
+  const t = ev.type;
+  if (t === 'ignored') return;
+  if (t === 'correct') {
+    m.mood = 'happy'; m.say = SparkQuiz.praise(st, ev);
+    m.fb = { tone: 'good', text: (ev.feedback ? ev.feedback + ' ' : '') + ev.q.why + (ev.typo ? ` (It’s spelled “${ev.typo}”.)` : '') };
+  } else if (t === 'retry') {
+    m.mood = 'think'; m.say = SparkQuiz.notYet(st, ev);
+    const placed = ev.right ? `${ev.right.filter(Boolean).length} of ${ev.right.length} are in the right place. ` : '';
+    m.fb = { tone: 'help', text: `${placed}${ev.feedback || ev.why || ''} Hint: ${ev.hint} Have another go!`.trim() };
+    m.sel = [];
+  } else if (t === 'simpler') {
+    m.mood = 'think'; m.say = 'That’s a tricky one, so let’s look at it together.';
+    m.fb = { tone: 'help', text: `${ev.explained.why} Now try this easier one.` }; m.sel = []; m.draft = '';
+  } else if (t === 'reveal') {
+    m.mood = 'calm'; m.say = 'Here’s how it works. Seeing it is part of learning too!';
+    m.fb = { tone: 'info', answer: ev.answer, text: ev.q.why };
+  } else if (t === 'partial' || t === 'invalid' || t === 'repeat') { m.fb = { tone: 'info', text: ev.msg }; }
+  else if (t === 'hint') { m.mood = 'think'; m.fb = { tone: 'help', text: 'Hint: ' + ev.hint }; }
+  else if (t === 'ungraded') { m.fb = { tone: 'info', text: 'I couldn’t check that just now. Tap Check to try again, or Show me the answer.' }; }
+  else if (t === 'skipped') { m.mood = ''; m.say = 'No problem. We can come back to it.'; m.fb = { tone: 'info', answer: SparkQuiz.answerText(SparkQuiz.current(st).q), text: SparkQuiz.current(st).q.why }; }
+  if (m.fb) m.fbNew = true;
+  if (['correct', 'reveal', 'skipped'].includes(t)) recordCheck(n, m);
+  save(); paintCheck(n, m);
+  if (t === 'correct' && ev.celebrate) celebrate($('#m-' + m.id));
+  if (t !== 'correct') { const f = $('#m-' + m.id + ' .ck-form [name=a]'); if (f && (t === 'retry' || t === 'simpler' || t === 'invalid' || t === 'repeat' || t === 'partial')) f.focus(); }
+}
+/* Real results only: one log row per question resolved, a running score for this check, and progress evidence. */
+function recordCheck(n, m) {
+  const s = SparkQuiz.summary(m.check); if (!s.asked) return;
+  n.quizzes = n.quizzes || []; n.quizLog = n.quizLog || [];
+  let q = n.quizzes.find(x => x.check === m.id);
+  if (!q) { q = { ts: Date.now(), topic: m.topic, score: 0, total: 0, check: m.id, mode: m.check.mode }; n.quizzes.push(q); }
+  Object.assign(q, { score: s.right, total: s.asked, firstTry: s.firstTry, updated: Date.now() });
+  const logged = n.quizLog.filter(r => r.check === m.id).length;
+  for (const r of s.rows.slice(logged)) n.quizLog.push(Object.assign({ ts: Date.now(), check: m.id, topic: m.topic, mode: m.check.mode }, r));
+  const last = s.rows[s.rows.length - 1];
+  if (last && m.check.mode !== 'test') {
+    const evidence = last.firstTry ? 'Quick check: right first try' : last.correct ? `Quick check: right after ${last.hints || last.simpler ? 'a hint' : 'a second try'}` : 'Quick check: needed the answer shown';
+    applyLearning(n, { stage: 'chat', childAttempted: true, childExplained: last.format === 'short' && last.correct, memories: [], concepts: [{ name: m.topic, status: s.firstTry === s.asked ? 'solid' : s.right ? 'learning' : 'shaky', evidence }] });
+  }
+}
+/* A small party-popper burst around Sparky. With reduced motion: a still 🎉 badge, nothing moves. */
+function celebrate(el) {
+  if (!el) return;
+  const face = el.querySelector('.ck-face'); if (!face) return;
+  const old = face.querySelector('.ck-burst'); if (old) old.remove();
+  const burst = document.createElement('div'); burst.className = 'ck-burst'; burst.setAttribute('aria-hidden', 'true');
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) { burst.innerHTML = '<span class="ck-popper still">🎉</span>'; face.appendChild(burst); setTimeout(() => burst.remove(), 1600); return; }
+  const colours = ['var(--accent)', 'var(--good)', '#FFC93C', '#5BB6FF', '#FF7AB6', '#9B7BFF'];
+  burst.innerHTML = '<span class="ck-popper">🎉</span>' + Array.from({ length: 16 }, (_, i) => {
+    const a = (i / 16) * Math.PI * 2 + Math.random() * 0.3, d = 34 + Math.random() * 34;
+    return `<i style="--x:${Math.round(Math.cos(a) * d)}px;--y:${Math.round(Math.sin(a) * d - 18)}px;--r:${Math.round(Math.random() * 360)}deg;--c:${colours[i % colours.length]};--t:${(0.75 + Math.random() * 0.35).toFixed(2)}s"></i>`;
+  }).join('');
+  face.appendChild(burst);
+  const img = face.querySelector('.ck-buddy'); if (img) { img.classList.remove('pop'); void img.offsetWidth; img.classList.add('pop'); }
+  setTimeout(() => burst.remove(), 1400);
+}
+function checkMsg(id) { const n = nb(); const m = n && n.messages.find(x => x.id === id && x.kind === 'check'); return m ? { n, m } : null; }
+async function checkAct(id, act, v) {
+  const f = checkMsg(id); if (!f) return;
+  const { n, m } = f, st = m.check;
+  if (act === 'retrymake') return fillCheck(n, m, n.messages.find(x => x.id === m.from), {});
+  if (act === 'close') { if (st) { st.done = true; recordCheck(n, m); } m.mood = 'happy'; m.say = st && SparkQuiz.summary(st).right ? 'Great learning today! 🌟' : 'Okay! Back to exploring.'; save(); return paintCheck(n, m); }
+  if (!st) return;
+  if (act === 'hint') return applyCheckEvent(n, m, SparkQuiz.hint(st).event);
+  if (act === 'reveal') return applyCheckEvent(n, m, SparkQuiz.reveal(st).event);
+  if (act === 'skip') { if (st.mode === 'test') { const c = SparkQuiz.current(st); c.it.status = 'answered'; c.it.result = 'skipped'; return checkAct(id, 'next'); } return applyCheckEvent(n, m, SparkQuiz.skip(st).event); }
+  if (act === 'next' || act === 'harder') {
+    const r = SparkQuiz.next(st, act === 'harder' ? 'harder' : undefined);
+    if (r.event.type === 'finish-test') return finishTestCheck(n, m);
+    m.fb = null; m.sel = []; m.draft = ''; m.mood = '';
+    m.say = r.event.type === 'finished' ? 'That’s all the questions on this one. Brilliant effort!' : act === 'harder' ? 'Level up! Here’s a trickier one. 🚀' : 'Here’s another one.';
+    if (r.event.type === 'finished') recordCheck(n, m);
+    save(); return paintCheck(n, m);
+  }
+  if (act === 'pick') { m.sel = (m.sel || []).concat(+v); save(); return paintCheck(n, m); }
+  if (act === 'unpick') { m.sel = (m.sel || []).slice(0, -1); save(); return paintCheck(n, m); }
+  if (act === 'mic') return checkMic(id);
+  let response = v;
+  if (act === 'opt') response = +v;
+  else if (act === 'send-order') response = (m.sel || []).slice();
+  else if (act === 'send-match') response = SparkQuiz.current(st).q.pairs.map((p, i) => { const s = document.querySelector(`#m-${id} [data-ck-m="${i}"]`); return s && s.value !== '' ? +s.value : NaN; });
+  const r = SparkQuiz.submit(st, response);
+  if (r.event.type === 'recorded') { save(); return paintCheck(n, m); }
+  if (r.event.type !== 'grade-open') return applyCheckEvent(n, m, r.event);
+  // Open answers: graded by the model against the rubric; a failed check marks nothing.
+  save(); paintCheck(n, m);
+  let verdict = null;
+  try { verdict = SparkQuiz.readVerdict(await geminiJSON(SparkQuiz.verdictPrompt(r.event.q, r.event.text, ageText()), SparkQuiz.VERDICT_SCHEMA, quizModels(), 600), r.event.q); } catch (e) { console.warn('grading failed', e); }
+  const done = SparkQuiz.settleOpen(st, verdict);
+  applyCheckEvent(n, m, done.event);
+}
+async function finishTestCheck(n, m) {
+  const st = m.check, verdicts = {};
+  m.say = 'Marking your test…'; save(); paintCheck(n, m);
+  for (const qi of st.queue) {
+    const it = st.items[qi]; if (!it || it.result !== 'open') continue;
+    try { verdicts[qi] = SparkQuiz.readVerdict(await geminiJSON(SparkQuiz.verdictPrompt(st.qs[qi], it.response, ageText()), SparkQuiz.VERDICT_SCHEMA, quizModels(), 600), st.qs[qi]); } catch (e) { /* stays "not checked" */ }
+  }
+  const r = SparkQuiz.finishTest(st, verdicts);
+  m.say = r.score === r.total ? 'Every single one right! 🎉' : `Test done! You got ${r.score} out of ${r.total}.`; m.mood = 'happy';
+  recordCheck(n, m); save(); paintCheck(n, m);
+  if (r.total && r.score / r.total >= 0.8) celebrate($('#m-' + m.id)); // one celebration for the whole test, at the end
+}
+function checkMic(id) {
+  const inp = document.querySelector(`#m-${id} .ck-form [name=a]`), btn = document.querySelector(`#m-${id} [data-ck="mic"]`); if (!inp || !Rec) return;
+  const r = new Rec(); r.lang = (LANGS[S.settings.lang] && LANGS[S.settings.lang].bcp) || 'en-IN'; r.interimResults = false; r.maxAlternatives = 1;
+  btn.classList.add('on'); r.onresult = e => { inp.value = e.results[0][0].transcript.replace(/[.?!]+$/, ''); inp.focus(); };
+  r.onend = () => btn.classList.remove('on'); r.onerror = () => { btn.classList.remove('on'); toast('I couldn’t hear that. Try again or type it.'); };
+  try { r.start(); } catch (e) { btn.classList.remove('on'); }
+}
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-ck]'); if (!b) return;
+  const card = b.closest('[data-ckid]'); if (!card || b.disabled) return;
+  e.preventDefault(); checkAct(card.dataset.ckid, b.dataset.ck, b.dataset.v);
+});
+document.addEventListener('submit', e => {
+  const f = e.target.closest('[data-ck-form]'); if (!f) return;
+  e.preventDefault(); const v = f.elements.a.value;
+  const hit = checkMsg(f.dataset.ckForm); if (hit) hit.m.draft = v;
+  checkAct(f.dataset.ckForm, 'send', v);
+});
+document.addEventListener('change', e => {
+  const s = e.target.closest('[data-ck-m]'); if (!s) return;
+  const card = s.closest('[data-ckid]'), hit = card && checkMsg(card.dataset.ckid); if (!hit) return;
+  hit.m.sel = hit.m.sel || []; hit.m.sel[+s.dataset.ckM] = s.value === '' ? undefined : +s.value; save();
+});
+document.addEventListener('keydown', e => {
+  // Enter sends a short answer; Shift+Enter makes a new line.
+  if (e.key === 'Enter' && !e.shiftKey && e.target.matches && e.target.matches('.ck-form textarea')) { e.preventDefault(); e.target.form.requestSubmit(); }
+});
+
 /* ---------- practice: quick quizzes and flip-cards after the final answer ---------- */
 const QUIZ_SCHEMA = {
   type: 'OBJECT',
@@ -2688,7 +3013,7 @@ function answerQuiz(mid, qi, oi) {
 }
 document.addEventListener('click', e => {
   const t = e.target.closest('[data-qopt],[data-flip],[data-cnav],[data-quiz],[data-cards],[data-review]'); if (!t) return;
-  if (t.dataset.quiz) return makePractice(t.dataset.quiz, 'quiz');
+  if (t.dataset.quiz) { const n = nb(), m = n.messages.find(x => x.id === t.dataset.quiz); return makeCheck(n, m, { mode: 'practice', count: 5, say: 'Quiz time! 🎯 Pick the right answer.' }); }
   if (t.dataset.cards) return makePractice(t.dataset.cards, 'cards');
   if (t.hasAttribute('data-review')) return reviewQuiz();
   if (t.dataset.qopt) { const [mid, qi, oi] = t.dataset.qopt.split('|'); return answerQuiz(mid, +qi, +oi); }
@@ -2780,7 +3105,7 @@ $('#memForm').onsubmit = e => { e.preventDefault(); const v = $('#memInput').val
 /* ---------- settings ---------- */
 function openSettings() {
   const s = S.settings; $('#sKey').value = s.apiKey; $('#sModel').value = s.model || DEFAULT_MODEL; $('#sName').value = s.name; $('#sGrade').value = s.grade;
-  $('#sBuddy').value = s.buddy || 'blue'; $('#sBuddyName').value = s.buddyName || ''; $('#sAutoRead').checked = !!s.autoRead;
+  $('#sBuddy').value = s.buddy || 'blue'; $('#sBuddyName').value = s.buddyName || ''; $('#sAutoRead').checked = !!s.autoRead; $('#sQuiz').checked = s.quizzes !== false;
   $('#sVoice').value = s.voiceName || 'Leda'; $('#sTeach').value = s.teach || 'explain';
   $('#sTheme').innerHTML = Object.entries(THEMES).map(([k, n]) => `<option value="${k}">${n}</option>`).join('') + '<option value="disco">🪩 Disco party with DJ Sparky</option>'; $('#sTheme').value = s.theme;
   $('#sLang').innerHTML = Object.entries(LANGS).map(([k, l]) => `<option value="${k}">${l.name}</option>`).join(''); $('#sLang').value = s.lang || 'auto';
@@ -2791,7 +3116,7 @@ $('#openSet').onclick = openSettings;
 $('#setForm').onsubmit = e => {
   e.preventDefault(); const s = S.settings;
   s.apiKey = $('#sKey').value.trim(); s.model = $('#sModel').value.trim() || DEFAULT_MODEL; s.name = $('#sName').value.trim(); s.grade = $('#sGrade').value.trim();
-  s.buddy = $('#sBuddy').value; s.buddyName = $('#sBuddyName').value.trim(); s.autoRead = $('#sAutoRead').checked;
+  s.buddy = $('#sBuddy').value; s.buddyName = $('#sBuddyName').value.trim(); s.autoRead = $('#sAutoRead').checked; s.quizzes = $('#sQuiz').checked;
   s.voiceName = $('#sVoice').value; s.teach = $('#sTeach').value; s.lang = $('#sLang').value;
   const pickedTheme = $('#sTheme').value; if (THEMES[pickedTheme]) s.theme = pickedTheme; else if (pickedTheme === 'disco') setTimeout(startDisco, 300);
   s.think = $('#sThink').checked; s.search = $('#sSearch').checked; s.learnThoughts = $('#sThoughts').checked;
