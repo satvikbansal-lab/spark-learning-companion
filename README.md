@@ -4,7 +4,7 @@ An AI learning companion for students aged 6–15 (Class 1–10), built for the 
 
 - **Study notebooks:** one chat for every subject. Concept questions use the Spark Funnel (a story first, then a closer look, then the exact answer). Maths problems are solved step by step with a check, and Gemini's Python tool verifies the numbers. A Progress tab tracks concepts as solid, learning or shaky, but only from the student's own answers.
 - **Learn from Notes:** upload a PDF, photo or text file and Spark teaches from it.
-- **My Thoughts:** private pages. Spark only joins a page when you switch "Talk with Spark" on.
+- **My Thoughts:** private pages. Spark only joins a page when you switch "Talk with Spark" on, and only reads pages to learn about the student if they turn "Let Spark learn from my Thoughts" on in Settings (off by default).
 - **Voice buddy:** talk to Sparky out loud. It waits for natural pauses, asks you to check anything it misheard, says what each maths step does (the equation stays on screen), and you can tap Sparky to interrupt.
 - **Quiz cards after every lesson:** when Sparky finishes teaching something (the funnel's final stage, a worked solution, an explanation, a part of uploaded notes), a four-choice quiz card checks what the student understood, one question at a time. Right answers get a small party-popper around Sparky (once; never replayed, and a still 🎉 with reduced motion) and praise that's honest about hints. Wrong answers get the likely misconception and a hint, then an easier question, then the answer; never a red screen. "🎯 Quiz me" (or typing "quiz me on fractions") starts one any time. Greetings, jokes, hints and the student's own answers never trigger one. The engine is `spark-quiz.js`: maths answer keys are recalculated exactly (a question whose key can't be confirmed is dropped), equivalent answers count (8, x = 8, 16/2, 8 cm), and every result saved is a real answer.
 - **Study packs from notes:** the Study pack tab turns an upload into units with page numbers, key terms, formulas, worked examples, common mistakes, memory tricks, long-answer practice, flashcards and a chapter quiz with an answer key. Sparky's additions are labelled, unreadable parts are listed instead of guessed, and everything is editable and printable. Modes: learn part by part, revise, practise, mock test (marked at the end) and review mistakes.
@@ -47,18 +47,20 @@ Limits, stated plainly: there are no accounts, so whoever sets the PIN first con
 1. Import this repository in Vercel. No build settings are needed.
 2. In **Settings → Environment Variables**, add one of:
    - `GEMINI_API_KEY`: your key from Google AI Studio. Gives the maths checker (code execution), Google Search and Gemini voices.
-   - `OPENROUTER_API_KEY`: reaches Google's Gemini models through OpenRouter (Google servers only). Optional `OPENROUTER_MODEL` (default `google/gemini-3.7-flash`) and `OPENROUTER_LITE_MODEL` (default `google/gemini-3.5-flash-lite`). Code execution, search and Gemini voices aren't available this way; Spark knows that, still checks answers with its own exact checker, and speaks with the browser voice.
+   - `OPENROUTER_API_KEY`: reaches Google's Gemini models through OpenRouter (Google servers only). Optional `OPENROUTER_MODEL` (default `google/gemini-3.7-flash`) and `OPENROUTER_LITE_MODEL` (default `google/gemini-3.5-flash-lite`). Code execution and search aren't available this way; Spark knows that and still checks answers with its own exact checker. Google's own safety filters aren't applied through OpenRouter either: Spark still adds its core safety rules and checks each message, but `GEMINI_API_KEY` gives the stronger protection for children, and `GET /api/gemini` reports `filters: false` on this connection.
    If both are set, `GEMINI_API_KEY` is used.
 3. Redeploy. The site then uses the server key through `/api/gemini`, and visitors don't need their own key.
 
-`/api/gemini` only forwards the request shapes Spark sends. It only allows the code-execution and Google Search tools, adds child-safe content filters, caps output length and request size, refuses requests that don't come from the site itself, and rate-limits each visitor.
+`/api/gemini` only forwards the request shapes Spark sends. It only allows the code-execution and Google Search tools and the Gemini Flash models Spark uses, adds child-safe content filters, caps output length and request size, refuses requests that don't come from the site itself or don't carry a page token (a signed token from `GET /api/gemini` that expires after 6 hours; set `SPARK_TOKEN_SECRET` to choose its secret, otherwise one is derived from the API key), and rate-limits each visitor. Without accounts these checks raise the bar but can't stop a determined script that copies what the page does; Google's quota is the final limit.
+
+A Gemini key pasted in Settings is used straight from the browser. Spark then adds the same child-safe filters, core safety rules and safety check itself.
 
 Google Search grounding depends on your Gemini plan. On the free plan it is usually refused; Spark then answers without it and says the information may be out of date.
 
 ## Tests
 
 ```bash
-node --test tests/              # offline: 139 tests (maths checker, routing, prompts, rendering, visuals, quiz engine, study packs, teacher review, Parent View security, controls, safety, reports, OpenRouter, gateway)
+node --test tests/              # offline: 145 tests (maths checker, routing, prompts, rendering, visuals, quiz engine, study packs, teacher review, Parent View security, controls, safety, reports, OpenRouter, gateway)
 python3 tests/verify_expected.py    # recomputes every benchmark answer with Python/sympy
 SPARK_URL=http://localhost:5174 MODELS=gemini-flash-latest LABEL=mine node tests/maths-eval.mjs   # 152-case maths benchmark + 8 tutoring scenarios, live
 node tests/maths-report.mjs mine [other-label]   # summary and comparison
@@ -68,4 +70,4 @@ GEMINI_API_KEY=... node tests/live-eval.mjs   # live, straight to Google instead
 
 Live results are saved in `tests/results/`.
 
-Notebooks, pages and memories are saved in each visitor's browser. "What Spark remembers" shows every saved note about the student, and each one can be deleted.
+Notebooks, pages and memories are saved in each visitor's browser (localStorage, with a fuller copy in IndexedDB so a full localStorage doesn't lose work). "What Spark remembers" shows every saved note about the student, and each one can be deleted.

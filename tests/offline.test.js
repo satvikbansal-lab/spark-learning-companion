@@ -190,6 +190,37 @@ test('regression: requests without an Origin or Referer can no longer use the ke
   await gateway({ method: 'POST', headers: { host: 'spark.example', origin: 'https://evil.example' }, body: { model: 'gemini-3.5-flash', stream: false, body: ok }, socket: {} }, res2);
   assert.equal(res2.code, 403);
 });
+test('gateway: POSTs need a fresh page token signed by this server', async () => {
+  process.env.GEMINI_API_KEY = 'test-key';
+  const t = gateway.issueToken();
+  assert.equal(gateway.tokenOk(t), true);
+  assert.equal(gateway.tokenOk(t.slice(0, -2) + (t.endsWith('AA') ? 'BB' : 'AA')), false); // forged signature
+  assert.equal(gateway.tokenOk(gateway.issueToken(Date.now() - 7 * 3600 * 1000)), false); // expired
+  assert.equal(gateway.tokenOk('v1.9999999999999.' + 'A'.repeat(43)), false); // far-future expiry
+  assert.equal(gateway.tokenOk(undefined), false);
+  const get = fakeRes();
+  await gateway({ method: 'GET', headers: {} }, get);
+  assert.equal(gateway.tokenOk(get.body.token), true);
+  assert.equal(get.body.filters, true);
+  for (const h of [{}, { 'x-spark-token': 'v1.1.abc' }]) {
+    const res = fakeRes();
+    await gateway({ method: 'POST', headers: Object.assign({ host: 'spark.example', origin: 'https://spark.example', 'x-forwarded-for': '1.2.3.5' }, h), body: { model: 'gemini-3.5-flash', stream: false, body: ok }, socket: {} }, res);
+    assert.equal(res.code, 401);
+    assert.equal(res.body.error.code, 'token');
+  }
+  process.env.GEMINI_API_KEY = 'another-key'; // a token signed with another key's secret doesn't work
+  assert.equal(gateway.tokenOk(t), false);
+  process.env.GEMINI_API_KEY = 'test-key';
+});
+test('gateway: only the Flash family Spark uses can run on the site key', async () => {
+  for (const m of ['gemini-flash-latest', 'gemini-3.5-flash', 'gemini-3.5-flash-lite', 'gemini-flash-lite-latest', 'gemini-3.1-flash-lite', 'gemini-3.8-flash-tts', 'gemini-3.1-flash-tts-preview', 'gemini-2.5-flash-preview-tts']) assert.equal(gateway.ALLOWED_MODEL(m), true, m);
+  for (const m of ['gemini-3.5-pro', 'gemini-pro-latest', 'gemini-3-flash-image', 'gemini-live-flash', 'gemini-ultra', 'gemini-flashy']) assert.equal(gateway.ALLOWED_MODEL(m), false, m);
+  process.env.GEMINI_API_KEY = 'test-key';
+  const res = fakeRes();
+  await gateway({ method: 'POST', headers: { host: 'spark.example', origin: 'https://spark.example', 'x-forwarded-for': '1.2.3.6', 'x-spark-token': gateway.issueToken() }, body: { model: 'gemini-3.5-pro', stream: false, body: ok }, socket: {} }, res);
+  assert.equal(res.code, 400);
+  assert.equal(res.body.error.code, 'model');
+});
 test('gateway: forwards a valid same-site request with the key only in the server header', async () => {
   process.env.GEMINI_API_KEY = 'test-key';
   const realFetch = global.fetch; let sent;
@@ -198,7 +229,7 @@ test('gateway: forwards a valid same-site request with the key only in the serve
     const res = fakeRes(); res.pipeTarget = true;
     const { PassThrough } = require('node:stream'); const sink = new PassThrough();
     Object.assign(sink, { setHeader: res.setHeader.bind(res), status: c => { res.code = c; return sink; }, json: res.json.bind(res), headers: res.headers });
-    await gateway({ method: 'POST', headers: { host: 'spark.example', origin: 'https://spark.example', 'x-forwarded-for': '1.2.3.4' }, body: { model: 'gemini-3.5-flash', stream: false, body: ok }, socket: {} }, sink);
+    await gateway({ method: 'POST', headers: { host: 'spark.example', origin: 'https://spark.example', 'x-forwarded-for': '1.2.3.4', 'x-spark-token': gateway.issueToken() }, body: { model: 'gemini-3.5-flash', stream: false, body: ok }, socket: {} }, sink);
     assert.equal(res.code, 200);
     assert.match(sent.url, /models\/gemini-3\.5-flash:generateContent$/);
     assert.equal(sent.init.headers['x-goog-api-key'], 'test-key');

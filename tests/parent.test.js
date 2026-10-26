@@ -300,7 +300,7 @@ test('gateway: a safety moment is flagged to the app (no quiz after it), logged 
   global.fetch = async (url, opts) => { sent.push(JSON.parse(opts.body)); return new Response('data: {"candidates":[{"content":{"parts":[{"text":"I am here for you."}]}}]}\r\n\r\n', { status: 200, headers: { 'content-type': 'text/event-stream' } }); };
   const run = async text => {
     const res = { code: 200, headers: {}, chunks: [], status(c) { this.code = c; return this; }, json(o) { this.out = o; return this; }, setHeader(k, v) { this.headers[k.toLowerCase()] = v; }, write(c) { this.chunks.push(c); return true; }, end() { this.done = true; }, on() {}, once() {}, emit() {}, writableEnded: false };
-    const req = { method: 'POST', headers: { host: HOST, origin: `https://${HOST}`, 'x-forwarded-for': '9.9.9.9', 'x-spark-device': a.device }, body: { model: 'gemini-flash-latest', stream: true, body: chatBody(text) }, socket: {} };
+    const req = { method: 'POST', headers: { host: HOST, origin: `https://${HOST}`, 'x-forwarded-for': '9.9.9.9', 'x-spark-device': a.device, 'x-spark-token': gateway.issueToken() }, body: { model: 'gemini-flash-latest', stream: true, body: chatBody(text) }, socket: {} };
     await gateway(req, res); await new Promise(r => setTimeout(r, 50));
     return res;
   };
@@ -370,4 +370,23 @@ test('Ask Spark returns its evidence and says when it is estimating or lacks dat
   aiReply = new Error('down');
   const down = await call({ op: 'ask', question: 'How is maths going?' }, { device: a.device, cookie: a.cookie });
   assert.equal(down.code, 503); assert.equal(down.out.code, 'ai_unavailable');
+});
+
+test('own key: requests sent straight to Google get the same filters, core rules and safety note as the server adds', () => {
+  const SP = require('../spark-parent.js');
+  const chat = { systemInstruction: { parts: [{ text: 'You are Sparky.' }] }, contents: [{ role: 'user', parts: [{ text: 'Everyone hates me at school' }] }] };
+  const g = SP.guardOwnKey('gemini-flash-latest', chat);
+  assert.equal(g.body.safetySettings.length, 4);
+  assert.equal(g.body.systemInstruction.parts[0].text, 'You are Sparky.');
+  assert.match(g.body.systemInstruction.parts.at(-1).text, /CORE SAFETY/);
+  assert.match(g.body.systemInstruction.parts.at(-1).text, /not their fault/);
+  assert.equal(g.hits[0].category, 'bullying');
+  assert.equal(chat.safetySettings, undefined); // the original is left alone
+  const job = SP.guardOwnKey('gemini-3.5-flash-lite', { contents: chat.contents, generationConfig: { responseMimeType: 'application/json' } });
+  assert.equal(job.body.safetySettings.length, 4);
+  assert.equal(job.body.systemInstruction, undefined);
+  assert.deepEqual(job.hits, []);
+  const tts = SP.guardOwnKey('gemini-3.8-flash-tts', { contents: chat.contents });
+  assert.equal(tts.body.safetySettings, undefined);
+  assert.deepEqual(SP.guardOwnKey('gemini-flash-latest', { contents: [{ role: 'user', parts: [{ text: 'What is photosynthesis?' }] }] }).hits, []);
 });

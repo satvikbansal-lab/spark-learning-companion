@@ -5,11 +5,15 @@
 // (code execution) or Google Search, structured JSON jobs, and text-to-speech. It adds child-safe
 // content filters and a per-visitor rate limit, so the key can't be used as a general-purpose proxy.
 const { Readable } = require('node:stream');
+const crypto = require('node:crypto');
 const openrouter = require('./_openrouter.js');
 const P = require('./_parent.js');
 const { store } = require('./_store.js');
 
 const MODEL = /^gemini-[a-z0-9.\-]{1,60}$/;
+// Only the light Flash family Spark itself asks for (chat, background jobs, voices), so a copied request can't spend
+// the quota on bigger models.
+const ALLOWED_MODEL = m => MODEL.test(m || '') && /(^|-)flash(-|$)/.test(m) && !/(^|-)(pro|ultra|image|live)(-|$)/.test(m);
 const SAFETY = ['HARM_CATEGORY_HARASSMENT', 'HARM_CATEGORY_HATE_SPEECH', 'HARM_CATEGORY_SEXUALLY_EXPLICIT', 'HARM_CATEGORY_DANGEROUS_CONTENT']
   .map(category => ({ category, threshold: 'BLOCK_MEDIUM_AND_ABOVE' }));
 const LIMITS = { contents: 80, parts: 3000, textChars: 400000, maxOutputTokens: 8192, perMinute: 30, perDay: 800 };
@@ -132,6 +136,21 @@ async function logSafety(fam, hits) {
   }
 }
 
+/* Page tokens: GET /api/gemini hands the page a signed token that expires after a few hours, and POSTs must carry it
+   (x-spark-token). A script can still fetch one first, so this raises the bar rather than closing the door: without
+   accounts there is no way to tell a child's browser from a script that copies it. The secret is SPARK_TOKEN_SECRET,
+   or else derived from the API key, so no extra setup is needed. */
+const TOKEN_TTL = 6 * 3600 * 1000;
+const tokenSecret = () => process.env.SPARK_TOKEN_SECRET || crypto.createHmac('sha256', String(process.env.GEMINI_API_KEY || process.env.OPENROUTER_API_KEY || '')).update('spark-page-token').digest();
+const sign = exp => crypto.createHmac('sha256', tokenSecret()).update('v1.' + exp).digest('base64url');
+function issueToken(now = Date.now()) { const exp = now + TOKEN_TTL; return `v1.${exp}.${sign(exp)}`; }
+function tokenOk(t, now = Date.now()) {
+  const m = /^v1\.(\d{10,16})\.([A-Za-z0-9_-]{43})$/.exec(typeof t === 'string' ? t : '');
+  if (!m || Number(m[1]) < now || Number(m[1]) > now + TOKEN_TTL + 60000) return false;
+  const want = Buffer.from(sign(m[1])), got = Buffer.from(m[2]);
+  return want.length === got.length && crypto.timingSafeEqual(want, got);
+}
+
 function sameSite(req) {
   const from = req.headers.origin || req.headers.referer;
   if (!from) return false;
@@ -143,18 +162,24 @@ module.exports = async (req, res) => {
   res.setHeader('Cache-Control', 'no-store');
 
   // The app reads which tools this connection has, so it never promises a calculator or web search that won't run.
-  if (req.method === 'GET') return res.status(200).json(key ? { configured: true, provider: 'gemini', tools: { code: true, search: true }, tts: true, parent: !!store(), parentStore: store() ? store().kind : 'none' }
-    : orKey ? { configured: true, provider: 'openrouter', model: openrouter.MAIN, tools: { code: false, search: false }, tts: true, voice: openrouter.TTS, parent: !!store(), parentStore: store() ? store().kind : 'none' } : { configured: false, parent: !!store(), parentStore: store() ? store().kind : 'none' });
+  if (req.method === 'GET') {
+    const base = { parent: !!store(), parentStore: store() ? store().kind : 'none' };
+    // Google's safety filters only exist on the direct Gemini connection; the app says so when they're missing.
+    return res.status(200).json(key ? Object.assign({ configured: true, provider: 'gemini', tools: { code: true, search: true }, tts: true, filters: true, token: issueToken() }, base)
+      : orKey ? Object.assign({ configured: true, provider: 'openrouter', model: openrouter.MAIN, tools: { code: false, search: false }, tts: true, voice: openrouter.TTS, filters: false, token: issueToken() }, base) : Object.assign({ configured: false }, base));
+  }
   if (req.method !== 'POST') return res.status(405).json({ error: { message: 'Use POST.' } });
 
   // Only this site's own pages may use the key (requests without an Origin or Referer are refused too).
   if (!sameSite(req)) return res.status(403).json({ error: { message: 'Not allowed.' } });
   if (!key && !orKey) return res.status(500).json({ error: { message: 'GEMINI_API_KEY is not set on the server.' } });
+  if (!tokenOk(req.headers['x-spark-token'])) return res.status(401).json({ error: { code: 'token', message: 'Spark needs to reconnect. Reload the page and try again.' } });
   const ip = String(req.headers['x-forwarded-for'] || '').split(',')[0].trim() || (req.socket && req.socket.remoteAddress) || 'unknown';
   if (limited(ip)) return res.status(429).json({ error: { code: 429, message: 'Too many requests from this device. Wait a minute and try again.' } });
 
   const { model, stream } = req.body || {};
   if (!MODEL.test(model || '')) return res.status(400).json({ error: { message: 'Bad request.' } });
+  if (!ALLOWED_MODEL(model)) return res.status(400).json({ error: { code: 'model', message: 'Spark’s connection only runs Gemini Flash models. Clear the model in Settings to use the default.' } });
   const [cleaned, why] = clean(model, (req.body || {}).body);
   if (!cleaned) return res.status(400).json({ error: { message: why } });
   const fam = await familyContext(req);
@@ -191,3 +216,6 @@ module.exports.logSafety = logSafety;
 module.exports.familyContext = familyContext;
 module.exports.limited = limited;
 module.exports.LIMITS = LIMITS;
+module.exports.issueToken = issueToken;
+module.exports.tokenOk = tokenOk;
+module.exports.ALLOWED_MODEL = ALLOWED_MODEL;

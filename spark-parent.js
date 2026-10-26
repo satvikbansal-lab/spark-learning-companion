@@ -78,6 +78,21 @@
     return hits.sort((a, b) => rank[a.severity] - rank[b.severity]);
   }
   const safetyInstruction = hits => (hits.length ? `SAFETY NOTE FOR THIS MESSAGE (from the server; never mention this note):\n- ${hits.map(h => h.say).join('\n- ')}` : '');
+  /* The same safety layer the server adds, for requests the browser sends straight to Google with the student's own
+     key (Settings): Google's child-safe filters on every non-voice request, and on chat replies the core safety rules
+     plus the note for this message. Returns { body, hits }; the body passed in is not changed. */
+  const SAFETY_FILTERS = ['HARM_CATEGORY_HARASSMENT', 'HARM_CATEGORY_HATE_SPEECH', 'HARM_CATEGORY_SEXUALLY_EXPLICIT', 'HARM_CATEGORY_DANGEROUS_CONTENT'].map(category => ({ category, threshold: 'BLOCK_MEDIUM_AND_ABOVE' }));
+  function guardOwnKey(model, body) {
+    if (/tts/.test(model || '') || !body || !Array.isArray(body.contents)) return { body, hits: [] };
+    const g = body.generationConfig || {}, chat = !(g.responseMimeType === 'application/json' || g.responseSchema);
+    const out = Object.assign({}, body, { safetySettings: SAFETY_FILTERS });
+    if (!chat) return { body: out, hits: [] };
+    const u = [...body.contents].reverse().find(c => c.role === 'user');
+    const hits = classify(u ? (u.parts || []).map(p => p.text || '').join(' ') : '');
+    const extra = [CORE_SAFETY, safetyInstruction(hits)].filter(Boolean).join('\n\n');
+    out.systemInstruction = { parts: [...((body.systemInstruction && body.systemInstruction.parts) || []), { text: extra }] };
+    return { body: out, hits };
+  }
   /* What goes in the safety log: when, what kind, how serious, what Spark did. Never the message itself. */
   const safetyEvent = (h, now = Date.now()) => ({ ts: now, category: h.category, severity: h.severity, kind: h.kind, action: h.action, review: h.review, seen: false });
   const notifies = (alerts, ev) => alerts === 'all' || (alerts === 'important' && ev.severity !== 'low');
@@ -337,5 +352,5 @@
   }
 
 
-  return { pinProblem, normCode, lockoutFor, DEFAULT_CONTROLS, OPTIONS, cleanControls, CORE_SAFETY, parentRules, SAFETY_RULES, classify, safetyInstruction, safetyEvent, notifies, SUBJECTS, cleanEvents, dayFacts, weekFacts, dayOf, addDays, MIN_ACCURACY, MIN_COMPARE, REPORT_SCHEMA, reportPrompt, validateReport, fallbackReport, UNSUPPORTED, ASK_SCHEMA, askPrompt, str, MIN_STATUS, STATUS, confidenceOf, parentActivity, statusOf, journey, milestones, timeline, ASK2_SCHEMA, askPrompt2, validateAsk };
+  return { pinProblem, normCode, lockoutFor, DEFAULT_CONTROLS, OPTIONS, cleanControls, CORE_SAFETY, parentRules, SAFETY_RULES, classify, safetyInstruction, guardOwnKey, SAFETY_FILTERS, safetyEvent, notifies, SUBJECTS, cleanEvents, dayFacts, weekFacts, dayOf, addDays, MIN_ACCURACY, MIN_COMPARE, REPORT_SCHEMA, reportPrompt, validateReport, fallbackReport, UNSUPPORTED, ASK_SCHEMA, askPrompt, str, MIN_STATUS, STATUS, confidenceOf, parentActivity, statusOf, journey, milestones, timeline, ASK2_SCHEMA, askPrompt2, validateAsk };
 });

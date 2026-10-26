@@ -1314,7 +1314,7 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
   <div class="field"><label for="sModel">Model</label><input id="sModel" placeholder="gemini-flash-latest"></div>
   <label class="check"><input type="checkbox" id="sThink"><span><b>Think before answering</b><br>More accurate answers; replies start a few seconds later.</span></label>
   <label class="check"><input type="checkbox" id="sSearch"><span><b>Look up recent facts online</b><br>Only for questions about news, current leaders, prices and other things that change. Sources are shown under the answer. Needs Google Search on your Gemini plan; without it Spark says the answer may be out of date.</span></label>
-  <label class="check"><input type="checkbox" id="sThoughts"><span><b>Let Spark learn from my Thoughts</b><br>Spark never replies there. It only notes what helps it teach you, and you can see and delete every note.</span></label>
+  <label class="check"><input type="checkbox" id="sThoughts"><span><b>Let Spark learn from my Thoughts</b> (off unless you turn it on)<br>Spark never replies there. It reads your pages only to note what helps it teach you, and you can see and delete every note.</span></label>
   <div class="field"><label for="sName">Your first name</label><input id="sName" placeholder="Riya"></div>
   <div class="field"><label for="sGrade">Class</label><input id="sGrade" placeholder="Class 7"></div>
   <div class="field"><label for="sLang">Language Sparky talks in</label><select id="sLang"></select><p>Auto answers in whatever language you write in: Hindi, Punjabi, Hinglish and more.</p></div>
@@ -1381,25 +1381,59 @@ function migrateThoughts(s) {
 }
 const DEFAULT_MODEL = 'gemini-flash-latest';
 function load() {
-  try {
-    const s = JSON.parse(localStorage.getItem(LS));
-    if (s && Array.isArray(s.notebooks) && s.notebooks.length) {
-      if (!s.settings.model || /^gemini-(2\.5|3\.8)-flash$/.test(s.settings.model)) s.settings.model = DEFAULT_MODEL;
-      if (s.settings.v !== 3) { s.settings.search = true; s.settings.v = 3; }
-      migrateThoughts(s);
-      s.mode = 'home';
-      // A reply that was still loading when the page closed can't finish now.
-      for (const c of [...s.notebooks, ...s.thoughts]) c.messages = (c.messages || []).filter(m => !m.pending || m.text).map(m => (m.pending ? Object.assign(m, { pending: false }) : m));
-      return s;
-    }
-  } catch (e) {}
-  return seed();
+  try { return fromSaved(JSON.parse(localStorage.getItem(LS))) || seed(); } catch (e) { return seed(); }
+}
+/* A saved copy, tidied for this version of the app; null if it isn't Spark data. */
+function fromSaved(s) {
+  if (!s || !Array.isArray(s.notebooks) || !s.notebooks.length) return null;
+  if (!s.settings.model || /^gemini-(2\.5|3\.8)-flash$/.test(s.settings.model)) s.settings.model = DEFAULT_MODEL;
+  if (s.settings.v !== 3) { s.settings.search = true; s.settings.v = 3; }
+  migrateThoughts(s);
+  s.mode = 'home';
+  // A reply that was still loading when the page closed can't finish now.
+  for (const c of [...s.notebooks, ...s.thoughts]) c.messages = (c.messages || []).filter(m => !m.pending || m.text).map(m => (m.pending ? Object.assign(m, { pending: false }) : m));
+  return s;
 }
 let S = load();
+const BOOT_SAVED = S.savedAt || 0; // when the localStorage copy read at start-up was saved
 let busy = false, pendingImg = null;
+/* Everything is saved twice: in localStorage, which is read instantly at start-up but holds only about 5 MB, and in
+   IndexedDB, which holds far more. If localStorage is full, the IndexedDB copy is newer and is loaded just after
+   start-up (see restoreNewer), so nothing is lost; only if both fail does the student see a warning. Writes to
+   IndexedDB wait until that start-up check has read it, so a save during start-up can't overwrite the newer copy. */
+const stateDB = (() => {
+  let p;
+  const open = () => p || (p = new Promise((res, rej) => { const r = indexedDB.open('spark-state', 1); r.onupgradeneeded = () => r.result.createObjectStore('kv'); r.onsuccess = () => res(r.result); r.onerror = () => rej(r.error); }));
+  const tx = async (mode, fn) => { const db = await open(); return new Promise((res, rej) => { const t = db.transaction('kv', mode); const req = fn(t.objectStore('kv')); t.oncomplete = () => res(req && req.result); t.onerror = () => rej(t.error); t.onabort = () => rej(t.error); }); };
+  let writing = false, next = null, lsFull = false, ready = false;
+  const flush = async () => {
+    if (writing || !ready) return; writing = true;
+    try { while (next) { const json = next; next = null; await tx('readwrite', st => st.put(json, LS)); } }
+    catch (e) { next = null; if (lsFull) toast('Storage is full. Delete an old notebook or export your data.'); }
+    finally { writing = false; }
+  };
+  return {
+    put(json, lsOk) { lsFull = !lsOk; next = json; if (typeof indexedDB === 'undefined') { if (lsFull) toast('Storage is full. Delete an old notebook or export your data.'); return; } flush(); },
+    get: () => tx('readonly', st => st.get(LS)),
+    ready(drop) { ready = true; if (drop) next = null; flush(); }
+  };
+})();
 function save() {
-  try { localStorage.setItem(LS, JSON.stringify(S)); }
-  catch (e) { toast('Storage is full. Delete an old notebook or export your data.'); }
+  S.savedAt = Date.now();
+  const json = JSON.stringify(S);
+  let ok = true;
+  try { localStorage.setItem(LS, json); } catch (e) { ok = false; }
+  stateDB.put(json, ok);
+}
+async function restoreNewer() {
+  if (typeof indexedDB === 'undefined') return;
+  let saved = null; try { saved = JSON.parse((await stateDB.get()) || 'null'); } catch (e) { /* unreadable: keep what we have */ }
+  const s = saved && saved.savedAt > BOOT_SAVED ? fromSaved(saved) : null;
+  if (!s) { stateDB.ready(false); if (!saved) save(); return; } // first run with IndexedDB: copy the current data in
+  stateDB.ready(true); // anything saved during start-up came from the older copy
+  S = s; PV.local = !!S.parentLocal;
+  if (S.settings.onboarded) $('#welcome').hidden = true;
+  render(); save();
 }
 const nb = () => S.notebooks.find(n => n.id === S.activeId) || S.notebooks[0];
 const cur = () => S.mode === 'thought' ? th() : nb();
@@ -1444,18 +1478,38 @@ function aiPost(model, stream, body, timeoutMs) {
   const opts = { method: 'POST', headers: { 'Content-Type': 'application/json' }, signal: ctl ? ctl.signal : undefined };
   // Once a parent has set up Parent View, every request goes through Spark's server, which applies their controls.
   const linked = !!(S.family && S.family.device);
-  const req = S.settings.apiKey && !linked
-    ? fetch(endpoint(stream, model), Object.assign(opts, { headers: { 'Content-Type': 'application/json', 'x-goog-api-key': S.settings.apiKey }, body: JSON.stringify(body) }))
-    : fetch('/api/gemini', Object.assign(opts, { headers: Object.assign({ 'Content-Type': 'application/json' }, linked ? { 'x-spark-device': S.family.device } : {}), body: JSON.stringify({ model, stream, body }) }));
+  const req = S.settings.apiKey && !linked ? ownKeyPost(opts, model, stream, body) : serverPost(opts, linked, { model, stream, body });
   if (!ctl) return req;
   const timer = setTimeout(() => ctl.abort(), timeoutMs);
   // A request that hangs is treated like a busy model (504) so the caller moves on to the next one.
   return req.then(r => { clearTimeout(timer); return r; }, () => { clearTimeout(timer); return new Response('{"error":{"message":"Timed out"}}', { status: 504 }); });
 }
 /* What the site's connection can do: Gemini directly has the maths checker, web search and Gemini voices; through
-   OpenRouter it has none of them, and the app plans each reply around that instead of promising them. */
+   OpenRouter it has none of them, and the app plans each reply around that instead of promising them.
+   The same answer carries a page token that expires after a few hours; an expired one is renewed once and the
+   request sent again. */
 let SERVER_INFO = {};
-fetch('/api/gemini', { cache: 'no-store' }).then(r => r.ok ? r.json() : null).then(j => { if (j && j.configured) { SERVER_AI = true; SERVER_INFO = j; if (!V.open) renderMain(); } }).catch(() => {});
+const serverInfo = () => fetch('/api/gemini', { cache: 'no-store' }).then(r => r.ok ? r.json() : null).then(j => { if (j && j.configured) { SERVER_AI = true; SERVER_INFO = j; } return j; }).catch(() => null);
+serverInfo().then(j => { if (j && j.configured && !V.open) renderMain(); });
+/* A key pasted in Settings talks to Google directly, so the browser adds the server's safety layer itself and marks a
+   safety moment the way the server does (x-spark-safety), so no quiz follows a caring reply. */
+async function ownKeyPost(opts, model, stream, body) {
+  const g = SparkParent.guardOwnKey(model, body);
+  const r = await fetch(endpoint(stream, model), Object.assign({}, opts, { headers: { 'Content-Type': 'application/json', 'x-goog-api-key': S.settings.apiKey }, body: JSON.stringify(g.body) }));
+  const flag = g.hits.find(h => h.kind !== 'privacy');
+  if (!flag) return r;
+  const headers = new Headers(r.headers); headers.set('x-spark-safety', flag.category);
+  return new Response(r.body, { status: r.status, statusText: r.statusText, headers });
+}
+async function serverPost(opts, linked, payload, retried) {
+  const headers = Object.assign({ 'Content-Type': 'application/json' }, SERVER_INFO.token ? { 'x-spark-token': SERVER_INFO.token } : {}, linked ? { 'x-spark-device': S.family.device } : {});
+  const r = await fetch('/api/gemini', Object.assign({}, opts, { headers, body: JSON.stringify(payload) }));
+  if (r.status !== 401 || retried) return r;
+  const j = await r.clone().json().catch(() => null);
+  if (!j || !j.error || j.error.code !== 'token') return r;
+  await serverInfo();
+  return serverPost(opts, linked, payload, true);
+}
 const serverTools = () => (S.settings.apiKey || !SERVER_INFO.tools ? {} : SERVER_INFO.tools);
 
 /* Uploaded study notes are too big for localStorage, so the files live in IndexedDB. */
@@ -2282,7 +2336,7 @@ function systemPrompt(n, rt = {}) {
   return SparkAI.systemPrompt({
     buddy: bn(), name: s.name, grade: s.grade, teach: s.teach, langRule: langRule(),
     memories: S.memories.filter(m => m.source !== 'thoughts').map(m => m.text),
-    personal: S.memories.filter(m => m.source === 'thoughts').map(m => m.text),
+    personal: S.settings.readThoughts === true ? S.memories.filter(m => m.source === 'thoughts').map(m => m.text) : [],
     notebook: n.title, concepts: Object.entries(n.concepts).map(([k, v]) => `${k}: ${v.status} (${v.evidence})`),
     materials: (n.materials || []).map(m => m.name), others: S.notebooks.filter(x => x.id !== n.id).map(x => x.title),
     route: rt, code: !!(rt.tools && rt.tools.code), search: !!(rt.tools && rt.tools.search), voice: !!rt.voice,
@@ -2568,10 +2622,10 @@ function renderThoughtChat() {
 }
 function renderConversation() { if (S.mode === 'thought') renderThoughtChat(); else renderChat(); }
 function privateHTML(t) {
-  const learning = S.settings.learnThoughts !== false;
+  const learning = S.settings.readThoughts === true;
   const line = t.chatOn ? 'Spark can read this page while "Talk with Spark" is on, and only replies in the side panel. Nobody else sees it.'
     : learning ? 'Private. Spark never replies here and never shows this to anyone. It only reads quietly to understand you better.'
-    : 'Private. Spark is not reading this page (turned off in Settings).';
+    : 'Private. Spark doesn\u2019t read this page. Nobody else sees it.';
   const care = t.care ? `<div class="care" role="note"><b>It sounds like a lot is going on.</b> If something feels too heavy, please talk to a parent, teacher or another adult you trust. You can also call <b>Tele-MANAS 14416</b> (free, any time) or <b>Childline 1098</b>.<button id="careOk">OK</button></div>` : '';
   return `<div class="private">${lockSvg}<span>${line}</span></div>${care}`;
 }
@@ -2580,7 +2634,9 @@ let thoughtTimer = null;
 function scheduleThoughtLearning(t) { clearTimeout(thoughtTimer); thoughtTimer = setTimeout(() => learnFromThoughts(t).catch(e => console.warn('thought learning failed', e)), 6000); }
 const THOUGHT_SCHEMA = { type: 'OBJECT', properties: { insights: { type: 'ARRAY', items: { type: 'STRING' } }, wellbeingConcern: { type: 'BOOLEAN' } }, required: ['insights', 'wellbeingConcern'] };
 async function learnFromThoughts(t) {
-  if (!hasAI() || S.settings.learnThoughts === false) return;
+  // Off unless the student turns it on in Settings (readThoughts). The older learnThoughts setting was on by default,
+  // so it isn't carried over.
+  if (!hasAI() || S.settings.readThoughts !== true) return;
   const text = pageText(t).slice(0, 6000);
   if (text.length < 40 || text === t.learnedText) return;
   const known = S.memories.filter(m => m.source === 'thoughts').map(m => m.text).join(' | ') || 'none';
@@ -4262,7 +4318,7 @@ function openSettings() {
   $('#sVoice').value = s.voiceName || 'Leda'; $('#sTeach').value = s.teach || 'explain';
   $('#sTheme').innerHTML = Object.entries(THEMES).map(([k, n]) => `<option value="${k}">${n}</option>`).join('') + (feature('fun') ? '<option value="disco">🪩 Disco party with DJ Sparky</option>' : ''); $('#sTheme').value = s.theme;
   $('#sLang').innerHTML = Object.entries(LANGS).map(([k, l]) => `<option value="${k}">${l.name}</option>`).join(''); $('#sLang').value = s.lang || 'auto';
-  $('#sThink').checked = s.think !== false; $('#sSearch').checked = s.search !== false; $('#sThoughts').checked = s.learnThoughts !== false;
+  $('#sThink').checked = s.think !== false; $('#sSearch').checked = s.search !== false; $('#sThoughts').checked = s.readThoughts === true;
   $('#setDlg').showModal();
 }
 $('#openSet').onclick = openSettings;
@@ -4272,7 +4328,7 @@ $('#setForm').onsubmit = e => {
   s.buddy = $('#sBuddy').value; s.buddyName = $('#sBuddyName').value.trim(); s.autoRead = $('#sAutoRead').checked; s.quizzes = $('#sQuiz').checked;
   s.voiceName = $('#sVoice').value; s.teach = $('#sTeach').value; s.lang = $('#sLang').value;
   const pickedTheme = $('#sTheme').value; if (THEMES[pickedTheme]) s.theme = pickedTheme; else if (pickedTheme === 'disco') setTimeout(startDisco, 300);
-  s.think = $('#sThink').checked; s.search = $('#sSearch').checked; s.learnThoughts = $('#sThoughts').checked;
+  s.think = $('#sThink').checked; s.search = $('#sSearch').checked; s.readThoughts = $('#sThoughts').checked;
   save(); $('#setDlg').close(); render(); toast(s.apiKey ? 'Saved. Spark is using your Gemini key.' : SERVER_AI ? 'Saved. Spark is using this site\u2019s Gemini connection.' : 'Saved. Spark is in demo mode.');
 };
 $('#exportBtn').onclick = () => {
@@ -4290,6 +4346,7 @@ $('#resetBtn').onclick = () => { if (!confirm('Delete every notebook, note and m
 render();
 if (!S.settings.onboarded) openWelcome();
 openAssignmentLink();
+restoreNewer().catch(e => { stateDB.ready(false); console.warn('could not read the IndexedDB copy', e); });
 window.addEventListener('hashchange', openAssignmentLink);
 </script>
 </body>
