@@ -310,6 +310,8 @@ verdict: "correct" if every key point is shown in any wording (spelling and gram
     const stage = /^[\s*_#]*Stage\s*([123])/i.exec(t);
     if (stage) return stage[1] === '3'; // the funnel is one learning unit: check at its end, not after every stage
     if (ctx.material && words(t) >= 60) return true;
+    // A coached problem finished by the student: the reply that completes it (with its answer line) ends the unit.
+    if (rt && rt.kind === 'attempt' && rt.subject === 'math' && /\*\*\s*(final\s+)?answer\s*:?\s*\*\*/i.test(t)) return true;
     if (!rt || NO_QUIZ_KINDS.includes(rt.kind)) return false;
     if (rt.kind === 'problem') return /\*\*\s*(final\s+)?answer\s*:?\s*\*\*|^\s*answer\s*:/im.test(t) || words(t) >= 120;
     return ['concept', 'question', 'reexplain'].includes(rt.kind) && words(t) >= 70;

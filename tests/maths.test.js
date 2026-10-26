@@ -104,6 +104,10 @@ test('guidance: each kind of turn gets its own instruction, and the full-solutio
   assert.match(g('tutor-E'), /full worked solution/);
   assert.match(g('tutor-E'), /THEY NEED IT DIRECTLY/);
   assert.match(AI.systemPrompt({ grade: 'Class 8', route: AI.route('Solve 2x + 5 = 17'), code: true }), /never give an answer your own check contradicts/);
+  // Think, not copy: a plain problem is coached one step at a time; the full solution only when they ask for it.
+  const plain = AI.turnGuidance(AI.route('Solve 2x + 5 = 17'), { level: lv, code: true });
+  assert.match(plain, /coach, not to solve/); assert.match(plain, /ONLY the first step/); assert.doesNotMatch(plain, /full worked solution/);
+  assert.match(AI.turnGuidance(AI.route('7', { prevSubject: 'math', prevModelText: '👉 Your turn: what is 17 − 5?' }), { level: lv }), /ask for the next step/);
 });
 test('re-check instruction names the reading and both answers without telling the student', () => {
   const t = AI.recheckInstruction(M.check('Solve 3(2x − 5) = 4x + 7', '**Answer:** x = 6'));

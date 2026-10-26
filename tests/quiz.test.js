@@ -27,6 +27,11 @@ test('greetings, jokes, clarifications, hints, answers and news never trigger a 
   // A short follow-up clarification in a conversation is not a new teaching unit.
   assert.equal(Q.shouldQuiz(AI.route('why did you add 8?', { prevSubject: 'math' }), LONG, on), false);
 });
+test('a problem the student finished step by step gets its check when the solution is complete', () => {
+  const rt = AI.route('6', { prevSubject: 'math', prevModelText: '👉 Your turn: what is 12 ÷ 2?' });
+  assert.equal(Q.shouldQuiz(rt, 'Yes! 12 ÷ 2 = 6, so x = 6. Check: 2(6) + 5 = 17.\n\n**Answer:** x = 6', on), true);
+  assert.equal(Q.shouldQuiz(rt, 'Right! Now divide both sides by 2. 👉 What do you get?', on), false);
+});
 test('no check when switched off, in voice calls, on private pages, after an error, or right after another check', () => {
   const rt = route('Explain the water cycle');
   assert.equal(Q.shouldQuiz(rt, LONG, { enabled: false }), false);
