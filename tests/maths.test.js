@@ -291,3 +291,13 @@ test('routing: every bank question takes the maths path, and look-alike non-math
   for (const q of ['Add 2 adjectives to this sentence: The dog ran.', 'What is the capital of AP?', 'Tell me about the 2nd term of Akbar', 'Explain the sequence of events in the 1857 revolt', 'What happens in the first half of the story?', 'Double consonant words in class 3', 'Name 4 tens of the Mughal rulers', 'Who won the match in 2011?'])
     assert.notEqual(AI.route(q).subject, 'math', q);
 });
+test('rendering: maths opened inside maths is flattened instead of leaking raw LaTeX', () => {
+  const t = 'When we multiply them: \\((\\(1x^2\\)) \\times 6 = 6x^2\\). Then \\(a\\) and \\(b\\).';
+  assert.equal(rawLatex(t), '');
+  assert.equal(AI.md('\\(x\\) and \\(y\\)', null).match(/math-raw/g).length, 2); // ordinary maths unchanged
+});
+test('prompt: geometry never fills a missing right angle with an invented convention', () => {
+  const p = AI.systemPrompt({ grade: 'Class 8', route: AI.route('In triangle ABC, AB = 5 cm and BC = 12 cm. Find AC.'), code: false });
+  assert.match(p, /There is no rule that a triangle with two given sides is right-angled/);
+  assert.match(p, /Not enough information/);
+});

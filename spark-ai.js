@@ -135,9 +135,9 @@ FUNNEL RULES
 4. Sanity-check the result against real life: a huge loss on a normal sale, a margin below −100%, a negative length, an age of 300 or a probability above 1 means you probably misread the question. Re-read it before you answer. Then check: put the answer back into the ORIGINAL question (for equations, work out both sides with the number and show they are equal), redo arithmetic a second way, and check units, signs, domains and whether it is sensible (a length can't be negative, a probability is between 0 and 1). If your check disagrees with your answer, find the mistake and fix it before replying; never give an answer your own check contradicts.
 ${code ? '5. You have a Python tool this turn. Use it to compute or verify any non-trivial arithmetic, algebra, statistics or numeric check (sympy and fractions are available), and make sure your final answer matches what it printed. It checks your work; it never replaces explaining. Don\'t show code to the student; say in words what you checked.' : '5. There is no calculator tool this turn: do the check carefully by hand and show it.'}
 6. Write "Check:" only for a check you actually did, and show it. Never say an answer was verified by a computer unless the Python tool ran this turn.
-7. Geometry: use only facts given in words or clearly marked. Never assume lengths, right angles or parallel lines from how a figure looks; if a result needs an assumption, say "if we assume…" or ask.
+7. Geometry: use only facts given in words or clearly marked. Never assume lengths, right angles or parallel lines from how a figure looks or from what is "usual". There is no rule that a triangle with two given sides is right-angled: Pythagoras needs the question to say there is a right angle. If the answer needs a fact that isn't given, say clearly that it can't be found from the information given and what is missing, then show what it would be IF that fact were true ("if ∠B = 90°, AC = 13 cm"); the "**Answer:**" line then says "Not enough information" with the conditional result. Never invent a convention or rule to fill the gap.
 8. Fit the size of the reply to the question: a one-step sum needs a line or two, not every section. A multi-step problem gets the full sequence. Never assume a prerequisite: if a step uses an idea they may not know yet (negative numbers, LCM, distributing), explain it in half a line.
-9. Only in the reply that gives the complete solution: ${voice ? 'say the final answer clearly in the last sentence.' : 'end the solution with one line: "**Answer:** …" (with units).'} Then one 👉 line with a similar practice question for them to try (no answer). Choose numbers that give a clean answer, and work out its answer yourself first so the question is correct.
+9. Only in the reply that gives the complete solution: ${voice ? 'say the final answer clearly in the last sentence.' : 'end the solution with one line: "**Answer:** …" (with units), even when the whole solution is one line, so the answer can be checked.'} Then one 👉 line with a similar practice question for them to try (no answer). Choose numbers that give a clean answer, and work out its answer yourself first so the question is correct.
 ${voice ? 'Say maths in words ("x equals six", "three quarters"), no symbols.' : 'Write maths in LaTeX: inline \\( ... \\), on its own line \\[ ... \\]. Use $ only for maths, never for money (write ₹ or "dollars").'}`;
 
   /* When quick-check cards are on, the app adds an interactive check after each teaching unit (spark-quiz.js),
@@ -322,12 +322,28 @@ ${turnGuidance(rt, { level: lv, code: ctx.code, search: ctx.search, voice: ctx.v
     }
     return `<code class="math-raw${display ? ' d' : ''}">${esc(src)}</code>`;
   }
+  /* Models sometimes open maths inside maths ("\((\(1x^2\)) \times 6\)"), which breaks rendering and leaves raw
+     LaTeX on screen. Inner \( \) pairs inside an open \( \) span are dropped. */
+  function flattenMath(s) {
+    let out = '', depth = 0;
+    for (let i = 0; i < s.length; i++) {
+      if (s[i] === '\\' && (s[i + 1] === '(' || s[i + 1] === ')')) {
+        const open = s[i + 1] === '(';
+        if (open) { if (depth++ === 0) out += '\\('; }
+        else if (depth > 0) { if (--depth === 0) out += '\\)'; }
+        else out += '\\)';
+        i++; continue;
+      }
+      out += s[i];
+    }
+    return out;
+  }
   /* Small, safe markdown: paragraphs, headings, lists, quotes, rules, bold/italic, inline and fenced code,
      tables, http(s) links, and LaTeX maths (\( \), \[ \], $ $, $$ $$). Everything else is escaped. */
   function md(src, katex) {
     const store = [];
     const keep = html => '\u0000' + (store.push(html) - 1) + '\u0000';
-    let s = String(src || '').replace(/\r\n?/g, '\n');
+    let s = flattenMath(String(src || '').replace(/\r\n?/g, '\n'));
     s = s.replace(/```[ \t]*([\w+-]*)[ \t]*\n?([\s\S]*?)(?:```|$)/g, (_, lang, code) => '\n' + keep(`<pre class="code"><code${lang ? ` data-lang="${esc(lang)}"` : ''}>${esc(code.replace(/\n$/, ''))}</code></pre>`) + '\n');
     s = s.replace(/`([^`\n]+)`/g, (_, c) => keep(`<code>${esc(c)}</code>`));
     s = s.replace(/\\\[([\s\S]+?)\\\]|\$\$([\s\S]+?)\$\$/g, (_, a, b) => keep(`<span class="math-d">${tex((a || b).trim(), true, katex)}</span>`));
