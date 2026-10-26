@@ -723,6 +723,35 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
 .drop-status { margin: -20px 0 0; font-size: 14px; color: var(--muted); min-height: 0; }
 .drop-status:empty { display: none; }
 .drop-status.err { color: var(--bad); }
+/* Solve a paper */
+.pp-exam { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.pp-exam select { padding: 7px 10px; border-radius: 10px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); font: inherit; }
+.pp-bar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.pp-bar .check { margin-left: auto; }
+.pp-score { margin: 0; padding: 10px 14px; border-radius: 12px; background: var(--accent-soft); }
+.pp-qs { display: grid; gap: 14px; }
+.pp-q { padding: 16px 18px; border: 1px solid var(--line); border-radius: 16px; background: var(--panel); display: grid; gap: 10px; min-width: 0; }
+.pp-q header { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font-size: 13px; color: var(--muted); }
+.pp-q header b { color: var(--ink); font-size: 15px; }
+.pp-q header span { padding: 1px 8px; border-radius: 999px; border: 1px solid var(--line); }
+.pp-q header .bad, .pp-you.bad, .pp-note { color: var(--bad); }
+.pp-text { overflow-x: auto; }
+.pp-text p { margin: 0 0 6px; }
+.pp-opts { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.pp-opts li { display: flex; gap: 10px; align-items: baseline; padding: 6px 10px; border-radius: 10px; border: 1px solid transparent; }
+.pp-opts li.right { border-color: color-mix(in srgb, var(--good) 45%, transparent); background: color-mix(in srgb, var(--good) 10%, transparent); }
+.pp-opts li.mine { outline: 2px solid color-mix(in srgb, var(--accent) 55%, transparent); }
+.pp-pick { min-width: 30px; height: 30px; border-radius: 8px; border: 1px solid var(--line); background: var(--bg); font-weight: 600; cursor: pointer; }
+.pp-pick[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.pp-acts { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.pp-acts input { padding: 7px 10px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); font: inherit; width: 140px; }
+.pp-sol { display: grid; gap: 6px; padding-top: 10px; border-top: 1px solid var(--line); }
+.pp-sol p { margin: 0; }
+.pp-steps { margin: 0; padding-left: 22px; display: grid; gap: 4px; }
+.pp-you.ok { color: var(--good); }
+.pp-b { display: inline-block; margin-left: 6px; padding: 1px 9px; border-radius: 999px; font-size: 12.5px; background: color-mix(in srgb, var(--muted) 14%, transparent); color: var(--muted); }
+.pp-b.ok { background: color-mix(in srgb, var(--good) 14%, transparent); color: var(--good); }
+.pp-b.bad { background: color-mix(in srgb, var(--bad) 12%, transparent); color: var(--bad); }
 .steps3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin: 0; padding: 0; list-style: none; counter-reset: s; }
 .steps3 li { counter-increment: s; padding: 12px 14px; border-radius: 14px; background: var(--soft); font-size: 13.5px; color: var(--muted); }
 .steps3 li::before { content: counter(s); display: grid; place-items: center; width: 22px; height: 22px; margin-bottom: 6px; border-radius: 50%; background: var(--panel); color: var(--accent-text); font-weight: 600; font-size: 12px; }
@@ -1234,6 +1263,7 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
     </div>
     <div class="side-foot">
       <button class="side-btn" id="openParent" title="Parent view"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19a5.5 5.5 0 0 1 11 0"/><circle cx="17" cy="9.5" r="2.4"/><path d="M15.2 14.6A4.5 4.5 0 0 1 21 19"/></svg><span class="lbl">Parent view</span></button>
+      <button class="side-btn" id="openPaper" title="Solve a paper"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5M9 13l2 2 4-4"/></svg><span class="lbl">Solve a paper</span></button>
       <button class="side-btn" id="openTeacher" title="Teacher workspace"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5h18v11H3z"/><path d="M8 20h8M12 16v4M7 9h6M7 12h4"/></svg><span class="lbl">Teacher workspace</span></button>
       <button class="side-btn" id="openMem" title="What Spark remembers"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4a3 3 0 0 0-3 3v.2A3 3 0 0 0 4 10a3 3 0 0 0 1 2.2A3 3 0 0 0 6 17a3 3 0 0 0 3 3 3 3 0 0 0 3-3V7a3 3 0 0 0-3-3z"/><path d="M15 4a3 3 0 0 1 3 3v.2A3 3 0 0 1 20 10a3 3 0 0 1-1 2.2A3 3 0 0 1 18 17a3 3 0 0 1-3 3 3 3 0 0 1-3-3"/></svg><span class="lbl">What Spark remembers</span><span class="n" id="memCount">0</span></button>
       <button class="side-btn" id="openSet" title="Settings"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg><span class="lbl">Settings</span></button>
@@ -1317,6 +1347,7 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
   <label class="check"><input type="checkbox" id="sThoughts"><span><b>Let Spark learn from my Thoughts</b> (off unless you turn it on)<br>Spark never replies there. It reads your pages only to note what helps it teach you, and you can see and delete every note.</span></label>
   <div class="field"><label for="sName">Your first name</label><input id="sName" placeholder="Riya"></div>
   <div class="field"><label for="sGrade">Class</label><input id="sGrade" placeholder="Class 7"></div>
+  <div class="field"><label for="sExam">Preparing for an exam?</label><select id="sExam"></select><p>Sparky teaches at that exam's level: every option checked, the usual traps, quick methods.</p></div>
   <div class="field"><label for="sLang">Language Sparky talks in</label><select id="sLang"></select><p>Auto answers in whatever language you write in: Hindi, Punjabi, Hinglish and more.</p></div>
   <div class="field"><label for="sTeach">Teaching style</label><select id="sTeach"><option value="explain">Spark Funnel: a story first, then a closer look, then the final answer</option><option value="challenge">Challenge me: I try first, Spark gives hints</option></select></div>
   <div class="field"><label for="sBuddy">Your Sparky</label><select id="sBuddy"><option value="blue">Blue Sparky: cool and curious</option><option value="pink">Pink Sparky: cheerful and kind</option></select></div>
@@ -1339,12 +1370,14 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
 </form></dialog>
 
 <input type="file" id="fileIn" accept="image/*,application/pdf,text/plain,.txt,.md" hidden>
+<input type="file" id="paperIn" accept="image/*,application/pdf" multiple hidden>
 <input type="file" id="notesIn" accept="image/*,application/pdf,text/plain,.txt,.md" hidden>
 <script src="spark-math.js"></script>
 <script src="spark-visuals.js"></script>
 <script src="spark-ai.js"></script>
 <script src="spark-quiz.js"></script>
 <script src="spark-parent.js"></script>
+<script src="spark-paper.js"></script>
 
 <script>
 'use strict';
@@ -1705,7 +1738,7 @@ $('#menuBtn').onclick = () => $('#app').classList.toggle('drawer');
 document.querySelector('.main').addEventListener('click', e => { if ($('#app').classList.contains('drawer') && !e.target.closest('#menuBtn')) closeDrawer(); });
 
 /* ---------- navigation ---------- */
-const PAGES = { home: 'Learn', nb: 'Study Notebooks', notes: 'Learn from Notes', thought: 'My Thoughts', progress: 'My Progress', teacher: 'Teacher workspace', space: 'My Study Space' };
+const PAGES = { home: 'Learn', nb: 'Study Notebooks', notes: 'Learn from Notes', thought: 'My Thoughts', progress: 'My Progress', teacher: 'Teacher workspace', space: 'My Study Space', paper: 'Solve a paper' };
 /* Three main areas: a notebook is part of Learn; notes and private pages belong to My Study Space. */
 const NAV_OF = { home: 'home', nb: 'home', space: 'space', notes: 'space', thought: 'space', progress: 'progress' };
 function go(where) {
@@ -1775,6 +1808,7 @@ function renderMain() {
   if (S.mode === 'progress') return renderOverview();
   if (S.mode === 'space') return renderSpace();
   if (S.mode === 'teacher') return renderTeacher();
+  if (S.mode === 'paper') return renderPaper();
   const c = cur(); $('#titleIn').value = c.title;
   $('#titleIn').setAttribute('aria-label', thought ? 'Page title' : 'Notebook name');
   $('#delNb').setAttribute('aria-label', thought ? 'Delete page' : 'Delete notebook'); $('#delNb').title = thought ? 'Delete page' : 'Delete notebook';
@@ -2037,6 +2071,214 @@ function askFromHome(text) {
   if (busy) return toast(`${bn()} is still answering. One moment.`);
   const n = blankNotebook(); n.title = topicTitle(text);
   S.mode = 'nb'; S.tab = 'chat'; save(); render(); send(text);
+}
+
+/* ---------- solve a paper (engine in spark-paper.js) ----------
+   A student uploads a question paper: one PDF, or photos of its pages. Spark reads out the questions, then solves
+   them five at a time, each with Sparky's explanation, the trap to avoid and an honest confidence. Each answer is
+   checked for free where the exact checker can read it, against the paper's own answer key when it has one, and a
+   second way when the student taps "Double-check". "Try it first" keeps each answer hidden until the student has
+   answered it. Only the questions' text is kept, not the uploaded file. */
+const PAPER_MODELS = [DEFAULT_MODEL, 'gemini-3.5-flash', 'gemini-3.5-flash-lite', 'gemini-flash-lite-latest'];
+let PAPER_BUSY = '', PAPER_STOP = false, PAPER_EXAM = null;
+const PICKS = {}; // multiple-correct answers being chosen, before "Check my answer"
+const papers = () => (S.papers = S.papers || []);
+const paperOpen = () => papers().find(p => p.id === S.activePaperId) || null;
+const mdi = t => md(t).replace(/^\s*<p>([\s\S]*)<\/p>\s*$/, '$1'); // inline: no wrapping paragraph
+function newPaper(file, exam) { return { id: uid(), title: '', file, exam: exam || '', created: Date.now(), questions: [], answerKey: {}, solutions: {}, failed: {}, mine: {}, checks: {}, revealed: {}, tryFirst: false }; }
+
+function renderPaper() {
+  const p = paperOpen();
+  if (p) return renderPaperDetail(p);
+  if (PAPER_EXAM === null) PAPER_EXAM = S.settings.exam || '';
+  const maxMB = S.settings.apiKey ? 15 : 3, EX = SparkPaper.EXAMS;
+  $('#view').innerHTML = `<div class="page"><div class="page-in">
+    <header class="page-h"><h1>Solve a paper</h1><p>Upload a question paper or a mock test. ${esc(bn())} reads every question, solves it with an easy explanation, and tells you honestly how sure it is.</p></header>
+    <div class="pp-exam"><label for="ppExam">Which exam is it for?</label><select id="ppExam"><option value="">School test (any class)</option>${Object.entries(EX).map(([k, e]) => `<option value="${k}" ${k === PAPER_EXAM ? 'selected' : ''}>${esc(e.name)}</option>`).join('')}</select></div>
+    <div class="drop ${PAPER_BUSY ? 'busy' : ''}" id="ppDrop" role="button" tabindex="0" aria-label="Upload a question paper: a PDF or photos of its pages">
+      <span class="ic">${uploadSvg}</span><b>Drop the question paper here</b><span>or <u>browse files</u> · one PDF, or photos of its pages (pick them all at once), up to ${maxMB} MB each</span>
+    </div>
+    <p class="drop-status" id="ppStatus" role="status" aria-live="polite">${esc(PAPER_BUSY)}</p>
+    <ol class="steps3"><li><b>Upload</b>A PDF or photos of the paper</li><li><b>Solve</b>${esc(bn())} solves 5 questions at a time and explains each one</li><li><b>Check</b>Try each one first, then see your score</li></ol>
+    <section aria-labelledby="ppList"><h2 class="h-sec" id="ppList">Your papers</h2>${papers().length ? `<div class="list">${papers().map(x => `<button class="row-card" data-open-paper="${x.id}"><span class="ic">${docSvg}</span><span class="rc-main"><b>${esc(x.title || x.file)}</b><span>${x.questions.length} questions · ${Object.keys(x.solutions).length} solved${EX[x.exam] ? ' · ' + esc(EX[x.exam].name) : ''} · ${ago(x.created)}</span></span></button>`).join('')}</div>` : '<p class="pv-small">No papers yet.</p>'}</section>
+    <p class="pv-small">Solving uses this site's free AI allowance: about one request for every 5 questions. The answers are made by AI and can be wrong; for anything important, check with your teacher or the official answer key.</p>
+  </div></div>`;
+  const drop = $('#ppDrop'), pick = () => $('#paperIn').click();
+  drop.onclick = pick;
+  drop.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); pick(); } };
+  drop.ondragover = e => { e.preventDefault(); drop.classList.add('over'); };
+  drop.ondragleave = () => drop.classList.remove('over');
+  drop.ondrop = e => { e.preventDefault(); drop.classList.remove('over'); if (e.dataTransfer.files.length) uploadPaper([...e.dataTransfer.files]); };
+  $('#ppExam').onchange = e => { PAPER_EXAM = e.target.value; };
+  document.querySelectorAll('[data-open-paper]').forEach(b => { b.onclick = () => { S.activePaperId = b.dataset.openPaper; save(); renderPaper(); }; });
+}
+$('#paperIn').onchange = e => { const fs = [...e.target.files]; e.target.value = ''; if (fs.length) uploadPaper(fs); };
+
+const nextN = p => (p.questions.length ? p.questions[p.questions.length - 1].n + 1 : 1);
+function addChunk(p, raw) { const c = SparkPaper.readExtract(raw); return { more: c.more, added: SparkPaper.addQuestions(p, c) }; }
+async function uploadPaper(files) {
+  if (PAPER_BUSY) return;
+  if (!hasAI()) return toast(`${bn()} needs its AI connection to read a paper.`);
+  const say = t => { PAPER_BUSY = t; const st = $('#ppStatus'); if (st) st.textContent = t; const d = $('#ppDrop'); if (d) d.classList.toggle('busy', !!t); };
+  const pdfs = files.filter(f => f.type === 'application/pdf' || /\.pdf$/i.test(f.name)), imgs = files.filter(f => f.type.startsWith('image/'));
+  if (!pdfs.length && !imgs.length) return toast('Upload the paper as a PDF or photos of its pages.');
+  if (pdfs.length > 1 || (pdfs.length && imgs.length)) return toast('Upload one PDF, or photos of one paper’s pages.');
+  if (imgs.length > 12) return toast('Up to 12 photos at a time.');
+  const parts = pdfs.length ? pdfs : imgs.sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true }));
+  const p = newPaper(parts[0].name.replace(/\.[^.]+$/, '').replace(/[_-]+/g, ' ').trim().slice(0, 60) || 'Question paper', PAPER_EXAM);
+  try {
+    for (let i = 0; i < parts.length; i++) {
+      say(parts.length > 1 ? `Reading page ${i + 1} of ${parts.length}…` : `Reading ${parts[i].name}…`);
+      const r = await readMaterial(parts[i]), file = [{ mime: r.mat.mime, data: r.data }];
+      if (imgs.length) { addChunk(p, await geminiJSON(SparkPaper.extractPrompt(nextN(p), true), SparkPaper.EXTRACT_SCHEMA, PAPER_MODELS, 8000, file)); continue; }
+      // A long paper is read about 40 questions at a time (one reply can only be so long).
+      for (let from = 1, guard = 0; guard < 12; guard++) {
+        const c = addChunk(p, await geminiJSON(SparkPaper.extractPrompt(from), SparkPaper.EXTRACT_SCHEMA, PAPER_MODELS, 8000, file));
+        say(`Read ${p.questions.length} questions so far…`);
+        if (!c.more || !c.added) break;
+        from = nextN(p);
+      }
+    }
+    if (!p.questions.length) throw new Error(`${bn()} couldn’t find any questions in that file. Try a clearer photo, or a PDF whose text you can select.`);
+    papers().unshift(p); S.activePaperId = p.id; save();
+  } catch (err) { toast(err.message || 'Could not read that paper.'); }
+  say(''); renderPaper();
+}
+
+async function solvePaper(p, all, only) {
+  if (PAPER_BUSY) return;
+  PAPER_STOP = false;
+  try {
+    for (;;) {
+      const batch = only ? p.questions.filter(q => only.includes(q.n)) : SparkPaper.nextBatch(p); if (!batch.length) break;
+      PAPER_BUSY = `Solving ${batch.length > 1 ? `questions ${batch[0].n}–${batch[batch.length - 1].n}` : `question ${batch[0].n}`}…`; if (paperOpen() === p) renderPaper();
+      const raw = await geminiJSON(SparkPaper.solvePrompt(batch, { exam: p.exam, name: S.settings.name, grade: S.settings.grade, buddy: bn() }), SparkPaper.SOLVE_SCHEMA, PAPER_MODELS, 8000);
+      const got = SparkPaper.readSolutions(raw, batch);
+      for (const q of batch) {
+        if (got[q.n]) { p.solutions[q.n] = got[q.n]; delete p.checks[q.n]; exactPaperCheck(p, q); }
+        else p.failed[q.n] = (p.failed[q.n] || 0) + 1;
+      }
+      save();
+      if (!all || only || PAPER_STOP) break;
+    }
+  } catch (err) { toast(err.message || 'Could not solve those questions.'); }
+  PAPER_BUSY = '';
+  if (paperOpen() === p) renderPaper();
+}
+/* Free: the exact checker, when it can read the question as one calculation or equation. */
+function exactPaperCheck(p, q) {
+  const v = SparkMath.check(q.text, SparkPaper.checkInput(q, p.solutions[q.n]).reply);
+  if (v.status !== 'unknown') p.checks[q.n] = { status: v.status, note: v.note };
+}
+/* "Double-check": the maths second method when the question is a calculation, otherwise another model answers the
+   question on its own and the two answers are compared. One or two requests, only when the student asks. */
+async function paperDoubleCheck(p, n) {
+  const q = p.questions.find(x => x.n === n), sol = p.solutions[n]; if (!q || !sol || PAPER_BUSY) return;
+  p.checks[n] = { status: 'running' }; renderPaper();
+  let r = { status: 'unknown' };
+  try {
+    const inp = SparkPaper.checkInput(q, sol);
+    r = await SparkAI.secondCheck({ question: inp.question, context: '', reply: inp.reply, callJSON: formalJSON, SparkMath });
+    if (r.status === 'unknown' && (q.type === 'mcq' || q.type === 'multi' || q.type === 'numeric')) {
+      const other = SparkPaper.readSolutions(await geminiJSON(SparkPaper.solvePrompt([q], { exam: p.exam }), SparkPaper.SOLVE_SCHEMA, ['gemini-3.5-flash-lite', 'gemini-flash-lite-latest', 'gemini-3.5-flash'], 3000), [q])[n];
+      if (other) {
+        const same = SparkPaper.matchesKey(q, sol, other.answer);
+        r = same ? { status: 'agree', note: `Another AI model solved it separately and also got ${other.answerText}.` } : { status: 'disagree', note: `Another AI model solved it separately and got ${other.answerText}. Look at this one carefully, or ask ${bn()} about it.` };
+      }
+    }
+  } catch (e) { r = { status: 'unknown', note: 'The check couldn’t run right now.' }; }
+  p.checks[n] = { status: r.status, note: r.note || (r.reason ? `Couldn’t check this one a second way (${r.reason}).` : '') };
+  save(); if (paperOpen() === p) renderPaper();
+}
+function paperAsk(p, n) {
+  const q = p.questions.find(x => x.n === n), sol = p.solutions[n]; if (!q) return;
+  const nbk = blankNotebook(); nbk.title = `${(p.title || p.file).slice(0, 28)} · Q${n}`;
+  S.mode = 'nb'; S.tab = 'chat'; save(); render();
+  send(`Help me understand question ${n} from my practice paper.\n\n${SparkPaper.questionBlock(q)}${sol ? `\n\nYour answer was ${sol.answerText}. Explain it again step by step, as simply as you can.` : ''}`);
+}
+
+const CONF = { high: 'Sparky is sure', medium: 'Fairly sure', low: 'Sparky isn’t sure' };
+function paperBadge(p, q, sol) {
+  const key = p.answerKey[q.n], m = SparkPaper.matchesKey(q, sol, key), c = p.checks[q.n];
+  if (m === true) return '<span class="pp-b ok">✓ Matches the paper’s answer key</span>';
+  if (m === false) return `<span class="pp-b bad">⚠ The paper’s answer key says ${esc(key)}</span>`;
+  if (c && c.status === 'running') return '<span class="pp-b">Checking…</span>';
+  if (c && c.status === 'agree') return `<span class="pp-b ok">✓ Checked a second way</span>`;
+  if (c && c.status === 'disagree') return `<span class="pp-b bad">⚠ A second check disagrees</span>`;
+  return `<span class="pp-b ${sol.confidence === 'low' ? 'bad' : ''}">${CONF[sol.confidence]} · not checked</span>`;
+}
+function paperQ(p, q) {
+  const L = SparkPaper.LETTERS, sol = p.solutions[q.n], mine = p.mine[q.n], c = p.checks[q.n];
+  const waiting = p.tryFirst && sol && mine == null && !p.revealed[q.n]; // the student hasn't answered yet: keep it hidden
+  const ref = p.answerKey[q.n] != null ? p.answerKey[q.n] : sol && sol.answer;
+  const picked = mine != null ? SparkPaper.normAnswer(mine).split(',') : (PICKS[q.n] || []);
+  const opts = q.options.length ? `<ol class="pp-opts">${q.options.map((o, i) => {
+    const l = L[i], right = sol && !waiting && SparkPaper.normAnswer(ref).split(',').includes(l);
+    return `<li class="${right ? 'right' : ''} ${picked.includes(l) ? 'mine' : ''}">${waiting ? `<button class="pp-pick" data-pick="${q.n}" data-l="${l}" aria-pressed="${picked.includes(l)}">${l}</button>` : `<b>${l}</b>`}<span>${mdi(o)}</span></li>`;
+  }).join('')}</ol>` : '';
+  let tryRow = '';
+  if (waiting) tryRow = q.type === 'multi' ? `<div class="pp-acts"><button class="btn" data-pp-submit="${q.n}" ${picked.length ? '' : 'disabled'}>Check my answer</button><button class="btn ghost" data-pp-show="${q.n}">Show the answer</button></div>`
+    : q.type === 'numeric' ? `<form class="pp-acts" data-pp-num="${q.n}"><input name="a" inputmode="decimal" placeholder="Your answer" aria-label="Your answer to question ${q.n}"><button class="btn">Check</button><button type="button" class="btn ghost" data-pp-show="${q.n}">Show the answer</button></form>`
+    : q.type === 'mcq' ? `<div class="pp-acts"><span class="pv-small">Pick your answer above.</span><button class="btn ghost" data-pp-show="${q.n}">Show the answer</button></div>`
+    : `<div class="pp-acts"><span class="pv-small">Write your answer in your notebook first.</span><button class="btn" data-pp-show="${q.n}">Show the answer</button></div>`;
+  const you = mine != null && mine !== '' && sol ? (() => {
+    const ok = q.type === 'numeric' ? SparkPaper.matchesKey(q, { answer: mine }, ref) : SparkPaper.normAnswer(mine) === SparkPaper.normAnswer(ref);
+    return `<p class="pp-you ${ok ? 'ok' : 'bad'}">You answered ${esc(mine)} · ${ok ? '✓ right' : `the answer is ${esc(ref)}`}</p>`;
+  })() : '';
+  const solHTML = !sol ? (p.failed[q.n] >= 2 ? `<p class="pv-small">${esc(bn())} couldn’t solve this one reliably. <button class="linkish" data-pp-ask="${q.n}">Ask about it in a notebook</button></p>` : '')
+    : waiting ? '' : `<div class="pp-sol">
+      ${you}
+      <p class="pp-ans"><b>Answer:</b> ${mdi(sol.answerText)} ${paperBadge(p, q, sol)}</p>
+      ${c && c.note && c.status !== 'running' ? `<p class="pv-small">${esc(c.note)}</p>` : ''}
+      ${sol.cantSolve ? `<p class="pp-note">⚠ ${esc(sol.cantSolve)}</p>` : ''}
+      ${sol.idea ? `<p><b>💡 Key idea:</b> ${mdi(sol.idea)}</p>` : ''}
+      ${sol.steps.length ? `<ol class="pp-steps">${sol.steps.map(s => `<li>${mdi(s)}</li>`).join('')}</ol>` : ''}
+      ${sol.whyNot ? `<p><b>Why not the others:</b> ${mdi(sol.whyNot)}</p>` : ''}
+      ${sol.trap ? `<p><b>⚠ Watch out:</b> ${mdi(sol.trap)}</p>` : ''}
+      ${sol.check ? `<p><b>✓ Quick check:</b> ${mdi(sol.check)}</p>` : ''}
+      <div class="pp-acts"><button class="btn" data-pp-check="${q.n}" ${c && c.status === 'running' ? 'disabled' : ''}>Double-check</button><button class="btn" data-pp-ask="${q.n}">Ask ${esc(bn())} about this</button><button class="btn ghost" data-pp-redo="${q.n}">Solve again</button></div>
+    </div>`;
+  return `<article class="pp-q" id="pq-${q.n}"><header><b>Q${q.n}</b>${q.subject ? `<span>${esc(q.subject)}</span>` : ''}${q.section ? `<span>${esc(q.section)}</span>` : ''}${q.unreadable ? '<span class="bad">part unreadable</span>' : ''}</header>
+    <div class="pp-text">${md(q.text)}</div>${q.figure ? `<p class="pv-small">🖼 Figure: ${esc(q.figure)}</p>` : ''}${opts}${tryRow}${solHTML}</article>`;
+}
+function renderPaperDetail(p) {
+  const n = p.questions.length, d = Object.keys(p.solutions).length, left = SparkPaper.nextBatch(p).length, e = SparkPaper.examOf(p.exam), sc = SparkPaper.score(p, p.mine, p.exam);
+  const ref = sc.againstKey === sc.total ? 'the paper’s answer key' : sc.againstKey ? `the paper’s key where it has one, otherwise ${esc(bn())}’s answers` : `${esc(bn())}’s answers (not an official key)`;
+  $('#view').innerHTML = `<div class="page"><div class="page-in">
+    <header class="page-h"><button class="linkish" id="ppBack">← All papers</button><h1>${esc(p.title || p.file)}</h1><p>${n} questions${e ? ' · ' + esc(e.name) : ''} · ${d} solved${Object.keys(p.answerKey).length ? ' · this paper has its own answer key' : ''}</p></header>
+    <div class="pp-bar">
+      <button class="btn pri" id="ppNext" ${PAPER_BUSY || !left ? 'disabled' : ''}>${PAPER_BUSY ? esc(PAPER_BUSY) : !left ? 'All solved' : d ? 'Solve the next 5' : 'Solve the first 5'}</button>
+      <button class="btn" id="ppAll" ${PAPER_BUSY || !left ? 'disabled' : ''}>Solve all ${left ? `(${left} left)` : ''}</button>
+      ${PAPER_BUSY ? '<button class="btn ghost" id="ppStop">Stop after this</button>' : ''}
+      <label class="check"><input type="checkbox" id="ppTry" ${p.tryFirst ? 'checked' : ''}><span>Try it first: answers stay hidden until you answer</span></label>
+    </div>
+    ${sc.total ? `<p class="pp-score" role="status">Your score: <b>${sc.right} of ${sc.total} right</b>${sc.marking ? ` · ${sc.marks} marks with the usual ${esc(sc.marking)} marking` : ''}. Marked against ${ref}.</p>` : ''}
+    <div class="pp-qs" id="ppQs">${p.questions.map(q => paperQ(p, q)).join('')}</div>
+    <p class="pv-small">The answers are made by AI and can be wrong. "Matches the paper’s answer key" and "Checked a second way" mean an answer passed a check; "not checked" means it didn’t get one. <button class="linkish" id="ppDel">Delete this paper</button></p>
+  </div></div>`;
+  $('#ppBack').onclick = () => { S.activePaperId = null; save(); renderPaper(); };
+  $('#ppNext').onclick = () => solvePaper(p, false);
+  $('#ppAll').onclick = () => { if (left > 30 && !confirm(`Solve all ${left} questions? That uses about ${Math.ceil(left / SparkPaper.BATCH)} requests of the free AI allowance.`)) return; solvePaper(p, true); };
+  if ($('#ppStop')) $('#ppStop').onclick = () => { PAPER_STOP = true; toast('Stopping after this group.'); };
+  $('#ppTry').onchange = ev => { p.tryFirst = ev.target.checked; save(); renderPaper(); };
+  $('#ppDel').onclick = () => { if (!confirm('Delete this paper and its answers from this device?')) return; S.papers = papers().filter(x => x !== p); S.activePaperId = null; save(); renderPaper(); };
+  const box = $('#ppQs');
+  box.onclick = ev => {
+    const t = ev.target.closest('button'); if (!t) return;
+    const num = k => Number(t.dataset[k]);
+    if (t.dataset.pick) {
+      const qn = num('pick'), q = p.questions.find(x => x.n === qn);
+      if (q.type === 'multi') { const s = new Set(PICKS[qn] || []); s.has(t.dataset.l) ? s.delete(t.dataset.l) : s.add(t.dataset.l); PICKS[qn] = [...s].sort(); }
+      else { p.mine[qn] = t.dataset.l; save(); }
+      return renderPaper();
+    }
+    if (t.dataset.ppSubmit) { const qn = num('ppSubmit'); p.mine[qn] = (PICKS[qn] || []).join(','); delete PICKS[qn]; save(); return renderPaper(); }
+    if (t.dataset.ppShow) { p.revealed[num('ppShow')] = true; save(); return renderPaper(); }
+    if (t.dataset.ppCheck) return paperDoubleCheck(p, num('ppCheck'));
+    if (t.dataset.ppAsk) return paperAsk(p, num('ppAsk'));
+    if (t.dataset.ppRedo) { const qn = num('ppRedo'); delete p.solutions[qn]; delete p.checks[qn]; delete p.failed[qn]; save(); return solvePaper(p, false, [qn]); }
+  };
+  box.onsubmit = ev => { const f = ev.target.closest('[data-pp-num]'); if (!f) return; ev.preventDefault(); const v = f.a.value.trim(); if (!v) return; p.mine[Number(f.dataset.ppNum)] = v; save(); renderPaper(); };
 }
 
 /* ---------- learn from notes ---------- */
@@ -2341,7 +2583,7 @@ function systemPrompt(n, rt = {}) {
   if (n.kind === 'thought') return thoughtPrompt(n);
   const s = S.settings;
   return SparkAI.systemPrompt({
-    buddy: bn(), name: s.name, grade: s.grade, teach: s.teach, langRule: langRule(),
+    buddy: bn(), name: s.name, grade: s.grade, teach: s.teach, langRule: langRule() + (SparkPaper.examRules(s.exam) ? '\n\n' + SparkPaper.examRules(s.exam) : ''),
     memories: S.memories.filter(m => m.source !== 'thoughts').map(m => m.text),
     personal: S.settings.readThoughts === true ? S.memories.filter(m => m.source === 'thoughts').map(m => m.text) : [],
     notebook: n.title, concepts: Object.entries(n.concepts).map(([k, v]) => `${k}: ${v.status} (${v.evidence})`),
@@ -3052,7 +3294,7 @@ function renderWelcome() {
     $('#welForm').onsubmit = e => { e.preventDefault(); const v = $('#welName').value.trim(); if (!v) { $('#welName').focus(); return toast('Type your first name to continue'); } WEL.name = v; WEL.step = 1; renderWelcome(); };
     $('#welName').focus();
   } else if (s === 1) {
-    const opts = ['Class 1', 'Class 2', 'Class 3', 'Class 4', 'Class 5', 'Class 6', 'Class 7', 'Class 8', 'Class 9', 'Class 10', 'Other'];
+    const opts = ['Class 1', 'Class 2', 'Class 3', 'Class 4', 'Class 5', 'Class 6', 'Class 7', 'Class 8', 'Class 9', 'Class 10', 'Class 11', 'Class 12', 'Other'];
     box.innerHTML = `${dots}<h2>Nice to meet you, ${esc(WEL.name)}!</h2><p>Which class are you in? It helps us explain things at the right level.</p>
       <div class="chips" role="radiogroup" aria-label="Your class">${opts.map(o => `<button type="button" role="radio" class="chip ${WEL.grade === o ? 'on' : ''}" aria-checked="${WEL.grade === o}" data-grade="${o}">${o}</button>`).join('')}</div>
       <div class="wel-actions"><button class="btn" type="button" id="welBack">Back</button><button class="btn pri big" type="button" id="welNext">Next</button></div>`;
@@ -3970,6 +4212,7 @@ function downloadReminder(time) {
 }
 $('#openParent').onclick = openParent;
 $('#openTeacher').onclick = () => { T_OPEN = null; go('teacher'); };
+$('#openPaper').onclick = () => { S.activePaperId = null; go('paper'); };
 $('#parentClose').onclick = () => parentLock(); // closing always locks
 document.addEventListener('keydown', e => { if (e.key === 'Escape' && !$('#parent').hidden) parentLock(); });
 
@@ -4329,6 +4572,7 @@ function openSettings() {
   $('#sBuddy').value = s.buddy || 'blue'; $('#sBuddyName').value = s.buddyName || ''; $('#sAutoRead').checked = !!s.autoRead; $('#sQuiz').checked = s.quizzes !== false;
   $('#sVoice').value = s.voiceName || 'Leda'; $('#sTeach').value = s.teach || 'explain';
   $('#sTheme').innerHTML = Object.entries(THEMES).map(([k, n]) => `<option value="${k}">${n}</option>`).join('') + (feature('fun') ? '<option value="disco">🪩 Disco party with DJ Sparky</option>' : ''); $('#sTheme').value = s.theme;
+  $('#sExam').innerHTML = '<option value="">No exam</option>' + Object.entries(SparkPaper.EXAMS).map(([k, e]) => `<option value="${k}">${e.name}</option>`).join(''); $('#sExam').value = s.exam || '';
   $('#sLang').innerHTML = Object.entries(LANGS).map(([k, l]) => `<option value="${k}">${l.name}</option>`).join(''); $('#sLang').value = s.lang || 'auto';
   $('#sThink').checked = s.think !== false; $('#sSearch').checked = s.search !== false; $('#sThoughts').checked = s.readThoughts === true;
   $('#setDlg').showModal();
@@ -4338,7 +4582,7 @@ $('#setForm').onsubmit = e => {
   e.preventDefault(); const s = S.settings;
   s.apiKey = $('#sKey').value.trim(); s.model = $('#sModel').value.trim() || DEFAULT_MODEL; s.name = $('#sName').value.trim(); s.grade = $('#sGrade').value.trim();
   s.buddy = $('#sBuddy').value; s.buddyName = $('#sBuddyName').value.trim(); s.autoRead = $('#sAutoRead').checked; s.quizzes = $('#sQuiz').checked;
-  s.voiceName = $('#sVoice').value; s.teach = $('#sTeach').value; s.lang = $('#sLang').value;
+  s.voiceName = $('#sVoice').value; s.teach = $('#sTeach').value; s.lang = $('#sLang').value; s.exam = $('#sExam').value;
   const pickedTheme = $('#sTheme').value; if (THEMES[pickedTheme]) s.theme = pickedTheme; else if (pickedTheme === 'disco') setTimeout(startDisco, 300);
   s.think = $('#sThink').checked; s.search = $('#sSearch').checked; s.readThoughts = $('#sThoughts').checked;
   save(); $('#setDlg').close(); render(); toast(s.apiKey ? 'Saved. Spark is using your Gemini key.' : SERVER_AI ? 'Saved. Spark is using this site\u2019s Gemini connection.' : 'Saved. Spark is in demo mode.');
