@@ -28,6 +28,8 @@ test('greetings, jokes, clarifications, hints, answers and news never trigger a 
   assert.equal(Q.shouldQuiz(AI.route('why did you add 8?', { prevSubject: 'math' }), LONG, on), false);
 });
 test('a problem the student finished step by step gets its check when the solution is complete', () => {
+  const coaching = '**Given:** 2x + 5 = 17. ' + 'Think of a balance scale with two boxes and five loose balls on one side and seventeen balls on the other. '.repeat(6) + '👉 Your turn: what is 17 − 5?';
+  assert.equal(Q.shouldQuiz(AI.route('Solve 2x + 5 = 17'), coaching, on), false, 'no quiz in the middle of coaching, however long the reply');
   const rt = AI.route('6', { prevSubject: 'math', prevModelText: '👉 Your turn: what is 12 ÷ 2?' });
   assert.equal(Q.shouldQuiz(rt, 'Yes! 12 ÷ 2 = 6, so x = 6. Check: 2(6) + 5 = 17.\n\n**Answer:** x = 6', on), true);
   assert.equal(Q.shouldQuiz(rt, 'Right! Now divide both sides by 2. 👉 What do you get?', on), false);

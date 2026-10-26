@@ -313,7 +313,8 @@ verdict: "correct" if every key point is shown in any wording (spelling and gram
     // A coached problem finished by the student: the reply that completes it (with its answer line) ends the unit.
     if (rt && rt.kind === 'attempt' && rt.subject === 'math' && /\*\*\s*(final\s+)?answer\s*:?\s*\*\*/i.test(t)) return true;
     if (!rt || NO_QUIZ_KINDS.includes(rt.kind)) return false;
-    if (rt.kind === 'problem') return /\*\*\s*(final\s+)?answer\s*:?\s*\*\*|^\s*answer\s*:/im.test(t) || words(t) >= 120;
+    // A problem ends when it's solved (its answer line), never in the middle of coaching it.
+    if (rt.kind === 'problem') return /\*\*\s*(final\s+)?answer\s*:?\s*\*\*|^\s*answer\s*:/im.test(t);
     return ['concept', 'question', 'reexplain'].includes(rt.kind) && words(t) >= 70;
   }
 
