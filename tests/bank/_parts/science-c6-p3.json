@@ -1,0 +1,1235 @@
+{
+"questions": [
+{
+"topic": "Food: Where Does It Come From?",
+"level": 1,
+"type": "mcq",
+"q": "Which of these is a pulse?",
+"options": [
+"Wheat",
+"Moong",
+"Rice",
+"Maize"
+],
+"answer": "B",
+"explanation": "Moong, tur and gram are pulses. Wheat, rice and maize are cereals."
+},
+{
+"topic": "Food: Where Does It Come From?",
+"level": 1,
+"type": "mcq",
+"q": "Butter, curd and ghee are all made from",
+"options": [
+"Milk",
+"Honey",
+"Eggs",
+"Flour"
+],
+"answer": "A",
+"explanation": "These dairy products are made from milk."
+},
+{
+"topic": "Food: Where Does It Come From?",
+"level": 2,
+"type": "mcq",
+"q": "Edible oil can be obtained from the seeds of the",
+"options": [
+"Carrot",
+"Spinach",
+"Potato",
+"Mustard plant"
+],
+"answer": "D",
+"explanation": "Mustard, groundnut and sunflower seeds give oil."
+},
+{
+"topic": "Food: Where Does It Come From?",
+"level": 2,
+"type": "mcq",
+"q": "Which of these foods is made from the seed of a plant?",
+"options": [
+"Spinach",
+"Radish",
+"Cabbage",
+"Rajma beans"
+],
+"answer": "D",
+"explanation": "Rajma beans are seeds. Spinach and cabbage are leaves and radish is a root."
+},
+{
+"topic": "Food: Where Does It Come From?",
+"level": 3,
+"type": "mcq",
+"q": "In the chain grass, deer, tiger, which statement is true?",
+"options": [
+"Grass is eaten by the tiger directly",
+"The tiger is a herbivore",
+"The deer is a herbivore and the tiger is a carnivore",
+"Grass eats the deer"
+],
+"answer": "C",
+"explanation": "Deer eat grass and tigers eat deer, so the deer is a herbivore and the tiger a carnivore."
+},
+{
+"topic": "Food: Where Does It Come From?",
+"level": 2,
+"type": "short",
+"q": "Name three different parts of plants that we eat and give an example of each.",
+"answer": "Roots such as radish, leaves such as spinach and fruits such as banana.",
+"keyPoints": [
+"Three plant parts",
+"Correct example for each"
+],
+"explanation": "Different plant parts are used as food."
+},
+{
+"topic": "Food: Where Does It Come From?",
+"level": 3,
+"type": "short",
+"q": "Plants make their own food while animals cannot. Explain how animals get their food.",
+"answer": "Animals depend on plants, or on other animals that eat plants, for food. They cannot make food themselves.",
+"keyPoints": [
+"Plants make their own food",
+"Animals eat plants or other animals"
+],
+"explanation": "All animals depend on plants directly or indirectly."
+},
+{
+"topic": "Components of Food",
+"level": 1,
+"type": "mcq",
+"q": "Which of the following is a good source of protein?",
+"options": [
+"Sugar",
+"Pulses",
+"Butter",
+"Oil"
+],
+"answer": "B",
+"explanation": "Pulses, milk, eggs and fish are rich in proteins."
+},
+{
+"topic": "Components of Food",
+"level": 1,
+"type": "mcq",
+"q": "Calcium in the diet is needed mainly for",
+"options": [
+"Strong bones and teeth",
+"Seeing in the dark",
+"Clotting only",
+"Making sugar"
+],
+"answer": "A",
+"explanation": "Calcium keeps bones and teeth strong."
+},
+{
+"topic": "Components of Food",
+"level": 2,
+"type": "mcq",
+"q": "Which of these is a function of water in our body?",
+"options": [
+"To help digest food and remove wastes",
+"To build muscles",
+"To give vitamins",
+"To make bones hard"
+],
+"answer": "A",
+"explanation": "Water helps in digestion, carries nutrients and removes waste through urine and sweat."
+},
+{
+"topic": "Components of Food",
+"level": 2,
+"type": "mcq",
+"q": "Beriberi is caused by the deficiency of",
+"options": [
+"Vitamin C",
+"Vitamin A",
+"Calcium",
+"Vitamin B1"
+],
+"answer": "D",
+"explanation": "Lack of vitamin B1 causes beriberi."
+},
+{
+"topic": "Components of Food",
+"level": 3,
+"type": "mcq",
+"q": "Which meal is the most balanced?",
+"options": [
+"Only bread and jam",
+"Only fried snacks",
+"Chapati, dal, vegetables and a glass of milk",
+"Only rice"
+],
+"answer": "C",
+"explanation": "It contains carbohydrates, proteins, vitamins, minerals, fats and roughage."
+},
+{
+"topic": "Components of Food",
+"level": 2,
+"type": "short",
+"q": "Name the components of food and say which ones give us energy.",
+"answer": "The components are carbohydrates, proteins, fats, vitamins, minerals, water and roughage. Carbohydrates and fats give energy.",
+"keyPoints": [
+"List of components",
+"Carbohydrates and fats give energy"
+],
+"explanation": "Each component has its own function."
+},
+{
+"topic": "Components of Food",
+"level": 3,
+"type": "short",
+"q": "Why does a person doing heavy physical work need more energy-giving food than someone who sits at a desk?",
+"answer": "Heavy work uses more energy, so the body needs more carbohydrates and fats to supply it.",
+"keyPoints": [
+"Work needs energy",
+"Carbohydrates and fats supply energy"
+],
+"explanation": "Energy needs depend on activity."
+},
+{
+"topic": "Fibre to Fabric",
+"level": 1,
+"type": "mcq",
+"q": "Which of these is used for spinning yarn by hand?",
+"options": [
+"Sieve",
+"Takli or charkha",
+"Tweezers",
+"Magnet"
+],
+"answer": "B",
+"explanation": "A takli or charkha twists fibres into yarn."
+},
+{
+"topic": "Fibre to Fabric",
+"level": 1,
+"type": "mcq",
+"q": "The hairy coat of a sheep that is cut to get wool is called",
+"options": [
+"Cocoon",
+"Fleece",
+"Boll",
+"Yarn"
+],
+"answer": "B",
+"explanation": "The fleece of a sheep is removed by shearing."
+},
+{
+"topic": "Fibre to Fabric",
+"level": 2,
+"type": "mcq",
+"q": "Yarn is",
+"options": [
+"A long continuous thread made by spinning fibres",
+"A fabric made on a loom",
+"A seed of cotton",
+"A cocoon"
+],
+"answer": "A",
+"explanation": "Fibres are twisted to make yarn."
+},
+{
+"topic": "Fibre to Fabric",
+"level": 2,
+"type": "mcq",
+"q": "Which of these is an animal fibre?",
+"options": [
+"Cotton",
+"Jute",
+"Coir",
+"Silk"
+],
+"answer": "D",
+"explanation": "Silk comes from silkworms. Cotton, jute and coir are plant fibres."
+},
+{
+"topic": "Fibre to Fabric",
+"level": 3,
+"type": "mcq",
+"q": "After harvesting, jute stems are soaked in water for some days. Why?",
+"options": [
+"The stem becomes harder",
+"The stem turns into wool",
+"The fibre separates from the stalk more easily",
+"The stem grows"
+],
+"answer": "C",
+"explanation": "Soaking loosens the stems so that fibres can be peeled off."
+},
+{
+"topic": "Fibre to Fabric",
+"level": 2,
+"type": "short",
+"q": "Describe how yarn can be made by hand.",
+"answer": "Fibres are drawn out from a bunch of cotton and twisted using the fingers, a takli or a charkha to form a long thread.",
+"keyPoints": [
+"Fibres drawn out",
+"Fibres twisted",
+"Takli or charkha used"
+],
+"explanation": "Spinning is twisting fibres into yarn."
+},
+{
+"topic": "Fibre to Fabric",
+"level": 3,
+"type": "short",
+"q": "Why are cotton clothes preferred in hot summer weather?",
+"answer": "Cotton absorbs sweat easily and lets it evaporate, so the body feels cool.",
+"keyPoints": [
+"Absorbs sweat",
+"Evaporation cools the body"
+],
+"explanation": "Fabric choice depends on weather."
+},
+{
+"topic": "Sorting Materials into Groups",
+"level": 1,
+"type": "mcq",
+"q": "Which of these floats on water?",
+"options": [
+"Coin",
+"Stone",
+"Cork",
+"Key"
+],
+"answer": "C",
+"explanation": "Cork is lighter for its size than water, so it floats."
+},
+{
+"topic": "Sorting Materials into Groups",
+"level": 1,
+"type": "mcq",
+"q": "Which of these is soft?",
+"options": [
+"Diamond",
+"Sponge",
+"Iron",
+"Stone"
+],
+"answer": "B",
+"explanation": "A sponge can be pressed easily."
+},
+{
+"topic": "Sorting Materials into Groups",
+"level": 2,
+"type": "mcq",
+"q": "Which statement about oil and water is correct?",
+"options": [
+"Oil floats on water as a separate layer",
+"Oil dissolves fully in water",
+"Oil is heavier than water",
+"Oil turns water to ice"
+],
+"answer": "A",
+"explanation": "Oil is lighter than water and does not mix, so it floats on top."
+},
+{
+"topic": "Sorting Materials into Groups",
+"level": 2,
+"type": "mcq",
+"q": "Which of these can you see through clearly?",
+"options": [
+"A wall",
+"A stone",
+"A wooden door",
+"Clear glass"
+],
+"answer": "D",
+"explanation": "Clear glass is transparent."
+},
+{
+"topic": "Sorting Materials into Groups",
+"level": 3,
+"type": "mcq",
+"q": "A door is made of wood, but a window pane is made of glass. Why?",
+"options": [
+"Glass is stronger",
+"Wood is transparent",
+"Both are the same",
+"The glass lets light pass through while the wood blocks view and gives privacy"
+],
+"answer": "D",
+"explanation": "Transparent glass lets in light and wood is opaque."
+},
+{
+"topic": "Sorting Materials into Groups",
+"level": 2,
+"type": "short",
+"q": "Why are cups often made of ceramic or steel and not paper for hot tea at home?",
+"answer": "Ceramic and steel are strong, do not dissolve or soften in hot liquid, and can be used again and again.",
+"keyPoints": [
+"Strong and durable",
+"Do not soften or dissolve",
+"Reusable"
+],
+"explanation": "Materials are chosen for their properties."
+},
+{
+"topic": "Sorting Materials into Groups",
+"level": 3,
+"type": "short",
+"q": "Group these into sink or float in water: iron nail, cork, stone, wooden block, plastic bottle cap.",
+"answer": "Sink: iron nail and stone. Float: cork, wooden block and plastic cap.",
+"keyPoints": [
+"Correct sinking items",
+"Correct floating items"
+],
+"explanation": "Floating depends on how heavy the object is for its size."
+},
+{
+"topic": "Separation of Substances",
+"level": 1,
+"type": "mcq",
+"q": "Which tool is used for sieving?",
+"options": [
+"Magnet",
+"Beaker",
+"Sieve",
+"Filter funnel only"
+],
+"answer": "C",
+"explanation": "A sieve has holes through which smaller particles pass."
+},
+{
+"topic": "Separation of Substances",
+"level": 1,
+"type": "mcq",
+"q": "In sedimentation the heavier particles",
+"options": [
+"Float on top",
+"Settle at the bottom",
+"Evaporate",
+"Dissolve"
+],
+"answer": "B",
+"explanation": "Heavy particles settle down in a liquid."
+},
+{
+"topic": "Separation of Substances",
+"level": 2,
+"type": "mcq",
+"q": "Alum is added to muddy water because it",
+"options": [
+"Makes the particles settle faster",
+"Makes water salty",
+"Dissolves the mud",
+"Adds colour"
+],
+"answer": "A",
+"explanation": "Alum makes tiny particles stick together so they settle quickly."
+},
+{
+"topic": "Separation of Substances",
+"level": 2,
+"type": "mcq",
+"q": "Wet clothes dry fastest when they are hung",
+"options": [
+"In the sun on a windy day",
+"In a cupboard",
+"In a cold, still room",
+"Under the shade with no breeze"
+],
+"answer": "A",
+"explanation": "Heat and wind speed up evaporation."
+},
+{
+"topic": "Separation of Substances",
+"level": 3,
+"type": "mcq",
+"q": "A mixture of sawdust and iron filings is given. Which is a simple way to separate them?",
+"options": [
+"Add water and heat it",
+"Winnow it",
+"Use a sieve only",
+"Use a magnet"
+],
+"answer": "D",
+"explanation": "A magnet pulls out the iron filings, leaving the sawdust."
+},
+{
+"topic": "Separation of Substances",
+"level": 2,
+"type": "short",
+"q": "What is sedimentation and decantation? Where are they used?",
+"answer": "Sedimentation is the settling of heavy particles at the bottom. Decantation is pouring out the clear liquid above. Used for muddy water.",
+"keyPoints": [
+"Settling of heavy particles",
+"Pouring off clear liquid",
+"Example such as muddy water"
+],
+"explanation": "These steps often come before filtration."
+},
+{
+"topic": "Separation of Substances",
+"level": 3,
+"type": "short",
+"q": "Can sugar be separated from a sugar solution by filtration? Explain.",
+"answer": "No. Dissolved sugar passes through filter paper with the water. It can be recovered by evaporating the water.",
+"keyPoints": [
+"Not by filtration",
+"Dissolved particles pass through",
+"Evaporation recovers sugar"
+],
+"explanation": "Filtration only removes undissolved solids."
+},
+{
+"topic": "Changes Around Us",
+"level": 1,
+"type": "mcq",
+"q": "The change of liquid water into ice is called",
+"options": [
+"Melting",
+"Boiling",
+"Freezing",
+"Evaporation"
+],
+"answer": "C",
+"explanation": "Cooling turns a liquid into a solid, which is freezing."
+},
+{
+"topic": "Changes Around Us",
+"level": 1,
+"type": "mcq",
+"q": "Which of these changes is slow?",
+"options": [
+"Bursting of a balloon",
+"Rusting of iron",
+"Burning of a cracker",
+"Breaking a glass"
+],
+"answer": "B",
+"explanation": "Rusting takes days or weeks, but the others happen quickly."
+},
+{
+"topic": "Changes Around Us",
+"level": 2,
+"type": "mcq",
+"q": "Which change is caused by heating and cannot be reversed?",
+"options": [
+"Cooling of water",
+"Frying an egg",
+"Melting ice",
+"Boiling water"
+],
+"answer": "B",
+"explanation": "A fried egg cannot go back to raw egg."
+},
+{
+"topic": "Changes Around Us",
+"level": 2,
+"type": "mcq",
+"q": "Which of the following is a periodic change?",
+"options": [
+"The change of day and night",
+"Burning of wood",
+"Cooking",
+"Ripening"
+],
+"answer": "A",
+"explanation": "Day and night repeat at regular times."
+},
+{
+"topic": "Changes Around Us",
+"level": 3,
+"type": "mcq",
+"q": "Bread is toasted. Which statement is true?",
+"options": [
+"Toasting is reversible",
+"No change occurs",
+"It becomes a liquid",
+"The change is irreversible because the bread changes permanently"
+],
+"answer": "D",
+"explanation": "Toasted bread cannot return to soft bread."
+},
+{
+"topic": "Changes Around Us",
+"level": 2,
+"type": "short",
+"q": "Give two changes that are caused by heating and two caused by cooling.",
+"answer": "Heating: melting of butter, boiling of water. Cooling: freezing of water, condensation of vapour.",
+"keyPoints": [
+"Two heating examples",
+"Two cooling examples"
+],
+"explanation": "Changes of state are due to heating or cooling."
+},
+{
+"topic": "Changes Around Us",
+"level": 3,
+"type": "short",
+"q": "Describe the changes that take place when raw rice is cooked, and say if they can be reversed.",
+"answer": "The rice softens, absorbs water and changes taste and colour. These changes cannot be reversed, so cooking is irreversible.",
+"keyPoints": [
+"Rice softens and changes",
+"Cannot return to raw rice",
+"Irreversible"
+],
+"explanation": "Cooking makes permanent changes in food."
+},
+{
+"topic": "Getting to Know Plants",
+"level": 1,
+"type": "mcq",
+"q": "The tiny pores on the surface of leaves are called",
+"options": [
+"Veins",
+"Roots",
+"Stomata",
+"Sepals"
+],
+"answer": "C",
+"explanation": "Stomata let in gases and let out water vapour."
+},
+{
+"topic": "Getting to Know Plants",
+"level": 1,
+"type": "mcq",
+"q": "A medium-sized plant with many branches near the base is a",
+"options": [
+"Herb",
+"Tree",
+"Shrub",
+"Creeper"
+],
+"answer": "C",
+"explanation": "Shrubs are bushy with a stem that branches near the ground."
+},
+{
+"topic": "Getting to Know Plants",
+"level": 2,
+"type": "mcq",
+"q": "The pea plant and the pumpkin plant are called climbers and creepers because their stems are",
+"options": [
+"Very thick",
+"Weak and cannot stand upright",
+"Hollow",
+"Made of wood"
+],
+"answer": "B",
+"explanation": "Their stems are weak, so they climb on supports or spread on the ground."
+},
+{
+"topic": "Getting to Know Plants",
+"level": 2,
+"type": "mcq",
+"q": "Which of the following leaves has reticulate venation?",
+"options": [
+"Peepal",
+"Grass",
+"Maize",
+"Wheat"
+],
+"answer": "A",
+"explanation": "A peepal leaf has a net-like pattern of veins."
+},
+{
+"topic": "Getting to Know Plants",
+"level": 3,
+"type": "mcq",
+"q": "A gardener ties a pea plant to a stick. Why?",
+"options": [
+"The roots are too long",
+"It needs less water",
+"It makes more seeds",
+"The stem is weak and needs support"
+],
+"answer": "D",
+"explanation": "A climber cannot stand without a support."
+},
+{
+"topic": "Getting to Know Plants",
+"level": 2,
+"type": "short",
+"q": "Name the parts of a leaf and give the function of veins.",
+"answer": "A leaf has a lamina (blade), a petiole and veins. Veins carry water and food in the leaf.",
+"keyPoints": [
+"Lamina and petiole named",
+"Veins carry water and food"
+],
+"explanation": "The leaf is the food-making organ."
+},
+{
+"topic": "Getting to Know Plants",
+"level": 3,
+"type": "short",
+"q": "Give two reasons why the roots are essential to a plant.",
+"answer": "Roots hold the plant firmly in the soil and absorb water and minerals from it.",
+"keyPoints": [
+"Anchor plant",
+"Absorb water and minerals"
+],
+"explanation": "Roots support the plant and supply water."
+},
+{
+"topic": "Body Movements",
+"level": 1,
+"type": "mcq",
+"q": "The soft, bendable part of the ear is made of",
+"options": [
+"Hard bone",
+"Muscle",
+"Skin only",
+"Cartilage"
+],
+"answer": "D",
+"explanation": "Cartilage is flexible and gives shape to the outer ear."
+},
+{
+"topic": "Body Movements",
+"level": 1,
+"type": "mcq",
+"q": "Muscles help us move by",
+"options": [
+"Expanding only",
+"Hardening",
+"Contracting and relaxing",
+"Melting"
+],
+"answer": "C",
+"explanation": "Muscles contract and relax, pulling bones."
+},
+{
+"topic": "Body Movements",
+"level": 2,
+"type": "mcq",
+"q": "The joint at the hip allows the leg to move",
+"options": [
+"In one direction only",
+"In many directions",
+"Not at all",
+"Only up and down"
+],
+"answer": "B",
+"explanation": "The hip is a ball and socket joint that gives movement in all directions."
+},
+{
+"topic": "Body Movements",
+"level": 2,
+"type": "mcq",
+"q": "Which animal has a body with six legs and wings that help it walk and fly?",
+"options": [
+"Cockroach",
+"Fish",
+"Snake",
+"Snail"
+],
+"answer": "A",
+"explanation": "A cockroach can walk, run and fly using legs and wings."
+},
+{
+"topic": "Body Movements",
+"level": 3,
+"type": "mcq",
+"q": "When you bend your elbow, which muscle contracts?",
+"options": [
+"Biceps",
+"Triceps",
+"Both stay relaxed",
+"Neither moves"
+],
+"answer": "A",
+"explanation": "The biceps contracts and the triceps relaxes when the arm bends."
+},
+{
+"topic": "Body Movements",
+"level": 2,
+"type": "short",
+"q": "What is the function of the ribs?",
+"answer": "Ribs form the rib cage, which protects the heart and lungs and helps in breathing movements.",
+"keyPoints": [
+"Protect heart and lungs",
+"Form the rib cage"
+],
+"explanation": "The rib cage surrounds the chest organs."
+},
+{
+"topic": "Body Movements",
+"level": 3,
+"type": "short",
+"q": "Why is a skeleton useful to the body?",
+"answer": "The skeleton gives shape, protects soft organs such as the brain and heart, and lets us move with muscles.",
+"keyPoints": [
+"Gives shape",
+"Protects organs",
+"Helps movement"
+],
+"explanation": "Bones and muscles work together."
+},
+{
+"topic": "Living Organisms and Their Surroundings",
+"level": 1,
+"type": "mcq",
+"q": "Which of these is a living thing?",
+"options": [
+"Stone",
+"Water",
+"Air",
+"Grass"
+],
+"answer": "D",
+"explanation": "Grass grows, reproduces and responds to its surroundings."
+},
+{
+"topic": "Living Organisms and Their Surroundings",
+"level": 1,
+"type": "mcq",
+"q": "Which of these animals lives on land?",
+"options": [
+"Fish",
+"Octopus",
+"Lion",
+"Whale"
+],
+"answer": "C",
+"explanation": "A lion is a terrestrial animal."
+},
+{
+"topic": "Living Organisms and Their Surroundings",
+"level": 2,
+"type": "mcq",
+"q": "A plant whose leaves float on the surface of a pond is",
+"options": [
+"Cactus",
+"Water lily",
+"Neem",
+"Banyan"
+],
+"answer": "B",
+"explanation": "Water lilies have broad leaves that float."
+},
+{
+"topic": "Living Organisms and Their Surroundings",
+"level": 2,
+"type": "mcq",
+"q": "Thick fur and a layer of fat help animals to live in",
+"options": [
+"Hot deserts",
+"Very cold regions",
+"Rainforests",
+"Ponds"
+],
+"answer": "B",
+"explanation": "Thick fur and fat reduce loss of body heat."
+},
+{
+"topic": "Living Organisms and Their Surroundings",
+"level": 3,
+"type": "mcq",
+"q": "A toy robot can walk and move its arms. Why is it not a living thing?",
+"options": [
+"It does not grow, reproduce, breathe or need food",
+"It cannot move",
+"It has batteries",
+"It is made by people so it is not real"
+],
+"answer": "A",
+"explanation": "Movement alone does not make something living; living things grow, respire and reproduce."
+},
+{
+"topic": "Living Organisms and Their Surroundings",
+"level": 2,
+"type": "short",
+"q": "Name two living and two non-living components of a pond habitat.",
+"answer": "Living: fish and water plants. Non-living: water and soil or rocks.",
+"keyPoints": [
+"Two living things",
+"Two non-living things"
+],
+"explanation": "A habitat has biotic and abiotic parts."
+},
+{
+"topic": "Living Organisms and Their Surroundings",
+"level": 3,
+"type": "short",
+"q": "Why do camels have broad, padded feet?",
+"answer": "The broad feet spread out the weight of the animal so that it does not sink into the sand when walking.",
+"keyPoints": [
+"Broad feet spread the weight",
+"Helps walk on sand"
+],
+"explanation": "It is an adaptation for desert life."
+},
+{
+"topic": "Motion and Measurement of Distances",
+"level": 1,
+"type": "mcq",
+"q": "The distance between two cities is best measured in",
+"options": [
+"Millimetres",
+"Centimetres",
+"Metres squared",
+"Kilometres"
+],
+"answer": "D",
+"explanation": "Long distances are measured in kilometres."
+},
+{
+"topic": "Motion and Measurement of Distances",
+"level": 1,
+"type": "mcq",
+"q": "The small unit used for the thickness of a coin is the",
+"options": [
+"Kilometre",
+"Metre",
+"Millimetre",
+"Kilogram"
+],
+"answer": "C",
+"explanation": "A millimetre is one-tenth of a centimetre."
+},
+{
+"topic": "Motion and Measurement of Distances",
+"level": 2,
+"type": "mcq",
+"q": "A length of 1.5 m is equal to",
+"options": [
+"15 cm",
+"1500 cm",
+"150 cm",
+"1.5 cm"
+],
+"answer": "C",
+"explanation": "1.5 x 100 = 150 cm."
+},
+{
+"topic": "Motion and Measurement of Distances",
+"level": 2,
+"type": "mcq",
+"q": "The motion of a pendulum in a clock is",
+"options": [
+"Rectilinear only",
+"Oscillatory",
+"Rotational only",
+"None of these"
+],
+"answer": "B",
+"explanation": "A pendulum moves to and fro about a point, which is oscillatory and periodic."
+},
+{
+"topic": "Motion and Measurement of Distances",
+"level": 3,
+"type": "mcq",
+"q": "A student reads a length by looking at the scale from an angle. What is likely to happen?",
+"options": [
+"The reading may be wrong due to a slanted view",
+"The reading will be exact",
+"The scale will break",
+"The length will change"
+],
+"answer": "A",
+"explanation": "The line of sight should be vertical to the mark to avoid error."
+},
+{
+"topic": "Motion and Measurement of Distances",
+"level": 2,
+"type": "short",
+"q": "Why do we need standard units of measurement?",
+"answer": "Standard units give the same result for everyone, so measurements can be compared and understood by all.",
+"keyPoints": [
+"Same value for everyone",
+"Allow comparison"
+],
+"explanation": "Non-standard units like hand-spans vary."
+},
+{
+"topic": "Motion and Measurement of Distances",
+"level": 3,
+"type": "short",
+"q": "Explain how you could measure the length of the boundary of a circular plate using a thread and a ruler.",
+"answer": "Wind the thread once along the edge of the plate, mark the length, straighten the thread and measure it with a ruler.",
+"keyPoints": [
+"Thread along the edge",
+"Mark and straighten",
+"Measure with ruler"
+],
+"explanation": "A thread can follow a curved path."
+},
+{
+"topic": "Light, Shadows and Reflections",
+"level": 1,
+"type": "mcq",
+"q": "The bouncing back of light from a surface is called",
+"options": [
+"Absorption",
+"Shadow",
+"Refraction",
+"Reflection"
+],
+"answer": "D",
+"explanation": "A mirror reflects light that falls on it."
+},
+{
+"topic": "Light, Shadows and Reflections",
+"level": 1,
+"type": "mcq",
+"q": "A shadow is formed on a",
+"options": [
+"Source",
+"Mirror only",
+"Transparent glass only",
+"Screen"
+],
+"answer": "D",
+"explanation": "A screen such as a wall shows the dark area."
+},
+{
+"topic": "Light, Shadows and Reflections",
+"level": 2,
+"type": "mcq",
+"q": "The device that uses a small hole to form images is called a",
+"options": [
+"Telescope",
+"Microscope",
+"Pinhole camera",
+"Periscope"
+],
+"answer": "C",
+"explanation": "A pinhole camera forms an inverted image through a small hole."
+},
+{
+"topic": "Light, Shadows and Reflections",
+"level": 2,
+"type": "mcq",
+"q": "Which statement about light is true?",
+"options": [
+"Light needs air to travel only",
+"Light travels in straight lines",
+"Light bends around opaque objects",
+"Light travels in zigzag lines"
+],
+"answer": "B",
+"explanation": "Light travels in straight lines and does not bend around opaque objects."
+},
+{
+"topic": "Light, Shadows and Reflections",
+"level": 3,
+"type": "mcq",
+"q": "In a shadow play, the puppet is moved closer to the screen. The shadow becomes",
+"options": [
+"Smaller and sharper",
+"Larger",
+"Invisible",
+"Brighter"
+],
+"answer": "A",
+"explanation": "Moving the puppet nearer the screen and away from the lamp reduces the shadow size."
+},
+{
+"topic": "Light, Shadows and Reflections",
+"level": 2,
+"type": "short",
+"q": "List the conditions needed to form a shadow.",
+"answer": "A source of light, an opaque object in the path of the light and a screen.",
+"keyPoints": [
+"Light source",
+"Opaque object",
+"Screen"
+],
+"explanation": "The opaque object blocks the light."
+},
+{
+"topic": "Light, Shadows and Reflections",
+"level": 3,
+"type": "short",
+"q": "Write one difference between a shadow and an image in a mirror.",
+"answer": "A shadow is a dark area showing only the outline of the object, while an image in a mirror is formed by reflected light and shows details and colours.",
+"keyPoints": [
+"Shadow only outline",
+"Image shows detail by reflection"
+],
+"explanation": "A shadow forms by blocked light and an image by reflected light."
+},
+{
+"topic": "Electricity and Circuits",
+"level": 1,
+"type": "mcq",
+"q": "Which of these is a source of electricity?",
+"options": [
+"Cell",
+"Switch",
+"Wire",
+"Bulb"
+],
+"answer": "A",
+"explanation": "A cell supplies electric current."
+},
+{
+"topic": "Electricity and Circuits",
+"level": 1,
+"type": "mcq",
+"q": "The torch uses",
+"options": [
+"Magnets",
+"Pencils",
+"Mirrors only",
+"Cells"
+],
+"answer": "D",
+"explanation": "A torch contains cells that supply electricity to the bulb."
+},
+{
+"topic": "Electricity and Circuits",
+"level": 2,
+"type": "mcq",
+"q": "A circuit is called a closed circuit when",
+"options": [
+"There is a gap",
+"The switch is open",
+"The path is complete",
+"The cell is removed"
+],
+"answer": "C",
+"explanation": "Current flows only in a complete path."
+},
+{
+"topic": "Electricity and Circuits",
+"level": 2,
+"type": "mcq",
+"q": "The two terminals of a bulb are connected to",
+"options": [
+"The bottom of the glass",
+"The filament",
+"Air",
+"The magnet"
+],
+"answer": "B",
+"explanation": "The ends of the filament are connected to the two terminals of the bulb."
+},
+{
+"topic": "Electricity and Circuits",
+"level": 3,
+"type": "mcq",
+"q": "An electric plug has metal pins but a plastic body. Why?",
+"options": [
+"Plastic carries current",
+"Pins carry current and plastic protects us from shocks",
+"Metal is lighter",
+"Both are conductors"
+],
+"answer": "B",
+"explanation": "Metal conducts the current and the plastic is an insulator."
+},
+{
+"topic": "Electricity and Circuits",
+"level": 2,
+"type": "short",
+"q": "What is the function of a switch in an electric circuit?",
+"answer": "A switch opens or closes the circuit, so it can stop or allow current to flow.",
+"keyPoints": [
+"Opens or closes circuit",
+"Controls current"
+],
+"explanation": "A switch breaks the path of the current."
+},
+{
+"topic": "Electricity and Circuits",
+"level": 3,
+"type": "short",
+"q": "Describe how to test whether a pencil lead, a rubber and an iron nail are conductors using a tester.",
+"answer": "Connect each material in turn between the free ends of a circuit with a cell and bulb. If the bulb glows, the material conducts; if not, it is an insulator.",
+"keyPoints": [
+"Connect each in the circuit",
+"Glowing bulb means conductor",
+"No glow means insulator"
+],
+"explanation": "The bulb works as an indicator."
+},
+{
+"topic": "Fun with Magnets",
+"level": 1,
+"type": "mcq",
+"q": "A magnet has",
+"options": [
+"Two poles",
+"Only a north pole",
+"Three poles",
+"No poles"
+],
+"answer": "A",
+"explanation": "Every magnet has a north and a south pole."
+},
+{
+"topic": "Fun with Magnets",
+"level": 1,
+"type": "mcq",
+"q": "Which of these is attracted by a magnet?",
+"options": [
+"Plastic",
+"Paper",
+"Rubber",
+"Iron"
+],
+"answer": "D",
+"explanation": "Iron is magnetic."
+},
+{
+"topic": "Fun with Magnets",
+"level": 2,
+"type": "mcq",
+"q": "Iron filings sprinkled on paper over a bar magnet mostly collect near",
+"options": [
+"The middle only",
+"The corners",
+"The ends",
+"No place"
+],
+"answer": "C",
+"explanation": "The poles attract the most filings."
+},
+{
+"topic": "Fun with Magnets",
+"level": 2,
+"type": "mcq",
+"q": "A magnet can be used to pick up",
+"options": [
+"A wooden stick",
+"A plastic bag",
+"A steel pin",
+"A glass bead"
+],
+"answer": "C",
+"explanation": "Steel contains iron and is attracted."
+},
+{
+"topic": "Fun with Magnets",
+"level": 3,
+"type": "mcq",
+"q": "Which observation proves that an unknown metal bar is a magnet and not just a piece of iron?",
+"options": [
+"It is attracted by a known magnet",
+"It repels the north pole of a known magnet when one of its ends is brought near",
+"It sticks to a steel table",
+"It is heavy"
+],
+"answer": "B",
+"explanation": "Only a magnet can repel; iron is always attracted by either pole, so attraction alone does not prove it."
+},
+{
+"topic": "Fun with Magnets",
+"level": 2,
+"type": "short",
+"q": "State two properties of a magnet.",
+"answer": "A magnet attracts magnetic materials and has two poles. A freely suspended magnet settles in the north-south direction.",
+"keyPoints": [
+"Attracts magnetic materials",
+"Two poles or north-south direction"
+],
+"explanation": "These are basic properties of magnets."
+},
+{
+"topic": "Fun with Magnets",
+"level": 3,
+"type": "short",
+"q": "A compass needle is placed on a table far from any magnet. Why does it still settle in the north-south direction?",
+"answer": "The Earth behaves like a large magnet, so the needle, which is a small magnet, lines up with it.",
+"keyPoints": [
+"Earth acts like a magnet",
+"Needle aligns north-south"
+],
+"explanation": "A compass works because of the Earth's magnetism."
+}
+]
+}

@@ -1,0 +1,279 @@
+{
+"questions": [
+{
+"topic": "Fun with Magnets",
+"level": 1,
+"type": "mcq",
+"q": "Which of these objects is attracted by a bar magnet?",
+"options": [
+"A wooden spoon",
+"A plastic spoon",
+"A glass spoon",
+"A steel spoon"
+],
+"answer": "D",
+"explanation": "Steel contains iron, a magnetic material."
+},
+{
+"topic": "Fun with Magnets",
+"level": 1,
+"type": "mcq",
+"q": "The south pole of a magnet repels the",
+"options": [
+"North pole of another magnet",
+"Iron nail",
+"Steel pin",
+"South pole of another magnet"
+],
+"answer": "D",
+"explanation": "Like poles repel each other."
+},
+{
+"topic": "Fun with Magnets",
+"level": 1,
+"type": "mcq",
+"q": "Which of these is a shape in which magnets are commonly made?",
+"options": [
+"Cloud",
+"Rope",
+"Bar",
+"Powder only"
+],
+"answer": "C",
+"explanation": "Magnets are often made as bar, horseshoe or ring shapes."
+},
+{
+"topic": "Fun with Magnets",
+"level": 2,
+"type": "mcq",
+"q": "A horseshoe magnet has",
+"options": [
+"Only one pole",
+"Two poles at its ends",
+"No poles",
+"Poles only at the bend"
+],
+"answer": "B",
+"explanation": "A horseshoe magnet has a north and a south pole at its two ends."
+},
+{
+"topic": "Fun with Magnets",
+"level": 2,
+"type": "mcq",
+"q": "Which of the following will stick to a refrigerator magnet?",
+"options": [
+"A steel clip",
+"A paper note alone",
+"A plastic comb",
+"A wooden peg"
+],
+"answer": "A",
+"explanation": "A steel clip is magnetic."
+},
+{
+"topic": "Fun with Magnets",
+"level": 2,
+"type": "mcq",
+"q": "Magnetic materials are attracted by a magnet, while non-magnetic materials are",
+"options": [
+"Not attracted",
+"Also attracted",
+"Repelled only",
+"Made of iron"
+],
+"answer": "A",
+"explanation": "Non-magnetic materials do not respond to a magnet."
+},
+{
+"topic": "Fun with Magnets",
+"level": 3,
+"type": "mcq",
+"q": "A magnet is hung freely by a thread and one end points north. Another magnet's pole is brought near this end and the hanging magnet swings towards it. The pole brought near is",
+"options": [
+"A north pole",
+"Not a magnet",
+"Made of wood",
+"A south pole"
+],
+"answer": "D",
+"explanation": "The end that points north is a north pole, and it is attracted by a south pole."
+},
+{
+"topic": "Fun with Magnets",
+"level": 3,
+"type": "mcq",
+"q": "A paper clip is placed in a glass of water and a magnet is moved outside the glass. The clip moves. What does this show?",
+"options": [
+"Magnets cannot work through glass",
+"The clip floats",
+"Magnets can attract through glass and water",
+"Water is magnetic"
+],
+"answer": "C",
+"explanation": "The magnetic attraction passes through glass and water."
+},
+{
+"topic": "Fun with Magnets",
+"level": 2,
+"type": "short",
+"q": "Name two ways in which a magnet can lose its magnetism.",
+"answer": "A magnet loses its magnetism if it is heated strongly or hammered or dropped repeatedly.",
+"keyPoints": [
+"Heating",
+"Hammering or dropping"
+],
+"explanation": "These disturb the tiny magnetic parts."
+},
+{
+"topic": "Fun with Magnets",
+"level": 3,
+"type": "short",
+"q": "A student wants to separate iron and aluminium screws from a mixed pile. How can she do this?",
+"answer": "Move a magnet over the pile. The iron screws will stick to it, and the aluminium screws will stay behind.",
+"keyPoints": [
+"Use a magnet",
+"Iron sticks",
+"Aluminium not attracted"
+],
+"explanation": "Aluminium is non-magnetic."
+},
+{
+"topic": "Fun with Magnets",
+"level": 2,
+"type": "short",
+"q": "Why are bar magnets stored in pairs with a piece of soft iron called a keeper across the ends?",
+"answer": "The keepers help the magnets to keep their strength for a long time.",
+"keyPoints": [
+"Keepers used",
+"Keeps magnetism"
+],
+"explanation": "Proper storage prevents weakening."
+},
+{
+"topic": "Motion and Measurement of Distances",
+"level": 2,
+"type": "mcq",
+"q": "If one side of a square table is 80 cm, what is its length in metres?",
+"options": [
+"8 m",
+"0.8 m",
+"80 m",
+"0.08 m"
+],
+"answer": "B",
+"explanation": "80 divided by 100 = 0.8 m."
+},
+{
+"topic": "Motion and Measurement of Distances",
+"level": 1,
+"type": "mcq",
+"q": "The distance between two places is also called",
+"options": [
+"Time",
+"Length between them",
+"Mass",
+"Weight"
+],
+"answer": "B",
+"explanation": "Distance is a length."
+},
+{
+"topic": "Separation of Substances",
+"level": 2,
+"type": "mcq",
+"q": "A mixture of mustard oil and water can be separated by allowing it to stand and then",
+"options": [
+"Pouring off the upper oil layer",
+"Sieving",
+"Winnowing",
+"Threshing"
+],
+"answer": "A",
+"explanation": "Oil floats on water and can be separated by careful pouring."
+},
+{
+"topic": "Changes Around Us",
+"level": 2,
+"type": "mcq",
+"q": "Which of the following is a fast change?",
+"options": [
+"Rusting",
+"Growth of a tree",
+"Ripening of fruit",
+"Bursting of a firecracker"
+],
+"answer": "D",
+"explanation": "A firecracker bursts in a moment."
+},
+{
+"topic": "Components of Food",
+"level": 2,
+"type": "mcq",
+"q": "The disease rickets affects mainly the",
+"options": [
+"Eyes",
+"Gums",
+"Bones",
+"Skin only"
+],
+"answer": "C",
+"explanation": "Rickets makes the bones soft and bent."
+},
+{
+"topic": "Getting to Know Plants",
+"level": 2,
+"type": "mcq",
+"q": "Which part of a plant carries water from the roots upwards?",
+"options": [
+"Petals",
+"Sepals",
+"Stem",
+"Seeds"
+],
+"answer": "C",
+"explanation": "The stem has tubes that carry water upward."
+},
+{
+"topic": "Body Movements",
+"level": 2,
+"type": "mcq",
+"q": "The backbone is also known as the",
+"options": [
+"Rib cage",
+"Vertebral column",
+"Skull",
+"Pelvis"
+],
+"answer": "B",
+"explanation": "Another name for the backbone is vertebral column."
+},
+{
+"topic": "Sorting Materials into Groups",
+"level": 2,
+"type": "mcq",
+"q": "A substance that mixes with water to form a clear uniform liquid is called",
+"options": [
+"Soluble",
+"Insoluble",
+"Opaque",
+"Lustrous"
+],
+"answer": "A",
+"explanation": "It dissolves in water."
+},
+{
+"topic": "Electricity and Circuits",
+"level": 2,
+"type": "mcq",
+"q": "Which of the following is a safe habit?",
+"options": [
+"Touching switches with wet hands",
+"Poking wires with a knife",
+"Pulling the plug by the wire",
+"Switching off with dry hands"
+],
+"answer": "D",
+"explanation": "Dry hands and proper handling reduce shock risk."
+}
+]
+}

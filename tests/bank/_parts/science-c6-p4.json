@@ -1,0 +1,1234 @@
+{
+"questions": [
+{
+"topic": "Food: Where Does It Come From?",
+"level": 1,
+"type": "mcq",
+"q": "Which of the following is a fruit?",
+"options": [
+"Mango",
+"Cabbage",
+"Carrot",
+"Radish"
+],
+"answer": "A",
+"explanation": "A mango is the fruit of the mango tree."
+},
+{
+"topic": "Food: Where Does It Come From?",
+"level": 1,
+"type": "mcq",
+"q": "Which bird commonly gives us eggs for food?",
+"options": [
+"Eagle",
+"Owl",
+"Crow",
+"Hen"
+],
+"answer": "D",
+"explanation": "Hens are reared for eggs."
+},
+{
+"topic": "Food: Where Does It Come From?",
+"level": 2,
+"type": "mcq",
+"q": "Which group has only herbivores?",
+"options": [
+"Lion, tiger, cow",
+"Crow, dog, goat",
+"Tiger, deer, rabbit",
+"Cow, goat, deer"
+],
+"answer": "D",
+"explanation": "Cow, goat and deer eat only plants."
+},
+{
+"topic": "Food: Where Does It Come From?",
+"level": 2,
+"type": "mcq",
+"q": "Which of these is mainly eaten for its leaves?",
+"options": [
+"Potato",
+"Peas",
+"Cabbage",
+"Carrot"
+],
+"answer": "C",
+"explanation": "Cabbage is a bunch of leaves."
+},
+{
+"topic": "Food: Where Does It Come From?",
+"level": 3,
+"type": "mcq",
+"q": "Rani says honey is a plant food because bees collect it from flowers. Which reply is correct?",
+"options": [
+"Honey grows on plants",
+"Honey is an animal product because bees make it from nectar",
+"Honey is a vegetable",
+"Honey is a seed"
+],
+"answer": "B",
+"explanation": "Bees collect nectar and turn it into honey in their hives, so honey is made by an animal."
+},
+{
+"topic": "Food: Where Does It Come From?",
+"level": 2,
+"type": "short",
+"q": "What are cereals and pulses? Give two examples of each.",
+"answer": "Cereals are grains that give mainly carbohydrates, e.g. wheat and rice. Pulses are seeds rich in protein, e.g. moong and gram.",
+"keyPoints": [
+"Cereal examples",
+"Pulse examples",
+"Correct description"
+],
+"explanation": "Cereals and pulses are staple foods."
+},
+{
+"topic": "Food: Where Does It Come From?",
+"level": 3,
+"type": "short",
+"q": "Why are humans called omnivores?",
+"answer": "Humans can eat both plant foods such as vegetables and cereals and animal foods such as milk, eggs and meat.",
+"keyPoints": [
+"Eat plants",
+"Eat animal products"
+],
+"explanation": "Omnivores feed on both plants and animals."
+},
+{
+"topic": "Components of Food",
+"level": 1,
+"type": "mcq",
+"q": "Which food gives us roughage?",
+"options": [
+"Fruits and vegetables with fibre",
+"Pure sugar",
+"Oil",
+"Salt"
+],
+"answer": "A",
+"explanation": "Vegetables, fruits and whole grains are rich in fibre."
+},
+{
+"topic": "Components of Food",
+"level": 1,
+"type": "mcq",
+"q": "A disease caused by long-term lack of a nutrient is called a",
+"options": [
+"Deficiency disease",
+"Infectious disease",
+"Allergy",
+"Virus"
+],
+"answer": "A",
+"explanation": "Deficiency diseases occur when the diet lacks some nutrient."
+},
+{
+"topic": "Components of Food",
+"level": 2,
+"type": "mcq",
+"q": "Our skin makes vitamin D when exposed to",
+"options": [
+"Water",
+"Cold air",
+"Salt",
+"Sunlight"
+],
+"answer": "D",
+"explanation": "Sunlight helps the skin to make vitamin D."
+},
+{
+"topic": "Components of Food",
+"level": 2,
+"type": "mcq",
+"q": "A food gives a violet colour when copper sulphate and caustic soda solutions are added. It contains",
+"options": [
+"Starch",
+"Fat",
+"Protein",
+"Roughage"
+],
+"answer": "C",
+"explanation": "A violet colour shows the presence of protein."
+},
+{
+"topic": "Components of Food",
+"level": 3,
+"type": "mcq",
+"q": "In some hilly regions, many people have goitre. Which change in diet would help?",
+"options": [
+"Eating more sugar",
+"Using iodised salt",
+"Eating more oil",
+"Drinking less water"
+],
+"answer": "B",
+"explanation": "Iodised salt supplies iodine, preventing goitre."
+},
+{
+"topic": "Components of Food",
+"level": 2,
+"type": "short",
+"q": "Why do we need roughage though it gives no nutrients?",
+"answer": "Roughage adds bulk, helps move food through the gut and removes undigested waste, preventing constipation.",
+"keyPoints": [
+"Adds bulk",
+"Helps remove waste",
+"Prevents constipation"
+],
+"explanation": "Fibre helps the body get rid of undigested food."
+},
+{
+"topic": "Components of Food",
+"level": 3,
+"type": "short",
+"q": "A raw potato and a piece of paneer are tested with iodine solution. What result do you expect and why?",
+"answer": "The potato turns blue-black as it contains starch. The paneer does not change colour as it has mostly protein and fat, with no starch.",
+"keyPoints": [
+"Potato blue-black",
+"Paneer no change",
+"Starch only in potato"
+],
+"explanation": "Iodine tests only for starch."
+},
+{
+"topic": "Fibre to Fabric",
+"level": 1,
+"type": "mcq",
+"q": "Coir is obtained from the",
+"options": [
+"Cotton boll",
+"Coconut husk",
+"Silkworm",
+"Sheep"
+],
+"answer": "B",
+"explanation": "Coir fibre is obtained from the outer covering of coconut."
+},
+{
+"topic": "Fibre to Fabric",
+"level": 1,
+"type": "mcq",
+"q": "Which animal gives hair that is made into woollen yarn in hills?",
+"options": [
+"Yak",
+"Horse",
+"Elephant",
+"Crocodile"
+],
+"answer": "A",
+"explanation": "Yak hair is used for wool in hill regions."
+},
+{
+"topic": "Fibre to Fabric",
+"level": 2,
+"type": "mcq",
+"q": "In weaving, two sets of yarn are arranged",
+"options": [
+"Parallel only",
+"In a circle",
+"Randomly",
+"At right angles to each other"
+],
+"answer": "D",
+"explanation": "Warp and weft yarns cross at right angles."
+},
+{
+"topic": "Fibre to Fabric",
+"level": 2,
+"type": "mcq",
+"q": "The cotton boll is the",
+"options": [
+"Root of the plant",
+"Leaf of the plant",
+"Fruit of the cotton plant",
+"Seed of jute"
+],
+"answer": "C",
+"explanation": "The boll is the fruit that bursts open to show cotton fibres."
+},
+{
+"topic": "Fibre to Fabric",
+"level": 3,
+"type": "mcq",
+"q": "Which sequence for silk is correct?",
+"options": [
+"Silk cloth, yarn, cocoon",
+"Yarn, cocoon, cloth",
+"Cocoon, silk yarn, silk cloth",
+"Cloth, cocoon, yarn"
+],
+"answer": "C",
+"explanation": "The silk thread is unwound from the cocoon, turned into yarn and woven into cloth."
+},
+{
+"topic": "Fibre to Fabric",
+"level": 2,
+"type": "short",
+"q": "What is shearing? Does it harm the sheep?",
+"answer": "Shearing is removing the fleece of the sheep by cutting. It does not hurt the sheep since the hair is cut like our hair.",
+"keyPoints": [
+"Removal of fleece",
+"Does not harm the animal"
+],
+"explanation": "The wool is then cleaned and spun."
+},
+{
+"topic": "Fibre to Fabric",
+"level": 3,
+"type": "short",
+"q": "Coir is used for doormats and ropes. Which property of coir makes this suitable?",
+"answer": "Coir fibre is coarse and strong, so it can scrub dirt and bear pulling.",
+"keyPoints": [
+"Strong",
+"Coarse"
+],
+"explanation": "The use of a fibre depends on its properties."
+},
+{
+"topic": "Sorting Materials into Groups",
+"level": 1,
+"type": "mcq",
+"q": "Metals generally have a shine, which is known as",
+"options": [
+"Opacity",
+"Lustre",
+"Softness",
+"Float"
+],
+"answer": "B",
+"explanation": "Shining surface is called lustre."
+},
+{
+"topic": "Sorting Materials into Groups",
+"level": 1,
+"type": "mcq",
+"q": "Which of these is rough to touch?",
+"options": [
+"Sandpaper",
+"Glass",
+"Silk",
+"Mirror"
+],
+"answer": "A",
+"explanation": "Sandpaper has a rough surface."
+},
+{
+"topic": "Sorting Materials into Groups",
+"level": 2,
+"type": "mcq",
+"q": "Which of the following is translucent?",
+"options": [
+"Brick",
+"Iron sheet",
+"Clear glass",
+"Butter paper"
+],
+"answer": "D",
+"explanation": "Butter paper allows light but you cannot see clearly through it."
+},
+{
+"topic": "Sorting Materials into Groups",
+"level": 2,
+"type": "mcq",
+"q": "Which statement is correct?",
+"options": [
+"Each object is made of only one material",
+"Materials never change",
+"A chair can only be wood",
+"An object can be made of more than one material"
+],
+"answer": "D",
+"explanation": "A chair can have a metal frame and a plastic seat, for example."
+},
+{
+"topic": "Sorting Materials into Groups",
+"level": 3,
+"type": "mcq",
+"q": "A raincoat is made of plastic or rubber-coated cloth because",
+"options": [
+"They are heavy",
+"They dissolve in water",
+"Water does not pass through them easily",
+"They are lustrous"
+],
+"answer": "C",
+"explanation": "Waterproof materials keep the body dry."
+},
+{
+"topic": "Sorting Materials into Groups",
+"level": 2,
+"type": "short",
+"q": "What is lustre? Name two materials that show lustre.",
+"answer": "Lustre is the shining appearance of a surface. Metals such as gold and silver show it.",
+"keyPoints": [
+"Shine of the surface",
+"Two lustrous materials"
+],
+"explanation": "Lustre is a property of many metals."
+},
+{
+"topic": "Sorting Materials into Groups",
+"level": 3,
+"type": "short",
+"q": "Why are different materials used to make different objects? Give an example.",
+"answer": "Materials have different properties, so we pick the one that suits the use. For example, glass is used for windows as it is transparent, and iron for tools as it is hard.",
+"keyPoints": [
+"Properties differ",
+"Choice depends on use",
+"Correct example"
+],
+"explanation": "Properties decide use."
+},
+{
+"topic": "Separation of Substances",
+"level": 1,
+"type": "mcq",
+"q": "A mixture is",
+"options": [
+"A single pure substance",
+"Two or more substances mixed together",
+"Only a liquid",
+"Only a solid"
+],
+"answer": "B",
+"explanation": "A mixture contains more than one substance."
+},
+{
+"topic": "Separation of Substances",
+"level": 1,
+"type": "mcq",
+"q": "Sieving is used when the components of a mixture are of",
+"options": [
+"Different sizes",
+"The same size",
+"The same colour",
+"No size"
+],
+"answer": "A",
+"explanation": "Smaller particles pass through while larger remain."
+},
+{
+"topic": "Separation of Substances",
+"level": 2,
+"type": "mcq",
+"q": "Husk is separated from rice grains by",
+"options": [
+"Winnowing",
+"Evaporation",
+"Magnetism",
+"Condensation"
+],
+"answer": "A",
+"explanation": "Wind blows away the light husk."
+},
+{
+"topic": "Separation of Substances",
+"level": 2,
+"type": "mcq",
+"q": "Which method can separate sand from water?",
+"options": [
+"Winnowing",
+"Magnet",
+"Handpicking",
+"Filtration"
+],
+"answer": "D",
+"explanation": "Filter paper holds back the sand."
+},
+{
+"topic": "Separation of Substances",
+"level": 3,
+"type": "mcq",
+"q": "Which two steps together separate a mixture of sand and water without special tools?",
+"options": [
+"Winnowing and sieving",
+"Evaporation and sieving",
+"Sedimentation and decantation",
+"Threshing and magnet"
+],
+"answer": "C",
+"explanation": "Sand settles and the clear water is poured off."
+},
+{
+"topic": "Separation of Substances",
+"level": 2,
+"type": "short",
+"q": "Why is sieving useful? Give an example.",
+"answer": "It separates particles of different sizes, such as flour from bran or sand from gravel.",
+"keyPoints": [
+"Different sizes",
+"Example"
+],
+"explanation": "Sieves are used at home and on farms."
+},
+{
+"topic": "Separation of Substances",
+"level": 3,
+"type": "short",
+"q": "A mixture of rice and small gravel is given. Which method would you use and why?",
+"answer": "Handpicking, because the gravel pieces are visible and the quantity is small. A sieve could also be used if the sizes differ enough.",
+"keyPoints": [
+"Handpicking or sieving",
+"Reason linked to visibility or size"
+],
+"explanation": "Choose the method to suit the mixture."
+},
+{
+"topic": "Changes Around Us",
+"level": 1,
+"type": "mcq",
+"q": "A change that can be undone is called a",
+"options": [
+"Irreversible change",
+"Reversible change",
+"Permanent change",
+"Slow change"
+],
+"answer": "B",
+"explanation": "Reversible changes can be changed back."
+},
+{
+"topic": "Changes Around Us",
+"level": 1,
+"type": "mcq",
+"q": "Rust on iron is",
+"options": [
+"Black and shiny",
+"Reddish-brown",
+"Blue",
+"Green"
+],
+"answer": "B",
+"explanation": "Rust is a reddish-brown flaky coating."
+},
+{
+"topic": "Changes Around Us",
+"level": 2,
+"type": "mcq",
+"q": "Tearing a sheet of paper into pieces is",
+"options": [
+"Irreversible",
+"Reversible",
+"A change of state",
+"Rusting"
+],
+"answer": "A",
+"explanation": "Torn pieces cannot be made into the original sheet."
+},
+{
+"topic": "Changes Around Us",
+"level": 2,
+"type": "mcq",
+"q": "Which of the following is reversible?",
+"options": [
+"Cooking an egg",
+"Burning wood",
+"Making curd",
+"Folding and unfolding a sheet of paper"
+],
+"answer": "D",
+"explanation": "The paper can be folded and unfolded again."
+},
+{
+"topic": "Changes Around Us",
+"level": 3,
+"type": "mcq",
+"q": "Water drops form on the inside of a lid covering a pan of boiling water. This shows",
+"options": [
+"Freezing of water",
+"Rusting",
+"Condensation of water vapour",
+"Burning"
+],
+"answer": "C",
+"explanation": "Vapour cools on the lid and turns to liquid."
+},
+{
+"topic": "Changes Around Us",
+"level": 2,
+"type": "short",
+"q": "What is rusting? State what is needed for it.",
+"answer": "Rusting is the formation of a reddish-brown layer on iron when it is exposed to air and moisture.",
+"keyPoints": [
+"Reddish-brown coating on iron",
+"Needs air and water"
+],
+"explanation": "Rust weakens iron."
+},
+{
+"topic": "Changes Around Us",
+"level": 3,
+"type": "short",
+"q": "Is dissolving sugar in water a reversible change? Explain.",
+"answer": "Yes, sugar can be recovered by evaporating the water, so the change can be reversed.",
+"keyPoints": [
+"Reversible",
+"Evaporate water to recover sugar"
+],
+"explanation": "No new substance is made."
+},
+{
+"topic": "Getting to Know Plants",
+"level": 1,
+"type": "mcq",
+"q": "Mint is a",
+"options": [
+"Tree",
+"Big shrub",
+"Herb",
+"Climber"
+],
+"answer": "C",
+"explanation": "Mint is a small plant with a soft green stem."
+},
+{
+"topic": "Getting to Know Plants",
+"level": 1,
+"type": "mcq",
+"q": "Which part of the plant holds it in the soil?",
+"options": [
+"Leaf",
+"Root",
+"Flower",
+"Fruit"
+],
+"answer": "B",
+"explanation": "Roots anchor the plant."
+},
+{
+"topic": "Getting to Know Plants",
+"level": 2,
+"type": "mcq",
+"q": "Transpiration helps the plant by",
+"options": [
+"Removing excess water and cooling the plant",
+"Making flowers",
+"Making seeds",
+"Making roots"
+],
+"answer": "A",
+"explanation": "Water vapour lost through stomata cools the plant and helps water rise."
+},
+{
+"topic": "Getting to Know Plants",
+"level": 2,
+"type": "mcq",
+"q": "Food in plants is mainly made in the",
+"options": [
+"Roots",
+"Stem",
+"Flower buds",
+"Leaves"
+],
+"answer": "D",
+"explanation": "Leaves contain chlorophyll and do photosynthesis."
+},
+{
+"topic": "Getting to Know Plants",
+"level": 3,
+"type": "mcq",
+"q": "A potted plant is covered with a clear polythene bag and kept in sunlight. After some time water drops appear inside the bag. This is due to",
+"options": [
+"Rain",
+"Photosynthesis only",
+"Wind",
+"Transpiration by the plant"
+],
+"answer": "D",
+"explanation": "Water vapour lost by the leaves condenses inside the bag."
+},
+{
+"topic": "Getting to Know Plants",
+"level": 2,
+"type": "short",
+"q": "Name three types of plants based on their stems and give one example for each.",
+"answer": "Herbs (mint), shrubs (rose) and trees (mango).",
+"keyPoints": [
+"Herb, shrub, tree",
+"Example for each"
+],
+"explanation": "Stem size and nature are used to classify plants."
+},
+{
+"topic": "Getting to Know Plants",
+"level": 3,
+"type": "short",
+"q": "How does a flower help a plant to produce seeds?",
+"answer": "Pollen from the stamen reaches the pistil, fertilisation takes place and the ovules develop into seeds while the ovary becomes the fruit.",
+"keyPoints": [
+"Pollen reaches the pistil",
+"Fertilisation",
+"Seeds and fruit form"
+],
+"explanation": "Flowers are reproductive parts."
+},
+{
+"topic": "Body Movements",
+"level": 1,
+"type": "mcq",
+"q": "The place where two bones meet is called a",
+"options": [
+"Muscle",
+"Skin",
+"Joint",
+"Gap"
+],
+"answer": "C",
+"explanation": "Bones are connected at joints."
+},
+{
+"topic": "Body Movements",
+"level": 1,
+"type": "mcq",
+"q": "The tip of the nose can be bent because it has",
+"options": [
+"Hard bone",
+"Cartilage",
+"Fixed joints",
+"Rib"
+],
+"answer": "B",
+"explanation": "Cartilage is flexible."
+},
+{
+"topic": "Body Movements",
+"level": 2,
+"type": "mcq",
+"q": "The leg can bend backward at the knee but not forward because the knee is a",
+"options": [
+"Hinge joint",
+"Fixed joint",
+"Ball and socket joint",
+"Pivotal joint"
+],
+"answer": "A",
+"explanation": "A hinge joint moves in only one direction."
+},
+{
+"topic": "Body Movements",
+"level": 2,
+"type": "mcq",
+"q": "The backbone is made up of many small bones, which allows us to",
+"options": [
+"Bend and twist",
+"Fly",
+"Hear",
+"Breathe water"
+],
+"answer": "A",
+"explanation": "Many small bones with joints between them permit bending."
+},
+{
+"topic": "Body Movements",
+"level": 3,
+"type": "mcq",
+"q": "If the knee joint of a person became fixed, what would be most affected?",
+"options": [
+"Hearing",
+"Breathing",
+"Seeing",
+"Walking and sitting"
+],
+"answer": "D",
+"explanation": "Walking and bending the leg need a movable knee."
+},
+{
+"topic": "Body Movements",
+"level": 2,
+"type": "short",
+"q": "Explain how a snail moves.",
+"answer": "A snail has a muscular foot. It glides forward on a slimy layer by waves of muscle movement.",
+"keyPoints": [
+"Muscular foot",
+"Glides on slime"
+],
+"explanation": "Snails have no limbs."
+},
+{
+"topic": "Body Movements",
+"level": 3,
+"type": "short",
+"q": "Why can we not bend our elbow backwards?",
+"answer": "The elbow is a hinge joint, which allows movement in only one direction.",
+"keyPoints": [
+"Hinge joint",
+"One direction movement"
+],
+"explanation": "Joint structure decides range of movement."
+},
+{
+"topic": "Living Organisms and Their Surroundings",
+"level": 1,
+"type": "mcq",
+"q": "A fish lives in",
+"options": [
+"Desert",
+"Forest floor",
+"Water",
+"Air"
+],
+"answer": "C",
+"explanation": "Fish live in water."
+},
+{
+"topic": "Living Organisms and Their Surroundings",
+"level": 1,
+"type": "mcq",
+"q": "Which of these is a characteristic of living things?",
+"options": [
+"They stay the same size forever",
+"They grow",
+"They are all green",
+"They never need air"
+],
+"answer": "B",
+"explanation": "Growth is a feature of living things."
+},
+{
+"topic": "Living Organisms and Their Surroundings",
+"level": 2,
+"type": "mcq",
+"q": "The leaves of the touch-me-not plant fold when touched. This shows that plants",
+"options": [
+"Are not alive",
+"Respond to stimuli",
+"Make food",
+"Breathe air"
+],
+"answer": "B",
+"explanation": "Response to touch is a response to a stimulus."
+},
+{
+"topic": "Living Organisms and Their Surroundings",
+"level": 2,
+"type": "mcq",
+"q": "Yaks living in cold mountain regions have",
+"options": [
+"Thick hairy coats",
+"Thin skin",
+"Wings",
+"Gills"
+],
+"answer": "A",
+"explanation": "A thick coat protects them from cold."
+},
+{
+"topic": "Living Organisms and Their Surroundings",
+"level": 3,
+"type": "mcq",
+"q": "Which is an adaptation of desert plants?",
+"options": [
+"Large, thin leaves",
+"Floating leaves",
+"Many roots on the stem",
+"Waxy coating on stems that reduces water loss"
+],
+"answer": "D",
+"explanation": "A waxy covering reduces loss of water."
+},
+{
+"topic": "Living Organisms and Their Surroundings",
+"level": 2,
+"type": "short",
+"q": "What is adaptation? Give one example from a bird or an animal.",
+"answer": "Adaptation is a special feature that helps an organism live in its habitat. For example, a fish has gills to breathe in water.",
+"keyPoints": [
+"Feature suited to habitat",
+"Correct example"
+],
+"explanation": "Adaptations help survival."
+},
+{
+"topic": "Living Organisms and Their Surroundings",
+"level": 3,
+"type": "short",
+"q": "Why can a polar bear not live in a hot desert?",
+"answer": "Its thick fur and fat suit cold regions; in a hot desert it would overheat and would not find the food it eats.",
+"keyPoints": [
+"Adapted to cold",
+"Would overheat in desert"
+],
+"explanation": "Organisms are adapted to specific habitats."
+},
+{
+"topic": "Motion and Measurement of Distances",
+"level": 1,
+"type": "mcq",
+"q": "Motion means a change in",
+"options": [
+"Colour",
+"Mass",
+"Position",
+"Size"
+],
+"answer": "C",
+"explanation": "An object moves when its position changes with time."
+},
+{
+"topic": "Motion and Measurement of Distances",
+"level": 1,
+"type": "mcq",
+"q": "Which instrument is used to measure the length of a book?",
+"options": [
+"Beaker",
+"Clock",
+"Metre scale",
+"Balance"
+],
+"answer": "C",
+"explanation": "A scale measures length."
+},
+{
+"topic": "Motion and Measurement of Distances",
+"level": 2,
+"type": "mcq",
+"q": "5 km is equal to",
+"options": [
+"50 m",
+"5000 m",
+"500 m",
+"50000 m"
+],
+"answer": "B",
+"explanation": "5 x 1000 = 5000 m."
+},
+{
+"topic": "Motion and Measurement of Distances",
+"level": 2,
+"type": "mcq",
+"q": "The motion of a car on a straight road is called",
+"options": [
+"Rectilinear",
+"Periodic",
+"Circular",
+"Oscillatory"
+],
+"answer": "A",
+"explanation": "Straight-line motion is rectilinear."
+},
+{
+"topic": "Motion and Measurement of Distances",
+"level": 3,
+"type": "mcq",
+"q": "A person sits in a moving train and says her seat is not moving. Which is a correct view?",
+"options": [
+"The seat is not at rest in any way",
+"The train is not moving",
+"Rest and motion are the same",
+"The seat is at rest compared to her but moving compared to the ground"
+],
+"answer": "D",
+"explanation": "Rest and motion depend on the observer or reference."
+},
+{
+"topic": "Motion and Measurement of Distances",
+"level": 2,
+"type": "short",
+"q": "Name three types of motion with an example of each.",
+"answer": "Rectilinear: a car on a straight road. Circular: a stone whirled on a string. Periodic: a swing.",
+"keyPoints": [
+"Three types",
+"Example for each"
+],
+"explanation": "Motion is classified by path."
+},
+{
+"topic": "Motion and Measurement of Distances",
+"level": 3,
+"type": "short",
+"q": "Two children measure the length of a desk by their foot lengths and get different numbers. Explain and suggest a solution.",
+"answer": "Their feet are different sizes, so the numbers differ. They should use a standard unit such as the metre scale.",
+"keyPoints": [
+"Foot lengths differ",
+"Use standard unit"
+],
+"explanation": "Standard units give uniform results."
+},
+{
+"topic": "Light, Shadows and Reflections",
+"level": 1,
+"type": "mcq",
+"q": "Which of these is a source of light?",
+"options": [
+"Chair",
+"Table",
+"Book",
+"Electric bulb"
+],
+"answer": "D",
+"explanation": "An electric bulb gives its own light."
+},
+{
+"topic": "Light, Shadows and Reflections",
+"level": 1,
+"type": "mcq",
+"q": "Opaque objects",
+"options": [
+"Let all light pass",
+"Are always shiny",
+"Allow no light to pass through",
+"Are always transparent"
+],
+"answer": "C",
+"explanation": "They block light."
+},
+{
+"topic": "Light, Shadows and Reflections",
+"level": 2,
+"type": "mcq",
+"q": "The shadow of an object is sharpest when the light source is",
+"options": [
+"Large and far",
+"Small and bright",
+"Very dim",
+"Behind the screen"
+],
+"answer": "B",
+"explanation": "A small bright source gives a well-defined shadow."
+},
+{
+"topic": "Light, Shadows and Reflections",
+"level": 2,
+"type": "mcq",
+"q": "In a pinhole camera the hole should be",
+"options": [
+"Small",
+"Very large",
+"Closed",
+"Square only"
+],
+"answer": "A",
+"explanation": "A small hole gives a clearer image."
+},
+{
+"topic": "Light, Shadows and Reflections",
+"level": 3,
+"type": "mcq",
+"q": "The Moon appears bright at night because",
+"options": [
+"It reflects light from the Sun",
+"It makes its own light",
+"It is a star",
+"It is a mirror made by people"
+],
+"answer": "A",
+"explanation": "The Moon is non-luminous and reflects sunlight."
+},
+{
+"topic": "Light, Shadows and Reflections",
+"level": 2,
+"type": "short",
+"q": "Differentiate luminous and non-luminous objects with examples.",
+"answer": "Luminous objects give out their own light, such as the Sun. Non-luminous objects do not, such as a table.",
+"keyPoints": [
+"Luminous give light",
+"Non-luminous do not",
+"Examples"
+],
+"explanation": "We see non-luminous objects by reflected light."
+},
+{
+"topic": "Light, Shadows and Reflections",
+"level": 3,
+"type": "short",
+"q": "Why are shadows shortest around noon?",
+"answer": "At noon the Sun is almost overhead, so light falls nearly straight down and shadows are short.",
+"keyPoints": [
+"Sun overhead at noon",
+"Light falls straight",
+"Short shadow"
+],
+"explanation": "Shadow length depends on the Sun's height."
+},
+{
+"topic": "Electricity and Circuits",
+"level": 1,
+"type": "mcq",
+"q": "Electric current flows only in a",
+"options": [
+"Broken circuit",
+"Dark room",
+"Cold room",
+"Closed circuit"
+],
+"answer": "D",
+"explanation": "A complete path is needed."
+},
+{
+"topic": "Electricity and Circuits",
+"level": 1,
+"type": "mcq",
+"q": "A battery is",
+"options": [
+"One bulb",
+"A switch",
+"Two or more cells connected",
+"A wire"
+],
+"answer": "C",
+"explanation": "Cells together form a battery."
+},
+{
+"topic": "Electricity and Circuits",
+"level": 2,
+"type": "mcq",
+"q": "The glass of a bulb",
+"options": [
+"Conducts electricity",
+"Does not allow current to pass but allows light",
+"Makes the filament",
+"Is a metal"
+],
+"answer": "B",
+"explanation": "Glass is an insulator and transparent."
+},
+{
+"topic": "Electricity and Circuits",
+"level": 2,
+"type": "mcq",
+"q": "For experiments in school, which source of electricity should never be used?",
+"options": [
+"A single cell",
+"Mains electricity",
+"Two cells",
+"A small battery"
+],
+"answer": "B",
+"explanation": "Mains electricity can cause serious shocks."
+},
+{
+"topic": "Electricity and Circuits",
+"level": 3,
+"type": "mcq",
+"q": "In a circuit, a student uses an iron nail instead of a switch to close the gap. What happens?",
+"options": [
+"The bulb lights because iron is a conductor",
+"The bulb stays off",
+"The bulb breaks",
+"The cell becomes bigger"
+],
+"answer": "A",
+"explanation": "The nail is a conductor and completes the circuit."
+},
+{
+"topic": "Electricity and Circuits",
+"level": 2,
+"type": "short",
+"q": "Why does a bulb not glow when the circuit has a gap?",
+"answer": "The gap breaks the path, so no electric current flows to the filament.",
+"keyPoints": [
+"Gap breaks circuit",
+"No current"
+],
+"explanation": "A complete path is needed for current."
+},
+{
+"topic": "Electricity and Circuits",
+"level": 3,
+"type": "short",
+"q": "Why are cells used for experiments rather than the electricity from the wall socket?",
+"answer": "Cells give a small, safe voltage, but mains electricity can cause fatal electric shocks.",
+"keyPoints": [
+"Cells are safe",
+"Mains is dangerous"
+],
+"explanation": "Safety matters in experiments."
+},
+{
+"topic": "Fun with Magnets",
+"level": 1,
+"type": "mcq",
+"q": "Magnets attract",
+"options": [
+"All materials",
+"Only wood",
+"Only plastic",
+"Magnetic materials"
+],
+"answer": "D",
+"explanation": "Only some materials are magnetic."
+},
+{
+"topic": "Fun with Magnets",
+"level": 1,
+"type": "mcq",
+"q": "A compass is used to find",
+"options": [
+"Time",
+"Weight",
+"Direction",
+"Temperature"
+],
+"answer": "C",
+"explanation": "It points north-south."
+},
+{
+"topic": "Fun with Magnets",
+"level": 2,
+"type": "mcq",
+"q": "Old sailors used a magnetic needle on the sea to",
+"options": [
+"Find fish",
+"Measure depth",
+"Find their direction",
+"Find islands"
+],
+"answer": "C",
+"explanation": "The needle points north-south, helping them navigate."
+},
+{
+"topic": "Fun with Magnets",
+"level": 2,
+"type": "mcq",
+"q": "If you cut a bar magnet in two, can you get a piece with only a north pole?",
+"options": [
+"Yes",
+"No, each piece has two poles",
+"Yes, if cut at the middle",
+"Yes, if heated"
+],
+"answer": "B",
+"explanation": "Poles cannot be separated."
+},
+{
+"topic": "Fun with Magnets",
+"level": 3,
+"type": "mcq",
+"q": "A bar magnet is placed on a floating piece of cork in a bowl of water. It turns and settles. In which direction does it point?",
+"options": [
+"North-south",
+"Randomly",
+"East-west",
+"Up-down"
+],
+"answer": "A",
+"explanation": "A free magnet aligns north-south."
+},
+{
+"topic": "Fun with Magnets",
+"level": 2,
+"type": "short",
+"q": "Name three magnetic and three non-magnetic materials.",
+"answer": "Magnetic: iron, nickel, cobalt. Non-magnetic: wood, plastic, rubber.",
+"keyPoints": [
+"Three magnetic",
+"Three non-magnetic"
+],
+"explanation": "Only iron, nickel and cobalt and their alloys are magnetic."
+},
+{
+"topic": "Fun with Magnets",
+"level": 3,
+"type": "short",
+"q": "How can you show that like poles repel?",
+"answer": "Hang a bar magnet freely and bring the north pole of another magnet close to its north pole. The hanging magnet is pushed away.",
+"keyPoints": [
+"Free magnet",
+"Same poles brought close",
+"Repulsion seen"
+],
+"explanation": "Like poles repel and unlike poles attract."
+}
+]
+}

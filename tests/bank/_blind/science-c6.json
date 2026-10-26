@@ -1,0 +1,5441 @@
+{
+ "class": 6,
+ "subject": "science",
+ "items": [
+  {
+   "id": "science-c6-001",
+   "type": "mcq",
+   "q": "Which of the following is a root that we eat as a vegetable?",
+   "options": [
+    "Carrot",
+    "Spinach",
+    "Cauliflower",
+    "Peas"
+   ]
+  },
+  {
+   "id": "science-c6-002",
+   "type": "mcq",
+   "q": "Honey is a food that we get from which animal?",
+   "options": [
+    "Ants",
+    "Butterflies",
+    "Wasps",
+    "Bees"
+   ]
+  },
+  {
+   "id": "science-c6-003",
+   "type": "mcq",
+   "q": "An animal that eats only plants is called a",
+   "options": [
+    "Carnivore",
+    "Omnivore",
+    "Herbivore",
+    "Scavenger"
+   ]
+  },
+  {
+   "id": "science-c6-004",
+   "type": "mcq",
+   "q": "Which group contains only foods that come from animals?",
+   "options": [
+    "Milk, wheat, egg",
+    "Egg, honey, milk",
+    "Honey, rice, curd",
+    "Fish, potato, butter"
+   ]
+  },
+  {
+   "id": "science-c6-005",
+   "type": "mcq",
+   "q": "A student eats a salad containing tomato slices, spinach leaves and sprouted moong. Which plant parts is the student eating?",
+   "options": [
+    "Root, stem and flower",
+    "Fruit, leaves and seeds",
+    "Fruit, stem and root",
+    "Leaves, flowers and roots"
+   ]
+  },
+  {
+   "id": "science-c6-006",
+   "type": "mcq",
+   "q": "Which of these animals is an omnivore?",
+   "options": [
+    "Crow",
+    "Lion",
+    "Deer",
+    "Rabbit"
+   ]
+  },
+  {
+   "id": "science-c6-007",
+   "type": "mcq",
+   "q": "All food that we eat can be traced back to plants in some way. Which reasoning best supports this statement?",
+   "options": [
+    "Plants are bigger than animals",
+    "Animals can live without food",
+    "Plants make milk and eggs directly",
+    "Animals such as cows and hens depend on plants for their own food, so milk and eggs come indirectly from plants"
+   ]
+  },
+  {
+   "id": "science-c6-008",
+   "type": "mcq",
+   "q": "A farmer finds that a field of wheat has been eaten by deer, and a hunter later kills the deer for meat. Which sequence shows the correct flow of food?",
+   "options": [
+    "Deer, wheat, hunter",
+    "Hunter, deer, wheat",
+    "Wheat, deer, hunter",
+    "Wheat, hunter, deer"
+   ]
+  },
+  {
+   "id": "science-c6-009",
+   "type": "short",
+   "q": "Give three examples of foods we get from plants, each from a different plant part, and name the part.",
+   "proposedAnswer": "Carrot is a root, spinach is a leaf and mango is a fruit.",
+   "keyPoints": [
+    "Three different plant parts named",
+    "Each example correctly matched to its part",
+    "Examples are edible plant foods"
+   ]
+  },
+  {
+   "id": "science-c6-010",
+   "type": "short",
+   "q": "Explain the difference between a herbivore, a carnivore and an omnivore with one example of each.",
+   "proposedAnswer": "A herbivore eats only plants (cow), a carnivore eats only other animals (lion) and an omnivore eats both plants and animals (crow or human).",
+   "keyPoints": [
+    "Herbivore: only plants",
+    "Carnivore: only animals",
+    "Omnivore: both",
+    "One correct example each"
+   ]
+  },
+  {
+   "id": "science-c6-011",
+   "type": "mcq",
+   "q": "Which nutrient is called the body-building nutrient?",
+   "options": [
+    "Carbohydrates",
+    "Fats",
+    "Proteins",
+    "Vitamins"
+   ]
+  },
+  {
+   "id": "science-c6-012",
+   "type": "mcq",
+   "q": "The deficiency of which mineral causes a swelling in the neck called goitre?",
+   "options": [
+    "Iron",
+    "Iodine",
+    "Calcium",
+    "Sodium"
+   ]
+  },
+  {
+   "id": "science-c6-013",
+   "type": "mcq",
+   "q": "Which chemical is used to test for the presence of starch in food?",
+   "options": [
+    "Iodine solution",
+    "Copper sulphate",
+    "Caustic soda",
+    "Lime water"
+   ]
+  },
+  {
+   "id": "science-c6-014",
+   "type": "mcq",
+   "q": "A drop of dilute iodine solution is put on a boiled potato slice and it turns blue-black. What does this show?",
+   "options": [
+    "The potato contains protein",
+    "The potato contains fat",
+    "The potato contains vitamins",
+    "The potato contains starch"
+   ]
+  },
+  {
+   "id": "science-c6-015",
+   "type": "mcq",
+   "q": "Rickets, in which bones become soft and bent, is caused by lack of",
+   "options": [
+    "Vitamin A",
+    "Vitamin C",
+    "Vitamin B",
+    "Vitamin D"
+   ]
+  },
+  {
+   "id": "science-c6-016",
+   "type": "mcq",
+   "q": "Why is roughage important in our diet even though it gives no nutrients?",
+   "options": [
+    "It gives a lot of energy",
+    "It builds muscles",
+    "It helps the body to get rid of undigested food",
+    "It protects against night blindness"
+   ]
+  },
+  {
+   "id": "science-c6-017",
+   "type": "mcq",
+   "q": "A child eats only rice and potatoes every day. Which problem is most likely to occur over a long time?",
+   "options": [
+    "Too much protein",
+    "Lack of proteins and vitamins, leading to deficiency",
+    "Extra roughage",
+    "Too many minerals"
+   ]
+  },
+  {
+   "id": "science-c6-018",
+   "type": "mcq",
+   "q": "A person who lives indoors and rarely goes into sunlight is more likely to have weak bones. What is the best explanation?",
+   "options": [
+    "The body makes vitamin D in sunlight, and this helps bones",
+    "Sunlight gives calcium directly",
+    "Sunlight turns proteins into fats",
+    "Sunlight cures goitre"
+   ]
+  },
+  {
+   "id": "science-c6-019",
+   "type": "short",
+   "q": "What is a balanced diet? Why should it include fruits and vegetables?",
+   "proposedAnswer": "A balanced diet has all the nutrients in the right amounts. Fruits and vegetables supply vitamins, minerals and roughage.",
+   "keyPoints": [
+    "All nutrients in proper amounts",
+    "Fruits and vegetables give vitamins and minerals",
+    "They also give roughage"
+   ]
+  },
+  {
+   "id": "science-c6-020",
+   "type": "short",
+   "q": "Describe how you would test whether a piece of paper that was rubbed with a food item contains fat.",
+   "proposedAnswer": "Rub the food on a piece of paper and let it dry. If an oily patch that lets light pass through remains, the food contains fat.",
+   "keyPoints": [
+    "Rub food on paper",
+    "Allow to dry",
+    "Oily patch shows fat"
+   ]
+  },
+  {
+   "id": "science-c6-021",
+   "type": "mcq",
+   "q": "Cotton fibre is obtained from which part of the cotton plant?",
+   "options": [
+    "Cotton boll",
+    "Stem",
+    "Root",
+    "Leaf"
+   ]
+  },
+  {
+   "id": "science-c6-022",
+   "type": "mcq",
+   "q": "Which fibre is obtained from the stem of a plant?",
+   "options": [
+    "Cotton",
+    "Silk",
+    "Wool",
+    "Jute"
+   ]
+  },
+  {
+   "id": "science-c6-023",
+   "type": "mcq",
+   "q": "The process of making yarn from fibres is called",
+   "options": [
+    "Weaving",
+    "Knitting",
+    "Spinning",
+    "Ginning"
+   ]
+  },
+  {
+   "id": "science-c6-024",
+   "type": "mcq",
+   "q": "Combing cotton to separate seeds from the fibres is called",
+   "options": [
+    "Spinning",
+    "Ginning",
+    "Dyeing",
+    "Weaving"
+   ]
+  },
+  {
+   "id": "science-c6-025",
+   "type": "mcq",
+   "q": "Silk fibre is obtained from the",
+   "options": [
+    "Fur of a rabbit",
+    "Cocoon of a silkworm",
+    "Hair of a sheep",
+    "Seeds of a plant"
+   ]
+  },
+  {
+   "id": "science-c6-026",
+   "type": "mcq",
+   "q": "Yarn is made into fabric by",
+   "options": [
+    "Weaving or knitting",
+    "Ginning or sieving",
+    "Retting or shearing",
+    "Winnowing or threshing"
+   ]
+  },
+  {
+   "id": "science-c6-027",
+   "type": "mcq",
+   "q": "A cotton shirt is comfortable in summer but a woollen sweater is worn in winter. Which statement best explains why?",
+   "options": [
+    "Wool absorbs sweat and cotton traps air",
+    "Cotton is a synthetic fibre",
+    "Wool is cooler than cotton",
+    "Cotton absorbs sweat and lets it dry, while wool traps air and keeps the body warm"
+   ]
+  },
+  {
+   "id": "science-c6-028",
+   "type": "mcq",
+   "q": "After a sheep is shorn, the wool is not directly turned into yarn. Which step must come first?",
+   "options": [
+    "Weaving it",
+    "Ginning it",
+    "Cleaning it and removing dirt and grease",
+    "Retting it"
+   ]
+  },
+  {
+   "id": "science-c6-029",
+   "type": "short",
+   "q": "Name two animals from which wool is obtained, and two uses of wool.",
+   "proposedAnswer": "Sheep and goat give wool, which is used to make sweaters and shawls.",
+   "keyPoints": [
+    "Two correct animals such as sheep, goat, yak or camel",
+    "Two uses such as sweaters and blankets"
+   ]
+  },
+  {
+   "id": "science-c6-030",
+   "type": "short",
+   "q": "Describe the steps that turn raw cotton into a cotton shirt.",
+   "proposedAnswer": "Cotton is picked and ginned to remove seeds, spun into yarn, woven or knitted into cloth, and then cut and stitched.",
+   "keyPoints": [
+    "Picking and ginning",
+    "Spinning into yarn",
+    "Weaving or knitting into fabric",
+    "Stitching into a shirt"
+   ]
+  },
+  {
+   "id": "science-c6-031",
+   "type": "mcq",
+   "q": "Which of these materials is transparent?",
+   "options": [
+    "Wood",
+    "Cardboard",
+    "Glass",
+    "Iron"
+   ]
+  },
+  {
+   "id": "science-c6-032",
+   "type": "mcq",
+   "q": "The shine on the surface of metals is called",
+   "options": [
+    "Opacity",
+    "Lustre",
+    "Solubility",
+    "Hardness"
+   ]
+  },
+  {
+   "id": "science-c6-033",
+   "type": "mcq",
+   "q": "Which of these dissolves in water?",
+   "options": [
+    "Sugar",
+    "Sand",
+    "Chalk powder",
+    "Sawdust"
+   ]
+  },
+  {
+   "id": "science-c6-034",
+   "type": "mcq",
+   "q": "Through an oiled sheet of paper you can see objects, but not clearly. This paper is",
+   "options": [
+    "Transparent",
+    "Opaque",
+    "Lustrous",
+    "Translucent"
+   ]
+  },
+  {
+   "id": "science-c6-035",
+   "type": "mcq",
+   "q": "Which pair contains one object that sinks and one that floats in water?",
+   "options": [
+    "Cork and wood",
+    "Iron nail and stone",
+    "Plastic cap and a leaf",
+    "Iron nail and a cork"
+   ]
+  },
+  {
+   "id": "science-c6-036",
+   "type": "mcq",
+   "q": "Water and mustard oil, when mixed and left alone, form two layers. This shows that oil is",
+   "options": [
+    "Soluble in water",
+    "Transparent",
+    "Insoluble and does not mix with water",
+    "A solid"
+   ]
+  },
+  {
+   "id": "science-c6-037",
+   "type": "mcq",
+   "q": "A window of a bathroom is made of frosted glass. Why is it chosen rather than clear glass?",
+   "options": [
+    "It is opaque and lets in no light",
+    "It is translucent, letting in light but preventing clear view from outside",
+    "It is lustrous",
+    "It is soluble in water"
+   ]
+  },
+  {
+   "id": "science-c6-038",
+   "type": "mcq",
+   "q": "A cooking pan has a metal body and a plastic handle. Which reason best explains the choice of handle?",
+   "options": [
+    "Plastic does not let heat pass through easily, so the handle stays cool to hold",
+    "Plastic is more lustrous",
+    "Plastic is heavier than metal",
+    "Plastic dissolves in water"
+   ]
+  },
+  {
+   "id": "science-c6-039",
+   "type": "short",
+   "q": "Define transparent, translucent and opaque materials and give an example of each.",
+   "proposedAnswer": "Transparent materials let light pass so that we can see clearly through them (glass). Translucent materials let some light pass (butter paper). Opaque materials let no light pass (wood).",
+   "keyPoints": [
+    "Transparent: see clearly",
+    "Translucent: see blurred",
+    "Opaque: cannot see through",
+    "One example each"
+   ]
+  },
+  {
+   "id": "science-c6-040",
+   "type": "short",
+   "q": "A stone, a cork, an iron nail and a wooden spoon are placed in water. Which will sink and which will float? What does this tell us about materials?",
+   "proposedAnswer": "The stone and iron nail sink; the cork and wooden spoon float. Some materials are heavier for their size than water and sink, others float.",
+   "keyPoints": [
+    "Stone and nail sink",
+    "Cork and wood float",
+    "Materials differ in whether they sink or float"
+   ]
+  },
+  {
+   "id": "science-c6-041",
+   "type": "mcq",
+   "q": "Separating grains from their stalks is called",
+   "options": [
+    "Threshing",
+    "Sieving",
+    "Filtration",
+    "Winnowing"
+   ]
+  },
+  {
+   "id": "science-c6-042",
+   "type": "mcq",
+   "q": "Winnowing is used to separate",
+   "options": [
+    "Sand from water",
+    "Salt from water",
+    "Iron from sand",
+    "Heavier and lighter components of a mixture using wind"
+   ]
+  },
+  {
+   "id": "science-c6-043",
+   "type": "mcq",
+   "q": "Common salt is obtained from sea water by",
+   "options": [
+    "Filtration",
+    "Sieving",
+    "Evaporation",
+    "Handpicking"
+   ]
+  },
+  {
+   "id": "science-c6-044",
+   "type": "mcq",
+   "q": "Which method can separate wheat flour from larger pieces of bran?",
+   "options": [
+    "Evaporation",
+    "Sieving",
+    "Condensation",
+    "Winnowing only"
+   ]
+  },
+  {
+   "id": "science-c6-045",
+   "type": "mcq",
+   "q": "Muddy water is left to stand and the soil settles at the bottom. Pouring out the clear water without disturbing the soil is called",
+   "options": [
+    "Evaporation",
+    "Decantation",
+    "Threshing",
+    "Churning"
+   ]
+  },
+  {
+   "id": "science-c6-046",
+   "type": "mcq",
+   "q": "A mixture of sand and iron filings can easily be separated using",
+   "options": [
+    "A magnet",
+    "A sieve for water",
+    "Evaporation",
+    "Decantation"
+   ]
+  },
+  {
+   "id": "science-c6-047",
+   "type": "mcq",
+   "q": "A student dissolves salt in water and then tries to separate it by filtering through filter paper. Why does the salt not get separated?",
+   "options": [
+    "Salt is a gas",
+    "Filter paper dissolves salt",
+    "Salt is heavier than water",
+    "Dissolved salt particles are too small and pass through the paper along with the water"
+   ]
+  },
+  {
+   "id": "science-c6-048",
+   "type": "mcq",
+   "q": "In a tea strainer, tea leaves are held back while the liquid tea passes through. Which separation idea is this most like?",
+   "options": [
+    "Evaporation",
+    "Magnetic separation",
+    "Sieving or filtration",
+    "Winnowing"
+   ]
+  },
+  {
+   "id": "science-c6-049",
+   "type": "short",
+   "q": "Explain how you would separate a mixture of sand, salt and water to get all three back.",
+   "proposedAnswer": "Filter the mixture to remove sand. Heat the filtrate to evaporate the water and leave salt. The water vapour can be cooled to collect pure water.",
+   "keyPoints": [
+    "Filtration removes sand",
+    "Evaporation gives salt",
+    "Condensation can give back water"
+   ]
+  },
+  {
+   "id": "science-c6-050",
+   "type": "short",
+   "q": "Why is winnowing done on a windy day and not on a still day?",
+   "proposedAnswer": "Wind is needed to blow away the lighter husk while heavier grains fall down. Without wind the two would not separate.",
+   "keyPoints": [
+    "Wind carries away lighter husk",
+    "Heavier grain falls down",
+    "No wind means no separation"
+   ]
+  },
+  {
+   "id": "science-c6-051",
+   "type": "mcq",
+   "q": "Which of these is a reversible change?",
+   "options": [
+    "Burning of paper",
+    "Cooking of rice",
+    "Melting of ice",
+    "Curdling of milk"
+   ]
+  },
+  {
+   "id": "science-c6-052",
+   "type": "mcq",
+   "q": "Which change cannot be reversed?",
+   "options": [
+    "Folding a paper",
+    "Burning a candle",
+    "Stretching a rubber band",
+    "Melting butter and then cooling it"
+   ]
+  },
+  {
+   "id": "science-c6-053",
+   "type": "mcq",
+   "q": "Rusting of an iron nail needs",
+   "options": [
+    "Air and water",
+    "Oil and heat",
+    "Only sunlight",
+    "Only salt"
+   ]
+  },
+  {
+   "id": "science-c6-054",
+   "type": "mcq",
+   "q": "Which of these is an irreversible change?",
+   "options": [
+    "Dissolving sugar in water and evaporating it",
+    "Inflating and deflating a balloon",
+    "Freezing water",
+    "Baking a cake"
+   ]
+  },
+  {
+   "id": "science-c6-055",
+   "type": "mcq",
+   "q": "Why does a metal lid sometimes become easier to unscrew when held under hot water?",
+   "options": [
+    "The lid dissolves",
+    "The lid shrinks",
+    "The jar becomes lighter",
+    "The metal expands on heating"
+   ]
+  },
+  {
+   "id": "science-c6-056",
+   "type": "mcq",
+   "q": "A fruit ripens and its taste changes. This kind of change is",
+   "options": [
+    "Reversible",
+    "A change of state",
+    "Irreversible",
+    "Only a change in shape"
+   ]
+  },
+  {
+   "id": "science-c6-057",
+   "type": "mcq",
+   "q": "A student leaves two iron nails: one in a dry sealed bottle and one in a bottle of water open to the air. After some days only the second rusts. What does this show?",
+   "options": [
+    "Rusting happens in the dark only",
+    "Rusting needs both water and air",
+    "Rusting needs no air",
+    "Water prevents rusting"
+   ]
+  },
+  {
+   "id": "science-c6-058",
+   "type": "mcq",
+   "q": "Which statement correctly describes a change of state such as melting?",
+   "options": [
+    "No new substance is formed and it can usually be reversed by cooling",
+    "New substances are formed and it cannot be reversed",
+    "It only happens to metals",
+    "It makes the material lighter"
+   ]
+  },
+  {
+   "id": "science-c6-059",
+   "type": "short",
+   "q": "Give two examples each of changes that can be reversed and changes that cannot be reversed.",
+   "proposedAnswer": "Reversible: melting of ice, folding paper. Irreversible: burning wood, cooking an egg.",
+   "keyPoints": [
+    "Two correct reversible examples",
+    "Two correct irreversible examples"
+   ]
+  },
+  {
+   "id": "science-c6-060",
+   "type": "short",
+   "q": "Why should iron gates be painted regularly? Give a reason using the idea of changes.",
+   "proposedAnswer": "Paint keeps air and water from touching the iron, so rusting, an irreversible change that weakens iron, is prevented.",
+   "keyPoints": [
+    "Paint blocks air and water",
+    "Prevents rusting",
+    "Rusting is permanent damage"
+   ]
+  },
+  {
+   "id": "science-c6-061",
+   "type": "mcq",
+   "q": "Which part of the plant absorbs water from the soil?",
+   "options": [
+    "Root",
+    "Leaf",
+    "Flower",
+    "Stem"
+   ]
+  },
+  {
+   "id": "science-c6-062",
+   "type": "mcq",
+   "q": "Plants that are small with soft, green stems are called",
+   "options": [
+    "Trees",
+    "Shrubs",
+    "Climbers",
+    "Herbs"
+   ]
+  },
+  {
+   "id": "science-c6-063",
+   "type": "mcq",
+   "q": "The process by which green leaves make food is called",
+   "options": [
+    "Transpiration",
+    "Respiration",
+    "Photosynthesis",
+    "Germination"
+   ]
+  },
+  {
+   "id": "science-c6-064",
+   "type": "mcq",
+   "q": "A plant has leaves with parallel veins. Its roots are most likely",
+   "options": [
+    "Tap roots",
+    "Fibrous roots",
+    "Aerial roots only",
+    "No roots"
+   ]
+  },
+  {
+   "id": "science-c6-065",
+   "type": "mcq",
+   "q": "The female part of a flower is the",
+   "options": [
+    "Stamen",
+    "Pistil",
+    "Petal",
+    "Sepal"
+   ]
+  },
+  {
+   "id": "science-c6-066",
+   "type": "mcq",
+   "q": "Water given out by leaves through tiny pores in the form of vapour is called",
+   "options": [
+    "Transpiration",
+    "Photosynthesis",
+    "Germination",
+    "Pollination"
+   ]
+  },
+  {
+   "id": "science-c6-067",
+   "type": "mcq",
+   "q": "A plant kept in a dark cupboard for many days becomes pale and weak. What is the best explanation?",
+   "options": [
+    "Plants do not need water",
+    "The roots stopped growing",
+    "The stem became too hard",
+    "The leaves could not make food without sunlight"
+   ]
+  },
+  {
+   "id": "science-c6-068",
+   "type": "mcq",
+   "q": "If a stem of white flower is placed in coloured water, the flower slowly takes up colour. What does this show?",
+   "options": [
+    "Leaves absorb water",
+    "Roots make flowers",
+    "Stems carry water upward to other parts",
+    "Flowers have roots"
+   ]
+  },
+  {
+   "id": "science-c6-069",
+   "type": "short",
+   "q": "Name the main parts of a flower and mention the function of the petals.",
+   "proposedAnswer": "A flower has sepals, petals, stamens and pistil. Petals are usually brightly coloured and attract insects.",
+   "keyPoints": [
+    "Sepals, petals, stamen, pistil",
+    "Petals attract insects"
+   ]
+  },
+  {
+   "id": "science-c6-070",
+   "type": "short",
+   "q": "State the function of the stem and explain why a plant would fall down if its stem is cut.",
+   "proposedAnswer": "The stem holds the plant upright and carries water and minerals to leaves and food to other parts. If it is cut, the plant is no longer supported and its parts lose water.",
+   "keyPoints": [
+    "Supports the plant",
+    "Carries water and food",
+    "Cut stem breaks both support and transport"
+   ]
+  },
+  {
+   "id": "science-c6-071",
+   "type": "mcq",
+   "q": "The joint at the shoulder is a",
+   "options": [
+    "Hinge joint",
+    "Fixed joint",
+    "Ball and socket joint",
+    "Pivotal joint"
+   ]
+  },
+  {
+   "id": "science-c6-072",
+   "type": "mcq",
+   "q": "Which part of the body protects the brain?",
+   "options": [
+    "Rib cage",
+    "Skull",
+    "Backbone",
+    "Hip bone"
+   ]
+  },
+  {
+   "id": "science-c6-073",
+   "type": "mcq",
+   "q": "The rib cage protects the",
+   "options": [
+    "Heart and lungs",
+    "Brain",
+    "Stomach only",
+    "Eyes"
+   ]
+  },
+  {
+   "id": "science-c6-074",
+   "type": "mcq",
+   "q": "The knee and the elbow are examples of",
+   "options": [
+    "Fixed joints",
+    "Pivotal joints",
+    "Ball and socket joints",
+    "Hinge joints"
+   ]
+  },
+  {
+   "id": "science-c6-075",
+   "type": "mcq",
+   "q": "Which animal moves with the help of a muscular foot?",
+   "options": [
+    "Fish",
+    "Bird",
+    "Cockroach",
+    "Snail"
+   ]
+  },
+  {
+   "id": "science-c6-076",
+   "type": "mcq",
+   "q": "The bones of the skull are joined by",
+   "options": [
+    "Hinge joints",
+    "Ball and socket joints",
+    "Fixed joints",
+    "Pivotal joints"
+   ]
+  },
+  {
+   "id": "science-c6-077",
+   "type": "mcq",
+   "q": "You can turn your head up, down and side to side but not roll your arm in the same way. Which is the best explanation?",
+   "options": [
+    "The neck has a hinge joint",
+    "The neck has a pivotal joint that lets the head turn, while the shoulder has a different joint",
+    "The neck has fixed joints",
+    "Arms have no bones"
+   ]
+  },
+  {
+   "id": "science-c6-078",
+   "type": "mcq",
+   "q": "A bird's bones are light and hollow. Why is this useful?",
+   "options": [
+    "It helps the bird to fly",
+    "It helps it swim",
+    "It helps it to dig",
+    "It makes it slower"
+   ]
+  },
+  {
+   "id": "science-c6-079",
+   "type": "short",
+   "q": "Explain how the biceps and triceps muscles help us to bend and straighten the arm.",
+   "proposedAnswer": "Muscles work in pairs. When the biceps contracts, the arm bends and the triceps relaxes. When the triceps contracts, the arm straightens and the biceps relaxes.",
+   "keyPoints": [
+    "Muscles work in pairs",
+    "One contracts while the other relaxes",
+    "Bending versus straightening"
+   ]
+  },
+  {
+   "id": "science-c6-080",
+   "type": "short",
+   "q": "Why would a person with no joints be unable to walk, even if bones and muscles were present?",
+   "proposedAnswer": "Joints allow bones to move relative to each other. Without them the bones would be rigid and the legs could not bend at the hip, knee or ankle.",
+   "keyPoints": [
+    "Joints permit movement",
+    "Legs need bending",
+    "Bones alone are rigid"
+   ]
+  },
+  {
+   "id": "science-c6-081",
+   "type": "mcq",
+   "q": "The place where an organism lives is called its",
+   "options": [
+    "Habitat",
+    "Adaptation",
+    "Food chain",
+    "Stimulus"
+   ]
+  },
+  {
+   "id": "science-c6-082",
+   "type": "mcq",
+   "q": "Which of these is a non-living (abiotic) component of a habitat?",
+   "options": [
+    "Grass",
+    "Insect",
+    "Frog",
+    "Soil"
+   ]
+  },
+  {
+   "id": "science-c6-083",
+   "type": "mcq",
+   "q": "The special features that help an organism live in its habitat are called",
+   "options": [
+    "Habits",
+    "Stimuli",
+    "Adaptations",
+    "Nutrients"
+   ]
+  },
+  {
+   "id": "science-c6-084",
+   "type": "mcq",
+   "q": "Which feature helps a fish to live in water?",
+   "options": [
+    "Long legs",
+    "Streamlined body and gills",
+    "Thick fur",
+    "Wings"
+   ]
+  },
+  {
+   "id": "science-c6-085",
+   "type": "mcq",
+   "q": "Leaves of a cactus are reduced to spines. This helps the plant to",
+   "options": [
+    "Catch insects",
+    "Lose less water in the desert",
+    "Float in water",
+    "Make more flowers"
+   ]
+  },
+  {
+   "id": "science-c6-086",
+   "type": "mcq",
+   "q": "Which of the following is a characteristic of all living things?",
+   "options": [
+    "They respond to changes around them",
+    "They can move from place to place",
+    "They live in water",
+    "They have bones"
+   ]
+  },
+  {
+   "id": "science-c6-087",
+   "type": "mcq",
+   "q": "Trees in mountain regions are often cone-shaped with sloping branches. How does this shape help them?",
+   "options": [
+    "It attracts birds",
+    "It lets them float",
+    "It makes them absorb more salt",
+    "It lets snow slide off easily"
+   ]
+  },
+  {
+   "id": "science-c6-088",
+   "type": "mcq",
+   "q": "A desert rat spends the day in a burrow and comes out at night. How does this help it?",
+   "options": [
+    "It needs less food",
+    "It becomes a herbivore",
+    "It avoids the heat of the day and saves water",
+    "It can swim better"
+   ]
+  },
+  {
+   "id": "science-c6-089",
+   "type": "short",
+   "q": "List any four characteristics of living things.",
+   "proposedAnswer": "Living things need food, respire, grow, respond to stimuli, reproduce and give out waste.",
+   "keyPoints": [
+    "Four correct characteristics",
+    "Food, breathing, growth, response, reproduction, excretion"
+   ]
+  },
+  {
+   "id": "science-c6-090",
+   "type": "short",
+   "q": "A frog can live on land and in water. Explain how it is suited to both.",
+   "proposedAnswer": "A frog has webbed feet for swimming and strong hind legs for jumping on land. It breathes through lungs on land and through its skin in water.",
+   "keyPoints": [
+    "Webbed feet for swimming",
+    "Strong legs for land",
+    "Breathes in both places"
+   ]
+  },
+  {
+   "id": "science-c6-091",
+   "type": "mcq",
+   "q": "The SI unit of length is the",
+   "options": [
+    "Centimetre",
+    "Kilometre",
+    "Metre",
+    "Millimetre"
+   ]
+  },
+  {
+   "id": "science-c6-092",
+   "type": "mcq",
+   "q": "One kilometre is equal to",
+   "options": [
+    "10 m",
+    "1000 m",
+    "100 m",
+    "10000 m"
+   ]
+  },
+  {
+   "id": "science-c6-093",
+   "type": "mcq",
+   "q": "The motion of a swing is an example of",
+   "options": [
+    "Periodic motion",
+    "Rectilinear motion",
+    "Circular motion only",
+    "No motion"
+   ]
+  },
+  {
+   "id": "science-c6-094",
+   "type": "mcq",
+   "q": "A car moving along a straight road shows",
+   "options": [
+    "Circular motion",
+    "Rotational motion",
+    "Oscillatory motion",
+    "Rectilinear motion"
+   ]
+  },
+  {
+   "id": "science-c6-095",
+   "type": "mcq",
+   "q": "How can the length of a curved line be measured with a ruler?",
+   "options": [
+    "Estimate by eye",
+    "Use a weighing scale",
+    "It cannot be measured",
+    "Use a thread laid along the line, then straighten it and measure"
+   ]
+  },
+  {
+   "id": "science-c6-096",
+   "type": "mcq",
+   "q": "The spinning of a top on the ground is an example of",
+   "options": [
+    "Rectilinear motion",
+    "Linear motion",
+    "Rotational motion",
+    "Rest"
+   ]
+  },
+  {
+   "id": "science-c6-097",
+   "type": "mcq",
+   "q": "Two students measure the same table using their hand-spans and get different values. What does this show?",
+   "options": [
+    "Tables change length",
+    "Body-part measurements are not standard and vary from person to person",
+    "Hand-spans are exact",
+    "The table is curved"
+   ]
+  },
+  {
+   "id": "science-c6-098",
+   "type": "mcq",
+   "q": "While measuring a pencil with a ruler, the eye should be placed",
+   "options": [
+    "Directly above the point being read",
+    "To the left of the mark",
+    "Far to the side",
+    "Below the ruler"
+   ]
+  },
+  {
+   "id": "science-c6-099",
+   "type": "short",
+   "q": "Convert 3.5 km into metres and 250 cm into metres. Show your working.",
+   "proposedAnswer": "3.5 km x 1000 = 3500 m, and 250 cm divided by 100 = 2.5 m.",
+   "keyPoints": [
+    "1 km = 1000 m",
+    "100 cm = 1 m",
+    "3500 m and 2.5 m"
+   ]
+  },
+  {
+   "id": "science-c6-100",
+   "type": "short",
+   "q": "Describe the different kinds of motion of the blades of a ceiling fan and of a child on a straight slide.",
+   "proposedAnswer": "The fan blades show rotational motion about a fixed axis. The child on a straight slide shows rectilinear motion along a straight line.",
+   "keyPoints": [
+    "Fan blades rotational",
+    "Slide rectilinear",
+    "Type depends on path"
+   ]
+  },
+  {
+   "id": "science-c6-101",
+   "type": "mcq",
+   "q": "Which of these objects is luminous?",
+   "options": [
+    "Candle flame",
+    "Moon",
+    "Mirror",
+    "Book"
+   ]
+  },
+  {
+   "id": "science-c6-102",
+   "type": "mcq",
+   "q": "Light travels in",
+   "options": [
+    "Curved paths",
+    "Zigzag paths",
+    "Circles",
+    "Straight lines"
+   ]
+  },
+  {
+   "id": "science-c6-103",
+   "type": "mcq",
+   "q": "A shadow is formed when light is blocked by an",
+   "options": [
+    "Transparent object",
+    "Luminous object",
+    "Opaque object",
+    "Image"
+   ]
+  },
+  {
+   "id": "science-c6-104",
+   "type": "mcq",
+   "q": "An image formed by a pinhole camera is",
+   "options": [
+    "Upright and bigger",
+    "Inverted",
+    "Always coloured red",
+    "Not formed"
+   ]
+  },
+  {
+   "id": "science-c6-105",
+   "type": "mcq",
+   "q": "Which is not needed to form a shadow?",
+   "options": [
+    "A source of light",
+    "A magnet",
+    "An opaque object",
+    "A screen"
+   ]
+  },
+  {
+   "id": "science-c6-106",
+   "type": "mcq",
+   "q": "The image in a plane mirror is",
+   "options": [
+    "Same size as the object and behind the mirror",
+    "Smaller than the object",
+    "Formed on the mirror surface",
+    "Always upside down"
+   ]
+  },
+  {
+   "id": "science-c6-107",
+   "type": "mcq",
+   "q": "A boy moves his toy closer to a torch while the torch is fixed and a wall is behind it. What happens to the size of the shadow on the wall?",
+   "options": [
+    "It becomes smaller",
+    "It does not change",
+    "It disappears",
+    "It becomes larger"
+   ]
+  },
+  {
+   "id": "science-c6-108",
+   "type": "mcq",
+   "q": "Why can we see the Moon even though it does not produce its own light?",
+   "options": [
+    "It is luminous",
+    "It is a mirror",
+    "It reflects sunlight towards us",
+    "It makes its own heat"
+   ]
+  },
+  {
+   "id": "science-c6-109",
+   "type": "short",
+   "q": "Why does the word AMBULANCE appear written backwards on the front of an ambulance?",
+   "proposedAnswer": "The drivers ahead see it in their rear-view mirror, which reverses left and right, so the word looks correct in the mirror.",
+   "keyPoints": [
+    "Mirror reflection reverses left and right",
+    "Words appear readable in rear-view mirror"
+   ]
+  },
+  {
+   "id": "science-c6-110",
+   "type": "short",
+   "q": "Explain why a pinhole camera works only if the hole is small and the object is well lit.",
+   "proposedAnswer": "A small hole limits light so that each point of the object forms a small spot and the image is sharp. Good lighting keeps the image bright.",
+   "keyPoints": [
+    "Small hole gives a sharp image",
+    "Bright object gives visible image",
+    "Light travels in straight lines"
+   ]
+  },
+  {
+   "id": "science-c6-111",
+   "type": "mcq",
+   "q": "The thin wire inside a bulb that glows is called the",
+   "options": [
+    "Switch",
+    "Terminal",
+    "Filament",
+    "Cell"
+   ]
+  },
+  {
+   "id": "science-c6-112",
+   "type": "mcq",
+   "q": "Which of these is a good conductor of electricity?",
+   "options": [
+    "Rubber",
+    "Copper",
+    "Plastic",
+    "Wood"
+   ]
+  },
+  {
+   "id": "science-c6-113",
+   "type": "mcq",
+   "q": "A device used to open or close an electric circuit is a",
+   "options": [
+    "Switch",
+    "Bulb",
+    "Cell",
+    "Filament"
+   ]
+  },
+  {
+   "id": "science-c6-114",
+   "type": "mcq",
+   "q": "A bulb does not light even though it is connected to a cell by wires. A likely cause is",
+   "options": [
+    "The cell is large",
+    "The wires are thick",
+    "The switch is closed",
+    "The circuit is open or broken"
+   ]
+  },
+  {
+   "id": "science-c6-115",
+   "type": "mcq",
+   "q": "Which material is an insulator?",
+   "options": [
+    "Iron nail",
+    "Aluminium foil",
+    "Copper wire",
+    "Rubber eraser"
+   ]
+  },
+  {
+   "id": "science-c6-116",
+   "type": "mcq",
+   "q": "A group of two or more cells connected together is called a",
+   "options": [
+    "Switch",
+    "Filament",
+    "Battery",
+    "Terminal"
+   ]
+  },
+  {
+   "id": "science-c6-117",
+   "type": "mcq",
+   "q": "A student tests a bottle cap, a coin, a pencil lead (graphite) and a rubber band in a circuit tester. Which will probably make the bulb glow?",
+   "options": [
+    "Rubber band only",
+    "Coin and graphite",
+    "Plastic bottle cap",
+    "None of them"
+   ]
+  },
+  {
+   "id": "science-c6-118",
+   "type": "mcq",
+   "q": "Why are electrical wires covered with plastic or rubber?",
+   "options": [
+    "Insulation prevents shocks and short circuits",
+    "To make them look good",
+    "To make current flow faster",
+    "To make them heavier"
+   ]
+  },
+  {
+   "id": "science-c6-119",
+   "type": "short",
+   "q": "Why should we never touch electric switches with wet hands?",
+   "proposedAnswer": "Water that has salts in it conducts electricity, so wet hands may let current pass through the body and give a shock.",
+   "keyPoints": [
+    "Water conducts electricity",
+    "Body can carry current",
+    "Risk of shock"
+   ]
+  },
+  {
+   "id": "science-c6-120",
+   "type": "short",
+   "q": "Draw in words a simple circuit that lights a bulb, and say what happens when the switch is opened.",
+   "proposedAnswer": "Connect a cell, switch and bulb in a loop with wires. When the switch is closed, current flows and the bulb glows. When it is opened the loop is broken and the bulb goes off.",
+   "keyPoints": [
+    "Cell, switch, bulb and wires in a loop",
+    "Closed switch lights the bulb",
+    "Open switch breaks the circuit"
+   ]
+  },
+  {
+   "id": "science-c6-121",
+   "type": "mcq",
+   "q": "Which of these is attracted by a magnet?",
+   "options": [
+    "Iron nail",
+    "Plastic comb",
+    "Wooden ruler",
+    "Glass marble"
+   ]
+  },
+  {
+   "id": "science-c6-122",
+   "type": "mcq",
+   "q": "The ends of a bar magnet are called",
+   "options": [
+    "Tips",
+    "Terminals",
+    "Edges",
+    "Poles"
+   ]
+  },
+  {
+   "id": "science-c6-123",
+   "type": "mcq",
+   "q": "Like poles of two magnets",
+   "options": [
+    "Attract each other",
+    "Do nothing",
+    "Repel each other",
+    "Join together"
+   ]
+  },
+  {
+   "id": "science-c6-124",
+   "type": "mcq",
+   "q": "A freely hanging bar magnet comes to rest pointing in the",
+   "options": [
+    "East-west direction",
+    "North-south direction",
+    "Up-down direction",
+    "Any random direction"
+   ]
+  },
+  {
+   "id": "science-c6-125",
+   "type": "mcq",
+   "q": "A magnetic compass is used to",
+   "options": [
+    "Measure weight",
+    "Find directions",
+    "Find time",
+    "Measure length"
+   ]
+  },
+  {
+   "id": "science-c6-126",
+   "type": "mcq",
+   "q": "Which group contains only magnetic materials?",
+   "options": [
+    "Iron, nickel, cobalt",
+    "Copper, wood, glass",
+    "Plastic, iron, rubber",
+    "Aluminium, paper, nickel"
+   ]
+  },
+  {
+   "id": "science-c6-127",
+   "type": "mcq",
+   "q": "If a bar magnet is broken into two pieces, what happens?",
+   "options": [
+    "One piece has only a north pole",
+    "Both lose their magnetism and become non-magnetic",
+    "The pieces repel and become heavy",
+    "Each piece becomes a magnet with two poles"
+   ]
+  },
+  {
+   "id": "science-c6-128",
+   "type": "mcq",
+   "q": "A magnet loses its strength if it is dropped repeatedly or heated. What is the safest way to store bar magnets?",
+   "options": [
+    "Loosely mixed in a box",
+    "Near a flame",
+    "In pairs with unlike poles together and wooden pieces between them",
+    "Under a heavy weight"
+   ]
+  },
+  {
+   "id": "science-c6-129",
+   "type": "short",
+   "q": "Describe how a magnet can be used to separate iron nails from a mixture of nails and sand.",
+   "proposedAnswer": "Move a magnet over the mixture. The iron nails stick to the magnet and the sand does not, so they are separated.",
+   "keyPoints": [
+    "Magnet attracts iron",
+    "Sand is non-magnetic",
+    "Nails lifted away"
+   ]
+  },
+  {
+   "id": "science-c6-130",
+   "type": "short",
+   "q": "Describe how you would find out which end of an unmarked magnet is its north pole using a magnetic compass.",
+   "proposedAnswer": "Bring one end of the magnet close to the compass needle. If it attracts the needle's north end, that end is the magnet's south pole. If it repels the north end, it is the magnet's north pole.",
+   "keyPoints": [
+    "Use compass needle",
+    "Like poles repel, unlike attract",
+    "Identify pole from the response"
+   ]
+  },
+  {
+   "id": "science-c6-131",
+   "type": "mcq",
+   "q": "The sugarcane that we use to make sugar and jaggery is the ______ of the plant.",
+   "options": [
+    "Root",
+    "Leaf",
+    "Stem",
+    "Seed"
+   ]
+  },
+  {
+   "id": "science-c6-132",
+   "type": "mcq",
+   "q": "Which of the following is a cereal?",
+   "options": [
+    "Moong",
+    "Rice",
+    "Groundnut",
+    "Mustard"
+   ]
+  },
+  {
+   "id": "science-c6-133",
+   "type": "mcq",
+   "q": "Which of these vegetables is an underground stem and not a root?",
+   "options": [
+    "Potato",
+    "Carrot",
+    "Radish",
+    "Beetroot"
+   ]
+  },
+  {
+   "id": "science-c6-134",
+   "type": "mcq",
+   "q": "Which of these is a flower that we eat as a vegetable?",
+   "options": [
+    "Cabbage",
+    "Potato",
+    "Carrot",
+    "Cauliflower"
+   ]
+  },
+  {
+   "id": "science-c6-135",
+   "type": "mcq",
+   "q": "Why would a person who eats only honey for many weeks fall ill?",
+   "options": [
+    "Honey is poisonous",
+    "Honey has too much roughage",
+    "Honey comes from plants",
+    "Honey lacks many nutrients such as proteins, vitamins and minerals in needed amounts"
+   ]
+  },
+  {
+   "id": "science-c6-136",
+   "type": "short",
+   "q": "Name three animals that give us food and write the food each one gives.",
+   "proposedAnswer": "A cow gives milk, a hen gives eggs and a honeybee gives honey.",
+   "keyPoints": [
+    "Three animals named",
+    "The correct food product for each"
+   ]
+  },
+  {
+   "id": "science-c6-137",
+   "type": "short",
+   "q": "Explain why even a carnivore such as a lion depends indirectly on plants.",
+   "proposedAnswer": "A lion eats animals such as deer, and the deer eat plants. If the plants were not there, the deer would have no food and the lion would have nothing to eat.",
+   "keyPoints": [
+    "Lion eats herbivores",
+    "Herbivores eat plants",
+    "So the lion depends on plants indirectly"
+   ]
+  },
+  {
+   "id": "science-c6-138",
+   "type": "mcq",
+   "q": "Which nutrients mainly give us energy?",
+   "options": [
+    "Minerals and water",
+    "Vitamins and roughage",
+    "Carbohydrates and fats",
+    "Proteins only"
+   ]
+  },
+  {
+   "id": "science-c6-139",
+   "type": "mcq",
+   "q": "Lack of vitamin C causes a disease in which the gums bleed. It is called",
+   "options": [
+    "Rickets",
+    "Scurvy",
+    "Beriberi",
+    "Goitre"
+   ]
+  },
+  {
+   "id": "science-c6-140",
+   "type": "mcq",
+   "q": "Difficulty in seeing in dim light is a sign of lack of",
+   "options": [
+    "Vitamin A",
+    "Vitamin D",
+    "Vitamin C",
+    "Iron"
+   ]
+  },
+  {
+   "id": "science-c6-141",
+   "type": "mcq",
+   "q": "A girl feels weak and tired and her blood has less haemoglobin. Which mineral is she most likely lacking?",
+   "options": [
+    "Iron",
+    "Iodine",
+    "Calcium",
+    "Sodium"
+   ]
+  },
+  {
+   "id": "science-c6-142",
+   "type": "mcq",
+   "q": "Sailors on long sea voyages in old times often had bleeding gums. Which food would best have prevented this?",
+   "options": [
+    "Dried fish",
+    "Plain rice",
+    "Salt",
+    "Fresh lemons or oranges"
+   ]
+  },
+  {
+   "id": "science-c6-143",
+   "type": "short",
+   "q": "Name two functions of fats in the body and two food sources.",
+   "proposedAnswer": "Fats give energy and keep the body warm. Sources are butter, ghee, oils and nuts.",
+   "keyPoints": [
+    "Give energy",
+    "Help keep body warm",
+    "Two food sources"
+   ]
+  },
+  {
+   "id": "science-c6-144",
+   "type": "short",
+   "q": "Why should vegetables be washed before cutting and not overcooked?",
+   "proposedAnswer": "Washing after cutting and overcooking can destroy or wash out vitamins and minerals, so food loses nutritive value.",
+   "keyPoints": [
+    "Vitamins and minerals are lost",
+    "Washing before cutting limits loss",
+    "Overcooking destroys some nutrients"
+   ]
+  },
+  {
+   "id": "science-c6-145",
+   "type": "mcq",
+   "q": "Which of these animals gives us wool?",
+   "options": [
+    "Cow",
+    "Buffalo",
+    "Sheep",
+    "Horse"
+   ]
+  },
+  {
+   "id": "science-c6-146",
+   "type": "mcq",
+   "q": "The machine used to weave cloth is called a",
+   "options": [
+    "Sieve",
+    "Loom",
+    "Charkha",
+    "Magnet"
+   ]
+  },
+  {
+   "id": "science-c6-147",
+   "type": "mcq",
+   "q": "Cotton plants grow best in",
+   "options": [
+    "Cold icy regions",
+    "Black soil in a warm climate",
+    "Rocky mountain tops",
+    "Sandy sea shores only"
+   ]
+  },
+  {
+   "id": "science-c6-148",
+   "type": "mcq",
+   "q": "The rearing of silkworms for silk is called",
+   "options": [
+    "Sericulture",
+    "Weaving",
+    "Ginning",
+    "Retting"
+   ]
+  },
+  {
+   "id": "science-c6-149",
+   "type": "mcq",
+   "q": "A sweater is made from a single long yarn using two needles. This process is",
+   "options": [
+    "Weaving",
+    "Ginning",
+    "Spinning on a ginning machine",
+    "Knitting"
+   ]
+  },
+  {
+   "id": "science-c6-150",
+   "type": "short",
+   "q": "Name two natural fibres from plants and two from animals.",
+   "proposedAnswer": "Plant fibres: cotton and jute. Animal fibres: wool and silk.",
+   "keyPoints": [
+    "Two plant fibres",
+    "Two animal fibres"
+   ]
+  },
+  {
+   "id": "science-c6-151",
+   "type": "short",
+   "q": "Give one use of jute and explain why the jute fibre is suitable for it.",
+   "proposedAnswer": "Jute is used to make gunny bags and ropes because the fibre is strong and coarse.",
+   "keyPoints": [
+    "A correct use",
+    "Strong, coarse fibre"
+   ]
+  },
+  {
+   "id": "science-c6-152",
+   "type": "mcq",
+   "q": "Which of these is opaque?",
+   "options": [
+    "Water",
+    "Clear glass",
+    "Brick",
+    "Air"
+   ]
+  },
+  {
+   "id": "science-c6-153",
+   "type": "mcq",
+   "q": "Which of these materials is hard?",
+   "options": [
+    "Cotton wool",
+    "Sponge",
+    "Iron",
+    "Butter"
+   ]
+  },
+  {
+   "id": "science-c6-154",
+   "type": "mcq",
+   "q": "Which of the following is lustrous?",
+   "options": [
+    "Paper",
+    "Gold",
+    "Wood",
+    "Cloth"
+   ]
+  },
+  {
+   "id": "science-c6-155",
+   "type": "mcq",
+   "q": "All the substances in which group mix completely with water?",
+   "options": [
+    "Sugar, salt, vinegar",
+    "Sand, chalk, oil",
+    "Sawdust, sugar, salt",
+    "Salt, wax, sand"
+   ]
+  },
+  {
+   "id": "science-c6-156",
+   "type": "mcq",
+   "q": "Cooking vessels are made of metals such as steel and aluminium. Which is the best reason?",
+   "options": [
+    "Metals are transparent",
+    "Metals are soluble",
+    "Metals are light",
+    "Metals let heat pass easily to the food"
+   ]
+  },
+  {
+   "id": "science-c6-157",
+   "type": "short",
+   "q": "Why do we group materials? Give two properties used for grouping.",
+   "proposedAnswer": "Grouping makes it easier to study and use them. We can group them by appearance, hardness, solubility, or whether they float or sink.",
+   "keyPoints": [
+    "Makes study and use easier",
+    "Two valid properties"
+   ]
+  },
+  {
+   "id": "science-c6-158",
+   "type": "short",
+   "q": "Describe a simple activity to find out if a material is soluble in water.",
+   "proposedAnswer": "Add a spoonful of the material to a glass of water and stir well. If it disappears and the water looks uniform, it is soluble. If it stays as separate particles, it is insoluble.",
+   "keyPoints": [
+    "Add to water and stir",
+    "Observe if it disappears",
+    "Conclude soluble or insoluble"
+   ]
+  },
+  {
+   "id": "science-c6-159",
+   "type": "mcq",
+   "q": "Separating insoluble solids from liquid with filter paper is called",
+   "options": [
+    "Winnowing",
+    "Threshing",
+    "Sieving",
+    "Filtration"
+   ]
+  },
+  {
+   "id": "science-c6-160",
+   "type": "mcq",
+   "q": "Stones are picked out of rice by",
+   "options": [
+    "Decantation",
+    "Evaporation",
+    "Handpicking",
+    "Churning"
+   ]
+  },
+  {
+   "id": "science-c6-161",
+   "type": "mcq",
+   "q": "A solution in which no more of a substance can dissolve at a given temperature is",
+   "options": [
+    "Dilute",
+    "Saturated",
+    "Transparent",
+    "Insoluble"
+   ]
+  },
+  {
+   "id": "science-c6-162",
+   "type": "mcq",
+   "q": "When water vapour is cooled and changes to liquid water, the process is called",
+   "options": [
+    "Condensation",
+    "Evaporation",
+    "Filtration",
+    "Sedimentation"
+   ]
+  },
+  {
+   "id": "science-c6-163",
+   "type": "mcq",
+   "q": "A muddy water sample is to be made clear. Which order of steps is most suitable?",
+   "options": [
+    "Let it stand, pour off clear water, then filter",
+    "Filter, then let stand",
+    "Evaporate first",
+    "Winnow, then sieve"
+   ]
+  },
+  {
+   "id": "science-c6-164",
+   "type": "short",
+   "q": "What is evaporation? Give one use of it.",
+   "proposedAnswer": "Evaporation is the change of a liquid into vapour. It is used to get salt from sea water or to dry wet clothes.",
+   "keyPoints": [
+    "Liquid to vapour",
+    "One correct use"
+   ]
+  },
+  {
+   "id": "science-c6-165",
+   "type": "short",
+   "q": "A mixture contains chalk powder, iron filings and salt. Describe how to separate all three.",
+   "proposedAnswer": "Use a magnet to remove the iron filings. Add water so salt dissolves and filter to remove chalk. Evaporate the filtrate to get salt.",
+   "keyPoints": [
+    "Magnet for iron",
+    "Water and filtration for chalk",
+    "Evaporation for salt"
+   ]
+  },
+  {
+   "id": "science-c6-166",
+   "type": "mcq",
+   "q": "The change from solid ice to liquid water is called",
+   "options": [
+    "Boiling",
+    "Freezing",
+    "Condensation",
+    "Melting"
+   ]
+  },
+  {
+   "id": "science-c6-167",
+   "type": "mcq",
+   "q": "Which of the following is a change of state from liquid to gas?",
+   "options": [
+    "Freezing",
+    "Melting",
+    "Evaporation",
+    "Folding"
+   ]
+  },
+  {
+   "id": "science-c6-168",
+   "type": "mcq",
+   "q": "Baking soda is added to vinegar and bubbles appear. Why is it said to be an irreversible change?",
+   "options": [
+    "No gas is formed",
+    "New substances are formed and cannot be turned back easily",
+    "The solid dissolves",
+    "Both are liquids"
+   ]
+  },
+  {
+   "id": "science-c6-169",
+   "type": "mcq",
+   "q": "Which of these changes can be reversed?",
+   "options": [
+    "Burning a match",
+    "Dissolving salt in water",
+    "Ripening of a banana",
+    "Cooking an egg"
+   ]
+  },
+  {
+   "id": "science-c6-170",
+   "type": "mcq",
+   "q": "A small gap is left between the rails of a railway track. Why?",
+   "options": [
+    "Iron expands in summer and would bend the track without the gap",
+    "To save iron",
+    "To make the train faster",
+    "To let water flow"
+   ]
+  },
+  {
+   "id": "science-c6-171",
+   "type": "short",
+   "q": "Why is the making of curd from milk considered an irreversible change?",
+   "proposedAnswer": "Curd has different properties from milk and the curd cannot be changed back into milk.",
+   "keyPoints": [
+    "New substance forms",
+    "Cannot go back to milk"
+   ]
+  },
+  {
+   "id": "science-c6-172",
+   "type": "short",
+   "q": "A burning candle shows both reversible and irreversible changes. Explain.",
+   "proposedAnswer": "Wax that melts near the flame and solidifies on cooling is a reversible change. The wax that burns gives new substances and cannot be recovered, which is irreversible.",
+   "keyPoints": [
+    "Melting and solidifying reversible",
+    "Burning irreversible"
+   ]
+  },
+  {
+   "id": "science-c6-173",
+   "type": "mcq",
+   "q": "Plants with weak stems that climb up with the help of support are called",
+   "options": [
+    "Herbs",
+    "Trees",
+    "Shrubs",
+    "Climbers"
+   ]
+  },
+  {
+   "id": "science-c6-174",
+   "type": "mcq",
+   "q": "The part of the plant that makes seeds and fruits is the",
+   "options": [
+    "Root",
+    "Leaf",
+    "Flower",
+    "Stem"
+   ]
+  },
+  {
+   "id": "science-c6-175",
+   "type": "mcq",
+   "q": "Which gas do leaves take in from air for making food?",
+   "options": [
+    "Oxygen",
+    "Nitrogen",
+    "Carbon dioxide",
+    "Hydrogen"
+   ]
+  },
+  {
+   "id": "science-c6-176",
+   "type": "mcq",
+   "q": "After pollination and fertilisation, the ovary of the flower develops into a",
+   "options": [
+    "Root",
+    "Fruit",
+    "Leaf",
+    "Stem"
+   ]
+  },
+  {
+   "id": "science-c6-177",
+   "type": "mcq",
+   "q": "If all the leaves of a plant are removed and the plant is kept in the sun, what happens?",
+   "options": [
+    "It makes much less food, since leaves are the main food-making parts",
+    "It makes more food",
+    "It gets no water",
+    "It becomes a tree"
+   ]
+  },
+  {
+   "id": "science-c6-178",
+   "type": "short",
+   "q": "Give two differences between tap root and fibrous root with one example of each.",
+   "proposedAnswer": "A tap root has one main root with side branches (mango, gram). A fibrous root is a cluster of roots of similar size (wheat, grass).",
+   "keyPoints": [
+    "Tap root: one main root",
+    "Fibrous roots: many similar roots",
+    "One example each"
+   ]
+  },
+  {
+   "id": "science-c6-179",
+   "type": "short",
+   "q": "Explain photosynthesis, mentioning raw materials and products.",
+   "proposedAnswer": "In photosynthesis the leaf uses carbon dioxide and water, with sunlight and chlorophyll, to make food (starch/glucose) and release oxygen.",
+   "keyPoints": [
+    "Carbon dioxide and water",
+    "Sunlight and chlorophyll",
+    "Food and oxygen"
+   ]
+  },
+  {
+   "id": "science-c6-180",
+   "type": "mcq",
+   "q": "The backbone protects the",
+   "options": [
+    "Brain",
+    "Lungs",
+    "Stomach",
+    "Spinal cord"
+   ]
+  },
+  {
+   "id": "science-c6-181",
+   "type": "mcq",
+   "q": "A joint that does not allow any movement is a",
+   "options": [
+    "Hinge joint",
+    "Ball and socket joint",
+    "Pivotal joint",
+    "Fixed joint"
+   ]
+  },
+  {
+   "id": "science-c6-182",
+   "type": "mcq",
+   "q": "The joint between the skull and the top of the backbone, which allows us to nod and turn the head, is called a",
+   "options": [
+    "Fixed joint",
+    "Hinge joint",
+    "Pivotal joint",
+    "Gliding joint"
+   ]
+  },
+  {
+   "id": "science-c6-183",
+   "type": "mcq",
+   "q": "A fish moves forward in water mainly with the help of its",
+   "options": [
+    "Wings",
+    "Streamlined body, fins and tail",
+    "Legs",
+    "Shell"
+   ]
+  },
+  {
+   "id": "science-c6-184",
+   "type": "mcq",
+   "q": "An earthworm has no bones yet can crawl. What helps it to move?",
+   "options": [
+    "Muscles and tiny bristles that grip the ground",
+    "Wings",
+    "Hollow bones",
+    "Large legs"
+   ]
+  },
+  {
+   "id": "science-c6-185",
+   "type": "short",
+   "q": "List three features that help a bird to fly.",
+   "proposedAnswer": "Birds have light, hollow bones, strong chest muscles to flap the wings, and a streamlined body with feathers.",
+   "keyPoints": [
+    "Hollow light bones",
+    "Strong muscles",
+    "Wings and streamlined body"
+   ]
+  },
+  {
+   "id": "science-c6-186",
+   "type": "short",
+   "q": "Compare the way a snake and a fish move.",
+   "proposedAnswer": "A snake moves by making curves in the body and pushing against the ground using muscles and ribs. A fish pushes through water using its tail and fins with a streamlined body.",
+   "keyPoints": [
+    "Snake curves body on land",
+    "Fish uses tail and fins in water",
+    "Both use muscles"
+   ]
+  },
+  {
+   "id": "science-c6-187",
+   "type": "mcq",
+   "q": "A pond is an example of an",
+   "options": [
+    "Aquatic habitat",
+    "Desert habitat",
+    "Mountain habitat",
+    "Terrestrial habitat"
+   ]
+  },
+  {
+   "id": "science-c6-188",
+   "type": "mcq",
+   "q": "Which of the following is an abiotic part of a habitat?",
+   "options": [
+    "Tree",
+    "Bird",
+    "Fungus",
+    "Air"
+   ]
+  },
+  {
+   "id": "science-c6-189",
+   "type": "mcq",
+   "q": "Which animal is well adapted for living in the desert?",
+   "options": [
+    "Seal",
+    "Penguin",
+    "Camel",
+    "Frog"
+   ]
+  },
+  {
+   "id": "science-c6-190",
+   "type": "mcq",
+   "q": "The webbed feet of a duck help it to",
+   "options": [
+    "Fly higher",
+    "Swim",
+    "Dig",
+    "Climb trees"
+   ]
+  },
+  {
+   "id": "science-c6-191",
+   "type": "mcq",
+   "q": "A fish taken out of water dies soon because",
+   "options": [
+    "It cannot drink",
+    "Its gills cannot take oxygen from air as they do from water",
+    "It becomes too warm",
+    "It starts to float"
+   ]
+  },
+  {
+   "id": "science-c6-192",
+   "type": "short",
+   "q": "Differentiate between terrestrial and aquatic habitats with one example each.",
+   "proposedAnswer": "Terrestrial habitats are on land, such as forests and deserts. Aquatic habitats are in water, such as ponds and oceans.",
+   "keyPoints": [
+    "Terrestrial on land",
+    "Aquatic in water",
+    "One example each"
+   ]
+  },
+  {
+   "id": "science-c6-193",
+   "type": "short",
+   "q": "A potted seedling placed near a window bends toward the light. Which characteristic of living things does this show?",
+   "proposedAnswer": "It shows that living things respond to stimuli, here light, by changing the direction of growth.",
+   "keyPoints": [
+    "Response to stimulus",
+    "Stimulus is light"
+   ]
+  },
+  {
+   "id": "science-c6-194",
+   "type": "mcq",
+   "q": "One metre is equal to",
+   "options": [
+    "100 cm",
+    "10 cm",
+    "1000 cm",
+    "10000 cm"
+   ]
+  },
+  {
+   "id": "science-c6-195",
+   "type": "mcq",
+   "q": "Which of these is used to measure the length of a cloth?",
+   "options": [
+    "Thermometer",
+    "Beaker",
+    "Weighing balance",
+    "Measuring tape"
+   ]
+  },
+  {
+   "id": "science-c6-196",
+   "type": "mcq",
+   "q": "A stone tied to a string and whirled around in a circle shows",
+   "options": [
+    "Rectilinear motion",
+    "Rest",
+    "Circular motion",
+    "Rotational motion of the stone only"
+   ]
+  },
+  {
+   "id": "science-c6-197",
+   "type": "mcq",
+   "q": "Which of these is not a standard unit of length?",
+   "options": [
+    "Metre",
+    "Kilometre",
+    "Cubit",
+    "Centimetre"
+   ]
+  },
+  {
+   "id": "science-c6-198",
+   "type": "mcq",
+   "q": "A bicycle moves along a straight road while its wheels turn. Which statement is correct?",
+   "options": [
+    "Only rectilinear motion occurs",
+    "The cycle shows rectilinear motion and the wheels show rotational motion",
+    "Only rotational motion occurs",
+    "No motion occurs"
+   ]
+  },
+  {
+   "id": "science-c6-199",
+   "type": "short",
+   "q": "Give three examples of periodic motion.",
+   "proposedAnswer": "The swing of a pendulum, the to-and-fro motion of a swing and the motion of the Earth around the Sun.",
+   "keyPoints": [
+    "Motion repeats after equal times",
+    "Three correct examples"
+   ]
+  },
+  {
+   "id": "science-c6-200",
+   "type": "short",
+   "q": "The end of a ruler is broken and you must start from the 2 cm mark. How would you find the length of a pencil that ends at 11 cm?",
+   "proposedAnswer": "Subtract the starting reading from the final reading: 11 cm minus 2 cm gives 9 cm.",
+   "keyPoints": [
+    "Do not start at the damaged end",
+    "Subtract the first reading from the last",
+    "Length is 9 cm"
+   ]
+  },
+  {
+   "id": "science-c6-201",
+   "type": "mcq",
+   "q": "Which of these is a luminous object?",
+   "options": [
+    "The Sun",
+    "A chair",
+    "A mirror",
+    "A book"
+   ]
+  },
+  {
+   "id": "science-c6-202",
+   "type": "mcq",
+   "q": "Which of these is non-luminous?",
+   "options": [
+    "Sun",
+    "Burning candle",
+    "Lighted bulb",
+    "Tree"
+   ]
+  },
+  {
+   "id": "science-c6-203",
+   "type": "mcq",
+   "q": "The shadow of a sheet of butter paper held in front of a torch will be",
+   "options": [
+    "Absent",
+    "Very dark",
+    "Brighter than light",
+    "Faint"
+   ]
+  },
+  {
+   "id": "science-c6-204",
+   "type": "mcq",
+   "q": "If you raise your right hand in front of a plane mirror, the image seems to raise the",
+   "options": [
+    "Right hand",
+    "Both hands",
+    "Left hand",
+    "No hand"
+   ]
+  },
+  {
+   "id": "science-c6-205",
+   "type": "mcq",
+   "q": "Shadows are long in early morning and late evening. The reason is",
+   "options": [
+    "The Sun is directly overhead",
+    "The Sun is low in the sky",
+    "The Sun produces more light",
+    "The Earth is bigger then"
+   ]
+  },
+  {
+   "id": "science-c6-206",
+   "type": "short",
+   "q": "Name three uses of mirrors in daily life.",
+   "proposedAnswer": "Mirrors are used in dressing tables, as rear-view mirrors in vehicles and in barber shops.",
+   "keyPoints": [
+    "Three valid uses"
+   ]
+  },
+  {
+   "id": "science-c6-207",
+   "type": "short",
+   "q": "Why does a clear glass sheet held before a torch form hardly any shadow?",
+   "proposedAnswer": "Clear glass is transparent so almost all light passes through, and very little light is blocked.",
+   "keyPoints": [
+    "Glass is transparent",
+    "Light passes through",
+    "Little light blocked so no dark shadow"
+   ]
+  },
+  {
+   "id": "science-c6-208",
+   "type": "mcq",
+   "q": "A cell has how many terminals?",
+   "options": [
+    "Two",
+    "One",
+    "Three",
+    "Four"
+   ]
+  },
+  {
+   "id": "science-c6-209",
+   "type": "mcq",
+   "q": "Which of these is an electrical insulator?",
+   "options": [
+    "Plastic",
+    "Copper",
+    "Iron",
+    "Aluminium"
+   ]
+  },
+  {
+   "id": "science-c6-210",
+   "type": "mcq",
+   "q": "In an electric circuit with the switch open, the bulb",
+   "options": [
+    "Glows brightly",
+    "Glows dimly",
+    "Becomes hot",
+    "Does not glow"
+   ]
+  },
+  {
+   "id": "science-c6-211",
+   "type": "mcq",
+   "q": "In an LED, the longer lead is connected to the",
+   "options": [
+    "Negative terminal of the cell",
+    "Switch only",
+    "Positive terminal of the cell",
+    "Bulb"
+   ]
+  },
+  {
+   "id": "science-c6-212",
+   "type": "mcq",
+   "q": "A student connects a bulb, a cell, a switch and wires correctly in a closed loop but the bulb does not glow. What is the likely fault?",
+   "options": [
+    "The wires are too clean",
+    "The filament of the bulb is broken (fused)",
+    "The cell is large",
+    "The room is bright"
+   ]
+  },
+  {
+   "id": "science-c6-213",
+   "type": "short",
+   "q": "Differentiate a conductor from an insulator with two examples of each.",
+   "proposedAnswer": "Conductors allow electricity to pass, such as copper and iron. Insulators do not, such as rubber and plastic.",
+   "keyPoints": [
+    "Conductor lets current pass",
+    "Insulator does not",
+    "Two examples each"
+   ]
+  },
+  {
+   "id": "science-c6-214",
+   "type": "short",
+   "q": "Why do electricians use tools with rubber or plastic handles?",
+   "proposedAnswer": "Rubber and plastic are insulators, so they stop current from flowing through the tool to the electrician, which protects against shocks.",
+   "keyPoints": [
+    "Insulating material",
+    "Stops current reaching the body",
+    "Prevents shock"
+   ]
+  },
+  {
+   "id": "science-c6-215",
+   "type": "mcq",
+   "q": "A naturally occurring magnet is called",
+   "options": [
+    "Steel",
+    "Lodestone",
+    "Carbon",
+    "Brass"
+   ]
+  },
+  {
+   "id": "science-c6-216",
+   "type": "mcq",
+   "q": "The attracting power of a bar magnet is strongest at its",
+   "options": [
+    "Poles",
+    "Middle",
+    "Sides",
+    "Surface only"
+   ]
+  },
+  {
+   "id": "science-c6-217",
+   "type": "mcq",
+   "q": "If the north pole of one magnet is brought near the south pole of another magnet, they will",
+   "options": [
+    "Repel",
+    "Not react",
+    "Lose strength",
+    "Attract"
+   ]
+  },
+  {
+   "id": "science-c6-218",
+   "type": "mcq",
+   "q": "Which of the following is not attracted by a magnet?",
+   "options": [
+    "Iron nail",
+    "Steel paper clip",
+    "Aluminium foil",
+    "Cobalt piece"
+   ]
+  },
+  {
+   "id": "science-c6-219",
+   "type": "mcq",
+   "q": "Why does a magnet get weaker if it is heated or hammered?",
+   "options": [
+    "Its poles are exchanged",
+    "It gets heavier",
+    "Its tiny magnetic parts get disordered",
+    "It becomes iron"
+   ]
+  },
+  {
+   "id": "science-c6-220",
+   "type": "short",
+   "q": "Give two uses of magnets in everyday life.",
+   "proposedAnswer": "Magnets are used in compass needles, refrigerator door seals and magnetic toys.",
+   "keyPoints": [
+    "Two valid uses"
+   ]
+  },
+  {
+   "id": "science-c6-221",
+   "type": "short",
+   "q": "How can an iron needle be made into a magnet by stroking?",
+   "proposedAnswer": "Stroke the needle many times from one end to the other in the same direction with one pole of a bar magnet, lifting the magnet away at the end of each stroke. Then test it on pins.",
+   "keyPoints": [
+    "Stroke in the same direction",
+    "Lift magnet away each time",
+    "Test the needle"
+   ]
+  },
+  {
+   "id": "science-c6-222",
+   "type": "mcq",
+   "q": "Which of these is a pulse?",
+   "options": [
+    "Wheat",
+    "Moong",
+    "Rice",
+    "Maize"
+   ]
+  },
+  {
+   "id": "science-c6-223",
+   "type": "mcq",
+   "q": "Butter, curd and ghee are all made from",
+   "options": [
+    "Milk",
+    "Honey",
+    "Eggs",
+    "Flour"
+   ]
+  },
+  {
+   "id": "science-c6-224",
+   "type": "mcq",
+   "q": "Edible oil can be obtained from the seeds of the",
+   "options": [
+    "Carrot",
+    "Spinach",
+    "Potato",
+    "Mustard plant"
+   ]
+  },
+  {
+   "id": "science-c6-225",
+   "type": "mcq",
+   "q": "Which of these foods is made from the seed of a plant?",
+   "options": [
+    "Spinach",
+    "Radish",
+    "Cabbage",
+    "Rajma beans"
+   ]
+  },
+  {
+   "id": "science-c6-226",
+   "type": "mcq",
+   "q": "In the chain grass, deer, tiger, which statement is true?",
+   "options": [
+    "Grass is eaten by the tiger directly",
+    "The tiger is a herbivore",
+    "The deer is a herbivore and the tiger is a carnivore",
+    "Grass eats the deer"
+   ]
+  },
+  {
+   "id": "science-c6-227",
+   "type": "short",
+   "q": "Name three different parts of plants that we eat and give an example of each.",
+   "proposedAnswer": "Roots such as radish, leaves such as spinach and fruits such as banana.",
+   "keyPoints": [
+    "Three plant parts",
+    "Correct example for each"
+   ]
+  },
+  {
+   "id": "science-c6-228",
+   "type": "short",
+   "q": "Plants make their own food while animals cannot. Explain how animals get their food.",
+   "proposedAnswer": "Animals depend on plants, or on other animals that eat plants, for food. They cannot make food themselves.",
+   "keyPoints": [
+    "Plants make their own food",
+    "Animals eat plants or other animals"
+   ]
+  },
+  {
+   "id": "science-c6-229",
+   "type": "mcq",
+   "q": "Which of the following is a good source of protein?",
+   "options": [
+    "Sugar",
+    "Pulses",
+    "Butter",
+    "Oil"
+   ]
+  },
+  {
+   "id": "science-c6-230",
+   "type": "mcq",
+   "q": "Calcium in the diet is needed mainly for",
+   "options": [
+    "Strong bones and teeth",
+    "Seeing in the dark",
+    "Clotting only",
+    "Making sugar"
+   ]
+  },
+  {
+   "id": "science-c6-231",
+   "type": "mcq",
+   "q": "Which of these is a function of water in our body?",
+   "options": [
+    "To help digest food and remove wastes",
+    "To build muscles",
+    "To give vitamins",
+    "To make bones hard"
+   ]
+  },
+  {
+   "id": "science-c6-232",
+   "type": "mcq",
+   "q": "Beriberi is caused by the deficiency of",
+   "options": [
+    "Vitamin C",
+    "Vitamin A",
+    "Calcium",
+    "Vitamin B1"
+   ]
+  },
+  {
+   "id": "science-c6-233",
+   "type": "mcq",
+   "q": "Which meal is the most balanced?",
+   "options": [
+    "Only bread and jam",
+    "Only fried snacks",
+    "Chapati, dal, vegetables and a glass of milk",
+    "Only rice"
+   ]
+  },
+  {
+   "id": "science-c6-234",
+   "type": "short",
+   "q": "Name the components of food and say which ones give us energy.",
+   "proposedAnswer": "The components are carbohydrates, proteins, fats, vitamins, minerals, water and roughage. Carbohydrates and fats give energy.",
+   "keyPoints": [
+    "List of components",
+    "Carbohydrates and fats give energy"
+   ]
+  },
+  {
+   "id": "science-c6-235",
+   "type": "short",
+   "q": "Why does a person doing heavy physical work need more energy-giving food than someone who sits at a desk?",
+   "proposedAnswer": "Heavy work uses more energy, so the body needs more carbohydrates and fats to supply it.",
+   "keyPoints": [
+    "Work needs energy",
+    "Carbohydrates and fats supply energy"
+   ]
+  },
+  {
+   "id": "science-c6-236",
+   "type": "mcq",
+   "q": "Which of these is used for spinning yarn by hand?",
+   "options": [
+    "Sieve",
+    "Takli or charkha",
+    "Tweezers",
+    "Magnet"
+   ]
+  },
+  {
+   "id": "science-c6-237",
+   "type": "mcq",
+   "q": "The hairy coat of a sheep that is cut to get wool is called",
+   "options": [
+    "Cocoon",
+    "Fleece",
+    "Boll",
+    "Yarn"
+   ]
+  },
+  {
+   "id": "science-c6-238",
+   "type": "mcq",
+   "q": "Yarn is",
+   "options": [
+    "A long continuous thread made by spinning fibres",
+    "A fabric made on a loom",
+    "A seed of cotton",
+    "A cocoon"
+   ]
+  },
+  {
+   "id": "science-c6-239",
+   "type": "mcq",
+   "q": "Which of these is an animal fibre?",
+   "options": [
+    "Cotton",
+    "Jute",
+    "Coir",
+    "Silk"
+   ]
+  },
+  {
+   "id": "science-c6-240",
+   "type": "mcq",
+   "q": "After harvesting, jute stems are soaked in water for some days. Why?",
+   "options": [
+    "The stem becomes harder",
+    "The stem turns into wool",
+    "The fibre separates from the stalk more easily",
+    "The stem grows"
+   ]
+  },
+  {
+   "id": "science-c6-241",
+   "type": "short",
+   "q": "Describe how yarn can be made by hand.",
+   "proposedAnswer": "Fibres are drawn out from a bunch of cotton and twisted using the fingers, a takli or a charkha to form a long thread.",
+   "keyPoints": [
+    "Fibres drawn out",
+    "Fibres twisted",
+    "Takli or charkha used"
+   ]
+  },
+  {
+   "id": "science-c6-242",
+   "type": "short",
+   "q": "Why are cotton clothes preferred in hot summer weather?",
+   "proposedAnswer": "Cotton absorbs sweat easily and lets it evaporate, so the body feels cool.",
+   "keyPoints": [
+    "Absorbs sweat",
+    "Evaporation cools the body"
+   ]
+  },
+  {
+   "id": "science-c6-243",
+   "type": "mcq",
+   "q": "Which of these floats on water?",
+   "options": [
+    "Coin",
+    "Stone",
+    "Cork",
+    "Key"
+   ]
+  },
+  {
+   "id": "science-c6-244",
+   "type": "mcq",
+   "q": "Which of these is soft?",
+   "options": [
+    "Diamond",
+    "Sponge",
+    "Iron",
+    "Stone"
+   ]
+  },
+  {
+   "id": "science-c6-245",
+   "type": "mcq",
+   "q": "Which statement about oil and water is correct?",
+   "options": [
+    "Oil floats on water as a separate layer",
+    "Oil dissolves fully in water",
+    "Oil is heavier than water",
+    "Oil turns water to ice"
+   ]
+  },
+  {
+   "id": "science-c6-246",
+   "type": "mcq",
+   "q": "Which of these can you see through clearly?",
+   "options": [
+    "A wall",
+    "A stone",
+    "A wooden door",
+    "Clear glass"
+   ]
+  },
+  {
+   "id": "science-c6-247",
+   "type": "mcq",
+   "q": "A door is made of wood, but a window pane is made of glass. Why?",
+   "options": [
+    "Glass is stronger",
+    "Wood is transparent",
+    "Both are the same",
+    "The glass lets light pass through while the wood blocks view and gives privacy"
+   ]
+  },
+  {
+   "id": "science-c6-248",
+   "type": "short",
+   "q": "Why are cups often made of ceramic or steel and not paper for hot tea at home?",
+   "proposedAnswer": "Ceramic and steel are strong, do not dissolve or soften in hot liquid, and can be used again and again.",
+   "keyPoints": [
+    "Strong and durable",
+    "Do not soften or dissolve",
+    "Reusable"
+   ]
+  },
+  {
+   "id": "science-c6-249",
+   "type": "short",
+   "q": "Group these into sink or float in water: iron nail, cork, stone, wooden block, plastic bottle cap.",
+   "proposedAnswer": "Sink: iron nail and stone. Float: cork, wooden block and plastic cap.",
+   "keyPoints": [
+    "Correct sinking items",
+    "Correct floating items"
+   ]
+  },
+  {
+   "id": "science-c6-250",
+   "type": "mcq",
+   "q": "Which tool is used for sieving?",
+   "options": [
+    "Magnet",
+    "Beaker",
+    "Sieve",
+    "Filter funnel only"
+   ]
+  },
+  {
+   "id": "science-c6-251",
+   "type": "mcq",
+   "q": "In sedimentation the heavier particles",
+   "options": [
+    "Float on top",
+    "Settle at the bottom",
+    "Evaporate",
+    "Dissolve"
+   ]
+  },
+  {
+   "id": "science-c6-252",
+   "type": "mcq",
+   "q": "Alum is added to muddy water because it",
+   "options": [
+    "Makes the particles settle faster",
+    "Makes water salty",
+    "Dissolves the mud",
+    "Adds colour"
+   ]
+  },
+  {
+   "id": "science-c6-253",
+   "type": "mcq",
+   "q": "Wet clothes dry fastest when they are hung",
+   "options": [
+    "In the sun on a windy day",
+    "In a cupboard",
+    "In a cold, still room",
+    "Under the shade with no breeze"
+   ]
+  },
+  {
+   "id": "science-c6-254",
+   "type": "mcq",
+   "q": "A mixture of sawdust and iron filings is given. Which is a simple way to separate them?",
+   "options": [
+    "Add water and heat it",
+    "Winnow it",
+    "Use a sieve only",
+    "Use a magnet"
+   ]
+  },
+  {
+   "id": "science-c6-255",
+   "type": "short",
+   "q": "What is sedimentation and decantation? Where are they used?",
+   "proposedAnswer": "Sedimentation is the settling of heavy particles at the bottom. Decantation is pouring out the clear liquid above. Used for muddy water.",
+   "keyPoints": [
+    "Settling of heavy particles",
+    "Pouring off clear liquid",
+    "Example such as muddy water"
+   ]
+  },
+  {
+   "id": "science-c6-256",
+   "type": "short",
+   "q": "Can sugar be separated from a sugar solution by filtration? Explain.",
+   "proposedAnswer": "No. Dissolved sugar passes through filter paper with the water. It can be recovered by evaporating the water.",
+   "keyPoints": [
+    "Not by filtration",
+    "Dissolved particles pass through",
+    "Evaporation recovers sugar"
+   ]
+  },
+  {
+   "id": "science-c6-257",
+   "type": "mcq",
+   "q": "The change of liquid water into ice is called",
+   "options": [
+    "Melting",
+    "Boiling",
+    "Freezing",
+    "Evaporation"
+   ]
+  },
+  {
+   "id": "science-c6-258",
+   "type": "mcq",
+   "q": "Which of these changes is slow?",
+   "options": [
+    "Bursting of a balloon",
+    "Rusting of iron",
+    "Burning of a cracker",
+    "Breaking a glass"
+   ]
+  },
+  {
+   "id": "science-c6-259",
+   "type": "mcq",
+   "q": "Which change is caused by heating and cannot be reversed?",
+   "options": [
+    "Cooling of water",
+    "Frying an egg",
+    "Melting ice",
+    "Boiling water"
+   ]
+  },
+  {
+   "id": "science-c6-260",
+   "type": "mcq",
+   "q": "Which of the following is a periodic change?",
+   "options": [
+    "The change of day and night",
+    "Burning of wood",
+    "Cooking",
+    "Ripening"
+   ]
+  },
+  {
+   "id": "science-c6-261",
+   "type": "mcq",
+   "q": "Bread is toasted. Which statement is true?",
+   "options": [
+    "Toasting is reversible",
+    "No change occurs",
+    "It becomes a liquid",
+    "The change is irreversible because the bread changes permanently"
+   ]
+  },
+  {
+   "id": "science-c6-262",
+   "type": "short",
+   "q": "Give two changes that are caused by heating and two caused by cooling.",
+   "proposedAnswer": "Heating: melting of butter, boiling of water. Cooling: freezing of water, condensation of vapour.",
+   "keyPoints": [
+    "Two heating examples",
+    "Two cooling examples"
+   ]
+  },
+  {
+   "id": "science-c6-263",
+   "type": "short",
+   "q": "Describe the changes that take place when raw rice is cooked, and say if they can be reversed.",
+   "proposedAnswer": "The rice softens, absorbs water and changes taste and colour. These changes cannot be reversed, so cooking is irreversible.",
+   "keyPoints": [
+    "Rice softens and changes",
+    "Cannot return to raw rice",
+    "Irreversible"
+   ]
+  },
+  {
+   "id": "science-c6-264",
+   "type": "mcq",
+   "q": "The tiny pores on the surface of leaves are called",
+   "options": [
+    "Veins",
+    "Roots",
+    "Stomata",
+    "Sepals"
+   ]
+  },
+  {
+   "id": "science-c6-265",
+   "type": "mcq",
+   "q": "A medium-sized plant with many branches near the base is a",
+   "options": [
+    "Herb",
+    "Tree",
+    "Shrub",
+    "Creeper"
+   ]
+  },
+  {
+   "id": "science-c6-266",
+   "type": "mcq",
+   "q": "The pea plant and the pumpkin plant are called climbers and creepers because their stems are",
+   "options": [
+    "Very thick",
+    "Weak and cannot stand upright",
+    "Hollow",
+    "Made of wood"
+   ]
+  },
+  {
+   "id": "science-c6-267",
+   "type": "mcq",
+   "q": "Which of the following leaves has reticulate venation?",
+   "options": [
+    "Peepal",
+    "Grass",
+    "Maize",
+    "Wheat"
+   ]
+  },
+  {
+   "id": "science-c6-268",
+   "type": "mcq",
+   "q": "A gardener ties a pea plant to a stick. Why?",
+   "options": [
+    "The roots are too long",
+    "It needs less water",
+    "It makes more seeds",
+    "The stem is weak and needs support"
+   ]
+  },
+  {
+   "id": "science-c6-269",
+   "type": "short",
+   "q": "Name the parts of a leaf and give the function of veins.",
+   "proposedAnswer": "A leaf has a lamina (blade), a petiole and veins. Veins carry water and food in the leaf.",
+   "keyPoints": [
+    "Lamina and petiole named",
+    "Veins carry water and food"
+   ]
+  },
+  {
+   "id": "science-c6-270",
+   "type": "short",
+   "q": "Give two reasons why the roots are essential to a plant.",
+   "proposedAnswer": "Roots hold the plant firmly in the soil and absorb water and minerals from it.",
+   "keyPoints": [
+    "Anchor plant",
+    "Absorb water and minerals"
+   ]
+  },
+  {
+   "id": "science-c6-271",
+   "type": "mcq",
+   "q": "The soft, bendable part of the ear is made of",
+   "options": [
+    "Hard bone",
+    "Muscle",
+    "Skin only",
+    "Cartilage"
+   ]
+  },
+  {
+   "id": "science-c6-272",
+   "type": "mcq",
+   "q": "Muscles help us move by",
+   "options": [
+    "Expanding only",
+    "Hardening",
+    "Contracting and relaxing",
+    "Melting"
+   ]
+  },
+  {
+   "id": "science-c6-273",
+   "type": "mcq",
+   "q": "The joint at the hip allows the leg to move",
+   "options": [
+    "In one direction only",
+    "In many directions",
+    "Not at all",
+    "Only up and down"
+   ]
+  },
+  {
+   "id": "science-c6-274",
+   "type": "mcq",
+   "q": "Which animal has a body with six legs and wings that help it walk and fly?",
+   "options": [
+    "Cockroach",
+    "Fish",
+    "Snake",
+    "Snail"
+   ]
+  },
+  {
+   "id": "science-c6-275",
+   "type": "mcq",
+   "q": "When you bend your elbow, which muscle contracts?",
+   "options": [
+    "Biceps",
+    "Triceps",
+    "Both stay relaxed",
+    "Neither moves"
+   ]
+  },
+  {
+   "id": "science-c6-276",
+   "type": "short",
+   "q": "What is the function of the ribs?",
+   "proposedAnswer": "Ribs form the rib cage, which protects the heart and lungs and helps in breathing movements.",
+   "keyPoints": [
+    "Protect heart and lungs",
+    "Form the rib cage"
+   ]
+  },
+  {
+   "id": "science-c6-277",
+   "type": "short",
+   "q": "Why is a skeleton useful to the body?",
+   "proposedAnswer": "The skeleton gives shape, protects soft organs such as the brain and heart, and lets us move with muscles.",
+   "keyPoints": [
+    "Gives shape",
+    "Protects organs",
+    "Helps movement"
+   ]
+  },
+  {
+   "id": "science-c6-278",
+   "type": "mcq",
+   "q": "Which of these is a living thing?",
+   "options": [
+    "Stone",
+    "Water",
+    "Air",
+    "Grass"
+   ]
+  },
+  {
+   "id": "science-c6-279",
+   "type": "mcq",
+   "q": "Which of these animals lives on land?",
+   "options": [
+    "Fish",
+    "Octopus",
+    "Lion",
+    "Whale"
+   ]
+  },
+  {
+   "id": "science-c6-280",
+   "type": "mcq",
+   "q": "A plant whose leaves float on the surface of a pond is",
+   "options": [
+    "Cactus",
+    "Water lily",
+    "Neem",
+    "Banyan"
+   ]
+  },
+  {
+   "id": "science-c6-281",
+   "type": "mcq",
+   "q": "Thick fur and a layer of fat help animals to live in",
+   "options": [
+    "Hot deserts",
+    "Very cold regions",
+    "Rainforests",
+    "Ponds"
+   ]
+  },
+  {
+   "id": "science-c6-282",
+   "type": "mcq",
+   "q": "A toy robot can walk and move its arms. Why is it not a living thing?",
+   "options": [
+    "It does not grow, reproduce, breathe or need food",
+    "It cannot move",
+    "It has batteries",
+    "It is made by people so it is not real"
+   ]
+  },
+  {
+   "id": "science-c6-283",
+   "type": "short",
+   "q": "Name two living and two non-living components of a pond habitat.",
+   "proposedAnswer": "Living: fish and water plants. Non-living: water and soil or rocks.",
+   "keyPoints": [
+    "Two living things",
+    "Two non-living things"
+   ]
+  },
+  {
+   "id": "science-c6-284",
+   "type": "short",
+   "q": "Why do camels have broad, padded feet?",
+   "proposedAnswer": "The broad feet spread out the weight of the animal so that it does not sink into the sand when walking.",
+   "keyPoints": [
+    "Broad feet spread the weight",
+    "Helps walk on sand"
+   ]
+  },
+  {
+   "id": "science-c6-285",
+   "type": "mcq",
+   "q": "The distance between two cities is best measured in",
+   "options": [
+    "Millimetres",
+    "Centimetres",
+    "Metres squared",
+    "Kilometres"
+   ]
+  },
+  {
+   "id": "science-c6-286",
+   "type": "mcq",
+   "q": "The small unit used for the thickness of a coin is the",
+   "options": [
+    "Kilometre",
+    "Metre",
+    "Millimetre",
+    "Kilogram"
+   ]
+  },
+  {
+   "id": "science-c6-287",
+   "type": "mcq",
+   "q": "A length of 1.5 m is equal to",
+   "options": [
+    "15 cm",
+    "1500 cm",
+    "150 cm",
+    "1.5 cm"
+   ]
+  },
+  {
+   "id": "science-c6-288",
+   "type": "mcq",
+   "q": "The motion of a pendulum in a clock is",
+   "options": [
+    "Rectilinear only",
+    "Oscillatory",
+    "Rotational only",
+    "None of these"
+   ]
+  },
+  {
+   "id": "science-c6-289",
+   "type": "mcq",
+   "q": "A student reads a length by looking at the scale from an angle. What is likely to happen?",
+   "options": [
+    "The reading may be wrong due to a slanted view",
+    "The reading will be exact",
+    "The scale will break",
+    "The length will change"
+   ]
+  },
+  {
+   "id": "science-c6-290",
+   "type": "short",
+   "q": "Why do we need standard units of measurement?",
+   "proposedAnswer": "Standard units give the same result for everyone, so measurements can be compared and understood by all.",
+   "keyPoints": [
+    "Same value for everyone",
+    "Allow comparison"
+   ]
+  },
+  {
+   "id": "science-c6-291",
+   "type": "short",
+   "q": "Explain how you could measure the length of the boundary of a circular plate using a thread and a ruler.",
+   "proposedAnswer": "Wind the thread once along the edge of the plate, mark the length, straighten the thread and measure it with a ruler.",
+   "keyPoints": [
+    "Thread along the edge",
+    "Mark and straighten",
+    "Measure with ruler"
+   ]
+  },
+  {
+   "id": "science-c6-292",
+   "type": "mcq",
+   "q": "The bouncing back of light from a surface is called",
+   "options": [
+    "Absorption",
+    "Shadow",
+    "Refraction",
+    "Reflection"
+   ]
+  },
+  {
+   "id": "science-c6-293",
+   "type": "mcq",
+   "q": "A shadow is formed on a",
+   "options": [
+    "Source",
+    "Mirror only",
+    "Transparent glass only",
+    "Screen"
+   ]
+  },
+  {
+   "id": "science-c6-294",
+   "type": "mcq",
+   "q": "The device that uses a small hole to form images is called a",
+   "options": [
+    "Telescope",
+    "Microscope",
+    "Pinhole camera",
+    "Periscope"
+   ]
+  },
+  {
+   "id": "science-c6-295",
+   "type": "mcq",
+   "q": "Which statement about light is true?",
+   "options": [
+    "Light needs air to travel only",
+    "Light travels in straight lines",
+    "Light bends around opaque objects",
+    "Light travels in zigzag lines"
+   ]
+  },
+  {
+   "id": "science-c6-296",
+   "type": "mcq",
+   "q": "In a shadow play, the puppet is moved closer to the screen. The shadow becomes",
+   "options": [
+    "Smaller and sharper",
+    "Larger",
+    "Invisible",
+    "Brighter"
+   ]
+  },
+  {
+   "id": "science-c6-297",
+   "type": "short",
+   "q": "List the conditions needed to form a shadow.",
+   "proposedAnswer": "A source of light, an opaque object in the path of the light and a screen.",
+   "keyPoints": [
+    "Light source",
+    "Opaque object",
+    "Screen"
+   ]
+  },
+  {
+   "id": "science-c6-298",
+   "type": "short",
+   "q": "Write one difference between a shadow and an image in a mirror.",
+   "proposedAnswer": "A shadow is a dark area showing only the outline of the object, while an image in a mirror is formed by reflected light and shows details and colours.",
+   "keyPoints": [
+    "Shadow only outline",
+    "Image shows detail by reflection"
+   ]
+  },
+  {
+   "id": "science-c6-299",
+   "type": "mcq",
+   "q": "Which of these is a source of electricity?",
+   "options": [
+    "Cell",
+    "Switch",
+    "Wire",
+    "Bulb"
+   ]
+  },
+  {
+   "id": "science-c6-300",
+   "type": "mcq",
+   "q": "The torch uses",
+   "options": [
+    "Magnets",
+    "Pencils",
+    "Mirrors only",
+    "Cells"
+   ]
+  },
+  {
+   "id": "science-c6-301",
+   "type": "mcq",
+   "q": "A circuit is called a closed circuit when",
+   "options": [
+    "There is a gap",
+    "The switch is open",
+    "The path is complete",
+    "The cell is removed"
+   ]
+  },
+  {
+   "id": "science-c6-302",
+   "type": "mcq",
+   "q": "The two terminals of a bulb are connected to",
+   "options": [
+    "The bottom of the glass",
+    "The filament",
+    "Air",
+    "The magnet"
+   ]
+  },
+  {
+   "id": "science-c6-303",
+   "type": "mcq",
+   "q": "An electric plug has metal pins but a plastic body. Why?",
+   "options": [
+    "Plastic carries current",
+    "Pins carry current and plastic protects us from shocks",
+    "Metal is lighter",
+    "Both are conductors"
+   ]
+  },
+  {
+   "id": "science-c6-304",
+   "type": "short",
+   "q": "What is the function of a switch in an electric circuit?",
+   "proposedAnswer": "A switch opens or closes the circuit, so it can stop or allow current to flow.",
+   "keyPoints": [
+    "Opens or closes circuit",
+    "Controls current"
+   ]
+  },
+  {
+   "id": "science-c6-305",
+   "type": "short",
+   "q": "Describe how to test whether a pencil lead, a rubber and an iron nail are conductors using a tester.",
+   "proposedAnswer": "Connect each material in turn between the free ends of a circuit with a cell and bulb. If the bulb glows, the material conducts; if not, it is an insulator.",
+   "keyPoints": [
+    "Connect each in the circuit",
+    "Glowing bulb means conductor",
+    "No glow means insulator"
+   ]
+  },
+  {
+   "id": "science-c6-306",
+   "type": "mcq",
+   "q": "A magnet has",
+   "options": [
+    "Two poles",
+    "Only a north pole",
+    "Three poles",
+    "No poles"
+   ]
+  },
+  {
+   "id": "science-c6-307",
+   "type": "mcq",
+   "q": "Iron filings sprinkled on paper over a bar magnet mostly collect near",
+   "options": [
+    "The middle only",
+    "The corners",
+    "The ends",
+    "No place"
+   ]
+  },
+  {
+   "id": "science-c6-308",
+   "type": "mcq",
+   "q": "A magnet can be used to pick up",
+   "options": [
+    "A wooden stick",
+    "A plastic bag",
+    "A steel pin",
+    "A glass bead"
+   ]
+  },
+  {
+   "id": "science-c6-309",
+   "type": "mcq",
+   "q": "Which observation proves that an unknown metal bar is a magnet and not just a piece of iron?",
+   "options": [
+    "It is attracted by a known magnet",
+    "It repels the north pole of a known magnet when one of its ends is brought near",
+    "It sticks to a steel table",
+    "It is heavy"
+   ]
+  },
+  {
+   "id": "science-c6-310",
+   "type": "short",
+   "q": "State two properties of a magnet.",
+   "proposedAnswer": "A magnet attracts magnetic materials and has two poles. A freely suspended magnet settles in the north-south direction.",
+   "keyPoints": [
+    "Attracts magnetic materials",
+    "Two poles or north-south direction"
+   ]
+  },
+  {
+   "id": "science-c6-311",
+   "type": "short",
+   "q": "A compass needle is placed on a table far from any magnet. Why does it still settle in the north-south direction?",
+   "proposedAnswer": "The Earth behaves like a large magnet, so the needle, which is a small magnet, lines up with it.",
+   "keyPoints": [
+    "Earth acts like a magnet",
+    "Needle aligns north-south"
+   ]
+  },
+  {
+   "id": "science-c6-312",
+   "type": "mcq",
+   "q": "Which of the following is a fruit?",
+   "options": [
+    "Mango",
+    "Cabbage",
+    "Carrot",
+    "Radish"
+   ]
+  },
+  {
+   "id": "science-c6-313",
+   "type": "mcq",
+   "q": "Which bird commonly gives us eggs for food?",
+   "options": [
+    "Eagle",
+    "Owl",
+    "Crow",
+    "Hen"
+   ]
+  },
+  {
+   "id": "science-c6-314",
+   "type": "mcq",
+   "q": "Which group has only herbivores?",
+   "options": [
+    "Lion, tiger, cow",
+    "Crow, dog, goat",
+    "Tiger, deer, rabbit",
+    "Cow, goat, deer"
+   ]
+  },
+  {
+   "id": "science-c6-315",
+   "type": "mcq",
+   "q": "Which of these is mainly eaten for its leaves?",
+   "options": [
+    "Potato",
+    "Peas",
+    "Cabbage",
+    "Carrot"
+   ]
+  },
+  {
+   "id": "science-c6-316",
+   "type": "mcq",
+   "q": "Rani says honey is a plant food because bees collect it from flowers. Which reply is correct?",
+   "options": [
+    "Honey grows on plants",
+    "Honey is an animal product because bees make it from nectar",
+    "Honey is a vegetable",
+    "Honey is a seed"
+   ]
+  },
+  {
+   "id": "science-c6-317",
+   "type": "short",
+   "q": "What are cereals and pulses? Give two examples of each.",
+   "proposedAnswer": "Cereals are grains that give mainly carbohydrates, e.g. wheat and rice. Pulses are seeds rich in protein, e.g. moong and gram.",
+   "keyPoints": [
+    "Cereal examples",
+    "Pulse examples",
+    "Correct description"
+   ]
+  },
+  {
+   "id": "science-c6-318",
+   "type": "short",
+   "q": "Why are humans called omnivores?",
+   "proposedAnswer": "Humans can eat both plant foods such as vegetables and cereals and animal foods such as milk, eggs and meat.",
+   "keyPoints": [
+    "Eat plants",
+    "Eat animal products"
+   ]
+  },
+  {
+   "id": "science-c6-319",
+   "type": "mcq",
+   "q": "Which food gives us roughage?",
+   "options": [
+    "Fruits and vegetables with fibre",
+    "Pure sugar",
+    "Oil",
+    "Salt"
+   ]
+  },
+  {
+   "id": "science-c6-320",
+   "type": "mcq",
+   "q": "A disease caused by long-term lack of a nutrient is called a",
+   "options": [
+    "Deficiency disease",
+    "Infectious disease",
+    "Allergy",
+    "Virus"
+   ]
+  },
+  {
+   "id": "science-c6-321",
+   "type": "mcq",
+   "q": "Our skin makes vitamin D when exposed to",
+   "options": [
+    "Water",
+    "Cold air",
+    "Salt",
+    "Sunlight"
+   ]
+  },
+  {
+   "id": "science-c6-322",
+   "type": "mcq",
+   "q": "A food gives a violet colour when copper sulphate and caustic soda solutions are added. It contains",
+   "options": [
+    "Starch",
+    "Fat",
+    "Protein",
+    "Roughage"
+   ]
+  },
+  {
+   "id": "science-c6-323",
+   "type": "mcq",
+   "q": "In some hilly regions, many people have goitre. Which change in diet would help?",
+   "options": [
+    "Eating more sugar",
+    "Using iodised salt",
+    "Eating more oil",
+    "Drinking less water"
+   ]
+  },
+  {
+   "id": "science-c6-324",
+   "type": "short",
+   "q": "Why do we need roughage though it gives no nutrients?",
+   "proposedAnswer": "Roughage adds bulk, helps move food through the gut and removes undigested waste, preventing constipation.",
+   "keyPoints": [
+    "Adds bulk",
+    "Helps remove waste",
+    "Prevents constipation"
+   ]
+  },
+  {
+   "id": "science-c6-325",
+   "type": "short",
+   "q": "A raw potato and a piece of paneer are tested with iodine solution. What result do you expect and why?",
+   "proposedAnswer": "The potato turns blue-black as it contains starch. The paneer does not change colour as it has mostly protein and fat, with no starch.",
+   "keyPoints": [
+    "Potato blue-black",
+    "Paneer no change",
+    "Starch only in potato"
+   ]
+  },
+  {
+   "id": "science-c6-326",
+   "type": "mcq",
+   "q": "Coir is obtained from the",
+   "options": [
+    "Cotton boll",
+    "Coconut husk",
+    "Silkworm",
+    "Sheep"
+   ]
+  },
+  {
+   "id": "science-c6-327",
+   "type": "mcq",
+   "q": "Which animal gives hair that is made into woollen yarn in hills?",
+   "options": [
+    "Yak",
+    "Horse",
+    "Elephant",
+    "Crocodile"
+   ]
+  },
+  {
+   "id": "science-c6-328",
+   "type": "mcq",
+   "q": "In weaving, two sets of yarn are arranged",
+   "options": [
+    "Parallel only",
+    "In a circle",
+    "Randomly",
+    "At right angles to each other"
+   ]
+  },
+  {
+   "id": "science-c6-329",
+   "type": "mcq",
+   "q": "The cotton boll is the",
+   "options": [
+    "Root of the plant",
+    "Leaf of the plant",
+    "Fruit of the cotton plant",
+    "Seed of jute"
+   ]
+  },
+  {
+   "id": "science-c6-330",
+   "type": "mcq",
+   "q": "Which sequence for silk is correct?",
+   "options": [
+    "Silk cloth, yarn, cocoon",
+    "Yarn, cocoon, cloth",
+    "Cocoon, silk yarn, silk cloth",
+    "Cloth, cocoon, yarn"
+   ]
+  },
+  {
+   "id": "science-c6-331",
+   "type": "short",
+   "q": "What is shearing? Does it harm the sheep?",
+   "proposedAnswer": "Shearing is removing the fleece of the sheep by cutting. It does not hurt the sheep since the hair is cut like our hair.",
+   "keyPoints": [
+    "Removal of fleece",
+    "Does not harm the animal"
+   ]
+  },
+  {
+   "id": "science-c6-332",
+   "type": "short",
+   "q": "Coir is used for doormats and ropes. Which property of coir makes this suitable?",
+   "proposedAnswer": "Coir fibre is coarse and strong, so it can scrub dirt and bear pulling.",
+   "keyPoints": [
+    "Strong",
+    "Coarse"
+   ]
+  },
+  {
+   "id": "science-c6-333",
+   "type": "mcq",
+   "q": "Metals generally have a shine, which is known as",
+   "options": [
+    "Opacity",
+    "Lustre",
+    "Softness",
+    "Float"
+   ]
+  },
+  {
+   "id": "science-c6-334",
+   "type": "mcq",
+   "q": "Which of these is rough to touch?",
+   "options": [
+    "Sandpaper",
+    "Glass",
+    "Silk",
+    "Mirror"
+   ]
+  },
+  {
+   "id": "science-c6-335",
+   "type": "mcq",
+   "q": "Which of the following is translucent?",
+   "options": [
+    "Brick",
+    "Iron sheet",
+    "Clear glass",
+    "Butter paper"
+   ]
+  },
+  {
+   "id": "science-c6-336",
+   "type": "mcq",
+   "q": "Which statement is correct?",
+   "options": [
+    "Each object is made of only one material",
+    "Materials never change",
+    "A chair can only be wood",
+    "An object can be made of more than one material"
+   ]
+  },
+  {
+   "id": "science-c6-337",
+   "type": "mcq",
+   "q": "A raincoat is made of plastic or rubber-coated cloth because",
+   "options": [
+    "They are heavy",
+    "They dissolve in water",
+    "Water does not pass through them easily",
+    "They are lustrous"
+   ]
+  },
+  {
+   "id": "science-c6-338",
+   "type": "short",
+   "q": "What is lustre? Name two materials that show lustre.",
+   "proposedAnswer": "Lustre is the shining appearance of a surface. Metals such as gold and silver show it.",
+   "keyPoints": [
+    "Shine of the surface",
+    "Two lustrous materials"
+   ]
+  },
+  {
+   "id": "science-c6-339",
+   "type": "short",
+   "q": "Why are different materials used to make different objects? Give an example.",
+   "proposedAnswer": "Materials have different properties, so we pick the one that suits the use. For example, glass is used for windows as it is transparent, and iron for tools as it is hard.",
+   "keyPoints": [
+    "Properties differ",
+    "Choice depends on use",
+    "Correct example"
+   ]
+  },
+  {
+   "id": "science-c6-340",
+   "type": "mcq",
+   "q": "A mixture is",
+   "options": [
+    "A single pure substance",
+    "Two or more substances mixed together",
+    "Only a liquid",
+    "Only a solid"
+   ]
+  },
+  {
+   "id": "science-c6-341",
+   "type": "mcq",
+   "q": "Sieving is used when the components of a mixture are of",
+   "options": [
+    "Different sizes",
+    "The same size",
+    "The same colour",
+    "No size"
+   ]
+  },
+  {
+   "id": "science-c6-342",
+   "type": "mcq",
+   "q": "Husk is separated from rice grains by",
+   "options": [
+    "Winnowing",
+    "Evaporation",
+    "Magnetism",
+    "Condensation"
+   ]
+  },
+  {
+   "id": "science-c6-343",
+   "type": "mcq",
+   "q": "Which method can separate sand from water?",
+   "options": [
+    "Winnowing",
+    "Magnet",
+    "Handpicking",
+    "Filtration"
+   ]
+  },
+  {
+   "id": "science-c6-344",
+   "type": "mcq",
+   "q": "Which two steps together separate a mixture of sand and water without special tools?",
+   "options": [
+    "Winnowing and sieving",
+    "Evaporation and sieving",
+    "Sedimentation and decantation",
+    "Threshing and magnet"
+   ]
+  },
+  {
+   "id": "science-c6-345",
+   "type": "short",
+   "q": "Why is sieving useful? Give an example.",
+   "proposedAnswer": "It separates particles of different sizes, such as flour from bran or sand from gravel.",
+   "keyPoints": [
+    "Different sizes",
+    "Example"
+   ]
+  },
+  {
+   "id": "science-c6-346",
+   "type": "short",
+   "q": "A mixture of rice and small gravel is given. Which method would you use and why?",
+   "proposedAnswer": "Handpicking, because the gravel pieces are visible and the quantity is small. A sieve could also be used if the sizes differ enough.",
+   "keyPoints": [
+    "Handpicking or sieving",
+    "Reason linked to visibility or size"
+   ]
+  },
+  {
+   "id": "science-c6-347",
+   "type": "mcq",
+   "q": "A change that can be undone is called a",
+   "options": [
+    "Irreversible change",
+    "Reversible change",
+    "Permanent change",
+    "Slow change"
+   ]
+  },
+  {
+   "id": "science-c6-348",
+   "type": "mcq",
+   "q": "Rust on iron is",
+   "options": [
+    "Black and shiny",
+    "Reddish-brown",
+    "Blue",
+    "Green"
+   ]
+  },
+  {
+   "id": "science-c6-349",
+   "type": "mcq",
+   "q": "Tearing a sheet of paper into pieces is",
+   "options": [
+    "Irreversible",
+    "Reversible",
+    "A change of state",
+    "Rusting"
+   ]
+  },
+  {
+   "id": "science-c6-350",
+   "type": "mcq",
+   "q": "Which of the following is reversible?",
+   "options": [
+    "Cooking an egg",
+    "Burning wood",
+    "Making curd",
+    "Folding and unfolding a sheet of paper"
+   ]
+  },
+  {
+   "id": "science-c6-351",
+   "type": "mcq",
+   "q": "Water drops form on the inside of a lid covering a pan of boiling water. This shows",
+   "options": [
+    "Freezing of water",
+    "Rusting",
+    "Condensation of water vapour",
+    "Burning"
+   ]
+  },
+  {
+   "id": "science-c6-352",
+   "type": "short",
+   "q": "What is rusting? State what is needed for it.",
+   "proposedAnswer": "Rusting is the formation of a reddish-brown layer on iron when it is exposed to air and moisture.",
+   "keyPoints": [
+    "Reddish-brown coating on iron",
+    "Needs air and water"
+   ]
+  },
+  {
+   "id": "science-c6-353",
+   "type": "short",
+   "q": "Is dissolving sugar in water a reversible change? Explain.",
+   "proposedAnswer": "Yes, sugar can be recovered by evaporating the water, so the change can be reversed.",
+   "keyPoints": [
+    "Reversible",
+    "Evaporate water to recover sugar"
+   ]
+  },
+  {
+   "id": "science-c6-354",
+   "type": "mcq",
+   "q": "Mint is a",
+   "options": [
+    "Tree",
+    "Big shrub",
+    "Herb",
+    "Climber"
+   ]
+  },
+  {
+   "id": "science-c6-355",
+   "type": "mcq",
+   "q": "Which part of the plant holds it in the soil?",
+   "options": [
+    "Leaf",
+    "Root",
+    "Flower",
+    "Fruit"
+   ]
+  },
+  {
+   "id": "science-c6-356",
+   "type": "mcq",
+   "q": "Transpiration helps the plant by",
+   "options": [
+    "Removing excess water and cooling the plant",
+    "Making flowers",
+    "Making seeds",
+    "Making roots"
+   ]
+  },
+  {
+   "id": "science-c6-357",
+   "type": "mcq",
+   "q": "Food in plants is mainly made in the",
+   "options": [
+    "Roots",
+    "Stem",
+    "Flower buds",
+    "Leaves"
+   ]
+  },
+  {
+   "id": "science-c6-358",
+   "type": "mcq",
+   "q": "A potted plant is covered with a clear polythene bag and kept in sunlight. After some time water drops appear inside the bag. This is due to",
+   "options": [
+    "Rain",
+    "Photosynthesis only",
+    "Wind",
+    "Transpiration by the plant"
+   ]
+  },
+  {
+   "id": "science-c6-359",
+   "type": "short",
+   "q": "Name three types of plants based on their stems and give one example for each.",
+   "proposedAnswer": "Herbs (mint), shrubs (rose) and trees (mango).",
+   "keyPoints": [
+    "Herb, shrub, tree",
+    "Example for each"
+   ]
+  },
+  {
+   "id": "science-c6-360",
+   "type": "short",
+   "q": "How does a flower help a plant to produce seeds?",
+   "proposedAnswer": "Pollen from the stamen reaches the pistil, fertilisation takes place and the ovules develop into seeds while the ovary becomes the fruit.",
+   "keyPoints": [
+    "Pollen reaches the pistil",
+    "Fertilisation",
+    "Seeds and fruit form"
+   ]
+  },
+  {
+   "id": "science-c6-361",
+   "type": "mcq",
+   "q": "The place where two bones meet is called a",
+   "options": [
+    "Muscle",
+    "Skin",
+    "Joint",
+    "Gap"
+   ]
+  },
+  {
+   "id": "science-c6-362",
+   "type": "mcq",
+   "q": "The tip of the nose can be bent because it has",
+   "options": [
+    "Hard bone",
+    "Cartilage",
+    "Fixed joints",
+    "Rib"
+   ]
+  },
+  {
+   "id": "science-c6-363",
+   "type": "mcq",
+   "q": "The leg can bend backward at the knee but not forward because the knee is a",
+   "options": [
+    "Hinge joint",
+    "Fixed joint",
+    "Ball and socket joint",
+    "Pivotal joint"
+   ]
+  },
+  {
+   "id": "science-c6-364",
+   "type": "mcq",
+   "q": "The backbone is made up of many small bones, which allows us to",
+   "options": [
+    "Bend and twist",
+    "Fly",
+    "Hear",
+    "Breathe water"
+   ]
+  },
+  {
+   "id": "science-c6-365",
+   "type": "mcq",
+   "q": "If the knee joint of a person became fixed, what would be most affected?",
+   "options": [
+    "Hearing",
+    "Breathing",
+    "Seeing",
+    "Walking and sitting"
+   ]
+  },
+  {
+   "id": "science-c6-366",
+   "type": "short",
+   "q": "Explain how a snail moves.",
+   "proposedAnswer": "A snail has a muscular foot. It glides forward on a slimy layer by waves of muscle movement.",
+   "keyPoints": [
+    "Muscular foot",
+    "Glides on slime"
+   ]
+  },
+  {
+   "id": "science-c6-367",
+   "type": "short",
+   "q": "Why can we not bend our elbow backwards?",
+   "proposedAnswer": "The elbow is a hinge joint, which allows movement in only one direction.",
+   "keyPoints": [
+    "Hinge joint",
+    "One direction movement"
+   ]
+  },
+  {
+   "id": "science-c6-368",
+   "type": "mcq",
+   "q": "A fish lives in",
+   "options": [
+    "Desert",
+    "Forest floor",
+    "Water",
+    "Air"
+   ]
+  },
+  {
+   "id": "science-c6-369",
+   "type": "mcq",
+   "q": "Which of these is a characteristic of living things?",
+   "options": [
+    "They stay the same size forever",
+    "They grow",
+    "They are all green",
+    "They never need air"
+   ]
+  },
+  {
+   "id": "science-c6-370",
+   "type": "mcq",
+   "q": "The leaves of the touch-me-not plant fold when touched. This shows that plants",
+   "options": [
+    "Are not alive",
+    "Respond to stimuli",
+    "Make food",
+    "Breathe air"
+   ]
+  },
+  {
+   "id": "science-c6-371",
+   "type": "mcq",
+   "q": "Yaks living in cold mountain regions have",
+   "options": [
+    "Thick hairy coats",
+    "Thin skin",
+    "Wings",
+    "Gills"
+   ]
+  },
+  {
+   "id": "science-c6-372",
+   "type": "mcq",
+   "q": "Which is an adaptation of desert plants?",
+   "options": [
+    "Large, thin leaves",
+    "Floating leaves",
+    "Many roots on the stem",
+    "Waxy coating on stems that reduces water loss"
+   ]
+  },
+  {
+   "id": "science-c6-373",
+   "type": "short",
+   "q": "What is adaptation? Give one example from a bird or an animal.",
+   "proposedAnswer": "Adaptation is a special feature that helps an organism live in its habitat. For example, a fish has gills to breathe in water.",
+   "keyPoints": [
+    "Feature suited to habitat",
+    "Correct example"
+   ]
+  },
+  {
+   "id": "science-c6-374",
+   "type": "short",
+   "q": "Why can a polar bear not live in a hot desert?",
+   "proposedAnswer": "Its thick fur and fat suit cold regions; in a hot desert it would overheat and would not find the food it eats.",
+   "keyPoints": [
+    "Adapted to cold",
+    "Would overheat in desert"
+   ]
+  },
+  {
+   "id": "science-c6-375",
+   "type": "mcq",
+   "q": "Motion means a change in",
+   "options": [
+    "Colour",
+    "Mass",
+    "Position",
+    "Size"
+   ]
+  },
+  {
+   "id": "science-c6-376",
+   "type": "mcq",
+   "q": "Which instrument is used to measure the length of a book?",
+   "options": [
+    "Beaker",
+    "Clock",
+    "Metre scale",
+    "Balance"
+   ]
+  },
+  {
+   "id": "science-c6-377",
+   "type": "mcq",
+   "q": "5 km is equal to",
+   "options": [
+    "50 m",
+    "5000 m",
+    "500 m",
+    "50000 m"
+   ]
+  },
+  {
+   "id": "science-c6-378",
+   "type": "mcq",
+   "q": "The motion of a car on a straight road is called",
+   "options": [
+    "Rectilinear",
+    "Periodic",
+    "Circular",
+    "Oscillatory"
+   ]
+  },
+  {
+   "id": "science-c6-379",
+   "type": "mcq",
+   "q": "A person sits in a moving train and says her seat is not moving. Which is a correct view?",
+   "options": [
+    "The seat is not at rest in any way",
+    "The train is not moving",
+    "Rest and motion are the same",
+    "The seat is at rest compared to her but moving compared to the ground"
+   ]
+  },
+  {
+   "id": "science-c6-380",
+   "type": "short",
+   "q": "Name three types of motion with an example of each.",
+   "proposedAnswer": "Rectilinear: a car on a straight road. Circular: a stone whirled on a string. Periodic: a swing.",
+   "keyPoints": [
+    "Three types",
+    "Example for each"
+   ]
+  },
+  {
+   "id": "science-c6-381",
+   "type": "short",
+   "q": "Two children measure the length of a desk by their foot lengths and get different numbers. Explain and suggest a solution.",
+   "proposedAnswer": "Their feet are different sizes, so the numbers differ. They should use a standard unit such as the metre scale.",
+   "keyPoints": [
+    "Foot lengths differ",
+    "Use standard unit"
+   ]
+  },
+  {
+   "id": "science-c6-382",
+   "type": "mcq",
+   "q": "Which of these is a source of light?",
+   "options": [
+    "Chair",
+    "Table",
+    "Book",
+    "Electric bulb"
+   ]
+  },
+  {
+   "id": "science-c6-383",
+   "type": "mcq",
+   "q": "Opaque objects",
+   "options": [
+    "Let all light pass",
+    "Are always shiny",
+    "Allow no light to pass through",
+    "Are always transparent"
+   ]
+  },
+  {
+   "id": "science-c6-384",
+   "type": "mcq",
+   "q": "The shadow of an object is sharpest when the light source is",
+   "options": [
+    "Large and far",
+    "Small and bright",
+    "Very dim",
+    "Behind the screen"
+   ]
+  },
+  {
+   "id": "science-c6-385",
+   "type": "mcq",
+   "q": "In a pinhole camera the hole should be",
+   "options": [
+    "Small",
+    "Very large",
+    "Closed",
+    "Square only"
+   ]
+  },
+  {
+   "id": "science-c6-386",
+   "type": "mcq",
+   "q": "The Moon appears bright at night because",
+   "options": [
+    "It reflects light from the Sun",
+    "It makes its own light",
+    "It is a star",
+    "It is a mirror made by people"
+   ]
+  },
+  {
+   "id": "science-c6-387",
+   "type": "short",
+   "q": "Differentiate luminous and non-luminous objects with examples.",
+   "proposedAnswer": "Luminous objects give out their own light, such as the Sun. Non-luminous objects do not, such as a table.",
+   "keyPoints": [
+    "Luminous give light",
+    "Non-luminous do not",
+    "Examples"
+   ]
+  },
+  {
+   "id": "science-c6-388",
+   "type": "short",
+   "q": "Why are shadows shortest around noon?",
+   "proposedAnswer": "At noon the Sun is almost overhead, so light falls nearly straight down and shadows are short.",
+   "keyPoints": [
+    "Sun overhead at noon",
+    "Light falls straight",
+    "Short shadow"
+   ]
+  },
+  {
+   "id": "science-c6-389",
+   "type": "mcq",
+   "q": "Electric current flows only in a",
+   "options": [
+    "Broken circuit",
+    "Dark room",
+    "Cold room",
+    "Closed circuit"
+   ]
+  },
+  {
+   "id": "science-c6-390",
+   "type": "mcq",
+   "q": "A battery is",
+   "options": [
+    "One bulb",
+    "A switch",
+    "Two or more cells connected",
+    "A wire"
+   ]
+  },
+  {
+   "id": "science-c6-391",
+   "type": "mcq",
+   "q": "The glass of a bulb",
+   "options": [
+    "Conducts electricity",
+    "Does not allow current to pass but allows light",
+    "Makes the filament",
+    "Is a metal"
+   ]
+  },
+  {
+   "id": "science-c6-392",
+   "type": "mcq",
+   "q": "For experiments in school, which source of electricity should never be used?",
+   "options": [
+    "A single cell",
+    "Mains electricity",
+    "Two cells",
+    "A small battery"
+   ]
+  },
+  {
+   "id": "science-c6-393",
+   "type": "mcq",
+   "q": "In a circuit, a student uses an iron nail instead of a switch to close the gap. What happens?",
+   "options": [
+    "The bulb lights because iron is a conductor",
+    "The bulb stays off",
+    "The bulb breaks",
+    "The cell becomes bigger"
+   ]
+  },
+  {
+   "id": "science-c6-394",
+   "type": "short",
+   "q": "Why does a bulb not glow when the circuit has a gap?",
+   "proposedAnswer": "The gap breaks the path, so no electric current flows to the filament.",
+   "keyPoints": [
+    "Gap breaks circuit",
+    "No current"
+   ]
+  },
+  {
+   "id": "science-c6-395",
+   "type": "short",
+   "q": "Why are cells used for experiments rather than the electricity from the wall socket?",
+   "proposedAnswer": "Cells give a small, safe voltage, but mains electricity can cause fatal electric shocks.",
+   "keyPoints": [
+    "Cells are safe",
+    "Mains is dangerous"
+   ]
+  },
+  {
+   "id": "science-c6-396",
+   "type": "mcq",
+   "q": "Magnets attract",
+   "options": [
+    "All materials",
+    "Only wood",
+    "Only plastic",
+    "Magnetic materials"
+   ]
+  },
+  {
+   "id": "science-c6-397",
+   "type": "mcq",
+   "q": "A compass is used to find",
+   "options": [
+    "Time",
+    "Weight",
+    "Direction",
+    "Temperature"
+   ]
+  },
+  {
+   "id": "science-c6-398",
+   "type": "mcq",
+   "q": "Old sailors used a magnetic needle on the sea to",
+   "options": [
+    "Find fish",
+    "Measure depth",
+    "Find their direction",
+    "Find islands"
+   ]
+  },
+  {
+   "id": "science-c6-399",
+   "type": "mcq",
+   "q": "If you cut a bar magnet in two, can you get a piece with only a north pole?",
+   "options": [
+    "Yes",
+    "No, each piece has two poles",
+    "Yes, if cut at the middle",
+    "Yes, if heated"
+   ]
+  },
+  {
+   "id": "science-c6-400",
+   "type": "mcq",
+   "q": "A bar magnet is placed on a floating piece of cork in a bowl of water. It turns and settles. In which direction does it point?",
+   "options": [
+    "North-south",
+    "Randomly",
+    "East-west",
+    "Up-down"
+   ]
+  },
+  {
+   "id": "science-c6-401",
+   "type": "short",
+   "q": "Name three magnetic and three non-magnetic materials.",
+   "proposedAnswer": "Magnetic: iron, nickel, cobalt. Non-magnetic: wood, plastic, rubber.",
+   "keyPoints": [
+    "Three magnetic",
+    "Three non-magnetic"
+   ]
+  },
+  {
+   "id": "science-c6-402",
+   "type": "short",
+   "q": "How can you show that like poles repel?",
+   "proposedAnswer": "Hang a bar magnet freely and bring the north pole of another magnet close to its north pole. The hanging magnet is pushed away.",
+   "keyPoints": [
+    "Free magnet",
+    "Same poles brought close",
+    "Repulsion seen"
+   ]
+  },
+  {
+   "id": "science-c6-403",
+   "type": "mcq",
+   "q": "We eat the seeds of which of these plants?",
+   "options": [
+    "Spinach",
+    "Carrot",
+    "Cauliflower",
+    "Wheat"
+   ]
+  },
+  {
+   "id": "science-c6-404",
+   "type": "mcq",
+   "q": "Which of these animals is kept to get milk?",
+   "options": [
+    "Hen",
+    "Bee",
+    "Fish",
+    "Buffalo"
+   ]
+  },
+  {
+   "id": "science-c6-405",
+   "type": "mcq",
+   "q": "Which pair has one stem and one leaf used as food?",
+   "options": [
+    "Carrot and radish",
+    "Potato and onion",
+    "Sugarcane and spinach",
+    "Peas and rice"
+   ]
+  },
+  {
+   "id": "science-c6-406",
+   "type": "mcq",
+   "q": "Which of the following animals is a carnivore?",
+   "options": [
+    "Cow",
+    "Eagle",
+    "Goat",
+    "Buffalo"
+   ]
+  },
+  {
+   "id": "science-c6-407",
+   "type": "mcq",
+   "q": "A child's lunch has roti, a banana and a glass of milk. Which choice names the source of each item correctly?",
+   "options": [
+    "Roti from a seed (grain), banana from a fruit, milk from an animal",
+    "Roti from an animal, banana from a root, milk from a leaf",
+    "Roti from a seed, banana from a stem, milk from a plant",
+    "Roti from a flower, banana from an animal, milk from honey"
+   ]
+  },
+  {
+   "id": "science-c6-408",
+   "type": "mcq",
+   "q": "Which of these foods is obtained from a plant seed and is rich in protein?",
+   "options": [
+    "Chickpea (chana)",
+    "Butter",
+    "Honey",
+    "Milk"
+   ]
+  },
+  {
+   "id": "science-c6-409",
+   "type": "short",
+   "q": "Why is milk an important food for growing children?",
+   "proposedAnswer": "Milk contains proteins for growth, calcium for bones and teeth, and other nutrients and water.",
+   "keyPoints": [
+    "Proteins for growth",
+    "Calcium for bones",
+    "Other nutrients"
+   ]
+  },
+  {
+   "id": "science-c6-410",
+   "type": "short",
+   "q": "Why is it better for a person to eat a variety of foods than only one kind of food?",
+   "proposedAnswer": "Different foods give different nutrients. A single food cannot give all the nutrients in the right amounts, so variety keeps the diet balanced.",
+   "keyPoints": [
+    "Different foods have different nutrients",
+    "No single food gives all",
+    "Variety balances the diet"
+   ]
+  },
+  {
+   "id": "science-c6-411",
+   "type": "mcq",
+   "q": "Which nutrient do rice and potatoes mainly provide?",
+   "options": [
+    "Proteins",
+    "Vitamins",
+    "Minerals",
+    "Carbohydrates"
+   ]
+  },
+  {
+   "id": "science-c6-412",
+   "type": "mcq",
+   "q": "Which of these is rich in vitamin C?",
+   "options": [
+    "Rice",
+    "Sugar",
+    "Orange",
+    "Oil"
+   ]
+  },
+  {
+   "id": "science-c6-413",
+   "type": "mcq",
+   "q": "Which food is the best source of calcium?",
+   "options": [
+    "Potato",
+    "Milk",
+    "Sugar",
+    "Honey"
+   ]
+  },
+  {
+   "id": "science-c6-414",
+   "type": "mcq",
+   "q": "Carrots and papaya help the eyes because they contain",
+   "options": [
+    "Vitamin B1",
+    "Vitamin A",
+    "Iodine",
+    "Iron"
+   ]
+  },
+  {
+   "id": "science-c6-415",
+   "type": "mcq",
+   "q": "A girl eats plenty of pulses and green leafy vegetables but is often tired and pale. A doctor finds anaemia. Which addition would help most?",
+   "options": [
+    "Foods rich in iron, such as leafy vegetables and jaggery taken regularly",
+    "More sugar",
+    "Only cold drinks",
+    "Only rice"
+   ]
+  },
+  {
+   "id": "science-c6-416",
+   "type": "mcq",
+   "q": "Which of the following does a balanced diet NOT need?",
+   "options": [
+    "Proteins",
+    "Water",
+    "Roughage",
+    "Large amounts of only one nutrient"
+   ]
+  },
+  {
+   "id": "science-c6-417",
+   "type": "short",
+   "q": "Write the functions of proteins and minerals in the body.",
+   "proposedAnswer": "Proteins help in growth and repair of the body. Minerals keep the body healthy, for example calcium for bones and iron for blood.",
+   "keyPoints": [
+    "Proteins for growth and repair",
+    "Minerals for good health"
+   ]
+  },
+  {
+   "id": "science-c6-418",
+   "type": "short",
+   "q": "A child eats mostly noodles and fried snacks. Which nutrients may be missing in the diet and what could be added?",
+   "proposedAnswer": "Vitamins, minerals, proteins and roughage may be lacking. Fruits, vegetables, pulses and milk should be added.",
+   "keyPoints": [
+    "Missing nutrients identified",
+    "Foods to add named"
+   ]
+  },
+  {
+   "id": "science-c6-419",
+   "type": "mcq",
+   "q": "Which of the following is a natural fibre?",
+   "options": [
+    "Nylon",
+    "Polyester",
+    "Cotton",
+    "Acrylic"
+   ]
+  },
+  {
+   "id": "science-c6-420",
+   "type": "mcq",
+   "q": "Wool is obtained from the hair of",
+   "options": [
+    "Silkworms",
+    "Cotton plants",
+    "Animals such as sheep and goat",
+    "Coconut trees"
+   ]
+  },
+  {
+   "id": "science-c6-421",
+   "type": "mcq",
+   "q": "Which step comes first in making cloth?",
+   "options": [
+    "Weaving",
+    "Spinning",
+    "Stitching",
+    "Dyeing the finished shirt"
+   ]
+  },
+  {
+   "id": "science-c6-422",
+   "type": "mcq",
+   "q": "Which of these statements about silk is right?",
+   "options": [
+    "It comes from the cocoon of a silkworm",
+    "It comes from a plant",
+    "It comes from sheep",
+    "It comes from coconut"
+   ]
+  },
+  {
+   "id": "science-c6-423",
+   "type": "mcq",
+   "q": "A farmer in a region with black soil and warm weather wants a plant fibre crop. Which crop suits the place best?",
+   "options": [
+    "Wool",
+    "Silk",
+    "Snow fibre",
+    "Cotton"
+   ]
+  },
+  {
+   "id": "science-c6-424",
+   "type": "mcq",
+   "q": "Which of the following is NOT a fibre obtained from plants?",
+   "options": [
+    "Cotton",
+    "Jute",
+    "Coir",
+    "Wool"
+   ]
+  },
+  {
+   "id": "science-c6-425",
+   "type": "short",
+   "q": "Write two differences between weaving and knitting.",
+   "proposedAnswer": "Weaving uses two sets of yarn crossing at right angles and is done on a loom. Knitting uses a single yarn with needles.",
+   "keyPoints": [
+    "Weaving: two sets of yarn at right angles",
+    "Knitting: one yarn"
+   ]
+  },
+  {
+   "id": "science-c6-426",
+   "type": "short",
+   "q": "A person wants a warm jacket for a cold place. Which fibre will you suggest and why?",
+   "proposedAnswer": "Wool, because the woollen fibres trap air which is a poor conductor of heat, keeping the body warm.",
+   "keyPoints": [
+    "Wool chosen",
+    "Traps air",
+    "Keeps body warm"
+   ]
+  },
+  {
+   "id": "science-c6-427",
+   "type": "mcq",
+   "q": "Which of these is made of metal?",
+   "options": [
+    "Wooden spoon",
+    "Paper cup",
+    "Steel spoon",
+    "Plastic bag"
+   ]
+  },
+  {
+   "id": "science-c6-428",
+   "type": "mcq",
+   "q": "The materials that do not allow us to see through them are",
+   "options": [
+    "Transparent",
+    "Opaque",
+    "Translucent",
+    "Lustrous"
+   ]
+  },
+  {
+   "id": "science-c6-429",
+   "type": "mcq",
+   "q": "Which of these is insoluble in water?",
+   "options": [
+    "Sand",
+    "Sugar",
+    "Salt",
+    "Lemon juice"
+   ]
+  },
+  {
+   "id": "science-c6-430",
+   "type": "mcq",
+   "q": "A wooden block floats, but an iron block of the same size sinks. This shows that",
+   "options": [
+    "Iron is heavier for its size than water, and wood is lighter",
+    "Wood is heavier for its size than iron",
+    "Both are same",
+    "Water is a solid"
+   ]
+  },
+  {
+   "id": "science-c6-431",
+   "type": "mcq",
+   "q": "A student has a list: chalk, coin, glass bead, paper clip. She wants to separate metals. Which pair would she pick?",
+   "options": [
+    "Chalk and bead",
+    "Bead and clip",
+    "Chalk and coin",
+    "Coin and paper clip"
+   ]
+  },
+  {
+   "id": "science-c6-432",
+   "type": "mcq",
+   "q": "Which of these shows that a substance is soluble in water?",
+   "options": [
+    "It sinks to the bottom as particles",
+    "It floats",
+    "It disappears and spreads evenly in the water",
+    "It changes the colour of the beaker"
+   ]
+  },
+  {
+   "id": "science-c6-433",
+   "type": "short",
+   "q": "Give two examples each of materials that are hard and soft.",
+   "proposedAnswer": "Hard: iron, stone. Soft: cotton wool, sponge.",
+   "keyPoints": [
+    "Two hard materials",
+    "Two soft materials"
+   ]
+  },
+  {
+   "id": "science-c6-434",
+   "type": "short",
+   "q": "A cup of tea is stirred with a metal spoon and the handle becomes warm. Explain using a property of metals.",
+   "proposedAnswer": "Metals allow heat to pass through them easily, so heat travels along the spoon from the hot tea to the handle.",
+   "keyPoints": [
+    "Metals conduct heat",
+    "Heat passes to handle"
+   ]
+  },
+  {
+   "id": "science-c6-435",
+   "type": "mcq",
+   "q": "Which method is used to get salt from sea water?",
+   "options": [
+    "Winnowing",
+    "Evaporation",
+    "Threshing",
+    "Sieving"
+   ]
+  },
+  {
+   "id": "science-c6-436",
+   "type": "mcq",
+   "q": "Separating grains from the stalks of harvested crops is",
+   "options": [
+    "Filtration",
+    "Threshing",
+    "Evaporation",
+    "Decantation"
+   ]
+  },
+  {
+   "id": "science-c6-437",
+   "type": "mcq",
+   "q": "A tea strainer is similar to which method of separation?",
+   "options": [
+    "Sieving or filtration",
+    "Evaporation",
+    "Magnetic separation",
+    "Condensation"
+   ]
+  },
+  {
+   "id": "science-c6-438",
+   "type": "mcq",
+   "q": "Which method separates iron nails from a mixture of nails and sawdust quickly?",
+   "options": [
+    "Evaporation",
+    "Winnowing",
+    "Condensation",
+    "Using a magnet"
+   ]
+  },
+  {
+   "id": "science-c6-439",
+   "type": "mcq",
+   "q": "Salt is dissolved in water in a pan which is then heated until the water is gone. What is left behind?",
+   "options": [
+    "Water",
+    "Sand",
+    "Salt",
+    "Alum"
+   ]
+  },
+  {
+   "id": "science-c6-440",
+   "type": "mcq",
+   "q": "Which of these is NOT a method of separating mixtures?",
+   "options": [
+    "Filtration",
+    "Evaporation",
+    "Rusting",
+    "Winnowing"
+   ]
+  },
+  {
+   "id": "science-c6-441",
+   "type": "short",
+   "q": "How does a farmer separate wheat grains from the husk?",
+   "proposedAnswer": "By winnowing: the mixture is dropped from a height in the wind, so lighter husk blows away and grains fall in a heap.",
+   "keyPoints": [
+    "Winnowing",
+    "Wind carries lighter husk",
+    "Grains fall down"
+   ]
+  },
+  {
+   "id": "science-c6-442",
+   "type": "short",
+   "q": "Why can't we use a sieve to separate salt from salt water but can use evaporation?",
+   "proposedAnswer": "Dissolved salt particles are too small and pass through any sieve. Heating evaporates the water and leaves the salt.",
+   "keyPoints": [
+    "Dissolved particles pass through",
+    "Evaporation leaves salt"
+   ]
+  },
+  {
+   "id": "science-c6-443",
+   "type": "mcq",
+   "q": "The change of water vapour to liquid water is",
+   "options": [
+    "Melting",
+    "Condensation",
+    "Freezing",
+    "Boiling"
+   ]
+  },
+  {
+   "id": "science-c6-444",
+   "type": "mcq",
+   "q": "Which of these is an example of a reversible change?",
+   "options": [
+    "Stretching and releasing a rubber band",
+    "Burning wood",
+    "Frying a pakora",
+    "Ripening of mango"
+   ]
+  },
+  {
+   "id": "science-c6-445",
+   "type": "mcq",
+   "q": "Which change is irreversible?",
+   "options": [
+    "Freezing water",
+    "Melting wax",
+    "Evaporating water",
+    "Cooking vegetables"
+   ]
+  },
+  {
+   "id": "science-c6-446",
+   "type": "mcq",
+   "q": "Which change is caused by cooling?",
+   "options": [
+    "Evaporation",
+    "Burning",
+    "Melting",
+    "Freezing"
+   ]
+  },
+  {
+   "id": "science-c6-447",
+   "type": "mcq",
+   "q": "A wet iron nail is left in the open for a week and becomes covered by a reddish-brown layer. Which statement is correct?",
+   "options": [
+    "The nail has undergone a reversible change",
+    "Nothing happened",
+    "The nail has undergone rusting, which is an irreversible change",
+    "The nail turned into copper"
+   ]
+  },
+  {
+   "id": "science-c6-448",
+   "type": "mcq",
+   "q": "Which of these is a natural change?",
+   "options": [
+    "Burning a candle",
+    "Day and night",
+    "Cooking",
+    "Melting wax"
+   ]
+  },
+  {
+   "id": "science-c6-449",
+   "type": "short",
+   "q": "List two ways to prevent rusting of iron articles.",
+   "proposedAnswer": "Painting the iron or coating it with oil or grease keeps air and water away, preventing rust.",
+   "keyPoints": [
+    "Painting or oiling",
+    "Keeps out air and water"
+   ]
+  },
+  {
+   "id": "science-c6-450",
+   "type": "short",
+   "q": "Why are the changes of a baked cake irreversible while melting of ice is reversible?",
+   "proposedAnswer": "Baking forms new substances with new properties that cannot be turned back, but melting is only a change of state and the water can be frozen again.",
+   "keyPoints": [
+    "Baking makes new substances",
+    "Melting is change of state",
+    "Ice can be recovered"
+   ]
+  },
+  {
+   "id": "science-c6-451",
+   "type": "mcq",
+   "q": "Plants that have a hard, thick stem and many branches high above the ground are called",
+   "options": [
+    "Trees",
+    "Herbs",
+    "Climbers",
+    "Creepers"
+   ]
+  },
+  {
+   "id": "science-c6-452",
+   "type": "mcq",
+   "q": "The green colour of leaves is due to",
+   "options": [
+    "Chlorophyll",
+    "Water",
+    "Carbon dioxide",
+    "Sugar"
+   ]
+  },
+  {
+   "id": "science-c6-453",
+   "type": "mcq",
+   "q": "Which part of the flower becomes the fruit?",
+   "options": [
+    "Petal",
+    "Anther",
+    "Sepal",
+    "Ovary"
+   ]
+  },
+  {
+   "id": "science-c6-454",
+   "type": "mcq",
+   "q": "Plants with tap roots usually have leaves with",
+   "options": [
+    "Parallel veins",
+    "No veins",
+    "Net-like veins",
+    "Only one vein"
+   ]
+  },
+  {
+   "id": "science-c6-455",
+   "type": "mcq",
+   "q": "A gardener cuts all the roots of a small plant before planting it. The plant is likely to",
+   "options": [
+    "Grow faster",
+    "Wilt because it cannot take water from the soil",
+    "Absorb more water",
+    "Make more leaves"
+   ]
+  },
+  {
+   "id": "science-c6-456",
+   "type": "mcq",
+   "q": "The male reproductive part of a flower is the",
+   "options": [
+    "Pistil",
+    "Stamen",
+    "Ovary",
+    "Sepal"
+   ]
+  },
+  {
+   "id": "science-c6-457",
+   "type": "short",
+   "q": "What are the functions of the stem?",
+   "proposedAnswer": "The stem supports the plant, carries water and minerals from roots to leaves and carries food from leaves to other parts.",
+   "keyPoints": [
+    "Support",
+    "Carries water and minerals",
+    "Carries food"
+   ]
+  },
+  {
+   "id": "science-c6-458",
+   "type": "short",
+   "q": "Explain why most plants die if kept in dark for a long time.",
+   "proposedAnswer": "Photosynthesis needs sunlight, so in the dark leaves cannot make food and the plant slowly starves.",
+   "keyPoints": [
+    "Needs sunlight to make food",
+    "No food leads to death"
+   ]
+  },
+  {
+   "id": "science-c6-459",
+   "type": "mcq",
+   "q": "Bones are joined to muscles. When muscles contract they",
+   "options": [
+    "Pull the bones and cause movement",
+    "Push bones apart",
+    "Turn into bone",
+    "Stop working"
+   ]
+  },
+  {
+   "id": "science-c6-460",
+   "type": "mcq",
+   "q": "Which of these protects the spinal cord?",
+   "options": [
+    "Ribs",
+    "Skull",
+    "Cartilage in the nose",
+    "Backbone"
+   ]
+  },
+  {
+   "id": "science-c6-461",
+   "type": "mcq",
+   "q": "A person turning the head to look sideways uses",
+   "options": [
+    "A hinge joint",
+    "A fixed joint",
+    "A pivotal joint",
+    "A gliding joint only"
+   ]
+  },
+  {
+   "id": "science-c6-462",
+   "type": "mcq",
+   "q": "An earthworm has no bones. It moves with the help of",
+   "options": [
+    "Wings",
+    "Fins",
+    "Muscles and bristles",
+    "Legs"
+   ]
+  },
+  {
+   "id": "science-c6-463",
+   "type": "mcq",
+   "q": "Which statement correctly explains why we can swing our arms in circles but cannot rotate our knees in the same way?",
+   "options": [
+    "Both are hinge joints",
+    "The shoulder is a ball and socket joint, the knee is a hinge joint",
+    "Knees have no joints",
+    "Both are fixed joints"
+   ]
+  },
+  {
+   "id": "science-c6-464",
+   "type": "mcq",
+   "q": "Which bones form the rib cage along with the chest bone?",
+   "options": [
+    "Ribs",
+    "Hip bones",
+    "Skull bones",
+    "Jaw bones"
+   ]
+  },
+  {
+   "id": "science-c6-465",
+   "type": "short",
+   "q": "Why do birds have light bones, and how does the shape of a fish help it to swim?",
+   "proposedAnswer": "Light bones make a bird's body light for flying. The streamlined shape of a fish reduces resistance of water.",
+   "keyPoints": [
+    "Light bones for flight",
+    "Streamlined body for swimming"
+   ]
+  },
+  {
+   "id": "science-c6-466",
+   "type": "short",
+   "q": "What would happen if there were no muscles attached to our bones?",
+   "proposedAnswer": "The bones could not be moved, so we could not walk, lift or bend, since muscles pull on bones.",
+   "keyPoints": [
+    "Bones cannot move by themselves",
+    "Muscles provide the pull"
+   ]
+  },
+  {
+   "id": "science-c6-467",
+   "type": "mcq",
+   "q": "Which of these needs food to live?",
+   "options": [
+    "A rock",
+    "A chair",
+    "A toy car",
+    "A plant"
+   ]
+  },
+  {
+   "id": "science-c6-468",
+   "type": "mcq",
+   "q": "The surroundings in which a plant or animal lives is its",
+   "options": [
+    "Food",
+    "Stimulus",
+    "Cell",
+    "Habitat"
+   ]
+  },
+  {
+   "id": "science-c6-469",
+   "type": "mcq",
+   "q": "Which of the following is a land (terrestrial) habitat?",
+   "options": [
+    "Pond",
+    "River",
+    "Forest",
+    "Sea"
+   ]
+  },
+  {
+   "id": "science-c6-470",
+   "type": "mcq",
+   "q": "Which feature helps a bird fly?",
+   "options": [
+    "Gills",
+    "Wings and feathers",
+    "Hump",
+    "Shell"
+   ]
+  },
+  {
+   "id": "science-c6-471",
+   "type": "mcq",
+   "q": "Why do the leaves of many desert plants look small or spiny?",
+   "options": [
+    "To reduce water loss",
+    "To catch more sunlight",
+    "To float",
+    "To attract insects"
+   ]
+  },
+  {
+   "id": "science-c6-472",
+   "type": "mcq",
+   "q": "The process of getting rid of waste by living organisms is called",
+   "options": [
+    "Excretion",
+    "Growth",
+    "Respiration",
+    "Reproduction"
+   ]
+  },
+  {
+   "id": "science-c6-473",
+   "type": "short",
+   "q": "Write any three differences between living and non-living things.",
+   "proposedAnswer": "Living things grow, breathe, need food and reproduce, while non-living things do not.",
+   "keyPoints": [
+    "Growth",
+    "Breathing or food need",
+    "Reproduction"
+   ]
+  },
+  {
+   "id": "science-c6-474",
+   "type": "short",
+   "q": "Why are some animals active at night in the desert?",
+   "proposedAnswer": "The days are very hot, so staying hidden in the day and coming out at night helps them save water and avoid heat.",
+   "keyPoints": [
+    "Day is very hot",
+    "Night is cooler",
+    "Saves water"
+   ]
+  },
+  {
+   "id": "science-c6-475",
+   "type": "mcq",
+   "q": "The to-and-fro motion of a swing is",
+   "options": [
+    "Circular only",
+    "Rectilinear",
+    "Periodic",
+    "At rest"
+   ]
+  },
+  {
+   "id": "science-c6-476",
+   "type": "mcq",
+   "q": "The length of a straight line is best measured by",
+   "options": [
+    "A thermometer",
+    "A metre scale",
+    "A weighing scale",
+    "A beaker"
+   ]
+  },
+  {
+   "id": "science-c6-477",
+   "type": "mcq",
+   "q": "The hands of a clock move in",
+   "options": [
+    "Rectilinear motion",
+    "Rotational (circular) motion",
+    "Linear motion",
+    "No motion"
+   ]
+  },
+  {
+   "id": "science-c6-478",
+   "type": "mcq",
+   "q": "The length of a wire is 2 m 30 cm. What is its length in centimetres?",
+   "options": [
+    "230 cm",
+    "23 cm",
+    "203 cm",
+    "2030 cm"
+   ]
+  },
+  {
+   "id": "science-c6-479",
+   "type": "mcq",
+   "q": "The metre scale has markings in",
+   "options": [
+    "Kilograms",
+    "Seconds",
+    "Litres",
+    "Centimetres and millimetres"
+   ]
+  },
+  {
+   "id": "science-c6-480",
+   "type": "short",
+   "q": "Why should the eye be placed directly above the mark while reading a ruler?",
+   "proposedAnswer": "Reading from the side gives a wrong value due to the slanted line of sight, so we must look straight at the mark.",
+   "keyPoints": [
+    "Slant gives wrong reading",
+    "Look directly above"
+   ]
+  },
+  {
+   "id": "science-c6-481",
+   "type": "short",
+   "q": "A bus travels 36 km in a trip. Express the distance in metres and explain which unit is more convenient.",
+   "proposedAnswer": "36 x 1000 = 36000 m. Kilometre is more convenient since the number is smaller for long distances.",
+   "keyPoints": [
+    "36000 m",
+    "Km convenient for long distances"
+   ]
+  },
+  {
+   "id": "science-c6-482",
+   "type": "mcq",
+   "q": "Which of these can form a shadow?",
+   "options": [
+    "A transparent glass sheet",
+    "Clean air",
+    "An opaque book",
+    "Clear water in a glass"
+   ]
+  },
+  {
+   "id": "science-c6-483",
+   "type": "mcq",
+   "q": "Which of the following is a natural source of light?",
+   "options": [
+    "Electric bulb",
+    "Candle",
+    "Sun",
+    "Tube light"
+   ]
+  },
+  {
+   "id": "science-c6-484",
+   "type": "mcq",
+   "q": "In which case will the shadow of a ball be the biggest?",
+   "options": [
+    "Ball far from lamp, near screen",
+    "Ball near lamp, far from screen",
+    "Ball touching screen",
+    "Ball far from both"
+   ]
+  },
+  {
+   "id": "science-c6-485",
+   "type": "mcq",
+   "q": "The image in a pinhole camera is formed on a",
+   "options": [
+    "Translucent screen",
+    "Mirror",
+    "Lens",
+    "Wooden block"
+   ]
+  },
+  {
+   "id": "science-c6-486",
+   "type": "mcq",
+   "q": "A person stands 1 m in front of a plane mirror. Her image seems to be behind the mirror at about",
+   "options": [
+    "0.5 m",
+    "2 m",
+    "3 m",
+    "1 m"
+   ]
+  },
+  {
+   "id": "science-c6-487",
+   "type": "mcq",
+   "q": "Which of the following can be seen only by reflected light?",
+   "options": [
+    "Candle flame",
+    "The Sun",
+    "A glowing tube light",
+    "The Moon"
+   ]
+  },
+  {
+   "id": "science-c6-488",
+   "type": "short",
+   "q": "Why do we use mirrors and not wooden boards for seeing ourselves?",
+   "proposedAnswer": "A mirror has a smooth shiny surface that reflects most light to form a clear image, but wood is rough and scatters light.",
+   "keyPoints": [
+    "Mirror reflects light regularly",
+    "Wood does not form clear image"
+   ]
+  },
+  {
+   "id": "science-c6-489",
+   "type": "short",
+   "q": "Explain why you see an upside-down image on a pinhole camera screen.",
+   "proposedAnswer": "Light travels in straight lines, so rays from the top of the object go downward through the hole and rays from the bottom go upward, inverting the image.",
+   "keyPoints": [
+    "Straight-line travel",
+    "Rays cross at the hole",
+    "Inverted image"
+   ]
+  },
+  {
+   "id": "science-c6-490",
+   "type": "mcq",
+   "q": "A smooth shiny surface that reflects well is called a",
+   "options": [
+    "Shadow",
+    "Screen",
+    "Mirror",
+    "Source"
+   ]
+  },
+  {
+   "id": "science-c6-491",
+   "type": "mcq",
+   "q": "An object that lights up when current passes through its filament is a",
+   "options": [
+    "Switch",
+    "Bulb",
+    "Wire",
+    "Magnet"
+   ]
+  },
+  {
+   "id": "science-c6-492",
+   "type": "mcq",
+   "q": "The material used to cover electric wires is",
+   "options": [
+    "Plastic",
+    "Iron",
+    "Copper",
+    "Aluminium"
+   ]
+  },
+  {
+   "id": "science-c6-493",
+   "type": "mcq",
+   "q": "Which of the following will light a bulb in a circuit tester?",
+   "options": [
+    "Iron key",
+    "Rubber band",
+    "Wooden stick",
+    "Plastic scale"
+   ]
+  },
+  {
+   "id": "science-c6-494",
+   "type": "mcq",
+   "q": "Which part of the circuit lets us put the bulb on or off?",
+   "options": [
+    "Cell",
+    "Filament",
+    "Terminal",
+    "Switch"
+   ]
+  },
+  {
+   "id": "science-c6-495",
+   "type": "mcq",
+   "q": "A student connects a bulb to a cell with wires, but one wire end is not touching the cell. What will happen?",
+   "options": [
+    "The bulb lights up",
+    "The bulb gets brighter",
+    "The bulb does not light as the circuit is incomplete",
+    "The cell explodes"
+   ]
+  },
+  {
+   "id": "science-c6-496",
+   "type": "mcq",
+   "q": "A bulb has how many terminals?",
+   "options": [
+    "One",
+    "Two",
+    "Three",
+    "Four"
+   ]
+  },
+  {
+   "id": "science-c6-497",
+   "type": "short",
+   "q": "Why does electricity pass through copper but not through plastic?",
+   "proposedAnswer": "Copper is a metal and conducts electricity, while plastic is an insulator.",
+   "keyPoints": [
+    "Copper conductor",
+    "Plastic insulator"
+   ]
+  },
+  {
+   "id": "science-c6-498",
+   "type": "short",
+   "q": "Why are tools like screwdrivers for electricians given insulated plastic handles?",
+   "proposedAnswer": "Plastic is an insulator, so it prevents current passing to the electrician's hand and avoids shocks.",
+   "keyPoints": [
+    "Plastic insulator",
+    "Prevents shocks"
+   ]
+  },
+  {
+   "id": "science-c6-499",
+   "type": "mcq",
+   "q": "Pure rubber, glass and dry wood are examples of",
+   "options": [
+    "Conductors",
+    "Insulators",
+    "Magnets",
+    "Luminous objects"
+   ]
+  },
+  {
+   "id": "science-c6-500",
+   "type": "mcq",
+   "q": "The north pole of a magnet will attract the",
+   "options": [
+    "South pole of another magnet",
+    "North pole of another magnet",
+    "Plastic",
+    "Wood"
+   ]
+  }
+ ]
+}

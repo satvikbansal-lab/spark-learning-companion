@@ -1,0 +1,2009 @@
+{
+ "model": "claude-haiku",
+ "answers": [
+  {
+   "id": "hindi-c3-001",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-002",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-003",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-004",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-005",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-006",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-007",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-008",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-009",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-010",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-011",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-012",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-013",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-014",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-015",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-016",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-017",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-018",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-019",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-020",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-021",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-022",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-023",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-024",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-025",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-026",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-027",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-028",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-029",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-030",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-031",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-032",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-033",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-034",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-035",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-036",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-037",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-038",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-039",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-040",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-041",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-042",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-043",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-044",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-045",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-046",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-047",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-048",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-049",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-050",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-051",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-052",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-053",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-054",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-055",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-056",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-057",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-058",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-059",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-060",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-061",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-062",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-063",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-064",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-065",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-066",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-067",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-068",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-069",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-070",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-071",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-072",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-073",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-074",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-075",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-076",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-077",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-078",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-079",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-080",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-081",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-082",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-083",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-084",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-085",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-086",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-087",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-088",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-089",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-090",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-091",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-092",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-093",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-094",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-095",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-096",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-097",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-098",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-099",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-100",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-101",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-102",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-103",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-104",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-105",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-106",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-107",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-108",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-109",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-110",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-111",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-112",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-113",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-114",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-115",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-116",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-117",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-118",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-119",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-120",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-121",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-122",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-123",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-124",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-125",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-126",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-127",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-128",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-129",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-130",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-131",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-132",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-133",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-134",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-135",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-136",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-137",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-138",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-139",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-140",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-141",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-142",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-143",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-144",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-145",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-146",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-147",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-148",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-149",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-150",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-151",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-152",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-153",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-154",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-155",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-156",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-157",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-158",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-159",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-160",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-161",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-162",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-163",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-164",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-165",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-166",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-167",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-168",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-169",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-170",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-171",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-172",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-173",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-174",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-175",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-176",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-177",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-178",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-179",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-180",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-181",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-182",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-183",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-184",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-185",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-186",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-187",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-188",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-189",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-190",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-191",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-192",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-193",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-194",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-195",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-196",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-197",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-198",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-199",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-200",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-201",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-202",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-203",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-204",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-205",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-206",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-207",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-208",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-209",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-210",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-211",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-212",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-213",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-214",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-215",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-216",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-217",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-218",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-219",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-220",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-221",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-222",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-223",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-224",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-225",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-226",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-227",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-228",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-229",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-230",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-231",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-232",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-233",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-234",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-235",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-236",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-237",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-238",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-239",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-240",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-241",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-242",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-243",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-244",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-245",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-246",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-247",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-248",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-249",
+   "answer": "C",
+   "unsure": true,
+   "note": "No single feminine of भाई; बहन (sister) is the expected answer. भाभी means brother's wife, so C is the best of the options but the question is loose."
+  },
+  {
+   "id": "hindi-c3-250",
+   "answer": "A",
+   "unsure": true,
+   "note": "हथिनी is the standard spelling; option C (हाथिनी) is a common alternative spelling, so both could be counted as right."
+  },
+  {
+   "id": "hindi-c3-251",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-252",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-253",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-254",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-255",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-256",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-257",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-258",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-259",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-260",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-261",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-262",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-263",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-264",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-265",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-266",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-267",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-268",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-269",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-270",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-271",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-272",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-273",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-274",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-275",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-276",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-277",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-278",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-279",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-280",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-281",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-282",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-283",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-284",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-285",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-286",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-287",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-288",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-289",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-290",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-291",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-292",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-293",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-294",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-295",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-296",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-297",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-298",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-299",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-300",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-301",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-302",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-303",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-304",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-305",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-306",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-307",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-308",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-309",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-310",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-311",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-312",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-313",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-314",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-315",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-316",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-317",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-318",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-319",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-320",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-321",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-322",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-323",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-324",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-325",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-326",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-327",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-328",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-329",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-330",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-331",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-332",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-333",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-334",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-335",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-336",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-337",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-338",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-339",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-340",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-341",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-342",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-343",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-344",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-345",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-346",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-347",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-348",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-349",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-350",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-351",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-352",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-353",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-354",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-355",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-356",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-357",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-358",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-359",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-360",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-361",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-362",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-363",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-364",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-365",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-366",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-367",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-368",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-369",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-370",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-371",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-372",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-373",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-374",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-375",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-376",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-377",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-378",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-379",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-380",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-381",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-382",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-383",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-384",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-385",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-386",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-387",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-388",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-389",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-390",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-391",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-392",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-393",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-394",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-395",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-396",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-397",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-398",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-399",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-400",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-401",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-402",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-403",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-404",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-405",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-406",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-407",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-408",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-409",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-410",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-411",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-412",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-413",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-414",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-415",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-416",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-417",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-418",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-419",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-420",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-421",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-422",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-423",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-424",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-425",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-426",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-427",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-428",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-429",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-430",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-431",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-432",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-433",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-434",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-435",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-436",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-437",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-438",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-439",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-440",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-441",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-442",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-443",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-444",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-445",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-446",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-447",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-448",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-449",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-450",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-451",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-452",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-453",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-454",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-455",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-456",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-457",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-458",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-459",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-460",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-461",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-462",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-463",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-464",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-465",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-466",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-467",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-468",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-469",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-470",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-471",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-472",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-473",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-474",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-475",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-476",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-477",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-478",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-479",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-480",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-481",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-482",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-483",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-484",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-485",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-486",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-487",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-488",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-489",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-490",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-491",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-492",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-493",
+   "verdict": "correct"
+  },
+  {
+   "id": "hindi-c3-494",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-495",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-496",
+   "answer": "A"
+  },
+  {
+   "id": "hindi-c3-497",
+   "answer": "B"
+  },
+  {
+   "id": "hindi-c3-498",
+   "answer": "C"
+  },
+  {
+   "id": "hindi-c3-499",
+   "answer": "D"
+  },
+  {
+   "id": "hindi-c3-500",
+   "verdict": "correct"
+  }
+ ]
+}
