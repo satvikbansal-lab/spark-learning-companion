@@ -8,7 +8,9 @@ from fractions import Fraction as F
 import sympy as sp
 
 here = os.path.dirname(os.path.abspath(__file__))
-cases = json.loads(subprocess.check_output(['node', '-e', "const c=require('./tests/maths-cases.js');console.log(JSON.stringify(c,(k,v)=>v instanceof RegExp?String(v):v))"], cwd=os.path.dirname(here)))
+# BANK=1 checks the generated bank instead (tests/question-bank.js; BANK_N questions per class, default 500).
+src = f"require('./tests/question-bank.js').all({int(os.environ.get('BANK_N', '500'))})" if os.environ.get('BANK') else "require('./tests/maths-cases.js')"
+cases = json.loads(subprocess.check_output(['node', '-e', f"const c={src};console.log(JSON.stringify(c,(k,v)=>v instanceof RegExp?String(v):v))"], cwd=os.path.dirname(here)))
 x, y, a, b = sp.symbols('x y a b')
 
 def to_frac(v):
@@ -33,7 +35,8 @@ for c in cases:
         ok = sp.expand(e - got) == 0
     else:
         want = sorted(F(v) for v in c['expect'])
-        have = sorted(to_frac(i) for i in flat(got if isinstance(got, list) else [got]))
+        have = sorted(set(to_frac(i) for i in flat(got if isinstance(got, list) else [got])))
+        want = sorted(set(want))
         ok = set(want) <= set(have) and set(have) <= set(want) | set(have)
         ok = ok and all(w in have for w in want) and all(h in want for h in have)
     checked += 1

@@ -271,3 +271,23 @@ test('second method: an answer that is only an option letter is read as that opt
   assert.equal(M.matchValues(r, '**Answer:** Option A', q).status, 'disagree');
   assert.equal(M.matchValues(r, '**Answer:** (b)', 'no options here').status, 'unknown');
 });
+
+/* ---------- the generated Class 1-12 bank (tests/question-bank.js) ---------- */
+test('bank: 500 questions per class, every topic at three levels, the same every run', () => {
+  const B = require('./question-bank.js');
+  for (const k of Object.keys(B.TOPICS)) {
+    const c = B.forClass(k, 500);
+    assert.equal(c.length, 500, `class ${k}`);
+    assert.equal(new Set(c.map(x => x.q)).size, 500, `class ${k} repeats a question`);
+    for (const t of B.TOPICS[k]) for (const l of [1, 2, 3]) assert.ok(c.some(x => x.topic === t && x.level === l), `class ${k} ${t} level ${l}`);
+    for (const x of c) for (const e of x.expect) assert.notEqual(M.evaluate(e), null, x.id);
+  }
+  assert.deepEqual(B.forClass(7, 20), B.forClass(7, 20));
+});
+test('routing: every bank question takes the maths path, and look-alike non-maths questions do not', () => {
+  const B = require('./question-bank.js');
+  const missed = B.all(500).filter(c => AI.route(c.q).subject !== 'math').map(c => c.q);
+  assert.deepEqual(missed.slice(0, 5), []);
+  for (const q of ['Add 2 adjectives to this sentence: The dog ran.', 'What is the capital of AP?', 'Tell me about the 2nd term of Akbar', 'Explain the sequence of events in the 1857 revolt', 'What happens in the first half of the story?', 'Double consonant words in class 3', 'Name 4 tens of the Mughal rulers', 'Who won the match in 2011?'])
+    assert.notEqual(AI.route(q).subject, 'math', q);
+});

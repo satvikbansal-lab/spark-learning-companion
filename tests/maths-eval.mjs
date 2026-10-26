@@ -28,6 +28,7 @@ const GAP = Number(process.env.GAP_MS || 6000);
 const LABEL = process.env.LABEL || 'current';
 const TRIALS = Number(process.env.TRIALS || 1);
 const GRADE = process.env.CLASS || 'Class 8';
+const gradeOf = c => (c.klass ? `Class ${c.klass}` : GRADE); // bank questions are asked at their own class
 const RECHECK = process.env.RECHECK !== 'off' && typeof AI.recheckInstruction === 'function';
 const suite = process.env.SUITE || 'all';
 const only = (process.env.ONLY || '').split(',').filter(Boolean);
@@ -82,7 +83,7 @@ async function ask(c) {
   const want = AI.toolsFor(rt, { search: true }, AVAIL), tries = [];
   for (const model of MODELS) {
     for (const tools of [want, { code: want.code }, {}]) {
-      const system = AI.systemPrompt({ buddy: 'Sparky', name: 'Riya', grade: GRADE, teach: c.teach || 'explain', langRule: LANG, notebook: 'Maths', route: rt, code: !!tools.code, search: !!tools.search });
+      const system = AI.systemPrompt({ buddy: 'Sparky', name: 'Riya', grade: gradeOf(c), teach: c.teach || 'explain', langRule: LANG, notebook: 'Maths', route: rt, code: !!tools.code, search: !!tools.search });
       const body = AI.requestBody({ system, contents, tools, think: true, mathy: rt.subject === 'math' || rt.needsCode });
       let r; try { r = await stream(model, body); } catch (e) { tries.push(`${model}: ${e.name}`); break; }
       if (r.error) { tries.push(`${model}${tools.search ? '+search' : ''}${tools.code ? '+code' : ''}: ${r.status} ${r.error}`); if ((r.status === 429 && tools.search) || (r.status === 400 && (tools.search || tools.code))) continue; break; }
@@ -110,8 +111,15 @@ async function ask(c) {
 }
 
 let pool = [];
-if (suite !== 'tutor') pool.push(...BENCH.map(c => Object.assign({ suite: 'bench' }, c)));
-if (suite !== 'bench') pool.push(...TUTOR.map(c => Object.assign({ suite: 'tutor', cat: 'tutoring' }, c)));
+// BANK=all (or BANK=7,8) runs the generated Class 1-12 bank instead: the first BANK_N questions of each class (default
+// 30), which are spread evenly over that class's topics and the three levels.
+if (process.env.BANK) {
+  const QB = require('./question-bank.js'), classes = process.env.BANK === 'all' ? Object.keys(QB.TOPICS) : process.env.BANK.split(',');
+  for (const k of classes) pool.push(...QB.forClass(k, 500).slice(0, Number(process.env.BANK_N || 30)).map(c => Object.assign({ suite: 'bench' }, c, { cat: `class-${k}` })));
+} else {
+  if (suite !== 'tutor') pool.push(...BENCH.map(c => Object.assign({ suite: 'bench' }, c)));
+  if (suite !== 'bench') pool.push(...TUTOR.map(c => Object.assign({ suite: 'tutor', cat: 'tutoring' }, c)));
+}
 if (only.length) pool = pool.filter(c => only.includes(c.id) || only.includes(c.cat));
 console.log(`Spark maths eval [${LABEL}] · ${pool.length} cases × ${TRIALS} · ${KEY ? 'direct Gemini API' : SITE}${INFO.provider ? ' (' + INFO.provider + (INFO.model ? ' ' + INFO.model : '') + ')' : ''} · ${MODELS.join(', ')} · ${GRADE} · re-check ${RECHECK ? 'on' : 'off'}`);
 let n = 0, quotaStops = 0;
