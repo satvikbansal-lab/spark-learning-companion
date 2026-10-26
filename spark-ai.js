@@ -525,6 +525,60 @@ ${turnGuidance(rt, { level: lv, code: ctx.code, search: ctx.search, voice: ctx.v
     return detect && last ? detect(last) : 'en';
   }
 
+  /* The second method (see SparkMath.runProgram): a separate call sets the problem up as a small program, without
+     seeing Sparky's answer, so a mistake in the answer can't leak into the check. It never does the arithmetic. */
+  const FORMAL_SCHEMA = {
+    type: 'OBJECT',
+    properties: {
+      checkable: { type: 'BOOLEAN' },
+      reason: { type: 'STRING' },
+      steps: { type: 'ARRAY', items: { type: 'OBJECT', properties: { name: { type: 'STRING' }, expr: { type: 'STRING' }, equation: { type: 'STRING' }, unknown: { type: 'STRING' }, pick: { type: 'STRING', enum: ['positive', 'any'] } }, required: ['name'] } },
+      answers: { type: 'ARRAY', items: { type: 'OBJECT', properties: { label: { type: 'STRING' }, name: { type: 'STRING' } }, required: ['label', 'name'] } }
+    },
+    required: ['checkable', 'steps', 'answers']
+  };
+  function formalPrompt(question, context) {
+    const ctx = context ? `EARLIER IN THE CONVERSATION (for context only):\n"""${String(context).slice(0, 1500)}"""\n\n` : '';
+    return `You set up school maths problems for an exact calculator. You do NOT solve them and you never work out any number yourself: you only write what to calculate.
+
+${ctx}PROBLEM:
+"""${String(question).slice(0, 2000)}"""
+
+If the PROBLEM is a follow-up that only makes sense with the earlier conversation ("I got 12", "is it 40?", "now do part b"), set up the problem it refers to; a number the student suggests is NOT given information.
+Write the problem as named steps, in order. Each step is either
+- { "name": "cost_price", "expr": "800" } or { "name": "selling_price", "expr": "cost_price * (1 + 15/100)" }, or
+- { "name": "width", "equation": "2*width + 2*(width + 3) = 46", "unknown": "width", "pick": "positive" } for one equation in one unknown (linear or quadratic; "pick": "positive" keeps only the positive solution, for lengths, ages, counts).
+Expressions may use only numbers, earlier step names, + - * / ^ ( ), sqrt( ), cbrt( ) and pi. Names are lower-case letters, digits and _. Write percentages as /100 and convert units with explicit factors (e.g. 1.5 km = 1.5*1000 m).
+Use exactly the numbers in the problem. Use π = 22/7 or 3.14 only if the problem says so, otherwise write pi.
+"answers" lists the step names for exactly what the problem asks for, in the unit the problem asks for (a percentage as the percent number, e.g. 20 for 20%). For a multiple-choice question, answer the value itself, not the option letter.
+
+Set "checkable": false (with a short "reason", and empty steps and answers) when the answer isn't one or a few numbers worked out from the problem: proofs, explanations, "show that", constructions, estimates, open questions, an answer that is an expression or a list of possibilities, a figure you can't see, missing or contradictory information, or anything you would have to guess.`;
+  }
+  /* Extra instruction when two independent set-ups of the problem agree with each other but not with the answer. */
+  function secondMethodInstruction(v) {
+    return `\n\nSECOND METHOD DISAGREES: Spark set this problem up again separately (twice, both the same) and worked it out exactly, getting ${v.expected}, but your draft answer said ${v.got}. Work through the ORIGINAL question again from the start, slowly: re-read what is given and what is asked, and check units, percentages, signs and every calculation. If after that you are sure your first answer is right, keep it and say in one line what the other reading of the question might have missed. Give the full worked solution with the check, then the "**Answer:**" line.`;
+  }
+
+  /* The second method, start to finish (shared by the app and tests/maths-eval.mjs):
+     1. one set-up of the problem, run exactly; no usable set-up → 'unknown' (no badge, no retry);
+     2. it matches the answer line → 'agree';
+     3. it doesn't → a second, separate set-up (callJSON's `again` asks another model). Only when both set-ups find the
+        same values is the answer called wrong ('disagree', which leads to one careful retry); if they differ from each
+        other the check can't be trusted and says 'unknown'.
+     callJSON(prompt, schema, { again }) returns the parsed JSON or throws. `context` is the student's earlier messages
+     only (never Sparky's replies), so the check stays independent of the answer. */
+  async function secondCheck({ question, context, reply, callJSON, SparkMath: M }) {
+    if (!M.answerOf(reply)) return { status: 'unknown', reason: 'no answer line' };
+    const setUp = async again => { try { const p = await callJSON(formalPrompt(question, context), FORMAL_SCHEMA, { again }); return p && p.checkable ? M.runProgram(p) : { ok: false, why: (p && p.reason) || 'not checkable' }; } catch (e) { return { ok: false, why: 'set-up failed: ' + e.message }; } };
+    const run1 = await setUp(false);
+    if (!run1.ok) return { status: 'unknown', reason: run1.why };
+    const m1 = M.matchValues(run1, reply, question);
+    if (m1.status !== 'disagree') return Object.assign({ run: run1 }, m1);
+    const run2 = await setUp(true);
+    if (!M.sameRun(run1, run2)) return { status: 'unknown', reason: 'the two set-ups of the problem differ', run: run1, run2 };
+    return Object.assign({ run: run1, confirmed: true }, m1);
+  }
+
   /* Extra instruction when the app's exact check disagrees with Sparky's first answer: one careful retry. */
   function recheckInstruction(v) {
     const what = v.problem && v.problem.kind === 'equation' ? `the equation ${v.problem.eq}` : `the calculation ${v.problem ? v.problem.expr : ''}`;
@@ -545,5 +599,5 @@ ${turnGuidance(rt, { level: lv, code: ctx.code, search: ctx.search, voice: ctx.v
     return t;
   }
 
-  return { esc, levelOf, route, recheckInstruction, trimOpenMath, languageWanted, subjectTheme, themeOfText, THEMES, topicIcons, cleanIcons, turnGuidance, systemPrompt, toolsFor, requestBody, newReply, absorb, sseEvents, endNote, checkSummary, md, tex, speakMath, looksLikeAttempt, SAFETY, MATH_RULES, LEVEL_STYLE };
+  return { esc, levelOf, route, recheckInstruction, secondMethodInstruction, secondCheck, formalPrompt, FORMAL_SCHEMA, trimOpenMath, languageWanted, subjectTheme, themeOfText, THEMES, topicIcons, cleanIcons, turnGuidance, systemPrompt, toolsFor, requestBody, newReply, absorb, sseEvents, endNote, checkSummary, md, tex, speakMath, looksLikeAttempt, SAFETY, MATH_RULES, LEVEL_STYLE };
 });

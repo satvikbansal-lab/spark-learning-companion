@@ -44,7 +44,11 @@ const done = new Set(existsSync(out) && !process.env.FRESH ? readFileSync(out, '
 async function post(model, body) {
   const url = KEY ? `https://generativelanguage.googleapis.com/v1beta/models/${model}:streamGenerateContent?alt=sse` : `${SITE}/api/gemini`;
   const headers = KEY ? { 'Content-Type': 'application/json', 'x-goog-api-key': KEY } : { 'Content-Type': 'application/json', Origin: SITE };
-  return fetch(url, { method: 'POST', headers, body: JSON.stringify(KEY ? body : { model, stream: true, body }), signal: AbortSignal.timeout(150000) });
+  // A dropped connection (laptop asleep, Wi-Fi blip) is waited out instead of being counted as an API error.
+  for (let i = 0; ; i++) {
+    try { return await fetch(url, { method: 'POST', headers, body: JSON.stringify(KEY ? body : { model, stream: true, body }), signal: AbortSignal.timeout(150000) }); }
+    catch (e) { if (e.name !== 'TypeError' || i >= 8) throw e; console.log(`  (connection dropped, retrying in 30 s: ${e.cause ? e.cause.code || e.cause.message : e.message})`); await new Promise(r => setTimeout(r, 30000)); }
+  }
 }
 async function stream(model, body) {
   const t0 = Date.now(); const r = await post(model, body);
@@ -54,12 +58,25 @@ async function stream(model, body) {
   for (const j of AI.sseEvents(buf + '\n').events) if (!j._malformed) AI.absorb(acc, j);
   return { acc, ms: Date.now() - t0 };
 }
+/* The app's formalJSON (index.html): one structured call, a different model from the answer's, another for the tie-break. */
+async function formalJSON(prompt, schema, o = {}) {
+  let last;
+  for (const model of o.again ? ['gemini-3.5-flash-lite', 'gemini-flash-lite-latest', 'gemini-3.1-flash-lite'] : ['gemini-3.5-flash', 'gemini-3.5-flash-lite', 'gemini-flash-lite-latest']) {
+    const r = await stream(model, { contents: [{ role: 'user', parts: [{ text: prompt }] }], generationConfig: { temperature: 0.2, maxOutputTokens: 2000, responseMimeType: 'application/json', responseSchema: schema } }).catch(e => ({ error: e.message }));
+    if (r.error) { last = new Error(`${model} ${r.status || ''} ${r.error}`); continue; }
+    try { return JSON.parse(r.acc.text); } catch (e) { last = e; }
+  }
+  throw last || new Error('no model');
+}
 const fixture = name => readFileSync(join(here, 'fixtures', name)).toString('base64');
 
 /* One student turn, through the same steps as the app's send(): route → prompt → tools → stream → re-check. */
 async function ask(c) {
   const prev = (c.history || []).filter(h => h[0] === 'model').pop();
   const rt = AI.route(c.q, { hasImage: !!c.image, prevSubject: c.history ? AI.route(c.history[0][1]).subject : undefined, prevModelText: prev && prev[1] });
+  // Spark coaches plain problems step by step (no final answer in the first reply), so to grade the maths itself the
+  // benchmark asks for the full solution, as a student who says "give me the solution" would. SOLVE=coach turns it off.
+  if (c.suite === 'bench' && process.env.SOLVE !== 'coach') rt.direct = true;
   const contents = (c.history || []).map(([role, text]) => ({ role, parts: [{ text }] }));
   contents.push({ role: 'user', parts: [...(c.image ? [{ inlineData: { mimeType: 'image/png', data: fixture(c.image) } }] : []), { text: c.q }] });
   const want = AI.toolsFor(rt, { search: true }, AVAIL), tries = [];
@@ -72,11 +89,18 @@ async function ask(c) {
       let acc = r.acc, ms = r.ms, recheck = null;
       // The app's independent re-check: an exact solution that disagrees with the answer triggers one retry.
       if (RECHECK) {
-        const v = SparkMath.check(c.q, acc.text);
+        let v = SparkMath.check(c.q, acc.text), second = null;
         recheck = { first: v.status };
+        // The app's second method for problems the exact checker can't read (SECOND=off measures without it).
+        if (v.status === 'unknown' && process.env.SECOND !== 'off' && typeof AI.secondCheck === 'function') {
+          const context = (c.history || []).filter(h => h[0] === 'user').map(h => h[1]).join('\n');
+          second = await AI.secondCheck({ question: c.q, context, reply: acc.text, callJSON: formalJSON, SparkMath });
+          recheck.method = 'second'; recheck.first = second.status; if (second.reason) recheck.reason = second.reason;
+          if (second.status !== 'unknown') v = second;
+        }
         if (v.status === 'disagree') {
-          const r2 = await stream(model, AI.requestBody({ system: system + AI.recheckInstruction(v), contents, tools, think: true, mathy: true }));
-          if (r2.acc) { recheck.firstAnswer = (SparkMath.answerOf(acc.text) || {}).line; acc = r2.acc; ms += r2.ms; recheck.second = SparkMath.check(c.q, acc.text).status; }
+          const r2 = await stream(model, AI.requestBody({ system: system + (second ? AI.secondMethodInstruction(v) : AI.recheckInstruction(v)), contents, tools, think: true, mathy: true }));
+          if (r2.acc) { recheck.firstAnswer = (SparkMath.answerOf(acc.text) || {}).line; acc = r2.acc; ms += r2.ms; recheck.second = (second ? SparkMath.matchValues(second.run, acc.text, c.q) : SparkMath.check(c.q, acc.text)).status; }
         }
       }
       return { model, tools, route: rt, text: acc.text, checks: AI.checkSummary(acc), sources: acc.sources, finish: acc.finish, ms, tries, recheck };

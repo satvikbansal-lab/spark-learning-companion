@@ -274,5 +274,77 @@
     return { status: ok ? 'agree' : 'disagree', expected: show(p.value), got: vals.map(g => g.raw).join(', '), problem: p, note: ok ? `${p.expr} = ${show(p.value)} recalculated exactly.` : `${p.expr} works out to ${show(p.value)} exactly, but the answer says ${vals.map(g => g.raw).join(', ')}.` };
   }
 
-  return { Q, ops, near, roughly, show, plain, parse, evaluate, solve, problemOf, answerOf, check, toNum };
+  /* ---------- a second, independent method ----------
+     For word problems the question can't be read with certainty here, so a separate AI call (prompt in spark-ai.js)
+     writes the problem as a small program WITHOUT seeing Sparky's answer: named steps that are plain expressions over
+     numbers and earlier steps, or one equation in one unknown. This file runs that program exactly and compares the
+     result with Sparky's answer line. The AI only sets the problem up; every number is worked out here. */
+  const NAME = /^[a-z][a-z0-9_]{0,30}$/i, RESERVED = new Set(['sqrt', 'cbrt', 'pi']);
+  function substitute(src, env, keep) {
+    let x = ' ' + String(src || '') + ' ';
+    for (const k of Object.keys(env).sort((a, b) => b.length - a.length)) {
+      if (k === keep) continue;
+      const v = env[k], txt = isQ(v) ? `(${v.n}/${v.d})` : `(${v})`;
+      x = x.replace(new RegExp(`(?<![A-Za-z0-9_])${k}(?![A-Za-z0-9_])`, 'g'), txt);
+    }
+    return x.replace(/(?<![A-Za-z0-9_])pi(?![A-Za-z0-9_])/g, 'π').trim();
+  }
+  /* Runs { steps: [{ name, expr } | { name, equation, unknown, pick }], answers: [{ label, name }] }.
+     Returns { ok: true, values: [{ label, name, v }], usesPi } or { ok: false, why }. */
+  function runProgram(prog) {
+    if (!prog || !Array.isArray(prog.steps) || !prog.steps.length || prog.steps.length > 30 || !Array.isArray(prog.answers) || !prog.answers.length) return { ok: false, why: 'no program' };
+    const env = {}; let usesPi = false;
+    for (const st of prog.steps) {
+      const name = String(st && st.name || '').trim();
+      if (!NAME.test(name) || RESERVED.has(name.toLowerCase()) || name in env) return { ok: false, why: `bad step name ${name}` };
+      if (/(?<![A-Za-z0-9_])pi(?![A-Za-z0-9_])|π/.test((st.expr || '') + (st.equation || ''))) usesPi = true;
+      if (st.equation) {
+        const u = String(st.unknown || '').trim();
+        if (!NAME.test(u) || u in env) return { ok: false, why: `bad unknown in ${name}` };
+        let eq = substitute(st.equation, env, u).replace(new RegExp(`(?<![A-Za-z0-9_])${u}(?![A-Za-z0-9_])`, 'g'), '(x)');
+        if (/[a-wyzA-WYZ]/.test(eq.replace(/sqrt|cbrt/g, ''))) return { ok: false, why: `unknown names in ${name}` };
+        const sol = solve(eq);
+        if (!sol || sol.identity || sol.none) return { ok: false, why: `can't solve ${name}` };
+        let roots = sol.roots;
+        if (st.pick === 'positive') roots = roots.filter(r => toNum(r) > 0);
+        if (roots.length !== 1) return { ok: false, why: `${name} has ${roots.length} possible values` };
+        env[name] = roots[0];
+      } else {
+        const e = substitute(st.expr, env);
+        if (/[a-zA-Z]/.test(e.replace(/sqrt|cbrt/g, ''))) return { ok: false, why: `unknown names in ${name}` };
+        const v = evaluate(e);
+        if (v === null || (!isQ(v) && !Number.isFinite(v))) return { ok: false, why: `can't work out ${name}` };
+        env[name] = v;
+      }
+    }
+    const values = [];
+    for (const a of prog.answers) { if (!a || !(a.name in env)) return { ok: false, why: `answer ${a && a.name} isn't a step` }; values.push({ label: String(a.label || a.name), name: a.name, v: env[a.name] }); }
+    return { ok: true, values, usesPi };
+  }
+  /* Does Sparky's answer line contain every value the program found? π answers may use 3.14 or 22/7 (within 0.1%). */
+  /* The options of a multiple-choice question: "(a) 680 (b) 920 …", "A. 680  B. 920" or one per line. */
+  function optionsOf(question) {
+    const out = {}, re = /(?:^|[\s(])\(?([a-dA-D])[).:]\s+([^\n]*?)(?=\s+\(?[a-dA-D][).:]\s|\n|$)/g;
+    let m; while ((m = re.exec(String(question || '')))) out[m[1].toLowerCase()] = m[2].trim();
+    return Object.keys(out).length >= 2 ? out : null;
+  }
+  function matchValues(run, reply, question) {
+    let a = answerOf(reply);
+    if (!a) return { status: 'unknown', reason: 'no answer line' };
+    // An answer that is only an option letter is read as that option's value.
+    const letter = /^\W*(?:option\s*)?\(?([a-dA-D])\)?\W*$/i.exec(a.line.replace(/\*\*/g, ''));
+    const opts = letter && optionsOf(question);
+    if (opts && opts[letter[1].toLowerCase()]) a = Object.assign(answerOf('**Answer:** ' + opts[letter[1].toLowerCase()]), { line: `(${letter[1].toLowerCase()}) ${opts[letter[1].toLowerCase()]}` });
+    if (!a.nums.length) return { status: 'unknown', reason: 'no number in the answer line' };
+    const close = (want, g) => roughly(want, g.v, g.raw) || (run.usesPi && Math.abs(toNum(want) - toNum(g.v)) <= 1e-3 * Math.abs(toNum(want)));
+    const missing = run.values.filter(w => !a.nums.some(g => close(w.v, g)));
+    const list = run.values.map(w => `${w.label} = ${show(w.v)}`).join(', ');
+    return missing.length
+      ? { status: 'disagree', expected: list, got: a.nums.filter(g => !g.alt).map(g => g.raw).join(', '), note: `Working the problem out a second way gives ${list}, but the answer says ${a.line.replace(/\*\*/g, '').trim()}.` }
+      : { status: 'agree', expected: list, note: `Checked a second way: the problem was set up again separately and worked out exactly, giving ${list}.` };
+  }
+  /* Two independent set-ups agree with each other when they find the same values. */
+  const sameRun = (a, b) => a.ok && b.ok && a.values.length === b.values.length && a.values.every((w, i) => near(w.v, b.values[i].v) || (a.usesPi || b.usesPi) && Math.abs(toNum(w.v) - toNum(b.values[i].v)) <= 1e-3 * Math.abs(toNum(w.v)));
+
+  return { Q, ops, near, roughly, show, plain, parse, evaluate, solve, problemOf, answerOf, check, toNum, runProgram, matchValues, sameRun, optionsOf };
 });

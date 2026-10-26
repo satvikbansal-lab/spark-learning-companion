@@ -215,3 +215,59 @@ test('regression: an answer on the line after the label is read', () => {
   assert.deepEqual(nums('**Answer:**\n\n65°'), ['65']);
   assert.deepEqual(nums('**Answer:** \\(x = 6\\)\n\n👉 Try 3x+4=25'), ['6']);
 });
+
+/* ---------- the second method: an independent set-up, worked out exactly ---------- */
+test('second method: runs a set-up program exactly (steps, one equation, π) and refuses anything it cannot read', () => {
+  const r = M.runProgram({ steps: [{ name: 'cp', expr: '800' }, { name: 'sp', expr: 'cp * (1 + 15/100)' }, { name: 'w', equation: '2*w + 2*(w + 3) = 46', unknown: 'w' }, { name: 'side', equation: 'side^2 = 49', unknown: 'side', pick: 'positive' }], answers: [{ label: 'SP', name: 'sp' }, { label: 'width', name: 'w' }, { label: 'side', name: 'side' }] });
+  assert.equal(r.ok, true);
+  assert.deepEqual(r.values.map(v => M.show(v.v)), ['920', '10', '7']);
+  assert.equal(M.runProgram({ steps: [{ name: 'a', expr: 'b + 1' }], answers: [{ name: 'a' }] }).ok, false); // unknown name
+  assert.equal(M.runProgram({ steps: [{ name: 's', equation: 's^2 = 49', unknown: 's' }], answers: [{ name: 's' }] }).ok, false); // two roots, none picked
+  assert.equal(M.runProgram({ steps: [{ name: 'x', expr: '1/0' }], answers: [{ name: 'x' }] }).ok, false);
+  assert.equal(M.runProgram({ steps: [{ name: 'sqrt', expr: '4' }], answers: [{ name: 'sqrt' }] }).ok, false); // reserved name
+  assert.equal(M.runProgram({ steps: [{ name: 'a', expr: '2' }], answers: [{ name: 'zz' }] }).ok, false);
+});
+test('second method: compares with the answer line, allowing 3.14 or 22/7 for π and rounded money', () => {
+  const area = M.runProgram({ steps: [{ name: 'area', expr: 'pi * 7^2' }], answers: [{ label: 'area', name: 'area' }] });
+  assert.equal(M.matchValues(area, '**Answer:** 154 cm²').status, 'agree');
+  assert.equal(M.matchValues(area, '**Answer:** about 153.94 cm²').status, 'agree');
+  assert.equal(M.matchValues(area, '**Answer:** 150 cm²').status, 'disagree');
+  const si = M.runProgram({ steps: [{ name: 'si', expr: '2500 * 7.5 * 3 / 100' }], answers: [{ label: 'interest', name: 'si' }] });
+  assert.equal(M.matchValues(si, '**Answer:** Simple interest = ₹562.50').status, 'agree');
+  const pct = M.runProgram({ steps: [{ name: 'p', expr: '(1150 - 1000) / 1000 * 100' }], answers: [{ label: 'gain %', name: 'p' }] });
+  assert.equal(M.matchValues(pct, '**Answer:** Gain = 15%').status, 'agree');
+  assert.equal(M.matchValues(pct, 'No answer line here').status, 'unknown');
+});
+test('second method: only calls an answer wrong when two separate set-ups agree with each other', async () => {
+  const AI = require('../spark-ai.js');
+  const good = { checkable: true, steps: [{ name: 'sp', expr: '800 * 1.15' }], answers: [{ label: 'SP', name: 'sp' }] };
+  const other = { checkable: true, steps: [{ name: 'sp', expr: '800 * 0.85' }], answers: [{ label: 'SP', name: 'sp' }] };
+  const run = (first, second) => { const calls = []; return { calls, fn: async (p, s, o) => { calls.push(o.again); assert.doesNotMatch(p, /Answer:/); return o.again ? second : first; } }; };
+  const q = 'A shopkeeper buys a fan for ₹800 and sells it at 15% profit. Find the selling price.';
+  let c = run(good, good);
+  assert.equal((await AI.secondCheck({ question: q, reply: '**Answer:** ₹920', callJSON: c.fn, SparkMath: M })).status, 'agree');
+  assert.deepEqual(c.calls, [false]); // agreement needs one call only
+  c = run(good, good);
+  const bad = await AI.secondCheck({ question: q, reply: '**Answer:** ₹680', callJSON: c.fn, SparkMath: M });
+  assert.equal(bad.status, 'disagree'); assert.equal(bad.confirmed, true); assert.deepEqual(c.calls, [false, true]);
+  assert.match(AI.secondMethodInstruction(bad), /920/);
+  c = run(good, other); // the two set-ups differ: not trusted
+  assert.equal((await AI.secondCheck({ question: q, reply: '**Answer:** ₹680', callJSON: c.fn, SparkMath: M })).status, 'unknown');
+  c = run({ checkable: false, reason: 'proof', steps: [], answers: [] }, good);
+  assert.equal((await AI.secondCheck({ question: 'Prove that √2 is irrational.', reply: '**Answer:** proved', callJSON: c.fn, SparkMath: M })).status, 'unknown');
+  c = run(good, good);
+  assert.equal((await AI.secondCheck({ question: q, reply: 'Try the first step: what is 15% of 800?', callJSON: c.fn, SparkMath: M })).status, 'unknown');
+  assert.deepEqual(c.calls, []); // a coaching reply with no answer line costs nothing
+  const failing = async () => { throw new Error('busy'); };
+  assert.equal((await AI.secondCheck({ question: q, reply: '**Answer:** ₹920', callJSON: failing, SparkMath: M })).status, 'unknown');
+});
+test('second method: an answer that is only an option letter is read as that option', () => {
+  const q = 'A fan costs ₹800 and is sold at 15% profit. The selling price is (a) ₹680 (b) ₹920 (c) ₹815 (d) ₹900';
+  assert.deepEqual(M.optionsOf(q), { a: '₹680', b: '₹920', c: '₹815', d: '₹900' });
+  assert.deepEqual(M.optionsOf('Which is bigger?\nA. 3/4\nB. 2/3'), { a: '3/4', b: '2/3' });
+  assert.equal(M.optionsOf('What is 2 + 3?'), null);
+  const r = M.runProgram({ steps: [{ name: 'sp', expr: '800 * 1.15' }], answers: [{ label: 'SP', name: 'sp' }] });
+  assert.equal(M.matchValues(r, '**Answer:** (b)', q).status, 'agree');
+  assert.equal(M.matchValues(r, '**Answer:** Option A', q).status, 'disagree');
+  assert.equal(M.matchValues(r, '**Answer:** (b)', 'no options here').status, 'unknown');
+});
