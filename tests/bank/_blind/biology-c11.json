@@ -1,0 +1,5506 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "items": [
+  {
+   "id": "biology-c11-001",
+   "type": "mcq",
+   "q": "Which is the basic unit of classification in the taxonomic hierarchy?",
+   "options": [
+    "Genus",
+    "Species",
+    "Family",
+    "Order"
+   ]
+  },
+  {
+   "id": "biology-c11-002",
+   "type": "mcq",
+   "q": "The system of giving each organism a two-part scientific name was introduced by",
+   "options": [
+    "Charles Darwin",
+    "Aristotle",
+    "R.H. Whittaker",
+    "Carolus Linnaeus"
+   ]
+  },
+  {
+   "id": "biology-c11-003",
+   "type": "mcq",
+   "q": "In the scientific name Mangifera indica Linn., the word 'Linn.' indicates",
+   "options": [
+    "the author who first described the species",
+    "the place where the species was found",
+    "the family of the plant",
+    "the year of discovery"
+   ]
+  },
+  {
+   "id": "biology-c11-004",
+   "type": "mcq",
+   "q": "In the five kingdom classification of Whittaker, unicellular eukaryotic organisms such as Amoeba and Paramecium are placed in kingdom",
+   "options": [
+    "Monera",
+    "Fungi",
+    "Protista",
+    "Plantae"
+   ]
+  },
+  {
+   "id": "biology-c11-005",
+   "type": "mcq",
+   "q": "Which of the following lists the taxonomic categories correctly from the highest to the lowest rank?",
+   "options": [
+    "Kingdom, Class, Phylum, Order, Genus, Family, Species",
+    "Phylum, Kingdom, Class, Family, Order, Genus, Species",
+    "Kingdom, Phylum, Class, Order, Family, Genus, Species",
+    "Kingdom, Phylum, Order, Class, Family, Genus, Species"
+   ]
+  },
+  {
+   "id": "biology-c11-006",
+   "type": "mcq",
+   "q": "A microbiologist finds a unicellular organism with no nuclear membrane, 70S ribosomes and a cell wall containing peptidoglycan. It should be placed in kingdom",
+   "options": [
+    "Monera",
+    "Protista",
+    "Fungi",
+    "Animalia"
+   ]
+  },
+  {
+   "id": "biology-c11-007",
+   "type": "short",
+   "q": "State any two rules followed while writing the scientific name of an organism.",
+   "proposedAnswer": "The name is in Latin and printed in italics (underlined separately when handwritten); the genus name starts with a capital letter and the species name with a small letter.",
+   "keyPoints": [
+    "Latin names, italicised or underlined separately",
+    "Genus name begins with a capital letter",
+    "Species name begins with a small letter"
+   ]
+  },
+  {
+   "id": "biology-c11-008",
+   "type": "short",
+   "q": "Why are viruses not included in the five kingdom classification?",
+   "proposedAnswer": "Viruses are non-cellular and show characters of life only inside a host cell, where they multiply as obligate parasites; outside the host they behave like non-living particles, so they do not fit any kingdom.",
+   "keyPoints": [
+    "Non-cellular structure",
+    "Obligate parasites that multiply only in host cells",
+    "Behave as non-living outside the host"
+   ]
+  },
+  {
+   "id": "biology-c11-009",
+   "type": "mcq",
+   "q": "The pigment that gives brown algae their characteristic colour is",
+   "options": [
+    "fucoxanthin",
+    "phycoerythrin",
+    "chlorophyll b",
+    "carotene only"
+   ]
+  },
+  {
+   "id": "biology-c11-010",
+   "type": "mcq",
+   "q": "Mosses and liverworts belong to the group",
+   "options": [
+    "Algae",
+    "Pteridophytes",
+    "Bryophytes",
+    "Gymnosperms"
+   ]
+  },
+  {
+   "id": "biology-c11-011",
+   "type": "mcq",
+   "q": "In pteridophytes such as ferns, the dominant independent phase of the life cycle is the",
+   "options": [
+    "gametophyte",
+    "prothallus",
+    "protonema",
+    "sporophyte"
+   ]
+  },
+  {
+   "id": "biology-c11-012",
+   "type": "mcq",
+   "q": "Gymnosperms are said to have 'naked seeds' because their",
+   "options": [
+    "seeds have no seed coat",
+    "ovules are not enclosed within an ovary wall",
+    "seeds lack an embryo",
+    "seeds have no stored food"
+   ]
+  },
+  {
+   "id": "biology-c11-013",
+   "type": "mcq",
+   "q": "A plant has vascular tissues and motile male gametes that need water for fertilisation, but it produces no seeds. It most likely belongs to",
+   "options": [
+    "Bryophyta",
+    "Pteridophyta",
+    "Gymnosperms",
+    "Angiosperms"
+   ]
+  },
+  {
+   "id": "biology-c11-014",
+   "type": "mcq",
+   "q": "In a haplontic life cycle, the only diploid stage is the",
+   "options": [
+    "spore",
+    "gamete",
+    "vegetative plant body",
+    "zygote"
+   ]
+  },
+  {
+   "id": "biology-c11-015",
+   "type": "short",
+   "q": "Distinguish between bryophytes and pteridophytes in terms of the dominant phase of their life cycle.",
+   "proposedAnswer": "In bryophytes the dominant phase is the haploid gametophyte, with a dependent sporophyte; in pteridophytes the dominant phase is the independent diploid sporophyte, and the gametophyte is small.",
+   "keyPoints": [
+    "Bryophytes: gametophyte dominant",
+    "Pteridophytes: sporophyte dominant",
+    "Bryophyte sporophyte depends on the gametophyte"
+   ]
+  },
+  {
+   "id": "biology-c11-016",
+   "type": "short",
+   "q": "Why do bryophytes remain small and grow in moist places?",
+   "proposedAnswer": "They lack true vascular tissues to carry water and food over long distances, and their male gametes swim in water to reach the egg, so they need moist surroundings.",
+   "keyPoints": [
+    "No xylem and phloem",
+    "Water needed for fertilisation by swimming gametes",
+    "Absorb water directly through the surface"
+   ]
+  },
+  {
+   "id": "biology-c11-017",
+   "type": "mcq",
+   "q": "Animals with a spiny skin and a water vascular system belong to phylum",
+   "options": [
+    "Arthropoda",
+    "Mollusca",
+    "Echinodermata",
+    "Annelida"
+   ]
+  },
+  {
+   "id": "biology-c11-018",
+   "type": "mcq",
+   "q": "Which phylum is acoelomate, having no body cavity?",
+   "options": [
+    "Platyhelminthes",
+    "Annelida",
+    "Mollusca",
+    "Chordata"
+   ]
+  },
+  {
+   "id": "biology-c11-019",
+   "type": "mcq",
+   "q": "Which of these animals has an open circulatory system?",
+   "options": [
+    "Earthworm",
+    "Cockroach",
+    "Frog",
+    "Fish"
+   ]
+  },
+  {
+   "id": "biology-c11-020",
+   "type": "mcq",
+   "q": "Collar cells called choanocytes line the body cavity of",
+   "options": [
+    "cnidarians",
+    "ctenophores",
+    "roundworms",
+    "sponges"
+   ]
+  },
+  {
+   "id": "biology-c11-021",
+   "type": "mcq",
+   "q": "A land vertebrate has dry skin covered with scales, lays shelled eggs on land and is cold-blooded. It belongs to class",
+   "options": [
+    "Amphibia",
+    "Aves",
+    "Mammalia",
+    "Reptilia"
+   ]
+  },
+  {
+   "id": "biology-c11-022",
+   "type": "mcq",
+   "q": "A marine animal shows radial symmetry, tissue-level organisation and stinging cells called cnidoblasts. Its phylum is",
+   "options": [
+    "Porifera",
+    "Cnidaria",
+    "Echinodermata",
+    "Aschelminthes"
+   ]
+  },
+  {
+   "id": "biology-c11-023",
+   "type": "short",
+   "q": "Differentiate between diploblastic and triploblastic animals with one example each.",
+   "proposedAnswer": "Diploblastic animals have two germ layers, ectoderm and endoderm (e.g. Hydra); triploblastic animals have a third layer, mesoderm, between them (e.g. earthworm or human).",
+   "keyPoints": [
+    "Diploblastic: two germ layers",
+    "Triploblastic: three germ layers with mesoderm",
+    "Example of each"
+   ]
+  },
+  {
+   "id": "biology-c11-024",
+   "type": "short",
+   "q": "Explain how birds are adapted for flight.",
+   "proposedAnswer": "Birds have forelimbs modified into wings, feathers, a streamlined body and pneumatic bones with air cavities that reduce body weight.",
+   "keyPoints": [
+    "Forelimbs modified as wings",
+    "Feathers",
+    "Hollow pneumatic bones reduce weight"
+   ]
+  },
+  {
+   "id": "biology-c11-025",
+   "type": "mcq",
+   "q": "Root hairs are found in the",
+   "options": [
+    "root cap",
+    "zone of elongation",
+    "meristematic zone",
+    "zone of maturation"
+   ]
+  },
+  {
+   "id": "biology-c11-026",
+   "type": "mcq",
+   "q": "The type of venation in the leaves of monocotyledons is generally",
+   "options": [
+    "reticulate",
+    "parallel",
+    "pinnate",
+    "palmate"
+   ]
+  },
+  {
+   "id": "biology-c11-027",
+   "type": "mcq",
+   "q": "The banyan tree supports its heavy branches with",
+   "options": [
+    "stilt roots",
+    "pneumatophores",
+    "prop roots",
+    "buttress roots"
+   ]
+  },
+  {
+   "id": "biology-c11-028",
+   "type": "mcq",
+   "q": "In angiosperm phloem, each sieve tube element is closely associated with a",
+   "options": [
+    "companion cell",
+    "tracheid",
+    "vessel",
+    "fibre"
+   ]
+  },
+  {
+   "id": "biology-c11-029",
+   "type": "mcq",
+   "q": "Annual rings in the trunk of a tree growing in a temperate region form because",
+   "options": [
+    "vascular cambium is more active in some seasons than others",
+    "phloem is produced only once a year",
+    "the cork cambium stops functioning",
+    "pith cells divide each year"
+   ]
+  },
+  {
+   "id": "biology-c11-030",
+   "type": "mcq",
+   "q": "Marginal placentation, with ovules along the ventral suture of a single-chambered ovary, is found in",
+   "options": [
+    "tomato",
+    "lemon",
+    "pea",
+    "mustard"
+   ]
+  },
+  {
+   "id": "biology-c11-031",
+   "type": "short",
+   "q": "Differentiate between a tap root system and a fibrous root system with an example of each.",
+   "proposedAnswer": "A tap root system has a main root developed from the radicle with lateral branches, as in mustard (dicots); a fibrous root system has many thin roots arising from the base of the stem, as in wheat (monocots).",
+   "keyPoints": [
+    "Tap root from radicle, e.g. mustard",
+    "Fibrous roots from stem base, e.g. wheat",
+    "Taproot in dicots, fibrous in monocots"
+   ]
+  },
+  {
+   "id": "biology-c11-032",
+   "type": "short",
+   "q": "Why do dicot stems show secondary growth while monocot stems usually do not?",
+   "proposedAnswer": "Dicot stems have open vascular bundles with cambium between xylem and phloem, which divides to add secondary tissues; monocot bundles are closed and lack cambium.",
+   "keyPoints": [
+    "Dicot bundles are open with cambium",
+    "Monocot bundles are closed without cambium",
+    "Cambium produces secondary xylem and phloem"
+   ]
+  },
+  {
+   "id": "biology-c11-033",
+   "type": "mcq",
+   "q": "The tissue that lines the cavities of the body and forms the covering of organs is",
+   "options": [
+    "connective tissue",
+    "epithelial tissue",
+    "muscular tissue",
+    "neural tissue"
+   ]
+  },
+  {
+   "id": "biology-c11-034",
+   "type": "mcq",
+   "q": "Intercalated discs are a feature of",
+   "options": [
+    "cardiac muscle",
+    "skeletal muscle",
+    "smooth muscle",
+    "adipose tissue"
+   ]
+  },
+  {
+   "id": "biology-c11-035",
+   "type": "mcq",
+   "q": "The abdomen of a cockroach is made up of how many segments?",
+   "options": [
+    "6",
+    "8",
+    "12",
+    "10"
+   ]
+  },
+  {
+   "id": "biology-c11-036",
+   "type": "mcq",
+   "q": "The blood-like fluid that fills the body cavity of a cockroach is called",
+   "options": [
+    "lymph",
+    "plasma",
+    "haemolymph",
+    "coelomic fluid"
+   ]
+  },
+  {
+   "id": "biology-c11-037",
+   "type": "mcq",
+   "q": "In the frog, mixing of oxygenated and deoxygenated blood takes place mainly in the",
+   "options": [
+    "right auricle",
+    "left auricle",
+    "ventricle",
+    "sinus venosus"
+   ]
+  },
+  {
+   "id": "biology-c11-038",
+   "type": "mcq",
+   "q": "Dense regular connective tissue that attaches a skeletal muscle to a bone is called a",
+   "options": [
+    "ligament",
+    "cartilage",
+    "areolar tissue",
+    "tendon"
+   ]
+  },
+  {
+   "id": "biology-c11-039",
+   "type": "short",
+   "q": "Name the three types of cell junctions found in animal tissues and state the function of each.",
+   "proposedAnswer": "Tight junctions prevent leakage of substances across a tissue; adhering junctions cement neighbouring cells together; gap junctions connect the cytoplasm of adjoining cells to allow transfer of ions and small molecules.",
+   "keyPoints": [
+    "Tight junctions stop leakage",
+    "Adhering junctions hold cells together",
+    "Gap junctions allow communication"
+   ]
+  },
+  {
+   "id": "biology-c11-040",
+   "type": "short",
+   "q": "Why is the vision of a cockroach described as mosaic vision?",
+   "proposedAnswer": "Each compound eye has about 2000 hexagonal ommatidia, and each forms a separate image part, so the image is a mosaic; it gives more sensitivity but less resolution.",
+   "keyPoints": [
+    "Compound eyes with many ommatidia",
+    "Each ommatidium forms a part of the image",
+    "Gives mosaic image, more sensitivity but less resolution"
+   ]
+  },
+  {
+   "id": "biology-c11-041",
+   "type": "mcq",
+   "q": "Which cell organelle is called the powerhouse of the cell?",
+   "options": [
+    "Golgi apparatus",
+    "Lysosome",
+    "Mitochondrion",
+    "Ribosome"
+   ]
+  },
+  {
+   "id": "biology-c11-042",
+   "type": "mcq",
+   "q": "The fluid mosaic model of the plasma membrane was proposed by",
+   "options": [
+    "Schleiden and Schwann",
+    "Watson and Crick",
+    "Robert Hooke",
+    "Singer and Nicolson"
+   ]
+  },
+  {
+   "id": "biology-c11-043",
+   "type": "mcq",
+   "q": "The ribosomes of prokaryotic cells have a sedimentation coefficient of",
+   "options": [
+    "80S",
+    "70S",
+    "60S",
+    "50S"
+   ]
+  },
+  {
+   "id": "biology-c11-044",
+   "type": "mcq",
+   "q": "The site of synthesis of ribosomal RNA and assembly of ribosome subunits in the nucleus is the",
+   "options": [
+    "nucleolus",
+    "nuclear pore",
+    "nuclear envelope",
+    "chromatin"
+   ]
+  },
+  {
+   "id": "biology-c11-045",
+   "type": "mcq",
+   "q": "A drug stops the functioning of the Golgi apparatus in a gland cell. Which process would be affected most directly?",
+   "options": [
+    "Packaging and secretion of proteins",
+    "Replication of DNA",
+    "Synthesis of ATP in mitochondria",
+    "Splitting of water in chloroplasts"
+   ]
+  },
+  {
+   "id": "biology-c11-046",
+   "type": "mcq",
+   "q": "Which pair of organelles contains its own circular DNA and 70S ribosomes?",
+   "options": [
+    "Nucleus and Golgi",
+    "Mitochondria and chloroplasts",
+    "Lysosomes and peroxisomes",
+    "Endoplasmic reticulum and vacuole"
+   ]
+  },
+  {
+   "id": "biology-c11-047",
+   "type": "short",
+   "q": "Write any three differences between prokaryotic and eukaryotic cells.",
+   "proposedAnswer": "Prokaryotic cells lack a membrane-bound nucleus and organelles, have 70S ribosomes and a single circular DNA; eukaryotic cells have a true nucleus, membrane-bound organelles and 80S ribosomes.",
+   "keyPoints": [
+    "Nuclear membrane absent or present",
+    "Membrane-bound organelles absent or present",
+    "Ribosomes 70S or 80S"
+   ]
+  },
+  {
+   "id": "biology-c11-048",
+   "type": "short",
+   "q": "Pancreatic acinar cells that secrete digestive enzymes are rich in rough endoplasmic reticulum and Golgi bodies. Explain why.",
+   "proposedAnswer": "Digestive enzymes are proteins made by ribosomes on the RER, which folds and transports them; the Golgi then modifies, packs and secretes them, so cells that secrete much protein need large amounts of both.",
+   "keyPoints": [
+    "RER with ribosomes synthesises proteins",
+    "Golgi modifies and packages",
+    "Heavy secretion needs more of both"
+   ]
+  },
+  {
+   "id": "biology-c11-049",
+   "type": "mcq",
+   "q": "The monomers of proteins are",
+   "options": [
+    "nucleotides",
+    "fatty acids",
+    "monosaccharides",
+    "amino acids"
+   ]
+  },
+  {
+   "id": "biology-c11-050",
+   "type": "mcq",
+   "q": "Two amino acids are joined together by a",
+   "options": [
+    "glycosidic bond",
+    "ester bond",
+    "peptide bond",
+    "hydrogen bond"
+   ]
+  },
+  {
+   "id": "biology-c11-051",
+   "type": "mcq",
+   "q": "Enzymes increase the rate of a reaction by",
+   "options": [
+    "lowering the activation energy",
+    "raising the temperature",
+    "changing the equilibrium",
+    "being used up in the reaction"
+   ]
+  },
+  {
+   "id": "biology-c11-052",
+   "type": "mcq",
+   "q": "Malonate inhibits succinic dehydrogenase because it",
+   "options": [
+    "denatures the enzyme",
+    "structurally resembles the substrate succinate",
+    "binds the coenzyme",
+    "breaks the peptide bonds"
+   ]
+  },
+  {
+   "id": "biology-c11-053",
+   "type": "mcq",
+   "q": "An enzyme has a Vmax of 100 units. At a substrate concentration equal to its Km, the reaction velocity will be",
+   "options": [
+    "25 units",
+    "50 units",
+    "75 units",
+    "100 units"
+   ]
+  },
+  {
+   "id": "biology-c11-054",
+   "type": "mcq",
+   "q": "Humans cannot digest cellulose even though it is a polymer of glucose, because they lack an enzyme that",
+   "options": [
+    "breaks the beta 1-4 glycosidic bonds",
+    "forms peptide bonds",
+    "makes glucose",
+    "breaks hydrogen bonds in starch"
+   ]
+  },
+  {
+   "id": "biology-c11-055",
+   "type": "short",
+   "q": "Briefly describe the primary, secondary and tertiary structures of a protein.",
+   "proposedAnswer": "Primary structure is the linear sequence of amino acids; secondary structure is the regular folding into alpha helix or beta pleated sheet; tertiary structure is the overall three-dimensional folding of the chain.",
+   "keyPoints": [
+    "Primary: amino acid sequence",
+    "Secondary: helix or sheet",
+    "Tertiary: 3-D folded shape"
+   ]
+  },
+  {
+   "id": "biology-c11-056",
+   "type": "short",
+   "q": "Why can the effect of a competitive inhibitor be reduced by adding more substrate?",
+   "proposedAnswer": "The inhibitor and substrate compete for the same active site; at a high substrate concentration the substrate outnumbers the inhibitor and occupies most active sites, so the inhibition is overcome.",
+   "keyPoints": [
+    "Both bind the same active site",
+    "More substrate outcompetes inhibitor",
+    "Inhibition is reversible"
+   ]
+  },
+  {
+   "id": "biology-c11-057",
+   "type": "mcq",
+   "q": "DNA replication takes place in the",
+   "options": [
+    "G1 phase",
+    "S phase",
+    "G2 phase",
+    "M phase"
+   ]
+  },
+  {
+   "id": "biology-c11-058",
+   "type": "mcq",
+   "q": "Synapsis, the pairing of homologous chromosomes, occurs during",
+   "options": [
+    "leptotene",
+    "diakinesis",
+    "zygotene",
+    "pachytene"
+   ]
+  },
+  {
+   "id": "biology-c11-059",
+   "type": "mcq",
+   "q": "Crossing over takes place during which sub-stage of meiotic prophase I?",
+   "options": [
+    "Pachytene",
+    "Leptotene",
+    "Diplotene",
+    "Diakinesis"
+   ]
+  },
+  {
+   "id": "biology-c11-060",
+   "type": "mcq",
+   "q": "A cell with 20 chromosomes (2n = 20) undergoes meiosis. How many chromosomes does each cell have at the end of meiosis I?",
+   "options": [
+    "20",
+    "40",
+    "5",
+    "10"
+   ]
+  },
+  {
+   "id": "biology-c11-061",
+   "type": "mcq",
+   "q": "A plant cell has 2n = 14. How many chromatids are present at metaphase of mitosis?",
+   "options": [
+    "7",
+    "14",
+    "21",
+    "28"
+   ]
+  },
+  {
+   "id": "biology-c11-062",
+   "type": "mcq",
+   "q": "Which event in meiosis most directly increases genetic variation?",
+   "options": [
+    "Exchange of segments between non-sister chromatids of homologous chromosomes",
+    "Duplication of DNA in S phase",
+    "Formation of the spindle",
+    "Division of the cytoplasm"
+   ]
+  },
+  {
+   "id": "biology-c11-063",
+   "type": "short",
+   "q": "What is cytokinesis? How does it differ in plant and animal cells?",
+   "proposedAnswer": "Cytokinesis is the division of the cytoplasm after karyokinesis. Animal cells form a cleavage furrow that pinches the cell, while plant cells form a cell plate in the centre that grows outward.",
+   "keyPoints": [
+    "Division of cytoplasm",
+    "Animal cell: furrow",
+    "Plant cell: cell plate"
+   ]
+  },
+  {
+   "id": "biology-c11-064",
+   "type": "short",
+   "q": "Why is meiosis essential in sexually reproducing organisms?",
+   "proposedAnswer": "It halves the chromosome number in gametes so that fertilisation restores the diploid number, keeping it constant across generations, and it creates variation through crossing over.",
+   "keyPoints": [
+    "Halves chromosome number in gametes",
+    "Fertilisation restores diploid number",
+    "Generates genetic variation"
+   ]
+  },
+  {
+   "id": "biology-c11-065",
+   "type": "mcq",
+   "q": "The main pigment that takes part directly in the light reaction of photosynthesis is",
+   "options": [
+    "carotene",
+    "xanthophyll",
+    "chlorophyll a",
+    "chlorophyll b"
+   ]
+  },
+  {
+   "id": "biology-c11-066",
+   "type": "mcq",
+   "q": "The dark (biosynthetic) reaction of photosynthesis takes place in the",
+   "options": [
+    "stroma",
+    "thylakoid membrane",
+    "grana lumen",
+    "outer membrane"
+   ]
+  },
+  {
+   "id": "biology-c11-067",
+   "type": "mcq",
+   "q": "The first stable product of CO2 fixation in C3 plants is",
+   "options": [
+    "oxaloacetic acid",
+    "ribulose bisphosphate",
+    "phosphoenolpyruvate",
+    "3-phosphoglyceric acid"
+   ]
+  },
+  {
+   "id": "biology-c11-068",
+   "type": "mcq",
+   "q": "The most abundant enzyme on Earth, which catalyses both carboxylation and oxygenation, is",
+   "options": [
+    "PEP carboxylase",
+    "RuBisCO",
+    "ATP synthase",
+    "carbonic anhydrase"
+   ]
+  },
+  {
+   "id": "biology-c11-069",
+   "type": "mcq",
+   "q": "In C4 plants the primary fixation of CO2 in mesophyll cells is catalysed by",
+   "options": [
+    "RuBisCO",
+    "PEP carboxylase",
+    "pyruvate kinase",
+    "hexokinase"
+   ]
+  },
+  {
+   "id": "biology-c11-070",
+   "type": "mcq",
+   "q": "Photorespiration is negligible in C4 plants because",
+   "options": [
+    "they have no RuBisCO",
+    "they have no chloroplasts",
+    "their stomata remain closed",
+    "CO2 is concentrated around RuBisCO in bundle sheath cells"
+   ]
+  },
+  {
+   "id": "biology-c11-071",
+   "type": "short",
+   "q": "What are the products of the light reaction and where does the oxygen come from?",
+   "proposedAnswer": "The light reaction yields ATP and NADPH; the oxygen released comes from the splitting (photolysis) of water, not from CO2.",
+   "keyPoints": [
+    "ATP and NADPH formed",
+    "Oxygen from photolysis of water",
+    "Occurs in thylakoids"
+   ]
+  },
+  {
+   "id": "biology-c11-072",
+   "type": "short",
+   "q": "Compare cyclic and non-cyclic photophosphorylation.",
+   "proposedAnswer": "Non-cyclic involves both PS II and PS I, gives ATP, NADPH and O2; cyclic involves only PS I, electrons return to it, and only ATP is made, with no NADPH or oxygen.",
+   "keyPoints": [
+    "Non-cyclic: PS I and PS II, ATP + NADPH + O2",
+    "Cyclic: PS I only, ATP only",
+    "Electrons return in cyclic"
+   ]
+  },
+  {
+   "id": "biology-c11-073",
+   "type": "mcq",
+   "q": "Glycolysis takes place in the",
+   "options": [
+    "mitochondrial matrix",
+    "cristae",
+    "nucleus",
+    "cytoplasm"
+   ]
+  },
+  {
+   "id": "biology-c11-074",
+   "type": "mcq",
+   "q": "The end product of glycolysis is",
+   "options": [
+    "pyruvic acid",
+    "acetyl CoA",
+    "lactic acid",
+    "citric acid"
+   ]
+  },
+  {
+   "id": "biology-c11-075",
+   "type": "mcq",
+   "q": "The net gain of ATP molecules from glycolysis of one glucose molecule is",
+   "options": [
+    "4",
+    "2",
+    "6",
+    "8"
+   ]
+  },
+  {
+   "id": "biology-c11-076",
+   "type": "mcq",
+   "q": "The final acceptor of electrons in the mitochondrial electron transport chain is",
+   "options": [
+    "NAD+",
+    "cytochrome b",
+    "oxygen",
+    "FAD"
+   ]
+  },
+  {
+   "id": "biology-c11-077",
+   "type": "mcq",
+   "q": "The respiratory quotient (RQ) when fats are the respiratory substrate is generally",
+   "options": [
+    "greater than 1",
+    "exactly 1",
+    "less than 1",
+    "zero"
+   ]
+  },
+  {
+   "id": "biology-c11-078",
+   "type": "mcq",
+   "q": "When yeast ferments glucose in the absence of oxygen, pyruvic acid is converted into",
+   "options": [
+    "lactic acid and water",
+    "ethanol and CO2",
+    "acetic acid and O2",
+    "citric acid and CO2"
+   ]
+  },
+  {
+   "id": "biology-c11-079",
+   "type": "short",
+   "q": "Differentiate between aerobic and anaerobic respiration.",
+   "proposedAnswer": "Aerobic respiration needs oxygen and completely oxidises glucose to CO2 and water, releasing much energy; anaerobic respiration occurs without oxygen, gives incomplete oxidation (alcohol or lactic acid) and releases little energy.",
+   "keyPoints": [
+    "Oxygen needed or not",
+    "Complete or incomplete oxidation",
+    "High or low energy yield"
+   ]
+  },
+  {
+   "id": "biology-c11-080",
+   "type": "short",
+   "q": "Why is the energy yield of fermentation much lower than that of aerobic respiration?",
+   "proposedAnswer": "In fermentation glucose is only partially broken down and the electron transport chain is not used, so only 2 ATP are made by glycolysis, while aerobic respiration oxidises pyruvate fully and gains many more ATP through oxidative phosphorylation.",
+   "keyPoints": [
+    "Only glycolysis gives ATP",
+    "Incomplete breakdown of glucose",
+    "No oxidative phosphorylation"
+   ]
+  },
+  {
+   "id": "biology-c11-081",
+   "type": "mcq",
+   "q": "The plant hormone that promotes apical dominance and cell elongation is",
+   "options": [
+    "auxin",
+    "cytokinin",
+    "abscisic acid",
+    "ethylene"
+   ]
+  },
+  {
+   "id": "biology-c11-082",
+   "type": "mcq",
+   "q": "The gaseous hormone that promotes fruit ripening is",
+   "options": [
+    "gibberellin",
+    "auxin",
+    "cytokinin",
+    "ethylene"
+   ]
+  },
+  {
+   "id": "biology-c11-083",
+   "type": "mcq",
+   "q": "Bolting, the sudden elongation of the internodes in rosette plants like cabbage, is caused by",
+   "options": [
+    "auxin",
+    "ethylene",
+    "gibberellin",
+    "abscisic acid"
+   ]
+  },
+  {
+   "id": "biology-c11-084",
+   "type": "mcq",
+   "q": "Which hormone promotes cell division and delays senescence of leaves?",
+   "options": [
+    "Ethylene",
+    "Cytokinin",
+    "Abscisic acid",
+    "Gibberellin"
+   ]
+  },
+  {
+   "id": "biology-c11-085",
+   "type": "mcq",
+   "q": "During a drought, closure of stomata to reduce water loss is mainly brought about by",
+   "options": [
+    "auxin",
+    "abscisic acid",
+    "cytokinin",
+    "gibberellin"
+   ]
+  },
+  {
+   "id": "biology-c11-086",
+   "type": "mcq",
+   "q": "Winter varieties of wheat flower in the following summer only after exposure to cold. This process is called",
+   "options": [
+    "photoperiodism",
+    "phototropism",
+    "vernalisation",
+    "senescence"
+   ]
+  },
+  {
+   "id": "biology-c11-087",
+   "type": "short",
+   "q": "Name the three phases of growth in a plant cell and state what happens in each.",
+   "proposedAnswer": "Meristematic phase: cells divide actively. Elongation phase: cells enlarge with vacuolation and new wall deposition. Maturation phase: cells attain their final size and structure and differentiate.",
+   "keyPoints": [
+    "Meristematic: division",
+    "Elongation: enlargement",
+    "Maturation: differentiation"
+   ]
+  },
+  {
+   "id": "biology-c11-088",
+   "type": "short",
+   "q": "Explain how removing the shoot tip of a plant makes it grow more side branches.",
+   "proposedAnswer": "The shoot tip makes auxin that moves down and inhibits growth of axillary buds (apical dominance). Removing the tip removes this auxin, so the lateral buds grow into branches.",
+   "keyPoints": [
+    "Auxin from apical bud",
+    "Apical dominance inhibits lateral buds",
+    "Removal relieves inhibition"
+   ]
+  },
+  {
+   "id": "biology-c11-089",
+   "type": "mcq",
+   "q": "The enzyme present in saliva that starts digestion of starch is",
+   "options": [
+    "pepsin",
+    "salivary amylase",
+    "lipase",
+    "trypsin"
+   ]
+  },
+  {
+   "id": "biology-c11-090",
+   "type": "mcq",
+   "q": "Most of the absorption of digested food takes place in the",
+   "options": [
+    "stomach",
+    "large intestine",
+    "small intestine",
+    "oesophagus"
+   ]
+  },
+  {
+   "id": "biology-c11-091",
+   "type": "mcq",
+   "q": "Bile, which helps in the emulsification of fats, is produced by the",
+   "options": [
+    "gall bladder",
+    "pancreas",
+    "duodenum",
+    "liver"
+   ]
+  },
+  {
+   "id": "biology-c11-092",
+   "type": "mcq",
+   "q": "The major portion of carbon dioxide in blood is transported as",
+   "options": [
+    "bicarbonate ions",
+    "carbaminohaemoglobin",
+    "dissolved gas",
+    "carbonic acid"
+   ]
+  },
+  {
+   "id": "biology-c11-093",
+   "type": "mcq",
+   "q": "Which is the correct order of conduction of the cardiac impulse?",
+   "options": [
+    "SA node, AV node, bundle of His, Purkinje fibres",
+    "AV node, SA node, bundle of His, Purkinje fibres",
+    "SA node, Purkinje fibres, bundle of His, AV node",
+    "Bundle of His, SA node, AV node, Purkinje fibres"
+   ]
+  },
+  {
+   "id": "biology-c11-094",
+   "type": "mcq",
+   "q": "A person has a tidal volume of 500 mL, inspiratory reserve volume of 3000 mL and expiratory reserve volume of 1100 mL. The vital capacity is",
+   "options": [
+    "3500 mL",
+    "4100 mL",
+    "4500 mL",
+    "4600 mL"
+   ]
+  },
+  {
+   "id": "biology-c11-095",
+   "type": "short",
+   "q": "State the role of HCl and pepsinogen in the stomach.",
+   "proposedAnswer": "HCl provides an acidic medium (pH about 1.8), kills microbes and converts inactive pepsinogen into active pepsin; pepsin then breaks proteins into proteoses and peptones.",
+   "keyPoints": [
+    "HCl gives acid pH and kills germs",
+    "HCl activates pepsinogen to pepsin",
+    "Pepsin digests proteins"
+   ]
+  },
+  {
+   "id": "biology-c11-096",
+   "type": "short",
+   "q": "Explain why haemoglobin releases more oxygen in actively respiring tissues.",
+   "proposedAnswer": "Tissues have a high pCO2, high H+ concentration (low pH) and higher temperature, and these lower the affinity of haemoglobin for oxygen, shifting the dissociation curve to the right so more oxygen is released.",
+   "keyPoints": [
+    "High pCO2 and H+, lower pH, higher temperature",
+    "Reduced affinity of haemoglobin for O2",
+    "Curve shifts to right, more O2 released"
+   ]
+  },
+  {
+   "id": "biology-c11-097",
+   "type": "mcq",
+   "q": "The functional unit of the kidney is the",
+   "options": [
+    "neuron",
+    "nephridium",
+    "nephron",
+    "alveolus"
+   ]
+  },
+  {
+   "id": "biology-c11-098",
+   "type": "mcq",
+   "q": "The hormone that increases water reabsorption in the distal parts of the nephron is",
+   "options": [
+    "insulin",
+    "ADH (vasopressin)",
+    "glucagon",
+    "thyroxine"
+   ]
+  },
+  {
+   "id": "biology-c11-099",
+   "type": "mcq",
+   "q": "The sodium-potassium pump of a neuron maintains the resting potential by moving",
+   "options": [
+    "3 Na+ out and 2 K+ in",
+    "2 Na+ out and 3 K+ in",
+    "3 Na+ in and 2 K+ out",
+    "Na+ and K+ equally in"
+   ]
+  },
+  {
+   "id": "biology-c11-100",
+   "type": "mcq",
+   "q": "During muscle contraction, calcium ions bind to",
+   "options": [
+    "myosin head",
+    "actin",
+    "tropomyosin",
+    "troponin"
+   ]
+  },
+  {
+   "id": "biology-c11-101",
+   "type": "mcq",
+   "q": "A person feels constant thirst, passes a large volume of urine and has glucose in the urine, because of too little insulin action. The condition is",
+   "options": [
+    "diabetes insipidus",
+    "Addison's disease",
+    "goitre",
+    "diabetes mellitus"
+   ]
+  },
+  {
+   "id": "biology-c11-102",
+   "type": "mcq",
+   "q": "In a healthy adult the glomerular filtration rate is about",
+   "options": [
+    "125 mL per minute",
+    "12 mL per minute",
+    "1250 mL per minute",
+    "25 mL per minute"
+   ]
+  },
+  {
+   "id": "biology-c11-103",
+   "type": "short",
+   "q": "Describe the path of a reflex arc.",
+   "proposedAnswer": "A stimulus excites a receptor; the sensory (afferent) neuron carries the impulse to the spinal cord, where it is passed to a motor (efferent) neuron, often via an interneuron, which takes it to the effector, producing the response.",
+   "keyPoints": [
+    "Receptor and afferent neuron",
+    "Central processing in spinal cord",
+    "Efferent neuron to effector"
+   ]
+  },
+  {
+   "id": "biology-c11-104",
+   "type": "short",
+   "q": "Explain how the renin-angiotensin mechanism raises blood pressure when the glomerular filtration falls.",
+   "proposedAnswer": "A fall in GFR makes the juxtaglomerular cells release renin, which leads to formation of angiotensin II; this narrows blood vessels and stimulates the adrenal cortex to release aldosterone, causing Na+ and water reabsorption, which restores blood volume and pressure.",
+   "keyPoints": [
+    "JG cells release renin",
+    "Angiotensin II causes vasoconstriction",
+    "Aldosterone increases Na+ and water reabsorption"
+   ]
+  },
+  {
+   "id": "biology-c11-105",
+   "type": "mcq",
+   "q": "The science of identifying, naming and classifying organisms is called",
+   "options": [
+    "ecology",
+    "physiology",
+    "taxonomy",
+    "genetics"
+   ]
+  },
+  {
+   "id": "biology-c11-106",
+   "type": "mcq",
+   "q": "A store house of dried, pressed and preserved plant specimens mounted on sheets is called a",
+   "options": [
+    "herbarium",
+    "botanical garden",
+    "museum",
+    "zoological park"
+   ]
+  },
+  {
+   "id": "biology-c11-107",
+   "type": "mcq",
+   "q": "Which kingdom contains heterotrophic organisms whose cell walls are made of chitin?",
+   "options": [
+    "Plantae",
+    "Protista",
+    "Monera",
+    "Fungi"
+   ]
+  },
+  {
+   "id": "biology-c11-108",
+   "type": "mcq",
+   "q": "The lion (Panthera leo) and the tiger (Panthera tigris) belong to the same",
+   "options": [
+    "species",
+    "genus",
+    "population",
+    "variety only"
+   ]
+  },
+  {
+   "id": "biology-c11-109",
+   "type": "mcq",
+   "q": "A taxonomic key is arranged as a series of pairs of contrasting characters. Each such pair is called a",
+   "options": [
+    "herbarium sheet",
+    "monograph",
+    "taxon",
+    "couplet"
+   ]
+  },
+  {
+   "id": "biology-c11-110",
+   "type": "mcq",
+   "q": "Potato (Solanum tuberosum) and brinjal (Solanum melongena) are placed in the same",
+   "options": [
+    "species but different genera",
+    "genus and the same species",
+    "genus and family but different species",
+    "order only"
+   ]
+  },
+  {
+   "id": "biology-c11-111",
+   "type": "short",
+   "q": "Distinguish between a botanical garden and a herbarium.",
+   "proposedAnswer": "A botanical garden has living plants grown and labelled for study and display; a herbarium holds dried, pressed and preserved plant specimens on sheets.",
+   "keyPoints": [
+    "Botanical garden: living plants",
+    "Herbarium: dried preserved specimens",
+    "Both aid identification"
+   ]
+  },
+  {
+   "id": "biology-c11-112",
+   "type": "short",
+   "q": "Why are scientific names preferred to local names for identifying organisms worldwide?",
+   "proposedAnswer": "One organism can have many local names in different regions, and one name may refer to different organisms, causing confusion; a scientific name is unique, universally accepted and follows fixed rules.",
+   "keyPoints": [
+    "Local names vary and cause confusion",
+    "Scientific name is unique for each species",
+    "Internationally accepted rules"
+   ]
+  },
+  {
+   "id": "biology-c11-113",
+   "type": "mcq",
+   "q": "The unicellular alga often used as a food supplement by space travellers is",
+   "options": [
+    "Spirogyra",
+    "Laminaria",
+    "Porphyra",
+    "Chlorella"
+   ]
+  },
+  {
+   "id": "biology-c11-114",
+   "type": "mcq",
+   "q": "Agar, used to grow microbes, is obtained from",
+   "options": [
+    "green algae",
+    "red algae such as Gelidium",
+    "brown algae",
+    "mosses"
+   ]
+  },
+  {
+   "id": "biology-c11-115",
+   "type": "mcq",
+   "q": "The coralloid roots of Cycas are associated with",
+   "options": [
+    "nitrogen-fixing cyanobacteria",
+    "fungi forming mycorrhiza",
+    "red algae",
+    "viruses"
+   ]
+  },
+  {
+   "id": "biology-c11-116",
+   "type": "mcq",
+   "q": "The endosperm formed after double fertilisation in angiosperms is",
+   "options": [
+    "haploid",
+    "diploid",
+    "triploid",
+    "tetraploid"
+   ]
+  },
+  {
+   "id": "biology-c11-117",
+   "type": "mcq",
+   "q": "Which of the following plants is heterosporous?",
+   "options": [
+    "Equisetum",
+    "Dryopteris",
+    "Selaginella",
+    "Funaria"
+   ]
+  },
+  {
+   "id": "biology-c11-118",
+   "type": "mcq",
+   "q": "In a moss, the spore germinates to form a green, creeping, branched stage called the",
+   "options": [
+    "protonema",
+    "prothallus",
+    "sporophyte",
+    "zygote"
+   ]
+  },
+  {
+   "id": "biology-c11-119",
+   "type": "short",
+   "q": "State two differences between gymnosperms and angiosperms.",
+   "proposedAnswer": "Gymnosperms have naked ovules and seeds, no flowers or fruits and no true vessels in the xylem; angiosperms have ovules enclosed in an ovary, bear flowers, form fruits and have vessels.",
+   "keyPoints": [
+    "Naked or enclosed ovules",
+    "Flowers and fruits absent or present",
+    "Vessels absent or present in xylem"
+   ]
+  },
+  {
+   "id": "biology-c11-120",
+   "type": "short",
+   "q": "What is alternation of generations? Explain with reference to a fern.",
+   "proposedAnswer": "It is the alternation of a diploid sporophytic phase and a haploid gametophytic phase in the life cycle. In a fern the diploid sporophyte bears spores that give a haploid prothallus, which bears gametes whose fusion gives the sporophyte again.",
+   "keyPoints": [
+    "Haploid and diploid phases alternate",
+    "Sporophyte makes spores by meiosis",
+    "Prothallus makes gametes, zygote gives sporophyte"
+   ]
+  },
+  {
+   "id": "biology-c11-121",
+   "type": "mcq",
+   "q": "The presence of a notochord at some stage of life is a feature of phylum",
+   "options": [
+    "Echinodermata",
+    "Chordata",
+    "Annelida",
+    "Arthropoda"
+   ]
+  },
+  {
+   "id": "biology-c11-122",
+   "type": "mcq",
+   "q": "Which of the following has a cartilaginous endoskeleton?",
+   "options": [
+    "Rohu",
+    "Catla",
+    "Hippocampus",
+    "Scoliodon"
+   ]
+  },
+  {
+   "id": "biology-c11-123",
+   "type": "mcq",
+   "q": "Metamerism, the division of the body into similar segments, is seen in phylum",
+   "options": [
+    "Porifera",
+    "Platyhelminthes",
+    "Annelida",
+    "Cnidaria"
+   ]
+  },
+  {
+   "id": "biology-c11-124",
+   "type": "mcq",
+   "q": "Which feature is found only in class Mammalia?",
+   "options": [
+    "Mammary glands",
+    "Four-chambered heart",
+    "Warm-bloodedness",
+    "Vertebral column"
+   ]
+  },
+  {
+   "id": "biology-c11-125",
+   "type": "mcq",
+   "q": "An animal has a chitinous exoskeleton, jointed legs, a body divided into head, thorax and abdomen, and sheds its exoskeleton periodically. It belongs to",
+   "options": [
+    "Arthropoda",
+    "Mollusca",
+    "Annelida",
+    "Echinodermata"
+   ]
+  },
+  {
+   "id": "biology-c11-126",
+   "type": "mcq",
+   "q": "A soft-bodied animal with a calcareous shell, a muscular foot, a mantle and a rasping organ called the radula belongs to",
+   "options": [
+    "Arthropoda",
+    "Annelida",
+    "Mollusca",
+    "Aschelminthes"
+   ]
+  },
+  {
+   "id": "biology-c11-127",
+   "type": "short",
+   "q": "Write two differences between cartilaginous fishes and bony fishes.",
+   "proposedAnswer": "Cartilaginous fishes (Chondrichthyes) have a cartilage endoskeleton, placoid scales, no air bladder and gill slits without an operculum; bony fishes (Osteichthyes) have a bony skeleton, cycloid or ctenoid scales, an air bladder and an operculum covering the gills.",
+   "keyPoints": [
+    "Cartilage or bone skeleton",
+    "Placoid scales or cycloid/ctenoid scales",
+    "Operculum and air bladder absent or present"
+   ]
+  },
+  {
+   "id": "biology-c11-128",
+   "type": "short",
+   "q": "Why is class Amphibia so named? Mention two features of an amphibian.",
+   "proposedAnswer": "Amphibians can live both in water and on land. They have moist skin without scales, a three-chambered heart, and respire through gills, lungs and skin.",
+   "keyPoints": [
+    "Live in water and on land",
+    "Moist skin without scales",
+    "Three-chambered heart"
+   ]
+  },
+  {
+   "id": "biology-c11-129",
+   "type": "mcq",
+   "q": "The male reproductive whorl of a flower is called the",
+   "options": [
+    "calyx",
+    "corolla",
+    "androecium",
+    "gynoecium"
+   ]
+  },
+  {
+   "id": "biology-c11-130",
+   "type": "mcq",
+   "q": "The mango fruit is an example of a",
+   "options": [
+    "drupe",
+    "berry",
+    "pome",
+    "legume"
+   ]
+  },
+  {
+   "id": "biology-c11-131",
+   "type": "mcq",
+   "q": "In dicot leaves the guard cells of stomata are",
+   "options": [
+    "rod shaped",
+    "dumb-bell shaped",
+    "spherical",
+    "kidney shaped"
+   ]
+  },
+  {
+   "id": "biology-c11-132",
+   "type": "mcq",
+   "q": "Living cells with thickened corners due to deposition of cellulose, hemicellulose and pectin that give mechanical support form",
+   "options": [
+    "parenchyma",
+    "collenchyma",
+    "sclerenchyma",
+    "xylem vessels"
+   ]
+  },
+  {
+   "id": "biology-c11-133",
+   "type": "mcq",
+   "q": "A transverse section of a stem shows scattered vascular bundles, each closed and surrounded by a sclerenchymatous sheath. The stem belongs to",
+   "options": [
+    "sunflower",
+    "maize",
+    "pea",
+    "gram"
+   ]
+  },
+  {
+   "id": "biology-c11-134",
+   "type": "mcq",
+   "q": "In a flower the ovary is placed above the other floral parts, which arise from below it. This condition is",
+   "options": [
+    "epigynous",
+    "perigynous",
+    "hypogynous",
+    "apocarpous"
+   ]
+  },
+  {
+   "id": "biology-c11-135",
+   "type": "short",
+   "q": "Distinguish between the anatomy of a dorsiventral (dicot) leaf and an isobilateral (monocot) leaf.",
+   "proposedAnswer": "A dicot leaf has differentiated palisade and spongy mesophyll and more stomata on the lower surface; a monocot leaf has undifferentiated mesophyll, similar stomata on both surfaces and bulliform cells in the upper epidermis.",
+   "keyPoints": [
+    "Mesophyll differentiated or not",
+    "Stomata mostly lower or on both surfaces",
+    "Bulliform cells in monocots"
+   ]
+  },
+  {
+   "id": "biology-c11-136",
+   "type": "short",
+   "q": "Why is the heartwood of an old tree dark in colour and unable to conduct water?",
+   "proposedAnswer": "In heartwood the xylem elements are filled with tannins, resins, gums and oils and their lumens are blocked by tyloses. It is hard, durable and resistant to microbes, and provides mechanical support but no water conduction.",
+   "keyPoints": [
+    "Deposits of tannins, resins, gums",
+    "Tyloses block vessels",
+    "Gives only mechanical support"
+   ]
+  },
+  {
+   "id": "biology-c11-137",
+   "type": "mcq",
+   "q": "The tissue that stores fat in the body is",
+   "options": [
+    "areolar tissue",
+    "cartilage",
+    "bone",
+    "adipose tissue"
+   ]
+  },
+  {
+   "id": "biology-c11-138",
+   "type": "mcq",
+   "q": "Which blood cells help in the clotting of blood?",
+   "options": [
+    "Erythrocytes",
+    "Platelets",
+    "Neutrophils",
+    "Lymphocytes"
+   ]
+  },
+  {
+   "id": "biology-c11-139",
+   "type": "mcq",
+   "q": "A frog can absorb oxygen directly through its moist",
+   "options": [
+    "skin",
+    "cloaca",
+    "tongue",
+    "tympanum"
+   ]
+  },
+  {
+   "id": "biology-c11-140",
+   "type": "mcq",
+   "q": "The excretory organs of a cockroach are",
+   "options": [
+    "nephridia",
+    "kidneys",
+    "Malpighian tubules",
+    "green glands"
+   ]
+  },
+  {
+   "id": "biology-c11-141",
+   "type": "mcq",
+   "q": "In a male frog, the duct that carries both sperms and urine to the cloaca is the",
+   "options": [
+    "vas deferens",
+    "oviduct",
+    "ureter",
+    "urethra"
+   ]
+  },
+  {
+   "id": "biology-c11-142",
+   "type": "mcq",
+   "q": "The walls of the lung alveoli and blood capillaries are lined with simple squamous epithelium mainly because the thin flat cells",
+   "options": [
+    "help in diffusion of gases and other substances",
+    "secrete mucus",
+    "store fat",
+    "produce enzymes"
+   ]
+  },
+  {
+   "id": "biology-c11-143",
+   "type": "short",
+   "q": "Write three differences between skeletal muscle and smooth muscle.",
+   "proposedAnswer": "Skeletal muscle is striated, multinucleate and voluntary, attached to bones; smooth muscle is non-striated, uninucleate, spindle shaped and involuntary, found in walls of hollow organs.",
+   "keyPoints": [
+    "Striated or non-striated",
+    "Voluntary or involuntary",
+    "Multinucleate or uninucleate"
+   ]
+  },
+  {
+   "id": "biology-c11-144",
+   "type": "short",
+   "q": "A cockroach has no respiratory pigment in its blood, yet its cells get enough oxygen. Explain.",
+   "proposedAnswer": "Air enters through spiracles into a network of tracheae and tracheoles that carry oxygen directly to the tissues, so the haemolymph does not need to transport oxygen.",
+   "keyPoints": [
+    "Tracheal system with spiracles",
+    "Tracheoles reach cells directly",
+    "Haemolymph has no respiratory pigment"
+   ]
+  },
+  {
+   "id": "biology-c11-145",
+   "type": "mcq",
+   "q": "The term 'cell' was first used by",
+   "options": [
+    "Leeuwenhoek",
+    "Robert Hooke",
+    "Robert Brown",
+    "Rudolf Virchow"
+   ]
+  },
+  {
+   "id": "biology-c11-146",
+   "type": "mcq",
+   "q": "The statement that new cells arise from pre-existing cells was made by",
+   "options": [
+    "Schleiden",
+    "Schwann",
+    "Rudolf Virchow",
+    "Watson"
+   ]
+  },
+  {
+   "id": "biology-c11-147",
+   "type": "mcq",
+   "q": "The main component of the plant cell wall is",
+   "options": [
+    "chitin",
+    "peptidoglycan",
+    "glycogen",
+    "cellulose"
+   ]
+  },
+  {
+   "id": "biology-c11-148",
+   "type": "mcq",
+   "q": "Which organelles, containing hydrolytic enzymes, are called 'suicide bags'?",
+   "options": [
+    "Lysosomes",
+    "Peroxisomes",
+    "Ribosomes",
+    "Centrioles"
+   ]
+  },
+  {
+   "id": "biology-c11-149",
+   "type": "mcq",
+   "q": "Which of the following cell components is NOT bounded by a membrane?",
+   "options": [
+    "Ribosome",
+    "Lysosome",
+    "Mitochondrion",
+    "Golgi apparatus"
+   ]
+  },
+  {
+   "id": "biology-c11-150",
+   "type": "mcq",
+   "q": "The inner membrane of a mitochondrion is folded into cristae. This increases",
+   "options": [
+    "the size of the nucleus",
+    "the number of ribosomes",
+    "the permeability to DNA",
+    "the surface area for the enzymes of oxidative phosphorylation"
+   ]
+  },
+  {
+   "id": "biology-c11-151",
+   "type": "short",
+   "q": "Distinguish between passive transport and active transport across the cell membrane.",
+   "proposedAnswer": "Passive transport moves substances down the concentration gradient without using energy, as in diffusion; active transport moves substances against the gradient using ATP, as in the sodium-potassium pump.",
+   "keyPoints": [
+    "Passive: along gradient, no energy",
+    "Active: against gradient, needs ATP",
+    "Example of each"
+   ]
+  },
+  {
+   "id": "biology-c11-152",
+   "type": "short",
+   "q": "A plant cell and an animal cell are placed in pure water. Predict and explain what happens to each.",
+   "proposedAnswer": "Water enters both by osmosis. The plant cell becomes turgid but does not burst because the rigid cell wall resists expansion; the animal cell has no wall, so it swells and may burst.",
+   "keyPoints": [
+    "Water enters by osmosis",
+    "Plant cell wall prevents bursting",
+    "Animal cell may burst"
+   ]
+  },
+  {
+   "id": "biology-c11-153",
+   "type": "mcq",
+   "q": "The most abundant protein in the animal world is",
+   "options": [
+    "haemoglobin",
+    "insulin",
+    "collagen",
+    "keratin"
+   ]
+  },
+  {
+   "id": "biology-c11-154",
+   "type": "mcq",
+   "q": "The reserve carbohydrate in animals is",
+   "options": [
+    "glycogen",
+    "starch",
+    "cellulose",
+    "inulin"
+   ]
+  },
+  {
+   "id": "biology-c11-155",
+   "type": "mcq",
+   "q": "Enzymes that catalyse the joining of two compounds, using energy from ATP, belong to the class",
+   "options": [
+    "hydrolases",
+    "ligases",
+    "lyases",
+    "isomerases"
+   ]
+  },
+  {
+   "id": "biology-c11-156",
+   "type": "mcq",
+   "q": "A nucleoside consists of",
+   "options": [
+    "a nitrogenous base and a phosphate group",
+    "a sugar and a phosphate group",
+    "a nucleotide and a protein",
+    "a nitrogenous base and a pentose sugar"
+   ]
+  },
+  {
+   "id": "biology-c11-157",
+   "type": "mcq",
+   "q": "Zinc is a cofactor required for the activity of the enzyme",
+   "options": [
+    "catalase",
+    "hexokinase",
+    "peroxidase",
+    "carboxypeptidase"
+   ]
+  },
+  {
+   "id": "biology-c11-158",
+   "type": "mcq",
+   "q": "A sample of double-stranded DNA contains 30 per cent adenine. What percentage of guanine does it contain?",
+   "options": [
+    "10%",
+    "20%",
+    "30%",
+    "40%"
+   ]
+  },
+  {
+   "id": "biology-c11-159",
+   "type": "short",
+   "q": "What is a prosthetic group? Give one example.",
+   "proposedAnswer": "A prosthetic group is an organic non-protein part tightly bound to the apoenzyme, needed for activity. Example: haem in the enzymes peroxidase and catalase.",
+   "keyPoints": [
+    "Non-protein organic part",
+    "Tightly bound to the enzyme protein",
+    "Example: haem in peroxidase or catalase"
+   ]
+  },
+  {
+   "id": "biology-c11-160",
+   "type": "short",
+   "q": "Explain how changes in pH affect the activity of an enzyme.",
+   "proposedAnswer": "Each enzyme works best at an optimum pH. Away from it, the charges on the amino acids of the active site change, altering the shape of the protein, so substrate binding falls and activity decreases.",
+   "keyPoints": [
+    "Enzyme has an optimum pH",
+    "Extreme pH changes charge and shape",
+    "Activity falls"
+   ]
+  },
+  {
+   "id": "biology-c11-161",
+   "type": "mcq",
+   "q": "The inactive stage in which cells exit the cell cycle and no longer divide is called",
+   "options": [
+    "G0 phase",
+    "S phase",
+    "G2 phase",
+    "prophase"
+   ]
+  },
+  {
+   "id": "biology-c11-162",
+   "type": "mcq",
+   "q": "Chromosomes line up at the equatorial plate during",
+   "options": [
+    "prophase",
+    "telophase",
+    "anaphase",
+    "metaphase"
+   ]
+  },
+  {
+   "id": "biology-c11-163",
+   "type": "mcq",
+   "q": "In a typical human cell that divides once in about 24 hours, the duration of mitosis (M phase) is only about",
+   "options": [
+    "12 hours",
+    "1 hour",
+    "6 hours",
+    "20 hours"
+   ]
+  },
+  {
+   "id": "biology-c11-164",
+   "type": "mcq",
+   "q": "The nuclear envelope reappears and chromosomes decondense during",
+   "options": [
+    "metaphase",
+    "anaphase",
+    "telophase",
+    "prophase"
+   ]
+  },
+  {
+   "id": "biology-c11-165",
+   "type": "mcq",
+   "q": "Which of the following distinguishes anaphase I of meiosis from anaphase of mitosis?",
+   "options": [
+    "Spindle fibres are absent",
+    "Chromosomes duplicate during anaphase",
+    "Homologous chromosomes, not sister chromatids, separate",
+    "The nuclear membrane reforms"
+   ]
+  },
+  {
+   "id": "biology-c11-166",
+   "type": "mcq",
+   "q": "A somatic cell with 8 chromosomes divides by mitosis. Each daughter cell will have",
+   "options": [
+    "4 chromosomes",
+    "8 chromosomes",
+    "16 chromosomes",
+    "2 chromosomes"
+   ]
+  },
+  {
+   "id": "biology-c11-167",
+   "type": "short",
+   "q": "Describe the main events of prophase of mitosis.",
+   "proposedAnswer": "Chromatin condenses into chromosomes made of two chromatids; the centrioles move to opposite poles and the spindle starts to form; the nucleolus and nuclear envelope begin to disappear.",
+   "keyPoints": [
+    "Chromosome condensation",
+    "Spindle formation, centrosomes move apart",
+    "Nucleolus and nuclear envelope disappear"
+   ]
+  },
+  {
+   "id": "biology-c11-168",
+   "type": "short",
+   "q": "Compare anaphase I and anaphase II of meiosis.",
+   "proposedAnswer": "In anaphase I homologous chromosomes, each with two chromatids, separate and go to opposite poles; in anaphase II the centromeres divide and sister chromatids separate, as in mitosis.",
+   "keyPoints": [
+    "Anaphase I: homologues separate",
+    "Anaphase II: chromatids separate",
+    "Centromere divides only in anaphase II"
+   ]
+  },
+  {
+   "id": "biology-c11-169",
+   "type": "mcq",
+   "q": "Joseph Priestley's experiments with a mint plant and a candle showed that plants",
+   "options": [
+    "absorb oxygen at night",
+    "restore to the air whatever burning candles remove",
+    "release carbon dioxide in light",
+    "need soil to make food"
+   ]
+  },
+  {
+   "id": "biology-c11-170",
+   "type": "mcq",
+   "q": "The final hydrogen acceptor of the light reaction of photosynthesis is",
+   "options": [
+    "NAD+",
+    "FAD",
+    "ADP",
+    "NADP+"
+   ]
+  },
+  {
+   "id": "biology-c11-171",
+   "type": "mcq",
+   "q": "The reaction centre chlorophyll a of photosystem I absorbs light best at a wavelength of",
+   "options": [
+    "680 nm",
+    "660 nm",
+    "700 nm",
+    "450 nm"
+   ]
+  },
+  {
+   "id": "biology-c11-172",
+   "type": "mcq",
+   "q": "For fixing each molecule of CO2, the Calvin cycle requires",
+   "options": [
+    "3 ATP and 2 NADPH",
+    "2 ATP and 3 NADPH",
+    "2 ATP and 2 NADPH",
+    "1 ATP and 1 NADPH"
+   ]
+  },
+  {
+   "id": "biology-c11-173",
+   "type": "mcq",
+   "q": "How many turns of the Calvin cycle are required to synthesise one molecule of glucose?",
+   "options": [
+    "6",
+    "3",
+    "12",
+    "1"
+   ]
+  },
+  {
+   "id": "biology-c11-174",
+   "type": "mcq",
+   "q": "The rate of photosynthesis does not increase when light intensity is raised, because CO2 concentration is very low. This illustrates",
+   "options": [
+    "Calvin's law",
+    "Hill's reaction",
+    "Blackman's law of limiting factors",
+    "Emerson's effect"
+   ]
+  },
+  {
+   "id": "biology-c11-175",
+   "type": "short",
+   "q": "Explain the chemiosmotic hypothesis of ATP synthesis in chloroplasts.",
+   "proposedAnswer": "Photolysis of water and electron transport pump protons into the thylakoid lumen, building a proton gradient across the membrane. Protons flow back to the stroma through ATP synthase, which uses the energy to make ATP from ADP and Pi.",
+   "keyPoints": [
+    "Proton gradient built in thylakoid lumen",
+    "Flow through ATP synthase",
+    "ATP made from ADP and Pi"
+   ]
+  },
+  {
+   "id": "biology-c11-176",
+   "type": "short",
+   "q": "What is photorespiration and why is it considered wasteful?",
+   "proposedAnswer": "In photorespiration RuBisCO binds O2 instead of CO2 in the presence of high oxygen and low CO2, so RuBP is oxidised and CO2 is released. It produces neither ATP nor NADPH and reduces sugar synthesis.",
+   "keyPoints": [
+    "RuBisCO acts as oxygenase",
+    "CO2 released",
+    "No ATP or NADPH made, reduces yield"
+   ]
+  },
+  {
+   "id": "biology-c11-177",
+   "type": "mcq",
+   "q": "The Krebs cycle takes place in the",
+   "options": [
+    "cytoplasm",
+    "outer mitochondrial membrane",
+    "mitochondrial matrix",
+    "nucleus"
+   ]
+  },
+  {
+   "id": "biology-c11-178",
+   "type": "mcq",
+   "q": "The Krebs cycle starts with the condensation of acetyl CoA with",
+   "options": [
+    "oxaloacetic acid",
+    "pyruvic acid",
+    "succinic acid",
+    "malic acid"
+   ]
+  },
+  {
+   "id": "biology-c11-179",
+   "type": "mcq",
+   "q": "Oxidative phosphorylation, the synthesis of ATP in respiration, occurs by the enzyme ATP synthase located in the",
+   "options": [
+    "cytoplasm",
+    "outer mitochondrial membrane",
+    "mitochondrial matrix",
+    "inner mitochondrial membrane"
+   ]
+  },
+  {
+   "id": "biology-c11-180",
+   "type": "mcq",
+   "q": "In one turn of the Krebs cycle, the number of NADH molecules formed is",
+   "options": [
+    "1",
+    "3",
+    "2",
+    "4"
+   ]
+  },
+  {
+   "id": "biology-c11-181",
+   "type": "mcq",
+   "q": "How many CO2 molecules are released when one glucose molecule is completely oxidised, starting from glycolysis through the Krebs cycle?",
+   "options": [
+    "3",
+    "12",
+    "6",
+    "2"
+   ]
+  },
+  {
+   "id": "biology-c11-182",
+   "type": "mcq",
+   "q": "Complete oxidation of tripalmitin uses 72.5 molecules of O2 and releases 51 molecules of CO2. Its respiratory quotient is about",
+   "options": [
+    "0.7",
+    "1.0",
+    "1.4",
+    "0.5"
+   ]
+  },
+  {
+   "id": "biology-c11-183",
+   "type": "short",
+   "q": "What is the role of oxygen in aerobic respiration?",
+   "proposedAnswer": "Oxygen acts as the final acceptor of electrons and protons in the electron transport chain, forming water; this lets NADH and FADH2 be reoxidised so that ATP production can continue.",
+   "keyPoints": [
+    "Final electron acceptor",
+    "Forms water",
+    "Keeps electron transport and ATP synthesis going"
+   ]
+  },
+  {
+   "id": "biology-c11-184",
+   "type": "short",
+   "q": "Why is the respiratory pathway described as amphibolic?",
+   "proposedAnswer": "It involves both breakdown (catabolism) of carbohydrates, fats and proteins to release energy, and the supply of intermediates such as acetyl CoA and organic acids that are used to synthesise fatty acids and amino acids.",
+   "keyPoints": [
+    "Catabolism of carbohydrates, fats, proteins",
+    "Intermediates used for biosynthesis",
+    "Both breakdown and synthesis"
+   ]
+  },
+  {
+   "id": "biology-c11-185",
+   "type": "mcq",
+   "q": "The growth movement of a plant part towards light is called",
+   "options": [
+    "geotropism",
+    "hydrotropism",
+    "thigmotropism",
+    "phototropism"
+   ]
+  },
+  {
+   "id": "biology-c11-186",
+   "type": "mcq",
+   "q": "The process by which cells derived from meristems become specialised for specific functions is",
+   "options": [
+    "senescence",
+    "differentiation",
+    "vernalisation",
+    "abscission"
+   ]
+  },
+  {
+   "id": "biology-c11-187",
+   "type": "mcq",
+   "q": "The response of flowering to the relative duration of day and night is called",
+   "options": [
+    "photoperiodism",
+    "phototropism",
+    "vernalisation",
+    "photolysis"
+   ]
+  },
+  {
+   "id": "biology-c11-188",
+   "type": "mcq",
+   "q": "In the sigmoid growth curve, the phase in which growth is fastest is the",
+   "options": [
+    "lag phase",
+    "stationary phase",
+    "exponential (log) phase",
+    "senescence phase"
+   ]
+  },
+  {
+   "id": "biology-c11-189",
+   "type": "mcq",
+   "q": "Which combination correctly describes the role of two hormones in seed dormancy?",
+   "options": [
+    "Gibberellin induces dormancy and ABA breaks it",
+    "ABA induces dormancy and gibberellin breaks it",
+    "Both induce dormancy",
+    "Ethylene breaks dormancy and auxin induces it"
+   ]
+  },
+  {
+   "id": "biology-c11-190",
+   "type": "mcq",
+   "q": "Seedless fruits can be produced without fertilisation, a process called parthenocarpy, by spraying flowers with",
+   "options": [
+    "auxin",
+    "abscisic acid",
+    "ethylene",
+    "cytokinin only"
+   ]
+  },
+  {
+   "id": "biology-c11-191",
+   "type": "short",
+   "q": "Distinguish between differentiation, dedifferentiation and redifferentiation.",
+   "proposedAnswer": "Differentiation: cells from meristems become specialised. Dedifferentiation: living differentiated cells regain the capacity to divide, as in cambium formation. Redifferentiation: such cells lose the ability to divide again and mature for specific functions.",
+   "keyPoints": [
+    "Differentiation: specialisation",
+    "Dedifferentiation: regain division capacity",
+    "Redifferentiation: mature again for a function"
+   ]
+  },
+  {
+   "id": "biology-c11-192",
+   "type": "short",
+   "q": "Ethephon, a compound that releases ethylene, is widely used in agriculture. Give three uses and explain the reasoning.",
+   "proposedAnswer": "Ethylene hastens fruit ripening (tomato, apple), promotes flowering in pineapple so that fruits form together, and promotes female flowers in cucumbers, increasing yield; it also causes abscission of leaves and fruits.",
+   "keyPoints": [
+    "Hastens ripening",
+    "Synchronises flowering in pineapple",
+    "Promotes female flowers in cucumber"
+   ]
+  },
+  {
+   "id": "biology-c11-193",
+   "type": "mcq",
+   "q": "The largest gland in the human body is the",
+   "options": [
+    "pancreas",
+    "thyroid",
+    "liver",
+    "salivary gland"
+   ]
+  },
+  {
+   "id": "biology-c11-194",
+   "type": "mcq",
+   "q": "The muscular partition separating the thoracic cavity from the abdominal cavity is the",
+   "options": [
+    "diaphragm",
+    "pleura",
+    "pericardium",
+    "peritoneum"
+   ]
+  },
+  {
+   "id": "biology-c11-195",
+   "type": "mcq",
+   "q": "The total number of permanent teeth in an adult human is",
+   "options": [
+    "20",
+    "28",
+    "30",
+    "32"
+   ]
+  },
+  {
+   "id": "biology-c11-196",
+   "type": "mcq",
+   "q": "The average lifespan of a human red blood cell is about",
+   "options": [
+    "20 days",
+    "120 days",
+    "1 year",
+    "7 days"
+   ]
+  },
+  {
+   "id": "biology-c11-197",
+   "type": "mcq",
+   "q": "A person with blood group AB is a universal recipient because the plasma of this group",
+   "options": [
+    "has both anti-A and anti-B antibodies",
+    "has no anti-A or anti-B antibodies",
+    "lacks the Rh factor",
+    "has no RBCs"
+   ]
+  },
+  {
+   "id": "biology-c11-198",
+   "type": "mcq",
+   "q": "Erythroblastosis foetalis can occur when",
+   "options": [
+    "both parents are Rh positive",
+    "an Rh positive mother carries an Rh negative foetus",
+    "an Rh negative mother carries an Rh positive foetus",
+    "both parents have blood group O"
+   ]
+  },
+  {
+   "id": "biology-c11-199",
+   "type": "short",
+   "q": "Calculate the cardiac output of a person whose stroke volume is 70 mL and heart rate is 72 beats per minute.",
+   "proposedAnswer": "Cardiac output = stroke volume x heart rate = 70 mL x 72 = 5040 mL per minute, about 5 litres per minute.",
+   "keyPoints": [
+    "Cardiac output = stroke volume x heart rate",
+    "70 x 72 = 5040 mL",
+    "About 5 L per minute"
+   ]
+  },
+  {
+   "id": "biology-c11-200",
+   "type": "short",
+   "q": "Explain which features make the alveoli efficient sites for exchange of gases.",
+   "proposedAnswer": "The alveoli have very thin walls of squamous epithelium, a very large combined surface area, and a rich network of capillaries, so oxygen and carbon dioxide diffuse rapidly across a short distance.",
+   "keyPoints": [
+    "Thin walls, short diffusion path",
+    "Large surface area",
+    "Rich capillary supply"
+   ]
+  },
+  {
+   "id": "biology-c11-201",
+   "type": "mcq",
+   "q": "The main nitrogenous waste excreted by humans is",
+   "options": [
+    "ammonia",
+    "uric acid",
+    "creatinine",
+    "urea"
+   ]
+  },
+  {
+   "id": "biology-c11-202",
+   "type": "mcq",
+   "q": "The number of bones in the adult human skeleton is",
+   "options": [
+    "300",
+    "206",
+    "180",
+    "250"
+   ]
+  },
+  {
+   "id": "biology-c11-203",
+   "type": "mcq",
+   "q": "The joint at the shoulder is an example of a",
+   "options": [
+    "ball and socket joint",
+    "hinge joint",
+    "pivot joint",
+    "gliding joint"
+   ]
+  },
+  {
+   "id": "biology-c11-204",
+   "type": "mcq",
+   "q": "The gland called the master gland because it controls other endocrine glands is the",
+   "options": [
+    "thyroid",
+    "adrenal",
+    "thymus",
+    "pituitary"
+   ]
+  },
+  {
+   "id": "biology-c11-205",
+   "type": "mcq",
+   "q": "Enlargement of the thyroid gland, called simple goitre, is caused by",
+   "options": [
+    "excess thyroxine",
+    "lack of insulin",
+    "deficiency of iodine in the diet",
+    "excess growth hormone"
+   ]
+  },
+  {
+   "id": "biology-c11-206",
+   "type": "mcq",
+   "q": "Nerve impulses travel faster in myelinated nerve fibres because the impulse",
+   "options": [
+    "jumps from one node of Ranvier to the next",
+    "moves only through the myelin",
+    "is carried by blood",
+    "travels without ions"
+   ]
+  },
+  {
+   "id": "biology-c11-207",
+   "type": "short",
+   "q": "Which hormones regulate blood calcium levels? State the action of each.",
+   "proposedAnswer": "Parathyroid hormone raises blood Ca2+ by increasing its release from bone and reabsorption in kidneys; calcitonin from the thyroid lowers blood Ca2+ by reducing bone resorption.",
+   "keyPoints": [
+    "Parathyroid hormone raises calcium",
+    "Calcitonin lowers calcium",
+    "Bone and kidney involved"
+   ]
+  },
+  {
+   "id": "biology-c11-208",
+   "type": "short",
+   "q": "Why does a nerve impulse pass across a chemical synapse in only one direction?",
+   "proposedAnswer": "Neurotransmitter vesicles are present only in the axon terminal of the pre-synaptic neuron and receptors only on the post-synaptic membrane, so the transmitter can act only in one direction.",
+   "keyPoints": [
+    "Neurotransmitter stored in the pre-synaptic terminal",
+    "Receptors on the post-synaptic membrane",
+    "So conduction is one-way"
+   ]
+  },
+  {
+   "id": "biology-c11-209",
+   "type": "mcq",
+   "q": "Which is the highest (largest) category in the taxonomic hierarchy?",
+   "options": [
+    "Phylum",
+    "Class",
+    "Order",
+    "Kingdom"
+   ]
+  },
+  {
+   "id": "biology-c11-210",
+   "type": "mcq",
+   "q": "A group of related genera is placed in a",
+   "options": [
+    "species",
+    "family",
+    "variety",
+    "population"
+   ]
+  },
+  {
+   "id": "biology-c11-211",
+   "type": "mcq",
+   "q": "Growth in living organisms differs from that in non-living objects because living things grow",
+   "options": [
+    "from inside, by cell division or cell enlargement",
+    "by sticking material on the outside",
+    "only in size, never in number of cells",
+    "only in the presence of light"
+   ]
+  },
+  {
+   "id": "biology-c11-212",
+   "type": "mcq",
+   "q": "The sum total of all the chemical reactions occurring in the body of a living organism is called",
+   "options": [
+    "growth",
+    "irritability",
+    "metabolism",
+    "taxonomy"
+   ]
+  },
+  {
+   "id": "biology-c11-213",
+   "type": "mcq",
+   "q": "Why is reproduction NOT accepted as a defining feature that applies to every living organism?",
+   "options": [
+    "Plants do not reproduce",
+    "Reproduction occurs in non-living objects",
+    "Some living organisms, such as mules and worker bees, do not reproduce",
+    "Reproduction needs light"
+   ]
+  },
+  {
+   "id": "biology-c11-214",
+   "type": "mcq",
+   "q": "A student isolates metabolic enzymes from cells and carries out the reactions in a test tube. These reactions are",
+   "options": [
+    "living reactions, but the test tube contents are not a living organism",
+    "non-living reactions that do not need enzymes",
+    "not metabolic reactions at all",
+    "proof that the test tube is alive"
+   ]
+  },
+  {
+   "id": "biology-c11-215",
+   "type": "short",
+   "q": "How does the growth of a living organism differ from the growth of a non-living object? Give an example of each.",
+   "proposedAnswer": "Living organisms grow from inside by cell division and enlargement, e.g. a seedling; non-living objects grow only by accumulation of material on the outside, e.g. a mountain or a sand pile.",
+   "keyPoints": [
+    "Living: growth from within",
+    "Non-living: accumulation on the surface",
+    "Example of each"
+   ]
+  },
+  {
+   "id": "biology-c11-216",
+   "type": "short",
+   "q": "Why do classification systems of organisms keep changing as new information is gathered?",
+   "proposedAnswer": "Classification is based on characters such as cell structure, body organisation, reproduction and evolutionary relationships. As new characters are found through better tools and studies, groups are re-arranged to show natural relationships better.",
+   "keyPoints": [
+    "Based on characters of organisms",
+    "New information reveals new characters",
+    "Groups are revised to show relationships"
+   ]
+  },
+  {
+   "id": "biology-c11-217",
+   "type": "mcq",
+   "q": "Which group of algae has chlorophyll a and b and stores starch, like higher plants?",
+   "options": [
+    "Phaeophyceae",
+    "Chlorophyceae",
+    "Rhodophyceae",
+    "Cyanophyceae"
+   ]
+  },
+  {
+   "id": "biology-c11-218",
+   "type": "mcq",
+   "q": "Floridean starch is the stored food of",
+   "options": [
+    "green algae",
+    "brown algae",
+    "diatoms",
+    "red algae"
+   ]
+  },
+  {
+   "id": "biology-c11-219",
+   "type": "mcq",
+   "q": "Peat, used as fuel and as packing material for living plants, is obtained from",
+   "options": [
+    "Sphagnum",
+    "Funaria",
+    "Marchantia",
+    "Selaginella"
+   ]
+  },
+  {
+   "id": "biology-c11-220",
+   "type": "mcq",
+   "q": "A typical mature embryo sac of an angiosperm contains how many cells?",
+   "options": [
+    "4",
+    "8",
+    "7",
+    "2"
+   ]
+  },
+  {
+   "id": "biology-c11-221",
+   "type": "mcq",
+   "q": "Gymnosperms do not depend on water for fertilisation, because",
+   "options": [
+    "their male gametes are flagellated and swim in air",
+    "fertilisation occurs without male gametes",
+    "the pollen tube carries non-motile male gametes to the egg",
+    "they are fertilised by the sporophyte"
+   ]
+  },
+  {
+   "id": "biology-c11-222",
+   "type": "mcq",
+   "q": "A plant has a dominant, multicellular diploid sporophyte, while its gametophyte is reduced to a few cells. Its life cycle is",
+   "options": [
+    "haplontic",
+    "haplo-diplontic",
+    "a case of no alternation",
+    "diplontic"
+   ]
+  },
+  {
+   "id": "biology-c11-223",
+   "type": "short",
+   "q": "Mention three ways in which algae are useful to humans.",
+   "proposedAnswer": "Algae carry out about half of the photosynthesis on earth and add oxygen; some, like Porphyra and Laminaria, are food; agar and algin come from red and brown algae; Chlorella is a protein supplement.",
+   "keyPoints": [
+    "Photosynthesis and oxygen release",
+    "Used as food",
+    "Source of agar, algin or single-cell protein"
+   ]
+  },
+  {
+   "id": "biology-c11-224",
+   "type": "short",
+   "q": "How does the seed habit help plants to survive better than spore-producing plants?",
+   "proposedAnswer": "A seed protects the embryo with a seed coat, contains stored food for the young plant, and has a dormant state that helps it survive unfavourable conditions and be dispersed; it also frees fertilisation from the need for water.",
+   "keyPoints": [
+    "Seed coat protects embryo",
+    "Stored food supports seedling",
+    "Dormancy and dispersal"
+   ]
+  },
+  {
+   "id": "biology-c11-225",
+   "type": "mcq",
+   "q": "The numerous small pores on the body wall of a sponge are called",
+   "options": [
+    "ostia",
+    "osculum",
+    "oral openings",
+    "spiracles"
+   ]
+  },
+  {
+   "id": "biology-c11-226",
+   "type": "mcq",
+   "q": "Fishes breathe through",
+   "options": [
+    "lungs",
+    "book lungs",
+    "gills",
+    "trachea"
+   ]
+  },
+  {
+   "id": "biology-c11-227",
+   "type": "mcq",
+   "q": "Which flatworm has hooks and suckers for attaching to the host's intestine?",
+   "options": [
+    "Planaria",
+    "Fasciola",
+    "Ascaris",
+    "Taenia"
+   ]
+  },
+  {
+   "id": "biology-c11-228",
+   "type": "mcq",
+   "q": "The roundworms, which have a pseudocoelom, belong to phylum",
+   "options": [
+    "Platyhelminthes",
+    "Aschelminthes",
+    "Annelida",
+    "Mollusca"
+   ]
+  },
+  {
+   "id": "biology-c11-229",
+   "type": "mcq",
+   "q": "A bat flies but is classified as a mammal rather than a bird because it",
+   "options": [
+    "has wings",
+    "has mammary glands, hair and gives birth to young",
+    "lives in caves",
+    "is active at night"
+   ]
+  },
+  {
+   "id": "biology-c11-230",
+   "type": "mcq",
+   "q": "Marine animals with eight rows of ciliated comb plates for locomotion and the ability to show bioluminescence belong to",
+   "options": [
+    "Cnidaria",
+    "Porifera",
+    "Ctenophora",
+    "Echinodermata"
+   ]
+  },
+  {
+   "id": "biology-c11-231",
+   "type": "short",
+   "q": "List any three characteristics of phylum Arthropoda.",
+   "proposedAnswer": "Arthropods have a chitinous exoskeleton, jointed appendages and a segmented body with an open circulatory system; they are bilaterally symmetrical and have a haemocoel.",
+   "keyPoints": [
+    "Chitinous exoskeleton",
+    "Jointed appendages",
+    "Open circulatory system"
+   ]
+  },
+  {
+   "id": "biology-c11-232",
+   "type": "short",
+   "q": "Birds and mammals are called homeotherms. What does this mean and how does it help them?",
+   "proposedAnswer": "They keep a constant body temperature irrespective of the surroundings; this lets them stay active and live in a wide range of habitats, hot or cold.",
+   "keyPoints": [
+    "Constant body temperature",
+    "Independent of environment",
+    "Allows a wide range of habitats"
+   ]
+  },
+  {
+   "id": "biology-c11-233",
+   "type": "mcq",
+   "q": "The embryonic part of a seed that grows into the root is the",
+   "options": [
+    "plumule",
+    "radicle",
+    "cotyledon",
+    "scutellum"
+   ]
+  },
+  {
+   "id": "biology-c11-234",
+   "type": "mcq",
+   "q": "The potato is a modified",
+   "options": [
+    "root",
+    "leaf",
+    "fruit",
+    "underground stem"
+   ]
+  },
+  {
+   "id": "biology-c11-235",
+   "type": "mcq",
+   "q": "The corolla of a pea flower is described as",
+   "options": [
+    "papilionaceous",
+    "cruciform",
+    "bell shaped",
+    "funnel shaped"
+   ]
+  },
+  {
+   "id": "biology-c11-236",
+   "type": "mcq",
+   "q": "The only living component of xylem is",
+   "options": [
+    "tracheid",
+    "vessel",
+    "xylem parenchyma",
+    "xylem fibre"
+   ]
+  },
+  {
+   "id": "biology-c11-237",
+   "type": "mcq",
+   "q": "In the periderm of a woody stem, the phelloderm (secondary cortex) is formed",
+   "options": [
+    "outside the cork cambium",
+    "from the vascular cambium",
+    "on the inner side of the cork cambium",
+    "from the pith"
+   ]
+  },
+  {
+   "id": "biology-c11-238",
+   "type": "mcq",
+   "q": "In a dicot root, the xylem is described as exarch, which means that",
+   "options": [
+    "there is no protoxylem",
+    "metaxylem lies towards the periphery",
+    "xylem and phloem are in the same bundle",
+    "protoxylem lies towards the periphery and metaxylem towards the centre"
+   ]
+  },
+  {
+   "id": "biology-c11-239",
+   "type": "short",
+   "q": "Differentiate between a simple leaf and a compound leaf with one example of each.",
+   "proposedAnswer": "In a simple leaf the lamina is entire or incised but not cut to the midrib, as in mango; in a compound leaf the incisions reach the midrib or petiole, breaking the lamina into leaflets, as in neem.",
+   "keyPoints": [
+    "Simple: lamina is one piece",
+    "Compound: lamina cut into leaflets",
+    "Example of each"
+   ]
+  },
+  {
+   "id": "biology-c11-240",
+   "type": "short",
+   "q": "What are bulliform cells? How do they help a grass leaf survive water shortage?",
+   "proposedAnswer": "Bulliform cells are large, empty, colourless cells in the upper epidermis of grass leaves. When they lose water the leaf curls inward, reducing the surface exposed and so lowering water loss.",
+   "keyPoints": [
+    "Large colourless cells in the upper epidermis",
+    "Flaccid cells make the leaf roll",
+    "Reduces transpiration"
+   ]
+  },
+  {
+   "id": "biology-c11-241",
+   "type": "mcq",
+   "q": "The mature bone cells are called",
+   "options": [
+    "osteocytes",
+    "chondrocytes",
+    "fibroblasts",
+    "neuroglia"
+   ]
+  },
+  {
+   "id": "biology-c11-242",
+   "type": "mcq",
+   "q": "Cartilage cells are called",
+   "options": [
+    "osteocytes",
+    "mast cells",
+    "chondrocytes",
+    "neurons"
+   ]
+  },
+  {
+   "id": "biology-c11-243",
+   "type": "mcq",
+   "q": "How many pairs of walking legs does a cockroach have?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "id": "biology-c11-244",
+   "type": "mcq",
+   "q": "The mouth parts of a cockroach are of the",
+   "options": [
+    "piercing and sucking type",
+    "siphoning type",
+    "sponging type",
+    "biting and chewing type"
+   ]
+  },
+  {
+   "id": "biology-c11-245",
+   "type": "mcq",
+   "q": "The epithelium that lines the ducts of glands and the tubular parts of nephrons, and helps in secretion and absorption, is",
+   "options": [
+    "squamous",
+    "columnar with cilia",
+    "stratified squamous",
+    "cuboidal"
+   ]
+  },
+  {
+   "id": "biology-c11-246",
+   "type": "mcq",
+   "q": "The fertilised eggs of a cockroach are enclosed in a capsule called the",
+   "options": [
+    "ootheca",
+    "cocoon",
+    "pupa",
+    "nymph"
+   ]
+  },
+  {
+   "id": "biology-c11-247",
+   "type": "short",
+   "q": "Distinguish between a tendon and a ligament.",
+   "proposedAnswer": "A tendon is dense regular connective tissue connecting skeletal muscle to bone; a ligament is dense regular connective tissue connecting one bone to another bone.",
+   "keyPoints": [
+    "Tendon: muscle to bone",
+    "Ligament: bone to bone",
+    "Both are dense regular connective tissue"
+   ]
+  },
+  {
+   "id": "biology-c11-248",
+   "type": "short",
+   "q": "How do intercalated discs help the heart to work as a unit?",
+   "proposedAnswer": "Intercalated discs join neighbouring cardiac muscle cells and contain gap junctions that let the impulse pass quickly from cell to cell, so that all the cells contract almost together.",
+   "keyPoints": [
+    "Join cardiac muscle cells",
+    "Gap junctions allow quick spread of impulse",
+    "Cells contract together"
+   ]
+  },
+  {
+   "id": "biology-c11-249",
+   "type": "mcq",
+   "q": "The cell organelle where proteins are synthesised is the",
+   "options": [
+    "Golgi body",
+    "lysosome",
+    "vacuole",
+    "ribosome"
+   ]
+  },
+  {
+   "id": "biology-c11-250",
+   "type": "mcq",
+   "q": "The membrane that bounds the vacuole in a plant cell is called the",
+   "options": [
+    "plasmalemma",
+    "tonoplast",
+    "cristae",
+    "thylakoid"
+   ]
+  },
+  {
+   "id": "biology-c11-251",
+   "type": "mcq",
+   "q": "Each centriole has a cartwheel-like structure made of",
+   "options": [
+    "nine doublet microtubules around two central ones",
+    "two rings of microtubules",
+    "nine evenly spaced triplets of microtubules",
+    "a single microtubule"
+   ]
+  },
+  {
+   "id": "biology-c11-252",
+   "type": "mcq",
+   "q": "The axoneme of cilia and flagella shows the arrangement",
+   "options": [
+    "9 + 2",
+    "9 + 0",
+    "6 + 3",
+    "3 + 9"
+   ]
+  },
+  {
+   "id": "biology-c11-253",
+   "type": "mcq",
+   "q": "Cells of the adrenal cortex, which make steroid hormones, would be expected to have abundant",
+   "options": [
+    "smooth endoplasmic reticulum",
+    "rough endoplasmic reticulum",
+    "cell wall",
+    "chloroplasts"
+   ]
+  },
+  {
+   "id": "biology-c11-254",
+   "type": "mcq",
+   "q": "In a chloroplast, the chlorophyll pigments are located in the",
+   "options": [
+    "stroma",
+    "thylakoid membranes",
+    "outer membrane",
+    "matrix"
+   ]
+  },
+  {
+   "id": "biology-c11-255",
+   "type": "short",
+   "q": "Describe the structure of a chloroplast.",
+   "proposedAnswer": "A chloroplast has a double membrane envelope enclosing the stroma, which contains DNA, ribosomes and enzymes; inside are flattened thylakoids stacked into grana and joined by stroma lamellae. Chlorophyll is in the thylakoid membranes.",
+   "keyPoints": [
+    "Double membrane",
+    "Stroma with DNA and ribosomes",
+    "Thylakoids in grana"
+   ]
+  },
+  {
+   "id": "biology-c11-256",
+   "type": "short",
+   "q": "Why do lipid-soluble substances cross the plasma membrane more easily than ions?",
+   "proposedAnswer": "The plasma membrane has a lipid bilayer, so non-polar, lipid-soluble substances dissolve in it and pass through; polar molecules and ions are repelled by the hydrophobic core and need carrier or channel proteins.",
+   "keyPoints": [
+    "Membrane has a lipid bilayer",
+    "Non-polar substances dissolve in it",
+    "Polar substances need proteins"
+   ]
+  },
+  {
+   "id": "biology-c11-257",
+   "type": "mcq",
+   "q": "Fats are esters of fatty acids with",
+   "options": [
+    "glycerol",
+    "glucose",
+    "glycine",
+    "glycogen"
+   ]
+  },
+  {
+   "id": "biology-c11-258",
+   "type": "mcq",
+   "q": "The pentose sugar present in RNA is",
+   "options": [
+    "deoxyribose",
+    "fructose",
+    "ribose",
+    "glucose"
+   ]
+  },
+  {
+   "id": "biology-c11-259",
+   "type": "mcq",
+   "q": "Starch forms a blue colour when treated with",
+   "options": [
+    "iodine solution",
+    "Benedict's solution",
+    "biuret reagent",
+    "silver nitrate"
+   ]
+  },
+  {
+   "id": "biology-c11-260",
+   "type": "mcq",
+   "q": "Nucleotides in a nucleic acid strand are linked together by",
+   "options": [
+    "peptide bonds",
+    "glycosidic bonds",
+    "hydrogen bonds",
+    "phosphodiester bonds"
+   ]
+  },
+  {
+   "id": "biology-c11-261",
+   "type": "mcq",
+   "q": "Enzymes are usually stored at low temperature rather than at high temperature, because low temperature",
+   "options": [
+    "destroys the enzyme permanently",
+    "raises the activation energy permanently",
+    "denatures the enzyme",
+    "temporarily reduces activity but preserves the structure"
+   ]
+  },
+  {
+   "id": "biology-c11-262",
+   "type": "mcq",
+   "q": "The number of peptide bonds in a polypeptide chain of 150 amino acids is",
+   "options": [
+    "150",
+    "151",
+    "149",
+    "300"
+   ]
+  },
+  {
+   "id": "biology-c11-263",
+   "type": "short",
+   "q": "Describe the structure of a nucleotide and how a polynucleotide chain is formed.",
+   "proposedAnswer": "A nucleotide is a nitrogenous base, a pentose sugar and a phosphate group. Nucleotides join through phosphodiester bonds between the phosphate of one and the sugar of the next, forming a polynucleotide.",
+   "keyPoints": [
+    "Base, sugar, phosphate",
+    "Phosphodiester linkage",
+    "Chain of nucleotides"
+   ]
+  },
+  {
+   "id": "biology-c11-264",
+   "type": "short",
+   "q": "Using the idea of the transition state, explain how an enzyme speeds up a reaction.",
+   "proposedAnswer": "The substrate must reach a high-energy transition state before turning into product, which needs activation energy. The enzyme binds the substrate at its active site and stabilises the transition state, lowering the energy barrier so the reaction is faster, but the energy difference between substrate and product is unchanged.",
+   "keyPoints": [
+    "Activation energy barrier",
+    "Enzyme lowers it",
+    "Overall energy change unchanged"
+   ]
+  },
+  {
+   "id": "biology-c11-265",
+   "type": "mcq",
+   "q": "The phase of the cell cycle that follows mitosis and precedes DNA replication is",
+   "options": [
+    "G1 phase",
+    "S phase",
+    "G2 phase",
+    "M phase"
+   ]
+  },
+  {
+   "id": "biology-c11-266",
+   "type": "mcq",
+   "q": "In animal cells, the spindle apparatus is organised by the",
+   "options": [
+    "nucleolus",
+    "Golgi body",
+    "ribosomes",
+    "centrosome"
+   ]
+  },
+  {
+   "id": "biology-c11-267",
+   "type": "mcq",
+   "q": "The X-shaped structures called chiasmata become visible in the stage of",
+   "options": [
+    "leptotene",
+    "zygotene",
+    "diplotene",
+    "telophase I"
+   ]
+  },
+  {
+   "id": "biology-c11-268",
+   "type": "mcq",
+   "q": "If the amount of DNA in a G1 cell is 2C, the amount in the same cell at G2 is",
+   "options": [
+    "2C",
+    "4C",
+    "C",
+    "8C"
+   ]
+  },
+  {
+   "id": "biology-c11-269",
+   "type": "mcq",
+   "q": "A diploid cell has 2C DNA in G1. The DNA content of each cell at the end of meiosis I is",
+   "options": [
+    "C",
+    "2C",
+    "4C",
+    "8C"
+   ]
+  },
+  {
+   "id": "biology-c11-270",
+   "type": "mcq",
+   "q": "The stage of meiotic prophase I that ends with the breakdown of the nuclear envelope and the nucleolus, and has terminalisation of chiasmata, is",
+   "options": [
+    "leptotene",
+    "pachytene",
+    "zygotene",
+    "diakinesis"
+   ]
+  },
+  {
+   "id": "biology-c11-271",
+   "type": "short",
+   "q": "State the significance of mitosis.",
+   "proposedAnswer": "Mitosis keeps the chromosome number constant in daughter cells; it allows growth of the organism, replacement of old or damaged cells and, in plants, continuous growth by meristems.",
+   "keyPoints": [
+    "Maintains the chromosome number",
+    "Growth",
+    "Repair and replacement"
+   ]
+  },
+  {
+   "id": "biology-c11-272",
+   "type": "short",
+   "q": "Give three differences between mitosis and meiosis.",
+   "proposedAnswer": "Mitosis occurs in somatic cells and has one division giving two identical diploid cells with no crossing over; meiosis occurs in germ cells, has two divisions, gives four haploid cells and includes crossing over.",
+   "keyPoints": [
+    "One division or two divisions",
+    "Two diploid or four haploid cells",
+    "Crossing over absent or present"
+   ]
+  },
+  {
+   "id": "biology-c11-273",
+   "type": "mcq",
+   "q": "Which of the following is a C4 plant?",
+   "options": [
+    "Wheat",
+    "Rice",
+    "Potato",
+    "Maize"
+   ]
+  },
+  {
+   "id": "biology-c11-274",
+   "type": "mcq",
+   "q": "The metal present in the chlorophyll molecule is",
+   "options": [
+    "magnesium",
+    "iron",
+    "copper",
+    "zinc"
+   ]
+  },
+  {
+   "id": "biology-c11-275",
+   "type": "mcq",
+   "q": "The water-splitting complex of photosystem II requires which of these ions?",
+   "options": [
+    "Na+",
+    "Mn2+",
+    "K+",
+    "Li+"
+   ]
+  },
+  {
+   "id": "biology-c11-276",
+   "type": "mcq",
+   "q": "The regeneration of RuBP, the CO2 acceptor, in the Calvin cycle requires",
+   "options": [
+    "only NADPH",
+    "oxygen",
+    "ATP",
+    "light directly"
+   ]
+  },
+  {
+   "id": "biology-c11-277",
+   "type": "mcq",
+   "q": "Which plants show a higher rate of photosynthesis at high temperature and high light intensity?",
+   "options": [
+    "C3 plants",
+    "Shade plants",
+    "C4 plants",
+    "Algae in deep water"
+   ]
+  },
+  {
+   "id": "biology-c11-278",
+   "type": "mcq",
+   "q": "The number of ATP molecules required in the Calvin cycle for making one molecule of glucose is",
+   "options": [
+    "18",
+    "12",
+    "6",
+    "36"
+   ]
+  },
+  {
+   "id": "biology-c11-279",
+   "type": "short",
+   "q": "Name the three stages of the Calvin cycle and state what happens in each.",
+   "proposedAnswer": "Carboxylation: CO2 combines with RuBP to form 3-PGA, catalysed by RuBisCO. Reduction: ATP and NADPH reduce 3-PGA to triose phosphate. Regeneration: RuBP is formed again, using ATP.",
+   "keyPoints": [
+    "Carboxylation by RuBisCO",
+    "Reduction using ATP and NADPH",
+    "Regeneration of RuBP"
+   ]
+  },
+  {
+   "id": "biology-c11-280",
+   "type": "short",
+   "q": "Explain Kranz anatomy and its role in C4 photosynthesis.",
+   "proposedAnswer": "In C4 leaves, large bundle sheath cells form a ring around the vascular bundles with mesophyll cells outside. CO2 is first fixed in mesophyll as a four-carbon acid, which moves to the bundle sheath where it releases CO2 for the Calvin cycle, concentrating CO2 near RuBisCO.",
+   "keyPoints": [
+    "Bundle sheath cells around the vascular bundles",
+    "Mesophyll fixes CO2 first",
+    "CO2 released in bundle sheath for the Calvin cycle"
+   ]
+  },
+  {
+   "id": "biology-c11-281",
+   "type": "mcq",
+   "q": "The number of pyruvic acid molecules produced from one glucose molecule in glycolysis is",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  {
+   "id": "biology-c11-282",
+   "type": "mcq",
+   "q": "During strenuous exercise, when oxygen is short, muscle cells convert pyruvic acid into",
+   "options": [
+    "ethanol",
+    "acetyl CoA",
+    "lactic acid",
+    "citric acid"
+   ]
+  },
+  {
+   "id": "biology-c11-283",
+   "type": "mcq",
+   "q": "According to the NCERT account, the oxidation of one NADH molecule in the electron transport chain gives rise to",
+   "options": [
+    "3 ATP molecules",
+    "2 ATP molecules",
+    "1 ATP molecule",
+    "6 ATP molecules"
+   ]
+  },
+  {
+   "id": "biology-c11-284",
+   "type": "mcq",
+   "q": "Pyruvic acid is converted into acetyl CoA in the",
+   "options": [
+    "cytoplasm",
+    "nucleus",
+    "outer membrane",
+    "mitochondrial matrix"
+   ]
+  },
+  {
+   "id": "biology-c11-285",
+   "type": "mcq",
+   "q": "Fatty acids from the breakdown of fats enter the respiratory pathway as",
+   "options": [
+    "pyruvic acid",
+    "glucose",
+    "oxaloacetic acid",
+    "acetyl CoA"
+   ]
+  },
+  {
+   "id": "biology-c11-286",
+   "type": "mcq",
+   "q": "A poison blocks the transfer of electrons to oxygen by cytochrome c oxidase. The immediate effect is that",
+   "options": [
+    "glycolysis stops completely in the nucleus",
+    "photosynthesis is enhanced",
+    "the electron transport chain stops and mitochondrial ATP synthesis falls",
+    "more NAD+ is produced"
+   ]
+  },
+  {
+   "id": "biology-c11-287",
+   "type": "short",
+   "q": "Write the overall equation for aerobic respiration of glucose.",
+   "proposedAnswer": "C6H12O6 + 6 O2 gives 6 CO2 + 6 H2O + energy (about 38 ATP in the textbook account).",
+   "keyPoints": [
+    "Glucose and oxygen are reactants",
+    "CO2 and water are products",
+    "Energy released as ATP"
+   ]
+  },
+  {
+   "id": "biology-c11-288",
+   "type": "short",
+   "q": "Why is glycolysis described as the common pathway of aerobic and anaerobic respiration?",
+   "proposedAnswer": "Glycolysis occurs in the cytoplasm and does not need oxygen. It is the first step in both, converting glucose to pyruvic acid; later steps differ, as pyruvate goes to the Krebs cycle with oxygen or to fermentation without it.",
+   "keyPoints": [
+    "Occurs in the cytoplasm without oxygen",
+    "Common first step giving pyruvate",
+    "Fates of pyruvate differ afterwards"
+   ]
+  },
+  {
+   "id": "biology-c11-289",
+   "type": "mcq",
+   "q": "Gibberellins were first discovered from the fungus",
+   "options": [
+    "Penicillium",
+    "Yeast",
+    "Gibberella fujikuroi",
+    "Rhizopus"
+   ]
+  },
+  {
+   "id": "biology-c11-290",
+   "type": "mcq",
+   "q": "Zeatin, isolated from maize kernels, is a type of",
+   "options": [
+    "auxin",
+    "gibberellin",
+    "ethylene",
+    "cytokinin"
+   ]
+  },
+  {
+   "id": "biology-c11-291",
+   "type": "mcq",
+   "q": "Which hormones promote the shedding (abscission) of leaves and fruits?",
+   "options": [
+    "Auxin and cytokinin",
+    "Abscisic acid and ethylene",
+    "Gibberellin and auxin",
+    "Cytokinin and gibberellin"
+   ]
+  },
+  {
+   "id": "biology-c11-292",
+   "type": "mcq",
+   "q": "Stem cuttings are dipped in a rooting powder containing",
+   "options": [
+    "auxin (such as IBA)",
+    "abscisic acid",
+    "ethylene",
+    "kinetin"
+   ]
+  },
+  {
+   "id": "biology-c11-293",
+   "type": "mcq",
+   "q": "The synthetic auxin 2,4-D is used to kill",
+   "options": [
+    "dicot weeds in a monocot crop field",
+    "monocot crop plants",
+    "all plants equally",
+    "fungi on the soil"
+   ]
+  },
+  {
+   "id": "biology-c11-294",
+   "type": "mcq",
+   "q": "A root grows by arithmetic growth at 2 cm per day. If its initial length is 5 cm, its length after 4 days will be",
+   "options": [
+    "8 cm",
+    "10 cm",
+    "11 cm",
+    "13 cm"
+   ]
+  },
+  {
+   "id": "biology-c11-295",
+   "type": "short",
+   "q": "List three physiological effects of auxins.",
+   "proposedAnswer": "Auxins promote cell elongation and apical dominance, cause rooting in cuttings, induce parthenocarpy and flowering in pineapple, and prevent premature fruit drop.",
+   "keyPoints": [
+    "Cell elongation and apical dominance",
+    "Rooting in cuttings",
+    "Parthenocarpy or prevention of fruit drop"
+   ]
+  },
+  {
+   "id": "biology-c11-296",
+   "type": "short",
+   "q": "Why is water considered the most important external factor for plant growth?",
+   "proposedAnswer": "Water gives the turgidity needed for cell enlargement, is the medium for enzyme action and nutrient transport, and is a raw material in metabolism; growth stops when water is scarce.",
+   "keyPoints": [
+    "Turgidity for cell enlargement",
+    "Medium for enzymes and transport",
+    "Raw material for metabolism"
+   ]
+  },
+  {
+   "id": "biology-c11-297",
+   "type": "mcq",
+   "q": "Which pancreatic enzyme digests proteins in the small intestine?",
+   "options": [
+    "amylase",
+    "trypsin",
+    "lipase",
+    "maltase"
+   ]
+  },
+  {
+   "id": "biology-c11-298",
+   "type": "mcq",
+   "q": "The oxygen-carrying pigment in human blood is found in",
+   "options": [
+    "plasma",
+    "platelets",
+    "white blood cells",
+    "red blood cells"
+   ]
+  },
+  {
+   "id": "biology-c11-299",
+   "type": "mcq",
+   "q": "Fats absorbed in the intestinal villi enter the",
+   "options": [
+    "capillaries directly",
+    "hepatic vein",
+    "lacteals",
+    "bile duct"
+   ]
+  },
+  {
+   "id": "biology-c11-300",
+   "type": "mcq",
+   "q": "Oxygenated blood from the lungs returns to the heart and enters the",
+   "options": [
+    "left atrium",
+    "right atrium",
+    "left ventricle",
+    "right ventricle"
+   ]
+  },
+  {
+   "id": "biology-c11-301",
+   "type": "mcq",
+   "q": "A blood pressure reading of 140/90 mm Hg or more in a person at rest indicates",
+   "options": [
+    "hypertension",
+    "normal blood pressure",
+    "hypotension",
+    "anaemia"
+   ]
+  },
+  {
+   "id": "biology-c11-302",
+   "type": "mcq",
+   "q": "During inspiration, the pressure inside the lungs becomes",
+   "options": [
+    "equal to the pressure in the blood",
+    "lower than the atmospheric pressure",
+    "higher than the atmospheric pressure",
+    "zero"
+   ]
+  },
+  {
+   "id": "biology-c11-303",
+   "type": "short",
+   "q": "What is emulsification of fats? Which secretion brings it about?",
+   "proposedAnswer": "Emulsification is the breaking of large fat globules into very small droplets so that lipase can act on a large surface area. Bile salts from the liver do this.",
+   "keyPoints": [
+    "Fat globules broken into droplets",
+    "Bile salts responsible",
+    "Increases surface area for lipase"
+   ]
+  },
+  {
+   "id": "biology-c11-304",
+   "type": "short",
+   "q": "CO2 is about 20 to 25 times more soluble than O2 in water. How does this affect its diffusion across the alveolar membrane?",
+   "proposedAnswer": "Because CO2 dissolves much more easily in the membrane and fluids, a small difference in partial pressure is enough for it to diffuse as fast as oxygen does across the diffusion membrane.",
+   "keyPoints": [
+    "CO2 has higher solubility",
+    "Moves quickly across the membrane",
+    "Small pressure difference is enough"
+   ]
+  },
+  {
+   "id": "biology-c11-305",
+   "type": "mcq",
+   "q": "The part of the brain that regulates body temperature, hunger and thirst is the",
+   "options": [
+    "cerebellum",
+    "hypothalamus",
+    "medulla",
+    "cerebrum"
+   ]
+  },
+  {
+   "id": "biology-c11-306",
+   "type": "mcq",
+   "q": "The hormone secreted by the alpha cells of the pancreas that raises blood glucose is",
+   "options": [
+    "insulin",
+    "thyroxine",
+    "glucagon",
+    "calcitonin"
+   ]
+  },
+  {
+   "id": "biology-c11-307",
+   "type": "mcq",
+   "q": "Most of the reabsorption of the glomerular filtrate takes place in the",
+   "options": [
+    "loop of Henle",
+    "collecting duct",
+    "distal convoluted tubule",
+    "proximal convoluted tubule"
+   ]
+  },
+  {
+   "id": "biology-c11-308",
+   "type": "mcq",
+   "q": "The part of the hindbrain that coordinates balance and posture is the",
+   "options": [
+    "cerebellum",
+    "pons",
+    "hypothalamus",
+    "thalamus"
+   ]
+  },
+  {
+   "id": "biology-c11-309",
+   "type": "mcq",
+   "q": "The descending limb of the loop of Henle is",
+   "options": [
+    "permeable to water but almost impermeable to electrolytes",
+    "permeable to electrolytes but not to water",
+    "impermeable to both",
+    "permeable to both"
+   ]
+  },
+  {
+   "id": "biology-c11-310",
+   "type": "mcq",
+   "q": "Deficiency of thyroid hormone in infancy results in stunted growth and mental retardation, a condition called",
+   "options": [
+    "acromegaly",
+    "gigantism",
+    "goitre",
+    "cretinism"
+   ]
+  },
+  {
+   "id": "biology-c11-311",
+   "type": "short",
+   "q": "Name the three major parts of the human brain and give one function of each.",
+   "proposedAnswer": "Forebrain (cerebrum, thalamus, hypothalamus) for thinking and sensation; midbrain for visual and auditory reflexes; hindbrain (pons, cerebellum, medulla) for balance and for control of breathing and heartbeat.",
+   "keyPoints": [
+    "Forebrain",
+    "Midbrain",
+    "Hindbrain, with a function for each"
+   ]
+  },
+  {
+   "id": "biology-c11-312",
+   "type": "short",
+   "q": "Explain briefly how the loop of Henle and vasa recta help to produce concentrated urine.",
+   "proposedAnswer": "The two limbs of the loop of Henle and the vasa recta run in opposite directions, forming a counter-current that builds a rising osmotic gradient of NaCl and urea in the medullary interstitium; water leaves the collecting duct into this gradient, concentrating the urine.",
+   "keyPoints": [
+    "Counter-current flow in the loop and vasa recta",
+    "Osmotic gradient in the medulla",
+    "Water reabsorbed from the collecting duct"
+   ]
+  },
+  {
+   "id": "biology-c11-313",
+   "type": "mcq",
+   "q": "In plants, the taxonomic category equivalent to 'phylum' in animals is called",
+   "options": [
+    "class",
+    "order",
+    "division",
+    "family"
+   ]
+  },
+  {
+   "id": "biology-c11-314",
+   "type": "mcq",
+   "q": "The genus name of the human being is",
+   "options": [
+    "Homo",
+    "Sapiens",
+    "Primata",
+    "Hominidae"
+   ]
+  },
+  {
+   "id": "biology-c11-315",
+   "type": "mcq",
+   "q": "Which of the following is the correct way of writing a scientific name?",
+   "options": [
+    "mangifera Indica",
+    "MANGIFERA INDICA",
+    "mangifera indica",
+    "Mangifera indica"
+   ]
+  },
+  {
+   "id": "biology-c11-316",
+   "type": "mcq",
+   "q": "Members of the same species are able to",
+   "options": [
+    "live only in the same place",
+    "interbreed and produce fertile offspring",
+    "look exactly identical",
+    "eat the same food only"
+   ]
+  },
+  {
+   "id": "biology-c11-317",
+   "type": "mcq",
+   "q": "The cat (Felis domestica) and the dog (Canis familiaris) are both placed in order Carnivora. They differ in that they belong to different",
+   "options": [
+    "kingdoms",
+    "families",
+    "classes",
+    "orders"
+   ]
+  },
+  {
+   "id": "biology-c11-318",
+   "type": "mcq",
+   "q": "A student writes the name of the human as 'Homo Sapiens Linn.' What is wrong with it?",
+   "options": [
+    "The genus should be written in small letters",
+    "The author's name should be omitted always",
+    "The species name should begin with a small letter",
+    "The name should be in English"
+   ]
+  },
+  {
+   "id": "biology-c11-319",
+   "type": "short",
+   "q": "What is a taxon? Give two examples from the taxonomic hierarchy.",
+   "proposedAnswer": "A taxon is a group of organisms of any rank in classification. Examples: the class Mammalia or the genus Homo.",
+   "keyPoints": [
+    "A taxonomic group of any rank",
+    "Example of a class or genus",
+    "Each category contains taxa"
+   ]
+  },
+  {
+   "id": "biology-c11-320",
+   "type": "short",
+   "q": "Why do organisms placed in the same genus share more characters than organisms placed in the same family?",
+   "proposedAnswer": "A genus is a lower category than a family. As we go down the hierarchy, the number of shared characters increases, since a genus contains more closely related species while a family includes several genera with greater differences.",
+   "keyPoints": [
+    "Genus is a lower rank than family",
+    "Lower ranks share more characters",
+    "Family includes more diverse genera"
+   ]
+  },
+  {
+   "id": "biology-c11-321",
+   "type": "mcq",
+   "q": "Which of the following is a liverwort?",
+   "options": [
+    "Funaria",
+    "Polytrichum",
+    "Sphagnum",
+    "Marchantia"
+   ]
+  },
+  {
+   "id": "biology-c11-322",
+   "type": "mcq",
+   "q": "Which of these is a pteridophyte?",
+   "options": [
+    "Dryopteris",
+    "Pinus",
+    "Cycas",
+    "Funaria"
+   ]
+  },
+  {
+   "id": "biology-c11-323",
+   "type": "mcq",
+   "q": "Bryophytes anchor themselves to the substratum by",
+   "options": [
+    "true roots",
+    "unicellular or multicellular rhizoids",
+    "root hairs",
+    "prop roots"
+   ]
+  },
+  {
+   "id": "biology-c11-324",
+   "type": "mcq",
+   "q": "Which of the following is a gymnosperm?",
+   "options": [
+    "Fern",
+    "Moss",
+    "Mango",
+    "Cycas"
+   ]
+  },
+  {
+   "id": "biology-c11-325",
+   "type": "mcq",
+   "q": "The prothallus of a fern is",
+   "options": [
+    "a diploid, dependent stage",
+    "a diploid, spore-producing stage",
+    "a non-photosynthetic haploid stage",
+    "a free-living, photosynthetic haploid gametophyte"
+   ]
+  },
+  {
+   "id": "biology-c11-326",
+   "type": "mcq",
+   "q": "The sporophyte cells of a fern have 64 chromosomes. How many chromosomes would a cell of its prothallus have?",
+   "options": [
+    "16",
+    "32",
+    "64",
+    "128"
+   ]
+  },
+  {
+   "id": "biology-c11-327",
+   "type": "short",
+   "q": "Write two differences between red algae and brown algae.",
+   "proposedAnswer": "Red algae have the pigment r-phycoerythrin, store floridean starch and are mostly marine in warmer, deeper water; brown algae have fucoxanthin, store laminarin or mannitol and are largely found in cold marine waters.",
+   "keyPoints": [
+    "Pigment: phycoerythrin or fucoxanthin",
+    "Stored food differs",
+    "Habitat differs"
+   ]
+  },
+  {
+   "id": "biology-c11-328",
+   "type": "short",
+   "q": "Explain the ecological importance of bryophytes.",
+   "proposedAnswer": "Bryophytes are pioneer colonisers of bare rock; on dying they decompose and help form soil for higher plants. They also form dense mats that hold water and prevent soil erosion.",
+   "keyPoints": [
+    "Pioneer colonisers of rocks",
+    "Help in formation of soil",
+    "Mats prevent soil erosion"
+   ]
+  },
+  {
+   "id": "biology-c11-329",
+   "type": "mcq",
+   "q": "The earthworm belongs to phylum",
+   "options": [
+    "Arthropoda",
+    "Mollusca",
+    "Platyhelminthes",
+    "Annelida"
+   ]
+  },
+  {
+   "id": "biology-c11-330",
+   "type": "mcq",
+   "q": "Which class of vertebrates has feathers?",
+   "options": [
+    "Aves",
+    "Reptilia",
+    "Mammalia",
+    "Amphibia"
+   ]
+  },
+  {
+   "id": "biology-c11-331",
+   "type": "mcq",
+   "q": "Which of the following animals has a four-chambered heart?",
+   "options": [
+    "Frog",
+    "Fish",
+    "Pigeon",
+    "Lizard"
+   ]
+  },
+  {
+   "id": "biology-c11-332",
+   "type": "mcq",
+   "q": "Lampreys and hagfishes, which lack jaws and have a sucking circular mouth, belong to",
+   "options": [
+    "Chondrichthyes",
+    "Cyclostomata",
+    "Osteichthyes",
+    "Reptilia"
+   ]
+  },
+  {
+   "id": "biology-c11-333",
+   "type": "mcq",
+   "q": "Which of the following animals has separate sexes (is dioecious)?",
+   "options": [
+    "Earthworm",
+    "Ascaris",
+    "Taenia",
+    "Hydra"
+   ]
+  },
+  {
+   "id": "biology-c11-334",
+   "type": "mcq",
+   "q": "Cnidarians exist in two body forms. The free-swimming, umbrella-shaped form is the",
+   "options": [
+    "medusa",
+    "polyp",
+    "larva",
+    "scolex"
+   ]
+  },
+  {
+   "id": "biology-c11-335",
+   "type": "short",
+   "q": "Write any three characteristics of phylum Echinodermata.",
+   "proposedAnswer": "Echinoderms are marine animals with an endoskeleton of calcareous ossicles, a spiny skin, a water vascular system with tube feet, and adults show radial symmetry; larvae are bilaterally symmetrical.",
+   "keyPoints": [
+    "Calcareous endoskeleton and spiny skin",
+    "Water vascular system and tube feet",
+    "Adult radial symmetry"
+   ]
+  },
+  {
+   "id": "biology-c11-336",
+   "type": "short",
+   "q": "Why is an earthworm called a segmented coelomate?",
+   "proposedAnswer": "Its body is divided into many similar segments (metamerism) and has a true coelom, a body cavity lined by mesoderm on all sides.",
+   "keyPoints": [
+    "Body divided into segments",
+    "Has a true coelom",
+    "Cavity lined by mesoderm"
+   ]
+  },
+  {
+   "id": "biology-c11-337",
+   "type": "mcq",
+   "q": "The outermost whorl of a flower, made of green leaf-like parts, is the",
+   "options": [
+    "corolla",
+    "androecium",
+    "gynoecium",
+    "calyx"
+   ]
+  },
+  {
+   "id": "biology-c11-338",
+   "type": "mcq",
+   "q": "After fertilisation, the ovule develops into a",
+   "options": [
+    "seed",
+    "fruit",
+    "flower",
+    "stamen"
+   ]
+  },
+  {
+   "id": "biology-c11-339",
+   "type": "mcq",
+   "q": "Pneumatophores, the roots which grow upward out of the mud in mangrove plants like Rhizophora, help in",
+   "options": [
+    "storage of food",
+    "climbing",
+    "respiration",
+    "reproduction"
+   ]
+  },
+  {
+   "id": "biology-c11-340",
+   "type": "mcq",
+   "q": "Lateral meristems, such as vascular cambium, are responsible for",
+   "options": [
+    "increase in length of the plant",
+    "increase in girth of the plant",
+    "formation of flowers",
+    "formation of root caps"
+   ]
+  },
+  {
+   "id": "biology-c11-341",
+   "type": "mcq",
+   "q": "In pea flowers the large standard petal overlaps the two wing petals, which in turn overlap the two keel petals. This aestivation is called",
+   "options": [
+    "valvate",
+    "vexillary",
+    "twisted",
+    "imbricate with one petal"
+   ]
+  },
+  {
+   "id": "biology-c11-342",
+   "type": "mcq",
+   "q": "The innermost layer of the cortex in a dicot stem, rich in starch grains, is the",
+   "options": [
+    "endodermis",
+    "pericycle",
+    "epidermis",
+    "hypodermis"
+   ]
+  },
+  {
+   "id": "biology-c11-343",
+   "type": "short",
+   "q": "Differentiate between racemose and cymose inflorescences.",
+   "proposedAnswer": "In a racemose inflorescence the main axis keeps growing and flowers are borne laterally in acropetal order (youngest at the tip); in a cymose inflorescence the main axis ends in a flower, so growth is limited and the order is basipetal.",
+   "keyPoints": [
+    "Racemose: main axis grows continuously",
+    "Cymose: axis ends in a flower",
+    "Order of opening differs"
+   ]
+  },
+  {
+   "id": "biology-c11-344",
+   "type": "short",
+   "q": "Explain how the structure of guard cells makes the opening of a stoma possible.",
+   "proposedAnswer": "The inner wall of each guard cell next to the pore is thick and less elastic, and the outer wall is thin. When the cells become turgid the thin outer walls bulge outward and pull the inner walls apart, opening the stoma; when they lose water the stoma closes.",
+   "keyPoints": [
+    "Inner wall thick, outer wall thin",
+    "Turgid cells bulge outward",
+    "Pore opens or closes with water content"
+   ]
+  },
+  {
+   "id": "biology-c11-345",
+   "type": "mcq",
+   "q": "The scientific name of the common frog is",
+   "options": [
+    "Periplaneta americana",
+    "Rana tigrina",
+    "Pheretima posthuma",
+    "Homo sapiens"
+   ]
+  },
+  {
+   "id": "biology-c11-346",
+   "type": "mcq",
+   "q": "The scientific name of the American cockroach is",
+   "options": [
+    "Rana tigrina",
+    "Pila globosa",
+    "Musca domestica",
+    "Periplaneta americana"
+   ]
+  },
+  {
+   "id": "biology-c11-347",
+   "type": "mcq",
+   "q": "A frog excretes its nitrogenous waste mainly as",
+   "options": [
+    "uric acid",
+    "ammonia",
+    "urea",
+    "creatinine"
+   ]
+  },
+  {
+   "id": "biology-c11-348",
+   "type": "mcq",
+   "q": "The forewings of a cockroach, which are thick, dark and leathery, are called",
+   "options": [
+    "tegmina",
+    "elytra",
+    "halteres",
+    "hindwings"
+   ]
+  },
+  {
+   "id": "biology-c11-349",
+   "type": "mcq",
+   "q": "The alimentary canal of a frog is relatively short because the frog",
+   "options": [
+    "is carnivorous",
+    "is herbivorous",
+    "does not eat",
+    "is omnivorous only"
+   ]
+  },
+  {
+   "id": "biology-c11-350",
+   "type": "mcq",
+   "q": "The skin and the lining of the buccal cavity are protected against abrasion by",
+   "options": [
+    "simple cuboidal epithelium",
+    "simple squamous epithelium",
+    "compound (stratified) epithelium",
+    "glandular epithelium"
+   ]
+  },
+  {
+   "id": "biology-c11-351",
+   "type": "short",
+   "q": "Give two examples each of loose and dense connective tissue.",
+   "proposedAnswer": "Loose connective tissue: areolar tissue and adipose tissue. Dense connective tissue: tendons and ligaments (dense regular), or the dermis of skin (dense irregular).",
+   "keyPoints": [
+    "Areolar and adipose are loose",
+    "Tendons and ligaments are dense",
+    "Examples correct for each type"
+   ]
+  },
+  {
+   "id": "biology-c11-352",
+   "type": "short",
+   "q": "Why do frogs undergo hibernation and aestivation?",
+   "proposedAnswer": "Frogs are poikilothermic and cannot regulate body temperature. To escape extreme cold in winter (hibernation) and extreme heat in summer (aestivation), they hide in burrows and become inactive.",
+   "keyPoints": [
+    "Cold-blooded, body temperature follows environment",
+    "Hibernation in winter, aestivation in summer",
+    "Avoid extreme conditions"
+   ]
+  },
+  {
+   "id": "biology-c11-353",
+   "type": "mcq",
+   "q": "The nucleus of the cell was discovered by",
+   "options": [
+    "Robert Hooke",
+    "Anton van Leeuwenhoek",
+    "Robert Brown",
+    "Theodor Schwann"
+   ]
+  },
+  {
+   "id": "biology-c11-354",
+   "type": "mcq",
+   "q": "The plastids that store starch are called",
+   "options": [
+    "amyloplasts",
+    "chloroplasts",
+    "chromoplasts",
+    "proteinoplasts only"
+   ]
+  },
+  {
+   "id": "biology-c11-355",
+   "type": "mcq",
+   "q": "The endoplasmic reticulum with ribosomes attached to its surface is called",
+   "options": [
+    "smooth ER",
+    "Golgi apparatus",
+    "lysosome",
+    "rough ER"
+   ]
+  },
+  {
+   "id": "biology-c11-356",
+   "type": "mcq",
+   "q": "Small circular extra-chromosomal DNA molecules found in some bacteria are called",
+   "options": [
+    "nucleoids",
+    "plasmids",
+    "mesosomes",
+    "histones"
+   ]
+  },
+  {
+   "id": "biology-c11-357",
+   "type": "mcq",
+   "q": "The movement of RNA and proteins between the nucleus and cytoplasm takes place through the",
+   "options": [
+    "cristae",
+    "nuclear pores",
+    "plasmodesmata",
+    "stroma"
+   ]
+  },
+  {
+   "id": "biology-c11-358",
+   "type": "mcq",
+   "q": "Which of the following is NOT a part of the endomembrane system?",
+   "options": [
+    "Endoplasmic reticulum",
+    "Golgi complex",
+    "Mitochondrion",
+    "Lysosome"
+   ]
+  },
+  {
+   "id": "biology-c11-359",
+   "type": "short",
+   "q": "Write three differences between plant cells and animal cells.",
+   "proposedAnswer": "Plant cells have a cell wall, plastids and a large central vacuole, and lack centrioles; animal cells have no cell wall or plastids, have small vacuoles and have centrioles.",
+   "keyPoints": [
+    "Cell wall present or absent",
+    "Plastids present or absent",
+    "Large vacuole or centrioles"
+   ]
+  },
+  {
+   "id": "biology-c11-360",
+   "type": "short",
+   "q": "What is the endomembrane system? Why are mitochondria not included in it?",
+   "proposedAnswer": "It is a group of membranous organelles whose functions are coordinated and which exchange material through vesicles: endoplasmic reticulum, Golgi complex, lysosomes and vacuoles. Mitochondria are not included because their functions are not coordinated with these organelles.",
+   "keyPoints": [
+    "ER, Golgi, lysosomes, vacuoles",
+    "Coordinated functions and vesicle transport",
+    "Mitochondria work independently"
+   ]
+  },
+  {
+   "id": "biology-c11-361",
+   "type": "mcq",
+   "q": "The chemical name of table sugar is",
+   "options": [
+    "sucrose",
+    "lactose",
+    "maltose",
+    "glucose"
+   ]
+  },
+  {
+   "id": "biology-c11-362",
+   "type": "mcq",
+   "q": "Nearly all enzymes are chemically",
+   "options": [
+    "lipids",
+    "carbohydrates",
+    "proteins",
+    "nucleotides"
+   ]
+  },
+  {
+   "id": "biology-c11-363",
+   "type": "mcq",
+   "q": "Haemoglobin is a protein made up of how many polypeptide chains?",
+   "options": [
+    "one",
+    "four",
+    "two",
+    "six"
+   ]
+  },
+  {
+   "id": "biology-c11-364",
+   "type": "mcq",
+   "q": "The simplest amino acid, in which the R group is a hydrogen atom, is",
+   "options": [
+    "alanine",
+    "serine",
+    "valine",
+    "glycine"
+   ]
+  },
+  {
+   "id": "biology-c11-365",
+   "type": "mcq",
+   "q": "The enzyme that converts glucose-6-phosphate into fructose-6-phosphate belongs to the class",
+   "options": [
+    "ligases",
+    "hydrolases",
+    "transferases",
+    "isomerases"
+   ]
+  },
+  {
+   "id": "biology-c11-366",
+   "type": "mcq",
+   "q": "Chitin, found in the exoskeleton of arthropods, is a polymer of",
+   "options": [
+    "N-acetyl glucosamine",
+    "glucose only",
+    "fructose",
+    "amino acids"
+   ]
+  },
+  {
+   "id": "biology-c11-367",
+   "type": "short",
+   "q": "Distinguish between primary and secondary metabolites, giving examples.",
+   "proposedAnswer": "Primary metabolites such as amino acids, sugars and nucleotides have known roles in normal growth and metabolism. Secondary metabolites such as alkaloids, rubber, essential oils and pigments have no known direct role in these but are useful to humans or help the plant.",
+   "keyPoints": [
+    "Primary: needed for normal metabolism",
+    "Secondary: not directly involved in growth",
+    "Examples of each"
+   ]
+  },
+  {
+   "id": "biology-c11-368",
+   "type": "short",
+   "q": "Explain the effect of temperature on the activity of an enzyme.",
+   "proposedAnswer": "Activity increases with temperature up to an optimum, as molecules move faster. Beyond it the enzyme is denatured and loses its shape and activity. Low temperature makes the enzyme temporarily inactive.",
+   "keyPoints": [
+    "Rate increases up to an optimum",
+    "Denaturation at high temperature",
+    "Low temperature: temporary inactivity"
+   ]
+  },
+  {
+   "id": "biology-c11-369",
+   "type": "mcq",
+   "q": "One meiotic division of a diploid cell gives rise to how many daughter cells?",
+   "options": [
+    "2",
+    "6",
+    "8",
+    "4"
+   ]
+  },
+  {
+   "id": "biology-c11-370",
+   "type": "mcq",
+   "q": "Mitosis is also called",
+   "options": [
+    "reductional division",
+    "equational division",
+    "amitosis",
+    "recombination"
+   ]
+  },
+  {
+   "id": "biology-c11-371",
+   "type": "mcq",
+   "q": "The longest and most complex phase of meiosis is",
+   "options": [
+    "metaphase I",
+    "telophase II",
+    "prophase I",
+    "anaphase II"
+   ]
+  },
+  {
+   "id": "biology-c11-372",
+   "type": "mcq",
+   "q": "The spindle fibres attach to the chromosome at the",
+   "options": [
+    "kinetochore",
+    "nucleolus",
+    "telomere",
+    "chiasma"
+   ]
+  },
+  {
+   "id": "biology-c11-373",
+   "type": "mcq",
+   "q": "A bivalent seen in meiosis I is made up of how many chromatids?",
+   "options": [
+    "4",
+    "2",
+    "8",
+    "1"
+   ]
+  },
+  {
+   "id": "biology-c11-374",
+   "type": "mcq",
+   "q": "A cell with 24 chromosomes enters prophase I of meiosis. How many bivalents will be seen at diakinesis?",
+   "options": [
+    "24",
+    "6",
+    "12",
+    "48"
+   ]
+  },
+  {
+   "id": "biology-c11-375",
+   "type": "short",
+   "q": "What is interphase? Name its three phases and state the main event in each.",
+   "proposedAnswer": "Interphase is the period between two successive M phases. G1: cell grows and prepares for DNA replication; S: DNA is replicated; G2: proteins are made and the cell prepares for mitosis.",
+   "keyPoints": [
+    "Period between two M phases",
+    "G1 growth, S replication",
+    "G2 preparation for division"
+   ]
+  },
+  {
+   "id": "biology-c11-376",
+   "type": "short",
+   "q": "Explain how crossing over helps in producing variation.",
+   "proposedAnswer": "In pachytene, non-sister chromatids of homologous chromosomes exchange segments at recombination nodules. This gives chromatids with new combinations of alleles, so that the gametes carry combinations of genes not present in either parent.",
+   "keyPoints": [
+    "Non-sister chromatids exchange segments",
+    "Occurs in pachytene",
+    "New combinations of genes in gametes"
+   ]
+  },
+  {
+   "id": "biology-c11-377",
+   "type": "mcq",
+   "q": "Leaves appear green because chlorophyll",
+   "options": [
+    "reflects and transmits green light",
+    "absorbs green light fully",
+    "produces green light",
+    "absorbs all colours equally"
+   ]
+  },
+  {
+   "id": "biology-c11-378",
+   "type": "mcq",
+   "q": "The oxygen released during photosynthesis comes from",
+   "options": [
+    "carbon dioxide",
+    "glucose",
+    "water",
+    "chlorophyll"
+   ]
+  },
+  {
+   "id": "biology-c11-379",
+   "type": "mcq",
+   "q": "The first stable product of CO2 fixation in C4 plants is a four-carbon acid called",
+   "options": [
+    "3-PGA",
+    "RuBP",
+    "pyruvate",
+    "oxaloacetic acid"
+   ]
+  },
+  {
+   "id": "biology-c11-380",
+   "type": "mcq",
+   "q": "Electrons are passed from photosystem II to photosystem I through",
+   "options": [
+    "NADP reductase only",
+    "plastoquinone and the cytochrome b6f complex",
+    "ATP synthase",
+    "RuBisCO"
+   ]
+  },
+  {
+   "id": "biology-c11-381",
+   "type": "mcq",
+   "q": "In Engelmann's experiment, aerobic bacteria collected mostly in the blue and red regions of the light falling on a green alga. This showed that",
+   "options": [
+    "bacteria need green light",
+    "photosynthesis is highest in blue and red light",
+    "the alga does not need light",
+    "oxygen is not released"
+   ]
+  },
+  {
+   "id": "biology-c11-382",
+   "type": "mcq",
+   "q": "Cyclic photophosphorylation takes place mainly in the",
+   "options": [
+    "grana thylakoids",
+    "outer membrane",
+    "stroma lamellae",
+    "mitochondria"
+   ]
+  },
+  {
+   "id": "biology-c11-383",
+   "type": "short",
+   "q": "List the external factors that affect the rate of photosynthesis.",
+   "proposedAnswer": "Light intensity and quality, carbon dioxide concentration, temperature and water supply.",
+   "keyPoints": [
+    "Light",
+    "CO2 concentration",
+    "Temperature and water"
+   ]
+  },
+  {
+   "id": "biology-c11-384",
+   "type": "short",
+   "q": "Why are C4 plants more productive than C3 plants in hot, dry regions?",
+   "proposedAnswer": "C4 plants fix CO2 efficiently even when stomata are partly closed to save water. Concentrating CO2 near RuBisCO in bundle sheath cells prevents photorespiration, and they have a higher temperature optimum.",
+   "keyPoints": [
+    "Efficient CO2 fixation with partly closed stomata",
+    "No photorespiration",
+    "Higher temperature optimum"
+   ]
+  },
+  {
+   "id": "biology-c11-385",
+   "type": "mcq",
+   "q": "The energy currency of the cell is",
+   "options": [
+    "NADPH",
+    "DNA",
+    "glucose",
+    "ATP"
+   ]
+  },
+  {
+   "id": "biology-c11-386",
+   "type": "mcq",
+   "q": "Respiration is classified as a",
+   "options": [
+    "anabolic process",
+    "catabolic process",
+    "photochemical process",
+    "reductive process"
+   ]
+  },
+  {
+   "id": "biology-c11-387",
+   "type": "mcq",
+   "q": "ATP is formed directly by substrate-level phosphorylation in",
+   "options": [
+    "electron transport chain",
+    "chemiosmosis",
+    "glycolysis",
+    "photophosphorylation"
+   ]
+  },
+  {
+   "id": "biology-c11-388",
+   "type": "mcq",
+   "q": "The component of the electron transport chain that contains cytochromes a and a3 and passes electrons to oxygen is",
+   "options": [
+    "complex IV",
+    "complex I",
+    "complex II",
+    "complex III"
+   ]
+  },
+  {
+   "id": "biology-c11-389",
+   "type": "mcq",
+   "q": "Mature mammalian red blood cells lack mitochondria. They obtain their ATP mainly by",
+   "options": [
+    "glycolysis",
+    "the Krebs cycle",
+    "oxidative phosphorylation",
+    "photosynthesis"
+   ]
+  },
+  {
+   "id": "biology-c11-390",
+   "type": "mcq",
+   "q": "The total number of NADH molecules formed from one glucose molecule in glycolysis, the link reaction and the Krebs cycle together is",
+   "options": [
+    "6",
+    "8",
+    "12",
+    "10"
+   ]
+  },
+  {
+   "id": "biology-c11-391",
+   "type": "short",
+   "q": "Name the end product of glycolysis and the possible fates of it under aerobic and anaerobic conditions.",
+   "proposedAnswer": "The end product is pyruvic acid. With oxygen it enters the mitochondria for the Krebs cycle; without oxygen it undergoes fermentation to lactic acid or to ethanol and CO2.",
+   "keyPoints": [
+    "Pyruvic acid formed",
+    "Aerobic: Krebs cycle",
+    "Anaerobic: lactic acid or alcohol"
+   ]
+  },
+  {
+   "id": "biology-c11-392",
+   "type": "short",
+   "q": "Explain how the electron transport chain and the proton gradient lead to ATP synthesis.",
+   "proposedAnswer": "Electrons from NADH and FADH2 pass along the carriers of the inner mitochondrial membrane to oxygen. Energy released pumps protons into the intermembrane space, forming a gradient; protons flow back through ATP synthase, which makes ATP.",
+   "keyPoints": [
+    "Electrons passed down carriers to oxygen",
+    "Protons pumped across inner membrane",
+    "Flow through ATP synthase makes ATP"
+   ]
+  },
+  {
+   "id": "biology-c11-393",
+   "type": "mcq",
+   "q": "Plants can keep growing throughout their life because they have",
+   "options": [
+    "flowers",
+    "meristems",
+    "stomata",
+    "xylem"
+   ]
+  },
+  {
+   "id": "biology-c11-394",
+   "type": "mcq",
+   "q": "The most common natural auxin is",
+   "options": [
+    "indole-3-acetic acid",
+    "gibberellic acid",
+    "zeatin",
+    "abscisic acid"
+   ]
+  },
+  {
+   "id": "biology-c11-395",
+   "type": "mcq",
+   "q": "The bending of a shoot towards light occurs because auxin accumulates on the",
+   "options": [
+    "lit side, slowing growth",
+    "side of the root",
+    "shaded side, which grows faster",
+    "tip only"
+   ]
+  },
+  {
+   "id": "biology-c11-396",
+   "type": "mcq",
+   "q": "The primary root of a seedling growing downward into the soil shows",
+   "options": [
+    "negative phototropism",
+    "positive phototropism",
+    "negative geotropism",
+    "positive geotropism"
+   ]
+  },
+  {
+   "id": "biology-c11-397",
+   "type": "mcq",
+   "q": "The initial uptake of water by a dry seed, which makes it swell, takes place by",
+   "options": [
+    "osmosis only through stomata",
+    "active transport",
+    "transpiration",
+    "imbibition"
+   ]
+  },
+  {
+   "id": "biology-c11-398",
+   "type": "mcq",
+   "q": "Spraying sugarcane crops with a growth regulator increases the stem length and hence the sugar yield. The regulator is",
+   "options": [
+    "abscisic acid",
+    "gibberellin",
+    "ethylene",
+    "cytokinin"
+   ]
+  },
+  {
+   "id": "biology-c11-399",
+   "type": "short",
+   "q": "Differentiate between arithmetic and geometric growth.",
+   "proposedAnswer": "In arithmetic growth only one daughter cell keeps dividing and the other matures, so growth is linear and the curve is a straight line. In geometric growth both daughter cells divide, so growth is exponential at first.",
+   "keyPoints": [
+    "Arithmetic: one cell divides, linear plot",
+    "Geometric: both cells divide, exponential",
+    "Root elongation at constant rate is arithmetic"
+   ]
+  },
+  {
+   "id": "biology-c11-400",
+   "type": "short",
+   "q": "What is seed dormancy? Mention two causes and a method of breaking it.",
+   "proposedAnswer": "Dormancy is a period when a viable seed does not germinate even with suitable conditions. Causes: a hard impermeable seed coat, an immature embryo, or germination inhibitors like ABA. Methods: scarification of the coat, stratification, or treatment with gibberellins.",
+   "keyPoints": [
+    "Viable seed fails to germinate",
+    "Two causes such as hard coat or inhibitors",
+    "A method such as scarification or gibberellin"
+   ]
+  },
+  {
+   "id": "biology-c11-401",
+   "type": "mcq",
+   "q": "The protein-digesting enzyme in gastric juice is",
+   "options": [
+    "pepsin",
+    "amylase",
+    "lipase",
+    "maltase"
+   ]
+  },
+  {
+   "id": "biology-c11-402",
+   "type": "mcq",
+   "q": "The blood vessels that carry blood away from the heart are",
+   "options": [
+    "veins",
+    "capillaries",
+    "arteries",
+    "venules"
+   ]
+  },
+  {
+   "id": "biology-c11-403",
+   "type": "mcq",
+   "q": "The most abundant type of white blood cells (leucocytes) in human blood is",
+   "options": [
+    "lymphocytes",
+    "neutrophils",
+    "eosinophils",
+    "basophils"
+   ]
+  },
+  {
+   "id": "biology-c11-404",
+   "type": "mcq",
+   "q": "In an ECG, the QRS complex represents",
+   "options": [
+    "atrial depolarisation",
+    "atrial repolarisation",
+    "ventricular repolarisation",
+    "ventricular depolarisation"
+   ]
+  },
+  {
+   "id": "biology-c11-405",
+   "type": "mcq",
+   "q": "The rhythm centre of respiration, which controls the basic rate of breathing, lies in the",
+   "options": [
+    "cerebrum",
+    "cerebellum",
+    "hypothalamus",
+    "medulla oblongata"
+   ]
+  },
+  {
+   "id": "biology-c11-406",
+   "type": "mcq",
+   "q": "A person has a vital capacity of 4600 mL and a residual volume of 1200 mL. The total lung capacity is",
+   "options": [
+    "3400 mL",
+    "5800 mL",
+    "4600 mL",
+    "6200 mL"
+   ]
+  },
+  {
+   "id": "biology-c11-407",
+   "type": "short",
+   "q": "Write three differences between arteries and veins.",
+   "proposedAnswer": "Arteries carry blood away from the heart, have thick elastic walls and have no valves; veins carry blood towards the heart, have thinner walls and have valves that prevent backflow.",
+   "keyPoints": [
+    "Direction of blood flow",
+    "Wall thickness",
+    "Valves absent or present"
+   ]
+  },
+  {
+   "id": "biology-c11-408",
+   "type": "short",
+   "q": "Explain how blood clots after an injury.",
+   "proposedAnswer": "Injured tissue and platelets release thromboplastin, which activates a cascade that converts inactive prothrombin into thrombin in the presence of Ca2+. Thrombin changes soluble fibrinogen into insoluble fibrin threads that trap blood cells, forming the clot.",
+   "keyPoints": [
+    "Platelets and tissue release thromboplastin",
+    "Prothrombin changes to thrombin with calcium",
+    "Fibrinogen changes to fibrin forming the clot"
+   ]
+  },
+  {
+   "id": "biology-c11-409",
+   "type": "mcq",
+   "q": "The central nervous system consists of",
+   "options": [
+    "nerves and ganglia",
+    "brain and nerves",
+    "brain and spinal cord",
+    "spinal cord and sense organs"
+   ]
+  },
+  {
+   "id": "biology-c11-410",
+   "type": "mcq",
+   "q": "The hormone called the 'emergency hormone' or 'fight or flight hormone' is",
+   "options": [
+    "insulin",
+    "thyroxine",
+    "glucagon",
+    "adrenaline"
+   ]
+  },
+  {
+   "id": "biology-c11-411",
+   "type": "mcq",
+   "q": "The neurotransmitter released at a neuromuscular junction is",
+   "options": [
+    "acetylcholine",
+    "adrenaline",
+    "insulin",
+    "serotonin"
+   ]
+  },
+  {
+   "id": "biology-c11-412",
+   "type": "mcq",
+   "q": "During contraction of a muscle fibre, the band that retains its length is the",
+   "options": [
+    "I band",
+    "A band",
+    "H zone",
+    "Z line"
+   ]
+  },
+  {
+   "id": "biology-c11-413",
+   "type": "mcq",
+   "q": "The hormone that stimulates the ejection of milk from the mammary glands is",
+   "options": [
+    "prolactin",
+    "oxytocin",
+    "progesterone",
+    "thyroxine"
+   ]
+  },
+  {
+   "id": "biology-c11-414",
+   "type": "mcq",
+   "q": "In haemodialysis, nitrogenous wastes leave the blood because the dialysing fluid",
+   "options": [
+    "is rich in urea",
+    "has a higher protein concentration",
+    "is hot enough to burn them",
+    "has the same composition as plasma but no nitrogenous wastes"
+   ]
+  },
+  {
+   "id": "biology-c11-415",
+   "type": "short",
+   "q": "Describe the sliding filament theory of muscle contraction in brief.",
+   "proposedAnswer": "A nerve impulse releases Ca2+ in the muscle fibre; Ca2+ binds troponin and exposes the myosin-binding sites on actin. Myosin heads bind and pull the thin filaments towards the centre of the sarcomere using ATP, shortening the sarcomere.",
+   "keyPoints": [
+    "Ca2+ binds troponin",
+    "Myosin heads bind actin and pull",
+    "Thin filaments slide, sarcomere shortens"
+   ]
+  },
+  {
+   "id": "biology-c11-416",
+   "type": "short",
+   "q": "Why does a person with diabetes insipidus pass a large volume of dilute urine?",
+   "proposedAnswer": "The condition arises from a lack of ADH or of response to it, so the distal tubule and collecting duct do not reabsorb enough water. A large volume of dilute urine is lost and the person feels very thirsty.",
+   "keyPoints": [
+    "Lack of ADH or response",
+    "Less water reabsorption",
+    "Large dilute urine and thirst"
+   ]
+  },
+  {
+   "id": "biology-c11-417",
+   "type": "mcq",
+   "q": "Which of the following is NOT a kingdom in Whittaker's five kingdom classification?",
+   "options": [
+    "Monera",
+    "Protozoa",
+    "Fungi",
+    "Animalia"
+   ]
+  },
+  {
+   "id": "biology-c11-418",
+   "type": "mcq",
+   "q": "A plant bending towards light and an animal withdrawing from a hot object both show that living organisms",
+   "options": [
+    "never change in size",
+    "can only reproduce",
+    "are made only of water",
+    "respond to stimuli from the environment"
+   ]
+  },
+  {
+   "id": "biology-c11-419",
+   "type": "mcq",
+   "q": "A group of related orders is placed in a",
+   "options": [
+    "family",
+    "genus",
+    "class",
+    "species"
+   ]
+  },
+  {
+   "id": "biology-c11-420",
+   "type": "mcq",
+   "q": "A book that gives the description of the plants found in a particular area is called a",
+   "options": [
+    "flora",
+    "key",
+    "herbarium",
+    "monograph on one family only"
+   ]
+  },
+  {
+   "id": "biology-c11-421",
+   "type": "mcq",
+   "q": "Which feature is shown by a living cell but NOT by a growing crystal of salt?",
+   "options": [
+    "Increase in size",
+    "Regular shape",
+    "Presence of chemical substances",
+    "Metabolism"
+   ]
+  },
+  {
+   "id": "biology-c11-422",
+   "type": "mcq",
+   "q": "The lion (Panthera leo) and the domestic cat (Felis domestica) share which lowest taxonomic category?",
+   "options": [
+    "Genus",
+    "Species",
+    "Variety",
+    "Family"
+   ]
+  },
+  {
+   "id": "biology-c11-423",
+   "type": "short",
+   "q": "Name two taxonomic aids and state one use of each.",
+   "proposedAnswer": "A herbarium stores dried pressed plant specimens for identification; a museum keeps preserved animal specimens for study; a botanical garden or zoo shows living organisms; a key helps identify organisms.",
+   "keyPoints": [
+    "Two aids named correctly",
+    "Use of each stated",
+    "Aids support identification"
+   ]
+  },
+  {
+   "id": "biology-c11-424",
+   "type": "short",
+   "q": "Why is metabolism considered the most dependable defining feature of life?",
+   "proposedAnswer": "All living organisms, including sterile ones, carry out chemical reactions inside the body, whereas non-living objects do not. Features like growth or reproduction may be absent in some living beings, but metabolism never is.",
+   "keyPoints": [
+    "All living organisms show metabolism",
+    "Non-living things do not",
+    "Growth or reproduction can be absent in some living organisms"
+   ]
+  },
+  {
+   "id": "biology-c11-425",
+   "type": "mcq",
+   "q": "Which of the following is a brown alga?",
+   "options": [
+    "Spirogyra",
+    "Porphyra",
+    "Volvox",
+    "Laminaria"
+   ]
+  },
+  {
+   "id": "biology-c11-426",
+   "type": "mcq",
+   "q": "Plants whose seeds are enclosed within fruits are",
+   "options": [
+    "gymnosperms",
+    "pteridophytes",
+    "angiosperms",
+    "bryophytes"
+   ]
+  },
+  {
+   "id": "biology-c11-427",
+   "type": "mcq",
+   "q": "Angiosperms with seeds having a single cotyledon are called",
+   "options": [
+    "monocotyledons",
+    "dicotyledons",
+    "gymnosperms",
+    "pteridophytes"
+   ]
+  },
+  {
+   "id": "biology-c11-428",
+   "type": "mcq",
+   "q": "The main plant body of a moss or liverwort is the",
+   "options": [
+    "diploid sporophyte",
+    "haploid gametophyte",
+    "zygote",
+    "spore mother cell"
+   ]
+  },
+  {
+   "id": "biology-c11-429",
+   "type": "mcq",
+   "q": "In a moss, meiosis occurs in the",
+   "options": [
+    "protonema",
+    "spore capsule",
+    "antheridium",
+    "leafy gametophyte"
+   ]
+  },
+  {
+   "id": "biology-c11-430",
+   "type": "mcq",
+   "q": "In seed plants the female gametophyte is retained within the",
+   "options": [
+    "ovule on the sporophyte",
+    "soil",
+    "pollen grain",
+    "root"
+   ]
+  },
+  {
+   "id": "biology-c11-431",
+   "type": "short",
+   "q": "Write three differences between monocotyledons and dicotyledons.",
+   "proposedAnswer": "Monocots have one cotyledon, parallel leaf venation and fibrous roots; dicots have two cotyledons, reticulate venation and a tap root system.",
+   "keyPoints": [
+    "Number of cotyledons",
+    "Venation",
+    "Root system"
+   ]
+  },
+  {
+   "id": "biology-c11-432",
+   "type": "short",
+   "q": "Why is Selaginella considered a step towards the seed habit?",
+   "proposedAnswer": "Selaginella is heterosporous, producing megaspores and microspores; the female gametophyte develops within the megaspore, which is retained on the parent sporophyte, and the zygote develops into the young embryo there, as in seed plants.",
+   "keyPoints": [
+    "Heterospory",
+    "Female gametophyte retained on the parent",
+    "Embryo develops in the retained structure"
+   ]
+  },
+  {
+   "id": "biology-c11-433",
+   "type": "mcq",
+   "q": "Which of the following is a sponge?",
+   "options": [
+    "Hydra",
+    "Aurelia",
+    "Sycon",
+    "Pila"
+   ]
+  },
+  {
+   "id": "biology-c11-434",
+   "type": "mcq",
+   "q": "A frog belongs to class",
+   "options": [
+    "Reptilia",
+    "Amphibia",
+    "Aves",
+    "Pisces"
+   ]
+  },
+  {
+   "id": "biology-c11-435",
+   "type": "mcq",
+   "q": "Octopus and Pila belong to phylum",
+   "options": [
+    "Mollusca",
+    "Annelida",
+    "Arthropoda",
+    "Echinodermata"
+   ]
+  },
+  {
+   "id": "biology-c11-436",
+   "type": "mcq",
+   "q": "An adult insect has how many pairs of legs?",
+   "options": [
+    "Two",
+    "Four",
+    "Five",
+    "Three"
+   ]
+  },
+  {
+   "id": "biology-c11-437",
+   "type": "mcq",
+   "q": "Animals in which the notochord extends from head to tail and persists throughout life, such as Branchiostoma, belong to",
+   "options": [
+    "Urochordata",
+    "Vertebrata",
+    "Hemichordata",
+    "Cephalochordata"
+   ]
+  },
+  {
+   "id": "biology-c11-438",
+   "type": "mcq",
+   "q": "In which group is the notochord present only in the tail of the larva?",
+   "options": [
+    "Cephalochordata",
+    "Urochordata",
+    "Mammalia",
+    "Aves"
+   ]
+  },
+  {
+   "id": "biology-c11-439",
+   "type": "short",
+   "q": "State any two characteristics of class Reptilia.",
+   "proposedAnswer": "Reptiles have a dry scaly skin without glands, lay shelled eggs on land, mostly have a three-chambered heart (crocodiles have four) and are cold-blooded.",
+   "keyPoints": [
+    "Dry scaly skin",
+    "Shelled eggs",
+    "Mostly three-chambered heart"
+   ]
+  },
+  {
+   "id": "biology-c11-440",
+   "type": "short",
+   "q": "The adult starfish is radially symmetrical but its larva is bilaterally symmetrical. What does this suggest?",
+   "proposedAnswer": "It suggests that echinoderms evolved from bilaterally symmetrical ancestors and became radial secondarily as adults, adapted to a slow-moving or sessile life.",
+   "keyPoints": [
+    "Larva bilateral, adult radial",
+    "Ancestors were bilaterally symmetrical",
+    "Radial symmetry is secondary"
+   ]
+  },
+  {
+   "id": "biology-c11-441",
+   "type": "mcq",
+   "q": "The region of the stem where a leaf arises is called the",
+   "options": [
+    "node",
+    "internode",
+    "apex",
+    "axil"
+   ]
+  },
+  {
+   "id": "biology-c11-442",
+   "type": "mcq",
+   "q": "Thin-walled living cells that store food and carry out photosynthesis when they contain chloroplasts form",
+   "options": [
+    "sclerenchyma",
+    "parenchyma",
+    "xylem",
+    "cork"
+   ]
+  },
+  {
+   "id": "biology-c11-443",
+   "type": "mcq",
+   "q": "The thorns of Bougainvillea and Citrus are modifications of",
+   "options": [
+    "roots",
+    "leaves",
+    "flowers",
+    "axillary buds (stems)"
+   ]
+  },
+  {
+   "id": "biology-c11-444",
+   "type": "mcq",
+   "q": "A typical anther is",
+   "options": [
+    "unilobed and monosporangiate",
+    "trilobed",
+    "bilobed and tetrasporangiate",
+    "unilobed and bisporangiate"
+   ]
+  },
+  {
+   "id": "biology-c11-445",
+   "type": "mcq",
+   "q": "Sapwood of a tree trunk is",
+   "options": [
+    "the dark, central, non-conducting wood",
+    "the cork of the tree",
+    "the outer, lighter region of secondary xylem that conducts water",
+    "the phloem of the trunk"
+   ]
+  },
+  {
+   "id": "biology-c11-446",
+   "type": "mcq",
+   "q": "Hairs (trichomes) on the stem epidermis often help the plant by",
+   "options": [
+    "absorbing water",
+    "reducing water loss",
+    "storing starch",
+    "making cork"
+   ]
+  },
+  {
+   "id": "biology-c11-447",
+   "type": "short",
+   "q": "Give one example each of a root modified for storage, support and respiration.",
+   "proposedAnswer": "Storage: carrot or radish (also sweet potato, turnip); support: prop roots of banyan or stilt roots of maize; respiration: pneumatophores of Rhizophora.",
+   "keyPoints": [
+    "Storage root example",
+    "Support root example",
+    "Pneumatophores for respiration"
+   ]
+  },
+  {
+   "id": "biology-c11-448",
+   "type": "short",
+   "q": "Describe how secondary growth begins in a dicot stem.",
+   "proposedAnswer": "The cambium between xylem and phloem in each bundle (fascicular) is joined by cambium formed from cells of medullary rays (interfascicular), forming a cambial ring. It cuts off secondary xylem inwards and secondary phloem outwards.",
+   "keyPoints": [
+    "Fascicular and interfascicular cambium form a ring",
+    "Secondary xylem inward",
+    "Secondary phloem outward"
+   ]
+  },
+  {
+   "id": "biology-c11-449",
+   "type": "mcq",
+   "q": "Blood is a type of",
+   "options": [
+    "epithelial tissue",
+    "muscular tissue",
+    "neural tissue",
+    "connective tissue"
+   ]
+  },
+  {
+   "id": "biology-c11-450",
+   "type": "mcq",
+   "q": "The body of a frog is divided into",
+   "options": [
+    "head and trunk",
+    "head, neck and trunk",
+    "head, thorax and abdomen",
+    "cephalothorax and abdomen"
+   ]
+  },
+  {
+   "id": "biology-c11-451",
+   "type": "mcq",
+   "q": "The thorax of a cockroach consists of how many segments?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "6"
+   ]
+  },
+  {
+   "id": "biology-c11-452",
+   "type": "mcq",
+   "q": "The main nitrogenous waste of a cockroach is",
+   "options": [
+    "urea",
+    "ammonia",
+    "uric acid",
+    "creatinine"
+   ]
+  },
+  {
+   "id": "biology-c11-453",
+   "type": "mcq",
+   "q": "A male frog can be distinguished from a female by the presence of",
+   "options": [
+    "a longer tail",
+    "a tympanum",
+    "vocal sacs and a copulatory pad on the first digit of the forelimb",
+    "three-chambered heart"
+   ]
+  },
+  {
+   "id": "biology-c11-454",
+   "type": "mcq",
+   "q": "Fertilisation in frogs is",
+   "options": [
+    "external, in water",
+    "internal, in the oviduct",
+    "internal, in the cloaca",
+    "absent"
+   ]
+  },
+  {
+   "id": "biology-c11-455",
+   "type": "short",
+   "q": "Differentiate between simple and compound epithelium.",
+   "proposedAnswer": "Simple epithelium has a single layer of cells resting on the basement membrane and functions in secretion, absorption and diffusion; compound epithelium has two or more layers and mainly protects, as in the skin.",
+   "keyPoints": [
+    "Single layer or many layers",
+    "Simple: absorption, secretion",
+    "Compound: protection"
+   ]
+  },
+  {
+   "id": "biology-c11-456",
+   "type": "short",
+   "q": "What is meant by the portal system in the frog? Name two portal systems.",
+   "proposedAnswer": "A portal system is one in which a vein carries blood from one organ to the capillaries of another organ before it goes to the heart. The frog has the hepatic portal system (intestine to liver) and the renal portal system (hind limbs to kidneys).",
+   "keyPoints": [
+    "Vein takes blood to another capillary network",
+    "Hepatic portal system",
+    "Renal portal system"
+   ]
+  },
+  {
+   "id": "biology-c11-457",
+   "type": "mcq",
+   "q": "The cell theory was formulated by",
+   "options": [
+    "Schleiden and Schwann",
+    "Watson and Crick",
+    "Hooke and Brown",
+    "Virchow and Hershey"
+   ]
+  },
+  {
+   "id": "biology-c11-458",
+   "type": "mcq",
+   "q": "Among the following, the smallest known cells are those of",
+   "options": [
+    "bacteria such as E. coli",
+    "red blood cells",
+    "nerve cells",
+    "Mycoplasma"
+   ]
+  },
+  {
+   "id": "biology-c11-459",
+   "type": "mcq",
+   "q": "The small bristle-like fibres on the bacterial cell surface that help in attachment to rocks or host tissues are",
+   "options": [
+    "flagella",
+    "fimbriae",
+    "plasmids",
+    "ribosomes"
+   ]
+  },
+  {
+   "id": "biology-c11-460",
+   "type": "mcq",
+   "q": "The number of membranes covering a chloroplast is",
+   "options": [
+    "one",
+    "three",
+    "two",
+    "four"
+   ]
+  },
+  {
+   "id": "biology-c11-461",
+   "type": "mcq",
+   "q": "Insect flight muscle cells contain a very large number of mitochondria because they",
+   "options": [
+    "store fat",
+    "are non-living",
+    "need large amounts of ATP",
+    "make ribosomes"
+   ]
+  },
+  {
+   "id": "biology-c11-462",
+   "type": "mcq",
+   "q": "Cytoplasmic bridges that pass through the cell walls and connect neighbouring plant cells are",
+   "options": [
+    "desmosomes",
+    "tight junctions",
+    "gap junctions",
+    "plasmodesmata"
+   ]
+  },
+  {
+   "id": "biology-c11-463",
+   "type": "short",
+   "q": "State any three functions of the Golgi apparatus.",
+   "proposedAnswer": "It packages materials to be delivered to the intracellular targets or secreted, modifies proteins and lipids (for example glycosylation), forms glycoproteins and glycolipids, and forms lysosomes.",
+   "keyPoints": [
+    "Packaging and secretion",
+    "Modification of proteins and lipids",
+    "Formation of glycoproteins or lysosomes"
+   ]
+  },
+  {
+   "id": "biology-c11-464",
+   "type": "short",
+   "q": "A cell that makes large quantities of protein has a very prominent nucleolus. Explain.",
+   "proposedAnswer": "The nucleolus is the site of rRNA synthesis and ribosome assembly, so a cell making much protein needs many ribosomes and has an enlarged, active nucleolus.",
+   "keyPoints": [
+    "Nucleolus makes rRNA",
+    "Ribosomes are assembled there",
+    "More protein means more ribosomes"
+   ]
+  },
+  {
+   "id": "biology-c11-465",
+   "type": "mcq",
+   "q": "The disaccharide found in milk is",
+   "options": [
+    "sucrose",
+    "maltose",
+    "lactose",
+    "fructose"
+   ]
+  },
+  {
+   "id": "biology-c11-466",
+   "type": "mcq",
+   "q": "Fatty acids that have no double bonds between carbon atoms are",
+   "options": [
+    "unsaturated",
+    "saturated",
+    "aromatic",
+    "polyunsaturated"
+   ]
+  },
+  {
+   "id": "biology-c11-467",
+   "type": "mcq",
+   "q": "Which of the following is a monosaccharide?",
+   "options": [
+    "Sucrose",
+    "Lactose",
+    "Starch",
+    "Fructose"
+   ]
+  },
+  {
+   "id": "biology-c11-468",
+   "type": "mcq",
+   "q": "A nitrogenous base found in RNA but not in DNA is",
+   "options": [
+    "uracil",
+    "thymine",
+    "adenine",
+    "guanine"
+   ]
+  },
+  {
+   "id": "biology-c11-469",
+   "type": "mcq",
+   "q": "When all the active sites of an enzyme are occupied by substrate, increasing the substrate concentration further will",
+   "options": [
+    "cause no further increase in reaction rate",
+    "double the reaction rate",
+    "stop the reaction",
+    "destroy the enzyme"
+   ]
+  },
+  {
+   "id": "biology-c11-470",
+   "type": "mcq",
+   "q": "In the phospholipid bilayer of a membrane, the hydrophobic tails",
+   "options": [
+    "face the watery surfaces on both sides",
+    "face each other, towards the interior",
+    "lie on one side only",
+    "float outside the membrane"
+   ]
+  },
+  {
+   "id": "biology-c11-471",
+   "type": "short",
+   "q": "Write three differences between DNA and RNA.",
+   "proposedAnswer": "DNA has deoxyribose sugar, thymine as a base and is usually double-stranded; RNA has ribose sugar, uracil in place of thymine and is usually single-stranded.",
+   "keyPoints": [
+    "Sugar: deoxyribose or ribose",
+    "Thymine or uracil",
+    "Double or single strand"
+   ]
+  },
+  {
+   "id": "biology-c11-472",
+   "type": "short",
+   "q": "What is denaturation of a protein? Why does boiling an egg cause it?",
+   "proposedAnswer": "Denaturation is the loss of the secondary, tertiary or quaternary structure of a protein, usually by heat or extreme pH, without breaking peptide bonds. Heat unfolds the egg white proteins, so they change shape irreversibly and the egg turns solid.",
+   "keyPoints": [
+    "Loss of three-dimensional structure",
+    "Peptide bonds are not broken",
+    "Heat unfolds egg proteins"
+   ]
+  },
+  {
+   "id": "biology-c11-473",
+   "type": "mcq",
+   "q": "Chromosomes first become visible as condensed structures in",
+   "options": [
+    "metaphase",
+    "prophase",
+    "telophase",
+    "interphase"
+   ]
+  },
+  {
+   "id": "biology-c11-474",
+   "type": "mcq",
+   "q": "Meiosis takes place during the formation of",
+   "options": [
+    "gametes",
+    "muscle tissue",
+    "skin cells",
+    "blood plasma"
+   ]
+  },
+  {
+   "id": "biology-c11-475",
+   "type": "mcq",
+   "q": "Mitosis of a diploid cell produces",
+   "options": [
+    "haploid cells with variation",
+    "four haploid cells",
+    "two cells with half the DNA",
+    "two genetically identical diploid cells"
+   ]
+  },
+  {
+   "id": "biology-c11-476",
+   "type": "mcq",
+   "q": "Meiosis II is similar to",
+   "options": [
+    "binary fission",
+    "meiosis I",
+    "mitosis",
+    "amitosis"
+   ]
+  },
+  {
+   "id": "biology-c11-477",
+   "type": "mcq",
+   "q": "A diploid cell has 6 chromosomes (2n = 6). How many chromosomes are present in the cell at anaphase II of meiosis?",
+   "options": [
+    "3",
+    "12",
+    "6",
+    "2"
+   ]
+  },
+  {
+   "id": "biology-c11-478",
+   "type": "mcq",
+   "q": "The liquid endosperm of coconut is multinucleate because",
+   "options": [
+    "karyokinesis occurs without cytokinesis",
+    "cytokinesis occurs without karyokinesis",
+    "the nuclei fuse",
+    "there are no nuclei"
+   ]
+  },
+  {
+   "id": "biology-c11-479",
+   "type": "short",
+   "q": "Name the five stages of meiotic prophase I in sequence.",
+   "proposedAnswer": "Leptotene, zygotene, pachytene, diplotene and diakinesis.",
+   "keyPoints": [
+    "Leptotene and zygotene",
+    "Pachytene",
+    "Diplotene and diakinesis"
+   ]
+  },
+  {
+   "id": "biology-c11-480",
+   "type": "short",
+   "q": "Cells of the adult heart and nerve tissue remain in G0. What does this mean and what is its consequence?",
+   "proposedAnswer": "G0 is a quiescent stage in which cells leave the cell cycle and do not divide. Such cells remain metabolically active but cannot replace themselves when damaged, so damage to heart or nerve cells is not easily repaired.",
+   "keyPoints": [
+    "Cells exit the cycle, no division",
+    "Remain metabolically active",
+    "Poor repair after damage"
+   ]
+  },
+  {
+   "id": "biology-c11-481",
+   "type": "mcq",
+   "q": "Which gas is taken in by green plants during photosynthesis?",
+   "options": [
+    "Oxygen",
+    "Nitrogen",
+    "Carbon dioxide",
+    "Hydrogen"
+   ]
+  },
+  {
+   "id": "biology-c11-482",
+   "type": "mcq",
+   "q": "Julius von Sachs showed that the green parts of plants make glucose, which is stored as",
+   "options": [
+    "glycogen",
+    "protein",
+    "fat",
+    "starch"
+   ]
+  },
+  {
+   "id": "biology-c11-483",
+   "type": "mcq",
+   "q": "The number of carbon atoms in RuBP, the primary CO2 acceptor of the Calvin cycle, is",
+   "options": [
+    "5",
+    "3",
+    "6",
+    "4"
+   ]
+  },
+  {
+   "id": "biology-c11-484",
+   "type": "mcq",
+   "q": "During the light reaction, protons accumulate in the",
+   "options": [
+    "stroma",
+    "thylakoid lumen",
+    "outer membrane",
+    "cytoplasm"
+   ]
+  },
+  {
+   "id": "biology-c11-485",
+   "type": "mcq",
+   "q": "Each photosystem consists of a reaction centre and",
+   "options": [
+    "only the ATP synthase",
+    "a light harvesting complex",
+    "the Calvin cycle enzymes",
+    "a nucleus"
+   ]
+  },
+  {
+   "id": "biology-c11-486",
+   "type": "mcq",
+   "q": "At the light compensation point of a plant,",
+   "options": [
+    "photosynthesis stops completely",
+    "respiration stops",
+    "CO2 fixation is zero",
+    "the rate of photosynthesis equals the rate of respiration"
+   ]
+  },
+  {
+   "id": "biology-c11-487",
+   "type": "short",
+   "q": "Differentiate between the C3 and C4 pathways with reference to the first product and the site of the Calvin cycle.",
+   "proposedAnswer": "In the C3 pathway the first stable product is the three-carbon 3-PGA, and the Calvin cycle occurs in mesophyll cells. In the C4 pathway the first product is the four-carbon OAA formed in mesophyll, and the Calvin cycle occurs in bundle sheath cells.",
+   "keyPoints": [
+    "C3 first product 3-PGA",
+    "C4 first product OAA",
+    "Calvin cycle in mesophyll or bundle sheath"
+   ]
+  },
+  {
+   "id": "biology-c11-488",
+   "type": "short",
+   "q": "What is the compensation point? Why can a plant not grow if it stays at this point?",
+   "proposedAnswer": "It is the light intensity at which the rate of photosynthesis equals the rate of respiration, so there is no net gain of food. Without a surplus of sugar, the plant cannot make new tissue for growth.",
+   "keyPoints": [
+    "Photosynthesis equals respiration",
+    "No net gain of food",
+    "No surplus for growth"
+   ]
+  },
+  {
+   "id": "biology-c11-489",
+   "type": "mcq",
+   "q": "The process in which food such as glucose is oxidised to release energy in cells is",
+   "options": [
+    "respiration",
+    "photosynthesis",
+    "transpiration",
+    "fertilisation"
+   ]
+  },
+  {
+   "id": "biology-c11-490",
+   "type": "mcq",
+   "q": "Glycolysis is also known as the",
+   "options": [
+    "Calvin pathway",
+    "Hatch-Slack pathway",
+    "EMP pathway",
+    "Krebs cycle"
+   ]
+  },
+  {
+   "id": "biology-c11-491",
+   "type": "mcq",
+   "q": "Citric acid, the first product of the Krebs cycle, has how many carbon atoms?",
+   "options": [
+    "4",
+    "6",
+    "5",
+    "3"
+   ]
+  },
+  {
+   "id": "biology-c11-492",
+   "type": "mcq",
+   "q": "The part of ATP synthase that forms the channel through which protons cross the inner mitochondrial membrane is",
+   "options": [
+    "F1",
+    "the cristae",
+    "the matrix",
+    "F0"
+   ]
+  },
+  {
+   "id": "biology-c11-493",
+   "type": "mcq",
+   "q": "Fermentation is important to a cell without oxygen because it",
+   "options": [
+    "makes much ATP",
+    "produces oxygen",
+    "destroys glucose",
+    "regenerates NAD+ so that glycolysis can continue"
+   ]
+  },
+  {
+   "id": "biology-c11-494",
+   "type": "mcq",
+   "q": "Yeast cells ferment 5 molecules of glucose. The net ATP produced is",
+   "options": [
+    "5",
+    "20",
+    "10",
+    "38"
+   ]
+  },
+  {
+   "id": "biology-c11-495",
+   "type": "short",
+   "q": "Describe the link reaction between glycolysis and the Krebs cycle.",
+   "proposedAnswer": "Pyruvic acid enters the mitochondrial matrix and undergoes oxidative decarboxylation with NAD+ and coenzyme A, catalysed by pyruvate dehydrogenase. It forms acetyl CoA, CO2 and NADH.",
+   "keyPoints": [
+    "Occurs in the matrix",
+    "Pyruvate gives acetyl CoA and CO2",
+    "NADH formed"
+   ]
+  },
+  {
+   "id": "biology-c11-496",
+   "type": "short",
+   "q": "Why does oxidation of FADH2 yield fewer ATP molecules than that of NADH?",
+   "proposedAnswer": "FADH2 passes its electrons into the chain at complex II, bypassing complex I, so fewer protons are pumped across the membrane and less ATP is produced (2 ATP against 3).",
+   "keyPoints": [
+    "FADH2 enters at complex II",
+    "Complex I is bypassed",
+    "Fewer protons pumped, less ATP"
+   ]
+  },
+  {
+   "id": "biology-c11-497",
+   "type": "mcq",
+   "q": "The coiling of a pea tendril around a support is an example of",
+   "options": [
+    "phototropism",
+    "geotropism",
+    "hydrotropism",
+    "thigmotropism"
+   ]
+  },
+  {
+   "id": "biology-c11-498",
+   "type": "mcq",
+   "q": "Spraying grapes with gibberellin results in",
+   "options": [
+    "early ripening",
+    "smaller bunches",
+    "longer stalks and larger fruits",
+    "fruit drop"
+   ]
+  },
+  {
+   "id": "biology-c11-499",
+   "type": "mcq",
+   "q": "Plants such as tomato that flower regardless of the length of day are called",
+   "options": [
+    "day-neutral plants",
+    "short-day plants",
+    "long-day plants",
+    "winter annuals"
+   ]
+  },
+  {
+   "id": "biology-c11-500",
+   "type": "mcq",
+   "q": "Which of these plant hormones is chiefly a growth inhibitor?",
+   "options": [
+    "Auxin",
+    "Abscisic acid",
+    "Cytokinin",
+    "Gibberellin"
+   ]
+  }
+ ]
+}

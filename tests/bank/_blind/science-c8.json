@@ -1,0 +1,5501 @@
+{
+ "class": 8,
+ "subject": "science",
+ "items": [
+  {
+   "id": "science-c8-001",
+   "type": "mcq",
+   "q": "Crops that are sown in the winter season (October to December) and harvested in spring are called:",
+   "options": [
+    "Kharif crops",
+    "Rabi crops",
+    "Pulse crops",
+    "Fodder crops"
+   ]
+  },
+  {
+   "id": "science-c8-002",
+   "type": "mcq",
+   "q": "Which of the following is a kharif crop?",
+   "options": [
+    "Wheat",
+    "Mustard",
+    "Gram",
+    "Paddy"
+   ]
+  },
+  {
+   "id": "science-c8-003",
+   "type": "mcq",
+   "q": "Loosening and turning of the soil before sowing seeds is called:",
+   "options": [
+    "Tilling",
+    "Sowing",
+    "Irrigation",
+    "Threshing"
+   ]
+  },
+  {
+   "id": "science-c8-004",
+   "type": "mcq",
+   "q": "Which of the following is a manure and not a chemical fertiliser?",
+   "options": [
+    "Urea",
+    "Superphosphate",
+    "Compost",
+    "NPK mixture"
+   ]
+  },
+  {
+   "id": "science-c8-005",
+   "type": "short",
+   "q": "Why do farmers grow a leguminous crop such as gram or peas in a field after a cereal crop?",
+   "proposedAnswer": "Leguminous plants have Rhizobium bacteria in their root nodules. These bacteria fix nitrogen from the air and add nitrogen compounds to the soil, so the soil becomes richer for the next crop.",
+   "keyPoints": [
+    "Roots of legumes have Rhizobium bacteria",
+    "Bacteria fix atmospheric nitrogen",
+    "Soil nitrogen is replenished"
+   ]
+  },
+  {
+   "id": "science-c8-006",
+   "type": "mcq",
+   "q": "A farmer has sandy soil, very little water and an orchard of fruit trees. Which method of irrigation would save the most water for her?",
+   "options": [
+    "Flooding the field from a canal",
+    "Rahat system",
+    "Drip system",
+    "Moat (pulley system)"
+   ]
+  },
+  {
+   "id": "science-c8-007",
+   "type": "mcq",
+   "q": "A farmer stores harvested wheat in a sack without drying it properly. What is the most likely result?",
+   "options": [
+    "Moisture lets fungi and pests grow and spoil the grain",
+    "The grain slowly turns into manure",
+    "The grain becomes richer in nutrients",
+    "The grain gets converted into seeds of a new variety"
+   ]
+  },
+  {
+   "id": "science-c8-008",
+   "type": "short",
+   "q": "Why is the excessive use of chemical fertilisers harmful to the environment?",
+   "proposedAnswer": "Excess fertilisers reduce soil fertility over time and are washed into ponds and rivers, where they cause pollution and harm water life. They can also contaminate drinking water.",
+   "keyPoints": [
+    "Reduces soil fertility in the long run",
+    "Washed into water bodies and pollutes them",
+    "Harms aquatic life"
+   ]
+  },
+  {
+   "id": "science-c8-009",
+   "type": "mcq",
+   "q": "Which of the following is a fungus?",
+   "options": [
+    "Amoeba",
+    "Rhizobium",
+    "Chlamydomonas",
+    "Yeast"
+   ]
+  },
+  {
+   "id": "science-c8-010",
+   "type": "mcq",
+   "q": "Malaria is spread by:",
+   "options": [
+    "The housefly",
+    "The female Anopheles mosquito",
+    "The female Aedes mosquito",
+    "The cockroach"
+   ]
+  },
+  {
+   "id": "science-c8-011",
+   "type": "mcq",
+   "q": "Rhizobium bacteria are useful to farmers because they:",
+   "options": [
+    "Kill weeds in the field",
+    "Fix atmospheric nitrogen in the root nodules of legumes",
+    "Break down chemical fertilisers",
+    "Make the soil acidic"
+   ]
+  },
+  {
+   "id": "science-c8-012",
+   "type": "mcq",
+   "q": "Dough used for making bread rises because:",
+   "options": [
+    "Water in the dough evaporates",
+    "Yeast kills bacteria in the flour",
+    "Flour swells when heated",
+    "Yeast respires and releases bubbles of carbon dioxide"
+   ]
+  },
+  {
+   "id": "science-c8-013",
+   "type": "short",
+   "q": "How does adding a large amount of salt help in preserving pickles and fish?",
+   "proposedAnswer": "Salt removes moisture from the food and from any microorganisms that land on it, so they cannot grow. This keeps the food from spoiling for a long time.",
+   "keyPoints": [
+    "Salt draws out water",
+    "Microorganisms cannot grow",
+    "Food stays fresh longer"
+   ]
+  },
+  {
+   "id": "science-c8-014",
+   "type": "mcq",
+   "q": "A person with influenza, which is caused by a virus, takes an antibiotic. What is true about this treatment?",
+   "options": [
+    "It will not work because antibiotics act against bacteria and not viruses",
+    "It will kill the virus within a day",
+    "It works better than any other medicine for viruses",
+    "It will turn the virus into a harmless bacterium"
+   ]
+  },
+  {
+   "id": "science-c8-015",
+   "type": "mcq",
+   "q": "In pasteurisation, milk is heated and then chilled quickly. Why is it chilled quickly?",
+   "options": [
+    "To increase the amount of cream",
+    "To remove its smell",
+    "To prevent any surviving microorganisms from multiplying",
+    "To add vitamin D to it"
+   ]
+  },
+  {
+   "id": "science-c8-016",
+   "type": "short",
+   "q": "Why should a patient take an antibiotic only on a doctor's advice and complete the full course?",
+   "proposedAnswer": "The doctor knows the right type and dose for the infection. If the dose is too small or the course is stopped early, the bacteria may survive, and the medicine may become less effective on them in future. Unnecessary antibiotics can also harm useful bacteria in the body.",
+   "keyPoints": [
+    "Right medicine and dose for the infection",
+    "Incomplete course lets bacteria survive",
+    "Wrong use makes antibiotics less effective later"
+   ]
+  },
+  {
+   "id": "science-c8-017",
+   "type": "mcq",
+   "q": "Which of the following was the first fully synthetic fibre?",
+   "options": [
+    "Rayon",
+    "Polyester",
+    "Nylon",
+    "Acrylic"
+   ]
+  },
+  {
+   "id": "science-c8-018",
+   "type": "mcq",
+   "q": "Rayon, made from wood pulp, is also called:",
+   "options": [
+    "Artificial silk",
+    "Artificial wool",
+    "Artificial cotton",
+    "Artificial jute"
+   ]
+  },
+  {
+   "id": "science-c8-019",
+   "type": "mcq",
+   "q": "Which of the following is a thermosetting plastic?",
+   "options": [
+    "Polythene",
+    "PVC",
+    "Teflon",
+    "Bakelite"
+   ]
+  },
+  {
+   "id": "science-c8-020",
+   "type": "mcq",
+   "q": "Handles of electrical switches are made from Bakelite because it:",
+   "options": [
+    "Is a good conductor of electricity",
+    "Is a poor conductor of heat and electricity",
+    "Melts easily when heated",
+    "Is heavier than metals"
+   ]
+  },
+  {
+   "id": "science-c8-021",
+   "type": "short",
+   "q": "What is the difference between thermoplastics and thermosetting plastics? Give one example of each.",
+   "proposedAnswer": "Thermoplastics soften on heating and can be reshaped again and again, for example polythene. Thermosetting plastics harden once moulded and cannot be softened by heating, for example Bakelite.",
+   "keyPoints": [
+    "Thermoplastics can be softened and reshaped",
+    "Thermosetting plastics cannot be softened again",
+    "Examples: polythene and Bakelite"
+   ]
+  },
+  {
+   "id": "science-c8-022",
+   "type": "mcq",
+   "q": "Why is a layer of Teflon applied on the surface of non-stick frying pans?",
+   "options": [
+    "It is a good conductor so food cooks faster",
+    "It is very slippery, so food does not stick to it",
+    "It dissolves in oil",
+    "It reacts with the food and flavours it"
+   ]
+  },
+  {
+   "id": "science-c8-023",
+   "type": "mcq",
+   "q": "Plastic bags thrown away in a field remain there for many years. This is because:",
+   "options": [
+    "Plastic dissolves in soil to form humus",
+    "Rain converts plastic into soil",
+    "Plastic is a good fertiliser",
+    "Microorganisms cannot break down most plastics, so they are non-biodegradable"
+   ]
+  },
+  {
+   "id": "science-c8-024",
+   "type": "short",
+   "q": "Why is it not advised to wear clothes made of nylon or polyester while working near a flame in the kitchen?",
+   "proposedAnswer": "Synthetic fibres catch fire easily and melt when heated. The molten fibre sticks to the skin and causes severe burns.",
+   "keyPoints": [
+    "Synthetic fibres catch fire easily",
+    "They melt on heating",
+    "Melted fibre sticks to skin and burns"
+   ]
+  },
+  {
+   "id": "science-c8-025",
+   "type": "mcq",
+   "q": "Which metal is liquid at room temperature?",
+   "options": [
+    "Mercury",
+    "Sodium",
+    "Aluminium",
+    "Iron"
+   ]
+  },
+  {
+   "id": "science-c8-026",
+   "type": "mcq",
+   "q": "Which of the following is a non-metal?",
+   "options": [
+    "Zinc",
+    "Copper",
+    "Sulphur",
+    "Magnesium"
+   ]
+  },
+  {
+   "id": "science-c8-027",
+   "type": "mcq",
+   "q": "The property of metals by which they can be drawn into wires is called:",
+   "options": [
+    "Malleability",
+    "Sonority",
+    "Ductility",
+    "Lustre"
+   ]
+  },
+  {
+   "id": "science-c8-028",
+   "type": "mcq",
+   "q": "Magnesium ribbon reacts with dilute hydrochloric acid and a gas is released. The gas is:",
+   "options": [
+    "Hydrogen",
+    "Oxygen",
+    "Carbon dioxide",
+    "Nitrogen"
+   ]
+  },
+  {
+   "id": "science-c8-029",
+   "type": "short",
+   "q": "Give two reasons why metals are used for making cooking vessels.",
+   "proposedAnswer": "Metals are good conductors of heat, so food cooks quickly. They also have high melting points and can be shaped into vessels because they are malleable.",
+   "keyPoints": [
+    "Good conductors of heat",
+    "High melting points",
+    "Malleable, easy to shape"
+   ]
+  },
+  {
+   "id": "science-c8-030",
+   "type": "mcq",
+   "q": "Carbon dioxide dissolved in water turns blue litmus paper red. What does this show?",
+   "options": [
+    "Carbon dioxide is a basic oxide",
+    "Carbon dioxide forms a neutral solution",
+    "Carbon dioxide is a metal",
+    "The solution is acidic"
+   ]
+  },
+  {
+   "id": "science-c8-031",
+   "type": "mcq",
+   "q": "An iron nail is dipped in blue copper sulphate solution. After some time a brownish coating forms on the nail and the blue colour fades. Why?",
+   "options": [
+    "Copper displaces iron from the solution",
+    "More reactive iron displaces copper from the solution",
+    "The nail dissolves completely",
+    "Water in the solution turns into copper"
+   ]
+  },
+  {
+   "id": "science-c8-032",
+   "type": "short",
+   "q": "Why are sodium and potassium stored in kerosene oil?",
+   "proposedAnswer": "Sodium and potassium are very reactive metals. They react vigorously with oxygen and moisture of the air and can catch fire, so they are kept immersed in kerosene to keep air and water away.",
+   "keyPoints": [
+    "Very reactive metals",
+    "React with oxygen and moisture, may catch fire",
+    "Kerosene keeps air and water away"
+   ]
+  },
+  {
+   "id": "science-c8-033",
+   "type": "mcq",
+   "q": "Which of the following is a fossil fuel?",
+   "options": [
+    "Wood",
+    "Petroleum",
+    "Biogas",
+    "Cow dung cake"
+   ]
+  },
+  {
+   "id": "science-c8-034",
+   "type": "mcq",
+   "q": "CNG stands for:",
+   "options": [
+    "Compact Natural Gas",
+    "Compressed Nitrogen Gas",
+    "Condensed Natural Gas",
+    "Compressed Natural Gas"
+   ]
+  },
+  {
+   "id": "science-c8-035",
+   "type": "mcq",
+   "q": "Which petroleum product is used for surfacing roads?",
+   "options": [
+    "Bitumen",
+    "Kerosene",
+    "Diesel",
+    "Petrol"
+   ]
+  },
+  {
+   "id": "science-c8-036",
+   "type": "mcq",
+   "q": "The process of separating the various constituents of petroleum is called:",
+   "options": [
+    "Filtration",
+    "Crystallisation",
+    "Refining",
+    "Sublimation"
+   ]
+  },
+  {
+   "id": "science-c8-037",
+   "type": "short",
+   "q": "How is coke obtained from coal and what is one use of coke?",
+   "proposedAnswer": "Coke is obtained by heating coal strongly in the absence of air. It is a tough, porous, black substance that is almost pure carbon, and is used in making steel and in extracting many metals.",
+   "keyPoints": [
+    "Coal heated in absence of air",
+    "Tough, porous, almost pure carbon",
+    "Used in steel making or extraction of metals"
+   ]
+  },
+  {
+   "id": "science-c8-038",
+   "type": "mcq",
+   "q": "Coal is called a non-renewable resource because:",
+   "options": [
+    "It cannot be burnt a second time",
+    "It is found only in India",
+    "It is made by factories",
+    "It took millions of years to form and cannot be replaced quickly"
+   ]
+  },
+  {
+   "id": "science-c8-039",
+   "type": "mcq",
+   "q": "Why is CNG considered a cleaner fuel than petrol or diesel for vehicles?",
+   "options": [
+    "It burns with much less harmful smoke and fewer pollutants",
+    "It does not burn at all",
+    "It is a solid fuel",
+    "It produces no gas on burning"
+   ]
+  },
+  {
+   "id": "science-c8-040",
+   "type": "short",
+   "q": "Why should we conserve petroleum and natural gas?",
+   "proposedAnswer": "They took millions of years to form and their stocks are limited. Burning them also pollutes the air, so we should use them carefully and look for other sources of energy.",
+   "keyPoints": [
+    "Took millions of years to form",
+    "Limited stock",
+    "Burning causes pollution"
+   ]
+  },
+  {
+   "id": "science-c8-041",
+   "type": "mcq",
+   "q": "The process of burning a substance in air to give out heat is called:",
+   "options": [
+    "Respiration",
+    "Fermentation",
+    "Evaporation",
+    "Combustion"
+   ]
+  },
+  {
+   "id": "science-c8-042",
+   "type": "mcq",
+   "q": "Which zone of a candle flame is the hottest?",
+   "options": [
+    "The innermost dark zone",
+    "The outermost zone",
+    "The middle yellow zone",
+    "The wick itself"
+   ]
+  },
+  {
+   "id": "science-c8-043",
+   "type": "mcq",
+   "q": "Which of the following sets of three are necessary for a fire to start and continue?",
+   "options": [
+    "Fuel, water and nitrogen",
+    "Fuel, oxygen and heat",
+    "Water, oxygen and heat",
+    "Fuel, carbon dioxide and light"
+   ]
+  },
+  {
+   "id": "science-c8-044",
+   "type": "mcq",
+   "q": "Which fire extinguisher is best for a fire caused by electrical equipment?",
+   "options": [
+    "Water",
+    "Petrol",
+    "Kerosene oil",
+    "Carbon dioxide"
+   ]
+  },
+  {
+   "id": "science-c8-045",
+   "type": "short",
+   "q": "What is meant by ignition temperature? Give one example of how it matters in daily life.",
+   "proposedAnswer": "Ignition temperature is the lowest temperature at which a substance catches fire. For example, white phosphorus has a very low ignition temperature, so it is kept under water.",
+   "keyPoints": [
+    "Lowest temperature at which a substance catches fire",
+    "Different substances have different values",
+    "Example such as white phosphorus kept under water"
+   ]
+  },
+  {
+   "id": "science-c8-046",
+   "type": "mcq",
+   "q": "Why is water not used to put out a fire caused by burning oil?",
+   "options": [
+    "Oil is lighter than water, floats on it and keeps burning",
+    "Water reacts with oil to make more fuel",
+    "Water is lighter than oil, so it floats away",
+    "Water has a very high ignition temperature"
+   ]
+  },
+  {
+   "id": "science-c8-047",
+   "type": "mcq",
+   "q": "A burning candle is covered with an upside-down glass jar and it goes out after some time. The reason is that:",
+   "options": [
+    "Heat escapes through the glass",
+    "The glass makes the wax cold",
+    "The oxygen inside the jar is used up",
+    "The jar contains too much oxygen"
+   ]
+  },
+  {
+   "id": "science-c8-048",
+   "type": "short",
+   "q": "Why does a paper cup holding water not catch fire when it is heated over a flame?",
+   "proposedAnswer": "The water absorbs the heat from the paper, so the paper stays below its ignition temperature and does not burn.",
+   "keyPoints": [
+    "Water absorbs heat",
+    "Paper stays below its ignition temperature",
+    "So it does not catch fire"
+   ]
+  },
+  {
+   "id": "science-c8-049",
+   "type": "mcq",
+   "q": "The record of endangered species of plants and animals is kept in the:",
+   "options": [
+    "Atlas",
+    "Gazetteer",
+    "Red Data Book",
+    "Almanac"
+   ]
+  },
+  {
+   "id": "science-c8-050",
+   "type": "mcq",
+   "q": "Deforestation means:",
+   "options": [
+    "Clearing of forests on a large scale",
+    "Growing new forests",
+    "Protecting wildlife",
+    "Planting crops in gardens"
+   ]
+  },
+  {
+   "id": "science-c8-051",
+   "type": "mcq",
+   "q": "A species that is found only in a particular area and nowhere else is called:",
+   "options": [
+    "Extinct",
+    "Endangered",
+    "Migratory",
+    "Endemic"
+   ]
+  },
+  {
+   "id": "science-c8-052",
+   "type": "short",
+   "q": "What is a biosphere reserve? Name one biosphere reserve in India.",
+   "proposedAnswer": "A biosphere reserve is a large protected area set aside to conserve the biodiversity of its plants and animals, and often the way of life of the people living there. One example is the Nilgiri Biosphere Reserve.",
+   "keyPoints": [
+    "Large protected area",
+    "Conserves plants, animals and their habitat",
+    "Example such as Nilgiri"
+   ]
+  },
+  {
+   "id": "science-c8-053",
+   "type": "mcq",
+   "q": "Reforestation means:",
+   "options": [
+    "Cutting down more trees",
+    "Moving animals to zoos",
+    "Burning dead leaves",
+    "Restocking destroyed forests by planting trees"
+   ]
+  },
+  {
+   "id": "science-c8-054",
+   "type": "mcq",
+   "q": "A highway built through a forest area is most likely to harm wild animals because:",
+   "options": [
+    "It makes the forest cooler",
+    "It breaks up their habitat and blocks their movement",
+    "It gives them more food",
+    "It increases the number of trees"
+   ]
+  },
+  {
+   "id": "science-c8-055",
+   "type": "short",
+   "q": "Explain how deforestation can lead to soil erosion and rise in temperature.",
+   "proposedAnswer": "Roots of trees bind the soil, so without trees the soil is easily washed or blown away. Fewer trees also absorb less carbon dioxide and give less shade and rain, so the surroundings become hotter and drier.",
+   "keyPoints": [
+    "Roots hold soil, so soil erodes",
+    "Less carbon dioxide absorbed",
+    "Less rain and shade, so more heat"
+   ]
+  },
+  {
+   "id": "science-c8-056",
+   "type": "mcq",
+   "q": "The basic structural and functional unit of life is the:",
+   "options": [
+    "Tissue",
+    "Organ",
+    "Organelle",
+    "Cell"
+   ]
+  },
+  {
+   "id": "science-c8-057",
+   "type": "mcq",
+   "q": "Who first observed and named cells while looking at a thin slice of cork?",
+   "options": [
+    "Robert Hooke",
+    "Charles Darwin",
+    "Louis Pasteur",
+    "Gregor Mendel"
+   ]
+  },
+  {
+   "id": "science-c8-058",
+   "type": "mcq",
+   "q": "The part of a cell that contains the chromosomes carrying genes is the:",
+   "options": [
+    "Cell membrane",
+    "Vacuole",
+    "Nucleus",
+    "Cytoplasm"
+   ]
+  },
+  {
+   "id": "science-c8-059",
+   "type": "short",
+   "q": "Write two differences between a plant cell and an animal cell.",
+   "proposedAnswer": "A plant cell has a cell wall outside the cell membrane, but an animal cell does not. A plant cell has chloroplasts and usually a large central vacuole, while an animal cell has no chloroplasts and only small vacuoles.",
+   "keyPoints": [
+    "Cell wall present only in plant cells",
+    "Chloroplasts only in plant cells",
+    "Plant cells have a large vacuole"
+   ]
+  },
+  {
+   "id": "science-c8-060",
+   "type": "mcq",
+   "q": "The organelle in which photosynthesis takes place is the:",
+   "options": [
+    "Mitochondrion",
+    "Nucleus",
+    "Chloroplast",
+    "Vacuole"
+   ]
+  },
+  {
+   "id": "science-c8-061",
+   "type": "mcq",
+   "q": "Which of the following cells would you expect to have the most chloroplasts?",
+   "options": [
+    "A cell of a green leaf",
+    "A root cell inside the soil",
+    "A human cheek cell",
+    "A cell of the onion bulb"
+   ]
+  },
+  {
+   "id": "science-c8-062",
+   "type": "short",
+   "q": "Why do plant cells have a cell wall while animal cells do not need one?",
+   "proposedAnswer": "The cell wall gives plant cells shape, strength and protection. Plants have no skeleton, so the rigid wall helps them stay upright, while animals get support from skeletons and muscles.",
+   "keyPoints": [
+    "Cell wall gives shape and strength",
+    "Plants have no skeleton",
+    "Animals are supported by other body parts"
+   ]
+  },
+  {
+   "id": "science-c8-063",
+   "type": "mcq",
+   "q": "The fusion of a male gamete and a female gamete is called:",
+   "options": [
+    "Pollination",
+    "Budding",
+    "Metamorphosis",
+    "Fertilisation"
+   ]
+  },
+  {
+   "id": "science-c8-064",
+   "type": "mcq",
+   "q": "The male gamete is called the:",
+   "options": [
+    "Ovum",
+    "Sperm",
+    "Zygote",
+    "Embryo"
+   ]
+  },
+  {
+   "id": "science-c8-065",
+   "type": "mcq",
+   "q": "Which of the following reproduces by budding?",
+   "options": [
+    "Amoeba",
+    "Hydra",
+    "Frog",
+    "Hen"
+   ]
+  },
+  {
+   "id": "science-c8-066",
+   "type": "short",
+   "q": "Differentiate between internal and external fertilisation. Give one example of each.",
+   "proposedAnswer": "In internal fertilisation the sperm and egg join inside the body of the female, for example in humans or hens. In external fertilisation they join outside the body, in water, for example in frogs and fish.",
+   "keyPoints": [
+    "Internal: inside female body",
+    "External: outside body, usually in water",
+    "Examples such as hen and frog"
+   ]
+  },
+  {
+   "id": "science-c8-067",
+   "type": "mcq",
+   "q": "Which of the following is a viviparous animal?",
+   "options": [
+    "Hen",
+    "Frog",
+    "Lizard",
+    "Cow"
+   ]
+  },
+  {
+   "id": "science-c8-068",
+   "type": "mcq",
+   "q": "A frog lays hundreds of eggs but a hen lays only a few. Which reason explains this best?",
+   "options": [
+    "Frog eggs are fertilised and develop in open water, where many eggs are eaten or lost, so more eggs improve survival chances",
+    "Frogs are larger than hens",
+    "Hens do not need eggs to reproduce",
+    "Frog eggs are fertilised inside the female"
+   ]
+  },
+  {
+   "id": "science-c8-069",
+   "type": "short",
+   "q": "Describe the changes in the life of a frog from egg to adult.",
+   "proposedAnswer": "The fertilised egg develops into a tadpole that has a tail and gills and lives in water. The tadpole slowly grows legs, loses the tail and gills and develops lungs, becoming an adult frog. This change in form is called metamorphosis.",
+   "keyPoints": [
+    "Egg develops into tadpole with gills and tail",
+    "Legs and lungs develop",
+    "Process is metamorphosis"
+   ]
+  },
+  {
+   "id": "science-c8-070",
+   "type": "mcq",
+   "q": "The period of life roughly between the ages of 11 and 19 years is called:",
+   "options": [
+    "Infancy",
+    "Childhood",
+    "Adolescence",
+    "Old age"
+   ]
+  },
+  {
+   "id": "science-c8-071",
+   "type": "mcq",
+   "q": "The male sex hormone produced by the testes is:",
+   "options": [
+    "Insulin",
+    "Oestrogen",
+    "Testosterone",
+    "Thyroxine"
+   ]
+  },
+  {
+   "id": "science-c8-072",
+   "type": "mcq",
+   "q": "The gland that controls the working of other endocrine glands and is often called the master gland is the:",
+   "options": [
+    "Pituitary",
+    "Thyroid",
+    "Adrenal",
+    "Pancreas"
+   ]
+  },
+  {
+   "id": "science-c8-073",
+   "type": "short",
+   "q": "What is the Adam's apple and why does it become visible in adolescent boys?",
+   "proposedAnswer": "The Adam's apple is the visible bulge at the front of the neck. During adolescence the voice box (larynx) grows larger in boys, so it sticks out and the voice becomes deeper.",
+   "keyPoints": [
+    "It is the enlarged voice box (larynx)",
+    "Seen as a bulge in the neck",
+    "Voice becomes deeper in boys"
+   ]
+  },
+  {
+   "id": "science-c8-074",
+   "type": "mcq",
+   "q": "Lack of iodine in the diet can cause a swelling of the neck called:",
+   "options": [
+    "Rickets",
+    "Scurvy",
+    "Anaemia",
+    "Goitre"
+   ]
+  },
+  {
+   "id": "science-c8-075",
+   "type": "mcq",
+   "q": "The sex of a human baby is decided by:",
+   "options": [
+    "The X chromosome in the mother's egg",
+    "The X or Y chromosome carried by the father's sperm",
+    "The diet of the mother",
+    "The hormones of both parents at birth"
+   ]
+  },
+  {
+   "id": "science-c8-076",
+   "type": "short",
+   "q": "Why do adolescents need a balanced diet and regular exercise?",
+   "proposedAnswer": "Adolescents grow fast and need more proteins, vitamins and minerals for their growing body. Regular exercise keeps the body fit and healthy and helps the mind.",
+   "keyPoints": [
+    "Fast growth needs more nutrients",
+    "Balanced diet gives proteins, vitamins and minerals",
+    "Exercise keeps the body fit"
+   ]
+  },
+  {
+   "id": "science-c8-077",
+   "type": "mcq",
+   "q": "The SI unit of force is the:",
+   "options": [
+    "Pascal",
+    "Newton",
+    "Joule",
+    "Watt"
+   ]
+  },
+  {
+   "id": "science-c8-078",
+   "type": "mcq",
+   "q": "Force acting per unit area is called:",
+   "options": [
+    "Friction",
+    "Work",
+    "Speed",
+    "Pressure"
+   ]
+  },
+  {
+   "id": "science-c8-079",
+   "type": "mcq",
+   "q": "The force of friction always acts:",
+   "options": [
+    "In the direction opposite to the motion",
+    "In the direction of the motion",
+    "Upward",
+    "At right angles to the surface only"
+   ]
+  },
+  {
+   "id": "science-c8-080",
+   "type": "short",
+   "q": "Why are the soles of sports shoes made with grooves or a rough pattern?",
+   "proposedAnswer": "Grooves increase friction between the shoe and the ground, so the player can grip the ground well and does not slip.",
+   "keyPoints": [
+    "Grooves increase friction",
+    "Better grip on the ground",
+    "Prevents slipping"
+   ]
+  },
+  {
+   "id": "science-c8-081",
+   "type": "mcq",
+   "q": "Which of the following is a non-contact force?",
+   "options": [
+    "Muscular force",
+    "Frictional force",
+    "Gravitational force",
+    "Force of a push"
+   ]
+  },
+  {
+   "id": "science-c8-082",
+   "type": "mcq",
+   "q": "A sharp knife cuts a vegetable more easily than a blunt knife because:",
+   "options": [
+    "It is heavier",
+    "It is made of iron",
+    "With a smaller area of the edge, the same force gives a greater pressure",
+    "It has more friction"
+   ]
+  },
+  {
+   "id": "science-c8-083",
+   "type": "short",
+   "q": "A camel can walk easily on soft sand without sinking. Explain why.",
+   "proposedAnswer": "A camel has broad, flat feet. The broad area spreads its weight over a larger area, so the pressure on the sand is smaller and the feet do not sink.",
+   "keyPoints": [
+    "Broad feet give large area",
+    "Same weight over larger area",
+    "Less pressure on sand"
+   ]
+  },
+  {
+   "id": "science-c8-084",
+   "type": "mcq",
+   "q": "Sound is produced when an object:",
+   "options": [
+    "Vibrates",
+    "Is heated",
+    "Is magnetised",
+    "Is painted"
+   ]
+  },
+  {
+   "id": "science-c8-085",
+   "type": "mcq",
+   "q": "The unit in which frequency is measured is:",
+   "options": [
+    "Decibel",
+    "Metre",
+    "Second",
+    "Hertz"
+   ]
+  },
+  {
+   "id": "science-c8-086",
+   "type": "mcq",
+   "q": "The loudness of a sound depends on the:",
+   "options": [
+    "Frequency",
+    "Amplitude",
+    "Speed of sound in air",
+    "Colour of the source"
+   ]
+  },
+  {
+   "id": "science-c8-087",
+   "type": "short",
+   "q": "Why can sound not travel through a vacuum?",
+   "proposedAnswer": "Sound needs a material medium such as air, water or a solid to travel. A vacuum has no particles that can vibrate and pass the sound on.",
+   "keyPoints": [
+    "Sound needs a medium",
+    "Vacuum has no particles",
+    "So it cannot travel"
+   ]
+  },
+  {
+   "id": "science-c8-088",
+   "type": "mcq",
+   "q": "The range of frequencies audible to a normal human ear is about:",
+   "options": [
+    "2 Hz to 200 Hz",
+    "20 Hz to 20,000 Hz",
+    "200 Hz to 200,000 Hz",
+    "2,000 Hz to 2,000,000 Hz"
+   ]
+  },
+  {
+   "id": "science-c8-089",
+   "type": "mcq",
+   "q": "A girl's voice is usually thinner (higher pitched) than that of a grown man. The reason is:",
+   "options": [
+    "Lower amplitude of her vocal cords",
+    "Her vocal cords vibrate at a lower frequency",
+    "Her voice travels faster",
+    "Her vocal cords vibrate at a higher frequency"
+   ]
+  },
+  {
+   "id": "science-c8-090",
+   "type": "short",
+   "q": "Suggest three ways in which noise pollution in a city can be reduced.",
+   "proposedAnswer": "Noise can be reduced by switching off vehicle horns and engines when not needed, keeping the volume of music and TV low, and planting trees along roads. Using silencers on machines also helps.",
+   "keyPoints": [
+    "Avoid unnecessary honking",
+    "Keep volume low",
+    "Plant trees or use silencers"
+   ]
+  },
+  {
+   "id": "science-c8-091",
+   "type": "mcq",
+   "q": "Which of the following liquids conducts electricity?",
+   "options": [
+    "Lemon juice",
+    "Distilled water",
+    "Vegetable oil",
+    "Sugar solution"
+   ]
+  },
+  {
+   "id": "science-c8-092",
+   "type": "mcq",
+   "q": "Depositing a layer of a metal on another object using electric current is called:",
+   "options": [
+    "Galvanising",
+    "Evaporation",
+    "Electroplating",
+    "Sublimation"
+   ]
+  },
+  {
+   "id": "science-c8-093",
+   "type": "mcq",
+   "q": "When electric current passes through a conducting solution, it can cause:",
+   "options": [
+    "Only heating",
+    "Only light",
+    "Chemical reactions",
+    "No change at all"
+   ]
+  },
+  {
+   "id": "science-c8-094",
+   "type": "short",
+   "q": "How can you test whether a liquid is a good conductor of electricity?",
+   "proposedAnswer": "Make a tester using a cell, a bulb or LED and two wires with free ends. Dip the free ends in the liquid. If the bulb glows or the LED lights up, the liquid conducts electricity.",
+   "keyPoints": [
+    "Use a cell, bulb or LED and wires",
+    "Dip the wire ends in the liquid",
+    "Glowing shows conduction"
+   ]
+  },
+  {
+   "id": "science-c8-095",
+   "type": "mcq",
+   "q": "In electroplating, the object to be plated is connected to:",
+   "options": [
+    "The negative terminal of the battery",
+    "The positive terminal of the battery",
+    "A bulb only",
+    "A switch only"
+   ]
+  },
+  {
+   "id": "science-c8-096",
+   "type": "mcq",
+   "q": "Chromium plating is done on car parts and bicycle handlebars because chromium:",
+   "options": [
+    "Is heavy",
+    "Is cheap and soft",
+    "Is a good insulator",
+    "Is shiny, hard and does not corrode easily"
+   ]
+  },
+  {
+   "id": "science-c8-097",
+   "type": "short",
+   "q": "Why should we not touch an electrical switch with wet hands?",
+   "proposedAnswer": "Ordinary water contains dissolved salts, so it conducts electricity. Wet hands can let current pass through the body and cause an electric shock.",
+   "keyPoints": [
+    "Ordinary water contains salts and conducts",
+    "Current may pass through body",
+    "Risk of electric shock"
+   ]
+  },
+  {
+   "id": "science-c8-098",
+   "type": "mcq",
+   "q": "According to the law of reflection, the angle of incidence is equal to the:",
+   "options": [
+    "Angle of refraction",
+    "Angle of reflection",
+    "Critical angle",
+    "Right angle"
+   ]
+  },
+  {
+   "id": "science-c8-099",
+   "type": "mcq",
+   "q": "The image formed by a plane mirror is:",
+   "options": [
+    "Real and larger",
+    "Real and smaller",
+    "Virtual and upright, of the same size as the object",
+    "Virtual and much smaller"
+   ]
+  },
+  {
+   "id": "science-c8-100",
+   "type": "mcq",
+   "q": "Which is the safest place to be during a thunderstorm?",
+   "options": [
+    "Under a tall tree",
+    "In an open ground",
+    "Near an electric pole",
+    "Inside a building"
+   ]
+  },
+  {
+   "id": "science-c8-101",
+   "type": "short",
+   "q": "Name the instrument used to record earthquake waves and the scale on which the strength of an earthquake is measured.",
+   "proposedAnswer": "A seismograph records earthquake waves. The strength (magnitude) of an earthquake is measured on the Richter scale.",
+   "keyPoints": [
+    "Seismograph",
+    "Richter scale"
+   ]
+  },
+  {
+   "id": "science-c8-102",
+   "type": "mcq",
+   "q": "The splitting of white light into its seven colours is called:",
+   "options": [
+    "Dispersion",
+    "Reflection",
+    "Diffusion",
+    "Absorption"
+   ]
+  },
+  {
+   "id": "science-c8-103",
+   "type": "mcq",
+   "q": "The word AMBULANCE is written laterally inverted on the front of the vehicle. This is done so that:",
+   "options": [
+    "It looks decorative",
+    "The vehicle looks bigger",
+    "The word can be read correctly in the rear-view mirror of the car ahead",
+    "The word is hidden from the driver"
+   ]
+  },
+  {
+   "id": "science-c8-104",
+   "type": "short",
+   "q": "During a thunderstorm we see lightning first and hear thunder later. Why?",
+   "proposedAnswer": "Light travels much faster than sound. The flash of lightning reaches our eyes almost instantly, while the sound of thunder takes longer to reach our ears.",
+   "keyPoints": [
+    "Light is much faster than sound",
+    "Flash is seen almost at once",
+    "Sound takes longer to arrive"
+   ]
+  },
+  {
+   "id": "science-c8-105",
+   "type": "mcq",
+   "q": "The process of separating the lighter husk (chaff) from the grain using the wind is called:",
+   "options": [
+    "Threshing",
+    "Winnowing",
+    "Harvesting",
+    "Irrigation"
+   ]
+  },
+  {
+   "id": "science-c8-106",
+   "type": "mcq",
+   "q": "Cutting a mature crop from the field is called:",
+   "options": [
+    "Weeding",
+    "Sowing",
+    "Threshing",
+    "Harvesting"
+   ]
+  },
+  {
+   "id": "science-c8-107",
+   "type": "mcq",
+   "q": "Which tool is used to sow seeds at a uniform distance and depth in the soil?",
+   "options": [
+    "Seed drill",
+    "Sickle",
+    "Plough",
+    "Hoe"
+   ]
+  },
+  {
+   "id": "science-c8-108",
+   "type": "short",
+   "q": "What is weeding and why is it necessary in a crop field?",
+   "proposedAnswer": "Weeding is the removal of unwanted plants (weeds) that grow along with the crop. Weeds compete with the crop for water, nutrients, light and space, so removing them helps the crop grow well.",
+   "keyPoints": [
+    "Removal of unwanted plants",
+    "Weeds compete for water, nutrients and light",
+    "Crop grows better"
+   ]
+  },
+  {
+   "id": "science-c8-109",
+   "type": "mcq",
+   "q": "Which of the following is an advantage of manure over a chemical fertiliser?",
+   "options": [
+    "It supplies nutrients faster and in a larger quantity",
+    "It contains more nutrients for each kilogram",
+    "It improves the texture of the soil and its ability to hold water by adding humus",
+    "It is easier to carry long distances"
+   ]
+  },
+  {
+   "id": "science-c8-110",
+   "type": "mcq",
+   "q": "When seeds are put in water, damaged seeds float on the surface. This is because damaged seeds are:",
+   "options": [
+    "Heavier than good seeds",
+    "Sticky",
+    "Hollow and lighter than water",
+    "Full of water"
+   ]
+  },
+  {
+   "id": "science-c8-111",
+   "type": "short",
+   "q": "Why are dried neem leaves often kept with stored grain in homes?",
+   "proposedAnswer": "Neem leaves keep insects and pests away. This helps to protect the stored grains from damage and spoilage.",
+   "keyPoints": [
+    "Neem leaves repel insects and pests",
+    "Protects stored grain",
+    "Grain stays safe from spoilage"
+   ]
+  },
+  {
+   "id": "science-c8-112",
+   "type": "mcq",
+   "q": "Which of the following diseases is caused by a virus?",
+   "options": [
+    "Common cold",
+    "Typhoid",
+    "Cholera",
+    "Tuberculosis"
+   ]
+  },
+  {
+   "id": "science-c8-113",
+   "type": "mcq",
+   "q": "Which of the following is the smallest?",
+   "options": [
+    "Bacteria",
+    "Fungi",
+    "Algae",
+    "Viruses"
+   ]
+  },
+  {
+   "id": "science-c8-114",
+   "type": "mcq",
+   "q": "The conversion of sugar into alcohol by yeast is called:",
+   "options": [
+    "Pasteurisation",
+    "Fermentation",
+    "Nitrogen fixation",
+    "Digestion"
+   ]
+  },
+  {
+   "id": "science-c8-115",
+   "type": "short",
+   "q": "What is a vaccine and how does it protect us from disease?",
+   "proposedAnswer": "A vaccine contains weakened or dead disease-causing microbes. When it is given, the body makes antibodies against them, so if the real microbe attacks later, the body can fight it quickly.",
+   "keyPoints": [
+    "Contains dead or weakened microbes",
+    "Body produces antibodies",
+    "Protects against later infection"
+   ]
+  },
+  {
+   "id": "science-c8-116",
+   "type": "mcq",
+   "q": "Green fuzzy patches appear on a piece of bread kept in a warm and damp cupboard. They are most likely due to:",
+   "options": [
+    "Dust that has settled on the bread",
+    "Fungal spores growing in warm, moist conditions",
+    "Chemical fertiliser",
+    "Salt in the bread"
+   ]
+  },
+  {
+   "id": "science-c8-117",
+   "type": "mcq",
+   "q": "Which statement best explains how some bacteria help to keep the environment clean?",
+   "options": [
+    "They make dead plants and animals last longer",
+    "They produce more waste",
+    "They turn soil into sand",
+    "They decompose dead plants and animals into simple substances"
+   ]
+  },
+  {
+   "id": "science-c8-118",
+   "type": "short",
+   "q": "How can a housefly spread diseases like cholera? Suggest one precaution.",
+   "proposedAnswer": "Houseflies sit on garbage and animal waste and pick up disease-causing microbes on their legs and bodies. When they sit on uncovered food they pass these microbes on. We should keep food covered and keep the surroundings clean.",
+   "keyPoints": [
+    "Flies carry microbes from waste",
+    "Microbes passed to uncovered food",
+    "Cover food and keep surroundings clean"
+   ]
+  },
+  {
+   "id": "science-c8-119",
+   "type": "mcq",
+   "q": "Which of the following is a natural fibre?",
+   "options": [
+    "Cotton",
+    "Nylon",
+    "Acrylic",
+    "Polyester"
+   ]
+  },
+  {
+   "id": "science-c8-120",
+   "type": "mcq",
+   "q": "Which synthetic fibre is often called artificial wool?",
+   "options": [
+    "Nylon",
+    "Rayon",
+    "Acrylic",
+    "Polyester"
+   ]
+  },
+  {
+   "id": "science-c8-121",
+   "type": "mcq",
+   "q": "Terylene is a kind of:",
+   "options": [
+    "Nylon",
+    "Rayon",
+    "Polyester",
+    "Acrylic"
+   ]
+  },
+  {
+   "id": "science-c8-122",
+   "type": "short",
+   "q": "Write any two properties of plastics that make them useful.",
+   "proposedAnswer": "Plastics are light, strong and durable, and they are poor conductors of heat and electricity. They can also be moulded easily into many shapes and do not rust.",
+   "keyPoints": [
+    "Light and strong",
+    "Poor conductors of heat and electricity",
+    "Easily moulded, do not rust"
+   ]
+  },
+  {
+   "id": "science-c8-123",
+   "type": "mcq",
+   "q": "A mountaineer needs a rope that is strong, light and does not rot in water. Which fibre is the best choice?",
+   "options": [
+    "Nylon",
+    "Cotton",
+    "Jute",
+    "Wool"
+   ]
+  },
+  {
+   "id": "science-c8-124",
+   "type": "mcq",
+   "q": "Strong chemicals are often stored in plastic containers rather than metal ones because plastics:",
+   "options": [
+    "Are good conductors of heat",
+    "Are heavier than metals",
+    "Are dissolved by acids",
+    "Are generally non-reactive with many chemicals"
+   ]
+  },
+  {
+   "id": "science-c8-125",
+   "type": "short",
+   "q": "Suggest three ways in which pollution from plastic can be reduced.",
+   "proposedAnswer": "We can reduce the use of plastic bags by carrying cloth or jute bags, reuse plastic containers where safe, and send used plastic to be recycled. We should not throw plastic carelessly or burn it.",
+   "keyPoints": [
+    "Reduce use of plastic",
+    "Reuse items",
+    "Recycle and dispose properly"
+   ]
+  },
+  {
+   "id": "science-c8-126",
+   "type": "mcq",
+   "q": "Which of the following metals is soft enough to be cut with a knife?",
+   "options": [
+    "Iron",
+    "Sodium",
+    "Copper",
+    "Zinc"
+   ]
+  },
+  {
+   "id": "science-c8-127",
+   "type": "mcq",
+   "q": "Which of the following non-metals is a good conductor of electricity?",
+   "options": [
+    "Sulphur",
+    "Graphite",
+    "Phosphorus",
+    "Iodine"
+   ]
+  },
+  {
+   "id": "science-c8-128",
+   "type": "mcq",
+   "q": "Metals are said to be sonorous. This means they:",
+   "options": [
+    "Are very heavy",
+    "Can be cut with a knife",
+    "Can be beaten into sheets",
+    "Produce a ringing sound when struck"
+   ]
+  },
+  {
+   "id": "science-c8-129",
+   "type": "short",
+   "q": "A magnesium ribbon is burnt in air and the white ash is dissolved in water. What is the effect of this solution on red litmus paper, and why?",
+   "proposedAnswer": "The ash is magnesium oxide, a metal oxide, and it dissolves in water to form a basic solution. It turns red litmus paper blue.",
+   "keyPoints": [
+    "Magnesium oxide formed",
+    "Metal oxides are basic",
+    "Red litmus turns blue"
+   ]
+  },
+  {
+   "id": "science-c8-130",
+   "type": "mcq",
+   "q": "Gold and silver are used to make jewellery because they:",
+   "options": [
+    "Are lustrous and do not corrode easily",
+    "Are very hard and brittle",
+    "Are cheap and common",
+    "Are non-metals"
+   ]
+  },
+  {
+   "id": "science-c8-131",
+   "type": "mcq",
+   "q": "For an iron nail to rust, which of the following are necessary?",
+   "options": [
+    "Oxygen only",
+    "Water only",
+    "Both oxygen and moisture",
+    "Carbon dioxide and heat"
+   ]
+  },
+  {
+   "id": "science-c8-132",
+   "type": "short",
+   "q": "Why are electric wires made of metal but covered with plastic?",
+   "proposedAnswer": "The metal is a good conductor, so it carries electric current easily. Plastic is a poor conductor (an insulator), so it prevents shocks and short circuits.",
+   "keyPoints": [
+    "Metal conducts current",
+    "Plastic is an insulator",
+    "Prevents shocks"
+   ]
+  },
+  {
+   "id": "science-c8-133",
+   "type": "mcq",
+   "q": "The main constituent of natural gas is:",
+   "options": [
+    "Hydrogen",
+    "Oxygen",
+    "Methane",
+    "Chlorine"
+   ]
+  },
+  {
+   "id": "science-c8-134",
+   "type": "mcq",
+   "q": "Petroleum is also commonly called:",
+   "options": [
+    "Black gold",
+    "Green fuel",
+    "White gold",
+    "Blue oil"
+   ]
+  },
+  {
+   "id": "science-c8-135",
+   "type": "mcq",
+   "q": "Which of the following petroleum products is commonly used as fuel for domestic stoves and lamps?",
+   "options": [
+    "Bitumen",
+    "Paraffin wax",
+    "Lubricating oil",
+    "Kerosene"
+   ]
+  },
+  {
+   "id": "science-c8-136",
+   "type": "short",
+   "q": "Name any four products obtained from petroleum and give one use of each.",
+   "proposedAnswer": "Petrol is used as a fuel in cars, diesel in trucks and buses, kerosene in stoves, and LPG for cooking. Paraffin wax is used for candles, lubricating oil in machines and bitumen for roads.",
+   "keyPoints": [
+    "Any four correct products",
+    "Each with a correct use"
+   ]
+  },
+  {
+   "id": "science-c8-137",
+   "type": "mcq",
+   "q": "Which statement correctly differentiates coal from petroleum?",
+   "options": [
+    "Coal formed from buried sea organisms and petroleum from forests",
+    "Coal formed from buried plants of ancient forests and petroleum from tiny sea organisms",
+    "Both formed in a few years",
+    "Both are renewable resources"
+   ]
+  },
+  {
+   "id": "science-c8-138",
+   "type": "mcq",
+   "q": "Burning coal in factories can lead to acid rain because:",
+   "options": [
+    "Coal releases oxygen",
+    "Burning coal releases sulphur dioxide, which dissolves in rainwater",
+    "Coal makes clouds heavy",
+    "Coal makes rainwater alkaline"
+   ]
+  },
+  {
+   "id": "science-c8-139",
+   "type": "short",
+   "q": "Explain in brief how petroleum was formed.",
+   "proposedAnswer": "Millions of years ago, tiny sea plants and animals died and sank to the sea floor. They were covered by layers of sand and clay, and with heat and pressure over a very long time they changed into petroleum and natural gas.",
+   "keyPoints": [
+    "Dead sea organisms settled on sea floor",
+    "Covered by sand and clay",
+    "Heat and pressure over millions of years"
+   ]
+  },
+  {
+   "id": "science-c8-140",
+   "type": "mcq",
+   "q": "Which fuel is used in rockets because of its very high calorific value?",
+   "options": [
+    "Wood",
+    "Coal",
+    "Petrol",
+    "Hydrogen"
+   ]
+  },
+  {
+   "id": "science-c8-141",
+   "type": "mcq",
+   "q": "Which of the following is a non-combustible substance?",
+   "options": [
+    "Glass",
+    "Paper",
+    "Wood",
+    "Kerosene"
+   ]
+  },
+  {
+   "id": "science-c8-142",
+   "type": "mcq",
+   "q": "The calorific value of a fuel is expressed in:",
+   "options": [
+    "N/m2",
+    "J/s",
+    "kJ/kg",
+    "kg/m3"
+   ]
+  },
+  {
+   "id": "science-c8-143",
+   "type": "short",
+   "q": "What is spontaneous combustion? Give an example.",
+   "proposedAnswer": "It is the type of combustion in which a substance suddenly catches fire on its own without any external flame or heat. White phosphorus catching fire in air at room temperature is an example.",
+   "keyPoints": [
+    "Catches fire on its own",
+    "No external heat or flame",
+    "Example such as phosphorus"
+   ]
+  },
+  {
+   "id": "science-c8-144",
+   "type": "mcq",
+   "q": "A blanket is thrown over a person whose clothes have caught fire because it:",
+   "options": [
+    "Adds more oxygen",
+    "Adds more fuel",
+    "Cuts off the supply of air and cools the fire",
+    "Increases the temperature"
+   ]
+  },
+  {
+   "id": "science-c8-145",
+   "type": "mcq",
+   "q": "The flame of a gas stove burns blue, whereas a candle flame is yellow. The blue flame indicates:",
+   "options": [
+    "Complete combustion",
+    "Incomplete combustion",
+    "No combustion",
+    "Too much soot"
+   ]
+  },
+  {
+   "id": "science-c8-146",
+   "type": "short",
+   "q": "Why is it dangerous to burn coal in a closed room?",
+   "proposedAnswer": "In a closed room the supply of oxygen is limited, so the coal undergoes incomplete combustion and gives out carbon monoxide, a poisonous gas. It can make people unconscious and can even kill them.",
+   "keyPoints": [
+    "Limited oxygen",
+    "Incomplete combustion gives carbon monoxide",
+    "Poisonous gas harms people"
+   ]
+  },
+  {
+   "id": "science-c8-147",
+   "type": "mcq",
+   "q": "A protected area where wild animals are safe from hunting is called a:",
+   "options": [
+    "Zoo",
+    "Botanical garden",
+    "Aquarium",
+    "Wildlife sanctuary"
+   ]
+  },
+  {
+   "id": "science-c8-148",
+   "type": "mcq",
+   "q": "Species that no longer exist on Earth are called:",
+   "options": [
+    "Endemic",
+    "Extinct",
+    "Migratory",
+    "Common"
+   ]
+  },
+  {
+   "id": "science-c8-149",
+   "type": "mcq",
+   "q": "The term fauna refers to:",
+   "options": [
+    "Plants of an area",
+    "Animals of an area",
+    "Soil of an area",
+    "Rivers of an area"
+   ]
+  },
+  {
+   "id": "science-c8-150",
+   "type": "mcq",
+   "q": "One of the main reasons for deforestation is:",
+   "options": [
+    "Planting more trees",
+    "Protecting wildlife",
+    "Increasing rainfall",
+    "Clearing land for farming, housing and industries"
+   ]
+  },
+  {
+   "id": "science-c8-151",
+   "type": "short",
+   "q": "What is an endangered species? Give one example.",
+   "proposedAnswer": "An endangered species is a species of plant or animal whose numbers have fallen so low that it is in danger of becoming extinct. The tiger is an example.",
+   "keyPoints": [
+    "Numbers have become very low",
+    "In danger of extinction",
+    "Example such as tiger"
+   ]
+  },
+  {
+   "id": "science-c8-152",
+   "type": "mcq",
+   "q": "Forests help to reduce floods because:",
+   "options": [
+    "Roots of trees hold the soil and slow down the flow of rainwater",
+    "Trees make rain stop",
+    "Forests increase the number of rivers",
+    "Leaves make the ground hot"
+   ]
+  },
+  {
+   "id": "science-c8-153",
+   "type": "mcq",
+   "q": "Which of the following actions would help the most to save a species from extinction?",
+   "options": [
+    "Increasing hunting licences",
+    "Cutting the forest to build farms",
+    "Moving all its animals to one zoo",
+    "Banning hunting and protecting its habitat"
+   ]
+  },
+  {
+   "id": "science-c8-154",
+   "type": "short",
+   "q": "Why do some birds travel long distances to other regions every year?",
+   "proposedAnswer": "They migrate to escape harsh weather such as extreme cold, to find food, or to breed in a suitable place. Many return when the climate is favourable again.",
+   "keyPoints": [
+    "Migration",
+    "Escape harsh climate",
+    "Food and breeding"
+   ]
+  },
+  {
+   "id": "science-c8-155",
+   "type": "mcq",
+   "q": "The jelly-like substance that fills the cell and lies between the cell membrane and the nucleus is the:",
+   "options": [
+    "Nucleus",
+    "Cell wall",
+    "Cytoplasm",
+    "Chromosome"
+   ]
+  },
+  {
+   "id": "science-c8-156",
+   "type": "mcq",
+   "q": "Which organelle is known as the powerhouse of the cell?",
+   "options": [
+    "Mitochondrion",
+    "Ribosome",
+    "Vacuole",
+    "Nucleus"
+   ]
+  },
+  {
+   "id": "science-c8-157",
+   "type": "mcq",
+   "q": "The part of the cell that controls the movement of substances in and out of the cell is the:",
+   "options": [
+    "Cell wall",
+    "Nucleus",
+    "Chloroplast",
+    "Cell membrane"
+   ]
+  },
+  {
+   "id": "science-c8-158",
+   "type": "mcq",
+   "q": "Which of the following is a unicellular organism?",
+   "options": [
+    "Earthworm",
+    "Amoeba",
+    "Frog",
+    "Mushroom"
+   ]
+  },
+  {
+   "id": "science-c8-159",
+   "type": "short",
+   "q": "What is the difference between unicellular and multicellular organisms? Give one example of each.",
+   "proposedAnswer": "Unicellular organisms consist of a single cell that does all life functions, for example Amoeba. Multicellular organisms are made of many cells that are specialised for different functions, for example humans.",
+   "keyPoints": [
+    "Unicellular: one cell",
+    "Multicellular: many cells",
+    "Examples such as Amoeba and humans"
+   ]
+  },
+  {
+   "id": "science-c8-160",
+   "type": "mcq",
+   "q": "Nerve cells are long and branched. What is the most suitable reason?",
+   "options": [
+    "To store more food",
+    "Their shape helps them carry messages over long distances in the body",
+    "To make the body look attractive",
+    "To absorb sunlight"
+   ]
+  },
+  {
+   "id": "science-c8-161",
+   "type": "mcq",
+   "q": "Under a microscope, onion peel cells appear as regular, closely packed rectangles with thick outlines. The thick outline is due to the:",
+   "options": [
+    "Nucleus",
+    "Chloroplast",
+    "Cytoplasm",
+    "Cell wall"
+   ]
+  },
+  {
+   "id": "science-c8-162",
+   "type": "short",
+   "q": "Why are cells called the building blocks of life?",
+   "proposedAnswer": "Every living organism is made of one or more cells, just as a building is made of bricks. Cells group to form tissues, organs and organ systems, and each cell carries out life processes.",
+   "keyPoints": [
+    "All organisms are made of cells",
+    "Cells form tissues and organs",
+    "Cells carry out life processes"
+   ]
+  },
+  {
+   "id": "science-c8-163",
+   "type": "mcq",
+   "q": "The female gametes (eggs) are produced in the:",
+   "options": [
+    "Ovaries",
+    "Testes",
+    "Uterus",
+    "Oviduct"
+   ]
+  },
+  {
+   "id": "science-c8-164",
+   "type": "mcq",
+   "q": "In a human female, fertilisation takes place in the:",
+   "options": [
+    "Uterus",
+    "Vagina",
+    "Oviduct",
+    "Ovary"
+   ]
+  },
+  {
+   "id": "science-c8-165",
+   "type": "mcq",
+   "q": "The developing human baby grows inside the:",
+   "options": [
+    "Oviduct",
+    "Ovary",
+    "Uterus",
+    "Vagina"
+   ]
+  },
+  {
+   "id": "science-c8-166",
+   "type": "mcq",
+   "q": "In Amoeba, binary fission means that:",
+   "options": [
+    "The cell splits into two daughter cells",
+    "A bud grows on its body",
+    "The cell forms a sperm",
+    "The cell joins with another cell"
+   ]
+  },
+  {
+   "id": "science-c8-167",
+   "type": "short",
+   "q": "What is cloning? Name the first mammal cloned.",
+   "proposedAnswer": "Cloning is the production of an exact copy of an organism that has the same genes as the original. The first mammal cloned successfully was a sheep named Dolly.",
+   "keyPoints": [
+    "Production of an identical copy",
+    "Same genetic material",
+    "Dolly the sheep"
+   ]
+  },
+  {
+   "id": "science-c8-168",
+   "type": "mcq",
+   "q": "In the technique called IVF, the egg and sperm are made to join:",
+   "options": [
+    "Inside the uterus",
+    "Inside the oviduct only",
+    "On the skin",
+    "In a dish in the laboratory, and the embryo is then placed in the uterus"
+   ]
+  },
+  {
+   "id": "science-c8-169",
+   "type": "mcq",
+   "q": "An unfertilised hen's egg bought from a shop will not hatch into a chick because:",
+   "options": [
+    "It is too small",
+    "There was no fusion of a sperm and an egg, so no zygote formed",
+    "It is kept in a cold room only",
+    "The shell is hard"
+   ]
+  },
+  {
+   "id": "science-c8-170",
+   "type": "short",
+   "q": "Frogs lay eggs in water, but hens lay eggs with a hard shell. Give a reason for each.",
+   "proposedAnswer": "Frog eggs are fertilised outside the body and covered with jelly, and they need water to develop. A hen's egg is fertilised inside and has a hard shell that protects the developing chick on land.",
+   "keyPoints": [
+    "Frog eggs need water and are covered by jelly",
+    "Hen's egg has a hard protective shell",
+    "Suits land and water habitats"
+   ]
+  },
+  {
+   "id": "science-c8-171",
+   "type": "mcq",
+   "q": "The changes that occur at puberty are controlled by chemicals called:",
+   "options": [
+    "Vitamins",
+    "Hormones",
+    "Minerals",
+    "Enzymes in the stomach"
+   ]
+  },
+  {
+   "id": "science-c8-172",
+   "type": "mcq",
+   "q": "The female sex hormone oestrogen is produced by the:",
+   "options": [
+    "Testes",
+    "Pituitary",
+    "Thyroid",
+    "Ovaries"
+   ]
+  },
+  {
+   "id": "science-c8-173",
+   "type": "mcq",
+   "q": "The menstrual cycle in a woman repeats about once every:",
+   "options": [
+    "28 to 30 days",
+    "7 days",
+    "6 months",
+    "12 months"
+   ]
+  },
+  {
+   "id": "science-c8-174",
+   "type": "mcq",
+   "q": "Which of the following is a secondary sexual character?",
+   "options": [
+    "Height of both sexes",
+    "Growth of bones",
+    "Growth of a beard in boys",
+    "Blood group"
+   ]
+  },
+  {
+   "id": "science-c8-175",
+   "type": "short",
+   "q": "What are hormones? Name two endocrine glands.",
+   "proposedAnswer": "Hormones are chemical substances produced by endocrine glands that are carried by the blood to other parts of the body to control their working. Two endocrine glands are the pituitary gland and the thyroid gland.",
+   "keyPoints": [
+    "Chemical messengers",
+    "Carried by blood",
+    "Two glands such as pituitary and thyroid"
+   ]
+  },
+  {
+   "id": "science-c8-176",
+   "type": "mcq",
+   "q": "A person has too much sugar in the blood because the pancreas does not make enough insulin. The disease is:",
+   "options": [
+    "Goitre",
+    "Anaemia",
+    "Diabetes",
+    "Scurvy"
+   ]
+  },
+  {
+   "id": "science-c8-177",
+   "type": "mcq",
+   "q": "When a person is frightened, the adrenal glands release adrenaline. What is the effect?",
+   "options": [
+    "It increases the heart rate and prepares the body to face the situation",
+    "It makes the person sleepy",
+    "It reduces the breathing rate",
+    "It stops the heart for a moment"
+   ]
+  },
+  {
+   "id": "science-c8-178",
+   "type": "short",
+   "q": "Why are hormones called chemical messengers?",
+   "proposedAnswer": "Hormones are chemicals made in one part of the body, the endocrine gland, and carried by blood to another part, where they bring about a response. In this way they carry a message from one part to another.",
+   "keyPoints": [
+    "Made in endocrine glands",
+    "Carried by blood",
+    "Cause response in target parts"
+   ]
+  },
+  {
+   "id": "science-c8-179",
+   "type": "mcq",
+   "q": "Which of the following is a contact force?",
+   "options": [
+    "Gravitational force",
+    "Magnetic force",
+    "Electrostatic force",
+    "Muscular force"
+   ]
+  },
+  {
+   "id": "science-c8-180",
+   "type": "mcq",
+   "q": "A force can change:",
+   "options": [
+    "The mass of an object",
+    "The speed, direction or shape of an object",
+    "The colour of an object",
+    "The temperature of space"
+   ]
+  },
+  {
+   "id": "science-c8-181",
+   "type": "mcq",
+   "q": "Which type of friction is the least?",
+   "options": [
+    "Sliding friction",
+    "Rolling friction",
+    "Static friction",
+    "All are equal"
+   ]
+  },
+  {
+   "id": "science-c8-182",
+   "type": "mcq",
+   "q": "Gas exerts pressure on the walls of its container because:",
+   "options": [
+    "Gas is heavy",
+    "Gas particles stand still",
+    "Gas is a liquid",
+    "Gas particles keep colliding with the walls"
+   ]
+  },
+  {
+   "id": "science-c8-183",
+   "type": "short",
+   "q": "State two ways of reducing friction.",
+   "proposedAnswer": "Friction can be reduced by using lubricants such as oil or grease between moving parts, and by using ball bearings or wheels instead of sliding. Making surfaces smoother also reduces friction.",
+   "keyPoints": [
+    "Lubricants",
+    "Ball bearings or wheels",
+    "Smoother surfaces"
+   ]
+  },
+  {
+   "id": "science-c8-184",
+   "type": "mcq",
+   "q": "Pressure in water increases as we go deeper because:",
+   "options": [
+    "There is more weight of water above",
+    "Water is colder",
+    "Air is heavier at the bottom",
+    "Water particles get larger"
+   ]
+  },
+  {
+   "id": "science-c8-185",
+   "type": "mcq",
+   "q": "A heavy box is hard to start moving but easier to keep moving. The reason is that:",
+   "options": [
+    "The box gets lighter after moving",
+    "Gravity becomes less",
+    "The friction before motion starts is greater than sliding friction",
+    "The floor becomes smooth by itself"
+   ]
+  },
+  {
+   "id": "science-c8-186",
+   "type": "short",
+   "q": "Why is the wall of a dam built thicker at the bottom than at the top?",
+   "proposedAnswer": "The pressure of water increases with depth, so the bottom of the dam has to bear more pressure. A thicker wall at the bottom makes the dam strong enough to withstand this.",
+   "keyPoints": [
+    "Pressure increases with depth",
+    "Bottom bears greater pressure",
+    "Thicker base gives strength"
+   ]
+  },
+  {
+   "id": "science-c8-187",
+   "type": "mcq",
+   "q": "The number of vibrations of an object in one second is called its:",
+   "options": [
+    "Amplitude",
+    "Time period",
+    "Frequency",
+    "Wavelength only"
+   ]
+  },
+  {
+   "id": "science-c8-188",
+   "type": "mcq",
+   "q": "The shrillness (pitch) of a sound depends on its:",
+   "options": [
+    "Frequency",
+    "Amplitude",
+    "Loudness",
+    "Speed"
+   ]
+  },
+  {
+   "id": "science-c8-189",
+   "type": "mcq",
+   "q": "Loudness of sound is measured in:",
+   "options": [
+    "Hertz",
+    "Newton",
+    "Metre",
+    "Decibel"
+   ]
+  },
+  {
+   "id": "science-c8-190",
+   "type": "mcq",
+   "q": "Among air, vacuum, steel and water vapour, sound travels fastest through:",
+   "options": [
+    "Air",
+    "Steel",
+    "Vacuum",
+    "Water vapour"
+   ]
+  },
+  {
+   "id": "science-c8-191",
+   "type": "short",
+   "q": "How is sound produced by the human voice box?",
+   "proposedAnswer": "The voice box (larynx) contains two vocal cords stretched across it. When air from the lungs passes through, the vocal cords vibrate and produce sound.",
+   "keyPoints": [
+    "Larynx has vocal cords",
+    "Air from lungs passes",
+    "Vocal cords vibrate"
+   ]
+  },
+  {
+   "id": "science-c8-192",
+   "type": "mcq",
+   "q": "Two astronauts walking on the Moon cannot talk to each other directly without radios because:",
+   "options": [
+    "The Moon is too cold",
+    "There is no air on the Moon, so sound cannot travel",
+    "Their helmets are too heavy",
+    "Sound is absorbed by moonlight"
+   ]
+  },
+  {
+   "id": "science-c8-193",
+   "type": "mcq",
+   "q": "Sound A has a frequency of 500 Hz and a small amplitude. Sound B has a frequency of 200 Hz and a large amplitude. Which statement is correct?",
+   "options": [
+    "A is louder and has a lower pitch",
+    "A is louder and has a higher pitch",
+    "B has the higher pitch and is softer",
+    "A has the higher pitch and is softer"
+   ]
+  },
+  {
+   "id": "science-c8-194",
+   "type": "short",
+   "q": "A rubber band is stretched and plucked. Why does its sound become shriller when it is stretched more tightly?",
+   "proposedAnswer": "A tighter rubber band vibrates faster, so its frequency becomes higher. A higher frequency gives a higher pitch, or shriller sound.",
+   "keyPoints": [
+    "Tighter band vibrates faster",
+    "Frequency increases",
+    "Higher frequency gives shriller sound"
+   ]
+  },
+  {
+   "id": "science-c8-195",
+   "type": "mcq",
+   "q": "Which of the following is an insulator of electricity?",
+   "options": [
+    "Rubber",
+    "Copper",
+    "Salt solution",
+    "Lemon juice"
+   ]
+  },
+  {
+   "id": "science-c8-196",
+   "type": "mcq",
+   "q": "Which of the following is a chemical effect of electric current?",
+   "options": [
+    "Heating of a wire",
+    "Glowing of a bulb filament",
+    "Formation of gas bubbles at the electrodes",
+    "Movement of a magnetic needle"
+   ]
+  },
+  {
+   "id": "science-c8-197",
+   "type": "mcq",
+   "q": "An LED in a tester glows even when a bulb does not glow, because:",
+   "options": [
+    "An LED works with very small currents",
+    "An LED uses more current",
+    "An LED is not electrical",
+    "An LED needs sunlight"
+   ]
+  },
+  {
+   "id": "science-c8-198",
+   "type": "short",
+   "q": "What happens when electric current is passed through water to which a few drops of acid have been added?",
+   "proposedAnswer": "The water breaks down and bubbles of gas form at the electrodes. The gases produced are hydrogen and oxygen.",
+   "keyPoints": [
+    "Gas bubbles at electrodes",
+    "Water is decomposed",
+    "Hydrogen and oxygen produced"
+   ]
+  },
+  {
+   "id": "science-c8-199",
+   "type": "mcq",
+   "q": "To electroplate a layer of copper on an iron key, the other electrode (the one connected to the positive terminal) should be:",
+   "options": [
+    "A copper plate",
+    "An iron plate",
+    "A plastic plate",
+    "A glass rod"
+   ]
+  },
+  {
+   "id": "science-c8-200",
+   "type": "mcq",
+   "q": "Food cans are made of iron coated with tin. Why?",
+   "options": [
+    "Tin is magnetic",
+    "Tin is heavier than iron",
+    "Tin is a poor conductor of sound",
+    "Tin is less reactive than iron, so it protects the iron and does not spoil the food"
+   ]
+  },
+  {
+   "id": "science-c8-201",
+   "type": "short",
+   "q": "Why are cheaper metal ornaments sometimes coated with gold or silver by electroplating?",
+   "proposedAnswer": "Electroplating gives them the shiny look of the costly metal while using only a thin layer, so they cost less. The coating also protects the cheaper metal from corrosion.",
+   "keyPoints": [
+    "Gives shiny look of costly metal",
+    "Only a thin layer needed, so cheaper",
+    "Protects from corrosion"
+   ]
+  },
+  {
+   "id": "science-c8-202",
+   "type": "mcq",
+   "q": "Lightning is caused by:",
+   "options": [
+    "Heavy winds",
+    "Discharge of electric charges between clouds, or between clouds and the ground",
+    "Heat from the Moon",
+    "Falling stars"
+   ]
+  },
+  {
+   "id": "science-c8-203",
+   "type": "mcq",
+   "q": "Earthquakes are caused by:",
+   "options": [
+    "Heavy rainfall",
+    "Disturbance deep inside the Earth's crust",
+    "Strong winds",
+    "The heat of the Sun"
+   ]
+  },
+  {
+   "id": "science-c8-204",
+   "type": "mcq",
+   "q": "Electric charges are of:",
+   "options": [
+    "Only one type",
+    "Three types",
+    "Four types",
+    "Two types: positive and negative"
+   ]
+  },
+  {
+   "id": "science-c8-205",
+   "type": "short",
+   "q": "State the rule of attraction and repulsion between electric charges.",
+   "proposedAnswer": "Like charges repel each other and unlike charges attract each other.",
+   "keyPoints": [
+    "Like charges repel",
+    "Unlike charges attract"
+   ]
+  },
+  {
+   "id": "science-c8-206",
+   "type": "mcq",
+   "q": "A lightning conductor on a tall building protects it because it:",
+   "options": [
+    "Provides a safe path for the charge to flow to the ground",
+    "Attracts more clouds",
+    "Stops thunder",
+    "Prevents rain"
+   ]
+  },
+  {
+   "id": "science-c8-207",
+   "type": "mcq",
+   "q": "A rainbow is formed because:",
+   "options": [
+    "The sky has seven colours",
+    "Clouds are coloured",
+    "Water droplets in the air disperse sunlight into its colours",
+    "Rain adds colours to light"
+   ]
+  },
+  {
+   "id": "science-c8-208",
+   "type": "short",
+   "q": "Write three precautions to take during an earthquake if you are indoors.",
+   "proposedAnswer": "Take shelter under a strong table or desk, stay away from windows, glass and heavy objects that may fall, and protect your head. After the shaking stops, go to an open space calmly.",
+   "keyPoints": [
+    "Shelter under a strong table",
+    "Stay away from windows and heavy objects",
+    "Move to an open area after shaking stops"
+   ]
+  },
+  {
+   "id": "science-c8-209",
+   "type": "mcq",
+   "q": "Which of the following is a cereal crop?",
+   "options": [
+    "Gram",
+    "Wheat",
+    "Soybean",
+    "Groundnut"
+   ]
+  },
+  {
+   "id": "science-c8-210",
+   "type": "mcq",
+   "q": "Which of the following is a pulse?",
+   "options": [
+    "Rice",
+    "Maize",
+    "Jowar",
+    "Lentil"
+   ]
+  },
+  {
+   "id": "science-c8-211",
+   "type": "mcq",
+   "q": "A hoe is a farm tool used for:",
+   "options": [
+    "Removing weeds and loosening the soil",
+    "Cutting a mature crop",
+    "Sowing seeds from a tractor",
+    "Spraying fertiliser"
+   ]
+  },
+  {
+   "id": "science-c8-212",
+   "type": "mcq",
+   "q": "A combine harvester is a machine that:",
+   "options": [
+    "Only sows seeds",
+    "Only waters the field",
+    "Harvests the crop and also separates the grain from the husk",
+    "Prepares the field for sowing"
+   ]
+  },
+  {
+   "id": "science-c8-213",
+   "type": "short",
+   "q": "What is irrigation, and why do crops need it?",
+   "proposedAnswer": "Irrigation is the supply of water to crops at regular intervals. Plants need water to absorb nutrients from the soil, and water is also needed for germination, growth and to protect crops from frost and hot air currents.",
+   "keyPoints": [
+    "Supply of water to crops at intervals",
+    "Water helps absorb nutrients",
+    "Needed for germination and growth"
+   ]
+  },
+  {
+   "id": "science-c8-214",
+   "type": "mcq",
+   "q": "If the same crop is grown in the same field year after year, the soil becomes poor because:",
+   "options": [
+    "It gets too much rain",
+    "It gets too much sunlight",
+    "The same crop takes up the same nutrients from the soil again and again",
+    "Earthworms increase in the soil"
+   ]
+  },
+  {
+   "id": "science-c8-215",
+   "type": "mcq",
+   "q": "A farmer is about to spray a weedicide in the field. Which precaution is most important?",
+   "options": [
+    "Wear a protective cover over the mouth and nose, and wash hands afterwards",
+    "Spray when the wind blows toward him",
+    "Taste the liquid to check strength",
+    "Spray without any cover to save time"
+   ]
+  },
+  {
+   "id": "science-c8-216",
+   "type": "short",
+   "q": "Why is the soil ploughed and broken into fine pieces before sowing? How do earthworms help?",
+   "proposedAnswer": "Loose soil lets the roots go deep, gets more air and lets roots breathe, and brings nutrient-rich soil to the top. Earthworms and microbes in the soil help to turn and mix the soil and add humus, so the soil stays fertile.",
+   "keyPoints": [
+    "Loose soil helps roots penetrate and breathe",
+    "Nutrients come to the top",
+    "Earthworms and microbes turn the soil and add humus"
+   ]
+  },
+  {
+   "id": "science-c8-217",
+   "type": "mcq",
+   "q": "Curd is formed from milk by the action of:",
+   "options": [
+    "Yeast",
+    "Rhizobium",
+    "Algae",
+    "Lactobacillus bacteria"
+   ]
+  },
+  {
+   "id": "science-c8-218",
+   "type": "mcq",
+   "q": "Penicillin, the first antibiotic, was discovered by:",
+   "options": [
+    "Louis Pasteur",
+    "Alexander Fleming",
+    "Edward Jenner",
+    "Robert Koch"
+   ]
+  },
+  {
+   "id": "science-c8-219",
+   "type": "mcq",
+   "q": "Edward Jenner developed the first vaccine against:",
+   "options": [
+    "Polio",
+    "Smallpox",
+    "Malaria",
+    "Cholera"
+   ]
+  },
+  {
+   "id": "science-c8-220",
+   "type": "mcq",
+   "q": "Which of the following diseases can spread through contaminated drinking water?",
+   "options": [
+    "Chicken pox",
+    "Measles",
+    "Common cold",
+    "Cholera"
+   ]
+  },
+  {
+   "id": "science-c8-221",
+   "type": "short",
+   "q": "Explain how curd is made at home from milk.",
+   "proposedAnswer": "A little curd, which contains Lactobacillus bacteria, is added to warm milk and left undisturbed for some hours. The bacteria multiply and change the milk into curd.",
+   "keyPoints": [
+    "Add a little curd to warm milk",
+    "Lactobacillus bacteria multiply",
+    "Milk turns into curd"
+   ]
+  },
+  {
+   "id": "science-c8-222",
+   "type": "mcq",
+   "q": "Why is it advised to boil drinking water in places where the water supply may be unsafe?",
+   "options": [
+    "Boiling kills disease-causing microorganisms",
+    "Boiling adds minerals to water",
+    "Boiling makes water sweeter",
+    "Boiling makes water heavier"
+   ]
+  },
+  {
+   "id": "science-c8-223",
+   "type": "mcq",
+   "q": "Food is stored in a refrigerator because:",
+   "options": [
+    "It makes food hot",
+    "Low temperature adds nutrients",
+    "Low temperature slows the growth of microorganisms",
+    "The refrigerator kills all microbes inside"
+   ]
+  },
+  {
+   "id": "science-c8-224",
+   "type": "short",
+   "q": "Distinguish between a vaccine and an antibiotic.",
+   "proposedAnswer": "A vaccine is given before infection to prepare the body to fight a disease by making antibodies, so it prevents illness. An antibiotic is a medicine given to kill or stop bacteria after a person is infected.",
+   "keyPoints": [
+    "Vaccine prevents disease by making antibodies",
+    "Antibiotic treats bacterial infection",
+    "Different timing and purpose"
+   ]
+  },
+  {
+   "id": "science-c8-225",
+   "type": "mcq",
+   "q": "Fibres obtained from plants and animals, such as cotton, wool and silk, are called:",
+   "options": [
+    "Synthetic fibres",
+    "Plastics",
+    "Natural fibres",
+    "Polymers made in factories"
+   ]
+  },
+  {
+   "id": "science-c8-226",
+   "type": "mcq",
+   "q": "Polythene is commonly used to make:",
+   "options": [
+    "Carry bags",
+    "Electric switches",
+    "Bricks",
+    "Cooking vessels for the stove"
+   ]
+  },
+  {
+   "id": "science-c8-227",
+   "type": "mcq",
+   "q": "Which synthetic fibre is prepared by chemical treatment of wood pulp?",
+   "options": [
+    "Nylon",
+    "Acrylic",
+    "Polyester",
+    "Rayon"
+   ]
+  },
+  {
+   "id": "science-c8-228",
+   "type": "mcq",
+   "q": "A polymer is:",
+   "options": [
+    "A small single unit of matter",
+    "A large molecule made of many small units joined together",
+    "A kind of metal",
+    "A type of rock"
+   ]
+  },
+  {
+   "id": "science-c8-229",
+   "type": "short",
+   "q": "What do biodegradable and non-biodegradable mean? Give one example of each.",
+   "proposedAnswer": "Biodegradable materials can be broken down by microorganisms into simple substances, for example vegetable waste. Non-biodegradable materials cannot be broken down in this way, for example plastic bags.",
+   "keyPoints": [
+    "Biodegradable: broken down by microorganisms",
+    "Non-biodegradable: cannot be broken down",
+    "Examples of each"
+   ]
+  },
+  {
+   "id": "science-c8-230",
+   "type": "mcq",
+   "q": "Melamine is used to make kitchenware and fire-resistant fabrics because it:",
+   "options": [
+    "Is a good conductor of heat",
+    "Resists heat and does not catch fire easily",
+    "Melts in hot water",
+    "Is a natural fibre"
+   ]
+  },
+  {
+   "id": "science-c8-231",
+   "type": "mcq",
+   "q": "Clothes made of synthetic fibres dry faster than cotton clothes because synthetic fibres:",
+   "options": [
+    "Weigh more",
+    "Are always thicker",
+    "Are heated by the Sun more",
+    "Absorb very little water"
+   ]
+  },
+  {
+   "id": "science-c8-232",
+   "type": "short",
+   "q": "In hot, humid summers, cotton clothes are more comfortable than polyester clothes. Why?",
+   "proposedAnswer": "Cotton absorbs sweat and lets it evaporate, which cools the body. Polyester absorbs very little water, so sweat stays on the skin and the person feels hot and sticky.",
+   "keyPoints": [
+    "Cotton absorbs sweat",
+    "Evaporation cools the body",
+    "Polyester absorbs little water"
+   ]
+  },
+  {
+   "id": "science-c8-233",
+   "type": "mcq",
+   "q": "Which of the following non-metals is lustrous (shiny)?",
+   "options": [
+    "Iodine",
+    "Sulphur",
+    "Phosphorus",
+    "Hydrogen"
+   ]
+  },
+  {
+   "id": "science-c8-234",
+   "type": "mcq",
+   "q": "The property of metals by which they can be beaten into thin sheets is called:",
+   "options": [
+    "Ductility",
+    "Sonority",
+    "Malleability",
+    "Brittleness"
+   ]
+  },
+  {
+   "id": "science-c8-235",
+   "type": "mcq",
+   "q": "Solid non-metals such as sulphur are generally:",
+   "options": [
+    "Malleable",
+    "Ductile",
+    "Brittle",
+    "Sonorous"
+   ]
+  },
+  {
+   "id": "science-c8-236",
+   "type": "mcq",
+   "q": "Which of the following metals reacts the most vigorously with cold water?",
+   "options": [
+    "Sodium",
+    "Iron",
+    "Copper",
+    "Gold"
+   ]
+  },
+  {
+   "id": "science-c8-237",
+   "type": "short",
+   "q": "What is a displacement reaction? Give an example involving a metal.",
+   "proposedAnswer": "A displacement reaction is one in which a more reactive metal pushes out a less reactive metal from its salt solution. For example, iron displaces copper from copper sulphate solution.",
+   "keyPoints": [
+    "More reactive metal displaces less reactive metal",
+    "From a solution of its salt",
+    "Example with iron and copper sulphate"
+   ]
+  },
+  {
+   "id": "science-c8-238",
+   "type": "mcq",
+   "q": "A dull, grey piece of an old metal object becomes shiny after rubbing with sandpaper. The reason is that:",
+   "options": [
+    "The metal gets heavier",
+    "The metal changes into a non-metal",
+    "Heat is added to the metal",
+    "A dull layer of oxide or tarnish on the surface was rubbed off"
+   ]
+  },
+  {
+   "id": "science-c8-239",
+   "type": "mcq",
+   "q": "Aluminium foil is used for wrapping food because it:",
+   "options": [
+    "Is a non-metal",
+    "Can be rolled into very thin sheets and does not readily react with food",
+    "Is heavier than iron",
+    "Is brittle"
+   ]
+  },
+  {
+   "id": "science-c8-240",
+   "type": "short",
+   "q": "Name two ways to prevent iron objects from rusting and explain how one of them works.",
+   "proposedAnswer": "Rusting can be prevented by painting or by oiling and greasing the iron. These coatings keep air and moisture away from the surface, and iron needs both to rust.",
+   "keyPoints": [
+    "Painting, oiling or galvanising",
+    "Coating keeps out air and moisture",
+    "Rusting needs both oxygen and water"
+   ]
+  },
+  {
+   "id": "science-c8-241",
+   "type": "mcq",
+   "q": "LPG stands for:",
+   "options": [
+    "Light Petrol Gas",
+    "Liquefied Petroleum Gas",
+    "Liquid Pressure Gas",
+    "Low Pressure Gas"
+   ]
+  },
+  {
+   "id": "science-c8-242",
+   "type": "mcq",
+   "q": "Coal is mostly made of:",
+   "options": [
+    "Hydrogen",
+    "Oxygen",
+    "Nitrogen",
+    "Carbon"
+   ]
+  },
+  {
+   "id": "science-c8-243",
+   "type": "mcq",
+   "q": "The slow conversion of dead vegetation into coal over millions of years is called:",
+   "options": [
+    "Carbonisation",
+    "Distillation",
+    "Combustion",
+    "Fermentation"
+   ]
+  },
+  {
+   "id": "science-c8-244",
+   "type": "short",
+   "q": "What are fossil fuels? Name two.",
+   "proposedAnswer": "Fossil fuels are fuels formed from the remains of dead plants and animals buried under the earth for millions of years. Coal and petroleum are examples.",
+   "keyPoints": [
+    "Formed from dead plants and animals",
+    "Buried for millions of years",
+    "Examples: coal and petroleum"
+   ]
+  },
+  {
+   "id": "science-c8-245",
+   "type": "mcq",
+   "q": "In a petroleum refinery, the different products are separated from crude oil on the basis of their different:",
+   "options": [
+    "Colours",
+    "Densities only",
+    "Boiling points",
+    "Smells"
+   ]
+  },
+  {
+   "id": "science-c8-246",
+   "type": "mcq",
+   "q": "Coal and petroleum will not last forever because:",
+   "options": [
+    "They are present only in the sea",
+    "They are made by people",
+    "The rate at which we use them is much greater than the rate at which they form",
+    "They are renewable"
+   ]
+  },
+  {
+   "id": "science-c8-247",
+   "type": "short",
+   "q": "Mention three ways in which a driver can save petrol or diesel.",
+   "proposedAnswer": "A driver can switch off the engine at traffic lights, drive at a steady moderate speed and keep the tyres inflated to the correct pressure. Regular servicing of the vehicle also saves fuel.",
+   "keyPoints": [
+    "Switch off engine at red light",
+    "Steady speed",
+    "Correct tyre pressure or servicing"
+   ]
+  },
+  {
+   "id": "science-c8-248",
+   "type": "mcq",
+   "q": "Which of the following is a feature of an ideal fuel?",
+   "options": [
+    "It is cheap, easily available and burns easily without harmful products",
+    "It is rare and costly",
+    "It produces a lot of smoke",
+    "It burns only at very high temperatures"
+   ]
+  },
+  {
+   "id": "science-c8-249",
+   "type": "mcq",
+   "q": "Which of the following is a gaseous fuel?",
+   "options": [
+    "Coal",
+    "Kerosene",
+    "Petrol",
+    "LPG"
+   ]
+  },
+  {
+   "id": "science-c8-250",
+   "type": "mcq",
+   "q": "In a candle flame, the bright yellow middle zone is due to:",
+   "options": [
+    "Unburnt wax vapour only",
+    "Partial burning of the fuel, in which tiny unburnt carbon particles glow",
+    "Complete burning",
+    "The wick glowing"
+   ]
+  },
+  {
+   "id": "science-c8-251",
+   "type": "short",
+   "q": "State the three ways of putting out a fire.",
+   "proposedAnswer": "A fire can be put out by cutting off the supply of air (oxygen), removing the fuel, or cooling the fuel below its ignition temperature. For example, water cools the burning material.",
+   "keyPoints": [
+    "Cut off air supply",
+    "Remove the fuel",
+    "Cool below ignition temperature"
+   ]
+  },
+  {
+   "id": "science-c8-252",
+   "type": "mcq",
+   "q": "Oil in a frying pan catches fire. What is the safest first action?",
+   "options": [
+    "Pour water on it",
+    "Cover the pan with a lid",
+    "Blow on the flame",
+    "Add more oil"
+   ]
+  },
+  {
+   "id": "science-c8-253",
+   "type": "mcq",
+   "q": "A gas stove gives more heat than burning the same mass of wood. This is because LPG has:",
+   "options": [
+    "A lower ignition temperature",
+    "A smaller flame",
+    "More moisture",
+    "A higher calorific value than wood"
+   ]
+  },
+  {
+   "id": "science-c8-254",
+   "type": "short",
+   "q": "How does burning of fuels contribute to global warming?",
+   "proposedAnswer": "Burning fuels such as coal, petrol and diesel releases carbon dioxide into the air. Carbon dioxide traps heat in the atmosphere, so increased amounts raise the temperature of the Earth.",
+   "keyPoints": [
+    "Burning fuels release carbon dioxide",
+    "Carbon dioxide traps heat",
+    "Earth's temperature rises"
+   ]
+  },
+  {
+   "id": "science-c8-255",
+   "type": "mcq",
+   "q": "A large area set aside to conserve wild animals, plants and their habitat, where private activities such as grazing and cultivation are not allowed, is a:",
+   "options": [
+    "National park",
+    "Zoo",
+    "Farm",
+    "Garden"
+   ]
+  },
+  {
+   "id": "science-c8-256",
+   "type": "mcq",
+   "q": "Project Tiger was started to:",
+   "options": [
+    "Hunt tigers for sport",
+    "Keep tigers only in zoos",
+    "Protect tigers and their habitats in India",
+    "Train tigers for circuses"
+   ]
+  },
+  {
+   "id": "science-c8-257",
+   "type": "mcq",
+   "q": "Which of the following is a cause of extinction of animal species?",
+   "options": [
+    "Planting trees",
+    "Wildlife protection laws",
+    "Poaching (illegal hunting)",
+    "Sanctuaries"
+   ]
+  },
+  {
+   "id": "science-c8-258",
+   "type": "short",
+   "q": "Give two reasons why forests are important.",
+   "proposedAnswer": "Forests are home to many plants and animals. They give us wood, medicines and food, prevent soil erosion, and absorb carbon dioxide while releasing oxygen.",
+   "keyPoints": [
+    "Habitat for plants and animals",
+    "Prevent soil erosion",
+    "Provide oxygen and products"
+   ]
+  },
+  {
+   "id": "science-c8-259",
+   "type": "mcq",
+   "q": "Why is destruction of habitat a major threat to wild animals?",
+   "options": [
+    "They lose their food, shelter and breeding places",
+    "They get more food",
+    "They find new predators",
+    "They live longer"
+   ]
+  },
+  {
+   "id": "science-c8-260",
+   "type": "mcq",
+   "q": "If all the snakes in a field are killed, what is most likely to happen?",
+   "options": [
+    "The number of frogs will not change",
+    "The crop will grow faster",
+    "Rain will increase",
+    "The number of rats may increase and damage the crop"
+   ]
+  },
+  {
+   "id": "science-c8-261",
+   "type": "short",
+   "q": "Suggest three ways in which students can help to protect forests and wildlife.",
+   "proposedAnswer": "Students can plant and take care of trees, avoid wasting paper, and refuse to buy products made from wild animals. They can also spread awareness about not littering or disturbing forests.",
+   "keyPoints": [
+    "Plant trees",
+    "Save paper",
+    "Do not buy wildlife products or spread awareness"
+   ]
+  },
+  {
+   "id": "science-c8-262",
+   "type": "mcq",
+   "q": "Which of the following is found only in plant cells?",
+   "options": [
+    "Nucleus",
+    "Cell wall",
+    "Cytoplasm",
+    "Cell membrane"
+   ]
+  },
+  {
+   "id": "science-c8-263",
+   "type": "mcq",
+   "q": "Cells can be seen with the help of a:",
+   "options": [
+    "Telescope",
+    "Microscope",
+    "Periscope",
+    "Stethoscope"
+   ]
+  },
+  {
+   "id": "science-c8-264",
+   "type": "mcq",
+   "q": "The genes that pass on features from parents to children are present on the:",
+   "options": [
+    "Cell wall",
+    "Vacuoles",
+    "Cytoplasm",
+    "Chromosomes"
+   ]
+  },
+  {
+   "id": "science-c8-265",
+   "type": "short",
+   "q": "Write the function of the nucleus and the cytoplasm.",
+   "proposedAnswer": "The nucleus controls all the activities of the cell and holds the chromosomes. The cytoplasm is the jelly-like part in which the organelles lie and where many chemical reactions of the cell take place.",
+   "keyPoints": [
+    "Nucleus controls the cell and holds chromosomes",
+    "Cytoplasm holds organelles",
+    "Chemical reactions occur in cytoplasm"
+   ]
+  },
+  {
+   "id": "science-c8-266",
+   "type": "mcq",
+   "q": "A scientist finds that a cell has a cell wall, chloroplasts and a large vacuole. The cell most likely came from:",
+   "options": [
+    "A green plant",
+    "An animal",
+    "A fish",
+    "A human being"
+   ]
+  },
+  {
+   "id": "science-c8-267",
+   "type": "mcq",
+   "q": "Which statement about the cell membrane is correct?",
+   "options": [
+    "It is present only in plant cells",
+    "It is a thick rigid layer outside every cell",
+    "It is present in both plant and animal cells and controls what enters and leaves",
+    "It stores genes"
+   ]
+  },
+  {
+   "id": "science-c8-268",
+   "type": "short",
+   "q": "What is the function of the large vacuole in a plant cell?",
+   "proposedAnswer": "The vacuole stores water, food and waste substances. It also keeps the cell firm because it is filled with fluid pressing on the cell wall.",
+   "keyPoints": [
+    "Stores water and nutrients",
+    "Stores waste",
+    "Keeps the cell firm"
+   ]
+  },
+  {
+   "id": "science-c8-269",
+   "type": "mcq",
+   "q": "The change of a tadpole into an adult frog is called:",
+   "options": [
+    "Fertilisation",
+    "Budding",
+    "Metamorphosis",
+    "Fission"
+   ]
+  },
+  {
+   "id": "science-c8-270",
+   "type": "mcq",
+   "q": "A zygote divides repeatedly and forms a ball of cells called the:",
+   "options": [
+    "Embryo",
+    "Gamete",
+    "Ovum",
+    "Sperm"
+   ]
+  },
+  {
+   "id": "science-c8-271",
+   "type": "mcq",
+   "q": "Which of the following animals lays eggs (is oviparous)?",
+   "options": [
+    "Dog",
+    "Cat",
+    "Cow",
+    "Hen"
+   ]
+  },
+  {
+   "id": "science-c8-272",
+   "type": "short",
+   "q": "What is the difference between oviparous and viviparous animals? Give one example of each.",
+   "proposedAnswer": "Oviparous animals lay eggs, and the young develop outside the mother's body, for example hens. Viviparous animals give birth to young ones that have developed inside the mother, for example cows or humans.",
+   "keyPoints": [
+    "Oviparous lay eggs",
+    "Viviparous give birth to young ones",
+    "Examples of each"
+   ]
+  },
+  {
+   "id": "science-c8-273",
+   "type": "mcq",
+   "q": "Millions of sperms are released in humans, though only one sperm fertilises an egg. Why?",
+   "options": [
+    "The egg needs many sperms to grow",
+    "Many sperms are lost or die on the way, so a large number increases the chance of fertilisation",
+    "Sperms feed the egg",
+    "The body cannot stop producing them"
+   ]
+  },
+  {
+   "id": "science-c8-274",
+   "type": "mcq",
+   "q": "Which statement about asexual reproduction is correct?",
+   "options": [
+    "It needs both male and female gametes",
+    "Only one parent is involved",
+    "The offspring look very different from the parent",
+    "It occurs only in humans"
+   ]
+  },
+  {
+   "id": "science-c8-275",
+   "type": "short",
+   "q": "Describe how a fertilised egg develops into a baby in humans.",
+   "proposedAnswer": "The zygote divides repeatedly to form an embryo, which gets attached to the wall of the uterus. The embryo develops body parts, and after the stage called foetus the baby is born after about nine months.",
+   "keyPoints": [
+    "Zygote divides to form embryo",
+    "Embryo implants in the uterus",
+    "Foetus develops and baby is born"
+   ]
+  },
+  {
+   "id": "science-c8-276",
+   "type": "mcq",
+   "q": "Which of the following is a change in girls during puberty?",
+   "options": [
+    "Growth of a beard",
+    "Voice becomes deeper",
+    "The Adam's apple enlarges",
+    "Breasts develop"
+   ]
+  },
+  {
+   "id": "science-c8-277",
+   "type": "mcq",
+   "q": "The thyroid gland is located in the:",
+   "options": [
+    "Neck",
+    "Chest",
+    "Brain",
+    "Abdomen"
+   ]
+  },
+  {
+   "id": "science-c8-278",
+   "type": "mcq",
+   "q": "Insulin is produced by the:",
+   "options": [
+    "Thyroid",
+    "Pituitary",
+    "Pancreas",
+    "Adrenal gland"
+   ]
+  },
+  {
+   "id": "science-c8-279",
+   "type": "short",
+   "q": "What is the difference between primary and secondary sexual characters?",
+   "proposedAnswer": "Primary sexual characters are the sex organs present from birth, such as testes and ovaries. Secondary sexual characters appear at puberty, such as a beard in boys and development of breasts in girls.",
+   "keyPoints": [
+    "Primary: sex organs present from birth",
+    "Secondary: appear at puberty",
+    "Examples"
+   ]
+  },
+  {
+   "id": "science-c8-280",
+   "type": "mcq",
+   "q": "Why is the use of iodised salt recommended?",
+   "options": [
+    "It makes food taste better",
+    "It makes bones stronger",
+    "Iodine in it is needed by the thyroid to make thyroxine and prevents goitre",
+    "It cures colds"
+   ]
+  },
+  {
+   "id": "science-c8-281",
+   "type": "mcq",
+   "q": "Rahul feels moody and irritable during adolescence. What is the most likely explanation?",
+   "options": [
+    "Hormonal changes in the body at this age can affect mood",
+    "He is ill with a serious infection",
+    "He has a vitamin deficiency only",
+    "He has a defect in his eyes"
+   ]
+  },
+  {
+   "id": "science-c8-282",
+   "type": "short",
+   "q": "Why is personal hygiene especially important during adolescence?",
+   "proposedAnswer": "At puberty the sweat glands become more active and the skin becomes oily, which can cause body odour and pimples. Bathing daily, wearing clean clothes and keeping the skin clean prevent infections.",
+   "keyPoints": [
+    "Sweat glands become more active",
+    "Skin becomes oily, pimples possible",
+    "Cleanliness prevents infection"
+   ]
+  },
+  {
+   "id": "science-c8-283",
+   "type": "mcq",
+   "q": "Which of the following is a type of friction?",
+   "options": [
+    "Gravity",
+    "Magnetic force",
+    "Muscular force",
+    "Sliding friction"
+   ]
+  },
+  {
+   "id": "science-c8-284",
+   "type": "mcq",
+   "q": "The unit of pressure is the:",
+   "options": [
+    "Newton",
+    "Pascal",
+    "Joule",
+    "Watt"
+   ]
+  },
+  {
+   "id": "science-c8-285",
+   "type": "mcq",
+   "q": "The pressure of the atmosphere acts:",
+   "options": [
+    "Only downward",
+    "In all directions",
+    "Only upward",
+    "Only sideways"
+   ]
+  },
+  {
+   "id": "science-c8-286",
+   "type": "short",
+   "q": "Why do deep-sea divers wear special suits?",
+   "proposedAnswer": "Pressure in water increases with depth, so at great depth the pressure on the body is very large. A special suit protects the diver from this high pressure.",
+   "keyPoints": [
+    "Pressure increases with depth",
+    "Very high pressure at great depth",
+    "Suit protects the diver"
+   ]
+  },
+  {
+   "id": "science-c8-287",
+   "type": "mcq",
+   "q": "When you drink through a straw, the liquid rises because:",
+   "options": [
+    "The liquid is lighter than air",
+    "The straw pulls the liquid",
+    "The liquid is heated",
+    "Pressure inside the mouth is reduced, and atmospheric pressure pushes the liquid up"
+   ]
+  },
+  {
+   "id": "science-c8-288",
+   "type": "mcq",
+   "q": "It is easier to move a heavy load on a cart with wheels than to drag it on the ground because:",
+   "options": [
+    "Rolling friction is much less than sliding friction",
+    "Wheels make the load lighter",
+    "Wheels increase friction",
+    "The ground becomes smooth"
+   ]
+  },
+  {
+   "id": "science-c8-289",
+   "type": "short",
+   "q": "Why do we sprinkle fine powder on a carrom board before playing?",
+   "proposedAnswer": "The powder forms a thin layer between the board and the striker or coins, which reduces friction. The pieces then slide easily and smoothly over the board.",
+   "keyPoints": [
+    "Powder reduces friction",
+    "Pieces slide easily",
+    "Smooth play"
+   ]
+  },
+  {
+   "id": "science-c8-290",
+   "type": "mcq",
+   "q": "In the human ear, which part starts vibrating when sound waves strike it?",
+   "options": [
+    "Pinna",
+    "Ear canal",
+    "Eardrum",
+    "Skull bone"
+   ]
+  },
+  {
+   "id": "science-c8-291",
+   "type": "mcq",
+   "q": "Sound cannot travel through:",
+   "options": [
+    "Water",
+    "Steel",
+    "A vacuum",
+    "Air"
+   ]
+  },
+  {
+   "id": "science-c8-292",
+   "type": "mcq",
+   "q": "Sounds of frequency higher than 20,000 Hz are called:",
+   "options": [
+    "Ultrasonic sounds",
+    "Infrasonic sounds",
+    "Audible sounds",
+    "Noise"
+   ]
+  },
+  {
+   "id": "science-c8-293",
+   "type": "short",
+   "q": "Distinguish between music and noise.",
+   "proposedAnswer": "Music is a pleasant sound produced by vibrations that are regular and well arranged. Noise is an unpleasant sound with irregular vibrations.",
+   "keyPoints": [
+    "Music is pleasant and regular",
+    "Noise is unpleasant",
+    "Noise has irregular vibrations"
+   ]
+  },
+  {
+   "id": "science-c8-294",
+   "type": "mcq",
+   "q": "A ruler is held on a table with part of it hanging over the edge and plucked. If more of the ruler is slid out over the edge, the sound will have:",
+   "options": [
+    "Higher frequency",
+    "Greater speed",
+    "More noise only",
+    "Lower frequency and lower pitch"
+   ]
+  },
+  {
+   "id": "science-c8-295",
+   "type": "mcq",
+   "q": "A person who puts an ear on a railway track can hear an approaching train before it can be heard through air. This is because:",
+   "options": [
+    "Sound is louder in air",
+    "Sound travels faster in solids than in air",
+    "The train makes more sound on the track",
+    "Air blocks sound completely"
+   ]
+  },
+  {
+   "id": "science-c8-296",
+   "type": "short",
+   "q": "Describe the path of sound through the human ear in simple steps.",
+   "proposedAnswer": "Sound waves enter the ear canal from the pinna and make the eardrum vibrate. The vibrations are passed on through the middle ear to the inner ear, and nerves carry the message to the brain.",
+   "keyPoints": [
+    "Sound enters through pinna and ear canal",
+    "Eardrum vibrates",
+    "Nerves carry signals to the brain"
+   ]
+  },
+  {
+   "id": "science-c8-297",
+   "type": "mcq",
+   "q": "Which of the following does NOT conduct electricity?",
+   "options": [
+    "Tap water",
+    "Distilled water",
+    "Salt solution",
+    "Vinegar"
+   ]
+  },
+  {
+   "id": "science-c8-298",
+   "type": "mcq",
+   "q": "Materials through which electric current can pass are called:",
+   "options": [
+    "Insulators",
+    "Resistors only",
+    "Semiconductors only",
+    "Conductors"
+   ]
+  },
+  {
+   "id": "science-c8-299",
+   "type": "mcq",
+   "q": "In copper plating, a solution of copper sulphate is used because it:",
+   "options": [
+    "Provides copper that is deposited on the object",
+    "Makes the object heavier",
+    "Is a poor conductor",
+    "Cools the object"
+   ]
+  },
+  {
+   "id": "science-c8-300",
+   "type": "mcq",
+   "q": "When current is passed through acidified water, more bubbles are seen at the negative electrode. The gas there is:",
+   "options": [
+    "Oxygen",
+    "Nitrogen",
+    "Hydrogen",
+    "Chlorine"
+   ]
+  },
+  {
+   "id": "science-c8-301",
+   "type": "short",
+   "q": "Give two uses of electroplating.",
+   "proposedAnswer": "Electroplating is used to give a shiny, attractive finish to objects such as jewellery and car parts. It is also used to protect metals like iron from rusting, for example by chromium or tin plating.",
+   "keyPoints": [
+    "Shiny finish",
+    "Protection from corrosion"
+   ]
+  },
+  {
+   "id": "science-c8-302",
+   "type": "mcq",
+   "q": "A tester bulb does not glow when its ends are dipped in a liquid. Which conclusion is the most reasonable?",
+   "options": [
+    "The liquid is a metal",
+    "The liquid is a very strong conductor",
+    "The liquid may be a poor conductor, and a more sensitive LED tester can be tried",
+    "The battery is not needed"
+   ]
+  },
+  {
+   "id": "science-c8-303",
+   "type": "mcq",
+   "q": "Testing a liquid using a cell is safe, but testing it with the household mains supply is dangerous because:",
+   "options": [
+    "A cell has a low voltage, whereas the mains has a high voltage that can give a serious shock",
+    "A cell gives more current",
+    "Mains supply is weaker",
+    "Mains supply has no current"
+   ]
+  },
+  {
+   "id": "science-c8-304",
+   "type": "short",
+   "q": "Why does salt solution conduct electricity while pure distilled water and sugar solution do not?",
+   "proposedAnswer": "Salt dissolves in water to give charged particles that can carry the current through the liquid. Distilled water and sugar solution have no such charged particles, so they do not conduct.",
+   "keyPoints": [
+    "Salt solution contains charged particles",
+    "Charged particles carry current",
+    "Distilled water and sugar solution lack them"
+   ]
+  },
+  {
+   "id": "science-c8-305",
+   "type": "mcq",
+   "q": "An object becomes electrically charged when:",
+   "options": [
+    "It is painted",
+    "It is weighed",
+    "It is cooled",
+    "It is rubbed with another suitable object"
+   ]
+  },
+  {
+   "id": "science-c8-306",
+   "type": "mcq",
+   "q": "The Earth's crust is made of broken parts called:",
+   "options": [
+    "Layers of water",
+    "Tectonic plates",
+    "Layers of ice",
+    "Volcanoes"
+   ]
+  },
+  {
+   "id": "science-c8-307",
+   "type": "mcq",
+   "q": "A girl stands 2 m in front of a plane mirror. Her image appears at a distance of how much behind the mirror?",
+   "options": [
+    "1 m",
+    "2 m",
+    "4 m",
+    "0 m"
+   ]
+  },
+  {
+   "id": "science-c8-308",
+   "type": "mcq",
+   "q": "A kaleidoscope produces beautiful patterns because of:",
+   "options": [
+    "Dispersion only",
+    "Absorption of light",
+    "Heating of mirrors",
+    "Multiple reflections from mirrors"
+   ]
+  },
+  {
+   "id": "science-c8-309",
+   "type": "short",
+   "q": "How does a periscope help us to see over an obstacle?",
+   "proposedAnswer": "A periscope has two plane mirrors fixed at 45 degrees at its two ends. Light from the object reflects from the top mirror to the lower mirror and then to the eye, so we can see objects over a wall.",
+   "keyPoints": [
+    "Two plane mirrors at the ends",
+    "Light reflects twice",
+    "Allows seeing over obstacles"
+   ]
+  },
+  {
+   "id": "science-c8-310",
+   "type": "mcq",
+   "q": "When white light passes through a prism, which colour bends the most?",
+   "options": [
+    "Violet",
+    "Red",
+    "Green",
+    "Yellow"
+   ]
+  },
+  {
+   "id": "science-c8-311",
+   "type": "mcq",
+   "q": "A disc painted with the seven rainbow colours is spun very fast. It appears:",
+   "options": [
+    "Black",
+    "Dark red",
+    "Whitish",
+    "Violet"
+   ]
+  },
+  {
+   "id": "science-c8-312",
+   "type": "short",
+   "q": "We can see our image in a plane mirror but cannot catch it on a screen. Why?",
+   "proposedAnswer": "The image in a plane mirror is virtual. It is formed behind the mirror where light rays only appear to meet, so it cannot be obtained on a screen.",
+   "keyPoints": [
+    "Image is virtual",
+    "Formed behind the mirror",
+    "Rays do not actually meet"
+   ]
+  },
+  {
+   "id": "science-c8-313",
+   "type": "mcq",
+   "q": "Which is the first step in the production of a crop?",
+   "options": [
+    "Harvesting",
+    "Preparation of the soil",
+    "Threshing",
+    "Storage of grain"
+   ]
+  },
+  {
+   "id": "science-c8-314",
+   "type": "mcq",
+   "q": "Which of the following is used traditionally to turn and loosen the soil in a field?",
+   "options": [
+    "Sickle",
+    "Hoe",
+    "Seed drill",
+    "Plough"
+   ]
+  },
+  {
+   "id": "science-c8-315",
+   "type": "mcq",
+   "q": "Urea, a common chemical fertiliser, mainly supplies the crop with:",
+   "options": [
+    "Nitrogen",
+    "Oxygen",
+    "Iron",
+    "Carbon"
+   ]
+  },
+  {
+   "id": "science-c8-316",
+   "type": "short",
+   "q": "Write two differences between manure and a chemical fertiliser.",
+   "proposedAnswer": "Manure is made from the decomposition of plant and animal waste, while a fertiliser is a man-made chemical produced in factories. Manure adds humus to the soil but a fertiliser does not, and a fertiliser is richer in particular nutrients.",
+   "keyPoints": [
+    "Manure is natural; fertiliser is man-made",
+    "Manure adds humus",
+    "Fertiliser is rich in specific nutrients"
+   ]
+  },
+  {
+   "id": "science-c8-317",
+   "type": "mcq",
+   "q": "Which practice helps to restore nitrogen in the soil without using a fertiliser?",
+   "options": [
+    "Growing the same cereal every year",
+    "Burning the stubble",
+    "Growing a pulse crop in rotation with cereals",
+    "Ploughing the soil deeper"
+   ]
+  },
+  {
+   "id": "science-c8-318",
+   "type": "mcq",
+   "q": "If seeds are sown very close to each other, the result is likely to be:",
+   "options": [
+    "Better growth of all plants",
+    "More space for each plant",
+    "Competition for water, nutrients and light, leading to weak plants",
+    "No effect on the crop"
+   ]
+  },
+  {
+   "id": "science-c8-319",
+   "type": "short",
+   "q": "Why are rabi crops such as wheat sown in winter and kharif crops such as paddy in the rainy season?",
+   "proposedAnswer": "Rabi crops need a cool growing period and little water, so they grow well in winter. Kharif crops need warm weather and plenty of water, which the monsoon rains supply.",
+   "keyPoints": [
+    "Rabi crops need cool weather",
+    "Kharif crops need warmth and abundant water",
+    "Rains supply water to kharif crops"
+   ]
+  },
+  {
+   "id": "science-c8-320",
+   "type": "mcq",
+   "q": "Microorganisms are so small that they can be seen only with the help of a:",
+   "options": [
+    "Microscope",
+    "Telescope",
+    "Magnifying glass only",
+    "Mirror"
+   ]
+  },
+  {
+   "id": "science-c8-321",
+   "type": "mcq",
+   "q": "Which of the following is an alga?",
+   "options": [
+    "Amoeba",
+    "Yeast",
+    "Penicillium",
+    "Spirogyra"
+   ]
+  },
+  {
+   "id": "science-c8-322",
+   "type": "mcq",
+   "q": "The antibiotic penicillin is obtained from a:",
+   "options": [
+    "Bacterium called Rhizobium",
+    "Mould called Penicillium",
+    "Virus",
+    "Protozoan called Amoeba"
+   ]
+  },
+  {
+   "id": "science-c8-323",
+   "type": "short",
+   "q": "Write two harmful effects of microorganisms.",
+   "proposedAnswer": "Some microorganisms cause diseases in humans, animals and plants, such as cholera and typhoid. Others spoil food, making it unsafe to eat and causing food poisoning.",
+   "keyPoints": [
+    "Cause diseases",
+    "Spoil food",
+    "Cause food poisoning"
+   ]
+  },
+  {
+   "id": "science-c8-324",
+   "type": "mcq",
+   "q": "Why can eating spoilt food lead to food poisoning?",
+   "options": [
+    "Spoilt food has too many vitamins",
+    "Microorganisms growing on it release toxic substances",
+    "The food has become too soft",
+    "It has lost all its water"
+   ]
+  },
+  {
+   "id": "science-c8-325",
+   "type": "mcq",
+   "q": "Why is sugar used to preserve jams and squashes?",
+   "options": [
+    "It adds colour",
+    "It makes the fruit heavier",
+    "It turns microbes into food",
+    "It reduces the moisture, so microorganisms cannot grow"
+   ]
+  },
+  {
+   "id": "science-c8-326",
+   "type": "short",
+   "q": "How can the spread of cholera be prevented in a village?",
+   "proposedAnswer": "The water should be boiled or purified before drinking, and food must be covered and kept clean. People should wash hands before eating, and waste should be disposed of properly so that flies do not carry germs.",
+   "keyPoints": [
+    "Drink boiled or clean water",
+    "Cover food and wash hands",
+    "Dispose of waste properly"
+   ]
+  },
+  {
+   "id": "science-c8-327",
+   "type": "mcq",
+   "q": "PVC is commonly used to make:",
+   "options": [
+    "Pipes",
+    "Cotton cloth",
+    "Wool",
+    "Paper"
+   ]
+  },
+  {
+   "id": "science-c8-328",
+   "type": "mcq",
+   "q": "Which of the following fibres is made from petroleum products?",
+   "options": [
+    "Cotton",
+    "Wool",
+    "Polyester",
+    "Silk"
+   ]
+  },
+  {
+   "id": "science-c8-329",
+   "type": "mcq",
+   "q": "Fishing nets and tyre cords are made of nylon mainly because it has:",
+   "options": [
+    "Large pores",
+    "Low cost only",
+    "Strength and resistance to wear",
+    "A pleasant smell"
+   ]
+  },
+  {
+   "id": "science-c8-330",
+   "type": "short",
+   "q": "Write two uses of nylon.",
+   "proposedAnswer": "Nylon is used to make ropes, fishing nets and parachutes because it is strong and light. It is also used to make toothbrush bristles, socks and tents.",
+   "keyPoints": [
+    "Strong and light",
+    "Ropes, nets or parachutes",
+    "Other items such as toothbrush bristles"
+   ]
+  },
+  {
+   "id": "science-c8-331",
+   "type": "mcq",
+   "q": "Plastic cooking utensils are not placed on a flame because:",
+   "options": [
+    "They can melt or burn, and spoil the food",
+    "They become magnetic",
+    "They become heavier",
+    "They conduct heat too well"
+   ]
+  },
+  {
+   "id": "science-c8-332",
+   "type": "mcq",
+   "q": "Why is burning plastic waste harmful?",
+   "options": [
+    "It produces fertiliser",
+    "It makes the air cleaner",
+    "It cools the surroundings",
+    "It releases poisonous gases into the air"
+   ]
+  },
+  {
+   "id": "science-c8-333",
+   "type": "short",
+   "q": "Plastics are both useful and harmful. Explain with two points each.",
+   "proposedAnswer": "Plastics are useful because they are light, cheap and strong, and they do not rust. They are harmful because they are non-biodegradable and pollute the land and water, and burning them gives poisonous gases.",
+   "keyPoints": [
+    "Light, cheap, strong, no rusting",
+    "Non-biodegradable",
+    "Burning gives poisonous gases"
+   ]
+  },
+  {
+   "id": "science-c8-334",
+   "type": "mcq",
+   "q": "Which non-metal present in air is needed by living things for breathing?",
+   "options": [
+    "Hydrogen",
+    "Oxygen",
+    "Carbon",
+    "Sulphur"
+   ]
+  },
+  {
+   "id": "science-c8-335",
+   "type": "mcq",
+   "q": "Metals are generally:",
+   "options": [
+    "Poor conductors of heat and electricity",
+    "Good conductors of heat and electricity",
+    "Brittle and dull",
+    "Gases at room temperature"
+   ]
+  },
+  {
+   "id": "science-c8-336",
+   "type": "mcq",
+   "q": "Oxides of metals are generally:",
+   "options": [
+    "Acidic",
+    "Neutral",
+    "Poisonous gases",
+    "Basic"
+   ]
+  },
+  {
+   "id": "science-c8-337",
+   "type": "short",
+   "q": "Why are iron and steel used in building bridges and buildings?",
+   "proposedAnswer": "Iron and steel are very strong and hard and have high melting points. They can be shaped into beams and rods, so they can carry large loads.",
+   "keyPoints": [
+    "Strong and hard",
+    "High melting point",
+    "Can be shaped"
+   ]
+  },
+  {
+   "id": "science-c8-338",
+   "type": "mcq",
+   "q": "A piece of iron and a piece of sulphur are dropped into separate test tubes of dilute hydrochloric acid. What is observed?",
+   "options": [
+    "Iron reacts and gives off hydrogen, but sulphur does not react",
+    "Sulphur reacts, iron does not",
+    "Both give off hydrogen",
+    "Neither reacts"
+   ]
+  },
+  {
+   "id": "science-c8-339",
+   "type": "mcq",
+   "q": "Mercury is used in some thermometers because it:",
+   "options": [
+    "Is a non-metal",
+    "Is a gas at room temperature",
+    "Is a liquid metal at room temperature and expands evenly on heating",
+    "Is very light"
+   ]
+  },
+  {
+   "id": "science-c8-340",
+   "type": "short",
+   "q": "A metal spoon left in a cup of hot tea soon becomes hot. Explain why.",
+   "proposedAnswer": "Metals are good conductors of heat. The heat of the tea passes through the metal spoon by conduction from the hot end to the end held in the hand.",
+   "keyPoints": [
+    "Metals are good conductors of heat",
+    "Heat travels along the spoon",
+    "Conduction"
+   ]
+  },
+  {
+   "id": "science-c8-341",
+   "type": "mcq",
+   "q": "The hard, porous, black solid obtained by heating coal strongly in the absence of air is called:",
+   "options": [
+    "Coal tar",
+    "Coal gas",
+    "Coke",
+    "Charcoal"
+   ]
+  },
+  {
+   "id": "science-c8-342",
+   "type": "mcq",
+   "q": "The thick, black liquid obtained during the processing of coal is called:",
+   "options": [
+    "Coal tar",
+    "Bitumen",
+    "Kerosene",
+    "Petrol"
+   ]
+  },
+  {
+   "id": "science-c8-343",
+   "type": "mcq",
+   "q": "Which gas obtained during processing of coal is used as a fuel in industries near coal processing plants?",
+   "options": [
+    "Natural gas",
+    "LPG",
+    "Biogas",
+    "Coal gas"
+   ]
+  },
+  {
+   "id": "science-c8-344",
+   "type": "mcq",
+   "q": "Which petroleum product is used as a fuel for heavy vehicles such as trucks and buses?",
+   "options": [
+    "Petrol",
+    "Diesel",
+    "Kerosene",
+    "Paraffin wax"
+   ]
+  },
+  {
+   "id": "science-c8-345",
+   "type": "short",
+   "q": "What is natural gas? Mention two of its uses.",
+   "proposedAnswer": "Natural gas is a fossil fuel found trapped with petroleum, and its main constituent is methane. It is used as a fuel (as CNG in vehicles) and as a starting material for making fertilisers and other chemicals.",
+   "keyPoints": [
+    "Fossil fuel found with petroleum",
+    "Mainly methane",
+    "Uses such as CNG and chemicals"
+   ]
+  },
+  {
+   "id": "science-c8-346",
+   "type": "mcq",
+   "q": "LPG is preferred to wood as a domestic fuel mainly because it:",
+   "options": [
+    "Produces more smoke",
+    "Is cheaper in all cases",
+    "Burns with little smoke and has a high calorific value",
+    "Needs no air to burn"
+   ]
+  },
+  {
+   "id": "science-c8-347",
+   "type": "mcq",
+   "q": "A person smells gas in the kitchen and suspects an LPG leak. What should be done first?",
+   "options": [
+    "Light a matchstick to check",
+    "Switch on the exhaust fan with the electrical switch",
+    "Keep the doors closed",
+    "Open the windows and doors and avoid using any electrical switch or flame"
+   ]
+  },
+  {
+   "id": "science-c8-348",
+   "type": "short",
+   "q": "What is the difference between renewable and non-renewable resources? Give an example of each.",
+   "proposedAnswer": "Renewable resources can be replaced by nature in a short time, such as sunlight and wind. Non-renewable resources take millions of years to form and will get exhausted, such as coal and petroleum.",
+   "keyPoints": [
+    "Renewable: replaced quickly",
+    "Non-renewable: limited and take millions of years",
+    "Examples of each"
+   ]
+  },
+  {
+   "id": "science-c8-349",
+   "type": "mcq",
+   "q": "When a fuel containing carbon burns completely, the main products are:",
+   "options": [
+    "Carbon dioxide and water vapour",
+    "Oxygen only",
+    "Helium",
+    "Nitrogen only"
+   ]
+  },
+  {
+   "id": "science-c8-350",
+   "type": "mcq",
+   "q": "Which gas supports combustion?",
+   "options": [
+    "Hydrogen",
+    "Nitrogen",
+    "Oxygen",
+    "Carbon dioxide"
+   ]
+  },
+  {
+   "id": "science-c8-351",
+   "type": "mcq",
+   "q": "Which of the following is a solid fuel?",
+   "options": [
+    "LPG",
+    "Kerosene",
+    "Coke",
+    "Petrol"
+   ]
+  },
+  {
+   "id": "science-c8-352",
+   "type": "mcq",
+   "q": "Which of these has the highest calorific value?",
+   "options": [
+    "LPG",
+    "Coal",
+    "Wood",
+    "Cow dung cake"
+   ]
+  },
+  {
+   "id": "science-c8-353",
+   "type": "short",
+   "q": "What is an explosion? Why are firecrackers dangerous?",
+   "proposedAnswer": "An explosion is a sudden reaction in which a large amount of heat, light, sound and gas is produced. Firecrackers can burn the skin, hurt the eyes and ears, cause fires and pollute the air, so they must be used with care.",
+   "keyPoints": [
+    "Sudden reaction with heat, light, sound and gas",
+    "Can cause burns and injuries",
+    "Pollution"
+   ]
+  },
+  {
+   "id": "science-c8-354",
+   "type": "mcq",
+   "q": "Which of the following actions would reduce air pollution caused by burning fuels?",
+   "options": [
+    "Burning more wood in open fires",
+    "Using more petrol vehicles",
+    "Burning waste in the open",
+    "Using CNG in public buses"
+   ]
+  },
+  {
+   "id": "science-c8-355",
+   "type": "mcq",
+   "q": "A piece of wood burns slowly, but fine wood shavings burn quickly. The reason is that shavings:",
+   "options": [
+    "Contain more oxygen",
+    "Have a larger surface exposed to the air",
+    "Are a different substance",
+    "Have a lower mass"
+   ]
+  },
+  {
+   "id": "science-c8-356",
+   "type": "short",
+   "q": "How does a carbon dioxide fire extinguisher put out a fire?",
+   "proposedAnswer": "Carbon dioxide is heavier than air, so it covers the burning material like a blanket and cuts off the supply of oxygen. It also cools the fuel as it comes out of the cylinder.",
+   "keyPoints": [
+    "Carbon dioxide is heavier than air",
+    "Covers the fire like a blanket",
+    "Cuts off oxygen"
+   ]
+  },
+  {
+   "id": "science-c8-357",
+   "type": "mcq",
+   "q": "The variety of plants and animals found in an area is called:",
+   "options": [
+    "Biosphere",
+    "Biodiversity",
+    "Habitat",
+    "Ecosystem"
+   ]
+  },
+  {
+   "id": "science-c8-358",
+   "type": "mcq",
+   "q": "The place where a plant or animal lives naturally is called its:",
+   "options": [
+    "Biome",
+    "Zone",
+    "Niche",
+    "Habitat"
+   ]
+  },
+  {
+   "id": "science-c8-359",
+   "type": "mcq",
+   "q": "Large-scale deforestation in a region can reduce its:",
+   "options": [
+    "Rainfall",
+    "Temperature",
+    "Soil erosion",
+    "Level of carbon dioxide"
+   ]
+  },
+  {
+   "id": "science-c8-360",
+   "type": "mcq",
+   "q": "The main reasons why many animals migrate are:",
+   "options": [
+    "To make nests only",
+    "To spend time in zoos",
+    "Better climate, food or a place to breed",
+    "To change colour"
+   ]
+  },
+  {
+   "id": "science-c8-361",
+   "type": "short",
+   "q": "Write the difference between a wildlife sanctuary and a national park.",
+   "proposedAnswer": "In a wildlife sanctuary, animals are protected from hunting, but some human activities may be allowed. A national park is a more strictly protected area in which activities like grazing and cultivation are not allowed.",
+   "keyPoints": [
+    "Sanctuary protects animals from hunting",
+    "Some human activity may be allowed in sanctuaries",
+    "National park is more strictly protected"
+   ]
+  },
+  {
+   "id": "science-c8-362",
+   "type": "mcq",
+   "q": "A paper factory needs a lot of wood. Which approach helps to keep forests safe?",
+   "options": [
+    "Cut all trees quickly",
+    "Import all animals",
+    "Cut trees and also plant new saplings (reforestation)",
+    "Stop all use of paper only"
+   ]
+  },
+  {
+   "id": "science-c8-363",
+   "type": "mcq",
+   "q": "Why is it important to conserve biodiversity?",
+   "options": [
+    "All species in an ecosystem depend on one another, so loss of one affects others",
+    "Only large animals matter",
+    "Plants are not part of biodiversity",
+    "Species do not depend on each other"
+   ]
+  },
+  {
+   "id": "science-c8-364",
+   "type": "short",
+   "q": "Explain how deforestation can lead to a shortage of water or drought in an area.",
+   "proposedAnswer": "Trees take water from the soil and release it into the air, which helps to form rain. Without trees there is less rainfall, and the water runs off the bare soil quickly instead of soaking in, so the area becomes dry.",
+   "keyPoints": [
+    "Fewer trees mean less rain",
+    "Water runs off bare soil",
+    "Area becomes dry"
+   ]
+  },
+  {
+   "id": "science-c8-365",
+   "type": "mcq",
+   "q": "The cell wall of plant cells is made of:",
+   "options": [
+    "Protein",
+    "Starch",
+    "Fat",
+    "Cellulose"
+   ]
+  },
+  {
+   "id": "science-c8-366",
+   "type": "mcq",
+   "q": "The green pigment that traps sunlight is present in:",
+   "options": [
+    "Mitochondria",
+    "Chloroplasts",
+    "Vacuoles",
+    "The nucleus"
+   ]
+  },
+  {
+   "id": "science-c8-367",
+   "type": "mcq",
+   "q": "Which of the following is a multicellular organism?",
+   "options": [
+    "Amoeba",
+    "Banyan tree",
+    "Paramecium",
+    "Chlamydomonas"
+   ]
+  },
+  {
+   "id": "science-c8-368",
+   "type": "mcq",
+   "q": "Which of the following shows the correct order of organisation in a multicellular organism, from simplest to most complex?",
+   "options": [
+    "Organ, tissue, cell, organ system",
+    "Tissue, cell, organ system, organ",
+    "Cell, organ, tissue, organ system",
+    "Cell, tissue, organ, organ system"
+   ]
+  },
+  {
+   "id": "science-c8-369",
+   "type": "short",
+   "q": "Name any three parts of an animal cell and write one function of each.",
+   "proposedAnswer": "The cell membrane controls entry and exit of substances. The nucleus controls the activities of the cell. The cytoplasm holds the organelles and is the place of many reactions.",
+   "keyPoints": [
+    "Cell membrane with function",
+    "Nucleus with function",
+    "Cytoplasm with function"
+   ]
+  },
+  {
+   "id": "science-c8-370",
+   "type": "mcq",
+   "q": "A slide of human cheek cells is seen under a microscope. Which of the following would you find?",
+   "options": [
+    "A nucleus and cell membrane but no cell wall",
+    "A cell wall and chloroplasts",
+    "A large central vacuole",
+    "Starch grains and chloroplasts"
+   ]
+  },
+  {
+   "id": "science-c8-371",
+   "type": "mcq",
+   "q": "A plant wilts if it is not watered. The main reason is that its cells:",
+   "options": [
+    "Make too much food",
+    "Grow too large",
+    "Lose water from the vacuoles and lose their firmness",
+    "Develop more chloroplasts"
+   ]
+  },
+  {
+   "id": "science-c8-372",
+   "type": "short",
+   "q": "An Amoeba is a single cell, yet it is a complete living organism. Explain.",
+   "proposedAnswer": "A single cell of Amoeba carries out all the life processes itself, such as taking in food, respiration, getting rid of waste, movement and reproduction. It does not need other cells for these functions.",
+   "keyPoints": [
+    "One cell performs all life processes",
+    "Nutrition, respiration, excretion, reproduction",
+    "No other cells needed"
+   ]
+  },
+  {
+   "id": "science-c8-373",
+   "type": "mcq",
+   "q": "The male reproductive organ that produces sperms is the:",
+   "options": [
+    "Ovary",
+    "Uterus",
+    "Testis",
+    "Oviduct"
+   ]
+  },
+  {
+   "id": "science-c8-374",
+   "type": "mcq",
+   "q": "Reproductive cells (sperms and eggs) are together called:",
+   "options": [
+    "Gametes",
+    "Zygotes",
+    "Embryos",
+    "Tissues"
+   ]
+  },
+  {
+   "id": "science-c8-375",
+   "type": "mcq",
+   "q": "Which of the following animals shows metamorphosis?",
+   "options": [
+    "Dog",
+    "Hen",
+    "Cow",
+    "Butterfly"
+   ]
+  },
+  {
+   "id": "science-c8-376",
+   "type": "mcq",
+   "q": "Which of the following shows internal fertilisation?",
+   "options": [
+    "Frog",
+    "Cow",
+    "Toad",
+    "Most bony fish"
+   ]
+  },
+  {
+   "id": "science-c8-377",
+   "type": "short",
+   "q": "Name the male reproductive organs and state the functions of the testes.",
+   "proposedAnswer": "The male reproductive system has a pair of testes, sperm ducts and a penis. The testes produce sperms and the male hormone testosterone.",
+   "keyPoints": [
+    "Testes, sperm ducts, penis",
+    "Testes produce sperms",
+    "Produce testosterone"
+   ]
+  },
+  {
+   "id": "science-c8-378",
+   "type": "mcq",
+   "q": "A hen sits on its eggs for about three weeks. The main purpose is to:",
+   "options": [
+    "Make the eggs heavier",
+    "Keep the eggs warm so that the embryos can develop into chicks",
+    "Break the egg shells",
+    "Give them food"
+   ]
+  },
+  {
+   "id": "science-c8-379",
+   "type": "mcq",
+   "q": "Identical twins are formed when:",
+   "options": [
+    "Two different eggs are fertilised by two sperms",
+    "One sperm fertilises two eggs",
+    "A baby splits into two",
+    "A single fertilised egg splits into two embryos"
+   ]
+  },
+  {
+   "id": "science-c8-380",
+   "type": "short",
+   "q": "Why is internal fertilisation more dependable than external fertilisation?",
+   "proposedAnswer": "In internal fertilisation the sperms are released inside the female body, so they are close to the egg and well protected, giving a good chance of fertilisation. Fewer eggs are needed, and the young are often cared for.",
+   "keyPoints": [
+    "Sperms close to egg inside the body",
+    "Better protected",
+    "Fewer eggs needed"
+   ]
+  },
+  {
+   "id": "science-c8-381",
+   "type": "mcq",
+   "q": "The sudden rapid increase in height during adolescence is called:",
+   "options": [
+    "Growth spurt",
+    "Metamorphosis",
+    "Fertilisation",
+    "Menopause"
+   ]
+  },
+  {
+   "id": "science-c8-382",
+   "type": "mcq",
+   "q": "The voice box is also known as the:",
+   "options": [
+    "Pharynx",
+    "Trachea",
+    "Larynx",
+    "Gullet"
+   ]
+  },
+  {
+   "id": "science-c8-383",
+   "type": "mcq",
+   "q": "Which hormone from the pituitary gland controls the growth of the body?",
+   "options": [
+    "Insulin",
+    "Adrenaline",
+    "Growth hormone",
+    "Oestrogen"
+   ]
+  },
+  {
+   "id": "science-c8-384",
+   "type": "mcq",
+   "q": "Menstruation occurs when:",
+   "options": [
+    "The egg released from the ovary is not fertilised and the lining of the uterus breaks down",
+    "The egg is fertilised",
+    "The body stops making hormones",
+    "The uterus grows larger"
+   ]
+  },
+  {
+   "id": "science-c8-385",
+   "type": "short",
+   "q": "What is menstruation? At what stage of life does it begin and stop?",
+   "proposedAnswer": "Menstruation is the monthly flow of blood and tissue from the uterus when an egg is not fertilised. It begins at puberty and stops around the age of 45 to 50 years.",
+   "keyPoints": [
+    "Monthly bleeding from the uterus",
+    "Begins at puberty",
+    "Stops around 45 to 50 years"
+   ]
+  },
+  {
+   "id": "science-c8-386",
+   "type": "mcq",
+   "q": "The menstrual cycle does not occur in a woman during pregnancy because:",
+   "options": [
+    "The ovaries are removed",
+    "The egg that was released was fertilised and the uterus lining is kept for the baby",
+    "The woman is too young",
+    "The body stops growing"
+   ]
+  },
+  {
+   "id": "science-c8-387",
+   "type": "mcq",
+   "q": "Why is it advised to eat iron-rich food such as green leafy vegetables during adolescence?",
+   "options": [
+    "It makes the voice deeper",
+    "Iron helps make haemoglobin in the blood and prevents anaemia",
+    "It reduces height",
+    "It stops hormones"
+   ]
+  },
+  {
+   "id": "science-c8-388",
+   "type": "short",
+   "q": "Explain why the pituitary gland is important at puberty.",
+   "proposedAnswer": "The pituitary gland releases hormones that make the testes and ovaries start producing sex hormones, and it also releases the hormone for growth. In this way it controls the changes at puberty.",
+   "keyPoints": [
+    "Pituitary stimulates testes and ovaries",
+    "Sex hormones cause changes",
+    "Growth hormone also released"
+   ]
+  },
+  {
+   "id": "science-c8-389",
+   "type": "mcq",
+   "q": "The force that pulls objects towards the Earth is called:",
+   "options": [
+    "Friction",
+    "Gravity",
+    "Muscular force",
+    "Magnetic force"
+   ]
+  },
+  {
+   "id": "science-c8-390",
+   "type": "mcq",
+   "q": "Friction is a force that acts between:",
+   "options": [
+    "Two objects far apart",
+    "Magnets only",
+    "Liquids only",
+    "Two surfaces in contact"
+   ]
+  },
+  {
+   "id": "science-c8-391",
+   "type": "mcq",
+   "q": "The pressure on a surface increases when:",
+   "options": [
+    "The same force acts on a smaller area",
+    "The same force acts on a bigger area",
+    "The force is reduced and the area is the same",
+    "The surface gets rough"
+   ]
+  },
+  {
+   "id": "science-c8-392",
+   "type": "short",
+   "q": "What is atmospheric pressure? Why do we not feel it?",
+   "proposedAnswer": "Atmospheric pressure is the pressure exerted by the air around us. We do not feel it because the pressure of the fluids inside our bodies balances it.",
+   "keyPoints": [
+    "Pressure exerted by air",
+    "Acts on everything",
+    "Body's inner pressure balances it"
+   ]
+  },
+  {
+   "id": "science-c8-393",
+   "type": "mcq",
+   "q": "A person exerts more pressure on the ground when standing on one foot than on both feet because:",
+   "options": [
+    "His weight increases",
+    "The ground becomes harder",
+    "The area of contact is halved, so the pressure doubles",
+    "Friction increases"
+   ]
+  },
+  {
+   "id": "science-c8-394",
+   "type": "mcq",
+   "q": "Tractors have very wide tyres because:",
+   "options": [
+    "They look better",
+    "They increase the speed",
+    "They increase friction only",
+    "They spread the weight over a larger area and reduce the pressure on the soil"
+   ]
+  },
+  {
+   "id": "science-c8-395",
+   "type": "short",
+   "q": "Why do nails and drawing pins have pointed tips?",
+   "proposedAnswer": "A pointed tip has a very small area, so when force is applied the pressure is large, and the nail easily goes into the wood or board.",
+   "keyPoints": [
+    "Tip has small area",
+    "Small area gives large pressure",
+    "Penetrates easily"
+   ]
+  },
+  {
+   "id": "science-c8-396",
+   "type": "mcq",
+   "q": "The time taken for one complete vibration is called the:",
+   "options": [
+    "Time period",
+    "Amplitude",
+    "Frequency",
+    "Pitch"
+   ]
+  },
+  {
+   "id": "science-c8-397",
+   "type": "mcq",
+   "q": "Which of the following produces sound by a vibrating string?",
+   "options": [
+    "Flute",
+    "Drum",
+    "Bell",
+    "Sitar"
+   ]
+  },
+  {
+   "id": "science-c8-398",
+   "type": "mcq",
+   "q": "Which of the following sounds is likely to have the highest pitch?",
+   "options": [
+    "The roar of a lion",
+    "The buzzing of a mosquito",
+    "The rumble of thunder",
+    "The beat of a bass drum"
+   ]
+  },
+  {
+   "id": "science-c8-399",
+   "type": "short",
+   "q": "What is amplitude? How does it affect the sound we hear?",
+   "proposedAnswer": "Amplitude is the maximum displacement of a vibrating object from its rest position. A larger amplitude produces a louder sound and a smaller amplitude a softer sound.",
+   "keyPoints": [
+    "Maximum displacement from rest",
+    "Larger amplitude gives louder sound",
+    "Smaller amplitude gives softer sound"
+   ]
+  },
+  {
+   "id": "science-c8-400",
+   "type": "mcq",
+   "q": "An object vibrates 200 times in half a second. What is its frequency?",
+   "options": [
+    "200 Hz",
+    "400 Hz",
+    "100 Hz",
+    "0.4 Hz"
+   ]
+  },
+  {
+   "id": "science-c8-401",
+   "type": "mcq",
+   "q": "Which of the following frequencies cannot be heard by a normal human ear?",
+   "options": [
+    "50 Hz",
+    "500 Hz",
+    "5,000 Hz",
+    "25,000 Hz"
+   ]
+  },
+  {
+   "id": "science-c8-402",
+   "type": "short",
+   "q": "In a guitar, how can the pitch of the sound from a string be made higher?",
+   "proposedAnswer": "The pitch becomes higher when the string is tightened, shortened or replaced by a thinner string, because it then vibrates with a higher frequency.",
+   "keyPoints": [
+    "Tighten the string",
+    "Shorten the string or use a thinner one",
+    "Higher frequency gives higher pitch"
+   ]
+  },
+  {
+   "id": "science-c8-403",
+   "type": "mcq",
+   "q": "Electric current flows in a circuit only when the circuit is:",
+   "options": [
+    "Complete (closed)",
+    "Broken",
+    "Open",
+    "Connected to a magnet"
+   ]
+  },
+  {
+   "id": "science-c8-404",
+   "type": "mcq",
+   "q": "Which of the following is a good conductor of electricity?",
+   "options": [
+    "Plastic scale",
+    "Wooden stick",
+    "Copper wire",
+    "Rubber band"
+   ]
+  },
+  {
+   "id": "science-c8-405",
+   "type": "mcq",
+   "q": "During copper plating, copper is deposited on the:",
+   "options": [
+    "Positive electrode",
+    "Wall of the beaker",
+    "Negative electrode (cathode)",
+    "Connecting wires"
+   ]
+  },
+  {
+   "id": "science-c8-406",
+   "type": "short",
+   "q": "What is the difference between a conductor and an insulator? Give an example of each.",
+   "proposedAnswer": "A conductor allows electric current to pass through it, for example copper. An insulator does not allow current to pass through, for example rubber.",
+   "keyPoints": [
+    "Conductor allows current",
+    "Insulator does not",
+    "Examples of each"
+   ]
+  },
+  {
+   "id": "science-c8-407",
+   "type": "mcq",
+   "q": "When a liquid is placed in a tester circuit, the bulb glows only dimly. This suggests that the liquid is:",
+   "options": [
+    "A weak conductor",
+    "A perfect insulator",
+    "A very good conductor",
+    "A solid"
+   ]
+  },
+  {
+   "id": "science-c8-408",
+   "type": "mcq",
+   "q": "Why is it unsafe to use electrical appliances with wet hands or near water?",
+   "options": [
+    "Water makes the appliance cold",
+    "Water makes the current weaker",
+    "Appliances stop working in water",
+    "Water that contains dissolved salts conducts electricity and can cause a shock"
+   ]
+  },
+  {
+   "id": "science-c8-409",
+   "type": "short",
+   "q": "Describe briefly how a spoon can be electroplated with silver.",
+   "proposedAnswer": "The spoon is made the negative electrode (cathode) and a silver plate is the positive electrode (anode) in a solution of a silver salt. When electric current is passed, silver from the solution is deposited on the spoon.",
+   "keyPoints": [
+    "Spoon is the cathode",
+    "Silver plate is the anode in a silver salt solution",
+    "Current deposits silver on the spoon"
+   ]
+  },
+  {
+   "id": "science-c8-410",
+   "type": "mcq",
+   "q": "In the colours of a rainbow, orange comes immediately after:",
+   "options": [
+    "Yellow",
+    "Red",
+    "Green",
+    "Violet"
+   ]
+  },
+  {
+   "id": "science-c8-411",
+   "type": "mcq",
+   "q": "The point on the Earth's surface directly above the place where an earthquake starts is called the:",
+   "options": [
+    "Crater",
+    "Epicentre",
+    "Delta",
+    "Plateau"
+   ]
+  },
+  {
+   "id": "science-c8-412",
+   "type": "mcq",
+   "q": "If a ray of light strikes a plane mirror at an angle of incidence of 30 degrees, the angle of reflection will be:",
+   "options": [
+    "15 degrees",
+    "60 degrees",
+    "90 degrees",
+    "30 degrees"
+   ]
+  },
+  {
+   "id": "science-c8-413",
+   "type": "short",
+   "q": "Write two precautions to be taken during a thunderstorm.",
+   "proposedAnswer": "We should stay inside a building or a car and avoid standing under tall trees or in open fields. We should also avoid using electrical appliances and corded phones, and stay away from water.",
+   "keyPoints": [
+    "Stay inside a building or vehicle",
+    "Avoid tall trees and open ground",
+    "Avoid electrical appliances"
+   ]
+  },
+  {
+   "id": "science-c8-414",
+   "type": "mcq",
+   "q": "Which house design would be the safest in an earthquake-prone area?",
+   "options": [
+    "A light building with a strong, flexible frame",
+    "A very heavy stone building with no frame",
+    "A tall building with heavy objects on the top",
+    "A house with weak walls"
+   ]
+  },
+  {
+   "id": "science-c8-415",
+   "type": "mcq",
+   "q": "A girl stands 3 m in front of a plane mirror and then walks 1 m toward it. What is the new distance between her and her image?",
+   "options": [
+    "6 m",
+    "3 m",
+    "4 m",
+    "2 m"
+   ]
+  },
+  {
+   "id": "science-c8-416",
+   "type": "short",
+   "q": "A balloon is rubbed against hair and then sticks to a wall. Explain why.",
+   "proposedAnswer": "Rubbing charges the balloon with static electricity. When the charged balloon is brought near the wall, it attracts opposite charge on the wall surface, so the balloon is held to it for some time.",
+   "keyPoints": [
+    "Rubbing charges the balloon",
+    "Charged object induces opposite charge on the wall",
+    "Unlike charges attract"
+   ]
+  },
+  {
+   "id": "science-c8-417",
+   "type": "mcq",
+   "q": "Which of the following is an oilseed crop?",
+   "options": [
+    "Wheat",
+    "Groundnut",
+    "Gram",
+    "Rice"
+   ]
+  },
+  {
+   "id": "science-c8-418",
+   "type": "mcq",
+   "q": "A sickle is a farm tool used for:",
+   "options": [
+    "Sowing",
+    "Ploughing",
+    "Irrigation",
+    "Harvesting"
+   ]
+  },
+  {
+   "id": "science-c8-419",
+   "type": "mcq",
+   "q": "The sprinkler system of irrigation is most useful for:",
+   "options": [
+    "Uneven land where water is scarce",
+    "Paddy fields only",
+    "Large ponds",
+    "Hills of solid rock"
+   ]
+  },
+  {
+   "id": "science-c8-420",
+   "type": "mcq",
+   "q": "Fertilisers are added to the soil mainly to:",
+   "options": [
+    "Make the soil harder",
+    "Remove the weeds",
+    "Replace the nutrients that earlier crops have taken",
+    "Increase the number of earthworms only"
+   ]
+  },
+  {
+   "id": "science-c8-421",
+   "type": "short",
+   "q": "What is threshing, and how is it done on large farms?",
+   "proposedAnswer": "Threshing is the separation of grain seeds from the dry stalks and husk of the harvested crop. On large farms it is done with a machine called a combine harvester, which also harvests the crop.",
+   "keyPoints": [
+    "Separating grain from stalks and husk",
+    "Done after harvesting",
+    "Combine harvester on large farms"
+   ]
+  },
+  {
+   "id": "science-c8-422",
+   "type": "mcq",
+   "q": "A field has become less fertile after chemical fertilisers have been used alone for many years. What is the best remedy?",
+   "options": [
+    "Add more of the same fertiliser",
+    "Stop watering the field",
+    "Add manure and rotate the crops",
+    "Leave the weeds to grow"
+   ]
+  },
+  {
+   "id": "science-c8-423",
+   "type": "mcq",
+   "q": "Weeds should be removed from a crop field early because weeds:",
+   "options": [
+    "Compete with the crop for nutrients, water and light, and may harbour pests",
+    "Supply nitrogen to the crop",
+    "Make the soil moist",
+    "Protect the crop from wind"
+   ]
+  },
+  {
+   "id": "science-c8-424",
+   "type": "short",
+   "q": "Why do seeds need water in order to germinate?",
+   "proposedAnswer": "Seeds take in water, which softens the seed coat and wakes up the embryo inside. The water also helps the stored food to be used by the growing seedling.",
+   "keyPoints": [
+    "Water softens the seed coat",
+    "Embryo becomes active",
+    "Stored food is used by the seedling"
+   ]
+  },
+  {
+   "id": "science-c8-425",
+   "type": "mcq",
+   "q": "Which of the following is a protozoan?",
+   "options": [
+    "Spirogyra",
+    "Yeast",
+    "Rhizobium",
+    "Amoeba"
+   ]
+  },
+  {
+   "id": "science-c8-426",
+   "type": "mcq",
+   "q": "Medicines that kill or stop the growth of bacteria are called:",
+   "options": [
+    "Vaccines",
+    "Antibiotics",
+    "Vitamins",
+    "Antacids"
+   ]
+  },
+  {
+   "id": "science-c8-427",
+   "type": "mcq",
+   "q": "Yeast is used in the commercial production of:",
+   "options": [
+    "Curd",
+    "Alcohol and wine",
+    "Penicillin",
+    "Vinegar from milk"
+   ]
+  },
+  {
+   "id": "science-c8-428",
+   "type": "mcq",
+   "q": "Dengue is spread by the:",
+   "options": [
+    "Anopheles mosquito",
+    "Housefly",
+    "Cockroach",
+    "Aedes mosquito"
+   ]
+  },
+  {
+   "id": "science-c8-429",
+   "type": "short",
+   "q": "Name three methods of preserving food at home and say how each works.",
+   "proposedAnswer": "Heating or cooking and refrigeration keep microbes from growing. Salting and adding sugar remove water, and adding oil or vinegar in pickles keeps air and microbes away.",
+   "keyPoints": [
+    "Any three correct methods",
+    "Each stops growth of microorganisms"
+   ]
+  },
+  {
+   "id": "science-c8-430",
+   "type": "mcq",
+   "q": "Sodium benzoate is added to jams and squashes in small amounts to:",
+   "options": [
+    "Prevent spoilage by microorganisms",
+    "Increase their weight",
+    "Make them hard",
+    "Make them cold"
+   ]
+  },
+  {
+   "id": "science-c8-431",
+   "type": "mcq",
+   "q": "Why are children given vaccines at an early age?",
+   "options": [
+    "To make them taller",
+    "To make their bones strong",
+    "To prepare their body to fight diseases before they get infected",
+    "To cure a disease they already have"
+   ]
+  },
+  {
+   "id": "science-c8-432",
+   "type": "short",
+   "q": "Why is it important to wash hands with soap before eating?",
+   "proposedAnswer": "Our hands pick up microbes from the surroundings. Washing with soap removes them, so they do not enter the body with the food and cause diseases such as diarrhoea.",
+   "keyPoints": [
+    "Hands pick up microbes",
+    "Soap removes them",
+    "Prevents infection"
+   ]
+  },
+  {
+   "id": "science-c8-433",
+   "type": "mcq",
+   "q": "Fibres that are made from chemical substances in factories are called:",
+   "options": [
+    "Natural fibres",
+    "Animal fibres",
+    "Synthetic fibres",
+    "Plant fibres"
+   ]
+  },
+  {
+   "id": "science-c8-434",
+   "type": "mcq",
+   "q": "Which plastic is used to coat non-stick cookware?",
+   "options": [
+    "Teflon",
+    "PVC",
+    "Polythene",
+    "Melamine"
+   ]
+  },
+  {
+   "id": "science-c8-435",
+   "type": "mcq",
+   "q": "Which statement about polyester fabric is correct?",
+   "options": [
+    "It absorbs a lot of water",
+    "It is made from a plant",
+    "It is heavy and always crumples",
+    "It is wrinkle-resistant and easy to wash"
+   ]
+  },
+  {
+   "id": "science-c8-436",
+   "type": "short",
+   "q": "What is PET and what is it used for?",
+   "proposedAnswer": "PET (polyethylene terephthalate) is a plastic that is light, strong and clear. It is used to make bottles and containers for drinks and food.",
+   "keyPoints": [
+    "A plastic called polyethylene terephthalate",
+    "Light, strong and clear",
+    "Bottles and containers"
+   ]
+  },
+  {
+   "id": "science-c8-437",
+   "type": "mcq",
+   "q": "Shirts are often made from a blend of cotton and polyester because the blend:",
+   "options": [
+    "Is heavier than either fibre",
+    "Cannot be washed",
+    "Combines the comfort of cotton with the wrinkle resistance of polyester",
+    "Burns easily in a flame"
+   ]
+  },
+  {
+   "id": "science-c8-438",
+   "type": "mcq",
+   "q": "Which of the following habits helps to reduce plastic pollution?",
+   "options": [
+    "Using a new plastic bag every time",
+    "Reusing cloth bags for shopping",
+    "Burning plastic waste",
+    "Throwing plastic in drains"
+   ]
+  },
+  {
+   "id": "science-c8-439",
+   "type": "short",
+   "q": "How are synthetic fibres different from natural fibres in their source and properties?",
+   "proposedAnswer": "Natural fibres such as cotton and wool come from plants and animals, whereas synthetic fibres such as nylon are made from chemicals in factories. Synthetic fibres are usually stronger, dry quickly and last longer, but they melt and catch fire easily.",
+   "keyPoints": [
+    "Natural from plants and animals",
+    "Synthetic made from chemicals",
+    "Synthetic are strong, durable and quick drying but melt easily"
+   ]
+  },
+  {
+   "id": "science-c8-440",
+   "type": "mcq",
+   "q": "Which of the following metals is commonly used to make jewellery?",
+   "options": [
+    "Iron",
+    "Aluminium",
+    "Zinc",
+    "Gold"
+   ]
+  },
+  {
+   "id": "science-c8-441",
+   "type": "mcq",
+   "q": "Which of the following is a metal?",
+   "options": [
+    "Aluminium",
+    "Oxygen",
+    "Carbon",
+    "Sulphur"
+   ]
+  },
+  {
+   "id": "science-c8-442",
+   "type": "mcq",
+   "q": "When carbon burns in air, the gas produced is:",
+   "options": [
+    "Oxygen",
+    "Hydrogen",
+    "Carbon dioxide",
+    "Nitrogen"
+   ]
+  },
+  {
+   "id": "science-c8-443",
+   "type": "short",
+   "q": "Write two differences between metals and non-metals.",
+   "proposedAnswer": "Metals are generally lustrous, malleable, ductile and good conductors of heat and electricity. Non-metals are generally dull, brittle if solid, and poor conductors of heat and electricity.",
+   "keyPoints": [
+    "Metals are lustrous, malleable and ductile",
+    "Metals conduct heat and electricity",
+    "Non-metals are dull, brittle and poor conductors"
+   ]
+  },
+  {
+   "id": "science-c8-444",
+   "type": "mcq",
+   "q": "A student tries to bend a copper wire and a piece of coal. The wire bends but the coal breaks. This shows that:",
+   "options": [
+    "Copper is brittle",
+    "Coal is a metal",
+    "Copper is a non-metal",
+    "Metals are ductile and malleable, whereas coal is brittle"
+   ]
+  },
+  {
+   "id": "science-c8-445",
+   "type": "mcq",
+   "q": "A silver spoon left in the air for a long time becomes dark because:",
+   "options": [
+    "It reacts with substances such as sulphur compounds in the air",
+    "The spoon gets heated by sunlight",
+    "It loses its weight",
+    "It turns into a non-metal"
+   ]
+  },
+  {
+   "id": "science-c8-446",
+   "type": "short",
+   "q": "Why are the handles of cooking pans made of plastic or wood instead of metal?",
+   "proposedAnswer": "Metals are good conductors of heat, so a metal handle would become too hot to hold. Plastic and wood are poor conductors, so the handle remains cool enough to hold.",
+   "keyPoints": [
+    "Metals conduct heat",
+    "Metal handle would get hot",
+    "Plastic and wood are poor conductors"
+   ]
+  },
+  {
+   "id": "science-c8-447",
+   "type": "mcq",
+   "q": "Petrol, diesel and kerosene are obtained from:",
+   "options": [
+    "Coal",
+    "Wood",
+    "Natural gas",
+    "Petroleum"
+   ]
+  },
+  {
+   "id": "science-c8-448",
+   "type": "mcq",
+   "q": "Coal is a:",
+   "options": [
+    "Liquid fuel",
+    "Solid fuel",
+    "Gaseous fuel",
+    "Fuel from the Sun"
+   ]
+  },
+  {
+   "id": "science-c8-449",
+   "type": "mcq",
+   "q": "Which coal product is used for making naphthalene balls, dyes and paints?",
+   "options": [
+    "Coke",
+    "Coal tar",
+    "Coal gas",
+    "Bitumen"
+   ]
+  },
+  {
+   "id": "science-c8-450",
+   "type": "short",
+   "q": "State two uses of coal.",
+   "proposedAnswer": "Coal is used as a fuel in homes, in industries and in power plants to generate electricity. Its product, coke, is used in making steel.",
+   "keyPoints": [
+    "Fuel in homes or industry",
+    "Power generation",
+    "Coke used in steel making"
+   ]
+  },
+  {
+   "id": "science-c8-451",
+   "type": "mcq",
+   "q": "Compared with petrol, vehicles that run on CNG:",
+   "options": [
+    "Release more carbon monoxide",
+    "Cannot be used in cities",
+    "Use a solid fuel",
+    "Release fewer harmful gases"
+   ]
+  },
+  {
+   "id": "science-c8-452",
+   "type": "mcq",
+   "q": "In an oil-bearing rock, natural gas is found above the petroleum. This is because natural gas is:",
+   "options": [
+    "Lighter than petroleum",
+    "Heavier than petroleum",
+    "Frozen",
+    "Mixed with water"
+   ]
+  },
+  {
+   "id": "science-c8-453",
+   "type": "short",
+   "q": "Why are coal and petroleum called fossil fuels?",
+   "proposedAnswer": "They were formed from the remains of dead plants and animals, which were buried under the earth for millions of years. Heat and pressure turned them into fuels, as fossils form from old remains.",
+   "keyPoints": [
+    "Formed from remains of dead organisms",
+    "Buried for millions of years",
+    "Heat and pressure changed them"
+   ]
+  },
+  {
+   "id": "science-c8-454",
+   "type": "mcq",
+   "q": "The lowest temperature at which a substance catches fire is called its:",
+   "options": [
+    "Boiling point",
+    "Melting point",
+    "Ignition temperature",
+    "Freezing point"
+   ]
+  },
+  {
+   "id": "science-c8-455",
+   "type": "mcq",
+   "q": "Which of the following catches fire very easily?",
+   "options": [
+    "Iron",
+    "Glass",
+    "Petrol",
+    "Sand"
+   ]
+  },
+  {
+   "id": "science-c8-456",
+   "type": "mcq",
+   "q": "Water is a suitable extinguisher for burning wood and paper because it:",
+   "options": [
+    "Cools the material below its ignition temperature",
+    "Adds more oxygen",
+    "Makes the wood lighter",
+    "Burns with the wood"
+   ]
+  },
+  {
+   "id": "science-c8-457",
+   "type": "short",
+   "q": "Distinguish between combustible and non-combustible substances with two examples of each.",
+   "proposedAnswer": "Combustible substances burn in air, such as wood and paper. Non-combustible substances do not burn, such as glass and stone.",
+   "keyPoints": [
+    "Combustible burn",
+    "Non-combustible do not burn",
+    "Two examples of each"
+   ]
+  },
+  {
+   "id": "science-c8-458",
+   "type": "mcq",
+   "q": "Carbon monoxide, produced in incomplete combustion, is dangerous because it:",
+   "options": [
+    "Is a very heavy gas",
+    "Makes the air cool",
+    "Burns with a blue flame",
+    "Is a poisonous gas that has no colour or smell"
+   ]
+  },
+  {
+   "id": "science-c8-459",
+   "type": "mcq",
+   "q": "Why can sand be used to put out a small fire?",
+   "options": [
+    "It adds fuel",
+    "It cuts off the supply of air and covers the burning material",
+    "It lights up the fire",
+    "It changes the ignition temperature"
+   ]
+  },
+  {
+   "id": "science-c8-460",
+   "type": "short",
+   "q": "What is calorific value? Why is it important when we choose a fuel?",
+   "proposedAnswer": "Calorific value is the amount of heat produced by the complete burning of 1 kg of a fuel, measured in kJ/kg. A fuel with a higher calorific value gives more heat for the same mass, so it is more efficient.",
+   "keyPoints": [
+    "Heat from complete burning of 1 kg",
+    "Unit kJ/kg",
+    "Higher value means a better fuel"
+   ]
+  },
+  {
+   "id": "science-c8-461",
+   "type": "mcq",
+   "q": "The plants and animals of a region are together called its:",
+   "options": [
+    "Soil and water",
+    "Flora and fauna",
+    "Climate",
+    "Resources of the sea"
+   ]
+  },
+  {
+   "id": "science-c8-462",
+   "type": "mcq",
+   "q": "Cutting down trees to get land for farming or buildings is called:",
+   "options": [
+    "Reforestation",
+    "Migration",
+    "Conservation",
+    "Deforestation"
+   ]
+  },
+  {
+   "id": "science-c8-463",
+   "type": "mcq",
+   "q": "Animals that move from one region to another according to the season are called:",
+   "options": [
+    "Migratory animals",
+    "Endemic animals",
+    "Extinct animals",
+    "Aquatic animals"
+   ]
+  },
+  {
+   "id": "science-c8-464",
+   "type": "short",
+   "q": "What is the Red Data Book and why is it important?",
+   "proposedAnswer": "The Red Data Book is a record of species of plants and animals that are endangered or threatened with extinction. It helps in planning how to protect them.",
+   "keyPoints": [
+    "Record of endangered species",
+    "Shows which species need protection",
+    "Helps to plan conservation"
+   ]
+  },
+  {
+   "id": "science-c8-465",
+   "type": "mcq",
+   "q": "Which activity damages life in rivers and ponds the most?",
+   "options": [
+    "Planting trees on the banks",
+    "Cleaning the water body",
+    "Dumping industrial waste into the water",
+    "Stopping fishing for some time"
+   ]
+  },
+  {
+   "id": "science-c8-466",
+   "type": "mcq",
+   "q": "Why should we avoid buying articles made from animal skin or ivory?",
+   "options": [
+    "They are too light",
+    "They are not durable",
+    "They are not attractive",
+    "Demand for them leads to poaching, which endangers species"
+   ]
+  },
+  {
+   "id": "science-c8-467",
+   "type": "short",
+   "q": "How can saving paper help to save forests?",
+   "proposedAnswer": "Paper is made from wood pulp, which comes from trees. If we use less paper and reuse or recycle it, fewer trees are cut, so forests are protected.",
+   "keyPoints": [
+    "Paper is made from trees",
+    "Saving paper means fewer trees cut",
+    "Recycling helps"
+   ]
+  },
+  {
+   "id": "science-c8-468",
+   "type": "mcq",
+   "q": "The part of a plant cell that lies outside the cell membrane is the:",
+   "options": [
+    "Cell wall",
+    "Nucleus",
+    "Vacuole",
+    "Chloroplast"
+   ]
+  },
+  {
+   "id": "science-c8-469",
+   "type": "mcq",
+   "q": "The genetic information of the cell is stored in the:",
+   "options": [
+    "Cell membrane",
+    "Vacuole",
+    "Cytoplasm",
+    "Nucleus"
+   ]
+  },
+  {
+   "id": "science-c8-470",
+   "type": "mcq",
+   "q": "Compared with an animal cell, a mature plant cell typically has:",
+   "options": [
+    "No cytoplasm",
+    "One large central vacuole",
+    "No nucleus",
+    "No cell membrane"
+   ]
+  },
+  {
+   "id": "science-c8-471",
+   "type": "short",
+   "q": "What are cell organelles? Name two of them.",
+   "proposedAnswer": "Organelles are small structures within a cell, each doing a particular job. Two examples are the nucleus and the mitochondria.",
+   "keyPoints": [
+    "Small structures in a cell",
+    "Each has a particular function",
+    "Two examples"
+   ]
+  },
+  {
+   "id": "science-c8-472",
+   "type": "mcq",
+   "q": "An animal cell cannot make its own food by photosynthesis because it:",
+   "options": [
+    "Is too small",
+    "Lacks chloroplasts with chlorophyll",
+    "Has no nucleus",
+    "Has a cell wall"
+   ]
+  },
+  {
+   "id": "science-c8-473",
+   "type": "mcq",
+   "q": "Cells in the roots of a plant have no chloroplasts. The most likely reason is that:",
+   "options": [
+    "Roots are too thin",
+    "Roots do not need water",
+    "Roots have no cell membrane",
+    "Sunlight does not reach the roots, so they do not carry out photosynthesis"
+   ]
+  },
+  {
+   "id": "science-c8-474",
+   "type": "short",
+   "q": "Why is the nucleus called the control centre of a cell?",
+   "proposedAnswer": "The nucleus holds the chromosomes with genes, which carry instructions for the cell, so it controls growth, activities and reproduction of the cell. A cell without its nucleus cannot work properly for long.",
+   "keyPoints": [
+    "Holds chromosomes and genes",
+    "Controls the activities of the cell",
+    "Needed for the cell to function"
+   ]
+  },
+  {
+   "id": "science-c8-475",
+   "type": "mcq",
+   "q": "The type of reproduction in which two parents are involved is called:",
+   "options": [
+    "Sexual reproduction",
+    "Budding",
+    "Binary fission",
+    "Regeneration only"
+   ]
+  },
+  {
+   "id": "science-c8-476",
+   "type": "mcq",
+   "q": "The cell formed by fusion of a sperm and an egg is the:",
+   "options": [
+    "Gamete",
+    "Embryo",
+    "Zygote",
+    "Foetus"
+   ]
+  },
+  {
+   "id": "science-c8-477",
+   "type": "mcq",
+   "q": "The stage of development in humans in which all the body parts can be identified is the:",
+   "options": [
+    "Zygote",
+    "Gamete",
+    "Foetus",
+    "Sperm"
+   ]
+  },
+  {
+   "id": "science-c8-478",
+   "type": "short",
+   "q": "Write two differences between sexual and asexual reproduction.",
+   "proposedAnswer": "In sexual reproduction two parents are involved and gametes fuse, so the young are different from the parents. In asexual reproduction only one parent is involved and the young are almost identical to the parent, as in Hydra budding.",
+   "keyPoints": [
+    "Sexual needs two parents; asexual needs one",
+    "Gametes fuse in sexual",
+    "Asexual offspring are similar to the parent"
+   ]
+  },
+  {
+   "id": "science-c8-479",
+   "type": "mcq",
+   "q": "Frogs usually lay their eggs in water in the rainy season because:",
+   "options": [
+    "Tadpoles need water to live and breathe through gills",
+    "Frogs cannot walk on land",
+    "Eggs need to be dry",
+    "Water makes the eggs hard"
+   ]
+  },
+  {
+   "id": "science-c8-480",
+   "type": "mcq",
+   "q": "Which statement about a zygote is correct?",
+   "options": [
+    "It forms only in plants",
+    "It has only the mother's genes",
+    "It cannot divide",
+    "It is formed by fusion of a sperm and an egg and has genes from both parents"
+   ]
+  },
+  {
+   "id": "science-c8-481",
+   "type": "short",
+   "q": "Why does a child look like both parents?",
+   "proposedAnswer": "The zygote is formed by fusion of a sperm from the father and an egg from the mother, so it gets genes from both. These genes decide the features of the child.",
+   "keyPoints": [
+    "Zygote from father's sperm and mother's egg",
+    "Genes from both parents",
+    "Genes decide features"
+   ]
+  },
+  {
+   "id": "science-c8-482",
+   "type": "mcq",
+   "q": "Hormones are secreted by:",
+   "options": [
+    "Muscles",
+    "Endocrine glands",
+    "Bones",
+    "Nails"
+   ]
+  },
+  {
+   "id": "science-c8-483",
+   "type": "mcq",
+   "q": "The stage when the body becomes capable of reproduction is called:",
+   "options": [
+    "Infancy",
+    "Puberty",
+    "Old age",
+    "Childhood"
+   ]
+  },
+  {
+   "id": "science-c8-484",
+   "type": "mcq",
+   "q": "The adrenal glands are located:",
+   "options": [
+    "In the neck",
+    "In the brain",
+    "In the legs",
+    "Above the kidneys"
+   ]
+  },
+  {
+   "id": "science-c8-485",
+   "type": "short",
+   "q": "What is goitre and how can it be prevented?",
+   "proposedAnswer": "Goitre is a swelling in the neck caused by a lack of iodine, which the thyroid gland needs to make thyroxine. It can be prevented by using iodised salt and eating iodine-rich food.",
+   "keyPoints": [
+    "Swelling of the thyroid gland in the neck",
+    "Caused by iodine deficiency",
+    "Prevented by iodised salt"
+   ]
+  },
+  {
+   "id": "science-c8-486",
+   "type": "mcq",
+   "q": "A teenager develops pimples on the face. What is the best advice?",
+   "options": [
+    "Wash the face regularly with clean water and avoid squeezing the pimples",
+    "Squeeze them hard",
+    "Stop eating completely",
+    "Apply dirt to the face"
+   ]
+  },
+  {
+   "id": "science-c8-487",
+   "type": "mcq",
+   "q": "When a girl has her first menstrual period, it generally means that:",
+   "options": [
+    "She is ill",
+    "She has stopped growing",
+    "She has reached puberty and her body is maturing for reproduction",
+    "She has become an adult in all ways"
+   ]
+  },
+  {
+   "id": "science-c8-488",
+   "type": "short",
+   "q": "Why should adolescents stay away from tobacco, alcohol and drugs?",
+   "proposedAnswer": "These substances harm the body and the brain, especially during the growing years. They can become a habit that is hard to break and cause diseases and problems in studies and life.",
+   "keyPoints": [
+    "Harm the body and brain",
+    "Addiction",
+    "Cause diseases and other problems"
+   ]
+  },
+  {
+   "id": "science-c8-489",
+   "type": "mcq",
+   "q": "Which example shows a force changing the shape of an object?",
+   "options": [
+    "A ball rolling on the ground",
+    "A cricket ball being thrown",
+    "Squeezing a sponge",
+    "A cart being pushed"
+   ]
+  },
+  {
+   "id": "science-c8-490",
+   "type": "mcq",
+   "q": "Atmospheric pressure is measured with a:",
+   "options": [
+    "Barometer",
+    "Thermometer",
+    "Speedometer",
+    "Ammeter"
+   ]
+  },
+  {
+   "id": "science-c8-491",
+   "type": "mcq",
+   "q": "The amount of friction between two surfaces depends on:",
+   "options": [
+    "The colour of the surfaces",
+    "Only the room temperature",
+    "The shape of the object only",
+    "The roughness of the surfaces and the force pressing them together"
+   ]
+  },
+  {
+   "id": "science-c8-492",
+   "type": "mcq",
+   "q": "A lubricant reduces friction because it:",
+   "options": [
+    "Makes surfaces rougher",
+    "Forms a thin layer between the surfaces",
+    "Makes the surfaces stick",
+    "Increases the force pressing on them"
+   ]
+  },
+  {
+   "id": "science-c8-493",
+   "type": "short",
+   "q": "What is the difference between contact forces and non-contact forces? Give one example of each.",
+   "proposedAnswer": "A contact force acts only when objects touch each other, such as muscular force or friction. A non-contact force acts without touching, such as gravity or the force of a magnet.",
+   "keyPoints": [
+    "Contact needs touching",
+    "Non-contact acts at a distance",
+    "One example of each"
+   ]
+  },
+  {
+   "id": "science-c8-494",
+   "type": "mcq",
+   "q": "A car skids on a wet road because:",
+   "options": [
+    "The car becomes lighter",
+    "A film of water reduces the friction between the tyres and the road",
+    "The road becomes hotter",
+    "Gravity becomes smaller"
+   ]
+  },
+  {
+   "id": "science-c8-495",
+   "type": "mcq",
+   "q": "A glass is filled with water and covered with a card. When it is turned upside down, the card stays in place because:",
+   "options": [
+    "The water is sticky",
+    "The card is heavy",
+    "Gravity is absent",
+    "Atmospheric pressure pushes the card upward"
+   ]
+  },
+  {
+   "id": "science-c8-496",
+   "type": "short",
+   "q": "Explain how the brakes of a bicycle stop it.",
+   "proposedAnswer": "When the brake lever is pressed, the brake pads press against the rim of the wheel. The friction between the pads and the rim opposes the motion and slows the wheel until it stops.",
+   "keyPoints": [
+    "Brake pads press on the wheel rim",
+    "Friction opposes motion",
+    "Wheel slows down and stops"
+   ]
+  },
+  {
+   "id": "science-c8-497",
+   "type": "mcq",
+   "q": "Sound travels through air in the form of:",
+   "options": [
+    "Waves",
+    "Rays of light",
+    "Beams",
+    "Streams of heat"
+   ]
+  },
+  {
+   "id": "science-c8-498",
+   "type": "mcq",
+   "q": "Which of the following produces sound by a vibrating air column?",
+   "options": [
+    "Sitar",
+    "Drum",
+    "Flute",
+    "Violin"
+   ]
+  },
+  {
+   "id": "science-c8-499",
+   "type": "mcq",
+   "q": "An echo is:",
+   "options": [
+    "A very high pitched sound",
+    "A sound that is louder than normal",
+    "The sound that is heard after reflection from a surface",
+    "A sound without vibrations"
+   ]
+  },
+  {
+   "id": "science-c8-500",
+   "type": "mcq",
+   "q": "The speed of sound in air is about:",
+   "options": [
+    "340 m/s",
+    "3,000 m/s",
+    "300,000,000 m/s",
+    "34 m/s"
+   ]
+  }
+ ]
+}
