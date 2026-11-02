@@ -21,7 +21,14 @@
  "syllabus": "unverified: topics are the drafting model’s reading of the NCERT/CBSE syllabus and have not been checked against the official documents",
  "drafted_by": "claude-sonnet",
  "drafted_at": "2026-11-02",
- "crossCheck": null,
+ "crossCheck": {
+  "model": "claude-haiku",
+  "method": "MCQs answered blind (no key shown); short answers judged against their proposed answer",
+  "agree": 500,
+  "disagree": 0,
+  "unsure": 0,
+  "missing": 0
+ },
  "questions": [
   {
    "id": "science-c12-001",
@@ -42,7 +49,11 @@
    "explanation": "Charge is measured in coulomb (C); the ampere is the unit of current, the volt of potential and the farad of capacitance.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-002",
@@ -63,7 +74,11 @@
    "explanation": "The elementary charge is e = 1.6 × 10^-19 C; 9.1 × 10^-31 is the electron mass in kg.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-003",
@@ -84,7 +99,11 @@
    "explanation": "Coulomb force varies as 1/r^2, so doubling r reduces the force to one fourth.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-004",
@@ -105,7 +124,11 @@
    "explanation": "E = kq/r^2 = (9 × 10^9 × 3 × 10^-9)/(0.3)^2 = 27/0.09 = 300 N/C.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-005",
@@ -126,7 +149,11 @@
    "explanation": "The field inside a conductor is zero, so the potential is constant throughout the inside and equals the surface value kQ/R.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-006",
@@ -147,7 +174,11 @@
    "explanation": "With V fixed, capacitance becomes 4C, and U = (1/2)CV^2 becomes four times the original value.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-007",
@@ -167,7 +198,10 @@
    "explanation": "A dipole is a pair of equal and opposite charges separated by a small distance, and p describes its strength and orientation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-008",
@@ -187,7 +221,10 @@
    "explanation": "Static equilibrium means no net force on free charges, which requires zero field inside the conductor.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-009",
@@ -208,7 +245,11 @@
    "explanation": "Resistance is measured in ohm; siemens is the unit of conductance.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-010",
@@ -229,7 +270,11 @@
    "explanation": "The field forms closed concentric circles whose direction is given by the right-hand thumb rule.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-011",
@@ -250,7 +295,11 @@
    "explanation": "By Ohm's law I = V/R = 5/20 = 0.25 A.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-012",
@@ -271,7 +320,11 @@
    "explanation": "For equal resistors in parallel R_eq = R/n = 6/3 = 2 ohm.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-013",
@@ -292,7 +345,11 @@
    "explanation": "The magnetic force is perpendicular to velocity so it does no work; speed and kinetic energy stay constant while the direction keeps changing.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-014",
@@ -313,7 +370,11 @@
    "explanation": "Length doubles and area halves, so R = rho L/A becomes (2L)/(A/2) times rho, that is 4R.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-015",
@@ -333,7 +394,10 @@
    "explanation": "These rules let us analyse circuits that cannot be reduced by simple series-parallel combinations.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-016",
@@ -353,7 +417,10 @@
    "explanation": "The shunt carries most of the current and the combined resistance is smaller than that of the shunt.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-017",
@@ -374,7 +441,11 @@
    "explanation": "Induced emf equals the negative of the rate of change of magnetic flux linked with the coil.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-018",
@@ -395,7 +466,11 @@
    "explanation": "Inductance is measured in henry (H); weber is the unit of magnetic flux and tesla of magnetic field.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-019",
@@ -416,7 +491,11 @@
    "explanation": "emf = change in flux / time = 0.06/0.3 = 0.2 V.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-020",
@@ -437,7 +516,11 @@
    "explanation": "V_rms = V_0/sqrt(2) = 100/1.414, about 70.7 V.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-021",
@@ -458,7 +541,11 @@
    "explanation": "Aiding the change would increase the flux further and produce unlimited current from no input, creating energy from nothing; Lenz's law is an expression of energy conservation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-022",
@@ -479,7 +566,11 @@
    "explanation": "omega = 1/sqrt(LC) = 1/sqrt(0.1 × 10^-5) = 1/sqrt(10^-6) = 1000 rad/s.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-023",
@@ -499,7 +590,10 @@
    "explanation": "A changing flux produced by the primary induces an emf in the secondary.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-024",
@@ -519,7 +613,10 @@
    "explanation": "Energy is stored in the magnetic field and returned to the source each cycle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-025",
@@ -540,7 +637,11 @@
    "explanation": "Refraction is the change in direction of light at the boundary of two media due to the change in its speed.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-026",
@@ -561,7 +662,11 @@
    "explanation": "Power is 1/f with f in metres and is measured in dioptre (D).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-027",
@@ -582,7 +687,11 @@
    "explanation": "From 1/v + 1/u = 1/f with u = -30 and f = -15, 1/v = -1/15 + 1/30 = -1/30, so v = -30 cm: the image is at the centre of curvature.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-028",
@@ -603,7 +712,11 @@
    "explanation": "v = c/n = 3 × 10^8 / 1.5 = 2 × 10^8 m/s.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-029",
@@ -624,7 +737,11 @@
    "explanation": "Wavelength in water is smaller than in air, and fringe width = lambda D/d is proportional to the wavelength, so it decreases.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-030",
@@ -645,7 +762,11 @@
    "explanation": "TIR needs light travelling from the denser to the rarer medium with an angle of incidence greater than the critical angle; only 60 degrees glass to air satisfies this.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-031",
@@ -665,7 +786,10 @@
    "explanation": "Single-slit patterns with a central bright maximum are a standard example.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-032",
@@ -685,7 +809,10 @@
    "explanation": "From the lens-maker's formula, 1/f is proportional to (n_lens/n_medium - 1), which becomes negative.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-033",
@@ -706,7 +833,11 @@
    "explanation": "Light of frequency f consists of photons of energy hf.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-034",
@@ -727,7 +858,11 @@
    "explanation": "Einstein explained it by treating light as photons, each transferring its energy to one electron.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-035",
@@ -748,7 +883,11 @@
    "explanation": "E = 1240/600 = 2.07 eV.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-036",
@@ -769,7 +908,11 @@
    "explanation": "E_n = -13.6/n^2 eV, so E_2 = -13.6/4 = -3.4 eV.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-037",
@@ -790,7 +933,11 @@
    "explanation": "Doubling intensity doubles the number of photons and hence the emitted electrons, while the maximum kinetic energy depends only on frequency.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-038",
@@ -811,7 +958,11 @@
    "explanation": "Light nuclei lie on the rising part of the binding energy curve, so fusion gives a more tightly bound nucleus and the difference is released as energy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-039",
@@ -830,7 +981,10 @@
    "explanation": "It follows from N = N0 e^(-lambda t) by setting N = N0/2.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-040",
@@ -850,7 +1004,10 @@
    "explanation": "The wavelength is comparable to atomic spacings, which is why electrons show diffraction from crystals.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-041",
@@ -871,7 +1028,11 @@
    "explanation": "Molarity = moles of solute per litre of solution; moles per kg of solvent is molality.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-042",
@@ -892,7 +1053,11 @@
    "explanation": "The cathode is where reduction occurs and the anode is where oxidation occurs, in both galvanic and electrolytic cells.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-043",
@@ -913,7 +1078,11 @@
    "explanation": "Moles = 4/40 = 0.1 mol; molarity = 0.1/0.5 L = 0.2 M.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-044",
@@ -934,7 +1103,11 @@
    "explanation": "x_A = 2/(2 + 3) = 0.4.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-045",
@@ -955,7 +1128,11 @@
    "explanation": "Elevation of boiling point depends on the number of particles; CaCl2 gives three ions per formula unit, the most among the options.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-046",
@@ -976,7 +1153,11 @@
    "explanation": "Charge = 1930 C = 0.02 mol of electrons; Cu2+ needs 2 electrons so 0.01 mol Cu = 0.635 g.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-047",
@@ -996,7 +1177,10 @@
    "explanation": "Solutions obeying this law over the whole range of composition are called ideal solutions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-048",
@@ -1016,7 +1200,10 @@
    "explanation": "Molar conductivity is conductivity per unit concentration, and the ion count per mole increases on dilution.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-049",
@@ -1037,7 +1224,11 @@
    "explanation": "For first order, rate = k[A], so k has units of s^-1.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-050",
@@ -1058,7 +1249,11 @@
    "explanation": "Iron has its last electron in the 3d subshell, whereas Na and Ca are s-block and Al is p-block.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-051",
@@ -1079,7 +1274,11 @@
    "explanation": "t_half = 0.693/k = 0.693/0.0693 = 10 min.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-052",
@@ -1100,7 +1299,11 @@
    "explanation": "K is +1 and four oxygens give -8, so Mn must be +7.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-053",
@@ -1121,7 +1324,11 @@
    "explanation": "Rate changes by 2^2 × 2 = 8 times.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-054",
@@ -1142,7 +1349,11 @@
    "explanation": "Zn2+ has a completely filled 3d10 configuration with no d-d transitions possible; the others have partly filled d orbitals and are coloured.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-055",
@@ -1162,7 +1373,10 @@
    "explanation": "In the Arrhenius equation k = A e^(-Ea/RT), a smaller Ea gives a larger k.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-056",
@@ -1182,7 +1396,10 @@
    "explanation": "Each added 4f electron shields poorly, so the effective nuclear charge pulls the outer electrons in.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-057",
@@ -1203,7 +1420,11 @@
    "explanation": "The cyanide ions are the ligands bonded to the central iron(II) ion.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-058",
@@ -1224,7 +1445,11 @@
    "explanation": "Six monodentate ammonia ligands are bonded to the cobalt ion.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-059",
@@ -1245,7 +1470,11 @@
    "explanation": "NH3 is neutral and three chloride ions are outside the complex, so the complex cation is 3+ and cobalt is +3.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-060",
@@ -1266,7 +1495,11 @@
    "explanation": "Four K+ balance a 4- complex anion; with six CN- the iron is +2, so the name is potassium hexacyanidoferrate(II).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-061",
@@ -1287,7 +1520,11 @@
    "explanation": "The two chloride ligands can be adjacent (cis) or opposite (trans), giving two geometrical isomers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-062",
@@ -1308,7 +1545,11 @@
    "explanation": "Nickel is in the zero oxidation state (3d10) with sp3 hybridisation, giving a tetrahedral, diamagnetic complex.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-063",
@@ -1328,7 +1569,10 @@
    "explanation": "Denticity is the number of donor atoms through which a ligand binds to the metal.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-064",
@@ -1348,7 +1592,10 @@
    "explanation": "In the complex the ligands are bonded to the metal by coordinate bonds, so it behaves as a single unit.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-065",
@@ -1369,7 +1616,11 @@
    "explanation": "Alcohols contain the hydroxyl (-OH) group attached to a saturated carbon.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-066",
@@ -1390,7 +1641,11 @@
    "explanation": "A two-carbon chain with one bromine is named bromoethane.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-067",
@@ -1411,7 +1666,11 @@
    "explanation": "The nucleophile attacks from the side opposite to the leaving group, inverting the configuration in a single step.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-068",
@@ -1432,7 +1691,11 @@
    "explanation": "At 443 K with excess acid the main product is ethene by dehydration; diethyl ether forms at about 413 K with excess alcohol.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-069",
@@ -1453,7 +1716,11 @@
    "explanation": "SN1 proceeds through a carbocation, and the tertiary carbocation from tert-butyl chloride is the most stable.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-070",
@@ -1474,7 +1741,11 @@
    "explanation": "The negative charge on the phenoxide ion is delocalised into the benzene ring, which stabilises it and favours loss of H+.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-071",
@@ -1494,7 +1765,10 @@
    "explanation": "A primary alkyl halide is used because secondary or tertiary halides would mainly undergo elimination.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-072",
@@ -1514,7 +1788,10 @@
    "explanation": "Hydrogen bonding is much stronger than the dipole-dipole forces in ethers and haloalkanes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-073",
@@ -1535,7 +1812,11 @@
    "explanation": "Aldehydes contain the -CHO (formyl) group.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-074",
@@ -1556,7 +1837,11 @@
    "explanation": "Tollens' reagent (ammoniacal silver nitrate) is reduced to silver metal by aldehydes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-075",
@@ -1577,7 +1862,11 @@
    "explanation": "Aldehydes are readily oxidised to carboxylic acids with the same number of carbon atoms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-076",
@@ -1598,7 +1887,11 @@
    "explanation": "Glucose has six carbons and an aldehyde group, making it an aldohexose and a monosaccharide.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-077",
@@ -1619,7 +1912,11 @@
    "explanation": "Propanone has a CH3-CO- group, which is required for the iodoform reaction.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-078",
@@ -1640,7 +1937,11 @@
    "explanation": "Delocalisation of the nitrogen lone pair into the ring makes it less available to accept a proton.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-079",
@@ -1660,7 +1961,10 @@
    "explanation": "Chains of amino acids joined by peptide bonds make up proteins.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-080",
@@ -1680,7 +1984,10 @@
    "explanation": "Reducing sugars must have a free hemiacetal or hemiketal group that can open to give a carbonyl.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-081",
@@ -1701,7 +2008,11 @@
    "explanation": "The testes contain seminiferous tubules in which sperms are formed.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-082",
@@ -1722,7 +2033,11 @@
    "explanation": "The sperm meets the ovum in the ampullary region of the oviduct, and the zygote then moves to the uterus.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-083",
@@ -1743,7 +2058,11 @@
    "explanation": "A mid-cycle LH surge causes the Graafian follicle to rupture and release the ovum.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-084",
@@ -1764,7 +2083,11 @@
    "explanation": "Spermatogonia in the seminiferous tubules divide and differentiate into sperms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-085",
@@ -1785,7 +2108,11 @@
    "explanation": "One male gamete fuses with the two polar nuclei (2n together) in triple fusion, giving a 3n nucleus.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-086",
@@ -1806,7 +2133,11 @@
    "explanation": "Vasectomy only cuts the vas deferens; the Leydig cells keep secreting testosterone, so secondary sexual characters are unaffected.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-087",
@@ -1826,7 +2157,10 @@
    "explanation": "The zygote develops into the embryo and the endosperm nucleus into food-storing tissue.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-088",
@@ -1846,7 +2180,10 @@
    "explanation": "The placenta also secretes hormones such as hCG, oestrogen and progesterone.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-089",
@@ -1867,7 +2204,11 @@
    "explanation": "Mendel's experiments with garden pea laid the foundation of the laws of inheritance.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-090",
@@ -1888,7 +2229,11 @@
    "explanation": "A pairs with T through two hydrogen bonds; G pairs with C through three.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-091",
@@ -1909,7 +2254,11 @@
    "explanation": "TT, Tt, Tt and tt give 3 tall to 1 dwarf; the genotypic ratio is 1:2:1.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-092",
@@ -1930,7 +2279,11 @@
    "explanation": "Females are XX and males are XY.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-093",
@@ -1951,7 +2304,11 @@
    "explanation": "If the parent were Tt, about half the offspring would be dwarf; all tall offspring indicate homozygous TT.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-094",
@@ -1972,7 +2329,11 @@
    "explanation": "q = 0.2 and p = 0.8, so 2pq = 2 × 0.8 × 0.2 = 0.32.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-095",
@@ -1992,7 +2353,10 @@
    "explanation": "The genetic code is read in non-overlapping triplets.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-096",
@@ -2012,7 +2376,10 @@
    "explanation": "Natural selection acts on existing variation and changes allele frequencies over generations.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-097",
@@ -2033,7 +2400,11 @@
    "explanation": "Restriction endonucleases act as molecular scissors in recombinant DNA technology.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-098",
@@ -2054,7 +2425,11 @@
    "explanation": "Taq polymerase comes from the thermophilic bacterium Thermus aquaticus and survives the high temperature of denaturation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-099",
@@ -2075,7 +2450,11 @@
    "explanation": "About 10% of the energy passes to the next trophic level, so 1000 J reaches herbivores.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-100",
@@ -2096,7 +2475,11 @@
    "explanation": "It carries a Bacillus thuringiensis gene for a toxin that kills the larvae of cotton bollworms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-101",
@@ -2117,7 +2500,11 @@
    "explanation": "Extra nutrients cause an algal bloom; its decomposition uses up dissolved oxygen, killing aquatic animals.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-102",
@@ -2138,7 +2525,11 @@
    "explanation": "Numbers ignore body size, so a single large producer can support many consumers; the energy pyramid is still upright.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-103",
@@ -2158,7 +2549,10 @@
    "explanation": "Energy decreases at each trophic level because of loss as heat.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-104",
@@ -2178,7 +2572,10 @@
    "explanation": "Both fragment and vector are first cut with the same restriction enzyme to give compatible ends.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-105",
@@ -2199,7 +2596,11 @@
    "explanation": "Field lines begin on positive charges and end on negative charges; they never cross and are not closed loops.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-106",
@@ -2220,7 +2621,11 @@
    "explanation": "One farad equals one coulomb per volt.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-107",
@@ -2241,7 +2646,11 @@
    "explanation": "Only electrons are transferred in charging by friction; the glass loses electrons and becomes positive.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-108",
@@ -2262,7 +2671,11 @@
    "explanation": "C = epsilon_0 A/d is inversely proportional to d, so doubling d halves C.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-109",
@@ -2283,7 +2696,11 @@
    "explanation": "C_eq = (3 × 6)/(3 + 6) = 18/9 = 2 microfarad.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-110",
@@ -2304,7 +2721,11 @@
    "explanation": "The forces on the two charges are equal and opposite so the net force is zero, but they act at different points and produce a torque p × E.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-111",
@@ -2324,7 +2745,10 @@
    "explanation": "It is useful for finding fields of symmetrical charge distributions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-112",
@@ -2344,7 +2768,10 @@
    "explanation": "This also shows that the inverse-square nature of the field is consistent with Gauss's law.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-113",
@@ -2365,7 +2792,11 @@
    "explanation": "An ammeter must carry the same current as the component and has a very low resistance.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-114",
@@ -2386,7 +2817,11 @@
    "explanation": "Magnetic field (flux density) is measured in tesla; one tesla is one weber per square metre.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-115",
@@ -2407,7 +2842,11 @@
    "explanation": "H = I^2 R t = 4 × 10 × 5 = 200 J.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-116",
@@ -2428,7 +2867,11 @@
    "explanation": "F = B I L = 0.2 × 4 × 0.5 = 0.4 N.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-117",
@@ -2449,7 +2892,11 @@
    "explanation": "I = 12/(5 + 1) = 2 A; terminal voltage = E - Ir = 12 - 2 = 10 V.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-118",
@@ -2470,7 +2917,11 @@
    "explanation": "The period T = 2 pi m/(qB) does not depend on speed, since the radius also doubles.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-119",
@@ -2490,7 +2941,10 @@
    "explanation": "The law holds for ohmic conductors such as metals at fixed temperature.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-120",
@@ -2510,7 +2964,10 @@
    "explanation": "Pure metals show a noticeable rise in resistance with temperature.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-121",
@@ -2531,7 +2988,11 @@
    "explanation": "A rotating coil in a magnetic field produces an induced emf, converting mechanical energy into electrical energy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-122",
@@ -2552,7 +3013,11 @@
    "explanation": "Lenz's law says the induced current opposes the change in flux that produces it.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-123",
@@ -2573,7 +3038,11 @@
    "explanation": "V_s/V_p = N_s/N_p, so V_s = 220 × 100/2200 = 10 V.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-124",
@@ -2594,7 +3063,11 @@
    "explanation": "Mains electricity in India is supplied at 50 Hz.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-125",
@@ -2615,7 +3088,11 @@
    "explanation": "X_C = 1/(2 pi f C) falls as f rises, whereas inductive reactance X_L = 2 pi f L rises.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-126",
@@ -2636,7 +3113,11 @@
    "explanation": "L = mu_0 N^2 A/l is proportional to N^2, so doubling N gives four times the inductance.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-127",
@@ -2656,7 +3137,10 @@
    "explanation": "The negative sign in Faraday's law expresses Lenz's law.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-128",
@@ -2676,7 +3160,10 @@
    "explanation": "A soft iron core is also used to keep hysteresis loss low.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-129",
@@ -2697,7 +3184,11 @@
    "explanation": "A convex mirror always forms an erect, diminished image and gives a wide field of view.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-130",
@@ -2718,7 +3209,11 @@
    "explanation": "Red light has the longest wavelength (about 700 nm) and violet the shortest.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-131",
@@ -2739,7 +3234,11 @@
    "explanation": "P = 1/f with f = 0.2 m gives +5 dioptre.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-132",
@@ -2760,7 +3259,11 @@
    "explanation": "n = sin 45/sin 30 = 0.707/0.5 = 1.41.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-133",
@@ -2781,7 +3284,11 @@
    "explanation": "For an object between F and 2F the image is real, inverted, magnified and lies beyond 2F on the other side.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-134",
@@ -2802,7 +3309,11 @@
    "explanation": "The angular width of the central maximum is about 2 lambda/a, so a smaller slit width a gives a wider pattern.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-135",
@@ -2822,7 +3333,10 @@
    "explanation": "No refracted ray exists beyond the critical angle, so all the light is reflected.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-136",
@@ -2842,7 +3356,10 @@
    "explanation": "This is Rayleigh scattering, which also explains the blue colour of the sky.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-137",
@@ -2863,7 +3380,11 @@
    "explanation": "Geiger and Marsden's alpha-particle scattering experiment led Rutherford to propose the nuclear atom.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-138",
@@ -2884,7 +3405,11 @@
    "explanation": "Isotopes have the same number of protons but different numbers of neutrons.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-139",
@@ -2905,7 +3430,11 @@
    "explanation": "K_max = hf - phi = 3.1 - 2.0 = 1.1 eV.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-140",
@@ -2926,7 +3455,11 @@
    "explanation": "An alpha particle carries away 2 protons and 2 neutrons, so mass number falls by 4 and atomic number by 2.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-141",
@@ -2947,7 +3480,11 @@
    "explanation": "30 days is 3 half-lives, so the number left is 8000/2^3 = 1000.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-142",
@@ -2968,7 +3505,11 @@
    "explanation": "lambda = h/sqrt(2mK), so for the same K the lighter particle, the electron, has the longer wavelength.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-143",
@@ -2988,7 +3529,10 @@
    "explanation": "Emission occurs only when hf is greater than or equal to phi, which gives the threshold frequency.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-144",
@@ -3008,7 +3552,10 @@
    "explanation": "This is why thermal neutrons are used to induce fission of uranium-235.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-145",
@@ -3029,7 +3576,11 @@
    "explanation": "Colligative properties depend on the number of solute particles; osmotic pressure is one of the four.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-146",
@@ -3050,7 +3601,11 @@
    "explanation": "Molality is moles of solute per kilogram of solvent.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-147",
@@ -3071,7 +3626,11 @@
    "explanation": "Moles = 18/180 = 0.1; mass of solvent = 0.5 kg; molality = 0.1/0.5 = 0.2 m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-148",
@@ -3092,7 +3651,11 @@
    "explanation": "By convention the SHE is assigned zero potential at all temperatures.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-149",
@@ -3113,7 +3676,11 @@
    "explanation": "E°cell = E°cathode - E°anode = 0.34 - (-0.76) = 1.10 V.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-150",
@@ -3134,7 +3701,11 @@
    "explanation": "By Henry's law the solubility of a gas is proportional to its pressure, so releasing the pressure lets dissolved gas escape.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-151",
@@ -3154,7 +3725,10 @@
    "explanation": "Charge equals current multiplied by time.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-152",
@@ -3174,7 +3748,10 @@
    "explanation": "Large molecules have a very small mole fraction even at appreciable mass concentration.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-153",
@@ -3195,7 +3772,11 @@
    "explanation": "Order is found from experiment as the sum of the exponents of concentrations in the rate law.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-154",
@@ -3216,7 +3797,11 @@
    "explanation": "Lanthanoids characteristically show the +3 oxidation state.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-155",
@@ -3237,7 +3822,11 @@
    "explanation": "For zero order [A]0 - [A] = kt, so t = 0.2/0.02 = 10 s.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-156",
@@ -3258,7 +3847,11 @@
    "explanation": "2(+1) + 2x + 7(-2) = 0 gives x = +6.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-157",
@@ -3279,7 +3872,11 @@
    "explanation": "A small rise in temperature increases the fraction of molecules crossing the energy barrier substantially.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-158",
@@ -3300,7 +3897,11 @@
    "explanation": "A half-filled d subshell gives extra stability, so one 4s electron moves to 3d.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-159",
@@ -3320,7 +3921,10 @@
    "explanation": "For complex reactions the slowest step determines the rate.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-160",
@@ -3340,7 +3944,10 @@
    "explanation": "Vanadium(V) oxide in the contact process and iron in the Haber process are examples.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-161",
@@ -3361,7 +3968,11 @@
    "explanation": "Alfred Werner proposed primary and secondary valences to explain complexes of cobalt.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-162",
@@ -3382,7 +3993,11 @@
    "explanation": "EDTA binds through two nitrogen and four oxygen donor atoms, so it is hexadentate.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-163",
@@ -3403,7 +4018,11 @@
    "explanation": "Four NH3 and two Cl- are inside the bracket; Co(III) with two Cl- leaves a 1+ cation balanced by one outer Cl-.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-164",
@@ -3424,7 +4043,11 @@
    "explanation": "Fe2+ is d6; the strong-field CN- ligands pair all electrons in the t2g orbitals, so the complex is diamagnetic.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-165",
@@ -3445,7 +4068,11 @@
    "explanation": "Co3+ is d6 and F- is a weak-field ligand, so the electrons occupy t2g^4 eg^2 with four unpaired electrons.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-166",
@@ -3466,7 +4093,11 @@
    "explanation": "[Co(en)3]3+ has no plane of symmetry, so it exists as non-superimposable mirror-image forms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-167",
@@ -3486,7 +4117,10 @@
    "explanation": "Strong-field ligands give a large splitting and favour low-spin complexes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-168",
@@ -3506,7 +4140,10 @@
    "explanation": "The nature of the ligand decides both the geometry and the magnetic behaviour.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-169",
@@ -3527,7 +4164,11 @@
    "explanation": "A haloalkane is an alkane in which one hydrogen is replaced by a halogen, giving CnH2n+1X.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-170",
@@ -3548,7 +4189,11 @@
    "explanation": "Ethers contain a C-O-C linkage; CH3OCH3 is methoxymethane.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-171",
@@ -3569,7 +4214,11 @@
    "explanation": "Tertiary alcohols react at once with Lucas reagent (ZnCl2 and conc. HCl) because they form stable carbocations.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-172",
@@ -3590,7 +4239,11 @@
    "explanation": "The -OH group strongly activates the ring, so all three ortho and para positions are brominated.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-173",
@@ -3611,7 +4264,11 @@
    "explanation": "Resonance with the ring and the sp2 carbon make the C-Cl bond shorter and stronger and hard to break.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-174",
@@ -3632,7 +4289,11 @@
    "explanation": "Methanol is oxidised to methanal and then methanoic acid, which can cause blindness and death.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-175",
@@ -3652,7 +4313,10 @@
    "explanation": "The more highly substituted double bond is more stable.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-176",
@@ -3672,7 +4336,10 @@
    "explanation": "The order of ease of dehydration is tertiary greater than secondary greater than primary.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-177",
@@ -3693,7 +4360,11 @@
    "explanation": "Two carbon atoms with a -COOH group give ethanoic acid (acetic acid).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-178",
@@ -3714,7 +4385,11 @@
    "explanation": "Lack of vitamin C (ascorbic acid) causes scurvy, with bleeding gums and slow healing.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-179",
@@ -3735,7 +4410,11 @@
    "explanation": "Cannizzaro reaction occurs in aldehydes with no alpha-hydrogen, such as benzaldehyde and methanal.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-180",
@@ -3756,7 +4435,11 @@
    "explanation": "DNA contains 2-deoxyribose, whereas RNA contains ribose.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-181",
@@ -3777,7 +4460,11 @@
    "explanation": "The reaction converts an amide into a primary amine with one carbon atom fewer, so CH3CONH2 gives CH3NH2.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-182",
@@ -3798,7 +4485,11 @@
    "explanation": "At the isoelectric pH the positive and negative charges balance, so the molecule has no net charge and does not migrate in an electric field.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-183",
@@ -3818,7 +4509,10 @@
    "explanation": "The reaction is reversible and the acid catalyst also removes water.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-184",
@@ -3838,7 +4532,10 @@
    "explanation": "Loss of the three-dimensional shape leads to loss of function, for example in enzymes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-185",
@@ -3859,7 +4556,11 @@
    "explanation": "The anther of the stamen contains pollen sacs where pollen grains develop.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-186",
@@ -3880,7 +4581,11 @@
    "explanation": "After ovulation the ruptured follicle becomes the corpus luteum, which secretes progesterone.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-187",
@@ -3901,7 +4606,11 @@
    "explanation": "Gametes are haploid, so a human sperm has 23 chromosomes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-188",
@@ -3922,7 +4631,11 @@
    "explanation": "Development of an egg into a new individual without fertilisation is parthenogenesis.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-189",
@@ -3943,7 +4656,11 @@
    "explanation": "Without a signal from an embryo the corpus luteum degenerates, progesterone falls and the uterine lining is shed.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-190",
@@ -3964,7 +4681,11 @@
    "explanation": "Wind-pollinated flowers produce large amounts of light pollen and have feathery stigmas to catch pollen from the air.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-191",
@@ -3984,7 +4705,10 @@
    "explanation": "It helps couples who cannot conceive naturally.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-192",
@@ -4004,7 +4728,10 @@
    "explanation": "Cross-pollination increases genetic variation among offspring.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-193",
@@ -4025,7 +4752,11 @@
    "explanation": "RNA has uracil in place of thymine.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-194",
@@ -4046,7 +4777,11 @@
    "explanation": "All eggs carry an X chromosome, whereas a sperm carries either X (girl) or Y (boy).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-195",
@@ -4067,7 +4802,11 @@
    "explanation": "Allele pairs separate during gamete formation, so each gamete carries one allele of each gene.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-196",
@@ -4088,7 +4827,11 @@
    "explanation": "AaBb × AaBb gives 9 double dominant : 3 : 3 : 1 double recessive.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-197",
@@ -4109,7 +4852,11 @@
    "explanation": "RW × RW gives RR : RW : WW = 1 : 2 : 1, and the phenotypes match the genotypes in incomplete dominance.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-198",
@@ -4130,7 +4877,11 @@
    "explanation": "Sons receive the Y chromosome from the father and an X from the normal mother, so none inherit colour blindness.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-199",
@@ -4150,7 +4901,10 @@
    "explanation": "Transcription is the first step in the flow of information from DNA to protein.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-200",
@@ -4170,7 +4924,10 @@
    "explanation": "In contrast, analogous organs like bird and insect wings have similar function but different origins.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-201",
@@ -4191,7 +4948,11 @@
    "explanation": "In situ conservation protects species in their natural habitat, as in national parks, sanctuaries and sacred groves.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-202",
@@ -4212,7 +4973,11 @@
    "explanation": "The human insulin genes for the A and B chains were introduced into E. coli, which made the chains that were then joined.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-203",
@@ -4233,7 +4998,11 @@
    "explanation": "ADA deficiency cripples the immune system and was the first disorder treated by gene therapy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-204",
@@ -4254,7 +5023,11 @@
    "explanation": "CFCs release chlorine atoms in the stratosphere which catalytically destroy ozone.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-205",
@@ -4275,7 +5048,11 @@
    "explanation": "Lichens secrete acids that weather rock and form the first soil, preparing the way for mosses and later plants.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-206",
@@ -4296,7 +5073,11 @@
    "explanation": "DDT is not broken down and accumulates at each trophic level, a process called biomagnification, reaching its highest level in top carnivores.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-207",
@@ -4316,7 +5097,10 @@
    "explanation": "Repeated cycles amplify the target DNA exponentially.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-208",
@@ -4336,7 +5120,10 @@
    "explanation": "Habitat destruction is regarded as the most important cause.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-209",
@@ -4357,7 +5144,11 @@
    "explanation": "The Coulomb constant k = 1/(4 pi epsilon_0) is about 9 × 10^9 N m^2 C^-2; 8.85 × 10^-12 is epsilon_0 itself.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-210",
@@ -4378,7 +5169,11 @@
    "explanation": "Rubber has almost no free electrons; the metals listed are good conductors.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-211",
@@ -4399,7 +5194,11 @@
    "explanation": "V = kq/r = 9 × 10^9 × 5 × 10^-6 / 0.5 = 9 × 10^4 V.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-212",
@@ -4420,7 +5219,11 @@
    "explanation": "U = (1/2) C V^2 = 0.5 × 10 × 10^-6 × 10^4 = 0.05 J.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-213",
@@ -4441,7 +5244,11 @@
    "explanation": "Setting 4/x^2 = 1/(0.3 - x)^2 gives 2(0.3 - x) = x, so x = 0.2 m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-214",
@@ -4462,7 +5269,11 @@
    "explanation": "W = q (V_initial - V_final) = 2 × 10^-6 × 60 = 1.2 × 10^-4 J.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-215",
@@ -4482,7 +5293,10 @@
    "explanation": "The force between any two charges is not affected by the presence of other charges.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-216",
@@ -4502,7 +5316,10 @@
    "explanation": "In contrast, with the battery connected the voltage is fixed and the energy increases.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-217",
@@ -4523,7 +5340,11 @@
    "explanation": "A moving-coil galvanometer detects small currents through the deflection of its coil.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-218",
@@ -4544,7 +5365,11 @@
    "explanation": "Fleming's left-hand rule relates current, field and force on a conductor; the right-hand rule is used for induced current.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-219",
@@ -4565,7 +5390,11 @@
    "explanation": "R = V^2/P = (220)^2/100 = 484 ohm.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-220",
@@ -4586,7 +5415,11 @@
    "explanation": "B = mu_0 I/(2r) = 4 pi × 10^-7 × 5/0.2 = pi × 10^-5, about 3.14 × 10^-5 T.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-221",
@@ -4607,7 +5440,11 @@
    "explanation": "At balance no current flows through the cell, so its terminal voltage equals its emf, whereas a voltmeter draws some current.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-222",
@@ -4628,7 +5465,11 @@
    "explanation": "B = mu_0 n I = 4 pi × 10^-7 × 1000 × 2, which is about 2.5 × 10^-3 T.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-223",
@@ -4648,7 +5489,10 @@
    "explanation": "Drift velocity is very small, of the order of millimetres per second.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-224",
@@ -4668,7 +5512,10 @@
    "explanation": "Examples are bismuth, aluminium and iron respectively.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-225",
@@ -4689,7 +5536,11 @@
    "explanation": "A transformer relies on a changing flux in one coil inducing an emf in another.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-226",
@@ -4710,7 +5561,11 @@
    "explanation": "Voltage and current are in phase, so cos(phi) = cos 0 = 1.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-227",
@@ -4731,7 +5586,11 @@
    "explanation": "X_L = 2 pi f L = 2 × 3.14 × 50 × 0.5 = 157 ohm.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-228",
@@ -4752,7 +5611,11 @@
    "explanation": "emf = L (change in I)/t = 0.5 × 2/0.1 = 10 V.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-229",
@@ -4773,7 +5636,11 @@
    "explanation": "At resonance X_L = X_C, impedance is minimum and equals R, so the current is maximum.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-230",
@@ -4794,7 +5661,11 @@
    "explanation": "When the plane is parallel to the field, the flux is zero but changing at the greatest rate, so the emf is maximum.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-231",
@@ -4814,7 +5685,10 @@
    "explanation": "Power = V_rms I_rms cos(phi) and cos 90 degrees = 0.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-232",
@@ -4834,7 +5708,10 @@
    "explanation": "The cooktop itself stays comparatively cool because it is not a conductor of the induced currents.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-233",
@@ -4855,7 +5732,11 @@
    "explanation": "A concave mirror forms real images for objects beyond the focus and a virtual image for objects within the focus.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-234",
@@ -4876,7 +5757,11 @@
    "explanation": "c is about 3 × 10^8 m/s.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-235",
@@ -4897,7 +5782,11 @@
    "explanation": "1/v = 1/f + 1/u = 1/10 - 1/15 = 1/30, so v = 30 cm (real image, magnification 2).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-236",
@@ -4918,7 +5807,11 @@
    "explanation": "sin C = 1/n = 1/root 2, so C = 45 degrees.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-237",
@@ -4939,7 +5832,11 @@
    "explanation": "beta = lambda D/d = 600 × 10^-9 × 1.5 / (0.3 × 10^-3) = 3 × 10^-3 m = 3 mm.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-238",
@@ -4960,7 +5857,11 @@
    "explanation": "By Brewster's law tan i_B = n = root 3, so i_B = 60 degrees.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-239",
@@ -4980,7 +5881,10 @@
    "explanation": "It explains reflection and refraction using the wave picture.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-240",
@@ -5000,7 +5904,10 @@
    "explanation": "Diffraction at the aperture limits how fine the detail can be.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-241",
@@ -5021,7 +5928,11 @@
    "explanation": "James Chadwick discovered the neutron in 1932.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-242",
@@ -5042,7 +5953,11 @@
    "explanation": "Balmer lines arise from transitions to n = 2 and four of them are visible.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-243",
@@ -5063,7 +5978,11 @@
    "explanation": "lambda_0 = hc/phi = 1240/2.48 = 500 nm.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-244",
@@ -5084,7 +6003,11 @@
    "explanation": "R is proportional to the cube root of A, so the ratio is 2 : 3.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-245",
@@ -5105,7 +6028,11 @@
    "explanation": "E = 0.03 × 931.5 = 27.9 MeV.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-246",
@@ -5126,7 +6053,11 @@
    "explanation": "K' = 2hf - phi = 2K + phi, which is greater than 2K.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-247",
@@ -5146,7 +6077,10 @@
    "explanation": "These postulates explain the discrete line spectrum of hydrogen.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-248",
@@ -5166,7 +6100,10 @@
    "explanation": "Without control the number of fissions would grow exponentially.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-249",
@@ -5187,7 +6124,11 @@
    "explanation": "Henry's law says that the solubility of a gas in a liquid is directly proportional to its partial pressure.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-250",
@@ -5208,7 +6149,11 @@
    "explanation": "Conductivity is the reciprocal of resistivity, so it has units of siemens per metre.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-251",
@@ -5229,7 +6174,11 @@
    "explanation": "Each formula unit gives two particles, Na+ and Cl-, so i = 2.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-252",
@@ -5250,7 +6199,11 @@
    "explanation": "Depression = Kf × m = 1.86 × 0.5 = 0.93 K.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-253",
@@ -5271,7 +6224,11 @@
    "explanation": "Delta G = -nFE = -2 × 96500 × 1.10 = -212 300 J, about -212 kJ/mol; negative means spontaneous.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-254",
@@ -5292,7 +6249,11 @@
    "explanation": "By Kohlrausch's law, Lambda(CH3COOH) = 426 + 91 - 126 = 391 S cm^2 mol^-1.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-255",
@@ -5312,7 +6273,10 @@
    "explanation": "It is used to find the limiting molar conductivity of weak electrolytes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-256",
@@ -5332,7 +6296,10 @@
    "explanation": "A salt bridge usually contains an inert electrolyte such as KCl or KNO3.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-257",
@@ -5353,7 +6320,11 @@
    "explanation": "A catalyst provides a new pathway with lower activation energy but is not consumed and does not change the overall enthalpy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-258",
@@ -5374,7 +6345,11 @@
    "explanation": "The lanthanoids (Ce to Lu) are the 4f series.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-259",
@@ -5395,7 +6370,11 @@
    "explanation": "60 minutes is three half-lives, so (1/2)^3 = 1/8 remains.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-260",
@@ -5416,7 +6395,11 @@
    "explanation": "In acid medium MnO4- accepts five electrons and forms the nearly colourless Mn2+.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-261",
@@ -5437,7 +6420,11 @@
    "explanation": "Integrating the rate law gives ln[A] = ln[A]0 - kt, a straight line when ln[A] is plotted against time.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-262",
@@ -5458,7 +6445,11 @@
    "explanation": "Zn has the 3d10 configuration in the atom and in Zn2+, so it lacks the partly filled d orbitals that define transition-metal behaviour.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-263",
@@ -5478,7 +6469,10 @@
    "explanation": "Steel and metal hydrides are examples.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-264",
@@ -5498,7 +6492,10 @@
    "explanation": "5f orbitals extend further out than 4f orbitals and are less shielded by the other electrons.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-265",
@@ -5519,7 +6516,11 @@
    "explanation": "Vitamin B12 (cyanocobalamin) is a cobalt complex; haemoglobin contains iron and chlorophyll magnesium.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-266",
@@ -5540,7 +6541,11 @@
    "explanation": "The lone pair on the nitrogen atom is donated to the metal.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-267",
@@ -5561,7 +6566,11 @@
    "explanation": "Only the two chloride ions outside the coordination sphere precipitate; the Cl inside the bracket is firmly bound.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-268",
@@ -5582,7 +6591,11 @@
    "explanation": "Strong-field NH3 pairs the 3d electrons of Co3+, freeing two 3d orbitals for d2sp3 hybridisation in an octahedral complex.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-269",
@@ -5603,7 +6616,11 @@
    "explanation": "NO2- can bind through nitrogen (nitro) or oxygen (nitrito), so it is ambidentate.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-270",
@@ -5624,7 +6641,11 @@
    "explanation": "It gives one complex cation [Pt(NH3)4Cl2]2+ and two Cl- ions, three ions in all.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-271",
@@ -5644,7 +6665,10 @@
    "explanation": "Complex formation changes the solubility and reactivity of metal ions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-272",
@@ -5664,7 +6688,10 @@
    "explanation": "Colour in transition-metal complexes arises from d-d electronic transitions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-273",
@@ -5685,7 +6712,11 @@
    "explanation": "Chloroform is trichloromethane, CHCl3.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-274",
@@ -5706,7 +6737,11 @@
    "explanation": "In propan-2-ol the carbon bearing -OH is attached to two other carbon atoms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-275",
@@ -5727,7 +6762,11 @@
    "explanation": "2C2H5OH + 2Na gives 2C2H5ONa + H2.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-276",
@@ -5748,7 +6787,11 @@
    "explanation": "Strong oxidising agents oxidise a primary alcohol through the aldehyde to the carboxylic acid.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-277",
@@ -5769,7 +6812,11 @@
    "explanation": "This is the Reimer-Tiemann reaction, which introduces a -CHO group at the ortho position to give 2-hydroxybenzaldehyde.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-278",
@@ -5790,7 +6837,11 @@
    "explanation": "ROH + SOCl2 gives RCl + SO2 + HCl, so no separation of by-products from the alkyl halide is needed.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-279",
@@ -5810,7 +6861,10 @@
    "explanation": "The colour is due to formation of an iron(III)-phenoxide complex.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-280",
@@ -5830,7 +6884,10 @@
    "explanation": "Haloalkanes dissolve readily in organic solvents instead.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-281",
@@ -5851,7 +6908,11 @@
    "explanation": "A three-carbon ketone is called propanone (acetone).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-282",
@@ -5872,7 +6933,11 @@
    "explanation": "Enzymes are biological catalysts, and nearly all are globular proteins.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-283",
@@ -5893,7 +6958,11 @@
    "explanation": "This is the aldol reaction, in which two molecules of ethanal combine to give 3-hydroxybutanal.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-284",
@@ -5914,7 +6983,11 @@
    "explanation": "Primary amines on heating with chloroform and alcoholic KOH give foul-smelling isocyanides.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-285",
@@ -5935,7 +7008,11 @@
    "explanation": "Glucose is an aldohexose; carbons 2, 3, 4 and 5 each carry four different groups.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-286",
@@ -5956,7 +7033,11 @@
    "explanation": "Ethanoic acid forms strong hydrogen-bonded dimers; its boiling point (about 118 degrees C) is above that of propan-1-ol (about 97 degrees C), propanal and butane.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-287",
@@ -5976,7 +7057,10 @@
    "explanation": "Both are polymers of nucleotides joined by phosphodiester bonds.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-288",
@@ -5996,7 +7080,10 @@
    "explanation": "Both steric and electronic effects favour aldehydes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-289",
@@ -6017,7 +7104,11 @@
    "explanation": "Testosterone, secreted by the Leydig cells, controls male secondary sexual characters.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-290",
@@ -6038,7 +7129,11 @@
    "explanation": "The blastocyst embeds in the endometrium of the uterus.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-291",
@@ -6059,7 +7154,11 @@
    "explanation": "It consists of the egg apparatus (3 cells), 3 antipodals and a large central cell with two polar nuclei, giving 7 cells and 8 nuclei.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-292",
@@ -6080,7 +7179,11 @@
    "explanation": "The umbilical cord carries blood between the foetus and the placenta.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-293",
@@ -6101,7 +7204,11 @@
    "explanation": "Copper ions reduce sperm movement and fertilising capacity and the device also makes the uterus unsuitable for implantation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-294",
@@ -6122,7 +7229,11 @@
    "explanation": "Fertilisation joins two diploid gametes, doubling the chromosome number each generation; meiosis prevents this by halving it.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-295",
@@ -6142,7 +7253,10 @@
    "explanation": "In plants post-fertilisation events include formation of seed and fruit.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-296",
@@ -6162,7 +7276,10 @@
    "explanation": "Defective tapetum often leads to male sterility.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-297",
@@ -6183,7 +7300,11 @@
    "explanation": "A gene is a segment of DNA that codes for a functional product and controls a trait.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-298",
@@ -6204,7 +7325,11 @@
    "explanation": "Darwin (with Wallace) proposed that nature selects individuals best adapted to the environment.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-299",
@@ -6225,7 +7350,11 @@
    "explanation": "Tt × tt gives Tt and tt in equal numbers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-300",
@@ -6246,7 +7375,11 @@
    "explanation": "Trisomy 21 gives 47 chromosomes in the cells of a person with Down syndrome.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-301",
@@ -6267,7 +7400,11 @@
    "explanation": "A single base change (GAG to GUG in the mRNA) substitutes valine for glutamic acid at the sixth position of the beta chain.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-302",
@@ -6288,7 +7425,11 @@
    "explanation": "DNA contains phosphorus but no sulphur, whereas protein contains sulphur; infected cells received 32P, proving DNA is the genetic material.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-303",
@@ -6308,7 +7449,10 @@
    "explanation": "There are 64 codons, 61 of which code for amino acids and 3 are stop codons.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-304",
@@ -6328,7 +7472,10 @@
    "explanation": "Mutations in the first or second base are more likely to change the amino acid.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-305",
@@ -6349,7 +7496,11 @@
    "explanation": "Rhizobium fixes atmospheric nitrogen in the root nodules of legumes and acts as a biofertiliser.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-306",
@@ -6370,7 +7521,11 @@
    "explanation": "Methane, like carbon dioxide, absorbs infrared radiation and warms the atmosphere.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-307",
@@ -6391,7 +7546,11 @@
    "explanation": "The fungus gets food from the photosynthetic partner, which gets protection and water in return.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-308",
@@ -6412,7 +7571,11 @@
    "explanation": "It contains genes for beta-carotene synthesis, which the body converts to vitamin A.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-309",
@@ -6433,7 +7596,11 @@
    "explanation": "Limited resources slow down growth, giving an S-shaped curve that levels off at K.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-310",
@@ -6454,7 +7621,11 @@
    "explanation": "Tropical climates have been relatively undisturbed for long periods, are less seasonal and have high productivity, allowing more species to evolve.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-311",
@@ -6474,7 +7645,10 @@
    "explanation": "It is generally cheaper and less harmful than chemical cleaning.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-312",
@@ -6494,7 +7668,10 @@
    "explanation": "Both chains are connected in a food web.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-313",
@@ -6515,7 +7692,11 @@
    "explanation": "Charge exists only in whole-number multiples of the elementary charge e, so q = ne.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-314",
@@ -6536,7 +7717,11 @@
    "explanation": "Electric field is force per unit charge (N/C), which is equivalent to V/m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-315",
@@ -6557,7 +7742,11 @@
    "explanation": "F = k q1 q2 / r^2 = 9 × 10^9 × 6 × 10^-12 / 0.09 = 0.6 N.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-316",
@@ -6578,7 +7767,11 @@
    "explanation": "In parallel the capacitances add: 2 + 4 = 6 microfarad.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-317",
@@ -6599,7 +7792,11 @@
    "explanation": "The total flux q/epsilon_0 is shared equally among the six identical faces.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-318",
@@ -6620,7 +7817,11 @@
    "explanation": "U = k q1 q2 / r = 9 × 10^9 × (-4 × 10^-12)/0.1 = -0.36 J; the negative sign shows the charges attract.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-319",
@@ -6640,7 +7841,10 @@
    "explanation": "The same logic applies to lines of force in any vector field.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-320",
@@ -6660,7 +7864,10 @@
    "explanation": "This principle is also used in Faraday cages.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-321",
@@ -6681,7 +7888,11 @@
    "explanation": "Soft iron is easily magnetised and demagnetised, which suits electromagnets.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-322",
@@ -6702,7 +7913,11 @@
    "explanation": "In series the resistances add: 3 + 5 = 8 ohm.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-323",
@@ -6723,7 +7938,11 @@
    "explanation": "q = I t = 0.5 × 600 s = 300 C.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-324",
@@ -6744,7 +7963,11 @@
    "explanation": "F = e v B = 1.6 × 10^-19 × 2 × 10^6 × 0.5 = 1.6 × 10^-13 N.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-325",
@@ -6765,7 +7988,11 @@
    "explanation": "S = Q R/P = 20 × 30/10 = 60 ohm.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-326",
@@ -6786,7 +8013,11 @@
    "explanation": "More charge carriers are released at higher temperature, so the resistance of a semiconductor falls, unlike that of a metal.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-327",
@@ -6806,7 +8037,10 @@
    "explanation": "It is used to find the field of loops and other current distributions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-328",
@@ -6826,7 +8060,10 @@
    "explanation": "This is the principle of the moving-coil galvanometer and the electric motor.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-329",
@@ -6847,7 +8084,11 @@
    "explanation": "Michael Faraday (and independently Joseph Henry) discovered electromagnetic induction in the 1830s.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-330",
@@ -6868,7 +8109,11 @@
    "explanation": "Flux = B × A, and one weber equals one tesla metre squared.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-331",
@@ -6889,7 +8134,11 @@
    "explanation": "Flux = B A cos(60 degrees) = 0.5 × 0.2 × 0.5 = 0.05 Wb.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-332",
@@ -6910,7 +8159,11 @@
    "explanation": "I_rms = I_0/root 2 = 5/1.414 = 3.54 A.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-333",
@@ -6931,7 +8184,11 @@
    "explanation": "For an ideal transformer V_p I_p = V_s I_s; the voltage is raised 10 times, so the current falls to one tenth, 1 A.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-334",
@@ -6952,7 +8209,11 @@
    "explanation": "emf = B l v = 0.2 × 0.5 × 4 = 0.4 V.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-335",
@@ -6972,7 +8233,10 @@
    "explanation": "Transformers use mutual induction; chokes use self-induction.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-336",
@@ -6992,7 +8256,10 @@
    "explanation": "An inductor passes DC easily but opposes AC, and more so at higher frequency.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-337",
@@ -7013,7 +8280,11 @@
    "explanation": "Violet has the highest refractive index in glass and therefore bends the most.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-338",
@@ -7034,7 +8305,11 @@
    "explanation": "A plane mirror is a surface of infinite radius of curvature, so f = infinity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-339",
@@ -7055,7 +8330,11 @@
    "explanation": "1/v = 1/f - 1/u = 1/30 + 1/30 = 1/15, so v = +15 cm, a virtual image behind the mirror.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-340",
@@ -7076,7 +8355,11 @@
    "explanation": "Total power = 10 - 2 = 8 D, so f = 1/8 m = 12.5 cm.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-341",
@@ -7097,7 +8380,11 @@
    "explanation": "n = sin((A + D)/2)/sin(A/2) gives sin((A + D)/2) = root 2 × 0.5 = 0.707, so (A + D)/2 = 45 degrees and D = 30 degrees.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-342",
@@ -7118,7 +8405,11 @@
    "explanation": "Independent sources emit with rapidly and randomly changing phase differences, so the pattern keeps shifting and averages out.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-343",
@@ -7138,7 +8429,10 @@
    "explanation": "A plane mirror always forms virtual images.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-344",
@@ -7158,7 +8452,10 @@
    "explanation": "Electron microscopes use even smaller de Broglie wavelengths.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-345",
@@ -7179,7 +8476,11 @@
    "explanation": "One becquerel is one decay per second.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-346",
@@ -7200,7 +8501,11 @@
    "explanation": "Gamma rays are high-energy photons with no charge and penetrate matter the most.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-347",
@@ -7221,7 +8526,11 @@
    "explanation": "A neutron changes into a proton, emitting an electron and an antineutrino, so Z rises by 1 and A stays the same.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-348",
@@ -7242,7 +8551,11 @@
    "explanation": "eV_0 = K_max, so V_0 = 3 V.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-349",
@@ -7263,7 +8576,11 @@
    "explanation": "E = -1.51 - (-3.40) = 1.89 eV.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-350",
@@ -7284,7 +8601,11 @@
    "explanation": "R is proportional to A^(1/3), so volume is proportional to A, and mass is also proportional to A, making density constant.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-351",
@@ -7304,7 +8625,10 @@
    "explanation": "It was discovered by Henri Becquerel.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-352",
@@ -7324,7 +8648,10 @@
    "explanation": "Fusion is the source of the Sun's energy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-353",
@@ -7345,7 +8672,11 @@
    "explanation": "Glucose is a non-electrolyte and does not produce ions in solution.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-354",
@@ -7366,7 +8697,11 @@
    "explanation": "One faraday is the charge of one mole of electrons, about 96 500 C.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-355",
@@ -7387,7 +8722,11 @@
    "explanation": "Mass % = 10/(10 + 90) × 100 = 10%.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-356",
@@ -7408,7 +8747,11 @@
    "explanation": "By Raoult's law p_A = x_A p_A^0 = 0.6 × 100 = 60 mm Hg.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-357",
@@ -7429,7 +8772,11 @@
    "explanation": "pi = C R T = 0.01 × 0.0821 × 300 = 0.246 atm, about 0.25 atm.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-358",
@@ -7450,7 +8797,11 @@
    "explanation": "Water is reduced more easily than Na+, so H2 forms at the cathode, Cl2 at the anode and NaOH is left in solution.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-359",
@@ -7470,7 +8821,10 @@
    "explanation": "They form from non-ideal solutions showing large deviations from Raoult's law.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-360",
@@ -7490,7 +8844,10 @@
    "explanation": "Tin coating, in contrast, only protects while the surface is intact.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-361",
@@ -7511,7 +8868,11 @@
    "explanation": "Rate is the change in concentration per unit time.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-362",
@@ -7532,7 +8893,11 @@
    "explanation": "Mercury has a melting point of about -39 degrees C because of its filled d subshell and weak metallic bonding.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-363",
@@ -7553,7 +8918,11 @@
    "explanation": "t_half = 0.693/0.0231 = 30 min.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-364",
@@ -7574,7 +8943,11 @@
    "explanation": "mu = root(n(n + 2)) = root 15, which is about 3.87 BM.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-365",
@@ -7595,7 +8968,11 @@
    "explanation": "ln k = ln A - Ea/(RT), so the slope is -Ea/R.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-366",
@@ -7616,7 +8993,11 @@
    "explanation": "The d5 configuration of Mn2+ has extra stability due to exchange energy, whereas Fe2+ (d6) oxidises easily to the d5 Fe3+ ion.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-367",
@@ -7636,7 +9017,10 @@
    "explanation": "The constant concentration of water is absorbed into the rate constant.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-368",
@@ -7656,7 +9040,10 @@
    "explanation": "The decolourisation of the purple permanganate marks the end point of the titration.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-369",
@@ -7677,7 +9064,11 @@
    "explanation": "Water is an uncharged molecule that donates a lone pair of electrons through oxygen.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-370",
@@ -7698,7 +9089,11 @@
    "explanation": "Cisplatin is cis-[Pt(NH3)2Cl2].",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-371",
@@ -7719,7 +9114,11 @@
    "explanation": "It gives one [Co(NH3)6]3+ ion and three Cl- ions, four ions in all.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-372",
@@ -7740,7 +9139,11 @@
    "explanation": "Ligands are named first (tetraammine) followed by the metal with its oxidation state, copper(II) here.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-373",
@@ -7761,7 +9164,11 @@
    "explanation": "In a weak field the electrons occupy t2g^3 eg^1 with all four unpaired, while a strong field gives t2g^4 with two unpaired.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-374",
@@ -7782,7 +9189,11 @@
    "explanation": "In [Co(NH3)5SO4]Br the bromide ion is outside the coordination sphere and precipitates as AgBr, while in the other isomer bromide is bound and sulphate is free.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-375",
@@ -7802,7 +9213,10 @@
    "explanation": "Counter ions outside the brackets are not part of the sphere.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-376",
@@ -7822,7 +9236,10 @@
    "explanation": "For example [Ni(en)3]2+ is more stable than [Ni(NH3)6]2+.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-377",
@@ -7843,7 +9260,11 @@
    "explanation": "A hydroxyl group attached directly to a benzene ring gives phenol.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-378",
@@ -7864,7 +9285,11 @@
    "explanation": "Ethanol forms intermolecular hydrogen bonds, giving it a boiling point of about 78 degrees C, higher than the others.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-379",
@@ -7885,7 +9310,11 @@
    "explanation": "Aqueous KOH brings about nucleophilic substitution (OH- replaces Br-), whereas alcoholic KOH causes elimination.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-380",
@@ -7906,7 +9335,11 @@
    "explanation": "Alcoholic KOH removes HBr in an elimination (dehydrohalogenation) reaction to give an alkene.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-381",
@@ -7927,7 +9360,11 @@
    "explanation": "2CH3Br + 2Na gives CH3-CH3 + 2NaBr, joining two alkyl groups.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-382",
@@ -7948,7 +9385,11 @@
    "explanation": "Hydroboration-oxidation gives the anti-Markovnikov alcohol, so the OH goes to the terminal carbon.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-383",
@@ -7968,7 +9409,10 @@
    "explanation": "The phenoxide ion is stabilised by resonance.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-384",
@@ -7988,7 +9432,10 @@
    "explanation": "Electron-releasing groups such as methyl have the opposite effect.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-385",
@@ -8009,7 +9456,11 @@
    "explanation": "Amino acids are linked by peptide bonds to make proteins.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-386",
@@ -8030,7 +9481,11 @@
    "explanation": "The copper(II) complex is reduced to red-brown copper(I) oxide.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c12-387",
@@ -8051,7 +9506,11 @@
    "explanation": "Ketones are reduced to secondary alcohols.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-388",
@@ -8072,7 +9531,11 @@
    "explanation": "The -NH2 group strongly activates the ortho and para positions, so all three are brominated.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-389",
@@ -8093,7 +9556,11 @@
    "explanation": "This is the Sandmeyer reaction, in which the diazonium group is replaced by Cl, giving chlorobenzene with loss of nitrogen.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-390",
@@ -8114,7 +9581,11 @@
    "explanation": "A pairs with T and G pairs with C, and the strands are antiparallel, so the partner reads 3'-TACG-5'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-391",
@@ -8134,7 +9605,10 @@
    "explanation": "Non-essential amino acids, such as glycine and alanine, can be made in the body.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-392",
@@ -8154,7 +9628,10 @@
    "explanation": "Typical pKa values are about 4.8 for ethanoic acid and 10 for phenol.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-393",
@@ -8175,7 +9652,11 @@
    "explanation": "The scrotum keeps the testes about 2 to 3 degrees C below body temperature, which is required for sperm production.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-394",
@@ -8196,7 +9677,11 @@
    "explanation": "The fertilised egg is the zygote, which divides repeatedly to form the embryo.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-395",
@@ -8217,7 +9702,11 @@
    "explanation": "Follicle-stimulating hormone promotes the development of follicles and the secretion of oestrogen.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-396",
@@ -8238,7 +9727,11 @@
    "explanation": "Condoms physically block sperm from reaching the ovum and also reduce the risk of sexually transmitted infections.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-397",
@@ -8259,7 +9752,11 @@
    "explanation": "Acrosomal enzymes such as hyaluronidase digest the corona radiata and zona pellucida so that the sperm can reach the ovum.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-398",
@@ -8280,7 +9777,11 @@
    "explanation": "The suckling reflex raises prolactin and suppresses the release of gonadotropins, so ovulation and menstruation are delayed, though this is not a reliable contraceptive.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-399",
@@ -8300,7 +9801,10 @@
    "explanation": "Secretions of the seminal vesicles, prostate and bulbourethral glands add to form semen.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-400",
@@ -8320,7 +9824,10 @@
    "explanation": "The placenta also releases relaxin, which helps soften the pelvic ligaments.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-401",
@@ -8341,7 +9848,11 @@
    "explanation": "DNA replication produces two identical DNA molecules from one.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-402",
@@ -8362,7 +9873,11 @@
    "explanation": "Heterozygous individuals carry two different alleles of the gene.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-403",
@@ -8383,7 +9898,11 @@
    "explanation": "The mother can give only i; the father gives IA or IB, so the child is IAi (group A) or IBi (group B); AB and O are not possible.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-404",
@@ -8404,7 +9923,11 @@
    "explanation": "Each new DNA molecule has one old parental strand and one newly made strand.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-405",
@@ -8425,7 +9948,11 @@
    "explanation": "Without an inducer the repressor sits on the operator and RNA polymerase cannot transcribe the lac genes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-406",
@@ -8446,7 +9973,11 @@
    "explanation": "With these gases at about 800 degrees C, amino acids were formed, supporting the idea of chemical evolution.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-407",
@@ -8466,7 +9997,10 @@
    "explanation": "Meselson and Stahl showed this using heavy nitrogen (15N) labelling.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-408",
@@ -8486,7 +10020,10 @@
    "explanation": "Affected males inherit the allele from carrier mothers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-409",
@@ -8507,7 +10044,11 @@
    "explanation": "Fungi break down dead organic matter and return nutrients to the soil.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-410",
@@ -8528,7 +10069,11 @@
    "explanation": "Plasmids replicate independently of the chromosome and are used as vectors in gene cloning.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-411",
@@ -8549,7 +10094,11 @@
    "explanation": "NPP = GPP - R is the organic matter available to consumers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-412",
@@ -8570,7 +10119,11 @@
    "explanation": "Green plants take up CO2 and fix it into carbohydrates during photosynthesis.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-413",
@@ -8591,7 +10144,11 @@
    "explanation": "Only about 10 per cent of the energy passes to the next level, which limits the number of top consumers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-414",
@@ -8612,7 +10169,11 @@
    "explanation": "DNA is negatively charged because of its phosphate groups, so it moves toward the anode, and smaller fragments move faster through the gel.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-415",
@@ -8632,7 +10193,10 @@
    "explanation": "GM crops can also reduce the use of chemical pesticides.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-416",
@@ -8652,7 +10216,10 @@
    "explanation": "The plant cells and human gut lack the conditions or receptors that activate the toxin.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-417",
@@ -8673,7 +10240,11 @@
    "explanation": "Q = C V = 5 × 12 = 60 microcoulomb.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-418",
@@ -8694,7 +10265,11 @@
    "explanation": "E = V/d = 200/0.01 = 20 000 V/m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-419",
@@ -8715,7 +10290,11 @@
    "explanation": "Total charge is conserved: +4 microcoulomb shared equally by identical spheres gives +2 microcoulomb each.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-420",
@@ -8736,7 +10315,11 @@
    "explanation": "W = q E d = 10^-6 × 500 × 2 = 10^-3 J.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-421",
@@ -8756,7 +10339,10 @@
    "explanation": "This is why inserting a dielectric increases capacitance.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-422",
@@ -8776,7 +10362,10 @@
    "explanation": "A neutral object can be attracted to a charged one because of induced charges.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-423",
@@ -8797,7 +10386,11 @@
    "explanation": "R = (4 × 12)/(4 + 12) = 48/16 = 3 ohm.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-424",
@@ -8818,7 +10411,11 @@
    "explanation": "Each half has 5 ohm and two 5 ohm resistors in parallel give 2.5 ohm.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-425",
@@ -8839,7 +10436,11 @@
    "explanation": "I = E/r = 6/0.5 = 12 A.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-426",
@@ -8860,7 +10461,11 @@
    "explanation": "r = m v/(q B); the alpha particle has four times the mass and twice the charge, so its radius is 4/2 = 2 times larger.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-427",
@@ -8880,7 +10485,10 @@
    "explanation": "During charging the terminal voltage is greater than the emf.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-428",
@@ -8900,7 +10508,10 @@
    "explanation": "B = mu_0 mu_r n I with mu_r large for soft iron.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-429",
@@ -8921,7 +10532,11 @@
    "explanation": "X_C = 1/(2 pi f C) = 1/(2 × 3.14 × 50 × 10^-4) = 31.8 ohm.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-430",
@@ -8942,7 +10557,11 @@
    "explanation": "Z = root(30^2 + 40^2) = root 2500 = 50 ohm.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-431",
@@ -8963,7 +10582,11 @@
    "explanation": "Z = 50 ohm, so I = 2 A; P = I^2 R = 4 × 30 = 120 W.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-432",
@@ -8984,7 +10607,11 @@
    "explanation": "Back emf is proportional to speed; at rest it is zero, so the current is limited only by the small coil resistance.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-433",
@@ -9004,7 +10631,10 @@
    "explanation": "They also cause unwanted heating in transformer cores.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-434",
@@ -9024,7 +10654,10 @@
    "explanation": "Doubling the voltage cuts the line loss to one quarter for the same power.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-435",
@@ -9045,7 +10678,11 @@
    "explanation": "Near the optical centre the two faces of a thin lens are parallel, so the ray emerges without any appreciable bending.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-436",
@@ -9066,7 +10703,11 @@
    "explanation": "m = -v/u = -(-40)/(-20) = -2, so the image is inverted and twice the size.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-437",
@@ -9087,7 +10728,11 @@
    "explanation": "A concave lens of focal length -50 cm forms a virtual image of a distant object at the far point; P = 1/(-0.5) = -2 D.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-438",
@@ -9108,7 +10753,11 @@
    "explanation": "In single-slit diffraction the central maximum is twice as wide as the secondary maxima, whereas Young's fringes are of equal width.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-439",
@@ -9128,7 +10777,10 @@
    "explanation": "The refractive index is n = sin((A + D)/2)/sin(A/2).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-440",
@@ -9148,7 +10800,10 @@
    "explanation": "Sin C = 1/n, so a high n gives a small critical angle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-441",
@@ -9169,7 +10824,11 @@
    "explanation": "lambda = h/(m v) = 6.63 × 10^-34 m, far too small to observe, which is why everyday objects show no wave behaviour.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-442",
@@ -9190,7 +10849,11 @@
    "explanation": "Neutrons = A - Z = 235 - 92 = 143.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-443",
@@ -9211,7 +10874,11 @@
    "explanation": "From e V_0 = h f - phi, V_0 = (h/e) f - phi/e, so the slope is h/e.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-444",
@@ -9232,7 +10899,11 @@
    "explanation": "The orbital speed is proportional to 1/n, so it halves when n changes from 1 to 2.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-445",
@@ -9252,7 +10923,10 @@
    "explanation": "The result disproved the plum-pudding model.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-446",
@@ -9272,7 +10946,10 @@
    "explanation": "That is why the stability line bends above N = Z for heavy nuclei.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-447",
@@ -9293,7 +10970,11 @@
    "explanation": "x = 1/(1 + 9) = 0.1.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-448",
@@ -9314,7 +10995,11 @@
    "explanation": "Length divided by area has the unit m/m^2 = m^-1.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-449",
@@ -9335,7 +11020,11 @@
    "explanation": "Delta Tb = Kb m = 0.52 × 0.2 = 0.104 K.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-450",
@@ -9356,7 +11045,11 @@
    "explanation": "Sulphuric acid is consumed to form lead sulphate at both electrodes, so the electrolyte becomes less dense.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-451",
@@ -9376,7 +11069,10 @@
    "explanation": "A fuel cell converts the energy of fuel directly into electricity as long as fuel is supplied.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-452",
@@ -9396,7 +11092,10 @@
    "explanation": "The observed factor is slightly below 2 because of ion pairing in real solutions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-453",
@@ -9417,7 +11116,11 @@
    "explanation": "Rate = k[A]^2, so k = (mol L^-1 s^-1)/(mol L^-1)^2 = L mol^-1 s^-1.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-454",
@@ -9438,7 +11141,11 @@
    "explanation": "Dichromate (Cr in +6, orange) is reduced to green Cr3+.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-455",
@@ -9459,7 +11166,11 @@
    "explanation": "The rate is proportional to [A] to the first power and independent of [B].",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-456",
@@ -9480,7 +11191,11 @@
    "explanation": "For zero order t_half = [A]0/(2k), which is proportional to the initial concentration.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-457",
@@ -9500,7 +11215,10 @@
    "explanation": "These properties come from partly filled d orbitals.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-458",
@@ -9520,7 +11238,10 @@
    "explanation": "The maximum oxidation state rises to +7 at manganese.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-459",
@@ -9541,7 +11262,11 @@
    "explanation": "Denticity is the number of donor atoms by which a ligand binds.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-460",
@@ -9562,7 +11287,11 @@
    "explanation": "Two K+ give +2, so the complex ion is 2-; four CN- give -4, so nickel is +2.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-461",
@@ -9583,7 +11312,11 @@
    "explanation": "Six aqua ligands and chromium in the +3 state with three chloride counter ions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-462",
@@ -9604,7 +11337,11 @@
    "explanation": "The isomers differ in the number of water molecules inside and outside the coordination sphere.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-463",
@@ -9625,7 +11362,11 @@
    "explanation": "mu = root(4 × 6) = root 24, which is about 4.90 BM.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-464",
@@ -9645,7 +11386,10 @@
    "explanation": "The oxidation state is found from the total charge of +2 on the cation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-465",
@@ -9665,7 +11409,10 @@
    "explanation": "The indicator changes colour when all the metal ions have been complexed.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-466",
@@ -9686,7 +11433,11 @@
    "explanation": "In an aryl halide the halogen is bonded directly to an sp2 carbon of an aromatic ring.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-467",
@@ -9707,7 +11458,11 @@
    "explanation": "PCC is a mild oxidising agent that stops at the aldehyde stage.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-468",
@@ -9728,7 +11483,11 @@
    "explanation": "The -OH group directs the incoming group to the ortho and para positions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-469",
@@ -9749,7 +11508,11 @@
    "explanation": "o-Nitrophenol has intramolecular hydrogen bonding, so it is less associated and volatile, whereas p-nitrophenol forms intermolecular hydrogen bonds.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-470",
@@ -9770,7 +11533,11 @@
    "explanation": "Grignard reagents add to methanal to give primary alcohols with one more carbon, here CH3CH2OH.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-471",
@@ -9790,7 +11557,10 @@
    "explanation": "Tertiary halides favour SN1 and primary halides favour SN2.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-472",
@@ -9810,7 +11580,10 @@
    "explanation": "For isomeric haloalkanes branching lowers the boiling point.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-473",
@@ -9831,7 +11604,11 @@
    "explanation": "The name comes from the Latin word for ant; it is injected in ant stings.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-474",
@@ -9852,7 +11629,11 @@
    "explanation": "Aldehydes are reduced to primary alcohols.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-475",
@@ -9873,7 +11654,11 @@
    "explanation": "Primary aromatic amines form diazonium salts at low temperature.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-476",
@@ -9894,7 +11679,11 @@
    "explanation": "The mixture, called invert sugar, is laevorotatory because fructose is strongly laevorotatory.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-477",
@@ -9915,7 +11704,11 @@
    "explanation": "They differ only in the orientation of the -OH group at the anomeric carbon C1 formed in ring closure.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-478",
@@ -9935,7 +11728,10 @@
    "explanation": "The shape is decided by the secondary and tertiary structure.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-479",
@@ -9955,7 +11751,10 @@
    "explanation": "In water, solvation and steric effects change the order among primary, secondary and tertiary amines.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-480",
@@ -9976,7 +11775,11 @@
    "explanation": "Ovulation occurs around the middle of the menstrual cycle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-481",
@@ -9997,7 +11800,11 @@
    "explanation": "A small bud grows out of the parent cell and separates to form a new yeast cell.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-482",
@@ -10018,7 +11825,11 @@
    "explanation": "Meiosis halves the chromosome number, producing haploid gametes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-483",
@@ -10039,7 +11850,11 @@
    "explanation": "Each pollen mother cell gives four haploid pollen grains, so 100/4 = 25 are needed.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-484",
@@ -10060,7 +11875,11 @@
    "explanation": "LH stimulates the Leydig (interstitial) cells, whereas FSH acts on the Sertoli cells.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-485",
@@ -10080,7 +11899,10 @@
    "explanation": "In humans pregnancy lasts about nine months.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-486",
@@ -10100,7 +11922,10 @@
    "explanation": "Later the placenta itself secretes enough progesterone.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-487",
@@ -10121,7 +11946,11 @@
    "explanation": "Transfer RNA brings specific amino acids and reads the codon through its anticodon.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-488",
@@ -10142,7 +11971,11 @@
    "explanation": "AB, Ab, aB and ab are formed in equal numbers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c12-489",
@@ -10163,7 +11996,11 @@
    "explanation": "Genes on different chromosomes assort independently during meiosis; closely linked genes tend to be inherited together.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-490",
@@ -10184,7 +12021,11 @@
    "explanation": "Linked genes are inherited together more often than expected, and the closer they are the lower the recombination frequency.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-491",
@@ -10205,7 +12046,11 @@
    "explanation": "Aa × Aa gives 1 AA : 2 Aa : 1 aa, so one in four is affected.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-492",
@@ -10225,7 +12070,10 @@
    "explanation": "Mutations are a source of variation for evolution.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-493",
@@ -10245,7 +12093,10 @@
    "explanation": "It is a process of divergent evolution.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-494",
@@ -10266,7 +12117,11 @@
    "explanation": "The name EcoRI comes from the genus Escherichia, the species coli and the strain RY13.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-495",
@@ -10287,7 +12142,11 @@
    "explanation": "Antibiotic-resistance genes allow selection of the bacteria that have taken up the plasmid.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-496",
@@ -10308,7 +12167,11 @@
    "explanation": "BOD is the oxygen used by microbes to break down organic matter, so a high value means heavy organic pollution.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-497",
@@ -10329,7 +12192,11 @@
    "explanation": "It is an invasive alien species that forms dense mats, blocking light and lowering dissolved oxygen.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c12-498",
@@ -10350,7 +12217,11 @@
    "explanation": "High-velocity microparticles coated with DNA are shot through the cell wall into plant cells.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c12-499",
@@ -10370,7 +12241,10 @@
    "explanation": "These methods safeguard endangered species outside their natural habitats.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c12-500",
@@ -10390,7 +12264,10 @@
    "explanation": "Without the natural greenhouse effect the Earth would be much colder.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   }
  ]
 }

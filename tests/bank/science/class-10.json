@@ -1385,10 +1385,10 @@
    "level": 2,
    "type": "short",
    "q": "Mention two methods by which unwanted pregnancy can be prevented.",
-   "answer": "Barrier methods such as a condom, oral contraceptive pills, a copper-T (intrauterine device), or surgical methods such as vasectomy and tubectomy.",
+   "answer": "Barrier methods such as a condom; hormonal methods such as oral contraceptive pills; an intrauterine device such as the copper-T; or surgical methods such as vasectomy and tubectomy.",
    "keyPoints": [
-    "Barrier method such as a condom",
-    "Another method such as pills, IUD or surgery"
+    "A barrier method such as a condom",
+    "A second method: oral pills (hormonal), copper-T (IUD) or surgery"
    ],
    "explanation": "Contraceptive methods prevent fertilisation or implantation.",
    "source": "ai-drafted",
@@ -1396,7 +1396,7 @@
    "reviewed": false,
    "crossCheck": {
     "result": "disagree",
-    "note": "Pills and copper-T (IUD) are not barrier methods; the answer mislabels them as barrier methods."
+    "note": "Pills and copper-T (IUD) are not barrier methods; the answer mislabels them as barrier methods. Corrected after review: only the condom is a barrier method."
    }
   },
   {

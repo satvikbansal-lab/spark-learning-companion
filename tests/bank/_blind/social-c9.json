@@ -1,0 +1,5505 @@
+{
+ "class": 9,
+ "subject": "social",
+ "items": [
+  {
+   "id": "social-c9-001",
+   "type": "mcq",
+   "q": "On which date in 1789 did a crowd in Paris storm the Bastille?",
+   "options": [
+    "4 July",
+    "14 July",
+    "20 June",
+    "21 January"
+   ]
+  },
+  {
+   "id": "social-c9-002",
+   "type": "mcq",
+   "q": "Before the Revolution, French society was divided into how many estates?",
+   "options": [
+    "Two",
+    "Four",
+    "Five",
+    "Three"
+   ]
+  },
+  {
+   "id": "social-c9-003",
+   "type": "mcq",
+   "q": "Which estate included peasants, artisans, merchants and lawyers?",
+   "options": [
+    "The Third Estate",
+    "The First Estate",
+    "The Second Estate",
+    "The royal court"
+   ]
+  },
+  {
+   "id": "social-c9-004",
+   "type": "mcq",
+   "q": "Which of these was a direct tax paid to the state by members of the Third Estate in France?",
+   "options": [
+    "Tithe",
+    "Excise on tobacco",
+    "Taille",
+    "Sales tax"
+   ]
+  },
+  {
+   "id": "social-c9-005",
+   "type": "mcq",
+   "q": "Why did Louis XVI call a meeting of the Estates-General in 1789?",
+   "options": [
+    "To get approval for new taxes because the treasury was short of money",
+    "To declare war on Britain",
+    "To give up the throne",
+    "To abolish the Church"
+   ]
+  },
+  {
+   "id": "social-c9-006",
+   "type": "mcq",
+   "q": "In the Estates-General each estate had one vote. Why did the Third Estate object to this rule?",
+   "options": [
+    "It wanted the nobles to have no seats",
+    "It wanted the Church to rule France",
+    "The two privileged estates could always outvote the far larger Third Estate",
+    "It did not want any voting at all"
+   ]
+  },
+  {
+   "id": "social-c9-007",
+   "type": "short",
+   "q": "List three privileges enjoyed by the First and Second Estates before the Revolution.",
+   "proposedAnswer": "Members of the first two estates were exempt from paying taxes to the state. The clergy collected the tithe from peasants, and the nobles collected feudal dues from the peasants who lived on their lands. Nobles also held the high posts in the army and government.",
+   "keyPoints": [
+    "Exempt from state taxes",
+    "Clergy collected tithe",
+    "Nobles collected feudal dues",
+    "Nobles held high posts"
+   ]
+  },
+  {
+   "id": "social-c9-008",
+   "type": "short",
+   "q": "Explain how the Constitution of 1791 limited the powers of the King.",
+   "proposedAnswer": "The Constitution of 1791 made France a constitutional monarchy. Powers were divided among the National Assembly, which made laws, the executive and the judiciary, so the King no longer held all power himself.",
+   "keyPoints": [
+    "France became a constitutional monarchy",
+    "Law-making power went to the National Assembly",
+    "Powers were separated among different institutions"
+   ]
+  },
+  {
+   "id": "social-c9-009",
+   "type": "mcq",
+   "q": "Who led the Bolshevik party in the Russian Revolution of 1917?",
+   "options": [
+    "Nicholas II",
+    "Alexander Kerensky",
+    "Joseph Stalin",
+    "Vladimir Lenin"
+   ]
+  },
+  {
+   "id": "social-c9-010",
+   "type": "mcq",
+   "q": "Who was the Tsar of Russia when the February Revolution of 1917 began?",
+   "options": [
+    "Alexander II",
+    "Nicholas II",
+    "Peter the Great",
+    "Ivan the Terrible"
+   ]
+  },
+  {
+   "id": "social-c9-011",
+   "type": "mcq",
+   "q": "What was a major demand of Russian peasants before 1917?",
+   "options": [
+    "Less land to farm",
+    "Jobs in distant factories",
+    "Higher taxes on their villages",
+    "Transfer of the nobles' and Church land to peasants"
+   ]
+  },
+  {
+   "id": "social-c9-012",
+   "type": "mcq",
+   "q": "Which idea was central to socialism?",
+   "options": [
+    "Property such as land and factories should be owned collectively by society",
+    "Rulers should inherit their positions",
+    "Markets should be free of all rules",
+    "Religious leaders should govern the state"
+   ]
+  },
+  {
+   "id": "social-c9-013",
+   "type": "mcq",
+   "q": "How did Russia's participation in the First World War add to unrest in 1917?",
+   "options": [
+    "Victories made the Tsar very popular",
+    "Heavy defeats, large casualties and food shortages weakened support for the Tsar",
+    "Bread prices fell sharply",
+    "The war ended in 1914"
+   ]
+  },
+  {
+   "id": "social-c9-014",
+   "type": "short",
+   "q": "What did the Bolshevik slogan 'Peace, Land and Bread' promise?",
+   "proposedAnswer": "Peace meant ending Russia's part in the First World War, land meant transferring land to the peasants, and bread meant ending food shortages in the cities.",
+   "keyPoints": [
+    "Peace: end the war",
+    "Land: give land to peasants",
+    "Bread: end food shortages"
+   ]
+  },
+  {
+   "id": "social-c9-015",
+   "type": "short",
+   "q": "Why was the rule of the Tsar unpopular in Russia in the early twentieth century?",
+   "proposedAnswer": "The Tsar ruled as an autocrat and did not share real power with the Duma, which he dismissed repeatedly. Workers and peasants lived in poverty, and military defeats in war added to the anger.",
+   "keyPoints": [
+    "Autocratic rule",
+    "Duma had little real power",
+    "Poverty of workers and peasants",
+    "Defeats in war"
+   ]
+  },
+  {
+   "id": "social-c9-016",
+   "type": "mcq",
+   "q": "In which year did Adolf Hitler become Chancellor of Germany?",
+   "options": [
+    "1919",
+    "1923",
+    "1939",
+    "1933"
+   ]
+  },
+  {
+   "id": "social-c9-017",
+   "type": "mcq",
+   "q": "What was the German republic set up after the First World War called?",
+   "options": [
+    "Third Reich",
+    "Weimar Republic",
+    "Holy Roman Empire",
+    "Kingdom of Prussia"
+   ]
+  },
+  {
+   "id": "social-c9-018",
+   "type": "mcq",
+   "q": "Which treaty of 1919 imposed harsh terms on Germany after the First World War?",
+   "options": [
+    "Treaty of Tilsit",
+    "Treaty of Vienna",
+    "Treaty of Brest-Litovsk",
+    "Treaty of Versailles"
+   ]
+  },
+  {
+   "id": "social-c9-019",
+   "type": "mcq",
+   "q": "How did the Great Depression of 1929 affect Germany?",
+   "options": [
+    "It caused mass unemployment and made many Germans lose faith in the Weimar government",
+    "It made Germany the richest country in Europe",
+    "It ended unemployment",
+    "It had no effect on Germany"
+   ]
+  },
+  {
+   "id": "social-c9-020",
+   "type": "mcq",
+   "q": "What did the Enabling Act of March 1933 do?",
+   "options": [
+    "Restored the monarchy",
+    "Lowered the voting age",
+    "Allowed Hitler to make laws without the approval of the Reichstag",
+    "Disbanded the German army"
+   ]
+  },
+  {
+   "id": "social-c9-021",
+   "type": "short",
+   "q": "Name any three groups of people persecuted by the Nazi regime.",
+   "proposedAnswer": "The Nazis persecuted Jews, Roma and Sinti, people with disabilities, and political opponents such as communists.",
+   "keyPoints": [
+    "Jews",
+    "Roma and Sinti",
+    "People with disabilities",
+    "Political opponents"
+   ]
+  },
+  {
+   "id": "social-c9-022",
+   "type": "short",
+   "q": "Explain how the Treaty of Versailles helped Hitler to gain support.",
+   "proposedAnswer": "Many Germans felt humiliated by the war guilt clause, heavy reparations, loss of territory and limits on the army. Hitler promised to undo the treaty and restore German pride, which attracted support.",
+   "keyPoints": [
+    "Treaty felt humiliating",
+    "Reparations and lost territory",
+    "Hitler promised to undo it"
+   ]
+  },
+  {
+   "id": "social-c9-023",
+   "type": "mcq",
+   "q": "Which line of latitude passes almost through the middle of India?",
+   "options": [
+    "Tropic of Cancer",
+    "Equator",
+    "Tropic of Capricorn",
+    "Arctic Circle"
+   ]
+  },
+  {
+   "id": "social-c9-024",
+   "type": "mcq",
+   "q": "Which is the southernmost point of the Indian Union?",
+   "options": [
+    "Port Blair",
+    "Rameswaram",
+    "Indira Point",
+    "Kavaratti"
+   ]
+  },
+  {
+   "id": "social-c9-025",
+   "type": "mcq",
+   "q": "Which city lies close to the Standard Meridian of India at 82 degrees 30 minutes E?",
+   "options": [
+    "Mumbai",
+    "Kolkata",
+    "Jaipur",
+    "Mirzapur"
+   ]
+  },
+  {
+   "id": "social-c9-026",
+   "type": "mcq",
+   "q": "About what is the difference in local time between the easternmost and westernmost parts of India?",
+   "options": [
+    "30 minutes",
+    "2 hours",
+    "6 hours",
+    "12 hours"
+   ]
+  },
+  {
+   "id": "social-c9-027",
+   "type": "mcq",
+   "q": "Which is the oldest fold mountain range in India?",
+   "options": [
+    "Himalayas",
+    "Shiwaliks",
+    "Aravali",
+    "Karakoram"
+   ]
+  },
+  {
+   "id": "social-c9-028",
+   "type": "mcq",
+   "q": "Why are the northern plains of India so fertile?",
+   "options": [
+    "They were formed by alluvium deposited by the Indus, Ganga and Brahmaputra rivers",
+    "They were formed from volcanic lava",
+    "They are made of coral limestone",
+    "They are covered by sand blown from the Thar"
+   ]
+  },
+  {
+   "id": "social-c9-029",
+   "type": "short",
+   "q": "Name the three parallel ranges of the Himalayas from north to south.",
+   "proposedAnswer": "From north to south the ranges are the Himadri (Greater Himalaya), the Himachal (Lesser Himalaya) and the Shiwaliks.",
+   "keyPoints": [
+    "Himadri",
+    "Himachal",
+    "Shiwaliks"
+   ]
+  },
+  {
+   "id": "social-c9-030",
+   "type": "short",
+   "q": "How did the opening of the Suez Canal in 1869 increase the importance of India's location?",
+   "proposedAnswer": "The canal shortened the sea route between Europe and Asia. India's central position on the Indian Ocean gave it easy access to West Asia, Africa and Europe on one side and South-East and East Asia on the other.",
+   "keyPoints": [
+    "Shorter sea route between Europe and Asia",
+    "India lies in the centre of the Indian Ocean routes",
+    "Easy access to both east and west"
+   ]
+  },
+  {
+   "id": "social-c9-031",
+   "type": "mcq",
+   "q": "Which peninsular river is known as the Dakshin Ganga?",
+   "options": [
+    "Kaveri",
+    "Godavari",
+    "Krishna",
+    "Mahanadi"
+   ]
+  },
+  {
+   "id": "social-c9-032",
+   "type": "mcq",
+   "q": "The Ganga is formed at Devprayag by the meeting of the Alaknanda and which other stream?",
+   "options": [
+    "Yamuna",
+    "Gandak",
+    "Son",
+    "Bhagirathi"
+   ]
+  },
+  {
+   "id": "social-c9-033",
+   "type": "mcq",
+   "q": "What is the Brahmaputra called in Tibet?",
+   "options": [
+    "Padma",
+    "Tsangpo",
+    "Meghna",
+    "Hooghly"
+   ]
+  },
+  {
+   "id": "social-c9-034",
+   "type": "mcq",
+   "q": "Which pair of rivers flows west into the Arabian Sea through rift valleys?",
+   "options": [
+    "Godavari and Krishna",
+    "Mahanadi and Kaveri",
+    "Ganga and Yamuna",
+    "Narmada and Tapi"
+   ]
+  },
+  {
+   "id": "social-c9-035",
+   "type": "mcq",
+   "q": "Why do Himalayan rivers carry water throughout the year while many peninsular rivers dry up in summer?",
+   "options": [
+    "Himalayan rivers get water from melting snow as well as rain, while peninsular rivers depend mainly on rain",
+    "Himalayan rivers are shorter",
+    "Peninsular rivers have no rainfall at all",
+    "Himalayan rivers flow only in winter"
+   ]
+  },
+  {
+   "id": "social-c9-036",
+   "type": "short",
+   "q": "What is a delta? Name one delta in India.",
+   "proposedAnswer": "A delta is a triangular area of land formed at the mouth of a river where it deposits the silt it has carried. The Ganga-Brahmaputra delta, which includes the Sundarbans, is an example.",
+   "keyPoints": [
+    "Formed at the river mouth by deposited silt",
+    "Example: Ganga-Brahmaputra delta"
+   ]
+  },
+  {
+   "id": "social-c9-037",
+   "type": "short",
+   "q": "Give three reasons why rivers are important to the economy of a country.",
+   "proposedAnswer": "Rivers provide water for irrigation and drinking, can be used to generate hydroelectricity, serve as waterways for transport, and deposit fertile soil along their banks.",
+   "keyPoints": [
+    "Irrigation and drinking water",
+    "Hydroelectric power",
+    "Navigation and transport",
+    "Fertile soil"
+   ]
+  },
+  {
+   "id": "social-c9-038",
+   "type": "mcq",
+   "q": "Which type of climate does India have?",
+   "options": [
+    "Mediterranean",
+    "Polar",
+    "Tropical monsoon",
+    "Equatorial"
+   ]
+  },
+  {
+   "id": "social-c9-039",
+   "type": "mcq",
+   "q": "From which direction do the winds that bring summer rainfall to India blow?",
+   "options": [
+    "South-west",
+    "North-east",
+    "North-west",
+    "South-east"
+   ]
+  },
+  {
+   "id": "social-c9-040",
+   "type": "mcq",
+   "q": "Which season in India lasts roughly from December to February?",
+   "options": [
+    "Hot weather season",
+    "Retreating monsoon",
+    "Cold weather season",
+    "South-west monsoon season"
+   ]
+  },
+  {
+   "id": "social-c9-041",
+   "type": "mcq",
+   "q": "Which place in Meghalaya is famous for very heavy rainfall?",
+   "options": [
+    "Jaisalmer",
+    "Leh",
+    "Bikaner",
+    "Mawsynram"
+   ]
+  },
+  {
+   "id": "social-c9-042",
+   "type": "mcq",
+   "q": "What brings winter rainfall to north-western India, which is useful for the wheat crop?",
+   "options": [
+    "Loo",
+    "Western disturbances",
+    "Mango showers",
+    "Kalbaisakhi"
+   ]
+  },
+  {
+   "id": "social-c9-043",
+   "type": "mcq",
+   "q": "Why does the western slope of the Western Ghats get far more rain than the Deccan Plateau just east of it?",
+   "options": [
+    "It is farther from the sea",
+    "The Deccan lies in the rain shadow, since moist winds drop most rain on the windward slope",
+    "The Western Ghats are lower than the Deccan",
+    "Rain falls only in winter on the western slope"
+   ]
+  },
+  {
+   "id": "social-c9-044",
+   "type": "short",
+   "q": "Name the four seasons of India.",
+   "proposedAnswer": "The four seasons are the cold weather season, the hot weather season, the south-west monsoon season and the season of the retreating monsoon.",
+   "keyPoints": [
+    "Cold weather season",
+    "Hot weather season",
+    "South-west monsoon season",
+    "Retreating monsoon season"
+   ]
+  },
+  {
+   "id": "social-c9-045",
+   "type": "short",
+   "q": "Why is the monsoon described as a unifying bond for India?",
+   "proposedAnswer": "The monsoon decides when crops are sown and harvested across the country and influences festivals and the rhythm of life. Because most of India depends on it for water and farming, it links the economy and culture of different regions.",
+   "keyPoints": [
+    "Controls agriculture across the country",
+    "Influences festivals and daily life",
+    "Water supply depends on it"
+   ]
+  },
+  {
+   "id": "social-c9-046",
+   "type": "mcq",
+   "q": "Teak and sal are common in which type of forest?",
+   "options": [
+    "Tropical deciduous forests",
+    "Tropical evergreen forests",
+    "Montane forests",
+    "Mangrove forests"
+   ]
+  },
+  {
+   "id": "social-c9-047",
+   "type": "mcq",
+   "q": "In which state are the Gir forests, home to the Asiatic lion?",
+   "options": [
+    "Assam",
+    "Gujarat",
+    "Kerala",
+    "Odisha"
+   ]
+  },
+  {
+   "id": "social-c9-048",
+   "type": "mcq",
+   "q": "Mangrove forests, such as those of the Sundarbans, grow in",
+   "options": [
+    "Hot deserts",
+    "High snowy mountains",
+    "Very dry hard soil",
+    "Salty tidal water of deltas and coasts"
+   ]
+  },
+  {
+   "id": "social-c9-049",
+   "type": "mcq",
+   "q": "Which animal is the Kaziranga National Park in Assam especially known for?",
+   "options": [
+    "Snow leopard",
+    "One-horned rhinoceros",
+    "Indian wild ass",
+    "Camel"
+   ]
+  },
+  {
+   "id": "social-c9-050",
+   "type": "mcq",
+   "q": "Why are thorny bushes and cacti common in the dry regions of Rajasthan?",
+   "options": [
+    "The area gets very heavy rain",
+    "The region is covered with snow",
+    "The soil is permanently waterlogged",
+    "Thorns, thick stems and deep roots help plants lose less water in low rainfall"
+   ]
+  },
+  {
+   "id": "social-c9-051",
+   "type": "short",
+   "q": "Name any two measures taken in India to protect wildlife.",
+   "proposedAnswer": "India has created national parks, wildlife sanctuaries and biosphere reserves, started projects such as Project Tiger in 1973, and passed the Wildlife Protection Act of 1972.",
+   "keyPoints": [
+    "National parks and sanctuaries",
+    "Biosphere reserves",
+    "Project Tiger",
+    "Wildlife Protection Act"
+   ]
+  },
+  {
+   "id": "social-c9-052",
+   "type": "short",
+   "q": "Explain why India has a rich variety of plants and animals.",
+   "proposedAnswer": "India has varied relief, soils and climates, from rainy forests and wet coasts to deserts and snowy mountains. These different conditions allow many different kinds of plants and animals to live in the country.",
+   "keyPoints": [
+    "Varied relief and soil",
+    "Varied climate and rainfall",
+    "Different habitats support different species"
+   ]
+  },
+  {
+   "id": "social-c9-053",
+   "type": "mcq",
+   "q": "How often is the Census of India conducted?",
+   "options": [
+    "Every ten years",
+    "Every year",
+    "Every five years",
+    "Every twenty years"
+   ]
+  },
+  {
+   "id": "social-c9-054",
+   "type": "mcq",
+   "q": "What does the term sex ratio mean?",
+   "options": [
+    "Males per 100 females",
+    "Births per 1000 people",
+    "Number of females per 1000 males",
+    "Children per family"
+   ]
+  },
+  {
+   "id": "social-c9-055",
+   "type": "mcq",
+   "q": "Which Indian state has the largest population?",
+   "options": [
+    "Uttar Pradesh",
+    "Kerala",
+    "Goa",
+    "Mizoram"
+   ]
+  },
+  {
+   "id": "social-c9-056",
+   "type": "mcq",
+   "q": "Which condition helps make the northern plains densely populated?",
+   "options": [
+    "Harsh desert climate",
+    "Lack of water",
+    "Fertile soil, flat land and plentiful water",
+    "Steep rugged slopes"
+   ]
+  },
+  {
+   "id": "social-c9-057",
+   "type": "mcq",
+   "q": "What happens if the death rate falls sharply while the birth rate stays high?",
+   "options": [
+    "The population falls",
+    "The population stays the same",
+    "The number of children goes down",
+    "The population grows rapidly"
+   ]
+  },
+  {
+   "id": "social-c9-058",
+   "type": "short",
+   "q": "Define migration. Give one push factor and one pull factor.",
+   "proposedAnswer": "Migration is the movement of people from one place to another to live or work. Lack of jobs is a push factor, while better employment and facilities in cities are pull factors.",
+   "keyPoints": [
+    "Movement from one place to another",
+    "Push factor: unemployment or poverty",
+    "Pull factor: better jobs or facilities"
+   ]
+  },
+  {
+   "id": "social-c9-059",
+   "type": "short",
+   "q": "How does the age composition of a population affect a country's economy?",
+   "proposedAnswer": "A large working-age group can raise production and incomes, while many children and old people depend on workers and need spending on schools and care. The balance between workers and dependents shapes the economy.",
+   "keyPoints": [
+    "Working-age group produces goods and services",
+    "Children and aged are dependants",
+    "Needs differ with age structure"
+   ]
+  },
+  {
+   "id": "social-c9-060",
+   "type": "mcq",
+   "q": "The word democracy comes from the Greek words demos and kratia. What do they mean?",
+   "options": [
+    "King and law",
+    "People and rule",
+    "Army and power",
+    "Land and wealth"
+   ]
+  },
+  {
+   "id": "social-c9-061",
+   "type": "mcq",
+   "q": "In a democracy, who ultimately holds power?",
+   "options": [
+    "The army",
+    "A hereditary monarch",
+    "The people",
+    "A single party leader"
+   ]
+  },
+  {
+   "id": "social-c9-062",
+   "type": "mcq",
+   "q": "Which of the following is an essential feature of democracy?",
+   "options": [
+    "Free and fair elections in which all adults can vote",
+    "Rulers who inherit their positions",
+    "Control by the army",
+    "A ban on all opposition parties"
+   ]
+  },
+  {
+   "id": "social-c9-063",
+   "type": "mcq",
+   "q": "How did General Pinochet come to power in Chile in 1973?",
+   "options": [
+    "By winning a free election",
+    "By overthrowing the elected government of Salvador Allende in a military coup",
+    "By inheriting the throne",
+    "By a vote of the United Nations"
+   ]
+  },
+  {
+   "id": "social-c9-064",
+   "type": "mcq",
+   "q": "What does the principle of one person, one vote, one value mean?",
+   "options": [
+    "Rich people get more votes",
+    "Each caste has one vote",
+    "Each voter may vote only once in a lifetime",
+    "Every adult's vote counts equally, whatever their wealth or background"
+   ]
+  },
+  {
+   "id": "social-c9-065",
+   "type": "mcq",
+   "q": "Why is a country that holds elections but bans all opposition parties not a true democracy?",
+   "options": [
+    "Because elections are expensive",
+    "Because voters have no real choice between competing parties",
+    "Because it has too many voters",
+    "Because elections are held too often"
+   ]
+  },
+  {
+   "id": "social-c9-066",
+   "type": "short",
+   "q": "State any two arguments in favour of democracy.",
+   "proposedAnswer": "Democracy makes the government accountable to citizens, improves the quality of decisions through discussion, gives dignity and equality to citizens, and allows mistakes to be corrected.",
+   "keyPoints": [
+    "Accountable government",
+    "Better decisions through consultation",
+    "Dignity and equality",
+    "Mistakes can be corrected"
+   ]
+  },
+  {
+   "id": "social-c9-067",
+   "type": "short",
+   "q": "Why is a democratic government considered more accountable than a dictatorship?",
+   "proposedAnswer": "In a democracy rulers must face regular elections and can be removed by voters, and they must follow rules and answer to people and institutions. A dictator does not face such checks.",
+   "keyPoints": [
+    "Rulers face elections",
+    "Citizens can remove them",
+    "Rules and institutions check power"
+   ]
+  },
+  {
+   "id": "social-c9-068",
+   "type": "mcq",
+   "q": "Who was the Chairman of the Drafting Committee of the Indian Constituent Assembly?",
+   "options": [
+    "Jawaharlal Nehru",
+    "Rajendra Prasad",
+    "Sardar Patel",
+    "B. R. Ambedkar"
+   ]
+  },
+  {
+   "id": "social-c9-069",
+   "type": "mcq",
+   "q": "On which date did the Constitution of India come into effect?",
+   "options": [
+    "26 January 1950",
+    "15 August 1947",
+    "26 November 1949",
+    "2 October 1950"
+   ]
+  },
+  {
+   "id": "social-c9-070",
+   "type": "mcq",
+   "q": "What was the system of racial discrimination followed in South Africa until the 1990s called?",
+   "options": [
+    "Feudalism",
+    "Federalism",
+    "Apartheid",
+    "Secularism"
+   ]
+  },
+  {
+   "id": "social-c9-071",
+   "type": "mcq",
+   "q": "Who became president of South Africa after the first multiracial elections of 1994?",
+   "options": [
+    "Nelson Mandela",
+    "Desmond Tutu",
+    "Jawaharlal Nehru",
+    "Martin Luther King"
+   ]
+  },
+  {
+   "id": "social-c9-072",
+   "type": "mcq",
+   "q": "Why does a country need a constitution?",
+   "options": [
+    "To make citizens pay more tax",
+    "To increase the army",
+    "To set the rules for forming the government and limit its powers",
+    "To remove elections"
+   ]
+  },
+  {
+   "id": "social-c9-073",
+   "type": "short",
+   "q": "What is the Preamble of the Constitution? State any two ideals it mentions.",
+   "proposedAnswer": "The Preamble is the introductory statement of the Constitution that sets out its basic values and aims. It mentions ideals such as justice, liberty, equality and fraternity.",
+   "keyPoints": [
+    "Introduction to the Constitution",
+    "Mentions justice, liberty, equality, fraternity"
+   ]
+  },
+  {
+   "id": "social-c9-074",
+   "type": "short",
+   "q": "Describe the role of the Constituent Assembly in making the Constitution of India.",
+   "proposedAnswer": "The Constituent Assembly, elected in 1946, met for about three years, held long debates on each provision, and drafted the Constitution, which it adopted in November 1949. Its members represented different regions and opinions.",
+   "keyPoints": [
+    "Elected body, first met in 1946",
+    "Debated provisions for about three years",
+    "Adopted the Constitution in 1949"
+   ]
+  },
+  {
+   "id": "social-c9-075",
+   "type": "mcq",
+   "q": "What is the minimum age at which a citizen can vote in India?",
+   "options": [
+    "16 years",
+    "21 years",
+    "25 years",
+    "18 years"
+   ]
+  },
+  {
+   "id": "social-c9-076",
+   "type": "mcq",
+   "q": "What is the list of all persons eligible to vote in an area called?",
+   "options": [
+    "Manifesto",
+    "Electoral roll",
+    "Mandate",
+    "Constituency"
+   ]
+  },
+  {
+   "id": "social-c9-077",
+   "type": "mcq",
+   "q": "Which independent body is responsible for conducting elections in India?",
+   "options": [
+    "Supreme Court",
+    "Parliament",
+    "Election Commission",
+    "Planning Commission"
+   ]
+  },
+  {
+   "id": "social-c9-078",
+   "type": "mcq",
+   "q": "Who appoints the Prime Minister of India?",
+   "options": [
+    "The President",
+    "The Chief Justice",
+    "The Speaker of the Lok Sabha",
+    "The Chairman of the Rajya Sabha"
+   ]
+  },
+  {
+   "id": "social-c9-079",
+   "type": "mcq",
+   "q": "Which of these together make up the Parliament of India?",
+   "options": [
+    "The Prime Minister and Cabinet",
+    "The President, Lok Sabha and Rajya Sabha",
+    "The Supreme Court and High Courts",
+    "The Speaker and the Governors"
+   ]
+  },
+  {
+   "id": "social-c9-080",
+   "type": "mcq",
+   "q": "Why is a Model Code of Conduct applied to parties during elections?",
+   "options": [
+    "To make elections last longer",
+    "To stop people from voting",
+    "To increase campaign expenses",
+    "To keep the contest fair by preventing misuse of government power by the ruling party"
+   ]
+  },
+  {
+   "id": "social-c9-081",
+   "type": "short",
+   "q": "Distinguish between the legislature and the executive.",
+   "proposedAnswer": "The legislature, such as Parliament, makes laws and controls the government, while the executive, such as the Prime Minister, Council of Ministers and civil servants, carries out and enforces those laws.",
+   "keyPoints": [
+    "Legislature makes laws",
+    "Executive implements laws",
+    "Legislature controls the executive"
+   ]
+  },
+  {
+   "id": "social-c9-082",
+   "type": "short",
+   "q": "Why is an independent judiciary important in a democracy?",
+   "proposedAnswer": "An independent judiciary can protect citizens' rights, settle disputes fairly and check whether laws and actions of the government follow the Constitution, without pressure from the government.",
+   "keyPoints": [
+    "Protects rights",
+    "Fair settlement of disputes",
+    "Checks the government under the Constitution"
+   ]
+  },
+  {
+   "id": "social-c9-083",
+   "type": "mcq",
+   "q": "How many Fundamental Rights does the Indian Constitution guarantee?",
+   "options": [
+    "Five",
+    "Six",
+    "Seven",
+    "Eight"
+   ]
+  },
+  {
+   "id": "social-c9-084",
+   "type": "mcq",
+   "q": "Which Fundamental Right lets citizens approach the courts if their rights are violated?",
+   "options": [
+    "Right to Equality",
+    "Right to Freedom",
+    "Cultural and Educational Rights",
+    "Right to Constitutional Remedies"
+   ]
+  },
+  {
+   "id": "social-c9-085",
+   "type": "mcq",
+   "q": "Under which right is untouchability abolished?",
+   "options": [
+    "Right to Equality",
+    "Right to Freedom",
+    "Cultural and Educational Rights",
+    "Right to Freedom of Religion"
+   ]
+  },
+  {
+   "id": "social-c9-086",
+   "type": "mcq",
+   "q": "A factory owner makes a twelve-year-old child work in a dangerous mine. Which right is violated?",
+   "options": [
+    "Right to Equality",
+    "Right to Freedom of Religion",
+    "Right against Exploitation",
+    "Cultural and Educational Rights"
+   ]
+  },
+  {
+   "id": "social-c9-087",
+   "type": "mcq",
+   "q": "A state bans a community from running schools that teach in its own language. Which right is mainly violated?",
+   "options": [
+    "Cultural and Educational Rights",
+    "Right against Exploitation",
+    "Right to Equality before law",
+    "Right to move freely"
+   ]
+  },
+  {
+   "id": "social-c9-088",
+   "type": "short",
+   "q": "Name any three writs that courts can issue to protect Fundamental Rights.",
+   "proposedAnswer": "Courts can issue writs such as habeas corpus, mandamus, prohibition, certiorari and quo warranto.",
+   "keyPoints": [
+    "Habeas corpus",
+    "Mandamus",
+    "Prohibition, certiorari or quo warranto"
+   ]
+  },
+  {
+   "id": "social-c9-089",
+   "type": "short",
+   "q": "Why are reasonable restrictions placed on rights such as freedom of speech? Give an example.",
+   "proposedAnswer": "Rights of one person must not harm the rights and safety of others or the public order. For example, freedom of speech does not allow someone to spread false and harmful statements or incite violence.",
+   "keyPoints": [
+    "Rights should not harm others",
+    "Public order must be maintained",
+    "Example such as inciting violence"
+   ]
+  },
+  {
+   "id": "social-c9-090",
+   "type": "mcq",
+   "q": "Which of these is an example of physical capital?",
+   "options": [
+    "A farmer's skill",
+    "Knowledge of farming",
+    "A tractor",
+    "A worker's labour"
+   ]
+  },
+  {
+   "id": "social-c9-091",
+   "type": "mcq",
+   "q": "Growing more than one crop on the same piece of land in a year is called",
+   "options": [
+    "Fallowing",
+    "Shifting cultivation",
+    "Crop rotation only",
+    "Multiple cropping"
+   ]
+  },
+  {
+   "id": "social-c9-092",
+   "type": "mcq",
+   "q": "Which input was an important part of the Green Revolution in India?",
+   "options": [
+    "Wooden ploughs",
+    "High yielding variety seeds",
+    "Rain-fed farming only",
+    "Hand tools only"
+   ]
+  },
+  {
+   "id": "social-c9-093",
+   "type": "mcq",
+   "q": "Farming and fishing belong to which sector of the economy?",
+   "options": [
+    "Secondary sector",
+    "Tertiary sector",
+    "Primary sector",
+    "Services sector"
+   ]
+  },
+  {
+   "id": "social-c9-094",
+   "type": "mcq",
+   "q": "Why is spending on education and health called investment in human capital?",
+   "options": [
+    "It improves people's skills and productivity, which raises their income and the country's output",
+    "It increases the amount of land",
+    "It reduces the number of workers",
+    "It replaces machines"
+   ]
+  },
+  {
+   "id": "social-c9-095",
+   "type": "mcq",
+   "q": "Why cannot a village simply raise farm output by cultivating more land?",
+   "options": [
+    "Land is unlimited",
+    "Farmers do not need land",
+    "The area of cultivable land is fixed, so output must rise through multiple cropping or modern methods",
+    "Land cannot be used for farming"
+   ]
+  },
+  {
+   "id": "social-c9-096",
+   "type": "short",
+   "q": "Name the four factors of production.",
+   "proposedAnswer": "The four factors of production are land, labour, physical capital and human capital (knowledge and enterprise).",
+   "keyPoints": [
+    "Land",
+    "Labour",
+    "Physical capital",
+    "Human capital"
+   ]
+  },
+  {
+   "id": "social-c9-097",
+   "type": "short",
+   "q": "Explain how education can raise both a person's income and the country's growth.",
+   "proposedAnswer": "Education gives people skills and knowledge so that they can do better-paid and more productive work. As many such workers raise output and invent new methods, the whole economy grows.",
+   "keyPoints": [
+    "Skills raise productivity and income",
+    "More output for the economy",
+    "Innovation and growth"
+   ]
+  },
+  {
+   "id": "social-c9-098",
+   "type": "mcq",
+   "q": "Which scheme, begun in 2005, guarantees 100 days of wage employment to rural households?",
+   "options": [
+    "Antyodaya Anna Yojana",
+    "Mid-day meal scheme",
+    "Public Distribution System",
+    "MGNREGA"
+   ]
+  },
+  {
+   "id": "social-c9-099",
+   "type": "mcq",
+   "q": "The Public Distribution System in India supplies",
+   "options": [
+    "Cars at cheap rates",
+    "Food grains at subsidised prices through ration shops",
+    "Free houses",
+    "Medicines only"
+   ]
+  },
+  {
+   "id": "social-c9-100",
+   "type": "mcq",
+   "q": "What is the main role of the Food Corporation of India?",
+   "options": [
+    "Running schools",
+    "Printing currency",
+    "Controlling floods",
+    "Buying food grains from farmers and keeping buffer stocks"
+   ]
+  },
+  {
+   "id": "social-c9-101",
+   "type": "mcq",
+   "q": "In which region of British India did a severe famine occur in 1943?",
+   "options": [
+    "Bengal",
+    "Gujarat",
+    "Punjab",
+    "Kerala"
+   ]
+  },
+  {
+   "id": "social-c9-102",
+   "type": "mcq",
+   "q": "Why can food insecurity exist even when the country has enough grain?",
+   "options": [
+    "Grain cannot be stored",
+    "Everyone buys too much",
+    "Poor families may lack the money to buy it, so access matters as well as supply",
+    "Grain is not eaten"
+   ]
+  },
+  {
+   "id": "social-c9-103",
+   "type": "short",
+   "q": "What is the poverty line?",
+   "proposedAnswer": "The poverty line is a minimum level of income or spending needed to buy basic necessities such as food, clothing and shelter. People below it are considered poor.",
+   "keyPoints": [
+    "Minimum level of income or spending",
+    "Based on basic needs such as food",
+    "Those below it are called poor"
+   ]
+  },
+  {
+   "id": "social-c9-104",
+   "type": "short",
+   "q": "Explain any two causes of poverty in India.",
+   "proposedAnswer": "Large numbers of people lack steady employment or land and depend on low-paid work. Low levels of education and health, and unequal distribution of income and assets, also keep families poor.",
+   "keyPoints": [
+    "Unemployment or low-paid work",
+    "Lack of land or assets",
+    "Low education and health",
+    "Unequal distribution"
+   ]
+  },
+  {
+   "id": "social-c9-105",
+   "type": "mcq",
+   "q": "In which year was the Declaration of the Rights of Man and of the Citizen adopted in France?",
+   "options": [
+    "1789",
+    "1799",
+    "1804",
+    "1815"
+   ]
+  },
+  {
+   "id": "social-c9-106",
+   "type": "mcq",
+   "q": "Which king of France was executed by guillotine in January 1793?",
+   "options": [
+    "Napoleon",
+    "Louis XIV",
+    "Louis XVI",
+    "Charles X"
+   ]
+  },
+  {
+   "id": "social-c9-107",
+   "type": "mcq",
+   "q": "Under the Constitution of 1791, who were called active citizens?",
+   "options": [
+    "All men and women above 18",
+    "Only the clergy",
+    "Only the nobles",
+    "Men above 25 who paid taxes equal to at least three days' wages of a labourer"
+   ]
+  },
+  {
+   "id": "social-c9-108",
+   "type": "mcq",
+   "q": "In which year was France declared a republic?",
+   "options": [
+    "1789",
+    "1792",
+    "1804",
+    "1815"
+   ]
+  },
+  {
+   "id": "social-c9-109",
+   "type": "mcq",
+   "q": "Why did the system of active and passive citizens go against the spirit of the Declaration of Rights?",
+   "options": [
+    "It gave votes to women",
+    "It abolished all taxes",
+    "It made the nobles equal to peasants",
+    "The Declaration spoke of equal rights, but property conditions kept poorer men from voting"
+   ]
+  },
+  {
+   "id": "social-c9-110",
+   "type": "short",
+   "q": "State any three rights mentioned in the Declaration of the Rights of Man and of the Citizen.",
+   "proposedAnswer": "The Declaration stated that men have natural rights such as liberty, property, security and resistance to oppression. It also declared equality before the law and freedom of speech and opinion.",
+   "keyPoints": [
+    "Liberty",
+    "Equality before the law",
+    "Freedom of speech and opinion",
+    "Security and property"
+   ]
+  },
+  {
+   "id": "social-c9-111",
+   "type": "short",
+   "q": "Why did the National Assembly abolish feudal obligations in August 1789?",
+   "proposedAnswer": "Peasants had risen against their lords in many parts of France, and the Assembly wanted to calm the countryside. It abolished feudal obligations and the tithe, which removed many privileges of nobles and the Church.",
+   "keyPoints": [
+    "Peasant revolts in the countryside",
+    "Feudal obligations and tithes ended",
+    "Privileges of nobles and clergy reduced"
+   ]
+  },
+  {
+   "id": "social-c9-112",
+   "type": "mcq",
+   "q": "What was the Russian city of Petrograd called earlier?",
+   "options": [
+    "St Petersburg",
+    "Moscow",
+    "Kiev",
+    "Stalingrad"
+   ]
+  },
+  {
+   "id": "social-c9-113",
+   "type": "mcq",
+   "q": "Which famous work was published in 1848 by Karl Marx and Friedrich Engels?",
+   "options": [
+    "The Social Contract",
+    "The Communist Manifesto",
+    "The Spirit of the Laws",
+    "Mein Kampf"
+   ]
+  },
+  {
+   "id": "social-c9-114",
+   "type": "mcq",
+   "q": "What was the Duma in Russia?",
+   "options": [
+    "The Tsar's palace",
+    "The secret police",
+    "A Bolshevik newspaper",
+    "An elected parliament set up after the 1905 revolution"
+   ]
+  },
+  {
+   "id": "social-c9-115",
+   "type": "mcq",
+   "q": "What happened on Bloody Sunday in 1905?",
+   "options": [
+    "A coup brought Lenin to power",
+    "Peaceful workers marching to the Winter Palace were fired upon by troops",
+    "The Tsar gave up his throne",
+    "The First World War began"
+   ]
+  },
+  {
+   "id": "social-c9-116",
+   "type": "mcq",
+   "q": "In which year was the Soviet Union (USSR) formed?",
+   "options": [
+    "1905",
+    "1917",
+    "1922",
+    "1939"
+   ]
+  },
+  {
+   "id": "social-c9-117",
+   "type": "mcq",
+   "q": "Why did the Bolsheviks agree to the harsh Treaty of Brest-Litovsk with Germany in 1918?",
+   "options": [
+    "They wanted to end the war, as promised, and keep their hold on power at home",
+    "They had won the war",
+    "They wished to give Russia to Germany",
+    "They had been defeated in a civil war"
+   ]
+  },
+  {
+   "id": "social-c9-118",
+   "type": "short",
+   "q": "What were the Five Year Plans in the Soviet Union?",
+   "proposedAnswer": "They were plans, begun in 1928, in which the government fixed targets for industry and agriculture and directed the economy. They aimed at rapid industrial growth under state control.",
+   "keyPoints": [
+    "Government plans for the economy",
+    "Targets for industry and agriculture",
+    "State control, begun in 1928"
+   ]
+  },
+  {
+   "id": "social-c9-119",
+   "type": "short",
+   "q": "Why did the February Revolution of 1917 begin in Petrograd?",
+   "proposedAnswer": "Petrograd faced severe shortages of bread and fuel, and women workers and factory workers marched and struck. Soldiers sent to control them joined the protesters, and the Tsar lost control.",
+   "keyPoints": [
+    "Food and fuel shortages",
+    "Strikes and women's protests",
+    "Soldiers joined the protesters"
+   ]
+  },
+  {
+   "id": "social-c9-120",
+   "type": "mcq",
+   "q": "Which symbol was used by the Nazi party?",
+   "options": [
+    "Hammer and sickle",
+    "Tricolour flag of France",
+    "Swastika",
+    "Crescent and star"
+   ]
+  },
+  {
+   "id": "social-c9-121",
+   "type": "mcq",
+   "q": "In which book, written in prison, did Hitler set out his ideas?",
+   "options": [
+    "Mein Kampf",
+    "Das Kapital",
+    "The Prince",
+    "Utopia"
+   ]
+  },
+  {
+   "id": "social-c9-122",
+   "type": "mcq",
+   "q": "What did the Nazi idea of Lebensraum mean?",
+   "options": [
+    "Free trade",
+    "National unity",
+    "Living space for Germans through taking over other territories",
+    "Life insurance"
+   ]
+  },
+  {
+   "id": "social-c9-123",
+   "type": "mcq",
+   "q": "Which event began the Second World War in Europe in 1939?",
+   "options": [
+    "Attack on Pearl Harbor",
+    "Treaty of Versailles",
+    "Russian Revolution",
+    "German invasion of Poland"
+   ]
+  },
+  {
+   "id": "social-c9-124",
+   "type": "mcq",
+   "q": "How did the Nazis use propaganda to win mass support?",
+   "options": [
+    "They stopped all public meetings",
+    "They used posters, films, radio and rallies to spread nationalist messages and blame minorities",
+    "They printed no newspapers",
+    "They avoided all publicity"
+   ]
+  },
+  {
+   "id": "social-c9-125",
+   "type": "short",
+   "q": "What was the Holocaust?",
+   "proposedAnswer": "The Holocaust was the systematic persecution and mass murder of about six million Jews, along with other groups, by the Nazi regime in Europe during the Second World War.",
+   "keyPoints": [
+    "Systematic Nazi persecution and killing",
+    "About six million Jews killed",
+    "Other groups also targeted"
+   ]
+  },
+  {
+   "id": "social-c9-126",
+   "type": "short",
+   "q": "How did the Nazis try to shape young people through the Hitler Youth?",
+   "proposedAnswer": "The Nazis made children join youth organisations that taught loyalty to Hitler, hatred of those labelled enemies and physical and military training. Schools also taught Nazi ideas.",
+   "keyPoints": [
+    "Youth groups taught loyalty to Hitler",
+    "Physical and military training",
+    "Schools taught Nazi ideology"
+   ]
+  },
+  {
+   "id": "social-c9-127",
+   "type": "mcq",
+   "q": "The Western Ghats run parallel to which water body?",
+   "options": [
+    "Bay of Bengal",
+    "Caspian Sea",
+    "Arabian Sea",
+    "Red Sea"
+   ]
+  },
+  {
+   "id": "social-c9-128",
+   "type": "mcq",
+   "q": "Which desert lies in the western part of India?",
+   "options": [
+    "Thar",
+    "Gobi",
+    "Sahara",
+    "Kalahari"
+   ]
+  },
+  {
+   "id": "social-c9-129",
+   "type": "mcq",
+   "q": "The Lakshadweep Islands are mainly made of",
+   "options": [
+    "Granite",
+    "Coral",
+    "Alluvium",
+    "Glacial ice"
+   ]
+  },
+  {
+   "id": "social-c9-130",
+   "type": "mcq",
+   "q": "What is the newer, fertile alluvium deposited by rivers in floodplains called?",
+   "options": [
+    "Bhangar",
+    "Bhabar",
+    "Terai",
+    "Khadar"
+   ]
+  },
+  {
+   "id": "social-c9-131",
+   "type": "mcq",
+   "q": "Why are the Himalayas called young fold mountains?",
+   "options": [
+    "They are made of volcanic ash",
+    "They formed recently by folding and are still rising, with high peaks and deep valleys",
+    "They are old, worn-down hills",
+    "They were formed by wind"
+   ]
+  },
+  {
+   "id": "social-c9-132",
+   "type": "short",
+   "q": "Name the two island groups that belong to India and the seas in which they lie.",
+   "proposedAnswer": "The Andaman and Nicobar Islands lie in the Bay of Bengal, and the Lakshadweep Islands lie in the Arabian Sea.",
+   "keyPoints": [
+    "Andaman and Nicobar in the Bay of Bengal",
+    "Lakshadweep in the Arabian Sea"
+   ]
+  },
+  {
+   "id": "social-c9-133",
+   "type": "short",
+   "q": "Describe two ways in which the Himalayas influence India.",
+   "proposedAnswer": "The Himalayas block cold winds from Central Asia and trap monsoon winds to bring rain. They are also the source of perennial rivers such as the Ganga and Brahmaputra.",
+   "keyPoints": [
+    "Barrier to cold winds",
+    "Cause monsoon rainfall",
+    "Source of perennial rivers"
+   ]
+  },
+  {
+   "id": "social-c9-134",
+   "type": "mcq",
+   "q": "Which river forms the Dhuandhar Falls near Jabalpur?",
+   "options": [
+    "Krishna",
+    "Kaveri",
+    "Tapi",
+    "Narmada"
+   ]
+  },
+  {
+   "id": "social-c9-135",
+   "type": "mcq",
+   "q": "From which glacier does the Yamuna rise?",
+   "options": [
+    "Yamunotri",
+    "Siachen",
+    "Zemu",
+    "Gangotri"
+   ]
+  },
+  {
+   "id": "social-c9-136",
+   "type": "mcq",
+   "q": "Which of these is a salt water lake in Rajasthan?",
+   "options": [
+    "Wular",
+    "Dal",
+    "Sambhar",
+    "Loktak"
+   ]
+  },
+  {
+   "id": "social-c9-137",
+   "type": "mcq",
+   "q": "Where does the Indus river rise?",
+   "options": [
+    "In Tibet near Lake Mansarovar",
+    "At Gangotri",
+    "In the Western Ghats",
+    "At Amarkantak"
+   ]
+  },
+  {
+   "id": "social-c9-138",
+   "type": "mcq",
+   "q": "Which river is called the Sorrow of Bihar because of its floods?",
+   "options": [
+    "Ganga",
+    "Son",
+    "Kosi",
+    "Mahanadi"
+   ]
+  },
+  {
+   "id": "social-c9-139",
+   "type": "mcq",
+   "q": "Why are floods common in the Ganga-Brahmaputra plains in the monsoon?",
+   "options": [
+    "There is no rain in the monsoon",
+    "The rivers flow uphill",
+    "The rivers are completely dry",
+    "Heavy monsoon rain adds huge amounts of water to rivers that flow slowly across flat land"
+   ]
+  },
+  {
+   "id": "social-c9-140",
+   "type": "short",
+   "q": "What is a river basin?",
+   "proposedAnswer": "A river basin is the entire area drained by a river and its tributaries. It is separated from neighbouring basins by a high ground called a watershed.",
+   "keyPoints": [
+    "Area drained by a river and its tributaries",
+    "Separated from others by a watershed"
+   ]
+  },
+  {
+   "id": "social-c9-141",
+   "type": "short",
+   "q": "Name two causes of river pollution and suggest two measures to reduce it.",
+   "proposedAnswer": "Rivers are polluted by untreated sewage and industrial waste and by solid waste dumped in them. Pollution can be reduced by treating sewage and factory waste before releasing it and by stopping dumping in rivers.",
+   "keyPoints": [
+    "Sewage and industrial waste",
+    "Solid waste dumping",
+    "Treat waste before release",
+    "Stop dumping and raise awareness"
+   ]
+  },
+  {
+   "id": "social-c9-142",
+   "type": "mcq",
+   "q": "What is the loo?",
+   "options": [
+    "A cold wind of the Himalayas",
+    "A hot, dry wind blowing over the northern plains in summer",
+    "A rain-bearing wind",
+    "A cyclone in the Bay of Bengal"
+   ]
+  },
+  {
+   "id": "social-c9-143",
+   "type": "mcq",
+   "q": "Hill stations are cooler than the plains because temperature falls as we go higher. Which factor is this?",
+   "options": [
+    "Latitude",
+    "Ocean current",
+    "Altitude",
+    "Soil type"
+   ]
+  },
+  {
+   "id": "social-c9-144",
+   "type": "mcq",
+   "q": "Which coastal region receives much of its rainfall in October and November from the retreating monsoon?",
+   "options": [
+    "Tamil Nadu coast",
+    "Rajasthan",
+    "Punjab",
+    "Gujarat"
+   ]
+  },
+  {
+   "id": "social-c9-145",
+   "type": "mcq",
+   "q": "Which pre-monsoon showers help the ripening of mangoes in Kerala and Karnataka?",
+   "options": [
+    "Loo",
+    "Mango showers",
+    "Western disturbances",
+    "Kalbaisakhi"
+   ]
+  },
+  {
+   "id": "social-c9-146",
+   "type": "mcq",
+   "q": "Why do coastal cities such as Mumbai have a smaller temperature range than inland cities such as Delhi?",
+   "options": [
+    "Mumbai is at a higher altitude",
+    "Delhi is next to the sea",
+    "Mumbai has no rain",
+    "The sea moderates temperatures near the coast, while inland places have extreme climates"
+   ]
+  },
+  {
+   "id": "social-c9-147",
+   "type": "short",
+   "q": "What is meant by the term monsoon?",
+   "proposedAnswer": "The monsoon is a system of winds that reverses direction with the seasons. In summer winds blow from the sea to the land bringing rain, and in winter they blow from land to sea.",
+   "keyPoints": [
+    "Seasonal reversal of wind direction",
+    "Summer winds bring rain from the sea",
+    "Winter winds blow from land"
+   ]
+  },
+  {
+   "id": "social-c9-148",
+   "type": "short",
+   "q": "Why does Rajasthan have a larger range of temperature than Kerala?",
+   "proposedAnswer": "Rajasthan lies inland, far from the sea, with dry air and sandy soil that heat up quickly by day and cool quickly at night. Kerala is near the sea, whose moist air moderates temperature.",
+   "keyPoints": [
+    "Rajasthan is far from the sea and dry",
+    "Sandy desert heats and cools fast",
+    "Kerala is moderated by the sea"
+   ]
+  },
+  {
+   "id": "social-c9-149",
+   "type": "mcq",
+   "q": "Which tree is common in the coniferous forests of the Himalayas?",
+   "options": [
+    "Teak",
+    "Deodar",
+    "Mangrove",
+    "Sal"
+   ]
+  },
+  {
+   "id": "social-c9-150",
+   "type": "mcq",
+   "q": "Which big cat is found in the Sundarbans?",
+   "options": [
+    "Asiatic lion",
+    "Snow leopard",
+    "Cheetah",
+    "Royal Bengal tiger"
+   ]
+  },
+  {
+   "id": "social-c9-151",
+   "type": "mcq",
+   "q": "Forests that grow in regions with more than 200 cm of rainfall are mostly",
+   "options": [
+    "Tropical evergreen forests",
+    "Thorn forests",
+    "Montane forests",
+    "Deciduous forests"
+   ]
+  },
+  {
+   "id": "social-c9-152",
+   "type": "mcq",
+   "q": "In which year was Project Tiger launched in India?",
+   "options": [
+    "1950",
+    "1962",
+    "1973",
+    "1992"
+   ]
+  },
+  {
+   "id": "social-c9-153",
+   "type": "mcq",
+   "q": "Which of these trees is typical of tropical evergreen forests?",
+   "options": [
+    "Mahogany",
+    "Cactus",
+    "Deodar",
+    "Acacia"
+   ]
+  },
+  {
+   "id": "social-c9-154",
+   "type": "mcq",
+   "q": "Why does the destruction of forests lead to loss of animal species?",
+   "options": [
+    "Animals prefer deserts",
+    "Animals do not need food",
+    "Forests are the homes of animals, giving food and shelter, which are lost when forests are cleared",
+    "Forests are not connected to animals"
+   ]
+  },
+  {
+   "id": "social-c9-155",
+   "type": "short",
+   "q": "What is a biosphere reserve? Give one example.",
+   "proposedAnswer": "A biosphere reserve is a large protected area where plants, animals and local ways of living are conserved together. The Sundarbans and the Nilgiri region are examples.",
+   "keyPoints": [
+    "Large protected area",
+    "Conserves plants, animals and local life",
+    "Example such as Sundarbans or Nilgiri"
+   ]
+  },
+  {
+   "id": "social-c9-156",
+   "type": "short",
+   "q": "Explain how mangrove forests protect coastal areas.",
+   "proposedAnswer": "The roots of mangroves hold the soil and reduce erosion, and the trees break the force of waves and storms. They also provide breeding places for fish and other creatures.",
+   "keyPoints": [
+    "Roots hold soil and reduce erosion",
+    "Reduce force of waves and storms",
+    "Breeding grounds for fish"
+   ]
+  },
+  {
+   "id": "social-c9-157",
+   "type": "mcq",
+   "q": "In the Indian census, which age group is usually treated as the working-age group?",
+   "options": [
+    "0 to 14 years",
+    "60 years and above",
+    "5 to 15 years",
+    "15 to 59 years"
+   ]
+  },
+  {
+   "id": "social-c9-158",
+   "type": "mcq",
+   "q": "The number of persons living per square kilometre is called",
+   "options": [
+    "Sex ratio",
+    "Population density",
+    "Growth rate",
+    "Literacy rate"
+   ]
+  },
+  {
+   "id": "social-c9-159",
+   "type": "mcq",
+   "q": "In which year was the first synchronous census of India held?",
+   "options": [
+    "1757",
+    "1857",
+    "1881",
+    "1921"
+   ]
+  },
+  {
+   "id": "social-c9-160",
+   "type": "mcq",
+   "q": "Which age group is classed as adolescents in India's population policy?",
+   "options": [
+    "10 to 19 years",
+    "20 to 29 years",
+    "0 to 5 years",
+    "40 to 49 years"
+   ]
+  },
+  {
+   "id": "social-c9-161",
+   "type": "mcq",
+   "q": "What is a major cause of migration from villages to cities?",
+   "options": [
+    "Plenty of farmland in cities",
+    "A search for jobs and better services",
+    "No schools in cities",
+    "Lack of roads in cities"
+   ]
+  },
+  {
+   "id": "social-c9-162",
+   "type": "mcq",
+   "q": "Why can a large share of young people be both an opportunity and a challenge for a country?",
+   "options": [
+    "They need no education",
+    "Young people cannot work",
+    "A big young workforce can drive growth, but it needs education, health and jobs",
+    "They live without food"
+   ]
+  },
+  {
+   "id": "social-c9-163",
+   "type": "short",
+   "q": "Define birth rate and death rate.",
+   "proposedAnswer": "The birth rate is the number of live births per thousand people in a year, and the death rate is the number of deaths per thousand people in a year.",
+   "keyPoints": [
+    "Birth rate: births per 1000 per year",
+    "Death rate: deaths per 1000 per year"
+   ]
+  },
+  {
+   "id": "social-c9-164",
+   "type": "short",
+   "q": "Explain two ways in which a fast-growing population can put pressure on resources.",
+   "proposedAnswer": "A larger population needs more food, water, housing and energy, so these resources may become scarce. It also needs more schools, hospitals and jobs, which governments may find hard to provide quickly.",
+   "keyPoints": [
+    "More demand for food, water and housing",
+    "More need for schools and hospitals",
+    "More jobs needed"
+   ]
+  },
+  {
+   "id": "social-c9-165",
+   "type": "mcq",
+   "q": "Which of the following is a non-democratic form of government?",
+   "options": [
+    "Representative democracy",
+    "Military dictatorship",
+    "Elected parliamentary system",
+    "Constitutional democracy"
+   ]
+  },
+  {
+   "id": "social-c9-166",
+   "type": "mcq",
+   "q": "Who described democracy as government of the people, by the people and for the people?",
+   "options": [
+    "Nelson Mandela",
+    "Jean-Jacques Rousseau",
+    "Mahatma Gandhi",
+    "Abraham Lincoln"
+   ]
+  },
+  {
+   "id": "social-c9-167",
+   "type": "mcq",
+   "q": "What does universal adult franchise mean?",
+   "options": [
+    "Every adult citizen has the right to vote",
+    "Only property owners can vote",
+    "Only men can vote",
+    "Only educated people can vote"
+   ]
+  },
+  {
+   "id": "social-c9-168",
+   "type": "mcq",
+   "q": "Which of these is a democratic practice?",
+   "options": [
+    "Banning newspapers that criticise the government",
+    "Imprisoning political rivals",
+    "A citizen's right to criticise government policy without fear of punishment",
+    "Cancelling elections"
+   ]
+  },
+  {
+   "id": "social-c9-169",
+   "type": "mcq",
+   "q": "Why is it said that democracy helps to settle conflicts peacefully?",
+   "options": [
+    "Elections and discussion give different groups a way to settle differences without violence",
+    "It forbids all disagreement",
+    "It gives all power to one group",
+    "It removes all differences"
+   ]
+  },
+  {
+   "id": "social-c9-170",
+   "type": "short",
+   "q": "What is a representative democracy?",
+   "proposedAnswer": "In a representative democracy citizens elect representatives who take decisions and make laws on their behalf, instead of everyone deciding directly. It is used in large countries such as India.",
+   "keyPoints": [
+    "People elect representatives",
+    "Representatives make laws and decisions",
+    "Used because direct decisions by all are not practical in large countries"
+   ]
+  },
+  {
+   "id": "social-c9-171",
+   "type": "short",
+   "q": "Why is it not enough for a democracy to hold elections? Mention two other conditions.",
+   "proposedAnswer": "Elections alone do not make a democracy if citizens lack rights or if rulers misuse power. A democracy also needs guaranteed rights such as freedom of speech and independent institutions such as courts, with rule of law.",
+   "keyPoints": [
+    "Elections alone are not enough",
+    "Citizens' rights must be protected",
+    "Independent courts and rule of law"
+   ]
+  },
+  {
+   "id": "social-c9-172",
+   "type": "mcq",
+   "q": "Who was the President of the Constituent Assembly of India?",
+   "options": [
+    "Jawaharlal Nehru",
+    "Sardar Patel",
+    "Rajendra Prasad",
+    "Maulana Azad"
+   ]
+  },
+  {
+   "id": "social-c9-173",
+   "type": "mcq",
+   "q": "What does the word sovereign in the Preamble mean?",
+   "options": [
+    "The country is ruled by a foreign power",
+    "The country can be changed by anyone",
+    "The country has no government",
+    "The country takes its own decisions without outside control"
+   ]
+  },
+  {
+   "id": "social-c9-174",
+   "type": "mcq",
+   "q": "What does secular mean in the Indian Constitution?",
+   "options": [
+    "The state follows one religion",
+    "The state has no official religion and treats all religions equally",
+    "Religion is banned",
+    "Only one community can hold office"
+   ]
+  },
+  {
+   "id": "social-c9-175",
+   "type": "mcq",
+   "q": "Who moved the Objectives Resolution in the Constituent Assembly in December 1946?",
+   "options": [
+    "B. R. Ambedkar",
+    "Sardar Patel",
+    "Jawaharlal Nehru",
+    "Rajendra Prasad"
+   ]
+  },
+  {
+   "id": "social-c9-176",
+   "type": "mcq",
+   "q": "Why do leaders prefer a written constitution with basic rules that cannot be changed easily?",
+   "options": [
+    "It gives lasting basic rules that no government can alter at will",
+    "It lets each ruler change it daily",
+    "It removes the need for laws",
+    "It has no effect on government"
+   ]
+  },
+  {
+   "id": "social-c9-177",
+   "type": "mcq",
+   "q": "After apartheid, South African leaders chose cooperation and reconciliation rather than revenge. What does this show?",
+   "options": [
+    "They wished to continue apartheid",
+    "They gave up the idea of a constitution",
+    "Leaders were willing to compromise to build a democracy that included all groups",
+    "They did not hold elections"
+   ]
+  },
+  {
+   "id": "social-c9-178",
+   "type": "short",
+   "q": "What does the word republic mean in the Preamble?",
+   "proposedAnswer": "A republic is a country in which the head of state is elected and does not hold office by heredity. In India the President is elected for a fixed term.",
+   "keyPoints": [
+    "Head of state is elected",
+    "Not hereditary",
+    "India's President serves a fixed term"
+   ]
+  },
+  {
+   "id": "social-c9-179",
+   "type": "short",
+   "q": "Why do constitutions limit the power of governments even though governments are elected?",
+   "proposedAnswer": "A government with unlimited power could misuse it or harm minorities and individuals, even if a majority elected it. A constitution sets limits so that rights are protected and power is shared among institutions.",
+   "keyPoints": [
+    "Elected governments can still misuse power",
+    "Rights of individuals and minorities need protection",
+    "Power is shared among institutions"
+   ]
+  },
+  {
+   "id": "social-c9-180",
+   "type": "mcq",
+   "q": "For how many years are members of the Lok Sabha normally elected?",
+   "options": [
+    "2 years",
+    "3 years",
+    "6 years",
+    "5 years"
+   ]
+  },
+  {
+   "id": "social-c9-181",
+   "type": "mcq",
+   "q": "Who is the head of the state in India?",
+   "options": [
+    "The Prime Minister",
+    "The President",
+    "The Chief Justice",
+    "The Speaker"
+   ]
+  },
+  {
+   "id": "social-c9-182",
+   "type": "mcq",
+   "q": "Which House of Parliament is directly elected by the people?",
+   "options": [
+    "Rajya Sabha",
+    "Legislative Council",
+    "Cabinet",
+    "Lok Sabha"
+   ]
+  },
+  {
+   "id": "social-c9-183",
+   "type": "mcq",
+   "q": "What is a by-election?",
+   "options": [
+    "An election held to fill a seat that falls vacant between general elections",
+    "An election held every five years",
+    "An election for the President only",
+    "An election without voters"
+   ]
+  },
+  {
+   "id": "social-c9-184",
+   "type": "mcq",
+   "q": "Why are some constituencies reserved for Scheduled Castes and Scheduled Tribes?",
+   "options": [
+    "To keep them away from voting",
+    "To reduce the number of seats",
+    "To ensure that weaker sections get fair representation in the legislature",
+    "To avoid elections there"
+   ]
+  },
+  {
+   "id": "social-c9-185",
+   "type": "short",
+   "q": "What is the Council of Ministers?",
+   "proposedAnswer": "The Council of Ministers is the Prime Minister together with all the ministers. It runs the government and is collectively responsible to the Lok Sabha.",
+   "keyPoints": [
+    "Prime Minister and ministers together",
+    "Runs the government",
+    "Responsible to the Lok Sabha"
+   ]
+  },
+  {
+   "id": "social-c9-186",
+   "type": "short",
+   "q": "Why are political parties needed in a representative democracy?",
+   "proposedAnswer": "Parties put up candidates in elections, offer policies to voters and organise the government when they win. Parties that lose act as the opposition and question the government.",
+   "keyPoints": [
+    "Contest elections and offer programmes",
+    "Form the government",
+    "Opposition checks the government"
+   ]
+  },
+  {
+   "id": "social-c9-187",
+   "type": "mcq",
+   "q": "Which Fundamental Right lets a person follow and practise any religion?",
+   "options": [
+    "Right to Freedom of Religion",
+    "Right to Equality",
+    "Right against Exploitation",
+    "Right to Constitutional Remedies"
+   ]
+  },
+  {
+   "id": "social-c9-188",
+   "type": "mcq",
+   "q": "Which of these is guaranteed under the Right to Freedom?",
+   "options": [
+    "Hold the title of Raja",
+    "Forced labour",
+    "Freedom of speech and expression",
+    "Untouchability"
+   ]
+  },
+  {
+   "id": "social-c9-189",
+   "type": "mcq",
+   "q": "Which statement about the National Human Rights Commission is correct?",
+   "options": [
+    "It can send offenders to jail",
+    "It can pass laws",
+    "It controls the army",
+    "It can inquire into violations of human rights and make recommendations, but it cannot punish"
+   ]
+  },
+  {
+   "id": "social-c9-190",
+   "type": "mcq",
+   "q": "What does equality before the law mean?",
+   "options": [
+    "All people have the same income",
+    "Everyone, including officials, is subject to the same laws",
+    "Only citizens may be punished",
+    "Laws apply only to the poor"
+   ]
+  },
+  {
+   "id": "social-c9-191",
+   "type": "mcq",
+   "q": "A restaurant refuses to serve a person because of their caste. Which right is violated?",
+   "options": [
+    "Right to Freedom of Religion",
+    "Right to Constitutional Remedies",
+    "Right to Equality",
+    "Cultural and Educational Rights"
+   ]
+  },
+  {
+   "id": "social-c9-192",
+   "type": "mcq",
+   "q": "Why is the Right to Constitutional Remedies considered so important?",
+   "options": [
+    "It lets citizens go to court to enforce all their other Fundamental Rights",
+    "It creates new taxes",
+    "It protects only the property of the rich",
+    "It controls the army"
+   ]
+  },
+  {
+   "id": "social-c9-193",
+   "type": "short",
+   "q": "List any three freedoms included in the Right to Freedom.",
+   "proposedAnswer": "The Right to Freedom includes freedom of speech and expression, freedom to assemble peacefully, freedom to form associations, freedom to move freely across the country, and freedom to practise any profession.",
+   "keyPoints": [
+    "Speech and expression",
+    "Peaceful assembly",
+    "Forming associations",
+    "Movement and residence"
+   ]
+  },
+  {
+   "id": "social-c9-194",
+   "type": "short",
+   "q": "How does the right to information help a democracy?",
+   "proposedAnswer": "The right to information lets citizens ask government offices for records and details of their work. It makes government more open and accountable and helps people detect and prevent wrongdoing.",
+   "keyPoints": [
+    "Citizens can seek information from government",
+    "Makes government transparent",
+    "Increases accountability"
+   ]
+  },
+  {
+   "id": "social-c9-195",
+   "type": "mcq",
+   "q": "What is the main source of employment in most Indian villages?",
+   "options": [
+    "Software",
+    "Farming",
+    "Mining",
+    "Banking"
+   ]
+  },
+  {
+   "id": "social-c9-196",
+   "type": "mcq",
+   "q": "A crop sown in winter and harvested in spring, such as wheat, is called a",
+   "options": [
+    "Kharif crop",
+    "Zaid crop",
+    "Fibre crop",
+    "Rabi crop"
+   ]
+  },
+  {
+   "id": "social-c9-197",
+   "type": "mcq",
+   "q": "Raw materials and money in hand that a farmer needs during production are called",
+   "options": [
+    "Fixed capital",
+    "Working capital",
+    "Human capital",
+    "Land"
+   ]
+  },
+  {
+   "id": "social-c9-198",
+   "type": "mcq",
+   "q": "What is the term for a situation in which more people are working on a farm than are needed, so removing some does not reduce output?",
+   "options": [
+    "Seasonal unemployment",
+    "Open unemployment",
+    "Cyclical unemployment",
+    "Disguised unemployment"
+   ]
+  },
+  {
+   "id": "social-c9-199",
+   "type": "mcq",
+   "q": "Why do landless farm labourers often earn less than the minimum wages?",
+   "options": [
+    "Many workers compete for few jobs, so they accept low wages",
+    "Farms need no workers",
+    "They own too much land",
+    "The government pays them more than the minimum"
+   ]
+  },
+  {
+   "id": "social-c9-200",
+   "type": "short",
+   "q": "What are non-farm activities? Give two examples.",
+   "proposedAnswer": "Non-farm activities are jobs and businesses that are not farming, such as dairy, small-scale manufacturing, shopkeeping and transport.",
+   "keyPoints": [
+    "Activities other than farming",
+    "Examples such as dairy, shops, transport, small manufacturing"
+   ]
+  },
+  {
+   "id": "social-c9-201",
+   "type": "short",
+   "q": "How can the heavy use of chemical fertilisers and tubewells harm farmland in the long run?",
+   "proposedAnswer": "Chemical fertilisers can reduce the natural fertility of soil and pollute water, and over-use of tubewells can lower the water table. Together they can reduce the land's ability to produce in future.",
+   "keyPoints": [
+    "Fertilisers reduce soil fertility",
+    "Water pollution",
+    "Falling groundwater level"
+   ]
+  },
+  {
+   "id": "social-c9-202",
+   "type": "mcq",
+   "q": "What is the condition of not having enough food to eat called?",
+   "options": [
+    "Literacy",
+    "Migration",
+    "Hunger",
+    "Inflation"
+   ]
+  },
+  {
+   "id": "social-c9-203",
+   "type": "mcq",
+   "q": "What is a buffer stock?",
+   "options": [
+    "Grain bought by the government and stored to use during shortages",
+    "Money kept at home",
+    "A type of crop",
+    "A fertiliser"
+   ]
+  },
+  {
+   "id": "social-c9-204",
+   "type": "mcq",
+   "q": "Which scheme provides highly subsidised grain to the poorest of the poor families?",
+   "options": [
+    "MGNREGA",
+    "Mid-day meal scheme",
+    "Antyodaya Anna Yojana",
+    "Public library scheme"
+   ]
+  },
+  {
+   "id": "social-c9-205",
+   "type": "mcq",
+   "q": "Which of the following is an indicator of poverty besides low income?",
+   "options": [
+    "High literacy",
+    "Good housing",
+    "Regular medical care",
+    "Malnutrition"
+   ]
+  },
+  {
+   "id": "social-c9-206",
+   "type": "mcq",
+   "q": "Why does the government announce a minimum support price before the sowing season?",
+   "options": [
+    "To stop farmers from growing crops",
+    "To assure farmers of a fair price and encourage them to grow food grains",
+    "To raise prices of fertilisers",
+    "To end ration shops"
+   ]
+  },
+  {
+   "id": "social-c9-207",
+   "type": "short",
+   "q": "Distinguish between chronic hunger and seasonal hunger.",
+   "proposedAnswer": "Chronic hunger is a long-term condition in which people consistently eat too little or poor-quality food because of low incomes. Seasonal hunger arises at certain times of the year, for example before harvest or when farm work is scarce.",
+   "keyPoints": [
+    "Chronic: long-term inadequate diet",
+    "Seasonal: linked to times of the year or work availability"
+   ]
+  },
+  {
+   "id": "social-c9-208",
+   "type": "short",
+   "q": "What do we mean by vulnerability to poverty?",
+   "proposedAnswer": "Vulnerability describes the greater chance that some groups or families will become or stay poor when bad times come, such as a drought or illness or loss of a job. Landless labourers and poor households face this risk more.",
+   "keyPoints": [
+    "Greater chance of becoming or staying poor",
+    "Caused by shocks such as illness or job loss",
+    "Affects poor and landless households more"
+   ]
+  },
+  {
+   "id": "social-c9-209",
+   "type": "mcq",
+   "q": "Which leader dominated the Jacobin government during the Reign of Terror of 1793-94?",
+   "options": [
+    "Louis XVI",
+    "Napoleon Bonaparte",
+    "Mirabeau",
+    "Maximilien Robespierre"
+   ]
+  },
+  {
+   "id": "social-c9-210",
+   "type": "mcq",
+   "q": "Which device, named after a doctor who proposed it, became a symbol of the Reign of Terror?",
+   "options": [
+    "Catapult",
+    "Guillotine",
+    "Pillory",
+    "Gallows"
+   ]
+  },
+  {
+   "id": "social-c9-211",
+   "type": "mcq",
+   "q": "What name was given to the ordinary working people of Paris who did not wear the fashionable knee-length breeches of the nobles?",
+   "options": [
+    "Girondins",
+    "Emigres",
+    "Sans-culottes",
+    "Jacobins"
+   ]
+  },
+  {
+   "id": "social-c9-212",
+   "type": "mcq",
+   "q": "Why is the period of Jacobin rule from 1793 to 1794 called the Reign of Terror?",
+   "options": [
+    "Those considered enemies of the republic were arrested, tried and often guillotined",
+    "Louis XVI ruled with great cruelty",
+    "Foreign armies occupied Paris",
+    "Peasants refused to pay taxes"
+   ]
+  },
+  {
+   "id": "social-c9-213",
+   "type": "mcq",
+   "q": "Why did many French people accept Napoleon's rise to power in 1799?",
+   "options": [
+    "They wanted the Bastille rebuilt",
+    "They disliked all kinds of order",
+    "The unstable Directory had lost trust, and Napoleon promised order and stability",
+    "He promised to restore the feudal system"
+   ]
+  },
+  {
+   "id": "social-c9-214",
+   "type": "short",
+   "q": "What was the National Convention?",
+   "proposedAnswer": "The National Convention was the elected assembly of France after 1792, chosen by all men aged twenty-one and above. It abolished the monarchy and declared France a republic.",
+   "keyPoints": [
+    "Elected assembly of 1792",
+    "Elected by all men aged 21 and above",
+    "Abolished monarchy and declared a republic"
+   ]
+  },
+  {
+   "id": "social-c9-215",
+   "type": "short",
+   "q": "Describe two measures taken by the Jacobin government to help the poorer sections of society.",
+   "proposedAnswer": "The Jacobins fixed maximum prices for essential items such as bread and meat and rationed supplies. They also made everyone use the title citizen and eat the same kind of bread, to promote equality.",
+   "keyPoints": [
+    "Maximum prices fixed for essentials",
+    "Rationing of supplies",
+    "Equality symbols such as the title citizen"
+   ]
+  },
+  {
+   "id": "social-c9-216",
+   "type": "mcq",
+   "q": "Who organised the Red Army during the Russian Civil War?",
+   "options": [
+    "Leon Trotsky",
+    "Alexander Kerensky",
+    "Nicholas II",
+    "Rasputin"
+   ]
+  },
+  {
+   "id": "social-c9-217",
+   "type": "mcq",
+   "q": "What were the soviets in Russia in 1917?",
+   "options": [
+    "Royal courts",
+    "Councils of workers, soldiers and peasants",
+    "Aristocratic clubs",
+    "Church committees"
+   ]
+  },
+  {
+   "id": "social-c9-218",
+   "type": "mcq",
+   "q": "What did Lenin's April Theses of 1917 demand?",
+   "options": [
+    "Return of the Tsar",
+    "More war with Germany",
+    "Higher taxes for peasants",
+    "An end to the war, land for peasants and nationalisation of banks"
+   ]
+  },
+  {
+   "id": "social-c9-219",
+   "type": "mcq",
+   "q": "In Russia, who were the kulaks?",
+   "options": [
+    "Well-off peasants",
+    "Factory workers",
+    "Nobles",
+    "Soldiers"
+   ]
+  },
+  {
+   "id": "social-c9-220",
+   "type": "mcq",
+   "q": "Why did the Provisional Government lose support in 1917?",
+   "options": [
+    "It gave all land to peasants at once",
+    "It ended the war immediately",
+    "It was too small to be noticed",
+    "It continued the war and delayed land reform, failing to give people peace and land"
+   ]
+  },
+  {
+   "id": "social-c9-221",
+   "type": "short",
+   "q": "What was collectivisation in the Soviet Union?",
+   "proposedAnswer": "Collectivisation was a policy begun around 1929 under Stalin in which peasants were made to pool their land and tools into large state-controlled collective farms. It was meant to increase grain output but caused hardship and food shortages.",
+   "keyPoints": [
+    "Peasants forced to join collective farms",
+    "Begun under Stalin around 1929",
+    "Led to hardship and shortages"
+   ]
+  },
+  {
+   "id": "social-c9-222",
+   "type": "short",
+   "q": "Describe two ways in which the Russian Revolution influenced the world.",
+   "proposedAnswer": "It inspired socialist and communist movements in many countries and encouraged workers to demand rights. It also made many leaders in colonised countries interested in ideas of equality and freedom, and it created a socialist state as a rival to capitalist powers.",
+   "keyPoints": [
+    "Inspired socialist movements",
+    "Influenced anti-colonial thinkers",
+    "Created a socialist state as a world power"
+   ]
+  },
+  {
+   "id": "social-c9-223",
+   "type": "mcq",
+   "q": "What was the full name of Hitler's party?",
+   "options": [
+    "Communist Party of Germany",
+    "German People's Party",
+    "Social Democratic Party",
+    "National Socialist German Workers' Party"
+   ]
+  },
+  {
+   "id": "social-c9-224",
+   "type": "mcq",
+   "q": "In which year did the Second World War end in Europe with Germany's defeat?",
+   "options": [
+    "1939",
+    "1945",
+    "1950",
+    "1933"
+   ]
+  },
+  {
+   "id": "social-c9-225",
+   "type": "mcq",
+   "q": "What was the Gestapo?",
+   "options": [
+    "The German army",
+    "A youth organisation",
+    "The German parliament",
+    "The secret state police of Nazi Germany"
+   ]
+  },
+  {
+   "id": "social-c9-226",
+   "type": "mcq",
+   "q": "Which laws of 1935 stripped German Jews of their citizenship and rights?",
+   "options": [
+    "Enabling Act",
+    "Nuremberg Laws",
+    "Weimar Constitution",
+    "Versailles Treaty"
+   ]
+  },
+  {
+   "id": "social-c9-227",
+   "type": "mcq",
+   "q": "Why did the hyperinflation of 1923 hurt the German middle class so badly?",
+   "options": [
+    "They had no money at all",
+    "Their wages were increased",
+    "Their savings and fixed incomes lost value as prices soared",
+    "Prices fell, making them poorer"
+   ]
+  },
+  {
+   "id": "social-c9-228",
+   "type": "mcq",
+   "q": "Why were the Nuremberg Trials held in 1945-46?",
+   "options": [
+    "To try leading Nazi officials for war crimes and crimes against humanity",
+    "To elect a new German government",
+    "To sign a peace treaty with Japan",
+    "To rebuild German cities"
+   ]
+  },
+  {
+   "id": "social-c9-229",
+   "type": "short",
+   "q": "Name two weaknesses of the Weimar Republic.",
+   "proposedAnswer": "Proportional representation often produced unstable coalition governments, and Article 48 allowed the President to rule by emergency decree, which weakened democratic habits. The republic was also burdened by the Treaty of Versailles.",
+   "keyPoints": [
+    "Unstable coalitions from proportional representation",
+    "Emergency powers under Article 48",
+    "Burden of the treaty"
+   ]
+  },
+  {
+   "id": "social-c9-230",
+   "type": "short",
+   "q": "Why did many Germans support or accept Hitler in the early 1930s?",
+   "proposedAnswer": "Hitler promised jobs, economic recovery and national pride at a time of unemployment and humiliation. Effective propaganda, fear of communism and the lack of trust in the Weimar leaders also helped him.",
+   "keyPoints": [
+    "Promised jobs and recovery",
+    "Appeal to national pride",
+    "Propaganda and fear of communism"
+   ]
+  },
+  {
+   "id": "social-c9-231",
+   "type": "mcq",
+   "q": "Most of southern India lies on which plateau?",
+   "options": [
+    "Tibetan Plateau",
+    "Malwa Plateau",
+    "Deccan Plateau",
+    "Chota Nagpur only"
+   ]
+  },
+  {
+   "id": "social-c9-232",
+   "type": "mcq",
+   "q": "What is another name for the Himadri range?",
+   "options": [
+    "Greater Himalaya",
+    "Shiwaliks",
+    "Lesser Himalaya",
+    "Purvanchal"
+   ]
+  },
+  {
+   "id": "social-c9-233",
+   "type": "mcq",
+   "q": "Chilika Lake, a large coastal lagoon, is located on the coast of which state?",
+   "options": [
+    "Kerala",
+    "Odisha",
+    "Gujarat",
+    "Rajasthan"
+   ]
+  },
+  {
+   "id": "social-c9-234",
+   "type": "mcq",
+   "q": "The Purvanchal hills lie in which part of India?",
+   "options": [
+    "South",
+    "West",
+    "North-west",
+    "North-east"
+   ]
+  },
+  {
+   "id": "social-c9-235",
+   "type": "mcq",
+   "q": "Why is the Himalayan region more prone to earthquakes than the Peninsular Plateau?",
+   "options": [
+    "The Himalayas are young mountains where the earth's plates are still pushing against each other",
+    "The Plateau is covered by water",
+    "The Himalayas are made of sand",
+    "There are no plates in India"
+   ]
+  },
+  {
+   "id": "social-c9-236",
+   "type": "mcq",
+   "q": "Which statement correctly compares the Western and Eastern Ghats?",
+   "options": [
+    "Eastern Ghats are higher and continuous",
+    "Both are the same height",
+    "Western Ghats are higher and continuous, while Eastern Ghats are lower and broken by rivers",
+    "They are not connected to the peninsula"
+   ]
+  },
+  {
+   "id": "social-c9-237",
+   "type": "short",
+   "q": "Describe two features of the Indian desert.",
+   "proposedAnswer": "The Thar Desert is a dry, sandy plain west of the Aravali hills with sand dunes and very low rainfall. It has scanty vegetation, and the Luni is its only large river.",
+   "keyPoints": [
+    "Sandy plain with dunes",
+    "Very low rainfall",
+    "Scanty vegetation"
+   ]
+  },
+  {
+   "id": "social-c9-238",
+   "type": "short",
+   "q": "Explain how India's different physical features are useful to its economy.",
+   "proposedAnswer": "The plains support agriculture and large populations, mountains provide forests, minerals and tourist places, and rivers give water and hydroelectric power. The plateau is rich in minerals and the coasts have ports.",
+   "keyPoints": [
+    "Plains support farming",
+    "Mountains give forests and tourism",
+    "Plateau has minerals",
+    "Coasts support ports"
+   ]
+  },
+  {
+   "id": "social-c9-239",
+   "type": "mcq",
+   "q": "Into which water body does the Ganga finally flow?",
+   "options": [
+    "Arabian Sea",
+    "Caspian Sea",
+    "Red Sea",
+    "Bay of Bengal"
+   ]
+  },
+  {
+   "id": "social-c9-240",
+   "type": "mcq",
+   "q": "Which of these is a tributary of the Ganga?",
+   "options": [
+    "Narmada",
+    "Gandak",
+    "Krishna",
+    "Mahanadi"
+   ]
+  },
+  {
+   "id": "social-c9-241",
+   "type": "mcq",
+   "q": "Jog Falls, one of the highest waterfalls in India, is on which river?",
+   "options": [
+    "Kaveri",
+    "Godavari",
+    "Krishna",
+    "Sharavati"
+   ]
+  },
+  {
+   "id": "social-c9-242",
+   "type": "mcq",
+   "q": "Which river is a tributary of the Indus?",
+   "options": [
+    "Son",
+    "Jhelum",
+    "Chambal",
+    "Gandak"
+   ]
+  },
+  {
+   "id": "social-c9-243",
+   "type": "mcq",
+   "q": "What do the Narmada and Tapi form at their mouths?",
+   "options": [
+    "Deltas",
+    "Lakes",
+    "Estuaries",
+    "Glaciers"
+   ]
+  },
+  {
+   "id": "social-c9-244",
+   "type": "short",
+   "q": "Name any three tributaries of the Ganga.",
+   "proposedAnswer": "Important tributaries of the Ganga include the Yamuna, Ghaghara, Gandak, Kosi and Son.",
+   "keyPoints": [
+    "Yamuna",
+    "Ghaghara or Gandak",
+    "Kosi or Son"
+   ]
+  },
+  {
+   "id": "social-c9-245",
+   "type": "short",
+   "q": "Why do Himalayan rivers build large plains while peninsular rivers build fewer?",
+   "proposedAnswer": "Himalayan rivers flow down steep slopes and carry large amounts of eroded material, which they spread across the gentle plains. Peninsular rivers flow over old, hard rocks with less erosion and smaller loads of silt.",
+   "keyPoints": [
+    "Himalayan rivers erode steep young mountains",
+    "Large load of silt deposited on plains",
+    "Peninsular rivers carry less silt"
+   ]
+  },
+  {
+   "id": "social-c9-246",
+   "type": "mcq",
+   "q": "Which is the hottest season in most parts of India?",
+   "options": [
+    "Hot weather season (March to May)",
+    "Cold weather season",
+    "Monsoon season",
+    "Retreating monsoon season"
+   ]
+  },
+  {
+   "id": "social-c9-247",
+   "type": "mcq",
+   "q": "What is the sudden arrival of the monsoon rain, with thunder and lightning, usually called?",
+   "options": [
+    "Loo",
+    "Western disturbance",
+    "Burst of the monsoon",
+    "Retreat of the monsoon"
+   ]
+  },
+  {
+   "id": "social-c9-248",
+   "type": "mcq",
+   "q": "What mainly causes the monsoon winds to reverse their direction between summer and winter?",
+   "options": [
+    "The unequal heating of land and sea",
+    "The phases of the Moon",
+    "The spinning of the Moon",
+    "Volcanoes in the Himalayas"
+   ]
+  },
+  {
+   "id": "social-c9-249",
+   "type": "mcq",
+   "q": "Which region of India receives the lowest rainfall?",
+   "options": [
+    "The Western Ghats",
+    "Western Rajasthan",
+    "Assam",
+    "The Konkan coast"
+   ]
+  },
+  {
+   "id": "social-c9-250",
+   "type": "mcq",
+   "q": "Why does a weak monsoon affect India's economy so strongly?",
+   "options": [
+    "Roads cannot be built in dry weather",
+    "Industry depends only on rain",
+    "Rain is not used in agriculture",
+    "Agriculture depends heavily on rain, so poor rainfall lowers output, incomes and raises food prices"
+   ]
+  },
+  {
+   "id": "social-c9-251",
+   "type": "mcq",
+   "q": "Why does Mumbai get heavy rain in the south-west monsoon while Chennai remains comparatively dry in those months?",
+   "options": [
+    "Mumbai lies on the windward side of the Western Ghats, while Chennai lies in their rain shadow",
+    "Chennai is on the Himalayas",
+    "Mumbai is at a higher altitude",
+    "Chennai is a desert"
+   ]
+  },
+  {
+   "id": "social-c9-252",
+   "type": "short",
+   "q": "Name four factors that affect the climate of India.",
+   "proposedAnswer": "The climate of India is affected by latitude, altitude, pressure and wind systems, distance from the sea, ocean currents and relief features.",
+   "keyPoints": [
+    "Latitude and altitude",
+    "Pressure and winds",
+    "Distance from the sea",
+    "Relief"
+   ]
+  },
+  {
+   "id": "social-c9-253",
+   "type": "short",
+   "q": "Why is the cold weather season generally cooler in north India than in south India?",
+   "proposedAnswer": "North India lies farther from the equator, so the sun's rays are less direct. It is also far from the moderating influence of the sea and is open to cold winds from the north, while the south is nearer the equator and the sea.",
+   "keyPoints": [
+    "Higher latitude, less direct sun",
+    "Far from the sea",
+    "Cold winds from the north"
+   ]
+  },
+  {
+   "id": "social-c9-254",
+   "type": "mcq",
+   "q": "Which animal is found in the Rann of Kachchh?",
+   "options": [
+    "Lion",
+    "Rhinoceros",
+    "Indian wild ass",
+    "Elephant"
+   ]
+  },
+  {
+   "id": "social-c9-255",
+   "type": "mcq",
+   "q": "Which of these is a national park of India?",
+   "options": [
+    "Wular",
+    "Hirakud",
+    "Dal",
+    "Jim Corbett"
+   ]
+  },
+  {
+   "id": "social-c9-256",
+   "type": "mcq",
+   "q": "Which forest type is also known as the monsoon forest?",
+   "options": [
+    "Tropical evergreen",
+    "Tropical deciduous",
+    "Thorn forest",
+    "Montane forest"
+   ]
+  },
+  {
+   "id": "social-c9-257",
+   "type": "mcq",
+   "q": "What is the main feature of deciduous trees?",
+   "options": [
+    "They never produce flowers",
+    "They live only in water",
+    "They grow only in snow",
+    "They shed their leaves in the dry season to conserve water"
+   ]
+  },
+  {
+   "id": "social-c9-258",
+   "type": "mcq",
+   "q": "Why does natural vegetation on a tall Himalayan slope change as we climb higher?",
+   "options": [
+    "Soil is the same at every height",
+    "Temperature falls with altitude, so vegetation changes from tropical to temperate to alpine",
+    "Rainfall is equal at all levels",
+    "Animals plant the trees"
+   ]
+  },
+  {
+   "id": "social-c9-259",
+   "type": "short",
+   "q": "Name any four types of natural vegetation found in India.",
+   "proposedAnswer": "The types of vegetation include tropical evergreen forests, tropical deciduous forests, tropical thorn forests and scrub, montane forests, and mangrove forests.",
+   "keyPoints": [
+    "Tropical evergreen",
+    "Tropical deciduous",
+    "Thorn and scrub",
+    "Montane or mangrove"
+   ]
+  },
+  {
+   "id": "social-c9-260",
+   "type": "short",
+   "q": "Give three reasons why forests should be conserved.",
+   "proposedAnswer": "Forests give timber, fuel and other products to people and provide homes to wildlife. They also protect soil from erosion, help rainfall and keep the air clean by absorbing carbon dioxide.",
+   "keyPoints": [
+    "Provide products and livelihood",
+    "Habitat for wildlife",
+    "Protect soil and help rainfall",
+    "Clean the air"
+   ]
+  },
+  {
+   "id": "social-c9-261",
+   "type": "mcq",
+   "q": "The movement of people out of their own country or region to settle elsewhere is called",
+   "options": [
+    "Immigration",
+    "Natural increase",
+    "Emigration",
+    "Census"
+   ]
+  },
+  {
+   "id": "social-c9-262",
+   "type": "mcq",
+   "q": "Areas with difficult terrain, such as high mountains, generally have",
+   "options": [
+    "Low population density",
+    "Very high population density",
+    "No people at all",
+    "A larger share of cities than the plains"
+   ]
+  },
+  {
+   "id": "social-c9-263",
+   "type": "mcq",
+   "q": "Which of the following is a push factor for migration from a village?",
+   "options": [
+    "Better hospitals in cities",
+    "Higher wages in cities",
+    "Lack of employment in the village",
+    "Good schools in cities"
+   ]
+  },
+  {
+   "id": "social-c9-264",
+   "type": "mcq",
+   "q": "Which people are counted as dependants in the age structure of a population?",
+   "options": [
+    "Children below 15 and persons above 59",
+    "Persons aged 20 to 40",
+    "Only women",
+    "Only workers"
+   ]
+  },
+  {
+   "id": "social-c9-265",
+   "type": "mcq",
+   "q": "Why did India's population begin to grow rapidly after 1921?",
+   "options": [
+    "Fewer people lived in cities",
+    "Death rates fell due to better health facilities and food supply, while birth rates remained high",
+    "Birth rates fell sharply",
+    "Fewer babies were born"
+   ]
+  },
+  {
+   "id": "social-c9-266",
+   "type": "short",
+   "q": "What is meant by literacy rate?",
+   "proposedAnswer": "The literacy rate is the share of the population aged seven years and above that can read and write with understanding.",
+   "keyPoints": [
+    "Share of population who can read and write",
+    "Counted for ages seven and above"
+   ]
+  },
+  {
+   "id": "social-c9-267",
+   "type": "short",
+   "q": "Why is the sex ratio considered an important indicator of the status of women in a society?",
+   "proposedAnswer": "A low sex ratio suggests that girls are neglected, are given less care or are not given equal chances compared with boys. A higher ratio generally indicates better respect and care for women.",
+   "keyPoints": [
+    "Low ratio suggests neglect or discrimination",
+    "Reflects care for women",
+    "Shows social attitudes"
+   ]
+  },
+  {
+   "id": "social-c9-268",
+   "type": "mcq",
+   "q": "Which of the following is a feature of a dictatorship?",
+   "options": [
+    "Citizens can remove the ruler by vote",
+    "Free press",
+    "Several competing parties",
+    "The ruler cannot be removed by the citizens"
+   ]
+  },
+  {
+   "id": "social-c9-269",
+   "type": "mcq",
+   "q": "What is a government in which a monarch's powers are limited by a constitution and an elected parliament called?",
+   "options": [
+    "Constitutional monarchy",
+    "Military rule",
+    "Absolute monarchy",
+    "Theocracy"
+   ]
+  },
+  {
+   "id": "social-c9-270",
+   "type": "mcq",
+   "q": "How can democracy improve the quality of decisions?",
+   "options": [
+    "By avoiding all discussion",
+    "By letting one person decide",
+    "By requiring consultation and discussion with many people",
+    "By hiding information"
+   ]
+  },
+  {
+   "id": "social-c9-271",
+   "type": "mcq",
+   "q": "A country holds elections, but the ruling party controls all the media and stops rivals from holding rallies. Why are these elections not free and fair?",
+   "options": [
+    "Because voting takes place in the morning",
+    "Because the voters are too many",
+    "Because the results come late",
+    "Because parties and candidates do not have equal freedom to compete"
+   ]
+  },
+  {
+   "id": "social-c9-272",
+   "type": "mcq",
+   "q": "Democracies may take time to make decisions. Which statement is the best evaluation?",
+   "options": [
+    "Delay always makes democracy useless",
+    "Consultation takes time but it can prevent hasty and harmful decisions",
+    "Decisions in a democracy are never made",
+    "Speed is the only thing that matters"
+   ]
+  },
+  {
+   "id": "social-c9-273",
+   "type": "short",
+   "q": "Give two arguments commonly made against democracy and one reply to them.",
+   "proposedAnswer": "Critics say that democracy leads to frequent changes of leaders and political instability and that decisions are delayed by discussion. In reply, supporters say that regular change allows the removal of poor rulers, and that discussion leads to decisions that more people accept.",
+   "keyPoints": [
+    "Instability due to leadership changes",
+    "Delay due to discussion",
+    "Reply: change allows removing poor rulers or wider acceptance"
+   ]
+  },
+  {
+   "id": "social-c9-274",
+   "type": "short",
+   "q": "How does democracy promote equality and dignity among citizens?",
+   "proposedAnswer": "Democracy gives every adult one vote of equal value regardless of wealth or social background, and it guarantees rights. This allows ordinary people to raise their voice and be treated as equals.",
+   "keyPoints": [
+    "Equal vote for every adult",
+    "Rights guaranteed to all",
+    "People can raise their voice"
+   ]
+  },
+  {
+   "id": "social-c9-275",
+   "type": "mcq",
+   "q": "About how long did the Constituent Assembly take to frame the Indian Constitution?",
+   "options": [
+    "Six months",
+    "One year",
+    "Five years",
+    "Nearly three years"
+   ]
+  },
+  {
+   "id": "social-c9-276",
+   "type": "mcq",
+   "q": "On which island prison was Nelson Mandela held for many years?",
+   "options": [
+    "Alcatraz",
+    "Robben Island",
+    "St Helena",
+    "Andaman"
+   ]
+  },
+  {
+   "id": "social-c9-277",
+   "type": "mcq",
+   "q": "What does the term democratic in the Preamble mean?",
+   "options": [
+    "The country has a hereditary ruler",
+    "Judges are chosen by lottery",
+    "Only property owners may vote",
+    "Rulers are elected by the people, who have equal political rights"
+   ]
+  },
+  {
+   "id": "social-c9-278",
+   "type": "mcq",
+   "q": "Which statement describes the aim of justice in the Preamble?",
+   "options": [
+    "Social, economic and political justice for all citizens",
+    "Justice only for the rich",
+    "Justice only in courts of foreign countries",
+    "Justice only for officials"
+   ]
+  },
+  {
+   "id": "social-c9-279",
+   "type": "mcq",
+   "q": "Why is it important that India's Constituent Assembly included members from many communities and regions?",
+   "options": [
+    "It reduced the number of laws",
+    "It made the Constitution shorter",
+    "A constitution made with wide participation is more likely to be accepted by all",
+    "It removed the need for debate"
+   ]
+  },
+  {
+   "id": "social-c9-280",
+   "type": "mcq",
+   "q": "Why is the Constitution called the supreme law of the land?",
+   "options": [
+    "All laws and government actions must follow it, or they can be declared invalid",
+    "It is the oldest law",
+    "It is longer than other laws",
+    "Only the President can read it"
+   ]
+  },
+  {
+   "id": "social-c9-281",
+   "type": "short",
+   "q": "What does fraternity mean in the Preamble?",
+   "proposedAnswer": "Fraternity means a feeling of brotherhood and common belonging among all citizens. The Preamble links it to the dignity of the individual and the unity and integrity of the nation.",
+   "keyPoints": [
+    "Feeling of brotherhood",
+    "Dignity of the individual",
+    "Unity of the nation"
+   ]
+  },
+  {
+   "id": "social-c9-282",
+   "type": "short",
+   "q": "Describe how South Africa made its democratic constitution after apartheid.",
+   "proposedAnswer": "After the first multiracial elections in 1994, elected representatives of different groups worked together in an assembly to draft a new constitution. After negotiation and compromise, it was adopted in 1996 and guaranteed equal rights.",
+   "keyPoints": [
+    "Elections in 1994 involved all races",
+    "Elected assembly drafted the constitution",
+    "Adopted in 1996 after compromise"
+   ]
+  },
+  {
+   "id": "social-c9-283",
+   "type": "mcq",
+   "q": "What is the minimum age to contest a Lok Sabha election?",
+   "options": [
+    "18 years",
+    "25 years",
+    "30 years",
+    "35 years"
+   ]
+  },
+  {
+   "id": "social-c9-284",
+   "type": "mcq",
+   "q": "Who presides over the meetings of the Lok Sabha?",
+   "options": [
+    "The President",
+    "The Prime Minister",
+    "The Chief Justice",
+    "The Speaker"
+   ]
+  },
+  {
+   "id": "social-c9-285",
+   "type": "mcq",
+   "q": "Which institution can declare a law unconstitutional if it violates the Constitution?",
+   "options": [
+    "The Supreme Court",
+    "The Election Commission",
+    "The Cabinet",
+    "The Rajya Sabha"
+   ]
+  },
+  {
+   "id": "social-c9-286",
+   "type": "mcq",
+   "q": "For how many years is a Rajya Sabha member elected?",
+   "options": [
+    "Two",
+    "Four",
+    "Six",
+    "Five"
+   ]
+  },
+  {
+   "id": "social-c9-287",
+   "type": "mcq",
+   "q": "Why is the Prime Minister in practice the most powerful person in the Indian government?",
+   "options": [
+    "The Prime Minister is the Chief Justice",
+    "The Prime Minister controls the courts",
+    "The Prime Minister is elected directly by all citizens",
+    "The Prime Minister leads the party or coalition with majority support in the Lok Sabha and heads the Cabinet"
+   ]
+  },
+  {
+   "id": "social-c9-288",
+   "type": "short",
+   "q": "Mention two functions of the Election Commission.",
+   "proposedAnswer": "The Election Commission supervises the preparation of voters' lists, schedules elections and enforces the Model Code of Conduct. It also oversees counting of votes and declares results.",
+   "keyPoints": [
+    "Prepares voter lists",
+    "Schedules elections",
+    "Enforces the code of conduct",
+    "Oversees counting"
+   ]
+  },
+  {
+   "id": "social-c9-289",
+   "type": "short",
+   "q": "Why is the permanent executive important in running the government?",
+   "proposedAnswer": "Civil servants remain in office when governments change, and they bring expertise and continuity. They carry out the decisions and policies of the political executive.",
+   "keyPoints": [
+    "Remain in office as governments change",
+    "Expertise and continuity",
+    "Implement decisions"
+   ]
+  },
+  {
+   "id": "social-c9-290",
+   "type": "mcq",
+   "q": "Which Fundamental Right prohibits trafficking in human beings?",
+   "options": [
+    "Right to Equality",
+    "Right against Exploitation",
+    "Right to Freedom",
+    "Cultural and Educational Rights"
+   ]
+  },
+  {
+   "id": "social-c9-291",
+   "type": "mcq",
+   "q": "Who protects and enforces the Fundamental Rights of citizens?",
+   "options": [
+    "The army",
+    "The voters on election day",
+    "The police chiefs alone",
+    "The judiciary"
+   ]
+  },
+  {
+   "id": "social-c9-292",
+   "type": "mcq",
+   "q": "Under Article 21A, free and compulsory education is guaranteed to children in which age group?",
+   "options": [
+    "3 to 6 years",
+    "6 to 14 years",
+    "14 to 18 years",
+    "6 to 18 years"
+   ]
+  },
+  {
+   "id": "social-c9-293",
+   "type": "mcq",
+   "q": "Which Article of the Constitution abolishes untouchability?",
+   "options": [
+    "Article 14",
+    "Article 21",
+    "Article 17",
+    "Article 32"
+   ]
+  },
+  {
+   "id": "social-c9-294",
+   "type": "mcq",
+   "q": "A person is arrested but not produced before a magistrate within 24 hours. Which right is mainly violated?",
+   "options": [
+    "Right to Freedom, which protects personal liberty",
+    "Cultural and Educational Rights",
+    "Right to Freedom of Religion",
+    "Right against Exploitation"
+   ]
+  },
+  {
+   "id": "social-c9-295",
+   "type": "mcq",
+   "q": "Why can the government not take away Fundamental Rights through an ordinary law?",
+   "options": [
+    "Rights are only suggestions",
+    "Citizens never use them",
+    "Fundamental Rights are guaranteed by the Constitution, and courts can strike down laws that violate them",
+    "Only the Army can change them"
+   ]
+  },
+  {
+   "id": "social-c9-296",
+   "type": "short",
+   "q": "What is the Right against Exploitation? Mention two prohibitions under it.",
+   "proposedAnswer": "The Right against Exploitation protects people from being forced to work or being treated as objects. It prohibits trafficking, forced labour and the employment of children below the age of fourteen in factories, mines or other hazardous work.",
+   "keyPoints": [
+    "Protects against forced work",
+    "Prohibits trafficking and forced labour",
+    "Bans child labour in hazardous work"
+   ]
+  },
+  {
+   "id": "social-c9-297",
+   "type": "short",
+   "q": "Why are rights necessary in a democracy?",
+   "proposedAnswer": "Rights protect individuals and minorities from the government and from the majority. They also give citizens the freedoms needed to take part in political life, such as speaking and forming associations.",
+   "keyPoints": [
+    "Protect individuals and minorities",
+    "Check misuse of power",
+    "Enable political participation"
+   ]
+  },
+  {
+   "id": "social-c9-298",
+   "type": "mcq",
+   "q": "What does the term human capital refer to?",
+   "options": [
+    "The skill, education and health of the people",
+    "Money in a bank",
+    "Land owned by a farmer",
+    "Factory buildings"
+   ]
+  },
+  {
+   "id": "social-c9-299",
+   "type": "mcq",
+   "q": "Banking and transport belong to which sector?",
+   "options": [
+    "Primary sector",
+    "Tertiary sector",
+    "Secondary sector",
+    "None of the sectors"
+   ]
+  },
+  {
+   "id": "social-c9-300",
+   "type": "mcq",
+   "q": "Which one of the following is a non-economic activity?",
+   "options": [
+    "A farmer selling wheat in the market",
+    "A teacher working at a school",
+    "A worker in a factory",
+    "A mother cooking at home for her own family"
+   ]
+  },
+  {
+   "id": "social-c9-301",
+   "type": "mcq",
+   "q": "When farm work is available only in some months, the unemployment seen in the rest of the year is called",
+   "options": [
+    "Seasonal unemployment",
+    "Disguised unemployment",
+    "Open unemployment",
+    "Cyclical unemployment"
+   ]
+  },
+  {
+   "id": "social-c9-302",
+   "type": "mcq",
+   "q": "In a village where land is fixed, which step would most raise farm production?",
+   "options": [
+    "Cutting down all irrigation",
+    "Using fewer seeds",
+    "Investing in irrigation, improved seeds and modern machines to raise yields",
+    "Leaving the land empty"
+   ]
+  },
+  {
+   "id": "social-c9-303",
+   "type": "short",
+   "q": "Distinguish between economic and non-economic activities.",
+   "proposedAnswer": "Economic activities produce goods and services that are counted in national income, such as farming, factory work and teaching. Non-economic activities, such as household work for one's own family, are done out of love or duty and are not paid.",
+   "keyPoints": [
+    "Economic: produce goods and services for income",
+    "Non-economic: unpaid, for one's own family or duty"
+   ]
+  },
+  {
+   "id": "social-c9-304",
+   "type": "short",
+   "q": "Suggest two ways in which the quality of a country's population can be improved.",
+   "proposedAnswer": "The quality of population can be improved by investing in education, so that people learn skills, and in health care and nutrition, so that people are fit to work. Training and better living conditions also help.",
+   "keyPoints": [
+    "Education and training",
+    "Health care and nutrition",
+    "Better living conditions"
+   ]
+  },
+  {
+   "id": "social-c9-305",
+   "type": "mcq",
+   "q": "What does availability of food mean in the idea of food security?",
+   "options": [
+    "Food that is thrown away",
+    "Food that is sold only abroad",
+    "Food that is imported only",
+    "Food production within the country, imports and stocks held by the government"
+   ]
+  },
+  {
+   "id": "social-c9-306",
+   "type": "mcq",
+   "q": "The Green Revolution mainly increased the production of which crops?",
+   "options": [
+    "Tea and coffee",
+    "Wheat and rice",
+    "Rubber and jute",
+    "Cotton and silk"
+   ]
+  },
+  {
+   "id": "social-c9-307",
+   "type": "mcq",
+   "q": "Which of the following is a well-known milk cooperative in India?",
+   "options": [
+    "Food Corporation of India",
+    "NABARD",
+    "Planning Commission",
+    "Amul"
+   ]
+  },
+  {
+   "id": "social-c9-308",
+   "type": "mcq",
+   "q": "Who among the following is most likely to be food insecure?",
+   "options": [
+    "A large landowner",
+    "A landless daily wage labourer",
+    "A senior government official",
+    "A big shopkeeper"
+   ]
+  },
+  {
+   "id": "social-c9-309",
+   "type": "mcq",
+   "q": "Why did India focus on self-sufficiency in food grains after independence?",
+   "options": [
+    "To increase its imports",
+    "To reduce farming",
+    "To avoid dependence on imports and prevent famines such as the Bengal famine",
+    "To close all ration shops"
+   ]
+  },
+  {
+   "id": "social-c9-310",
+   "type": "mcq",
+   "q": "Why did the Green Revolution mainly benefit states like Punjab and Haryana?",
+   "options": [
+    "They had assured irrigation and farmers able to adopt new seeds and inputs",
+    "They had no farmland",
+    "They grew only tea",
+    "They had no rivers"
+   ]
+  },
+  {
+   "id": "social-c9-311",
+   "type": "short",
+   "q": "What are the three dimensions of food security?",
+   "proposedAnswer": "Food security has three dimensions: availability of food in the country, accessibility so that everyone can obtain it, and affordability so that people have the money to buy enough nutritious food.",
+   "keyPoints": [
+    "Availability",
+    "Accessibility",
+    "Affordability"
+   ]
+  },
+  {
+   "id": "social-c9-312",
+   "type": "short",
+   "q": "Explain how poverty and hunger are linked.",
+   "proposedAnswer": "Poor families have low incomes and cannot buy enough nutritious food, so they go hungry. Hunger and poor health in turn reduce their strength and productivity, making it harder to earn and escape poverty.",
+   "keyPoints": [
+    "Low income means inadequate food",
+    "Hunger harms health and productivity",
+    "Cycle that keeps people poor"
+   ]
+  },
+  {
+   "id": "social-c9-313",
+   "type": "mcq",
+   "q": "Which French thinker wrote the book The Social Contract?",
+   "options": [
+    "Montesquieu",
+    "John Locke",
+    "Jean-Jacques Rousseau",
+    "Voltaire"
+   ]
+  },
+  {
+   "id": "social-c9-314",
+   "type": "mcq",
+   "q": "Which thinker proposed the division of government power among the legislative, executive and judiciary in The Spirit of the Laws?",
+   "options": [
+    "Montesquieu",
+    "Rousseau",
+    "Napoleon",
+    "Robespierre"
+   ]
+  },
+  {
+   "id": "social-c9-315",
+   "type": "mcq",
+   "q": "Who wrote the Declaration of the Rights of Woman and Citizen in 1791?",
+   "options": [
+    "Marie Antoinette",
+    "Queen Victoria",
+    "Joan of Arc",
+    "Olympe de Gouges"
+   ]
+  },
+  {
+   "id": "social-c9-316",
+   "type": "mcq",
+   "q": "In which year did Napoleon crown himself Emperor of France?",
+   "options": [
+    "1799",
+    "1804",
+    "1815",
+    "1792"
+   ]
+  },
+  {
+   "id": "social-c9-317",
+   "type": "mcq",
+   "q": "What was a main feature of Napoleon's Civil Code of 1804?",
+   "options": [
+    "It ended privileges based on birth, made all equal before the law and protected private property",
+    "It restored the privileges of the nobility",
+    "It abolished all property",
+    "It gave the Church control of courts"
+   ]
+  },
+  {
+   "id": "social-c9-318",
+   "type": "mcq",
+   "q": "What happened to slavery in the French colonies after the Convention freed the slaves in 1794?",
+   "options": [
+    "It was never discussed again",
+    "It ended permanently in 1794",
+    "It was extended to France itself",
+    "Napoleon reintroduced it, and it was finally abolished in 1848"
+   ]
+  },
+  {
+   "id": "social-c9-319",
+   "type": "short",
+   "q": "State the contribution of Montesquieu and Rousseau to political thought.",
+   "proposedAnswer": "Montesquieu proposed the separation of governmental powers into legislative, executive and judicial branches. Rousseau argued in The Social Contract that government should rest on an agreement among free and equal people.",
+   "keyPoints": [
+    "Montesquieu: separation of powers",
+    "Rousseau: social contract based on the people's agreement"
+   ]
+  },
+  {
+   "id": "social-c9-320",
+   "type": "short",
+   "q": "How did women take part in the French Revolution, and what did they demand?",
+   "proposedAnswer": "Women worked, formed political clubs, wrote newspapers and joined marches. They demanded the right to vote, to hold political office and equal wages and education, though their clubs were banned in 1793.",
+   "keyPoints": [
+    "Formed clubs and joined protests",
+    "Demanded the vote and equal rights",
+    "Clubs banned in 1793"
+   ]
+  },
+  {
+   "id": "social-c9-321",
+   "type": "mcq",
+   "q": "Before 1917 most Russians earned their living from",
+   "options": [
+    "Banking",
+    "Agriculture",
+    "Computers",
+    "Overseas trade"
+   ]
+  },
+  {
+   "id": "social-c9-322",
+   "type": "mcq",
+   "q": "Karl Marx argued that industrial society was divided mainly into which two classes?",
+   "options": [
+    "Nobles and clergy",
+    "Soldiers and sailors",
+    "Capitalists and workers",
+    "Teachers and students"
+   ]
+  },
+  {
+   "id": "social-c9-323",
+   "type": "mcq",
+   "q": "Why is the Bolshevik takeover of 1917 called the October Revolution although it happened in November by the western calendar?",
+   "options": [
+    "It was planned for October but delayed",
+    "Russia then used a calendar about thirteen days behind the western one",
+    "The month was changed by Lenin",
+    "The revolution lasted two months"
+   ]
+  },
+  {
+   "id": "social-c9-324",
+   "type": "mcq",
+   "q": "What was the outcome of the Russian Civil War of 1918-1920?",
+   "options": [
+    "The Tsar returned to power",
+    "Germany ruled Russia",
+    "The Bolsheviks (Reds) defeated their opponents (Whites)",
+    "Russia broke into hundreds of states"
+   ]
+  },
+  {
+   "id": "social-c9-325",
+   "type": "mcq",
+   "q": "How did the Soviet system of Five Year Plans differ from a free market economy?",
+   "options": [
+    "The state set production targets instead of private firms responding to market prices",
+    "Private firms alone decided what to produce",
+    "Prices were decided by foreign countries",
+    "There was no production"
+   ]
+  },
+  {
+   "id": "social-c9-326",
+   "type": "short",
+   "q": "Describe the condition of industrial workers in Russia before 1917.",
+   "proposedAnswer": "Workers laboured for long hours for low wages in crowded factories and lived in poor housing. They had few rights and could not form strong unions, which led to strikes and protests.",
+   "keyPoints": [
+    "Long hours and low wages",
+    "Poor housing",
+    "Few rights, strikes and protests"
+   ]
+  },
+  {
+   "id": "social-c9-327",
+   "type": "short",
+   "q": "How did liberals and socialists differ in their views on property?",
+   "proposedAnswer": "Liberals supported individual rights and private property and wanted limited government. Socialists believed that property such as land and factories should be owned collectively, since private ownership led to inequality.",
+   "keyPoints": [
+    "Liberals: private property and individual rights",
+    "Socialists: collective ownership",
+    "Socialists linked private property to inequality"
+   ]
+  },
+  {
+   "id": "social-c9-328",
+   "type": "mcq",
+   "q": "In which country was Adolf Hitler born?",
+   "options": [
+    "Germany",
+    "Poland",
+    "Italy",
+    "Austria"
+   ]
+  },
+  {
+   "id": "social-c9-329",
+   "type": "mcq",
+   "q": "Which of the following was a Nazi concentration and extermination camp?",
+   "options": [
+    "Waterloo",
+    "Versailles",
+    "Auschwitz",
+    "Weimar"
+   ]
+  },
+  {
+   "id": "social-c9-330",
+   "type": "mcq",
+   "q": "Which fire in February 1933 was used by Hitler to suspend civil rights?",
+   "options": [
+    "The Reichstag fire",
+    "The Bastille fire",
+    "The Winter Palace fire",
+    "The Kremlin fire"
+   ]
+  },
+  {
+   "id": "social-c9-331",
+   "type": "mcq",
+   "q": "Which President of Germany appointed Hitler as Chancellor in 1933?",
+   "options": [
+    "Kaiser Wilhelm",
+    "Joseph Stalin",
+    "Otto von Bismarck",
+    "Paul von Hindenburg"
+   ]
+  },
+  {
+   "id": "social-c9-332",
+   "type": "mcq",
+   "q": "Why did the Nazis take control of schools and teachers?",
+   "options": [
+    "To close the schools",
+    "To teach loyalty to Hitler and Nazi racial ideas to children",
+    "To teach science only",
+    "To make schooling free for all"
+   ]
+  },
+  {
+   "id": "social-c9-333",
+   "type": "short",
+   "q": "What was Kristallnacht?",
+   "proposedAnswer": "Kristallnacht, or the Night of Broken Glass, was on 9-10 November 1938, when Nazi mobs and officials attacked Jewish homes, shops and synagogues across Germany. Many people were arrested.",
+   "keyPoints": [
+    "November 1938 in Germany",
+    "Attacks on Jewish shops, homes and synagogues",
+    "Many arrested"
+   ]
+  },
+  {
+   "id": "social-c9-334",
+   "type": "short",
+   "q": "What were the consequences of the German invasion of Poland in 1939?",
+   "proposedAnswer": "Britain and France declared war on Germany, which marked the start of the Second World War in Europe. The war later spread across many continents.",
+   "keyPoints": [
+    "Britain and France declared war",
+    "Start of the Second World War in Europe",
+    "The war spread widely"
+   ]
+  },
+  {
+   "id": "social-c9-335",
+   "type": "mcq",
+   "q": "Which is the largest Indian state by area?",
+   "options": [
+    "Rajasthan",
+    "Goa",
+    "Kerala",
+    "Punjab"
+   ]
+  },
+  {
+   "id": "social-c9-336",
+   "type": "mcq",
+   "q": "The Palk Strait separates India from which country?",
+   "options": [
+    "Maldives",
+    "Myanmar",
+    "Pakistan",
+    "Sri Lanka"
+   ]
+  },
+  {
+   "id": "social-c9-337",
+   "type": "mcq",
+   "q": "Through how many Indian states does the Tropic of Cancer pass?",
+   "options": [
+    "5",
+    "8",
+    "10",
+    "12"
+   ]
+  },
+  {
+   "id": "social-c9-338",
+   "type": "mcq",
+   "q": "Peninsular India is surrounded by water on how many sides?",
+   "options": [
+    "One",
+    "Two",
+    "Three",
+    "Four"
+   ]
+  },
+  {
+   "id": "social-c9-339",
+   "type": "mcq",
+   "q": "Why does India follow a single Indian Standard Time throughout the country?",
+   "options": [
+    "Because the sun rises at the same time everywhere",
+    "To avoid confusion in railways, broadcasting and administration across the country",
+    "Because the country has no eastern part",
+    "Because Greenwich is in India"
+   ]
+  },
+  {
+   "id": "social-c9-340",
+   "type": "short",
+   "q": "Name any four countries that share a land border with India.",
+   "proposedAnswer": "India shares land borders with Pakistan, Afghanistan, China, Nepal, Bhutan, Myanmar and Bangladesh.",
+   "keyPoints": [
+    "Pakistan",
+    "China",
+    "Nepal or Bhutan",
+    "Myanmar or Bangladesh"
+   ]
+  },
+  {
+   "id": "social-c9-341",
+   "type": "short",
+   "q": "Distinguish between the Peninsular Plateau and the Northern Plains in terms of rocks and soil.",
+   "proposedAnswer": "The Peninsular Plateau is made of old, hard crystalline rocks, has an uneven surface and is rich in minerals. The Northern Plains are made of alluvium deposited by rivers, are flat and have fertile soil.",
+   "keyPoints": [
+    "Plateau: old hard rocks, uneven, mineral-rich",
+    "Plains: alluvium, flat, fertile"
+   ]
+  },
+  {
+   "id": "social-c9-342",
+   "type": "mcq",
+   "q": "Through which state does the Brahmaputra enter India?",
+   "options": [
+    "Kerala",
+    "Rajasthan",
+    "Arunachal Pradesh",
+    "Punjab"
+   ]
+  },
+  {
+   "id": "social-c9-343",
+   "type": "mcq",
+   "q": "A river together with its tributaries is called a",
+   "options": [
+    "River system",
+    "Desert",
+    "Plateau",
+    "Strait"
+   ]
+  },
+  {
+   "id": "social-c9-344",
+   "type": "mcq",
+   "q": "The Hirakud Dam is built on which river?",
+   "options": [
+    "Ganga",
+    "Narmada",
+    "Krishna",
+    "Mahanadi"
+   ]
+  },
+  {
+   "id": "social-c9-345",
+   "type": "mcq",
+   "q": "Which two rivers together form the Sundarbans delta?",
+   "options": [
+    "Narmada and Tapi",
+    "Godavari and Krishna",
+    "Ganga and Brahmaputra",
+    "Indus and Sutlej"
+   ]
+  },
+  {
+   "id": "social-c9-346",
+   "type": "mcq",
+   "q": "Why did early civilisations often develop along river valleys?",
+   "options": [
+    "Rivers gave fertile soil, water for farming and drinking, and routes for trade",
+    "Rivers kept people away",
+    "There were no rivers in deserts",
+    "Rivers are always dry"
+   ]
+  },
+  {
+   "id": "social-c9-347",
+   "type": "mcq",
+   "q": "What happens to a river as its gradient decreases on the plains?",
+   "options": [
+    "It flows faster and cuts deep gorges",
+    "It stops existing",
+    "It flows uphill",
+    "It slows down, deposits silt and forms meanders and floodplains"
+   ]
+  },
+  {
+   "id": "social-c9-348",
+   "type": "short",
+   "q": "Distinguish between a tributary and a distributary.",
+   "proposedAnswer": "A tributary is a smaller stream that joins a main river. A distributary is a branch that splits off from the main river, usually near its mouth in a delta, and flows away from it.",
+   "keyPoints": [
+    "Tributary joins the main river",
+    "Distributary branches away from the main river"
+   ]
+  },
+  {
+   "id": "social-c9-349",
+   "type": "short",
+   "q": "How can excess use of river water upstream cause problems for areas downstream?",
+   "proposedAnswer": "If too much water is taken out for irrigation or industry upstream, less water reaches downstream areas, which may face shortages for farming and drinking. It can also reduce the silt reaching deltas and cause disputes between regions.",
+   "keyPoints": [
+    "Less water flows downstream",
+    "Shortages for farming and drinking",
+    "Disputes between regions"
+   ]
+  },
+  {
+   "id": "social-c9-350",
+   "type": "mcq",
+   "q": "Kalbaisakhi is a pre-monsoon storm that occurs mainly in",
+   "options": [
+    "Kerala",
+    "West Bengal",
+    "Punjab",
+    "Gujarat"
+   ]
+  },
+  {
+   "id": "social-c9-351",
+   "type": "mcq",
+   "q": "The retreating monsoon season occurs mainly in",
+   "options": [
+    "October and November",
+    "January and February",
+    "March and April",
+    "July and August"
+   ]
+  },
+  {
+   "id": "social-c9-352",
+   "type": "mcq",
+   "q": "What is a feature of the south-west monsoon season?",
+   "options": [
+    "Extremely cold nights over the plains",
+    "Complete absence of cloud",
+    "Dry winds from the north-west only",
+    "Most of India's annual rainfall falls in this season"
+   ]
+  },
+  {
+   "id": "social-c9-353",
+   "type": "mcq",
+   "q": "When does the monsoon usually first reach the Kerala coast?",
+   "options": [
+    "Early in January",
+    "Around the first of June",
+    "In October",
+    "In December"
+   ]
+  },
+  {
+   "id": "social-c9-354",
+   "type": "mcq",
+   "q": "Why do Indian farmers plan their sowing around the arrival of the monsoon?",
+   "options": [
+    "Crops need no water",
+    "Rain is harmful to crops",
+    "Most crops depend on monsoon water since irrigation is limited in many areas",
+    "Monsoon never changes"
+   ]
+  },
+  {
+   "id": "social-c9-355",
+   "type": "short",
+   "q": "What is a rain shadow area?",
+   "proposedAnswer": "A rain shadow area is the leeward side of a mountain that receives little rain because the moist winds have already shed their moisture on the windward side. The Deccan Plateau behind the Western Ghats is an example.",
+   "keyPoints": [
+    "Leeward side of mountains",
+    "Little rainfall",
+    "Example: Deccan behind Western Ghats"
+   ]
+  },
+  {
+   "id": "social-c9-356",
+   "type": "short",
+   "q": "Why do the hills of north-eastern India receive very heavy rainfall?",
+   "proposedAnswer": "The hills stand in the path of moist winds from the Bay of Bengal, which are forced to rise and cool, causing heavy rain. Funnel-shaped hills in places such as Meghalaya further trap the winds.",
+   "keyPoints": [
+    "Moist winds from the Bay of Bengal",
+    "Forced to rise over hills",
+    "Funnel-shaped hills trap winds"
+   ]
+  },
+  {
+   "id": "social-c9-357",
+   "type": "mcq",
+   "q": "Which big cat is the national animal of India?",
+   "options": [
+    "Lion",
+    "Tiger",
+    "Leopard",
+    "Cheetah"
+   ]
+  },
+  {
+   "id": "social-c9-358",
+   "type": "mcq",
+   "q": "Acacia and babool are typical of which type of vegetation?",
+   "options": [
+    "Evergreen forests",
+    "Mangrove forests",
+    "Thorn forests and scrub",
+    "Alpine meadows"
+   ]
+  },
+  {
+   "id": "social-c9-359",
+   "type": "mcq",
+   "q": "How does a wildlife sanctuary usually differ from a national park?",
+   "options": [
+    "A sanctuary may allow some regulated human activity, while a national park has stronger protection",
+    "A sanctuary is only for plants",
+    "A national park allows hunting",
+    "They are identical in every way"
+   ]
+  },
+  {
+   "id": "social-c9-360",
+   "type": "mcq",
+   "q": "Which animal lives at high altitude in the Himalayas?",
+   "options": [
+    "One-horned rhinoceros",
+    "Indian wild ass",
+    "Asiatic lion",
+    "Snow leopard"
+   ]
+  },
+  {
+   "id": "social-c9-361",
+   "type": "mcq",
+   "q": "In which year was the Wildlife Protection Act passed in India?",
+   "options": [
+    "1950",
+    "1962",
+    "1972",
+    "1990"
+   ]
+  },
+  {
+   "id": "social-c9-362",
+   "type": "mcq",
+   "q": "Why are endangered animals more at risk when forests are cut into small patches?",
+   "options": [
+    "Small isolated groups have less food and fewer mates, so they can be wiped out easily",
+    "Small patches have more food",
+    "Animals prefer small spaces",
+    "Hunting stops in small patches"
+   ]
+  },
+  {
+   "id": "social-c9-363",
+   "type": "short",
+   "q": "What do the terms flora and fauna mean?",
+   "proposedAnswer": "Flora means the plants of a region or period, and fauna means the animals of that region or period.",
+   "keyPoints": [
+    "Flora: plants",
+    "Fauna: animals"
+   ]
+  },
+  {
+   "id": "social-c9-364",
+   "type": "short",
+   "q": "Explain how overgrazing and deforestation harm natural vegetation.",
+   "proposedAnswer": "Overgrazing by animals strips the grass cover and prevents new growth, while deforestation removes trees and exposes the soil to erosion. Both reduce vegetation and damage habitats.",
+   "keyPoints": [
+    "Overgrazing destroys grass cover",
+    "Deforestation exposes soil to erosion",
+    "Loss of habitat"
+   ]
+  },
+  {
+   "id": "social-c9-365",
+   "type": "mcq",
+   "q": "Which of the following is a primary activity?",
+   "options": [
+    "Manufacturing",
+    "Banking",
+    "Teaching",
+    "Farming"
+   ]
+  },
+  {
+   "id": "social-c9-366",
+   "type": "mcq",
+   "q": "Population density is generally high in",
+   "options": [
+    "Hot deserts",
+    "Fertile river plains and coastal areas",
+    "High snowy mountains",
+    "Dense thick jungles"
+   ]
+  },
+  {
+   "id": "social-c9-367",
+   "type": "mcq",
+   "q": "What is meant by the natural increase of population?",
+   "options": [
+    "Birth rate minus death rate",
+    "Death rate minus birth rate",
+    "Births plus migrants",
+    "Total number of houses"
+   ]
+  },
+  {
+   "id": "social-c9-368",
+   "type": "mcq",
+   "q": "What does urbanisation mean?",
+   "options": [
+    "Growth in the number of villages",
+    "A fall in population",
+    "Increase in forests",
+    "A rise in the share of people living in towns and cities"
+   ]
+  },
+  {
+   "id": "social-c9-369",
+   "type": "mcq",
+   "q": "Why is a high proportion of dependants a burden on an economy?",
+   "options": [
+    "Dependants earn more than workers",
+    "Fewer workers must support more children and elderly persons",
+    "Dependants are always unemployed adults",
+    "It reduces the need for schools"
+   ]
+  },
+  {
+   "id": "social-c9-370",
+   "type": "mcq",
+   "q": "Why do many Indian cities face problems such as congestion and slums?",
+   "options": [
+    "Cities have too few people",
+    "Cities have too many parks",
+    "A large inflow of migrants is greater than the housing and services available",
+    "Cities have no jobs for anyone"
+   ]
+  },
+  {
+   "id": "social-c9-371",
+   "type": "short",
+   "q": "Name the three main age groups used to describe the age composition of a population.",
+   "proposedAnswer": "The three age groups are children (0 to 14 years), the working-age group (15 to 59 years) and the aged (60 years and above).",
+   "keyPoints": [
+    "Children 0-14",
+    "Working age 15-59",
+    "Aged 60 and above"
+   ]
+  },
+  {
+   "id": "social-c9-372",
+   "type": "short",
+   "q": "Why are adolescents considered an important resource for the nation, and what do they need?",
+   "proposedAnswer": "Adolescents are the future workforce and citizens, so their energy and skills will shape the country. They need good nutrition, education, health care and training to develop their abilities.",
+   "keyPoints": [
+    "Future workforce",
+    "Need nutrition and health",
+    "Need education and training"
+   ]
+  },
+  {
+   "id": "social-c9-373",
+   "type": "mcq",
+   "q": "What is a key difference between a democracy and a monarchy?",
+   "options": [
+    "Monarchs are elected every year",
+    "In a democracy rulers are chosen by the people, and are not born into power",
+    "Democracies have no laws",
+    "Monarchies have free elections"
+   ]
+  },
+  {
+   "id": "social-c9-374",
+   "type": "mcq",
+   "q": "What does rule of law mean?",
+   "options": [
+    "Rulers are above the law",
+    "Laws apply only to citizens",
+    "Everyone, including rulers, must obey the law",
+    "There are no laws"
+   ]
+  },
+  {
+   "id": "social-c9-375",
+   "type": "mcq",
+   "q": "Why do democracies hold regular elections?",
+   "options": [
+    "To let citizens choose or change rulers peacefully and hold them accountable",
+    "To avoid choosing anyone",
+    "To shut down parties",
+    "To please foreign countries"
+   ]
+  },
+  {
+   "id": "social-c9-376",
+   "type": "mcq",
+   "q": "Which of these goes against democratic principles?",
+   "options": [
+    "A free press",
+    "Peaceful protest",
+    "Open debate",
+    "Jailing journalists who criticise the government"
+   ]
+  },
+  {
+   "id": "social-c9-377",
+   "type": "mcq",
+   "q": "Why is it wrong to claim that democracy automatically guarantees faster economic growth?",
+   "options": [
+    "Because growth never happens",
+    "Because democracy forbids growth",
+    "Growth depends on many factors, and democracy alone does not guarantee it, though it protects rights",
+    "Because only dictators study economics"
+   ]
+  },
+  {
+   "id": "social-c9-378",
+   "type": "short",
+   "q": "What does accountability mean in a democracy?",
+   "proposedAnswer": "Accountability means that rulers must explain and answer for their decisions to the people and their representatives, and can be removed through elections if people are not satisfied.",
+   "keyPoints": [
+    "Rulers must answer for their actions",
+    "People can remove them through elections"
+   ]
+  },
+  {
+   "id": "social-c9-379",
+   "type": "short",
+   "q": "Why should citizens have the right to disagree with the government in a democracy?",
+   "proposedAnswer": "Disagreement helps to point out mistakes and improve policy, and it protects minorities from being ignored. A democracy that silences criticism cannot correct its errors.",
+   "keyPoints": [
+    "Points out mistakes",
+    "Improves policy",
+    "Protects minority views"
+   ]
+  },
+  {
+   "id": "social-c9-380",
+   "type": "mcq",
+   "q": "On which date is Republic Day celebrated in India?",
+   "options": [
+    "26 January",
+    "15 August",
+    "2 October",
+    "14 November"
+   ]
+  },
+  {
+   "id": "social-c9-381",
+   "type": "mcq",
+   "q": "In which year did South Africa adopt its democratic constitution?",
+   "options": [
+    "1947",
+    "1950",
+    "1990",
+    "1996"
+   ]
+  },
+  {
+   "id": "social-c9-382",
+   "type": "mcq",
+   "q": "What resolution did the Indian National Congress pass at its Lahore session in 1929?",
+   "options": [
+    "Quit India",
+    "Purna Swaraj (complete independence)",
+    "Swadeshi",
+    "Salt March"
+   ]
+  },
+  {
+   "id": "social-c9-383",
+   "type": "mcq",
+   "q": "The Preamble begins with the words We, the people of India. What does this signify?",
+   "options": [
+    "Power ultimately rests with the people",
+    "Only some people made the Constitution",
+    "The people have no role",
+    "The Constitution was written by foreign rulers"
+   ]
+  },
+  {
+   "id": "social-c9-384",
+   "type": "mcq",
+   "q": "Why was the Objectives Resolution of 1946 important?",
+   "options": [
+    "It decided election dates",
+    "It created the Supreme Court",
+    "It abolished the Preamble",
+    "It laid down the goals and principles that guided the drafting of the Constitution"
+   ]
+  },
+  {
+   "id": "social-c9-385",
+   "type": "short",
+   "q": "State two things that a constitution does in a country.",
+   "proposedAnswer": "A constitution sets out the basic rules on how the government is formed and what powers it has. It also guarantees citizens' rights and limits the government's power.",
+   "keyPoints": [
+    "Sets rules for forming and running government",
+    "Guarantees rights and limits power"
+   ]
+  },
+  {
+   "id": "social-c9-386",
+   "type": "short",
+   "q": "Why did leaders of India's national movement want a constitution that guaranteed rights?",
+   "proposedAnswer": "Under colonial rule, people's freedoms such as speech and association were restricted. Leaders wanted an independent India to protect these freedoms and to ensure equality and democratic government.",
+   "keyPoints": [
+    "Colonial rule restricted freedoms",
+    "Wanted rights protected",
+    "Wanted equality and democratic government"
+   ]
+  },
+  {
+   "id": "social-c9-387",
+   "type": "mcq",
+   "q": "What does EVM stand for?",
+   "options": [
+    "Electronic Vote Message",
+    "Electronic Voting Machine",
+    "Election Voting Method",
+    "Electoral Value Mark"
+   ]
+  },
+  {
+   "id": "social-c9-388",
+   "type": "mcq",
+   "q": "What is a person who contests an election called?",
+   "options": [
+    "A voter",
+    "A manifesto",
+    "A candidate",
+    "A constituent"
+   ]
+  },
+  {
+   "id": "social-c9-389",
+   "type": "mcq",
+   "q": "The party that wins a majority forms the government. What is the group of members who do not support the government called?",
+   "options": [
+    "The Cabinet",
+    "The opposition",
+    "The civil service",
+    "The judiciary"
+   ]
+  },
+  {
+   "id": "social-c9-390",
+   "type": "mcq",
+   "q": "Who elects the President of India?",
+   "options": [
+    "All citizens directly",
+    "Only the Lok Sabha",
+    "Elected members of Parliament and of State Legislative Assemblies",
+    "The Prime Minister alone"
+   ]
+  },
+  {
+   "id": "social-c9-391",
+   "type": "mcq",
+   "q": "How many representatives does each Lok Sabha constituency elect?",
+   "options": [
+    "One",
+    "Two",
+    "Five",
+    "Ten"
+   ]
+  },
+  {
+   "id": "social-c9-392",
+   "type": "mcq",
+   "q": "Why is the Election Commission made independent of the government?",
+   "options": [
+    "So it can obey the ruling party",
+    "So it can avoid holding elections",
+    "So it can change election results",
+    "So it can conduct elections fairly without pressure from the ruling party"
+   ]
+  },
+  {
+   "id": "social-c9-393",
+   "type": "short",
+   "q": "What is judicial review?",
+   "proposedAnswer": "Judicial review is the power of the courts, especially the Supreme Court, to examine laws and actions of the government and to declare them invalid if they go against the Constitution.",
+   "keyPoints": [
+    "Courts examine laws and actions",
+    "Can declare them invalid if unconstitutional"
+   ]
+  },
+  {
+   "id": "social-c9-394",
+   "type": "short",
+   "q": "What does it mean that the Council of Ministers is collectively responsible to the Lok Sabha?",
+   "proposedAnswer": "It means that all ministers together are answerable to the Lok Sabha for the working of the government. If the Lok Sabha loses confidence in the government, the whole Council of Ministers must resign.",
+   "keyPoints": [
+    "All ministers answerable together",
+    "Government needs the confidence of the Lok Sabha",
+    "Must resign if confidence is lost"
+   ]
+  },
+  {
+   "id": "social-c9-395",
+   "type": "mcq",
+   "q": "Under which Fundamental Right can citizens form a trade union?",
+   "options": [
+    "Right to Equality",
+    "Right against Exploitation",
+    "Right to Freedom",
+    "Cultural and Educational Rights"
+   ]
+  },
+  {
+   "id": "social-c9-396",
+   "type": "mcq",
+   "q": "Which Fundamental Right says that all persons are equal before the law?",
+   "options": [
+    "Right to Equality",
+    "Right to Freedom",
+    "Right to Freedom of Religion",
+    "Right against Exploitation"
+   ]
+  },
+  {
+   "id": "social-c9-397",
+   "type": "mcq",
+   "q": "What is a Public Interest Litigation?",
+   "options": [
+    "A case that only the victim may file",
+    "A case filed by the police only",
+    "A case that cannot be heard in court",
+    "A case through which any person may approach the court in the interest of the public"
+   ]
+  },
+  {
+   "id": "social-c9-398",
+   "type": "mcq",
+   "q": "Which writ is an order asking an official to perform a duty he or she has failed to do?",
+   "options": [
+    "Habeas corpus",
+    "Mandamus",
+    "Certiorari",
+    "Quo warranto"
+   ]
+  },
+  {
+   "id": "social-c9-399",
+   "type": "mcq",
+   "q": "A person is held in custody illegally. Which writ can help to secure their release?",
+   "options": [
+    "Habeas corpus",
+    "Mandamus",
+    "Prohibition",
+    "Quo warranto"
+   ]
+  },
+  {
+   "id": "social-c9-400",
+   "type": "short",
+   "q": "State two features of the Right to Freedom of Religion.",
+   "proposedAnswer": "Every person is free to profess, practise and propagate any religion, and groups may manage their own religious affairs. The state has no official religion and treats all religions equally.",
+   "keyPoints": [
+    "Freedom to profess, practise and propagate",
+    "Freedom to manage religious affairs",
+    "State treats all religions equally"
+   ]
+  },
+  {
+   "id": "social-c9-401",
+   "type": "short",
+   "q": "Why do minorities need cultural and educational rights?",
+   "proposedAnswer": "These rights protect minorities' language, script and culture from being overshadowed by the majority. They allow minorities to set up their own educational institutions to pass on their heritage.",
+   "keyPoints": [
+    "Protect language and culture",
+    "Prevent domination by the majority",
+    "Allow own educational institutions"
+   ]
+  },
+  {
+   "id": "social-c9-402",
+   "type": "mcq",
+   "q": "Cotton textile manufacturing belongs to which sector?",
+   "options": [
+    "Primary sector",
+    "Tertiary sector",
+    "Services sector",
+    "Secondary sector"
+   ]
+  },
+  {
+   "id": "social-c9-403",
+   "type": "mcq",
+   "q": "What is a tubewell mainly used for in farming?",
+   "options": [
+    "Harvesting",
+    "Irrigation",
+    "Selling grain",
+    "Storing seed"
+   ]
+  },
+  {
+   "id": "social-c9-404",
+   "type": "mcq",
+   "q": "Why is irrigation important for multiple cropping?",
+   "options": [
+    "Crops need no water",
+    "It increases the area of land",
+    "Crops need water through the year, not only in the rainy season",
+    "It keeps pests out"
+   ]
+  },
+  {
+   "id": "social-c9-405",
+   "type": "mcq",
+   "q": "What does it mean when population is called an asset?",
+   "options": [
+    "People are a burden",
+    "Educated and healthy people contribute to production and growth",
+    "More people always lower income",
+    "Population has no value"
+   ]
+  },
+  {
+   "id": "social-c9-406",
+   "type": "mcq",
+   "q": "Which example shows a shift of activity from the primary to the secondary sector?",
+   "options": [
+    "Growing sugarcane",
+    "Selling sugarcane",
+    "Turning sugarcane into sugar or jaggery in a mill",
+    "Watering sugarcane"
+   ]
+  },
+  {
+   "id": "social-c9-407",
+   "type": "mcq",
+   "q": "Why is unemployment among educated youth a concern for a country?",
+   "options": [
+    "It wastes the human capital the country invested in",
+    "It saves money",
+    "It increases production",
+    "It has no effect"
+   ]
+  },
+  {
+   "id": "social-c9-408",
+   "type": "short",
+   "q": "Explain the terms fixed capital and working capital with one example each.",
+   "proposedAnswer": "Fixed capital means tools, machines and buildings that last for many years, such as a tractor. Working capital means raw materials and money in hand that are used up in production, such as seeds.",
+   "keyPoints": [
+    "Fixed capital: lasting tools and machines",
+    "Working capital: raw materials and money used up",
+    "Examples given"
+   ]
+  },
+  {
+   "id": "social-c9-409",
+   "type": "short",
+   "q": "Describe how electricity and tubewells helped farmers to irrigate more land.",
+   "proposedAnswer": "Electricity-run tubewells could pump groundwater faster and irrigate larger areas than older methods. This allowed farmers to grow more than one crop a year and raised production.",
+   "keyPoints": [
+    "Tubewells pump groundwater quickly",
+    "Larger area irrigated",
+    "Multiple cropping and higher output"
+   ]
+  },
+  {
+   "id": "social-c9-410",
+   "type": "mcq",
+   "q": "Which of these items is commonly sold at ration shops?",
+   "options": [
+    "Cars",
+    "Mobile phones",
+    "Gold",
+    "Wheat, rice and sugar"
+   ]
+  },
+  {
+   "id": "social-c9-411",
+   "type": "mcq",
+   "q": "What does the mid-day meal scheme provide?",
+   "options": [
+    "Free books",
+    "Free uniforms",
+    "Cooked meals to school children",
+    "Free transport"
+   ]
+  },
+  {
+   "id": "social-c9-412",
+   "type": "mcq",
+   "q": "Which group is among the most vulnerable to poverty in India?",
+   "options": [
+    "Landless agricultural labourers and casual workers",
+    "Big industrialists",
+    "Senior officials",
+    "Owners of large estates"
+   ]
+  },
+  {
+   "id": "social-c9-413",
+   "type": "mcq",
+   "q": "What is a subsidy?",
+   "options": [
+    "A tax paid to the government",
+    "A fine for late payment",
+    "A bank loan with high interest",
+    "Money paid by the government to lower the price consumers pay"
+   ]
+  },
+  {
+   "id": "social-c9-414",
+   "type": "mcq",
+   "q": "Why does a drought raise the risk of hunger?",
+   "options": [
+    "It boosts crop yields",
+    "Crop failure lowers food supply and farm incomes, while prices rise",
+    "It lowers food prices",
+    "It increases rain"
+   ]
+  },
+  {
+   "id": "social-c9-415",
+   "type": "short",
+   "q": "What is the minimum support price?",
+   "proposedAnswer": "The minimum support price is a price announced by the government at which it will buy certain crops from farmers, such as wheat and rice. It protects farmers from very low market prices.",
+   "keyPoints": [
+    "Announced by the government",
+    "Government buys crops at this price",
+    "Protects farmers from low prices"
+   ]
+  },
+  {
+   "id": "social-c9-416",
+   "type": "short",
+   "q": "How does the Public Distribution System help poor families when market prices rise?",
+   "proposedAnswer": "Ration shops sell grain and other items at fixed, lower prices, so poor families are less affected by market price rises. The buffer stock held by the government helps to keep these supplies available.",
+   "keyPoints": [
+    "Fixed lower prices at ration shops",
+    "Less impact of price rises",
+    "Buffer stock keeps supplies available"
+   ]
+  },
+  {
+   "id": "social-c9-417",
+   "type": "mcq",
+   "q": "Which colours make up the French tricolour flag?",
+   "options": [
+    "Blue, white and red",
+    "Green, white and orange",
+    "Red, yellow and green",
+    "Black, red and gold"
+   ]
+  },
+  {
+   "id": "social-c9-418",
+   "type": "mcq",
+   "q": "Which words formed the motto of the French Revolution?",
+   "options": [
+    "Peace, Land and Bread",
+    "Faith, Hope and Charity",
+    "Duty, Honour and Country",
+    "Liberty, Equality and Fraternity"
+   ]
+  },
+  {
+   "id": "social-c9-419",
+   "type": "mcq",
+   "q": "Which queen of France, the wife of Louis XVI, was executed in 1793?",
+   "options": [
+    "Josephine",
+    "Marie Antoinette",
+    "Catherine the Great",
+    "Queen Elizabeth"
+   ]
+  },
+  {
+   "id": "social-c9-420",
+   "type": "mcq",
+   "q": "Where was the royal court of Louis XVI based?",
+   "options": [
+    "The Bastille",
+    "Waterloo",
+    "The palace of Versailles",
+    "The Reichstag"
+   ]
+  },
+  {
+   "id": "social-c9-421",
+   "type": "mcq",
+   "q": "How did economic problems help to bring about the French Revolution?",
+   "options": [
+    "Taxes were abolished for the Third Estate",
+    "Prices of bread fell sharply",
+    "The treasury was full",
+    "Wars and royal spending emptied the treasury, bad harvests raised bread prices and heavy taxes burdened the Third Estate"
+   ]
+  },
+  {
+   "id": "social-c9-422",
+   "type": "short",
+   "q": "What was the Tennis Court Oath?",
+   "proposedAnswer": "In June 1789 members of the Third Estate, who had declared themselves the National Assembly, gathered in an indoor tennis court at Versailles. They swore not to separate until they had drafted a constitution for France.",
+   "keyPoints": [
+    "June 1789, Third Estate members",
+    "Gathered at an indoor tennis court in Versailles",
+    "Swore to draft a constitution"
+   ]
+  },
+  {
+   "id": "social-c9-423",
+   "type": "short",
+   "q": "Explain how the ideas of the French Revolution spread beyond France.",
+   "proposedAnswer": "Napoleon's armies and his Civil Code carried ideas such as equality before the law and the end of feudal privileges to other parts of Europe. The ideals of liberty and equality also inspired movements for rights and freedom elsewhere, including in colonies.",
+   "keyPoints": [
+    "Napoleon's conquests and Civil Code",
+    "Ideas of liberty and equality spread",
+    "Inspired movements elsewhere"
+   ]
+  },
+  {
+   "id": "social-c9-424",
+   "type": "mcq",
+   "q": "What is rule by one person with unlimited power called?",
+   "options": [
+    "Democracy",
+    "Autocracy",
+    "Republic",
+    "Socialism"
+   ]
+  },
+  {
+   "id": "social-c9-425",
+   "type": "mcq",
+   "q": "In the First World War, Russia fought on the same side as Britain and France against which country?",
+   "options": [
+    "Britain",
+    "France",
+    "Germany",
+    "Belgium"
+   ]
+  },
+  {
+   "id": "social-c9-426",
+   "type": "mcq",
+   "q": "Who emerged as the leader of the Soviet Union after Lenin's death in 1924?",
+   "options": [
+    "Joseph Stalin",
+    "Alexander Kerensky",
+    "Nicholas II",
+    "Rasputin"
+   ]
+  },
+  {
+   "id": "social-c9-427",
+   "type": "mcq",
+   "q": "What happened to the land of nobles and the Church after the Bolsheviks took power?",
+   "options": [
+    "It was returned to the Tsar",
+    "It was sold to foreign companies",
+    "It was taken over and given to peasants",
+    "It was left empty"
+   ]
+  },
+  {
+   "id": "social-c9-428",
+   "type": "mcq",
+   "q": "Why did socialists such as Robert Owen set up cooperative communities?",
+   "options": [
+    "To show people could live and work cooperatively and share property instead of competing for profit",
+    "To start a new monarchy",
+    "To fight wars",
+    "To increase private profits"
+   ]
+  },
+  {
+   "id": "social-c9-429",
+   "type": "short",
+   "q": "Name two political groups that opposed the Tsar's rule in Russia.",
+   "proposedAnswer": "Opposition groups included the Bolsheviks and Mensheviks, who were socialists, the Socialist Revolutionaries, who represented peasants, and liberals who wanted a constitution.",
+   "keyPoints": [
+    "Bolsheviks or Mensheviks",
+    "Socialist Revolutionaries",
+    "Liberals"
+   ]
+  },
+  {
+   "id": "social-c9-430",
+   "type": "short",
+   "q": "Marx expected revolutions in industrial countries, yet Russia, a mainly agricultural country, had one first. Give two reasons.",
+   "proposedAnswer": "The Tsar's autocracy was weak and unpopular, and military defeats in the First World War worsened shortages and anger. Peasants wanted land, and workers in the big factories of cities were organised and ready to strike.",
+   "keyPoints": [
+    "Weak, unpopular autocracy",
+    "Defeats and shortages in the war",
+    "Peasant demand for land",
+    "Organised factory workers"
+   ]
+  },
+  {
+   "id": "social-c9-431",
+   "type": "mcq",
+   "q": "What title did Hitler take as the supreme leader of Nazi Germany?",
+   "options": [
+    "Kaiser",
+    "Tsar",
+    "Emperor",
+    "Fuhrer"
+   ]
+  },
+  {
+   "id": "social-c9-432",
+   "type": "mcq",
+   "q": "By what name is Hitler's regime in Germany from 1933 to 1945 also known?",
+   "options": [
+    "Weimar Republic",
+    "Third Reich",
+    "Holy Roman Empire",
+    "Second Republic"
+   ]
+  },
+  {
+   "id": "social-c9-433",
+   "type": "mcq",
+   "q": "What was the Munich Putsch of 1923?",
+   "options": [
+    "A failed attempt by Hitler to seize power in Bavaria",
+    "A peace treaty with France",
+    "A victory parade of the army",
+    "An election won by the Nazis"
+   ]
+  },
+  {
+   "id": "social-c9-434",
+   "type": "mcq",
+   "q": "What role did the Nazis expect women to play in society?",
+   "options": [
+    "Army commanders",
+    "Government ministers",
+    "Judges",
+    "Mothers and homemakers who raised children, with fewer career opportunities"
+   ]
+  },
+  {
+   "id": "social-c9-435",
+   "type": "mcq",
+   "q": "How did German rearmament in the 1930s affect the economy?",
+   "options": [
+    "It had no effect",
+    "It created jobs through arms and public works, but also made war more likely",
+    "It caused mass unemployment",
+    "It ended all trade"
+   ]
+  },
+  {
+   "id": "social-c9-436",
+   "type": "mcq",
+   "q": "Why is Nazi Germany described as a totalitarian state?",
+   "options": [
+    "It allowed full freedom of the press",
+    "It had free elections",
+    "It tried to control every part of life, including politics, media, education and culture",
+    "It left people free to decide their beliefs"
+   ]
+  },
+  {
+   "id": "social-c9-437",
+   "type": "short",
+   "q": "What does the word propaganda mean?",
+   "proposedAnswer": "Propaganda is the spreading of information, ideas or slogans, often one-sided or misleading, to influence what people think and to win support for a cause.",
+   "keyPoints": [
+    "Spreading of ideas or information",
+    "Often one-sided or misleading",
+    "Aims to influence opinion"
+   ]
+  },
+  {
+   "id": "social-c9-438",
+   "type": "short",
+   "q": "Describe how the Nazis dealt with political opponents after 1933.",
+   "proposedAnswer": "The Nazis banned other political parties and trade unions, censored the press, and used the Gestapo to arrest opponents. Many were sent to concentration camps, which created fear and silenced opposition.",
+   "keyPoints": [
+    "Banned other parties and unions",
+    "Censorship",
+    "Arrests by the Gestapo and camps"
+   ]
+  },
+  {
+   "id": "social-c9-439",
+   "type": "mcq",
+   "q": "Which ocean lies to the south of India?",
+   "options": [
+    "Pacific Ocean",
+    "Atlantic Ocean",
+    "Arctic Ocean",
+    "Indian Ocean"
+   ]
+  },
+  {
+   "id": "social-c9-440",
+   "type": "mcq",
+   "q": "In which direction from India do the Himalayas lie?",
+   "options": [
+    "South",
+    "North",
+    "West",
+    "East only"
+   ]
+  },
+  {
+   "id": "social-c9-441",
+   "type": "mcq",
+   "q": "Which landform lies between the Western Ghats and the Arabian Sea?",
+   "options": [
+    "The Eastern coastal plain",
+    "The Thar",
+    "The western coastal plain",
+    "The Northern Plains"
+   ]
+  },
+  {
+   "id": "social-c9-442",
+   "type": "mcq",
+   "q": "The black soil of the Deccan Plateau was formed from",
+   "options": [
+    "Volcanic lava",
+    "Glaciers",
+    "Coral",
+    "Wind-blown sand"
+   ]
+  },
+  {
+   "id": "social-c9-443",
+   "type": "mcq",
+   "q": "Why are the rivers of the northern plains useful for transport?",
+   "options": [
+    "They flow down steep waterfalls",
+    "They are dry all year",
+    "They flow across gently sloping plains, which lets boats travel",
+    "They flow only underground"
+   ]
+  },
+  {
+   "id": "social-c9-444",
+   "type": "mcq",
+   "q": "Why are large deltas found along the east coast of India?",
+   "options": [
+    "Large east-flowing rivers deposit silt at their mouths in the Bay of Bengal",
+    "The east coast has no rivers",
+    "Deltas are formed by winds",
+    "The coast is covered with ice"
+   ]
+  },
+  {
+   "id": "social-c9-445",
+   "type": "short",
+   "q": "Name any four physiographic divisions of India.",
+   "proposedAnswer": "The main divisions are the Himalayan Mountains, the Northern Plains, the Peninsular Plateau, the Indian Desert, the Coastal Plains and the Islands.",
+   "keyPoints": [
+    "Himalayan Mountains",
+    "Northern Plains",
+    "Peninsular Plateau",
+    "Desert, coasts or islands"
+   ]
+  },
+  {
+   "id": "social-c9-446",
+   "type": "short",
+   "q": "How do the Himalayas differ from the Peninsular Plateau in age and formation?",
+   "proposedAnswer": "The Himalayas are young fold mountains formed by the folding of rocks when plates collided, and they are still rising. The Peninsular Plateau is an ancient block of hard crystalline rock, much older and more stable.",
+   "keyPoints": [
+    "Himalayas: young fold mountains, still rising",
+    "Plateau: ancient crystalline block, stable"
+   ]
+  },
+  {
+   "id": "social-c9-447",
+   "type": "mcq",
+   "q": "From which glacier does the Bhagirathi, the source stream of the Ganga, begin?",
+   "options": [
+    "Siachen",
+    "Zemu",
+    "Yamunotri",
+    "Gangotri"
+   ]
+  },
+  {
+   "id": "social-c9-448",
+   "type": "mcq",
+   "q": "Into which water body does the Kaveri flow?",
+   "options": [
+    "Arabian Sea",
+    "Bay of Bengal",
+    "Caspian Sea",
+    "Red Sea"
+   ]
+  },
+  {
+   "id": "social-c9-449",
+   "type": "mcq",
+   "q": "The Jhelum, Chenab, Ravi and Beas are tributaries of which river system?",
+   "options": [
+    "Indus",
+    "Ganga",
+    "Godavari",
+    "Brahmaputra"
+   ]
+  },
+  {
+   "id": "social-c9-450",
+   "type": "mcq",
+   "q": "What are the main benefits of the Bhakra Nangal project on the Sutlej?",
+   "options": [
+    "Making rain",
+    "Mining coal",
+    "Fishing only",
+    "Irrigation and hydroelectric power"
+   ]
+  },
+  {
+   "id": "social-c9-451",
+   "type": "mcq",
+   "q": "How can dams help in controlling floods?",
+   "options": [
+    "They make rivers flow faster",
+    "They store excess water during heavy rain and release it gradually",
+    "They increase rain",
+    "They remove all water from rivers"
+   ]
+  },
+  {
+   "id": "social-c9-452",
+   "type": "short",
+   "q": "Name three east-flowing rivers of peninsular India.",
+   "proposedAnswer": "The Mahanadi, Godavari, Krishna and Kaveri are east-flowing rivers that drain into the Bay of Bengal.",
+   "keyPoints": [
+    "Mahanadi",
+    "Godavari or Krishna",
+    "Kaveri"
+   ]
+  },
+  {
+   "id": "social-c9-453",
+   "type": "short",
+   "q": "Why are peninsular rivers less suitable for navigation than the Ganga?",
+   "proposedAnswer": "Peninsular rivers are seasonal and carry little water in dry months, and they flow over uneven plateau land with waterfalls and rapids. This makes boat travel difficult compared with the slow, perennial Ganga on the plains.",
+   "keyPoints": [
+    "Seasonal flow",
+    "Waterfalls and rapids on the plateau",
+    "Ganga flows on gentle plains all year"
+   ]
+  },
+  {
+   "id": "social-c9-454",
+   "type": "mcq",
+   "q": "The south-west monsoon season in India lasts from",
+   "options": [
+    "December to February",
+    "March to May",
+    "June to September",
+    "October to November"
+   ]
+  },
+  {
+   "id": "social-c9-455",
+   "type": "mcq",
+   "q": "The word monsoon comes from the Arabic word mausim, which means",
+   "options": [
+    "Wind",
+    "Rain",
+    "Storm",
+    "Season"
+   ]
+  },
+  {
+   "id": "social-c9-456",
+   "type": "mcq",
+   "q": "How do ocean currents affect the climate of a coastal area?",
+   "options": [
+    "They have no effect",
+    "Warm currents raise coastal temperatures and cold currents lower them",
+    "They stop the wind",
+    "They change the length of the day"
+   ]
+  },
+  {
+   "id": "social-c9-457",
+   "type": "mcq",
+   "q": "Which of these places has an extreme or continental climate?",
+   "options": [
+    "Mumbai",
+    "Chennai",
+    "Delhi",
+    "Kochi"
+   ]
+  },
+  {
+   "id": "social-c9-458",
+   "type": "mcq",
+   "q": "Why is the range of temperature small in southern India?",
+   "options": [
+    "It is near the equator and has a moderating influence from the surrounding sea",
+    "It is surrounded by high mountains",
+    "It lies in a desert",
+    "It has no seasons"
+   ]
+  },
+  {
+   "id": "social-c9-459",
+   "type": "mcq",
+   "q": "Why do farmers in Punjab grow wheat in winter rather than in summer?",
+   "options": [
+    "Wheat needs hot weather",
+    "Wheat grows only in deserts",
+    "Wheat needs cool weather and gains from winter rain from western disturbances",
+    "Wheat needs heavy monsoon flooding"
+   ]
+  },
+  {
+   "id": "social-c9-460",
+   "type": "short",
+   "q": "Describe two features of the cold weather season in India.",
+   "proposedAnswer": "Temperatures are lowest in the north, with clear skies and cool, dry winds blowing from land to sea. Some winter rain falls in the north-west from western disturbances.",
+   "keyPoints": [
+    "Low temperatures, especially in the north",
+    "Clear skies and dry winds",
+    "Winter rain in the north-west"
+   ]
+  },
+  {
+   "id": "social-c9-461",
+   "type": "short",
+   "q": "Why does rainfall in the Ganga plain generally decrease from east to west?",
+   "proposedAnswer": "The monsoon winds bring moisture from the Bay of Bengal, which is shed as rain as they move inland. By the time they reach the west, such as Delhi, they carry less moisture, so rainfall in Kolkata is greater than in Delhi.",
+   "keyPoints": [
+    "Moisture from the Bay of Bengal",
+    "Winds lose moisture as they move inland",
+    "Less rain in the west"
+   ]
+  },
+  {
+   "id": "social-c9-462",
+   "type": "mcq",
+   "q": "The Sundarbans are famous for which type of forest?",
+   "options": [
+    "Mangrove forest",
+    "Thorn forest",
+    "Alpine forest",
+    "Coniferous forest"
+   ]
+  },
+  {
+   "id": "social-c9-463",
+   "type": "mcq",
+   "q": "In which region are elephants mainly found in India?",
+   "options": [
+    "The Thar desert",
+    "The Ladakh plateau",
+    "The Rann of Kachchh",
+    "The forests of Kerala, Karnataka and Assam"
+   ]
+  },
+  {
+   "id": "social-c9-464",
+   "type": "mcq",
+   "q": "Which of the following is a well-known bird sanctuary in Rajasthan?",
+   "options": [
+    "Kaziranga",
+    "Keoladeo (Bharatpur)",
+    "Gir",
+    "Sundarbans"
+   ]
+  },
+  {
+   "id": "social-c9-465",
+   "type": "mcq",
+   "q": "What does the term biodiversity mean?",
+   "options": [
+    "The variety of living organisms in an area",
+    "The amount of rainfall",
+    "The number of rivers",
+    "The height of mountains"
+   ]
+  },
+  {
+   "id": "social-c9-466",
+   "type": "mcq",
+   "q": "Why is protecting habitats important for saving species?",
+   "options": [
+    "Habitats are not important",
+    "Animals do not need food",
+    "Species can live anywhere",
+    "Animals depend on their habitat for food and shelter, so protecting it saves many species together"
+   ]
+  },
+  {
+   "id": "social-c9-467",
+   "type": "short",
+   "q": "What is an endangered species? Name one from India.",
+   "proposedAnswer": "An endangered species is one whose numbers have fallen so low that it is at risk of becoming extinct. The Bengal tiger and the one-horned rhinoceros are examples.",
+   "keyPoints": [
+    "Numbers very low, risk of extinction",
+    "Example such as tiger or rhinoceros"
+   ]
+  },
+  {
+   "id": "social-c9-468",
+   "type": "short",
+   "q": "How can local communities help to conserve forests?",
+   "proposedAnswer": "Communities can plant trees, protect forests from illegal cutting and fires, and use forest produce carefully. Working with forest officials, they can guard wildlife and share in the benefits of conservation.",
+   "keyPoints": [
+    "Plant and protect trees",
+    "Prevent illegal cutting and fires",
+    "Cooperate with forest officials"
+   ]
+  },
+  {
+   "id": "social-c9-469",
+   "type": "mcq",
+   "q": "The number of children born per 1000 persons in a year is called the",
+   "options": [
+    "Death rate",
+    "Birth rate",
+    "Sex ratio",
+    "Literacy rate"
+   ]
+  },
+  {
+   "id": "social-c9-470",
+   "type": "mcq",
+   "q": "What is the Census?",
+   "options": [
+    "A national festival",
+    "A kind of election",
+    "A count of the population along with the collection of other data about it",
+    "A tax on land"
+   ]
+  },
+  {
+   "id": "social-c9-471",
+   "type": "mcq",
+   "q": "Why do coastal plains often have a high population?",
+   "options": [
+    "They are covered by ice",
+    "They lack water",
+    "They have no work",
+    "They have ports, fertile land and a moderate climate"
+   ]
+  },
+  {
+   "id": "social-c9-472",
+   "type": "mcq",
+   "q": "How can better health care affect population growth over time?",
+   "options": [
+    "It always raises the death rate",
+    "Death rates fall and growth rises at first, but better health and education can later lower birth rates",
+    "It stops all births",
+    "It has no effect"
+   ]
+  },
+  {
+   "id": "social-c9-473",
+   "type": "mcq",
+   "q": "Why is women's education linked with lower birth rates?",
+   "options": [
+    "Educated women never work",
+    "Educated women are forbidden to marry",
+    "Educated women tend to marry later, plan families and have more health knowledge",
+    "Education increases births"
+   ]
+  },
+  {
+   "id": "social-c9-474",
+   "type": "short",
+   "q": "What is meant by the occupational structure of a population?",
+   "proposedAnswer": "The occupational structure is the distribution of the working population among different kinds of work, usually grouped into primary, secondary and tertiary activities.",
+   "keyPoints": [
+    "Distribution of workers by type of work",
+    "Primary, secondary and tertiary sectors"
+   ]
+  },
+  {
+   "id": "social-c9-475",
+   "type": "short",
+   "q": "Suggest two measures to control the rapid growth of population.",
+   "proposedAnswer": "Spreading education, especially among girls and women, and creating awareness about family planning can slow growth. Better health care that lowers infant deaths also encourages smaller families.",
+   "keyPoints": [
+    "Education, especially of women",
+    "Awareness of family planning",
+    "Better health care"
+   ]
+  },
+  {
+   "id": "social-c9-476",
+   "type": "mcq",
+   "q": "In a democracy, each adult citizen has",
+   "options": [
+    "One vote of equal value",
+    "Two votes if wealthy",
+    "No vote",
+    "A vote only if educated"
+   ]
+  },
+  {
+   "id": "social-c9-477",
+   "type": "mcq",
+   "q": "Which of these is an example of political equality?",
+   "options": [
+    "Only men can vote",
+    "Only landowners can vote",
+    "Every adult citizen has the right to vote",
+    "Only officials can vote"
+   ]
+  },
+  {
+   "id": "social-c9-478",
+   "type": "mcq",
+   "q": "What is a referendum?",
+   "options": [
+    "A direct vote by citizens on a specific question or issue",
+    "A meeting of ministers",
+    "A type of tax",
+    "A court order"
+   ]
+  },
+  {
+   "id": "social-c9-479",
+   "type": "mcq",
+   "q": "In a democracy the majority must also",
+   "options": [
+    "Rule without rules",
+    "Silence the minority",
+    "Take away minorities' rights",
+    "Respect the rights of minorities"
+   ]
+  },
+  {
+   "id": "social-c9-480",
+   "type": "mcq",
+   "q": "Which situation best shows a country moving away from democracy?",
+   "options": [
+    "Elections are held on time",
+    "The ruling party postpones elections indefinitely and bans criticism",
+    "The press freely reports on the government",
+    "Courts uphold citizens' rights"
+   ]
+  },
+  {
+   "id": "social-c9-481",
+   "type": "mcq",
+   "q": "Why does a democracy leave room for correcting mistakes?",
+   "options": [
+    "Citizens can criticise and vote out rulers, so errors become visible and can be changed",
+    "Rulers can never be wrong",
+    "Elections are never held",
+    "Decisions cannot be questioned"
+   ]
+  },
+  {
+   "id": "social-c9-482",
+   "type": "short",
+   "q": "What do we mean by free and fair elections?",
+   "proposedAnswer": "In free and fair elections every adult can vote, parties and candidates are free to compete, voting is secret and results are not rigged or influenced by fear or force.",
+   "keyPoints": [
+    "Every adult can vote",
+    "Free competition among candidates",
+    "Secret ballot and no pressure or rigging"
+   ]
+  },
+  {
+   "id": "social-c9-483",
+   "type": "short",
+   "q": "Why is democracy sometimes called government by discussion?",
+   "proposedAnswer": "In a democracy decisions are made after debate and consultation among representatives and citizens, and different views are heard before laws are passed. Discussion helps reach decisions that more people can accept.",
+   "keyPoints": [
+    "Debate and consultation before decisions",
+    "Different views are heard",
+    "Decisions are more widely accepted"
+   ]
+  },
+  {
+   "id": "social-c9-484",
+   "type": "mcq",
+   "q": "Who was the first Prime Minister of independent India?",
+   "options": [
+    "Sardar Patel",
+    "Rajendra Prasad",
+    "B. R. Ambedkar",
+    "Jawaharlal Nehru"
+   ]
+  },
+  {
+   "id": "social-c9-485",
+   "type": "mcq",
+   "q": "Who is popularly known as the Father of the Indian Constitution?",
+   "options": [
+    "Mahatma Gandhi",
+    "B. R. Ambedkar",
+    "Sardar Patel",
+    "Subhas Chandra Bose"
+   ]
+  },
+  {
+   "id": "social-c9-486",
+   "type": "mcq",
+   "q": "What does liberty in the Preamble stand for?",
+   "options": [
+    "Freedom from all laws",
+    "Rule by one person",
+    "Freedom of thought, expression, belief, faith and worship",
+    "Freedom only for the rich"
+   ]
+  },
+  {
+   "id": "social-c9-487",
+   "type": "mcq",
+   "q": "What does equality in the Preamble ensure?",
+   "options": [
+    "Equal income for all",
+    "The same job for everyone",
+    "The same age for all",
+    "Equality of status and of opportunity"
+   ]
+  },
+  {
+   "id": "social-c9-488",
+   "type": "mcq",
+   "q": "Which event shows that the Constitution limits the power of the government?",
+   "options": [
+    "A minister is made President",
+    "A court strikes down a law that violates a Fundamental Right",
+    "Elections are held",
+    "A new law is passed by Parliament"
+   ]
+  },
+  {
+   "id": "social-c9-489",
+   "type": "short",
+   "q": "What is the difference between the date on which the Indian Constitution was adopted and the date on which it came into force?",
+   "proposedAnswer": "The Constitution was adopted by the Constituent Assembly on 26 November 1949 and came into force on 26 January 1950, which is celebrated as Republic Day.",
+   "keyPoints": [
+    "Adopted 26 November 1949",
+    "In force 26 January 1950"
+   ]
+  },
+  {
+   "id": "social-c9-490",
+   "type": "short",
+   "q": "Why did the framers of the Constitution choose universal adult franchise from the beginning?",
+   "proposedAnswer": "Leaders of the national movement believed in equality, so every adult citizen should have a say in government regardless of wealth, caste or sex. Giving the vote to all gave the new democracy a broad base.",
+   "keyPoints": [
+    "Belief in equality of citizens",
+    "Every adult has a say",
+    "Broad base for democracy"
+   ]
+  },
+  {
+   "id": "social-c9-491",
+   "type": "mcq",
+   "q": "Where do voters cast their votes on polling day?",
+   "options": [
+    "Courts",
+    "Schools only",
+    "Polling booths",
+    "Banks"
+   ]
+  },
+  {
+   "id": "social-c9-492",
+   "type": "mcq",
+   "q": "What is the purpose of voting by secret ballot?",
+   "options": [
+    "To let voters choose freely without fear or pressure",
+    "To hide the results",
+    "To stop people from voting",
+    "To help candidates know who voted for them"
+   ]
+  },
+  {
+   "id": "social-c9-493",
+   "type": "mcq",
+   "q": "Who is the head of the government in a State?",
+   "options": [
+    "The Governor",
+    "The President",
+    "The Chief Minister",
+    "The Speaker"
+   ]
+  },
+  {
+   "id": "social-c9-494",
+   "type": "mcq",
+   "q": "Which body can remove the Council of Ministers through a vote of no confidence?",
+   "options": [
+    "Lok Sabha",
+    "Supreme Court",
+    "Election Commission",
+    "Rajya Sabha"
+   ]
+  },
+  {
+   "id": "social-c9-495",
+   "type": "mcq",
+   "q": "Why does the Lok Sabha have more power than the Rajya Sabha on money matters?",
+   "options": [
+    "It is older",
+    "It has fewer members",
+    "It is chosen by the President",
+    "It is directly elected by the people and the government needs its confidence"
+   ]
+  },
+  {
+   "id": "social-c9-496",
+   "type": "short",
+   "q": "What is a party manifesto?",
+   "proposedAnswer": "A manifesto is a document issued by a political party before elections that states its policies and promises to voters about what it will do if it comes to power.",
+   "keyPoints": [
+    "Issued by a party before elections",
+    "Lists policies and promises"
+   ]
+  },
+  {
+   "id": "social-c9-497",
+   "type": "short",
+   "q": "Explain why the President is called the nominal head while the Prime Minister is the real executive.",
+   "proposedAnswer": "The President is the formal head of the state, but acts on the advice of the Council of Ministers headed by the Prime Minister. The Prime Minister and the Cabinet take the real decisions and run the government.",
+   "keyPoints": [
+    "President is the formal head",
+    "Acts on the advice of the ministers",
+    "Prime Minister and Cabinet take real decisions"
+   ]
+  },
+  {
+   "id": "social-c9-498",
+   "type": "mcq",
+   "q": "Which Fundamental Right lets a person take up any profession or occupation?",
+   "options": [
+    "Right to Equality",
+    "Right to Freedom",
+    "Right against Exploitation",
+    "Cultural and Educational Rights"
+   ]
+  },
+  {
+   "id": "social-c9-499",
+   "type": "mcq",
+   "q": "What are human rights?",
+   "options": [
+    "Rights that belong to every person simply because they are human",
+    "Rights only for officials",
+    "Rights that the government sells",
+    "Rights only for the rich"
+   ]
+  },
+  {
+   "id": "social-c9-500",
+   "type": "mcq",
+   "q": "Which situation violates the Right to Equality?",
+   "options": [
+    "A school holds a sports day",
+    "A court hears a case",
+    "A citizen votes in an election",
+    "A notice for a government post says that only men may apply, though women are equally qualified"
+   ]
+  }
+ ]
+}
