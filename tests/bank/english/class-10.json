@@ -20,7 +20,14 @@
  "syllabus": "unverified: topics are the drafting model’s reading of the official syllabus (NCERT/CBSE, or the exam’s notified syllabus) and have not been checked against the official documents",
  "drafted_by": "claude-sonnet",
  "drafted_at": "2026-11-02",
- "crossCheck": null,
+ "crossCheck": {
+  "model": "claude-haiku",
+  "method": "MCQs answered blind (no key shown); short answers judged against their proposed answer",
+  "agree": 494,
+  "disagree": 5,
+  "unsure": 1,
+  "missing": 0
+ },
  "questions": [
   {
    "id": "english-c10-001",
@@ -41,7 +48,11 @@
    "explanation": "A habitual action with a singular subject takes the simple present with -s: goes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-002",
@@ -62,7 +73,11 @@
    "explanation": "An action in progress in the past, interrupted by another past action, uses the past continuous: were playing.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-003",
@@ -83,7 +98,11 @@
    "explanation": "An action completed before now, with 'already', takes the present perfect: have read.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-004",
@@ -104,7 +123,11 @@
    "explanation": "The train left before another past event (we reached), so the past perfect had left is used.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-005",
@@ -125,7 +148,11 @@
    "explanation": "'Since' with a point in time and an action continuing to now needs the present perfect: has lived.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-006",
@@ -146,7 +173,11 @@
    "explanation": "Verbs of state such as know, have (possess), understand and belong are not normally used in the continuous form.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-007",
@@ -165,7 +196,10 @@
    "explanation": "The simple past of a regular verb is formed by adding -ed.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-008",
@@ -185,7 +219,10 @@
    "explanation": "'By next June' marks a future deadline, so the future perfect is used.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-009",
@@ -206,7 +243,11 @@
    "explanation": "'Children' is plural, so the plural verb 'are' is needed.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-010",
@@ -227,7 +268,11 @@
    "explanation": "'Each' is singular, so it takes 'has'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-011",
@@ -248,7 +293,11 @@
    "explanation": "'A number of' means 'several' and takes a plural verb: are.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-012",
@@ -269,7 +318,11 @@
    "explanation": "'The number of' is singular, so it takes 'has'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-013",
@@ -290,7 +343,11 @@
    "explanation": "Names of subjects ending in -s, such as mathematics, are singular.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-014",
@@ -311,7 +368,11 @@
    "explanation": "The subject is 'One', not 'books', so the singular verb 'is' is used.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-015",
@@ -330,7 +391,10 @@
    "explanation": "Furniture is uncountable and singular in grammar.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-016",
@@ -350,7 +414,10 @@
    "explanation": "The word 'police' refers to a group of officers and always takes a plural verb.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-017",
@@ -371,7 +438,11 @@
    "explanation": "'Honest' begins with a vowel sound because the h is silent, so 'an' is used.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-018",
@@ -392,7 +463,11 @@
    "explanation": "'University' begins with a 'yoo' consonant sound, so 'a' is used.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-019",
@@ -413,7 +488,11 @@
    "explanation": "Names of rivers take the definite article: the Ganga.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-020",
@@ -434,7 +513,11 @@
    "explanation": "'Time' is uncountable, and 'little' means hardly any, which fits the sense of shortage.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-021",
@@ -455,7 +538,11 @@
    "explanation": "'Both' refers to two people together and takes a plural verb.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-022",
@@ -476,7 +563,11 @@
    "explanation": "'The' is used with the sun and with directions; games and meals take no article here, and 'European' needs 'a'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-023",
@@ -495,7 +586,10 @@
    "explanation": "The first mention takes an indefinite article; the second mention is specific, so 'the'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-024",
@@ -515,7 +609,10 @@
    "explanation": "'An' goes before vowel sounds and 'a' before consonant sounds.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-025",
@@ -536,7 +633,11 @@
    "explanation": "'Over' shows movement across the top of something.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-026",
@@ -557,7 +658,11 @@
    "explanation": "'Since' marks the starting point of a continuing action in the present perfect continuous.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-027",
@@ -578,7 +683,11 @@
    "explanation": "The adjective 'afraid' is followed by the preposition 'of'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-028",
@@ -599,7 +708,11 @@
    "explanation": "'Because of' is followed by a noun phrase; 'because' needs a full clause.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-029",
@@ -620,7 +733,11 @@
    "explanation": "'Yet' shows contrast between being tired and continuing to work.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-030",
@@ -641,7 +758,11 @@
    "explanation": "'Or' (meaning otherwise) joins a command to its warning of consequence.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-031",
@@ -660,7 +781,10 @@
    "explanation": "'Although' joins two ideas that contrast with each other.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-032",
@@ -680,7 +804,10 @@
    "explanation": "The two words look alike but have different meanings.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-033",
@@ -701,7 +828,11 @@
    "explanation": "'Must' expresses duty or obligation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-034",
@@ -722,7 +853,11 @@
    "explanation": "'May' is used to ask permission politely.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-035",
@@ -743,7 +878,11 @@
    "explanation": "'Could' is the past form of 'can' for ability in the past.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-036",
@@ -764,7 +903,11 @@
    "explanation": "'Must not' expresses a strong prohibition because of danger.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-037",
@@ -785,7 +928,12 @@
    "explanation": "'To' follows 'have' to express necessity: have to.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "unsure",
+    "checkerAnswer": "A",
+    "note": "\"should\" (or \"must\") would also fit: both express obligation here, so the item is ambiguous. Reviewed: the key is right; the checker was wrong."
+   }
   },
   {
    "id": "english-c10-038",
@@ -806,7 +954,11 @@
    "explanation": "'Could you please...?' is the polite, question form of a request.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-039",
@@ -825,7 +977,10 @@
    "explanation": "'Ought to' is similar in meaning to 'should' and is followed by the base verb.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-040",
@@ -844,7 +999,10 @@
    "explanation": "Different modal verbs express different attitudes of the speaker.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-041",
@@ -865,7 +1023,11 @@
    "explanation": "Simple past active becomes 'was/were + past participle' in the passive.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-042",
@@ -886,7 +1048,11 @@
    "explanation": "Present continuous becomes 'is/are being + past participle'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-043",
@@ -907,7 +1073,11 @@
    "explanation": "'Was written' is simple past passive, so the active is simple past: wrote.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-044",
@@ -928,7 +1098,11 @@
    "explanation": "'Yesterday' needs a past tense; the passive past is 'was caught'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-045",
@@ -949,7 +1123,11 @@
    "explanation": "A general fact in the passive uses 'is/are + past participle'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-046",
@@ -970,7 +1148,11 @@
    "explanation": "'Sleeps' is intransitive and has no object, so there is nothing to become the subject of a passive sentence.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-047",
@@ -989,7 +1171,10 @@
    "explanation": "Simple future passive is 'will be + past participle'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-048",
@@ -1008,7 +1193,10 @@
    "explanation": "Questions with 'who' change to 'by whom' in the passive.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-049",
@@ -1029,7 +1217,11 @@
    "explanation": "The pronoun 'I' becomes 'he' and the present tense changes to the past: was.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-050",
@@ -1050,7 +1242,11 @@
    "explanation": "Will changes to would, 'I' to 'she', 'you' to 'me', and 'tomorrow' to 'the next day'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-051",
@@ -1071,7 +1267,11 @@
    "explanation": "In reported questions the word order becomes that of a statement and the tense moves back.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-052",
@@ -1092,7 +1292,11 @@
    "explanation": "Yes/no questions are reported with 'if' or 'whether', in statement order.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-053",
@@ -1113,7 +1317,11 @@
    "explanation": "A negative command is reported with 'told ... not to + verb'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-054",
@@ -1134,7 +1342,11 @@
    "explanation": "An exclamation is reported with 'exclaimed with sorrow that'; the present perfect becomes the past perfect and the pronouns change.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-055",
@@ -1155,7 +1367,10 @@
    "explanation": "Reverse the changes of tense, pronoun and time expression.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-056",
@@ -1175,7 +1390,10 @@
    "explanation": "A wh-question is reported with the same question word, in statement order.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-057",
@@ -1196,7 +1414,11 @@
    "explanation": "The clause is the object of 'know', so it does the work of a noun.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-058",
@@ -1217,7 +1439,11 @@
    "explanation": "'Although' correctly shows the contrast between working hard and failing.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-059",
@@ -1238,7 +1464,11 @@
    "explanation": "'Too ... to' has a negative sense, which becomes 'so ... that ... cannot'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-060",
@@ -1259,7 +1489,11 @@
    "explanation": "The positive degree says that no other mountain equals Everest in height.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-061",
@@ -1280,7 +1514,11 @@
    "explanation": "A compound sentence joins two independent clauses with a coordinating conjunction such as 'but'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-062",
@@ -1301,7 +1539,11 @@
    "explanation": "'When the bell rang' tells us the time of the action and cannot stand alone.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-063",
@@ -1320,7 +1562,10 @@
    "explanation": "Both patterns say that one event followed immediately after the other.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-064",
@@ -1339,7 +1584,10 @@
    "explanation": "'Who' replaces 'she' and joins the two sentences.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-065",
@@ -1360,7 +1608,11 @@
    "explanation": "An exclamation begins with a capital letter and ends with an exclamation mark.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-066",
@@ -1381,7 +1633,11 @@
    "explanation": "'Girl's' shows possession by one girl; the other sentences misuse the apostrophe.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-067",
@@ -1402,7 +1658,11 @@
    "explanation": "Commas separate items in a list, with 'and' joining the last two.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-068",
@@ -1423,7 +1683,11 @@
    "explanation": "A comma introduces the quotation, which begins with a capital letter and ends with its own question mark inside the quotes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-069",
@@ -1444,7 +1708,11 @@
    "explanation": "A semicolon can join two related independent clauses, with a comma after 'however'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-070",
@@ -1465,7 +1733,12 @@
    "explanation": "A comma before a name addressed directly separates the person spoken to from the rest of the sentence.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "disagree",
+    "checkerAnswer": "B",
+    "note": " Reviewed: the key is right; the checker was wrong."
+   }
   },
   {
    "id": "english-c10-071",
@@ -1485,7 +1758,10 @@
    "explanation": "Direct speech is enclosed in inverted commas and introduced by a comma.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-072",
@@ -1504,7 +1780,10 @@
    "explanation": "Commas can change whether a clause describes everyone or picks out some.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-073",
@@ -1525,7 +1804,11 @@
    "explanation": "'Rapid' means fast, the same as 'quick'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-074",
@@ -1546,7 +1829,11 @@
    "explanation": "A generous person gives freely; a miserly person hates to give.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-075",
@@ -1567,7 +1854,11 @@
    "explanation": "'Alleviate' means to relieve or reduce; the other words mean to make worse.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-076",
@@ -1588,7 +1879,11 @@
    "explanation": "Before the letter l the prefix in- becomes il-: illegal.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-077",
@@ -1609,7 +1904,11 @@
    "explanation": "The noun derived from 'decide' is 'decision'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-078",
@@ -1630,7 +1929,11 @@
    "explanation": "A meticulous person pays close attention to every detail.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-079",
@@ -1650,7 +1953,10 @@
    "explanation": "Suffixes such as -ry, -dom and -om turn adjectives into abstract nouns.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-080",
@@ -1670,7 +1976,10 @@
    "explanation": "The two words are often confused because of their similar sound.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-081",
@@ -1691,7 +2000,11 @@
    "explanation": "'A piece of cake' means a task that is very easy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-082",
@@ -1712,7 +2025,11 @@
    "explanation": "To break the ice is to relieve the tension when people first meet.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-083",
@@ -1733,7 +2050,11 @@
    "explanation": "The idiom means something happens very seldom.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-084",
@@ -1754,7 +2075,11 @@
    "explanation": "To bury the hatchet is to make peace after a disagreement.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-085",
@@ -1775,7 +2100,11 @@
    "explanation": "'Give up' means to stop or abandon a habit or effort.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-086",
@@ -1796,7 +2125,11 @@
    "explanation": "'Called off' means cancelled.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-087",
@@ -1815,7 +2148,10 @@
    "explanation": "The idiom describes a misfortune that turns out well.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-088",
@@ -1834,7 +2170,10 @@
    "explanation": "The idiom is used when a secret is disclosed carelessly.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-089",
@@ -1855,7 +2194,11 @@
    "explanation": "The passage says she watered the tulsi plant first.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-090",
@@ -1876,7 +2219,11 @@
    "explanation": "She compared plants to people and stressed a regular daily routine.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-091",
@@ -1897,7 +2244,11 @@
    "explanation": "She copied the routine and saw her mint grow, which suggests she came to believe in it.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-092",
@@ -1916,7 +2267,10 @@
    "explanation": "Seeing the result convinced her.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-093",
@@ -1937,7 +2291,11 @@
    "explanation": "The passage says it opens at nine.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-094",
@@ -1958,7 +2316,11 @@
    "explanation": "Issuing books is not mentioned among his early-morning tasks.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-095",
@@ -1979,7 +2341,11 @@
    "explanation": "His early arrival and twenty years without a day off show dedication.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-096",
@@ -1998,7 +2364,10 @@
    "explanation": "He gives this reason in his own words.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-097",
@@ -2019,7 +2388,11 @@
    "explanation": "He tapped the ground in front of him with a stick.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-098",
@@ -2040,7 +2413,11 @@
    "explanation": "The thick fog hid the road.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-099",
@@ -2061,7 +2438,11 @@
    "explanation": "Shivering is a reaction to cold or fear, and the calf was lost in a foggy ditch.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-100",
@@ -2080,7 +2461,10 @@
    "explanation": "The last sentence of the passage states this.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-101",
@@ -2101,7 +2485,11 @@
    "explanation": "The passage names it the waggle dance.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-102",
@@ -2122,7 +2510,11 @@
    "explanation": "The passage says the direction shows where the flowers are.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-103",
@@ -2143,7 +2535,11 @@
    "explanation": "The dance passes on the location and distance of nectar to other bees.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-104",
@@ -2163,7 +2559,10 @@
    "explanation": "The dance carries both direction and distance information.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-105",
@@ -2184,7 +2583,11 @@
    "explanation": "A scientific fact is stated in the simple present; 'water' is singular, so boils.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-106",
@@ -2205,7 +2608,11 @@
    "explanation": "An action in progress in the past when another action happened needs the past continuous.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-107",
@@ -2226,7 +2633,11 @@
    "explanation": "'For twenty minutes now' shows an action continuing up to the present: present perfect continuous.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-108",
@@ -2247,7 +2658,11 @@
    "explanation": "After a past reporting verb, an earlier completed action takes the past perfect: had seen.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-109",
@@ -2268,7 +2683,11 @@
    "explanation": "'Look!' points to an action happening now, so the present continuous is used.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-110",
@@ -2289,7 +2708,11 @@
    "explanation": "A likely future condition uses the simple present in the if-clause and 'will' in the main clause.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-111",
@@ -2308,7 +2731,10 @@
    "explanation": "Past continuous is formed with was/were + the -ing form.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-112",
@@ -2327,7 +2753,10 @@
    "explanation": "An action that began in the past and continues now with 'since' takes the present perfect (continuous).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-113",
@@ -2348,7 +2777,11 @@
    "explanation": "Two subjects joined by 'and' take a plural verb.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-114",
@@ -2369,7 +2802,11 @@
    "explanation": "A singular subject takes 'is'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-115",
@@ -2390,7 +2827,11 @@
    "explanation": "'News' looks plural but is an uncountable singular noun.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-116",
@@ -2411,7 +2852,11 @@
    "explanation": "'Scissors' is a plural noun and takes a plural verb.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-117",
@@ -2432,7 +2877,11 @@
    "explanation": "'Along with' does not make the subject plural; the verb agrees with 'Rohit'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-118",
@@ -2453,7 +2902,11 @@
    "explanation": "'Each of' takes a singular verb: has.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-119",
@@ -2472,7 +2925,10 @@
    "explanation": "The verb agrees with the subject 'boys', not with 'team'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-120",
@@ -2491,7 +2947,10 @@
    "explanation": "The verb agrees with the head noun, not the noun in the phrase after 'of'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-121",
@@ -2512,7 +2971,12 @@
    "explanation": "'Engineer' begins with a vowel sound, so 'an' is used.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "disagree",
+    "checkerAnswer": "A",
+    "note": " Reviewed: the key is right; the checker was wrong."
+   }
   },
   {
    "id": "english-c10-122",
@@ -2533,7 +2997,11 @@
    "explanation": "'One' starts with a 'w' sound, a consonant sound, so 'a' is used.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-123",
@@ -2554,7 +3022,11 @@
    "explanation": "Mountain ranges take the definite article: the Himalayas.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-124",
@@ -2575,7 +3047,11 @@
    "explanation": "'Neither' is used for two things; 'none' is used for three or more.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-125",
@@ -2596,7 +3072,11 @@
    "explanation": "'Mangoes' is countable and plural, so 'many' is used.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-126",
@@ -2617,7 +3097,11 @@
    "explanation": "'Advice', 'information' and 'furniture' are uncountable and have no plural form or 'a'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-127",
@@ -2636,7 +3120,10 @@
    "explanation": "Choose the determiner according to whether the noun is countable.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-128",
@@ -2655,7 +3142,10 @@
    "explanation": "The is used with things that are the only one of their kind.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-129",
@@ -2676,7 +3166,11 @@
    "explanation": "'In' is used with years.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-130",
@@ -2697,7 +3191,11 @@
    "explanation": "'On' shows that something rests on a surface.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-131",
@@ -2718,7 +3216,11 @@
    "explanation": "The verb 'apologise' is followed by 'for'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-132",
@@ -2739,7 +3241,11 @@
    "explanation": "'Across' shows movement from one side to the other.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-133",
@@ -2760,7 +3266,11 @@
    "explanation": "'Until' shows the time up to which the waiting continues.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-134",
@@ -2781,7 +3291,11 @@
    "explanation": "The adjective 'good' takes 'at' when talking about a skill.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-135",
@@ -2800,7 +3314,10 @@
    "explanation": "These adjectives take fixed prepositions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-136",
@@ -2819,7 +3336,10 @@
    "explanation": "'Unless' already carries the negative meaning.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-137",
@@ -2840,7 +3360,11 @@
    "explanation": "'Can' expresses ability.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-138",
@@ -2861,7 +3385,11 @@
    "explanation": "'Can you...?' is a common way to ask for help.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-139",
@@ -2882,7 +3410,11 @@
    "explanation": "'May' expresses a possibility based on what we see.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-140",
@@ -2903,7 +3435,11 @@
    "explanation": "'Would like' is the polite way of saying what one wants.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-141",
@@ -2924,7 +3460,11 @@
    "explanation": "'Should' is used to give advice.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-142",
@@ -2945,7 +3485,11 @@
    "explanation": "A modal verb is followed by the base form of the verb, without 'to' or -s.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-143",
@@ -2964,7 +3508,10 @@
    "explanation": "'Must' states an obligation briefly.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-144",
@@ -2983,7 +3530,10 @@
    "explanation": "Needn't removes an obligation, while mustn't forbids an action.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-145",
@@ -3004,7 +3554,11 @@
    "explanation": "The passive of the simple past is was + past participle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-146",
@@ -3025,7 +3579,11 @@
    "explanation": "The subject receives the action, so the passive 'was baked' is needed.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-147",
@@ -3046,7 +3604,11 @@
    "explanation": "Present perfect active becomes has/have been + past participle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-148",
@@ -3067,7 +3629,11 @@
    "explanation": "An imperative becomes passive with 'Let ... be + past participle'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-149",
@@ -3088,7 +3654,11 @@
    "explanation": "Simple present passive: is/are + past participle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-150",
@@ -3109,7 +3679,11 @@
    "explanation": "In the passive the subject (mural) receives the action.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-151",
@@ -3128,7 +3702,10 @@
    "explanation": "Present continuous passive is am/is/are being + past participle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-152",
@@ -3147,7 +3724,10 @@
    "explanation": "The doer of the action becomes the subject of the active question.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-153",
@@ -3168,7 +3748,11 @@
    "explanation": "Present tense becomes past tense and 'I' becomes 'he'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-154",
@@ -3189,7 +3773,11 @@
    "explanation": "Present continuous changes to past continuous and the pronoun to 'she'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-155",
@@ -3210,7 +3798,11 @@
    "explanation": "Present perfect becomes past perfect, and 'I' and 'my' become 'he' and 'his'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-156",
@@ -3231,7 +3823,11 @@
    "explanation": "The question becomes a statement in order, the tense changes, and 'your' becomes 'my'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-157",
@@ -3252,7 +3848,11 @@
    "explanation": "A command is reported with 'ordered/told ... to + verb'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-158",
@@ -3273,7 +3873,11 @@
    "explanation": "Past simple becomes past perfect, 'you' becomes 'I', and 'yesterday' becomes 'the day before'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-159",
@@ -3293,7 +3897,10 @@
    "explanation": "Apply the usual changes of tense, pronoun and time word.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-160",
@@ -3313,7 +3920,10 @@
    "explanation": "A reported command becomes an imperative sentence in direct speech.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-161",
@@ -3334,7 +3944,11 @@
    "explanation": "A clause contains a subject and a predicate, unlike a phrase.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-162",
@@ -3355,7 +3969,11 @@
    "explanation": "A simple sentence has one subject and one finite verb.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-163",
@@ -3376,7 +3994,11 @@
    "explanation": "The two parts of the pair must be placed directly before the words they join.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-164",
@@ -3397,7 +4019,11 @@
    "explanation": "'What a + adjective + noun' forms an exclamation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-165",
@@ -3418,7 +4044,12 @@
    "explanation": "If gold is more precious, then silver is less precious: not so precious as gold.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "disagree",
+    "checkerAnswer": "A",
+    "note": " Reviewed: the key is right; the checker was wrong."
+   }
   },
   {
    "id": "english-c10-166",
@@ -3439,7 +4070,11 @@
    "explanation": "'That I borrowed' describes the noun 'book'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-167",
@@ -3458,7 +4093,10 @@
    "explanation": "A positive statement can be turned into a negative one with the opposite word.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-168",
@@ -3477,7 +4115,10 @@
    "explanation": "'Too ... to' already has a negative sense.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-169",
@@ -3498,7 +4139,11 @@
    "explanation": "A full stop ends a statement.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-170",
@@ -3519,7 +4164,11 @@
    "explanation": "The first word of a sentence, names of places and names of months begin with capitals.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-171",
@@ -3540,7 +4189,11 @@
    "explanation": "For a plural noun ending in -s, the apostrophe goes after the s.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-172",
@@ -3561,7 +4214,11 @@
    "explanation": "A colon follows a complete statement to introduce a list.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-173",
@@ -3582,7 +4239,11 @@
    "explanation": "A comma follows the introductory word 'Well'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-174",
@@ -3603,7 +4264,11 @@
    "explanation": "A comma goes inside the first quotation and another after the speaker tag, because the sentence continues.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-175",
@@ -3623,7 +4288,10 @@
    "explanation": "A question in direct speech keeps its question mark before the closing quote.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-176",
@@ -3642,7 +4310,10 @@
    "explanation": "The apostrophe in it's marks missing letters, not possession.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-177",
@@ -3663,7 +4334,11 @@
    "explanation": "'Enormous' means very large, like 'huge'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-178",
@@ -3684,7 +4359,11 @@
    "explanation": "'Ancient' means very old; its opposite is 'modern'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-179",
@@ -3705,7 +4384,11 @@
    "explanation": "A poet writes poetry.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-180",
@@ -3726,7 +4409,11 @@
    "explanation": "'Necessary' has one c and two s's.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-181",
@@ -3747,7 +4434,11 @@
    "explanation": "-less means without: careless means without care.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-182",
@@ -3768,7 +4459,11 @@
    "explanation": "Homophones sound the same but differ in meaning and spelling; flour and flower are pronounced alike.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-183",
@@ -3788,7 +4483,10 @@
    "explanation": "Antonyms are words of opposite meaning.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-184",
@@ -3808,7 +4506,10 @@
    "explanation": "Suffixes such as -ful and -ous turn nouns into adjectives.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-185",
@@ -3829,7 +4530,11 @@
    "explanation": "To be under the weather is to feel unwell.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-186",
@@ -3850,7 +4555,11 @@
    "explanation": "To spill the beans is to give away a secret.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-187",
@@ -3871,7 +4580,11 @@
    "explanation": "The idiom means to be extremely expensive.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-188",
@@ -3892,7 +4605,11 @@
    "explanation": "It means to be exactly right about something.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-189",
@@ -3913,7 +4630,11 @@
    "explanation": "'Look after' means to take care of someone or something.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-190",
@@ -3934,7 +4655,11 @@
    "explanation": "'Go over' means to review or check carefully.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-191",
@@ -3953,7 +4678,10 @@
    "explanation": "The idiom is about changing one's habits for the better.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-192",
@@ -3972,7 +4700,10 @@
    "explanation": "'Put off' is used when an event is moved to a later time.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-193",
@@ -3993,7 +4724,11 @@
    "explanation": "The passage says she gathered nearly two hundred books.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-194",
@@ -4014,7 +4749,11 @@
    "explanation": "The books were kept on shelves in her veranda.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-195",
@@ -4035,7 +4774,11 @@
    "explanation": "Children bringing their own books shows they were encouraged by her project.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-196",
@@ -4054,7 +4797,10 @@
    "explanation": "The first sentence gives the reason.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-197",
@@ -4075,7 +4821,11 @@
    "explanation": "The first sentence names the banyan.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-198",
@@ -4096,7 +4846,11 @@
    "explanation": "The passage describes roots growing down from the branches.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-199",
@@ -4117,7 +4871,11 @@
    "explanation": "New trunks let it widen over a very large area.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-200",
@@ -4137,7 +4895,10 @@
    "explanation": "The passage explains the process step by step.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-201",
@@ -4158,7 +4919,11 @@
    "explanation": "He found his mother in the third row.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-202",
@@ -4179,7 +4944,11 @@
    "explanation": "He followed his teacher's advice.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-203",
@@ -4200,7 +4969,11 @@
    "explanation": "Cold hands and the feeling of being stared at show nervousness.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-204",
@@ -4220,7 +4993,10 @@
    "explanation": "Physical signs show his fear; the advice helped him calm down.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-205",
@@ -4241,7 +5017,11 @@
    "explanation": "The first sentence defines it.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-206",
@@ -4262,7 +5042,11 @@
    "explanation": "Washing, gardening and (treated) drinking are named.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-207",
@@ -4283,7 +5067,11 @@
    "explanation": "Water allowed to seep into the soil raises the groundwater level.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-208",
@@ -4303,7 +5091,10 @@
    "explanation": "The second sentence lists the uses.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-209",
@@ -4324,7 +5115,11 @@
    "explanation": "A universal truth is stated in the simple present, with -s for a singular subject.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-210",
@@ -4345,7 +5140,11 @@
    "explanation": "'At this moment' needs the present continuous: is writing.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-211",
@@ -4366,7 +5165,11 @@
    "explanation": "'Since' with a past starting point and a continuing action takes the present perfect.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-212",
@@ -4387,7 +5190,11 @@
    "explanation": "The baking was completed before another past action, so the past perfect is used.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-213",
@@ -4408,7 +5215,11 @@
    "explanation": "An action in progress at a future time uses the future continuous.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-214",
@@ -4429,7 +5240,11 @@
    "explanation": "The present perfect cannot be used with a finished time like 'yesterday', and 'know' is not used in the continuous.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-215",
@@ -4448,7 +5263,10 @@
    "explanation": "The train's departure happened before my arrival, so the past perfect is used.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-216",
@@ -4467,7 +5285,10 @@
    "explanation": "A finished time expression requires the simple past.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-217",
@@ -4488,7 +5309,11 @@
    "explanation": "A plural subject takes the plural simple present verb: play.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-218",
@@ -4509,7 +5334,11 @@
    "explanation": "A singular subject takes lives.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-219",
@@ -4530,7 +5359,11 @@
    "explanation": "'Milk' is uncountable, so the verb is singular: was.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-220",
@@ -4551,7 +5384,11 @@
    "explanation": "'Both' is plural, so it takes 'are'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-221",
@@ -4572,7 +5409,11 @@
    "explanation": "'As well as' does not change the number of the subject, which is 'woman'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-222",
@@ -4593,7 +5434,11 @@
    "explanation": "The subject 'bunch' is singular, so the verb is 'was'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-223",
@@ -4612,7 +5457,10 @@
    "explanation": "The verb agrees with 'list', not with 'items'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-224",
@@ -4631,7 +5479,10 @@
    "explanation": "With fractions, the noun that follows decides the verb.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-225",
@@ -4652,7 +5503,11 @@
    "explanation": "'Umbrella' begins with a vowel sound, so 'an' is used.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-226",
@@ -4673,7 +5528,11 @@
    "explanation": "'Unique' begins with a 'yoo' sound, a consonant sound, so 'a' is used.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-227",
@@ -4694,7 +5553,11 @@
    "explanation": "Names of oceans take the definite article.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-228",
@@ -4715,7 +5578,11 @@
    "explanation": "'Friends' is countable and plural, so 'many' is used.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-229",
@@ -4736,7 +5603,11 @@
    "explanation": "'Sugar' is uncountable, and 'very little' means hardly any.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-230",
@@ -4757,7 +5628,11 @@
    "explanation": "'Hour' begins with a vowel sound, so 'an' is correct; the other sentences misuse articles.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-231",
@@ -4776,7 +5651,10 @@
    "explanation": "Superlatives take 'the'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-232",
@@ -4795,7 +5673,10 @@
    "explanation": "This construction turns an adjective into a group noun.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-233",
@@ -4816,7 +5697,11 @@
    "explanation": "'Among' is used for more than two persons or things.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-234",
@@ -4837,7 +5722,11 @@
    "explanation": "The fixed expression is 'on foot'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-235",
@@ -4858,7 +5747,11 @@
    "explanation": "'For' is used with a period of time.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-236",
@@ -4879,7 +5772,11 @@
    "explanation": "'Prefer' is followed by 'to', not 'than'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-237",
@@ -4900,7 +5797,11 @@
    "explanation": "'So that' introduces a purpose.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-238",
@@ -4921,7 +5822,11 @@
    "explanation": "The verb 'insist' takes the preposition 'on'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-239",
@@ -4940,7 +5845,10 @@
    "explanation": "'Because' joins an effect with its cause.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-240",
@@ -4959,7 +5867,10 @@
    "explanation": "We are angry with a person and for something done.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-241",
@@ -4980,7 +5891,11 @@
    "explanation": "'Could' expresses ability in the past.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-242",
@@ -5001,7 +5916,11 @@
    "explanation": "'May I' is used to ask for permission.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-243",
@@ -5022,7 +5941,11 @@
    "explanation": "'Must' expresses a logical conclusion from evidence.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-244",
@@ -5043,7 +5966,11 @@
    "explanation": "'Would you like...?' is the polite way to make an offer.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-245",
@@ -5064,7 +5991,11 @@
    "explanation": "'Should' expresses duty or what is expected.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-246",
@@ -5085,7 +6016,11 @@
    "explanation": "'Must not' forbids an action.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-247",
@@ -5104,7 +6039,10 @@
    "explanation": "'Is able to' and 'can' both express ability.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-248",
@@ -5124,7 +6062,10 @@
    "explanation": "Modal verbs do not change form for the third person.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-249",
@@ -5145,7 +6086,11 @@
    "explanation": "The passive of the simple past is was + past participle (sung).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-250",
@@ -5166,7 +6111,11 @@
    "explanation": "A plural subject in the simple present passive takes 'are + past participle'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-251",
@@ -5187,7 +6136,11 @@
    "explanation": "Past perfect active becomes had been + past participle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-252",
@@ -5208,7 +6161,11 @@
    "explanation": "Simple present questions become 'Is/Are + subject + past participle', and 'know' usually takes 'to'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-253",
@@ -5229,7 +6186,11 @@
    "explanation": "Future passive: will be + past participle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-254",
@@ -5250,7 +6211,11 @@
    "explanation": "In 'The farmers grow rice' the subject performs the action.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-255",
@@ -5269,7 +6234,10 @@
    "explanation": "Simple present passive is is/are + past participle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-256",
@@ -5288,7 +6256,10 @@
    "explanation": "Sentences with 'say that' often take the passive form 'It is said that'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-257",
@@ -5309,7 +6280,11 @@
    "explanation": "The present tense becomes the past, and 'I' becomes 'she'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-258",
@@ -5330,7 +6305,11 @@
    "explanation": "'Can' changes to 'could' and 'I' to 'he'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-259",
@@ -5351,7 +6330,11 @@
    "explanation": "'My' becomes 'her', 'is coming' becomes 'was coming', and 'today' becomes 'that day'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-260",
@@ -5372,7 +6355,11 @@
    "explanation": "A yes/no question is reported with 'if', in statement order.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-261",
@@ -5393,7 +6380,11 @@
    "explanation": "A polite request is reported with 'requested ... to + verb'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-262",
@@ -5414,7 +6405,11 @@
    "explanation": "'Hurrah' shows joy; 'we' becomes 'they' and the present perfect becomes the past perfect.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-263",
@@ -5434,7 +6429,10 @@
    "explanation": "Reporting changes the tense and the pronouns.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-264",
@@ -5454,7 +6452,10 @@
    "explanation": "A reported yes/no question becomes a direct question with inverted word order.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-265",
@@ -5475,7 +6476,11 @@
    "explanation": "'But' joins two clauses of equal rank; the others introduce subordinate clauses.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-266",
@@ -5496,7 +6501,11 @@
    "explanation": "It has a main clause and a subordinate clause beginning with 'because'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-267",
@@ -5517,7 +6526,11 @@
    "explanation": "'Who' is the subject of 'lives' and refers to a person.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-268",
@@ -5538,7 +6551,11 @@
    "explanation": "The superlative is rewritten as a comparative with 'than any other'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-269",
@@ -5559,7 +6576,12 @@
    "explanation": "'Nobody dislikes' keeps the original meaning in a negative form.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "disagree",
+    "checkerAnswer": "A",
+    "note": " Reviewed: the key is right; the checker was wrong."
+   }
   },
   {
    "id": "english-c10-270",
@@ -5580,7 +6602,11 @@
    "explanation": "'Where she lives' is the object of 'know' and so acts as a noun.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-271",
@@ -5599,7 +6625,10 @@
    "explanation": "A rhetorical 'Who can...?' means 'No one can...'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-272",
@@ -5618,7 +6647,10 @@
    "explanation": "A participle phrase shows that one action was completed before the other.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-273",
@@ -5639,7 +6671,11 @@
    "explanation": "A direct question ends with a question mark and begins with a capital letter.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-274",
@@ -5660,7 +6696,11 @@
    "explanation": "The first word of a sentence and the name of a city begin with capitals.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-275",
@@ -5681,7 +6721,11 @@
    "explanation": "Commas enclose a phrase that adds extra information.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-276",
@@ -5702,7 +6746,11 @@
    "explanation": "'Children' is an irregular plural not ending in s, so 's is added.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-277",
@@ -5723,7 +6771,11 @@
    "explanation": "The compound noun is written sister-in-law with two hyphens.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-278",
@@ -5744,7 +6796,11 @@
    "explanation": "The exclamation mark goes inside the quotation marks, and the speaker tag begins with a small letter.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-279",
@@ -5764,7 +6820,10 @@
    "explanation": "The spoken question is placed in inverted commas and ends with a question mark.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-280",
@@ -5783,7 +6842,10 @@
    "explanation": "Commas set off extra information that can be removed without changing the main sentence.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-281",
@@ -5804,7 +6866,11 @@
    "explanation": "'Begin' and 'start' have the same meaning.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-282",
@@ -5825,7 +6891,11 @@
    "explanation": "A brave person is fearless; a cowardly person is full of fear.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-283",
@@ -5846,7 +6916,11 @@
    "explanation": "A pedestrian walks along roads rather than travelling in a vehicle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-284",
@@ -5867,7 +6941,11 @@
    "explanation": "'Separate' has an 'a' after the p: sep-a-rate.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-285",
@@ -5888,7 +6966,11 @@
    "explanation": "'Mis-' means wrongly or badly.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-286",
@@ -5909,7 +6991,11 @@
    "explanation": "'Reluctant' means unwilling or hesitant.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-287",
@@ -5929,7 +7015,10 @@
    "explanation": "These are irregular plurals.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-288",
@@ -5949,7 +7038,10 @@
    "explanation": "The words sound alike but differ in meaning.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-289",
@@ -5970,7 +7062,11 @@
    "explanation": "It is a way of wishing a performer good luck.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-290",
@@ -5991,7 +7087,11 @@
    "explanation": "The idiom means heavy rain.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-291",
@@ -6012,7 +7112,11 @@
    "explanation": "It means to stop doing something, usually work, for the time being.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-292",
@@ -6033,7 +7137,11 @@
    "explanation": "The black sheep is a member who is regarded as a failure or disgrace.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-293",
@@ -6054,7 +7162,11 @@
    "explanation": "'Carry out' means to do or perform a task.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-294",
@@ -6075,7 +7187,11 @@
    "explanation": "'Give up' means to abandon an effort.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-295",
@@ -6094,7 +7210,10 @@
    "explanation": "The idiom compares making things worse to feeding a fire.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-296",
@@ -6113,7 +7232,10 @@
    "explanation": "It is used when a supply is finished.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-297",
@@ -6134,7 +7256,11 @@
    "explanation": "The last sentence names barley and apricots.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-298",
@@ -6155,7 +7281,11 @@
    "explanation": "They use glacier water carried through channels.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-299",
@@ -6176,7 +7306,11 @@
    "explanation": "A desert gets very little rain; Ladakh also has freezing winters.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-300",
@@ -6196,7 +7330,10 @@
    "explanation": "Channelling glacier meltwater makes up for the lack of rain.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-301",
@@ -6217,7 +7354,11 @@
    "explanation": "The boy named Imran did the repair.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-302",
@@ -6238,7 +7379,11 @@
    "explanation": "The passage says he worked for two days.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-303",
@@ -6259,7 +7404,11 @@
    "explanation": "Patient work over two days shows steady effort.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-304",
@@ -6278,7 +7427,10 @@
    "explanation": "The passage states their reaction directly.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-305",
@@ -6299,7 +7451,11 @@
    "explanation": "The first sentence says dry grasslands.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-306",
@@ -6320,7 +7476,11 @@
    "explanation": "Its habitat has been turned into farms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-307",
@@ -6341,7 +7501,11 @@
    "explanation": "The passage states the purpose: birds can see them.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-308",
@@ -6361,7 +7525,10 @@
    "explanation": "The passage lists both causes and the conservation steps.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-309",
@@ -6382,7 +7549,11 @@
    "explanation": "The bus broke down halfway.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-310",
@@ -6403,7 +7574,11 @@
    "explanation": "The teacher proposed that each student describe the museum they imagined.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-311",
@@ -6424,7 +7599,11 @@
    "explanation": "Nobody grumbled about the delay, so the game worked.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-312",
@@ -6444,7 +7623,10 @@
    "explanation": "The passage describes the game and what the children said.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-313",
@@ -6465,7 +7647,11 @@
    "explanation": "A habit with a singular subject takes the simple present with -s.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-314",
@@ -6486,7 +7672,11 @@
    "explanation": "'Listen!' points to an action happening now, so the present continuous is used.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-315",
@@ -6507,7 +7697,11 @@
    "explanation": "'Since childhood' with a state continuing to now needs the present perfect: have known.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-316",
@@ -6528,7 +7722,11 @@
    "explanation": "The match started before another past action, so the past perfect is used.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-317",
@@ -6549,7 +7747,11 @@
    "explanation": "An action in progress at a particular future time takes the future continuous.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-318",
@@ -6570,7 +7772,11 @@
    "explanation": "After 'when' and 'if' referring to the future, the simple present is used, not 'will'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-319",
@@ -6589,7 +7795,10 @@
    "explanation": "The present perfect uses have/has with the past participle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-320",
@@ -6608,7 +7817,10 @@
    "explanation": "An action that began in the past and still continues takes the present perfect continuous.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-321",
@@ -6629,7 +7841,11 @@
    "explanation": "'Flowers' is plural, so the verb is 'are'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-322",
@@ -6650,7 +7866,11 @@
    "explanation": "A singular subject takes 'does' in the simple present.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-323",
@@ -6671,7 +7891,11 @@
    "explanation": "'Everyone' is singular, so it takes 'is'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-324",
@@ -6692,7 +7916,11 @@
    "explanation": "Two subjects joined by 'and' are plural.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-325",
@@ -6713,7 +7941,11 @@
    "explanation": "The subject is 'quality', which is singular.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-326",
@@ -6734,7 +7966,11 @@
    "explanation": "With 'neither ... nor', the verb agrees with the nearer subject, 'girl', which is singular.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-327",
@@ -6753,7 +7989,10 @@
    "explanation": "'Scenery' is an uncountable noun.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-328",
@@ -6772,7 +8011,10 @@
    "explanation": "The title of a single book or film takes a singular verb.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-329",
@@ -6793,7 +8035,11 @@
    "explanation": "'Interesting' begins with a vowel sound, so 'an' is used.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-330",
@@ -6814,7 +8060,11 @@
    "explanation": "'Useful' begins with a 'yoo' consonant sound, so 'a' is used.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-331",
@@ -6835,7 +8085,11 @@
    "explanation": "A well-known unique building takes the definite article.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-332",
@@ -6856,7 +8110,11 @@
    "explanation": "'Interest' is uncountable, and 'little' means hardly any.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-333",
@@ -6877,7 +8135,11 @@
    "explanation": "'Every' is followed by a singular noun.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-334",
@@ -6898,7 +8160,11 @@
    "explanation": "'Astronaut' begins with a vowel sound, so 'an' is correct.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-335",
@@ -6917,7 +8183,10 @@
    "explanation": "'Some' is normally used in affirmative sentences and 'any' in questions and negatives.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-336",
@@ -6936,7 +8205,10 @@
    "explanation": "The article changes the meaning from positive to negative.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-337",
@@ -6957,7 +8229,11 @@
    "explanation": "'On' is used for something attached to a surface.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-338",
@@ -6978,7 +8254,11 @@
    "explanation": "'Into' shows movement to the inside of something.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-339",
@@ -6999,7 +8279,11 @@
    "explanation": "The adjective 'interested' is followed by 'in'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-340",
@@ -7020,7 +8304,11 @@
    "explanation": "'Since' is used with a point in time.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-341",
@@ -7041,7 +8329,11 @@
    "explanation": "'But' links two contrasting ideas.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-342",
@@ -7062,7 +8354,11 @@
    "explanation": "Adjectives such as senior and junior are followed by 'to', not 'than'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-343",
@@ -7081,7 +8377,10 @@
    "explanation": "'So that' joins a purpose clause to the main clause.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-344",
@@ -7100,7 +8399,10 @@
    "explanation": "These words take fixed prepositions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-345",
@@ -7121,7 +8423,11 @@
    "explanation": "'Can' expresses ability.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-346",
@@ -7142,7 +8448,11 @@
    "explanation": "'Shall I...?' is used to offer help.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-347",
@@ -7163,7 +8473,11 @@
    "explanation": "'Must' expresses a strong logical conclusion.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-348",
@@ -7184,7 +8498,11 @@
    "explanation": "'Had better' is a fixed expression for strong advice.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-349",
@@ -7205,7 +8523,11 @@
    "explanation": "'Would rather' expresses preference.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-350",
@@ -7226,7 +8548,11 @@
    "explanation": "'Can speak' says that she is able to speak four languages.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-351",
@@ -7245,7 +8571,10 @@
    "explanation": "'May' replaces 'perhaps ... will'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-352",
@@ -7264,7 +8593,10 @@
    "explanation": "The two structures look alike but have different meanings.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-353",
@@ -7285,7 +8617,11 @@
    "explanation": "The thief receives the action, so the passive 'was caught' is used.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-354",
@@ -7306,7 +8642,11 @@
    "explanation": "The school receives the action in progress: is being built.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-355",
@@ -7327,7 +8667,11 @@
    "explanation": "Present continuous active becomes is/are being + past participle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-356",
@@ -7348,7 +8692,11 @@
    "explanation": "Present perfect active becomes has/have been + past participle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-357",
@@ -7369,7 +8717,11 @@
    "explanation": "'Who' becomes 'By whom' and the verb moves to was + past participle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-358",
@@ -7390,7 +8742,11 @@
    "explanation": "'Shines' is intransitive, so there is no object to become the subject.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-359",
@@ -7409,7 +8765,10 @@
    "explanation": "Simple past passive: was/were + past participle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-360",
@@ -7428,7 +8787,10 @@
    "explanation": "The vague agent 'someone' is normally left out in the passive.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-361",
@@ -7449,7 +8811,11 @@
    "explanation": "'We' becomes 'they' and 'are' becomes 'were'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-362",
@@ -7470,7 +8836,11 @@
    "explanation": "Present perfect becomes past perfect; 'I' and 'my' become 'she' and 'her'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-363",
@@ -7491,7 +8861,11 @@
    "explanation": "'Will' becomes 'would' and 'tomorrow' becomes 'the next day'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-364",
@@ -7512,7 +8886,11 @@
    "explanation": "The wh-question keeps its question word but takes statement order.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-365",
@@ -7533,7 +8911,11 @@
    "explanation": "A negative command is reported with 'told ... not to + verb', and 'here' becomes 'there'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-366",
@@ -7554,7 +8936,11 @@
    "explanation": "An exclamation is reported as a statement with 'exclaimed with delight that'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-367",
@@ -7574,7 +8960,10 @@
    "explanation": "The present tense moves back to the past tense.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-368",
@@ -7594,7 +8983,10 @@
    "explanation": "A reported wh-question becomes a direct question again.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-369",
@@ -7615,7 +9007,11 @@
    "explanation": "An imperative sentence gives a command or request.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-370",
@@ -7636,7 +9032,11 @@
    "explanation": "Two independent clauses are joined by 'yet', a coordinating conjunction.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-371",
@@ -7657,7 +9057,11 @@
    "explanation": "'Although' introduces the concession, followed by the main clause.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-372",
@@ -7678,7 +9082,11 @@
    "explanation": "The verb 'is' is moved before the subject to form a question.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-373",
@@ -7699,7 +9107,11 @@
    "explanation": "If Sita is wiser, then Gita is not so wise as Sita.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-374",
@@ -7720,7 +9132,11 @@
    "explanation": "'Because she had passed' gives the reason for her happiness.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-375",
@@ -7739,7 +9155,10 @@
    "explanation": "A participle phrase can be expanded into an adverb clause of time.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-376",
@@ -7758,7 +9177,10 @@
    "explanation": "'Neither ... nor' already contains the negation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-377",
@@ -7779,7 +9201,11 @@
    "explanation": "'It's' is the contraction of 'it is' and needs an apostrophe.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-378",
@@ -7800,7 +9226,11 @@
    "explanation": "The first word of a sentence and the name of a festival begin with capitals.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-379",
@@ -7821,7 +9251,11 @@
    "explanation": "A comma follows an introductory phrase.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-380",
@@ -7842,7 +9276,11 @@
    "explanation": "A comma introduces the quotation, and the full stop goes inside the closing quotation mark.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-381",
@@ -7863,7 +9301,11 @@
    "explanation": "The apostrophe takes the place of the missing letter o in 'do not'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-382",
@@ -7884,7 +9326,11 @@
    "explanation": "A semicolon joins two independent clauses, with a comma after 'therefore'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-383",
@@ -7904,7 +9350,10 @@
    "explanation": "The exclamation stays inside the quotation marks.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-384",
@@ -7923,7 +9372,10 @@
    "explanation": "A semicolon is stronger than a comma but weaker than a full stop.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-385",
@@ -7944,7 +9396,11 @@
    "explanation": "'Assist' means to help.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-386",
@@ -7965,7 +9421,11 @@
    "explanation": "To expand is to become larger; to shrink is to become smaller.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-387",
@@ -7986,7 +9446,11 @@
    "explanation": "An anthology is a collection of selected writings.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-388",
@@ -8007,7 +9471,11 @@
    "explanation": "'Accommodation' has double c and double m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-389",
@@ -8028,7 +9496,11 @@
    "explanation": "Readable means capable of being read.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-390",
@@ -8049,7 +9521,11 @@
    "explanation": "A cogent argument is clear, logical and convincing.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-391",
@@ -8069,7 +9545,10 @@
    "explanation": "Antonyms have opposite meanings.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-392",
@@ -8088,7 +9567,10 @@
    "explanation": "The words sound alike but are spelt and used differently.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-393",
@@ -8109,7 +9591,11 @@
    "explanation": "It means to joke with or tease someone.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-394",
@@ -8130,7 +9616,11 @@
    "explanation": "It means at the last possible moment.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-395",
@@ -8151,7 +9641,11 @@
    "explanation": "It means to watch something or someone carefully.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-396",
@@ -8172,7 +9666,11 @@
    "explanation": "It means to talk about unimportant matters instead of the main point.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-397",
@@ -8193,7 +9691,11 @@
    "explanation": "'Turn down' means to refuse.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-398",
@@ -8214,7 +9716,11 @@
    "explanation": "'Set up' means to establish something.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-399",
@@ -8233,7 +9739,10 @@
    "explanation": "The idiom describes a small problem treated as a big one.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-400",
@@ -8252,7 +9761,10 @@
    "explanation": "It is commonly used for vehicles and machines.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-401",
@@ -8273,7 +9785,11 @@
    "explanation": "He repairs bicycles in a tiny shop.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-402",
@@ -8294,7 +9810,11 @@
    "explanation": "The passage says he pumps air into tyres after school.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-403",
@@ -8315,7 +9835,11 @@
    "explanation": "He wants to grow the same trade and teach others.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-404",
@@ -8334,7 +9858,10 @@
    "explanation": "The passage quotes this belief.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-405",
@@ -8355,7 +9882,11 @@
    "explanation": "The passage lists air, water and solids.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-406",
@@ -8376,7 +9907,11 @@
    "explanation": "The passage says there is nothing to carry the waves.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-407",
@@ -8397,7 +9932,11 @@
    "explanation": "It illustrates that sound cannot cross empty space.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-408",
@@ -8417,7 +9956,10 @@
    "explanation": "The passage gives this cause directly.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-409",
@@ -8438,7 +9980,11 @@
    "explanation": "She found it on the pavement outside the market.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-410",
@@ -8459,7 +10005,11 @@
    "explanation": "The memory of her mother's worry changed her mind.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-411",
@@ -8480,7 +10030,11 @@
    "explanation": "She was strongly drawn to keeping the money for a book.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-412",
@@ -8500,7 +10054,10 @@
    "explanation": "Her choices show honesty and empathy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-413",
@@ -8521,7 +10078,11 @@
    "explanation": "The first sentence states this.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-414",
@@ -8542,7 +10103,12 @@
    "explanation": "The last sentence gives this position.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "disagree",
+    "checkerAnswer": "A",
+    "note": " Reviewed: the key is right; the checker was wrong."
+   }
   },
   {
    "id": "english-c10-415",
@@ -8563,7 +10129,11 @@
    "explanation": "The drops bend and split the light into its colours.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-416",
@@ -8583,7 +10153,10 @@
    "explanation": "The passage describes the steps.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-417",
@@ -8604,7 +10177,11 @@
    "explanation": "A scientific fact takes the simple present, with -s for a singular subject.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-418",
@@ -8625,7 +10202,11 @@
    "explanation": "An action in progress at a stated past time takes the past continuous.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-419",
@@ -8646,7 +10227,11 @@
    "explanation": "The earlier of two past events takes the past perfect: had lived.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-420",
@@ -8667,7 +10252,11 @@
    "explanation": "A past action with a present result is expressed by the present perfect.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-421",
@@ -8688,7 +10277,11 @@
    "explanation": "A daily habit takes the simple present.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-422",
@@ -8709,7 +10302,11 @@
    "explanation": "'Know' is a state verb used in the present perfect with 'for'; the other sentences misuse tense.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-423",
@@ -8728,7 +10325,10 @@
    "explanation": "The simple future is formed with will and the base form.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-424",
@@ -8747,7 +10347,10 @@
    "explanation": "The present perfect cannot be used with a finished time expression.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-425",
@@ -8768,7 +10371,11 @@
    "explanation": "'Students' is plural, so the verb is 'are'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-426",
@@ -8789,7 +10396,11 @@
    "explanation": "A singular subject takes 'has'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-427",
@@ -8810,7 +10421,11 @@
    "explanation": "'Together with' does not make the subject plural; the verb agrees with 'teacher'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-428",
@@ -8831,7 +10446,11 @@
    "explanation": "'Cake' is singular, so the verb is singular.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-429",
@@ -8852,7 +10471,11 @@
    "explanation": "'Measles' ends in -s but is a singular name of a disease.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-430",
@@ -8873,7 +10496,11 @@
    "explanation": "Subjects joined by 'and' but each preceded by 'every' are treated as singular.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-431",
@@ -8892,7 +10519,10 @@
    "explanation": "Trousers, like scissors, is always plural in grammar.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-432",
@@ -8911,7 +10541,10 @@
    "explanation": "The verb agrees with the subject closer to it.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-433",
@@ -8932,7 +10565,11 @@
    "explanation": "'MLA' is pronounced 'em-el-ay', which begins with a vowel sound, so 'an' is used.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-434",
@@ -8953,7 +10590,11 @@
    "explanation": "'Red' begins with a consonant sound, so 'a' is used.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-435",
@@ -8974,7 +10615,11 @@
    "explanation": "'The' is used with musical instruments after 'play'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-436",
@@ -8995,7 +10640,11 @@
    "explanation": "'One of' is followed by a plural noun and a singular verb, which matches 'lives'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-437",
@@ -9016,7 +10665,11 @@
    "explanation": "'Rice' is uncountable, so 'much' is used.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-438",
@@ -9037,7 +10690,11 @@
    "explanation": "'Orphanage' begins with a vowel sound, so 'an' is correct; the other sentences use the wrong article.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-439",
@@ -9056,7 +10713,10 @@
    "explanation": "The first mentions are indefinite; the second mention of the apple is definite.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-440",
@@ -9076,7 +10736,10 @@
    "explanation": "The article shows whether we speak of an activity or a specific place.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-441",
@@ -9097,7 +10760,11 @@
    "explanation": "'On' is used with days of the week.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-442",
@@ -9118,7 +10785,11 @@
    "explanation": "'At' is used with clock times.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-443",
@@ -9139,7 +10810,11 @@
    "explanation": "The adjective 'proud' is followed by 'of'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-444",
@@ -9160,7 +10835,11 @@
    "explanation": "The verb 'suffer' takes 'from' with an illness.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-445",
@@ -9181,7 +10860,11 @@
    "explanation": "'Or' means 'otherwise' and joins a command to the result of not following it.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-446",
@@ -9202,7 +10885,11 @@
    "explanation": "'Congratulate' is followed by 'on'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-447",
@@ -9221,7 +10908,10 @@
    "explanation": "'As soon as' joins two actions that follow each other immediately.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-448",
@@ -9240,7 +10930,10 @@
    "explanation": "These adjectives take fixed prepositions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-449",
@@ -9261,7 +10954,11 @@
    "explanation": "'Could not' expresses inability in the past.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-450",
@@ -9282,7 +10979,11 @@
    "explanation": "'Could you please...?' is a polite request.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-451",
@@ -9303,7 +11004,11 @@
    "explanation": "'Might' expresses a possibility.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-452",
@@ -9324,7 +11029,11 @@
    "explanation": "'Shall we...?' is used to make a suggestion.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-453",
@@ -9345,7 +11054,11 @@
    "explanation": "'Must not' expresses prohibition.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-454",
@@ -9366,7 +11079,11 @@
    "explanation": "'Should' is used for advice.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-455",
@@ -9385,7 +11102,10 @@
    "explanation": "'Should' gives advice or says what is a good idea.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-456",
@@ -9404,7 +11124,10 @@
    "explanation": "Modal + have + past participle can express regret or deduction.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-457",
@@ -9425,7 +11148,11 @@
    "explanation": "The door receives the action, so the passive 'was opened' is used.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-458",
@@ -9446,7 +11173,11 @@
    "explanation": "A general fact in the passive: is grown.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-459",
@@ -9467,7 +11198,11 @@
    "explanation": "Past continuous active becomes was/were being + past participle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-460",
@@ -9488,7 +11223,11 @@
    "explanation": "Simple future passive: will be + past participle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-461",
@@ -9509,7 +11248,11 @@
    "explanation": "Present perfect active becomes has/have been + past participle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-462",
@@ -9530,7 +11273,11 @@
    "explanation": "In the passive the subject (tap) receives the action.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-463",
@@ -9549,7 +11296,10 @@
    "explanation": "Simple past passive: was + past participle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-464",
@@ -9568,7 +11318,10 @@
    "explanation": "Remove 'be + past participle' and use the base verb after will.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-465",
@@ -9589,7 +11342,11 @@
    "explanation": "The simple present becomes the simple past and 'I' becomes 'he'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-466",
@@ -9610,7 +11367,11 @@
    "explanation": "'We' becomes 'they' and the present continuous becomes the past continuous.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-467",
@@ -9631,7 +11392,11 @@
    "explanation": "Simple past becomes past perfect and 'yesterday' becomes 'the day before'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-468",
@@ -9652,7 +11417,11 @@
    "explanation": "A yes/no question is reported with 'if', and 'can' becomes 'could'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-469",
@@ -9673,7 +11442,11 @@
    "explanation": "A command or advice is reported with 'advised ... to + verb'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-470",
@@ -9694,7 +11467,11 @@
    "explanation": "A blessing or wish is reported with 'prayed that' and 'might'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-471",
@@ -9714,7 +11491,10 @@
    "explanation": "A wh-question is reported with the same question word.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-472",
@@ -9734,7 +11514,10 @@
    "explanation": "A reported negative command becomes a direct 'Do not...' sentence.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-473",
@@ -9755,7 +11538,11 @@
    "explanation": "The predicate tells what the subject does or is.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-474",
@@ -9776,7 +11563,11 @@
    "explanation": "'Both' and 'and' must come directly before the two words joined.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-475",
@@ -9797,7 +11588,11 @@
    "explanation": "'Unless' means 'if not', so the verb after it is positive.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-476",
@@ -9818,7 +11613,11 @@
    "explanation": "A clause of purpose can be shortened to 'to + verb'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-477",
@@ -9839,7 +11638,11 @@
    "explanation": "The superlative uses 'the most + adjective'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-478",
@@ -9860,7 +11663,11 @@
    "explanation": "It tells why he stayed at home, so it is an adverb clause of reason.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-479",
@@ -9879,7 +11686,10 @@
    "explanation": "'How + adjective' forms an exclamation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-480",
@@ -9898,7 +11708,10 @@
    "explanation": "The pair joins two parallel parts of the sentence.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-481",
@@ -9919,7 +11732,11 @@
    "explanation": "The apostrophe shows that something belongs to someone.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-482",
@@ -9940,7 +11757,11 @@
    "explanation": "The first word of the sentence and the names of a day and a monument begin with capitals.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-483",
@@ -9961,7 +11782,11 @@
    "explanation": "A comma follows the introductory word 'Yes'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-484",
@@ -9982,7 +11807,11 @@
    "explanation": "A comma follows each part of the split quotation before and after the speaker tag.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-485",
@@ -10003,7 +11832,11 @@
    "explanation": "A colon after a complete statement introduces a list.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-486",
@@ -10024,7 +11857,11 @@
    "explanation": "It's has an apostrophe, a comma sets off the tag question, and the sentence ends with a question mark.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-487",
@@ -10044,7 +11881,10 @@
    "explanation": "Direct speech is placed in inverted commas after a comma.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-488",
@@ -10063,7 +11903,10 @@
    "explanation": "Plurals and possessives are different things.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-489",
@@ -10084,7 +11927,11 @@
    "explanation": "Courage and bravery have the same meaning.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-490",
@@ -10105,7 +11952,11 @@
    "explanation": "'Defeat' is the opposite of 'victory'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-491",
@@ -10126,7 +11977,11 @@
    "explanation": "A novice is a beginner.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-492",
@@ -10147,7 +12002,11 @@
    "explanation": "The rule is 'i before e except after c', so receive.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "english-c10-493",
@@ -10168,7 +12027,11 @@
    "explanation": "'Un-' gives the opposite meaning: not happy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-494",
@@ -10189,7 +12052,11 @@
    "explanation": "'Ephemeral' means short-lived.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-495",
@@ -10209,7 +12076,10 @@
    "explanation": "Suffixes such as -ify and -en turn nouns into verbs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-496",
@@ -10229,7 +12099,10 @@
    "explanation": "The words sound alike but have different meanings.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "english-c10-497",
@@ -10250,7 +12123,11 @@
    "explanation": "It means to accept the unpleasant results of what one has done.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "english-c10-498",
@@ -10271,7 +12148,11 @@
    "explanation": "It describes something too small to make much difference.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "english-c10-499",
@@ -10292,7 +12173,11 @@
    "explanation": "'Hit the sack' is an informal way of saying to go to bed.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "english-c10-500",
@@ -10313,7 +12198,11 @@
    "explanation": "It means suddenly and without warning.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   }
  ]
 }
