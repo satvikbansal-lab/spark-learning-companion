@@ -1,0 +1,5501 @@
+{
+ "class": 12,
+ "subject": "biology",
+ "items": [
+  {
+   "id": "biology-c12-001",
+   "type": "mcq",
+   "q": "In a flowering plant, the male gametophyte is represented by which structure?",
+   "options": [
+    "Pollen grain",
+    "Embryo sac",
+    "Megaspore",
+    "Microspore mother cell"
+   ]
+  },
+  {
+   "id": "biology-c12-002",
+   "type": "mcq",
+   "q": "A typical mature embryo sac of a flowering plant contains how many nuclei?",
+   "options": [
+    "4",
+    "8",
+    "12",
+    "16"
+   ]
+  },
+  {
+   "id": "biology-c12-003",
+   "type": "mcq",
+   "q": "The triploid primary endosperm nucleus is formed by the fusion of one male gamete with which structure?",
+   "options": [
+    "The egg cell",
+    "The two synergids",
+    "The two polar nuclei",
+    "The three antipodal cells"
+   ]
+  },
+  {
+   "id": "biology-c12-004",
+   "type": "mcq",
+   "q": "What is the main function of the tapetum in a microsporangium?",
+   "options": [
+    "It protects the anther from drying",
+    "It helps the anther to dehisce",
+    "It produces megaspores",
+    "It nourishes the developing pollen grains"
+   ]
+  },
+  {
+   "id": "biology-c12-005",
+   "type": "mcq",
+   "q": "Which type of pollination is genetically similar to autogamy but, ecologically, still requires an external pollinating agent?",
+   "options": [
+    "Geitonogamy",
+    "Xenogamy",
+    "Cleistogamy",
+    "Chasmogamy"
+   ]
+  },
+  {
+   "id": "biology-c12-006",
+   "type": "mcq",
+   "q": "A plant has 24 chromosomes in its root cells. How many chromosomes are present in the generative cell of its pollen grain?",
+   "options": [
+    "6",
+    "12",
+    "24",
+    "48"
+   ]
+  },
+  {
+   "id": "biology-c12-007",
+   "type": "short",
+   "q": "What is double fertilisation? Why is it considered a unique event of flowering plants?",
+   "proposedAnswer": "Double fertilisation is the fusion of one male gamete with the egg (syngamy) to form the zygote and of the other male gamete with the two polar nuclei (triple fusion) to form the primary endosperm nucleus. Both fusions occur in the same embryo sac, which is found only in angiosperms.",
+   "keyPoints": [
+    "Syngamy gives a diploid zygote",
+    "Triple fusion gives triploid primary endosperm nucleus",
+    "Two fusion events in one embryo sac",
+    "Seen only in angiosperms"
+   ]
+  },
+  {
+   "id": "biology-c12-008",
+   "type": "short",
+   "q": "Explain why, in most flowering plants, the zygote begins to divide only after some endosperm has already formed.",
+   "proposedAnswer": "The primary endosperm nucleus divides repeatedly before the zygote does. This ensures that nutritive tissue is already available to nourish the developing embryo, so the embryo is not starved of food.",
+   "keyPoints": [
+    "Primary endosperm nucleus divides first",
+    "Endosperm stores and supplies nutrition",
+    "Ensures food for the developing embryo"
+   ]
+  },
+  {
+   "id": "biology-c12-009",
+   "type": "mcq",
+   "q": "In which part of the human male reproductive system are sperms produced?",
+   "options": [
+    "Epididymis",
+    "Vas deferens",
+    "Seminiferous tubules",
+    "Prostate gland"
+   ]
+  },
+  {
+   "id": "biology-c12-010",
+   "type": "mcq",
+   "q": "Fertilisation in humans normally takes place in which region?",
+   "options": [
+    "Uterus",
+    "Ovary",
+    "Cervix",
+    "Ampullary-isthmic junction of the fallopian tube"
+   ]
+  },
+  {
+   "id": "biology-c12-011",
+   "type": "mcq",
+   "q": "Ovulation in the human menstrual cycle is induced by a sudden rise (surge) in the level of which hormone?",
+   "options": [
+    "Luteinising hormone",
+    "Progesterone",
+    "Oestrogen only after ovulation",
+    "Prolactin"
+   ]
+  },
+  {
+   "id": "biology-c12-012",
+   "type": "mcq",
+   "q": "Which cells of the testis synthesise and secrete androgens?",
+   "options": [
+    "Sertoli cells",
+    "Leydig cells",
+    "Spermatogonia",
+    "Primary spermatocytes"
+   ]
+  },
+  {
+   "id": "biology-c12-013",
+   "type": "mcq",
+   "q": "A human primary spermatocyte has 46 chromosomes. How many chromosomes does each secondary spermatocyte formed from it contain?",
+   "options": [
+    "46",
+    "92",
+    "23",
+    "12"
+   ]
+  },
+  {
+   "id": "biology-c12-014",
+   "type": "mcq",
+   "q": "If the released ovum is not fertilised, menstruation occurs mainly because:",
+   "options": [
+    "LH level rises sharply",
+    "Oestrogen level increases rapidly",
+    "FSH level increases rapidly",
+    "Progesterone falls, so the endometrial lining breaks down"
+   ]
+  },
+  {
+   "id": "biology-c12-015",
+   "type": "short",
+   "q": "Describe the structure and functions of the placenta.",
+   "proposedAnswer": "The placenta is a structural and functional connection between the foetus and the uterine wall, formed by chorionic villi interdigitating with uterine tissue. It supplies oxygen and nutrients to the embryo and removes carbon dioxide and wastes, and it secretes hormones such as hCG, hPL, oestrogen and progesterone.",
+   "keyPoints": [
+    "Connection between foetus and uterus via chorionic villi",
+    "Supplies oxygen and nutrients, removes CO2 and wastes",
+    "Acts as an endocrine tissue (hCG, hPL, oestrogen, progesterone)"
+   ]
+  },
+  {
+   "id": "biology-c12-016",
+   "type": "short",
+   "q": "Why are the testes located in the scrotum outside the abdominal cavity in human males?",
+   "proposedAnswer": "Spermatogenesis requires a temperature about 2-2.5 degrees C lower than normal body temperature. The scrotum keeps the testes at this lower temperature, which is necessary for normal sperm production.",
+   "keyPoints": [
+    "Sperm formation needs lower temperature",
+    "Scrotum is about 2-2.5 degrees C cooler than the abdomen"
+   ]
+  },
+  {
+   "id": "biology-c12-017",
+   "type": "mcq",
+   "q": "Which of the following is a copper-releasing intrauterine device?",
+   "options": [
+    "CuT",
+    "LNG-20",
+    "Saheli",
+    "Progestasert"
+   ]
+  },
+  {
+   "id": "biology-c12-018",
+   "type": "mcq",
+   "q": "The Medical Termination of Pregnancy (MTP) Act was enacted in India in which year?",
+   "options": [
+    "1951",
+    "1971",
+    "1991",
+    "2001"
+   ]
+  },
+  {
+   "id": "biology-c12-019",
+   "type": "mcq",
+   "q": "Saheli, developed at the Central Drug Research Institute, Lucknow, is:",
+   "options": [
+    "A copper-releasing IUD",
+    "An injectable hormone",
+    "A once-a-week non-steroidal oral contraceptive pill",
+    "A barrier device for males"
+   ]
+  },
+  {
+   "id": "biology-c12-020",
+   "type": "mcq",
+   "q": "Which of the following is a barrier method of contraception?",
+   "options": [
+    "Vasectomy",
+    "Oral pills",
+    "Hormonal implants",
+    "Diaphragm"
+   ]
+  },
+  {
+   "id": "biology-c12-021",
+   "type": "mcq",
+   "q": "In ZIFT (zygote intra fallopian transfer), the zygote or early embryo with up to 8 blastomeres is transferred into the:",
+   "options": [
+    "Fallopian tube",
+    "Uterus",
+    "Cervix",
+    "Vagina"
+   ]
+  },
+  {
+   "id": "biology-c12-022",
+   "type": "mcq",
+   "q": "Lactational amenorrhoea can act as a natural contraceptive because:",
+   "options": [
+    "It kills sperms in the vagina",
+    "During intense lactation ovulation and the menstrual cycle usually do not occur",
+    "It blocks the fallopian tubes",
+    "It permanently thickens the cervical mucus"
+   ]
+  },
+  {
+   "id": "biology-c12-023",
+   "type": "short",
+   "q": "Distinguish between vasectomy and tubectomy.",
+   "proposedAnswer": "Vasectomy is a surgical sterilisation method in males in which the vas deferens is cut and tied. Tubectomy is the female method in which a small part of each fallopian tube is removed or tied. Both prevent the gametes from meeting.",
+   "keyPoints": [
+    "Vasectomy: vas deferens cut and tied in males",
+    "Tubectomy: fallopian tubes cut and tied in females",
+    "Both are terminal sterilisation methods"
+   ]
+  },
+  {
+   "id": "biology-c12-024",
+   "type": "short",
+   "q": "Why is amniocentesis for foetal sex determination banned in India although it is a useful diagnostic test?",
+   "proposedAnswer": "Amniocentesis can detect chromosomal and metabolic disorders in the foetus, but it also reveals sex. The test was misused for female foeticide, which lowers the sex ratio, so a statutory ban prevents its use for sex determination.",
+   "keyPoints": [
+    "Useful for detecting genetic disorders",
+    "Misused to identify and abort female foetuses",
+    "Leads to a skewed sex ratio, hence statutory ban"
+   ]
+  },
+  {
+   "id": "biology-c12-025",
+   "type": "mcq",
+   "q": "Who is regarded as the father of genetics for his experiments on garden pea?",
+   "options": [
+    "T. H. Morgan",
+    "Charles Darwin",
+    "Gregor Mendel",
+    "Hugo de Vries"
+   ]
+  },
+  {
+   "id": "biology-c12-026",
+   "type": "mcq",
+   "q": "In a monohybrid cross with complete dominance, the phenotypic ratio in the F2 generation is:",
+   "options": [
+    "1:1",
+    "1:2:1",
+    "9:3:3:1",
+    "3:1"
+   ]
+  },
+  {
+   "id": "biology-c12-027",
+   "type": "mcq",
+   "q": "A test cross is made between:",
+   "options": [
+    "F1 individual and the homozygous recessive parent",
+    "Two F1 individuals",
+    "Two homozygous dominant plants",
+    "Two F2 individuals"
+   ]
+  },
+  {
+   "id": "biology-c12-028",
+   "type": "mcq",
+   "q": "In Antirrhinum (snapdragon), red-flowered and white-flowered plants give pink F1 plants. When the pink F1 plants are selfed, the phenotypic ratio of the F2 generation is:",
+   "options": [
+    "3:1",
+    "1:2:1",
+    "9:3:3:1",
+    "1:1"
+   ]
+  },
+  {
+   "id": "biology-c12-029",
+   "type": "mcq",
+   "q": "A plant with genotype AaBb (genes on different chromosomes) is test-crossed with aabb. What fraction of the progeny will be aabb?",
+   "options": [
+    "1/16",
+    "1/8",
+    "1/4",
+    "1/2"
+   ]
+  },
+  {
+   "id": "biology-c12-030",
+   "type": "mcq",
+   "q": "A man with blood group AB marries a woman with blood group O. Which blood groups are possible among their children?",
+   "options": [
+    "AB and O",
+    "A, B, AB and O",
+    "A, B and O",
+    "A and B only"
+   ]
+  },
+  {
+   "id": "biology-c12-031",
+   "type": "short",
+   "q": "State Mendel's law of segregation.",
+   "proposedAnswer": "The two alleles of a gene pair separate from each other during gamete formation, so each gamete receives only one allele. The alleles remain pure and are not blended; they come together again at fertilisation.",
+   "keyPoints": [
+    "Alleles of a pair separate at gamete formation",
+    "Each gamete carries only one allele",
+    "Alleles do not blend and remain pure"
+   ]
+  },
+  {
+   "id": "biology-c12-032",
+   "type": "short",
+   "q": "Explain why two genes located on the same chromosome do not always assort independently.",
+   "proposedAnswer": "Genes on the same chromosome are linked and tend to be inherited together. Linkage is broken only by crossing over (recombination). The closer two genes lie, the tighter the linkage and the lower the recombination frequency.",
+   "keyPoints": [
+    "Genes on the same chromosome are linked",
+    "Crossing over produces recombinants",
+    "Recombination frequency rises with distance between genes"
+   ]
+  },
+  {
+   "id": "biology-c12-033",
+   "type": "mcq",
+   "q": "Adjacent nucleotides in a polynucleotide chain of DNA are joined by which bond?",
+   "options": [
+    "Phosphodiester bond",
+    "N-glycosidic bond",
+    "Hydrogen bond",
+    "Peptide bond"
+   ]
+  },
+  {
+   "id": "biology-c12-034",
+   "type": "mcq",
+   "q": "How many hydrogen bonds join guanine and cytosine in DNA?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "1"
+   ]
+  },
+  {
+   "id": "biology-c12-035",
+   "type": "mcq",
+   "q": "In the Hershey-Chase experiment, bacteriophage DNA and protein were labelled respectively with:",
+   "options": [
+    "35S and 32P",
+    "14C and 3H",
+    "32P and 35S",
+    "15N and 14N"
+   ]
+  },
+  {
+   "id": "biology-c12-036",
+   "type": "mcq",
+   "q": "Which codon acts as the start (initiator) codon for protein synthesis?",
+   "options": [
+    "UAA",
+    "UGA",
+    "GUA",
+    "AUG"
+   ]
+  },
+  {
+   "id": "biology-c12-037",
+   "type": "mcq",
+   "q": "The template strand of a gene reads 3'-TACGGATT-5'. What is the mRNA sequence transcribed from it?",
+   "options": [
+    "5'-AUGCCUAA-3'",
+    "5'-UACGGAUU-3'",
+    "5'-ATGCCTAA-3'",
+    "3'-AUGCCUAA-5'"
+   ]
+  },
+  {
+   "id": "biology-c12-038",
+   "type": "mcq",
+   "q": "In the lac operon, in the absence of lactose the repressor protein binds to:",
+   "options": [
+    "The promoter",
+    "The operator",
+    "RNA polymerase",
+    "The z gene product"
+   ]
+  },
+  {
+   "id": "biology-c12-039",
+   "type": "short",
+   "q": "List any four features of the genetic code.",
+   "proposedAnswer": "The code is triplet, with 61 codons for amino acids and 3 stop codons. It is degenerate, non-overlapping and comma-less, nearly universal, and specific (one codon codes for only one amino acid). AUG is the start codon.",
+   "keyPoints": [
+    "Triplet code",
+    "Degenerate",
+    "Universal and unambiguous (specific)",
+    "Non-overlapping, with start (AUG) and stop codons"
+   ]
+  },
+  {
+   "id": "biology-c12-040",
+   "type": "short",
+   "q": "Explain how lactose switches on the lac operon.",
+   "proposedAnswer": "Lactose (allolactose) acts as an inducer and binds the repressor protein. The repressor then cannot bind the operator, so RNA polymerase can transcribe the structural genes z, y and a, producing enzymes for lactose metabolism.",
+   "keyPoints": [
+    "Lactose acts as inducer and binds repressor",
+    "Repressor released from operator",
+    "RNA polymerase transcribes lac z, y, a genes"
+   ]
+  },
+  {
+   "id": "biology-c12-041",
+   "type": "mcq",
+   "q": "The forelimbs of whales, bats, cheetahs and humans are examples of:",
+   "options": [
+    "Analogous organs",
+    "Vestigial organs",
+    "Homologous organs",
+    "Convergent structures"
+   ]
+  },
+  {
+   "id": "biology-c12-042",
+   "type": "mcq",
+   "q": "The wings of a butterfly and the wings of a bird are examples of:",
+   "options": [
+    "Homologous organs",
+    "Vestigial organs",
+    "Atavistic organs",
+    "Analogous organs"
+   ]
+  },
+  {
+   "id": "biology-c12-043",
+   "type": "mcq",
+   "q": "Different species of Darwin's finches with differently shaped beaks evolved from a common ancestor on the Galapagos Islands. This is an example of:",
+   "options": [
+    "Adaptive radiation",
+    "Convergent evolution",
+    "Genetic drift",
+    "Mimicry"
+   ]
+  },
+  {
+   "id": "biology-c12-044",
+   "type": "mcq",
+   "q": "In the Hardy-Weinberg equation p² + 2pq + q² = 1, the term 2pq represents the frequency of:",
+   "options": [
+    "Homozygous dominant individuals",
+    "Heterozygous individuals",
+    "Homozygous recessive individuals",
+    "The recessive allele"
+   ]
+  },
+  {
+   "id": "biology-c12-045",
+   "type": "mcq",
+   "q": "In a population in Hardy-Weinberg equilibrium, the frequency of homozygous recessive individuals (q²) is 0.04. What is the frequency of heterozygotes?",
+   "options": [
+    "0.16",
+    "0.64",
+    "0.32",
+    "0.08"
+   ]
+  },
+  {
+   "id": "biology-c12-046",
+   "type": "mcq",
+   "q": "After industrialisation in England, dark-coloured peppered moths became more common mainly because:",
+   "options": [
+    "Soot caused a mutation in each light moth",
+    "Light moths migrated to other regions",
+    "Pollution turned individual light moths dark",
+    "Dark moths were better camouflaged on soot-covered trees and were eaten less by predators"
+   ]
+  },
+  {
+   "id": "biology-c12-047",
+   "type": "short",
+   "q": "Describe the experiment of S. L. Miller and what it showed.",
+   "proposedAnswer": "Miller passed electric discharge through a flask containing CH4, H2, NH3 and water vapour at 800 degrees C. After some time amino acids were formed. It supported the idea that organic molecules could form from inorganic ones on the primitive Earth.",
+   "keyPoints": [
+    "Mixture of CH4, H2, NH3 and water vapour with electric discharge",
+    "Amino acids formed",
+    "Supports chemical evolution of life"
+   ]
+  },
+  {
+   "id": "biology-c12-048",
+   "type": "short",
+   "q": "Which factors can disturb Hardy-Weinberg equilibrium and bring about evolution?",
+   "proposedAnswer": "Gene flow (migration), genetic drift, mutation, genetic recombination and natural selection change allele frequencies. When allele frequency changes, the population departs from equilibrium, which means evolution is occurring.",
+   "keyPoints": [
+    "Gene migration (flow) and genetic drift",
+    "Mutation and genetic recombination",
+    "Natural selection",
+    "Change in allele frequency means evolution"
+   ]
+  },
+  {
+   "id": "biology-c12-049",
+   "type": "mcq",
+   "q": "The causative agent of malaria in humans is:",
+   "options": [
+    "Plasmodium",
+    "Salmonella",
+    "Wuchereria",
+    "Entamoeba"
+   ]
+  },
+  {
+   "id": "biology-c12-050",
+   "type": "mcq",
+   "q": "The Widal test is used for the diagnosis of:",
+   "options": [
+    "Malaria",
+    "Typhoid",
+    "AIDS",
+    "Pneumonia"
+   ]
+  },
+  {
+   "id": "biology-c12-051",
+   "type": "mcq",
+   "q": "Which stage of Plasmodium is injected into the human body by the bite of a female Anopheles mosquito?",
+   "options": [
+    "Merozoites",
+    "Gametocytes",
+    "Sporozoites",
+    "Trophozoites"
+   ]
+  },
+  {
+   "id": "biology-c12-052",
+   "type": "mcq",
+   "q": "HIV mainly infects and destroys which cells of the human body?",
+   "options": [
+    "Red blood cells",
+    "Neutrophils",
+    "Platelets",
+    "Helper T lymphocytes"
+   ]
+  },
+  {
+   "id": "biology-c12-053",
+   "type": "mcq",
+   "q": "Which of the following is an example of passive immunity?",
+   "options": [
+    "Antibodies passed to an infant through colostrum",
+    "Immunity after a polio vaccine",
+    "Immunity after recovering from chickenpox",
+    "Response to a booster dose of tetanus toxoid"
+   ]
+  },
+  {
+   "id": "biology-c12-054",
+   "type": "mcq",
+   "q": "A second exposure to the same pathogen produces a faster and stronger response than the first exposure, mainly because of:",
+   "options": [
+    "Complement proteins",
+    "Memory B and T cells",
+    "Interferons",
+    "Phagocytic neutrophils"
+   ]
+  },
+  {
+   "id": "biology-c12-055",
+   "type": "short",
+   "q": "State the modes of transmission of AIDS and two preventive measures.",
+   "proposedAnswer": "HIV spreads through sexual contact with an infected person, transfusion of contaminated blood, sharing of contaminated needles and from an infected mother to her child. Prevention includes using disposable needles, screening blood and using condoms.",
+   "keyPoints": [
+    "Sexual contact, contaminated blood, shared needles",
+    "Mother to child transmission",
+    "Prevention: safe blood, disposable needles, condoms, education"
+   ]
+  },
+  {
+   "id": "biology-c12-056",
+   "type": "short",
+   "q": "Distinguish between benign and malignant tumours and explain the term metastasis.",
+   "proposedAnswer": "Benign tumours remain confined to their location and do not spread. Malignant tumours are masses of rapidly dividing cells that invade neighbouring tissues. Metastasis is the spread of cancer cells to distant sites through the blood, which makes malignant tumours dangerous.",
+   "keyPoints": [
+    "Benign tumours stay localised",
+    "Malignant tumours invade neighbouring tissues",
+    "Metastasis: spread of cancer cells to distant sites"
+   ]
+  },
+  {
+   "id": "biology-c12-057",
+   "type": "mcq",
+   "q": "Milk is converted into curd mainly by the action of:",
+   "options": [
+    "Rhizobium",
+    "Yeast",
+    "Lactic acid bacteria",
+    "Penicillium"
+   ]
+  },
+  {
+   "id": "biology-c12-058",
+   "type": "mcq",
+   "q": "The first antibiotic, penicillin, was obtained from which fungus?",
+   "options": [
+    "Aspergillus niger",
+    "Saccharomyces cerevisiae",
+    "Trichoderma polysporum",
+    "Penicillium notatum"
+   ]
+  },
+  {
+   "id": "biology-c12-059",
+   "type": "mcq",
+   "q": "The major component of biogas (gobar gas) is:",
+   "options": [
+    "Methane",
+    "Carbon monoxide",
+    "Ethane",
+    "Nitrogen"
+   ]
+  },
+  {
+   "id": "biology-c12-060",
+   "type": "mcq",
+   "q": "Industrial production of citric acid uses:",
+   "options": [
+    "Acetobacter aceti",
+    "Aspergillus niger",
+    "Clostridium butylicum",
+    "Lactobacillus"
+   ]
+  },
+  {
+   "id": "biology-c12-061",
+   "type": "mcq",
+   "q": "Which statement about biochemical oxygen demand (BOD) of a water sample is correct?",
+   "options": [
+    "A low BOD means a large amount of organic matter",
+    "BOD is a measure of the carbon dioxide released",
+    "The greater the BOD, the more is the polluting potential of the water",
+    "BOD is determined by the nitrogen content of the water"
+   ]
+  },
+  {
+   "id": "biology-c12-062",
+   "type": "mcq",
+   "q": "Which microbe-product pair is correct?",
+   "options": [
+    "Cyclosporin A - Monascus purpureus",
+    "Streptokinase - Trichoderma polysporum",
+    "Statins - Streptococcus",
+    "Statins - Monascus purpureus"
+   ]
+  },
+  {
+   "id": "biology-c12-063",
+   "type": "short",
+   "q": "What are biofertilisers? Give two examples.",
+   "proposedAnswer": "Biofertilisers are organisms that enrich the soil nutrient quality. Examples include symbiotic Rhizobium that fixes nitrogen in legume roots, free-living nitrogen fixers like Azotobacter, cyanobacteria like Anabaena and mycorrhiza (Glomus), which help phosphorus absorption.",
+   "keyPoints": [
+    "Organisms that enrich soil nutrients",
+    "Rhizobium, Azotobacter, cyanobacteria",
+    "Mycorrhiza improves phosphorus uptake"
+   ]
+  },
+  {
+   "id": "biology-c12-064",
+   "type": "short",
+   "q": "Briefly explain the primary and secondary treatment of sewage.",
+   "proposedAnswer": "Primary treatment is physical removal of large and small particles by filtration and sedimentation, giving the effluent. In secondary (biological) treatment the effluent is aerated in tanks so that aerobic microbes form flocs and consume organic matter, reducing BOD; the sludge is then digested anaerobically.",
+   "keyPoints": [
+    "Primary: physical filtration and sedimentation",
+    "Secondary: aeration and microbial flocs reduce BOD",
+    "Sludge digested anaerobically"
+   ]
+  },
+  {
+   "id": "biology-c12-065",
+   "type": "mcq",
+   "q": "The restriction enzyme EcoRI recognises and cuts which palindromic DNA sequence?",
+   "options": [
+    "GAATTC",
+    "GGATCC",
+    "AAGCTT",
+    "CCCGGG"
+   ]
+  },
+  {
+   "id": "biology-c12-066",
+   "type": "mcq",
+   "q": "Which enzyme is used to join DNA fragments during the preparation of recombinant DNA?",
+   "options": [
+    "DNA polymerase",
+    "DNA ligase",
+    "Helicase",
+    "Protease"
+   ]
+  },
+  {
+   "id": "biology-c12-067",
+   "type": "mcq",
+   "q": "The origin of replication (ori) is an essential feature of a cloning vector because it:",
+   "options": [
+    "Helps to select transformants",
+    "Cuts the foreign DNA",
+    "Starts replication and controls the copy number of the linked DNA",
+    "Joins the vector with the insert"
+   ]
+  },
+  {
+   "id": "biology-c12-068",
+   "type": "mcq",
+   "q": "Taq polymerase is preferred in the polymerase chain reaction because it:",
+   "options": [
+    "Works only at low pH",
+    "Is obtained from E. coli",
+    "Does not need primers",
+    "Remains active during the high temperature of denaturation"
+   ]
+  },
+  {
+   "id": "biology-c12-069",
+   "type": "mcq",
+   "q": "A foreign gene is inserted into the lacZ gene of a vector. When transformed bacteria are grown on a chromogenic substrate, the recombinant colonies will appear:",
+   "options": [
+    "Colourless",
+    "Blue",
+    "Red",
+    "Green"
+   ]
+  },
+  {
+   "id": "biology-c12-070",
+   "type": "mcq",
+   "q": "Ideally, how many copies of a DNA segment are produced from one double-stranded DNA molecule after 5 cycles of PCR?",
+   "options": [
+    "16",
+    "32",
+    "10",
+    "64"
+   ]
+  },
+  {
+   "id": "biology-c12-071",
+   "type": "short",
+   "q": "Name the three steps of each PCR cycle.",
+   "proposedAnswer": "The cycle consists of denaturation (heating to separate the DNA strands), annealing (primers bind to the complementary sequences on the single strands) and extension (Taq polymerase adds nucleotides to extend the primers).",
+   "keyPoints": [
+    "Denaturation of double-stranded DNA",
+    "Annealing of primers",
+    "Extension by thermostable DNA polymerase"
+   ]
+  },
+  {
+   "id": "biology-c12-072",
+   "type": "short",
+   "q": "Why should the vector and the source DNA be cut with the same restriction enzyme in recombinant DNA technology?",
+   "proposedAnswer": "The same enzyme cuts both at the same recognition sequence and leaves identical complementary sticky ends. These ends can base-pair easily, and DNA ligase can then join the insert to the vector.",
+   "keyPoints": [
+    "Same enzyme gives same recognition site",
+    "Complementary sticky ends form",
+    "Ligase can then join insert and vector"
+   ]
+  },
+  {
+   "id": "biology-c12-073",
+   "type": "mcq",
+   "q": "The gene for Bt toxin used in Bt cotton is obtained from:",
+   "options": [
+    "Agrobacterium tumefaciens",
+    "Escherichia coli",
+    "Bacillus thuringiensis",
+    "Thermus aquaticus"
+   ]
+  },
+  {
+   "id": "biology-c12-074",
+   "type": "mcq",
+   "q": "Rosie, the first transgenic cow, produced milk enriched with:",
+   "options": [
+    "Bt toxin",
+    "Human insulin",
+    "Factor VIII",
+    "Human alpha-lactalbumin"
+   ]
+  },
+  {
+   "id": "biology-c12-075",
+   "type": "mcq",
+   "q": "Recombinant human insulin was first produced commercially using which organism?",
+   "options": [
+    "Escherichia coli",
+    "Penicillium",
+    "Rhizobium",
+    "Bacillus subtilis"
+   ]
+  },
+  {
+   "id": "biology-c12-076",
+   "type": "mcq",
+   "q": "Golden rice is genetically modified to be rich in:",
+   "options": [
+    "Vitamin C",
+    "Beta-carotene, a vitamin A precursor",
+    "Iron",
+    "Vitamin D"
+   ]
+  },
+  {
+   "id": "biology-c12-077",
+   "type": "mcq",
+   "q": "How is RNA interference used to protect tobacco plants against the nematode Meloidogyne incognita?",
+   "options": [
+    "By inserting the Bt toxin gene",
+    "By inserting an antibiotic resistance gene",
+    "By introducing DNA that makes sense and antisense RNA, forming dsRNA that silences a specific nematode mRNA",
+    "By deleting the root genes of the plant"
+   ]
+  },
+  {
+   "id": "biology-c12-078",
+   "type": "mcq",
+   "q": "In the gene therapy of ADA deficiency, the patient's lymphocytes are:",
+   "options": [
+    "Destroyed using drugs",
+    "Fused with bone marrow cells",
+    "Irradiated to cause mutations",
+    "Grown in culture, given a functional ADA cDNA through a retroviral vector, and returned to the patient"
+   ]
+  },
+  {
+   "id": "biology-c12-079",
+   "type": "short",
+   "q": "State any three benefits of Bt crops.",
+   "proposedAnswer": "Bt crops resist insect pests, which reduces the need for chemical pesticides. This lowers the cost of cultivation and the pollution caused by pesticides, and it increases crop yield by reducing losses.",
+   "keyPoints": [
+    "Resistance to insect pests",
+    "Less use of chemical pesticides",
+    "Higher yield and lower pollution"
+   ]
+  },
+  {
+   "id": "biology-c12-080",
+   "type": "short",
+   "q": "What is biopiracy? Give an example from India.",
+   "proposedAnswer": "Biopiracy is the use of bio-resources by multinational companies or other organisations without proper authorisation from the countries and people concerned, and without compensatory payment. An example is the attempt to patent basmati rice by a US company.",
+   "keyPoints": [
+    "Unauthorised use of bio-resources",
+    "No compensation to the country or people",
+    "Example: basmati rice patent"
+   ]
+  },
+  {
+   "id": "biology-c12-081",
+   "type": "mcq",
+   "q": "Organisms that can tolerate and thrive in a wide range of temperatures are called:",
+   "options": [
+    "Eurythermal",
+    "Stenothermal",
+    "Euryhaline",
+    "Stenohaline"
+   ]
+  },
+  {
+   "id": "biology-c12-082",
+   "type": "mcq",
+   "q": "The association between fungi and the roots of higher plants (mycorrhiza) is an example of:",
+   "options": [
+    "Parasitism",
+    "Mutualism",
+    "Commensalism",
+    "Amensalism"
+   ]
+  },
+  {
+   "id": "biology-c12-083",
+   "type": "mcq",
+   "q": "Which equation describes exponential population growth?",
+   "options": [
+    "dN/dt = r/N",
+    "N = r x dt",
+    "dN/dt = rN",
+    "dN/dt = K/N"
+   ]
+  },
+  {
+   "id": "biology-c12-084",
+   "type": "mcq",
+   "q": "A koel laying its eggs in the nest of a crow, which then incubates them, is an example of:",
+   "options": [
+    "Mutualism",
+    "Commensalism",
+    "Predation",
+    "Brood parasitism"
+   ]
+  },
+  {
+   "id": "biology-c12-085",
+   "type": "mcq",
+   "q": "A population of 500 individuals has 40 births, 20 deaths, 15 immigrants and 5 emigrants in a year. What is the population size at the end of the year?",
+   "options": [
+    "530",
+    "540",
+    "520",
+    "560"
+   ]
+  },
+  {
+   "id": "biology-c12-086",
+   "type": "mcq",
+   "q": "When two closely related species compete for the same limited resource, the inferior competitor is eventually eliminated. This is known as:",
+   "options": [
+    "Allen's rule",
+    "The competitive exclusion principle",
+    "Bergmann's rule",
+    "The law of tolerance"
+   ]
+  },
+  {
+   "id": "biology-c12-087",
+   "type": "short",
+   "q": "Explain two adaptations of the kangaroo rat that help it survive in a desert.",
+   "proposedAnswer": "The kangaroo rat meets its water need from the internal oxidation of fat, so it does not need to drink water. It also concentrates its urine to lose very little water, which helps in conserving water.",
+   "keyPoints": [
+    "Internal fat oxidation gives water",
+    "Concentrated urine reduces water loss"
+   ]
+  },
+  {
+   "id": "biology-c12-088",
+   "type": "short",
+   "q": "Why is logistic growth considered more realistic than exponential growth?",
+   "proposedAnswer": "In nature resources are limited, so a population cannot grow exponentially forever. Logistic growth starts with a lag phase, then grows rapidly, and finally levels off at the carrying capacity (K) when resources become limiting, giving an S-shaped curve.",
+   "keyPoints": [
+    "Resources are limited in nature",
+    "Population levels off at carrying capacity",
+    "S-shaped (sigmoid) curve"
+   ]
+  },
+  {
+   "id": "biology-c12-089",
+   "type": "mcq",
+   "q": "The primary producers of an ecosystem are mainly:",
+   "options": [
+    "Herbivores",
+    "Decomposers",
+    "Green plants",
+    "Carnivores"
+   ]
+  },
+  {
+   "id": "biology-c12-090",
+   "type": "mcq",
+   "q": "Which ecological pyramid is always upright?",
+   "options": [
+    "Pyramid of numbers in a tree ecosystem",
+    "Pyramid of biomass in the sea",
+    "Pyramid of numbers in a grassland",
+    "Pyramid of energy"
+   ]
+  },
+  {
+   "id": "biology-c12-091",
+   "type": "mcq",
+   "q": "According to the ten percent law, if producers fix 10,000 J of energy, how much energy is available at the secondary consumer level?",
+   "options": [
+    "100 J",
+    "1000 J",
+    "10 J",
+    "10,000 J"
+   ]
+  },
+  {
+   "id": "biology-c12-092",
+   "type": "mcq",
+   "q": "The breakdown of detritus into smaller particles by detritivores such as earthworms is called:",
+   "options": [
+    "Humification",
+    "Fragmentation",
+    "Leaching",
+    "Mineralisation"
+   ]
+  },
+  {
+   "id": "biology-c12-093",
+   "type": "mcq",
+   "q": "Which of the following is the pioneer species in primary succession on a bare rock?",
+   "options": [
+    "Mosses",
+    "Shrubs",
+    "Lichens",
+    "Annual herbs"
+   ]
+  },
+  {
+   "id": "biology-c12-094",
+   "type": "mcq",
+   "q": "Net primary productivity (NPP) of an ecosystem is equal to:",
+   "options": [
+    "GPP + R",
+    "GPP x R",
+    "GPP / R",
+    "GPP - R"
+   ]
+  },
+  {
+   "id": "biology-c12-095",
+   "type": "short",
+   "q": "Differentiate between the grazing food chain and the detritus food chain.",
+   "proposedAnswer": "The grazing food chain begins with green plants (producers) that are eaten by herbivores and then carnivores, using solar energy. The detritus food chain begins with dead organic matter, which is consumed by decomposers and detritivores, and these are eaten by organisms such as carnivores.",
+   "keyPoints": [
+    "GFC starts with producers",
+    "DFC starts with dead organic matter",
+    "DFC is the major conduit of energy flow in terrestrial ecosystems"
+   ]
+  },
+  {
+   "id": "biology-c12-096",
+   "type": "short",
+   "q": "Why is the pyramid of biomass in the sea generally inverted?",
+   "proposedAnswer": "The producers are tiny phytoplankton with a small standing crop at any time, but they reproduce very rapidly. The consumers such as fishes have a larger standing biomass, so the biomass at higher levels can exceed that at the producer level.",
+   "keyPoints": [
+    "Phytoplankton have a small standing crop",
+    "Rapid turnover of producers",
+    "Consumers' biomass exceeds producers' biomass"
+   ]
+  },
+  {
+   "id": "biology-c12-097",
+   "type": "mcq",
+   "q": "Which of the following regions is a recognised biodiversity hotspot?",
+   "options": [
+    "Western Ghats and Sri Lanka",
+    "Thar Desert",
+    "Gangetic Plains",
+    "Deccan Plateau"
+   ]
+  },
+  {
+   "id": "biology-c12-098",
+   "type": "mcq",
+   "q": "Which of the following is a method of in situ conservation?",
+   "options": [
+    "Zoological parks",
+    "National parks",
+    "Seed banks",
+    "Cryopreservation"
+   ]
+  },
+  {
+   "id": "biology-c12-099",
+   "type": "mcq",
+   "q": "When species richness is plotted against area on a logarithmic scale, the relationship is:",
+   "options": [
+    "A hyperbola",
+    "A circle",
+    "A straight line",
+    "A parabola"
+   ]
+  },
+  {
+   "id": "biology-c12-100",
+   "type": "mcq",
+   "q": "The most important cause of biodiversity loss is:",
+   "options": [
+    "Over-exploitation",
+    "Alien species invasions",
+    "Co-extinctions",
+    "Habitat loss and fragmentation"
+   ]
+  },
+  {
+   "id": "biology-c12-101",
+   "type": "mcq",
+   "q": "The introduction of the Nile perch into Lake Victoria led to the extinction of more than 200 cichlid species. This is an example of loss caused by:",
+   "options": [
+    "Alien species invasion",
+    "Co-extinction",
+    "Over-exploitation",
+    "Habitat fragmentation"
+   ]
+  },
+  {
+   "id": "biology-c12-102",
+   "type": "mcq",
+   "q": "Species diversity is generally higher in the tropics than in temperate regions, partly because tropical regions:",
+   "options": [
+    "Underwent repeated recent glaciations",
+    "Have a relatively constant, less seasonal environment and receive more solar energy",
+    "Have lower productivity",
+    "Have lower habitat complexity"
+   ]
+  },
+  {
+   "id": "biology-c12-103",
+   "type": "short",
+   "q": "What are sacred groves? How do they help in conservation?",
+   "proposedAnswer": "Sacred groves are patches of forest protected by local communities for religious and cultural reasons. Tall trees and other species inside are traditionally preserved, so they act as refuges for rare plants and animals in their natural habitat.",
+   "keyPoints": [
+    "Forest patches protected on religious or cultural grounds",
+    "Preserve rare and threatened species"
+   ]
+  },
+  {
+   "id": "biology-c12-104",
+   "type": "short",
+   "q": "Explain Paul Ehrlich's rivet popper hypothesis.",
+   "proposedAnswer": "The hypothesis compares species in an ecosystem with rivets holding an aeroplane together. Losing a few rivets may not matter, but loss of progressively more weakens the structure, and removing a key rivet in the wings can cause a crash. Similarly, loss of species weakens ecosystem functioning, especially keystone species.",
+   "keyPoints": [
+    "Species are compared to rivets of an aeroplane",
+    "Loss of a few species may be tolerated",
+    "Progressive loss, or loss of key species, causes collapse"
+   ]
+  },
+  {
+   "id": "biology-c12-105",
+   "type": "mcq",
+   "q": "Which of the following plants is pollinated by water?",
+   "options": [
+    "Salvia",
+    "Vallisneria",
+    "Rose",
+    "Maize"
+   ]
+  },
+  {
+   "id": "biology-c12-106",
+   "type": "mcq",
+   "q": "The formation of seeds without fertilisation is called:",
+   "options": [
+    "Syngamy",
+    "Parthenocarpy",
+    "Apomixis",
+    "Polyembryony"
+   ]
+  },
+  {
+   "id": "biology-c12-107",
+   "type": "mcq",
+   "q": "The embryo sac of a flowering plant develops from which structure?",
+   "options": [
+    "Nucellus tissue",
+    "Integument",
+    "Funicle",
+    "Functional megaspore"
+   ]
+  },
+  {
+   "id": "biology-c12-108",
+   "type": "mcq",
+   "q": "Which highly resistant organic material is present in the exine of the pollen grain?",
+   "options": [
+    "Sporopollenin",
+    "Cellulose",
+    "Pectin",
+    "Lignin"
+   ]
+  },
+  {
+   "id": "biology-c12-109",
+   "type": "mcq",
+   "q": "Self-incompatibility in plants helps to prevent self-pollen from fertilising the ovules because it:",
+   "options": [
+    "Stops entry of foreign pollen into the stigma",
+    "Inhibits germination or growth of self-pollen tube in the pistil",
+    "Prevents the anther from dehiscing",
+    "Prevents formation of the embryo sac"
+   ]
+  },
+  {
+   "id": "biology-c12-110",
+   "type": "mcq",
+   "q": "After the pollen tube enters the ovule through the micropyle, it releases the two male gametes into which cell of the embryo sac?",
+   "options": [
+    "Egg cell",
+    "Central cell",
+    "Synergid",
+    "Antipodal cell"
+   ]
+  },
+  {
+   "id": "biology-c12-111",
+   "type": "short",
+   "q": "Describe the structure of the wall of a mature pollen grain.",
+   "proposedAnswer": "A pollen grain has a two-layered wall. The hard outer exine is made of sporopollenin and has germ pores where sporopollenin is absent. The inner intine is a thin continuous layer of cellulose and pectin.",
+   "keyPoints": [
+    "Outer exine made of sporopollenin",
+    "Germ pores present in exine",
+    "Inner intine of cellulose and pectin"
+   ]
+  },
+  {
+   "id": "biology-c12-112",
+   "type": "short",
+   "q": "Why are emasculation and bagging done in artificial hybridisation?",
+   "proposedAnswer": "Emasculation removes the anthers from a bisexual flower before they dehisce, which prevents self-pollination. Bagging covers the flower with a bag to prevent contamination of its stigma by unwanted pollen; the bag is removed after the desired pollen is dusted.",
+   "keyPoints": [
+    "Emasculation removes anthers before dehiscence",
+    "Prevents self-pollination",
+    "Bagging prevents contamination by unwanted pollen"
+   ]
+  },
+  {
+   "id": "biology-c12-113",
+   "type": "mcq",
+   "q": "Which hormone is secreted mainly by the corpus luteum?",
+   "options": [
+    "Oestrogen only",
+    "Luteinising hormone",
+    "Follicle stimulating hormone",
+    "Progesterone"
+   ]
+  },
+  {
+   "id": "biology-c12-114",
+   "type": "mcq",
+   "q": "The acrosome at the head of a sperm contains:",
+   "options": [
+    "Hydrolytic enzymes that help the sperm penetrate the egg covering",
+    "Mitochondria for energy",
+    "The centriole",
+    "The tail filament"
+   ]
+  },
+  {
+   "id": "biology-c12-115",
+   "type": "mcq",
+   "q": "The process by which spermatids are transformed into spermatozoa is called:",
+   "options": [
+    "Spermatogenesis",
+    "Spermiogenesis",
+    "Spermiation",
+    "Capacitation"
+   ]
+  },
+  {
+   "id": "biology-c12-116",
+   "type": "mcq",
+   "q": "Entry of more than one sperm into the ovum is prevented by changes in the:",
+   "options": [
+    "Corpus luteum",
+    "Cumulus cells",
+    "Zona pellucida",
+    "Uterine wall"
+   ]
+  },
+  {
+   "id": "biology-c12-117",
+   "type": "mcq",
+   "q": "Which statement about the human blastocyst is correct?",
+   "options": [
+    "The inner cell mass attaches to the endometrium",
+    "The trophoblast forms the embryo",
+    "A blastocyst forms at the zygote stage",
+    "The trophoblast attaches to the endometrium and the inner cell mass differentiates into the embryo"
+   ]
+  },
+  {
+   "id": "biology-c12-118",
+   "type": "mcq",
+   "q": "In a woman with a regular 28-day menstrual cycle, ovulation typically takes place about:",
+   "options": [
+    "The 14th day",
+    "The 5th day",
+    "The 21st day",
+    "The 28th day"
+   ]
+  },
+  {
+   "id": "biology-c12-119",
+   "type": "short",
+   "q": "Differentiate between spermatogenesis and oogenesis in any three points.",
+   "proposedAnswer": "Spermatogenesis begins at puberty and continues throughout life, whereas oogenesis begins in the foetus and ovulation starts at puberty and stops at menopause. One spermatogonium gives four functional sperms, while one oogonium gives one ovum and polar bodies. Spermatogenesis occurs in testes and oogenesis in ovaries.",
+   "keyPoints": [
+    "Spermatogenesis starts at puberty, oogenesis starts before birth",
+    "Four sperms versus one ovum and polar bodies",
+    "Sites: testis versus ovary"
+   ]
+  },
+  {
+   "id": "biology-c12-120",
+   "type": "short",
+   "q": "Outline the events from fertilisation to the implantation of the embryo in the uterus.",
+   "proposedAnswer": "The zygote undergoes mitotic cleavage as it moves through the fallopian tube, forming 2, 4, 8 and 16 blastomeres, called a morula. The morula becomes a blastocyst with an outer trophoblast and an inner cell mass. The trophoblast attaches to the endometrium and the blastocyst is implanted.",
+   "keyPoints": [
+    "Cleavage forms blastomeres and a morula",
+    "Morula becomes a blastocyst (trophoblast and inner cell mass)",
+    "Trophoblast attaches to the endometrium: implantation"
+   ]
+  },
+  {
+   "id": "biology-c12-121",
+   "type": "mcq",
+   "q": "Which of the following sexually transmitted infections is caused by a bacterium?",
+   "options": [
+    "Genital herpes",
+    "Gonorrhoea",
+    "Hepatitis-B",
+    "AIDS"
+   ]
+  },
+  {
+   "id": "biology-c12-122",
+   "type": "mcq",
+   "q": "The technique in which ova from the female and sperms from the male are fused outside the body and the embryo is transferred is commonly known as:",
+   "options": [
+    "Gamete intra fallopian transfer",
+    "Intracytoplasmic sperm injection",
+    "Test tube baby programme",
+    "Artificial insemination"
+   ]
+  },
+  {
+   "id": "biology-c12-123",
+   "type": "mcq",
+   "q": "Intracytoplasmic sperm injection (ICSI) is a technique in which:",
+   "options": [
+    "An ovum is transferred into the fallopian tube",
+    "Semen is introduced into the vagina",
+    "An embryo is transferred into the uterus",
+    "A sperm is injected directly into an ovum"
+   ]
+  },
+  {
+   "id": "biology-c12-124",
+   "type": "mcq",
+   "q": "Oral contraceptive pills prevent pregnancy mainly by:",
+   "options": [
+    "Inhibiting ovulation and implantation and altering the quality of cervical mucus",
+    "Cutting the vas deferens",
+    "Killing all sperms in the testis",
+    "Removing the endometrium"
+   ]
+  },
+  {
+   "id": "biology-c12-125",
+   "type": "mcq",
+   "q": "Emergency contraceptives such as progestogens or IUDs are most effective if used within what time of unprotected coitus?",
+   "options": [
+    "24 hours",
+    "72 hours",
+    "7 days",
+    "14 days"
+   ]
+  },
+  {
+   "id": "biology-c12-126",
+   "type": "mcq",
+   "q": "Which single method gives protection against both unwanted pregnancy and sexually transmitted infections?",
+   "options": [
+    "Copper-T",
+    "Oral pills",
+    "Condom",
+    "Tubectomy"
+   ]
+  },
+  {
+   "id": "biology-c12-127",
+   "type": "short",
+   "q": "What is amniocentesis? State two legitimate uses.",
+   "proposedAnswer": "Amniocentesis is a prenatal diagnostic technique in which a sample of the amniotic fluid containing foetal cells is withdrawn and analysed. It can detect chromosomal abnormalities such as Down's syndrome and certain metabolic disorders in the foetus.",
+   "keyPoints": [
+    "Analysis of amniotic fluid with foetal cells",
+    "Detects chromosomal abnormalities",
+    "Detects metabolic disorders"
+   ]
+  },
+  {
+   "id": "biology-c12-128",
+   "type": "short",
+   "q": "Suggest three measures to check the rapid growth of the human population.",
+   "proposedAnswer": "Create awareness about small family norms and the use of contraceptives, and educate people about reproductive health. Statutory raising of the marriageable age (18 for females and 21 for males) and incentives for small families also help.",
+   "keyPoints": [
+    "Awareness of small families and contraception",
+    "Raising the marriageable age",
+    "Incentives for couples with small families"
+   ]
+  },
+  {
+   "id": "biology-c12-129",
+   "type": "mcq",
+   "q": "The different forms of a gene that occupy the same locus on homologous chromosomes are called:",
+   "options": [
+    "Loci",
+    "Chromatids",
+    "Genomes",
+    "Alleles"
+   ]
+  },
+  {
+   "id": "biology-c12-130",
+   "type": "mcq",
+   "q": "Which pair of sex chromosomes is present in a normal human male?",
+   "options": [
+    "XY",
+    "XX",
+    "XO",
+    "ZW"
+   ]
+  },
+  {
+   "id": "biology-c12-131",
+   "type": "mcq",
+   "q": "A woman who is a carrier of colour blindness (X-linked recessive) marries a man with normal vision. What proportion of their sons is expected to be colour blind?",
+   "options": [
+    "25%",
+    "50%",
+    "100%",
+    "0%"
+   ]
+  },
+  {
+   "id": "biology-c12-132",
+   "type": "mcq",
+   "q": "Down's syndrome is caused by:",
+   "options": [
+    "Monosomy of the X chromosome",
+    "Trisomy of chromosome 18",
+    "Trisomy of chromosome 21",
+    "An extra Y chromosome"
+   ]
+  },
+  {
+   "id": "biology-c12-133",
+   "type": "mcq",
+   "q": "For an X-linked recessive disease, an affected father marries a normal homozygous mother. Their children will be:",
+   "options": [
+    "All sons affected",
+    "All daughters affected",
+    "Half of the daughters carriers and half affected",
+    "All daughters carriers and all sons normal"
+   ]
+  },
+  {
+   "id": "biology-c12-134",
+   "type": "mcq",
+   "q": "A child has the karyotype 44 autosomes + XXY. The child is:",
+   "options": [
+    "A male with Klinefelter's syndrome",
+    "A female with Turner's syndrome",
+    "A female with Down's syndrome",
+    "A normal male"
+   ]
+  },
+  {
+   "id": "biology-c12-135",
+   "type": "short",
+   "q": "What is pleiotropy? Give an example.",
+   "proposedAnswer": "Pleiotropy is the phenomenon in which a single gene affects more than one phenotypic trait. An example is phenylketonuria, in which a mutation in the gene for phenylalanine hydroxylase causes mental retardation, reduced hair and skin pigmentation.",
+   "keyPoints": [
+    "One gene controls several traits",
+    "Example: phenylketonuria"
+   ]
+  },
+  {
+   "id": "biology-c12-136",
+   "type": "short",
+   "q": "Why is the inheritance of ABO blood groups an example of both multiple allelism and codominance?",
+   "proposedAnswer": "The ABO gene has three alleles, IA, IB and i, and this is multiple allelism. IA and IB are both dominant over i, and when they occur together in a person (IAIB) both are expressed equally, producing group AB, which is codominance.",
+   "keyPoints": [
+    "Three alleles IA, IB and i",
+    "IA and IB are both expressed in AB individuals",
+    "Both are dominant over i"
+   ]
+  },
+  {
+   "id": "biology-c12-137",
+   "type": "mcq",
+   "q": "The double helix model of DNA was proposed by:",
+   "options": [
+    "Meselson and Stahl",
+    "Watson and Crick",
+    "Griffith",
+    "Avery, MacLeod and McCarty"
+   ]
+  },
+  {
+   "id": "biology-c12-138",
+   "type": "mcq",
+   "q": "The Human Genome Project was declared complete in which year?",
+   "options": [
+    "1953",
+    "1990",
+    "2003",
+    "2010"
+   ]
+  },
+  {
+   "id": "biology-c12-139",
+   "type": "mcq",
+   "q": "Introns of the primary transcript (hnRNA) in eukaryotes are:",
+   "options": [
+    "Capped at the 5' end",
+    "Joined to form the exons",
+    "Given a poly-A tail",
+    "Removed by splicing"
+   ]
+  },
+  {
+   "id": "biology-c12-140",
+   "type": "mcq",
+   "q": "In their experiment on semi-conservative replication, Meselson and Stahl grew E. coli in a medium containing:",
+   "options": [
+    "15NH4Cl",
+    "32P",
+    "35S",
+    "14C-glucose"
+   ]
+  },
+  {
+   "id": "biology-c12-141",
+   "type": "mcq",
+   "q": "E. coli grown for many generations in 15N medium is transferred to 14N medium. After two generations, the DNA will be:",
+   "options": [
+    "All hybrid (15N-14N)",
+    "50% hybrid and 50% light (14N-14N)",
+    "All heavy (15N-15N)",
+    "25% heavy and 75% light"
+   ]
+  },
+  {
+   "id": "biology-c12-142",
+   "type": "mcq",
+   "q": "A double-stranded DNA segment has 20% adenine. What is the percentage of guanine in it?",
+   "options": [
+    "20%",
+    "60%",
+    "30%",
+    "40%"
+   ]
+  },
+  {
+   "id": "biology-c12-143",
+   "type": "short",
+   "q": "Write any three differences between DNA and RNA.",
+   "proposedAnswer": "DNA has deoxyribose sugar, but RNA has ribose. DNA contains thymine while RNA contains uracil. DNA is generally double-stranded and stable, while RNA is usually single-stranded and more reactive.",
+   "keyPoints": [
+    "Deoxyribose versus ribose",
+    "Thymine versus uracil",
+    "Double-stranded versus single-stranded"
+   ]
+  },
+  {
+   "id": "biology-c12-144",
+   "type": "short",
+   "q": "Explain why tRNA is called the adapter molecule in protein synthesis.",
+   "proposedAnswer": "A tRNA has an anticodon loop that reads the codon on mRNA by base pairing, and an amino acid acceptor end that carries a specific amino acid. So it links the nucleotide language of mRNA to the amino acid sequence of the protein.",
+   "keyPoints": [
+    "Anticodon pairs with the mRNA codon",
+    "Carries a specific amino acid",
+    "Links codon to amino acid"
+   ]
+  },
+  {
+   "id": "biology-c12-145",
+   "type": "mcq",
+   "q": "The theory of natural selection was put forward by:",
+   "options": [
+    "Lamarck",
+    "Hugo de Vries",
+    "Charles Darwin",
+    "Gregor Mendel"
+   ]
+  },
+  {
+   "id": "biology-c12-146",
+   "type": "mcq",
+   "q": "The mutation theory of evolution, which suggests that large single-step mutations cause speciation, was proposed by:",
+   "options": [
+    "Lamarck",
+    "Darwin",
+    "Wallace",
+    "Hugo de Vries"
+   ]
+  },
+  {
+   "id": "biology-c12-147",
+   "type": "mcq",
+   "q": "The age of fossils is estimated mainly by:",
+   "options": [
+    "Radioactive dating",
+    "Chromatography",
+    "Blotting",
+    "Sedimentation rate of cells"
+   ]
+  },
+  {
+   "id": "biology-c12-148",
+   "type": "mcq",
+   "q": "The first human-like hominid, which probably ate fruits and had a brain capacity of 650-800 cc, was:",
+   "options": [
+    "Australopithecus",
+    "Homo habilis",
+    "Homo erectus",
+    "Homo sapiens"
+   ]
+  },
+  {
+   "id": "biology-c12-149",
+   "type": "mcq",
+   "q": "Why do bacteria become resistant after repeated exposure to an antibiotic?",
+   "options": [
+    "The antibiotic converts bacteria into resistant forms",
+    "The bacteria develop antibodies",
+    "Pre-existing resistant mutants survive and multiply under selection pressure",
+    "The bacteria use the antibiotic as food"
+   ]
+  },
+  {
+   "id": "biology-c12-150",
+   "type": "mcq",
+   "q": "A few individuals from a large population establish a new colony, and its allele frequencies differ from the original population by chance. This is called:",
+   "options": [
+    "Gene flow",
+    "Natural selection",
+    "Mutation pressure",
+    "The founder effect"
+   ]
+  },
+  {
+   "id": "biology-c12-151",
+   "type": "short",
+   "q": "What is convergent evolution? Give an example.",
+   "proposedAnswer": "Convergent evolution is the development of similar adaptive functional structures in unrelated groups of organisms living in similar environments. An example is the Australian marsupials and the corresponding placental mammals, such as the marsupial mole and the placental mole.",
+   "keyPoints": [
+    "Similar adaptations in unrelated groups",
+    "Result of similar habitats",
+    "Example: Australian marsupials and placental mammals"
+   ]
+  },
+  {
+   "id": "biology-c12-152",
+   "type": "short",
+   "q": "Describe stabilising, directional and disruptive natural selection.",
+   "proposedAnswer": "In stabilising selection more individuals acquire the mean character value, so the peak becomes narrower. In directional selection individuals of one extreme are favoured, so the peak shifts in one direction. In disruptive selection both extremes are favoured, producing two peaks in the distribution.",
+   "keyPoints": [
+    "Stabilising: mean value favoured, narrower peak",
+    "Directional: one extreme favoured, peak shifts",
+    "Disruptive: both extremes favoured, two peaks"
+   ]
+  },
+  {
+   "id": "biology-c12-153",
+   "type": "mcq",
+   "q": "Dengue fever is transmitted by which mosquito?",
+   "options": [
+    "Culex",
+    "Anopheles",
+    "Tse-tse fly",
+    "Aedes aegypti"
+   ]
+  },
+  {
+   "id": "biology-c12-154",
+   "type": "mcq",
+   "q": "Antibodies produced by B lymphocytes are chemically:",
+   "options": [
+    "Proteins",
+    "Lipids",
+    "Carbohydrates",
+    "Nucleic acids"
+   ]
+  },
+  {
+   "id": "biology-c12-155",
+   "type": "mcq",
+   "q": "Which antibody class is mainly associated with allergic responses?",
+   "options": [
+    "IgA",
+    "IgE",
+    "IgG",
+    "IgM"
+   ]
+  },
+  {
+   "id": "biology-c12-156",
+   "type": "mcq",
+   "q": "Interferons, which protect non-infected cells from further viral infection, are secreted by:",
+   "options": [
+    "Neutrophils",
+    "Platelets",
+    "Virus-infected cells",
+    "Erythrocytes"
+   ]
+  },
+  {
+   "id": "biology-c12-157",
+   "type": "mcq",
+   "q": "Heroin (smack) is chemically:",
+   "options": [
+    "Cocaine hydrochloride",
+    "Tetrahydrocannabinol",
+    "Methylmorphine",
+    "Diacetylmorphine"
+   ]
+  },
+  {
+   "id": "biology-c12-158",
+   "type": "mcq",
+   "q": "The RNA genome of HIV is copied into DNA after the virus enters a host cell, and this DNA is inserted into the host DNA. Which enzyme catalyses the copying?",
+   "options": [
+    "Reverse transcriptase",
+    "DNA ligase",
+    "RNA polymerase",
+    "Helicase"
+   ]
+  },
+  {
+   "id": "biology-c12-159",
+   "type": "short",
+   "q": "Name the two types of lymphocytes involved in the adaptive immune response and state their roles.",
+   "proposedAnswer": "B-lymphocytes produce antibodies in the blood (humoral immune response). T-lymphocytes do not secrete antibodies but help B cells produce them and mediate the cell-mediated immune response, such as in graft rejection.",
+   "keyPoints": [
+    "B cells produce antibodies",
+    "T cells help B cells and give cell-mediated immunity"
+   ]
+  },
+  {
+   "id": "biology-c12-160",
+   "type": "short",
+   "q": "How does a vaccine differ from an antiserum? Give an example of each use.",
+   "proposedAnswer": "A vaccine contains weakened or killed pathogens or their antigenic proteins, which stimulate the body to make antibodies and memory cells, giving active immunity (e.g. polio vaccine). An antiserum contains ready-made antibodies and gives quick passive immunity, as in tetanus or snake bite.",
+   "keyPoints": [
+    "Vaccine: antigens give active immunity and memory",
+    "Antiserum: ready-made antibodies give passive immunity",
+    "Examples: polio vaccine; antiserum for snake bite or tetanus"
+   ]
+  },
+  {
+   "id": "biology-c12-161",
+   "type": "mcq",
+   "q": "The large holes in Swiss cheese are due to:",
+   "options": [
+    "Carbon dioxide produced by Propionibacterium sharmanii",
+    "Ethanol produced by Lactobacillus",
+    "Methane produced by yeast",
+    "Oxygen produced by Aspergillus"
+   ]
+  },
+  {
+   "id": "biology-c12-162",
+   "type": "mcq",
+   "q": "The dough used for making bread rises because of:",
+   "options": [
+    "Methane produced by bacteria",
+    "Carbon dioxide produced by baker's yeast",
+    "Oxygen produced by yeast",
+    "Lactic acid produced by Lactobacillus"
+   ]
+  },
+  {
+   "id": "biology-c12-163",
+   "type": "mcq",
+   "q": "Which one is a free-living, nitrogen-fixing aerobic bacterium used as a biofertiliser?",
+   "options": [
+    "Rhizobium",
+    "Glomus",
+    "Azotobacter",
+    "Methanobacterium"
+   ]
+  },
+  {
+   "id": "biology-c12-164",
+   "type": "mcq",
+   "q": "Which bacterium is used as a biological control agent against butterfly caterpillars?",
+   "options": [
+    "Trichoderma",
+    "Glomus",
+    "Nucleopolyhedrovirus",
+    "Bacillus thuringiensis"
+   ]
+  },
+  {
+   "id": "biology-c12-165",
+   "type": "mcq",
+   "q": "In secondary treatment of sewage, the effluent is passed into aeration tanks and air is pumped continuously. This is done because:",
+   "options": [
+    "It promotes vigorous growth of aerobic microbes that form flocs and consume organic matter",
+    "It kills all the bacteria in the effluent",
+    "It removes the large floating debris",
+    "It increases the BOD of the effluent"
+   ]
+  },
+  {
+   "id": "biology-c12-166",
+   "type": "mcq",
+   "q": "In a biogas plant, the final production of methane from organic matter is carried out by:",
+   "options": [
+    "Aerobic soil bacteria",
+    "Methanogens such as Methanobacterium",
+    "Yeasts",
+    "Lactobacilli"
+   ]
+  },
+  {
+   "id": "biology-c12-167",
+   "type": "short",
+   "q": "What is fermentation? Name two products obtained by microbial fermentation.",
+   "proposedAnswer": "Fermentation is the metabolic breakdown of organic substances by microbes in the absence of oxygen, giving products such as organic acids or alcohol. Examples are ethanol from Saccharomyces cerevisiae and lactic acid by Lactobacillus.",
+   "keyPoints": [
+    "Microbial breakdown of substrate, usually anaerobic",
+    "Products like ethanol and lactic acid"
+   ]
+  },
+  {
+   "id": "biology-c12-168",
+   "type": "short",
+   "q": "Why are baculoviruses (nucleopolyhedroviruses) considered suitable for integrated pest management?",
+   "proposedAnswer": "They attack insects and other arthropods and are species-specific with narrow spectrum insecticidal action. They have no negative effects on plants, mammals, birds, fish or even non-target insects, which is useful for ecologically sensitive areas.",
+   "keyPoints": [
+    "Species-specific, narrow spectrum",
+    "No harmful effect on non-target organisms",
+    "Useful in integrated pest management and sensitive areas"
+   ]
+  },
+  {
+   "id": "biology-c12-169",
+   "type": "mcq",
+   "q": "Who constructed the first recombinant DNA by linking an antibiotic resistance gene with a plasmid of Salmonella typhimurium and transferring it into E. coli?",
+   "options": [
+    "Griffith and Avery",
+    "Watson and Crick",
+    "Cohen and Boyer",
+    "Hershey and Chase"
+   ]
+  },
+  {
+   "id": "biology-c12-170",
+   "type": "mcq",
+   "q": "Plasmids used as vectors are best described as:",
+   "options": [
+    "Linear RNA molecules",
+    "Parts of ribosomes",
+    "Spore-forming structures",
+    "Extrachromosomal, self-replicating, circular DNA molecules in bacteria"
+   ]
+  },
+  {
+   "id": "biology-c12-171",
+   "type": "mcq",
+   "q": "During agarose gel electrophoresis, DNA fragments move toward:",
+   "options": [
+    "The anode, because DNA is negatively charged",
+    "The cathode, because DNA is positively charged",
+    "Neither electrode",
+    "Both electrodes equally"
+   ]
+  },
+  {
+   "id": "biology-c12-172",
+   "type": "mcq",
+   "q": "Separated DNA fragments in an agarose gel are stained with which compound and viewed under UV light?",
+   "options": [
+    "Safranin",
+    "Ethidium bromide",
+    "Cotton blue",
+    "Iodine"
+   ]
+  },
+  {
+   "id": "biology-c12-173",
+   "type": "mcq",
+   "q": "In a stirred-tank bioreactor, the sparger is used to:",
+   "options": [
+    "Maintain the pH of the culture",
+    "Cool the vessel",
+    "Introduce sterile air in the form of fine bubbles",
+    "Add antifoam agents only"
+   ]
+  },
+  {
+   "id": "biology-c12-174",
+   "type": "mcq",
+   "q": "Bacterial cells are made competent to take up recombinant DNA by treating them with:",
+   "options": [
+    "An antibiotic and then ethanol",
+    "UV light and cold",
+    "A detergent and sonication",
+    "Divalent calcium ions followed by heat shock at about 42 degrees C"
+   ]
+  },
+  {
+   "id": "biology-c12-175",
+   "type": "short",
+   "q": "What is a bioreactor? Mention its main features.",
+   "proposedAnswer": "A bioreactor is a vessel in which raw materials are biologically converted into specific products using microbial, plant or animal cells. It has an agitation system, an oxygen delivery system, a foam control system, a temperature control system, a pH control system and sampling ports.",
+   "keyPoints": [
+    "Vessel for large-scale biological conversion",
+    "Agitator and oxygen delivery",
+    "Temperature and pH control, sampling ports"
+   ]
+  },
+  {
+   "id": "biology-c12-176",
+   "type": "short",
+   "q": "In pBR322, a foreign gene is inserted at the BamHI site within the tetracycline resistance gene. How can recombinant bacteria be identified?",
+   "proposedAnswer": "Insertion at the BamHI site inactivates the tetracycline resistance gene, so recombinants are ampicillin resistant but tetracycline sensitive. Non-recombinants carry both functional genes, so they grow on both antibiotics, and the two types are separated by plating on antibiotic media.",
+   "keyPoints": [
+    "Insertion inactivates the tetracycline resistance gene",
+    "Recombinants: ampicillin resistant, tetracycline sensitive",
+    "Non-recombinants resistant to both"
+   ]
+  },
+  {
+   "id": "biology-c12-177",
+   "type": "mcq",
+   "q": "ELISA is based on the principle of:",
+   "options": [
+    "Gene silencing",
+    "Transcription of DNA",
+    "DNA hybridisation only",
+    "Antigen-antibody interaction"
+   ]
+  },
+  {
+   "id": "biology-c12-178",
+   "type": "mcq",
+   "q": "A transgenic organism is one whose genome:",
+   "options": [
+    "Has been altered by the introduction of a foreign gene",
+    "Has lost one chromosome",
+    "Is formed by cloning without any change",
+    "Has been completely sequenced"
+   ]
+  },
+  {
+   "id": "biology-c12-179",
+   "type": "mcq",
+   "q": "The Bt gene cryIAb is used to control which pest?",
+   "options": [
+    "Cotton bollworms",
+    "Corn borer",
+    "Root-knot nematode",
+    "Fruit fly"
+   ]
+  },
+  {
+   "id": "biology-c12-180",
+   "type": "mcq",
+   "q": "Gene therapy is best described as:",
+   "options": [
+    "Treatment using drugs to alter genes",
+    "Replacement of all the chromosomes of a cell",
+    "A set of methods to correct a gene defect diagnosed in a child or embryo",
+    "Organ transplantation from a donor"
+   ]
+  },
+  {
+   "id": "biology-c12-181",
+   "type": "mcq",
+   "q": "Why were the A and B chains of human insulin produced separately in E. coli in the first commercial production?",
+   "options": [
+    "E. coli cannot make any protein",
+    "The C peptide is essential for insulin to work",
+    "The two chains are made by different organisms",
+    "E. coli lacks the machinery to process proinsulin and remove the C peptide, so mature insulin was assembled from separate chains"
+   ]
+  },
+  {
+   "id": "biology-c12-182",
+   "type": "mcq",
+   "q": "Transgenic mice carrying oncogenes are useful models because they:",
+   "options": [
+    "Develop cancer with a higher probability, helping study of the disease and its treatment",
+    "Are immune to cancer",
+    "Cannot reproduce",
+    "Produce Bt toxin"
+   ]
+  },
+  {
+   "id": "biology-c12-183",
+   "type": "short",
+   "q": "What are genetically modified organisms (GMOs)? List two uses of GM plants.",
+   "proposedAnswer": "GMOs are plants, bacteria, fungi and animals whose genes have been altered by manipulation. GM plants can be made tolerant to abiotic stresses such as cold and drought, pest resistant, and can have enhanced nutritional value or a longer shelf life.",
+   "keyPoints": [
+    "Organisms with altered genes",
+    "Stress tolerance and pest resistance",
+    "Better nutrition or shelf life"
+   ]
+  },
+  {
+   "id": "biology-c12-184",
+   "type": "short",
+   "q": "State the advantages of recombinant human insulin over insulin from animals.",
+   "proposedAnswer": "Insulin from cattle and pigs differs slightly from human insulin and can cause allergic or immune reactions in some patients. Recombinant human insulin has the human sequence, so these reactions are avoided, and it can be produced in large quantity in bacteria.",
+   "keyPoints": [
+    "Animal insulin may cause allergy or immune response",
+    "Recombinant insulin is identical to the human one",
+    "Large-scale production in bacteria"
+   ]
+  },
+  {
+   "id": "biology-c12-185",
+   "type": "mcq",
+   "q": "Hibernation of bears in winter is a strategy to cope with:",
+   "options": [
+    "Water scarcity",
+    "Cold temperature",
+    "High salinity",
+    "Parasites"
+   ]
+  },
+  {
+   "id": "biology-c12-186",
+   "type": "mcq",
+   "q": "An orchid growing on the branch of a mango tree is an example of:",
+   "options": [
+    "Mutualism",
+    "Parasitism",
+    "Commensalism",
+    "Predation"
+   ]
+  },
+  {
+   "id": "biology-c12-187",
+   "type": "mcq",
+   "q": "Cuscuta growing on a hedge plant and absorbing nutrients from it is an example of:",
+   "options": [
+    "Commensalism",
+    "Mutualism",
+    "Competition",
+    "Parasitism"
+   ]
+  },
+  {
+   "id": "biology-c12-188",
+   "type": "mcq",
+   "q": "An age pyramid with a broad base, showing a large pre-reproductive group, indicates that the population is:",
+   "options": [
+    "Expanding",
+    "Stable",
+    "Declining",
+    "Extinct"
+   ]
+  },
+  {
+   "id": "biology-c12-189",
+   "type": "mcq",
+   "q": "A population of 100 individuals rises to 120 in one year with no immigration or emigration. If 30 individuals were born, how many deaths occurred?",
+   "options": [
+    "5",
+    "10",
+    "20",
+    "30"
+   ]
+  },
+  {
+   "id": "biology-c12-190",
+   "type": "mcq",
+   "q": "Mammals from colder climates generally have shorter ears and limbs to minimise heat loss. This is known as:",
+   "options": [
+    "Bergmann's rule",
+    "Gloger's rule",
+    "Allen's rule",
+    "Jordan's rule"
+   ]
+  },
+  {
+   "id": "biology-c12-191",
+   "type": "short",
+   "q": "Differentiate between regulators and conformers with an example of each.",
+   "proposedAnswer": "Regulators maintain a constant internal body condition, such as temperature or osmotic concentration, despite external changes; birds and mammals are examples. Conformers cannot regulate and their internal condition changes with the surroundings; most invertebrates and fishes are examples.",
+   "keyPoints": [
+    "Regulators maintain homeostasis (e.g. mammals)",
+    "Conformers change with the environment (e.g. most invertebrates)"
+   ]
+  },
+  {
+   "id": "biology-c12-192",
+   "type": "short",
+   "q": "How do predators help to maintain species diversity in a community? Give an example.",
+   "proposedAnswer": "Predators keep prey populations under control, and a keystone predator reduces competition between prey species so that a competitively superior species cannot eliminate others. In the rocky intertidal of Washington, removal of the starfish Pisaster caused the loss of more than ten invertebrate species.",
+   "keyPoints": [
+    "Control prey population size",
+    "Reduce interspecific competition among prey",
+    "Example: Pisaster in the rocky intertidal"
+   ]
+  },
+  {
+   "id": "biology-c12-193",
+   "type": "mcq",
+   "q": "Which of the following is a decomposer?",
+   "options": [
+    "Grasshopper",
+    "Algae",
+    "Fungi",
+    "Frog"
+   ]
+  },
+  {
+   "id": "biology-c12-194",
+   "type": "mcq",
+   "q": "The ultimate source of energy for almost all ecosystems on Earth is:",
+   "options": [
+    "Geothermal heat",
+    "Wind",
+    "Chemical bonds in soil",
+    "Solar radiation"
+   ]
+  },
+  {
+   "id": "biology-c12-195",
+   "type": "mcq",
+   "q": "Plants capture about what percentage of the photosynthetically active radiation (PAR)?",
+   "options": [
+    "2-10 per cent",
+    "25-30 per cent",
+    "50-60 per cent",
+    "80-90 per cent"
+   ]
+  },
+  {
+   "id": "biology-c12-196",
+   "type": "mcq",
+   "q": "The amount of living material (biomass) of each trophic level at a particular time is called:",
+   "options": [
+    "Productivity",
+    "Standing crop",
+    "Detritus",
+    "Humus"
+   ]
+  },
+  {
+   "id": "biology-c12-197",
+   "type": "mcq",
+   "q": "Compared with the carbon cycle, the phosphorus cycle:",
+   "options": [
+    "Has a large atmospheric reservoir",
+    "Is mainly a gaseous cycle",
+    "Has negligible atmospheric input, and rocks are the main reservoir",
+    "Is driven only by photosynthesis"
+   ]
+  },
+  {
+   "id": "biology-c12-198",
+   "type": "mcq",
+   "q": "Which set of processes returns carbon dioxide to the atmosphere?",
+   "options": [
+    "Photosynthesis only",
+    "Photosynthesis and weathering",
+    "Transpiration and evaporation",
+    "Respiration, decomposition and burning of fossil fuels"
+   ]
+  },
+  {
+   "id": "biology-c12-199",
+   "type": "short",
+   "q": "What is ecological succession? Differentiate between primary and secondary succession.",
+   "proposedAnswer": "Ecological succession is the gradual and fairly predictable change in the species composition of a given area over time, ending in a climax community. Primary succession starts in a lifeless area like bare rock with no soil, whereas secondary succession starts in an area that has lost a community but retains soil, so it is faster.",
+   "keyPoints": [
+    "Gradual change in species composition leading to climax",
+    "Primary: no soil, bare area",
+    "Secondary: soil present, faster"
+   ]
+  },
+  {
+   "id": "biology-c12-200",
+   "type": "short",
+   "q": "Explain why energy flow in an ecosystem is unidirectional and why food chains are usually short.",
+   "proposedAnswer": "Energy captured by producers flows to higher trophic levels and cannot return to the sun or to the producers, as much is lost as heat. Only about 10 per cent is transferred to the next level, so very little remains after 3 to 4 levels, which limits the length of food chains.",
+   "keyPoints": [
+    "Energy lost as heat at each level, cannot be reused",
+    "Only about 10% transferred to the next level",
+    "Little energy remains beyond 3-4 trophic levels"
+   ]
+  },
+  {
+   "id": "biology-c12-201",
+   "type": "mcq",
+   "q": "How does species richness generally change as one moves from the poles towards the equator?",
+   "options": [
+    "It increases",
+    "It decreases",
+    "It stays the same",
+    "It decreases and then remains constant"
+   ]
+  },
+  {
+   "id": "biology-c12-202",
+   "type": "mcq",
+   "q": "The IUCN Red List provides information on:",
+   "options": [
+    "Species with the largest populations",
+    "The conservation status of species, including threatened ones",
+    "Only extinct species",
+    "The forest area of each country"
+   ]
+  },
+  {
+   "id": "biology-c12-203",
+   "type": "mcq",
+   "q": "Gametes of threatened species can be preserved for long periods by cryopreservation at about:",
+   "options": [
+    "0 degrees C",
+    "-20 degrees C",
+    "-196 degrees C in liquid nitrogen",
+    "4 degrees C"
+   ]
+  },
+  {
+   "id": "biology-c12-204",
+   "type": "mcq",
+   "q": "Which of the following animals became extinct in the last few hundred years?",
+   "options": [
+    "Tiger",
+    "Blue whale",
+    "Giant panda",
+    "Dodo"
+   ]
+  },
+  {
+   "id": "biology-c12-205",
+   "type": "mcq",
+   "q": "When a host fish species becomes extinct, its specialised parasites also disappear. This is an example of:",
+   "options": [
+    "Co-extinction",
+    "Over-exploitation",
+    "Genetic erosion",
+    "Habitat fragmentation"
+   ]
+  },
+  {
+   "id": "biology-c12-206",
+   "type": "mcq",
+   "q": "The medicinal plant Rauwolfia vomitoria shows variation in the potency and concentration of reserpine in different Himalayan ranges. This is an example of:",
+   "options": [
+    "Species diversity",
+    "Genetic diversity",
+    "Ecological diversity",
+    "Community diversity"
+   ]
+  },
+  {
+   "id": "biology-c12-207",
+   "type": "short",
+   "q": "Name the three levels of biodiversity and give one example of each.",
+   "proposedAnswer": "Genetic diversity is variation within a species, such as the many varieties of rice or of mango. Species diversity is the variety of species in a region, such as the Western Ghats having more amphibian species than the Eastern Ghats. Ecological diversity is the variety of ecosystems, such as deserts, rain forests and mangroves.",
+   "keyPoints": [
+    "Genetic diversity within a species",
+    "Species diversity in a region",
+    "Ecological diversity of ecosystems"
+   ]
+  },
+  {
+   "id": "biology-c12-208",
+   "type": "short",
+   "q": "Why should biodiversity be conserved? Explain the narrowly utilitarian, broadly utilitarian and ethical arguments.",
+   "proposedAnswer": "The narrowly utilitarian argument says that humans get food, firewood, fibre, medicines and industrial products from biodiversity. The broadly utilitarian argument says that ecosystems provide services such as oxygen, pollination and climate regulation. The ethical argument says every species has intrinsic value and we have a moral duty to pass it to future generations.",
+   "keyPoints": [
+    "Narrowly utilitarian: direct products",
+    "Broadly utilitarian: ecosystem services",
+    "Ethical: intrinsic value of species, duty to future generations"
+   ]
+  },
+  {
+   "id": "biology-c12-209",
+   "type": "mcq",
+   "q": "After fertilisation in a flowering plant, the ovary develops into a:",
+   "options": [
+    "Seed",
+    "Embryo",
+    "Fruit",
+    "Endosperm"
+   ]
+  },
+  {
+   "id": "biology-c12-210",
+   "type": "mcq",
+   "q": "After fertilisation, the ovule develops into a:",
+   "options": [
+    "Fruit",
+    "Embryo",
+    "Pericarp",
+    "Seed"
+   ]
+  },
+  {
+   "id": "biology-c12-211",
+   "type": "mcq",
+   "q": "The tender coconut water is an example of:",
+   "options": [
+    "Free-nuclear endosperm",
+    "Cellular endosperm",
+    "Cotyledon fluid",
+    "Perisperm"
+   ]
+  },
+  {
+   "id": "biology-c12-212",
+   "type": "mcq",
+   "q": "The remains of the persistent nucellus in a mature seed, as seen in black pepper and beet, is called:",
+   "options": [
+    "Endosperm",
+    "Perisperm",
+    "Hilum",
+    "Aleurone layer"
+   ]
+  },
+  {
+   "id": "biology-c12-213",
+   "type": "mcq",
+   "q": "Pea seeds are non-albuminous because:",
+   "options": [
+    "They have no embryo",
+    "They have no seed coat",
+    "The endosperm is completely consumed by the developing embryo during seed development",
+    "Fertilisation does not occur in them"
+   ]
+  },
+  {
+   "id": "biology-c12-214",
+   "type": "mcq",
+   "q": "In the embryo of grass family plants such as maize, the single cotyledon is represented by the:",
+   "options": [
+    "Coleoptile",
+    "Coleorhiza",
+    "Epiblast",
+    "Scutellum"
+   ]
+  },
+  {
+   "id": "biology-c12-215",
+   "type": "short",
+   "q": "Differentiate between albuminous and non-albuminous seeds with one example each.",
+   "proposedAnswer": "Albuminous seeds retain a part of the endosperm because it is not completely used up during embryo development, as in wheat, maize and castor. Non-albuminous seeds have no residual endosperm, as it is totally consumed by the embryo, as in pea and groundnut.",
+   "keyPoints": [
+    "Albuminous: residual endosperm present (wheat, castor)",
+    "Non-albuminous: endosperm used up (pea, groundnut)"
+   ]
+  },
+  {
+   "id": "biology-c12-216",
+   "type": "short",
+   "q": "Explain how seed formation gives flowering plants a survival advantage.",
+   "proposedAnswer": "Seeds carry stored food that nourishes the young seedling until it can photosynthesise. A hard seed coat protects the embryo, and seeds can remain dormant until conditions are favourable. Seeds are also dispersed to new habitats, and they carry new genetic combinations because they result from sexual reproduction.",
+   "keyPoints": [
+    "Stored food for seedling",
+    "Protective seed coat and dormancy",
+    "Dispersal to new habitats",
+    "Genetic variation from sexual reproduction"
+   ]
+  },
+  {
+   "id": "biology-c12-217",
+   "type": "mcq",
+   "q": "In the human male, sperms are stored and undergo maturation in the:",
+   "options": [
+    "Seminiferous tubule",
+    "Vasa efferentia",
+    "Epididymis",
+    "Urethra"
+   ]
+  },
+  {
+   "id": "biology-c12-218",
+   "type": "mcq",
+   "q": "The yellowish fluid secreted by the mammary glands in the first few days after delivery is called:",
+   "options": [
+    "Whey",
+    "Lactose",
+    "Casein",
+    "Colostrum"
+   ]
+  },
+  {
+   "id": "biology-c12-219",
+   "type": "mcq",
+   "q": "The Sertoli cells of the seminiferous tubules:",
+   "options": [
+    "Provide nutrition to the germ cells",
+    "Secrete testosterone",
+    "Produce the seminal plasma",
+    "Store the sperms"
+   ]
+  },
+  {
+   "id": "biology-c12-220",
+   "type": "mcq",
+   "q": "Which of the following hormones is produced by the placenta?",
+   "options": [
+    "Follicle stimulating hormone",
+    "Human chorionic gonadotropin",
+    "Thyroxine",
+    "Prolactin"
+   ]
+  },
+  {
+   "id": "biology-c12-221",
+   "type": "mcq",
+   "q": "At the time of ovulation, the human secondary oocyte is arrested at which stage of meiosis?",
+   "options": [
+    "Prophase I",
+    "Metaphase I",
+    "Metaphase II",
+    "Telophase II"
+   ]
+  },
+  {
+   "id": "biology-c12-222",
+   "type": "mcq",
+   "q": "Menstrual cycles do not occur during pregnancy mainly because:",
+   "options": [
+    "The ovaries stop producing eggs permanently",
+    "FSH level rises sharply",
+    "The endometrium becomes very thin",
+    "High levels of progesterone and oestrogen maintain the endometrium and inhibit ovulation"
+   ]
+  },
+  {
+   "id": "biology-c12-223",
+   "type": "short",
+   "q": "Describe the structure of a human sperm.",
+   "proposedAnswer": "A sperm has a head, neck, middle piece and tail. The head has an elongated haploid nucleus covered by the acrosome with enzymes; the middle piece has many mitochondria that provide energy; the tail is a flagellum for motility.",
+   "keyPoints": [
+    "Head with haploid nucleus and acrosome",
+    "Middle piece with mitochondria",
+    "Tail for movement"
+   ]
+  },
+  {
+   "id": "biology-c12-224",
+   "type": "short",
+   "q": "Explain the process of parturition and the hormones involved.",
+   "proposedAnswer": "Signals from the fully developed foetus and the placenta induce mild uterine contractions, called the foetal ejection reflex. This triggers the release of oxytocin from the maternal posterior pituitary, which acts on the uterine muscle to cause stronger contractions. A cycle of this positive feedback leads to the expulsion of the baby.",
+   "keyPoints": [
+    "Foetal and placental signals start contractions",
+    "Oxytocin released from the pituitary",
+    "Positive feedback leads to delivery"
+   ]
+  },
+  {
+   "id": "biology-c12-225",
+   "type": "mcq",
+   "q": "Which of the following is a natural method of contraception?",
+   "options": [
+    "Condom",
+    "Oral pills",
+    "Periodic abstinence",
+    "Intrauterine device"
+   ]
+  },
+  {
+   "id": "biology-c12-226",
+   "type": "mcq",
+   "q": "Surgical sterilisation in the human male is called:",
+   "options": [
+    "Tubectomy",
+    "MTP",
+    "Hysterectomy",
+    "Vasectomy"
+   ]
+  },
+  {
+   "id": "biology-c12-227",
+   "type": "mcq",
+   "q": "Medical termination of pregnancy is considered relatively safe during:",
+   "options": [
+    "The first 12 weeks of pregnancy",
+    "The 20th week",
+    "The 30th week",
+    "Any time during pregnancy"
+   ]
+  },
+  {
+   "id": "biology-c12-228",
+   "type": "mcq",
+   "q": "In the gamete intra fallopian transfer (GIFT) technique:",
+   "options": [
+    "An embryo is transferred into the uterus",
+    "An ovum from a donor is transferred into the fallopian tube of a female who cannot produce ova but can provide a suitable environment for fertilisation",
+    "A sperm is injected into an ovum",
+    "A zygote is transferred into the cervix"
+   ]
+  },
+  {
+   "id": "biology-c12-229",
+   "type": "mcq",
+   "q": "Hormone-releasing IUDs such as LNG-20 prevent pregnancy by:",
+   "options": [
+    "Killing the ovum",
+    "Cutting the oviduct",
+    "Making the uterus unsuitable for implantation and the cervix hostile to sperms",
+    "Reducing sperm production in the testis"
+   ]
+  },
+  {
+   "id": "biology-c12-230",
+   "type": "mcq",
+   "q": "Copper ions released by a Cu-T prevent pregnancy because they:",
+   "options": [
+    "Stimulate ovulation",
+    "Increase sperm motility",
+    "Thin the cervical lining",
+    "Suppress sperm motility and the fertilising capacity of sperms"
+   ]
+  },
+  {
+   "id": "biology-c12-231",
+   "type": "short",
+   "q": "Name two sexually transmitted infections and write two ways of preventing them.",
+   "proposedAnswer": "Examples are gonorrhoea, syphilis, genital herpes and hepatitis-B. Prevention includes avoiding sex with unknown partners or multiple partners, using condoms during coitus, and getting early detection and treatment.",
+   "keyPoints": [
+    "Examples: gonorrhoea, syphilis, genital herpes, hepatitis-B",
+    "Use of condoms",
+    "Avoid multiple or unknown partners"
+   ]
+  },
+  {
+   "id": "biology-c12-232",
+   "type": "short",
+   "q": "Differentiate between IUI and IVF.",
+   "proposedAnswer": "In intra-uterine insemination (IUI), semen from the husband or a donor is artificially introduced into the uterus, and fertilisation happens inside the body. In IVF, the ovum and sperm are made to fuse in the laboratory and the embryo is transferred to the female reproductive tract.",
+   "keyPoints": [
+    "IUI: semen placed in the uterus, fertilisation in the body",
+    "IVF: fertilisation outside in the laboratory",
+    "IVF embryo is transferred to fallopian tube or uterus"
+   ]
+  },
+  {
+   "id": "biology-c12-233",
+   "type": "mcq",
+   "q": "Mendel selected how many pairs of contrasting characters in the garden pea for his experiments?",
+   "options": [
+    "3",
+    "5",
+    "7",
+    "14"
+   ]
+  },
+  {
+   "id": "biology-c12-234",
+   "type": "mcq",
+   "q": "An individual having two identical alleles of a gene is called:",
+   "options": [
+    "Heterozygous",
+    "Hemizygous",
+    "Mutant",
+    "Homozygous"
+   ]
+  },
+  {
+   "id": "biology-c12-235",
+   "type": "mcq",
+   "q": "In a cross between two heterozygous tall pea plants (Tt x Tt), what percentage of the offspring is expected to be dwarf?",
+   "options": [
+    "25%",
+    "50%",
+    "75%",
+    "0%"
+   ]
+  },
+  {
+   "id": "biology-c12-236",
+   "type": "mcq",
+   "q": "Human skin colour is an example of:",
+   "options": [
+    "Multiple allelism",
+    "Polygenic inheritance",
+    "Pleiotropy",
+    "Sex-linked inheritance"
+   ]
+  },
+  {
+   "id": "biology-c12-237",
+   "type": "mcq",
+   "q": "Two parents who are both carriers of the sickle-cell trait (HbA HbS) have a child. What is the probability that the child has sickle-cell anaemia (HbS HbS)?",
+   "options": [
+    "0",
+    "50%",
+    "25%",
+    "100%"
+   ]
+  },
+  {
+   "id": "biology-c12-238",
+   "type": "mcq",
+   "q": "In a dihybrid cross RrYy x RrYy for seed shape (R round, r wrinkled) and colour (Y yellow, y green), what fraction of F2 is round and green?",
+   "options": [
+    "9/16",
+    "1/16",
+    "1/4",
+    "3/16"
+   ]
+  },
+  {
+   "id": "biology-c12-239",
+   "type": "short",
+   "q": "State the chromosomal theory of inheritance.",
+   "proposedAnswer": "Proposed by Sutton and Boveri, it states that genes are located on chromosomes. Chromosomes occur in pairs and segregate at gamete formation, and the behaviour of chromosomes during meiosis parallels that of Mendel's factors, so chromosomes are the carriers of hereditary units.",
+   "keyPoints": [
+    "Genes are on chromosomes",
+    "Chromosomes pair and segregate in meiosis",
+    "Parallel with Mendel's factors"
+   ]
+  },
+  {
+   "id": "biology-c12-240",
+   "type": "short",
+   "q": "Explain how a single base substitution leads to sickle-cell anaemia.",
+   "proposedAnswer": "A point mutation changes the codon GAG to GUG in the gene for beta globin, so the sixth amino acid, glutamic acid, is replaced by valine. The mutant haemoglobin polymerises under low oxygen and makes the red blood cells sickle-shaped. It is an autosomal recessive disorder.",
+   "keyPoints": [
+    "GAG changed to GUG (point mutation)",
+    "Glutamic acid replaced by valine in beta chain",
+    "Haemoglobin polymerises, RBCs become sickle-shaped"
+   ]
+  },
+  {
+   "id": "biology-c12-241",
+   "type": "mcq",
+   "q": "Which pair of nitrogenous bases in DNA are purines?",
+   "options": [
+    "Cytosine and thymine",
+    "Uracil and thymine",
+    "Adenine and guanine",
+    "Cytosine and uracil"
+   ]
+  },
+  {
+   "id": "biology-c12-242",
+   "type": "mcq",
+   "q": "In eukaryotes, the DNA in a nucleosome is wrapped around a core of:",
+   "options": [
+    "Four histone molecules",
+    "Non-histone proteins",
+    "Ribosomes",
+    "Eight histone molecules (a histone octamer)"
+   ]
+  },
+  {
+   "id": "biology-c12-243",
+   "type": "mcq",
+   "q": "The short fragments formed during discontinuous DNA synthesis on the lagging strand are called:",
+   "options": [
+    "Okazaki fragments",
+    "Exons",
+    "Introns",
+    "Plasmids"
+   ]
+  },
+  {
+   "id": "biology-c12-244",
+   "type": "mcq",
+   "q": "Which are the three stop (termination) codons?",
+   "options": [
+    "AUG, GUG, UUU",
+    "UAA, UAG, UGA",
+    "AUA, UAU, GAG",
+    "UUU, UCU, UCC"
+   ]
+  },
+  {
+   "id": "biology-c12-245",
+   "type": "mcq",
+   "q": "How many amino acids are incorporated when the mRNA 5'-AUG UUU GGC UAA-3' is translated?",
+   "options": [
+    "2",
+    "4",
+    "3",
+    "12"
+   ]
+  },
+  {
+   "id": "biology-c12-246",
+   "type": "mcq",
+   "q": "The coding region of an mRNA has 303 nucleotides including the stop codon. How many amino acids are in the polypeptide?",
+   "options": [
+    "303",
+    "101",
+    "33",
+    "100"
+   ]
+  },
+  {
+   "id": "biology-c12-247",
+   "type": "short",
+   "q": "What is transcription? Name the three regions of a transcription unit in bacteria.",
+   "proposedAnswer": "Transcription is the process of copying genetic information from one strand of DNA into RNA, catalysed by RNA polymerase. A transcription unit has a promoter, the structural gene and a terminator.",
+   "keyPoints": [
+    "Copying of a DNA strand into RNA",
+    "Promoter",
+    "Structural gene and terminator"
+   ]
+  },
+  {
+   "id": "biology-c12-248",
+   "type": "short",
+   "q": "Why is DNA replication discontinuous on one of the two template strands?",
+   "proposedAnswer": "DNA polymerase can synthesise DNA only in the 5' to 3' direction. On the template strand with 3' to 5' polarity the new strand is made continuously, but on the other template strand it must be made in short pieces in the opposite direction to fork movement, and these Okazaki fragments are joined by DNA ligase.",
+   "keyPoints": [
+    "DNA polymerase works only 5' to 3'",
+    "Lagging strand made in short fragments",
+    "Fragments joined by DNA ligase"
+   ]
+  },
+  {
+   "id": "biology-c12-249",
+   "type": "mcq",
+   "q": "The study of fossils is called:",
+   "options": [
+    "Embryology",
+    "Taxonomy",
+    "Palaeontology",
+    "Ecology"
+   ]
+  },
+  {
+   "id": "biology-c12-250",
+   "type": "mcq",
+   "q": "Archaeopteryx is regarded as a connecting link between:",
+   "options": [
+    "Fishes and amphibians",
+    "Reptiles and mammals",
+    "Amphibians and reptiles",
+    "Reptiles and birds"
+   ]
+  },
+  {
+   "id": "biology-c12-251",
+   "type": "mcq",
+   "q": "Which of the following is a vestigial organ in humans?",
+   "options": [
+    "Vermiform appendix",
+    "Heart",
+    "Pancreas",
+    "Liver"
+   ]
+  },
+  {
+   "id": "biology-c12-252",
+   "type": "mcq",
+   "q": "Which of the following was absent from the primitive atmosphere of the Earth?",
+   "options": [
+    "Methane",
+    "Free oxygen",
+    "Ammonia",
+    "Water vapour"
+   ]
+  },
+  {
+   "id": "biology-c12-253",
+   "type": "mcq",
+   "q": "The Oparin-Haldane hypothesis suggests that the first forms of life:",
+   "options": [
+    "Came from outer space",
+    "Arose by spontaneous generation from decaying matter",
+    "Arose from pre-existing non-living organic molecules through chemical evolution",
+    "Were multicellular plants"
+   ]
+  },
+  {
+   "id": "biology-c12-254",
+   "type": "mcq",
+   "q": "A hominid with a brain capacity of about 900 cc, who probably ate meat, was:",
+   "options": [
+    "Homo habilis",
+    "Neanderthal man",
+    "Australopithecus",
+    "Homo erectus"
+   ]
+  },
+  {
+   "id": "biology-c12-255",
+   "type": "short",
+   "q": "What are vestigial organs? Give two examples from the human body.",
+   "proposedAnswer": "Vestigial organs are organs that are reduced in size and have lost their function, though they were functional in ancestors. Examples in humans are the vermiform appendix and the muscles that move the ear (or the nictitating membrane of the eye).",
+   "keyPoints": [
+    "Reduced and non-functional organs",
+    "Functional in ancestors",
+    "Examples: appendix, ear muscles"
+   ]
+  },
+  {
+   "id": "biology-c12-256",
+   "type": "short",
+   "q": "Compare the explanation of Lamarck and Darwin for the long neck of the giraffe.",
+   "proposedAnswer": "Lamarck proposed that giraffes stretched their necks to reach leaves, and this acquired lengthening was passed to offspring (use and disuse). Darwin explained that giraffes naturally vary, and those with longer necks could feed better, survived and reproduced more, so the trait spread by natural selection.",
+   "keyPoints": [
+    "Lamarck: use and disuse, inheritance of acquired characters",
+    "Darwin: variation and natural selection",
+    "Long-necked giraffes leave more offspring"
+   ]
+  },
+  {
+   "id": "biology-c12-257",
+   "type": "mcq",
+   "q": "Typhoid fever is usually spread through:",
+   "options": [
+    "Mosquito bites",
+    "Sexual contact",
+    "Contaminated food and water",
+    "Blood transfusion only"
+   ]
+  },
+  {
+   "id": "biology-c12-258",
+   "type": "mcq",
+   "q": "Ringworm is caused by:",
+   "options": [
+    "Bacteria",
+    "Protozoa",
+    "Helminths",
+    "Fungi"
+   ]
+  },
+  {
+   "id": "biology-c12-259",
+   "type": "mcq",
+   "q": "The common cold is caused by:",
+   "options": [
+    "Rhinoviruses",
+    "Haemophilus influenzae",
+    "Salmonella",
+    "Plasmodium"
+   ]
+  },
+  {
+   "id": "biology-c12-260",
+   "type": "mcq",
+   "q": "Filariasis (elephantiasis) is caused by:",
+   "options": [
+    "Ascaris",
+    "Wuchereria",
+    "Taenia",
+    "Entamoeba"
+   ]
+  },
+  {
+   "id": "biology-c12-261",
+   "type": "mcq",
+   "q": "Rheumatoid arthritis is called an autoimmune disease because:",
+   "options": [
+    "It is caused by a virus",
+    "It is inherited only",
+    "The body's immune system attacks its own cells",
+    "It is caused by allergens"
+   ]
+  },
+  {
+   "id": "biology-c12-262",
+   "type": "mcq",
+   "q": "Which of the following is a physical carcinogen?",
+   "options": [
+    "Nicotine",
+    "Aflatoxin",
+    "Oncogenic viruses",
+    "Ionising radiation like X-rays"
+   ]
+  },
+  {
+   "id": "biology-c12-263",
+   "type": "short",
+   "q": "Name the primary and secondary lymphoid organs of the human body.",
+   "proposedAnswer": "The primary lymphoid organs are the bone marrow and thymus, where lymphocytes originate and mature. The secondary lymphoid organs are the spleen, lymph nodes, tonsils, Peyer's patches and MALT, where lymphocytes interact with antigens.",
+   "keyPoints": [
+    "Primary: bone marrow and thymus",
+    "Secondary: spleen, lymph nodes, tonsils, Peyer's patches, MALT"
+   ]
+  },
+  {
+   "id": "biology-c12-264",
+   "type": "short",
+   "q": "Explain why a person with AIDS usually dies of opportunistic infections and not of HIV directly.",
+   "proposedAnswer": "HIV destroys the helper T cells, so the number of these cells declines progressively. The immune system becomes so weak that the person cannot fight common infections such as tuberculosis or fungal infections, and these infections cause death.",
+   "keyPoints": [
+    "HIV destroys helper T cells",
+    "Immunity becomes weak",
+    "Opportunistic infections cause death"
+   ]
+  },
+  {
+   "id": "biology-c12-265",
+   "type": "mcq",
+   "q": "Which microbe is used for brewing beer and bread making?",
+   "options": [
+    "Penicillium",
+    "Aspergillus niger",
+    "Saccharomyces cerevisiae",
+    "Rhizobium"
+   ]
+  },
+  {
+   "id": "biology-c12-266",
+   "type": "mcq",
+   "q": "The nutritional quality of milk is improved on conversion to curd because it increases the amount of:",
+   "options": [
+    "Vitamin A",
+    "Vitamin C",
+    "Vitamin D",
+    "Vitamin B12"
+   ]
+  },
+  {
+   "id": "biology-c12-267",
+   "type": "mcq",
+   "q": "Streptokinase, used as a clot buster in patients with myocardial infarction, is produced by:",
+   "options": [
+    "Streptococcus",
+    "Monascus purpureus",
+    "Trichoderma polysporum",
+    "Saccharomyces"
+   ]
+  },
+  {
+   "id": "biology-c12-268",
+   "type": "mcq",
+   "q": "Toddy, a traditional drink of some parts of southern India, is made by fermenting:",
+   "options": [
+    "Barley malt",
+    "The sap from palms",
+    "Grape juice",
+    "Molasses"
+   ]
+  },
+  {
+   "id": "biology-c12-269",
+   "type": "mcq",
+   "q": "What is the benefit of the fungal symbiont Glomus to the plants with which it associates?",
+   "options": [
+    "Fixation of atmospheric nitrogen",
+    "Production of Bt toxin",
+    "Increased absorption of phosphorus from the soil",
+    "Photosynthesis for the plant"
+   ]
+  },
+  {
+   "id": "biology-c12-270",
+   "type": "mcq",
+   "q": "Cattle dung is the common starting material in a biogas plant because it:",
+   "options": [
+    "Has a lot of oxygen",
+    "Contains no microbes",
+    "Contains photosynthetic bacteria",
+    "Already contains methanogens that are present in the rumen of cattle"
+   ]
+  },
+  {
+   "id": "biology-c12-271",
+   "type": "short",
+   "q": "Name two bioactive molecules obtained from microbes and state their uses.",
+   "proposedAnswer": "Cyclosporin A, from the fungus Trichoderma polysporum, is an immunosuppressant used in organ transplant patients. Statins from Monascus purpureus lower blood cholesterol. Streptokinase breaks blood clots.",
+   "keyPoints": [
+    "Cyclosporin A: immunosuppressant",
+    "Statins: lower blood cholesterol",
+    "Streptokinase: clot buster"
+   ]
+  },
+  {
+   "id": "biology-c12-272",
+   "type": "short",
+   "q": "Describe what happens in the anaerobic sludge digester during sewage treatment and what is produced.",
+   "proposedAnswer": "The activated sludge settled in the settling tank is pumped into large anaerobic digesters. Anaerobic bacteria digest the bacteria and fungi in the sludge, and they produce a mixture of gases (biogas) such as methane, hydrogen sulphide and carbon dioxide, which can be used as energy.",
+   "keyPoints": [
+    "Sludge is pumped to anaerobic digesters",
+    "Anaerobic bacteria digest the sludge microbes",
+    "Biogas of methane, H2S and CO2 is produced"
+   ]
+  },
+  {
+   "id": "biology-c12-273",
+   "type": "mcq",
+   "q": "Restriction endonucleases are naturally found in:",
+   "options": [
+    "Viruses only",
+    "Plants only",
+    "Bacteria",
+    "Humans only"
+   ]
+  },
+  {
+   "id": "biology-c12-274",
+   "type": "mcq",
+   "q": "Which technique is used to make multiple copies of a gene or DNA segment in vitro?",
+   "options": [
+    "Gel electrophoresis",
+    "Blotting",
+    "ELISA",
+    "Polymerase chain reaction"
+   ]
+  },
+  {
+   "id": "biology-c12-275",
+   "type": "mcq",
+   "q": "Restriction exonucleases differ from endonucleases in that:",
+   "options": [
+    "Exonucleases remove nucleotides from the ends of DNA, while endonucleases cut at specific positions within DNA",
+    "Exonucleases cut only within palindromes",
+    "Endonucleases remove nucleotides from the ends of DNA",
+    "Both act only on RNA"
+   ]
+  },
+  {
+   "id": "biology-c12-276",
+   "type": "mcq",
+   "q": "A selectable marker in a cloning vector helps to:",
+   "options": [
+    "Start the replication of DNA",
+    "Identify and eliminate non-transformants and allow selective growth of transformants",
+    "Cut the DNA at specific sites",
+    "Join the DNA fragments"
+   ]
+  },
+  {
+   "id": "biology-c12-277",
+   "type": "mcq",
+   "q": "Agrobacterium tumefaciens is used for gene transfer into dicot plants because:",
+   "options": [
+    "It produces Bt toxin",
+    "Its plasmid contains the lacZ gene",
+    "Its Ti plasmid can be disarmed and used to deliver T-DNA carrying a gene of interest into plant cells",
+    "It is a virus that infects plants"
+   ]
+  },
+  {
+   "id": "biology-c12-278",
+   "type": "mcq",
+   "q": "In the biolistics (gene gun) method, plant cells are bombarded with:",
+   "options": [
+    "Liposomes",
+    "Agarose beads",
+    "Plasmid-free cells",
+    "Microscopic particles of gold or tungsten coated with DNA"
+   ]
+  },
+  {
+   "id": "biology-c12-279",
+   "type": "short",
+   "q": "What is a palindromic nucleotide sequence? Give an example.",
+   "proposedAnswer": "It is a sequence of base pairs that reads the same on the two strands when read in the same 5' to 3' direction, such as 5'-GAATTC-3' and 3'-CTTAAG-5'. Restriction enzymes cut DNA at such sequences.",
+   "keyPoints": [
+    "Same sequence on both strands read 5' to 3'",
+    "Example: GAATTC"
+   ]
+  },
+  {
+   "id": "biology-c12-280",
+   "type": "short",
+   "q": "Outline the steps used to isolate pure DNA from bacterial cells.",
+   "proposedAnswer": "The cells are broken open with lysozyme (cellulase for plant cells and chitinase for fungi). RNA is removed by ribonuclease and proteins by protease. Chilled ethanol is then added, and the DNA precipitates as fine threads that can be spooled out.",
+   "keyPoints": [
+    "Lysis of cell wall with enzyme",
+    "Removal of RNA and proteins by ribonuclease and protease",
+    "Precipitation of DNA with chilled ethanol"
+   ]
+  },
+  {
+   "id": "biology-c12-281",
+   "type": "mcq",
+   "q": "Bt cotton is resistant to:",
+   "options": [
+    "Drought",
+    "Weeds",
+    "Certain insect pests such as bollworms",
+    "Frost"
+   ]
+  },
+  {
+   "id": "biology-c12-282",
+   "type": "mcq",
+   "q": "Adenosine deaminase (ADA) deficiency is a condition in which:",
+   "options": [
+    "Insulin is not secreted",
+    "Haemoglobin is defective",
+    "Bt toxin is not produced",
+    "The enzyme adenosine deaminase is missing, causing immune dysfunction"
+   ]
+  },
+  {
+   "id": "biology-c12-283",
+   "type": "mcq",
+   "q": "Which technique is used to detect HIV in suspected AIDS patients at an early stage, before symptoms appear?",
+   "options": [
+    "PCR",
+    "Gram staining",
+    "Widal test",
+    "Chromatography"
+   ]
+  },
+  {
+   "id": "biology-c12-284",
+   "type": "mcq",
+   "q": "In India, the body that decides on the validity of GM research and the safety of introducing GM organisms for public services is:",
+   "options": [
+    "ICMR",
+    "GEAC",
+    "CSIR",
+    "IUCN"
+   ]
+  },
+  {
+   "id": "biology-c12-285",
+   "type": "mcq",
+   "q": "Transgenic animals have been used to produce alpha-1-antitrypsin, a protein used to treat:",
+   "options": [
+    "Diabetes",
+    "Haemophilia",
+    "Emphysema",
+    "Malaria"
+   ]
+  },
+  {
+   "id": "biology-c12-286",
+   "type": "mcq",
+   "q": "The bacterium Bacillus thuringiensis is not killed by its own Bt toxin because:",
+   "options": [
+    "It is immune to alkali",
+    "It produces an antitoxin",
+    "The toxin is not made by it",
+    "The toxin is made as an inactive protoxin that is activated only in the alkaline gut of the insect"
+   ]
+  },
+  {
+   "id": "biology-c12-287",
+   "type": "short",
+   "q": "How does the Bt toxin kill an insect larva?",
+   "proposedAnswer": "The inactive protoxin crystals are ingested by the larva and are solubilised in the alkaline pH of its gut. The activated toxin binds to the epithelial cells of the midgut and creates pores, causing the cells to swell and lyse, and the larva dies.",
+   "keyPoints": [
+    "Protoxin ingested",
+    "Activated by alkaline gut pH",
+    "Pores form in gut epithelium, cells lyse, larva dies"
+   ]
+  },
+  {
+   "id": "biology-c12-288",
+   "type": "short",
+   "q": "Explain the mechanism of RNA interference (RNAi).",
+   "proposedAnswer": "RNAi is a cellular defence in all eukaryotes in which double-stranded RNA (from sources like viruses or transposons) is processed, and the resulting RNA binds to a specific complementary mRNA and silences it, so it is not translated. In biotechnology, this is used to silence genes of pests.",
+   "keyPoints": [
+    "dsRNA is the trigger",
+    "Complementary RNA binds specific mRNA",
+    "mRNA is silenced and not translated"
+   ]
+  },
+  {
+   "id": "biology-c12-289",
+   "type": "mcq",
+   "q": "A group of individuals of the same species living in a given geographical area is called a:",
+   "options": [
+    "Community",
+    "Biome",
+    "Population",
+    "Ecosystem"
+   ]
+  },
+  {
+   "id": "biology-c12-290",
+   "type": "mcq",
+   "q": "Lichens represent a mutualistic association between:",
+   "options": [
+    "A fungus and a bacterium",
+    "An alga and a moss",
+    "A bacterium and a virus",
+    "A fungus and an alga or cyanobacterium"
+   ]
+  },
+  {
+   "id": "biology-c12-291",
+   "type": "mcq",
+   "q": "The Abingdon tortoise in the Galapagos Islands became extinct within a decade of goats being introduced there, because:",
+   "options": [
+    "Goats were more efficient browsers and out-competed the tortoises for food",
+    "Goats ate the tortoises",
+    "Goats spread a disease",
+    "Goats destroyed the nesting beaches"
+   ]
+  },
+  {
+   "id": "biology-c12-292",
+   "type": "mcq",
+   "q": "Which of the following is a typical adaptation of parasites?",
+   "options": [
+    "A well-developed digestive system",
+    "Loss of unnecessary sense organs",
+    "A large body with powerful limbs",
+    "The ability to photosynthesise"
+   ]
+  },
+  {
+   "id": "biology-c12-293",
+   "type": "mcq",
+   "q": "A bacterial culture begins with 500 cells and the population doubles every 20 minutes. Ideally, how many cells will be present after 1 hour?",
+   "options": [
+    "1500",
+    "2000",
+    "4000",
+    "3000"
+   ]
+  },
+  {
+   "id": "biology-c12-294",
+   "type": "mcq",
+   "q": "Small animals such as shrews and hummingbirds are rarely found in polar regions because they:",
+   "options": [
+    "Cannot swim",
+    "Need much water",
+    "Are always carnivorous",
+    "Have a large surface area relative to volume, so they lose heat quickly and need a high metabolic cost to keep warm"
+   ]
+  },
+  {
+   "id": "biology-c12-295",
+   "type": "short",
+   "q": "Name four important abiotic factors that influence organisms.",
+   "proposedAnswer": "The important abiotic factors are temperature, water, light and soil. Temperature affects enzyme activity, water is essential for life, light affects photosynthesis and many behaviours, and soil composition affects the vegetation and animals in a place.",
+   "keyPoints": [
+    "Temperature",
+    "Water",
+    "Light",
+    "Soil"
+   ]
+  },
+  {
+   "id": "biology-c12-296",
+   "type": "short",
+   "q": "What is competitive release? Describe an example.",
+   "proposedAnswer": "Competitive release is the sudden expansion of the distributional range of a species when its competitor is removed. In Connell's experiment on the rocky coast of Scotland, the barnacle Chthamalus expanded its range when its competitor Balanus was removed.",
+   "keyPoints": [
+    "Range of a species expands when its competitor is removed",
+    "Example: Chthamalus and Balanus"
+   ]
+  },
+  {
+   "id": "biology-c12-297",
+   "type": "mcq",
+   "q": "An aquarium or a crop field is an example of a:",
+   "options": [
+    "Natural forest ecosystem",
+    "Marine ecosystem",
+    "Man-made (artificial) ecosystem",
+    "Natural pond ecosystem"
+   ]
+  },
+  {
+   "id": "biology-c12-298",
+   "type": "mcq",
+   "q": "Primary productivity is defined as:",
+   "options": [
+    "The rate of decomposition",
+    "The number of species present",
+    "The total biomass of consumers only",
+    "The amount of biomass or organic matter produced per unit area over a time period by plants during photosynthesis"
+   ]
+  },
+  {
+   "id": "biology-c12-299",
+   "type": "mcq",
+   "q": "Humus is:",
+   "options": [
+    "A dark-coloured, amorphous substance resistant to microbial action, acting as a reservoir of nutrients",
+    "Fresh leaf litter on the soil",
+    "Dissolved nutrients in soil water",
+    "A type of soil bacterium"
+   ]
+  },
+  {
+   "id": "biology-c12-300",
+   "type": "mcq",
+   "q": "The release of inorganic nutrients from humus by the action of microbes is called:",
+   "options": [
+    "Fragmentation",
+    "Mineralisation",
+    "Leaching",
+    "Humification"
+   ]
+  },
+  {
+   "id": "biology-c12-301",
+   "type": "mcq",
+   "q": "Decomposition of detritus will be slowest in which situation?",
+   "options": [
+    "Warm and moist tropical soil",
+    "Detritus rich in nitrogen and sugars",
+    "Detritus rich in lignin and chitin in cold, dry conditions",
+    "Well-aerated soil with many decomposers"
+   ]
+  },
+  {
+   "id": "biology-c12-302",
+   "type": "mcq",
+   "q": "In hydrarch succession in a pond, the pioneer community consists of:",
+   "options": [
+    "Trees",
+    "Marsh meadow plants",
+    "Reed swamp plants",
+    "Phytoplankton"
+   ]
+  },
+  {
+   "id": "biology-c12-303",
+   "type": "short",
+   "q": "What is productivity? Differentiate between gross and net primary productivity.",
+   "proposedAnswer": "Productivity is the rate of biomass production. Gross primary productivity (GPP) is the rate of production of organic matter during photosynthesis. Net primary productivity (NPP) is GPP minus the respiration losses, and it is the biomass available to consumers.",
+   "keyPoints": [
+    "Productivity is the rate of biomass production",
+    "GPP: total photosynthetic production",
+    "NPP = GPP - R"
+   ]
+  },
+  {
+   "id": "biology-c12-304",
+   "type": "short",
+   "q": "Describe the steps of decomposition of detritus.",
+   "proposedAnswer": "Detritivores break the detritus into smaller particles in fragmentation. Water-soluble inorganic nutrients move down the soil by leaching. Bacterial and fungal enzymes degrade the detritus into simpler substances in catabolism. Humification forms humus, and mineralisation finally releases inorganic nutrients.",
+   "keyPoints": [
+    "Fragmentation",
+    "Leaching and catabolism",
+    "Humification",
+    "Mineralisation"
+   ]
+  },
+  {
+   "id": "biology-c12-305",
+   "type": "mcq",
+   "q": "Which of the following is an example of ex situ conservation?",
+   "options": [
+    "Sacred groves",
+    "Biosphere reserves",
+    "Botanical gardens",
+    "Wildlife sanctuaries"
+   ]
+  },
+  {
+   "id": "biology-c12-306",
+   "type": "mcq",
+   "q": "The Earth Summit of 1992, which called upon nations to take appropriate measures for biodiversity conservation, was held at:",
+   "options": [
+    "Johannesburg",
+    "Kyoto",
+    "Stockholm",
+    "Rio de Janeiro"
+   ]
+  },
+  {
+   "id": "biology-c12-307",
+   "type": "mcq",
+   "q": "Species that are found only in a particular region and nowhere else are called:",
+   "options": [
+    "Endemic",
+    "Cosmopolitan",
+    "Alien",
+    "Migratory"
+   ]
+  },
+  {
+   "id": "biology-c12-308",
+   "type": "mcq",
+   "q": "Biodiversity hotspots are regions with:",
+   "options": [
+    "Low endemism and low threat",
+    "High species richness, high endemism and accelerated habitat loss",
+    "Only desert vegetation",
+    "Only high-altitude vegetation"
+   ]
+  },
+  {
+   "id": "biology-c12-309",
+   "type": "mcq",
+   "q": "In species-area relationship studies of very large areas such as entire continents, the slope (Z) of the line is:",
+   "options": [
+    "0.1-0.2, the same as for smaller areas",
+    "Always zero",
+    "0.6-1.2, much steeper than for smaller areas",
+    "Negative"
+   ]
+  },
+  {
+   "id": "biology-c12-310",
+   "type": "mcq",
+   "q": "The extinction of the passenger pigeon and Steller's sea cow is an example of loss of biodiversity due to:",
+   "options": [
+    "Habitat loss",
+    "Alien species invasion",
+    "Co-extinction",
+    "Over-exploitation"
+   ]
+  },
+  {
+   "id": "biology-c12-311",
+   "type": "short",
+   "q": "Differentiate between in situ and ex situ conservation with examples.",
+   "proposedAnswer": "In situ conservation protects species in their natural habitat, for example national parks, sanctuaries, biosphere reserves and sacred groves. Ex situ conservation protects threatened species outside their habitat, for example zoos, botanical gardens, seed banks and cryopreservation of gametes.",
+   "keyPoints": [
+    "In situ: natural habitat (national parks, sanctuaries)",
+    "Ex situ: outside habitat (zoos, seed banks)"
+   ]
+  },
+  {
+   "id": "biology-c12-312",
+   "type": "short",
+   "q": "How does habitat fragmentation threaten animals such as large mammals and migratory birds?",
+   "proposedAnswer": "Fragmentation breaks large habitats into small patches. Mammals and birds that need large territories cannot survive in small patches, and migratory species lose their routes. Isolated populations also decline in size, which can lead to local extinction.",
+   "keyPoints": [
+    "Large habitats break into small patches",
+    "Animals needing large territories or migrating are affected",
+    "Small isolated populations are prone to extinction"
+   ]
+  },
+  {
+   "id": "biology-c12-313",
+   "type": "mcq",
+   "q": "A typical angiosperm anther is bilobed and dithecous. How many microsporangia (pollen sacs) does it have?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  {
+   "id": "biology-c12-314",
+   "type": "mcq",
+   "q": "Which part of the carpel receives the pollen grains?",
+   "options": [
+    "Stigma",
+    "Style",
+    "Ovary",
+    "Funicle"
+   ]
+  },
+  {
+   "id": "biology-c12-315",
+   "type": "mcq",
+   "q": "How many megaspores are formed from one megaspore mother cell by meiosis?",
+   "options": [
+    "2",
+    "4",
+    "8",
+    "1"
+   ]
+  },
+  {
+   "id": "biology-c12-316",
+   "type": "mcq",
+   "q": "Cleistogamous flowers:",
+   "options": [
+    "Open widely and expose the anthers",
+    "Always cross-pollinate",
+    "Never open and are always self-pollinated, so seed-set is assured",
+    "Are pollinated only by wind"
+   ]
+  },
+  {
+   "id": "biology-c12-317",
+   "type": "mcq",
+   "q": "A plant has 8 chromosomes in the gametes (n = 8). How many chromosomes will be present in a cell of its endosperm?",
+   "options": [
+    "8",
+    "16",
+    "32",
+    "24"
+   ]
+  },
+  {
+   "id": "biology-c12-318",
+   "type": "mcq",
+   "q": "A plant has 20 chromosomes in its megaspore mother cell. How many chromosomes are present in each nucleus of its mature embryo sac?",
+   "options": [
+    "10",
+    "20",
+    "30",
+    "5"
+   ]
+  },
+  {
+   "id": "biology-c12-319",
+   "type": "short",
+   "q": "Describe the structure of a typical anatropous ovule.",
+   "proposedAnswer": "An ovule is attached to the placenta by a stalk called the funicle, and the junction is the hilum. It is covered by one or two protective integuments, leaving a small opening, the micropyle. The nucellus inside contains the embryo sac, and the basal region opposite the micropyle is the chalaza.",
+   "keyPoints": [
+    "Funicle and hilum",
+    "Integuments with micropyle",
+    "Nucellus containing the embryo sac",
+    "Chalaza at the base"
+   ]
+  },
+  {
+   "id": "biology-c12-320",
+   "type": "short",
+   "q": "What is parthenocarpy? How can seedless fruits be produced in plants such as banana or grapes?",
+   "proposedAnswer": "Parthenocarpy is the development of fruit without fertilisation. Banana is naturally parthenocarpic. Seedless fruits can also be induced by spraying the flowers with growth hormones such as auxins, which make the ovary develop into a fruit without seeds.",
+   "keyPoints": [
+    "Fruit formation without fertilisation",
+    "Banana is naturally parthenocarpic",
+    "Induced by auxin treatment"
+   ]
+  },
+  {
+   "id": "biology-c12-321",
+   "type": "mcq",
+   "q": "How many chromosomes are present in a normal human ovum?",
+   "options": [
+    "46",
+    "22",
+    "44",
+    "23"
+   ]
+  },
+  {
+   "id": "biology-c12-322",
+   "type": "mcq",
+   "q": "Which of the following is an accessory gland of the human male reproductive system?",
+   "options": [
+    "Seminal vesicle",
+    "Ovary",
+    "Fallopian tube",
+    "Cervix"
+   ]
+  },
+  {
+   "id": "biology-c12-323",
+   "type": "mcq",
+   "q": "The corpus luteum is formed from:",
+   "options": [
+    "The primary follicle",
+    "The remains of the ruptured Graafian follicle",
+    "The corpus albicans",
+    "The secondary oocyte"
+   ]
+  },
+  {
+   "id": "biology-c12-324",
+   "type": "mcq",
+   "q": "The process by which sperms acquire the capacity to fertilise an ovum after spending time in the female genital tract is called:",
+   "options": [
+    "Spermiation",
+    "Cleavage",
+    "Capacitation",
+    "Implantation"
+   ]
+  },
+  {
+   "id": "biology-c12-325",
+   "type": "mcq",
+   "q": "Meiosis I of one primary spermatocyte results in the formation of:",
+   "options": [
+    "Two spermatids",
+    "Four spermatids",
+    "Four sperms",
+    "Two secondary spermatocytes"
+   ]
+  },
+  {
+   "id": "biology-c12-326",
+   "type": "mcq",
+   "q": "If two ova are released in the same cycle and each is fertilised by a different sperm, the twins born are:",
+   "options": [
+    "Fraternal (non-identical)",
+    "Identical",
+    "Conjoined",
+    "Always of the same sex"
+   ]
+  },
+  {
+   "id": "biology-c12-327",
+   "type": "short",
+   "q": "Describe the phases of the human menstrual cycle.",
+   "proposedAnswer": "The cycle has a menstrual phase with bleeding for 3-5 days, a follicular phase in which follicles grow and the endometrium regenerates, an ovulatory phase in which the ovum is released around day 14, and a luteal phase in which the corpus luteum secretes progesterone to prepare the endometrium.",
+   "keyPoints": [
+    "Menstrual phase",
+    "Follicular phase",
+    "Ovulation about mid-cycle",
+    "Luteal phase with progesterone"
+   ]
+  },
+  {
+   "id": "biology-c12-328",
+   "type": "short",
+   "q": "Explain how the uterine lining is prepared for pregnancy after ovulation.",
+   "proposedAnswer": "After ovulation the corpus luteum secretes large amounts of progesterone. This hormone maintains the endometrium, makes it thick and highly vascular, and stimulates its glands to secrete nutrients. These changes are essential for implantation and maintenance of pregnancy.",
+   "keyPoints": [
+    "Corpus luteum secretes progesterone",
+    "Endometrium thick, vascular and secretory",
+    "Prepares for implantation"
+   ]
+  },
+  {
+   "id": "biology-c12-329",
+   "type": "mcq",
+   "q": "Reproductive health means:",
+   "options": [
+    "Absence of reproductive disease only",
+    "Having many children",
+    "Fertility only",
+    "A state of total physical, emotional, behavioural and social well-being in all aspects of reproduction"
+   ]
+  },
+  {
+   "id": "biology-c12-330",
+   "type": "mcq",
+   "q": "Intrauterine devices (IUDs) are inserted into the:",
+   "options": [
+    "Uterus through the vagina",
+    "Fallopian tube by surgery",
+    "Ovary",
+    "Testis"
+   ]
+  },
+  {
+   "id": "biology-c12-331",
+   "type": "mcq",
+   "q": "Which of the following infections can be transmitted by sharing of injection needles as well as by sexual contact?",
+   "options": [
+    "Gonorrhoea",
+    "Hepatitis-B",
+    "Chlamydiasis",
+    "Syphilis"
+   ]
+  },
+  {
+   "id": "biology-c12-332",
+   "type": "mcq",
+   "q": "Family planning programmes were initiated in India in which year?",
+   "options": [
+    "1921",
+    "1941",
+    "1951",
+    "1971"
+   ]
+  },
+  {
+   "id": "biology-c12-333",
+   "type": "mcq",
+   "q": "Diaphragms and cervical caps prevent pregnancy by:",
+   "options": [
+    "Releasing copper ions",
+    "Inhibiting ovulation",
+    "Reducing sperm production",
+    "Covering the cervix so that sperms cannot enter the uterus"
+   ]
+  },
+  {
+   "id": "biology-c12-334",
+   "type": "mcq",
+   "q": "In intra-uterine transfer (IUT), embryos with more than 8 blastomeres are transferred into the:",
+   "options": [
+    "Uterus",
+    "Fallopian tube",
+    "Ovary",
+    "Vagina"
+   ]
+  },
+  {
+   "id": "biology-c12-335",
+   "type": "short",
+   "q": "List three ways of creating awareness about reproductive health among adolescents.",
+   "proposedAnswer": "Sex education in schools gives correct information about reproductive organs, adolescence and STIs. Audio-visual and print media, parents and teachers can provide accurate information. Awareness about contraception, safe sex and prenatal care also helps people make informed decisions.",
+   "keyPoints": [
+    "Sex education in schools",
+    "Use of media and counselling",
+    "Information on contraception and STIs"
+   ]
+  },
+  {
+   "id": "biology-c12-336",
+   "type": "short",
+   "q": "Describe the steps of the in vitro fertilisation (test tube baby) technique.",
+   "proposedAnswer": "Ova collected from the wife or a donor and sperms from the husband or donor are induced to form a zygote in the laboratory under simulated conditions. The zygote or early embryo with up to 8 blastomeres is transferred into the fallopian tube (ZIFT), and one with more than 8 blastomeres into the uterus (IUT), where development continues.",
+   "keyPoints": [
+    "Fertilisation in the laboratory",
+    "Embryo of up to 8 blastomeres into the fallopian tube",
+    "Embryo of more than 8 blastomeres into the uterus"
+   ]
+  },
+  {
+   "id": "biology-c12-337",
+   "type": "mcq",
+   "q": "The trait that is expressed in the F1 hybrid when two contrasting traits are crossed is called:",
+   "options": [
+    "Recessive",
+    "Codominant",
+    "Hybrid vigour",
+    "Dominant"
+   ]
+  },
+  {
+   "id": "biology-c12-338",
+   "type": "mcq",
+   "q": "A normal human somatic cell has how many pairs of chromosomes?",
+   "options": [
+    "23",
+    "22",
+    "46",
+    "44"
+   ]
+  },
+  {
+   "id": "biology-c12-339",
+   "type": "mcq",
+   "q": "The phenotypic ratio in the F2 generation of a typical dihybrid cross is:",
+   "options": [
+    "3:1",
+    "9:3:3:1",
+    "1:2:1",
+    "1:1:1:1"
+   ]
+  },
+  {
+   "id": "biology-c12-340",
+   "type": "mcq",
+   "q": "Haemophilia is:",
+   "options": [
+    "An autosomal dominant disorder",
+    "Caused by an extra chromosome 21",
+    "An X-linked recessive disorder",
+    "A Y-linked disorder"
+   ]
+  },
+  {
+   "id": "biology-c12-341",
+   "type": "mcq",
+   "q": "Two phenotypically normal parents have a child with phenylketonuria, an autosomal recessive disorder. What is the probability that their next child will be affected?",
+   "options": [
+    "0",
+    "1/2",
+    "3/4",
+    "1/4"
+   ]
+  },
+  {
+   "id": "biology-c12-342",
+   "type": "mcq",
+   "q": "A child with blood group O is born to a father of group A and a mother of group B. What are the genotypes of the parents?",
+   "options": [
+    "IAi and IBi",
+    "IAIA and IBIB",
+    "IAIA and IBi",
+    "IAi and IBIB"
+   ]
+  },
+  {
+   "id": "biology-c12-343",
+   "type": "short",
+   "q": "What is a monohybrid cross? Give the genotypic ratio of the F2 generation in a cross between tall (TT) and dwarf (tt) pea plants.",
+   "proposedAnswer": "A monohybrid cross involves one pair of contrasting characters. TT x tt gives Tt in F1, and selfing the F1 gives TT : Tt : tt in the ratio 1 : 2 : 1 in the F2, which is a phenotypic ratio of 3 tall : 1 dwarf.",
+   "keyPoints": [
+    "Cross involving one pair of contrasting traits",
+    "F1 all Tt",
+    "F2 genotypic ratio 1:2:1"
+   ]
+  },
+  {
+   "id": "biology-c12-344",
+   "type": "short",
+   "q": "Distinguish between thalassaemia and sickle-cell anaemia.",
+   "proposedAnswer": "Both are autosome-linked recessive blood disorders involving haemoglobin. In thalassaemia, a mutation or deletion reduces the rate of synthesis of one of the globin chains (a quantitative defect). In sickle-cell anaemia, a structural change in the beta globin chain produces an abnormal haemoglobin (a qualitative defect).",
+   "keyPoints": [
+    "Both autosomal recessive blood disorders",
+    "Thalassaemia: reduced synthesis of globin chains (quantitative)",
+    "Sickle-cell: abnormal globin structure (qualitative)"
+   ]
+  },
+  {
+   "id": "biology-c12-345",
+   "type": "mcq",
+   "q": "Which type of RNA acts as the adapter molecule during translation?",
+   "options": [
+    "mRNA",
+    "rRNA",
+    "hnRNA",
+    "tRNA"
+   ]
+  },
+  {
+   "id": "biology-c12-346",
+   "type": "mcq",
+   "q": "Griffith's transformation experiments were carried out on:",
+   "options": [
+    "Streptococcus pneumoniae",
+    "Escherichia coli",
+    "Bacteriophage T2",
+    "Drosophila"
+   ]
+  },
+  {
+   "id": "biology-c12-347",
+   "type": "mcq",
+   "q": "Avery, MacLeod and McCarty showed that the transforming principle is:",
+   "options": [
+    "Protein",
+    "DNA",
+    "RNA",
+    "A polysaccharide"
+   ]
+  },
+  {
+   "id": "biology-c12-348",
+   "type": "mcq",
+   "q": "According to Chargaff's rule, in double-stranded DNA the ratio of purines to pyrimidines is:",
+   "options": [
+    "Variable",
+    "2:1",
+    "1:1",
+    "1:2"
+   ]
+  },
+  {
+   "id": "biology-c12-349",
+   "type": "mcq",
+   "q": "A prokaryotic 70S ribosome is made up of which subunits?",
+   "options": [
+    "40S and 30S",
+    "60S and 10S",
+    "50S and 20S",
+    "50S and 30S"
+   ]
+  },
+  {
+   "id": "biology-c12-350",
+   "type": "mcq",
+   "q": "DNA fingerprinting is based on the polymorphism in:",
+   "options": [
+    "Repetitive DNA sequences such as VNTRs",
+    "Ribosomal proteins",
+    "Histone proteins",
+    "Cell wall structure"
+   ]
+  },
+  {
+   "id": "biology-c12-351",
+   "type": "short",
+   "q": "State the central dogma of molecular biology and mention the exception seen in retroviruses.",
+   "proposedAnswer": "The central dogma says that genetic information flows from DNA to RNA (transcription) to protein (translation). In some retroviruses the flow is reversed, as RNA is converted into DNA by reverse transcription.",
+   "keyPoints": [
+    "DNA to RNA to protein",
+    "Transcription and translation",
+    "Reverse transcription in retroviruses"
+   ]
+  },
+  {
+   "id": "biology-c12-352",
+   "type": "short",
+   "q": "Outline the steps of DNA fingerprinting and give one application.",
+   "proposedAnswer": "DNA is isolated and cut with restriction enzymes, and the fragments are separated by gel electrophoresis. They are transferred to a membrane (blotting) and hybridised with a labelled VNTR probe, and the pattern is seen by autoradiography. It is used in forensic tests and for paternity disputes.",
+   "keyPoints": [
+    "Isolation and restriction digestion of DNA",
+    "Gel electrophoresis and blotting",
+    "Hybridisation with VNTR probe and autoradiography",
+    "Application: forensics or paternity testing"
+   ]
+  },
+  {
+   "id": "biology-c12-353",
+   "type": "mcq",
+   "q": "Charles Darwin undertook the sea voyage on which ship?",
+   "options": [
+    "Mayflower",
+    "Titanic",
+    "Endeavour",
+    "H.M.S. Beagle"
+   ]
+  },
+  {
+   "id": "biology-c12-354",
+   "type": "mcq",
+   "q": "Alfred Wallace, who reached conclusions similar to Darwin's, worked in the:",
+   "options": [
+    "Malay Archipelago",
+    "Galapagos Islands",
+    "Antarctica",
+    "Madagascar"
+   ]
+  },
+  {
+   "id": "biology-c12-355",
+   "type": "mcq",
+   "q": "The Mesozoic era is popularly called the age of:",
+   "options": [
+    "Fishes",
+    "Reptiles",
+    "Mammals",
+    "Amphibians"
+   ]
+  },
+  {
+   "id": "biology-c12-356",
+   "type": "mcq",
+   "q": "Genetic drift refers to:",
+   "options": [
+    "Directional change caused by selection",
+    "Movement of alleles by migration",
+    "Random change in allele frequency by chance, especially in small populations",
+    "Induced mutation by chemicals"
+   ]
+  },
+  {
+   "id": "biology-c12-357",
+   "type": "mcq",
+   "q": "Which pair of structures is homologous?",
+   "options": [
+    "Wings of a butterfly and a bat",
+    "Eyes of an octopus and a mammal",
+    "Fins of a fish and wings of an insect",
+    "Thorns of Bougainvillea and tendrils of Cucurbita"
+   ]
+  },
+  {
+   "id": "biology-c12-358",
+   "type": "mcq",
+   "q": "The eyes of an octopus and of mammals show similar structure although the animals are unrelated. This is an example of:",
+   "options": [
+    "Analogy resulting from convergent evolution",
+    "Homology resulting from divergent evolution",
+    "Vestigial organs",
+    "Atavism"
+   ]
+  },
+  {
+   "id": "biology-c12-359",
+   "type": "short",
+   "q": "State the two key concepts of Darwin's theory of evolution.",
+   "proposedAnswer": "Darwin proposed branching descent, meaning that species descended from common ancestors by modification, and natural selection. In natural selection, individuals with favourable variations survive and reproduce more in a given environment, so those traits become common.",
+   "keyPoints": [
+    "Branching descent with modification",
+    "Natural selection of favourable variations"
+   ]
+  },
+  {
+   "id": "biology-c12-360",
+   "type": "short",
+   "q": "Explain adaptive radiation using Australian marsupials as an example.",
+   "proposedAnswer": "Adaptive radiation is the evolution of different species from a common ancestor in a geographical area. Many Australian marsupials evolved from a single ancestral stock, spreading to different habitats and developing different features. Placental mammals show similar adaptations, so convergent evolution is seen between them.",
+   "keyPoints": [
+    "Different species from a common ancestor",
+    "Marsupials in Australia",
+    "Convergence with placental mammals"
+   ]
+  },
+  {
+   "id": "biology-c12-361",
+   "type": "mcq",
+   "q": "Which organism causes bacterial pneumonia?",
+   "options": [
+    "Rhinovirus",
+    "Plasmodium",
+    "Wuchereria",
+    "Streptococcus pneumoniae"
+   ]
+  },
+  {
+   "id": "biology-c12-362",
+   "type": "mcq",
+   "q": "Amoebic dysentery (amoebiasis) is caused by:",
+   "options": [
+    "Entamoeba histolytica",
+    "Wuchereria bancrofti",
+    "Ascaris lumbricoides",
+    "Salmonella typhi"
+   ]
+  },
+  {
+   "id": "biology-c12-363",
+   "type": "mcq",
+   "q": "Which of the following is a physiological barrier of innate immunity?",
+   "options": [
+    "Skin",
+    "Acid in the stomach",
+    "Mucus coating of the respiratory tract",
+    "Hair in the nose"
+   ]
+  },
+  {
+   "id": "biology-c12-364",
+   "type": "mcq",
+   "q": "A molecule of an antibody consists of:",
+   "options": [
+    "One heavy and three light chains",
+    "Four heavy chains",
+    "Two heavy chains and two light chains",
+    "Four light chains"
+   ]
+  },
+  {
+   "id": "biology-c12-365",
+   "type": "mcq",
+   "q": "Morphine acts on the body by binding to specific opioid receptors present in the:",
+   "options": [
+    "Skin only",
+    "Liver",
+    "Lungs",
+    "Central nervous system and gastrointestinal tract"
+   ]
+  },
+  {
+   "id": "biology-c12-366",
+   "type": "mcq",
+   "q": "A person with a deep, dirty wound is given an injection of anti-tetanus serum containing ready-made antibodies because:",
+   "options": [
+    "Immediate protection is needed and the body cannot produce enough antibodies in time",
+    "The body can never make antibodies against tetanus",
+    "The serum contains weakened bacteria",
+    "It gives lifelong active immunity"
+   ]
+  },
+  {
+   "id": "biology-c12-367",
+   "type": "short",
+   "q": "Differentiate between active and passive immunity.",
+   "proposedAnswer": "In active immunity, the body produces its own antibodies after exposure to antigens, either from infection or vaccination; it is slow and has a memory. In passive immunity, ready-made antibodies are given from outside, for example through colostrum, so protection is quick but short-lived and without memory.",
+   "keyPoints": [
+    "Active: own antibodies, slow, has memory",
+    "Passive: ready-made antibodies, quick, no memory"
+   ]
+  },
+  {
+   "id": "biology-c12-368",
+   "type": "short",
+   "q": "Describe briefly the life cycle of Plasmodium in the human body.",
+   "proposedAnswer": "Sporozoites enter the human body through the mosquito bite and go to the liver cells, where they multiply. They infect red blood cells and multiply, and the rupture of RBCs releases merozoites and a toxin called haemozoin, which causes the chill and high fever. Some parasites develop into gametocytes.",
+   "keyPoints": [
+    "Sporozoites multiply in the liver",
+    "Infect and burst RBCs, releasing merozoites",
+    "Haemozoin causes chills and fever",
+    "Gametocytes formed"
+   ]
+  },
+  {
+   "id": "biology-c12-369",
+   "type": "mcq",
+   "q": "Butyric acid is produced by which bacterium?",
+   "options": [
+    "Acetobacter aceti",
+    "Aspergillus niger",
+    "Lactobacillus",
+    "Clostridium butylicum"
+   ]
+  },
+  {
+   "id": "biology-c12-370",
+   "type": "mcq",
+   "q": "Which of the following drinks is produced by distillation of the fermented broth?",
+   "options": [
+    "Whisky, brandy and rum",
+    "Wine",
+    "Beer",
+    "Curd"
+   ]
+  },
+  {
+   "id": "biology-c12-371",
+   "type": "mcq",
+   "q": "The dough used for making idli and dosa gets puffed up because of:",
+   "options": [
+    "Release of oxygen",
+    "Production of carbon dioxide by bacteria",
+    "Production of methane",
+    "Absorption of water"
+   ]
+  },
+  {
+   "id": "biology-c12-372",
+   "type": "mcq",
+   "q": "Which of the following fixes atmospheric nitrogen in paddy fields?",
+   "options": [
+    "Rhizobium",
+    "Penicillium",
+    "Cyanobacteria such as Anabaena",
+    "Saccharomyces"
+   ]
+  },
+  {
+   "id": "biology-c12-373",
+   "type": "mcq",
+   "q": "Which result indicates that sewage treatment has been effective?",
+   "options": [
+    "Increase in organic matter",
+    "Higher BOD",
+    "More pathogens",
+    "A marked decrease in the BOD of the effluent"
+   ]
+  },
+  {
+   "id": "biology-c12-374",
+   "type": "mcq",
+   "q": "Lactic acid bacteria in the human gut are described as beneficial because they:",
+   "options": [
+    "Check disease-causing microbes in the stomach",
+    "Cause diarrhoea",
+    "Fix atmospheric nitrogen",
+    "Produce penicillin"
+   ]
+  },
+  {
+   "id": "biology-c12-375",
+   "type": "short",
+   "q": "How does Rhizobium act as a biofertiliser for leguminous plants?",
+   "proposedAnswer": "Rhizobium forms a symbiotic association with the roots of legumes and lives in root nodules. It fixes atmospheric nitrogen into ammonia and other organic forms that the plant can use, thus enriching the soil and reducing the need for chemical nitrogen fertilisers.",
+   "keyPoints": [
+    "Symbiosis in root nodules of legumes",
+    "Fixes atmospheric nitrogen",
+    "Reduces the need for chemical fertiliser"
+   ]
+  },
+  {
+   "id": "biology-c12-376",
+   "type": "short",
+   "q": "Describe how a biogas plant works.",
+   "proposedAnswer": "A biogas plant has a concrete tank (digester) into which slurry of cattle dung is fed. A floating cover collects the gas, and anaerobic methanogenic bacteria digest the slurry and produce methane-rich biogas. The gas is drawn through a pipe, and the spent slurry is removed and used as manure.",
+   "keyPoints": [
+    "Digester filled with dung slurry",
+    "Methanogens produce biogas anaerobically",
+    "Gas collected in floating cover; spent slurry used as manure"
+   ]
+  },
+  {
+   "id": "biology-c12-377",
+   "type": "mcq",
+   "q": "In recombinant DNA technology, a vector is:",
+   "options": [
+    "A restriction enzyme",
+    "A mosquito",
+    "The product of a gene",
+    "A DNA molecule used to carry a foreign gene into a host cell"
+   ]
+  },
+  {
+   "id": "biology-c12-378",
+   "type": "mcq",
+   "q": "In the name EcoRI of a restriction enzyme, the first letter E stands for the genus:",
+   "options": [
+    "Escherichia",
+    "Eukaryote",
+    "Enzyme",
+    "Ecology"
+   ]
+  },
+  {
+   "id": "biology-c12-379",
+   "type": "mcq",
+   "q": "Restriction enzymes cut the two strands of DNA a little away from the centre of the palindrome. This generates:",
+   "options": [
+    "Blunt ends only",
+    "Single-stranded overhangs called sticky ends",
+    "Circular DNA",
+    "Okazaki fragments"
+   ]
+  },
+  {
+   "id": "biology-c12-380",
+   "type": "mcq",
+   "q": "A good cloning vector should have:",
+   "options": [
+    "Many recognition sites for the same restriction enzyme",
+    "No origin of replication",
+    "One or very few recognition sites for the restriction enzyme",
+    "No selectable marker"
+   ]
+  },
+  {
+   "id": "biology-c12-381",
+   "type": "mcq",
+   "q": "Primers are needed in PCR because:",
+   "options": [
+    "They cut the DNA at specific sites",
+    "They denature the DNA",
+    "They provide energy for the reaction",
+    "DNA polymerase can only extend an existing primer and cannot start synthesis by itself"
+   ]
+  },
+  {
+   "id": "biology-c12-382",
+   "type": "mcq",
+   "q": "A linear DNA molecule has two recognition sites for EcoRI. Complete digestion with EcoRI will produce how many fragments?",
+   "options": [
+    "3",
+    "2",
+    "4",
+    "1"
+   ]
+  },
+  {
+   "id": "biology-c12-383",
+   "type": "short",
+   "q": "State the three basic steps in genetically modifying an organism.",
+   "proposedAnswer": "The steps are identification of the DNA with the desirable gene, introduction of the identified DNA into the host, and maintenance of the DNA in the host with its transfer to the progeny.",
+   "keyPoints": [
+    "Identify DNA with the desired gene",
+    "Introduce it into the host",
+    "Maintain it in the host and pass it on to progeny"
+   ]
+  },
+  {
+   "id": "biology-c12-384",
+   "type": "short",
+   "q": "Differentiate between upstream and downstream processing in biotechnology.",
+   "proposedAnswer": "Upstream processing includes the preparation of the cell culture and the growth of cells in the bioreactor to produce the protein. Downstream processing is the separation and purification of the product after the biosynthetic stage, and includes formulation with preservatives and quality control testing before marketing.",
+   "keyPoints": [
+    "Upstream: culture and expression in the bioreactor",
+    "Downstream: separation and purification",
+    "Formulation and quality control"
+   ]
+  },
+  {
+   "id": "biology-c12-385",
+   "type": "mcq",
+   "q": "Insulin is used for the treatment of:",
+   "options": [
+    "Malaria",
+    "Emphysema",
+    "Anaemia",
+    "Diabetes mellitus"
+   ]
+  },
+  {
+   "id": "biology-c12-386",
+   "type": "mcq",
+   "q": "The first clinical gene therapy, given in 1990, was for a four-year-old girl with:",
+   "options": [
+    "ADA deficiency",
+    "Diabetes",
+    "Haemophilia",
+    "Cystic fibrosis"
+   ]
+  },
+  {
+   "id": "biology-c12-387",
+   "type": "mcq",
+   "q": "A patent is:",
+   "options": [
+    "A licence to use any resource freely",
+    "A right granted by a government to an inventor to prevent others from commercially using the invention",
+    "A type of biofertiliser",
+    "A toxin produced by bacteria"
+   ]
+  },
+  {
+   "id": "biology-c12-388",
+   "type": "mcq",
+   "q": "Which of the following is a benefit of genetically modified crops?",
+   "options": [
+    "Increased use of chemical fertilisers",
+    "Reduced efficiency of mineral use by plants",
+    "Enhanced nutritional value of food",
+    "Increased post-harvest losses"
+   ]
+  },
+  {
+   "id": "biology-c12-389",
+   "type": "mcq",
+   "q": "Transgenic mice are being used to test the safety of the:",
+   "options": [
+    "Bt toxin",
+    "Golden rice",
+    "Humulin",
+    "Polio vaccine"
+   ]
+  },
+  {
+   "id": "biology-c12-390",
+   "type": "mcq",
+   "q": "Transgenic animals are used to test the toxicity of drugs because they:",
+   "options": [
+    "Are made more sensitive to toxic substances, so results come in a shorter time",
+    "Are immune to all toxins",
+    "Do not need to be fed",
+    "Cannot fall ill"
+   ]
+  },
+  {
+   "id": "biology-c12-391",
+   "type": "short",
+   "q": "Mention two uses of transgenic animals.",
+   "proposedAnswer": "They are used to study how genes regulate normal physiology and the development of diseases such as cancer. They are also used as models for human diseases, to produce biological products like human protein-enriched milk, to test vaccine safety and to test the toxicity of chemicals.",
+   "keyPoints": [
+    "Study of gene function and disease models",
+    "Production of biological products",
+    "Vaccine safety and toxicity testing"
+   ]
+  },
+  {
+   "id": "biology-c12-392",
+   "type": "short",
+   "q": "State two ethical or safety concerns about the use of genetically modified organisms.",
+   "proposedAnswer": "GM organisms may have unpredicted effects on the ecosystem, such as harming non-target organisms or affecting biodiversity. There are also concerns about the use of living organisms as patented products and the misuse of bio-resources, so bodies like GEAC examine the safety of GM research.",
+   "keyPoints": [
+    "Unintended effects on the ecosystem",
+    "Patenting of living organisms and biopiracy",
+    "Need for regulation such as GEAC"
+   ]
+  },
+  {
+   "id": "biology-c12-393",
+   "type": "mcq",
+   "q": "Which feature is seen in the desert plant Opuntia?",
+   "options": [
+    "Large broad leaves",
+    "A thin cuticle",
+    "Stomata open during the day on the upper side",
+    "Leaves reduced to spines, with photosynthesis done by the flattened stem"
+   ]
+  },
+  {
+   "id": "biology-c12-394",
+   "type": "mcq",
+   "q": "Cattle egrets foraging near grazing cattle, feeding on insects flushed out by the cattle, is an example of:",
+   "options": [
+    "Commensalism",
+    "Mutualism",
+    "Parasitism",
+    "Amensalism"
+   ]
+  },
+  {
+   "id": "biology-c12-395",
+   "type": "mcq",
+   "q": "The Mediterranean orchid Ophrys ensures its pollination by:",
+   "options": [
+    "Producing a lot of nectar",
+    "Resembling the female of a species of bee so that male bees attempt to mate with the flower",
+    "Having bright red fruits",
+    "Using wind to carry pollen"
+   ]
+  },
+  {
+   "id": "biology-c12-396",
+   "type": "mcq",
+   "q": "The three ecological age groups of a population are:",
+   "options": [
+    "Infants, adults and aged individuals",
+    "Seedlings, saplings and trees",
+    "Pre-reproductive, reproductive and post-reproductive",
+    "Larval, pupal and adult"
+   ]
+  },
+  {
+   "id": "biology-c12-397",
+   "type": "mcq",
+   "q": "In a population of 500 individuals, 25 are born during one year. What is the per capita birth rate?",
+   "options": [
+    "0.5",
+    "0.25",
+    "0.005",
+    "0.05"
+   ]
+  },
+  {
+   "id": "biology-c12-398",
+   "type": "mcq",
+   "q": "A population has a per capita birth rate of 0.04 and a per capita death rate of 0.01 per year, with no migration. What is the intrinsic rate of natural increase (r)?",
+   "options": [
+    "0.03",
+    "0.05",
+    "0.04",
+    "0.01"
+   ]
+  },
+  {
+   "id": "biology-c12-399",
+   "type": "short",
+   "q": "Distinguish between habitat and niche.",
+   "proposedAnswer": "A habitat is the physical place where an organism lives, with its particular set of environmental conditions. A niche is the functional role of the organism in the ecosystem, including the range of conditions it tolerates and the resources it uses. Many species can share a habitat but each has a different niche.",
+   "keyPoints": [
+    "Habitat: place where it lives",
+    "Niche: functional role and resources used",
+    "Many species share a habitat but not a niche"
+   ]
+  },
+  {
+   "id": "biology-c12-400",
+   "type": "short",
+   "q": "How do organisms cope with stressful external conditions when they can neither migrate nor regulate? Give examples.",
+   "proposedAnswer": "Some organisms suspend their metabolic activity. Examples are hibernation of bears in winter, aestivation in snails and fishes in summer, diapause in zooplankton, and dormancy of seeds in plants. Spores of bacteria and fungi also help them survive harsh periods.",
+   "keyPoints": [
+    "Suspension of metabolism",
+    "Hibernation, aestivation and diapause",
+    "Seed or spore dormancy"
+   ]
+  },
+  {
+   "id": "biology-c12-401",
+   "type": "mcq",
+   "q": "In the food chain grass -> deer -> tiger, the tiger is a:",
+   "options": [
+    "Producer",
+    "Primary consumer",
+    "Decomposer",
+    "Secondary consumer"
+   ]
+  },
+  {
+   "id": "biology-c12-402",
+   "type": "mcq",
+   "q": "The network of interconnected food chains in an ecosystem is called a:",
+   "options": [
+    "Food web",
+    "Pyramid of energy",
+    "Trophic niche",
+    "Detritus chain"
+   ]
+  },
+  {
+   "id": "biology-c12-403",
+   "type": "mcq",
+   "q": "The amount of nutrients such as carbon, nitrogen, phosphorus and calcium present in the soil at any given time is called the:",
+   "options": [
+    "Standing crop",
+    "Standing state",
+    "Productivity",
+    "Detritus"
+   ]
+  },
+  {
+   "id": "biology-c12-404",
+   "type": "mcq",
+   "q": "Which one of the following nutrient cycles is a sedimentary cycle?",
+   "options": [
+    "Carbon cycle",
+    "Nitrogen cycle",
+    "Phosphorus cycle",
+    "Oxygen cycle"
+   ]
+  },
+  {
+   "id": "biology-c12-405",
+   "type": "mcq",
+   "q": "In a forest ecosystem, the pyramid of biomass is generally:",
+   "options": [
+    "Inverted",
+    "Spindle-shaped",
+    "Horizontal",
+    "Upright"
+   ]
+  },
+  {
+   "id": "biology-c12-406",
+   "type": "mcq",
+   "q": "If 20 J of energy is available at the secondary consumer level, how much energy was fixed by the producers, using the ten percent law?",
+   "options": [
+    "2000 J",
+    "200 J",
+    "20,000 J",
+    "400 J"
+   ]
+  },
+  {
+   "id": "biology-c12-407",
+   "type": "short",
+   "q": "What are ecosystem services? Give three examples.",
+   "proposedAnswer": "Ecosystem services are the products of ecosystem processes that benefit humans. Healthy ecosystems purify air and water, mitigate droughts and floods, cycle nutrients, generate fertile soil and provide wildlife habitat, and they also pollinate crops and regulate climate.",
+   "keyPoints": [
+    "Benefits humans get from ecosystem processes",
+    "Air and water purification",
+    "Flood mitigation, nutrient cycling, pollination"
+   ]
+  },
+  {
+   "id": "biology-c12-408",
+   "type": "short",
+   "q": "Describe the stages of primary succession on a bare rock (xerarch succession).",
+   "proposedAnswer": "Lichens are pioneers and secrete acids that weather the rock and form a little soil. Mosses then grow, followed by herbs, shrubs and finally trees. Each stage changes the environment for the next, and the process ends with a stable climax community.",
+   "keyPoints": [
+    "Lichens as pioneers",
+    "Mosses, herbs and shrubs follow",
+    "Trees form a stable climax community"
+   ]
+  },
+  {
+   "id": "biology-c12-409",
+   "type": "mcq",
+   "q": "Which group of animals has the largest number of described species?",
+   "options": [
+    "Mammals",
+    "Birds",
+    "Fishes",
+    "Insects"
+   ]
+  },
+  {
+   "id": "biology-c12-410",
+   "type": "mcq",
+   "q": "The illegal introduction of the African catfish Clarias gariepinus for aquaculture is a threat to:",
+   "options": [
+    "Indigenous catfishes in our rivers",
+    "Mangrove forests",
+    "Himalayan glaciers",
+    "Soil nitrogen"
+   ]
+  },
+  {
+   "id": "biology-c12-411",
+   "type": "mcq",
+   "q": "Sacred groves are found in which of the following regions of India?",
+   "options": [
+    "Antarctica",
+    "Meghalaya (Khasi and Jaintia hills)",
+    "The Sahara desert",
+    "The Rhine valley"
+   ]
+  },
+  {
+   "id": "biology-c12-412",
+   "type": "mcq",
+   "q": "The current 'sixth extinction' differs from the previous five mass extinctions in that it is:",
+   "options": [
+    "Caused by a meteorite impact",
+    "Caused by an ice age",
+    "Occurring at a much faster rate and mainly caused by human activities",
+    "Limited to plants"
+   ]
+  },
+  {
+   "id": "biology-c12-413",
+   "type": "mcq",
+   "q": "Species diversity within a particular community or habitat is called:",
+   "options": [
+    "Gamma diversity",
+    "Beta diversity",
+    "Epsilon diversity",
+    "Alpha diversity"
+   ]
+  },
+  {
+   "id": "biology-c12-414",
+   "type": "mcq",
+   "q": "David Tilman's long-term experiments on plots showed that plots with more species:",
+   "options": [
+    "Showed less year-to-year variation in total biomass",
+    "Showed more variation in biomass",
+    "Had no change in productivity",
+    "Had lower total biomass"
+   ]
+  },
+  {
+   "id": "biology-c12-415",
+   "type": "short",
+   "q": "What is meant by the 'evil quartet'? List its four components.",
+   "proposedAnswer": "The 'evil quartet' is the name given to the four major causes of biodiversity loss. They are habitat loss and fragmentation, over-exploitation, alien species invasions and co-extinctions.",
+   "keyPoints": [
+    "Habitat loss and fragmentation",
+    "Over-exploitation",
+    "Alien species invasions",
+    "Co-extinctions"
+   ]
+  },
+  {
+   "id": "biology-c12-416",
+   "type": "short",
+   "q": "Explain the species-area relationship and its importance.",
+   "proposedAnswer": "Within a region, species richness increases with the area, but only up to a limit. On a log scale it is a straight line, log S = log C + Z log A. It shows that the destruction of habitats, which reduces area, will lead to loss of species.",
+   "keyPoints": [
+    "Richness increases with area",
+    "Straight line on log scale",
+    "Habitat area loss means species loss"
+   ]
+  },
+  {
+   "id": "biology-c12-417",
+   "type": "mcq",
+   "q": "Pollen grains of wind-pollinated flowers are generally:",
+   "options": [
+    "Heavy and sticky",
+    "Light and non-sticky",
+    "Brightly coloured",
+    "Strongly scented"
+   ]
+  },
+  {
+   "id": "biology-c12-418",
+   "type": "mcq",
+   "q": "The seed coat develops from which part of the ovule?",
+   "options": [
+    "Nucellus",
+    "Endosperm",
+    "Integuments",
+    "Funicle"
+   ]
+  },
+  {
+   "id": "biology-c12-419",
+   "type": "mcq",
+   "q": "Which feature is typical of insect-pollinated flowers?",
+   "options": [
+    "Small and dull with a feathery stigma",
+    "Light, non-sticky pollen",
+    "Absence of nectar",
+    "Large, colourful and scented, with sticky pollen"
+   ]
+  },
+  {
+   "id": "biology-c12-420",
+   "type": "mcq",
+   "q": "The filiform apparatus, which guides the entry of the pollen tube, is present in the:",
+   "options": [
+    "Synergids",
+    "Antipodal cells",
+    "Central cell",
+    "Egg cell"
+   ]
+  },
+  {
+   "id": "biology-c12-421",
+   "type": "mcq",
+   "q": "Which of the following prevents both autogamy and geitonogamy?",
+   "options": [
+    "Monoecy",
+    "Dioecy",
+    "Protandry",
+    "Cleistogamy"
+   ]
+  },
+  {
+   "id": "biology-c12-422",
+   "type": "mcq",
+   "q": "How many pollen mother cells must undergo meiosis to produce 100 pollen grains?",
+   "options": [
+    "100",
+    "50",
+    "25",
+    "400"
+   ]
+  },
+  {
+   "id": "biology-c12-423",
+   "type": "mcq",
+   "q": "The inner glandular lining of the human uterus is called the:",
+   "options": [
+    "Myometrium",
+    "Endometrium",
+    "Perimetrium",
+    "Mesometrium"
+   ]
+  },
+  {
+   "id": "biology-c12-424",
+   "type": "mcq",
+   "q": "The loose fold of skin that covers the glans penis is called the:",
+   "options": [
+    "Scrotum",
+    "Hymen",
+    "Foreskin",
+    "Labia majora"
+   ]
+  },
+  {
+   "id": "biology-c12-425",
+   "type": "mcq",
+   "q": "The cervical canal together with the vagina forms the:",
+   "options": [
+    "Urethra",
+    "Oviduct",
+    "Uterine cavity",
+    "Birth canal"
+   ]
+  },
+  {
+   "id": "biology-c12-426",
+   "type": "mcq",
+   "q": "The finger-like fimbriae at the end of the fallopian tube help in:",
+   "options": [
+    "Collection of the ovum after ovulation",
+    "Sperm production",
+    "Secretion of progesterone",
+    "Implantation of the embryo"
+   ]
+  },
+  {
+   "id": "biology-c12-427",
+   "type": "mcq",
+   "q": "Home pregnancy test kits are based on the detection of which hormone in the urine?",
+   "options": [
+    "Progesterone",
+    "Human chorionic gonadotropin (hCG)",
+    "Luteinising hormone",
+    "Follicle stimulating hormone"
+   ]
+  },
+  {
+   "id": "biology-c12-428",
+   "type": "mcq",
+   "q": "In human males, FSH acts on which cells to stimulate the process of spermiogenesis?",
+   "options": [
+    "Leydig cells",
+    "Prostate gland cells",
+    "Sertoli cells",
+    "Epididymal cells"
+   ]
+  },
+  {
+   "id": "biology-c12-429",
+   "type": "mcq",
+   "q": "Surgical sterilisation in the human female is called:",
+   "options": [
+    "Vasectomy",
+    "Tubectomy",
+    "MTP",
+    "Amniocentesis"
+   ]
+  },
+  {
+   "id": "biology-c12-430",
+   "type": "mcq",
+   "q": "Diseases or infections that are transmitted through sexual intercourse are collectively called:",
+   "options": [
+    "Zoonoses",
+    "Allergies",
+    "Sexually transmitted infections",
+    "Deficiency diseases"
+   ]
+  },
+  {
+   "id": "biology-c12-431",
+   "type": "mcq",
+   "q": "Artificial insemination (AI) is useful for couples in which:",
+   "options": [
+    "The female has no uterus",
+    "The ovaries are absent",
+    "The husband has only a hormonal problem",
+    "The male partner cannot inseminate the female or has very low sperm counts in the ejaculate"
+   ]
+  },
+  {
+   "id": "biology-c12-432",
+   "type": "mcq",
+   "q": "The rapid rise in the human population in the last century is mainly due to:",
+   "options": [
+    "A decline in the death rate, maternal mortality and infant mortality",
+    "An increase in the death rate",
+    "A decrease in the birth rate",
+    "An increase in the sex ratio"
+   ]
+  },
+  {
+   "id": "biology-c12-433",
+   "type": "mcq",
+   "q": "Oral contraceptive pills are usually taken daily for how many days, starting within the first five days of menstruation?",
+   "options": [
+    "7 days",
+    "21 days",
+    "14 days",
+    "35 days"
+   ]
+  },
+  {
+   "id": "biology-c12-434",
+   "type": "mcq",
+   "q": "The MTP Act was legalised with strict conditions mainly to:",
+   "options": [
+    "Encourage abortions",
+    "Control the use of contraceptives",
+    "Prevent its misuse, such as female foeticide",
+    "Increase the population"
+   ]
+  },
+  {
+   "id": "biology-c12-435",
+   "type": "mcq",
+   "q": "In pea, round seed (R) is dominant over wrinkled seed (r). The genotype of a plant with wrinkled seeds is:",
+   "options": [
+    "RR",
+    "rr",
+    "Rr",
+    "Rrr"
+   ]
+  },
+  {
+   "id": "biology-c12-436",
+   "type": "mcq",
+   "q": "Linkage and crossing over in Drosophila were studied in detail by:",
+   "options": [
+    "Sutton",
+    "Mendel",
+    "Morgan",
+    "Bridges"
+   ]
+  },
+  {
+   "id": "biology-c12-437",
+   "type": "mcq",
+   "q": "In birds, the females have which sex chromosome constitution?",
+   "options": [
+    "XX",
+    "XY",
+    "XO",
+    "ZW"
+   ]
+  },
+  {
+   "id": "biology-c12-438",
+   "type": "mcq",
+   "q": "In the grasshopper, the male has:",
+   "options": [
+    "One X chromosome (XO)",
+    "Two X chromosomes (XX)",
+    "X and Y chromosomes",
+    "Two Z chromosomes"
+   ]
+  },
+  {
+   "id": "biology-c12-439",
+   "type": "mcq",
+   "q": "In honeybees, the male drones are:",
+   "options": [
+    "Diploid, from fertilised eggs",
+    "Haploid, from unfertilised eggs",
+    "Triploid",
+    "Diploid, from unfertilised eggs"
+   ]
+  },
+  {
+   "id": "biology-c12-440",
+   "type": "mcq",
+   "q": "A colour-blind man marries a woman who is a carrier. What proportion of their daughters is expected to be colour blind?",
+   "options": [
+    "0",
+    "25%",
+    "50%",
+    "100%"
+   ]
+  },
+  {
+   "id": "biology-c12-441",
+   "type": "mcq",
+   "q": "Transcription in bacteria is catalysed by:",
+   "options": [
+    "DNA polymerase",
+    "RNA polymerase",
+    "DNA ligase",
+    "Helicase"
+   ]
+  },
+  {
+   "id": "biology-c12-442",
+   "type": "mcq",
+   "q": "The sugar present in DNA is:",
+   "options": [
+    "Ribose",
+    "Glucose",
+    "Deoxyribose",
+    "Fructose"
+   ]
+  },
+  {
+   "id": "biology-c12-443",
+   "type": "mcq",
+   "q": "The cellular site of protein synthesis is the:",
+   "options": [
+    "Nucleolus",
+    "Golgi body",
+    "Lysosome",
+    "Ribosome"
+   ]
+  },
+  {
+   "id": "biology-c12-444",
+   "type": "mcq",
+   "q": "Which of the following correctly describes the processing of hnRNA in eukaryotes?",
+   "options": [
+    "Capping at the 5' end with methyl guanosine triphosphate and tailing at the 3' end with adenylate residues",
+    "Capping at the 3' end and tailing at the 5' end",
+    "Capping with adenine and tailing with guanine",
+    "Only splicing, with no capping or tailing"
+   ]
+  },
+  {
+   "id": "biology-c12-445",
+   "type": "mcq",
+   "q": "In the lac operon, the y gene codes for:",
+   "options": [
+    "Beta-galactosidase",
+    "Permease",
+    "Transacetylase",
+    "The repressor protein"
+   ]
+  },
+  {
+   "id": "biology-c12-446",
+   "type": "mcq",
+   "q": "The distance between two adjacent base pairs in DNA is 0.34 nm. What is the length of a DNA segment of 10^6 base pairs?",
+   "options": [
+    "3.4 mm",
+    "0.034 mm",
+    "0.34 mm",
+    "34 mm"
+   ]
+  },
+  {
+   "id": "biology-c12-447",
+   "type": "mcq",
+   "q": "Darwin's natural selection depends on the presence of:",
+   "options": [
+    "Acquired characters",
+    "Heritable variations",
+    "Use and disuse of organs",
+    "Only pure lines"
+   ]
+  },
+  {
+   "id": "biology-c12-448",
+   "type": "mcq",
+   "q": "According to the fossil evidence discussed in NCERT, Homo sapiens arose in:",
+   "options": [
+    "Australia",
+    "Europe",
+    "Africa",
+    "South America"
+   ]
+  },
+  {
+   "id": "biology-c12-449",
+   "type": "mcq",
+   "q": "All vertebrate embryos develop a row of vestigial gill slits behind the head, but only fishes use them. This supports:",
+   "options": [
+    "Special creation",
+    "Spontaneous generation",
+    "Use and disuse",
+    "Common ancestry of vertebrates"
+   ]
+  },
+  {
+   "id": "biology-c12-450",
+   "type": "mcq",
+   "q": "The appearance of drug-resistant microbes and herbicide-resistant weeds is evidence of:",
+   "options": [
+    "Evolution by natural selection",
+    "Special creation",
+    "Use and disuse",
+    "Inheritance of acquired characters"
+   ]
+  },
+  {
+   "id": "biology-c12-451",
+   "type": "mcq",
+   "q": "In a population in Hardy-Weinberg equilibrium, the frequency of allele A is 0.6. What is the frequency of the AA genotype?",
+   "options": [
+    "0.6",
+    "0.36",
+    "0.48",
+    "0.16"
+   ]
+  },
+  {
+   "id": "biology-c12-452",
+   "type": "mcq",
+   "q": "Hardy-Weinberg equilibrium is maintained when:",
+   "options": [
+    "The population is small and isolated",
+    "Mutations are frequent",
+    "There is random mating with no selection, migration or mutation in a large population",
+    "There is strong natural selection"
+   ]
+  },
+  {
+   "id": "biology-c12-453",
+   "type": "mcq",
+   "q": "The filarial worms that cause elephantiasis are transmitted by which mosquito?",
+   "options": [
+    "Anopheles",
+    "Culex",
+    "Aedes",
+    "Housefly"
+   ]
+  },
+  {
+   "id": "biology-c12-454",
+   "type": "mcq",
+   "q": "The examination of a thin slice of tissue under the microscope to detect cancer is called:",
+   "options": [
+    "Radiography",
+    "CT scan",
+    "Biopsy",
+    "MRI"
+   ]
+  },
+  {
+   "id": "biology-c12-455",
+   "type": "mcq",
+   "q": "Allergy is caused by:",
+   "options": [
+    "A deficiency of antibodies",
+    "A virus",
+    "A bacterial toxin",
+    "An exaggerated response of the immune system to certain antigens called allergens"
+   ]
+  },
+  {
+   "id": "biology-c12-456",
+   "type": "mcq",
+   "q": "Cannabinoids are obtained from:",
+   "options": [
+    "Cannabis sativa (hemp plant)",
+    "Papaver somniferum",
+    "Erythroxylum coca",
+    "Datura"
+   ]
+  },
+  {
+   "id": "biology-c12-457",
+   "type": "mcq",
+   "q": "Cocaine, obtained from Erythroxylum coca, acts on the nervous system by interfering with the transport of the neurotransmitter:",
+   "options": [
+    "Acetylcholine",
+    "Dopamine",
+    "GABA",
+    "Adrenaline"
+   ]
+  },
+  {
+   "id": "biology-c12-458",
+   "type": "mcq",
+   "q": "Rejection of a transplanted organ is mainly due to:",
+   "options": [
+    "Humoral immunity involving antibodies only",
+    "Innate barriers",
+    "The cell-mediated immune response (T cells)",
+    "Allergy to the organ"
+   ]
+  },
+  {
+   "id": "biology-c12-459",
+   "type": "mcq",
+   "q": "Antibiotics are chemical substances produced by:",
+   "options": [
+    "Green plants only",
+    "Certain microbes, which kill or retard the growth of other disease-causing microbes",
+    "Viruses",
+    "Animals only"
+   ]
+  },
+  {
+   "id": "biology-c12-460",
+   "type": "mcq",
+   "q": "Which of the following is removed during primary treatment of sewage?",
+   "options": [
+    "Dissolved organic matter",
+    "BOD",
+    "Floating debris and grit",
+    "All pathogens"
+   ]
+  },
+  {
+   "id": "biology-c12-461",
+   "type": "mcq",
+   "q": "In biological control, ladybird beetles are used against:",
+   "options": [
+    "Mosquitoes",
+    "Butterfly caterpillars",
+    "Nematodes",
+    "Aphids"
+   ]
+  },
+  {
+   "id": "biology-c12-462",
+   "type": "mcq",
+   "q": "Trichoderma species are used as:",
+   "options": [
+    "Biocontrol agents of several plant diseases",
+    "Symbiotic nitrogen fixers in legumes",
+    "Bacteria used for making curd",
+    "Viruses used as insecticides"
+   ]
+  },
+  {
+   "id": "biology-c12-463",
+   "type": "mcq",
+   "q": "Milk sets into curd faster in summer than in winter because:",
+   "options": [
+    "Milk contains more fat in summer",
+    "Lactic acid bacteria grow and multiply faster at a warmer temperature",
+    "Yeast replaces the bacteria",
+    "Sunlight converts lactose into lactic acid"
+   ]
+  },
+  {
+   "id": "biology-c12-464",
+   "type": "mcq",
+   "q": "Using biofertilisers in place of chemical fertilisers mainly helps to:",
+   "options": [
+    "Increase soil salinity",
+    "Increase eutrophication",
+    "Reduce chemical pollution and maintain soil fertility",
+    "Kill earthworms"
+   ]
+  },
+  {
+   "id": "biology-c12-465",
+   "type": "short",
+   "q": "Describe the role of microbes in making any two common household products.",
+   "proposedAnswer": "Lactic acid bacteria convert milk into curd by producing lactic acid, which coagulates and digests milk proteins. The dough for idli and dosa is fermented by bacteria and baker's yeast ferments bread dough, producing CO2 that makes the dough rise.",
+   "keyPoints": [
+    "LAB convert milk to curd",
+    "Bacteria ferment idli/dosa batter",
+    "Yeast produces CO2 that raises bread dough"
+   ]
+  },
+  {
+   "id": "biology-c12-466",
+   "type": "mcq",
+   "q": "What is the first step in a recombinant DNA experiment?",
+   "options": [
+    "Ligation of fragments",
+    "Isolation of the genetic material (DNA)",
+    "Transformation of the host",
+    "Amplification by PCR"
+   ]
+  },
+  {
+   "id": "biology-c12-467",
+   "type": "mcq",
+   "q": "Which of the following is a commonly used bacterial host in cloning experiments?",
+   "options": [
+    "Rhizopus",
+    "Thermus aquaticus",
+    "Escherichia coli",
+    "Penicillium"
+   ]
+  },
+  {
+   "id": "biology-c12-468",
+   "type": "mcq",
+   "q": "In the name of the cloning vector pBR322, the letters BR stand for:",
+   "options": [
+    "Bacterial resistance",
+    "Binary replicon",
+    "Broad range",
+    "Bolivar and Rodriguez, who developed it"
+   ]
+  },
+  {
+   "id": "biology-c12-469",
+   "type": "mcq",
+   "q": "In the isolation of DNA, RNA is removed by treating the extract with:",
+   "options": [
+    "Ribonuclease",
+    "Protease",
+    "Lysozyme",
+    "Cellulase"
+   ]
+  },
+  {
+   "id": "biology-c12-470",
+   "type": "mcq",
+   "q": "During agarose gel electrophoresis, which DNA fragments travel the farthest from the wells?",
+   "options": [
+    "The longest fragments",
+    "Fragments of intermediate length",
+    "The smallest fragments",
+    "Fragments with the most A-T pairs"
+   ]
+  },
+  {
+   "id": "biology-c12-471",
+   "type": "mcq",
+   "q": "For a human gene to be expressed in E. coli, it must be placed downstream of:",
+   "options": [
+    "A stop codon",
+    "A human intron sequence",
+    "A promoter that functions in bacteria",
+    "A restriction site only"
+   ]
+  },
+  {
+   "id": "biology-c12-472",
+   "type": "short",
+   "q": "Why can foreign DNA not easily enter a bacterial cell, and how is the host made competent?",
+   "proposedAnswer": "DNA is a hydrophilic molecule and cannot pass through the cell membrane. The bacterial cells are treated with a specific concentration of a divalent cation such as calcium to increase the pores in the membrane, and then incubated with the recombinant DNA on ice, followed by a heat shock.",
+   "keyPoints": [
+    "DNA is hydrophilic and cannot cross the membrane",
+    "Treatment with divalent calcium ions",
+    "Heat shock lets DNA enter"
+   ]
+  },
+  {
+   "id": "biology-c12-473",
+   "type": "mcq",
+   "q": "In the term Bt cotton, Bt stands for:",
+   "options": [
+    "Bacillus tuberculosis",
+    "Bacillus thuringiensis",
+    "Bacterium transgenic",
+    "Biotechnology"
+   ]
+  },
+  {
+   "id": "biology-c12-474",
+   "type": "mcq",
+   "q": "Mature human insulin consists of:",
+   "options": [
+    "A single polypeptide chain without disulphide bonds",
+    "Three chains A, B and C",
+    "Two polypeptide chains, A and B, linked by disulphide bridges",
+    "One chain with the C peptide"
+   ]
+  },
+  {
+   "id": "biology-c12-475",
+   "type": "mcq",
+   "q": "PCR is also used to detect gene mutations in suspected:",
+   "options": [
+    "Typhoid patients",
+    "Malaria patients",
+    "Diabetic patients",
+    "Cancer patients"
+   ]
+  },
+  {
+   "id": "biology-c12-476",
+   "type": "mcq",
+   "q": "The first transgenic cow, which produced human alpha-lactalbumin in its milk, was named:",
+   "options": [
+    "Rosie",
+    "Dolly",
+    "Molly",
+    "Bessie"
+   ]
+  },
+  {
+   "id": "biology-c12-477",
+   "type": "mcq",
+   "q": "Why is gene therapy of ADA deficiency by giving the patient genetically corrected lymphocytes not a permanent cure?",
+   "options": [
+    "The gene is destroyed in lymphocytes at once",
+    "The lymphocytes are short-lived, so periodic infusions are needed",
+    "Lymphocytes cannot carry genes",
+    "The enzyme is toxic"
+   ]
+  },
+  {
+   "id": "biology-c12-478",
+   "type": "mcq",
+   "q": "In the first commercial production of human insulin, the A and B chains were linked together by:",
+   "options": [
+    "Peptide bonds",
+    "Hydrogen bonds",
+    "Disulphide bonds",
+    "Glycosidic bonds"
+   ]
+  },
+  {
+   "id": "biology-c12-479",
+   "type": "short",
+   "q": "What are transgenic bacteria? Give one example of a useful product.",
+   "proposedAnswer": "Transgenic bacteria are bacteria that carry a foreign gene introduced by genetic engineering. For example, E. coli carrying the human insulin genes produces human insulin for diabetics.",
+   "keyPoints": [
+    "Bacteria containing a foreign gene",
+    "Example: E. coli making human insulin"
+   ]
+  },
+  {
+   "id": "biology-c12-480",
+   "type": "mcq",
+   "q": "The correct order of the ecological hierarchy from lower to higher level of organisation is:",
+   "options": [
+    "Population, organism, community, biome",
+    "Organism, population, community, biome",
+    "Community, population, organism, biome",
+    "Biome, community, population, organism"
+   ]
+  },
+  {
+   "id": "biology-c12-481",
+   "type": "mcq",
+   "q": "Many plants flower in response to:",
+   "options": [
+    "Gravity",
+    "Soil salinity",
+    "Photoperiod (day length)",
+    "Wind speed"
+   ]
+  },
+  {
+   "id": "biology-c12-482",
+   "type": "mcq",
+   "q": "The relationship between a fig tree and its pollinator wasp is an example of:",
+   "options": [
+    "Parasitism",
+    "Competition",
+    "Predation",
+    "Mutualism"
+   ]
+  },
+  {
+   "id": "biology-c12-483",
+   "type": "mcq",
+   "q": "Which of the following is an endoparasite?",
+   "options": [
+    "Liver fluke",
+    "Head louse",
+    "Tick",
+    "Leech"
+   ]
+  },
+  {
+   "id": "biology-c12-484",
+   "type": "mcq",
+   "q": "A pond of area 20 square metres has 600 water hyacinth plants. What is the density of the population per square metre?",
+   "options": [
+    "20",
+    "30",
+    "60",
+    "120"
+   ]
+  },
+  {
+   "id": "biology-c12-485",
+   "type": "mcq",
+   "q": "In logistic growth, when the population size reaches the carrying capacity (K), the growth rate (dN/dt) becomes:",
+   "options": [
+    "Maximum",
+    "Negative",
+    "Zero",
+    "Infinite"
+   ]
+  },
+  {
+   "id": "biology-c12-486",
+   "type": "short",
+   "q": "How do organisms respond to high altitude, where oxygen is low?",
+   "proposedAnswer": "At high altitude people may suffer from altitude sickness with nausea and fatigue. With time the body compensates by increasing red blood cell production, decreasing the binding capacity of haemoglobin and increasing the breathing rate.",
+   "keyPoints": [
+    "Low oxygen causes altitude sickness",
+    "Increased RBC production",
+    "Faster breathing rate"
+   ]
+  },
+  {
+   "id": "biology-c12-487",
+   "type": "mcq",
+   "q": "Which of the following is a producer in an aquatic ecosystem?",
+   "options": [
+    "Mushroom",
+    "Phytoplankton",
+    "Zooplankton",
+    "Earthworm"
+   ]
+  },
+  {
+   "id": "biology-c12-488",
+   "type": "mcq",
+   "q": "Which of the following is an aquatic ecosystem?",
+   "options": [
+    "Desert",
+    "Grassland",
+    "Pond",
+    "Forest"
+   ]
+  },
+  {
+   "id": "biology-c12-489",
+   "type": "mcq",
+   "q": "The conversion of ammonia to nitrate in the soil by bacteria such as Nitrosomonas and Nitrobacter is called:",
+   "options": [
+    "Ammonification",
+    "Denitrification",
+    "Nitrogen fixation",
+    "Nitrification"
+   ]
+  },
+  {
+   "id": "biology-c12-490",
+   "type": "mcq",
+   "q": "Denitrification is the process of:",
+   "options": [
+    "Conversion of nitrates into gaseous nitrogen",
+    "Conversion of N2 into ammonia",
+    "Conversion of ammonia into nitrite",
+    "Release of ammonia from dead matter"
+   ]
+  },
+  {
+   "id": "biology-c12-491",
+   "type": "mcq",
+   "q": "Although oceans cover most of the Earth's surface, their total productivity compared with that of land is:",
+   "options": [
+    "Higher",
+    "Much lower",
+    "Exactly equal",
+    "Not measurable"
+   ]
+  },
+  {
+   "id": "biology-c12-492",
+   "type": "mcq",
+   "q": "The final stable community of a successional series, which is in near equilibrium with the environment, is called the:",
+   "options": [
+    "Pioneer community",
+    "Seral community",
+    "Climax community",
+    "Ecotone"
+   ]
+  },
+  {
+   "id": "biology-c12-493",
+   "type": "short",
+   "q": "What is stratification in a forest ecosystem?",
+   "proposedAnswer": "Stratification is the vertical distribution of different species occupying different levels in an ecosystem. In a forest, trees occupy the top vertical layer or canopy, shrubs the second layer and herbs and grasses the bottom layer.",
+   "keyPoints": [
+    "Vertical distribution of species",
+    "Trees, shrubs, then herbs and grasses"
+   ]
+  },
+  {
+   "id": "biology-c12-494",
+   "type": "mcq",
+   "q": "As per NCERT, how many of the world's biodiversity hotspots cover regions of India?",
+   "options": [
+    "2",
+    "3",
+    "5",
+    "7"
+   ]
+  },
+  {
+   "id": "biology-c12-495",
+   "type": "mcq",
+   "q": "Which of the following ecosystems has the greatest species diversity per unit area?",
+   "options": [
+    "Tundra",
+    "Desert",
+    "Tropical rain forest",
+    "Temperate grassland"
+   ]
+  },
+  {
+   "id": "biology-c12-496",
+   "type": "mcq",
+   "q": "Among the IUCN threat categories, which indicates the highest risk of extinction?",
+   "options": [
+    "Vulnerable",
+    "Endangered",
+    "Least concern",
+    "Critically endangered"
+   ]
+  },
+  {
+   "id": "biology-c12-497",
+   "type": "mcq",
+   "q": "Water hyacinth (Eichhornia) in Indian water bodies is regarded as:",
+   "options": [
+    "An invasive alien species",
+    "A native keystone species",
+    "An endemic plant",
+    "A pioneer species on rocks"
+   ]
+  },
+  {
+   "id": "biology-c12-498",
+   "type": "mcq",
+   "q": "A tropical country near the equator such as Colombia has how many bird species compared with New York or Greenland, which are at higher latitudes?",
+   "options": [
+    "Fewer",
+    "Many more",
+    "About the same",
+    "Cannot be compared"
+   ]
+  },
+  {
+   "id": "biology-c12-499",
+   "type": "mcq",
+   "q": "Ex situ conservation is especially needed when:",
+   "options": [
+    "The habitat is intact and stable",
+    "The population is large",
+    "A species is so threatened that it needs protection outside its natural habitat",
+    "The species is an alien"
+   ]
+  },
+  {
+   "id": "biology-c12-500",
+   "type": "short",
+   "q": "What is a keystone species? Give an example.",
+   "proposedAnswer": "A keystone species is one whose presence has a disproportionately large effect on the community, and whose removal can cause many other species to disappear. An example is the starfish Pisaster, whose removal led to the loss of many invertebrate species in the intertidal zone.",
+   "keyPoints": [
+    "Large effect on community structure",
+    "Its removal causes loss of other species",
+    "Example: Pisaster"
+   ]
+  }
+ ]
+}
