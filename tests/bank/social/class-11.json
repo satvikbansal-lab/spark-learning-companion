@@ -21,7 +21,14 @@
  "syllabus": "unverified: topics are the drafting model’s reading of the official syllabus (NCERT/CBSE, or the exam’s notified syllabus) and have not been checked against the official documents",
  "drafted_by": "claude-sonnet",
  "drafted_at": "2026-11-02",
- "crossCheck": null,
+ "crossCheck": {
+  "model": "claude-haiku",
+  "method": "MCQs answered blind (no key shown); short answers judged against their proposed answer",
+  "agree": 500,
+  "disagree": 0,
+  "unsure": 0,
+  "missing": 0
+ },
  "questions": [
   {
    "id": "social-c11-001",
@@ -42,7 +49,11 @@
    "explanation": "The Palaeolithic or Old Stone Age is the earliest period, when people used roughly chipped stone tools.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-002",
@@ -63,7 +74,11 @@
    "explanation": "The Neolithic is associated with the start of agriculture, animal rearing and settled villages.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-003",
@@ -84,7 +99,11 @@
    "explanation": "Mesopotamia means 'land between the rivers', the Tigris and the Euphrates.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-004",
@@ -105,7 +124,11 @@
    "explanation": "Growing crops requires staying near the fields from sowing to harvest, which encouraged settled life.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-005",
@@ -126,7 +149,11 @@
    "explanation": "When farmers produced more than they needed, others could specialise as artisans, traders, priests and officials.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-006",
@@ -147,7 +174,11 @@
    "explanation": "Writing had not yet developed, so objects found by archaeologists are the main evidence.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-007",
@@ -167,7 +198,10 @@
    "explanation": "Hunter-gatherers depended directly on what nature provided and generally did not live in permanent settlements.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-008",
@@ -187,7 +221,10 @@
    "explanation": "Written records give historians richer and more precise information than material remains alone.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-009",
@@ -208,7 +245,11 @@
    "explanation": "Rome was the capital and heart of the Roman state.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-010",
@@ -229,7 +270,11 @@
    "explanation": "Augustus, formerly Octavian, became the first Roman emperor after the Republic ended.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-011",
@@ -250,7 +295,11 @@
    "explanation": "The Hijra occurred in 622 CE, which marks the start of the Islamic calendar.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-012",
@@ -271,7 +320,11 @@
    "explanation": "The deposition of the last western emperor in 476 CE is the traditional date.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-013",
@@ -292,7 +345,11 @@
    "explanation": "Roads let rulers send armies and orders quickly and keep distant provinces under control.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-014",
@@ -313,7 +370,11 @@
    "explanation": "Shared laws, regular taxation and communication links create a common framework of control.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-015",
@@ -333,7 +394,10 @@
    "explanation": "Military power, officials and communication links together held the empire.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-016",
@@ -353,7 +417,10 @@
    "explanation": "Contact through trade carried culture and knowledge across regions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-017",
@@ -374,7 +441,11 @@
    "explanation": "The Renaissance began in Italian cities such as Florence and Venice.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-018",
@@ -395,7 +466,11 @@
    "explanation": "Leonardo da Vinci, a leading Renaissance artist and thinker, painted the Mona Lisa.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-019",
@@ -416,7 +491,11 @@
    "explanation": "Johannes Gutenberg of Germany developed movable-type printing in Europe.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-020",
@@ -437,7 +516,11 @@
    "explanation": "Luther, a German monk, started the Reformation in 1517 in the German lands.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-021",
@@ -458,7 +541,11 @@
    "explanation": "Printing lowered the cost of books and pamphlets and let ideas travel quickly and widely.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-022",
@@ -479,7 +566,11 @@
    "explanation": "Humanism focused on human potential and revived classical learning.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-023",
@@ -500,7 +591,10 @@
    "explanation": "Machine production changed where and how people worked and lived.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-024",
@@ -521,7 +615,10 @@
    "explanation": "The revolution made equal rights and popular sovereignty central political ideas.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-025",
@@ -542,7 +639,11 @@
    "explanation": "The crust is the thin, solid outer layer on which we live.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-026",
@@ -563,7 +664,11 @@
    "explanation": "Igneous rocks form when molten material cools and hardens.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-027",
@@ -584,7 +689,11 @@
    "explanation": "Granite cools slowly below the surface, making it an intrusive igneous rock.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-028",
@@ -605,7 +714,11 @@
    "explanation": "Heat and pressure change limestone into marble, a metamorphic rock.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-029",
@@ -626,7 +739,11 @@
    "explanation": "The deepest boreholes reach only a tiny part of the crust, so waves from earthquakes reveal the layers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-030",
@@ -647,7 +764,11 @@
    "explanation": "Sedimentary rocks form as sediments settle in successive layers and are cemented.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-031",
@@ -667,7 +788,10 @@
    "explanation": "The S-wave shadow zone showed that part of the Earth's core is liquid.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-032",
@@ -687,7 +811,10 @@
    "explanation": "Most earthquakes and volcanoes occur along plate boundaries.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-033",
@@ -708,7 +835,11 @@
    "explanation": "Nitrogen makes up about 78 per cent of dry air.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-034",
@@ -729,7 +860,11 @@
    "explanation": "The troposphere, the lowest layer, holds most water vapour and clouds.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-035",
@@ -750,7 +885,11 @@
    "explanation": "The ozone layer lies in the stratosphere and absorbs harmful ultraviolet rays.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-036",
@@ -771,7 +910,11 @@
    "explanation": "A barometer measures air pressure.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-037",
@@ -792,7 +935,11 @@
    "explanation": "The normal lapse rate is a fall of temperature with increasing altitude in the troposphere.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-038",
@@ -813,7 +960,11 @@
    "explanation": "The sea moderates temperatures because water has a high heat capacity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-039",
@@ -833,7 +984,10 @@
    "explanation": "The layers are based mainly on how temperature changes with height.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-040",
@@ -853,7 +1007,10 @@
    "explanation": "Currents carry heat across the oceans and shape coastal weather.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-041",
@@ -874,7 +1031,11 @@
    "explanation": "Biodiversity means the variety of life forms in an area or on Earth.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-042",
@@ -895,7 +1056,11 @@
    "explanation": "In photosynthesis, plants use sunlight, water and carbon dioxide to make food.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-043",
@@ -916,7 +1081,11 @@
    "explanation": "The uppermost layer, topsoil, contains most of the organic matter.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-044",
@@ -937,7 +1106,11 @@
    "explanation": "Mangroves grow in tidal, salty coastal areas and river deltas.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-045",
@@ -958,7 +1131,11 @@
    "explanation": "Many plants and animals live only in forests, so losing them threatens species.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-046",
@@ -979,7 +1156,11 @@
    "explanation": "Plant roots hold soil and leaves reduce the force of falling rain.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-047",
@@ -999,7 +1180,10 @@
    "explanation": "Ecosystems link organisms and their physical environment.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-048",
@@ -1019,7 +1203,10 @@
    "explanation": "Soil is the product of rock, climate, living things and time acting together.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-049",
@@ -1040,7 +1227,11 @@
    "explanation": "The Himalayas are young fold mountains formed by collision of plates.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-050",
@@ -1061,7 +1252,11 @@
    "explanation": "The Godavari is the longest river of the peninsular plateau.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-051",
@@ -1082,7 +1277,11 @@
    "explanation": "The Narmada flows through a rift valley and empties into the Arabian Sea.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-052",
@@ -1103,7 +1302,11 @@
    "explanation": "The southwest monsoon brings most of India's rainfall between June and September.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-053",
@@ -1124,7 +1327,11 @@
    "explanation": "Alluvial soil, flat land and water from rivers support intensive farming.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-054",
@@ -1145,7 +1352,11 @@
    "explanation": "Glaciers and snowfields feed Himalayan rivers, whereas peninsular rivers depend on rain.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-055",
@@ -1166,7 +1377,10 @@
    "explanation": "India's relief is commonly divided into these major regions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-056",
@@ -1186,7 +1400,10 @@
    "explanation": "Rainfall variation can cause drought or floods and affects the rural economy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-057",
@@ -1207,7 +1424,11 @@
    "explanation": "Dr B. R. Ambedkar chaired the Drafting Committee.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-058",
@@ -1228,7 +1449,11 @@
    "explanation": "It came into force on 26 January 1950, celebrated as Republic Day.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-059",
@@ -1249,7 +1474,11 @@
    "explanation": "Dr Rajendra Prasad was elected President of the Constituent Assembly.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-060",
@@ -1270,7 +1499,11 @@
    "explanation": "The Preamble opens with 'We, the people of India', showing the source of authority.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-061",
@@ -1291,7 +1524,11 @@
    "explanation": "A rigid core keeps basic rights and the structure of government secure from passing majorities.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-062",
@@ -1312,7 +1549,11 @@
    "explanation": "26 January had been observed as Independence Day after the Purna Swaraj resolution of the Congress.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-063",
@@ -1332,7 +1573,10 @@
    "explanation": "The framers adapted ideas from several constitutions to Indian needs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-064",
@@ -1352,7 +1596,10 @@
    "explanation": "A Constitution provides trust and coordination among citizens and a check on rulers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-065",
@@ -1373,7 +1620,11 @@
    "explanation": "Article 17 abolishes untouchability and forbids its practice.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-066",
@@ -1394,7 +1645,11 @@
    "explanation": "Article 21 protects life and personal liberty.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-067",
@@ -1415,7 +1670,11 @@
    "explanation": "Article 14 is the basic guarantee of equality before the law.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-068",
@@ -1436,7 +1695,11 @@
    "explanation": "Habeas corpus means 'you may have the body' and protects against unlawful detention.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-069",
@@ -1457,7 +1720,11 @@
    "explanation": "The right to constitutional remedies makes the other rights enforceable.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-070",
@@ -1478,7 +1745,11 @@
    "explanation": "India's secular State does not favour any religion and guarantees freedom of religion.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-071",
@@ -1499,7 +1770,10 @@
    "explanation": "The Right to Property was later removed from the list of Fundamental Rights.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-072",
@@ -1519,7 +1793,10 @@
    "explanation": "Rights and duties together make it possible for all to enjoy freedom.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-073",
@@ -1540,7 +1817,11 @@
    "explanation": "Parliament has two Houses, the Lok Sabha and the Rajya Sabha, along with the President.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-074",
@@ -1561,7 +1842,11 @@
    "explanation": "The President is the nominal head, while the Council of Ministers exercises real power.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-075",
@@ -1582,7 +1867,11 @@
    "explanation": "The Speaker chairs the Lok Sabha.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-076",
@@ -1603,7 +1892,11 @@
    "explanation": "A person must be at least 25 to contest for the Lok Sabha.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-077",
@@ -1624,7 +1917,11 @@
    "explanation": "If the Lok Sabha withdraws its support, the entire ministry must leave office.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-078",
@@ -1645,7 +1942,11 @@
    "explanation": "An independent court can interpret the Constitution and check the government fairly.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-079",
@@ -1664,7 +1965,10 @@
    "explanation": "The Commission is an independent constitutional body.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-080",
@@ -1684,7 +1988,10 @@
    "explanation": "The two Houses differ in composition, term and powers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-081",
@@ -1705,7 +2012,11 @@
    "explanation": "Freedom, or liberty, is the absence of unjust constraints.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-082",
@@ -1726,7 +2037,11 @@
    "explanation": "The slogan was liberty, equality and fraternity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-083",
@@ -1747,7 +2062,11 @@
    "explanation": "Equal voting rights are a form of political equality.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-084",
@@ -1768,7 +2087,11 @@
    "explanation": "Supporters argue that such measures correct past disadvantage and promote social justice.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-085",
@@ -1789,7 +2112,11 @@
    "explanation": "Not knowing their future position, people would choose rules fair to everyone.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-086",
@@ -1810,7 +2137,11 @@
    "explanation": "Fair treatment sometimes needs attention to relevant differences between people.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-087",
@@ -1829,7 +2160,10 @@
    "explanation": "The two ideas describe freedom as non-interference and as the ability to achieve one's aims.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-088",
@@ -1849,7 +2183,10 @@
    "explanation": "Political equality is easier to achieve when economic gaps are not very wide.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-089",
@@ -1870,7 +2207,11 @@
    "explanation": "The Planning Commission prepared the Five Year Plans.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-090",
@@ -1891,7 +2232,11 @@
    "explanation": "A major reform programme began in 1991 after a balance of payments crisis.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-091",
@@ -1912,7 +2257,11 @@
    "explanation": "The First Five Year Plan covered 1951 to 1956 and stressed agriculture.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-092",
@@ -1933,7 +2282,11 @@
    "explanation": "High-yielding seeds, fertiliser and irrigation raised wheat and rice output.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-093",
@@ -1954,7 +2307,11 @@
    "explanation": "The aim was to make machines and steel at home and support long-term growth.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-094",
@@ -1975,7 +2332,11 @@
    "explanation": "Removing intermediaries was meant to benefit actual cultivators and improve productivity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-095",
@@ -1995,7 +2356,10 @@
    "explanation": "It was a key element of the 1991 reforms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-096",
@@ -2015,7 +2379,10 @@
    "explanation": "Trade opening has both gains and adjustment costs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-097",
@@ -2036,7 +2403,11 @@
    "explanation": "The sum is 20 and 20 divided by 4 is 5.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-098",
@@ -2057,7 +2428,11 @@
    "explanation": "The median is the middle item of an ordered series.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-099",
@@ -2078,7 +2453,11 @@
    "explanation": "The mode is the most frequent value, which is 5.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-100",
@@ -2099,7 +2478,11 @@
    "explanation": "With five values in order, the third value, 9, is the median.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-101",
@@ -2120,7 +2503,11 @@
    "explanation": "A few very large or small values can pull the mean away from the typical value.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-102",
@@ -2141,7 +2528,11 @@
    "explanation": "First-hand collected data are primary; data already published by others are secondary.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-103",
@@ -2161,7 +2552,10 @@
    "explanation": "The choice depends on cost, time and the accuracy required.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-104",
@@ -2181,7 +2575,10 @@
    "explanation": "Sampling works well only when the sample represents the population.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-105",
@@ -2202,7 +2599,11 @@
    "explanation": "Mohenjo-daro and Harappa were two of the best-known Indus cities.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-106",
@@ -2223,7 +2624,11 @@
    "explanation": "The pyramids were built in ancient Egypt as tombs for pharaohs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-107",
@@ -2244,7 +2649,11 @@
    "explanation": "The Great Bath is a famous structure at Mohenjo-daro.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-108",
@@ -2265,7 +2674,11 @@
    "explanation": "Hieroglyphics were the picture-based script of ancient Egypt.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-109",
@@ -2286,7 +2699,11 @@
    "explanation": "Such layouts need planning and some authority to maintain them.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-110",
@@ -2307,7 +2724,11 @@
    "explanation": "Scholars have not been able to read the script, so much about Harappan society is learnt from objects.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-111",
@@ -2327,7 +2748,10 @@
    "explanation": "Egypt is often described as the gift of the Nile.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-112",
@@ -2347,7 +2771,10 @@
    "explanation": "Standard measures and distant finds point to organised long-distance exchange.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-113",
@@ -2368,7 +2795,11 @@
    "explanation": "The Quran is the sacred book of Islam.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-114",
@@ -2389,7 +2820,11 @@
    "explanation": "Genghis Khan united the Mongol tribes and founded the empire.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-115",
@@ -2410,7 +2845,11 @@
    "explanation": "The leaders after the Prophet were known as caliphs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-116",
@@ -2431,7 +2870,11 @@
    "explanation": "This land-for-service arrangement is called feudalism.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-117",
@@ -2452,7 +2895,11 @@
    "explanation": "Town life and money trade offered alternatives to dependence on a lord.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-118",
@@ -2473,7 +2920,11 @@
    "explanation": "Serfs were tied to the land and had to work and pay for the lord.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-119",
@@ -2493,7 +2944,10 @@
    "explanation": "The manor was the basic unit of the rural economy under feudalism.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-120",
@@ -2513,7 +2967,10 @@
    "explanation": "The same conquests that caused destruction also linked distant regions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-121",
@@ -2534,7 +2991,11 @@
    "explanation": "Britain was the first country to industrialise, from the later eighteenth century.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-122",
@@ -2555,7 +3016,11 @@
    "explanation": "Nicolaus Copernicus put forward the Sun-centred model.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-123",
@@ -2576,7 +3041,11 @@
    "explanation": "The Declaration was adopted by the thirteen colonies in 1776.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-124",
@@ -2597,7 +3066,11 @@
    "explanation": "Watt's improvements made the steam engine far more efficient.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-125",
@@ -2618,7 +3091,11 @@
    "explanation": "People moved from villages to factory towns in search of work.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-126",
@@ -2639,7 +3116,11 @@
    "explanation": "Ideas of reason and consent undermined the claim that kings ruled by divine right.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-127",
@@ -2659,7 +3140,10 @@
    "explanation": "It began with Martin Luther's challenge in 1517 and spread across Europe.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-128",
@@ -2679,7 +3163,10 @@
    "explanation": "Industrial growth increased demand for resources and markets overseas.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-129",
@@ -2700,7 +3187,11 @@
    "explanation": "Weathering breaks rock where it stands, without moving it away.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-130",
@@ -2721,7 +3212,11 @@
    "explanation": "Mount Everest in the Himalayas is the highest peak above sea level.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-131",
@@ -2742,7 +3237,11 @@
    "explanation": "Rivers drop their sediment at the mouth, forming a delta.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-132",
@@ -2763,7 +3262,11 @@
    "explanation": "Moving glaciers widen and deepen valleys into a U shape.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-133",
@@ -2784,7 +3287,11 @@
    "explanation": "Fine alluvium laid down by rivers makes the soil fertile.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-134",
@@ -2805,7 +3312,11 @@
    "explanation": "Chemical weathering by water carrying dissolved carbon dioxide dissolves limestone.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-135",
@@ -2825,7 +3336,10 @@
    "explanation": "Weathering prepares material that erosion then removes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-136",
@@ -2845,7 +3359,10 @@
    "explanation": "Rocks are continually transformed from one type to another over long periods.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-137",
@@ -2866,7 +3383,11 @@
    "explanation": "Trade winds blow from the subtropical highs towards the equator, from the east.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-138",
@@ -2887,7 +3408,11 @@
    "explanation": "The Pacific Ocean is the largest and deepest.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-139",
@@ -2908,7 +3433,11 @@
    "explanation": "It carries warm water across the North Atlantic.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-140",
@@ -2929,7 +3458,11 @@
    "explanation": "Orographic or relief rainfall occurs when air is lifted by mountains.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-141",
@@ -2950,7 +3483,11 @@
    "explanation": "Air loses moisture as it rises, leaving a drier rain shadow beyond the crest.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-142",
@@ -2971,7 +3508,11 @@
    "explanation": "Without natural greenhouse gases the average temperature would be far below freezing.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-143",
@@ -2991,7 +3532,10 @@
    "explanation": "The same place can have varied weather within a stable climate.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-144",
@@ -3011,7 +3555,10 @@
    "explanation": "The angle of the Sun's rays determines how intense the heating is.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-145",
@@ -3032,7 +3579,11 @@
    "explanation": "Rivers have deposited alluvial soil across the Northern Plains.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-146",
@@ -3053,7 +3604,11 @@
    "explanation": "Black soil, regur, is suited to cotton cultivation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-147",
@@ -3074,7 +3629,11 @@
    "explanation": "Heat and plentiful rain throughout the year support dense evergreen forests.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-148",
@@ -3095,7 +3654,11 @@
    "explanation": "Green plants make their own food and so are producers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-149",
@@ -3116,7 +3679,11 @@
    "explanation": "Intense leaching under heavy rain removes nutrients from the upper soil.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-150",
@@ -3137,7 +3704,11 @@
    "explanation": "Thorns and small leaves reduce loss of water in dry conditions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-151",
@@ -3157,7 +3728,10 @@
    "explanation": "Loss of species cannot be reversed and weakens ecosystems.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-152",
@@ -3177,7 +3751,10 @@
    "explanation": "Habitat loss is among the leading causes of species decline.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-153",
@@ -3198,7 +3775,11 @@
    "explanation": "The Tropic of Cancer crosses central India, including Madhya Pradesh.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-154",
@@ -3219,7 +3800,11 @@
    "explanation": "The Western Ghats run parallel to India's west coast.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-155",
@@ -3240,7 +3825,11 @@
    "explanation": "The Bhagirathi and Alaknanda join at Devprayag to form the Ganga.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-156",
@@ -3261,7 +3850,11 @@
    "explanation": "The Himalayan region lies on an active plate boundary.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-157",
@@ -3282,7 +3875,11 @@
    "explanation": "Plate collision builds stress in these regions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-158",
@@ -3303,7 +3900,11 @@
    "explanation": "Heavy monsoon discharge and low relief make flooding frequent.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-159",
@@ -3322,7 +3923,10 @@
    "explanation": "Most peninsular rivers flow east into the Bay of Bengal, but the Narmada and Tapi flow west.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-160",
@@ -3342,7 +3946,10 @@
    "explanation": "Both structural and planning measures reduce flood damage.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-161",
@@ -3363,7 +3970,11 @@
    "explanation": "Its first meeting took place in December 1946.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-162",
@@ -3384,7 +3995,11 @@
    "explanation": "India is declared a republic, with an elected head of State.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-163",
@@ -3405,7 +4020,11 @@
    "explanation": "Part III of the Constitution lists the Fundamental Rights.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-164",
@@ -3426,7 +4045,11 @@
    "explanation": "Part IV contains the Directive Principles.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-165",
@@ -3447,7 +4070,11 @@
    "explanation": "They guide State policy even though courts do not enforce them directly.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-166",
@@ -3468,7 +4095,11 @@
    "explanation": "The Constitution can be amended through a defined procedure, but not by ordinary law-making.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-167",
@@ -3487,7 +4118,10 @@
    "explanation": "The Preamble summarises the philosophy of the Constitution.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-168",
@@ -3507,7 +4141,10 @@
    "explanation": "Constitutional supremacy limits the power of the government.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-169",
@@ -3528,7 +4165,11 @@
    "explanation": "Article 21A was added by the 86th Amendment.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-170",
@@ -3549,7 +4190,11 @@
    "explanation": "Article 24 forbids child labour in factories, mines and hazardous work.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-171",
@@ -3570,7 +4215,11 @@
    "explanation": "Article 25 protects freedom of religion, subject to public order, morality and health.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-172",
@@ -3591,7 +4240,11 @@
    "explanation": "Article 19 includes speech and expression, assembly, association and movement.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-173",
@@ -3612,7 +4265,11 @@
    "explanation": "Rights are exercised within limits so that all can enjoy them.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-174",
@@ -3633,7 +4290,11 @@
    "explanation": "Article 22 provides protection against arrest and detention in certain cases.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-175",
@@ -3654,7 +4315,10 @@
    "explanation": "The Act lays down these main modes of acquiring citizenship.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-176",
@@ -3674,7 +4338,10 @@
    "explanation": "Such protection helps ensure that diversity is respected.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-177",
@@ -3695,7 +4362,11 @@
    "explanation": "The President appoints the leader who commands majority support in the Lok Sabha.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-178",
@@ -3716,7 +4387,11 @@
    "explanation": "The Supreme Court is the apex court.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-179",
@@ -3737,7 +4412,11 @@
    "explanation": "The Governor is the constitutional head of a State.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-180",
@@ -3758,7 +4437,11 @@
    "explanation": "Unless dissolved earlier, the Lok Sabha lasts five years.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-181",
@@ -3779,7 +4462,11 @@
    "explanation": "A Money Bill can be introduced only in the Lok Sabha, and its decision on the Bill prevails.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-182",
@@ -3800,7 +4487,11 @@
    "explanation": "Through judicial review, courts can declare laws that violate the Constitution invalid.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-183",
@@ -3820,7 +4511,10 @@
    "explanation": "Real executive power rests with the Council of Ministers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-184",
@@ -3840,7 +4534,10 @@
    "explanation": "Separation of powers prevents the concentration of authority.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-185",
@@ -3861,7 +4558,11 @@
    "explanation": "Justice concerns fairness and giving each person their due.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-186",
@@ -3882,7 +4583,11 @@
    "explanation": "Voting and contesting elections are political rights.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-187",
@@ -3903,7 +4608,11 @@
    "explanation": "Social equality means equal status and dignity for all.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-188",
@@ -3924,7 +4633,11 @@
    "explanation": "John Stuart Mill wrote On Liberty in 1859.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-189",
@@ -3945,7 +4658,11 @@
    "explanation": "Mill's harm principle holds that freedom may be limited to prevent harm to others.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-190",
@@ -3966,7 +4683,11 @@
    "explanation": "It asks how resources, opportunities and responsibilities should be shared.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-191",
@@ -3986,7 +4707,10 @@
    "explanation": "It links equality with the fair sharing of opportunities.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-192",
@@ -4006,7 +4730,10 @@
    "explanation": "The two ideas answer different questions about fairness.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-193",
@@ -4027,7 +4754,11 @@
    "explanation": "The Reserve Bank of India is the central bank.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-194",
@@ -4048,7 +4779,11 @@
    "explanation": "India became independent on 15 August 1947.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-195",
@@ -4069,7 +4804,11 @@
    "explanation": "India adopted a mixed economy with both sectors.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-196",
@@ -4090,7 +4829,11 @@
    "explanation": "Service activities form the tertiary sector.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-197",
@@ -4111,7 +4854,11 @@
    "explanation": "The crisis led to the 1991 reforms of liberalisation and opening the economy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-198",
@@ -4132,7 +4879,11 @@
    "explanation": "Moving to higher-productivity work raises incomes and relieves pressure on land.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-199",
@@ -4151,7 +4902,10 @@
    "explanation": "It reduces the direct role of the State in running businesses.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-200",
@@ -4171,7 +4925,10 @@
    "explanation": "Planning set goals and priorities for development.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-201",
@@ -4192,7 +4949,11 @@
    "explanation": "A frequency distribution lists values with the number of times each occurs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-202",
@@ -4213,7 +4974,11 @@
    "explanation": "Each sector of a pie chart represents a share of the total.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-203",
@@ -4234,7 +4999,11 @@
    "explanation": "The sum is 150 and 150 divided by 5 is 30.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-204",
@@ -4255,7 +5024,11 @@
    "explanation": "A histogram uses adjacent bars for continuous class intervals.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-205",
@@ -4276,7 +5049,11 @@
    "explanation": "The median is 50, while the very high mark pulls the mean up to 60.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-206",
@@ -4297,7 +5074,11 @@
    "explanation": "The mode is the most frequent value, which is the most sold size.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-207",
@@ -4317,7 +5098,10 @@
    "explanation": "Index numbers summarise changes in many items by a single figure.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-208",
@@ -4337,7 +5121,10 @@
    "explanation": "The choice depends on whether data are categories or continuous classes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-209",
@@ -4358,7 +5145,11 @@
    "explanation": "Fire provided warmth and light, kept animals away and allowed cooking.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-210",
@@ -4379,7 +5170,11 @@
    "explanation": "Early Chinese civilisation arose along the Huang He.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-211",
@@ -4400,7 +5195,11 @@
    "explanation": "Athens developed a system in which citizens took part directly in the assembly.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-212",
@@ -4421,7 +5220,11 @@
    "explanation": "Mehrgarh is in Balochistan, in present-day Pakistan, and shows early farming.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-213",
@@ -4442,7 +5245,11 @@
    "explanation": "Only a minority of residents counted as citizens with political rights.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-214",
@@ -4463,7 +5270,11 @@
    "explanation": "The paintings show careful observation and the ability to represent ideas visually.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-215",
@@ -4483,7 +5294,10 @@
    "explanation": "The metal gives its name to the period in which it was widely used.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-216",
@@ -4502,7 +5316,10 @@
    "explanation": "Modern democracies are larger and include all adults in political rights.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-217",
@@ -4523,7 +5340,11 @@
    "explanation": "Constantinople was the capital of the Eastern Roman or Byzantine Empire.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-218",
@@ -4544,7 +5365,11 @@
    "explanation": "The Abbasid caliph al-Mansur founded Baghdad.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-219",
@@ -4565,7 +5390,11 @@
    "explanation": "Scholars there translated and studied works from many languages.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-220",
@@ -4586,7 +5415,11 @@
    "explanation": "English barons forced King John to accept the Magna Carta.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-221",
@@ -4607,7 +5440,11 @@
    "explanation": "It became a symbol of limits on royal power and of the rule of law.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-222",
@@ -4628,7 +5465,11 @@
    "explanation": "Mongol rule over a vast area made long-distance travel safer for a time.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-223",
@@ -4648,7 +5489,10 @@
    "explanation": "Its location gave it both commercial and strategic importance.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-224",
@@ -4668,7 +5512,10 @@
    "explanation": "Learning in the Islamic world was a link between ancient and later knowledge.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-225",
@@ -4689,7 +5536,11 @@
    "explanation": "The National Assembly of France issued the Declaration in 1789.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-226",
@@ -4710,7 +5561,11 @@
    "explanation": "Isaac Newton formulated the laws of motion and gravitation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-227",
@@ -4731,7 +5586,11 @@
    "explanation": "The attack on the Bastille prison marked the start of the French Revolution.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-228",
@@ -4752,7 +5611,11 @@
    "explanation": "The Manifesto appeared in 1848.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-229",
@@ -4773,7 +5636,11 @@
    "explanation": "Debt and unfair taxation increased anger among the Third Estate.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-230",
@@ -4794,7 +5661,11 @@
    "explanation": "Each estate had one vote, so the clergy and nobility could outvote the commoners.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-231",
@@ -4813,7 +5684,10 @@
    "explanation": "Disputes over taxation and self-rule led to war and independence.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-232",
@@ -4833,7 +5707,10 @@
    "explanation": "Early industrial growth changed living standards unevenly.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-233",
@@ -4854,7 +5731,11 @@
    "explanation": "The Himalayas stretch across South Asia.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-234",
@@ -4875,7 +5756,11 @@
    "explanation": "Asia is the largest continent.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-235",
@@ -4896,7 +5781,11 @@
    "explanation": "Alfred Wegener proposed continental drift in the early twentieth century.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-236",
@@ -4917,7 +5806,11 @@
    "explanation": "Pangaea means 'all land'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-237",
@@ -4938,7 +5831,11 @@
    "explanation": "These are key pieces of evidence for continental drift.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-238",
@@ -4959,7 +5856,11 @@
    "explanation": "Collision of plates squeezes and uplifts rock layers into folds.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-239",
@@ -4979,7 +5880,10 @@
    "explanation": "The epicentre usually experiences the strongest shaking.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-240",
@@ -4999,7 +5903,10 @@
    "explanation": "Eruptions both build land and cause disasters.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-241",
@@ -5020,7 +5927,11 @@
    "explanation": "A rain gauge collects and measures rainfall.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-242",
@@ -5041,7 +5952,11 @@
    "explanation": "The Equator is the 0 degree line of latitude.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-243",
@@ -5062,7 +5977,11 @@
    "explanation": "The Peru Current carries cold water northward along the west coast of South America.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-244",
@@ -5083,7 +6002,11 @@
    "explanation": "The Moon, and to a lesser degree the Sun, pull on the oceans, producing tides.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-245",
@@ -5104,7 +6027,11 @@
    "explanation": "When the Sun and Moon pull in the same line, their effects add up.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-246",
@@ -5125,7 +6052,11 @@
    "explanation": "Nearly vertical rays give strong heating in all months.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-247",
@@ -5145,7 +6076,10 @@
    "explanation": "Pressure differences set the air in motion.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-248",
@@ -5165,7 +6099,10 @@
    "explanation": "Seasonal reversal of winds is the basis of the monsoon.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-249",
@@ -5186,7 +6123,11 @@
    "explanation": "Solar energy is continually available and does not get used up.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-250",
@@ -5207,7 +6148,11 @@
    "explanation": "Oxygen is released as a by-product of photosynthesis.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-251",
@@ -5228,7 +6173,11 @@
    "explanation": "Leaching removes dissolved minerals from the topsoil.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-252",
@@ -5249,7 +6198,11 @@
    "explanation": "Terraces slow down runoff and reduce erosion on slopes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-253",
@@ -5270,7 +6223,11 @@
    "explanation": "Ploughing across the slope creates barriers to downhill flow of water.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-254",
@@ -5291,7 +6248,11 @@
    "explanation": "Without natural predators, an introduced species can spread and displace native ones.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-255",
@@ -5311,7 +6272,10 @@
    "explanation": "Food webs show the complex feeding relationships in an ecosystem.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-256",
@@ -5331,7 +6295,10 @@
    "explanation": "Wetlands support biodiversity and protect against floods.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-257",
@@ -5352,7 +6319,11 @@
    "explanation": "The peninsula juts into the Indian Ocean.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-258",
@@ -5373,7 +6344,11 @@
    "explanation": "Most of the Thar Desert is in Rajasthan.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-259",
@@ -5394,7 +6369,11 @@
    "explanation": "In Tibet the river is called the Tsangpo.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-260",
@@ -5415,7 +6394,11 @@
    "explanation": "Western disturbances from the Mediterranean region bring winter rain to the north-west.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-261",
@@ -5436,7 +6419,11 @@
    "explanation": "Retreating monsoon winds blowing over the Bay of Bengal bring rain to the south-east coast.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-262",
@@ -5457,7 +6444,11 @@
    "explanation": "Moist winds lose most of their water on the windward Ghats.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-263",
@@ -5478,7 +6469,10 @@
    "explanation": "The Indian year is commonly divided into these four seasons.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-264",
@@ -5499,7 +6493,10 @@
    "explanation": "The mountains influence climate, water and security.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-265",
@@ -5520,7 +6517,11 @@
    "explanation": "Nehru moved the Objectives Resolution in December 1946.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-266",
@@ -5541,7 +6542,11 @@
    "explanation": "India has a written Constitution adopted by the Constituent Assembly.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-267",
@@ -5562,7 +6567,11 @@
    "explanation": "The 42nd Amendment of 1976 added Fundamental Duties.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-268",
@@ -5583,7 +6592,11 @@
    "explanation": "The Seventh Schedule has the Union, State and Concurrent Lists.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-269",
@@ -5604,7 +6617,11 @@
    "explanation": "On Concurrent subjects both levels can legislate, but Parliament's law prevails if they conflict.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-270",
@@ -5625,7 +6642,11 @@
    "explanation": "Every adult was given an equal vote regardless of education or property.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-271",
@@ -5645,7 +6666,10 @@
    "explanation": "The three lists distribute legislative powers in the federal system.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-272",
@@ -5665,7 +6689,10 @@
    "explanation": "Federalism combines unity with regional self-rule.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-273",
@@ -5686,7 +6713,11 @@
    "explanation": "Article 23 bans human trafficking and forced labour.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-274",
@@ -5707,7 +6738,11 @@
    "explanation": "The voting age was lowered from 21 to 18 by the 61st Amendment.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-275",
@@ -5728,7 +6763,11 @@
    "explanation": "Mandamus means 'we command'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-276",
@@ -5749,7 +6788,11 @@
    "explanation": "Article 51A lists the Fundamental Duties.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-277",
@@ -5770,7 +6813,11 @@
    "explanation": "The poor and powerless are the most likely victims of exploitation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-278",
@@ -5791,7 +6838,11 @@
    "explanation": "Real equality may need special measures to remove disadvantages.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-279",
@@ -5810,7 +6861,10 @@
    "explanation": "Duties remind citizens of their responsibilities to the nation and society.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-280",
@@ -5830,7 +6884,10 @@
    "explanation": "Without equality, democratic participation would be unfair.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-281",
@@ -5851,7 +6908,11 @@
    "explanation": "The Vice-President is the ex officio Chairman of the Rajya Sabha.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-282",
@@ -5872,7 +6933,11 @@
    "explanation": "The Prime Minister heads the Council of Ministers and the government.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-283",
@@ -5893,7 +6958,11 @@
    "explanation": "The election is indirect, through an electoral college.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-284",
@@ -5914,7 +6983,11 @@
    "explanation": "During Question Hour members question ministers on their work.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-285",
@@ -5935,7 +7008,11 @@
    "explanation": "Questions make the executive explain and justify its actions to the legislature.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-286",
@@ -5956,7 +7033,11 @@
    "explanation": "Courts can strike down laws that violate the Constitution.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-287",
@@ -5976,7 +7057,10 @@
    "explanation": "The Speaker ensures orderly conduct of business.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-288",
@@ -5996,7 +7080,10 @@
    "explanation": "A bill needs the approval of both Houses and the President to become law.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-289",
@@ -6017,7 +7104,11 @@
    "explanation": "Freedom of speech protects individuals from interference by the State.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-290",
@@ -6038,7 +7129,11 @@
    "explanation": "Sovereignty means final authority within the territory of the State.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-291",
@@ -6059,7 +7154,11 @@
    "explanation": "It deals with the distribution of wealth and income.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-292",
@@ -6080,7 +7179,11 @@
    "explanation": "These are measures intended to correct unequal opportunities.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-293",
@@ -6101,7 +7204,11 @@
    "explanation": "Free schooling gives disadvantaged children a fairer chance.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-294",
@@ -6122,7 +7229,11 @@
    "explanation": "Equal rights on paper may not help those lacking resources or opportunity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-295",
@@ -6141,7 +7252,10 @@
    "explanation": "It is a standard test for justified limits on liberty.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-296",
@@ -6161,7 +7275,10 @@
    "explanation": "Societies balance the two values through laws and policies.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-297",
@@ -6182,7 +7299,11 @@
    "explanation": "The Planning Commission was set up in March 1950.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-298",
@@ -6203,7 +7324,11 @@
    "explanation": "Activities that use natural resources directly form the primary sector.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-299",
@@ -6224,7 +7349,11 @@
    "explanation": "Fourteen major banks were nationalised in 1969.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-300",
@@ -6245,7 +7374,11 @@
    "explanation": "GDP is the value of final output produced within a country in a period.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-301",
@@ -6266,7 +7399,11 @@
    "explanation": "Low and fixed incomes buy less when prices rise, and the poor spend most income on necessities.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-302",
@@ -6287,7 +7424,11 @@
    "explanation": "Domestic savings are the main source of funds for investment.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-303",
@@ -6307,7 +7448,10 @@
    "explanation": "A mixed economy has both sectors.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-304",
@@ -6326,7 +7470,10 @@
    "explanation": "Structural features of the economy limit job creation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-305",
@@ -6347,7 +7494,11 @@
    "explanation": "Range equals the maximum value minus the minimum value.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-306",
@@ -6368,7 +7519,11 @@
    "explanation": "Data arranged by time are called a time series.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-307",
@@ -6389,7 +7544,11 @@
    "explanation": "Arranged as 4, 6, 8, 10, the median is the average of 6 and 8, which is 7.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-308",
@@ -6410,7 +7569,11 @@
    "explanation": "Frequency means the count of occurrences.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-309",
@@ -6431,7 +7594,11 @@
    "explanation": "The old total is 60; adding 18 gives 78, and 78 divided by 6 is 13.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-310",
@@ -6452,7 +7619,11 @@
    "explanation": "A biased sample does not reflect the whole population.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-311",
@@ -6471,7 +7642,10 @@
    "explanation": "Visual presentation makes patterns clearer than raw numbers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-312",
@@ -6491,7 +7665,10 @@
    "explanation": "This is why the median may describe skewed data better.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-313",
@@ -6512,7 +7689,11 @@
    "explanation": "Hammurabi ruled Babylon in Mesopotamia.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-314",
@@ -6533,7 +7714,11 @@
    "explanation": "The Sumerians of southern Mesopotamia developed cuneiform and used wheeled vehicles early.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-315",
@@ -6554,7 +7739,11 @@
    "explanation": "Mesopotamian scribes wrote on wet clay tablets.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-316",
@@ -6575,7 +7764,11 @@
    "explanation": "Preserving the body was linked to beliefs about the afterlife.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-317",
@@ -6596,7 +7789,11 @@
    "explanation": "Publicly displayed laws point to an attempt at uniform, known rules.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-318",
@@ -6617,7 +7814,11 @@
    "explanation": "The needs of administration and trade helped writing to develop.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-319",
@@ -6637,7 +7838,10 @@
    "explanation": "They show the importance of religion in early city life.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-320",
@@ -6657,7 +7861,10 @@
    "explanation": "Iron technology spread widely because ore was more common than the metals for bronze.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-321",
@@ -6678,7 +7885,11 @@
    "explanation": "Constantinople fell to the Ottomans in 1453.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-322",
@@ -6699,7 +7910,11 @@
    "explanation": "The Norman conquest of England began with Hastings in 1066.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-323",
@@ -6720,7 +7935,11 @@
    "explanation": "Pope Leo III crowned Charlemagne in Rome.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-324",
@@ -6741,7 +7960,11 @@
    "explanation": "Knights fought on horseback in return for land or protection.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-325",
@@ -6762,7 +7985,11 @@
    "explanation": "Before printing, monks copied and kept many ancient and religious texts.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-326",
@@ -6783,7 +8010,11 @@
    "explanation": "With fewer workers, labourers could demand better terms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-327",
@@ -6803,7 +8034,10 @@
    "explanation": "The Church was one of the most powerful institutions of the period.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-328",
@@ -6823,7 +8057,10 @@
    "explanation": "The Republic gave way to rule by an emperor from the time of Augustus.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-329",
@@ -6844,7 +8081,11 @@
    "explanation": "Charles Darwin proposed evolution by natural selection.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-330",
@@ -6865,7 +8106,11 @@
    "explanation": "The Renaissance began in the fourteenth century in Italy and spread over the next centuries.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-331",
@@ -6886,7 +8131,11 @@
    "explanation": "Michelangelo painted the Sistine Chapel ceiling in the early sixteenth century.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-332",
@@ -6907,7 +8156,11 @@
    "explanation": "The spinning jenny allowed several threads to be spun at once.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-333",
@@ -6928,7 +8181,11 @@
    "explanation": "Protestant churches formed independently of Rome, ending the single Western Church.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-334",
@@ -6949,7 +8206,11 @@
    "explanation": "Their ideas influenced reform and independence movements in many places.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-335",
@@ -6969,7 +8230,10 @@
    "explanation": "It was the central intellectual movement of the Renaissance.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-336",
@@ -6989,7 +8253,10 @@
    "explanation": "It established the scientific method as a way of gaining knowledge.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-337",
@@ -7010,7 +8277,11 @@
    "explanation": "Sandstone forms from compacted sand grains.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-338",
@@ -7031,7 +8302,11 @@
    "explanation": "A volcano is an opening through which lava, ash and gases are ejected.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-339",
@@ -7052,7 +8327,11 @@
    "explanation": "Many plate boundaries around the Pacific cause many earthquakes and volcanoes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-340",
@@ -7073,7 +8352,11 @@
    "explanation": "A plateau is raised land with a relatively flat top.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-341",
@@ -7094,7 +8377,11 @@
    "explanation": "At diverging boundaries magma rises and creates new oceanic crust.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-342",
@@ -7115,7 +8402,11 @@
    "explanation": "Subduction pulls the sinking plate down, forming a trench.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-343",
@@ -7134,7 +8425,10 @@
    "explanation": "Mountains are classified by the way they were formed.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-344",
@@ -7154,7 +8448,10 @@
    "explanation": "Slope and speed of flow determine whether a river erodes or deposits.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-345",
@@ -7175,7 +8472,11 @@
    "explanation": "One rotation takes about 24 hours and causes day and night.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-346",
@@ -7196,7 +8497,11 @@
    "explanation": "Most organisms need oxygen for respiration.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-347",
@@ -7217,7 +8522,11 @@
    "explanation": "The Coriolis effect turns winds to the right in the Northern Hemisphere.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-348",
@@ -7238,7 +8547,11 @@
    "explanation": "Lines of longitude, or meridians, join the poles.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-349",
@@ -7259,7 +8572,11 @@
    "explanation": "The Sun is overhead at the Tropic of Cancer at the June solstice.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-350",
@@ -7280,7 +8597,11 @@
    "explanation": "With little cloud or moisture, the ground loses heat rapidly at night.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-351",
@@ -7300,7 +8621,10 @@
    "explanation": "Both are steps of the water cycle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-352",
@@ -7320,7 +8644,10 @@
    "explanation": "Rising greenhouse gas levels intensify the natural greenhouse effect.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-353",
@@ -7341,7 +8668,11 @@
    "explanation": "Coal formed from the remains of ancient plants.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-354",
@@ -7362,7 +8693,11 @@
    "explanation": "A habitat is where an organism normally lives.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-355",
@@ -7383,7 +8718,11 @@
    "explanation": "Monsoon forests shed leaves in the dry season to reduce water loss.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-356",
@@ -7404,7 +8743,11 @@
    "explanation": "The cold polar climate supports only mosses, lichens and small plants.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-357",
@@ -7425,7 +8768,11 @@
    "explanation": "Trees take in carbon dioxide, hold the soil and shelter animals.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-358",
@@ -7446,7 +8793,11 @@
    "explanation": "Reefs shelter a great diversity of species, like rainforests on land.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-359",
@@ -7466,7 +8817,10 @@
    "explanation": "Biosphere reserves aim to protect nature while allowing sustainable use.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-360",
@@ -7486,7 +8840,10 @@
    "explanation": "Slow formation makes careful use of soil essential.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-361",
@@ -7507,7 +8864,11 @@
    "explanation": "The Bay of Bengal lies along the east coast.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-362",
@@ -7528,7 +8889,11 @@
    "explanation": "Indian Standard Time is based on 82°30′ E.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-363",
@@ -7549,7 +8914,11 @@
    "explanation": "These islands lie in the Bay of Bengal.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-364",
@@ -7570,7 +8939,11 @@
    "explanation": "The Lakshadweep group consists of coral atolls.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-365",
@@ -7591,7 +8964,11 @@
    "explanation": "Fertile alluvium, rivers and level land support intensive farming and large populations.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-366",
@@ -7612,7 +8989,11 @@
    "explanation": "Moist monsoon winds are forced up the slopes, giving heavy rainfall.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-367",
@@ -7633,7 +9014,10 @@
    "explanation": "Soil types in India are related to rock, climate and relief.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-368",
@@ -7653,7 +9037,10 @@
    "explanation": "The monsoon is the unifying element of Indian climate.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-369",
@@ -7674,7 +9061,11 @@
    "explanation": "The Constitution was adopted on 26 November 1949 and came into force on 26 January 1950.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-370",
@@ -7695,7 +9086,11 @@
    "explanation": "Article 1 says that India, that is Bharat, shall be a Union of States.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-371",
@@ -7716,7 +9111,11 @@
    "explanation": "Equal pay for equal work is a Directive Principle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-372",
@@ -7737,7 +9136,11 @@
    "explanation": "India has a single citizenship common to the whole country.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-373",
@@ -7758,7 +9161,11 @@
    "explanation": "India is a federal system with a tilt towards the Centre.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-374",
@@ -7779,7 +9186,11 @@
    "explanation": "Court enforcement gives citizens a remedy against violations, including by the State.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-375",
@@ -7799,7 +9210,10 @@
    "explanation": "The Assembly's work produced the Constitution that came into force in 1950.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-376",
@@ -7819,7 +9233,10 @@
    "explanation": "The doctrine limits Parliament's power to amend the Constitution.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-377",
@@ -7840,7 +9257,11 @@
    "explanation": "Article 15 forbids discrimination on those grounds.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-378",
@@ -7861,7 +9282,11 @@
    "explanation": "Article 16 deals with equality of opportunity in public employment.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-379",
@@ -7882,7 +9307,11 @@
    "explanation": "A writ of prohibition forbids a lower court from exceeding its authority.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-380",
@@ -7903,7 +9332,11 @@
    "explanation": "Article 226 empowers High Courts to issue writs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-381",
@@ -7924,7 +9357,11 @@
    "explanation": "Rights come with reasonable limits so that others' rights are protected.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-382",
@@ -7945,7 +9382,11 @@
    "explanation": "Access to information lets citizens check the work of public bodies.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-383",
@@ -7965,7 +9406,10 @@
    "explanation": "Citizenship carries additional political rights.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-384",
@@ -7985,7 +9429,10 @@
    "explanation": "Secularism protects both religious freedom and equality.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-385",
@@ -8006,7 +9453,11 @@
    "explanation": "The Chief Minister, with the State Council of Ministers, exercises real executive power.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-386",
@@ -8027,7 +9478,11 @@
    "explanation": "Every adult citizen has one vote under universal adult franchise.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-387",
@@ -8048,7 +9503,11 @@
    "explanation": "The President appoints them after consultation, as laid down by the Constitution.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-388",
@@ -8069,7 +9528,11 @@
    "explanation": "If the motion is passed, the government must resign.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-389",
@@ -8090,7 +9553,11 @@
    "explanation": "Independence allows courts to give fair judgments, even against the government.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-390",
@@ -8111,7 +9578,11 @@
    "explanation": "The Lok Sabha represents the people and the Rajya Sabha represents the States, and it provides a second review of laws.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-391",
@@ -8131,7 +9602,10 @@
    "explanation": "The Chief Minister is the real head of the State executive.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-392",
@@ -8151,7 +9625,10 @@
    "explanation": "PIL widened the role of courts in protecting public interests.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-393",
@@ -8172,7 +9649,11 @@
    "explanation": "Rousseau wrote The Social Contract in 1762.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-394",
@@ -8193,7 +9674,11 @@
    "explanation": "Equality before law means that the law applies equally to all.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-395",
@@ -8214,7 +9699,11 @@
    "explanation": "Human rights belong to all persons by virtue of being human.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-396",
@@ -8235,7 +9724,11 @@
    "explanation": "Minorities are groups that are fewer in number than the rest and often share a distinct identity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-397",
@@ -8256,7 +9749,11 @@
    "explanation": "When even rulers must follow the law, citizens are secure against arbitrary action.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-398",
@@ -8277,7 +9774,11 @@
    "explanation": "Fair procedure requires a hearing for the person affected.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-399",
@@ -8297,7 +9798,10 @@
    "explanation": "Different kinds of equality relate to politics, society and the economy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-400",
@@ -8317,7 +9821,10 @@
    "explanation": "Justice depends on how decisions are reached as well as on the results.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-401",
@@ -8338,7 +9845,11 @@
    "explanation": "India adopted a mixed economy with public and private sectors.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-402",
@@ -8359,7 +9870,11 @@
    "explanation": "High-yielding varieties were introduced in the mid-to-late 1960s.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-403",
@@ -8380,7 +9895,11 @@
    "explanation": "Globalisation means growing linkages among national economies.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-404",
@@ -8401,7 +9920,11 @@
    "explanation": "The WTO was set up in 1995.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-405",
@@ -8422,7 +9945,11 @@
    "explanation": "The economy was largely agricultural and food supply was a pressing concern.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-406",
@@ -8443,7 +9970,11 @@
    "explanation": "Competition from imports can raise efficiency but hurt weak firms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-407",
@@ -8463,7 +9994,10 @@
    "explanation": "It is used to measure the extent of poverty.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-408",
@@ -8483,7 +10017,10 @@
    "explanation": "The new technology needed water, inputs and credit.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-409",
@@ -8504,7 +10041,11 @@
    "explanation": "Covering every unit of the population is a census.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-410",
@@ -8525,7 +10066,11 @@
    "explanation": "A questionnaire is a set of questions for collecting data.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-411",
@@ -8546,7 +10091,11 @@
    "explanation": "The sum is 20, and 20 divided by 5 is 4.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-412",
@@ -8567,7 +10116,11 @@
    "explanation": "The value 3 occurs most often.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-413",
@@ -8588,7 +10141,11 @@
    "explanation": "An index of 125 means a 25 per cent rise over the base year.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-414",
@@ -8609,7 +10166,11 @@
    "explanation": "A few very high incomes pull the mean above the typical income.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-415",
@@ -8629,7 +10190,10 @@
    "explanation": "Samples are used to learn about a population without studying every unit.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-416",
@@ -8649,7 +10213,10 @@
    "explanation": "Data quality affects the reliability of conclusions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-417",
@@ -8670,7 +10237,11 @@
    "explanation": "Egyptian kings were known as pharaohs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-418",
@@ -8691,7 +10262,11 @@
    "explanation": "Its sites lie in the north-west of the Indian subcontinent.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-419",
@@ -8712,7 +10287,11 @@
    "explanation": "A structure at Lothal is widely regarded as a dockyard.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-420",
@@ -8733,7 +10312,11 @@
    "explanation": "Wheat and barley were among the main Harappan crops.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-421",
@@ -8754,7 +10337,11 @@
    "explanation": "Objects from one region found in another point to contact and exchange.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-422",
@@ -8775,7 +10362,11 @@
    "explanation": "Surplus allows specialisation and exchange.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-423",
@@ -8795,7 +10386,10 @@
    "explanation": "These features distinguish cities from simple villages.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-424",
@@ -8815,7 +10409,10 @@
    "explanation": "Material evidence is the main source where there are no written records.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-425",
@@ -8836,7 +10433,11 @@
    "explanation": "Mecca is the birthplace of the Prophet and the site of the Kaaba.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-426",
@@ -8857,7 +10458,11 @@
    "explanation": "The Silk Road linked China to Central Asia and the Mediterranean.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-427",
@@ -8878,7 +10483,11 @@
    "explanation": "Elected officials and the Senate ran the Republic.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-428",
@@ -8899,7 +10508,11 @@
    "explanation": "The Colosseum in Rome hosted gladiatorial contests.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-429",
@@ -8920,7 +10533,11 @@
    "explanation": "The Romance languages grew out of the Latin spoken in the empire.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-430",
@@ -8941,7 +10558,11 @@
    "explanation": "A wide area under related rule made travel and exchange of goods and ideas easier.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-431",
@@ -8961,7 +10582,10 @@
    "explanation": "They affected relations and trade between Europe and the Middle East.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-432",
@@ -8981,7 +10605,10 @@
    "explanation": "Historians generally point to a combination of causes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-433",
@@ -9002,7 +10629,11 @@
    "explanation": "Napoleon rose during the French Revolution and became Emperor of the French.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-434",
@@ -9023,7 +10654,11 @@
    "explanation": "Martin Luther wrote the Ninety-five Theses in 1517.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-435",
@@ -9044,7 +10679,11 @@
    "explanation": "It flourished in Europe mainly in the seventeenth and eighteenth centuries.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-436",
@@ -9065,7 +10704,11 @@
    "explanation": "Montesquieu argued that legislative, executive and judicial powers should be separate.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-437",
@@ -9086,7 +10729,11 @@
    "explanation": "Dividing authority limits the chance of abuse.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-438",
@@ -9107,7 +10754,11 @@
    "explanation": "Close observation of nature marked Renaissance art and science.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-439",
@@ -9127,7 +10778,10 @@
    "explanation": "The Third Estate paid most taxes but had the least privilege.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-440",
@@ -9147,7 +10801,10 @@
    "explanation": "Both ideas and finances linked the two events.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-441",
@@ -9168,7 +10825,11 @@
    "explanation": "The core lies at the centre of the Earth.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-442",
@@ -9189,7 +10850,11 @@
    "explanation": "The Sahara in northern Africa is the largest hot desert.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-443",
@@ -9210,7 +10875,11 @@
    "explanation": "Kilimanjaro is in Tanzania, Africa.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-444",
@@ -9231,7 +10900,11 @@
    "explanation": "Sedimentary rocks form in layers that can bury and preserve remains.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-445",
@@ -9252,7 +10925,11 @@
    "explanation": "Molten material would destroy organic remains.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-446",
@@ -9273,7 +10950,11 @@
    "explanation": "A sudden movement of the sea floor can set off large waves.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-447",
@@ -9293,7 +10974,10 @@
    "explanation": "The layers differ in composition, temperature and state.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-448",
@@ -9313,7 +10997,10 @@
    "explanation": "Glacial erosion and deposition create distinctive landforms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-449",
@@ -9334,7 +11021,11 @@
    "explanation": "Water vapour cools and condenses into tiny droplets that form clouds.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-450",
@@ -9355,7 +11046,11 @@
    "explanation": "Temperature is measured in degrees Celsius.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-451",
@@ -9376,7 +11071,11 @@
    "explanation": "The southwest monsoon brings the main rainy season.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-452",
@@ -9397,7 +11096,11 @@
    "explanation": "A cyclone has a low-pressure centre with winds blowing in a spiral around it.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-453",
@@ -9418,7 +11121,11 @@
    "explanation": "Low angle of the rays and high reflection of ice limit warming.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-454",
@@ -9439,7 +11146,11 @@
    "explanation": "Air temperature decreases with height in the troposphere.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-455",
@@ -9459,7 +11170,10 @@
    "explanation": "Rainfall is classified by the way air is made to rise.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-456",
@@ -9479,7 +11193,10 @@
    "explanation": "The sea floor has mountains, plains and deep trenches like the land.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-457",
@@ -9500,7 +11217,11 @@
    "explanation": "Humus and minerals supply nutrients to plants.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-458",
@@ -9521,7 +11242,11 @@
    "explanation": "Cows feed on plants.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-459",
@@ -9542,7 +11267,11 @@
    "explanation": "Decomposers recycle nutrients from dead organisms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-460",
@@ -9563,7 +11292,11 @@
    "explanation": "Conifers such as pine and deodar grow in cooler highland areas.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-461",
@@ -9584,7 +11317,11 @@
    "explanation": "Excessive use may damage soil organisms and run off into water bodies.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-462",
@@ -9605,7 +11342,11 @@
    "explanation": "Migration helps animals survive when conditions change.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-463",
@@ -9625,7 +11366,10 @@
    "explanation": "Vegetation types follow climate patterns.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-464",
@@ -9645,7 +11389,10 @@
    "explanation": "Forests help regulate water and climate.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-465",
@@ -9666,7 +11413,11 @@
    "explanation": "The Ganga joins the Bay of Bengal after forming its delta.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-466",
@@ -9687,7 +11438,11 @@
    "explanation": "The Sundarbans are in the Ganga-Brahmaputra delta.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-467",
@@ -9708,7 +11463,11 @@
    "explanation": "Chilika Lake lies on the coast of Odisha.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-468",
@@ -9729,7 +11488,11 @@
    "explanation": "The Aravallis in north-western India are very old fold mountains.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-469",
@@ -9750,7 +11513,11 @@
    "explanation": "Fast flow on steep slopes gives strong downward erosion.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-470",
@@ -9771,7 +11538,11 @@
    "explanation": "Pune lies in the rain shadow on the leeward side.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-471",
@@ -9790,7 +11561,10 @@
    "explanation": "Source and terrain explain the differences.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-472",
@@ -9810,7 +11584,10 @@
    "explanation": "Drought is mainly a result of deficient monsoon rain.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-473",
@@ -9831,7 +11608,11 @@
    "explanation": "The head of State is elected, not hereditary, so India is a republic.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-474",
@@ -9852,7 +11633,11 @@
    "explanation": "The President is the constitutional head of State.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-475",
@@ -9873,7 +11658,11 @@
    "explanation": "Hansa Mehta was one of the women members of the Assembly.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-476",
@@ -9894,7 +11683,11 @@
    "explanation": "It marks the adoption of the Constitution on 26 November 1949.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-477",
@@ -9915,7 +11708,11 @@
    "explanation": "Written rules make the division of powers clear.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-478",
@@ -9936,7 +11733,11 @@
    "explanation": "Sovereignty means independence in both internal and external matters.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-479",
@@ -9956,7 +11757,10 @@
    "explanation": "India follows this system at the Centre and in the States.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-480",
@@ -9976,7 +11780,10 @@
    "explanation": "Article 368 requires ratification by half the States for amendments to federal provisions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-481",
@@ -9997,7 +11804,11 @@
    "explanation": "Article 18 abolishes titles, other than military and academic distinctions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-482",
@@ -10018,7 +11829,11 @@
    "explanation": "Articles 25 to 28 form the Right to Freedom of Religion.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-483",
@@ -10039,7 +11854,11 @@
    "explanation": "Quo warranto means 'by what authority'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-484",
@@ -10060,7 +11879,11 @@
    "explanation": "Article 32 gives the right to move the Supreme Court.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-485",
@@ -10081,7 +11904,11 @@
    "explanation": "Freedom of the press is part of the freedom of speech and expression.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-486",
@@ -10102,7 +11929,11 @@
    "explanation": "Active citizens take part in public life and monitor those in power.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-487",
@@ -10122,7 +11953,10 @@
    "explanation": "Citizenship implies membership with rights and responsibilities in a political community.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-488",
@@ -10142,7 +11976,10 @@
    "explanation": "Information is essential for democratic decision-making.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-489",
@@ -10163,7 +12000,11 @@
    "explanation": "The first general elections took place in 1951-52.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-490",
@@ -10184,7 +12025,11 @@
    "explanation": "EVMs are electronic devices for recording votes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-491",
@@ -10205,7 +12050,11 @@
    "explanation": "The CAG audits government accounts.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-492",
@@ -10226,7 +12075,11 @@
    "explanation": "The candidate with the highest number of votes wins, even without a majority.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-493",
@@ -10247,7 +12100,11 @@
    "explanation": "Regular fair elections make governments accountable to the people.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-494",
@@ -10268,7 +12125,11 @@
    "explanation": "Local bodies let people take part in decisions that affect their daily lives.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c11-495",
@@ -10288,7 +12149,10 @@
    "explanation": "Courts apply laws and protect rights.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-496",
@@ -10308,7 +12172,10 @@
    "explanation": "Fair elections need an impartial authority.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c11-497",
@@ -10329,7 +12196,11 @@
    "explanation": "Treating someone unfairly because of caste is discrimination.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c11-498",
@@ -10350,7 +12221,11 @@
    "explanation": "Liberty means freedom from unjust restraints.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c11-499",
@@ -10371,7 +12246,11 @@
    "explanation": "In a democracy, citizens choose their rulers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c11-500",
@@ -10392,7 +12271,11 @@
    "explanation": "These rights relate to basic needs and living conditions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   }
  ]
 }
