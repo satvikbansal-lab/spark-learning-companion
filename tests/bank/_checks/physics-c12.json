@@ -1,0 +1,2005 @@
+{
+ "model": "claude-haiku",
+ "answers": [
+  {
+   "id": "physics-c12-001",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-002",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-003",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-004",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-005",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-006",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-007",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-008",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-009",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-010",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-011",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-012",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-013",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-014",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-015",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-016",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-017",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-018",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-019",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-020",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-021",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-022",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-023",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-024",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-025",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-026",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-027",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-028",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-029",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-030",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-031",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-032",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-033",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-034",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-035",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-036",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-037",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-038",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-039",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-040",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-041",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-042",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-043",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-044",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-045",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-046",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-047",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-048",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-049",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-050",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-051",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-052",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-053",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-054",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-055",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-056",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-057",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-058",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-059",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-060",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-061",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-062",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-063",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-064",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-065",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-066",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-067",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-068",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-069",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-070",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-071",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-072",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-073",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-074",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-075",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-076",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-077",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-078",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-079",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-080",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-081",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-082",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-083",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-084",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-085",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-086",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-087",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-088",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-089",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-090",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-091",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-092",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-093",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-094",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-095",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-096",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-097",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-098",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-099",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-100",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-101",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-102",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-103",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-104",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-105",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-106",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-107",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-108",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-109",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-110",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-111",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-112",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-113",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-114",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-115",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-116",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-117",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-118",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-119",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-120",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-121",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-122",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-123",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-124",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-125",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-126",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-127",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-128",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-129",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-130",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-131",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-132",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-133",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-134",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-135",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-136",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-137",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-138",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-139",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-140",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-141",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-142",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-143",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-144",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-145",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-146",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-147",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-148",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-149",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-150",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-151",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-152",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-153",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-154",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-155",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-156",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-157",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-158",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-159",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-160",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-161",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-162",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-163",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-164",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-165",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-166",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-167",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-168",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-169",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-170",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-171",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-172",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-173",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-174",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-175",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-176",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-177",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-178",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-179",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-180",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-181",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-182",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-183",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-184",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-185",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-186",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-187",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-188",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-189",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-190",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-191",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-192",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-193",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-194",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-195",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-196",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-197",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-198",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-199",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-200",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-201",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-202",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-203",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-204",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-205",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-206",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-207",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-208",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-209",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-210",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-211",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-212",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-213",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-214",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-215",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-216",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-217",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-218",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-219",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-220",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-221",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-222",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-223",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-224",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-225",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-226",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-227",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-228",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-229",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-230",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-231",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-232",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-233",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-234",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-235",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-236",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-237",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-238",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-239",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-240",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-241",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-242",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-243",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-244",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-245",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-246",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-247",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-248",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-249",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-250",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-251",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-252",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-253",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-254",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-255",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-256",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-257",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-258",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-259",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-260",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-261",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-262",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-263",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-264",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-265",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-266",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-267",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-268",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-269",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-270",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-271",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-272",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-273",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-274",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-275",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-276",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-277",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-278",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-279",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-280",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-281",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-282",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-283",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-284",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-285",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-286",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-287",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-288",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-289",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-290",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-291",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-292",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-293",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-294",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-295",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-296",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-297",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-298",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-299",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-300",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-301",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-302",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-303",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-304",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-305",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-306",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-307",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-308",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-309",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-310",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-311",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-312",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-313",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-314",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-315",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-316",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-317",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-318",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-319",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-320",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-321",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-322",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-323",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-324",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-325",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-326",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-327",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-328",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-329",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-330",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-331",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-332",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-333",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-334",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-335",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-336",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-337",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-338",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-339",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-340",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-341",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-342",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-343",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-344",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-345",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-346",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-347",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-348",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-349",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-350",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-351",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-352",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-353",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-354",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-355",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-356",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-357",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-358",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-359",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-360",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-361",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-362",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-363",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-364",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-365",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-366",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-367",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-368",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-369",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-370",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-371",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-372",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-373",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-374",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-375",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-376",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-377",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-378",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-379",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-380",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-381",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-382",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-383",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-384",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-385",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-386",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-387",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-388",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-389",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-390",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-391",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-392",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-393",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-394",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-395",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-396",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-397",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-398",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-399",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-400",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-401",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-402",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-403",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-404",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-405",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-406",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-407",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-408",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-409",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-410",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-411",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-412",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-413",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-414",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-415",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-416",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-417",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-418",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-419",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-420",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-421",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-422",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-423",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-424",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-425",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-426",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-427",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-428",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-429",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-430",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-431",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-432",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-433",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-434",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-435",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-436",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-437",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-438",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-439",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-440",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-441",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-442",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-443",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-444",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-445",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-446",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-447",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-448",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-449",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-450",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-451",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-452",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-453",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-454",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-455",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-456",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-457",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-458",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-459",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-460",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-461",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-462",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-463",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-464",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-465",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-466",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-467",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-468",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-469",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-470",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-471",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-472",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-473",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-474",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-475",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-476",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-477",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-478",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-479",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-480",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-481",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-482",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-483",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-484",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-485",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-486",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-487",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-488",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-489",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-490",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-491",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-492",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-493",
+   "verdict": "correct"
+  },
+  {
+   "id": "physics-c12-494",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-495",
+   "answer": "C"
+  },
+  {
+   "id": "physics-c12-496",
+   "answer": "D"
+  },
+  {
+   "id": "physics-c12-497",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-498",
+   "answer": "B"
+  },
+  {
+   "id": "physics-c12-499",
+   "answer": "A"
+  },
+  {
+   "id": "physics-c12-500",
+   "verdict": "correct"
+  }
+ ]
+}

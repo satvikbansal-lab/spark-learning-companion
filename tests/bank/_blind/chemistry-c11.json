@@ -1,0 +1,5506 @@
+{
+ "class": 11,
+ "subject": "chemistry",
+ "items": [
+  {
+   "id": "chemistry-c11-001",
+   "type": "mcq",
+   "q": "What is the SI unit of the amount of a substance?",
+   "options": [
+    "kilogram",
+    "mole",
+    "candela",
+    "ampere"
+   ]
+  },
+  {
+   "id": "chemistry-c11-002",
+   "type": "mcq",
+   "q": "How many atoms are present in exactly 12 g of carbon-12?",
+   "options": [
+    "6.022 × 10^22",
+    "3.011 × 10^23",
+    "6.022 × 10^24",
+    "6.022 × 10^23"
+   ]
+  },
+  {
+   "id": "chemistry-c11-003",
+   "type": "mcq",
+   "q": "How many moles of water are present in 36 g of water? (Molar mass of H2O = 18 g/mol)",
+   "options": [
+    "2 mol",
+    "1 mol",
+    "4 mol",
+    "0.5 mol"
+   ]
+  },
+  {
+   "id": "chemistry-c11-004",
+   "type": "mcq",
+   "q": "What is the mass of 0.25 mol of calcium carbonate, CaCO3? (Ca = 40, C = 12, O = 16)",
+   "options": [
+    "10 g",
+    "20 g",
+    "25 g",
+    "100 g"
+   ]
+  },
+  {
+   "id": "chemistry-c11-005",
+   "type": "mcq",
+   "q": "A compound contains 40.0% carbon, 6.7% hydrogen and 53.3% oxygen by mass. What is its empirical formula? (C = 12, H = 1, O = 16)",
+   "options": [
+    "CH4O",
+    "C2H2O",
+    "CH2O",
+    "CHO"
+   ]
+  },
+  {
+   "id": "chemistry-c11-006",
+   "type": "mcq",
+   "q": "2 mol of hydrogen gas and 2 mol of oxygen gas are made to react completely according to 2H2 + O2 → 2H2O. What mass of water is formed? (H2O = 18 g/mol)",
+   "options": [
+    "36 g",
+    "18 g",
+    "72 g",
+    "4 g"
+   ]
+  },
+  {
+   "id": "chemistry-c11-007",
+   "type": "mcq",
+   "q": "What is the molality of a solution made by dissolving 18 g of glucose (molar mass 180 g/mol) in 500 g of water?",
+   "options": [
+    "0.1 m",
+    "0.4 m",
+    "0.36 m",
+    "0.2 m"
+   ]
+  },
+  {
+   "id": "chemistry-c11-008",
+   "type": "short",
+   "q": "Calculate the molarity of a solution prepared by dissolving 4 g of NaOH (molar mass 40 g/mol) in water to make 500 mL of solution.",
+   "proposedAnswer": "0.2 M",
+   "keyPoints": [
+    "Moles of NaOH = 4/40 = 0.1 mol",
+    "Volume = 0.5 L",
+    "Molarity = 0.1/0.5 = 0.2 mol/L"
+   ]
+  },
+  {
+   "id": "chemistry-c11-009",
+   "type": "short",
+   "q": "How many significant figures are there in the measurement 0.00450 g? Give a reason.",
+   "proposedAnswer": "Three significant figures (4, 5 and the final 0).",
+   "keyPoints": [
+    "Leading zeros are not significant",
+    "Trailing zero after a non-zero digit in a decimal number is significant",
+    "Significant digits are 4, 5, 0"
+   ]
+  },
+  {
+   "id": "chemistry-c11-010",
+   "type": "mcq",
+   "q": "Which scientist discovered the atomic nucleus through the gold foil scattering experiment?",
+   "options": [
+    "J. J. Thomson",
+    "Ernest Rutherford",
+    "James Chadwick",
+    "Niels Bohr"
+   ]
+  },
+  {
+   "id": "chemistry-c11-011",
+   "type": "mcq",
+   "q": "An atom has atomic number 11 and mass number 23. How many neutrons does it have?",
+   "options": [
+    "12",
+    "11",
+    "23",
+    "34"
+   ]
+  },
+  {
+   "id": "chemistry-c11-012",
+   "type": "mcq",
+   "q": "What is the maximum number of electrons that the third shell (n = 3) can hold?",
+   "options": [
+    "8",
+    "10",
+    "18",
+    "32"
+   ]
+  },
+  {
+   "id": "chemistry-c11-013",
+   "type": "mcq",
+   "q": "Which set of quantum numbers (n, l, ml) is NOT permissible for an electron in an atom?",
+   "options": [
+    "3, 2, -2",
+    "2, 1, 0",
+    "4, 3, 3",
+    "2, 2, 1"
+   ]
+  },
+  {
+   "id": "chemistry-c11-014",
+   "type": "mcq",
+   "q": "What is the ground state electronic configuration of chromium (Z = 24)?",
+   "options": [
+    "[Ar] 3d4 4s2",
+    "[Ar] 3d5 4s1",
+    "[Ar] 3d6",
+    "[Ar] 4s2 4p4"
+   ]
+  },
+  {
+   "id": "chemistry-c11-015",
+   "type": "mcq",
+   "q": "What is the energy of a photon of frequency 5 × 10^14 Hz? (h = 6.626 × 10^-34 J s)",
+   "options": [
+    "1.325 × 10^-19 J",
+    "3.313 × 10^-19 J",
+    "6.626 × 10^-19 J",
+    "3.313 × 10^-20 J"
+   ]
+  },
+  {
+   "id": "chemistry-c11-016",
+   "type": "mcq",
+   "q": "In Bohr's model of the hydrogen atom, the radius of the third orbit is how many times the radius of the first orbit?",
+   "options": [
+    "3",
+    "6",
+    "27",
+    "9"
+   ]
+  },
+  {
+   "id": "chemistry-c11-017",
+   "type": "short",
+   "q": "State Pauli's exclusion principle and explain what it implies for the maximum number of electrons in one orbital.",
+   "proposedAnswer": "No two electrons in an atom can have the same set of all four quantum numbers, so an orbital can hold at most two electrons, which must have opposite spins.",
+   "keyPoints": [
+    "No two electrons share identical n, l, ml and ms",
+    "Electrons in one orbital differ in spin quantum number",
+    "Maximum occupancy of an orbital is 2"
+   ]
+  },
+  {
+   "id": "chemistry-c11-018",
+   "type": "short",
+   "q": "Find the number of radial nodes and angular nodes in a 3p orbital.",
+   "proposedAnswer": "Radial nodes = 1 and angular nodes = 1.",
+   "keyPoints": [
+    "Radial nodes = n - l - 1 = 3 - 1 - 1 = 1",
+    "Angular nodes = l = 1",
+    "Total nodes = n - 1 = 2"
+   ]
+  },
+  {
+   "id": "chemistry-c11-019",
+   "type": "mcq",
+   "q": "According to the modern periodic law, the properties of elements are a periodic function of their",
+   "options": [
+    "atomic mass",
+    "number of neutrons",
+    "atomic number",
+    "number of valence electrons only"
+   ]
+  },
+  {
+   "id": "chemistry-c11-020",
+   "type": "mcq",
+   "q": "Which of the following has the largest atomic radius?",
+   "options": [
+    "Cs",
+    "Na",
+    "K",
+    "Li"
+   ]
+  },
+  {
+   "id": "chemistry-c11-021",
+   "type": "mcq",
+   "q": "Among Na, Mg, Ne and O, which has the highest first ionisation enthalpy?",
+   "options": [
+    "Na",
+    "Ne",
+    "O",
+    "Mg"
+   ]
+  },
+  {
+   "id": "chemistry-c11-022",
+   "type": "mcq",
+   "q": "Among the halogens F, Cl, Br and I, which has the most negative electron gain enthalpy?",
+   "options": [
+    "F",
+    "Br",
+    "I",
+    "Cl"
+   ]
+  },
+  {
+   "id": "chemistry-c11-023",
+   "type": "mcq",
+   "q": "Which of the isoelectronic species O2-, F-, Na+ and Mg2+ has the largest ionic radius?",
+   "options": [
+    "O2-",
+    "F-",
+    "Na+",
+    "Mg2+"
+   ]
+  },
+  {
+   "id": "chemistry-c11-024",
+   "type": "mcq",
+   "q": "An element has the configuration 1s2 2s2 2p6 3s2 3p5. In which period and group does it lie?",
+   "options": [
+    "Period 2, group 17",
+    "Period 3, group 15",
+    "Period 3, group 17",
+    "Period 4, group 17"
+   ]
+  },
+  {
+   "id": "chemistry-c11-025",
+   "type": "mcq",
+   "q": "The first ionisation enthalpy of boron is lower than that of beryllium mainly because",
+   "options": [
+    "boron has a larger atomic radius than beryllium",
+    "boron has a half-filled 2p subshell",
+    "the electron lost by boron comes from a 2p orbital, which is higher in energy and shielded by the 2s electrons",
+    "boron has a smaller nuclear charge than beryllium"
+   ]
+  },
+  {
+   "id": "chemistry-c11-026",
+   "type": "short",
+   "q": "Why is a cation always smaller than its parent atom?",
+   "proposedAnswer": "Loss of electrons reduces electron-electron repulsion and often removes a whole shell, while the nuclear charge stays the same, so the remaining electrons are pulled in more strongly.",
+   "keyPoints": [
+    "Fewer electrons, same number of protons",
+    "Higher effective nuclear charge per electron",
+    "Often the outermost shell is lost"
+   ]
+  },
+  {
+   "id": "chemistry-c11-027",
+   "type": "short",
+   "q": "Why is the second ionisation enthalpy of sodium much larger than its first ionisation enthalpy?",
+   "proposedAnswer": "After the first electron is removed Na+ has the stable neon configuration; the next electron must be taken from an inner, closer shell held by a higher effective nuclear charge.",
+   "keyPoints": [
+    "Na+ has noble gas configuration 2s2 2p6",
+    "Electron comes from an inner shell nearer the nucleus",
+    "Much greater energy needed than for the single 3s electron"
+   ]
+  },
+  {
+   "id": "chemistry-c11-028",
+   "type": "mcq",
+   "q": "What is the shape of a methane (CH4) molecule?",
+   "options": [
+    "Tetrahedral",
+    "Square planar",
+    "Trigonal pyramidal",
+    "Linear"
+   ]
+  },
+  {
+   "id": "chemistry-c11-029",
+   "type": "mcq",
+   "q": "Which type of bond is present in sodium chloride?",
+   "options": [
+    "Covalent bond",
+    "Coordinate bond",
+    "Metallic bond",
+    "Ionic bond"
+   ]
+  },
+  {
+   "id": "chemistry-c11-030",
+   "type": "mcq",
+   "q": "What is the hybridisation of each carbon atom in ethene, C2H4?",
+   "options": [
+    "sp",
+    "sp2",
+    "sp3",
+    "sp3d"
+   ]
+  },
+  {
+   "id": "chemistry-c11-031",
+   "type": "mcq",
+   "q": "According to molecular orbital theory, what is the bond order of the O2 molecule?",
+   "options": [
+    "2",
+    "1",
+    "3",
+    "2.5"
+   ]
+  },
+  {
+   "id": "chemistry-c11-032",
+   "type": "mcq",
+   "q": "Which of the following molecules has a zero dipole moment?",
+   "options": [
+    "H2O",
+    "NH3",
+    "CO2",
+    "CHCl3"
+   ]
+  },
+  {
+   "id": "chemistry-c11-033",
+   "type": "mcq",
+   "q": "What is the shape of the XeF4 molecule?",
+   "options": [
+    "Tetrahedral",
+    "See-saw",
+    "Octahedral",
+    "Square planar"
+   ]
+  },
+  {
+   "id": "chemistry-c11-034",
+   "type": "mcq",
+   "q": "The bond angles in CH4, NH3 and H2O decrease in the order 109.5 degrees, 107 degrees and 104.5 degrees. This is best explained by the fact that",
+   "options": [
+    "oxygen is larger than carbon",
+    "lone pairs repel bond pairs more strongly than bond pairs repel one another",
+    "water molecules contain ionic bonds",
+    "carbon is sp3 hybridised while oxygen is sp hybridised"
+   ]
+  },
+  {
+   "id": "chemistry-c11-035",
+   "type": "short",
+   "q": "Define bond order and give its value for the nitrogen molecule N2.",
+   "proposedAnswer": "Bond order is half the difference between the number of electrons in bonding and antibonding molecular orbitals; for N2 it is 3.",
+   "keyPoints": [
+    "Bond order = (Nb - Na)/2",
+    "N2 has 10 bonding and 4 antibonding electrons",
+    "Bond order of N2 = 3, a triple bond"
+   ]
+  },
+  {
+   "id": "chemistry-c11-036",
+   "type": "short",
+   "q": "Why does water have a much higher boiling point than hydrogen sulphide although H2S has the larger molar mass?",
+   "proposedAnswer": "Oxygen is highly electronegative and small, so water molecules form strong intermolecular hydrogen bonds, which need much more energy to break; H2S does not hydrogen-bond appreciably.",
+   "keyPoints": [
+    "O-H bond is highly polar",
+    "Hydrogen bonding between water molecules",
+    "H2S has only weak dipole and van der Waals forces"
+   ]
+  },
+  {
+   "id": "chemistry-c11-037",
+   "type": "mcq",
+   "q": "At constant temperature, the volume of a fixed mass of an ideal gas is inversely proportional to its",
+   "options": [
+    "temperature",
+    "pressure",
+    "mass",
+    "molar mass"
+   ]
+  },
+  {
+   "id": "chemistry-c11-038",
+   "type": "mcq",
+   "q": "What is the value of absolute zero on the Celsius scale?",
+   "options": [
+    "0 °C",
+    "-100 °C",
+    "-373.15 °C",
+    "-273.15 °C"
+   ]
+  },
+  {
+   "id": "chemistry-c11-039",
+   "type": "mcq",
+   "q": "What is the pressure of 2 mol of an ideal gas in a 10 L vessel at 300 K? (R = 0.0821 L atm K^-1 mol^-1)",
+   "options": [
+    "0.49 atm",
+    "2.46 atm",
+    "4.93 atm",
+    "49.3 atm"
+   ]
+  },
+  {
+   "id": "chemistry-c11-040",
+   "type": "mcq",
+   "q": "A gas mixture has 2 mol of N2 and 3 mol of O2 at a total pressure of 5 atm. What is the partial pressure of N2?",
+   "options": [
+    "2 atm",
+    "3 atm",
+    "2.5 atm",
+    "5 atm"
+   ]
+  },
+  {
+   "id": "chemistry-c11-041",
+   "type": "mcq",
+   "q": "A gas occupies 2.0 L at 300 K and constant pressure. What volume will it occupy at 450 K?",
+   "options": [
+    "2.5 L",
+    "3.0 L",
+    "4.5 L",
+    "1.33 L"
+   ]
+  },
+  {
+   "id": "chemistry-c11-042",
+   "type": "mcq",
+   "q": "Which gas effuses fastest under the same conditions?",
+   "options": [
+    "CO2",
+    "O2",
+    "He",
+    "H2"
+   ]
+  },
+  {
+   "id": "chemistry-c11-043",
+   "type": "mcq",
+   "q": "A gas X diffuses at half the rate of methane (molar mass 16 g/mol) under the same conditions. What is the molar mass of X?",
+   "options": [
+    "64 g/mol",
+    "32 g/mol",
+    "16 g/mol",
+    "128 g/mol"
+   ]
+  },
+  {
+   "id": "chemistry-c11-044",
+   "type": "mcq",
+   "q": "Real gases deviate strongly from ideal behaviour at very high pressure mainly because",
+   "options": [
+    "gas molecules stop moving",
+    "the temperature of the gas always falls",
+    "the volume occupied by the molecules becomes comparable to the volume of the container",
+    "the molecules lose mass when compressed"
+   ]
+  },
+  {
+   "id": "chemistry-c11-045",
+   "type": "short",
+   "q": "How many moles of gas are present in 5.6 L of a gas at 273 K and 1 atm? (Molar volume at these conditions = 22.4 L/mol)",
+   "proposedAnswer": "0.25 mol",
+   "keyPoints": [
+    "One mole occupies 22.4 L at 273 K and 1 atm",
+    "Moles = 5.6/22.4",
+    "= 0.25 mol"
+   ]
+  },
+  {
+   "id": "chemistry-c11-046",
+   "type": "mcq",
+   "q": "Which of the following is an intensive property?",
+   "options": [
+    "Volume",
+    "Mass",
+    "Density",
+    "Enthalpy"
+   ]
+  },
+  {
+   "id": "chemistry-c11-047",
+   "type": "mcq",
+   "q": "A system that exchanges neither matter nor energy with its surroundings is called a(n)",
+   "options": [
+    "isolated system",
+    "closed system",
+    "open system",
+    "homogeneous system"
+   ]
+  },
+  {
+   "id": "chemistry-c11-048",
+   "type": "mcq",
+   "q": "A system absorbs 100 J of heat and does 40 J of work on its surroundings. What is the change in internal energy (using the IUPAC sign convention)?",
+   "options": [
+    "140 J",
+    "-60 J",
+    "40 J",
+    "60 J"
+   ]
+  },
+  {
+   "id": "chemistry-c11-049",
+   "type": "mcq",
+   "q": "For the reaction N2(g) + 3H2(g) → 2NH3(g), the relation between ΔH and ΔU is",
+   "options": [
+    "ΔH = ΔU + 2RT",
+    "ΔH = ΔU - 2RT",
+    "ΔH = ΔU",
+    "ΔH = ΔU - 4RT"
+   ]
+  },
+  {
+   "id": "chemistry-c11-050",
+   "type": "mcq",
+   "q": "Given C(s) + O2(g) → CO2(g), ΔH = -394 kJ/mol and CO(g) + 1/2 O2(g) → CO2(g), ΔH = -283 kJ/mol, what is the enthalpy change for C(s) + 1/2 O2(g) → CO(g)?",
+   "options": [
+    "-111 kJ/mol",
+    "-677 kJ/mol",
+    "+111 kJ/mol",
+    "-394 kJ/mol"
+   ]
+  },
+  {
+   "id": "chemistry-c11-051",
+   "type": "mcq",
+   "q": "A reaction has ΔH = +30 kJ/mol and ΔS = +100 J/(K mol). Above what temperature does it become spontaneous?",
+   "options": [
+    "30 K",
+    "100 K",
+    "300 K",
+    "3000 K"
+   ]
+  },
+  {
+   "id": "chemistry-c11-052",
+   "type": "mcq",
+   "q": "For which of the following processes is the entropy change of the system negative?",
+   "options": [
+    "Melting of ice",
+    "Evaporation of water",
+    "Dissolving sodium chloride in water",
+    "Condensation of steam to water"
+   ]
+  },
+  {
+   "id": "chemistry-c11-053",
+   "type": "mcq",
+   "q": "The combustion of 1 mol of methane releases 890 kJ. How much heat is released by burning 8 g of methane? (CH4 = 16 g/mol)",
+   "options": [
+    "890 kJ",
+    "445 kJ",
+    "222.5 kJ",
+    "1780 kJ"
+   ]
+  },
+  {
+   "id": "chemistry-c11-054",
+   "type": "short",
+   "q": "Explain why the enthalpy of neutralisation of any strong acid with a strong base is nearly constant at about -57 kJ per mole of water formed.",
+   "proposedAnswer": "Strong acids and bases are completely ionised, so the only net reaction is H+ + OH- → H2O, which is the same for every pair.",
+   "keyPoints": [
+    "Strong acids and bases dissociate completely",
+    "Spectator ions do not take part",
+    "Net change is H+(aq) + OH-(aq) → H2O(l)"
+   ]
+  },
+  {
+   "id": "chemistry-c11-055",
+   "type": "mcq",
+   "q": "According to Le Chatelier's principle, if the concentration of a reactant is increased at equilibrium, the equilibrium",
+   "options": [
+    "shifts in the backward direction",
+    "shifts in the forward direction to use up the added reactant",
+    "remains unaffected but Kc increases",
+    "stops completely"
+   ]
+  },
+  {
+   "id": "chemistry-c11-056",
+   "type": "mcq",
+   "q": "What is the expression for Kc for the reaction N2(g) + 3H2(g) ⇌ 2NH3(g)?",
+   "options": [
+    "[N2][H2]^3 / [NH3]^2",
+    "[NH3] / ([N2][H2])",
+    "[NH3]^2 / ([N2][H2])",
+    "[NH3]^2 / ([N2][H2]^3)"
+   ]
+  },
+  {
+   "id": "chemistry-c11-057",
+   "type": "mcq",
+   "q": "What is the pH of a 0.001 M solution of HCl at 25 °C?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "11"
+   ]
+  },
+  {
+   "id": "chemistry-c11-058",
+   "type": "mcq",
+   "q": "For which of the following reactions is Kp equal to Kc?",
+   "options": [
+    "H2(g) + I2(g) ⇌ 2HI(g)",
+    "N2O4(g) ⇌ 2NO2(g)",
+    "PCl5(g) ⇌ PCl3(g) + Cl2(g)",
+    "N2(g) + 3H2(g) ⇌ 2NH3(g)"
+   ]
+  },
+  {
+   "id": "chemistry-c11-059",
+   "type": "mcq",
+   "q": "For H2(g) + I2(g) ⇌ 2HI(g) the equilibrium constant is 50 at a given temperature. What is the constant for 2HI(g) ⇌ H2(g) + I2(g) at that temperature?",
+   "options": [
+    "50",
+    "0.02",
+    "0.2",
+    "2500"
+   ]
+  },
+  {
+   "id": "chemistry-c11-060",
+   "type": "mcq",
+   "q": "What is the pH of a 0.01 M NaOH solution at 25 °C?",
+   "options": [
+    "2",
+    "10",
+    "13",
+    "12"
+   ]
+  },
+  {
+   "id": "chemistry-c11-061",
+   "type": "mcq",
+   "q": "In which of the following is the solubility of AgCl lowest?",
+   "options": [
+    "0.1 M NaCl",
+    "Pure water",
+    "0.1 M KNO3",
+    "0.1 M NH3"
+   ]
+  },
+  {
+   "id": "chemistry-c11-062",
+   "type": "mcq",
+   "q": "Which of the following mixtures acts as an acidic buffer?",
+   "options": [
+    "HCl and NaCl",
+    "NaOH and NaCl",
+    "CH3COOH and CH3COONa",
+    "HNO3 and KNO3"
+   ]
+  },
+  {
+   "id": "chemistry-c11-063",
+   "type": "short",
+   "q": "For N2O4(g) ⇌ 2NO2(g), the equilibrium concentrations are [N2O4] = 0.2 M and [NO2] = 0.4 M. Calculate Kc.",
+   "proposedAnswer": "Kc = 0.8 mol/L",
+   "keyPoints": [
+    "Kc = [NO2]^2 / [N2O4]",
+    "= (0.4)^2 / 0.2",
+    "= 0.16 / 0.2 = 0.8"
+   ]
+  },
+  {
+   "id": "chemistry-c11-064",
+   "type": "mcq",
+   "q": "What is the oxidation number of sulphur in H2SO4?",
+   "options": [
+    "+2",
+    "+4",
+    "+6",
+    "-2"
+   ]
+  },
+  {
+   "id": "chemistry-c11-065",
+   "type": "mcq",
+   "q": "In terms of electron transfer, oxidation is",
+   "options": [
+    "loss of electrons",
+    "gain of electrons",
+    "gain of hydrogen",
+    "decrease in oxidation number"
+   ]
+  },
+  {
+   "id": "chemistry-c11-066",
+   "type": "mcq",
+   "q": "What is the oxidation number of chromium in K2Cr2O7?",
+   "options": [
+    "+3",
+    "+2",
+    "+7",
+    "+6"
+   ]
+  },
+  {
+   "id": "chemistry-c11-067",
+   "type": "mcq",
+   "q": "In the reaction Zn + CuSO4 → ZnSO4 + Cu, the oxidising agent is",
+   "options": [
+    "Zn",
+    "Cu2+",
+    "Zn2+",
+    "SO4 2-"
+   ]
+  },
+  {
+   "id": "chemistry-c11-068",
+   "type": "mcq",
+   "q": "Which of the following is a disproportionation reaction?",
+   "options": [
+    "2H2O2 → 2H2O + O2",
+    "Zn + 2HCl → ZnCl2 + H2",
+    "NaOH + HCl → NaCl + H2O",
+    "CaCO3 → CaO + CO2"
+   ]
+  },
+  {
+   "id": "chemistry-c11-069",
+   "type": "mcq",
+   "q": "In MnO4- + 5Fe2+ + 8H+ → Mn2+ + 5Fe3+ + 4H2O, how many electrons does each MnO4- ion gain?",
+   "options": [
+    "1",
+    "3",
+    "5",
+    "7"
+   ]
+  },
+  {
+   "id": "chemistry-c11-070",
+   "type": "mcq",
+   "q": "What is the average oxidation number of sulphur in the tetrathionate ion in Na2S4O6?",
+   "options": [
+    "+2",
+    "+3",
+    "+6",
+    "+2.5"
+   ]
+  },
+  {
+   "id": "chemistry-c11-071",
+   "type": "short",
+   "q": "Why does fluorine show only the -1 oxidation state and never a positive one in compounds?",
+   "proposedAnswer": "Fluorine is the most electronegative element and has no d orbitals, so it always attracts the shared electrons and cannot lose electrons or expand its octet.",
+   "keyPoints": [
+    "Highest electronegativity",
+    "Cannot form positive oxidation state",
+    "No vacant d orbitals to expand octet"
+   ]
+  },
+  {
+   "id": "chemistry-c11-072",
+   "type": "short",
+   "q": "Explain why hydrogen peroxide can act as both an oxidising agent and a reducing agent.",
+   "proposedAnswer": "Oxygen in H2O2 has oxidation number -1, which lies between 0 (in O2) and -2 (in H2O), so it can be raised or lowered.",
+   "keyPoints": [
+    "Oxidation number of O in H2O2 is -1",
+    "Can be oxidised to O2 (0)",
+    "Can be reduced to water or hydroxide (-2)"
+   ]
+  },
+  {
+   "id": "chemistry-c11-073",
+   "type": "mcq",
+   "q": "Which isotope of hydrogen is radioactive?",
+   "options": [
+    "Protium",
+    "Tritium",
+    "Deuterium",
+    "All three"
+   ]
+  },
+  {
+   "id": "chemistry-c11-074",
+   "type": "mcq",
+   "q": "What is the formula of heavy water?",
+   "options": [
+    "H2O2",
+    "D2O",
+    "H3O+",
+    "HDO2"
+   ]
+  },
+  {
+   "id": "chemistry-c11-075",
+   "type": "mcq",
+   "q": "Which alkali metal imparts a golden-yellow colour to a Bunsen flame?",
+   "options": [
+    "Lithium",
+    "Potassium",
+    "Calcium",
+    "Sodium"
+   ]
+  },
+  {
+   "id": "chemistry-c11-076",
+   "type": "mcq",
+   "q": "What is the formula of washing soda?",
+   "options": [
+    "NaHCO3",
+    "Na2CO3·H2O",
+    "Na2CO3·10H2O",
+    "NaOH"
+   ]
+  },
+  {
+   "id": "chemistry-c11-077",
+   "type": "mcq",
+   "q": "Beryllium chloride is largely covalent while barium chloride is ionic. The best explanation is that",
+   "options": [
+    "Be2+ is very small with high charge density, so it strongly polarises the chloride ion",
+    "beryllium has a lower ionisation enthalpy than barium",
+    "beryllium is larger than barium",
+    "chlorine is less electronegative towards beryllium"
+   ]
+  },
+  {
+   "id": "chemistry-c11-078",
+   "type": "short",
+   "q": "Give two reasons why hydrogen is placed separately from the alkali metals in some versions of the periodic table.",
+   "proposedAnswer": "Hydrogen is a non-metal that exists as a diatomic gas, and it can also gain one electron to form H-, unlike alkali metals.",
+   "keyPoints": [
+    "Non-metallic, diatomic gas",
+    "Forms H- ions by gaining an electron",
+    "Much higher ionisation enthalpy than alkali metals"
+   ]
+  },
+  {
+   "id": "chemistry-c11-079",
+   "type": "short",
+   "q": "What is temporary hardness of water, what causes it, and how can it be removed?",
+   "proposedAnswer": "Temporary hardness is due to dissolved bicarbonates of calcium and magnesium and is removed by boiling, which precipitates the carbonates.",
+   "keyPoints": [
+    "Caused by Ca(HCO3)2 and Mg(HCO3)2",
+    "Boiling decomposes them to insoluble carbonates",
+    "Can also be removed by Clark's method"
+   ]
+  },
+  {
+   "id": "chemistry-c11-080",
+   "type": "short",
+   "q": "Write the equation for the reaction of sodium with water and explain why sodium is stored under kerosene.",
+   "proposedAnswer": "2Na + 2H2O → 2NaOH + H2. Sodium reacts vigorously with moisture and oxygen in air, so it is kept under kerosene.",
+   "keyPoints": [
+    "2Na + 2H2O → 2NaOH + H2",
+    "Reaction is vigorous and exothermic",
+    "Kerosene keeps out air and moisture"
+   ]
+  },
+  {
+   "id": "chemistry-c11-081",
+   "type": "mcq",
+   "q": "What is the correct formula of borax?",
+   "options": [
+    "Na2B2O7·10H2O",
+    "Na2B4O7·10H2O",
+    "NaBO2·10H2O",
+    "Na3BO3·10H2O"
+   ]
+  },
+  {
+   "id": "chemistry-c11-082",
+   "type": "mcq",
+   "q": "Which of the following is an allotrope of carbon?",
+   "options": [
+    "Silica",
+    "Silicone",
+    "Carborundum",
+    "Fullerene"
+   ]
+  },
+  {
+   "id": "chemistry-c11-083",
+   "type": "mcq",
+   "q": "What is the hybridisation of each carbon atom in diamond?",
+   "options": [
+    "sp3",
+    "sp2",
+    "sp",
+    "sp3d"
+   ]
+  },
+  {
+   "id": "chemistry-c11-084",
+   "type": "mcq",
+   "q": "Anhydrous aluminium chloride exists as the dimer Al2Cl6 in the vapour state because",
+   "options": [
+    "aluminium is a non-metal",
+    "chlorine is a transition element",
+    "aluminium is electron-deficient and completes its octet by using lone pairs of bridging chlorine atoms",
+    "the dimer has ionic Al-Al bonds"
+   ]
+  },
+  {
+   "id": "chemistry-c11-085",
+   "type": "mcq",
+   "q": "Graphite conducts electricity but diamond does not because in graphite",
+   "options": [
+    "carbon atoms are charged",
+    "all four electrons of carbon are held in sigma bonds",
+    "each carbon uses three electrons in sigma bonds and the fourth is delocalised between the layers",
+    "the carbon atoms are larger"
+   ]
+  },
+  {
+   "id": "chemistry-c11-086",
+   "type": "short",
+   "q": "Why is carbon monoxide poisonous to humans?",
+   "proposedAnswer": "CO binds to the iron in haemoglobin about 200 times more strongly than oxygen does, forming carboxyhaemoglobin and blocking oxygen transport.",
+   "keyPoints": [
+    "Forms carboxyhaemoglobin",
+    "Binds more strongly than oxygen",
+    "Oxygen carrying capacity of blood falls"
+   ]
+  },
+  {
+   "id": "chemistry-c11-087",
+   "type": "short",
+   "q": "What is the inert pair effect? Give one example from group 14.",
+   "proposedAnswer": "It is the reluctance of the two outer s electrons to take part in bonding in heavier p-block elements, so a lower oxidation state is more stable; for example Pb2+ is more stable than Pb4+.",
+   "keyPoints": [
+    "ns2 electrons stay unused in heavier elements",
+    "Lower oxidation state becomes more stable",
+    "Example: Pb(II) more stable than Pb(IV)"
+   ]
+  },
+  {
+   "id": "chemistry-c11-088",
+   "type": "short",
+   "q": "Boric acid is a weak monobasic Lewis acid. Write the equation showing how it behaves in water.",
+   "proposedAnswer": "B(OH)3 + 2H2O → [B(OH)4]- + H3O+",
+   "keyPoints": [
+    "Boron accepts a hydroxide ion from water (Lewis acid)",
+    "Gives one proton, so monobasic",
+    "Weak acid, only partly ionised"
+   ]
+  },
+  {
+   "id": "chemistry-c11-089",
+   "type": "mcq",
+   "q": "What is the IUPAC name of CH3CH2CH2OH?",
+   "options": [
+    "Propan-1-ol",
+    "Propan-2-ol",
+    "Propanal",
+    "Propanoic acid"
+   ]
+  },
+  {
+   "id": "chemistry-c11-090",
+   "type": "mcq",
+   "q": "The functional group present in a ketone is",
+   "options": [
+    "-OH",
+    "-COOH",
+    "-CHO",
+    "a carbonyl group joined to two carbon atoms"
+   ]
+  },
+  {
+   "id": "chemistry-c11-091",
+   "type": "mcq",
+   "q": "Among alkyl carbocations, which is the most stable?",
+   "options": [
+    "Primary",
+    "Tertiary",
+    "Secondary",
+    "Methyl"
+   ]
+  },
+  {
+   "id": "chemistry-c11-092",
+   "type": "mcq",
+   "q": "How many sigma and pi bonds are present in propene, CH2=CH-CH3?",
+   "options": [
+    "8 sigma, 1 pi",
+    "9 sigma, 1 pi",
+    "7 sigma, 2 pi",
+    "6 sigma, 1 pi"
+   ]
+  },
+  {
+   "id": "chemistry-c11-093",
+   "type": "mcq",
+   "q": "Which of the following is the strongest acid?",
+   "options": [
+    "CH3COOH",
+    "CH3CH2COOH",
+    "ClCH2COOH",
+    "(CH3)3C-COOH"
+   ]
+  },
+  {
+   "id": "chemistry-c11-094",
+   "type": "short",
+   "q": "Distinguish between homolytic and heterolytic bond fission.",
+   "proposedAnswer": "In homolytic fission the shared pair is split equally, one electron to each atom, forming free radicals; in heterolytic fission one atom takes both electrons, forming a cation and an anion.",
+   "keyPoints": [
+    "Homolytic: one electron to each fragment, gives free radicals",
+    "Heterolytic: both electrons go to one atom, gives ions",
+    "Heterolysis occurs for polar bonds"
+   ]
+  },
+  {
+   "id": "chemistry-c11-095",
+   "type": "short",
+   "q": "Write the structural formulae of the two chain isomers of C4H10 and name them.",
+   "proposedAnswer": "Butane, CH3CH2CH2CH3, and 2-methylpropane, CH3CH(CH3)CH3.",
+   "keyPoints": [
+    "Straight chain: butane",
+    "Branched chain: 2-methylpropane",
+    "Same molecular formula, different structures"
+   ]
+  },
+  {
+   "id": "chemistry-c11-096",
+   "type": "short",
+   "q": "What is a nucleophile? Give two examples.",
+   "proposedAnswer": "A nucleophile is an electron-rich species that donates a pair of electrons to an electron-deficient centre, for example OH- and NH3 (also CN-).",
+   "keyPoints": [
+    "Electron pair donor",
+    "Attacks electron-deficient carbon",
+    "Examples: OH-, CN-, NH3"
+   ]
+  },
+  {
+   "id": "chemistry-c11-097",
+   "type": "mcq",
+   "q": "What is the general formula of the alkene series?",
+   "options": [
+    "CnH2n+2",
+    "CnH2n-2",
+    "CnH2n+1",
+    "CnH2n"
+   ]
+  },
+  {
+   "id": "chemistry-c11-098",
+   "type": "mcq",
+   "q": "Which reagent is used as a simple test for unsaturation in a hydrocarbon?",
+   "options": [
+    "Dilute HCl",
+    "Bromine water",
+    "Lime water",
+    "Fehling's solution"
+   ]
+  },
+  {
+   "id": "chemistry-c11-099",
+   "type": "mcq",
+   "q": "What is the major product when HBr adds to propene in the absence of peroxide?",
+   "options": [
+    "1-Bromopropane",
+    "2-Bromopropane",
+    "Propane",
+    "2,2-Dibromopropane"
+   ]
+  },
+  {
+   "id": "chemistry-c11-100",
+   "type": "mcq",
+   "q": "Benzene most characteristically undergoes",
+   "options": [
+    "nucleophilic substitution",
+    "nucleophilic addition",
+    "free radical addition",
+    "electrophilic substitution"
+   ]
+  },
+  {
+   "id": "chemistry-c11-101",
+   "type": "mcq",
+   "q": "Which of the following is aromatic according to Hückel's (4n + 2) pi electron rule?",
+   "options": [
+    "Cyclobutadiene",
+    "Cyclooctatetraene",
+    "Benzene",
+    "Cyclohexene"
+   ]
+  },
+  {
+   "id": "chemistry-c11-102",
+   "type": "short",
+   "q": "Write the equation of the Wurtz reaction for the preparation of ethane from bromomethane.",
+   "proposedAnswer": "2CH3Br + 2Na → CH3-CH3 + 2NaBr (in dry ether).",
+   "keyPoints": [
+    "Alkyl halide treated with sodium metal",
+    "Dry ether as solvent",
+    "Two alkyl groups join to give a higher alkane"
+   ]
+  },
+  {
+   "id": "chemistry-c11-103",
+   "type": "short",
+   "q": "Explain why benzene is more stable than the hypothetical 'cyclohexatriene' with three fixed double bonds.",
+   "proposedAnswer": "Benzene's pi electrons are delocalised over all six carbons (resonance), which lowers its energy; its resonance energy is about 150 kJ/mol and all C-C bonds are equal in length.",
+   "keyPoints": [
+    "Delocalisation of six pi electrons",
+    "Resonance stabilisation energy",
+    "All C-C bonds equal, intermediate length"
+   ]
+  },
+  {
+   "id": "chemistry-c11-104",
+   "type": "short",
+   "q": "Why is a terminal alkyne such as ethyne more acidic than ethene or ethane?",
+   "proposedAnswer": "The sp-hybridised carbon has 50% s-character and is more electronegative, so the C-H bond is more polarised and the acetylide ion is more stable.",
+   "keyPoints": [
+    "sp carbon has 50% s-character",
+    "More electronegative carbon holds the lone pair better",
+    "Terminal H can be removed by strong bases like NaNH2"
+   ]
+  },
+  {
+   "id": "chemistry-c11-105",
+   "type": "mcq",
+   "q": "The law of conservation of mass was put forward by",
+   "options": [
+    "Dalton",
+    "Proust",
+    "Lavoisier",
+    "Gay-Lussac"
+   ]
+  },
+  {
+   "id": "chemistry-c11-106",
+   "type": "mcq",
+   "q": "Which law states that a pure chemical compound always contains the same elements combined in the same proportion by mass?",
+   "options": [
+    "Law of definite proportions",
+    "Law of conservation of mass",
+    "Gay-Lussac's law of gaseous volumes",
+    "Avogadro's law"
+   ]
+  },
+  {
+   "id": "chemistry-c11-107",
+   "type": "mcq",
+   "q": "How many molecules are present in 4.4 g of carbon dioxide? (C = 12, O = 16; NA = 6.022 × 10^23 per mol)",
+   "options": [
+    "6.022 × 10^23",
+    "6.022 × 10^21",
+    "4.4 × 10^22",
+    "6.022 × 10^22"
+   ]
+  },
+  {
+   "id": "chemistry-c11-108",
+   "type": "mcq",
+   "q": "50 mL of 2 M HCl is diluted with water to a final volume of 100 mL. What is the new molarity?",
+   "options": [
+    "0.5 M",
+    "1 M",
+    "2 M",
+    "4 M"
+   ]
+  },
+  {
+   "id": "chemistry-c11-109",
+   "type": "mcq",
+   "q": "A hydrocarbon has the empirical formula CH and a molar mass of 78 g/mol. What is its molecular formula? (C = 12, H = 1)",
+   "options": [
+    "C2H2",
+    "C4H4",
+    "C3H3",
+    "C6H6"
+   ]
+  },
+  {
+   "id": "chemistry-c11-110",
+   "type": "mcq",
+   "q": "Ethene burns as C2H4 + 3O2 → 2CO2 + 2H2O. What mass of oxygen is needed to burn 2.8 g of ethene completely? (C = 12, H = 1, O = 16)",
+   "options": [
+    "3.2 g",
+    "9.6 g",
+    "6.4 g",
+    "12.8 g"
+   ]
+  },
+  {
+   "id": "chemistry-c11-111",
+   "type": "short",
+   "q": "What is meant by a limiting reagent in a chemical reaction?",
+   "proposedAnswer": "The limiting reagent is the reactant that is completely consumed first and therefore decides the maximum amount of product formed.",
+   "keyPoints": [
+    "It is used up first",
+    "It limits the amount of product",
+    "Other reactants are in excess"
+   ]
+  },
+  {
+   "id": "chemistry-c11-112",
+   "type": "short",
+   "q": "6 g of hydrogen react with excess nitrogen according to N2 + 3H2 → 2NH3. Calculate the mass of ammonia formed. (N = 14, H = 1)",
+   "proposedAnswer": "34 g of NH3",
+   "keyPoints": [
+    "Moles of H2 = 6/2 = 3 mol",
+    "3 mol H2 gives 2 mol NH3",
+    "Mass = 2 × 17 = 34 g"
+   ]
+  },
+  {
+   "id": "chemistry-c11-113",
+   "type": "mcq",
+   "q": "Isotopes of an element have the same",
+   "options": [
+    "number of protons",
+    "number of neutrons",
+    "mass number",
+    "atomic mass"
+   ]
+  },
+  {
+   "id": "chemistry-c11-114",
+   "type": "mcq",
+   "q": "Cathode rays are streams of",
+   "options": [
+    "protons",
+    "neutrons",
+    "electrons",
+    "alpha particles"
+   ]
+  },
+  {
+   "id": "chemistry-c11-115",
+   "type": "mcq",
+   "q": "How many unpaired electrons are present in a nitrogen atom (Z = 7) in its ground state?",
+   "options": [
+    "1",
+    "3",
+    "2",
+    "5"
+   ]
+  },
+  {
+   "id": "chemistry-c11-116",
+   "type": "mcq",
+   "q": "According to the Aufbau principle, after the 3p orbitals are filled, the next orbital to be filled is",
+   "options": [
+    "3d",
+    "4p",
+    "4d",
+    "4s"
+   ]
+  },
+  {
+   "id": "chemistry-c11-117",
+   "type": "mcq",
+   "q": "The de Broglie wavelength of a particle of mass m moving with velocity v is",
+   "options": [
+    "h/(mv)",
+    "mv/h",
+    "h m v",
+    "h v/m"
+   ]
+  },
+  {
+   "id": "chemistry-c11-118",
+   "type": "mcq",
+   "q": "Heisenberg's uncertainty principle implies that",
+   "options": [
+    "electrons move in fixed circular orbits",
+    "electrons are always at rest",
+    "the exact position and the exact momentum of an electron cannot both be known simultaneously",
+    "the nucleus cannot be located"
+   ]
+  },
+  {
+   "id": "chemistry-c11-119",
+   "type": "short",
+   "q": "Calculate the de Broglie wavelength of an electron moving at 1.0 × 10^6 m/s. (m = 9.1 × 10^-31 kg, h = 6.626 × 10^-34 J s)",
+   "proposedAnswer": "About 7.3 × 10^-10 m",
+   "keyPoints": [
+    "λ = h/(mv)",
+    "= 6.626 × 10^-34 / (9.1 × 10^-31 × 10^6)",
+    "≈ 7.28 × 10^-10 m"
+   ]
+  },
+  {
+   "id": "chemistry-c11-120",
+   "type": "short",
+   "q": "State Hund's rule of maximum multiplicity and illustrate it with the 2p electrons of nitrogen.",
+   "proposedAnswer": "Electrons fill degenerate orbitals singly with parallel spins before any orbital gets a second electron; in nitrogen the three 2p electrons occupy 2px, 2py and 2pz separately.",
+   "keyPoints": [
+    "Degenerate orbitals are filled singly first",
+    "Singly occupied electrons have parallel spins",
+    "Nitrogen has three unpaired 2p electrons"
+   ]
+  },
+  {
+   "id": "chemistry-c11-121",
+   "type": "mcq",
+   "q": "In the modern long form of the periodic table, the noble gases are placed in",
+   "options": [
+    "Group 16",
+    "Group 17",
+    "Group 18",
+    "Group 1"
+   ]
+  },
+  {
+   "id": "chemistry-c11-122",
+   "type": "mcq",
+   "q": "The transition elements belong to which block of the periodic table?",
+   "options": [
+    "d-block",
+    "s-block",
+    "p-block",
+    "f-block"
+   ]
+  },
+  {
+   "id": "chemistry-c11-123",
+   "type": "mcq",
+   "q": "Which of the following elements has the highest electronegativity?",
+   "options": [
+    "O",
+    "F",
+    "N",
+    "Cl"
+   ]
+  },
+  {
+   "id": "chemistry-c11-124",
+   "type": "mcq",
+   "q": "Which pair of elements shows a diagonal relationship?",
+   "options": [
+    "Li and Na",
+    "Be and Mg",
+    "B and Al",
+    "Li and Mg"
+   ]
+  },
+  {
+   "id": "chemistry-c11-125",
+   "type": "mcq",
+   "q": "An element X has the electronic configuration [Ne] 3s2 3p4. Which statement about X is correct?",
+   "options": [
+    "It is a metal belonging to group 14",
+    "It is a non-metal that forms a basic oxide",
+    "It forms an acidic oxide and its common simple ion is X2-",
+    "It belongs to group 2"
+   ]
+  },
+  {
+   "id": "chemistry-c11-126",
+   "type": "mcq",
+   "q": "Which of the elements Be, B, C and N has the highest first ionisation enthalpy?",
+   "options": [
+    "N",
+    "Be",
+    "B",
+    "C"
+   ]
+  },
+  {
+   "id": "chemistry-c11-127",
+   "type": "short",
+   "q": "Why do the elements of a group show similar chemical properties?",
+   "proposedAnswer": "All elements in a group have the same number of electrons in the outermost shell, and chemical behaviour is decided by valence electrons.",
+   "keyPoints": [
+    "Same valence shell configuration",
+    "Same number of valence electrons",
+    "Properties change gradually with increasing size"
+   ]
+  },
+  {
+   "id": "chemistry-c11-128",
+   "type": "short",
+   "q": "Arrange Na, Mg, Al and Si in increasing order of metallic character and give the reason.",
+   "proposedAnswer": "Si < Al < Mg < Na. Metallic character decreases across a period as ionisation enthalpy increases and the tendency to lose electrons falls.",
+   "keyPoints": [
+    "Order: Si < Al < Mg < Na",
+    "Ionisation enthalpy rises across the period",
+    "Less tendency to lose electrons going left to right"
+   ]
+  },
+  {
+   "id": "chemistry-c11-129",
+   "type": "mcq",
+   "q": "In which of the following species is a coordinate (dative) covalent bond present?",
+   "options": [
+    "NaCl",
+    "CH4",
+    "H2",
+    "NH4+"
+   ]
+  },
+  {
+   "id": "chemistry-c11-130",
+   "type": "mcq",
+   "q": "Ionic compounds generally have high melting points mainly because of",
+   "options": [
+    "weak van der Waals forces between molecules",
+    "strong electrostatic attraction between oppositely charged ions in the lattice",
+    "the presence of discrete covalent molecules",
+    "low lattice energy"
+   ]
+  },
+  {
+   "id": "chemistry-c11-131",
+   "type": "mcq",
+   "q": "How many lone pairs of electrons are present on the oxygen atom in a water molecule?",
+   "options": [
+    "0",
+    "1",
+    "3",
+    "2"
+   ]
+  },
+  {
+   "id": "chemistry-c11-132",
+   "type": "mcq",
+   "q": "What is the hybridisation of phosphorus in PCl5?",
+   "options": [
+    "sp3",
+    "sp3d",
+    "sp3d2",
+    "sp2"
+   ]
+  },
+  {
+   "id": "chemistry-c11-133",
+   "type": "mcq",
+   "q": "Which sequence shows the carbon-carbon bond lengths in increasing order?",
+   "options": [
+    "C≡C < C=C < C-C",
+    "C-C < C=C < C≡C",
+    "C=C < C-C < C≡C",
+    "All are equal"
+   ]
+  },
+  {
+   "id": "chemistry-c11-134",
+   "type": "mcq",
+   "q": "Why does the He2 molecule not exist under normal conditions?",
+   "options": [
+    "Helium has no electrons",
+    "Helium forms only ionic bonds",
+    "Its bond order is zero because bonding and antibonding orbitals are both filled",
+    "Helium atoms are too heavy to combine"
+   ]
+  },
+  {
+   "id": "chemistry-c11-135",
+   "type": "short",
+   "q": "Draw (describe) the Lewis structure of carbon dioxide.",
+   "proposedAnswer": "O=C=O: carbon in the centre is doubly bonded to each oxygen, and each oxygen carries two lone pairs.",
+   "keyPoints": [
+    "Carbon double bonded to each oxygen",
+    "Each oxygen has two lone pairs",
+    "All atoms have an octet"
+   ]
+  },
+  {
+   "id": "chemistry-c11-136",
+   "type": "short",
+   "q": "NF3 has a much smaller dipole moment than NH3 even though fluorine is more electronegative than hydrogen. Explain.",
+   "proposedAnswer": "In NH3 the bond dipoles point toward nitrogen, in the same direction as the lone-pair dipole, so they add; in NF3 the bond dipoles point toward fluorine, opposite to the lone-pair dipole, so they partly cancel.",
+   "keyPoints": [
+    "NH3: N-H bond dipoles and lone-pair dipole reinforce",
+    "NF3: N-F bond dipoles oppose the lone-pair dipole",
+    "Net dipole moment is therefore smaller in NF3"
+   ]
+  },
+  {
+   "id": "chemistry-c11-137",
+   "type": "mcq",
+   "q": "Which type of intermolecular force is present in all molecules, including non-polar ones?",
+   "options": [
+    "Hydrogen bonding",
+    "London dispersion forces",
+    "Ion-dipole forces",
+    "Dipole-dipole forces"
+   ]
+  },
+  {
+   "id": "chemistry-c11-138",
+   "type": "mcq",
+   "q": "The boiling point of a liquid is the temperature at which its vapour pressure becomes equal to",
+   "options": [
+    "the critical pressure",
+    "zero",
+    "1 mm Hg",
+    "the external pressure"
+   ]
+  },
+  {
+   "id": "chemistry-c11-139",
+   "type": "mcq",
+   "q": "On heating a liquid, its viscosity generally",
+   "options": [
+    "decreases",
+    "increases",
+    "remains the same",
+    "first increases and then decreases"
+   ]
+  },
+  {
+   "id": "chemistry-c11-140",
+   "type": "mcq",
+   "q": "10 L of hydrogen and 10 L of methane at the same temperature and pressure contain",
+   "options": [
+    "the same mass",
+    "the same number of atoms",
+    "the same number of molecules",
+    "the same density"
+   ]
+  },
+  {
+   "id": "chemistry-c11-141",
+   "type": "mcq",
+   "q": "What is the value of the compressibility factor Z for an ideal gas?",
+   "options": [
+    "0",
+    "0.5",
+    "1",
+    "2"
+   ]
+  },
+  {
+   "id": "chemistry-c11-142",
+   "type": "mcq",
+   "q": "What is the density of carbon dioxide at 273 K and 1 atm? (Molar mass 44 g/mol; molar volume 22.4 L/mol)",
+   "options": [
+    "1.96 g/L",
+    "0.51 g/L",
+    "2.2 g/L",
+    "44 g/L"
+   ]
+  },
+  {
+   "id": "chemistry-c11-143",
+   "type": "mcq",
+   "q": "When a gas in a rigid container is heated, its pressure rises because",
+   "options": [
+    "the molecules become heavier",
+    "the molecules move faster and hit the walls more often and with greater force",
+    "the container expands",
+    "the number of molecules increases"
+   ]
+  },
+  {
+   "id": "chemistry-c11-144",
+   "type": "short",
+   "q": "What is the critical temperature of a gas?",
+   "proposedAnswer": "It is the temperature above which a gas cannot be liquefied however high the pressure applied.",
+   "keyPoints": [
+    "Highest temperature at which liquefaction is possible",
+    "Above it only the gaseous state exists",
+    "Critical pressure is the pressure needed at that temperature"
+   ]
+  },
+  {
+   "id": "chemistry-c11-145",
+   "type": "short",
+   "q": "0.5 g of a gas occupies 0.25 L at 300 K and 2 atm. Calculate its molar mass. (R = 0.0821 L atm K^-1 mol^-1)",
+   "proposedAnswer": "About 24.6 g/mol",
+   "keyPoints": [
+    "Moles n = PV/RT = (2 × 0.25)/(0.0821 × 300) = 0.0203 mol",
+    "Molar mass = mass/moles",
+    "= 0.5/0.0203 ≈ 24.6 g/mol"
+   ]
+  },
+  {
+   "id": "chemistry-c11-146",
+   "type": "mcq",
+   "q": "The heat exchanged by a system at constant pressure is equal to the change in its",
+   "options": [
+    "internal energy",
+    "entropy",
+    "Gibbs energy",
+    "enthalpy"
+   ]
+  },
+  {
+   "id": "chemistry-c11-147",
+   "type": "mcq",
+   "q": "What is the standard enthalpy of formation of O2(g) in its standard state?",
+   "options": [
+    "+498 kJ/mol",
+    "-498 kJ/mol",
+    "zero",
+    "+100 kJ/mol"
+   ]
+  },
+  {
+   "id": "chemistry-c11-148",
+   "type": "mcq",
+   "q": "Which of the following is a state function?",
+   "options": [
+    "Internal energy",
+    "Work done by the system",
+    "Heat absorbed in a given path",
+    "Distance travelled by a molecule"
+   ]
+  },
+  {
+   "id": "chemistry-c11-149",
+   "type": "mcq",
+   "q": "At equilibrium the Gibbs energy change ΔG of a reaction is",
+   "options": [
+    "positive",
+    "negative",
+    "equal to ΔH",
+    "zero"
+   ]
+  },
+  {
+   "id": "chemistry-c11-150",
+   "type": "mcq",
+   "q": "Bond enthalpies are H-H 436, Cl-Cl 243 and H-Cl 431 kJ/mol. What is ΔH for H2(g) + Cl2(g) → 2HCl(g)?",
+   "options": [
+    "+183 kJ",
+    "-183 kJ",
+    "-862 kJ",
+    "+679 kJ"
+   ]
+  },
+  {
+   "id": "chemistry-c11-151",
+   "type": "mcq",
+   "q": "How much heat is needed to raise the temperature of 100 g of water from 25 °C to 35 °C? (specific heat of water = 4.18 J g^-1 K^-1)",
+   "options": [
+    "418 J",
+    "41.8 kJ",
+    "418 kJ",
+    "4180 J"
+   ]
+  },
+  {
+   "id": "chemistry-c11-152",
+   "type": "mcq",
+   "q": "An ideal gas expands freely into a vacuum in an insulated container. Which statement is correct?",
+   "options": [
+    "Work done is negative",
+    "Work done is zero and the temperature stays constant",
+    "The temperature of the gas rises",
+    "The internal energy increases"
+   ]
+  },
+  {
+   "id": "chemistry-c11-153",
+   "type": "short",
+   "q": "Distinguish between an exothermic and an endothermic reaction with the sign of ΔH and one example of each.",
+   "proposedAnswer": "An exothermic reaction releases heat and has negative ΔH, for example combustion of methane; an endothermic reaction absorbs heat and has positive ΔH, for example decomposition of calcium carbonate.",
+   "keyPoints": [
+    "Exothermic: ΔH negative, heat released",
+    "Endothermic: ΔH positive, heat absorbed",
+    "Suitable example of each"
+   ]
+  },
+  {
+   "id": "chemistry-c11-154",
+   "type": "short",
+   "q": "Ice melts at 273 K with an enthalpy of fusion of 6.01 kJ/mol. Calculate the entropy change for melting 1 mol of ice.",
+   "proposedAnswer": "About 22.0 J K^-1 mol^-1",
+   "keyPoints": [
+    "At the melting point ΔG = 0, so ΔS = ΔH/T",
+    "= 6010 J/mol / 273 K",
+    "≈ 22.0 J K^-1 mol^-1"
+   ]
+  },
+  {
+   "id": "chemistry-c11-155",
+   "type": "mcq",
+   "q": "The numerical value of the equilibrium constant of a reaction depends on",
+   "options": [
+    "temperature",
+    "the initial concentrations of reactants",
+    "the presence of a catalyst",
+    "the size of the container"
+   ]
+  },
+  {
+   "id": "chemistry-c11-156",
+   "type": "mcq",
+   "q": "A catalyst added to a reaction at equilibrium",
+   "options": [
+    "shifts the equilibrium to the right",
+    "shifts the equilibrium to the left",
+    "speeds up forward and backward reactions equally without changing Kc",
+    "changes the value of Kc"
+   ]
+  },
+  {
+   "id": "chemistry-c11-157",
+   "type": "mcq",
+   "q": "What is the conjugate base of the hydrogen sulphate ion, HSO4-?",
+   "options": [
+    "H2SO4",
+    "SO4 2-",
+    "H3O+",
+    "OH-"
+   ]
+  },
+  {
+   "id": "chemistry-c11-158",
+   "type": "mcq",
+   "q": "What is the hydroxide ion concentration of a solution with pH = 9 at 25 °C?",
+   "options": [
+    "10^-9 M",
+    "10^-7 M",
+    "10^-14 M",
+    "10^-5 M"
+   ]
+  },
+  {
+   "id": "chemistry-c11-159",
+   "type": "mcq",
+   "q": "Which of the following is a Lewis acid?",
+   "options": [
+    "BF3",
+    "NH3",
+    "H2O",
+    "OH-"
+   ]
+  },
+  {
+   "id": "chemistry-c11-160",
+   "type": "mcq",
+   "q": "In the Haber process N2 + 3H2 ⇌ 2NH3, increasing the pressure at constant temperature shifts the equilibrium",
+   "options": [
+    "to the left",
+    "nowhere, since pressure has no effect",
+    "to the right, because there are fewer moles of gas on the right",
+    "to the right, because the reaction is endothermic"
+   ]
+  },
+  {
+   "id": "chemistry-c11-161",
+   "type": "mcq",
+   "q": "The solubility product Ksp of AgCl is 1.8 × 10^-10 at 25 °C. What is its molar solubility in pure water?",
+   "options": [
+    "1.8 × 10^-10 M",
+    "9 × 10^-11 M",
+    "1.34 × 10^-5 M",
+    "1.8 × 10^-5 M"
+   ]
+  },
+  {
+   "id": "chemistry-c11-162",
+   "type": "short",
+   "q": "Why is an aqueous solution of sodium acetate basic?",
+   "proposedAnswer": "The acetate ion is the conjugate base of a weak acid and reacts with water: CH3COO- + H2O ⇌ CH3COOH + OH-, producing excess OH- ions.",
+   "keyPoints": [
+    "Salt of weak acid and strong base",
+    "Anion hydrolysis produces OH-",
+    "Na+ does not hydrolyse"
+   ]
+  },
+  {
+   "id": "chemistry-c11-163",
+   "type": "short",
+   "q": "Calculate the pH of 0.1 M acetic acid solution. (Ka = 1.8 × 10^-5; assume the dissociation is small)",
+   "proposedAnswer": "pH ≈ 2.87",
+   "keyPoints": [
+    "[H+] = sqrt(Ka × C) = sqrt(1.8 × 10^-6)",
+    "= 1.34 × 10^-3 M",
+    "pH = -log(1.34 × 10^-3) ≈ 2.87"
+   ]
+  },
+  {
+   "id": "chemistry-c11-164",
+   "type": "mcq",
+   "q": "A reducing agent is a substance that",
+   "options": [
+    "loses electrons and is itself oxidised",
+    "gains electrons and is itself reduced",
+    "gains oxygen and is reduced",
+    "decreases the oxidation number of itself"
+   ]
+  },
+  {
+   "id": "chemistry-c11-165",
+   "type": "mcq",
+   "q": "What is the oxidation number of oxygen in hydrogen peroxide, H2O2?",
+   "options": [
+    "-2",
+    "-1",
+    "0",
+    "+1"
+   ]
+  },
+  {
+   "id": "chemistry-c11-166",
+   "type": "mcq",
+   "q": "What is the oxidation number of chlorine in HClO4?",
+   "options": [
+    "+1",
+    "+3",
+    "+5",
+    "+7"
+   ]
+  },
+  {
+   "id": "chemistry-c11-167",
+   "type": "mcq",
+   "q": "What is the average oxidation state of iron in Fe3O4?",
+   "options": [
+    "+2",
+    "+3",
+    "+8/3",
+    "+4"
+   ]
+  },
+  {
+   "id": "chemistry-c11-168",
+   "type": "mcq",
+   "q": "Which metal will displace copper from a copper sulphate solution?",
+   "options": [
+    "Zinc",
+    "Silver",
+    "Gold",
+    "Mercury"
+   ]
+  },
+  {
+   "id": "chemistry-c11-169",
+   "type": "mcq",
+   "q": "In a galvanic cell, oxidation takes place at the",
+   "options": [
+    "cathode",
+    "salt bridge",
+    "electrolyte",
+    "anode"
+   ]
+  },
+  {
+   "id": "chemistry-c11-170",
+   "type": "mcq",
+   "q": "How many electrons does one dichromate ion Cr2O7 2- gain when it is reduced to two Cr3+ ions in acidic solution?",
+   "options": [
+    "3",
+    "6",
+    "7",
+    "12"
+   ]
+  },
+  {
+   "id": "chemistry-c11-171",
+   "type": "short",
+   "q": "In the reaction 2Na + Cl2 → 2NaCl, identify the oxidising agent and the reducing agent.",
+   "proposedAnswer": "Sodium is the reducing agent (it loses electrons, 0 to +1) and chlorine is the oxidising agent (it gains electrons, 0 to -1).",
+   "keyPoints": [
+    "Na oxidised from 0 to +1: reducing agent",
+    "Cl2 reduced from 0 to -1: oxidising agent",
+    "Electrons move from Na to Cl"
+   ]
+  },
+  {
+   "id": "chemistry-c11-172",
+   "type": "short",
+   "q": "Calculate the oxidation number of oxygen in OF2 and explain why it is not -2.",
+   "proposedAnswer": "+2. Fluorine is more electronegative than oxygen, so fluorine is -1 and the oxygen balances with +2.",
+   "keyPoints": [
+    "F always -1",
+    "2(-1) + x = 0 so x = +2",
+    "Fluorine is more electronegative than oxygen"
+   ]
+  },
+  {
+   "id": "chemistry-c11-173",
+   "type": "mcq",
+   "q": "In sodium hydride, NaH, hydrogen is present as",
+   "options": [
+    "a proton, H+",
+    "a neutral hydrogen atom",
+    "H2+",
+    "a hydride ion, H-"
+   ]
+  },
+  {
+   "id": "chemistry-c11-174",
+   "type": "mcq",
+   "q": "What is the chemical formula of quicklime?",
+   "options": [
+    "Ca(OH)2",
+    "CaO",
+    "CaCO3",
+    "CaSO4"
+   ]
+  },
+  {
+   "id": "chemistry-c11-175",
+   "type": "mcq",
+   "q": "What is the formula of plaster of Paris?",
+   "options": [
+    "CaSO4·1/2 H2O",
+    "CaSO4·2H2O",
+    "CaSO4",
+    "CaSO4·5H2O"
+   ]
+  },
+  {
+   "id": "chemistry-c11-176",
+   "type": "mcq",
+   "q": "The reactivity of alkali metals towards water increases in the order",
+   "options": [
+    "Cs < Rb < K < Na < Li",
+    "Na < Li < K < Rb < Cs",
+    "Li < Na < K < Rb < Cs",
+    "K < Na < Li < Cs < Rb"
+   ]
+  },
+  {
+   "id": "chemistry-c11-177",
+   "type": "mcq",
+   "q": "Hard water does not give a good lather with soap because",
+   "options": [
+    "it contains dissolved oxygen",
+    "it is acidic",
+    "Ca2+ and Mg2+ ions react with soap to form an insoluble scum",
+    "it has a low boiling point"
+   ]
+  },
+  {
+   "id": "chemistry-c11-178",
+   "type": "mcq",
+   "q": "Which method is used for the laboratory preparation of dihydrogen?",
+   "options": [
+    "Granulated zinc with dilute hydrochloric acid",
+    "Copper with dilute hydrochloric acid",
+    "Electrolysis of molten sodium chloride",
+    "Heating calcium carbonate"
+   ]
+  },
+  {
+   "id": "chemistry-c11-179",
+   "type": "mcq",
+   "q": "Unlike the carbonates of the other alkali metals, lithium carbonate",
+   "options": [
+    "is highly soluble in water",
+    "is a strong base",
+    "is amphoteric",
+    "decomposes on heating to give Li2O and CO2"
+   ]
+  },
+  {
+   "id": "chemistry-c11-180",
+   "type": "short",
+   "q": "Why do alkaline earth metals have higher melting points than alkali metals of the same period?",
+   "proposedAnswer": "Each alkaline earth atom contributes two valence electrons and forms a smaller 2+ ion, so metallic bonding is stronger than in the alkali metals, which contribute one electron.",
+   "keyPoints": [
+    "Two delocalised electrons per atom",
+    "Smaller atoms and higher nuclear charge",
+    "Stronger metallic bonding"
+   ]
+  },
+  {
+   "id": "chemistry-c11-181",
+   "type": "short",
+   "q": "Explain why ice floats on water.",
+   "proposedAnswer": "In ice, hydrogen bonds hold water molecules in an open cage-like structure with empty spaces, so ice has a lower density than liquid water.",
+   "keyPoints": [
+    "Each water molecule is hydrogen-bonded to four others in ice",
+    "Open hexagonal structure with voids",
+    "Lower density than liquid water"
+   ]
+  },
+  {
+   "id": "chemistry-c11-182",
+   "type": "mcq",
+   "q": "Which is the most abundant metal in the Earth's crust?",
+   "options": [
+    "Iron",
+    "Calcium",
+    "Aluminium",
+    "Sodium"
+   ]
+  },
+  {
+   "id": "chemistry-c11-183",
+   "type": "mcq",
+   "q": "Quartz is a crystalline form of",
+   "options": [
+    "silicon carbide",
+    "silicone",
+    "silicon dioxide",
+    "sodium silicate"
+   ]
+  },
+  {
+   "id": "chemistry-c11-184",
+   "type": "mcq",
+   "q": "Dry ice is",
+   "options": [
+    "solid carbon dioxide",
+    "solid carbon monoxide",
+    "solid sulphur dioxide",
+    "very cold water ice"
+   ]
+  },
+  {
+   "id": "chemistry-c11-185",
+   "type": "mcq",
+   "q": "Silicones are polymers whose backbone consists of repeating units of",
+   "options": [
+    "Si-Si-Si",
+    "Si-O-Si",
+    "C-O-C",
+    "Si-C-Si"
+   ]
+  },
+  {
+   "id": "chemistry-c11-186",
+   "type": "mcq",
+   "q": "Which compound is commonly called inorganic benzene?",
+   "options": [
+    "B2H6",
+    "BF3",
+    "B2O3",
+    "B3N3H6"
+   ]
+  },
+  {
+   "id": "chemistry-c11-187",
+   "type": "mcq",
+   "q": "How many three-centre two-electron (banana) bonds are present in diborane, B2H6?",
+   "options": [
+    "0",
+    "1",
+    "2",
+    "4"
+   ]
+  },
+  {
+   "id": "chemistry-c11-188",
+   "type": "mcq",
+   "q": "CCl4 is not hydrolysed by water, whereas SiCl4 is hydrolysed readily. This is because",
+   "options": [
+    "silicon has vacant 3d orbitals that can accept a lone pair from water, but carbon has no d orbitals",
+    "carbon is more electronegative than silicon and attracts water",
+    "CCl4 is an ionic compound",
+    "silicon forms stronger bonds with chlorine than carbon does"
+   ]
+  },
+  {
+   "id": "chemistry-c11-189",
+   "type": "short",
+   "q": "Write the equation showing that aluminium reacts with sodium hydroxide solution, and state the property it demonstrates.",
+   "proposedAnswer": "2Al + 2NaOH + 6H2O → 2Na[Al(OH)4] + 3H2. Aluminium is amphoteric, as it also reacts with acids.",
+   "keyPoints": [
+    "Equation with sodium tetrahydroxoaluminate",
+    "Hydrogen gas evolved",
+    "Aluminium reacts with both acids and bases: amphoteric"
+   ]
+  },
+  {
+   "id": "chemistry-c11-190",
+   "type": "short",
+   "q": "Why does carbon show catenation to a much greater extent than other group 14 elements?",
+   "proposedAnswer": "The C-C bond is very strong because of small size of carbon, and carbon forms stable bonds with itself, whereas bond enthalpies decrease down the group.",
+   "keyPoints": [
+    "Small size gives strong C-C bonds",
+    "Bond enthalpy decreases from C to Pb",
+    "Allows long chains and rings"
+   ]
+  },
+  {
+   "id": "chemistry-c11-191",
+   "type": "mcq",
+   "q": "Isomers are compounds that have the same molecular formula but different",
+   "options": [
+    "molecular masses",
+    "molecular formulae",
+    "empirical formulae",
+    "arrangements of atoms"
+   ]
+  },
+  {
+   "id": "chemistry-c11-192",
+   "type": "mcq",
+   "q": "Successive members of a homologous series differ by",
+   "options": [
+    "CH3",
+    "CH2",
+    "CO",
+    "OH"
+   ]
+  },
+  {
+   "id": "chemistry-c11-193",
+   "type": "mcq",
+   "q": "How many carbon atoms are present in the compound 2,2-dimethylbutane?",
+   "options": [
+    "4",
+    "5",
+    "7",
+    "6"
+   ]
+  },
+  {
+   "id": "chemistry-c11-194",
+   "type": "mcq",
+   "q": "What is the IUPAC name of CH3-CH(CH3)-CH2-CH3?",
+   "options": [
+    "3-Methylbutane",
+    "2-Methylbutane",
+    "2-Methylpropane",
+    "Pentane"
+   ]
+  },
+  {
+   "id": "chemistry-c11-195",
+   "type": "mcq",
+   "q": "Which of the following is an electrophile?",
+   "options": [
+    "NO2+",
+    "NH3",
+    "OH-",
+    "H2O"
+   ]
+  },
+  {
+   "id": "chemistry-c11-196",
+   "type": "mcq",
+   "q": "How many hyperconjugation structures can be written for the ethyl carbocation, CH3CH2+?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "6"
+   ]
+  },
+  {
+   "id": "chemistry-c11-197",
+   "type": "mcq",
+   "q": "Which of the following groups shows a +M (positive mesomeric) effect?",
+   "options": [
+    "-NO2",
+    "-NH2",
+    "-CN",
+    "-CHO"
+   ]
+  },
+  {
+   "id": "chemistry-c11-198",
+   "type": "short",
+   "q": "What type of isomerism is shown by butan-1-ol and butan-2-ol?",
+   "proposedAnswer": "Position isomerism, because the -OH group is on different carbon atoms of the same carbon chain.",
+   "keyPoints": [
+    "Same carbon skeleton",
+    "Same functional group",
+    "Different position of the functional group"
+   ]
+  },
+  {
+   "id": "chemistry-c11-199",
+   "type": "short",
+   "q": "Describe how nitrogen in an organic compound is detected by Lassaigne's test.",
+   "proposedAnswer": "The compound is fused with sodium to give sodium cyanide; the extract is boiled with iron(II) sulphate and acidified, and Prussian blue colour shows nitrogen.",
+   "keyPoints": [
+    "Fusion with sodium gives NaCN",
+    "Add FeSO4 and then acidify with dilute acid",
+    "Prussian blue colour indicates nitrogen"
+   ]
+  },
+  {
+   "id": "chemistry-c11-200",
+   "type": "mcq",
+   "q": "Which is the simplest alkane?",
+   "options": [
+    "Ethane",
+    "Propane",
+    "Ethene",
+    "Methane"
+   ]
+  },
+  {
+   "id": "chemistry-c11-201",
+   "type": "mcq",
+   "q": "Alkenes can show geometrical (cis-trans) isomerism because of",
+   "options": [
+    "restricted rotation about the C=C double bond",
+    "free rotation about C-C single bonds",
+    "the presence of hydrogen atoms",
+    "their ionic character"
+   ]
+  },
+  {
+   "id": "chemistry-c11-202",
+   "type": "mcq",
+   "q": "When ethyne is passed through a red-hot iron tube at about 873 K, the product is",
+   "options": [
+    "ethane",
+    "toluene",
+    "benzene",
+    "cyclohexane"
+   ]
+  },
+  {
+   "id": "chemistry-c11-203",
+   "type": "mcq",
+   "q": "Partial hydrogenation of but-2-yne using Lindlar's catalyst gives mainly",
+   "options": [
+    "trans-but-2-ene",
+    "butane",
+    "cis-but-2-ene",
+    "but-1-ene"
+   ]
+  },
+  {
+   "id": "chemistry-c11-204",
+   "type": "mcq",
+   "q": "In the presence of a peroxide, HBr adds to propene to give mainly",
+   "options": [
+    "1-bromopropane",
+    "2-bromopropane",
+    "propane",
+    "allyl bromide"
+   ]
+  },
+  {
+   "id": "chemistry-c11-205",
+   "type": "mcq",
+   "q": "Which reagent combination is used for the nitration of benzene?",
+   "options": [
+    "Dilute HNO3",
+    "Concentrated HNO3 and concentrated H2SO4",
+    "HNO3 and HCl",
+    "NaNO2 and water"
+   ]
+  },
+  {
+   "id": "chemistry-c11-206",
+   "type": "mcq",
+   "q": "Reductive ozonolysis of but-2-ene gives",
+   "options": [
+    "butanal",
+    "butanone",
+    "propanal and methanal",
+    "two molecules of ethanal"
+   ]
+  },
+  {
+   "id": "chemistry-c11-207",
+   "type": "short",
+   "q": "Write the balanced equation for the complete combustion of propane.",
+   "proposedAnswer": "C3H8 + 5O2 → 3CO2 + 4H2O",
+   "keyPoints": [
+    "Products are carbon dioxide and water",
+    "Balanced: 3 C, 8 H, 10 O",
+    "Exothermic reaction"
+   ]
+  },
+  {
+   "id": "chemistry-c11-208",
+   "type": "short",
+   "q": "Explain why the -OH group on benzene directs an incoming electrophile to the ortho and para positions while the -NO2 group directs to the meta position.",
+   "proposedAnswer": "-OH donates electron density to the ring by resonance (+M), increasing it at ortho and para positions; -NO2 withdraws electrons (-M, -I), lowering density mostly at ortho and para, so meta is least deactivated.",
+   "keyPoints": [
+    "-OH is an activating, electron-donating group",
+    "-NO2 is a deactivating, electron-withdrawing group",
+    "Electron density pattern decides the position of attack"
+   ]
+  },
+  {
+   "id": "chemistry-c11-209",
+   "type": "mcq",
+   "q": "Which of the following is a homogeneous mixture?",
+   "options": [
+    "Pure water",
+    "Copper metal",
+    "Carbon dioxide gas",
+    "Air"
+   ]
+  },
+  {
+   "id": "chemistry-c11-210",
+   "type": "mcq",
+   "q": "What is the molar mass of sulphuric acid, H2SO4? (H = 1, S = 32, O = 16)",
+   "options": [
+    "96 g/mol",
+    "98 g/mol",
+    "100 g/mol",
+    "82 g/mol"
+   ]
+  },
+  {
+   "id": "chemistry-c11-211",
+   "type": "mcq",
+   "q": "How many atoms are present in 0.5 mol of oxygen gas, O2? (NA = 6.022 × 10^23 per mol)",
+   "options": [
+    "3.011 × 10^23",
+    "1.204 × 10^24",
+    "6.022 × 10^23",
+    "6.022 × 10^22"
+   ]
+  },
+  {
+   "id": "chemistry-c11-212",
+   "type": "mcq",
+   "q": "What is the mass of nitrogen gas in 11.2 L at 273 K and 1 atm? (N = 14; molar volume 22.4 L/mol)",
+   "options": [
+    "14 g",
+    "28 g",
+    "7 g",
+    "56 g"
+   ]
+  },
+  {
+   "id": "chemistry-c11-213",
+   "type": "mcq",
+   "q": "Which of the following contains the largest number of atoms?",
+   "options": [
+    "1 mol of NH3",
+    "1 mol of CO2",
+    "1 mol of H2O",
+    "1 mol of O2"
+   ]
+  },
+  {
+   "id": "chemistry-c11-214",
+   "type": "mcq",
+   "q": "What is the percentage by mass of water of crystallisation in CuSO4·5H2O? (Cu = 63.5, S = 32, O = 16, H = 1)",
+   "options": [
+    "18.0%",
+    "28.8%",
+    "36.1%",
+    "45.0%"
+   ]
+  },
+  {
+   "id": "chemistry-c11-215",
+   "type": "mcq",
+   "q": "What volume of 0.5 M NaOH solution contains 2 g of NaOH? (Na = 23, O = 16, H = 1)",
+   "options": [
+    "50 mL",
+    "100 mL",
+    "200 mL",
+    "400 mL"
+   ]
+  },
+  {
+   "id": "chemistry-c11-216",
+   "type": "short",
+   "q": "State the law of multiple proportions and illustrate it with carbon monoxide and carbon dioxide.",
+   "proposedAnswer": "When two elements form more than one compound, the masses of one element that combine with a fixed mass of the other are in a simple whole-number ratio. In CO and CO2, 12 g of carbon combines with 16 g and 32 g of oxygen, a ratio of 1 : 2.",
+   "keyPoints": [
+    "Fixed mass of one element, varying mass of the other",
+    "Masses in simple whole-number ratio",
+    "CO and CO2: 16 g and 32 g of oxygen per 12 g carbon, ratio 1:2"
+   ]
+  },
+  {
+   "id": "chemistry-c11-217",
+   "type": "short",
+   "q": "Calcium carbonate decomposes as CaCO3 → CaO + CO2. What mass of CaCO3 must be heated to obtain 11.2 L of CO2 at 273 K and 1 atm? (Ca = 40, C = 12, O = 16; molar volume 22.4 L/mol)",
+   "proposedAnswer": "50 g",
+   "keyPoints": [
+    "Moles of CO2 = 11.2/22.4 = 0.5 mol",
+    "1 mol CaCO3 gives 1 mol CO2",
+    "Mass = 0.5 × 100 g/mol = 50 g"
+   ]
+  },
+  {
+   "id": "chemistry-c11-218",
+   "type": "mcq",
+   "q": "How many electrons are present in a magnesium ion, Mg2+? (Atomic number of Mg = 12)",
+   "options": [
+    "12",
+    "14",
+    "8",
+    "10"
+   ]
+  },
+  {
+   "id": "chemistry-c11-219",
+   "type": "mcq",
+   "q": "Which of the following particles has the smallest mass?",
+   "options": [
+    "Proton",
+    "Neutron",
+    "Electron",
+    "Alpha particle"
+   ]
+  },
+  {
+   "id": "chemistry-c11-220",
+   "type": "mcq",
+   "q": "What is the value of the azimuthal quantum number l for a p orbital?",
+   "options": [
+    "1",
+    "0",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "id": "chemistry-c11-221",
+   "type": "mcq",
+   "q": "How many orbitals are there in a d subshell?",
+   "options": [
+    "3",
+    "5",
+    "7",
+    "9"
+   ]
+  },
+  {
+   "id": "chemistry-c11-222",
+   "type": "mcq",
+   "q": "Which of the following electromagnetic radiations has the shortest wavelength?",
+   "options": [
+    "Radio waves",
+    "Microwaves",
+    "Visible light",
+    "X-rays"
+   ]
+  },
+  {
+   "id": "chemistry-c11-223",
+   "type": "mcq",
+   "q": "The energy of an electron in the nth orbit of hydrogen is -2.18 × 10^-18/n^2 J. What is its energy in the n = 2 orbit?",
+   "options": [
+    "-2.18 × 10^-18 J",
+    "-1.09 × 10^-18 J",
+    "-2.45 × 10^-19 J",
+    "-5.45 × 10^-19 J"
+   ]
+  },
+  {
+   "id": "chemistry-c11-224",
+   "type": "mcq",
+   "q": "Which of the following ions is paramagnetic?",
+   "options": [
+    "Zn2+",
+    "Fe3+",
+    "Cu+",
+    "Sc3+"
+   ]
+  },
+  {
+   "id": "chemistry-c11-225",
+   "type": "short",
+   "q": "Write the ground state electronic configuration of copper (Z = 29) and explain why it is not [Ar] 3d9 4s2.",
+   "proposedAnswer": "[Ar] 3d10 4s1. A completely filled d subshell is extra stable, so one 4s electron moves into the 3d subshell.",
+   "keyPoints": [
+    "Configuration [Ar] 3d10 4s1",
+    "Fully filled d10 gives extra stability",
+    "Exchange energy and symmetry favour this arrangement"
+   ]
+  },
+  {
+   "id": "chemistry-c11-226",
+   "type": "short",
+   "q": "Calculate the wavelength of light emitted when an electron in a hydrogen atom falls from n = 3 to n = 2. (R_H = 1.097 × 10^7 m^-1)",
+   "proposedAnswer": "About 6.56 × 10^-7 m (656 nm), in the visible region",
+   "keyPoints": [
+    "1/λ = R_H (1/2^2 - 1/3^2)",
+    "= 1.097 × 10^7 × 5/36 = 1.524 × 10^6 m^-1",
+    "λ ≈ 6.56 × 10^-7 m"
+   ]
+  },
+  {
+   "id": "chemistry-c11-227",
+   "type": "mcq",
+   "q": "Which scientist arranged elements in order of increasing atomic mass and left gaps for undiscovered elements?",
+   "options": [
+    "Mendeleev",
+    "Moseley",
+    "Dobereiner",
+    "Newlands"
+   ]
+  },
+  {
+   "id": "chemistry-c11-228",
+   "type": "mcq",
+   "q": "All the elements in the same period of the periodic table have the same number of",
+   "options": [
+    "valence electrons",
+    "protons",
+    "electron shells",
+    "neutrons"
+   ]
+  },
+  {
+   "id": "chemistry-c11-229",
+   "type": "mcq",
+   "q": "Elements with atomic numbers 3, 11 and 19 are",
+   "options": [
+    "alkaline earth metals",
+    "halogens",
+    "noble gases",
+    "alkali metals"
+   ]
+  },
+  {
+   "id": "chemistry-c11-230",
+   "type": "mcq",
+   "q": "Which of the following ions has the smallest radius?",
+   "options": [
+    "Mg2+",
+    "Al3+",
+    "Na+",
+    "F-"
+   ]
+  },
+  {
+   "id": "chemistry-c11-231",
+   "type": "mcq",
+   "q": "Which of the following oxides is amphoteric?",
+   "options": [
+    "Na2O",
+    "SO2",
+    "Al2O3",
+    "MgO"
+   ]
+  },
+  {
+   "id": "chemistry-c11-232",
+   "type": "mcq",
+   "q": "The atomic radii quoted for noble gases are unusually large compared with the elements next to them in the same period because",
+   "options": [
+    "they are van der Waals radii, which are larger than covalent radii",
+    "they have more electron shells than the neighbouring elements",
+    "they have a lower nuclear charge",
+    "they have no electrons in the outermost shell"
+   ]
+  },
+  {
+   "id": "chemistry-c11-233",
+   "type": "mcq",
+   "q": "The first ionisation enthalpy of oxygen is lower than that of nitrogen mainly because",
+   "options": [
+    "in oxygen one 2p orbital holds a pair of electrons, and the repulsion makes that electron easier to remove",
+    "oxygen has a larger atomic radius than nitrogen",
+    "oxygen has a half-filled 2p subshell",
+    "oxygen has a lower nuclear charge than nitrogen"
+   ]
+  },
+  {
+   "id": "chemistry-c11-234",
+   "type": "short",
+   "q": "State Mendeleev's periodic law and mention one achievement of his periodic table.",
+   "proposedAnswer": "The properties of elements are a periodic function of their atomic masses. He left gaps for undiscovered elements and predicted their properties (for example eka-aluminium, later found as gallium).",
+   "keyPoints": [
+    "Law based on atomic mass",
+    "Gaps left for undiscovered elements",
+    "Predictions later confirmed, such as gallium"
+   ]
+  },
+  {
+   "id": "chemistry-c11-235",
+   "type": "short",
+   "q": "Why do noble gases have positive electron gain enthalpy values?",
+   "proposedAnswer": "Their valence shells are completely filled and stable, so an added electron must go into the next higher shell, which needs energy to be supplied.",
+   "keyPoints": [
+    "Stable filled octet",
+    "Extra electron enters a new, higher energy shell",
+    "Energy has to be supplied, so the value is positive"
+   ]
+  },
+  {
+   "id": "chemistry-c11-236",
+   "type": "mcq",
+   "q": "According to the octet rule, atoms tend to have how many electrons in their outermost shell?",
+   "options": [
+    "Two",
+    "Six",
+    "Eight",
+    "Ten"
+   ]
+  },
+  {
+   "id": "chemistry-c11-237",
+   "type": "mcq",
+   "q": "A covalent bond is formed by",
+   "options": [
+    "complete transfer of electrons from one atom to another",
+    "sharing of electron pairs between two atoms",
+    "attraction between a metal and delocalised electrons only",
+    "attraction between permanent dipoles"
+   ]
+  },
+  {
+   "id": "chemistry-c11-238",
+   "type": "mcq",
+   "q": "What is the shape of a water molecule?",
+   "options": [
+    "Linear",
+    "Tetrahedral",
+    "Trigonal planar",
+    "Bent (V-shaped)"
+   ]
+  },
+  {
+   "id": "chemistry-c11-239",
+   "type": "mcq",
+   "q": "What is the shape of boron trifluoride, BF3?",
+   "options": [
+    "Pyramidal",
+    "Tetrahedral",
+    "Trigonal planar",
+    "T-shaped"
+   ]
+  },
+  {
+   "id": "chemistry-c11-240",
+   "type": "mcq",
+   "q": "Which of the following molecules is linear?",
+   "options": [
+    "BeCl2",
+    "H2O",
+    "NH3",
+    "SO2"
+   ]
+  },
+  {
+   "id": "chemistry-c11-241",
+   "type": "mcq",
+   "q": "How many sigma and pi bonds are there in ethyne, HC≡CH?",
+   "options": [
+    "2 sigma, 3 pi",
+    "3 sigma, 2 pi",
+    "5 sigma, 0 pi",
+    "4 sigma, 1 pi"
+   ]
+  },
+  {
+   "id": "chemistry-c11-242",
+   "type": "mcq",
+   "q": "Among O2, O2-, O2 2- and O2+, which species has the shortest bond length?",
+   "options": [
+    "O2",
+    "O2-",
+    "O2 2-",
+    "O2+"
+   ]
+  },
+  {
+   "id": "chemistry-c11-243",
+   "type": "short",
+   "q": "Explain sp3 hybridisation using methane as an example.",
+   "proposedAnswer": "One 2s and three 2p orbitals of carbon mix to give four equivalent sp3 hybrid orbitals directed to the corners of a tetrahedron; each overlaps with a hydrogen 1s orbital to form four C-H sigma bonds.",
+   "keyPoints": [
+    "One s and three p orbitals mix",
+    "Four equivalent sp3 orbitals, 109.5 degrees apart",
+    "Overlap with hydrogen 1s gives four sigma bonds"
+   ]
+  },
+  {
+   "id": "chemistry-c11-244",
+   "type": "short",
+   "q": "o-Nitrophenol is steam volatile whereas p-nitrophenol is not. Explain.",
+   "proposedAnswer": "o-Nitrophenol has intramolecular hydrogen bonding, so its molecules do not associate and it is more volatile; p-nitrophenol has intermolecular hydrogen bonding, which gives association and lower volatility.",
+   "keyPoints": [
+    "Ortho isomer: intramolecular hydrogen bond",
+    "Para isomer: intermolecular hydrogen bonds",
+    "Association reduces volatility"
+   ]
+  },
+  {
+   "id": "chemistry-c11-245",
+   "type": "mcq",
+   "q": "Which state of matter has a definite volume but no definite shape?",
+   "options": [
+    "Solid",
+    "Gas",
+    "Plasma",
+    "Liquid"
+   ]
+  },
+  {
+   "id": "chemistry-c11-246",
+   "type": "mcq",
+   "q": "What is the SI unit of surface tension?",
+   "options": [
+    "N m",
+    "N m^-1",
+    "J m",
+    "Pa s"
+   ]
+  },
+  {
+   "id": "chemistry-c11-247",
+   "type": "mcq",
+   "q": "The vapour pressure of a liquid increases with",
+   "options": [
+    "increase in temperature",
+    "decrease in temperature",
+    "increase in surface area of the liquid",
+    "increase in volume of the container"
+   ]
+  },
+  {
+   "id": "chemistry-c11-248",
+   "type": "mcq",
+   "q": "According to the kinetic molecular theory, the average kinetic energy of gas molecules is directly proportional to the",
+   "options": [
+    "pressure",
+    "volume",
+    "absolute temperature",
+    "molar mass"
+   ]
+  },
+  {
+   "id": "chemistry-c11-249",
+   "type": "mcq",
+   "q": "A gas occupies 1.0 L at 27 °C and constant pressure. What is its volume at 127 °C?",
+   "options": [
+    "1.27 L",
+    "2.0 L",
+    "0.75 L",
+    "1.33 L"
+   ]
+  },
+  {
+   "id": "chemistry-c11-250",
+   "type": "mcq",
+   "q": "A vessel contains 2 g of hydrogen and 32 g of oxygen at a total pressure of 3 atm. What is the partial pressure of hydrogen? (H2 = 2 g/mol, O2 = 32 g/mol)",
+   "options": [
+    "1 atm",
+    "1.5 atm",
+    "2 atm",
+    "3 atm"
+   ]
+  },
+  {
+   "id": "chemistry-c11-251",
+   "type": "short",
+   "q": "State Dalton's law of partial pressures.",
+   "proposedAnswer": "The total pressure of a mixture of non-reacting gases is the sum of the partial pressures that each gas would exert if it alone occupied the same volume at the same temperature.",
+   "keyPoints": [
+    "Applies to non-reacting gases",
+    "P total = p1 + p2 + p3 + ...",
+    "Partial pressure = mole fraction × total pressure"
+   ]
+  },
+  {
+   "id": "chemistry-c11-252",
+   "type": "short",
+   "q": "Name two assumptions of the kinetic molecular theory that are not true for real gases.",
+   "proposedAnswer": "The theory assumes that the volume of the gas molecules is negligible and that there are no attractive forces between them; in real gases both exist, especially at high pressure and low temperature.",
+   "keyPoints": [
+    "Molecular volume is not negligible",
+    "Intermolecular forces are not zero",
+    "Deviations are greatest at high pressure and low temperature"
+   ]
+  },
+  {
+   "id": "chemistry-c11-253",
+   "type": "mcq",
+   "q": "Which of the following is the SI unit of energy?",
+   "options": [
+    "Watt",
+    "Pascal",
+    "Joule",
+    "Newton"
+   ]
+  },
+  {
+   "id": "chemistry-c11-254",
+   "type": "mcq",
+   "q": "In an adiabatic process",
+   "options": [
+    "no heat is exchanged between the system and its surroundings",
+    "no work is done",
+    "the temperature is constant",
+    "the enthalpy is constant"
+   ]
+  },
+  {
+   "id": "chemistry-c11-255",
+   "type": "mcq",
+   "q": "For the isothermal expansion of an ideal gas, the change in internal energy ΔU is",
+   "options": [
+    "zero",
+    "positive",
+    "negative",
+    "equal to the work done"
+   ]
+  },
+  {
+   "id": "chemistry-c11-256",
+   "type": "mcq",
+   "q": "The enthalpy of combustion of carbon is -393.5 kJ/mol. How much heat is released when 6 g of carbon burns completely? (C = 12)",
+   "options": [
+    "393.5 kJ",
+    "98.4 kJ",
+    "196.75 kJ",
+    "787 kJ"
+   ]
+  },
+  {
+   "id": "chemistry-c11-257",
+   "type": "mcq",
+   "q": "A reaction has ΔH = -40 kJ and ΔS = -100 J/K at 298 K. What is ΔG at this temperature?",
+   "options": [
+    "+10.2 kJ",
+    "-10.2 kJ",
+    "-69.8 kJ",
+    "-40 kJ"
+   ]
+  },
+  {
+   "id": "chemistry-c11-258",
+   "type": "mcq",
+   "q": "For which of the following reactions is the entropy change positive?",
+   "options": [
+    "N2(g) + 3H2(g) → 2NH3(g)",
+    "H2O(g) → H2O(l)",
+    "2H2(g) + O2(g) → 2H2O(l)",
+    "CaCO3(s) → CaO(s) + CO2(g)"
+   ]
+  },
+  {
+   "id": "chemistry-c11-259",
+   "type": "short",
+   "q": "State Hess's law of constant heat summation.",
+   "proposedAnswer": "The total enthalpy change for a reaction is the same whether it occurs in one step or in several steps, because enthalpy is a state function.",
+   "keyPoints": [
+    "Enthalpy change independent of path",
+    "Depends only on initial and final states",
+    "Because enthalpy is a state function"
+   ]
+  },
+  {
+   "id": "chemistry-c11-260",
+   "type": "short",
+   "q": "A reaction has a negative ΔH and a positive ΔS. Is it spontaneous at all temperatures? Explain.",
+   "proposedAnswer": "Yes. ΔG = ΔH - TΔS, and with ΔH negative and ΔS positive both terms make ΔG negative at every temperature.",
+   "keyPoints": [
+    "ΔG = ΔH - TΔS",
+    "-TΔS is negative when ΔS is positive",
+    "So ΔG is negative at all temperatures"
+   ]
+  },
+  {
+   "id": "chemistry-c11-261",
+   "type": "mcq",
+   "q": "On the pH scale at 25 °C, the usual range of values for aqueous solutions is",
+   "options": [
+    "0 to 7",
+    "7 to 14",
+    "0 to 14",
+    "1 to 10"
+   ]
+  },
+  {
+   "id": "chemistry-c11-262",
+   "type": "mcq",
+   "q": "According to Arrhenius, a base produces which ion in aqueous solution?",
+   "options": [
+    "OH-",
+    "H+",
+    "Cl-",
+    "Na+"
+   ]
+  },
+  {
+   "id": "chemistry-c11-263",
+   "type": "mcq",
+   "q": "What is the value of the ionic product of water, Kw, at 25 °C?",
+   "options": [
+    "1 × 10^-7",
+    "1 × 10^-14",
+    "1 × 10^-1",
+    "1 × 10^14"
+   ]
+  },
+  {
+   "id": "chemistry-c11-264",
+   "type": "mcq",
+   "q": "What are the units of Kc for the reaction 2SO2(g) + O2(g) ⇌ 2SO3(g)?",
+   "options": [
+    "mol/L",
+    "dimensionless",
+    "mol^2/L^2",
+    "L/mol"
+   ]
+  },
+  {
+   "id": "chemistry-c11-265",
+   "type": "mcq",
+   "q": "An acetate buffer has pKa = 4.75 and a [CH3COONa]/[CH3COOH] ratio of 10. What is its pH?",
+   "options": [
+    "3.75",
+    "4.75",
+    "6.75",
+    "5.75"
+   ]
+  },
+  {
+   "id": "chemistry-c11-266",
+   "type": "mcq",
+   "q": "A 0.1 M solution of a weak acid HA is 1% dissociated. What is the value of Ka?",
+   "options": [
+    "1 × 10^-3",
+    "1 × 10^-5",
+    "1 × 10^-7",
+    "1 × 10^-4"
+   ]
+  },
+  {
+   "id": "chemistry-c11-267",
+   "type": "short",
+   "q": "What is the common ion effect? Give an example.",
+   "proposedAnswer": "The dissociation of a weak electrolyte is suppressed when a strong electrolyte with an ion in common is added; for example, NH4Cl added to NH4OH lowers the OH- concentration.",
+   "keyPoints": [
+    "Added ion is common to the weak electrolyte",
+    "Equilibrium shifts toward the undissociated form",
+    "Example: NH4Cl with NH4OH, or sodium acetate with acetic acid"
+   ]
+  },
+  {
+   "id": "chemistry-c11-268",
+   "type": "short",
+   "q": "For X ⇌ Y, Kc = 4 at a certain temperature. If a mixture has [X] = 1 M and [Y] = 8 M, in which direction will the reaction proceed to reach equilibrium?",
+   "proposedAnswer": "Backward (towards X), because Qc = 8 is greater than Kc = 4.",
+   "keyPoints": [
+    "Qc = [Y]/[X] = 8",
+    "Qc > Kc",
+    "Net reaction goes from products to reactants"
+   ]
+  },
+  {
+   "id": "chemistry-c11-269",
+   "type": "mcq",
+   "q": "The rusting of iron is an example of",
+   "options": [
+    "an oxidation process",
+    "a reduction process",
+    "a neutralisation reaction",
+    "a physical change"
+   ]
+  },
+  {
+   "id": "chemistry-c11-270",
+   "type": "mcq",
+   "q": "What is the oxidation number of an element in its free (uncombined) state?",
+   "options": [
+    "+1",
+    "-1",
+    "Zero",
+    "+2"
+   ]
+  },
+  {
+   "id": "chemistry-c11-271",
+   "type": "mcq",
+   "q": "What is the oxidation number of nitrogen in the ammonium ion, NH4+?",
+   "options": [
+    "+3",
+    "+5",
+    "-5",
+    "-3"
+   ]
+  },
+  {
+   "id": "chemistry-c11-272",
+   "type": "mcq",
+   "q": "What is the oxidation number of manganese in the manganate ion, MnO4 2-?",
+   "options": [
+    "+7",
+    "+6",
+    "+4",
+    "+2"
+   ]
+  },
+  {
+   "id": "chemistry-c11-273",
+   "type": "mcq",
+   "q": "In the reaction 2KI + Cl2 → 2KCl + I2, the iodide ion is",
+   "options": [
+    "reduced",
+    "neither oxidised nor reduced",
+    "oxidised",
+    "an oxidising agent"
+   ]
+  },
+  {
+   "id": "chemistry-c11-274",
+   "type": "mcq",
+   "q": "Which of the following species can act only as an oxidising agent and never as a reducing agent?",
+   "options": [
+    "MnO4-",
+    "SO2",
+    "H2O2",
+    "Fe2+"
+   ]
+  },
+  {
+   "id": "chemistry-c11-275",
+   "type": "short",
+   "q": "Define oxidation and reduction in terms of change in oxidation number, and illustrate with CuO + H2 → Cu + H2O.",
+   "proposedAnswer": "Oxidation is an increase in oxidation number and reduction is a decrease. In the reaction, H2 is oxidised (0 to +1) and Cu in CuO is reduced (+2 to 0).",
+   "keyPoints": [
+    "Oxidation: increase in oxidation number",
+    "Reduction: decrease in oxidation number",
+    "H2 oxidised, CuO reduced"
+   ]
+  },
+  {
+   "id": "chemistry-c11-276",
+   "type": "short",
+   "q": "Show that the reaction Cl2 + 2OH- → Cl- + ClO- + H2O is a disproportionation reaction.",
+   "proposedAnswer": "Chlorine goes from 0 in Cl2 to -1 in Cl- (reduction) and to +1 in ClO- (oxidation), so the same element is both oxidised and reduced.",
+   "keyPoints": [
+    "Cl: 0 to -1 is reduction",
+    "Cl: 0 to +1 is oxidation",
+    "Same species undergoes both changes"
+   ]
+  },
+  {
+   "id": "chemistry-c11-277",
+   "type": "mcq",
+   "q": "Which element is the most abundant in the universe?",
+   "options": [
+    "Hydrogen",
+    "Helium",
+    "Oxygen",
+    "Carbon"
+   ]
+  },
+  {
+   "id": "chemistry-c11-278",
+   "type": "mcq",
+   "q": "The general outer electronic configuration of alkali metals is",
+   "options": [
+    "ns2",
+    "np1",
+    "ns1",
+    "ns2 np1"
+   ]
+  },
+  {
+   "id": "chemistry-c11-279",
+   "type": "mcq",
+   "q": "What is the chemical formula of baking soda?",
+   "options": [
+    "Na2CO3",
+    "NaHCO3",
+    "NaOH",
+    "Na2SO4"
+   ]
+  },
+  {
+   "id": "chemistry-c11-280",
+   "type": "mcq",
+   "q": "Milk of lime is",
+   "options": [
+    "solid calcium oxide",
+    "a solution of calcium carbonate",
+    "aqueous sodium hydroxide",
+    "a suspension of calcium hydroxide in water"
+   ]
+  },
+  {
+   "id": "chemistry-c11-281",
+   "type": "mcq",
+   "q": "Sodium metal is manufactured commercially by",
+   "options": [
+    "electrolysis of aqueous sodium chloride",
+    "reduction of Na2O with carbon",
+    "electrolysis of fused sodium chloride",
+    "heating NaCl strongly in air"
+   ]
+  },
+  {
+   "id": "chemistry-c11-282",
+   "type": "mcq",
+   "q": "Which of the following hydroxides is the strongest base?",
+   "options": [
+    "Ba(OH)2",
+    "Be(OH)2",
+    "Mg(OH)2",
+    "Ca(OH)2"
+   ]
+  },
+  {
+   "id": "chemistry-c11-283",
+   "type": "mcq",
+   "q": "Potassium burns in excess oxygen to give the superoxide KO2, whereas lithium gives only Li2O. This is because",
+   "options": [
+    "potassium has a smaller ionic radius than lithium",
+    "a large cation like K+ stabilises the large superoxide ion, but the small Li+ cannot",
+    "lithium has a higher atomic number",
+    "KO2 is a covalent compound"
+   ]
+  },
+  {
+   "id": "chemistry-c11-284",
+   "type": "short",
+   "q": "Write the equation for the thermal decomposition of calcium carbonate and name the products.",
+   "proposedAnswer": "CaCO3 → CaO + CO2 on strong heating (about 1200 K). The products are quicklime (calcium oxide) and carbon dioxide.",
+   "keyPoints": [
+    "CaCO3 → CaO + CO2",
+    "Calcium oxide is quicklime",
+    "Carbon dioxide gas is released"
+   ]
+  },
+  {
+   "id": "chemistry-c11-285",
+   "type": "short",
+   "q": "Why is the first ionisation enthalpy of an alkaline earth metal higher than that of the alkali metal in the same period?",
+   "proposedAnswer": "Alkaline earth atoms are smaller and have a greater nuclear charge, so the outer electron is held more strongly.",
+   "keyPoints": [
+    "Higher nuclear charge",
+    "Smaller atomic radius",
+    "Outer electron held more tightly"
+   ]
+  },
+  {
+   "id": "chemistry-c11-286",
+   "type": "mcq",
+   "q": "What is the general outer electronic configuration of group 13 elements?",
+   "options": [
+    "ns2 np2",
+    "ns2 np3",
+    "ns2",
+    "ns2 np1"
+   ]
+  },
+  {
+   "id": "chemistry-c11-287",
+   "type": "mcq",
+   "q": "Which of the following is the hardest naturally occurring substance?",
+   "options": [
+    "Graphite",
+    "Silica",
+    "Quartz",
+    "Diamond"
+   ]
+  },
+  {
+   "id": "chemistry-c11-288",
+   "type": "mcq",
+   "q": "On strong heating, boric acid finally gives",
+   "options": [
+    "boron nitride",
+    "boron trioxide",
+    "borax",
+    "diborane"
+   ]
+  },
+  {
+   "id": "chemistry-c11-289",
+   "type": "mcq",
+   "q": "The two common oxidation states shown by group 14 elements are",
+   "options": [
+    "+4 and +2",
+    "+3 and +1",
+    "+5 and +3",
+    "+6 and +2"
+   ]
+  },
+  {
+   "id": "chemistry-c11-290",
+   "type": "mcq",
+   "q": "Which of the following oxides is neutral?",
+   "options": [
+    "CO2",
+    "SiO2",
+    "CO",
+    "SnO2"
+   ]
+  },
+  {
+   "id": "chemistry-c11-291",
+   "type": "mcq",
+   "q": "Boron trifluoride readily forms an addition compound with ammonia because",
+   "options": [
+    "BF3 is a strong reducing agent",
+    "NH3 is an electron-deficient molecule",
+    "both are ionic compounds",
+    "BF3 is electron-deficient and accepts the lone pair of NH3"
+   ]
+  },
+  {
+   "id": "chemistry-c11-292",
+   "type": "mcq",
+   "q": "Thallium shows the +1 oxidation state more readily than +3. This is due to",
+   "options": [
+    "thallium being a non-metal",
+    "the inert pair effect",
+    "the small size of Tl+",
+    "the absence of valence electrons"
+   ]
+  },
+  {
+   "id": "chemistry-c11-293",
+   "type": "short",
+   "q": "Mention two uses of borax.",
+   "proposedAnswer": "Borax is used in making heat-resistant borosilicate glass and enamels, and as a flux in soldering and welding; it is also used in the borax bead test.",
+   "keyPoints": [
+    "Heat-resistant glass and enamels",
+    "Flux for soldering or welding",
+    "Borax bead test in analysis"
+   ]
+  },
+  {
+   "id": "chemistry-c11-294",
+   "type": "short",
+   "q": "Diamond is extremely hard, while graphite is soft and used as a lubricant. Explain the difference.",
+   "proposedAnswer": "In diamond every carbon is bonded tetrahedrally to four others in a strong 3D network. In graphite carbon atoms are in layers held together by weak van der Waals forces, so the layers slide over one another.",
+   "keyPoints": [
+    "Diamond: rigid 3D network of sp3 carbons",
+    "Graphite: planar sp2 layers",
+    "Weak forces between graphite layers allow sliding"
+   ]
+  },
+  {
+   "id": "chemistry-c11-295",
+   "type": "mcq",
+   "q": "Which of the following compounds is a hydrocarbon?",
+   "options": [
+    "C2H5OH",
+    "CH3COOH",
+    "C2H6",
+    "CH3Cl"
+   ]
+  },
+  {
+   "id": "chemistry-c11-296",
+   "type": "mcq",
+   "q": "The functional group present in alcohols is",
+   "options": [
+    "-OH",
+    "-CHO",
+    "-COOH",
+    "-NH2"
+   ]
+  },
+  {
+   "id": "chemistry-c11-297",
+   "type": "mcq",
+   "q": "What is the IUPAC name of CH3CHO?",
+   "options": [
+    "Ethanal",
+    "Methanal",
+    "Ethanol",
+    "Propanal"
+   ]
+  },
+  {
+   "id": "chemistry-c11-298",
+   "type": "mcq",
+   "q": "How many structural isomers does pentane, C5H12, have (including itself)?",
+   "options": [
+    "2",
+    "4",
+    "3",
+    "5"
+   ]
+  },
+  {
+   "id": "chemistry-c11-299",
+   "type": "mcq",
+   "q": "Which of the following alkyl groups has the strongest +I effect?",
+   "options": [
+    "CH3-",
+    "(CH3)3C-",
+    "CH3CH2-",
+    "(CH3)2CH-"
+   ]
+  },
+  {
+   "id": "chemistry-c11-300",
+   "type": "mcq",
+   "q": "Steam distillation is used to purify organic compounds that are",
+   "options": [
+    "highly soluble in water",
+    "non-volatile solids",
+    "ionic in nature",
+    "steam volatile and immiscible with water"
+   ]
+  },
+  {
+   "id": "chemistry-c11-301",
+   "type": "mcq",
+   "q": "In Kjeldahl's method, the ammonia obtained from 1.4 g of an organic compound neutralised 20 mL of 1 M H2SO4. What is the percentage of nitrogen in the compound? (N = 14)",
+   "options": [
+    "20%",
+    "30%",
+    "40%",
+    "80%"
+   ]
+  },
+  {
+   "id": "chemistry-c11-302",
+   "type": "short",
+   "q": "Define homologous series and give one example.",
+   "proposedAnswer": "A homologous series is a family of organic compounds with the same functional group and similar chemical properties, in which successive members differ by a -CH2- unit; example: methane, ethane, propane (alkanes).",
+   "keyPoints": [
+    "Same functional group",
+    "Successive members differ by CH2",
+    "Example: alkane series"
+   ]
+  },
+  {
+   "id": "chemistry-c11-303",
+   "type": "short",
+   "q": "Explain why phenol is more acidic than ethanol.",
+   "proposedAnswer": "The phenoxide ion is stabilised by delocalisation of its negative charge into the benzene ring through resonance, whereas the ethoxide ion has no such stabilisation and the alkyl group even destabilises it.",
+   "keyPoints": [
+    "Phenoxide ion is resonance stabilised",
+    "Ethoxide has localised charge",
+    "More stable conjugate base means stronger acid"
+   ]
+  },
+  {
+   "id": "chemistry-c11-304",
+   "type": "mcq",
+   "q": "What is the H-C-C bond angle in ethyne, HC≡CH?",
+   "options": [
+    "180°",
+    "120°",
+    "109.5°",
+    "90°"
+   ]
+  },
+  {
+   "id": "chemistry-c11-305",
+   "type": "mcq",
+   "q": "Which of the following is a saturated hydrocarbon?",
+   "options": [
+    "Ethene",
+    "Ethane",
+    "Ethyne",
+    "Benzene"
+   ]
+  },
+  {
+   "id": "chemistry-c11-306",
+   "type": "mcq",
+   "q": "Cracking of alkanes is the process of",
+   "options": [
+    "joining small alkanes into polymers",
+    "hydrogenating alkenes",
+    "converting alkanes to alcohols",
+    "breaking larger alkane molecules into smaller alkanes and alkenes by heating"
+   ]
+  },
+  {
+   "id": "chemistry-c11-307",
+   "type": "mcq",
+   "q": "In the chlorination of methane in sunlight, the step Cl2 → 2Cl• is called",
+   "options": [
+    "propagation",
+    "termination",
+    "substitution",
+    "initiation"
+   ]
+  },
+  {
+   "id": "chemistry-c11-308",
+   "type": "mcq",
+   "q": "How many different monochloro structural isomers can be obtained from propane?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  {
+   "id": "chemistry-c11-309",
+   "type": "mcq",
+   "q": "Nitration of toluene (methylbenzene) gives mainly",
+   "options": [
+    "o- and p-nitrotoluene",
+    "m-nitrotoluene only",
+    "nitrobenzene",
+    "benzoic acid"
+   ]
+  },
+  {
+   "id": "chemistry-c11-310",
+   "type": "mcq",
+   "q": "Ethene reacts with cold dilute alkaline potassium permanganate solution to give",
+   "options": [
+    "ethanol",
+    "ethanal",
+    "ethane-1,2-diol",
+    "ethanoic acid"
+   ]
+  },
+  {
+   "id": "chemistry-c11-311",
+   "type": "short",
+   "q": "Write the equation for the preparation of methane by heating sodium acetate with soda lime.",
+   "proposedAnswer": "CH3COONa + NaOH → CH4 + Na2CO3 (heat, CaO).",
+   "keyPoints": [
+    "Decarboxylation of sodium acetate",
+    "Soda lime (NaOH + CaO) used",
+    "Products: methane and sodium carbonate"
+   ]
+  },
+  {
+   "id": "chemistry-c11-312",
+   "type": "short",
+   "q": "Why is the staggered conformation of ethane more stable than the eclipsed conformation?",
+   "proposedAnswer": "In the staggered form the C-H bonds on the two carbons are as far apart as possible, so there is minimum repulsion (torsional strain); in the eclipsed form they are closest, giving the highest repulsion.",
+   "keyPoints": [
+    "Staggered: bond pairs farthest apart",
+    "Eclipsed: bond pairs closest, maximum torsional strain",
+    "Energy difference about 12.5 kJ/mol"
+   ]
+  },
+  {
+   "id": "chemistry-c11-313",
+   "type": "mcq",
+   "q": "Which of the following is the unit of molarity?",
+   "options": [
+    "mol L^-1",
+    "mol kg^-1",
+    "g L^-1",
+    "mol"
+   ]
+  },
+  {
+   "id": "chemistry-c11-314",
+   "type": "mcq",
+   "q": "Which of the following is the SI base unit of mass?",
+   "options": [
+    "Litre",
+    "Metre",
+    "Kelvin",
+    "Kilogram"
+   ]
+  },
+  {
+   "id": "chemistry-c11-315",
+   "type": "mcq",
+   "q": "What is the mass of one atom of carbon-12 in grams? (NA = 6.022 × 10^23 per mol)",
+   "options": [
+    "1.2 × 10^-23 g",
+    "1.99 × 10^-23 g",
+    "2.4 × 10^-23 g",
+    "6.02 × 10^-23 g"
+   ]
+  },
+  {
+   "id": "chemistry-c11-316",
+   "type": "mcq",
+   "q": "What is the molecular mass of glucose, C6H12O6? (C = 12, H = 1, O = 16)",
+   "options": [
+    "120",
+    "160",
+    "180",
+    "342"
+   ]
+  },
+  {
+   "id": "chemistry-c11-317",
+   "type": "mcq",
+   "q": "What is the percentage of nitrogen by mass in urea, CO(NH2)2? (C = 12, O = 16, N = 14, H = 1)",
+   "options": [
+    "28.0%",
+    "46.7%",
+    "23.3%",
+    "60.0%"
+   ]
+  },
+  {
+   "id": "chemistry-c11-318",
+   "type": "mcq",
+   "q": "In the reaction 4NH3 + 5O2 → 4NO + 6H2O, what mass of NO is formed from 17 g of NH3 with excess oxygen? (N = 14, O = 16, H = 1)",
+   "options": [
+    "15 g",
+    "18 g",
+    "30 g",
+    "40 g"
+   ]
+  },
+  {
+   "id": "chemistry-c11-319",
+   "type": "mcq",
+   "q": "100 mL of 0.2 M HCl is mixed with 100 mL of 0.4 M HCl. What is the molarity of the resulting solution?",
+   "options": [
+    "0.2 M",
+    "0.6 M",
+    "0.4 M",
+    "0.3 M"
+   ]
+  },
+  {
+   "id": "chemistry-c11-320",
+   "type": "short",
+   "q": "Define mole fraction and calculate the mole fraction of ethanol in a mixture of 1 mol ethanol and 4 mol water.",
+   "proposedAnswer": "Mole fraction of a component is its moles divided by the total moles of all components; for ethanol it is 1/(1 + 4) = 0.2.",
+   "keyPoints": [
+    "Mole fraction = moles of component / total moles",
+    "Total moles = 5",
+    "Ethanol mole fraction = 0.2"
+   ]
+  },
+  {
+   "id": "chemistry-c11-321",
+   "type": "short",
+   "q": "A hydrocarbon contains 85.7% carbon and 14.3% hydrogen by mass and has a molar mass of 42 g/mol. Find its molecular formula.",
+   "proposedAnswer": "C3H6",
+   "keyPoints": [
+    "Mole ratio C : H = 85.7/12 : 14.3/1 = 7.14 : 14.3 = 1 : 2",
+    "Empirical formula CH2 (mass 14)",
+    "42/14 = 3, so molecular formula C3H6"
+   ]
+  },
+  {
+   "id": "chemistry-c11-322",
+   "type": "mcq",
+   "q": "Who discovered the neutron?",
+   "options": [
+    "James Chadwick",
+    "Goldstein",
+    "Millikan",
+    "Niels Bohr"
+   ]
+  },
+  {
+   "id": "chemistry-c11-323",
+   "type": "mcq",
+   "q": "The plum pudding model of the atom was proposed by",
+   "options": [
+    "Rutherford",
+    "Bohr",
+    "Dalton",
+    "J. J. Thomson"
+   ]
+  },
+  {
+   "id": "chemistry-c11-324",
+   "type": "mcq",
+   "q": "How many electrons are present in the 3d subshell of an iron atom (Z = 26) in the ground state?",
+   "options": [
+    "4",
+    "6",
+    "8",
+    "2"
+   ]
+  },
+  {
+   "id": "chemistry-c11-325",
+   "type": "mcq",
+   "q": "What is the maximum number of electrons that can be accommodated in a 4f subshell?",
+   "options": [
+    "6",
+    "10",
+    "14",
+    "18"
+   ]
+  },
+  {
+   "id": "chemistry-c11-326",
+   "type": "mcq",
+   "q": "According to Bohr's model, the angular momentum of an electron in a stationary orbit is",
+   "options": [
+    "an integral multiple of h/2π",
+    "a continuous variable",
+    "always equal to h",
+    "zero"
+   ]
+  },
+  {
+   "id": "chemistry-c11-327",
+   "type": "mcq",
+   "q": "What is the frequency of light of wavelength 600 nm? (c = 3 × 10^8 m/s)",
+   "options": [
+    "5 × 10^14 Hz",
+    "2 × 10^15 Hz",
+    "5 × 10^6 Hz",
+    "1.8 × 10^2 Hz"
+   ]
+  },
+  {
+   "id": "chemistry-c11-328",
+   "type": "mcq",
+   "q": "What is the maximum number of electrons in an atom that can have the quantum numbers n = 3 and ml = +1?",
+   "options": [
+    "2",
+    "8",
+    "4",
+    "6"
+   ]
+  },
+  {
+   "id": "chemistry-c11-329",
+   "type": "short",
+   "q": "Distinguish between an orbit and an orbital.",
+   "proposedAnswer": "An orbit is a fixed circular path of an electron around the nucleus in Bohr's model; an orbital is a three-dimensional region around the nucleus where the probability of finding an electron is high, described by a wave function.",
+   "keyPoints": [
+    "Orbit: definite path (Bohr model)",
+    "Orbital: region of probability from quantum mechanics",
+    "An orbital holds at most two electrons"
+   ]
+  },
+  {
+   "id": "chemistry-c11-330",
+   "type": "short",
+   "q": "A photon has an energy of 4.97 × 10^-19 J. Calculate its wavelength. (h = 6.626 × 10^-34 J s, c = 3 × 10^8 m/s)",
+   "proposedAnswer": "About 4.0 × 10^-7 m (400 nm)",
+   "keyPoints": [
+    "E = hc/λ so λ = hc/E",
+    "= (6.626 × 10^-34 × 3 × 10^8) / 4.97 × 10^-19",
+    "≈ 4.0 × 10^-7 m"
+   ]
+  },
+  {
+   "id": "chemistry-c11-331",
+   "type": "mcq",
+   "q": "How many elements are there in the second period of the periodic table?",
+   "options": [
+    "2",
+    "18",
+    "32",
+    "8"
+   ]
+  },
+  {
+   "id": "chemistry-c11-332",
+   "type": "mcq",
+   "q": "The lanthanoids belong to which block?",
+   "options": [
+    "d-block",
+    "f-block",
+    "s-block",
+    "p-block"
+   ]
+  },
+  {
+   "id": "chemistry-c11-333",
+   "type": "mcq",
+   "q": "Which of the alkali metals Li, Na, K and Cs has the highest first ionisation enthalpy?",
+   "options": [
+    "Li",
+    "Na",
+    "K",
+    "Cs"
+   ]
+  },
+  {
+   "id": "chemistry-c11-334",
+   "type": "mcq",
+   "q": "Which halogen is a liquid at room temperature?",
+   "options": [
+    "Fluorine",
+    "Chlorine",
+    "Iodine",
+    "Bromine"
+   ]
+  },
+  {
+   "id": "chemistry-c11-335",
+   "type": "mcq",
+   "q": "Which of the following ions is isoelectronic with argon?",
+   "options": [
+    "Na+",
+    "Ca2+",
+    "Mg2+",
+    "Br-"
+   ]
+  },
+  {
+   "id": "chemistry-c11-336",
+   "type": "mcq",
+   "q": "Which of the following oxides is the most acidic?",
+   "options": [
+    "Na2O",
+    "MgO",
+    "Cl2O7",
+    "Al2O3"
+   ]
+  },
+  {
+   "id": "chemistry-c11-337",
+   "type": "mcq",
+   "q": "Atomic size decreases across a period from left to right mainly because",
+   "options": [
+    "the number of shells increases",
+    "the effective nuclear charge increases while electrons are added to the same shell",
+    "electrons are removed from the atoms",
+    "the number of neutrons increases"
+   ]
+  },
+  {
+   "id": "chemistry-c11-338",
+   "type": "short",
+   "q": "What are isoelectronic species? Give two examples.",
+   "proposedAnswer": "Atoms or ions with the same number of electrons; for example Na+ and Mg2+ (and F- and Ne), which all have 10 electrons.",
+   "keyPoints": [
+    "Same number of electrons",
+    "Different nuclear charge",
+    "Examples: O2-, F-, Ne, Na+, Mg2+"
+   ]
+  },
+  {
+   "id": "chemistry-c11-339",
+   "type": "short",
+   "q": "The electron gain enthalpy of fluorine is less negative than that of chlorine. Explain.",
+   "proposedAnswer": "The fluorine atom is very small, so the added electron enters a compact 2p subshell where strong electron-electron repulsion reduces the energy released.",
+   "keyPoints": [
+    "Fluorine has a very small 2p subshell",
+    "Strong inter-electronic repulsion",
+    "Chlorine's larger 3p subshell accommodates the electron more easily"
+   ]
+  },
+  {
+   "id": "chemistry-c11-340",
+   "type": "mcq",
+   "q": "An electrovalent (ionic) bond is usually formed between",
+   "options": [
+    "two non-metals only",
+    "two metals",
+    "a metal and a non-metal",
+    "two noble gas atoms"
+   ]
+  },
+  {
+   "id": "chemistry-c11-341",
+   "type": "mcq",
+   "q": "Which of the following diatomic molecules contains a triple bond?",
+   "options": [
+    "O2",
+    "F2",
+    "Cl2",
+    "N2"
+   ]
+  },
+  {
+   "id": "chemistry-c11-342",
+   "type": "mcq",
+   "q": "What is the shape of the sulphur dioxide molecule, SO2?",
+   "options": [
+    "Bent (V-shaped)",
+    "Linear",
+    "Trigonal planar",
+    "Tetrahedral"
+   ]
+  },
+  {
+   "id": "chemistry-c11-343",
+   "type": "mcq",
+   "q": "Which of the hydrogen halides HF, HCl, HBr and HI has the highest boiling point?",
+   "options": [
+    "HCl",
+    "HBr",
+    "HI",
+    "HF"
+   ]
+  },
+  {
+   "id": "chemistry-c11-344",
+   "type": "mcq",
+   "q": "What is the hybridisation of sulphur in SF6?",
+   "options": [
+    "sp3d",
+    "sp3d2",
+    "sp3",
+    "sp2"
+   ]
+  },
+  {
+   "id": "chemistry-c11-345",
+   "type": "mcq",
+   "q": "How many lone pairs are present on the nitrogen atom in ammonia, NH3?",
+   "options": [
+    "0",
+    "2",
+    "1",
+    "3"
+   ]
+  },
+  {
+   "id": "chemistry-c11-346",
+   "type": "mcq",
+   "q": "Which pair of species has the same shape (is isostructural)?",
+   "options": [
+    "NH3 and H3O+",
+    "CO2 and SO2",
+    "BF3 and NH3",
+    "CH4 and XeF4"
+   ]
+  },
+  {
+   "id": "chemistry-c11-347",
+   "type": "short",
+   "q": "Define dipole moment and give its common unit.",
+   "proposedAnswer": "Dipole moment is the product of the magnitude of the charge and the distance between the charges in a polar bond or molecule; its common unit is the debye (D).",
+   "keyPoints": [
+    "μ = charge × distance",
+    "It is a vector quantity",
+    "Unit: debye (1 D = 3.336 × 10^-30 C m)"
+   ]
+  },
+  {
+   "id": "chemistry-c11-348",
+   "type": "short",
+   "q": "Explain why BF3 is planar while NH3 is pyramidal.",
+   "proposedAnswer": "Boron in BF3 has three bond pairs and no lone pair (sp2, trigonal planar), whereas nitrogen in NH3 has three bond pairs and one lone pair (sp3), which pushes the bonds into a pyramidal shape.",
+   "keyPoints": [
+    "BF3: three bond pairs, no lone pair, sp2",
+    "NH3: three bond pairs plus one lone pair, sp3",
+    "Lone pair repulsion distorts NH3 from tetrahedral to pyramidal"
+   ]
+  },
+  {
+   "id": "chemistry-c11-349",
+   "type": "mcq",
+   "q": "Which of the following gases is the easiest to liquefy?",
+   "options": [
+    "CO2",
+    "He",
+    "H2",
+    "Ne"
+   ]
+  },
+  {
+   "id": "chemistry-c11-350",
+   "type": "mcq",
+   "q": "At 273 K and 1 atm, one mole of an ideal gas occupies approximately",
+   "options": [
+    "2.24 L",
+    "11.2 L",
+    "22.4 L",
+    "224 L"
+   ]
+  },
+  {
+   "id": "chemistry-c11-351",
+   "type": "mcq",
+   "q": "A gas at 1 atm occupies 4 L. At constant temperature it is compressed to 2 L. What is the new pressure?",
+   "options": [
+    "0.5 atm",
+    "1 atm",
+    "4 atm",
+    "2 atm"
+   ]
+  },
+  {
+   "id": "chemistry-c11-352",
+   "type": "mcq",
+   "q": "A gas in a rigid container has a pressure of 2 atm at 300 K. What is its pressure at 450 K?",
+   "options": [
+    "2.5 atm",
+    "3 atm",
+    "4.5 atm",
+    "1.33 atm"
+   ]
+  },
+  {
+   "id": "chemistry-c11-353",
+   "type": "mcq",
+   "q": "In the van der Waals equation, the constant 'a' is a measure of",
+   "options": [
+    "the magnitude of the attractive forces between gas molecules",
+    "the volume of one mole of molecules",
+    "the temperature of the gas",
+    "the number of molecules in the gas"
+   ]
+  },
+  {
+   "id": "chemistry-c11-354",
+   "type": "mcq",
+   "q": "At the same temperature, how many times greater is the root mean square speed of H2 molecules than that of O2 molecules?",
+   "options": [
+    "2",
+    "8",
+    "16",
+    "4"
+   ]
+  },
+  {
+   "id": "chemistry-c11-355",
+   "type": "mcq",
+   "q": "The surface tension of a liquid decreases when the temperature is raised because",
+   "options": [
+    "the liquid becomes denser",
+    "the kinetic energy of molecules increases and the effective intermolecular attraction weakens",
+    "the molecules become larger",
+    "the vapour pressure falls"
+   ]
+  },
+  {
+   "id": "chemistry-c11-356",
+   "type": "short",
+   "q": "State Charles's law.",
+   "proposedAnswer": "At constant pressure, the volume of a fixed mass of a gas is directly proportional to its absolute temperature (V/T = constant).",
+   "keyPoints": [
+    "Pressure and amount of gas constant",
+    "V is directly proportional to T",
+    "Temperature must be in kelvin"
+   ]
+  },
+  {
+   "id": "chemistry-c11-357",
+   "type": "short",
+   "q": "Calculate the volume occupied by 2.2 g of carbon dioxide at 300 K and 1 atm, assuming ideal behaviour. (C = 12, O = 16; R = 0.0821 L atm K^-1 mol^-1)",
+   "proposedAnswer": "About 1.23 L",
+   "keyPoints": [
+    "n = 2.2/44 = 0.05 mol",
+    "V = nRT/P = 0.05 × 0.0821 × 300 / 1",
+    "≈ 1.23 L"
+   ]
+  },
+  {
+   "id": "chemistry-c11-358",
+   "type": "mcq",
+   "q": "Which thermodynamic quantity is a measure of the disorder of a system?",
+   "options": [
+    "Enthalpy",
+    "Internal energy",
+    "Entropy",
+    "Work"
+   ]
+  },
+  {
+   "id": "chemistry-c11-359",
+   "type": "mcq",
+   "q": "In an exothermic reaction carried out in an open container, the temperature of the surroundings",
+   "options": [
+    "decreases",
+    "increases",
+    "stays constant",
+    "first decreases and then increases"
+   ]
+  },
+  {
+   "id": "chemistry-c11-360",
+   "type": "mcq",
+   "q": "The standard enthalpy of formation of liquid water is -286 kJ/mol. What is the enthalpy change for 2H2(g) + O2(g) → 2H2O(l)?",
+   "options": [
+    "-286 kJ",
+    "-143 kJ",
+    "-572 kJ",
+    "+572 kJ"
+   ]
+  },
+  {
+   "id": "chemistry-c11-361",
+   "type": "mcq",
+   "q": "A system loses 50 J of heat and has 30 J of work done on it. What is ΔU?",
+   "options": [
+    "-80 J",
+    "+80 J",
+    "+20 J",
+    "-20 J"
+   ]
+  },
+  {
+   "id": "chemistry-c11-362",
+   "type": "mcq",
+   "q": "A gas expands from 1 L to 4 L against a constant external pressure of 2 atm. What is the work done on the gas?",
+   "options": [
+    "-6 L atm",
+    "+6 L atm",
+    "-2 L atm",
+    "-8 L atm"
+   ]
+  },
+  {
+   "id": "chemistry-c11-363",
+   "type": "mcq",
+   "q": "A reaction has a positive ΔH and a negative ΔS. Its spontaneity is",
+   "options": [
+    "spontaneous at all temperatures",
+    "spontaneous only at low temperature",
+    "spontaneous only at high temperature",
+    "non-spontaneous at all temperatures"
+   ]
+  },
+  {
+   "id": "chemistry-c11-364",
+   "type": "mcq",
+   "q": "The burning of 1.0 g of a fuel in a calorimeter raises the temperature of 500 g of water by 10 K. How much heat is absorbed by the water? (specific heat of water = 4.18 J g^-1 K^-1)",
+   "options": [
+    "2.09 kJ",
+    "20.9 kJ",
+    "209 kJ",
+    "41.8 kJ"
+   ]
+  },
+  {
+   "id": "chemistry-c11-365",
+   "type": "short",
+   "q": "What is meant by the standard enthalpy of formation of a compound?",
+   "proposedAnswer": "It is the enthalpy change when one mole of the compound is formed from its elements in their most stable states under standard conditions (1 bar pressure, usually 298 K).",
+   "keyPoints": [
+    "One mole of the compound formed",
+    "From elements in their standard states",
+    "Standard conditions of 1 bar"
+   ]
+  },
+  {
+   "id": "chemistry-c11-366",
+   "type": "short",
+   "q": "State the second law of thermodynamics in terms of entropy and use it to explain why heat flows from a hot body to a cold body.",
+   "proposedAnswer": "The entropy of the universe increases in every spontaneous process. When heat flows from hot to cold, the entropy gained by the cold body exceeds the entropy lost by the hot body, so the total entropy rises.",
+   "keyPoints": [
+    "Total entropy of universe increases in spontaneous change",
+    "Entropy change q/T is larger for the cold body",
+    "Net entropy change is positive"
+   ]
+  },
+  {
+   "id": "chemistry-c11-367",
+   "type": "mcq",
+   "q": "At chemical equilibrium",
+   "options": [
+    "the reaction has stopped completely",
+    "the concentrations of reactants and products are equal",
+    "the rates of the forward and backward reactions are equal",
+    "all the reactants have been used up"
+   ]
+  },
+  {
+   "id": "chemistry-c11-368",
+   "type": "mcq",
+   "q": "Which of the following is a strong acid?",
+   "options": [
+    "HCl",
+    "CH3COOH",
+    "H2CO3",
+    "HCN"
+   ]
+  },
+  {
+   "id": "chemistry-c11-369",
+   "type": "mcq",
+   "q": "What is the pH of 0.05 M sulphuric acid, assuming that both hydrogen ions ionise completely?",
+   "options": [
+    "1",
+    "2",
+    "1.3",
+    "0.05"
+   ]
+  },
+  {
+   "id": "chemistry-c11-370",
+   "type": "mcq",
+   "q": "An aqueous solution of which salt is acidic?",
+   "options": [
+    "NaCl",
+    "CH3COONa",
+    "NH4Cl",
+    "KNO3"
+   ]
+  },
+  {
+   "id": "chemistry-c11-371",
+   "type": "mcq",
+   "q": "What is the conjugate acid of ammonia, NH3?",
+   "options": [
+    "NH2-",
+    "N2H4",
+    "OH-",
+    "NH4+"
+   ]
+  },
+  {
+   "id": "chemistry-c11-372",
+   "type": "mcq",
+   "q": "The molar solubility of Ca(OH)2 in water is 1 × 10^-3 M. What is its solubility product, Ksp?",
+   "options": [
+    "1 × 10^-9",
+    "4 × 10^-9",
+    "2 × 10^-6",
+    "4 × 10^-6"
+   ]
+  },
+  {
+   "id": "chemistry-c11-373",
+   "type": "mcq",
+   "q": "For PCl5(g) ⇌ PCl3(g) + Cl2(g), what happens to the amount of PCl5 at equilibrium if extra Cl2 is added at constant temperature?",
+   "options": [
+    "It increases",
+    "It decreases",
+    "It is unchanged",
+    "It becomes zero"
+   ]
+  },
+  {
+   "id": "chemistry-c11-374",
+   "type": "short",
+   "q": "State Le Chatelier's principle.",
+   "proposedAnswer": "If a system at equilibrium is subjected to a change in concentration, pressure or temperature, the equilibrium shifts in the direction that tends to counteract the change.",
+   "keyPoints": [
+    "Applies to a system at equilibrium",
+    "Change in concentration, pressure or temperature",
+    "Equilibrium shifts to oppose the change"
+   ]
+  },
+  {
+   "id": "chemistry-c11-375",
+   "type": "short",
+   "q": "Calculate the pH of the solution obtained by mixing 100 mL of 0.2 M HCl with 100 mL of 0.1 M NaOH.",
+   "proposedAnswer": "pH ≈ 1.3",
+   "keyPoints": [
+    "Moles HCl = 0.02, moles NaOH = 0.01",
+    "Excess H+ = 0.01 mol in 0.2 L = 0.05 M",
+    "pH = -log 0.05 ≈ 1.3"
+   ]
+  },
+  {
+   "id": "chemistry-c11-376",
+   "type": "mcq",
+   "q": "What is the oxidation number of hydrogen in most of its compounds with non-metals?",
+   "options": [
+    "-1",
+    "0",
+    "+2",
+    "+1"
+   ]
+  },
+  {
+   "id": "chemistry-c11-377",
+   "type": "mcq",
+   "q": "In any redox reaction, the number of electrons lost by the reducing agent is",
+   "options": [
+    "twice the number gained",
+    "equal to the number of electrons gained by the oxidising agent",
+    "half the number gained",
+    "always zero"
+   ]
+  },
+  {
+   "id": "chemistry-c11-378",
+   "type": "mcq",
+   "q": "What is the oxidation number of phosphorus in H3PO4?",
+   "options": [
+    "+3",
+    "+4",
+    "+5",
+    "+6"
+   ]
+  },
+  {
+   "id": "chemistry-c11-379",
+   "type": "mcq",
+   "q": "What is the oxidation number of carbon in methanol, CH3OH?",
+   "options": [
+    "-4",
+    "-2",
+    "0",
+    "+2"
+   ]
+  },
+  {
+   "id": "chemistry-c11-380",
+   "type": "mcq",
+   "q": "Which of the following is the strongest oxidising agent?",
+   "options": [
+    "I2",
+    "Br2",
+    "F2",
+    "Cl2"
+   ]
+  },
+  {
+   "id": "chemistry-c11-381",
+   "type": "mcq",
+   "q": "Which of the following is a redox reaction?",
+   "options": [
+    "NaCl + AgNO3 → AgCl + NaNO3",
+    "HCl + NaOH → NaCl + H2O",
+    "BaCl2 + H2SO4 → BaSO4 + 2HCl",
+    "2Mg + O2 → 2MgO"
+   ]
+  },
+  {
+   "id": "chemistry-c11-382",
+   "type": "mcq",
+   "q": "Which element is oxidised in Cu + 2AgNO3 → Cu(NO3)2 + 2Ag?",
+   "options": [
+    "Cu",
+    "Ag",
+    "N",
+    "O"
+   ]
+  },
+  {
+   "id": "chemistry-c11-383",
+   "type": "short",
+   "q": "What is a half-reaction? Write the oxidation half-reaction for zinc metal turning into zinc ions.",
+   "proposedAnswer": "A half-reaction shows either the oxidation or the reduction part of a redox reaction separately, with the electrons; for zinc: Zn → Zn2+ + 2e-.",
+   "keyPoints": [
+    "Shows only the oxidation or only the reduction",
+    "Electrons appear explicitly",
+    "Zn → Zn2+ + 2e-"
+   ]
+  },
+  {
+   "id": "chemistry-c11-384",
+   "type": "short",
+   "q": "In Fe2O3 + 3CO → 2Fe + 3CO2, identify the oxidising agent and the reducing agent with the changes in oxidation number.",
+   "proposedAnswer": "Fe2O3 is the oxidising agent (Fe goes from +3 to 0); CO is the reducing agent (C goes from +2 to +4).",
+   "keyPoints": [
+    "Fe: +3 to 0, reduced",
+    "C: +2 to +4, oxidised",
+    "Fe2O3 is oxidising agent, CO reducing agent"
+   ]
+  },
+  {
+   "id": "chemistry-c11-385",
+   "type": "mcq",
+   "q": "Which of the following is the lightest metal?",
+   "options": [
+    "Na",
+    "K",
+    "Mg",
+    "Li"
+   ]
+  },
+  {
+   "id": "chemistry-c11-386",
+   "type": "mcq",
+   "q": "Alkali metals are strong reducing agents because",
+   "options": [
+    "they have high ionisation enthalpies",
+    "they readily lose their single valence electron",
+    "they are non-metals",
+    "they have very small atomic sizes"
+   ]
+  },
+  {
+   "id": "chemistry-c11-387",
+   "type": "mcq",
+   "q": "What flame colour does a potassium compound give?",
+   "options": [
+    "Golden yellow",
+    "Brick red",
+    "Lilac (violet)",
+    "Crimson"
+   ]
+  },
+  {
+   "id": "chemistry-c11-388",
+   "type": "mcq",
+   "q": "What is the chemical formula of gypsum?",
+   "options": [
+    "CaSO4·2H2O",
+    "CaSO4·H2O",
+    "CaSO4·1/2 H2O",
+    "CaCO3·2H2O"
+   ]
+  },
+  {
+   "id": "chemistry-c11-389",
+   "type": "mcq",
+   "q": "Hydrogen peroxide is stored in dark or plastic bottles because it",
+   "options": [
+    "decomposes in light to give water and oxygen",
+    "freezes at room temperature",
+    "reacts with glass to form hydrogen",
+    "is explosive in the dark"
+   ]
+  },
+  {
+   "id": "chemistry-c11-390",
+   "type": "mcq",
+   "q": "Which of the following is an electron-deficient hydride?",
+   "options": [
+    "CH4",
+    "NH3",
+    "B2H6",
+    "H2O"
+   ]
+  },
+  {
+   "id": "chemistry-c11-391",
+   "type": "short",
+   "q": "What is plaster of Paris? Write the equation for its setting with water.",
+   "proposedAnswer": "Plaster of Paris is calcium sulphate hemihydrate, CaSO4·1/2 H2O. On mixing with water it sets to gypsum: CaSO4·1/2 H2O + 1 1/2 H2O → CaSO4·2H2O.",
+   "keyPoints": [
+    "Formula CaSO4·1/2 H2O",
+    "Made by heating gypsum at about 393 K",
+    "Sets into hard solid gypsum"
+   ]
+  },
+  {
+   "id": "chemistry-c11-392",
+   "type": "short",
+   "q": "Lithium chloride is soluble in organic solvents but sodium chloride is not. Explain.",
+   "proposedAnswer": "The small Li+ ion has high polarising power, so LiCl has considerable covalent character according to Fajans' rules and dissolves in less polar solvents; NaCl is almost purely ionic.",
+   "keyPoints": [
+    "Li+ is very small with high charge density",
+    "LiCl has partial covalent character",
+    "NaCl is predominantly ionic"
+   ]
+  },
+  {
+   "id": "chemistry-c11-393",
+   "type": "mcq",
+   "q": "The chief ore of aluminium is",
+   "options": [
+    "haematite",
+    "galena",
+    "cryolite",
+    "bauxite"
+   ]
+  },
+  {
+   "id": "chemistry-c11-394",
+   "type": "mcq",
+   "q": "Which allotrope of carbon consists of football-shaped molecules?",
+   "options": [
+    "Graphite",
+    "C60 fullerene",
+    "Diamond",
+    "Coke"
+   ]
+  },
+  {
+   "id": "chemistry-c11-395",
+   "type": "mcq",
+   "q": "On heating in the borax bead test, borax first gives",
+   "options": [
+    "sodium metaborate and boron trioxide",
+    "boron and sodium",
+    "sodium oxide and boron nitride",
+    "borane and sodium hydroxide"
+   ]
+  },
+  {
+   "id": "chemistry-c11-396",
+   "type": "mcq",
+   "q": "How many oxygen atoms is each silicon atom bonded to in the structure of silicon dioxide?",
+   "options": [
+    "2",
+    "3",
+    "6",
+    "4"
+   ]
+  },
+  {
+   "id": "chemistry-c11-397",
+   "type": "mcq",
+   "q": "Water gas is a mixture of",
+   "options": [
+    "CO2 and H2",
+    "CO and H2",
+    "CH4 and H2",
+    "CO and N2"
+   ]
+  },
+  {
+   "id": "chemistry-c11-398",
+   "type": "mcq",
+   "q": "CO2 is a gas while SiO2 is a hard solid with a very high melting point because",
+   "options": [
+    "silicon is more electronegative than carbon",
+    "carbon is a metal",
+    "CO2 consists of discrete molecules with weak forces between them, whereas SiO2 is a giant covalent network",
+    "CO2 has ionic bonds"
+   ]
+  },
+  {
+   "id": "chemistry-c11-399",
+   "type": "short",
+   "q": "What are silicones? Mention two uses.",
+   "proposedAnswer": "Silicones are organosilicon polymers with a repeating -R2Si-O- chain. They are used as lubricants and sealants, in water-proofing materials and in medical implants.",
+   "keyPoints": [
+    "Polymers with Si-O-Si backbone and organic groups",
+    "Water repellent and chemically inert",
+    "Uses: sealants, lubricants, waterproofing"
+   ]
+  },
+  {
+   "id": "chemistry-c11-400",
+   "type": "short",
+   "q": "Show with equations that aluminium hydroxide is amphoteric.",
+   "proposedAnswer": "With acid: Al(OH)3 + 3HCl → AlCl3 + 3H2O. With alkali: Al(OH)3 + NaOH → Na[Al(OH)4]. It behaves as a base with acids and as an acid with bases.",
+   "keyPoints": [
+    "Reacts with HCl to give salt and water",
+    "Reacts with NaOH to give sodium tetrahydroxoaluminate",
+    "Both acidic and basic behaviour"
+   ]
+  },
+  {
+   "id": "chemistry-c11-401",
+   "type": "mcq",
+   "q": "Which of the following is an alkene?",
+   "options": [
+    "C2H6",
+    "C2H4",
+    "C2H2",
+    "C6H6"
+   ]
+  },
+  {
+   "id": "chemistry-c11-402",
+   "type": "mcq",
+   "q": "A carbon atom forming four single bonds is",
+   "options": [
+    "sp hybridised",
+    "sp2 hybridised",
+    "sp3 hybridised",
+    "sp3d hybridised"
+   ]
+  },
+  {
+   "id": "chemistry-c11-403",
+   "type": "mcq",
+   "q": "What is the IUPAC name of CH3CH2COOH?",
+   "options": [
+    "Ethanoic acid",
+    "Butanoic acid",
+    "Propanal",
+    "Propanoic acid"
+   ]
+  },
+  {
+   "id": "chemistry-c11-404",
+   "type": "mcq",
+   "q": "The reaction CH3Cl + OH- → CH3OH + Cl- is an example of",
+   "options": [
+    "nucleophilic substitution",
+    "electrophilic addition",
+    "free radical substitution",
+    "elimination"
+   ]
+  },
+  {
+   "id": "chemistry-c11-405",
+   "type": "mcq",
+   "q": "Which of the following shows geometrical (cis-trans) isomerism?",
+   "options": [
+    "Propene",
+    "But-1-ene",
+    "Ethene",
+    "But-2-ene"
+   ]
+  },
+  {
+   "id": "chemistry-c11-406",
+   "type": "mcq",
+   "q": "Ethanol and dimethyl ether, both C2H6O, are examples of",
+   "options": [
+    "chain isomers",
+    "functional group isomers",
+    "position isomers",
+    "metamers"
+   ]
+  },
+  {
+   "id": "chemistry-c11-407",
+   "type": "short",
+   "q": "Distinguish between saturated and unsaturated hydrocarbons with one example each.",
+   "proposedAnswer": "Saturated hydrocarbons contain only single C-C bonds (for example ethane), whereas unsaturated hydrocarbons contain at least one double or triple carbon-carbon bond (for example ethene or ethyne).",
+   "keyPoints": [
+    "Saturated: only single bonds, e.g. ethane",
+    "Unsaturated: C=C or C≡C present, e.g. ethene",
+    "Unsaturated ones decolourise bromine water"
+   ]
+  },
+  {
+   "id": "chemistry-c11-408",
+   "type": "short",
+   "q": "Why are the two carbon-oxygen bonds in the acetate ion, CH3COO-, equal in length?",
+   "proposedAnswer": "The negative charge is delocalised over both oxygen atoms through resonance, so each C-O bond has partial double-bond character and the bonds are identical.",
+   "keyPoints": [
+    "Two equivalent resonance structures",
+    "Charge delocalised over both oxygens",
+    "Bond length intermediate between C-O and C=O"
+   ]
+  },
+  {
+   "id": "chemistry-c11-409",
+   "type": "mcq",
+   "q": "Which of the following alkanes is a gas at room temperature?",
+   "options": [
+    "Hexane",
+    "Octane",
+    "Butane",
+    "Decane"
+   ]
+  },
+  {
+   "id": "chemistry-c11-410",
+   "type": "mcq",
+   "q": "What is the general formula of the alkyne series?",
+   "options": [
+    "CnH2n-2",
+    "CnH2n",
+    "CnH2n+2",
+    "CnH2n+1"
+   ]
+  },
+  {
+   "id": "chemistry-c11-411",
+   "type": "mcq",
+   "q": "Hydration of ethyne with dilute H2SO4 and HgSO4 gives",
+   "options": [
+    "ethanal",
+    "ethanol",
+    "ethanoic acid",
+    "ethane"
+   ]
+  },
+  {
+   "id": "chemistry-c11-412",
+   "type": "mcq",
+   "q": "Benzene reacts with chloromethane in the presence of anhydrous AlCl3 to give",
+   "options": [
+    "chlorobenzene",
+    "benzoic acid",
+    "toluene",
+    "phenol"
+   ]
+  },
+  {
+   "id": "chemistry-c11-413",
+   "type": "mcq",
+   "q": "A mixture of CH3Cl and C2H5Cl is heated with sodium in dry ether. How many different alkanes can be formed?",
+   "options": [
+    "1",
+    "2",
+    "4",
+    "3"
+   ]
+  },
+  {
+   "id": "chemistry-c11-414",
+   "type": "mcq",
+   "q": "Benzene reacts with chlorine in bright sunlight (UV) without a catalyst to give mainly",
+   "options": [
+    "chlorobenzene",
+    "benzene hexachloride (C6H6Cl6)",
+    "p-dichlorobenzene",
+    "hexachlorobenzene"
+   ]
+  },
+  {
+   "id": "chemistry-c11-415",
+   "type": "short",
+   "q": "Write the equation for the reaction of ethene with bromine and state what is observed.",
+   "proposedAnswer": "CH2=CH2 + Br2 → CH2Br-CH2Br (1,2-dibromoethane). The reddish-brown colour of bromine is discharged.",
+   "keyPoints": [
+    "Electrophilic addition across the double bond",
+    "Product 1,2-dibromoethane",
+    "Bromine colour disappears"
+   ]
+  },
+  {
+   "id": "chemistry-c11-416",
+   "type": "short",
+   "q": "Arrange n-pentane, isopentane and neopentane in increasing order of boiling point and explain.",
+   "proposedAnswer": "Neopentane < isopentane < n-pentane. Branching makes the molecule more compact, which reduces surface area and so van der Waals forces.",
+   "keyPoints": [
+    "Order: neopentane < isopentane < n-pentane",
+    "Branching reduces molecular surface area",
+    "Weaker dispersion forces mean lower boiling point"
+   ]
+  },
+  {
+   "id": "chemistry-c11-417",
+   "type": "mcq",
+   "q": "One mole of any substance contains",
+   "options": [
+    "6.022 × 10^22 elementary entities",
+    "6.022 × 10^23 elementary entities",
+    "6.022 × 10^20 elementary entities",
+    "6.022 × 10^26 elementary entities"
+   ]
+  },
+  {
+   "id": "chemistry-c11-418",
+   "type": "mcq",
+   "q": "10 g of sodium chloride is dissolved in 90 g of water. What is the mass percent of sodium chloride in the solution?",
+   "options": [
+    "9%",
+    "11.1%",
+    "10%",
+    "1%"
+   ]
+  },
+  {
+   "id": "chemistry-c11-419",
+   "type": "mcq",
+   "q": "What is the mass of 3.011 × 10^23 molecules of water? (H2O = 18 g/mol; NA = 6.022 × 10^23 per mol)",
+   "options": [
+    "9 g",
+    "18 g",
+    "4.5 g",
+    "36 g"
+   ]
+  },
+  {
+   "id": "chemistry-c11-420",
+   "type": "mcq",
+   "q": "What volume of 0.2 M NaOH solution is needed to neutralise 20 mL of 0.1 M HCl?",
+   "options": [
+    "5 mL",
+    "20 mL",
+    "40 mL",
+    "10 mL"
+   ]
+  },
+  {
+   "id": "chemistry-c11-421",
+   "type": "mcq",
+   "q": "10 g of calcium carbonate is heated and gives 5.6 g of calcium oxide. By the law of conservation of mass, what mass of carbon dioxide is released?",
+   "options": [
+    "2.2 g",
+    "5.6 g",
+    "10 g",
+    "4.4 g"
+   ]
+  },
+  {
+   "id": "chemistry-c11-422",
+   "type": "mcq",
+   "q": "A 1.22 g sample of hydrated barium chloride, BaCl2·xH2O, loses 0.18 g of water on heating. What is x? (Ba = 137, Cl = 35.5, H2O = 18)",
+   "options": [
+    "2",
+    "1",
+    "5",
+    "10"
+   ]
+  },
+  {
+   "id": "chemistry-c11-423",
+   "type": "mcq",
+   "q": "The nucleus of an atom contains",
+   "options": [
+    "electrons and protons",
+    "electrons and neutrons",
+    "protons and neutrons",
+    "only neutrons"
+   ]
+  },
+  {
+   "id": "chemistry-c11-424",
+   "type": "mcq",
+   "q": "The spectral series of hydrogen that lies in the visible region is the",
+   "options": [
+    "Lyman series",
+    "Balmer series",
+    "Paschen series",
+    "Brackett series"
+   ]
+  },
+  {
+   "id": "chemistry-c11-425",
+   "type": "mcq",
+   "q": "The Lyman series of the hydrogen spectrum lies in which region?",
+   "options": [
+    "Infrared",
+    "Ultraviolet",
+    "Visible",
+    "Microwave"
+   ]
+  },
+  {
+   "id": "chemistry-c11-426",
+   "type": "mcq",
+   "q": "How many radial nodes does a 2s orbital have?",
+   "options": [
+    "0",
+    "2",
+    "3",
+    "1"
+   ]
+  },
+  {
+   "id": "chemistry-c11-427",
+   "type": "mcq",
+   "q": "What is the shape of a p orbital?",
+   "options": [
+    "Dumb-bell",
+    "Spherical",
+    "Double dumb-bell",
+    "Octahedral"
+   ]
+  },
+  {
+   "id": "chemistry-c11-428",
+   "type": "mcq",
+   "q": "Which of the following electron configurations is impossible?",
+   "options": [
+    "1s2 2s2 2p6",
+    "1s2 2s2 2p6 3s1",
+    "1s2 2s2 2p7",
+    "1s2 2s1"
+   ]
+  },
+  {
+   "id": "chemistry-c11-429",
+   "type": "mcq",
+   "q": "Which of the following is a metalloid?",
+   "options": [
+    "Sodium",
+    "Carbon",
+    "Silicon",
+    "Chlorine"
+   ]
+  },
+  {
+   "id": "chemistry-c11-430",
+   "type": "mcq",
+   "q": "The elements of group 17 are called",
+   "options": [
+    "alkali metals",
+    "alkaline earth metals",
+    "chalcogens",
+    "halogens"
+   ]
+  },
+  {
+   "id": "chemistry-c11-431",
+   "type": "mcq",
+   "q": "Which of the elements Be, Mg, Ca and Ba has the highest metallic character?",
+   "options": [
+    "Be",
+    "Ba",
+    "Mg",
+    "Ca"
+   ]
+  },
+  {
+   "id": "chemistry-c11-432",
+   "type": "mcq",
+   "q": "Which of the following elements of the third period has the largest atomic radius?",
+   "options": [
+    "Na",
+    "Mg",
+    "Al",
+    "Cl"
+   ]
+  },
+  {
+   "id": "chemistry-c11-433",
+   "type": "mcq",
+   "q": "Beryllium resembles aluminium (a diagonal relationship). Which property do both elements share?",
+   "options": [
+    "Both form only basic oxides",
+    "Both form amphoteric oxides and hydroxides",
+    "Both are alkali metals",
+    "Both have the same atomic radius"
+   ]
+  },
+  {
+   "id": "chemistry-c11-434",
+   "type": "mcq",
+   "q": "Which of the elements Mg, Al, Na and Si has the highest second ionisation enthalpy?",
+   "options": [
+    "Mg",
+    "Al",
+    "Na",
+    "Si"
+   ]
+  },
+  {
+   "id": "chemistry-c11-435",
+   "type": "mcq",
+   "q": "Which carbon-carbon bond has the highest bond enthalpy?",
+   "options": [
+    "C≡C",
+    "C=C",
+    "C-C",
+    "All are equal"
+   ]
+  },
+  {
+   "id": "chemistry-c11-436",
+   "type": "mcq",
+   "q": "The bond between hydrogen and chlorine in HCl is",
+   "options": [
+    "ionic",
+    "non-polar covalent",
+    "metallic",
+    "polar covalent"
+   ]
+  },
+  {
+   "id": "chemistry-c11-437",
+   "type": "mcq",
+   "q": "What is the H-C-H bond angle in methane?",
+   "options": [
+    "90°",
+    "104.5°",
+    "120°",
+    "109.5°"
+   ]
+  },
+  {
+   "id": "chemistry-c11-438",
+   "type": "mcq",
+   "q": "In which of the following molecules does the central atom have an incomplete octet?",
+   "options": [
+    "BF3",
+    "CH4",
+    "NH3",
+    "H2O"
+   ]
+  },
+  {
+   "id": "chemistry-c11-439",
+   "type": "mcq",
+   "q": "What is the total number of valence electrons in one molecule of ammonia, NH3?",
+   "options": [
+    "5",
+    "6",
+    "8",
+    "10"
+   ]
+  },
+  {
+   "id": "chemistry-c11-440",
+   "type": "mcq",
+   "q": "Which of the following molecules is non-polar although it contains polar bonds?",
+   "options": [
+    "CHCl3",
+    "CCl4",
+    "NH3",
+    "H2O"
+   ]
+  },
+  {
+   "id": "chemistry-c11-441",
+   "type": "mcq",
+   "q": "Which instrument is used to measure atmospheric pressure?",
+   "options": [
+    "Thermometer",
+    "Barometer",
+    "Hydrometer",
+    "Ammeter"
+   ]
+  },
+  {
+   "id": "chemistry-c11-442",
+   "type": "mcq",
+   "q": "What is the value of 1 atm in pascal?",
+   "options": [
+    "1.013 × 10^3 Pa",
+    "1.013 × 10^4 Pa",
+    "1.013 × 10^2 Pa",
+    "1.013 × 10^5 Pa"
+   ]
+  },
+  {
+   "id": "chemistry-c11-443",
+   "type": "mcq",
+   "q": "Water rises in a narrow glass capillary tube because of",
+   "options": [
+    "surface tension and the adhesion of water to the glass",
+    "the low density of water",
+    "the high viscosity of water",
+    "the vapour pressure of water"
+   ]
+  },
+  {
+   "id": "chemistry-c11-444",
+   "type": "mcq",
+   "q": "Evaporation of a liquid causes cooling because",
+   "options": [
+    "heat is added to the surroundings",
+    "the molecules become heavier",
+    "the most energetic molecules escape, lowering the average kinetic energy of the rest",
+    "pressure increases"
+   ]
+  },
+  {
+   "id": "chemistry-c11-445",
+   "type": "mcq",
+   "q": "What is 25 °C expressed on the kelvin scale?",
+   "options": [
+    "25 K",
+    "248 K",
+    "298 K",
+    "373 K"
+   ]
+  },
+  {
+   "id": "chemistry-c11-446",
+   "type": "mcq",
+   "q": "At the same temperature and pressure, what is the ratio of the density of oxygen gas to that of hydrogen gas?",
+   "options": [
+    "1",
+    "2",
+    "8",
+    "16"
+   ]
+  },
+  {
+   "id": "chemistry-c11-447",
+   "type": "mcq",
+   "q": "What volume is occupied by 0.5 mol of an ideal gas at 2 atm and 300 K? (R = 0.0821 L atm K^-1 mol^-1)",
+   "options": [
+    "3.08 L",
+    "6.16 L",
+    "12.3 L",
+    "24.6 L"
+   ]
+  },
+  {
+   "id": "chemistry-c11-448",
+   "type": "mcq",
+   "q": "What is the unit of molar entropy?",
+   "options": [
+    "J K^-1 mol^-1",
+    "kJ mol^-1",
+    "J mol^-1 K",
+    "K J^-1"
+   ]
+  },
+  {
+   "id": "chemistry-c11-449",
+   "type": "mcq",
+   "q": "A calorimeter is used to measure",
+   "options": [
+    "the pressure of gases",
+    "heat changes in chemical or physical processes",
+    "pH of solutions",
+    "volumes of liquids"
+   ]
+  },
+  {
+   "id": "chemistry-c11-450",
+   "type": "mcq",
+   "q": "The enthalpy of combustion of a substance is always",
+   "options": [
+    "positive",
+    "zero",
+    "negative",
+    "dependent on the sign of ΔS"
+   ]
+  },
+  {
+   "id": "chemistry-c11-451",
+   "type": "mcq",
+   "q": "What standard pressure is used for thermodynamic data under the current IUPAC recommendation?",
+   "options": [
+    "1 bar",
+    "1 mm Hg",
+    "10 atm",
+    "0 Pa"
+   ]
+  },
+  {
+   "id": "chemistry-c11-452",
+   "type": "mcq",
+   "q": "Which of the following has the highest molar entropy?",
+   "options": [
+    "Ice",
+    "Liquid water at 298 K",
+    "Liquid water at 273 K",
+    "Steam at 373 K"
+   ]
+  },
+  {
+   "id": "chemistry-c11-453",
+   "type": "mcq",
+   "q": "The enthalpy of atomisation of methane, CH4(g) → C(g) + 4H(g), is 1660 kJ/mol. What is the average C-H bond enthalpy?",
+   "options": [
+    "1660 kJ/mol",
+    "830 kJ/mol",
+    "207.5 kJ/mol",
+    "415 kJ/mol"
+   ]
+  },
+  {
+   "id": "chemistry-c11-454",
+   "type": "mcq",
+   "q": "For the reaction C(s) + O2(g) → CO2(g), the difference ΔH - ΔU is",
+   "options": [
+    "0",
+    "+RT",
+    "-RT",
+    "+2RT"
+   ]
+  },
+  {
+   "id": "chemistry-c11-455",
+   "type": "mcq",
+   "q": "According to the Brønsted-Lowry theory, an acid is",
+   "options": [
+    "an electron pair donor",
+    "an electron pair acceptor",
+    "a proton donor",
+    "a proton acceptor"
+   ]
+  },
+  {
+   "id": "chemistry-c11-456",
+   "type": "mcq",
+   "q": "What is the pH of pure water at 25 °C?",
+   "options": [
+    "0",
+    "7",
+    "14",
+    "1"
+   ]
+  },
+  {
+   "id": "chemistry-c11-457",
+   "type": "mcq",
+   "q": "A solution of pH 3 has how many times the hydrogen ion concentration of a solution of pH 5?",
+   "options": [
+    "10 times",
+    "100 times",
+    "1000 times",
+    "2 times"
+   ]
+  },
+  {
+   "id": "chemistry-c11-458",
+   "type": "mcq",
+   "q": "A very large value of Kc for a reaction means that at equilibrium",
+   "options": [
+    "reactants predominate",
+    "no reaction occurs",
+    "reactants and products are present in equal amounts",
+    "products predominate"
+   ]
+  },
+  {
+   "id": "chemistry-c11-459",
+   "type": "mcq",
+   "q": "Which of the following mixtures acts as an alkaline buffer?",
+   "options": [
+    "NH4OH and NH4Cl",
+    "HCl and NaCl",
+    "CH3COOH and CH3COONa",
+    "H2CO3 and HCl"
+   ]
+  },
+  {
+   "id": "chemistry-c11-460",
+   "type": "mcq",
+   "q": "For N2(g) + 3H2(g) ⇌ 2NH3(g), the relation between Kp and Kc is",
+   "options": [
+    "Kp = Kc (RT)^2",
+    "Kp = Kc (RT)",
+    "Kp = Kc (RT)^-2",
+    "Kp = Kc"
+   ]
+  },
+  {
+   "id": "chemistry-c11-461",
+   "type": "mcq",
+   "q": "The Ksp of AgCl is 1.8 × 10^-10. What is its solubility in 0.1 M NaCl solution (ignoring the Cl- from AgCl)?",
+   "options": [
+    "1.8 × 10^-10 M",
+    "1.34 × 10^-5 M",
+    "1.8 × 10^-9 M",
+    "1.8 × 10^-11 M"
+   ]
+  },
+  {
+   "id": "chemistry-c11-462",
+   "type": "mcq",
+   "q": "What is the oxidation number of sodium in NaCl?",
+   "options": [
+    "-1",
+    "0",
+    "+2",
+    "+1"
+   ]
+  },
+  {
+   "id": "chemistry-c11-463",
+   "type": "mcq",
+   "q": "An oxidising agent",
+   "options": [
+    "loses electrons and is oxidised",
+    "gains electrons and is reduced",
+    "donates protons",
+    "is always oxygen"
+   ]
+  },
+  {
+   "id": "chemistry-c11-464",
+   "type": "mcq",
+   "q": "What is the oxidation number of chlorine in sodium hypochlorite, NaClO?",
+   "options": [
+    "+1",
+    "+3",
+    "+5",
+    "-1"
+   ]
+  },
+  {
+   "id": "chemistry-c11-465",
+   "type": "mcq",
+   "q": "What is the oxidation number of nitrogen in nitric acid, HNO3?",
+   "options": [
+    "+3",
+    "+5",
+    "+4",
+    "+2"
+   ]
+  },
+  {
+   "id": "chemistry-c11-466",
+   "type": "mcq",
+   "q": "Which of the following reactions will take place?",
+   "options": [
+    "Cu + ZnSO4 → CuSO4 + Zn",
+    "Ag + CuSO4 → Ag2SO4 + Cu",
+    "Fe + CuSO4 → FeSO4 + Cu",
+    "Cu + MgSO4 → CuSO4 + Mg"
+   ]
+  },
+  {
+   "id": "chemistry-c11-467",
+   "type": "mcq",
+   "q": "In which of the following compounds does nitrogen have the oxidation number +4?",
+   "options": [
+    "NO2",
+    "N2O",
+    "NO",
+    "N2O5"
+   ]
+  },
+  {
+   "id": "chemistry-c11-468",
+   "type": "mcq",
+   "q": "In acidic solution, how many moles of KMnO4 are needed to oxidise 5 mol of Fe2+ to Fe3+?",
+   "options": [
+    "5 mol",
+    "2 mol",
+    "0.2 mol",
+    "1 mol"
+   ]
+  },
+  {
+   "id": "chemistry-c11-469",
+   "type": "mcq",
+   "q": "Which is the most abundant isotope of hydrogen?",
+   "options": [
+    "Tritium",
+    "Deuterium",
+    "Hydride",
+    "Protium"
+   ]
+  },
+  {
+   "id": "chemistry-c11-470",
+   "type": "mcq",
+   "q": "Which alkali metal has a melting point close to room temperature (about 28.5 °C)?",
+   "options": [
+    "Caesium",
+    "Lithium",
+    "Sodium",
+    "Potassium"
+   ]
+  },
+  {
+   "id": "chemistry-c11-471",
+   "type": "mcq",
+   "q": "What is the formula of caustic soda?",
+   "options": [
+    "Na2CO3",
+    "NaHCO3",
+    "NaOH",
+    "Na2O2"
+   ]
+  },
+  {
+   "id": "chemistry-c11-472",
+   "type": "mcq",
+   "q": "Bleaching powder is prepared by passing chlorine gas over",
+   "options": [
+    "quicklime",
+    "dry slaked lime",
+    "limestone",
+    "gypsum"
+   ]
+  },
+  {
+   "id": "chemistry-c11-473",
+   "type": "mcq",
+   "q": "Which s-block element is present in chlorophyll?",
+   "options": [
+    "Ca",
+    "Mg",
+    "Na",
+    "K"
+   ]
+  },
+  {
+   "id": "chemistry-c11-474",
+   "type": "mcq",
+   "q": "In Clark's method, temporary hardness of water is removed by adding",
+   "options": [
+    "washing soda",
+    "sodium chloride",
+    "calcium chloride",
+    "a calculated amount of slaked lime"
+   ]
+  },
+  {
+   "id": "chemistry-c11-475",
+   "type": "mcq",
+   "q": "What volume of hydrogen gas at 273 K and 1 atm is produced when 2.3 g of sodium reacts with excess water? (Na = 23; molar volume 22.4 L/mol)",
+   "options": [
+    "1.12 L",
+    "2.24 L",
+    "0.56 L",
+    "11.2 L"
+   ]
+  },
+  {
+   "id": "chemistry-c11-476",
+   "type": "short",
+   "q": "State two ways in which lithium differs from the other alkali metals.",
+   "proposedAnswer": "Lithium is harder and has a higher melting point; it forms a nitride with nitrogen and its carbonate, hydroxide and nitrate decompose on heating more easily, and LiCl is deliquescent and soluble in organic solvents.",
+   "keyPoints": [
+    "Forms Li3N with nitrogen",
+    "Compounds are more covalent and less thermally stable",
+    "Harder and higher melting point"
+   ]
+  },
+  {
+   "id": "chemistry-c11-477",
+   "type": "mcq",
+   "q": "Which gas is commonly used in fire extinguishers?",
+   "options": [
+    "CO",
+    "N2",
+    "CO2",
+    "H2"
+   ]
+  },
+  {
+   "id": "chemistry-c11-478",
+   "type": "mcq",
+   "q": "Carborundum is the common name of",
+   "options": [
+    "silicon dioxide",
+    "calcium carbide",
+    "silicon carbide",
+    "boron carbide"
+   ]
+  },
+  {
+   "id": "chemistry-c11-479",
+   "type": "mcq",
+   "q": "Among the boron trihalides, which is the strongest Lewis acid?",
+   "options": [
+    "All are equal",
+    "BF3",
+    "BCl3",
+    "BBr3"
+   ]
+  },
+  {
+   "id": "chemistry-c11-480",
+   "type": "mcq",
+   "q": "Graphite is used for electrodes because it",
+   "options": [
+    "is very hard",
+    "conducts electricity",
+    "has a high density",
+    "is transparent"
+   ]
+  },
+  {
+   "id": "chemistry-c11-481",
+   "type": "mcq",
+   "q": "In the thermite reaction, aluminium acts as",
+   "options": [
+    "a reducing agent",
+    "an oxidising agent",
+    "a catalyst",
+    "an indicator"
+   ]
+  },
+  {
+   "id": "chemistry-c11-482",
+   "type": "mcq",
+   "q": "The B-F bond length in BF3 is shorter than expected for a single bond because of",
+   "options": [
+    "hydrogen bonding",
+    "pπ-pπ back bonding from fluorine to boron",
+    "ionic character",
+    "dsp hybridisation of boron"
+   ]
+  },
+  {
+   "id": "chemistry-c11-483",
+   "type": "mcq",
+   "q": "SiCl4 fumes in moist air because",
+   "options": [
+    "it sublimes",
+    "it burns in air",
+    "it is hydrolysed to give HCl and silicic acid",
+    "it is an ionic compound"
+   ]
+  },
+  {
+   "id": "chemistry-c11-484",
+   "type": "short",
+   "q": "Write the equation for the laboratory preparation of diborane from boron trifluoride.",
+   "proposedAnswer": "4BF3 + 3LiAlH4 → 2B2H6 + 3LiF + 3AlF3 (in dry ether).",
+   "keyPoints": [
+    "Boron trifluoride treated with lithium aluminium hydride",
+    "Dry ether solvent",
+    "Products include diborane, LiF and AlF3"
+   ]
+  },
+  {
+   "id": "chemistry-c11-485",
+   "type": "mcq",
+   "q": "The unique property of carbon that allows it to form long chains by linking with itself is called",
+   "options": [
+    "catenation",
+    "isomerism",
+    "polymerisation",
+    "hybridisation"
+   ]
+  },
+  {
+   "id": "chemistry-c11-486",
+   "type": "mcq",
+   "q": "The -COOH group is the functional group of",
+   "options": [
+    "aldehydes",
+    "ketones",
+    "esters",
+    "carboxylic acids"
+   ]
+  },
+  {
+   "id": "chemistry-c11-487",
+   "type": "mcq",
+   "q": "What is the IUPAC name of CH3-CH=CH2?",
+   "options": [
+    "Propane",
+    "Propyne",
+    "Propanal",
+    "Propene"
+   ]
+  },
+  {
+   "id": "chemistry-c11-488",
+   "type": "mcq",
+   "q": "Which of the following is a secondary alcohol?",
+   "options": [
+    "Propan-2-ol",
+    "Propan-1-ol",
+    "Methanol",
+    "2-Methylpropan-2-ol"
+   ]
+  },
+  {
+   "id": "chemistry-c11-489",
+   "type": "mcq",
+   "q": "How many alpha (adjacent C-H) hydrogens can take part in hyperconjugation in the tert-butyl carbocation, (CH3)3C+?",
+   "options": [
+    "3",
+    "6",
+    "9",
+    "12"
+   ]
+  },
+  {
+   "id": "chemistry-c11-490",
+   "type": "mcq",
+   "q": "A carbocation is",
+   "options": [
+    "sp3 hybridised and pyramidal",
+    "sp2 hybridised and planar",
+    "sp hybridised and linear",
+    "sp3d hybridised"
+   ]
+  },
+  {
+   "id": "chemistry-c11-491",
+   "type": "mcq",
+   "q": "How many structural isomers that are alcohols have the molecular formula C4H10O?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  {
+   "id": "chemistry-c11-492",
+   "type": "short",
+   "q": "Distinguish between an electrophile and a nucleophile with one example each.",
+   "proposedAnswer": "An electrophile is an electron-deficient species that accepts an electron pair (for example NO2+ or H+), whereas a nucleophile is an electron-rich species that donates an electron pair (for example OH- or CN-).",
+   "keyPoints": [
+    "Electrophile: electron pair acceptor, e.g. NO2+",
+    "Nucleophile: electron pair donor, e.g. OH-",
+    "They react with each other"
+   ]
+  },
+  {
+   "id": "chemistry-c11-493",
+   "type": "mcq",
+   "q": "Which gas is the main constituent of natural gas?",
+   "options": [
+    "Ethane",
+    "Propane",
+    "Butane",
+    "Methane"
+   ]
+  },
+  {
+   "id": "chemistry-c11-494",
+   "type": "mcq",
+   "q": "Which of the following is an aromatic hydrocarbon?",
+   "options": [
+    "Benzene",
+    "Cyclohexane",
+    "Hexane",
+    "Hexene"
+   ]
+  },
+  {
+   "id": "chemistry-c11-495",
+   "type": "mcq",
+   "q": "How many pi bonds are there in a Kekulé structure of benzene?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "6"
+   ]
+  },
+  {
+   "id": "chemistry-c11-496",
+   "type": "mcq",
+   "q": "Ethene reacts with hydrogen in the presence of finely divided nickel to give",
+   "options": [
+    "methane",
+    "ethanol",
+    "ethane",
+    "ethyne"
+   ]
+  },
+  {
+   "id": "chemistry-c11-497",
+   "type": "mcq",
+   "q": "Ethyne reacts with excess hydrogen in the presence of nickel to give",
+   "options": [
+    "ethene",
+    "ethanol",
+    "ethyne",
+    "ethane"
+   ]
+  },
+  {
+   "id": "chemistry-c11-498",
+   "type": "mcq",
+   "q": "Addition of HCl to 2-methylpropene gives mainly",
+   "options": [
+    "1-chloro-2-methylpropane",
+    "2-chloro-2-methylpropane",
+    "1-chlorobutane",
+    "2-chlorobutane"
+   ]
+  },
+  {
+   "id": "chemistry-c11-499",
+   "type": "mcq",
+   "q": "Benzene does not decolourise bromine water because",
+   "options": [
+    "its delocalised pi electron system gives extra stability, so it resists addition",
+    "it is saturated",
+    "it does not contain carbon",
+    "it is insoluble in all liquids"
+   ]
+  },
+  {
+   "id": "chemistry-c11-500",
+   "type": "short",
+   "q": "Write the balanced equation for the complete combustion of ethyne.",
+   "proposedAnswer": "2C2H2 + 5O2 → 4CO2 + 2H2O",
+   "keyPoints": [
+    "Products are CO2 and H2O",
+    "Balanced with 4 C, 4 H and 10 O",
+    "Burns with a sooty, luminous flame because of high carbon content"
+   ]
+  }
+ ]
+}
