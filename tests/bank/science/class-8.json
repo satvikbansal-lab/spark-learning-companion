@@ -22,7 +22,14 @@
  "syllabus": "unverified: topics are the drafting model’s reading of the official syllabus (NCERT/CBSE, or the exam’s notified syllabus) and have not been checked against the official documents",
  "drafted_by": "claude-sonnet",
  "drafted_at": "2026-11-02",
- "crossCheck": null,
+ "crossCheck": {
+  "model": "claude-haiku",
+  "method": "MCQs answered blind (no key shown); short answers judged against their proposed answer",
+  "agree": 500,
+  "disagree": 0,
+  "unsure": 0,
+  "missing": 0
+ },
  "questions": [
   {
    "id": "science-c8-001",
@@ -43,7 +50,11 @@
    "explanation": "Rabi crops such as wheat, gram, peas and mustard are sown in winter and harvested in spring.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-002",
@@ -64,7 +75,11 @@
    "explanation": "Paddy (rice) is sown at the start of the rainy season, so it is a kharif crop.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-003",
@@ -85,7 +100,11 @@
    "explanation": "Tilling (ploughing) loosens the soil so that roots can go deep and soil organisms can mix the soil.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-004",
@@ -106,7 +125,11 @@
    "explanation": "Manure is made from decomposed plant and animal waste, such as compost. Urea and NPK are factory-made fertilisers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-005",
@@ -126,7 +149,10 @@
    "explanation": "Crop rotation with legumes restores soil nitrogen naturally.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-006",
@@ -147,7 +173,11 @@
    "explanation": "The drip system delivers water drop by drop at the roots of each plant, so almost none is wasted.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-007",
@@ -168,7 +198,11 @@
    "explanation": "Damp grain allows moulds, insects and rodents to thrive, so grain must be dried before storage.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-008",
@@ -188,7 +222,10 @@
    "explanation": "Fertilisers should be used in the right amount, and manure helps maintain soil health.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-009",
@@ -209,7 +246,11 @@
    "explanation": "Yeast is a single-celled fungus. Amoeba is a protozoan, Rhizobium is a bacterium and Chlamydomonas is an alga.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-010",
@@ -230,7 +271,11 @@
    "explanation": "Malaria is caused by a protozoan Plasmodium carried by the female Anopheles mosquito. Aedes spreads dengue.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-011",
@@ -251,7 +296,11 @@
    "explanation": "Rhizobium lives in root nodules of pulse plants and converts nitrogen of the air into a form plants can use.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-012",
@@ -272,7 +321,11 @@
    "explanation": "Yeast respires on the sugar in dough and gives out carbon dioxide, which makes the dough rise.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-013",
@@ -292,7 +345,10 @@
    "explanation": "Common salt is used to preserve meat, fish, pickles and raw mangoes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-014",
@@ -313,7 +369,11 @@
    "explanation": "Antibiotics are effective only against bacteria. They have no effect on common cold and flu viruses.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-015",
@@ -334,7 +394,11 @@
    "explanation": "Heating kills most microbes, and rapid chilling stops any survivors from growing.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-016",
@@ -354,7 +418,10 @@
    "explanation": "Misuse of antibiotics makes bacteria harder to kill.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-017",
@@ -375,7 +442,11 @@
    "explanation": "Nylon was the first fully man-made fibre, prepared from coal, water and air.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-018",
@@ -396,7 +467,11 @@
    "explanation": "Rayon looks like silk but is cheaper and is made from cellulose of wood pulp.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-019",
@@ -417,7 +492,11 @@
    "explanation": "Bakelite hardens permanently once moulded and cannot be softened again by heating.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-020",
@@ -438,7 +517,11 @@
    "explanation": "Bakelite is a poor conductor of heat and electricity, so it is safe for switches and handles.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-021",
@@ -458,7 +541,10 @@
    "explanation": "The difference is in how they behave on reheating.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-022",
@@ -479,7 +565,11 @@
    "explanation": "Teflon is slippery and heat resistant, so food does not stick to the pan.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-023",
@@ -500,7 +590,11 @@
    "explanation": "Plastics are non-biodegradable, so they stay in the environment and cause pollution.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-024",
@@ -520,7 +614,10 @@
    "explanation": "Cotton clothes are safer near a flame.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-025",
@@ -541,7 +638,11 @@
    "explanation": "Mercury is the only metal that is a liquid at ordinary room temperature.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-026",
@@ -562,7 +663,11 @@
    "explanation": "Sulphur is a brittle, yellow non-metal. The others are metals.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-027",
@@ -583,7 +688,11 @@
    "explanation": "Ductility is the ability to be drawn into thin wires. Malleability is the ability to be beaten into sheets.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-028",
@@ -604,7 +713,11 @@
    "explanation": "Metals such as magnesium react with dilute acids to produce hydrogen gas.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-029",
@@ -624,7 +737,10 @@
    "explanation": "These properties make metals suitable for utensils.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-030",
@@ -645,7 +761,11 @@
    "explanation": "Non-metal oxides such as carbon dioxide form acidic solutions in water.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-031",
@@ -666,7 +786,11 @@
    "explanation": "Iron is more reactive than copper, so it displaces copper, which deposits on the nail.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-032",
@@ -686,7 +810,10 @@
    "explanation": "Storing them in kerosene prevents accidents.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-033",
@@ -707,7 +834,11 @@
    "explanation": "Petroleum formed from remains of tiny sea organisms buried for millions of years.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-034",
@@ -728,7 +859,11 @@
    "explanation": "CNG is natural gas stored under high pressure and used as a fuel for vehicles.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-035",
@@ -749,7 +884,11 @@
    "explanation": "Bitumen is a thick, black residue from refining petroleum and is used to surface roads.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-036",
@@ -770,7 +909,11 @@
    "explanation": "Refining separates crude petroleum into petrol, diesel, kerosene and other products.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-037",
@@ -790,7 +933,10 @@
    "explanation": "Coke is a useful product of coal processing.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-038",
@@ -811,7 +957,11 @@
    "explanation": "Coal forms very slowly from buried plants, so once used it cannot be replenished in a human lifetime.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-039",
@@ -832,7 +982,11 @@
    "explanation": "CNG burns more completely and causes less air pollution.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-040",
@@ -852,7 +1006,10 @@
    "explanation": "Saving fuel helps future generations and the environment.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-041",
@@ -873,7 +1030,11 @@
    "explanation": "Combustion is a chemical process in which a substance burns in oxygen and gives heat.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-042",
@@ -894,7 +1055,11 @@
    "explanation": "The outermost zone gets plenty of air, burns completely and is the hottest.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-043",
@@ -915,7 +1080,11 @@
    "explanation": "A fire needs fuel, oxygen (air) and heat to reach the ignition temperature.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-044",
@@ -936,7 +1105,11 @@
    "explanation": "Carbon dioxide does not conduct electricity and does not damage the equipment, whereas water can conduct electricity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-045",
@@ -956,7 +1129,10 @@
    "explanation": "Substances with a low ignition temperature catch fire easily.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-046",
@@ -977,7 +1153,11 @@
    "explanation": "Oil floats on water and continues to burn, so the fire can even spread.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-047",
@@ -998,7 +1178,11 @@
    "explanation": "With no fresh air coming in, oxygen is used up and burning stops.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-048",
@@ -1018,7 +1202,10 @@
    "explanation": "Water carries away the heat quickly.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-049",
@@ -1039,7 +1226,11 @@
    "explanation": "The Red Data Book lists species that are endangered or threatened.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-050",
@@ -1060,7 +1251,11 @@
    "explanation": "Deforestation is the large-scale cutting down of trees and clearing of forest land.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-051",
@@ -1081,7 +1276,11 @@
    "explanation": "Endemic species are native to and found only in one specific region.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-052",
@@ -1101,7 +1300,10 @@
    "explanation": "Biosphere reserves protect whole ecosystems.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-053",
@@ -1122,7 +1324,11 @@
    "explanation": "Reforestation is planting trees to replace forests that have been cut or destroyed.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-054",
@@ -1143,7 +1349,11 @@
    "explanation": "Roads divide habitats, reduce space and make crossing dangerous for animals.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-055",
@@ -1163,7 +1373,10 @@
    "explanation": "Trees protect soil and help keep the climate balanced.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-056",
@@ -1184,7 +1397,11 @@
    "explanation": "All living things are made of cells, which carry out the activities of life.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-057",
@@ -1205,7 +1422,11 @@
    "explanation": "Robert Hooke saw box-like compartments in cork under a microscope and called them cells.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-058",
@@ -1226,7 +1447,11 @@
    "explanation": "The nucleus holds the chromosomes and controls the activities of the cell.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-059",
@@ -1246,7 +1471,10 @@
    "explanation": "These features suit the way plants and animals live.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-060",
@@ -1267,7 +1495,11 @@
    "explanation": "Chloroplasts contain chlorophyll, which traps sunlight for photosynthesis.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-061",
@@ -1288,7 +1520,11 @@
    "explanation": "Leaf cells carry out photosynthesis in light, so they contain many chloroplasts.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-062",
@@ -1308,7 +1544,10 @@
    "explanation": "The wall is made of cellulose and supports the plant body.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-063",
@@ -1329,7 +1568,11 @@
    "explanation": "Fertilisation is the joining of a sperm and an egg to form a zygote.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-064",
@@ -1350,7 +1593,11 @@
    "explanation": "Sperms are produced in the testes and are male gametes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-065",
@@ -1371,7 +1618,11 @@
    "explanation": "A Hydra forms a bud on its body that grows into a new individual. Amoeba divides by binary fission.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-066",
@@ -1391,7 +1642,10 @@
    "explanation": "The place of fertilisation differs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-067",
@@ -1412,7 +1666,11 @@
    "explanation": "Viviparous animals give birth to young ones instead of laying eggs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-068",
@@ -1433,7 +1691,11 @@
    "explanation": "External fertilisation in water has many risks, so large numbers of eggs help some young survive.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-069",
@@ -1453,7 +1715,10 @@
    "explanation": "Metamorphosis is a major change of body form.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-070",
@@ -1474,7 +1739,11 @@
    "explanation": "Adolescence is the stage of growth between childhood and adulthood.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-071",
@@ -1495,7 +1764,11 @@
    "explanation": "Testosterone produced by the testes brings changes in boys at puberty.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-072",
@@ -1516,7 +1789,11 @@
    "explanation": "The pituitary gland secretes hormones that control other glands.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-073",
@@ -1536,7 +1813,10 @@
    "explanation": "Growth of the larynx changes the voice.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-074",
@@ -1557,7 +1837,11 @@
    "explanation": "The thyroid gland needs iodine to make thyroxine, and its shortage causes goitre.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-075",
@@ -1578,7 +1862,11 @@
    "explanation": "Every egg carries an X chromosome. A sperm with X gives a girl and a sperm with Y gives a boy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-076",
@@ -1598,7 +1886,10 @@
    "explanation": "Good habits during this stage support health later in life.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-077",
@@ -1619,7 +1910,11 @@
    "explanation": "Force is measured in newtons (N).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-078",
@@ -1640,7 +1935,11 @@
    "explanation": "Pressure equals force divided by the area on which it acts.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-079",
@@ -1661,7 +1960,11 @@
    "explanation": "Friction opposes the relative motion between two surfaces in contact.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-080",
@@ -1681,7 +1984,10 @@
    "explanation": "More friction gives better grip.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-081",
@@ -1702,7 +2008,11 @@
    "explanation": "Gravity acts on objects without touching them.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-082",
@@ -1723,7 +2033,11 @@
    "explanation": "Pressure is force divided by area, so a thin edge produces a large pressure.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-083",
@@ -1743,7 +2057,10 @@
    "explanation": "Pressure decreases as the area increases.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-084",
@@ -1764,7 +2081,11 @@
    "explanation": "All sounds are produced by vibrating objects.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-085",
@@ -1785,7 +2106,11 @@
    "explanation": "Frequency is the number of vibrations per second and is measured in hertz (Hz).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-086",
@@ -1806,7 +2131,11 @@
    "explanation": "A larger amplitude of vibration gives a louder sound.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-087",
@@ -1826,7 +2155,10 @@
    "explanation": "Sound travels by making particles of a medium vibrate.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-088",
@@ -1847,7 +2179,11 @@
    "explanation": "Humans can hear sounds from about 20 Hz to 20,000 Hz.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-089",
@@ -1868,7 +2204,11 @@
    "explanation": "Higher frequency of vibration gives a higher pitch.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-090",
@@ -1888,7 +2228,10 @@
    "explanation": "Noise above comfortable levels harms hearing and health.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-091",
@@ -1909,7 +2252,11 @@
    "explanation": "Lemon juice contains acid, so it has ions and conducts electricity. Distilled water, oil and sugar solution do not.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-092",
@@ -1930,7 +2277,11 @@
    "explanation": "Electroplating uses electric current to coat an object with a thin layer of metal.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-093",
@@ -1951,7 +2302,11 @@
    "explanation": "Current through a conducting solution can produce bubbles, colour changes or metal deposits, which are chemical effects.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-094",
@@ -1971,7 +2326,10 @@
    "explanation": "The tester completes the circuit through the liquid.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-095",
@@ -1992,7 +2350,11 @@
    "explanation": "The article to be plated is the cathode, connected to the negative terminal.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-096",
@@ -2013,7 +2375,11 @@
    "explanation": "A chromium coat gives a bright finish and protects the metal from rusting.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-097",
@@ -2033,7 +2399,10 @@
    "explanation": "Keep hands dry around electrical appliances.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-098",
@@ -2054,7 +2423,11 @@
    "explanation": "The angle of incidence always equals the angle of reflection.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-099",
@@ -2075,7 +2448,11 @@
    "explanation": "A plane mirror gives a virtual, erect image the same size as the object.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-100",
@@ -2096,7 +2473,11 @@
    "explanation": "A closed building protects you from lightning, while tall trees and open ground are dangerous.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-101",
@@ -2115,7 +2496,10 @@
    "explanation": "Earthquakes are measured by magnitude.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-102",
@@ -2136,7 +2520,11 @@
    "explanation": "Dispersion occurs when a prism or raindrops split white light into a spectrum.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-103",
@@ -2157,7 +2545,11 @@
    "explanation": "A mirror reverses left and right, so inverted writing reads correctly in a mirror.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-104",
@@ -2177,7 +2569,10 @@
    "explanation": "Speed of light is about a million times that of sound in air.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-105",
@@ -2198,7 +2593,11 @@
    "explanation": "In winnowing, grain and chaff are poured from a height, and the wind blows the lighter chaff away.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-106",
@@ -2219,7 +2618,11 @@
    "explanation": "Harvesting is the cutting of the mature crop, usually with a sickle or a combine harvester.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-107",
@@ -2240,7 +2643,11 @@
    "explanation": "A seed drill is a tractor-driven tool that drops seeds evenly and covers them with soil.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-108",
@@ -2260,7 +2667,10 @@
    "explanation": "Weeds can be removed by hand, with a trowel or with weedicides.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-109",
@@ -2281,7 +2691,11 @@
    "explanation": "Manure adds humus, which makes the soil porous and helps it retain water, unlike a fertiliser.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-110",
@@ -2302,7 +2716,11 @@
    "explanation": "Damaged or hollow seeds are lighter and float, so good seeds can be selected as they sink.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-111",
@@ -2322,7 +2740,10 @@
    "explanation": "Neem leaves are a traditional way of protecting stored grain.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-112",
@@ -2343,7 +2764,11 @@
    "explanation": "The common cold is caused by a virus. Typhoid, cholera and tuberculosis are caused by bacteria.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-113",
@@ -2364,7 +2789,11 @@
    "explanation": "Viruses are much smaller than bacteria and can only be seen with a powerful microscope.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-114",
@@ -2385,7 +2814,11 @@
    "explanation": "Fermentation by yeast turns sugar into alcohol and carbon dioxide.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-115",
@@ -2405,7 +2838,10 @@
    "explanation": "Vaccines prevent diseases such as polio and measles.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-116",
@@ -2426,7 +2862,11 @@
    "explanation": "Fungal spores in the air grow on bread that is moist and warm and form a fuzzy mould.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-117",
@@ -2447,7 +2887,11 @@
    "explanation": "Decomposer bacteria and fungi break down dead matter and return nutrients to the soil.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-118",
@@ -2467,7 +2911,10 @@
    "explanation": "Flies are carriers of disease.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-119",
@@ -2488,7 +2935,11 @@
    "explanation": "Cotton comes from the cotton plant. Nylon, acrylic and polyester are synthetic.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-120",
@@ -2509,7 +2960,11 @@
    "explanation": "Acrylic looks like wool and is used for sweaters, shawls and blankets.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-121",
@@ -2530,7 +2985,11 @@
    "explanation": "Terylene is a well-known polyester, which is crease-resistant and easy to wash.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-122",
@@ -2550,7 +3009,10 @@
    "explanation": "Such properties explain the wide use of plastics.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-123",
@@ -2571,7 +3033,11 @@
    "explanation": "Nylon is very strong, light, elastic and does not absorb much water, so it is used for ropes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-124",
@@ -2592,7 +3058,11 @@
    "explanation": "Most plastics do not react with acids or other chemicals, so they do not get corroded.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-125",
@@ -2612,7 +3082,10 @@
    "explanation": "Plastic is non-biodegradable, so its waste must be managed.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-126",
@@ -2633,7 +3106,11 @@
    "explanation": "Sodium is a very soft metal and can be cut with a knife.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-127",
@@ -2654,7 +3131,11 @@
    "explanation": "Graphite, a form of carbon, is an exception among non-metals and conducts electricity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-128",
@@ -2675,7 +3156,11 @@
    "explanation": "Sonorous metals ring when hit, which is why school bells are made of metal.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-129",
@@ -2695,7 +3180,10 @@
    "explanation": "Metal oxides are generally basic in nature.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-130",
@@ -2716,7 +3204,11 @@
    "explanation": "Gold and silver are shiny, malleable and keep their lustre for a long time.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-131",
@@ -2737,7 +3229,11 @@
    "explanation": "Iron rusts in the presence of both air (oxygen) and water.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-132",
@@ -2757,7 +3253,10 @@
    "explanation": "The wire and its cover do different jobs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-133",
@@ -2778,7 +3277,11 @@
    "explanation": "Natural gas is mainly methane, which is also the main constituent of CNG.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-134",
@@ -2799,7 +3302,11 @@
    "explanation": "Petroleum is called black gold because of its dark colour and great value.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-135",
@@ -2820,7 +3327,11 @@
    "explanation": "Kerosene is used as a fuel for stoves and lamps.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-136",
@@ -2839,7 +3350,10 @@
    "explanation": "Refining gives many useful products.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-137",
@@ -2860,7 +3374,11 @@
    "explanation": "Coal formed from plants buried in swamps, while petroleum formed from dead sea organisms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-138",
@@ -2881,7 +3399,11 @@
    "explanation": "Sulphur dioxide from burning coal forms acids in rainwater and damages buildings and plants.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-139",
@@ -2901,7 +3423,10 @@
    "explanation": "Petroleum is a fossil fuel.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-140",
@@ -2922,7 +3447,11 @@
    "explanation": "Hydrogen has the highest calorific value among common fuels and is used as rocket fuel.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-141",
@@ -2943,7 +3472,11 @@
    "explanation": "Glass does not burn, so it is non-combustible.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-142",
@@ -2964,7 +3497,11 @@
    "explanation": "Calorific value is the heat produced on complete burning of 1 kg of fuel, in kilojoules per kg.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-143",
@@ -2984,7 +3521,10 @@
    "explanation": "Such substances have a very low ignition temperature.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-144",
@@ -3005,7 +3545,11 @@
    "explanation": "Covering stops fresh air from reaching the burning cloth, so the fire goes out.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-145",
@@ -3026,7 +3570,11 @@
    "explanation": "A blue flame means plenty of air and complete burning. A yellow flame has unburnt carbon particles.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-146",
@@ -3046,7 +3594,10 @@
    "explanation": "Rooms with burning fuel should be well ventilated.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-147",
@@ -3067,7 +3618,11 @@
    "explanation": "In a sanctuary, animals are protected from hunting and poaching.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-148",
@@ -3088,7 +3643,11 @@
    "explanation": "Extinct species have disappeared completely.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-149",
@@ -3109,7 +3668,11 @@
    "explanation": "Flora is plant life and fauna is animal life of a region.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-150",
@@ -3130,7 +3693,11 @@
    "explanation": "Forests are cut for agriculture, buildings, roads and wood.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-151",
@@ -3150,7 +3717,10 @@
    "explanation": "Endangered species need special protection.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-152",
@@ -3171,7 +3741,11 @@
    "explanation": "Roots bind soil and absorb water, so rainwater runs off slowly.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-153",
@@ -3192,7 +3766,11 @@
    "explanation": "Protecting the habitat and stopping poaching let the population recover.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-154",
@@ -3212,7 +3790,10 @@
    "explanation": "Migration helps birds survive and raise young.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-155",
@@ -3233,7 +3814,11 @@
    "explanation": "Cytoplasm is the jelly-like fluid in which organelles are found.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-156",
@@ -3254,7 +3839,11 @@
    "explanation": "Mitochondria release energy from food during respiration.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-157",
@@ -3275,7 +3864,11 @@
    "explanation": "The cell membrane is selectively permeable and lets only some substances pass.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-158",
@@ -3296,7 +3889,11 @@
    "explanation": "Amoeba is made of a single cell.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-159",
@@ -3316,7 +3913,10 @@
    "explanation": "Cells in multicellular organisms divide the work.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-160",
@@ -3337,7 +3937,11 @@
    "explanation": "The shape of a cell suits its function. Nerve cells carry messages.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-161",
@@ -3358,7 +3962,11 @@
    "explanation": "Plant cells have a rigid cell wall that gives them a regular shape.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-162",
@@ -3378,7 +3986,10 @@
    "explanation": "The cell is the basic unit of structure and function.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-163",
@@ -3399,7 +4010,11 @@
    "explanation": "Ovaries produce the female gametes called ova.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-164",
@@ -3420,7 +4035,11 @@
    "explanation": "Sperm meets the egg in the oviduct (fallopian tube), forming the zygote.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-165",
@@ -3441,7 +4060,11 @@
    "explanation": "The zygote becomes an embryo and then a foetus inside the uterus.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-166",
@@ -3462,7 +4085,11 @@
    "explanation": "In binary fission one parent cell divides to form two new organisms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-167",
@@ -3482,7 +4109,10 @@
    "explanation": "Cloning produces an organism genetically identical to its parent.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-168",
@@ -3503,7 +4133,11 @@
    "explanation": "In IVF fertilisation takes place outside the body, and the early embryo is then placed in the uterus.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-169",
@@ -3524,7 +4158,11 @@
    "explanation": "A chick develops only from a zygote, which forms after fertilisation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-170",
@@ -3544,7 +4182,10 @@
    "explanation": "The egg structure suits the habitat.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-171",
@@ -3565,7 +4206,11 @@
    "explanation": "Hormones released by endocrine glands control growth and changes at puberty.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-172",
@@ -3586,7 +4231,11 @@
    "explanation": "Ovaries produce oestrogen, which brings about changes in girls.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-173",
@@ -3607,7 +4256,11 @@
    "explanation": "A menstrual cycle usually lasts about 28 to 30 days.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-174",
@@ -3628,7 +4281,11 @@
    "explanation": "Growth of a beard in boys is a secondary sexual character that appears at puberty.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-175",
@@ -3648,7 +4305,10 @@
    "explanation": "Endocrine glands have no ducts and release hormones directly into blood.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-176",
@@ -3669,7 +4329,11 @@
    "explanation": "Insulin controls the level of sugar in blood, and its shortage causes diabetes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-177",
@@ -3690,7 +4354,11 @@
    "explanation": "Adrenaline speeds up the heartbeat and breathing and prepares the body for action.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-178",
@@ -3710,7 +4378,10 @@
    "explanation": "They coordinate body functions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-179",
@@ -3731,7 +4402,11 @@
    "explanation": "Muscular force needs the body to touch the object.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-180",
@@ -3752,7 +4427,11 @@
    "explanation": "A force can change the state of motion or shape of an object.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-181",
@@ -3773,7 +4452,11 @@
    "explanation": "Rolling friction is smaller than sliding or static friction, which is why wheels are used.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-182",
@@ -3794,7 +4477,11 @@
    "explanation": "Moving gas particles strike the walls and exert a force on them.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-183",
@@ -3814,7 +4501,10 @@
    "explanation": "Reducing friction saves energy and prevents wear.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-184",
@@ -3835,7 +4525,11 @@
    "explanation": "A deeper point has more water above it, so the pressure is greater.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-185",
@@ -3856,7 +4550,11 @@
    "explanation": "Static friction, which acts before motion, is greater than sliding friction.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-186",
@@ -3876,7 +4574,10 @@
    "explanation": "Liquid pressure depends on depth.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-187",
@@ -3897,7 +4598,11 @@
    "explanation": "Frequency is the number of oscillations per second.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-188",
@@ -3918,7 +4623,11 @@
    "explanation": "Higher frequency gives a shriller sound.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-189",
@@ -3939,7 +4648,11 @@
    "explanation": "The unit of loudness is the decibel (dB).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-190",
@@ -3960,7 +4673,11 @@
    "explanation": "Sound travels faster in solids than in gases, and cannot travel in a vacuum.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-191",
@@ -3980,7 +4697,10 @@
    "explanation": "The tightness of the cords changes the pitch.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-192",
@@ -4001,7 +4721,11 @@
    "explanation": "The Moon has no air, and sound needs a medium.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-193",
@@ -4022,7 +4746,11 @@
    "explanation": "Higher frequency means higher pitch. Smaller amplitude means a softer sound.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-194",
@@ -4042,7 +4770,10 @@
    "explanation": "Pitch depends on the frequency of vibration.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-195",
@@ -4063,7 +4794,11 @@
    "explanation": "Rubber does not allow current to pass through it.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-196",
@@ -4084,7 +4819,11 @@
    "explanation": "Gas bubbles at the electrodes show that a chemical change is taking place.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-197",
@@ -4105,7 +4844,11 @@
    "explanation": "LEDs glow with a very small current, so they can detect weak conduction.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-198",
@@ -4125,7 +4868,10 @@
    "explanation": "This is a chemical effect of current.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-199",
@@ -4146,7 +4892,11 @@
    "explanation": "The copper plate dissolves in the solution and supplies copper that is deposited on the key.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-200",
@@ -4167,7 +4917,11 @@
    "explanation": "A coat of tin keeps iron from rusting and does not react readily with food.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-201",
@@ -4187,7 +4941,10 @@
    "explanation": "A thin layer of a costly metal is enough for the appearance.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-202",
@@ -4208,7 +4965,11 @@
    "explanation": "Lightning is a huge electric spark when charges flow between clouds or to the ground.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-203",
@@ -4229,7 +4990,11 @@
    "explanation": "Earthquakes are caused by movements of the plates of the Earth's crust.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-204",
@@ -4250,7 +5015,11 @@
    "explanation": "The two kinds of charge are positive and negative.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-205",
@@ -4269,7 +5038,10 @@
    "explanation": "This is the basic law of static electricity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-206",
@@ -4290,7 +5062,11 @@
    "explanation": "Lightning conductors carry the electric charge safely to the ground.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-207",
@@ -4311,7 +5087,11 @@
    "explanation": "Raindrops act like tiny prisms, so sunlight is split into seven colours.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-208",
@@ -4331,7 +5111,10 @@
    "explanation": "Preparedness reduces injuries during earthquakes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-209",
@@ -4352,7 +5135,11 @@
    "explanation": "Wheat is a cereal. Gram is a pulse, and soybean and groundnut are oilseeds.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-210",
@@ -4373,7 +5160,11 @@
    "explanation": "Lentil (masur) is a pulse. Rice, maize and jowar are cereals.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-211",
@@ -4394,7 +5185,11 @@
    "explanation": "A hoe is a long rod with a bent, broad, sharp plate that is used to remove weeds and loosen soil.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-212",
@@ -4415,7 +5210,11 @@
    "explanation": "A combine harvester cuts the crop, threshes it and separates the grain in one operation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-213",
@@ -4435,7 +5234,10 @@
    "explanation": "The timing and amount of irrigation differ for each crop.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-214",
@@ -4456,7 +5258,11 @@
    "explanation": "Repeatedly growing one crop depletes particular nutrients, so farmers rotate different crops.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-215",
@@ -4477,7 +5283,11 @@
    "explanation": "Weedicides are poisonous chemicals, so the farmer must protect his skin and lungs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-216",
@@ -4497,7 +5307,10 @@
    "explanation": "Soil preparation helps the crop to establish itself.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-217",
@@ -4518,7 +5331,11 @@
    "explanation": "Lactobacillus bacteria turn milk into curd.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-218",
@@ -4539,7 +5356,11 @@
    "explanation": "Alexander Fleming discovered penicillin from the Penicillium mould.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-219",
@@ -4560,7 +5381,11 @@
    "explanation": "Jenner developed the smallpox vaccine.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-220",
@@ -4581,7 +5406,11 @@
    "explanation": "Cholera, typhoid and hepatitis A spread through contaminated water.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-221",
@@ -4601,7 +5430,10 @@
    "explanation": "The starter curd supplies the bacteria.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-222",
@@ -4622,7 +5454,11 @@
    "explanation": "Heat kills most microbes in water that could otherwise cause disease.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-223",
@@ -4643,7 +5479,11 @@
    "explanation": "Cold slows down the growth of microorganisms, so food keeps longer.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-224",
@@ -4663,7 +5503,10 @@
    "explanation": "One prevents, the other cures bacterial infections.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-225",
@@ -4684,7 +5527,11 @@
    "explanation": "Natural fibres come from plant or animal sources.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-226",
@@ -4705,7 +5552,11 @@
    "explanation": "Polythene is a light, flexible thermoplastic used for bags and packaging.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-227",
@@ -4726,7 +5577,11 @@
    "explanation": "Rayon is made from the cellulose of wood pulp.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-228",
@@ -4747,7 +5602,11 @@
    "explanation": "Polymers are made by joining a large number of small units called monomers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-229",
@@ -4767,7 +5626,10 @@
    "explanation": "Plastics stay in the environment for a long time.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-230",
@@ -4788,7 +5650,11 @@
    "explanation": "Melamine is a thermosetting plastic that resists fire and heat.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-231",
@@ -4809,7 +5675,11 @@
    "explanation": "Synthetic fibres absorb little water, so they dry quickly.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-232",
@@ -4829,7 +5699,10 @@
    "explanation": "Absorbency decides comfort in hot weather.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-233",
@@ -4850,7 +5723,11 @@
    "explanation": "Iodine is a non-metal with a shining surface. Most non-metals are dull.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-234",
@@ -4871,7 +5748,11 @@
    "explanation": "Malleability is the property of being hammered into thin sheets. Aluminium and silver foil are examples.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-235",
@@ -4892,7 +5773,11 @@
    "explanation": "Solid non-metals break into pieces when hammered, so they are brittle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-236",
@@ -4913,7 +5798,11 @@
    "explanation": "Sodium reacts violently with water. Copper and gold do not react with it.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-237",
@@ -4933,7 +5822,10 @@
    "explanation": "Reactivity decides which metal is displaced.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-238",
@@ -4954,7 +5846,11 @@
    "explanation": "Metals form a dull coat on the surface by reacting with air, and rubbing removes it to show the shiny metal.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-239",
@@ -4975,7 +5871,11 @@
    "explanation": "Aluminium is malleable and fairly unreactive, so it is suitable for wrapping food.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-240",
@@ -4995,7 +5895,10 @@
    "explanation": "Rusting is prevented by stopping contact with air and water.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-241",
@@ -5016,7 +5919,11 @@
    "explanation": "LPG, used for cooking, is a petroleum product stored as a liquid under pressure.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-242",
@@ -5037,7 +5944,11 @@
    "explanation": "Coal contains a large amount of carbon.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-243",
@@ -5058,7 +5969,11 @@
    "explanation": "Carbonisation is the slow change of buried plant matter into coal.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-244",
@@ -5078,7 +5993,10 @@
    "explanation": "Fossil fuels are limited resources.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-245",
@@ -5099,7 +6017,11 @@
    "explanation": "Heating crude oil makes its parts boil off at different temperatures, so each can be collected separately.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-246",
@@ -5120,7 +6042,11 @@
    "explanation": "They take millions of years to form but are being consumed quickly.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-247",
@@ -5140,7 +6066,10 @@
    "explanation": "Saving fuel reduces pollution and cost.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-248",
@@ -5161,7 +6090,11 @@
    "explanation": "A good fuel should be cheap, easy to get and burn cleanly.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-249",
@@ -5182,7 +6115,11 @@
    "explanation": "LPG is a fuel that is a gas at ordinary pressure.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-250",
@@ -5203,7 +6140,11 @@
    "explanation": "The middle zone has partial combustion and glowing carbon particles, so it is bright.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-251",
@@ -5223,7 +6164,10 @@
    "explanation": "Removing any one of the three requirements stops the fire.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-252",
@@ -5244,7 +6188,11 @@
    "explanation": "A lid cuts off the air, so the fire goes out. Water would spread burning oil.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-253",
@@ -5265,7 +6213,11 @@
    "explanation": "A fuel with a higher calorific value gives more heat per kilogram.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-254",
@@ -5285,7 +6237,10 @@
    "explanation": "Carbon dioxide is a greenhouse gas.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-255",
@@ -5306,7 +6261,11 @@
    "explanation": "National parks are strictly protected areas for wildlife and natural vegetation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-256",
@@ -5327,7 +6286,11 @@
    "explanation": "Project Tiger is a conservation programme to protect tigers and the forests in which they live.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-257",
@@ -5348,7 +6311,11 @@
    "explanation": "Poaching kills animals for skin, horn or ivory and can wipe out a species.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-258",
@@ -5368,7 +6335,10 @@
    "explanation": "Forests support life and the environment.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-259",
@@ -5389,7 +6359,11 @@
    "explanation": "Animals depend on their habitat for food, water, shelter and breeding.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-260",
@@ -5410,7 +6384,11 @@
    "explanation": "Snakes feed on rats. Without them, rats can multiply and damage grain.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-261",
@@ -5430,7 +6408,10 @@
    "explanation": "Small actions by many people help conservation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-262",
@@ -5451,7 +6432,11 @@
    "explanation": "A cell wall is found around plant cells and not animal cells.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-263",
@@ -5472,7 +6457,11 @@
    "explanation": "Most cells are too small to be seen with the naked eye and are studied with a microscope.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-264",
@@ -5493,7 +6482,11 @@
    "explanation": "Chromosomes in the nucleus are made of genes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-265",
@@ -5513,7 +6506,10 @@
    "explanation": "Both are essential parts of every cell.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-266",
@@ -5534,7 +6530,11 @@
    "explanation": "Cell wall, chloroplasts and a large vacuole are typical features of plant cells.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-267",
@@ -5555,7 +6555,11 @@
    "explanation": "All cells have a cell membrane around the cytoplasm.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-268",
@@ -5575,7 +6579,10 @@
    "explanation": "A large central vacuole is typical of mature plant cells.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-269",
@@ -5596,7 +6603,11 @@
    "explanation": "Metamorphosis is the change in body form during development.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-270",
@@ -5617,7 +6628,11 @@
    "explanation": "The zygote divides to form an embryo.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-271",
@@ -5638,7 +6653,11 @@
    "explanation": "A hen lays eggs, while dogs, cats and cows give birth to young ones.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-272",
@@ -5658,7 +6677,10 @@
    "explanation": "They differ in where the young develop.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-273",
@@ -5679,7 +6701,11 @@
    "explanation": "Only a few of the many sperms reach the egg.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-274",
@@ -5700,7 +6726,11 @@
    "explanation": "In asexual reproduction a single parent gives rise to offspring, as in Hydra and Amoeba.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-275",
@@ -5720,7 +6750,10 @@
    "explanation": "Development takes place in the uterus.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-276",
@@ -5741,7 +6774,11 @@
    "explanation": "The development of breasts is a change seen in girls at puberty.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-277",
@@ -5762,7 +6799,11 @@
    "explanation": "The thyroid gland lies in the neck.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-278",
@@ -5783,7 +6824,11 @@
    "explanation": "The pancreas produces insulin, which controls the sugar level in blood.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-279",
@@ -5803,7 +6848,10 @@
    "explanation": "Secondary characters develop under the influence of hormones.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-280",
@@ -5824,7 +6872,11 @@
    "explanation": "Thyroxine needs iodine, so a shortage of iodine causes goitre.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-281",
@@ -5845,7 +6897,11 @@
    "explanation": "Mood swings are common during adolescence due to hormonal changes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-282",
@@ -5865,7 +6921,10 @@
    "explanation": "Good hygiene keeps adolescents healthy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-283",
@@ -5886,7 +6945,11 @@
    "explanation": "Static, sliding and rolling are the types of friction.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-284",
@@ -5907,7 +6970,11 @@
    "explanation": "Pressure is measured in pascals (Pa), where 1 Pa is 1 N per square metre.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-285",
@@ -5928,7 +6995,11 @@
    "explanation": "Air presses on objects from all sides.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-286",
@@ -5948,7 +7019,10 @@
    "explanation": "Liquid pressure rises with depth.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-287",
@@ -5969,7 +7043,11 @@
    "explanation": "Sucking lowers pressure in the straw, and the higher atmospheric pressure on the liquid pushes it up.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-288",
@@ -5990,7 +7068,11 @@
    "explanation": "Rolling friction is smaller than sliding friction.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-289",
@@ -6010,7 +7092,10 @@
    "explanation": "Powders and oils act as lubricants.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-290",
@@ -6031,7 +7116,11 @@
    "explanation": "The eardrum is a thin stretched membrane that vibrates when sound waves reach it.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-291",
@@ -6052,7 +7141,11 @@
    "explanation": "Sound needs a medium, and a vacuum is empty.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-292",
@@ -6073,7 +7166,11 @@
    "explanation": "Ultrasonic sounds are above the audible range of humans.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-293",
@@ -6093,7 +7190,10 @@
    "explanation": "What is pleasant depends on the type of vibration.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-294",
@@ -6114,7 +7214,11 @@
    "explanation": "A longer vibrating part vibrates more slowly, so the frequency and pitch are lower.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-295",
@@ -6135,7 +7239,11 @@
    "explanation": "Sound travels faster in a solid such as steel than in air.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-296",
@@ -6155,7 +7263,10 @@
    "explanation": "The ear converts vibrations to nerve signals.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-297",
@@ -6176,7 +7287,11 @@
    "explanation": "Distilled water has no dissolved salts, so it does not conduct. Tap water contains salts and does.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-298",
@@ -6197,7 +7312,11 @@
    "explanation": "Conductors allow current to flow through them.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-299",
@@ -6218,7 +7337,11 @@
    "explanation": "Copper from the solution is deposited on the article to be plated.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-300",
@@ -6239,7 +7362,11 @@
    "explanation": "Water splits into hydrogen and oxygen, and hydrogen is released at the negative electrode.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-301",
@@ -6258,7 +7385,10 @@
    "explanation": "A thin coat of metal changes the surface of an object.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-302",
@@ -6279,7 +7409,11 @@
    "explanation": "A weak current may be too small to light a bulb but can light an LED.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-303",
@@ -6300,7 +7434,11 @@
    "explanation": "The voltage of a cell is low and safe, but mains voltage can be fatal.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-304",
@@ -6320,7 +7458,10 @@
    "explanation": "A liquid conducts only if it has charged particles that are free to move.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-305",
@@ -6341,7 +7482,11 @@
    "explanation": "Rubbing two different objects together can transfer charge and charge them.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-306",
@@ -6362,7 +7507,11 @@
    "explanation": "The Earth's outermost layer is divided into moving plates, and their movements cause earthquakes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-307",
@@ -6383,7 +7532,11 @@
    "explanation": "The image in a plane mirror is as far behind the mirror as the object is in front.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-308",
@@ -6404,7 +7557,11 @@
    "explanation": "Mirrors inclined at an angle give many images by repeated reflection.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-309",
@@ -6424,7 +7581,10 @@
    "explanation": "Periscopes use the reflection of light.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-310",
@@ -6445,7 +7605,11 @@
    "explanation": "Violet bends the most and red the least, so the colours spread out.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-311",
@@ -6466,7 +7630,11 @@
    "explanation": "The colours blend in the eye and the disc appears nearly white (Newton's disc).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-312",
@@ -6486,7 +7654,10 @@
    "explanation": "Real images can be caught on a screen, but virtual ones cannot.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-313",
@@ -6507,7 +7678,11 @@
    "explanation": "The soil must be prepared by ploughing and levelling before seeds are sown.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-314",
@@ -6528,7 +7703,11 @@
    "explanation": "A plough, pulled by animals or a tractor, is used for tilling the soil.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-315",
@@ -6549,7 +7728,11 @@
    "explanation": "Urea is rich in nitrogen, which plants need to make proteins and to grow leaves.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-316",
@@ -6569,7 +7752,10 @@
    "explanation": "Both supply nutrients, but in different ways.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-317",
@@ -6590,7 +7776,11 @@
    "explanation": "Pulse plants have bacteria in their roots that fix nitrogen, so they enrich the soil.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-318",
@@ -6611,7 +7801,11 @@
    "explanation": "Crowded seedlings compete for resources, so each plant grows poorly.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-319",
@@ -6631,7 +7825,10 @@
    "explanation": "Each crop is suited to the weather of its season.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-320",
@@ -6652,7 +7849,11 @@
    "explanation": "Microorganisms are too tiny for the naked eye.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-321",
@@ -6673,7 +7874,11 @@
    "explanation": "Spirogyra is a green alga found in ponds.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-322",
@@ -6694,7 +7899,11 @@
    "explanation": "Penicillin is made by Penicillium, a fungus.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-323",
@@ -6714,7 +7923,10 @@
    "explanation": "Harmful microbes are called pathogens when they cause disease.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-324",
@@ -6735,7 +7947,11 @@
    "explanation": "Microbes growing on food produce toxins that can make us ill.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-325",
@@ -6756,7 +7972,11 @@
    "explanation": "A high sugar content draws out water, which stops the growth of microbes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-326",
@@ -6776,7 +7996,10 @@
    "explanation": "Cholera spreads through contaminated water and food.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-327",
@@ -6797,7 +8020,11 @@
    "explanation": "PVC is a strong plastic used for pipes and for covering electric wires.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-328",
@@ -6818,7 +8045,11 @@
    "explanation": "Polyester is a synthetic fibre made from petrochemicals. Cotton, wool and silk are natural.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-329",
@@ -6839,7 +8070,11 @@
    "explanation": "Nylon is very strong, elastic and does not wear out easily.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-330",
@@ -6859,7 +8094,10 @@
    "explanation": "Nylon's strength decides its uses.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-331",
@@ -6880,7 +8118,11 @@
    "explanation": "Plastics soften or burn at high temperatures.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-332",
@@ -6901,7 +8143,11 @@
    "explanation": "Burning plastics releases poisonous fumes that pollute the air.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-333",
@@ -6921,7 +8167,10 @@
    "explanation": "Their proper use and disposal is important.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-334",
@@ -6942,7 +8191,11 @@
    "explanation": "Oxygen in the air is needed for respiration.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-335",
@@ -6963,7 +8216,11 @@
    "explanation": "Most metals conduct heat and electricity well and are shiny and malleable.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-336",
@@ -6984,7 +8241,11 @@
    "explanation": "Metal oxides are basic in nature, whereas non-metal oxides are acidic.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-337",
@@ -7004,7 +8265,10 @@
    "explanation": "The properties of metals decide their use.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-338",
@@ -7025,7 +8289,11 @@
    "explanation": "Metals such as iron react with dilute acid to release hydrogen. Non-metals such as sulphur do not.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-339",
@@ -7046,7 +8314,11 @@
    "explanation": "Mercury remains liquid at ordinary temperatures and expands steadily with heat.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-340",
@@ -7066,7 +8338,10 @@
    "explanation": "A plastic spoon would stay cooler.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-341",
@@ -7087,7 +8362,11 @@
    "explanation": "Coke is a tough, porous residue made by heating coal in the absence of air.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-342",
@@ -7108,7 +8387,11 @@
    "explanation": "Coal tar is a black, thick liquid with a strong smell, used to make paints, dyes and other products.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-343",
@@ -7129,7 +8412,11 @@
    "explanation": "Coal gas is produced when coal is processed and is used as a fuel in industries.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-344",
@@ -7150,7 +8437,11 @@
    "explanation": "Diesel is used in trucks, buses and trains.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-345",
@@ -7170,7 +8461,10 @@
    "explanation": "Natural gas is a cleaner fossil fuel.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-346",
@@ -7191,7 +8485,11 @@
    "explanation": "LPG burns cleanly with little smoke and gives a large amount of heat.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-347",
@@ -7212,7 +8510,11 @@
    "explanation": "Ventilating the room without any spark prevents the gas from catching fire.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-348",
@@ -7232,7 +8534,10 @@
    "explanation": "Fossil fuels are non-renewable.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-349",
@@ -7253,7 +8558,11 @@
    "explanation": "Complete combustion of a carbon fuel gives carbon dioxide and water, with heat and light.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-350",
@@ -7274,7 +8583,11 @@
    "explanation": "Oxygen is the supporter of combustion.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-351",
@@ -7295,7 +8608,11 @@
    "explanation": "Coke is a solid fuel. LPG is a gas, and kerosene and petrol are liquids.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-352",
@@ -7316,7 +8633,11 @@
    "explanation": "LPG releases more heat per kilogram than coal, wood or dung cakes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-353",
@@ -7336,7 +8657,10 @@
    "explanation": "Explosive substances release energy very quickly.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-354",
@@ -7357,7 +8681,11 @@
    "explanation": "CNG burns more cleanly than petrol or diesel.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-355",
@@ -7378,7 +8706,11 @@
    "explanation": "More surface exposed to oxygen allows faster burning.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-356",
@@ -7398,7 +8730,10 @@
    "explanation": "Carbon dioxide is also useful as it does not harm electrical equipment.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-357",
@@ -7419,7 +8754,11 @@
    "explanation": "Biodiversity is the variety of living things in a region.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-358",
@@ -7440,7 +8779,11 @@
    "explanation": "A habitat is the natural home of an organism.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-359",
@@ -7461,7 +8804,11 @@
    "explanation": "Fewer trees mean less transpiration and fewer rain clouds, so rainfall may fall.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-360",
@@ -7482,7 +8829,11 @@
    "explanation": "Migration takes animals to places suitable for food, weather or breeding.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-361",
@@ -7502,7 +8853,10 @@
    "explanation": "Both help to conserve wildlife.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-362",
@@ -7523,7 +8877,11 @@
    "explanation": "Replanting trees keeps the forest cover from shrinking.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-363",
@@ -7544,7 +8902,11 @@
    "explanation": "Living things are linked in food chains and webs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-364",
@@ -7564,7 +8926,10 @@
    "explanation": "Forests play a major role in the water cycle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-365",
@@ -7585,7 +8950,11 @@
    "explanation": "Cellulose makes the cell wall rigid.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-366",
@@ -7606,7 +8975,11 @@
    "explanation": "Chlorophyll in chloroplasts traps sunlight for photosynthesis.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-367",
@@ -7627,7 +9000,11 @@
    "explanation": "A banyan tree has billions of cells. The others consist of a single cell.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-368",
@@ -7648,7 +9025,11 @@
    "explanation": "Cells form tissues, tissues form organs, and organs work together as organ systems.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-369",
@@ -7668,7 +9049,10 @@
    "explanation": "Any three correct parts are accepted.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-370",
@@ -7689,7 +9073,11 @@
    "explanation": "Animal cells have a nucleus and a membrane, but no cell wall or chloroplasts.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-371",
@@ -7710,7 +9098,11 @@
    "explanation": "When the vacuoles lose water, the cells become soft and the plant droops.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-372",
@@ -7730,7 +9122,10 @@
    "explanation": "Unicellular organisms are complete living beings.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-373",
@@ -7751,7 +9146,11 @@
    "explanation": "Testes (singular testis) produce sperms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-374",
@@ -7772,7 +9171,11 @@
    "explanation": "Gametes are the sex cells used in sexual reproduction.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-375",
@@ -7793,7 +9196,11 @@
    "explanation": "A butterfly changes from egg to larva to pupa to adult.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-376",
@@ -7814,7 +9221,11 @@
    "explanation": "Cows fertilise eggs inside the female body. Frogs, toads and most bony fish fertilise outside the body.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-377",
@@ -7834,7 +9245,10 @@
    "explanation": "The testes are the main organs of the male reproductive system.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-378",
@@ -7855,7 +9269,11 @@
    "explanation": "Warmth is necessary for the embryo inside a fertilised egg to grow.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-379",
@@ -7876,7 +9294,11 @@
    "explanation": "A zygote that divides into two separate embryos gives identical twins.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-380",
@@ -7896,7 +9318,10 @@
    "explanation": "External fertilisation is more chancy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-381",
@@ -7917,7 +9342,11 @@
    "explanation": "A growth spurt is the quick growth in height at the start of adolescence.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-382",
@@ -7938,7 +9367,11 @@
    "explanation": "The larynx holds the vocal cords.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-383",
@@ -7959,7 +9392,11 @@
    "explanation": "The pituitary releases growth hormone that controls growth of the body.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-384",
@@ -7980,7 +9417,11 @@
    "explanation": "If the egg is not fertilised, the thick lining of the uterus is shed with blood.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-385",
@@ -8000,7 +9441,10 @@
    "explanation": "The cycle is controlled by hormones.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-386",
@@ -8021,7 +9465,11 @@
    "explanation": "After fertilisation, the thick lining of the uterus nourishes the developing embryo.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-387",
@@ -8042,7 +9490,11 @@
    "explanation": "Iron is needed for haemoglobin in red blood cells.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-388",
@@ -8062,7 +9514,10 @@
    "explanation": "It is called the master gland.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-389",
@@ -8083,7 +9538,11 @@
    "explanation": "Gravity is the force of attraction of the Earth.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-390",
@@ -8104,7 +9563,11 @@
    "explanation": "Friction opposes the relative motion of two surfaces that touch each other.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-391",
@@ -8125,7 +9588,11 @@
    "explanation": "Pressure equals force divided by area, so a smaller area gives higher pressure.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-392",
@@ -8145,7 +9612,10 @@
    "explanation": "Air has weight and exerts pressure.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-393",
@@ -8166,7 +9636,11 @@
    "explanation": "The same weight acts on half the area, so the pressure is twice as much.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-394",
@@ -8187,7 +9661,11 @@
    "explanation": "Wide tyres decrease pressure on the ground, so the tractor does not sink in soft soil.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-395",
@@ -8207,7 +9685,10 @@
    "explanation": "Pressure is inversely related to area.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-396",
@@ -8228,7 +9709,11 @@
    "explanation": "Time period is the time for one oscillation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-397",
@@ -8249,7 +9734,11 @@
    "explanation": "A sitar has strings that vibrate. A drum uses a stretched membrane, and a flute an air column.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-398",
@@ -8270,7 +9759,11 @@
    "explanation": "A mosquito's wings vibrate very fast, so its sound has a high frequency.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-399",
@@ -8290,7 +9783,10 @@
    "explanation": "Loudness depends on the amplitude.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-400",
@@ -8311,7 +9807,11 @@
    "explanation": "Frequency is the number of vibrations per second, which is 200 divided by 0.5 = 400 Hz.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-401",
@@ -8332,7 +9832,11 @@
    "explanation": "The audible range is about 20 Hz to 20,000 Hz, so 25,000 Hz is above it.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-402",
@@ -8352,7 +9856,10 @@
    "explanation": "Pitch depends on frequency.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-403",
@@ -8373,7 +9880,11 @@
    "explanation": "The path must be continuous for current to flow.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-404",
@@ -8394,7 +9905,11 @@
    "explanation": "Copper is a metal and allows current to pass easily.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-405",
@@ -8415,7 +9930,11 @@
    "explanation": "The metal is deposited on the electrode connected to the negative terminal of the battery.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-406",
@@ -8435,7 +9954,10 @@
    "explanation": "Most metals are conductors.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-407",
@@ -8456,7 +9978,11 @@
    "explanation": "A dim glow means only a small current is passing.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-408",
@@ -8477,7 +10003,11 @@
    "explanation": "Ordinary water conducts current, so there is a risk of a shock.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-409",
@@ -8497,7 +10027,10 @@
    "explanation": "The set-up is a type of electrolysis.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-410",
@@ -8518,7 +10051,11 @@
    "explanation": "The order is violet, indigo, blue, green, yellow, orange and red.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-411",
@@ -8539,7 +10076,11 @@
    "explanation": "The epicentre lies directly above the focus where the earthquake begins.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-412",
@@ -8560,7 +10101,11 @@
    "explanation": "The angle of reflection equals the angle of incidence.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-413",
@@ -8580,7 +10125,10 @@
    "explanation": "Lightning is attracted to tall objects.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-414",
@@ -8601,7 +10149,11 @@
    "explanation": "Light, well-framed buildings are less likely to collapse during shaking.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-415",
@@ -8622,7 +10174,11 @@
    "explanation": "She is now 2 m from the mirror and the image is 2 m behind it, so they are 4 m apart.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-416",
@@ -8642,7 +10198,10 @@
    "explanation": "This is an example of static electricity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-417",
@@ -8663,7 +10222,11 @@
    "explanation": "Groundnut seeds are crushed to obtain oil, so it is an oilseed crop.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-418",
@@ -8684,7 +10247,11 @@
    "explanation": "A sickle has a curved blade and is used to cut mature crops by hand.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-419",
@@ -8705,7 +10272,11 @@
    "explanation": "A sprinkler gives water like rain, so it suits uneven land and saves water.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-420",
@@ -8726,7 +10297,11 @@
    "explanation": "Crops take nutrients from the soil, and fertilisers and manure put them back.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-421",
@@ -8746,7 +10321,10 @@
    "explanation": "On small farms it can be done by beating the crop by hand.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-422",
@@ -8767,7 +10345,11 @@
    "explanation": "Manure adds humus, and crop rotation restores nutrients.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-423",
@@ -8788,7 +10370,11 @@
    "explanation": "Weeds take away resources and reduce the yield of the crop.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-424",
@@ -8808,7 +10394,10 @@
    "explanation": "Without water a seed remains dormant.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-425",
@@ -8829,7 +10418,11 @@
    "explanation": "Amoeba is a single-celled protozoan.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-426",
@@ -8850,7 +10443,11 @@
    "explanation": "Antibiotics act against bacteria.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-427",
@@ -8871,7 +10468,11 @@
    "explanation": "Yeast ferments sugar into alcohol, which is used to make wine and beer.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-428",
@@ -8892,7 +10493,11 @@
    "explanation": "The Aedes mosquito carries the dengue virus.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-429",
@@ -8911,7 +10516,10 @@
    "explanation": "Preservation prevents spoilage by microorganisms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-430",
@@ -8932,7 +10540,11 @@
    "explanation": "Chemical preservatives slow or stop the growth of microbes in food.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-431",
@@ -8953,7 +10565,11 @@
    "explanation": "Vaccines let the body make antibodies in advance.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-432",
@@ -8973,7 +10589,10 @@
    "explanation": "Hygiene prevents the spread of germs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-433",
@@ -8994,7 +10613,11 @@
    "explanation": "Synthetic fibres are man-made, from chemicals.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-434",
@@ -9015,7 +10638,11 @@
    "explanation": "Teflon is slippery and heat resistant, so it is used as a non-stick coating.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-435",
@@ -9036,7 +10663,11 @@
    "explanation": "Polyester crumples very little and dries fast, so it is popular for clothes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-436",
@@ -9056,7 +10687,10 @@
    "explanation": "PET is a widely used thermoplastic.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-437",
@@ -9077,7 +10711,11 @@
    "explanation": "Blended fabrics combine useful properties of both fibres.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-438",
@@ -9098,7 +10736,11 @@
    "explanation": "Reusing bags reduces the amount of plastic that is thrown away.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-439",
@@ -9118,7 +10760,10 @@
    "explanation": "Both kinds have advantages and disadvantages.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-440",
@@ -9139,7 +10784,11 @@
    "explanation": "Gold is a shiny, soft and unreactive metal used in jewellery.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-441",
@@ -9160,7 +10809,11 @@
    "explanation": "Aluminium is a metal. Oxygen, carbon and sulphur are non-metals.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-442",
@@ -9181,7 +10834,11 @@
    "explanation": "Carbon combines with oxygen to form carbon dioxide.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-443",
@@ -9201,7 +10858,10 @@
    "explanation": "There are a few exceptions, such as graphite and mercury.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-444",
@@ -9222,7 +10882,11 @@
    "explanation": "Metals can be bent or drawn without breaking, but solid non-metals break easily.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-445",
@@ -9243,7 +10907,11 @@
    "explanation": "Silver forms a dark layer of tarnish by reacting with compounds in the air.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-446",
@@ -9263,7 +10931,10 @@
    "explanation": "Insulators keep the handle safe to touch.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-447",
@@ -9284,7 +10955,11 @@
    "explanation": "Crude petroleum is refined to get petrol, diesel and kerosene.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-448",
@@ -9305,7 +10980,11 @@
    "explanation": "Coal is a black, hard, solid fuel.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-449",
@@ -9326,7 +11005,11 @@
    "explanation": "Many useful chemicals are made from coal tar.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-450",
@@ -9346,7 +11029,10 @@
    "explanation": "Coal is an important source of energy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-451",
@@ -9367,7 +11053,11 @@
    "explanation": "CNG burns more completely and is a cleaner fuel.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-452",
@@ -9388,7 +11078,11 @@
    "explanation": "Natural gas is lighter than oil, so it collects above it.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-453",
@@ -9408,7 +11102,10 @@
    "explanation": "Fossil fuels are non-renewable.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-454",
@@ -9429,7 +11126,11 @@
    "explanation": "Each substance has its own ignition temperature.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-455",
@@ -9450,7 +11151,11 @@
    "explanation": "Petrol has a very low ignition temperature and burns easily, so it is inflammable.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-456",
@@ -9471,7 +11176,11 @@
    "explanation": "Water absorbs heat and brings the temperature below ignition temperature.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-457",
@@ -9491,7 +11200,10 @@
    "explanation": "Combustibility depends on the substance.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-458",
@@ -9512,7 +11224,11 @@
    "explanation": "Carbon monoxide cannot be seen or smelt, and it is poisonous when breathed.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-459",
@@ -9533,7 +11249,11 @@
    "explanation": "Sand covers the fire and keeps oxygen from reaching it.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-460",
@@ -9553,7 +11273,10 @@
    "explanation": "Fuels are compared by calorific value.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-461",
@@ -9574,7 +11297,11 @@
    "explanation": "Flora refers to plants and fauna refers to animals.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-462",
@@ -9595,7 +11322,11 @@
    "explanation": "Deforestation is the clearing of forests.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-463",
@@ -9616,7 +11347,11 @@
    "explanation": "Migratory animals travel regularly for food, climate or breeding.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-464",
@@ -9636,7 +11371,10 @@
    "explanation": "It is kept by conservation organisations.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-465",
@@ -9657,7 +11395,11 @@
    "explanation": "Waste poisons the water and kills fish and plants.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-466",
@@ -9678,7 +11420,11 @@
    "explanation": "Buying them encourages hunting of wild animals.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-467",
@@ -9698,7 +11444,10 @@
    "explanation": "Reducing demand reduces cutting of forests.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-468",
@@ -9719,7 +11468,11 @@
    "explanation": "The rigid cell wall surrounds the cell membrane in plant cells.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-469",
@@ -9740,7 +11493,11 @@
    "explanation": "The nucleus contains chromosomes carrying genes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-470",
@@ -9761,7 +11518,11 @@
    "explanation": "Plant cells have a large central vacuole, while animal cells have small ones.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-471",
@@ -9781,7 +11542,10 @@
    "explanation": "Organelles divide the work of the cell.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-472",
@@ -9802,7 +11566,11 @@
    "explanation": "Only cells with chloroplasts can trap sunlight to make food.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-473",
@@ -9823,7 +11591,11 @@
    "explanation": "Chloroplasts are found where light reaches, as in leaves.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-474",
@@ -9843,7 +11615,10 @@
    "explanation": "It acts like the brain of the cell.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-475",
@@ -9864,7 +11639,11 @@
    "explanation": "Sexual reproduction needs a male and a female gamete.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-476",
@@ -9885,7 +11664,11 @@
    "explanation": "The fertilised egg is called a zygote.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-477",
@@ -9906,7 +11689,11 @@
    "explanation": "The embryo is called a foetus once its body parts can be identified.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-478",
@@ -9926,7 +11713,10 @@
    "explanation": "Asexual reproduction does not involve gametes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-479",
@@ -9947,7 +11737,11 @@
    "explanation": "Tadpoles live in water, and their gills work only in water.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-480",
@@ -9968,7 +11762,11 @@
    "explanation": "The zygote gets genetic material from both gametes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-481",
@@ -9988,7 +11786,10 @@
    "explanation": "Features are passed on through genes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-482",
@@ -10009,7 +11810,11 @@
    "explanation": "Endocrine glands release hormones into the blood.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-483",
@@ -10030,7 +11835,11 @@
    "explanation": "Puberty is the stage when sexual maturity is reached.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-484",
@@ -10051,7 +11860,11 @@
    "explanation": "The adrenal glands sit on top of the two kidneys.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-485",
@@ -10071,7 +11884,10 @@
    "explanation": "Iodine is needed by the thyroid gland.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-486",
@@ -10092,7 +11908,11 @@
    "explanation": "Oily skin at puberty causes pimples, and good hygiene helps.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-487",
@@ -10113,7 +11933,11 @@
    "explanation": "The first period is a sign of puberty in girls.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-488",
@@ -10133,7 +11957,10 @@
    "explanation": "Healthy habits in adolescence matter a lot.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-489",
@@ -10154,7 +11981,11 @@
    "explanation": "Squeezing makes the sponge change its shape.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-490",
@@ -10175,7 +12006,11 @@
    "explanation": "A barometer is used to measure air pressure.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-491",
@@ -10196,7 +12031,11 @@
    "explanation": "Rougher surfaces and a greater pressing force give more friction.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-492",
@@ -10217,7 +12056,11 @@
    "explanation": "Oil and grease keep the surfaces from rubbing directly.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-493",
@@ -10237,7 +12080,10 @@
    "explanation": "Gravity is a non-contact force.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-494",
@@ -10258,7 +12104,11 @@
    "explanation": "Water between the tyres and the road reduces friction.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "science-c8-495",
@@ -10279,7 +12129,11 @@
    "explanation": "The upward push of the air on the card is more than the weight of the water.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "science-c8-496",
@@ -10299,7 +12153,10 @@
    "explanation": "Brakes work by increasing friction.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "science-c8-497",
@@ -10320,7 +12177,11 @@
    "explanation": "Vibrations pass through air as sound waves.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "science-c8-498",
@@ -10341,7 +12202,11 @@
    "explanation": "In a flute the air inside the tube vibrates.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-499",
@@ -10362,7 +12227,11 @@
    "explanation": "An echo is the repetition of a sound after it bounces back from a surface.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "science-c8-500",
@@ -10383,7 +12252,11 @@
    "explanation": "Sound travels at roughly 340 m/s in air at ordinary temperatures.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   }
  ]
 }
