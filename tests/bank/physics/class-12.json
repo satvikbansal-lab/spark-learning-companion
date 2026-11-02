@@ -4293,7 +4293,8 @@
    "reviewed": false,
    "crossCheck": {
     "result": "disagree",
-    "checkerAnswer": "A"
+    "checkerAnswer": "A",
+    "note": " Reviewed: worked out by hand; the key is right, the checker was wrong."
    }
   },
   {
@@ -9143,7 +9144,8 @@
    "reviewed": false,
    "crossCheck": {
     "result": "disagree",
-    "checkerAnswer": "A"
+    "checkerAnswer": "A",
+    "note": " Reviewed: worked out by hand; the key is right, the checker was wrong."
    }
   },
   {
