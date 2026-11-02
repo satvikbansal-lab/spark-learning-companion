@@ -1,0 +1,5488 @@
+{
+ "class": 12,
+ "subject": "chemistry",
+ "items": [
+  {
+   "id": "chemistry-c12-001",
+   "type": "mcq",
+   "q": "Which of the following is an amorphous solid?",
+   "options": [
+    "Glass",
+    "Sodium chloride",
+    "Diamond",
+    "Copper"
+   ]
+  },
+  {
+   "id": "chemistry-c12-002",
+   "type": "mcq",
+   "q": "How many atoms effectively belong to one face-centred cubic (fcc) unit cell?",
+   "options": [
+    "1",
+    "2",
+    "4",
+    "8"
+   ]
+  },
+  {
+   "id": "chemistry-c12-003",
+   "type": "mcq",
+   "q": "What is the packing efficiency of a body-centred cubic (bcc) structure?",
+   "options": [
+    "52.4%",
+    "68%",
+    "74%",
+    "100%"
+   ]
+  },
+  {
+   "id": "chemistry-c12-004",
+   "type": "mcq",
+   "q": "Which defect lowers the density of an ionic crystal because equal numbers of cations and anions are missing from the lattice?",
+   "options": [
+    "Frenkel defect",
+    "Interstitial defect in a metal crystal",
+    "F-centre formation",
+    "Schottky defect"
+   ]
+  },
+  {
+   "id": "chemistry-c12-005",
+   "type": "mcq",
+   "q": "Copper crystallises in an fcc lattice with edge length 361 pm. Taking the molar mass of Cu as 63.5 g/mol and N_A = 6.022 x 10²³ mol⁻¹, its density is closest to:",
+   "options": [
+    "4.48 g cm⁻³",
+    "17.9 g cm⁻³",
+    "8.97 g cm⁻³",
+    "6.72 g cm⁻³"
+   ]
+  },
+  {
+   "id": "chemistry-c12-006",
+   "type": "mcq",
+   "q": "In an ionic solid the radius ratio r(cation)/r(anion) is 0.50. The cation is most likely surrounded by how many anions?",
+   "options": [
+    "6",
+    "4",
+    "8",
+    "3"
+   ]
+  },
+  {
+   "id": "chemistry-c12-007",
+   "type": "short",
+   "q": "State two differences between crystalline and amorphous solids.",
+   "proposedAnswer": "Crystalline solids have long-range regular arrangement of particles, a sharp melting point and are anisotropic; amorphous solids have only short-range order, melt over a range of temperature and are isotropic.",
+   "keyPoints": [
+    "Crystalline: long-range order; amorphous: short-range order",
+    "Crystalline: sharp melting point; amorphous: melts over a range",
+    "Crystalline are anisotropic; amorphous are isotropic"
+   ]
+  },
+  {
+   "id": "chemistry-c12-008",
+   "type": "short",
+   "q": "How many unit cells are present in 1 mole of a metal that crystallises in an fcc structure?",
+   "proposedAnswer": "About 1.51 x 10²³ unit cells.",
+   "keyPoints": [
+    "fcc unit cell contains 4 atoms",
+    "1 mole has 6.022 x 10²³ atoms",
+    "Unit cells = 6.022 x 10²³ / 4 ≈ 1.51 x 10²³"
+   ]
+  },
+  {
+   "id": "chemistry-c12-009",
+   "type": "mcq",
+   "q": "Molality is defined as the number of moles of solute per:",
+   "options": [
+    "litre of solution",
+    "kilogram of solution",
+    "100 g of solvent",
+    "kilogram of solvent"
+   ]
+  },
+  {
+   "id": "chemistry-c12-010",
+   "type": "mcq",
+   "q": "Which statement is Henry's law?",
+   "options": [
+    "The vapour pressure of a solution is proportional to the mole fraction of the solvent.",
+    "The partial pressure of a gas over a solution is proportional to the mole fraction of the gas in the solution.",
+    "The elevation in boiling point is proportional to the molality of the solute.",
+    "The osmotic pressure of a solution depends only on temperature."
+   ]
+  },
+  {
+   "id": "chemistry-c12-011",
+   "type": "mcq",
+   "q": "What is the van't Hoff factor for a dilute solution of K₂SO₄ if it dissociates completely?",
+   "options": [
+    "3",
+    "2",
+    "4",
+    "1"
+   ]
+  },
+  {
+   "id": "chemistry-c12-012",
+   "type": "mcq",
+   "q": "18 g of glucose (molar mass 180 g/mol) is dissolved in 500 g of water. The molality of the solution is:",
+   "options": [
+    "0.1 m",
+    "0.4 m",
+    "0.2 m",
+    "2.0 m"
+   ]
+  },
+  {
+   "id": "chemistry-c12-013",
+   "type": "mcq",
+   "q": "6.0 g of urea (molar mass 60 g/mol) is dissolved in 200 g of water. Taking K_f of water as 1.86 K kg mol⁻¹, the depression in freezing point is:",
+   "options": [
+    "0.465 K",
+    "0.93 K",
+    "1.86 K",
+    "3.72 K"
+   ]
+  },
+  {
+   "id": "chemistry-c12-014",
+   "type": "mcq",
+   "q": "A mixture of acetone and chloroform shows negative deviation from Raoult's law. This is because:",
+   "options": [
+    "acetone–chloroform attractions are weaker than those in the pure liquids",
+    "mixing is endothermic (ΔH_mix > 0)",
+    "the volume increases on mixing (ΔV_mix > 0)",
+    "hydrogen bonding between acetone and chloroform makes the A–B attractions stronger than A–A and B–B"
+   ]
+  },
+  {
+   "id": "chemistry-c12-015",
+   "type": "short",
+   "q": "State Raoult's law for a solution containing volatile components.",
+   "proposedAnswer": "For a solution of volatile liquids, the partial vapour pressure of each component is directly proportional to its mole fraction in the solution: p₁ = x₁p₁°, and the total pressure is the sum of the partial pressures.",
+   "keyPoints": [
+    "Partial vapour pressure of a component is proportional to its mole fraction",
+    "p = x p° (p° is the vapour pressure of the pure component)",
+    "Total pressure = sum of partial pressures"
+   ]
+  },
+  {
+   "id": "chemistry-c12-016",
+   "type": "short",
+   "q": "The molar mass of acetic acid determined from the freezing point depression in benzene is nearly double its actual value. Explain.",
+   "proposedAnswer": "In benzene, acetic acid molecules associate into dimers through hydrogen bonding, so the number of particles is about half. The van't Hoff factor is about 0.5, and since molar mass is inversely proportional to the colligative effect, the observed molar mass is about double.",
+   "keyPoints": [
+    "Acetic acid dimerises in benzene via hydrogen bonds",
+    "Number of solute particles decreases, so i ≈ 0.5",
+    "Observed colligative effect is smaller, so calculated molar mass is larger (about twice)"
+   ]
+  },
+  {
+   "id": "chemistry-c12-017",
+   "type": "mcq",
+   "q": "At which electrode does oxidation take place in a galvanic cell?",
+   "options": [
+    "Cathode",
+    "Salt bridge",
+    "Anode",
+    "Electrolyte"
+   ]
+  },
+  {
+   "id": "chemistry-c12-018",
+   "type": "mcq",
+   "q": "What is the SI unit of molar conductivity?",
+   "options": [
+    "S m² mol⁻¹",
+    "S m⁻¹",
+    "Ω m",
+    "mol L⁻¹"
+   ]
+  },
+  {
+   "id": "chemistry-c12-019",
+   "type": "mcq",
+   "q": "Given E°(Zn²⁺/Zn) = −0.76 V and E°(Cu²⁺/Cu) = +0.34 V, what is the standard EMF of the Daniell cell Zn | Zn²⁺ || Cu²⁺ | Cu?",
+   "options": [
+    "0.42 V",
+    "−1.10 V",
+    "0.76 V",
+    "1.10 V"
+   ]
+  },
+  {
+   "id": "chemistry-c12-020",
+   "type": "mcq",
+   "q": "How much charge is required to deposit 1 mole of aluminium from Al³⁺ ions? (F = 96 500 C mol⁻¹)",
+   "options": [
+    "96 500 C",
+    "2.895 x 10⁵ C",
+    "1.93 x 10⁵ C",
+    "2.895 x 10⁴ C"
+   ]
+  },
+  {
+   "id": "chemistry-c12-021",
+   "type": "mcq",
+   "q": "A current of 2.0 A is passed through aqueous CuSO₄ for 1930 s using copper electrodes. Taking the molar mass of Cu as 63.5 g/mol and F = 96 500 C mol⁻¹, the mass of copper deposited is:",
+   "options": [
+    "1.27 g",
+    "0.635 g",
+    "2.54 g",
+    "3.18 g"
+   ]
+  },
+  {
+   "id": "chemistry-c12-022",
+   "type": "mcq",
+   "q": "Standard electrode potentials are: Zn²⁺/Zn −0.76 V, Fe²⁺/Fe −0.44 V, Cu²⁺/Cu +0.34 V, Mg²⁺/Mg −2.37 V. Which metal will not liberate hydrogen from dilute HCl?",
+   "options": [
+    "Zn",
+    "Fe",
+    "Cu",
+    "Mg"
+   ]
+  },
+  {
+   "id": "chemistry-c12-023",
+   "type": "short",
+   "q": "State Kohlrausch's law of independent migration of ions.",
+   "proposedAnswer": "At infinite dilution, the limiting molar conductivity of an electrolyte is the sum of the limiting molar conductivities of its cations and anions, each ion contributing independently of the other ion present.",
+   "keyPoints": [
+    "Applies at infinite dilution",
+    "Λm° = ν₊λ₊° + ν₋λ₋°",
+    "Each ion contributes a fixed value independent of the other ion"
+   ]
+  },
+  {
+   "id": "chemistry-c12-024",
+   "type": "short",
+   "q": "Calculate the EMF at 298 K of the cell Zn | Zn²⁺(0.01 M) || Cu²⁺(1 M) | Cu, given E°cell = 1.10 V. Use 2.303RT/F = 0.0592 V.",
+   "proposedAnswer": "E = 1.10 − (0.0592/2) log(0.01/1) = 1.10 + 0.0592 ≈ 1.16 V.",
+   "keyPoints": [
+    "Nernst equation with n = 2",
+    "Q = [Zn²⁺]/[Cu²⁺] = 0.01, log Q = −2",
+    "E ≈ 1.16 V"
+   ]
+  },
+  {
+   "id": "chemistry-c12-025",
+   "type": "mcq",
+   "q": "What is the unit of the rate constant of a first-order reaction?",
+   "options": [
+    "mol L⁻¹ s⁻¹",
+    "s⁻¹",
+    "L mol⁻¹ s⁻¹",
+    "mol L⁻¹"
+   ]
+  },
+  {
+   "id": "chemistry-c12-026",
+   "type": "mcq",
+   "q": "The molecularity of an elementary reaction can be:",
+   "options": [
+    "zero",
+    "a fraction such as ½",
+    "negative",
+    "a positive whole number such as 1, 2 or 3"
+   ]
+  },
+  {
+   "id": "chemistry-c12-027",
+   "type": "mcq",
+   "q": "A first-order reaction has k = 0.0693 min⁻¹. What is its half-life?",
+   "options": [
+    "1.0 min",
+    "100 min",
+    "10 min",
+    "0.693 min"
+   ]
+  },
+  {
+   "id": "chemistry-c12-028",
+   "type": "mcq",
+   "q": "The rate of a reaction usually increases with temperature mainly because:",
+   "options": [
+    "the fraction of molecules with energy equal to or above the activation energy increases",
+    "the activation energy decreases",
+    "the activation energy increases",
+    "the enthalpy of reaction becomes more negative"
+   ]
+  },
+  {
+   "id": "chemistry-c12-029",
+   "type": "mcq",
+   "q": "A first-order reaction is 75% complete in 30 minutes. Its half-life is:",
+   "options": [
+    "7.5 min",
+    "30 min",
+    "45 min",
+    "15 min"
+   ]
+  },
+  {
+   "id": "chemistry-c12-030",
+   "type": "mcq",
+   "q": "For a reaction with rate = k[A]²[B], the concentration of A is doubled and that of B is halved. The rate becomes:",
+   "options": [
+    "unchanged",
+    "twice",
+    "four times",
+    "half"
+   ]
+  },
+  {
+   "id": "chemistry-c12-031",
+   "type": "short",
+   "q": "Write two differences between the order and the molecularity of a reaction.",
+   "proposedAnswer": "Order is determined experimentally from the rate law and can be zero, fractional or a whole number; molecularity is theoretical, applies to an elementary step and is always a positive whole number. Order applies to the overall reaction, molecularity to elementary steps.",
+   "keyPoints": [
+    "Order is experimental; molecularity is theoretical",
+    "Order can be zero or fractional; molecularity cannot",
+    "Molecularity refers to elementary steps only"
+   ]
+  },
+  {
+   "id": "chemistry-c12-032",
+   "type": "short",
+   "q": "A first-order reaction is 20% complete in 10 minutes. Calculate its rate constant.",
+   "proposedAnswer": "k = (2.303/t) log([A]₀/[A]) = (2.303/10) log(100/80) = 0.2303 x 0.0969 ≈ 2.23 x 10⁻² min⁻¹.",
+   "keyPoints": [
+    "Use k = (2.303/t) log([A]₀/[A])",
+    "[A]₀/[A] = 100/80",
+    "k ≈ 2.23 x 10⁻² min⁻¹"
+   ]
+  },
+  {
+   "id": "chemistry-c12-033",
+   "type": "mcq",
+   "q": "Adsorption is best described as:",
+   "options": [
+    "accumulation of a substance on the surface of another substance",
+    "uniform distribution of a substance throughout the bulk of a solid",
+    "dissolution of a gas in the interior of a liquid only",
+    "release of a gas from the surface of a solid"
+   ]
+  },
+  {
+   "id": "chemistry-c12-034",
+   "type": "mcq",
+   "q": "Physisorption is caused by:",
+   "options": [
+    "covalent bonds",
+    "ionic bonds",
+    "van der Waals forces",
+    "metallic bonds"
+   ]
+  },
+  {
+   "id": "chemistry-c12-035",
+   "type": "mcq",
+   "q": "The Tyndall effect shown by colloidal solutions is due to:",
+   "options": [
+    "absorption of light by the particles",
+    "scattering of light by the colloidal particles",
+    "reflection of light from the walls of the container",
+    "complete transmission of light"
+   ]
+  },
+  {
+   "id": "chemistry-c12-036",
+   "type": "mcq",
+   "q": "Which of the following forms a lyophilic colloid with water?",
+   "options": [
+    "Gold sol",
+    "Ferric hydroxide sol",
+    "Arsenious sulphide sol",
+    "Starch"
+   ]
+  },
+  {
+   "id": "chemistry-c12-037",
+   "type": "mcq",
+   "q": "Which ion is the most effective in coagulating a negatively charged arsenious sulphide sol?",
+   "options": [
+    "Cl⁻",
+    "Na⁺",
+    "Al³⁺",
+    "Ca²⁺"
+   ]
+  },
+  {
+   "id": "chemistry-c12-038",
+   "type": "mcq",
+   "q": "A catalyst increases the rate of a reaction by:",
+   "options": [
+    "providing an alternative path with lower activation energy without changing ΔH",
+    "raising the temperature of the system",
+    "shifting the equilibrium towards the products",
+    "changing the enthalpy of the reaction"
+   ]
+  },
+  {
+   "id": "chemistry-c12-039",
+   "type": "short",
+   "q": "Give two differences between physisorption and chemisorption.",
+   "proposedAnswer": "Physisorption involves weak van der Waals forces, is reversible, has low enthalpy of adsorption (about 20–40 kJ/mol) and decreases as temperature rises; chemisorption involves chemical bonds, is irreversible, has high enthalpy (80–240 kJ/mol) and is highly specific.",
+   "keyPoints": [
+    "Physisorption: van der Waals forces; chemisorption: chemical bonds",
+    "Physisorption is reversible and non-specific; chemisorption is irreversible and specific",
+    "Enthalpy of adsorption is low for physisorption and high for chemisorption"
+   ]
+  },
+  {
+   "id": "chemistry-c12-040",
+   "type": "short",
+   "q": "Why is ammonia adsorbed on charcoal much more than hydrogen?",
+   "proposedAnswer": "Ammonia is more easily liquefiable and has a higher critical temperature, so it has stronger van der Waals forces and is adsorbed to a greater extent than hydrogen.",
+   "keyPoints": [
+    "Easily liquefiable gases have higher critical temperatures",
+    "Stronger van der Waals forces with the adsorbent",
+    "Hydrogen has very weak intermolecular forces"
+   ]
+  },
+  {
+   "id": "chemistry-c12-041",
+   "type": "mcq",
+   "q": "Bartlett prepared the first noble gas compound using which element?",
+   "options": [
+    "Helium",
+    "Neon",
+    "Argon",
+    "Xenon"
+   ]
+  },
+  {
+   "id": "chemistry-c12-042",
+   "type": "mcq",
+   "q": "Which halogen has the highest electronegativity?",
+   "options": [
+    "Chlorine",
+    "Fluorine",
+    "Bromine",
+    "Iodine"
+   ]
+  },
+  {
+   "id": "chemistry-c12-043",
+   "type": "mcq",
+   "q": "What is the shape of the ammonia molecule?",
+   "options": [
+    "Trigonal pyramidal",
+    "Trigonal planar",
+    "Tetrahedral",
+    "Bent"
+   ]
+  },
+  {
+   "id": "chemistry-c12-044",
+   "type": "mcq",
+   "q": "The Ostwald process is used for the industrial manufacture of:",
+   "options": [
+    "Ammonia",
+    "Sulphuric acid",
+    "Nitric acid",
+    "Hydrochloric acid"
+   ]
+  },
+  {
+   "id": "chemistry-c12-045",
+   "type": "mcq",
+   "q": "What is the oxidation state of phosphorus in H₃PO₃?",
+   "options": [
+    "+1",
+    "+3",
+    "+5",
+    "+4"
+   ]
+  },
+  {
+   "id": "chemistry-c12-046",
+   "type": "mcq",
+   "q": "Water is a liquid at room temperature while H₂S is a gas mainly because:",
+   "options": [
+    "H₂O has a higher molar mass than H₂S",
+    "sulphur is more electronegative than oxygen",
+    "H₂S forms stronger hydrogen bonds than H₂O",
+    "H₂O molecules are associated through hydrogen bonds"
+   ]
+  },
+  {
+   "id": "chemistry-c12-047",
+   "type": "short",
+   "q": "Why is dinitrogen very unreactive at room temperature?",
+   "proposedAnswer": "The two nitrogen atoms are joined by a triple bond (N≡N) with a very high bond dissociation enthalpy (about 941 kJ/mol), so a large amount of energy is needed to break it and N₂ is inert under ordinary conditions.",
+   "keyPoints": [
+    "N≡N triple bond",
+    "Very high bond enthalpy (about 941 kJ/mol)",
+    "Requires high temperature to react"
+   ]
+  },
+  {
+   "id": "chemistry-c12-048",
+   "type": "short",
+   "q": "Why does phosphorus form PCl₅ but nitrogen does not form NCl₅?",
+   "proposedAnswer": "Phosphorus has vacant 3d orbitals and can expand its octet to show covalency 5; nitrogen has no d orbitals in its second shell and cannot exceed a covalency of four.",
+   "keyPoints": [
+    "P has vacant 3d orbitals",
+    "N has no d orbitals in its valence shell",
+    "N's maximum covalency is 4"
+   ]
+  },
+  {
+   "id": "chemistry-c12-049",
+   "type": "mcq",
+   "q": "The most common oxidation state shown by the lanthanoids is:",
+   "options": [
+    "+2",
+    "+4",
+    "+3",
+    "+5"
+   ]
+  },
+  {
+   "id": "chemistry-c12-050",
+   "type": "mcq",
+   "q": "The colour of an aqueous solution of potassium permanganate (KMnO₄) is:",
+   "options": [
+    "purple",
+    "green",
+    "colourless",
+    "yellow"
+   ]
+  },
+  {
+   "id": "chemistry-c12-051",
+   "type": "mcq",
+   "q": "Zinc (3d¹⁰4s²) is usually not regarded as a transition element because:",
+   "options": [
+    "it is not a metal",
+    "it has no valence electrons",
+    "it has only one oxidation state in its atom",
+    "both the atom and its common ion (Zn²⁺) have a completely filled d subshell"
+   ]
+  },
+  {
+   "id": "chemistry-c12-052",
+   "type": "mcq",
+   "q": "Lanthanoid contraction is mainly due to:",
+   "options": [
+    "the increase in the number of shells along the series",
+    "poor shielding of the nuclear charge by 4f electrons",
+    "decrease in nuclear charge along the series",
+    "complete shielding by 5d electrons"
+   ]
+  },
+  {
+   "id": "chemistry-c12-053",
+   "type": "mcq",
+   "q": "What is the oxidation state of manganese in K₂MnO₄?",
+   "options": [
+    "+6",
+    "+7",
+    "+4",
+    "+2"
+   ]
+  },
+  {
+   "id": "chemistry-c12-054",
+   "type": "mcq",
+   "q": "Which ion is expected to be colourless in aqueous solution?",
+   "options": [
+    "Fe³⁺",
+    "Ti³⁺",
+    "Sc³⁺",
+    "Cu²⁺"
+   ]
+  },
+  {
+   "id": "chemistry-c12-055",
+   "type": "short",
+   "q": "Write any three characteristic properties of transition elements.",
+   "proposedAnswer": "They show variable oxidation states, form coloured compounds, form complex compounds, show catalytic activity, and many of their ions are paramagnetic.",
+   "keyPoints": [
+    "Variable oxidation states",
+    "Formation of coloured ions and complexes",
+    "Catalytic activity and paramagnetism"
+   ]
+  },
+  {
+   "id": "chemistry-c12-056",
+   "type": "short",
+   "q": "Calculate the spin-only magnetic moment of Mn²⁺ (atomic number of Mn = 25).",
+   "proposedAnswer": "Mn²⁺ is 3d⁵, with n = 5 unpaired electrons. μ = √[n(n+2)] = √35 ≈ 5.92 BM.",
+   "keyPoints": [
+    "Mn²⁺ has configuration 3d⁵",
+    "5 unpaired electrons",
+    "μ = √35 ≈ 5.92 BM"
+   ]
+  },
+  {
+   "id": "chemistry-c12-057",
+   "type": "mcq",
+   "q": "What is the coordination number of cobalt in [Co(NH₃)₆]Cl₃?",
+   "options": [
+    "3",
+    "6",
+    "9",
+    "4"
+   ]
+  },
+  {
+   "id": "chemistry-c12-058",
+   "type": "mcq",
+   "q": "Which of the following is a bidentate ligand?",
+   "options": [
+    "NH₃",
+    "Cl⁻",
+    "H₂O",
+    "Ethane-1,2-diamine"
+   ]
+  },
+  {
+   "id": "chemistry-c12-059",
+   "type": "mcq",
+   "q": "What is the oxidation state of iron in K₄[Fe(CN)₆]?",
+   "options": [
+    "+3",
+    "+4",
+    "+2",
+    "0"
+   ]
+  },
+  {
+   "id": "chemistry-c12-060",
+   "type": "mcq",
+   "q": "The IUPAC name of K₃[Fe(CN)₆] is:",
+   "options": [
+    "potassium hexacyanidoferrate(III)",
+    "potassium hexacyanidoferrate(II)",
+    "potassium hexacyanidoferrate(0)",
+    "tripotassium iron(III) hexacyanide"
+   ]
+  },
+  {
+   "id": "chemistry-c12-061",
+   "type": "mcq",
+   "q": "[Ni(CN)₄]²⁻ (Ni²⁺ is d⁸, CN⁻ is a strong-field ligand) is:",
+   "options": [
+    "tetrahedral and paramagnetic",
+    "tetrahedral and diamagnetic",
+    "square planar and paramagnetic",
+    "square planar and diamagnetic"
+   ]
+  },
+  {
+   "id": "chemistry-c12-062",
+   "type": "mcq",
+   "q": "[Co(NH₃)₅Br]SO₄ and [Co(NH₃)₅SO₄]Br are examples of which type of isomerism?",
+   "options": [
+    "Linkage isomerism",
+    "Ionisation isomerism",
+    "Geometrical isomerism",
+    "Optical isomerism"
+   ]
+  },
+  {
+   "id": "chemistry-c12-063",
+   "type": "short",
+   "q": "Define the terms 'ligand' and 'coordination number' with one example of each.",
+   "proposedAnswer": "A ligand is an ion or molecule bound to the central metal atom/ion by a coordinate bond (e.g. NH₃, Cl⁻). The coordination number is the number of ligand donor atoms directly attached to the central metal (e.g. 6 in [Co(NH₃)₆]³⁺).",
+   "keyPoints": [
+    "Ligand: donor ion or molecule attached to the metal",
+    "Coordination number: number of donor atoms bonded to the metal",
+    "Suitable example for each"
+   ]
+  },
+  {
+   "id": "chemistry-c12-064",
+   "type": "short",
+   "q": "Explain why [Fe(CN)₆]³⁻ is an inner orbital, low-spin complex with one unpaired electron.",
+   "proposedAnswer": "Fe³⁺ is d⁵. CN⁻ is a strong-field ligand, so the five d electrons pair up in the t₂g orbitals, leaving one unpaired electron. Two 3d orbitals become available, so d²sp³ hybridisation (inner orbital) occurs, giving an octahedral low-spin complex.",
+   "keyPoints": [
+    "Fe³⁺ is d⁵ and CN⁻ is a strong-field ligand",
+    "Electrons pair up, leaving one unpaired electron",
+    "d²sp³ hybridisation using inner 3d orbitals"
+   ]
+  },
+  {
+   "id": "chemistry-c12-065",
+   "type": "mcq",
+   "q": "What is the IUPAC name of CH₃CH₂CH₂Br?",
+   "options": [
+    "1-Bromopropane",
+    "2-Bromopropane",
+    "3-Bromopropane",
+    "1-Bromoethane"
+   ]
+  },
+  {
+   "id": "chemistry-c12-066",
+   "type": "mcq",
+   "q": "An alkyl halide reacts with aqueous KOH mainly to give:",
+   "options": [
+    "an alkene",
+    "an alkane",
+    "an alcohol",
+    "an ether"
+   ]
+  },
+  {
+   "id": "chemistry-c12-067",
+   "type": "mcq",
+   "q": "Which of the following reacts fastest by the S_N1 mechanism?",
+   "options": [
+    "CH₃Br",
+    "(CH₃)₃CBr",
+    "CH₃CH₂Br",
+    "CH₃CH₂CH₂Br"
+   ]
+  },
+  {
+   "id": "chemistry-c12-068",
+   "type": "mcq",
+   "q": "Benzenediazonium chloride on treatment with Cu₂Cl₂/HCl gives:",
+   "options": [
+    "phenol",
+    "benzene",
+    "aniline",
+    "chlorobenzene"
+   ]
+  },
+  {
+   "id": "chemistry-c12-069",
+   "type": "mcq",
+   "q": "Chlorobenzene is much less reactive than ethyl chloride towards nucleophilic substitution mainly because:",
+   "options": [
+    "the benzene ring is non-polar",
+    "the C–Cl bond in chlorobenzene is longer than in ethyl chloride",
+    "resonance gives the C–Cl bond partial double bond character and the carbon is sp² hybridised",
+    "chlorine is not electronegative in aryl halides"
+   ]
+  },
+  {
+   "id": "chemistry-c12-070",
+   "type": "mcq",
+   "q": "Which of the following compounds is optically active?",
+   "options": [
+    "2-Bromobutane",
+    "1-Bromobutane",
+    "2-Bromopropane",
+    "Bromoethane"
+   ]
+  },
+  {
+   "id": "chemistry-c12-071",
+   "type": "short",
+   "q": "What is the Finkelstein reaction? Give an example.",
+   "proposedAnswer": "Alkyl chlorides or bromides are heated with NaI in dry acetone to form alkyl iodides, e.g. CH₃CH₂Br + NaI → CH₃CH₂I + NaBr. NaBr or NaCl precipitates in acetone, driving the reaction forward.",
+   "keyPoints": [
+    "Alkyl chloride/bromide to alkyl iodide",
+    "Reagent: NaI in dry acetone",
+    "NaCl/NaBr is insoluble in acetone and precipitates"
+   ]
+  },
+  {
+   "id": "chemistry-c12-072",
+   "type": "short",
+   "q": "Why is the dipole moment of chlorobenzene lower than that of cyclohexyl chloride?",
+   "proposedAnswer": "In chlorobenzene the C–Cl carbon is sp² hybridised and more electronegative than an sp³ carbon, and resonance partly shifts chlorine's electron density into the ring. Both effects reduce the charge separation, so the dipole moment is lower.",
+   "keyPoints": [
+    "sp² carbon is more electronegative than sp³ carbon",
+    "Resonance reduces the negative charge on chlorine",
+    "Smaller charge separation gives a lower dipole moment"
+   ]
+  },
+  {
+   "id": "chemistry-c12-073",
+   "type": "mcq",
+   "q": "In phenol, the –OH group is attached to:",
+   "options": [
+    "a carbonyl group",
+    "a methyl group",
+    "an sp³ carbon of an alkyl chain",
+    "a carbon atom of a benzene ring"
+   ]
+  },
+  {
+   "id": "chemistry-c12-074",
+   "type": "mcq",
+   "q": "Which enzyme converts glucose into ethanol during fermentation?",
+   "options": [
+    "Invertase",
+    "Zymase",
+    "Diastase",
+    "Maltase"
+   ]
+  },
+  {
+   "id": "chemistry-c12-075",
+   "type": "mcq",
+   "q": "Which alcohol gives turbidity immediately with Lucas reagent at room temperature?",
+   "options": [
+    "2-Methylpropan-2-ol",
+    "Propan-1-ol",
+    "Ethanol",
+    "Methanol"
+   ]
+  },
+  {
+   "id": "chemistry-c12-076",
+   "type": "mcq",
+   "q": "Phenol reacts with bromine water to give:",
+   "options": [
+    "2-bromophenol",
+    "4-bromophenol",
+    "2,4,6-tribromophenol",
+    "bromobenzene"
+   ]
+  },
+  {
+   "id": "chemistry-c12-077",
+   "type": "mcq",
+   "q": "Phenol is more acidic than ethanol mainly because:",
+   "options": [
+    "phenol has more carbon atoms",
+    "the phenoxide ion is stabilised by resonance",
+    "phenol has a higher molar mass",
+    "ethoxide ion is stabilised by resonance"
+   ]
+  },
+  {
+   "id": "chemistry-c12-078",
+   "type": "mcq",
+   "q": "Which pair of reactants is best for preparing methyl tert-butyl ether, CH₃–O–C(CH₃)₃, by Williamson synthesis?",
+   "options": [
+    "CH₃ONa and (CH₃)₃CBr",
+    "(CH₃)₃CONa and (CH₃)₃CBr",
+    "CH₃ONa and CH₃Br",
+    "(CH₃)₃CONa and CH₃Br"
+   ]
+  },
+  {
+   "id": "chemistry-c12-079",
+   "type": "short",
+   "q": "Name the reaction in which phenol is converted to salicylaldehyde and state the reagents used.",
+   "proposedAnswer": "It is the Reimer–Tiemann reaction. Phenol is treated with chloroform and aqueous sodium hydroxide, followed by acidification, to give salicylaldehyde (2-hydroxybenzaldehyde).",
+   "keyPoints": [
+    "Reimer–Tiemann reaction",
+    "CHCl₃ and aqueous NaOH, then acid",
+    "Product is salicylaldehyde (ortho –CHO)"
+   ]
+  },
+  {
+   "id": "chemistry-c12-080",
+   "type": "short",
+   "q": "Explain why ethanol has a much higher boiling point than methoxymethane although both have the same molecular formula.",
+   "proposedAnswer": "Ethanol molecules form intermolecular hydrogen bonds through the O–H group, so more energy is needed to separate them. Methoxymethane has no O–H bond, cannot form hydrogen bonds with itself, and has only weaker dipole–dipole forces.",
+   "keyPoints": [
+    "Ethanol has an O–H group and shows intermolecular hydrogen bonding",
+    "Methoxymethane has no O–H and cannot hydrogen-bond with itself",
+    "Hydrogen bonds need more energy to break"
+   ]
+  },
+  {
+   "id": "chemistry-c12-081",
+   "type": "mcq",
+   "q": "Which is the functional group of an aldehyde?",
+   "options": [
+    "–COOH",
+    "–CO– between two carbon atoms",
+    "–CHO",
+    "–OH"
+   ]
+  },
+  {
+   "id": "chemistry-c12-082",
+   "type": "mcq",
+   "q": "Which reagent gives a silver mirror with aldehydes?",
+   "options": [
+    "Tollens' reagent",
+    "Fehling's solution",
+    "Lucas reagent",
+    "Grignard reagent"
+   ]
+  },
+  {
+   "id": "chemistry-c12-083",
+   "type": "mcq",
+   "q": "Which of the following does not undergo aldol condensation?",
+   "options": [
+    "Ethanal",
+    "Propanone",
+    "Propanal",
+    "Methanal"
+   ]
+  },
+  {
+   "id": "chemistry-c12-084",
+   "type": "mcq",
+   "q": "Ethanal on reduction with NaBH₄ gives:",
+   "options": [
+    "ethanoic acid",
+    "ethanol",
+    "ethane",
+    "propan-2-ol"
+   ]
+  },
+  {
+   "id": "chemistry-c12-085",
+   "type": "mcq",
+   "q": "Benzaldehyde is heated with concentrated NaOH. The products are:",
+   "options": [
+    "benzyl alcohol and sodium benzoate",
+    "benzoic acid only",
+    "benzene and sodium formate",
+    "sodium benzoate only"
+   ]
+  },
+  {
+   "id": "chemistry-c12-086",
+   "type": "mcq",
+   "q": "Which of the following is the strongest acid?",
+   "options": [
+    "CH₃COOH",
+    "ClCH₂COOH",
+    "Cl₃CCOOH",
+    "Cl₂CHCOOH"
+   ]
+  },
+  {
+   "id": "chemistry-c12-087",
+   "type": "short",
+   "q": "What is Rosenmund reduction? Give an example.",
+   "proposedAnswer": "It is the partial reduction of an acyl chloride to an aldehyde by hydrogen over palladium on barium sulphate (a poisoned catalyst), e.g. CH₃COCl + H₂ → CH₃CHO + HCl.",
+   "keyPoints": [
+    "Acyl chloride reduced to aldehyde",
+    "H₂ with Pd/BaSO₄ (poisoned catalyst)",
+    "Example such as CH₃COCl to CH₃CHO"
+   ]
+  },
+  {
+   "id": "chemistry-c12-088",
+   "type": "short",
+   "q": "Why are carboxylic acids more acidic than phenols?",
+   "proposedAnswer": "The carboxylate ion is stabilised by resonance with two equivalent structures that share the negative charge over two electronegative oxygen atoms. In the phenoxide ion the charge is partly delocalised onto less electronegative carbon atoms, so it is less stable.",
+   "keyPoints": [
+    "Carboxylate has two equivalent resonance structures",
+    "Charge is shared by two electronegative oxygen atoms",
+    "Phenoxide charge is delocalised onto carbon, giving less stabilisation"
+   ]
+  },
+  {
+   "id": "chemistry-c12-089",
+   "type": "mcq",
+   "q": "CH₃–NH–CH₃ is a:",
+   "options": [
+    "primary amine",
+    "secondary amine",
+    "tertiary amine",
+    "quaternary ammonium salt"
+   ]
+  },
+  {
+   "id": "chemistry-c12-090",
+   "type": "mcq",
+   "q": "Which reagent is known as Hinsberg's reagent?",
+   "options": [
+    "Benzoyl chloride",
+    "Acetyl chloride",
+    "Nitrobenzene",
+    "Benzenesulphonyl chloride"
+   ]
+  },
+  {
+   "id": "chemistry-c12-091",
+   "type": "mcq",
+   "q": "Nitrobenzene on reduction with Sn and concentrated HCl gives:",
+   "options": [
+    "phenol",
+    "benzene",
+    "aniline",
+    "chlorobenzene"
+   ]
+  },
+  {
+   "id": "chemistry-c12-092",
+   "type": "mcq",
+   "q": "Which is the strongest base in aqueous solution?",
+   "options": [
+    "Dimethylamine",
+    "Trimethylamine",
+    "Ammonia",
+    "Aniline"
+   ]
+  },
+  {
+   "id": "chemistry-c12-093",
+   "type": "mcq",
+   "q": "Gabriel phthalimide synthesis is used for preparing:",
+   "options": [
+    "secondary amines",
+    "tertiary amines",
+    "aromatic primary amines such as aniline",
+    "aliphatic primary amines"
+   ]
+  },
+  {
+   "id": "chemistry-c12-094",
+   "type": "mcq",
+   "q": "Which compound gives a foul-smelling isocyanide on heating with chloroform and alcoholic KOH?",
+   "options": [
+    "(CH₃)₃N",
+    "CH₃CH₂NH₂",
+    "(CH₃)₂NH",
+    "(C₂H₅)₄N⁺OH⁻"
+   ]
+  },
+  {
+   "id": "chemistry-c12-095",
+   "type": "short",
+   "q": "Write the equation for the diazotisation of aniline.",
+   "proposedAnswer": "C₆H₅NH₂ + NaNO₂ + 2HCl → C₆H₅N₂⁺Cl⁻ + NaCl + 2H₂O, carried out at 273–278 K (0–5 °C).",
+   "keyPoints": [
+    "Aniline reacts with NaNO₂ and HCl",
+    "Temperature 0–5 °C",
+    "Product is benzenediazonium chloride"
+   ]
+  },
+  {
+   "id": "chemistry-c12-096",
+   "type": "short",
+   "q": "Why is aniline a weaker base than methylamine?",
+   "proposedAnswer": "In aniline the lone pair on nitrogen is delocalised into the benzene ring by resonance, so it is less available to accept a proton. In methylamine the +I effect of the methyl group increases electron density on nitrogen.",
+   "keyPoints": [
+    "Lone pair of aniline is delocalised into the ring",
+    "Less available for protonation",
+    "Methyl group has +I effect in methylamine"
+   ]
+  },
+  {
+   "id": "chemistry-c12-097",
+   "type": "mcq",
+   "q": "Glucose is classified as:",
+   "options": [
+    "an aldohexose",
+    "a ketohexose",
+    "an aldopentose",
+    "a disaccharide"
+   ]
+  },
+  {
+   "id": "chemistry-c12-098",
+   "type": "mcq",
+   "q": "On hydrolysis sucrose gives:",
+   "options": [
+    "two molecules of glucose",
+    "glucose and galactose",
+    "glucose and fructose",
+    "two molecules of fructose"
+   ]
+  },
+  {
+   "id": "chemistry-c12-099",
+   "type": "mcq",
+   "q": "A peptide bond is formed between:",
+   "options": [
+    "two –COOH groups",
+    "the –COOH group of one amino acid and the –NH₂ group of another",
+    "two –NH₂ groups",
+    "the side chains of two amino acids only"
+   ]
+  },
+  {
+   "id": "chemistry-c12-100",
+   "type": "mcq",
+   "q": "Deficiency of which vitamin causes scurvy?",
+   "options": [
+    "Vitamin A",
+    "Vitamin D",
+    "Vitamin B₁",
+    "Vitamin C"
+   ]
+  },
+  {
+   "id": "chemistry-c12-101",
+   "type": "mcq",
+   "q": "When egg white is boiled, the change is best described as:",
+   "options": [
+    "hydrolysis of peptide bonds into amino acids",
+    "polymerisation of amino acids",
+    "denaturation, with loss of higher-order structure but the primary structure intact",
+    "fermentation of the proteins"
+   ]
+  },
+  {
+   "id": "chemistry-c12-102",
+   "type": "mcq",
+   "q": "Which pair of components is found in RNA but not in DNA?",
+   "options": [
+    "Ribose and uracil",
+    "Deoxyribose and thymine",
+    "Ribose and thymine",
+    "Deoxyribose and uracil"
+   ]
+  },
+  {
+   "id": "chemistry-c12-103",
+   "type": "short",
+   "q": "Distinguish between essential and non-essential amino acids with one example of each.",
+   "proposedAnswer": "Essential amino acids cannot be synthesised by the body and must be obtained from the diet (e.g. valine, leucine). Non-essential amino acids can be synthesised in the body (e.g. glycine, alanine).",
+   "keyPoints": [
+    "Essential: not made in the body, supplied by food",
+    "Non-essential: made in the body",
+    "One correct example of each"
+   ]
+  },
+  {
+   "id": "chemistry-c12-104",
+   "type": "short",
+   "q": "Why is the hydrolysis product of sucrose called invert sugar?",
+   "proposedAnswer": "Sucrose is dextrorotatory, but its hydrolysis gives an equimolar mixture of D-glucose (dextrorotatory) and D-fructose (more strongly laevorotatory). The mixture is laevorotatory, so the sign of rotation is inverted.",
+   "keyPoints": [
+    "Sucrose is dextrorotatory",
+    "Hydrolysis gives glucose and fructose",
+    "Fructose is more laevorotatory, so the mixture is laevorotatory (rotation inverted)"
+   ]
+  },
+  {
+   "id": "chemistry-c12-105",
+   "type": "mcq",
+   "q": "Which of the following is a molecular solid?",
+   "options": [
+    "Sodium chloride",
+    "Diamond",
+    "Dry ice (solid CO₂)",
+    "Copper"
+   ]
+  },
+  {
+   "id": "chemistry-c12-106",
+   "type": "mcq",
+   "q": "What is the coordination number of an atom in hexagonal close packing (hcp) or cubic close packing (ccp)?",
+   "options": [
+    "12",
+    "8",
+    "6",
+    "4"
+   ]
+  },
+  {
+   "id": "chemistry-c12-107",
+   "type": "mcq",
+   "q": "Alkali halide crystals heated in the vapour of the alkali metal acquire colour. The colour is due to:",
+   "options": [
+    "Schottky defects",
+    "Frenkel defects",
+    "interstitial cations",
+    "F-centres (electrons trapped in anion vacancies)"
+   ]
+  },
+  {
+   "id": "chemistry-c12-108",
+   "type": "mcq",
+   "q": "In a close-packed lattice of N atoms, the numbers of octahedral and tetrahedral voids are respectively:",
+   "options": [
+    "N and N",
+    "N and 2N",
+    "2N and N",
+    "2N and 2N"
+   ]
+  },
+  {
+   "id": "chemistry-c12-109",
+   "type": "mcq",
+   "q": "Atoms of element B form a ccp lattice and atoms of A occupy two-thirds of the octahedral voids. The formula of the compound is:",
+   "options": [
+    "A₂B₃",
+    "A₃B₂",
+    "AB₂",
+    "A₂B"
+   ]
+  },
+  {
+   "id": "chemistry-c12-110",
+   "type": "mcq",
+   "q": "A cubic crystal of an element has molar mass 52 g/mol, density 7.2 g cm⁻³ and edge 289 pm (N_A = 6.022 x 10²³). Its unit cell is:",
+   "options": [
+    "simple cubic",
+    "face-centred cubic",
+    "body-centred cubic",
+    "a cubic cell with 6 atoms"
+   ]
+  },
+  {
+   "id": "chemistry-c12-111",
+   "type": "short",
+   "q": "What is a Frenkel defect? Name one compound that shows it and give one effect on the crystal.",
+   "proposedAnswer": "In a Frenkel defect a smaller ion (usually the cation) leaves its lattice site and occupies an interstitial site. It is shown by AgBr, AgCl or ZnS. The density of the crystal remains unchanged.",
+   "keyPoints": [
+    "Smaller ion moves to an interstitial position",
+    "Example: AgBr / AgCl / ZnS",
+    "Density does not change"
+   ]
+  },
+  {
+   "id": "chemistry-c12-112",
+   "type": "short",
+   "q": "A metal crystallises in an fcc lattice with edge length 400 pm. Calculate the radius of the metal atom.",
+   "proposedAnswer": "In fcc, atoms touch along the face diagonal: 4r = √2 a, so r = a/(2√2) = 400/2.828 ≈ 141 pm.",
+   "keyPoints": [
+    "Face diagonal = 4r = √2 a",
+    "r = a/(2√2)",
+    "r ≈ 141 pm"
+   ]
+  },
+  {
+   "id": "chemistry-c12-113",
+   "type": "mcq",
+   "q": "Which of the following is a colligative property?",
+   "options": [
+    "Density",
+    "Depression in freezing point",
+    "Refractive index",
+    "Surface tension"
+   ]
+  },
+  {
+   "id": "chemistry-c12-114",
+   "type": "mcq",
+   "q": "The sum of the mole fractions of all components in a solution is:",
+   "options": [
+    "0",
+    "100",
+    "equal to its molarity",
+    "1"
+   ]
+  },
+  {
+   "id": "chemistry-c12-115",
+   "type": "mcq",
+   "q": "What is the osmotic pressure of a 0.01 mol/L solution of a non-electrolyte at 300 K? (R = 0.0821 L atm mol⁻¹ K⁻¹)",
+   "options": [
+    "0.0246 atm",
+    "2.46 atm",
+    "0.246 atm",
+    "24.6 atm"
+   ]
+  },
+  {
+   "id": "chemistry-c12-116",
+   "type": "mcq",
+   "q": "Two solutions are isotonic when they have the same:",
+   "options": [
+    "osmotic pressure at the same temperature",
+    "molar mass of solute",
+    "volume",
+    "boiling point at different pressures"
+   ]
+  },
+  {
+   "id": "chemistry-c12-117",
+   "type": "mcq",
+   "q": "10 g of a non-volatile solute (molar mass 100 g/mol) is dissolved in 250 g of water. Taking K_b of water as 0.52 K kg mol⁻¹, the elevation of boiling point is:",
+   "options": [
+    "0.052 K",
+    "0.104 K",
+    "0.52 K",
+    "0.208 K"
+   ]
+  },
+  {
+   "id": "chemistry-c12-118",
+   "type": "mcq",
+   "q": "Four aqueous solutions each of molality 0.1 m are listed. Assuming complete dissociation of electrolytes, which has the highest boiling point?",
+   "options": [
+    "Glucose",
+    "CaCl₂",
+    "NaCl",
+    "Urea"
+   ]
+  },
+  {
+   "id": "chemistry-c12-119",
+   "type": "short",
+   "q": "What is an azeotrope?",
+   "proposedAnswer": "An azeotrope is a liquid mixture that boils at a constant temperature and distils over with the same composition as the liquid, so its components cannot be separated by fractional distillation.",
+   "keyPoints": [
+    "Mixture with fixed composition",
+    "Boils at constant temperature",
+    "Liquid and vapour have the same composition; cannot be separated by fractional distillation"
+   ]
+  },
+  {
+   "id": "chemistry-c12-120",
+   "type": "short",
+   "q": "Calculate the mole fraction of ethanol in a solution of 4.6 g ethanol (C₂H₅OH, 46 g/mol) in 36 g of water (18 g/mol).",
+   "proposedAnswer": "Moles of ethanol = 4.6/46 = 0.1; moles of water = 36/18 = 2.0. Mole fraction of ethanol = 0.1/(0.1 + 2.0) = 0.1/2.1 ≈ 0.048.",
+   "keyPoints": [
+    "n(ethanol) = 0.1 mol and n(water) = 2.0 mol",
+    "x = n(ethanol)/total moles",
+    "x ≈ 0.048"
+   ]
+  },
+  {
+   "id": "chemistry-c12-121",
+   "type": "mcq",
+   "q": "What is the function of a salt bridge in a galvanic cell?",
+   "options": [
+    "It completes the circuit and maintains electrical neutrality of the two solutions",
+    "It supplies electrons to the cathode",
+    "It increases the EMF of the cell",
+    "It reacts with the electrodes"
+   ]
+  },
+  {
+   "id": "chemistry-c12-122",
+   "type": "mcq",
+   "q": "Which of the following is a secondary cell?",
+   "options": [
+    "Dry cell",
+    "Mercury cell",
+    "Lead storage battery",
+    "Hydrogen–oxygen fuel cell"
+   ]
+  },
+  {
+   "id": "chemistry-c12-123",
+   "type": "mcq",
+   "q": "During discharge of a lead storage battery, the density of the sulphuric acid electrolyte:",
+   "options": [
+    "increases",
+    "decreases",
+    "remains unchanged",
+    "becomes zero"
+   ]
+  },
+  {
+   "id": "chemistry-c12-124",
+   "type": "mcq",
+   "q": "When a solution of a strong electrolyte is diluted, its molar conductivity:",
+   "options": [
+    "decreases",
+    "remains constant",
+    "first decreases, then increases",
+    "increases"
+   ]
+  },
+  {
+   "id": "chemistry-c12-125",
+   "type": "mcq",
+   "q": "Iron pipelines are protected by connecting them to blocks of magnesium because:",
+   "options": [
+    "magnesium is less reactive than iron",
+    "magnesium forms a thick oxide layer on iron",
+    "magnesium is oxidised in preference to iron and acts as a sacrificial anode",
+    "magnesium makes the iron a cathode of an electrolytic cell"
+   ]
+  },
+  {
+   "id": "chemistry-c12-126",
+   "type": "mcq",
+   "q": "In the electrolysis of concentrated aqueous sodium chloride (brine), the product liberated at the cathode is:",
+   "options": [
+    "hydrogen gas",
+    "sodium metal",
+    "chlorine gas",
+    "oxygen gas"
+   ]
+  },
+  {
+   "id": "chemistry-c12-127",
+   "type": "short",
+   "q": "Write the electrode reactions and the overall reaction of the alkaline hydrogen–oxygen fuel cell.",
+   "proposedAnswer": "Anode: 2H₂ + 4OH⁻ → 4H₂O + 4e⁻. Cathode: O₂ + 2H₂O + 4e⁻ → 4OH⁻. Overall: 2H₂ + O₂ → 2H₂O.",
+   "keyPoints": [
+    "Anode: hydrogen oxidised in presence of OH⁻",
+    "Cathode: oxygen reduced to OH⁻",
+    "Overall: 2H₂ + O₂ → 2H₂O"
+   ]
+  },
+  {
+   "id": "chemistry-c12-128",
+   "type": "short",
+   "q": "The conductivity of a 0.1 mol/L KCl solution is 0.0129 S cm⁻¹. Calculate its molar conductivity.",
+   "proposedAnswer": "Λm = κ x 1000/c = 0.0129 x 1000/0.1 = 129 S cm² mol⁻¹.",
+   "keyPoints": [
+    "Λm = κ x 1000 / c (c in mol L⁻¹)",
+    "Substitute κ = 0.0129 S cm⁻¹ and c = 0.1",
+    "Λm = 129 S cm² mol⁻¹"
+   ]
+  },
+  {
+   "id": "chemistry-c12-129",
+   "type": "mcq",
+   "q": "The rate law of a reaction is expressed in terms of:",
+   "options": [
+    "the stoichiometric coefficients of the balanced equation only",
+    "concentrations of the products only",
+    "the molecularity of the overall reaction",
+    "concentrations of reactants raised to powers determined experimentally"
+   ]
+  },
+  {
+   "id": "chemistry-c12-130",
+   "type": "mcq",
+   "q": "A reaction whose rate does not depend on the concentration of the reactant has an order of:",
+   "options": [
+    "one",
+    "zero",
+    "two",
+    "three"
+   ]
+  },
+  {
+   "id": "chemistry-c12-131",
+   "type": "mcq",
+   "q": "A plot of ln k against 1/T is a straight line whose slope is:",
+   "options": [
+    "−E_a/R",
+    "E_a/R",
+    "−E_a",
+    "ln A"
+   ]
+  },
+  {
+   "id": "chemistry-c12-132",
+   "type": "mcq",
+   "q": "For a zero-order reaction, the half-life is:",
+   "options": [
+    "independent of the initial concentration",
+    "inversely proportional to the initial concentration",
+    "directly proportional to the initial concentration",
+    "proportional to the square of the initial concentration"
+   ]
+  },
+  {
+   "id": "chemistry-c12-133",
+   "type": "mcq",
+   "q": "In a reaction the concentration of the reactant falls from 0.8 M to 0.4 M in 20 minutes and from 0.4 M to 0.2 M in the next 20 minutes. The order of the reaction is:",
+   "options": [
+    "zero",
+    "first",
+    "second",
+    "third"
+   ]
+  },
+  {
+   "id": "chemistry-c12-134",
+   "type": "mcq",
+   "q": "A zero-order reaction has k = 0.01 mol L⁻¹ s⁻¹ and an initial concentration of 0.5 mol L⁻¹. The time taken for the reactant to be completely consumed is:",
+   "options": [
+    "5 s",
+    "25 s",
+    "100 s",
+    "50 s"
+   ]
+  },
+  {
+   "id": "chemistry-c12-135",
+   "type": "short",
+   "q": "What are pseudo first-order reactions? Give an example.",
+   "proposedAnswer": "A reaction that is actually of higher molecularity but behaves as first order because one reactant is present in large excess, so its concentration is practically constant. Example: acid-catalysed hydrolysis of ethyl acetate (excess water) or inversion of cane sugar.",
+   "keyPoints": [
+    "Higher molecularity but first-order kinetics",
+    "One reactant is in large excess, its concentration is constant",
+    "Example such as hydrolysis of ester or inversion of sucrose"
+   ]
+  },
+  {
+   "id": "chemistry-c12-136",
+   "type": "short",
+   "q": "A first-order reaction has k = 2.303 x 10⁻² min⁻¹. How long does it take for 90% of the reactant to be consumed?",
+   "proposedAnswer": "t = (2.303/k) log([A]₀/[A]) = (2.303/0.02303) log(100/10) = 100 x 1 = 100 min.",
+   "keyPoints": [
+    "Use t = (2.303/k) log([A]₀/[A])",
+    "[A]₀/[A] = 100/10 = 10, so log = 1",
+    "t = 100 min"
+   ]
+  },
+  {
+   "id": "chemistry-c12-137",
+   "type": "mcq",
+   "q": "Smoke is a colloidal system of:",
+   "options": [
+    "a gas dispersed in a liquid",
+    "a liquid dispersed in a gas",
+    "a solid dispersed in a gas",
+    "a solid dispersed in a liquid"
+   ]
+  },
+  {
+   "id": "chemistry-c12-138",
+   "type": "mcq",
+   "q": "Milk is a colloidal system classified as:",
+   "options": [
+    "an emulsion (liquid in liquid)",
+    "a sol (solid in liquid)",
+    "a foam (gas in liquid)",
+    "an aerosol (liquid in gas)"
+   ]
+  },
+  {
+   "id": "chemistry-c12-139",
+   "type": "mcq",
+   "q": "Brownian movement of colloidal particles is caused by:",
+   "options": [
+    "convection currents in the sol",
+    "the electric charge on the particles",
+    "gravitational settling",
+    "bombardment of the particles by molecules of the dispersion medium"
+   ]
+  },
+  {
+   "id": "chemistry-c12-140",
+   "type": "mcq",
+   "q": "Which of the following is an example of heterogeneous catalysis?",
+   "options": [
+    "Hydrolysis of an ester with dilute HCl",
+    "Combination of N₂ and H₂ over iron in the Haber process",
+    "Oxidation of SO₂ with NO in the lead-chamber process",
+    "Decomposition of an ester in aqueous acid"
+   ]
+  },
+  {
+   "id": "chemistry-c12-141",
+   "type": "mcq",
+   "q": "At very high pressure the extent of adsorption of a gas on a solid becomes independent of pressure. In the Freundlich equation x/m = kP^(1/n) this corresponds to 1/n being:",
+   "options": [
+    "0",
+    "1",
+    "infinity",
+    "negative"
+   ]
+  },
+  {
+   "id": "chemistry-c12-142",
+   "type": "mcq",
+   "q": "A catalyst whose selectivity depends on the pore structure and on the size and shape of the reactant and product molecules is called a:",
+   "options": [
+    "autocatalyst",
+    "promoter",
+    "shape-selective catalyst",
+    "catalytic poison"
+   ]
+  },
+  {
+   "id": "chemistry-c12-143",
+   "type": "short",
+   "q": "What is electrophoresis? What does it show about a colloidal sol?",
+   "proposedAnswer": "Electrophoresis is the movement of colloidal particles towards one of the electrodes under an applied electric field. It shows that colloidal particles carry an electric charge.",
+   "keyPoints": [
+    "Movement of colloidal particles in an electric field",
+    "Particles move towards the oppositely charged electrode",
+    "Proves that colloidal particles are charged"
+   ]
+  },
+  {
+   "id": "chemistry-c12-144",
+   "type": "short",
+   "q": "Why does the extent of physisorption of a gas decrease when the temperature is raised?",
+   "proposedAnswer": "Adsorption is exothermic (ΔH is negative). By Le Chatelier's principle, raising the temperature favours the reverse process (desorption), and the weak van der Waals forces cannot hold the gas molecules at higher thermal energy.",
+   "keyPoints": [
+    "Adsorption is an exothermic process",
+    "Le Chatelier: higher temperature favours desorption",
+    "Weak van der Waals forces are overcome by thermal motion"
+   ]
+  },
+  {
+   "id": "chemistry-c12-145",
+   "type": "mcq",
+   "q": "Which noble gas is used for filling weather balloons because it is light and non-inflammable?",
+   "options": [
+    "Neon",
+    "Helium",
+    "Argon",
+    "Xenon"
+   ]
+  },
+  {
+   "id": "chemistry-c12-146",
+   "type": "mcq",
+   "q": "Bleaching powder is represented by the formula:",
+   "options": [
+    "CaCl₂",
+    "CaCO₃",
+    "Ca(OH)₂",
+    "CaOCl₂"
+   ]
+  },
+  {
+   "id": "chemistry-c12-147",
+   "type": "mcq",
+   "q": "Which catalyst is used in the Contact process for the manufacture of sulphuric acid?",
+   "options": [
+    "Finely divided iron",
+    "Nickel",
+    "Vanadium(V) oxide",
+    "Manganese dioxide"
+   ]
+  },
+  {
+   "id": "chemistry-c12-148",
+   "type": "mcq",
+   "q": "What is the hybridisation of sulphur in SF₆?",
+   "options": [
+    "sp³d²",
+    "sp³d",
+    "sp³",
+    "sp²"
+   ]
+  },
+  {
+   "id": "chemistry-c12-149",
+   "type": "mcq",
+   "q": "Among HClO, HClO₂, HClO₃ and HClO₄, the strongest acid is:",
+   "options": [
+    "HClO",
+    "HClO₂",
+    "HClO₃",
+    "HClO₄"
+   ]
+  },
+  {
+   "id": "chemistry-c12-150",
+   "type": "mcq",
+   "q": "The H–N–H bond angle in NH₃ (about 107°) is larger than the H–P–H angle in PH₃ (about 94°) because:",
+   "options": [
+    "phosphorus is larger, so its lone pair is more spread out",
+    "nitrogen is more electronegative, so bond pairs lie nearer to N and repel more",
+    "PH₃ has no lone pair on phosphorus",
+    "nitrogen has vacant d orbitals"
+   ]
+  },
+  {
+   "id": "chemistry-c12-151",
+   "type": "short",
+   "q": "Write the equation for the industrial manufacture of ammonia by Haber's process and state the conditions.",
+   "proposedAnswer": "N₂(g) + 3H₂(g) ⇌ 2NH₃(g), ΔH = −46.1 kJ/mol. Conditions: iron catalyst with promoters, about 200 atm pressure and about 700 K.",
+   "keyPoints": [
+    "N₂ + 3H₂ ⇌ 2NH₃",
+    "Iron catalyst with promoters",
+    "High pressure (about 200 atm) and about 700 K"
+   ]
+  },
+  {
+   "id": "chemistry-c12-152",
+   "type": "short",
+   "q": "Why is HF a weak acid in water while HCl is a strong acid?",
+   "proposedAnswer": "The H–F bond is very strong (high bond enthalpy), so HF ionises only slightly. HF molecules and F⁻ ions are also strongly hydrogen bonded, which limits ionisation, whereas the weaker H–Cl bond breaks easily.",
+   "keyPoints": [
+    "H–F bond is much stronger than H–Cl",
+    "Strong hydrogen bonding in HF",
+    "Hence HF ionises only to a small extent"
+   ]
+  },
+  {
+   "id": "chemistry-c12-153",
+   "type": "mcq",
+   "q": "Brass is an alloy of copper and:",
+   "options": [
+    "zinc",
+    "tin",
+    "nickel",
+    "lead"
+   ]
+  },
+  {
+   "id": "chemistry-c12-154",
+   "type": "mcq",
+   "q": "The colour of an acidified solution of potassium dichromate (K₂Cr₂O₇) is:",
+   "options": [
+    "yellow",
+    "green",
+    "orange",
+    "purple"
+   ]
+  },
+  {
+   "id": "chemistry-c12-155",
+   "type": "mcq",
+   "q": "The electronic configuration of chromium (Z = 24) is:",
+   "options": [
+    "[Ar] 3d⁴ 4s²",
+    "[Ar] 3d⁵ 4s¹",
+    "[Ar] 3d⁶",
+    "[Ar] 3d⁴ 4s² 4p¹"
+   ]
+  },
+  {
+   "id": "chemistry-c12-156",
+   "type": "mcq",
+   "q": "Which of the following 3d-series elements shows the highest oxidation state of +7?",
+   "options": [
+    "Fe",
+    "Cr",
+    "Ti",
+    "Mn"
+   ]
+  },
+  {
+   "id": "chemistry-c12-157",
+   "type": "mcq",
+   "q": "In acidic medium, one mole of MnO₄⁻ oxidises how many moles of Fe²⁺?",
+   "options": [
+    "1",
+    "3",
+    "5",
+    "7"
+   ]
+  },
+  {
+   "id": "chemistry-c12-158",
+   "type": "mcq",
+   "q": "Which ion has the maximum number of unpaired electrons?",
+   "options": [
+    "Fe³⁺",
+    "Fe²⁺",
+    "Co²⁺",
+    "Cu²⁺"
+   ]
+  },
+  {
+   "id": "chemistry-c12-159",
+   "type": "short",
+   "q": "What are interstitial compounds? State two of their characteristics.",
+   "proposedAnswer": "Interstitial compounds are formed when small atoms such as H, C or N occupy the interstitial voids in the metal lattice. They are generally very hard, have high melting points, are chemically inert and retain metallic conductivity.",
+   "keyPoints": [
+    "Small atoms (H, C, N) trapped in the voids of the metal lattice",
+    "Very hard with high melting points",
+    "Chemically inert, metallic conductivity retained"
+   ]
+  },
+  {
+   "id": "chemistry-c12-160",
+   "type": "short",
+   "q": "Explain why Mn³⁺ is a strong oxidising agent while Cr²⁺ is a strong reducing agent.",
+   "proposedAnswer": "Mn³⁺ (d⁴) readily gains an electron to form the stable half-filled d⁵ ion Mn²⁺. Cr²⁺ (d⁴) readily loses an electron to form Cr³⁺ (d³, t₂g³), which is very stable.",
+   "keyPoints": [
+    "Mn³⁺ → Mn²⁺ gives half-filled d⁵",
+    "Cr²⁺ → Cr³⁺ gives stable t₂g³ configuration",
+    "Stability of the product drives oxidising or reducing behaviour"
+   ]
+  },
+  {
+   "id": "chemistry-c12-161",
+   "type": "mcq",
+   "q": "In Werner's theory the secondary valence of a metal corresponds to its:",
+   "options": [
+    "oxidation number",
+    "ionisable valency",
+    "number of electrons",
+    "coordination number"
+   ]
+  },
+  {
+   "id": "chemistry-c12-162",
+   "type": "mcq",
+   "q": "What is the oxidation state of copper in [Cu(NH₃)₄]²⁺?",
+   "options": [
+    "0",
+    "+2",
+    "+4",
+    "+1"
+   ]
+  },
+  {
+   "id": "chemistry-c12-163",
+   "type": "mcq",
+   "q": "The formula of tetraamminedichloridocobalt(III) chloride is:",
+   "options": [
+    "[Co(NH₃)₄Cl₂]Cl",
+    "[Co(NH₃)₄Cl]Cl₂",
+    "[Co(NH₃)₄Cl₂]Cl₃",
+    "[Co(NH₃)₂Cl₄]Cl"
+   ]
+  },
+  {
+   "id": "chemistry-c12-164",
+   "type": "mcq",
+   "q": "The denticity of the ligand EDTA⁴⁻ is:",
+   "options": [
+    "2",
+    "4",
+    "6",
+    "8"
+   ]
+  },
+  {
+   "id": "chemistry-c12-165",
+   "type": "mcq",
+   "q": "How many geometrical isomers are possible for the square planar complex [Pt(NH₃)₂Cl₂]?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  {
+   "id": "chemistry-c12-166",
+   "type": "mcq",
+   "q": "Excess AgNO₃ is added to a solution containing 1 mole of [Co(NH₃)₅Cl]Cl₂. How many moles of AgCl precipitate?",
+   "options": [
+    "1",
+    "3",
+    "0",
+    "2"
+   ]
+  },
+  {
+   "id": "chemistry-c12-167",
+   "type": "short",
+   "q": "Write the IUPAC names of (i) [Ni(CO)₄] and (ii) K₂[PtCl₄].",
+   "proposedAnswer": "(i) Tetracarbonylnickel(0). (ii) Potassium tetrachloridoplatinate(II).",
+   "keyPoints": [
+    "[Ni(CO)₄]: tetracarbonylnickel(0)",
+    "K₂[PtCl₄]: potassium tetrachloridoplatinate(II)",
+    "Anionic complex takes the -ate ending"
+   ]
+  },
+  {
+   "id": "chemistry-c12-168",
+   "type": "short",
+   "q": "Explain why aqueous solutions of Cu²⁺ complexes are coloured but those of Zn²⁺ are colourless.",
+   "proposedAnswer": "Cu²⁺ (d⁹) has a partially filled d subshell, so d–d transitions by absorption of visible light are possible and a complementary colour is seen. Zn²⁺ (d¹⁰) has a completely filled d subshell, so no d–d transition can occur and it is colourless.",
+   "keyPoints": [
+    "Cu²⁺ is d⁹ and has a vacancy in d orbitals",
+    "d–d transition absorbs visible light",
+    "Zn²⁺ is d¹⁰, no d–d transition"
+   ]
+  },
+  {
+   "id": "chemistry-c12-169",
+   "type": "mcq",
+   "q": "The common name of CHCl₃ is:",
+   "options": [
+    "carbon tetrachloride",
+    "methylene chloride",
+    "chloroform",
+    "freon"
+   ]
+  },
+  {
+   "id": "chemistry-c12-170",
+   "type": "mcq",
+   "q": "Chlorofluorocarbons (CFCs) released into the atmosphere mainly damage the:",
+   "options": [
+    "ozone layer in the stratosphere",
+    "oxygen content of oceans",
+    "nitrogen fixation in soil",
+    "water vapour content of clouds"
+   ]
+  },
+  {
+   "id": "chemistry-c12-171",
+   "type": "mcq",
+   "q": "Which alkyl bromide reacts fastest by the S_N2 mechanism?",
+   "options": [
+    "(CH₃)₃CBr",
+    "(CH₃)₂CHBr",
+    "CH₃CH₂Br",
+    "CH₃Br"
+   ]
+  },
+  {
+   "id": "chemistry-c12-172",
+   "type": "mcq",
+   "q": "Methyl bromide reacts with sodium metal in dry ether to give:",
+   "options": [
+    "methane",
+    "ethane",
+    "propane",
+    "butane"
+   ]
+  },
+  {
+   "id": "chemistry-c12-173",
+   "type": "mcq",
+   "q": "2-Bromobutane is heated with alcoholic KOH. According to Saytzeff's rule the major product is:",
+   "options": [
+    "but-2-ene",
+    "but-1-ene",
+    "butan-2-ol",
+    "butane"
+   ]
+  },
+  {
+   "id": "chemistry-c12-174",
+   "type": "mcq",
+   "q": "A racemic mixture is optically inactive because:",
+   "options": [
+    "it contains no chiral molecules",
+    "its molecules have a plane of symmetry",
+    "the equal and opposite rotations of the two enantiomers cancel each other",
+    "the enantiomers combine to form a meso compound"
+   ]
+  },
+  {
+   "id": "chemistry-c12-175",
+   "type": "short",
+   "q": "What is meant by an ambident nucleophile? Give one example.",
+   "proposedAnswer": "An ambident nucleophile can attack through either of two different atoms, for example the cyanide ion (through C or N) or the nitrite ion (through N or O).",
+   "keyPoints": [
+    "Nucleophile with two possible attacking sites",
+    "Example: CN⁻ or NO₂⁻",
+    "Gives two different products depending on the site"
+   ]
+  },
+  {
+   "id": "chemistry-c12-176",
+   "type": "short",
+   "q": "An alkyl halide gives an alkyl cyanide with KCN but an isocyanide with AgCN. Explain.",
+   "proposedAnswer": "KCN is ionic and gives free CN⁻ ions, which attack through carbon (forming the stronger C–C bond) to give R–CN. AgCN is covalent, so only the nitrogen lone pair is available for attack, giving R–NC.",
+   "keyPoints": [
+    "KCN is ionic: attack through carbon gives R–CN",
+    "AgCN is covalent: attack through nitrogen gives R–NC",
+    "CN⁻ is an ambident nucleophile"
+   ]
+  },
+  {
+   "id": "chemistry-c12-177",
+   "type": "mcq",
+   "q": "Methanol is also known as:",
+   "options": [
+    "grain alcohol",
+    "wood spirit",
+    "rectified spirit",
+    "power alcohol"
+   ]
+  },
+  {
+   "id": "chemistry-c12-178",
+   "type": "mcq",
+   "q": "Commercial ethanol is denatured mainly to:",
+   "options": [
+    "increase its boiling point",
+    "convert it into ether",
+    "make it fluorescent",
+    "make it unfit for drinking"
+   ]
+  },
+  {
+   "id": "chemistry-c12-179",
+   "type": "mcq",
+   "q": "Acid-catalysed hydration of propene gives mainly:",
+   "options": [
+    "propan-1-ol",
+    "propanal",
+    "propan-2-ol",
+    "propane"
+   ]
+  },
+  {
+   "id": "chemistry-c12-180",
+   "type": "mcq",
+   "q": "A primary alcohol can be oxidised to the aldehyde without going further to the acid by using:",
+   "options": [
+    "pyridinium chlorochromate (PCC)",
+    "acidified KMnO₄",
+    "alkaline KMnO₄ on heating",
+    "hot K₂Cr₂O₇/H₂SO₄ in excess"
+   ]
+  },
+  {
+   "id": "chemistry-c12-181",
+   "type": "mcq",
+   "q": "Which of the following is the most acidic?",
+   "options": [
+    "Phenol",
+    "p-Cresol",
+    "Ethanol",
+    "o-Nitrophenol"
+   ]
+  },
+  {
+   "id": "chemistry-c12-182",
+   "type": "mcq",
+   "q": "Anisole on heating with concentrated HI gives:",
+   "options": [
+    "iodobenzene and methanol",
+    "phenol and iodomethane",
+    "benzene and methanol",
+    "iodobenzene and iodomethane"
+   ]
+  },
+  {
+   "id": "chemistry-c12-183",
+   "type": "short",
+   "q": "Write the equation for the dehydration of ethanol to ethene and state the conditions.",
+   "proposedAnswer": "CH₃CH₂OH → CH₂=CH₂ + H₂O, on heating with concentrated H₂SO₄ at about 443 K.",
+   "keyPoints": [
+    "Ethanol gives ethene and water",
+    "Reagent: concentrated H₂SO₄",
+    "Temperature about 443 K (at 413 K ether forms instead)"
+   ]
+  },
+  {
+   "id": "chemistry-c12-184",
+   "type": "short",
+   "q": "Why is o-nitrophenol more acidic than o-methoxyphenol?",
+   "proposedAnswer": "The –NO₂ group is electron-withdrawing; it disperses the negative charge of the phenoxide ion and stabilises it. The –OCH₃ group is electron-releasing and intensifies the negative charge, destabilising the phenoxide ion.",
+   "keyPoints": [
+    "–NO₂ withdraws electrons and stabilises the phenoxide ion",
+    "–OCH₃ donates electrons and destabilises it",
+    "A more stable conjugate base means a stronger acid"
+   ]
+  },
+  {
+   "id": "chemistry-c12-185",
+   "type": "mcq",
+   "q": "What is the IUPAC name of CH₃CHO?",
+   "options": [
+    "Ethanal",
+    "Methanal",
+    "Propanal",
+    "Ethanol"
+   ]
+  },
+  {
+   "id": "chemistry-c12-186",
+   "type": "mcq",
+   "q": "The IUPAC name of acetone is:",
+   "options": [
+    "propanal",
+    "propan-2-ol",
+    "propanone",
+    "ethanone"
+   ]
+  },
+  {
+   "id": "chemistry-c12-187",
+   "type": "mcq",
+   "q": "Which of the following does not reduce Fehling's solution?",
+   "options": [
+    "Ethanal",
+    "Benzaldehyde",
+    "Methanal",
+    "Propanal"
+   ]
+  },
+  {
+   "id": "chemistry-c12-188",
+   "type": "mcq",
+   "q": "Which compound gives a yellow precipitate of iodoform when warmed with I₂ and NaOH?",
+   "options": [
+    "Methanol",
+    "Propan-1-ol",
+    "Pentan-3-one",
+    "Propanone"
+   ]
+  },
+  {
+   "id": "chemistry-c12-189",
+   "type": "mcq",
+   "q": "Ethanoic acid heated with Cl₂ in the presence of red phosphorus (Hell–Volhard–Zelinsky reaction) gives:",
+   "options": [
+    "ethanol",
+    "ethanoyl chloride",
+    "chloroethanoic acid",
+    "ethanal"
+   ]
+  },
+  {
+   "id": "chemistry-c12-190",
+   "type": "mcq",
+   "q": "Sodium ethanoate is heated with soda lime (NaOH + CaO). The main product is:",
+   "options": [
+    "methane",
+    "ethane",
+    "ethanol",
+    "propane"
+   ]
+  },
+  {
+   "id": "chemistry-c12-191",
+   "type": "short",
+   "q": "What is the Etard reaction?",
+   "proposedAnswer": "Toluene is oxidised with chromyl chloride (CrO₂Cl₂) in CS₂ to form a chromium complex, which on hydrolysis gives benzaldehyde.",
+   "keyPoints": [
+    "Reagent: chromyl chloride (CrO₂Cl₂) in CS₂",
+    "Toluene is converted to benzaldehyde",
+    "Hydrolysis of the chromium complex"
+   ]
+  },
+  {
+   "id": "chemistry-c12-192",
+   "type": "short",
+   "q": "Why are aldehydes more reactive than ketones towards nucleophilic addition?",
+   "proposedAnswer": "In aldehydes the carbonyl carbon is attached to one alkyl group and one hydrogen, so there is less steric hindrance and less electron-donating (+I) effect, making the carbon more electrophilic. In ketones two bulky alkyl groups hinder attack and reduce the positive charge on carbon.",
+   "keyPoints": [
+    "Less steric hindrance in aldehydes",
+    "Only one electron-donating alkyl group, so carbonyl carbon is more positive",
+    "Ketones have two alkyl groups"
+   ]
+  },
+  {
+   "id": "chemistry-c12-193",
+   "type": "mcq",
+   "q": "Aniline is an example of:",
+   "options": [
+    "an aliphatic primary amine",
+    "a secondary amine",
+    "an aliphatic tertiary amine",
+    "an aromatic primary amine"
+   ]
+  },
+  {
+   "id": "chemistry-c12-194",
+   "type": "mcq",
+   "q": "Aqueous solutions of aliphatic amines are:",
+   "options": [
+    "acidic",
+    "basic",
+    "neutral",
+    "amphoteric"
+   ]
+  },
+  {
+   "id": "chemistry-c12-195",
+   "type": "mcq",
+   "q": "Ethanamide (CH₃CONH₂) is treated with Br₂ and aqueous NaOH (Hofmann bromamide reaction). The product is:",
+   "options": [
+    "methylamine",
+    "ethylamine",
+    "propylamine",
+    "ammonia"
+   ]
+  },
+  {
+   "id": "chemistry-c12-196",
+   "type": "mcq",
+   "q": "Aniline reacts with bromine water to give:",
+   "options": [
+    "2-bromoaniline",
+    "4-bromoaniline",
+    "2,4,6-tribromoaniline",
+    "bromobenzene"
+   ]
+  },
+  {
+   "id": "chemistry-c12-197",
+   "type": "mcq",
+   "q": "Which gas is evolved when ethylamine reacts with nitrous acid (NaNO₂ + HCl)?",
+   "options": [
+    "H₂",
+    "N₂",
+    "NO₂",
+    "NH₃"
+   ]
+  },
+  {
+   "id": "chemistry-c12-198",
+   "type": "mcq",
+   "q": "In Hinsberg's test, which type of amine gives a sulphonamide that is insoluble in aqueous alkali?",
+   "options": [
+    "Primary amine",
+    "Tertiary amine",
+    "Ammonia",
+    "Secondary amine"
+   ]
+  },
+  {
+   "id": "chemistry-c12-199",
+   "type": "short",
+   "q": "Write the equation for the reaction of ethylamine with ethanoyl chloride.",
+   "proposedAnswer": "C₂H₅NH₂ + CH₃COCl → CH₃CONHC₂H₅ + HCl, forming N-ethylethanamide. A base such as pyridine removes the HCl.",
+   "keyPoints": [
+    "Acylation of the amine",
+    "Product: N-ethylethanamide",
+    "HCl is formed and removed by a base"
+   ]
+  },
+  {
+   "id": "chemistry-c12-200",
+   "type": "short",
+   "q": "Why is aniline not nitrated directly with a nitrating mixture to give mainly the para product?",
+   "proposedAnswer": "In the strongly acidic mixture aniline is protonated to the anilinium ion, which is meta-directing, giving a large amount of meta-nitroaniline. Aniline is also oxidised by nitric acid, forming tarry products.",
+   "keyPoints": [
+    "Aniline is protonated to the anilinium ion",
+    "Anilinium ion directs meta",
+    "Oxidation by nitric acid causes tar"
+   ]
+  },
+  {
+   "id": "chemistry-c12-201",
+   "type": "mcq",
+   "q": "Which of the following is a non-reducing sugar?",
+   "options": [
+    "Glucose",
+    "Maltose",
+    "Sucrose",
+    "Fructose"
+   ]
+  },
+  {
+   "id": "chemistry-c12-202",
+   "type": "mcq",
+   "q": "The main storage polysaccharide in plants is:",
+   "options": [
+    "starch",
+    "cellulose",
+    "glycogen",
+    "chitin"
+   ]
+  },
+  {
+   "id": "chemistry-c12-203",
+   "type": "mcq",
+   "q": "Enzymes are mostly:",
+   "options": [
+    "carbohydrates",
+    "lipids",
+    "nucleic acids",
+    "proteins"
+   ]
+  },
+  {
+   "id": "chemistry-c12-204",
+   "type": "mcq",
+   "q": "How many chiral carbon atoms are present in the open-chain structure of glucose?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  {
+   "id": "chemistry-c12-205",
+   "type": "mcq",
+   "q": "α-D-Glucose and β-D-glucose are anomers that differ in the configuration at carbon number:",
+   "options": [
+    "1",
+    "2",
+    "5",
+    "6"
+   ]
+  },
+  {
+   "id": "chemistry-c12-206",
+   "type": "mcq",
+   "q": "How many hydrogen bonds join a guanine–cytosine base pair in DNA?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  {
+   "id": "chemistry-c12-207",
+   "type": "short",
+   "q": "What are vitamins? Name the two broad groups with one example of each.",
+   "proposedAnswer": "Vitamins are organic compounds required in small amounts for normal growth and health that the body cannot make in sufficient quantity. They are fat-soluble (A, D, E, K) or water-soluble (B group, C).",
+   "keyPoints": [
+    "Organic compounds needed in small amounts",
+    "Fat-soluble: A, D, E, K",
+    "Water-soluble: B complex and C"
+   ]
+  },
+  {
+   "id": "chemistry-c12-208",
+   "type": "short",
+   "q": "Amino acids have high melting points and are soluble in water but insoluble in non-polar solvents. Explain.",
+   "proposedAnswer": "In the solid and in neutral solution an amino acid exists as a zwitterion (dipolar ion), H₃N⁺–CHR–COO⁻. The strong ionic attractions give high melting points, and the ionic character makes them soluble in polar water but not in non-polar solvents.",
+   "keyPoints": [
+    "Amino acids exist as zwitterions",
+    "Strong electrostatic forces give high melting points",
+    "Ionic nature gives solubility in water, not in non-polar solvents"
+   ]
+  },
+  {
+   "id": "chemistry-c12-209",
+   "type": "mcq",
+   "q": "Which type of solid conducts electricity in the solid state through free electrons?",
+   "options": [
+    "Ionic solids",
+    "Metallic solids",
+    "Molecular solids",
+    "Covalent network solids such as diamond"
+   ]
+  },
+  {
+   "id": "chemistry-c12-210",
+   "type": "mcq",
+   "q": "How many atoms effectively belong to one body-centred cubic unit cell?",
+   "options": [
+    "1",
+    "4",
+    "6",
+    "2"
+   ]
+  },
+  {
+   "id": "chemistry-c12-211",
+   "type": "mcq",
+   "q": "Silicon doped with a small amount of phosphorus becomes a:",
+   "options": [
+    "p-type semiconductor",
+    "perfect insulator",
+    "n-type semiconductor",
+    "metallic conductor with no band gap"
+   ]
+  },
+  {
+   "id": "chemistry-c12-212",
+   "type": "mcq",
+   "q": "Which of the following is a ferromagnetic substance?",
+   "options": [
+    "Iron",
+    "Copper",
+    "Zinc",
+    "Sodium chloride"
+   ]
+  },
+  {
+   "id": "chemistry-c12-213",
+   "type": "mcq",
+   "q": "Aluminium (molar mass 27 g/mol, density 2.7 g cm⁻³) crystallises in an fcc lattice. Taking N_A = 6.022 x 10²³, the edge length of its unit cell is about:",
+   "options": [
+    "200 pm",
+    "286 pm",
+    "350 pm",
+    "405 pm"
+   ]
+  },
+  {
+   "id": "chemistry-c12-214",
+   "type": "mcq",
+   "q": "In the rock-salt (NaCl) structure the Cl⁻ ions form a ccp lattice. The Na⁺ ions occupy:",
+   "options": [
+    "all the tetrahedral voids",
+    "all the octahedral voids",
+    "half of the tetrahedral voids",
+    "all the corner positions"
+   ]
+  },
+  {
+   "id": "chemistry-c12-215",
+   "type": "short",
+   "q": "Distinguish between paramagnetic and diamagnetic substances.",
+   "proposedAnswer": "Paramagnetic substances contain unpaired electrons and are weakly attracted by a magnetic field (e.g. O₂, Cu²⁺). Diamagnetic substances have all electrons paired and are weakly repelled by a magnetic field (e.g. H₂O, NaCl).",
+   "keyPoints": [
+    "Paramagnetic: unpaired electrons, weakly attracted",
+    "Diamagnetic: all electrons paired, weakly repelled",
+    "Example of each"
+   ]
+  },
+  {
+   "id": "chemistry-c12-216",
+   "type": "short",
+   "q": "Calculate the number of Na⁺ and Cl⁻ ions per unit cell of sodium chloride, which has Cl⁻ at the corners and face centres and Na⁺ at the edge centres and body centre.",
+   "proposedAnswer": "Cl⁻: 8 x 1/8 + 6 x 1/2 = 4. Na⁺: 12 x 1/4 + 1 = 4. So each unit cell has 4 Na⁺ and 4 Cl⁻ ions, i.e. 4 formula units of NaCl.",
+   "keyPoints": [
+    "Cl⁻ = 8 x 1/8 + 6 x 1/2 = 4",
+    "Na⁺ = 12 x 1/4 + 1 = 4",
+    "4 NaCl units per cell"
+   ]
+  },
+  {
+   "id": "chemistry-c12-217",
+   "type": "mcq",
+   "q": "An ideal solution is one that:",
+   "options": [
+    "obeys Raoult's law over the entire range of concentration",
+    "has a positive enthalpy of mixing",
+    "forms a maximum-boiling azeotrope",
+    "shows an increase in volume on mixing"
+   ]
+  },
+  {
+   "id": "chemistry-c12-218",
+   "type": "mcq",
+   "q": "The spontaneous flow of solvent through a semipermeable membrane from a dilute solution to a more concentrated one is called:",
+   "options": [
+    "diffusion",
+    "dialysis",
+    "osmosis",
+    "reverse osmosis"
+   ]
+  },
+  {
+   "id": "chemistry-c12-219",
+   "type": "mcq",
+   "q": "Reverse osmosis is used in:",
+   "options": [
+    "converting a dilute solution into a concentrated one by evaporation",
+    "desalination of sea water",
+    "separating two miscible liquids by distillation",
+    "measuring the molar mass of gases"
+   ]
+  },
+  {
+   "id": "chemistry-c12-220",
+   "type": "mcq",
+   "q": "A 2.0 kg sample of water contains 10 mg of a dissolved salt. Its concentration in ppm by mass is:",
+   "options": [
+    "0.5 ppm",
+    "20 ppm",
+    "2 ppm",
+    "5 ppm"
+   ]
+  },
+  {
+   "id": "chemistry-c12-221",
+   "type": "mcq",
+   "q": "The Henry's law constant of a gas in water (mole-fraction form, p = K_H x) is 4 x 10⁴ atm at 298 K. If the partial pressure of the gas over water is 2 atm, its mole fraction in solution is:",
+   "options": [
+    "2 x 10⁻⁵",
+    "8 x 10⁴",
+    "5 x 10⁻⁵",
+    "5 x 10⁻⁴"
+   ]
+  },
+  {
+   "id": "chemistry-c12-222",
+   "type": "mcq",
+   "q": "A 0.1 m aqueous solution of CaCl₂ is 50% dissociated. Taking K_f of water as 1.86 K kg mol⁻¹, the depression in freezing point is:",
+   "options": [
+    "0.372 K",
+    "0.186 K",
+    "0.558 K",
+    "0.744 K"
+   ]
+  },
+  {
+   "id": "chemistry-c12-223",
+   "type": "short",
+   "q": "State two characteristics of an ideal solution.",
+   "proposedAnswer": "An ideal solution obeys Raoult's law at all concentrations; the enthalpy of mixing is zero (ΔH_mix = 0) and the volume change on mixing is zero (ΔV_mix = 0). The A–B interactions are similar in strength to the A–A and B–B interactions.",
+   "keyPoints": [
+    "Obeys Raoult's law at all concentrations",
+    "ΔH_mix = 0",
+    "ΔV_mix = 0"
+   ]
+  },
+  {
+   "id": "chemistry-c12-224",
+   "type": "short",
+   "q": "Why do aquatic animals feel more comfortable in cold water than in warm water?",
+   "proposedAnswer": "The solubility of gases in liquids decreases with a rise in temperature (dissolution is exothermic). Cold water holds more dissolved oxygen, so aquatic life gets enough oxygen.",
+   "keyPoints": [
+    "Solubility of gases decreases as temperature rises",
+    "Cold water has more dissolved oxygen",
+    "Warm water may not supply enough oxygen"
+   ]
+  },
+  {
+   "id": "chemistry-c12-225",
+   "type": "mcq",
+   "q": "The SI unit of resistivity is:",
+   "options": [
+    "S m⁻¹",
+    "Ω",
+    "Ω m⁻¹",
+    "Ω m"
+   ]
+  },
+  {
+   "id": "chemistry-c12-226",
+   "type": "mcq",
+   "q": "What is liberated at the anode during the electrolysis of molten sodium chloride?",
+   "options": [
+    "Sodium metal",
+    "Chlorine gas",
+    "Hydrogen gas",
+    "Oxygen gas"
+   ]
+  },
+  {
+   "id": "chemistry-c12-227",
+   "type": "mcq",
+   "q": "By convention, the standard electrode potential of the standard hydrogen electrode (SHE) is:",
+   "options": [
+    "0.00 V",
+    "+0.34 V",
+    "−0.76 V",
+    "+1.00 V"
+   ]
+  },
+  {
+   "id": "chemistry-c12-228",
+   "type": "mcq",
+   "q": "For the Daniell cell (E°cell = 1.10 V, n = 2), ΔG° is (F = 96 500 C mol⁻¹):",
+   "options": [
+    "−106.2 kJ/mol",
+    "−424.6 kJ/mol",
+    "−212.3 kJ/mol",
+    "+212.3 kJ/mol"
+   ]
+  },
+  {
+   "id": "chemistry-c12-229",
+   "type": "mcq",
+   "q": "For the Daniell cell with E°cell = 1.10 V at 298 K, log K_c for the cell reaction is (use 2.303RT/F = 0.0592 V):",
+   "options": [
+    "18.6",
+    "37.2",
+    "1.10",
+    "74.3"
+   ]
+  },
+  {
+   "id": "chemistry-c12-230",
+   "type": "mcq",
+   "q": "Given E° values: Li⁺/Li −3.05 V, Na⁺/Na −2.71 V, Zn²⁺/Zn −0.76 V, Cu²⁺/Cu +0.34 V. Which metal is the strongest reducing agent?",
+   "options": [
+    "Cu",
+    "Zn",
+    "Na",
+    "Li"
+   ]
+  },
+  {
+   "id": "chemistry-c12-231",
+   "type": "short",
+   "q": "Write two differences between a galvanic cell and an electrolytic cell.",
+   "proposedAnswer": "A galvanic cell converts chemical energy into electrical energy through a spontaneous redox reaction; an electrolytic cell uses electrical energy to drive a non-spontaneous reaction. In a galvanic cell the anode is negative and the cathode positive; in an electrolytic cell the anode is positive and the cathode negative.",
+   "keyPoints": [
+    "Galvanic: spontaneous reaction produces electricity; electrolytic: electricity drives a non-spontaneous reaction",
+    "Galvanic: anode −, cathode +; electrolytic: anode +, cathode −"
+   ]
+  },
+  {
+   "id": "chemistry-c12-232",
+   "type": "short",
+   "q": "A current of 0.5 A is passed for 1930 s through a solution of silver nitrate. Calculate the mass of silver deposited (Ag = 108 g/mol, F = 96 500 C mol⁻¹).",
+   "proposedAnswer": "Q = 0.5 x 1930 = 965 C = 965/96 500 = 0.01 mol of electrons. Ag⁺ + e⁻ → Ag, so 0.01 mol of Ag = 0.01 x 108 = 1.08 g.",
+   "keyPoints": [
+    "Q = I x t = 965 C",
+    "Moles of electrons = 0.01 mol",
+    "Mass of Ag = 1.08 g"
+   ]
+  },
+  {
+   "id": "chemistry-c12-233",
+   "type": "mcq",
+   "q": "The rate constant of a reaction at a given temperature does not depend on:",
+   "options": [
+    "the activation energy",
+    "the presence of a catalyst",
+    "the concentrations of the reactants",
+    "the temperature"
+   ]
+  },
+  {
+   "id": "chemistry-c12-234",
+   "type": "mcq",
+   "q": "The activation energy of a reaction is:",
+   "options": [
+    "the minimum extra energy that reactant molecules must acquire to form products",
+    "the energy released when products form",
+    "the same as the enthalpy of reaction",
+    "the total energy of the products"
+   ]
+  },
+  {
+   "id": "chemistry-c12-235",
+   "type": "mcq",
+   "q": "The overall order of the reaction with rate law rate = k[NO]²[O₂] is:",
+   "options": [
+    "1",
+    "2",
+    "4",
+    "3"
+   ]
+  },
+  {
+   "id": "chemistry-c12-236",
+   "type": "mcq",
+   "q": "What is the unit of the rate constant for a second-order reaction?",
+   "options": [
+    "mol L⁻¹ s⁻¹",
+    "L mol⁻¹ s⁻¹",
+    "s⁻¹",
+    "mol² L⁻² s⁻¹"
+   ]
+  },
+  {
+   "id": "chemistry-c12-237",
+   "type": "mcq",
+   "q": "The rate of a reaction doubles for every 10 K rise in temperature. By what factor does the rate increase when the temperature is raised from 300 K to 330 K?",
+   "options": [
+    "8",
+    "6",
+    "3",
+    "16"
+   ]
+  },
+  {
+   "id": "chemistry-c12-238",
+   "type": "mcq",
+   "q": "A reaction proceeds in two steps: (1) A + B → C (slow) and (2) C + A → D (fast). The rate law for the overall reaction is:",
+   "options": [
+    "rate = k[A]²[B]",
+    "rate = k[C][A]",
+    "rate = k[A][B]",
+    "rate = k[D]"
+   ]
+  },
+  {
+   "id": "chemistry-c12-239",
+   "type": "short",
+   "q": "What is the rate-determining step of a reaction?",
+   "proposedAnswer": "In a multistep reaction, the slowest step is the rate-determining step. The overall rate of the reaction is controlled by it, and the rate law is written from its molecularity.",
+   "keyPoints": [
+    "It is the slowest step of the mechanism",
+    "It controls the overall rate",
+    "Rate law follows the reactants of this step"
+   ]
+  },
+  {
+   "id": "chemistry-c12-240",
+   "type": "short",
+   "q": "The half-life of a first-order reaction is 20 minutes. What fraction of the reactant remains after 1 hour?",
+   "proposedAnswer": "1 hour = 60 min = 3 half-lives, so the fraction remaining is (1/2)³ = 1/8 (12.5%).",
+   "keyPoints": [
+    "60 min is 3 half-lives",
+    "Fraction = (1/2)³",
+    "1/8 or 12.5% remains"
+   ]
+  },
+  {
+   "id": "chemistry-c12-241",
+   "type": "mcq",
+   "q": "Activated charcoal is used in gas masks because it:",
+   "options": [
+    "reacts chemically with all gases to form salts",
+    "dissolves poisonous gases in its bulk",
+    "produces oxygen on heating",
+    "adsorbs poisonous gases on its very large surface area"
+   ]
+  },
+  {
+   "id": "chemistry-c12-242",
+   "type": "mcq",
+   "q": "Fog is a colloidal system in which:",
+   "options": [
+    "a solid is dispersed in a gas",
+    "a liquid is dispersed in a gas",
+    "a gas is dispersed in a liquid",
+    "a gas is dispersed in a solid"
+   ]
+  },
+  {
+   "id": "chemistry-c12-243",
+   "type": "mcq",
+   "q": "Colloidal particles of the ferric hydroxide sol carry:",
+   "options": [
+    "no charge",
+    "a negative charge",
+    "a positive charge",
+    "a charge that is positive or negative depending on particle size"
+   ]
+  },
+  {
+   "id": "chemistry-c12-244",
+   "type": "mcq",
+   "q": "Peptization is the process of:",
+   "options": [
+    "converting a freshly prepared precipitate into a colloidal sol by adding a small amount of a suitable electrolyte",
+    "coagulating a sol by adding excess electrolyte",
+    "removing dissolved ions from a sol by a membrane",
+    "adsorbing a gas on a solid"
+   ]
+  },
+  {
+   "id": "chemistry-c12-245",
+   "type": "mcq",
+   "q": "The enzyme urease catalyses only the hydrolysis of urea and not of other amides. This illustrates which feature of enzyme catalysis?",
+   "options": [
+    "Activity increasing steadily with temperature",
+    "Activity independent of pH",
+    "Need for a large amount of enzyme",
+    "High specificity"
+   ]
+  },
+  {
+   "id": "chemistry-c12-246",
+   "type": "mcq",
+   "q": "A lyophilic sol used as a protective colloid is more effective when its gold number is:",
+   "options": [
+    "higher",
+    "lower",
+    "equal to the sol's charge",
+    "greater than 100"
+   ]
+  },
+  {
+   "id": "chemistry-c12-247",
+   "type": "short",
+   "q": "What is dialysis? Give one application.",
+   "proposedAnswer": "Dialysis is the separation of a colloid from dissolved ions or molecules by passing the mixture through a parchment or cellophane membrane; ions pass through but colloidal particles do not. It is used in the artificial kidney (haemodialysis) to remove waste from blood.",
+   "keyPoints": [
+    "Purification of a sol using a semipermeable membrane",
+    "Small ions pass, colloidal particles are retained",
+    "Application such as haemodialysis"
+   ]
+  },
+  {
+   "id": "chemistry-c12-248",
+   "type": "short",
+   "q": "Why are deltas formed at the places where rivers meet the sea?",
+   "proposedAnswer": "River water carries negatively charged colloidal clay particles. Sea water contains electrolytes whose positive ions neutralise this charge and coagulate the clay, which settles to form a delta.",
+   "keyPoints": [
+    "River water contains colloidal clay particles",
+    "Sea water electrolytes neutralise their charge",
+    "Coagulation and deposition form the delta"
+   ]
+  },
+  {
+   "id": "chemistry-c12-249",
+   "type": "mcq",
+   "q": "Which element of group 15 exists in the white and red allotropic forms?",
+   "options": [
+    "Phosphorus",
+    "Nitrogen",
+    "Bismuth",
+    "Antimony"
+   ]
+  },
+  {
+   "id": "chemistry-c12-250",
+   "type": "mcq",
+   "q": "The formula of ozone is:",
+   "options": [
+    "O",
+    "O₂",
+    "O₃",
+    "O₄"
+   ]
+  },
+  {
+   "id": "chemistry-c12-251",
+   "type": "mcq",
+   "q": "What is the shape of the ClF₃ molecule?",
+   "options": [
+    "Trigonal planar",
+    "T-shaped",
+    "Trigonal pyramidal",
+    "Tetrahedral"
+   ]
+  },
+  {
+   "id": "chemistry-c12-252",
+   "type": "mcq",
+   "q": "When SO₂ is passed through an acidified KMnO₄ solution, the purple colour disappears because SO₂ acts as:",
+   "options": [
+    "an oxidising agent",
+    "a dehydrating agent",
+    "an acid anhydride only",
+    "a reducing agent"
+   ]
+  },
+  {
+   "id": "chemistry-c12-253",
+   "type": "mcq",
+   "q": "What is the oxidation state of sulphur in peroxodisulphuric acid, H₂S₂O₈ (which contains one O–O peroxide link)?",
+   "options": [
+    "+7",
+    "+8",
+    "+6",
+    "+4"
+   ]
+  },
+  {
+   "id": "chemistry-c12-254",
+   "type": "mcq",
+   "q": "Complete hydrolysis of XeF₆ gives:",
+   "options": [
+    "XeO₃",
+    "XeO₂F₂",
+    "XeF₂",
+    "Xe"
+   ]
+  },
+  {
+   "id": "chemistry-c12-255",
+   "type": "short",
+   "q": "Write the balanced equation for the reaction of copper with hot concentrated sulphuric acid.",
+   "proposedAnswer": "Cu + 2H₂SO₄ (conc.) → CuSO₄ + SO₂ + 2H₂O.",
+   "keyPoints": [
+    "Copper is oxidised to Cu²⁺ (CuSO₄)",
+    "Concentrated H₂SO₄ is reduced to SO₂",
+    "Balanced: Cu + 2H₂SO₄ → CuSO₄ + SO₂ + 2H₂O"
+   ]
+  },
+  {
+   "id": "chemistry-c12-256",
+   "type": "short",
+   "q": "The first ionisation enthalpy of nitrogen is higher than that of oxygen. Explain.",
+   "proposedAnswer": "Nitrogen has the half-filled, extra-stable 2p³ configuration, so removing an electron needs more energy. In oxygen (2p⁴) the removal of one electron from a paired orbital relieves electron–electron repulsion and gives the stable half-filled p³ ion, so less energy is needed.",
+   "keyPoints": [
+    "N has half-filled 2p³ configuration",
+    "Half-filled subshell is extra stable",
+    "O loses a paired electron and relieves repulsion"
+   ]
+  },
+  {
+   "id": "chemistry-c12-257",
+   "type": "mcq",
+   "q": "Which d-block metal is a liquid at room temperature?",
+   "options": [
+    "Zinc",
+    "Cadmium",
+    "Copper",
+    "Mercury"
+   ]
+  },
+  {
+   "id": "chemistry-c12-258",
+   "type": "mcq",
+   "q": "Misch metal, used in making lighter flints, is an alloy of lanthanoid metals with a small amount of:",
+   "options": [
+    "copper",
+    "iron",
+    "silver",
+    "zinc"
+   ]
+  },
+  {
+   "id": "chemistry-c12-259",
+   "type": "mcq",
+   "q": "The paramagnetism of transition metal ions is due to:",
+   "options": [
+    "the presence of unpaired electrons",
+    "the presence of only paired electrons",
+    "their high positive charge",
+    "completely filled s orbitals"
+   ]
+  },
+  {
+   "id": "chemistry-c12-260",
+   "type": "mcq",
+   "q": "Cuprous (Cu⁺) compounds are generally colourless because Cu⁺ has the configuration:",
+   "options": [
+    "d⁹",
+    "d⁵",
+    "d¹⁰",
+    "d⁰ with 4s²"
+   ]
+  },
+  {
+   "id": "chemistry-c12-261",
+   "type": "mcq",
+   "q": "The spin-only magnetic moment of Cr³⁺ (Z = 24) is:",
+   "options": [
+    "2.83 BM",
+    "3.87 BM",
+    "4.90 BM",
+    "5.92 BM"
+   ]
+  },
+  {
+   "id": "chemistry-c12-262",
+   "type": "mcq",
+   "q": "An orange solution of potassium dichromate turns yellow when sodium hydroxide is added because:",
+   "options": [
+    "Cr is reduced to Cr³⁺",
+    "Cr is oxidised to +7",
+    "dichromate is converted to Cr₂O₃",
+    "dichromate ions are converted to chromate ions with no change in oxidation state"
+   ]
+  },
+  {
+   "id": "chemistry-c12-263",
+   "type": "short",
+   "q": "Outline the preparation of potassium permanganate from pyrolusite (MnO₂).",
+   "proposedAnswer": "MnO₂ is fused with KOH in the presence of air or an oxidising agent to give green K₂MnO₄ (2MnO₂ + 4KOH + O₂ → 2K₂MnO₄ + 2H₂O). The manganate is oxidised or made to disproportionate in acid solution to give purple permanganate (3MnO₄²⁻ + 4H⁺ → 2MnO₄⁻ + MnO₂ + 2H₂O).",
+   "keyPoints": [
+    "Fusion of MnO₂ with KOH and an oxidant gives K₂MnO₄",
+    "Manganate is green",
+    "Acidification or oxidation gives purple KMnO₄"
+   ]
+  },
+  {
+   "id": "chemistry-c12-264",
+   "type": "short",
+   "q": "Write the ionic equation for the reaction of acidified dichromate with Fe²⁺ ions. How many moles of Fe²⁺ are oxidised by one mole of dichromate?",
+   "proposedAnswer": "Cr₂O₇²⁻ + 14H⁺ + 6Fe²⁺ → 2Cr³⁺ + 6Fe³⁺ + 7H₂O. One mole of dichromate oxidises 6 moles of Fe²⁺.",
+   "keyPoints": [
+    "Cr₂O₇²⁻ is reduced to Cr³⁺ (6 electrons gained)",
+    "Fe²⁺ is oxidised to Fe³⁺",
+    "6 mol Fe²⁺ per mol dichromate"
+   ]
+  },
+  {
+   "id": "chemistry-c12-265",
+   "type": "mcq",
+   "q": "A ligand with two different donor atoms, either of which may bind to the metal, is called:",
+   "options": [
+    "chelating",
+    "bidentate",
+    "ambidentate",
+    "polydentate"
+   ]
+  },
+  {
+   "id": "chemistry-c12-266",
+   "type": "mcq",
+   "q": "The central metal ion in haemoglobin is:",
+   "options": [
+    "iron",
+    "magnesium",
+    "cobalt",
+    "copper"
+   ]
+  },
+  {
+   "id": "chemistry-c12-267",
+   "type": "mcq",
+   "q": "How many unpaired electrons are present in the high-spin complex [Fe(H₂O)₆]²⁺?",
+   "options": [
+    "0",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  {
+   "id": "chemistry-c12-268",
+   "type": "mcq",
+   "q": "The formula of potassium tetrahydroxidozincate(II) is:",
+   "options": [
+    "K[Zn(OH)₄]",
+    "K₂[Zn(OH)₄]",
+    "K₃[Zn(OH)₄]",
+    "[Zn(OH)₄]K₄"
+   ]
+  },
+  {
+   "id": "chemistry-c12-269",
+   "type": "mcq",
+   "q": "Which of the following does not show geometrical isomerism?",
+   "options": [
+    "[Co(NH₃)₆]³⁺",
+    "[Co(NH₃)₄Cl₂]⁺",
+    "[Pt(NH₃)₂Cl₂] (square planar)",
+    "[Co(NH₃)₃Cl₃]"
+   ]
+  },
+  {
+   "id": "chemistry-c12-270",
+   "type": "mcq",
+   "q": "The crystal field stabilisation energy (CFSE) of a high-spin d⁴ ion in an octahedral field is:",
+   "options": [
+    "−1.6 Δ₀",
+    "−0.4 Δ₀",
+    "−0.6 Δ₀",
+    "−2.4 Δ₀"
+   ]
+  },
+  {
+   "id": "chemistry-c12-271",
+   "type": "short",
+   "q": "Mention two applications of coordination compounds.",
+   "proposedAnswer": "Examples: EDTA is used to estimate and remove Ca²⁺ and Mg²⁺ (water hardness); extraction of silver and gold by cyanide complexes; purification of nickel through [Ni(CO)₄]; cisplatin is an anticancer drug.",
+   "keyPoints": [
+    "Any two correct applications",
+    "Such as hardness determination with EDTA",
+    "Metal extraction or the drug cisplatin"
+   ]
+  },
+  {
+   "id": "chemistry-c12-272",
+   "type": "short",
+   "q": "Explain why [CoF₆]³⁻ is paramagnetic while [Co(NH₃)₆]³⁺ is diamagnetic.",
+   "proposedAnswer": "Co³⁺ is d⁶. F⁻ is a weak-field ligand, so electrons do not pair (t₂g⁴e_g², four unpaired electrons, sp³d² hybridisation), making [CoF₆]³⁻ paramagnetic. NH₃ is a stronger-field ligand, so all six electrons pair in t₂g (d²sp³), making [Co(NH₃)₆]³⁺ diamagnetic.",
+   "keyPoints": [
+    "Co³⁺ has d⁶ configuration",
+    "F⁻ weak field: high spin, 4 unpaired electrons",
+    "NH₃ stronger field: low spin, no unpaired electrons"
+   ]
+  },
+  {
+   "id": "chemistry-c12-273",
+   "type": "mcq",
+   "q": "Which of the following is a secondary alkyl halide?",
+   "options": [
+    "(CH₃)₃CCl",
+    "(CH₃)₂CHCl",
+    "CH₃CH₂Cl",
+    "CH₃Cl"
+   ]
+  },
+  {
+   "id": "chemistry-c12-274",
+   "type": "mcq",
+   "q": "The formula of iodoform is:",
+   "options": [
+    "CH₃I",
+    "CH₂I₂",
+    "CI₄",
+    "CHI₃"
+   ]
+  },
+  {
+   "id": "chemistry-c12-275",
+   "type": "mcq",
+   "q": "Which reagent converts ethanol to chloroethane with only gaseous by-products (SO₂ and HCl)?",
+   "options": [
+    "PCl₅",
+    "PCl₃",
+    "SOCl₂",
+    "HCl with ZnCl₂"
+   ]
+  },
+  {
+   "id": "chemistry-c12-276",
+   "type": "mcq",
+   "q": "Nitration of chlorobenzene gives mainly:",
+   "options": [
+    "o- and p-nitrochlorobenzene",
+    "m-nitrochlorobenzene",
+    "1,3,5-trinitrobenzene",
+    "nitrobenzene"
+   ]
+  },
+  {
+   "id": "chemistry-c12-277",
+   "type": "mcq",
+   "q": "Which of these reacts fastest by the S_N1 mechanism?",
+   "options": [
+    "Chlorobenzene",
+    "Vinyl chloride",
+    "Methyl chloride",
+    "Benzyl chloride"
+   ]
+  },
+  {
+   "id": "chemistry-c12-278",
+   "type": "mcq",
+   "q": "How many stereoisomers does 2,3-dichlorobutane have?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "1"
+   ]
+  },
+  {
+   "id": "chemistry-c12-279",
+   "type": "short",
+   "q": "State Markovnikov's rule and give the product of the addition of HBr to propene.",
+   "proposedAnswer": "When an unsymmetrical reagent HX adds to an unsymmetrical alkene, the hydrogen attaches to the carbon with more hydrogen atoms and the halogen to the carbon with fewer. Propene + HBr gives 2-bromopropane as the major product.",
+   "keyPoints": [
+    "H goes to the carbon with more hydrogen atoms",
+    "Halogen goes to the carbon with fewer hydrogen atoms",
+    "Major product: 2-bromopropane"
+   ]
+  },
+  {
+   "id": "chemistry-c12-280",
+   "type": "short",
+   "q": "Haloalkanes are polar molecules, yet they are only slightly soluble in water. Explain.",
+   "proposedAnswer": "To dissolve, haloalkane molecules must break the strong hydrogen bonds between water molecules. The new attractions between haloalkane and water molecules are weaker than the hydrogen bonds broken, so the process is not energetically favourable.",
+   "keyPoints": [
+    "Water molecules are held by hydrogen bonds",
+    "Haloalkane–water attractions are weaker than water–water hydrogen bonds",
+    "Hence little energy gain and low solubility"
+   ]
+  },
+  {
+   "id": "chemistry-c12-281",
+   "type": "mcq",
+   "q": "Glycerol is a:",
+   "options": [
+    "trihydric alcohol",
+    "dihydric alcohol",
+    "monohydric alcohol",
+    "phenol"
+   ]
+  },
+  {
+   "id": "chemistry-c12-282",
+   "type": "mcq",
+   "q": "Which of the following is an ether?",
+   "options": [
+    "CH₃CH₂OH",
+    "CH₃CHO",
+    "CH₃OCH₃",
+    "CH₃COOH"
+   ]
+  },
+  {
+   "id": "chemistry-c12-283",
+   "type": "mcq",
+   "q": "Ethanol reacts with sodium metal to liberate:",
+   "options": [
+    "oxygen",
+    "hydrogen",
+    "carbon dioxide",
+    "ethane"
+   ]
+  },
+  {
+   "id": "chemistry-c12-284",
+   "type": "mcq",
+   "q": "Distillation of phenol with zinc dust gives:",
+   "options": [
+    "cyclohexane",
+    "toluene",
+    "benzoic acid",
+    "benzene"
+   ]
+  },
+  {
+   "id": "chemistry-c12-285",
+   "type": "mcq",
+   "q": "CH₃MgBr reacts with ethanal, and the product is hydrolysed with dilute acid. The final product is:",
+   "options": [
+    "ethanol",
+    "propan-1-ol",
+    "propan-2-ol",
+    "butan-2-ol"
+   ]
+  },
+  {
+   "id": "chemistry-c12-286",
+   "type": "mcq",
+   "q": "Ethyl methyl ether reacts with one equivalent of HI. The main products are:",
+   "options": [
+    "iodomethane and ethanol",
+    "iodoethane and methanol",
+    "iodomethane and iodoethane",
+    "ethanol and methanol"
+   ]
+  },
+  {
+   "id": "chemistry-c12-287",
+   "type": "short",
+   "q": "How is picric acid prepared from phenol?",
+   "proposedAnswer": "Phenol is treated with concentrated nitric acid (in presence of concentrated sulphuric acid), which nitrates the ring at the 2, 4 and 6 positions to give 2,4,6-trinitrophenol (picric acid).",
+   "keyPoints": [
+    "Reagent: concentrated HNO₃ (with H₂SO₄)",
+    "Nitration at 2, 4 and 6 positions",
+    "Product: 2,4,6-trinitrophenol"
+   ]
+  },
+  {
+   "id": "chemistry-c12-288",
+   "type": "short",
+   "q": "Among isomeric alcohols, the boiling point decreases with increase in branching. Explain.",
+   "proposedAnswer": "Branching makes the molecule more compact, which reduces the surface area and therefore the van der Waals forces between molecules. Less energy is needed to separate them, so the boiling point is lower (e.g. tert-butyl alcohol boils lower than butan-1-ol).",
+   "keyPoints": [
+    "Branching decreases surface area",
+    "Weaker van der Waals forces",
+    "Lower boiling point"
+   ]
+  },
+  {
+   "id": "chemistry-c12-289",
+   "type": "mcq",
+   "q": "Formalin is a solution of about 40% of which compound in water?",
+   "options": [
+    "Ethanal",
+    "Propanone",
+    "Ethanoic acid",
+    "Methanal"
+   ]
+  },
+  {
+   "id": "chemistry-c12-290",
+   "type": "mcq",
+   "q": "Vinegar is a dilute aqueous solution of:",
+   "options": [
+    "methanoic acid",
+    "ethanoic acid",
+    "propanoic acid",
+    "citric acid"
+   ]
+  },
+  {
+   "id": "chemistry-c12-291",
+   "type": "mcq",
+   "q": "The characteristic reaction of the carbonyl group in aldehydes and ketones is:",
+   "options": [
+    "nucleophilic addition",
+    "electrophilic addition",
+    "free-radical substitution",
+    "electrophilic substitution"
+   ]
+  },
+  {
+   "id": "chemistry-c12-292",
+   "type": "mcq",
+   "q": "Propan-2-ol is oxidised with K₂Cr₂O₇/H₂SO₄. The product is:",
+   "options": [
+    "propanal",
+    "propanoic acid",
+    "propanone",
+    "propan-1-ol"
+   ]
+  },
+  {
+   "id": "chemistry-c12-293",
+   "type": "mcq",
+   "q": "Which reagent can distinguish benzoic acid from phenol?",
+   "options": [
+    "Anhydrous ZnCl₂",
+    "Aqueous sodium hydrogencarbonate",
+    "Aqueous NaCl",
+    "Tollens' reagent"
+   ]
+  },
+  {
+   "id": "chemistry-c12-294",
+   "type": "mcq",
+   "q": "Ethanoic acid is reduced with LiAlH₄ and then treated with water. The product is:",
+   "options": [
+    "ethanal",
+    "ethane",
+    "ethyl ethanoate",
+    "ethanol"
+   ]
+  },
+  {
+   "id": "chemistry-c12-295",
+   "type": "short",
+   "q": "Write two uses of methanal.",
+   "proposedAnswer": "Methanal (as formalin, 40% solution) is used to preserve biological specimens, and in making Bakelite and other polymers (urea–formaldehyde resins).",
+   "keyPoints": [
+    "Preservative for biological specimens (formalin)",
+    "Manufacture of Bakelite and other resins"
+   ]
+  },
+  {
+   "id": "chemistry-c12-296",
+   "type": "short",
+   "q": "Why do carboxylic acids have higher boiling points than aldehydes, ketones and alcohols of comparable molecular masses?",
+   "proposedAnswer": "Carboxylic acid molecules form stable hydrogen-bonded dimers through their –COOH groups (two H-bonds per pair), and this extensive association needs much more energy to break than the dipole–dipole forces in aldehydes and ketones or the single hydrogen bonds in alcohols.",
+   "keyPoints": [
+    "Intermolecular hydrogen bonding via –COOH",
+    "Formation of stable dimers",
+    "Stronger than forces in aldehydes, ketones or alcohols"
+   ]
+  },
+  {
+   "id": "chemistry-c12-297",
+   "type": "mcq",
+   "q": "The IUPAC name of CH₃CH₂NH₂ is:",
+   "options": [
+    "methanamine",
+    "propanamine",
+    "ethanamine",
+    "ethanimine"
+   ]
+  },
+  {
+   "id": "chemistry-c12-298",
+   "type": "mcq",
+   "q": "On standing in air, pure aniline gradually turns:",
+   "options": [
+    "brown",
+    "blue",
+    "green",
+    "colourless"
+   ]
+  },
+  {
+   "id": "chemistry-c12-299",
+   "type": "mcq",
+   "q": "Reduction of ethanenitrile (CH₃CN) with LiAlH₄ gives:",
+   "options": [
+    "methylamine",
+    "ethanol",
+    "ethanamide",
+    "ethylamine"
+   ]
+  },
+  {
+   "id": "chemistry-c12-300",
+   "type": "mcq",
+   "q": "Heating an alkyl halide with an alcoholic solution of ammonia gives:",
+   "options": [
+    "only the primary amine",
+    "a mixture of primary, secondary and tertiary amines and a quaternary salt",
+    "only the quaternary ammonium salt",
+    "an alcohol"
+   ]
+  },
+  {
+   "id": "chemistry-c12-301",
+   "type": "mcq",
+   "q": "In the gas phase, the order of basic strength of methyl-substituted amines is:",
+   "options": [
+    "(CH₃)₃N > (CH₃)₂NH > CH₃NH₂ > NH₃",
+    "NH₃ > CH₃NH₂ > (CH₃)₂NH > (CH₃)₃N",
+    "(CH₃)₂NH > (CH₃)₃N > CH₃NH₂ > NH₃",
+    "CH₃NH₂ > (CH₃)₂NH > NH₃ > (CH₃)₃N"
+   ]
+  },
+  {
+   "id": "chemistry-c12-302",
+   "type": "mcq",
+   "q": "Benzenediazonium chloride couples with phenol in alkaline medium to give:",
+   "options": [
+    "aniline",
+    "chlorobenzene",
+    "p-hydroxyazobenzene, an orange dye",
+    "benzene"
+   ]
+  },
+  {
+   "id": "chemistry-c12-303",
+   "type": "short",
+   "q": "What is the carbylamine reaction? Write the equation for ethylamine.",
+   "proposedAnswer": "Primary amines on heating with chloroform and alcoholic KOH form foul-smelling isocyanides (carbylamines). C₂H₅NH₂ + CHCl₃ + 3KOH → C₂H₅NC + 3KCl + 3H₂O. It is a test for primary amines.",
+   "keyPoints": [
+    "Reagents: CHCl₃ and alcoholic KOH",
+    "Product is a foul-smelling isocyanide",
+    "Test for primary amines only"
+   ]
+  },
+  {
+   "id": "chemistry-c12-304",
+   "type": "short",
+   "q": "Lower aliphatic amines are soluble in water but aniline is only slightly soluble. Explain.",
+   "proposedAnswer": "Lower aliphatic amines form hydrogen bonds with water through the N–H and lone pair. In aniline the large hydrophobic benzene ring outweighs the hydrogen-bonding –NH₂ group, so solubility is low. Solubility of aliphatic amines also falls as the alkyl part grows.",
+   "keyPoints": [
+    "Lower amines hydrogen bond with water",
+    "Large hydrocarbon part of aniline is hydrophobic",
+    "Solubility decreases as the hydrocarbon part increases"
+   ]
+  },
+  {
+   "id": "chemistry-c12-305",
+   "type": "mcq",
+   "q": "Which monosaccharide is the sweetest of all sugars?",
+   "options": [
+    "Glucose",
+    "Fructose",
+    "Galactose",
+    "Ribose"
+   ]
+  },
+  {
+   "id": "chemistry-c12-306",
+   "type": "mcq",
+   "q": "Cellulose is a polymer of:",
+   "options": [
+    "α-D-glucose",
+    "fructose",
+    "galactose",
+    "β-D-glucose"
+   ]
+  },
+  {
+   "id": "chemistry-c12-307",
+   "type": "mcq",
+   "q": "Insulin, which helps regulate blood glucose, is:",
+   "options": [
+    "a carbohydrate",
+    "a lipid",
+    "a protein hormone",
+    "a nucleic acid"
+   ]
+  },
+  {
+   "id": "chemistry-c12-308",
+   "type": "mcq",
+   "q": "The α-helix of a protein is an example of its:",
+   "options": [
+    "secondary structure",
+    "primary structure",
+    "tertiary structure",
+    "quaternary structure"
+   ]
+  },
+  {
+   "id": "chemistry-c12-309",
+   "type": "mcq",
+   "q": "A nucleotide is composed of:",
+   "options": [
+    "a nitrogenous base and a sugar only",
+    "a phosphate group and a sugar only",
+    "an amino acid and a sugar",
+    "a nitrogenous base, a pentose sugar and a phosphate group"
+   ]
+  },
+  {
+   "id": "chemistry-c12-310",
+   "type": "mcq",
+   "q": "Which vitamin contains cobalt?",
+   "options": [
+    "Vitamin C",
+    "Vitamin B₁₂",
+    "Vitamin A",
+    "Vitamin K"
+   ]
+  },
+  {
+   "id": "chemistry-c12-311",
+   "type": "short",
+   "q": "What is a glycosidic linkage?",
+   "proposedAnswer": "A glycosidic linkage is the oxide (–O–) bridge that joins two monosaccharide units through the loss of a water molecule between their hydroxyl groups, as in sucrose, maltose and lactose.",
+   "keyPoints": [
+    "C–O–C bridge between two monosaccharide units",
+    "Formed by loss of water",
+    "Present in disaccharides and polysaccharides"
+   ]
+  },
+  {
+   "id": "chemistry-c12-312",
+   "type": "short",
+   "q": "Why can humans digest starch but not cellulose?",
+   "proposedAnswer": "Starch has α-glycosidic linkages, which human digestive enzymes (amylase) can hydrolyse. Cellulose has β-glycosidic linkages, and humans lack the enzyme cellulase needed to break them.",
+   "keyPoints": [
+    "Starch has α-glycosidic links, cellulose has β-links",
+    "Humans have enzymes for α-links",
+    "Humans lack cellulase"
+   ]
+  },
+  {
+   "id": "chemistry-c12-313",
+   "type": "mcq",
+   "q": "Which of the following is a covalent (network) solid?",
+   "options": [
+    "Ice",
+    "Sodium chloride",
+    "Magnesium",
+    "Diamond"
+   ]
+  },
+  {
+   "id": "chemistry-c12-314",
+   "type": "mcq",
+   "q": "The smallest repeating portion of a crystal lattice, which generates the whole lattice when repeated in three dimensions, is called the:",
+   "options": [
+    "lattice point",
+    "unit cell",
+    "void",
+    "crystal face"
+   ]
+  },
+  {
+   "id": "chemistry-c12-315",
+   "type": "mcq",
+   "q": "What is the coordination number of an atom in a simple cubic lattice?",
+   "options": [
+    "6",
+    "8",
+    "12",
+    "4"
+   ]
+  },
+  {
+   "id": "chemistry-c12-316",
+   "type": "mcq",
+   "q": "Iron(II) oxide is usually found as Fe₀.₉₅O. This is because:",
+   "options": [
+    "it contains excess iron atoms in interstitial sites",
+    "oxide ions are missing and electrons occupy the vacancies",
+    "some Fe²⁺ ions are missing and the charge is balanced by some Fe³⁺ ions",
+    "some Fe²⁺ ions have moved to interstitial sites"
+   ]
+  },
+  {
+   "id": "chemistry-c12-317",
+   "type": "mcq",
+   "q": "Atoms of X form a ccp lattice and atoms of Y occupy all the tetrahedral voids. The formula of the compound is:",
+   "options": [
+    "XY",
+    "XY₂",
+    "X₂Y",
+    "X₂Y₃"
+   ]
+  },
+  {
+   "id": "chemistry-c12-318",
+   "type": "mcq",
+   "q": "Sodium crystallises in a bcc lattice with edge length 429 pm. Taking the molar mass as 23 g/mol and N_A = 6.022 x 10²³, its density is about:",
+   "options": [
+    "1.94 g cm⁻³",
+    "0.48 g cm⁻³",
+    "2.9 g cm⁻³",
+    "0.97 g cm⁻³"
+   ]
+  },
+  {
+   "id": "chemistry-c12-319",
+   "type": "short",
+   "q": "Define the term 'unit cell'.",
+   "proposedAnswer": "A unit cell is the smallest portion of a crystal lattice which, when repeated in all three dimensions, generates the entire lattice.",
+   "keyPoints": [
+    "Smallest repeating unit of the crystal lattice",
+    "Repetition in three dimensions builds the crystal"
+   ]
+  },
+  {
+   "id": "chemistry-c12-320",
+   "type": "short",
+   "q": "How does doping silicon with a group 13 element such as boron produce a p-type semiconductor?",
+   "proposedAnswer": "Boron has three valence electrons, so each boron atom in the silicon lattice leaves one bond short of an electron, creating an electron hole. Holes move under an electric field and carry the current, so the semiconductor is called p-type (positive hole).",
+   "keyPoints": [
+    "Boron has one electron fewer than silicon",
+    "An electron vacancy (hole) is created",
+    "Conduction is by movement of positive holes"
+   ]
+  },
+  {
+   "id": "chemistry-c12-321",
+   "type": "mcq",
+   "q": "Which concentration term does not change with temperature?",
+   "options": [
+    "Molarity",
+    "Volume percentage",
+    "Mole fraction",
+    "Mass per unit volume"
+   ]
+  },
+  {
+   "id": "chemistry-c12-322",
+   "type": "mcq",
+   "q": "Soda water is an example of a solution of:",
+   "options": [
+    "a gas in a liquid",
+    "a liquid in a solid",
+    "a gas in a solid",
+    "a solid in a liquid"
+   ]
+  },
+  {
+   "id": "chemistry-c12-323",
+   "type": "mcq",
+   "q": "What is the unit of the molal elevation constant K_b?",
+   "options": [
+    "K mol kg⁻¹",
+    "mol kg⁻¹",
+    "K mol⁻¹",
+    "K kg mol⁻¹"
+   ]
+  },
+  {
+   "id": "chemistry-c12-324",
+   "type": "mcq",
+   "q": "A solution contains 1 mol of a non-volatile solute and 9 mol of solvent. The relative lowering of vapour pressure is:",
+   "options": [
+    "0.9",
+    "0.1",
+    "0.11",
+    "1.0"
+   ]
+  },
+  {
+   "id": "chemistry-c12-325",
+   "type": "mcq",
+   "q": "3.0 g of a non-electrolyte is dissolved in water to make 500 mL of solution, which shows an osmotic pressure of 0.0821 atm at 300 K. Taking R = 0.0821 L atm mol⁻¹ K⁻¹, the molar mass of the solute is:",
+   "options": [
+    "1800 g/mol",
+    "180 g/mol",
+    "3600 g/mol",
+    "900 g/mol"
+   ]
+  },
+  {
+   "id": "chemistry-c12-326",
+   "type": "mcq",
+   "q": "Which 0.01 m aqueous solution freezes at the lowest temperature, assuming complete dissociation of the electrolytes?",
+   "options": [
+    "NaCl",
+    "Glucose",
+    "Al₂(SO₄)₃",
+    "K₂SO₄"
+   ]
+  },
+  {
+   "id": "chemistry-c12-327",
+   "type": "short",
+   "q": "Define molarity and write its unit.",
+   "proposedAnswer": "Molarity is the number of moles of solute dissolved per litre of solution. Its unit is mol L⁻¹ (M).",
+   "keyPoints": [
+    "Moles of solute per litre of solution",
+    "Unit: mol L⁻¹"
+   ]
+  },
+  {
+   "id": "chemistry-c12-328",
+   "type": "short",
+   "q": "Calculate the molarity of a solution containing 4 g of NaOH (molar mass 40 g/mol) in 250 mL of solution.",
+   "proposedAnswer": "Moles of NaOH = 4/40 = 0.1 mol. Volume = 0.25 L. Molarity = 0.1/0.25 = 0.4 M.",
+   "keyPoints": [
+    "n = 4/40 = 0.1 mol",
+    "V = 0.25 L",
+    "M = 0.4 mol L⁻¹"
+   ]
+  },
+  {
+   "id": "chemistry-c12-329",
+   "type": "mcq",
+   "q": "In an electrolytic cell the cathode carries which charge?",
+   "options": [
+    "Positive",
+    "Negative",
+    "Neutral",
+    "It changes with time"
+   ]
+  },
+  {
+   "id": "chemistry-c12-330",
+   "type": "mcq",
+   "q": "Conduction of electricity through an electrolytic solution is due to the movement of:",
+   "options": [
+    "electrons only",
+    "atoms",
+    "protons only",
+    "ions"
+   ]
+  },
+  {
+   "id": "chemistry-c12-331",
+   "type": "mcq",
+   "q": "According to Faraday's first law, the mass of a substance deposited at an electrode is directly proportional to:",
+   "options": [
+    "the temperature of the electrolyte",
+    "the voltage of the source only",
+    "the quantity of charge passed",
+    "the size of the electrode"
+   ]
+  },
+  {
+   "id": "chemistry-c12-332",
+   "type": "mcq",
+   "q": "Given E°(Ag⁺/Ag) = +0.80 V and E°(Cu²⁺/Cu) = +0.34 V, the standard EMF of the cell Cu | Cu²⁺ || Ag⁺ | Ag is:",
+   "options": [
+    "0.46 V",
+    "1.14 V",
+    "0.80 V",
+    "0.34 V"
+   ]
+  },
+  {
+   "id": "chemistry-c12-333",
+   "type": "mcq",
+   "q": "What is the EMF at 298 K of the concentration cell Cu | Cu²⁺(0.01 M) || Cu²⁺(1.0 M) | Cu? (Use 2.303RT/F = 0.0592 V)",
+   "options": [
+    "0 V",
+    "0.0296 V",
+    "0.118 V",
+    "0.0592 V"
+   ]
+  },
+  {
+   "id": "chemistry-c12-334",
+   "type": "mcq",
+   "q": "Limiting molar conductivities (S cm² mol⁻¹): HCl 426.2, NaCl 126.5, CH₃COONa 91.0. The limiting molar conductivity of CH₃COOH is:",
+   "options": [
+    "343.3",
+    "390.7",
+    "461.7",
+    "609.7"
+   ]
+  },
+  {
+   "id": "chemistry-c12-335",
+   "type": "short",
+   "q": "State Faraday's first law of electrolysis.",
+   "proposedAnswer": "The amount of substance deposited or liberated at an electrode during electrolysis is directly proportional to the quantity of electricity passed through the electrolyte.",
+   "keyPoints": [
+    "Mass deposited is proportional to the charge passed",
+    "m = Z x Q"
+   ]
+  },
+  {
+   "id": "chemistry-c12-336",
+   "type": "short",
+   "q": "Why does a dry cell become dead after a long time even if it has not been used?",
+   "proposedAnswer": "The electrolyte NH₄Cl is acidic and slowly attacks the zinc container, so the zinc casing corrodes and the cell deteriorates even when not in use.",
+   "keyPoints": [
+    "Electrolyte (NH₄Cl) is acidic",
+    "Zinc container is slowly corroded",
+    "Cell loses its function"
+   ]
+  },
+  {
+   "id": "chemistry-c12-337",
+   "type": "mcq",
+   "q": "According to collision theory, a collision produces products only if the colliding molecules have:",
+   "options": [
+    "energy equal to or above the threshold energy and proper orientation",
+    "any energy but a head-on orientation",
+    "energy below the threshold energy",
+    "the same mass"
+   ]
+  },
+  {
+   "id": "chemistry-c12-338",
+   "type": "mcq",
+   "q": "The order of a reaction is determined:",
+   "options": [
+    "from the coefficients in the balanced equation",
+    "from the molecularity of the overall reaction",
+    "by experiment",
+    "from the temperature"
+   ]
+  },
+  {
+   "id": "chemistry-c12-339",
+   "type": "mcq",
+   "q": "If the initial concentration of the reactant in a first-order reaction is doubled, its half-life:",
+   "options": [
+    "is doubled",
+    "remains unchanged",
+    "is halved",
+    "becomes four times"
+   ]
+  },
+  {
+   "id": "chemistry-c12-340",
+   "type": "mcq",
+   "q": "For a first-order reaction, a plot of ln[A] against time is a straight line with slope:",
+   "options": [
+    "+k",
+    "1/k",
+    "ln k",
+    "−k"
+   ]
+  },
+  {
+   "id": "chemistry-c12-341",
+   "type": "mcq",
+   "q": "In a reaction, doubling [A] with [B] constant makes the rate four times, and doubling [B] with [A] constant doubles the rate. The rate law is:",
+   "options": [
+    "rate = k[A][B]",
+    "rate = k[A][B]²",
+    "rate = k[A]²[B]",
+    "rate = k[A]²[B]²"
+   ]
+  },
+  {
+   "id": "chemistry-c12-342",
+   "type": "mcq",
+   "q": "For a first-order reaction, the time required for 99% completion is how many times the time required for 90% completion?",
+   "options": [
+    "2",
+    "10",
+    "9",
+    "1.1"
+   ]
+  },
+  {
+   "id": "chemistry-c12-343",
+   "type": "short",
+   "q": "Define the rate of a chemical reaction.",
+   "proposedAnswer": "The rate of a reaction is the change in concentration of a reactant or product per unit time. It is usually expressed in mol L⁻¹ s⁻¹.",
+   "keyPoints": [
+    "Change in concentration per unit time",
+    "Decrease of reactant or increase of product",
+    "Unit mol L⁻¹ s⁻¹"
+   ]
+  },
+  {
+   "id": "chemistry-c12-344",
+   "type": "short",
+   "q": "A plot of ln k against 1/T for a reaction is a straight line with slope −5000 K. Calculate the activation energy (R = 8.314 J mol⁻¹ K⁻¹).",
+   "proposedAnswer": "Slope = −E_a/R, so E_a = 5000 x 8.314 = 41 570 J/mol ≈ 41.6 kJ/mol.",
+   "keyPoints": [
+    "Slope = −E_a/R",
+    "E_a = 5000 x 8.314 J/mol",
+    "E_a ≈ 41.6 kJ/mol"
+   ]
+  },
+  {
+   "id": "chemistry-c12-345",
+   "type": "mcq",
+   "q": "Finely divided nickel is used as a catalyst in the:",
+   "options": [
+    "manufacture of sulphuric acid",
+    "Haber process",
+    "Ostwald process",
+    "hydrogenation of vegetable oils"
+   ]
+  },
+  {
+   "id": "chemistry-c12-346",
+   "type": "mcq",
+   "q": "An emulsifying agent is added to an emulsion in order to:",
+   "options": [
+    "separate its two liquids",
+    "stabilise it",
+    "increase the size of the droplets",
+    "evaporate the dispersed liquid"
+   ]
+  },
+  {
+   "id": "chemistry-c12-347",
+   "type": "mcq",
+   "q": "Soap molecules form micelles in water:",
+   "options": [
+    "above the critical micelle concentration (and above the Kraft temperature)",
+    "only at very low concentration",
+    "only in non-polar solvents",
+    "never, because soaps are insoluble"
+   ]
+  },
+  {
+   "id": "chemistry-c12-348",
+   "type": "mcq",
+   "q": "Which of the following is a multimolecular colloid?",
+   "options": [
+    "Starch sol",
+    "Soap solution above CMC",
+    "Sulphur sol",
+    "Protein solution"
+   ]
+  },
+  {
+   "id": "chemistry-c12-349",
+   "type": "mcq",
+   "q": "The Langmuir adsorption isotherm is based on the assumption that:",
+   "options": [
+    "adsorption takes place in many layers",
+    "adsorption is limited to a monolayer on the surface",
+    "adsorbed molecules strongly attract each other",
+    "the surface is completely non-uniform"
+   ]
+  },
+  {
+   "id": "chemistry-c12-350",
+   "type": "mcq",
+   "q": "With a rise in temperature, the extent of chemisorption generally:",
+   "options": [
+    "decreases continuously",
+    "increases continuously",
+    "remains constant",
+    "first increases and then decreases"
+   ]
+  },
+  {
+   "id": "chemistry-c12-351",
+   "type": "short",
+   "q": "What is a catalyst?",
+   "proposedAnswer": "A catalyst is a substance that alters the rate of a chemical reaction without itself undergoing any permanent chemical change, and is recovered unchanged at the end.",
+   "keyPoints": [
+    "Changes the rate of the reaction",
+    "Remains chemically unchanged at the end"
+   ]
+  },
+  {
+   "id": "chemistry-c12-352",
+   "type": "short",
+   "q": "State the Hardy–Schulze rule.",
+   "proposedAnswer": "The coagulating power of an electrolyte increases with the charge on the ion that has charge opposite to the colloidal particles. For a negative sol the order is Al³⁺ > Ba²⁺ > Na⁺.",
+   "keyPoints": [
+    "Higher charge on the oppositely charged ion gives greater coagulating power",
+    "Example order Al³⁺ > Ba²⁺ > Na⁺ for a negative sol"
+   ]
+  },
+  {
+   "id": "chemistry-c12-353",
+   "type": "mcq",
+   "q": "Laughing gas is:",
+   "options": [
+    "NO",
+    "NO₂",
+    "N₂O",
+    "N₂O₅"
+   ]
+  },
+  {
+   "id": "chemistry-c12-354",
+   "type": "mcq",
+   "q": "Which noble gas is the most abundant in dry air?",
+   "options": [
+    "Argon",
+    "Neon",
+    "Helium",
+    "Xenon"
+   ]
+  },
+  {
+   "id": "chemistry-c12-355",
+   "type": "mcq",
+   "q": "Which hydrogen halide has the highest boiling point?",
+   "options": [
+    "HCl",
+    "HBr",
+    "HI",
+    "HF"
+   ]
+  },
+  {
+   "id": "chemistry-c12-356",
+   "type": "mcq",
+   "q": "What is the oxidation state of chlorine in HClO₄?",
+   "options": [
+    "+5",
+    "+7",
+    "+3",
+    "+1"
+   ]
+  },
+  {
+   "id": "chemistry-c12-357",
+   "type": "mcq",
+   "q": "Chlorine reacts with cold dilute sodium hydroxide to form:",
+   "options": [
+    "NaCl and NaOCl",
+    "NaCl and NaClO₃",
+    "NaClO₃ only",
+    "NaClO₄"
+   ]
+  },
+  {
+   "id": "chemistry-c12-358",
+   "type": "mcq",
+   "q": "Among the hydrides of group 15, the one with the lowest boiling point is:",
+   "options": [
+    "NH₃",
+    "AsH₃",
+    "PH₃",
+    "SbH₃"
+   ]
+  },
+  {
+   "id": "chemistry-c12-359",
+   "type": "short",
+   "q": "Name two allotropic forms of sulphur.",
+   "proposedAnswer": "Rhombic sulphur (α-sulphur) and monoclinic sulphur (β-sulphur).",
+   "keyPoints": [
+    "Rhombic (α) sulphur",
+    "Monoclinic (β) sulphur"
+   ]
+  },
+  {
+   "id": "chemistry-c12-360",
+   "type": "short",
+   "q": "The bond dissociation enthalpy of F₂ is lower than that of Cl₂. Give the reason.",
+   "proposedAnswer": "Fluorine atoms are very small, so the lone pairs on the two atoms in F₂ repel each other strongly. This repulsion weakens the F–F bond and lowers its bond dissociation enthalpy.",
+   "keyPoints": [
+    "Small size of fluorine atom",
+    "Strong lone pair–lone pair repulsion",
+    "Weaker F–F bond"
+   ]
+  },
+  {
+   "id": "chemistry-c12-361",
+   "type": "mcq",
+   "q": "In the actinoid series the electrons are progressively filled into the:",
+   "options": [
+    "4f subshell",
+    "5f subshell",
+    "6d subshell",
+    "5d subshell"
+   ]
+  },
+  {
+   "id": "chemistry-c12-362",
+   "type": "mcq",
+   "q": "The general outer electronic configuration of d-block elements is:",
+   "options": [
+    "ns²np⁶",
+    "(n−1)s²(n)p⁶",
+    "ns² only",
+    "(n−1)d¹⁻¹⁰ns¹⁻²"
+   ]
+  },
+  {
+   "id": "chemistry-c12-363",
+   "type": "mcq",
+   "q": "The most stable oxidation state of scandium is:",
+   "options": [
+    "+1",
+    "+2",
+    "+3",
+    "+4"
+   ]
+  },
+  {
+   "id": "chemistry-c12-364",
+   "type": "mcq",
+   "q": "Potassium dichromate is prepared industrially from the ore:",
+   "options": [
+    "chromite, FeCr₂O₄",
+    "pyrolusite, MnO₂",
+    "haematite, Fe₂O₃",
+    "galena, PbS"
+   ]
+  },
+  {
+   "id": "chemistry-c12-365",
+   "type": "mcq",
+   "q": "Which lanthanoid commonly shows the +4 oxidation state in addition to +3?",
+   "options": [
+    "Gd",
+    "Eu",
+    "La",
+    "Ce"
+   ]
+  },
+  {
+   "id": "chemistry-c12-366",
+   "type": "mcq",
+   "q": "Zirconium and hafnium have almost identical atomic radii mainly because of:",
+   "options": [
+    "their similar melting points",
+    "lanthanoid contraction",
+    "their equal number of neutrons",
+    "the inert pair effect"
+   ]
+  },
+  {
+   "id": "chemistry-c12-367",
+   "type": "short",
+   "q": "What are lanthanoids? Write their general electronic configuration.",
+   "proposedAnswer": "Lanthanoids are the 14 elements following lanthanum (Z = 58–71) in which the 4f subshell is progressively filled. General configuration: [Xe] 4f¹⁻¹⁴ 5d⁰⁻¹ 6s².",
+   "keyPoints": [
+    "Fourteen 4f-series elements after lanthanum",
+    "[Xe] 4f¹⁻¹⁴ 5d⁰⁻¹ 6s²"
+   ]
+  },
+  {
+   "id": "chemistry-c12-368",
+   "type": "short",
+   "q": "Why do transition metals readily form alloys?",
+   "proposedAnswer": "Transition metals have similar atomic radii, so atoms of one metal can easily replace atoms of another in the crystal lattice, forming solid solutions called alloys (e.g. brass, steel).",
+   "keyPoints": [
+    "Similar atomic radii",
+    "One metal's atoms replace another's in the lattice",
+    "Examples: brass, steel"
+   ]
+  },
+  {
+   "id": "chemistry-c12-369",
+   "type": "mcq",
+   "q": "The number of donor atoms of the ligands attached directly to the central metal atom or ion is called its:",
+   "options": [
+    "coordination number",
+    "oxidation number",
+    "atomic number",
+    "valency"
+   ]
+  },
+  {
+   "id": "chemistry-c12-370",
+   "type": "mcq",
+   "q": "In IUPAC names of complexes, NH₃ as a ligand is named:",
+   "options": [
+    "amino",
+    "ammonia",
+    "ammine",
+    "ammonium"
+   ]
+  },
+  {
+   "id": "chemistry-c12-371",
+   "type": "mcq",
+   "q": "The formula of sodium hexanitrito-N-cobaltate(III) is:",
+   "options": [
+    "Na[Co(NO₂)₆]",
+    "Na₃[Co(NO₂)₆]",
+    "Na₂[Co(NO₂)₆]",
+    "Na₃[Co(NO)₆]"
+   ]
+  },
+  {
+   "id": "chemistry-c12-372",
+   "type": "mcq",
+   "q": "Which pair of compounds shows linkage isomerism?",
+   "options": [
+    "[Co(NH₃)₅Br]SO₄ and [Co(NH₃)₅SO₄]Br",
+    "[Cr(H₂O)₆]Cl₃ and [Cr(H₂O)₅Cl]Cl₂·H₂O",
+    "cis- and trans-[PtCl₂(NH₃)₂]",
+    "[Co(NH₃)₅NO₂]Cl₂ and [Co(NH₃)₅ONO]Cl₂"
+   ]
+  },
+  {
+   "id": "chemistry-c12-373",
+   "type": "mcq",
+   "q": "What are the coordination number and oxidation state of chromium in K₃[Cr(C₂O₄)₃]? (oxalate is bidentate)",
+   "options": [
+    "3 and +3",
+    "6 and +6",
+    "6 and +3",
+    "3 and +6"
+   ]
+  },
+  {
+   "id": "chemistry-c12-374",
+   "type": "mcq",
+   "q": "[Ni(CO)₄] has which hybridisation and shape?",
+   "options": [
+    "sp³, tetrahedral",
+    "dsp², square planar",
+    "sp³d, trigonal bipyramidal",
+    "d²sp³, octahedral"
+   ]
+  },
+  {
+   "id": "chemistry-c12-375",
+   "type": "short",
+   "q": "What is a chelate? Give one example.",
+   "proposedAnswer": "A chelate is a complex in which a polydentate (di- or polydentate) ligand binds to the central metal through two or more donor atoms, forming ring structures. Example: [Co(en)₃]³⁺ or the EDTA complex of Ca²⁺.",
+   "keyPoints": [
+    "Polydentate ligand binds through more than one donor atom",
+    "Ring structure is formed",
+    "Example such as [Co(en)₃]³⁺"
+   ]
+  },
+  {
+   "id": "chemistry-c12-376",
+   "type": "short",
+   "q": "Give two limitations of valence bond theory for coordination compounds.",
+   "proposedAnswer": "It does not explain the colours of coordination compounds and cannot give a quantitative interpretation of their magnetic data or of thermodynamic and kinetic stabilities; it also does not explain why some complexes are inner-orbital while others are outer-orbital.",
+   "keyPoints": [
+    "Does not explain colour of complexes",
+    "No quantitative treatment of magnetic or stability data"
+   ]
+  },
+  {
+   "id": "chemistry-c12-377",
+   "type": "mcq",
+   "q": "Chloroform is stored in dark-coloured bottles to prevent its:",
+   "options": [
+    "evaporation",
+    "reaction with glass",
+    "freezing",
+    "oxidation by air to poisonous phosgene"
+   ]
+  },
+  {
+   "id": "chemistry-c12-378",
+   "type": "mcq",
+   "q": "The compound CCl₂F₂ is commonly known as:",
+   "options": [
+    "DDT",
+    "Freon-12",
+    "chloroform",
+    "carbon tetrachloride"
+   ]
+  },
+  {
+   "id": "chemistry-c12-379",
+   "type": "mcq",
+   "q": "Which compound has the highest boiling point?",
+   "options": [
+    "CH₃CH₂I",
+    "CH₃CH₂Br",
+    "CH₃CH₂Cl",
+    "CH₃CH₂F"
+   ]
+  },
+  {
+   "id": "chemistry-c12-380",
+   "type": "mcq",
+   "q": "The reaction of methane with chlorine in sunlight proceeds by:",
+   "options": [
+    "nucleophilic substitution",
+    "electrophilic substitution",
+    "free-radical substitution",
+    "electrophilic addition"
+   ]
+  },
+  {
+   "id": "chemistry-c12-381",
+   "type": "mcq",
+   "q": "Chlorobenzene heated with aqueous NaOH at about 623 K and 300 atm, followed by acidification, gives:",
+   "options": [
+    "benzene",
+    "phenol",
+    "aniline",
+    "benzoic acid"
+   ]
+  },
+  {
+   "id": "chemistry-c12-382",
+   "type": "mcq",
+   "q": "DDT, an insecticide, is chemically:",
+   "options": [
+    "1,1,1-trichloroethane",
+    "tetrachloromethane",
+    "hexachlorocyclohexane",
+    "p,p'-dichlorodiphenyltrichloroethane"
+   ]
+  },
+  {
+   "id": "chemistry-c12-383",
+   "type": "short",
+   "q": "Write the IUPAC name of CH₃CHClCH₂CH₃.",
+   "proposedAnswer": "2-Chlorobutane.",
+   "keyPoints": [
+    "Four-carbon chain (butane)",
+    "Chlorine on carbon 2"
+   ]
+  },
+  {
+   "id": "chemistry-c12-384",
+   "type": "short",
+   "q": "What is the Swarts reaction? Give an example.",
+   "proposedAnswer": "Alkyl chlorides or bromides are heated with a metallic fluoride such as AgF, Hg₂F₂, CoF₂ or SbF₃ to give alkyl fluorides, e.g. CH₃Br + AgF → CH₃F + AgBr.",
+   "keyPoints": [
+    "Preparation of alkyl fluorides",
+    "Reagent: AgF, Hg₂F₂, CoF₂ or SbF₃",
+    "Example such as CH₃Br + AgF → CH₃F + AgBr"
+   ]
+  },
+  {
+   "id": "chemistry-c12-385",
+   "type": "mcq",
+   "q": "What is the IUPAC name of CH₃CH₂CH₂OH?",
+   "options": [
+    "Propan-2-ol",
+    "Propanal",
+    "Propan-1-ol",
+    "Propanoic acid"
+   ]
+  },
+  {
+   "id": "chemistry-c12-386",
+   "type": "mcq",
+   "q": "Ethanol is oxidised by an excess of acidified potassium dichromate to:",
+   "options": [
+    "ethanoic acid",
+    "ethanal",
+    "ethane",
+    "ethene"
+   ]
+  },
+  {
+   "id": "chemistry-c12-387",
+   "type": "mcq",
+   "q": "Diethyl ether is obtained by heating excess ethanol with concentrated H₂SO₄ at about:",
+   "options": [
+    "273 K",
+    "373 K",
+    "443 K",
+    "413 K"
+   ]
+  },
+  {
+   "id": "chemistry-c12-388",
+   "type": "mcq",
+   "q": "Phenol dissolves in aqueous NaOH but not in aqueous NaHCO₃ because:",
+   "options": [
+    "phenol is a base",
+    "phenol is a weaker acid than carbonic acid",
+    "phenol is insoluble in water",
+    "NaHCO₃ is a stronger base than NaOH"
+   ]
+  },
+  {
+   "id": "chemistry-c12-389",
+   "type": "mcq",
+   "q": "Which alcohol resists oxidation by mild oxidising agents because it has no hydrogen on the carbon bearing the –OH group?",
+   "options": [
+    "2-Methylpropan-2-ol",
+    "Propan-2-ol",
+    "Butan-1-ol",
+    "Ethanol"
+   ]
+  },
+  {
+   "id": "chemistry-c12-390",
+   "type": "mcq",
+   "q": "Sodium phenoxide is heated with CO₂ at about 400 K and 4–7 atm, and then acidified. The product is:",
+   "options": [
+    "benzoic acid",
+    "phenyl acetate",
+    "salicylic acid",
+    "acetylsalicylic acid"
+   ]
+  },
+  {
+   "id": "chemistry-c12-391",
+   "type": "short",
+   "q": "What is absolute alcohol and how is it obtained from rectified spirit?",
+   "proposedAnswer": "Absolute alcohol is practically 100% pure ethanol. It is obtained from rectified spirit (95% ethanol) by azeotropic distillation with benzene, which removes the water.",
+   "keyPoints": [
+    "Practically 100% ethanol",
+    "Rectified spirit is a 95% azeotrope with water",
+    "Water is removed by distillation with benzene"
+   ]
+  },
+  {
+   "id": "chemistry-c12-392",
+   "type": "short",
+   "q": "Why is ethanol completely miscible with water while hexan-1-ol is only slightly soluble?",
+   "proposedAnswer": "Both form hydrogen bonds with water through –OH, but in hexan-1-ol the large non-polar hydrocarbon chain disrupts the hydrogen bonding of water and outweighs the polar group. Ethanol's short chain has a small non-polar part, so solubility is high.",
+   "keyPoints": [
+    "–OH groups hydrogen bond with water",
+    "Longer hydrocarbon part is hydrophobic",
+    "Solubility falls as the alkyl chain grows"
+   ]
+  },
+  {
+   "id": "chemistry-c12-393",
+   "type": "mcq",
+   "q": "Which acid is responsible for the pain of an ant sting?",
+   "options": [
+    "Ethanoic acid",
+    "Methanoic acid",
+    "Propanoic acid",
+    "Butanoic acid"
+   ]
+  },
+  {
+   "id": "chemistry-c12-394",
+   "type": "mcq",
+   "q": "Which of the following is a ketone?",
+   "options": [
+    "CH₃CHO",
+    "HCHO",
+    "CH₃COOH",
+    "CH₃COCH₂CH₃"
+   ]
+  },
+  {
+   "id": "chemistry-c12-395",
+   "type": "mcq",
+   "q": "Reduction of the C=O group to CH₂ using hydrazine and KOH in ethylene glycol is called:",
+   "options": [
+    "Clemmensen reduction",
+    "Cannizzaro reaction",
+    "Wolff–Kishner reduction",
+    "Rosenmund reduction"
+   ]
+  },
+  {
+   "id": "chemistry-c12-396",
+   "type": "mcq",
+   "q": "Ethanal reacts with HCN to give:",
+   "options": [
+    "a cyanohydrin (2-hydroxypropanenitrile)",
+    "ethanoic acid",
+    "ethylamine",
+    "propanenitrile"
+   ]
+  },
+  {
+   "id": "chemistry-c12-397",
+   "type": "mcq",
+   "q": "Benzoic acid is treated with Cl₂ in the presence of FeCl₃. The main product is:",
+   "options": [
+    "o-chlorobenzoic acid",
+    "p-chlorobenzoic acid",
+    "a mixture of ortho and para isomers",
+    "m-chlorobenzoic acid"
+   ]
+  },
+  {
+   "id": "chemistry-c12-398",
+   "type": "mcq",
+   "q": "A compound of formula C₃H₆O reduces Tollens' reagent. It must be:",
+   "options": [
+    "propanone",
+    "propanal",
+    "prop-2-en-1-ol",
+    "cyclopropanol"
+   ]
+  },
+  {
+   "id": "chemistry-c12-399",
+   "type": "short",
+   "q": "Write the functional group and the general formula of a carboxylic acid.",
+   "proposedAnswer": "The functional group is the carboxyl group, –COOH. For saturated monocarboxylic acids the general formula is CₙH₂ₙ₊₁COOH (or R–COOH).",
+   "keyPoints": [
+    "Functional group –COOH",
+    "General formula R–COOH"
+   ]
+  },
+  {
+   "id": "chemistry-c12-400",
+   "type": "short",
+   "q": "How is benzoic acid prepared from toluene?",
+   "proposedAnswer": "Toluene is oxidised by heating with alkaline KMnO₄ (or acidified KMnO₄ or K₂Cr₂O₇); the side-chain –CH₃ is oxidised to –COOH, and acidification liberates benzoic acid.",
+   "keyPoints": [
+    "Oxidation of the side chain of toluene",
+    "Reagent: alkaline or acidic KMnO₄ (or K₂Cr₂O₇)",
+    "Product: benzoic acid"
+   ]
+  },
+  {
+   "id": "chemistry-c12-401",
+   "type": "mcq",
+   "q": "How many alkyl groups are attached to the nitrogen atom in a tertiary amine?",
+   "options": [
+    "3",
+    "2",
+    "1",
+    "4"
+   ]
+  },
+  {
+   "id": "chemistry-c12-402",
+   "type": "mcq",
+   "q": "Methylamine at room temperature is a:",
+   "options": [
+    "colourless liquid",
+    "white solid",
+    "colourless gas",
+    "blue liquid"
+   ]
+  },
+  {
+   "id": "chemistry-c12-403",
+   "type": "mcq",
+   "q": "Aniline can be prepared from nitrobenzene by:",
+   "options": [
+    "oxidation with KMnO₄",
+    "catalytic hydrogenation (H₂/Pd)",
+    "treatment with NaOH",
+    "heating with ammonia"
+   ]
+  },
+  {
+   "id": "chemistry-c12-404",
+   "type": "mcq",
+   "q": "Aniline reacts with acetic anhydride to give:",
+   "options": [
+    "nitrobenzene",
+    "benzamide",
+    "phenyl acetate",
+    "acetanilide"
+   ]
+  },
+  {
+   "id": "chemistry-c12-405",
+   "type": "mcq",
+   "q": "Which of the following is the weakest base?",
+   "options": [
+    "Aniline",
+    "p-Toluidine",
+    "p-Nitroaniline",
+    "Benzylamine"
+   ]
+  },
+  {
+   "id": "chemistry-c12-406",
+   "type": "mcq",
+   "q": "Benzenediazonium chloride reacts with CuCN (Sandmeyer reaction) to give:",
+   "options": [
+    "benzonitrile",
+    "benzene",
+    "phenol",
+    "benzoic acid"
+   ]
+  },
+  {
+   "id": "chemistry-c12-407",
+   "type": "short",
+   "q": "Define primary, secondary and tertiary amines with one example each.",
+   "proposedAnswer": "A primary amine has one alkyl/aryl group on nitrogen (CH₃NH₂), a secondary amine has two (CH₃NHCH₃) and a tertiary amine has three ((CH₃)₃N).",
+   "keyPoints": [
+    "Primary: one group, e.g. CH₃NH₂",
+    "Secondary: two groups, e.g. (CH₃)₂NH",
+    "Tertiary: three groups, e.g. (CH₃)₃N"
+   ]
+  },
+  {
+   "id": "chemistry-c12-408",
+   "type": "short",
+   "q": "Why do primary amines have higher boiling points than tertiary amines of comparable molar mass?",
+   "proposedAnswer": "Primary amines have two N–H bonds and form intermolecular hydrogen bonds. Tertiary amines have no N–H bond and so cannot form hydrogen bonds with each other, so their boiling points are lower.",
+   "keyPoints": [
+    "Primary amines have N–H and hydrogen-bond with each other",
+    "Tertiary amines have no N–H bond",
+    "Hydrogen bonding raises the boiling point"
+   ]
+  },
+  {
+   "id": "chemistry-c12-409",
+   "type": "mcq",
+   "q": "Which of the following is a disaccharide?",
+   "options": [
+    "Glucose",
+    "Fructose",
+    "Starch",
+    "Lactose"
+   ]
+  },
+  {
+   "id": "chemistry-c12-410",
+   "type": "mcq",
+   "q": "Vitamin K is needed for:",
+   "options": [
+    "vision in dim light",
+    "blood clotting",
+    "strong bones in children",
+    "preventing scurvy"
+   ]
+  },
+  {
+   "id": "chemistry-c12-411",
+   "type": "mcq",
+   "q": "Which common α-amino acid is optically inactive?",
+   "options": [
+    "Glycine",
+    "Alanine",
+    "Serine",
+    "Valine"
+   ]
+  },
+  {
+   "id": "chemistry-c12-412",
+   "type": "mcq",
+   "q": "Starch is hydrolysed to maltose by the enzyme:",
+   "options": [
+    "invertase",
+    "zymase",
+    "amylase",
+    "maltase"
+   ]
+  },
+  {
+   "id": "chemistry-c12-413",
+   "type": "mcq",
+   "q": "In protein synthesis, which nucleic acid carries amino acids to the ribosome?",
+   "options": [
+    "mRNA",
+    "tRNA",
+    "rRNA",
+    "DNA"
+   ]
+  },
+  {
+   "id": "chemistry-c12-414",
+   "type": "mcq",
+   "q": "Complete hydrolysis of DNA gives:",
+   "options": [
+    "phosphoric acid, ribose and the bases A, G, C and U",
+    "ribose and amino acids",
+    "amino acids and phosphoric acid only",
+    "phosphoric acid, deoxyribose and the bases A, G, C and T"
+   ]
+  },
+  {
+   "id": "chemistry-c12-415",
+   "type": "short",
+   "q": "What are enzymes?",
+   "proposedAnswer": "Enzymes are biological catalysts, mostly globular proteins, that speed up specific biochemical reactions in living organisms without being used up.",
+   "keyPoints": [
+    "Biological catalysts",
+    "Mostly globular proteins",
+    "Highly specific"
+   ]
+  },
+  {
+   "id": "chemistry-c12-416",
+   "type": "short",
+   "q": "Distinguish between fibrous and globular proteins with one example of each.",
+   "proposedAnswer": "Fibrous proteins have long thread-like polypeptide chains held together by hydrogen and disulphide bonds; they are insoluble in water (e.g. keratin, myosin). Globular proteins have chains folded into a spherical shape and are usually soluble in water (e.g. insulin, albumin).",
+   "keyPoints": [
+    "Fibrous: thread-like, insoluble in water, e.g. keratin",
+    "Globular: spherical, soluble in water, e.g. insulin or albumin"
+   ]
+  },
+  {
+   "id": "chemistry-c12-417",
+   "type": "mcq",
+   "q": "How many crystal systems are there?",
+   "options": [
+    "4",
+    "5",
+    "7",
+    "14"
+   ]
+  },
+  {
+   "id": "chemistry-c12-418",
+   "type": "mcq",
+   "q": "The stacking pattern ABABAB… of close-packed layers gives:",
+   "options": [
+    "cubic close packing",
+    "hexagonal close packing",
+    "body-centred cubic packing",
+    "simple cubic packing"
+   ]
+  },
+  {
+   "id": "chemistry-c12-419",
+   "type": "mcq",
+   "q": "In a close-packed structure of spheres of radius r, the radius of an octahedral void is:",
+   "options": [
+    "0.155 r",
+    "0.225 r",
+    "0.732 r",
+    "0.414 r"
+   ]
+  },
+  {
+   "id": "chemistry-c12-420",
+   "type": "mcq",
+   "q": "Frenkel defect is most likely to be found in crystals in which:",
+   "options": [
+    "both ions have the same size",
+    "the coordination number is very high",
+    "the cation is much smaller than the anion",
+    "the anion is much smaller than the cation"
+   ]
+  },
+  {
+   "id": "chemistry-c12-421",
+   "type": "mcq",
+   "q": "CsCl has one formula unit per cubic unit cell of edge 412 pm. Taking its molar mass as 168.4 g/mol and N_A = 6.022 x 10²³, its density is about:",
+   "options": [
+    "4.0 g cm⁻³",
+    "8.0 g cm⁻³",
+    "2.0 g cm⁻³",
+    "1.0 g cm⁻³"
+   ]
+  },
+  {
+   "id": "chemistry-c12-422",
+   "type": "mcq",
+   "q": "In the NaCl structure the ions touch along the cell edge. If r(Na⁺) = 95 pm and r(Cl⁻) = 181 pm, the edge length of the unit cell is:",
+   "options": [
+    "276 pm",
+    "362 pm",
+    "456 pm",
+    "552 pm"
+   ]
+  },
+  {
+   "id": "chemistry-c12-423",
+   "type": "mcq",
+   "q": "10 g of a solute is dissolved in 90 g of solvent. The mass percentage of the solute is:",
+   "options": [
+    "11.1%",
+    "10%",
+    "9%",
+    "90%"
+   ]
+  },
+  {
+   "id": "chemistry-c12-424",
+   "type": "mcq",
+   "q": "Of two solutions, the one with the lower osmotic pressure is called:",
+   "options": [
+    "hypotonic",
+    "hypertonic",
+    "isotonic",
+    "ideal"
+   ]
+  },
+  {
+   "id": "chemistry-c12-425",
+   "type": "mcq",
+   "q": "Soft drinks are bottled under a high pressure of CO₂ in order to:",
+   "options": [
+    "decrease the solubility of CO₂",
+    "lower the temperature of the drink",
+    "increase the solubility of CO₂",
+    "prevent the formation of any carbonic acid"
+   ]
+  },
+  {
+   "id": "chemistry-c12-426",
+   "type": "mcq",
+   "q": "A solution contains 2 mol of solute and 8 mol of solvent. The mole fraction of the solute is:",
+   "options": [
+    "0.25",
+    "0.2",
+    "0.8",
+    "0.02"
+   ]
+  },
+  {
+   "id": "chemistry-c12-427",
+   "type": "mcq",
+   "q": "An ideal solution is made of equal moles of liquids A and B, whose pure vapour pressures at a given temperature are 100 mmHg and 60 mmHg. The total vapour pressure of the solution is:",
+   "options": [
+    "160 mmHg",
+    "40 mmHg",
+    "70 mmHg",
+    "80 mmHg"
+   ]
+  },
+  {
+   "id": "chemistry-c12-428",
+   "type": "mcq",
+   "q": "A and B form an ideal solution in equal moles; the pure vapour pressures are 100 mmHg (A) and 60 mmHg (B). The mole fraction of A in the vapour phase is:",
+   "options": [
+    "0.5",
+    "0.375",
+    "0.625",
+    "0.8"
+   ]
+  },
+  {
+   "id": "chemistry-c12-429",
+   "type": "mcq",
+   "q": "The unit of the cell constant of a conductivity cell is:",
+   "options": [
+    "cm⁻¹",
+    "cm",
+    "S cm⁻¹",
+    "Ω"
+   ]
+  },
+  {
+   "id": "chemistry-c12-430",
+   "type": "mcq",
+   "q": "One faraday (1 F) is the charge carried by:",
+   "options": [
+    "one electron",
+    "one proton",
+    "one mole of atoms",
+    "one mole of electrons"
+   ]
+  },
+  {
+   "id": "chemistry-c12-431",
+   "type": "mcq",
+   "q": "Rust is chiefly:",
+   "options": [
+    "FeO",
+    "hydrated iron(III) oxide, Fe₂O₃·xH₂O",
+    "Fe₃C",
+    "FeS"
+   ]
+  },
+  {
+   "id": "chemistry-c12-432",
+   "type": "mcq",
+   "q": "The molar conductivity of acetic acid rises much more steeply on dilution than that of KCl because, on dilution:",
+   "options": [
+    "the degree of dissociation of acetic acid increases",
+    "the number of ions decreases",
+    "viscosity of acetic acid decreases sharply",
+    "KCl becomes a weak electrolyte"
+   ]
+  },
+  {
+   "id": "chemistry-c12-433",
+   "type": "mcq",
+   "q": "How much time is needed for a current of 1.0 A to deposit 1.08 g of silver from AgNO₃ solution? (Ag = 108 g/mol, F = 96 500 C mol⁻¹)",
+   "options": [
+    "96.5 s",
+    "482.5 s",
+    "965 s",
+    "1930 s"
+   ]
+  },
+  {
+   "id": "chemistry-c12-434",
+   "type": "mcq",
+   "q": "Given E°(Zn²⁺/Zn) = −0.76 V, the EMF of the cell Zn | Zn²⁺ (1 M) || H⁺ (1 M) | H₂ (1 atm) | Pt is:",
+   "options": [
+    "−0.76 V",
+    "+0.76 V",
+    "0 V",
+    "+1.52 V"
+   ]
+  },
+  {
+   "id": "chemistry-c12-435",
+   "type": "mcq",
+   "q": "The rate of most reactions decreases as the reaction proceeds because:",
+   "options": [
+    "the temperature falls",
+    "the catalyst is used up",
+    "the activation energy rises",
+    "the concentrations of reactants fall"
+   ]
+  },
+  {
+   "id": "chemistry-c12-436",
+   "type": "mcq",
+   "q": "The half-life of a reaction is the time in which the concentration of the reactant:",
+   "options": [
+    "becomes zero",
+    "falls to one-tenth",
+    "falls to half of its initial value",
+    "doubles"
+   ]
+  },
+  {
+   "id": "chemistry-c12-437",
+   "type": "mcq",
+   "q": "Radioactive decay follows:",
+   "options": [
+    "first-order kinetics",
+    "zero-order kinetics",
+    "second-order kinetics",
+    "third-order kinetics"
+   ]
+  },
+  {
+   "id": "chemistry-c12-438",
+   "type": "mcq",
+   "q": "At a fixed temperature, lowering the activation energy of a reaction (for example by a catalyst):",
+   "options": [
+    "decreases the rate constant",
+    "has no effect on the rate constant",
+    "stops the reaction",
+    "increases the rate constant"
+   ]
+  },
+  {
+   "id": "chemistry-c12-439",
+   "type": "mcq",
+   "q": "The half-life of a first-order reaction is 30 minutes. The time needed for 87.5% of the reactant to be consumed is:",
+   "options": [
+    "60 min",
+    "90 min",
+    "120 min",
+    "105 min"
+   ]
+  },
+  {
+   "id": "chemistry-c12-440",
+   "type": "mcq",
+   "q": "For A → products, the initial rate is 2 x 10⁻⁴ mol L⁻¹ s⁻¹ at [A] = 0.1 M and 8 x 10⁻⁴ mol L⁻¹ s⁻¹ at [A] = 0.2 M. The rate constant is:",
+   "options": [
+    "2 x 10⁻² L mol⁻¹ s⁻¹",
+    "2 x 10⁻³ s⁻¹",
+    "2 x 10⁻⁴ L mol⁻¹ s⁻¹",
+    "4 x 10⁻² s⁻¹"
+   ]
+  },
+  {
+   "id": "chemistry-c12-441",
+   "type": "mcq",
+   "q": "Which of the following is a lyophobic sol?",
+   "options": [
+    "Gelatin",
+    "Starch",
+    "Gold sol",
+    "Gum"
+   ]
+  },
+  {
+   "id": "chemistry-c12-442",
+   "type": "mcq",
+   "q": "At constant temperature, the extent of physisorption of a gas on a solid generally:",
+   "options": [
+    "decreases with an increase in pressure",
+    "increases with an increase in pressure",
+    "is independent of pressure at all pressures",
+    "falls to zero at high pressure"
+   ]
+  },
+  {
+   "id": "chemistry-c12-443",
+   "type": "mcq",
+   "q": "Mixing two oppositely charged sols leads to:",
+   "options": [
+    "a more stable sol",
+    "a transparent solution",
+    "increased Brownian motion",
+    "mutual coagulation"
+   ]
+  },
+  {
+   "id": "chemistry-c12-444",
+   "type": "mcq",
+   "q": "The catalyst used in the Ostwald process for oxidising ammonia is:",
+   "options": [
+    "finely divided iron",
+    "vanadium(V) oxide",
+    "platinum–rhodium gauze",
+    "nickel"
+   ]
+  },
+  {
+   "id": "chemistry-c12-445",
+   "type": "mcq",
+   "q": "In the Haber process, molybdenum increases the activity of the iron catalyst. Molybdenum is therefore a:",
+   "options": [
+    "promoter",
+    "catalytic poison",
+    "reactant",
+    "inhibitor"
+   ]
+  },
+  {
+   "id": "chemistry-c12-446",
+   "type": "mcq",
+   "q": "Lyophobic sols are kept stable mainly by:",
+   "options": [
+    "their large particle size",
+    "their high density",
+    "gravity acting on the particles",
+    "the like electric charge on the particles, which makes them repel one another"
+   ]
+  },
+  {
+   "id": "chemistry-c12-447",
+   "type": "mcq",
+   "q": "Which allotrope of phosphorus is the most reactive and glows in the dark?",
+   "options": [
+    "Red phosphorus",
+    "White phosphorus",
+    "Black phosphorus",
+    "Violet phosphorus"
+   ]
+  },
+  {
+   "id": "chemistry-c12-448",
+   "type": "mcq",
+   "q": "Oleum is:",
+   "options": [
+    "fuming sulphuric acid, H₂S₂O₇",
+    "peroxodisulphuric acid, H₂S₂O₈",
+    "sulphurous acid, H₂SO₃",
+    "thiosulphuric acid, H₂S₂O₃"
+   ]
+  },
+  {
+   "id": "chemistry-c12-449",
+   "type": "mcq",
+   "q": "Ammonia gas reacts with hydrogen chloride gas to give dense white fumes of:",
+   "options": [
+    "NH₂Cl",
+    "N₂",
+    "NH₄Cl",
+    "NCl₃"
+   ]
+  },
+  {
+   "id": "chemistry-c12-450",
+   "type": "mcq",
+   "q": "Ozone present in the stratosphere is important because it:",
+   "options": [
+    "supplies oxygen for breathing",
+    "absorbs harmful ultraviolet radiation from the sun",
+    "causes the greenhouse effect near the ground",
+    "makes rain acidic"
+   ]
+  },
+  {
+   "id": "chemistry-c12-451",
+   "type": "mcq",
+   "q": "On heating, phosphorous acid (H₃PO₃) disproportionates to give:",
+   "options": [
+    "H₃PO₄ and H₃PO₂",
+    "P and H₃PO₄",
+    "PH₃ and P₂O₅",
+    "phosphoric acid and phosphine"
+   ]
+  },
+  {
+   "id": "chemistry-c12-452",
+   "type": "mcq",
+   "q": "The basicity (number of ionisable hydrogen atoms) of phosphorous acid, H₃PO₃, is:",
+   "options": [
+    "1",
+    "3",
+    "2",
+    "4"
+   ]
+  },
+  {
+   "id": "chemistry-c12-453",
+   "type": "mcq",
+   "q": "Iron is galvanised by coating it with:",
+   "options": [
+    "zinc",
+    "copper",
+    "tin",
+    "lead"
+   ]
+  },
+  {
+   "id": "chemistry-c12-454",
+   "type": "mcq",
+   "q": "Which of the following is not a d-block element?",
+   "options": [
+    "Fe",
+    "Zn",
+    "Ti",
+    "Ca"
+   ]
+  },
+  {
+   "id": "chemistry-c12-455",
+   "type": "mcq",
+   "q": "How many 3d electrons does the Fe³⁺ ion have?",
+   "options": [
+    "6",
+    "5",
+    "4",
+    "3"
+   ]
+  },
+  {
+   "id": "chemistry-c12-456",
+   "type": "mcq",
+   "q": "Excess aqueous ammonia is added to a solution of copper(II) sulphate. The result is:",
+   "options": [
+    "a deep blue solution of [Cu(NH₃)₄]²⁺",
+    "a black precipitate of CuO that does not dissolve",
+    "a colourless solution",
+    "a green precipitate that persists"
+   ]
+  },
+  {
+   "id": "chemistry-c12-457",
+   "type": "mcq",
+   "q": "In neutral or weakly alkaline solution, KMnO₄ is reduced to:",
+   "options": [
+    "Mn²⁺",
+    "MnO₄²⁻",
+    "MnO₂",
+    "Mn₂O₃"
+   ]
+  },
+  {
+   "id": "chemistry-c12-458",
+   "type": "mcq",
+   "q": "The spin-only magnetic moment of Fe²⁺ (high spin, 3d⁶) is:",
+   "options": [
+    "3.87 BM",
+    "4.90 BM",
+    "5.92 BM",
+    "2.83 BM"
+   ]
+  },
+  {
+   "id": "chemistry-c12-459",
+   "type": "mcq",
+   "q": "Which of the following is a neutral ligand?",
+   "options": [
+    "Cl⁻",
+    "CN⁻",
+    "OH⁻",
+    "H₂O"
+   ]
+  },
+  {
+   "id": "chemistry-c12-460",
+   "type": "mcq",
+   "q": "Cisplatin, a drug used in cancer treatment, is a coordination compound of:",
+   "options": [
+    "iron",
+    "cobalt",
+    "platinum",
+    "gold"
+   ]
+  },
+  {
+   "id": "chemistry-c12-461",
+   "type": "mcq",
+   "q": "[Co(NH₃)₆][Cr(CN)₆] and [Cr(NH₃)₆][Co(CN)₆] are examples of:",
+   "options": [
+    "coordination isomerism",
+    "linkage isomerism",
+    "ionisation isomerism",
+    "optical isomerism"
+   ]
+  },
+  {
+   "id": "chemistry-c12-462",
+   "type": "mcq",
+   "q": "[Co(NH₃)₆]³⁺ is a diamagnetic octahedral complex. Its hybridisation is:",
+   "options": [
+    "sp³",
+    "dsp²",
+    "sp³d²",
+    "d²sp³"
+   ]
+  },
+  {
+   "id": "chemistry-c12-463",
+   "type": "mcq",
+   "q": "How many ions are produced in solution when one formula unit of [Co(NH₃)₅Cl]Cl₂ dissolves?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "6"
+   ]
+  },
+  {
+   "id": "chemistry-c12-464",
+   "type": "mcq",
+   "q": "Which of the following complexes is the most stable, owing to the chelate effect?",
+   "options": [
+    "[Ni(en)₃]²⁺",
+    "[Ni(NH₃)₆]²⁺",
+    "[Ni(H₂O)₆]²⁺",
+    "[NiCl₄]²⁻"
+   ]
+  },
+  {
+   "id": "chemistry-c12-465",
+   "type": "short",
+   "q": "Write the formula of hexaamminecobalt(III) chloride.",
+   "proposedAnswer": "[Co(NH₃)₆]Cl₃",
+   "keyPoints": [
+    "Six NH₃ ligands on Co³⁺",
+    "Three chloride counter ions"
+   ]
+  },
+  {
+   "id": "chemistry-c12-466",
+   "type": "mcq",
+   "q": "An alkyl bromide reacts with magnesium in dry ether to give:",
+   "options": [
+    "an alkene",
+    "an alcohol",
+    "an alkylmagnesium bromide (Grignard reagent)",
+    "an alkane"
+   ]
+  },
+  {
+   "id": "chemistry-c12-467",
+   "type": "mcq",
+   "q": "Ethanol reacts with PCl₅ to give chloroethane along with:",
+   "options": [
+    "SO₂ and HCl",
+    "POCl₃ and HCl",
+    "H₃PO₃ and HCl",
+    "NaCl"
+   ]
+  },
+  {
+   "id": "chemistry-c12-468",
+   "type": "mcq",
+   "q": "Which of the following molecules is chiral?",
+   "options": [
+    "CH₂ClBr",
+    "CHCl₃",
+    "CH₂Cl₂",
+    "CHFClBr"
+   ]
+  },
+  {
+   "id": "chemistry-c12-469",
+   "type": "mcq",
+   "q": "Ethyl bromide on heating with alcoholic KOH gives:",
+   "options": [
+    "ethanol",
+    "ethane",
+    "ethene",
+    "diethyl ether"
+   ]
+  },
+  {
+   "id": "chemistry-c12-470",
+   "type": "mcq",
+   "q": "Hydrolysis of optically active 2-bromobutane by the S_N1 mechanism gives:",
+   "options": [
+    "a racemic mixture of butan-2-ol",
+    "only the product with retention of configuration",
+    "only the product with inversion of configuration",
+    "an optically active alkene"
+   ]
+  },
+  {
+   "id": "chemistry-c12-471",
+   "type": "mcq",
+   "q": "How many structural isomers of C₄H₉Br exist?",
+   "options": [
+    "2",
+    "3",
+    "5",
+    "4"
+   ]
+  },
+  {
+   "id": "chemistry-c12-472",
+   "type": "short",
+   "q": "Name the product when benzene reacts with chlorine in the presence of anhydrous FeCl₃.",
+   "proposedAnswer": "Chlorobenzene (by electrophilic substitution), with HCl as the by-product.",
+   "keyPoints": [
+    "Electrophilic substitution of benzene",
+    "Product: chlorobenzene (and HCl)"
+   ]
+  },
+  {
+   "id": "chemistry-c12-473",
+   "type": "mcq",
+   "q": "A major use of ethane-1,2-diol is as:",
+   "options": [
+    "a food preservative",
+    "an antifreeze in car radiators",
+    "an anaesthetic",
+    "a fuel in vehicles"
+   ]
+  },
+  {
+   "id": "chemistry-c12-474",
+   "type": "mcq",
+   "q": "Which ether was used for a long time as an anaesthetic?",
+   "options": [
+    "Diethyl ether",
+    "Anisole",
+    "Dimethyl ether",
+    "Diphenyl ether"
+   ]
+  },
+  {
+   "id": "chemistry-c12-475",
+   "type": "mcq",
+   "q": "The reaction of an alcohol with a carboxylic acid in the presence of an acid catalyst to give an ester is called:",
+   "options": [
+    "hydrolysis",
+    "saponification",
+    "esterification",
+    "neutralisation"
+   ]
+  },
+  {
+   "id": "chemistry-c12-476",
+   "type": "mcq",
+   "q": "Propene is treated with diborane (B₂H₆) and then with H₂O₂/NaOH. The product is:",
+   "options": [
+    "propan-2-ol",
+    "propan-1-ol",
+    "propanal",
+    "propanone"
+   ]
+  },
+  {
+   "id": "chemistry-c12-477",
+   "type": "mcq",
+   "q": "Which nitrophenol isomer is steam volatile?",
+   "options": [
+    "p-Nitrophenol",
+    "m-Nitrophenol",
+    "All isomers equally",
+    "o-Nitrophenol"
+   ]
+  },
+  {
+   "id": "chemistry-c12-478",
+   "type": "mcq",
+   "q": "How many isomeric alcohols have the molecular formula C₄H₁₀O?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "id": "chemistry-c12-479",
+   "type": "short",
+   "q": "What is Lucas reagent and what is it used for?",
+   "proposedAnswer": "Lucas reagent is a solution of anhydrous zinc chloride in concentrated hydrochloric acid. It is used to distinguish primary, secondary and tertiary alcohols by the rate at which turbidity appears.",
+   "keyPoints": [
+    "Anhydrous ZnCl₂ in concentrated HCl",
+    "Distinguishes 1°, 2° and 3° alcohols",
+    "Tertiary gives turbidity immediately"
+   ]
+  },
+  {
+   "id": "chemistry-c12-480",
+   "type": "mcq",
+   "q": "Ketones are obtained by the oxidation of:",
+   "options": [
+    "secondary alcohols",
+    "primary alcohols",
+    "tertiary alcohols",
+    "phenols"
+   ]
+  },
+  {
+   "id": "chemistry-c12-481",
+   "type": "mcq",
+   "q": "Pure, anhydrous ethanoic acid, which freezes to an ice-like solid at about 290 K, is called:",
+   "options": [
+    "vinegar",
+    "formalin",
+    "acetone",
+    "glacial acetic acid"
+   ]
+  },
+  {
+   "id": "chemistry-c12-482",
+   "type": "mcq",
+   "q": "The aldol condensation product of two molecules of ethanal (before dehydration) is:",
+   "options": [
+    "2-hydroxybutanal",
+    "3-hydroxybutanal",
+    "butanal",
+    "3-hydroxypropanal"
+   ]
+  },
+  {
+   "id": "chemistry-c12-483",
+   "type": "mcq",
+   "q": "Benzaldehyde reacts with Tollens' reagent to give:",
+   "options": [
+    "benzoic acid (as benzoate) and a silver mirror",
+    "benzyl alcohol",
+    "no reaction",
+    "acetophenone"
+   ]
+  },
+  {
+   "id": "chemistry-c12-484",
+   "type": "mcq",
+   "q": "Which of the following is the strongest acid?",
+   "options": [
+    "CH₃COOH",
+    "C₆H₅COOH",
+    "HCOOH",
+    "CH₃CH₂COOH"
+   ]
+  },
+  {
+   "id": "chemistry-c12-485",
+   "type": "mcq",
+   "q": "A Grignard reagent CH₃MgBr is treated with solid CO₂ and then hydrolysed with dilute acid. The product is:",
+   "options": [
+    "ethanol",
+    "ethanoic acid",
+    "propanoic acid",
+    "ethanal"
+   ]
+  },
+  {
+   "id": "chemistry-c12-486",
+   "type": "short",
+   "q": "Write the IUPAC name of (CH₃)₂CHCHO.",
+   "proposedAnswer": "2-Methylpropanal.",
+   "keyPoints": [
+    "Three-carbon chain with –CHO as C-1",
+    "Methyl group on C-2"
+   ]
+  },
+  {
+   "id": "chemistry-c12-487",
+   "type": "mcq",
+   "q": "The functional group present in amines is:",
+   "options": [
+    "–CONH₂",
+    "–NO₂",
+    "–CN",
+    "–NH₂ (amino group) or its substituted forms"
+   ]
+  },
+  {
+   "id": "chemistry-c12-488",
+   "type": "mcq",
+   "q": "Gabriel synthesis of primary amines starts from:",
+   "options": [
+    "a nitrile",
+    "nitrobenzene",
+    "phthalimide",
+    "an amide"
+   ]
+  },
+  {
+   "id": "chemistry-c12-489",
+   "type": "mcq",
+   "q": "Which of the following has the highest boiling point?",
+   "options": [
+    "Butan-1-ol",
+    "Butan-1-amine",
+    "Ethoxyethane",
+    "Pentane"
+   ]
+  },
+  {
+   "id": "chemistry-c12-490",
+   "type": "mcq",
+   "q": "Which sequence of reagents is used in the azo dye test for aromatic primary amines?",
+   "options": [
+    "Tollens' reagent",
+    "Fehling's solution",
+    "bromine water",
+    "NaNO₂/HCl at 0–5 °C followed by alkaline β-naphthol"
+   ]
+  },
+  {
+   "id": "chemistry-c12-491",
+   "type": "mcq",
+   "q": "Aniline dissolves in dilute hydrochloric acid because:",
+   "options": [
+    "it is oxidised by the acid",
+    "anilinium chloride, a water-soluble salt, is formed",
+    "it hydrolyses into phenol",
+    "it forms a diazonium salt"
+   ]
+  },
+  {
+   "id": "chemistry-c12-492",
+   "type": "mcq",
+   "q": "How many isomeric amines have the molecular formula C₃H₉N?",
+   "options": [
+    "4",
+    "3",
+    "5",
+    "2"
+   ]
+  },
+  {
+   "id": "chemistry-c12-493",
+   "type": "short",
+   "q": "Give the IUPAC name of aniline.",
+   "proposedAnswer": "Benzenamine (aniline is its common name).",
+   "keyPoints": [
+    "Benzenamine",
+    "Aniline is the accepted common name"
+   ]
+  },
+  {
+   "id": "chemistry-c12-494",
+   "type": "mcq",
+   "q": "Proteins are polymers of:",
+   "options": [
+    "monosaccharides",
+    "nucleotides",
+    "α-amino acids",
+    "fatty acids"
+   ]
+  },
+  {
+   "id": "chemistry-c12-495",
+   "type": "mcq",
+   "q": "Fats and oils are esters of glycerol with:",
+   "options": [
+    "amino acids",
+    "long-chain fatty acids",
+    "monosaccharides",
+    "phosphoric acid only"
+   ]
+  },
+  {
+   "id": "chemistry-c12-496",
+   "type": "mcq",
+   "q": "Proteins found in living organisms are made up of about how many different α-amino acids?",
+   "options": [
+    "4",
+    "10",
+    "12",
+    "20"
+   ]
+  },
+  {
+   "id": "chemistry-c12-497",
+   "type": "mcq",
+   "q": "The disaccharide present in milk is:",
+   "options": [
+    "sucrose",
+    "maltose",
+    "lactose",
+    "cellobiose"
+   ]
+  },
+  {
+   "id": "chemistry-c12-498",
+   "type": "mcq",
+   "q": "Glucose is oxidised by bromine water to:",
+   "options": [
+    "gluconic acid",
+    "saccharic acid",
+    "sorbitol",
+    "hexanoic acid"
+   ]
+  },
+  {
+   "id": "chemistry-c12-499",
+   "type": "mcq",
+   "q": "Prolonged heating of glucose with HI gives:",
+   "options": [
+    "hexanal",
+    "pentane",
+    "2-iodohexane",
+    "n-hexane"
+   ]
+  },
+  {
+   "id": "chemistry-c12-500",
+   "type": "short",
+   "q": "Name the monomer units of proteins and the bond that joins them.",
+   "proposedAnswer": "The monomers are α-amino acids, joined by peptide (amide, –CO–NH–) bonds.",
+   "keyPoints": [
+    "Monomers: α-amino acids",
+    "Peptide (amide) bond"
+   ]
+  }
+ ]
+}
