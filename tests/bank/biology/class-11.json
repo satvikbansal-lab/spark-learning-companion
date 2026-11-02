@@ -21,7 +21,14 @@
  "syllabus": "unverified: topics are the drafting model’s reading of the official syllabus (NCERT/CBSE, or the exam’s notified syllabus) and have not been checked against the official documents",
  "drafted_by": "claude-sonnet",
  "drafted_at": "2026-11-02",
- "crossCheck": null,
+ "crossCheck": {
+  "model": "claude-haiku",
+  "method": "MCQs answered blind (no key shown); short answers judged against their proposed answer",
+  "agree": 496,
+  "disagree": 1,
+  "unsure": 3,
+  "missing": 0
+ },
  "questions": [
   {
    "id": "biology-c11-001",
@@ -42,7 +49,11 @@
    "explanation": "A species is the lowest and basic category of the taxonomic hierarchy; groups of related species form a genus.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-002",
@@ -63,7 +74,11 @@
    "explanation": "Carolus Linnaeus popularised binomial nomenclature, in which a name has a genus part and a species part.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-003",
@@ -84,7 +99,11 @@
    "explanation": "The author's name, often abbreviated, is written after the species name; Linn. stands for Linnaeus.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-004",
@@ -105,7 +124,11 @@
    "explanation": "Kingdom Protista includes unicellular eukaryotes such as protozoans, diatoms and dinoflagellates.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-005",
@@ -126,7 +149,11 @@
    "explanation": "The standard hierarchy is Kingdom, Phylum (Division in plants), Class, Order, Family, Genus, Species.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-006",
@@ -147,7 +174,11 @@
    "explanation": "Prokaryotes with peptidoglycan cell walls are bacteria, which belong to kingdom Monera.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-007",
@@ -167,7 +198,10 @@
    "explanation": "These are the conventions of binomial nomenclature.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-008",
@@ -187,7 +221,10 @@
    "explanation": "The five kingdom system classifies cellular organisms only.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-009",
@@ -208,7 +245,11 @@
    "explanation": "Brown algae (Phaeophyceae) contain the xanthophyll fucoxanthin in large amounts.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-010",
@@ -229,7 +270,11 @@
    "explanation": "Bryophytes include liverworts and mosses and are called the amphibians of the plant kingdom.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-011",
@@ -250,7 +295,11 @@
    "explanation": "The main plant body of a fern is the diploid sporophyte; the gametophyte is a small prothallus.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-012",
@@ -271,7 +320,11 @@
    "explanation": "In gymnosperms the ovules lie exposed on the megasporophylls, so seeds are not enclosed in fruits.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-013",
@@ -292,7 +345,11 @@
    "explanation": "Pteridophytes have xylem and phloem and swimming antherozoids but reproduce by spores, not seeds.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-014",
@@ -313,7 +370,11 @@
    "explanation": "In haplontic algae such as Spirogyra, the zygote undergoes meiosis and the main body is haploid.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-015",
@@ -333,7 +394,10 @@
    "explanation": "The change in dominant phase is a major trend in plant evolution.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-016",
@@ -353,7 +417,10 @@
    "explanation": "Absence of conducting tissue limits height, and fertilisation depends on water.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-017",
@@ -374,7 +441,11 @@
    "explanation": "Echinoderms such as starfish and sea urchins have spiny endoskeletons and a water vascular system.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-018",
@@ -395,7 +466,11 @@
    "explanation": "Flatworms such as Taenia and Fasciola have a solid body without a coelom.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-019",
@@ -416,7 +491,11 @@
    "explanation": "Arthropods like the cockroach have an open circulatory system with blood flowing into body spaces.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-020",
@@ -437,7 +516,11 @@
    "explanation": "Choanocytes with flagella create the water current in sponges (Porifera).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-021",
@@ -458,7 +541,11 @@
    "explanation": "Reptiles have scaly dry skin, lay shelled eggs and are poikilothermic.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-022",
@@ -479,7 +566,11 @@
    "explanation": "Cnidoblasts (cnidocytes) are characteristic of Cnidaria such as Hydra and jellyfish.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-023",
@@ -499,7 +590,10 @@
    "explanation": "The number of germ layers is a basis of animal classification.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-024",
@@ -519,7 +613,10 @@
    "explanation": "These features make the body light and suited for flying.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-025",
@@ -540,7 +637,11 @@
    "explanation": "Root hairs arise in the zone of maturation and absorb water and minerals.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-026",
@@ -561,7 +662,11 @@
    "explanation": "Monocot leaves usually show parallel venation, whereas dicot leaves show reticulate venation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-027",
@@ -582,7 +687,11 @@
    "explanation": "Prop roots grow down from the branches of the banyan and act as pillars.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-028",
@@ -603,7 +712,11 @@
    "explanation": "Companion cells regulate the functioning of sieve tube elements.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-029",
@@ -624,7 +737,11 @@
    "explanation": "Cambium produces large-lumen wood in spring and narrow-lumen wood in autumn, giving visible rings.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-030",
@@ -645,7 +762,11 @@
    "explanation": "Pea and other legumes have a monocarpellary ovary with marginal placentation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-031",
@@ -665,7 +786,10 @@
    "explanation": "In monocots the primary root is short lived and replaced by fibrous roots.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-032",
@@ -685,7 +809,10 @@
    "explanation": "Presence of cambium makes secondary thickening possible.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-033",
@@ -706,7 +833,11 @@
    "explanation": "Epithelial tissue forms the covering or lining of body surfaces and cavities.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-034",
@@ -727,7 +858,11 @@
    "explanation": "Cardiac muscle cells are joined by intercalated discs with gap junctions for rapid communication.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-035",
@@ -748,7 +883,11 @@
    "explanation": "The cockroach abdomen has ten segments in both sexes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-036",
@@ -769,7 +908,11 @@
    "explanation": "Cockroach blood is haemolymph, which is colourless and lacks respiratory pigment.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-037",
@@ -790,7 +933,11 @@
    "explanation": "The frog has a three-chambered heart with a single ventricle, so blood mixes there.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-038",
@@ -811,7 +958,11 @@
    "explanation": "Tendons attach muscle to bone; ligaments attach bone to bone.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-039",
@@ -831,7 +982,10 @@
    "explanation": "Junctions are found especially in epithelial and other tissues.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-040",
@@ -851,7 +1005,10 @@
    "explanation": "Vision with many ommatidia is called mosaic vision.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-041",
@@ -872,7 +1029,11 @@
    "explanation": "Mitochondria produce most of the cell's ATP through aerobic respiration.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-042",
@@ -893,7 +1054,11 @@
    "explanation": "Singer and Nicolson proposed the fluid mosaic model in 1972.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-043",
@@ -914,7 +1079,11 @@
    "explanation": "Prokaryotic ribosomes are 70S, made of 50S and 30S subunits.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-044",
@@ -935,7 +1104,11 @@
    "explanation": "The nucleolus is a non-membrane-bound region rich in rRNA and protein.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-045",
@@ -956,7 +1129,11 @@
    "explanation": "The Golgi apparatus modifies, packages and dispatches proteins and lipids for secretion.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-046",
@@ -977,7 +1154,11 @@
    "explanation": "Mitochondria and chloroplasts are semi-autonomous organelles.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-047",
@@ -997,7 +1178,10 @@
    "explanation": "These are the main structural differences.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-048",
@@ -1017,7 +1201,10 @@
    "explanation": "Organelle abundance matches the cell's function.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-049",
@@ -1038,7 +1225,11 @@
    "explanation": "Proteins are polymers of amino acids.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-050",
@@ -1059,7 +1250,11 @@
    "explanation": "A peptide bond forms between the carboxyl group of one amino acid and the amino group of the next.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-051",
@@ -1080,7 +1275,11 @@
    "explanation": "Enzymes lower the energy barrier and are not consumed.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-052",
@@ -1101,7 +1300,11 @@
    "explanation": "Malonate is a competitive inhibitor that competes with succinate for the active site.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-053",
@@ -1122,7 +1325,11 @@
    "explanation": "Km is the substrate concentration at which the velocity is half of Vmax.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-054",
@@ -1143,7 +1350,11 @@
    "explanation": "Cellulose has beta 1-4 linkages, unlike starch which has alpha linkages digestible by amylase.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-055",
@@ -1163,7 +1374,10 @@
    "explanation": "A fourth level, quaternary, arises when several chains join.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-056",
@@ -1183,7 +1397,10 @@
    "explanation": "This is the characteristic of competitive inhibition.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-057",
@@ -1204,7 +1421,11 @@
    "explanation": "DNA is duplicated during the S (synthesis) phase of interphase.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-058",
@@ -1225,7 +1446,11 @@
    "explanation": "In zygotene of prophase I, homologous chromosomes pair to form bivalents.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-059",
@@ -1246,7 +1471,11 @@
    "explanation": "Recombination nodules appear and crossing over occurs in pachytene.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-060",
@@ -1267,7 +1496,11 @@
    "explanation": "Meiosis I is reductional, so each daughter cell has n = 10 chromosomes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-061",
@@ -1288,7 +1521,11 @@
    "explanation": "At metaphase there are 14 chromosomes, each with two chromatids, giving 28.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-062",
@@ -1309,7 +1546,11 @@
    "explanation": "Crossing over and independent assortment produce new gene combinations.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-063",
@@ -1329,7 +1570,10 @@
    "explanation": "The rigid wall of plant cells requires a cell plate.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-064",
@@ -1349,7 +1593,10 @@
    "explanation": "Without meiosis the chromosome number would double every generation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-065",
@@ -1370,7 +1617,11 @@
    "explanation": "Chlorophyll a is the primary pigment; the others are accessory pigments.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-066",
@@ -1391,7 +1642,11 @@
    "explanation": "The Calvin cycle occurs in the stroma of the chloroplast.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-067",
@@ -1412,7 +1667,11 @@
    "explanation": "RuBisCO fixes CO2 to RuBP to form two molecules of 3-PGA.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-068",
@@ -1433,7 +1692,11 @@
    "explanation": "RuBisCO acts as a carboxylase in the Calvin cycle and as an oxygenase in photorespiration.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-069",
@@ -1454,7 +1717,11 @@
    "explanation": "PEP carboxylase fixes CO2 to PEP forming oxaloacetic acid, a four-carbon compound.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-070",
@@ -1475,7 +1742,11 @@
    "explanation": "Concentrated CO2 prevents RuBisCO from acting as an oxygenase.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-071",
@@ -1495,7 +1766,10 @@
    "explanation": "Water splitting is associated with photosystem II.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-072",
@@ -1515,7 +1789,10 @@
    "explanation": "Cyclic flow occurs in the stroma lamellae.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-073",
@@ -1536,7 +1813,11 @@
    "explanation": "Glycolysis occurs in the cytoplasm of all living cells.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-074",
@@ -1557,7 +1838,11 @@
    "explanation": "One glucose molecule is broken down into two molecules of pyruvic acid.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-075",
@@ -1578,7 +1863,11 @@
    "explanation": "Four ATP are produced and two are consumed, giving a net gain of two.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-076",
@@ -1599,7 +1888,11 @@
    "explanation": "Cytochrome c oxidase passes electrons to oxygen, forming water.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-077",
@@ -1620,7 +1913,11 @@
    "explanation": "Fats contain less oxygen than carbohydrates, so more oxygen is consumed than CO2 released; for tripalmitin RQ is about 0.7.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-078",
@@ -1641,7 +1938,11 @@
    "explanation": "Alcoholic fermentation yields ethanol and CO2.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-079",
@@ -1661,7 +1962,10 @@
    "explanation": "Fermentation is the anaerobic route in yeast.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-080",
@@ -1681,7 +1985,10 @@
    "explanation": "Most ATP comes from the electron transport chain.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-081",
@@ -1702,7 +2009,11 @@
    "explanation": "Auxins such as IAA are produced at the shoot tip and cause cell elongation and apical dominance.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-082",
@@ -1723,7 +2034,11 @@
    "explanation": "Ethylene hastens ripening of fruits such as tomato and banana.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-083",
@@ -1744,7 +2059,11 @@
    "explanation": "Gibberellins promote internode elongation and bolting before flowering.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-084",
@@ -1765,7 +2084,11 @@
    "explanation": "Cytokinins, first isolated as kinetin, stimulate cytokinesis and delay leaf ageing.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-085",
@@ -1786,7 +2109,11 @@
    "explanation": "ABA is the stress hormone that causes stomatal closure.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-086",
@@ -1807,7 +2134,11 @@
    "explanation": "Vernalisation is the promotion of flowering by exposure to low temperature.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-087",
@@ -1827,7 +2158,10 @@
    "explanation": "These phases are seen in root and shoot apices.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-088",
@@ -1847,7 +2181,10 @@
    "explanation": "Gardeners prune hedges to make them bushy for this reason.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-089",
@@ -1868,7 +2205,11 @@
    "explanation": "Salivary amylase breaks starch into maltose in the buccal cavity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-090",
@@ -1889,7 +2230,11 @@
    "explanation": "The small intestine, with villi, is the main site of absorption.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-091",
@@ -1910,7 +2255,11 @@
    "explanation": "Bile is made in the liver and stored in the gall bladder.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-092",
@@ -1931,7 +2280,11 @@
    "explanation": "About 70 per cent of CO2 is carried as bicarbonate in the plasma.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-093",
@@ -1952,7 +2305,11 @@
    "explanation": "The SA node is the pacemaker; the impulse passes to the AV node, the bundle of His and then Purkinje fibres.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-094",
@@ -1973,7 +2330,11 @@
    "explanation": "Vital capacity = TV + IRV + ERV = 500 + 3000 + 1100 = 4600 mL.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-095",
@@ -1993,7 +2354,10 @@
    "explanation": "Gastric glands secrete both, and mucus protects the stomach wall.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-096",
@@ -2013,7 +2377,10 @@
    "explanation": "This is the Bohr effect.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-097",
@@ -2034,7 +2401,11 @@
    "explanation": "Each kidney contains about a million nephrons.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-098",
@@ -2055,7 +2426,11 @@
    "explanation": "ADH released from the neurohypophysis prevents loss of water in urine.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-099",
@@ -2076,7 +2451,11 @@
    "explanation": "The pump moves three sodium ions out and two potassium ions in per cycle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-100",
@@ -2097,7 +2476,11 @@
    "explanation": "Ca2+ binds troponin, exposing myosin-binding sites on actin.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-101",
@@ -2118,7 +2501,11 @@
    "explanation": "Lack of insulin raises blood glucose; excess glucose spills into urine (glycosuria).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-102",
@@ -2139,7 +2526,11 @@
    "explanation": "GFR is about 125 mL per minute, i.e. about 180 litres a day.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-103",
@@ -2159,7 +2550,10 @@
    "explanation": "A reflex is an involuntary rapid response.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-104",
@@ -2179,7 +2573,10 @@
    "explanation": "This restores GFR.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-105",
@@ -2200,7 +2597,11 @@
    "explanation": "Taxonomy deals with the characterisation, identification, nomenclature and classification of organisms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-106",
@@ -2221,7 +2622,11 @@
    "explanation": "A herbarium preserves plant specimens for study and reference.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-107",
@@ -2242,7 +2647,11 @@
    "explanation": "Fungi are heterotrophs with cell walls of chitin and other polysaccharides.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-108",
@@ -2263,7 +2672,11 @@
    "explanation": "They share the genus Panthera but are different species.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-109",
@@ -2284,7 +2697,11 @@
    "explanation": "In a key each pair of contrasting statements is a couplet, and each statement is a lead.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-110",
@@ -2305,7 +2722,11 @@
    "explanation": "Both belong to genus Solanum (and family Solanaceae) but have different species names.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-111",
@@ -2325,7 +2746,10 @@
    "explanation": "Both are taxonomical aids.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-112",
@@ -2345,7 +2769,10 @@
    "explanation": "Universal naming is the purpose of nomenclature.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-113",
@@ -2366,7 +2793,11 @@
    "explanation": "Chlorella is rich in protein and is used as single-cell protein.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-114",
@@ -2387,7 +2818,11 @@
    "explanation": "Gelidium and Gracilaria, which are red algae, yield agar.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-115",
@@ -2408,7 +2843,11 @@
    "explanation": "Coralloid roots contain N2-fixing cyanobacteria such as Anabaena.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-116",
@@ -2429,7 +2868,11 @@
    "explanation": "Triple fusion of one male gamete with two polar nuclei gives triploid endosperm.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-117",
@@ -2450,7 +2893,11 @@
    "explanation": "Selaginella produces two kinds of spores, microspores and megaspores.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-118",
@@ -2471,7 +2918,11 @@
    "explanation": "The protonema is the first stage of the haploid gametophyte of mosses.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-119",
@@ -2491,7 +2942,10 @@
    "explanation": "Angiosperms are the most advanced seed plants.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-120",
@@ -2511,7 +2965,10 @@
    "explanation": "Ferns show a diplohaplontic life cycle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-121",
@@ -2532,7 +2989,11 @@
    "explanation": "Notochord, dorsal hollow nerve cord and pharyngeal gill slits characterise chordates.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-122",
@@ -2553,7 +3014,11 @@
    "explanation": "Scoliodon (dogfish) belongs to Chondrichthyes, the cartilaginous fishes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-123",
@@ -2574,7 +3039,11 @@
    "explanation": "Earthworms and leeches show metameric segmentation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-124",
@@ -2595,7 +3064,11 @@
    "explanation": "Mammary glands for suckling the young are unique to mammals; birds also have four-chambered hearts.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-125",
@@ -2616,7 +3089,11 @@
    "explanation": "Arthropods, such as insects, have a chitinous cuticle that is moulted.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-126",
@@ -2637,7 +3114,11 @@
    "explanation": "Radula, mantle and muscular foot are features of Mollusca, e.g. snail and Pila.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-127",
@@ -2657,7 +3138,10 @@
    "explanation": "These are the two classes of fishes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-128",
@@ -2677,7 +3161,10 @@
    "explanation": "The name comes from the Greek for 'double life'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-129",
@@ -2698,7 +3185,11 @@
    "explanation": "The androecium consists of stamens, each with an anther and a filament.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-130",
@@ -2719,7 +3210,11 @@
    "explanation": "A mango has a fleshy mesocarp and a hard stony endocarp, so it is a drupe.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-131",
@@ -2740,7 +3235,11 @@
    "explanation": "Guard cells are bean (kidney) shaped in dicots and dumb-bell shaped in grasses.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-132",
@@ -2761,7 +3260,11 @@
    "explanation": "Collenchyma is a living supporting tissue, found below the epidermis of dicot stems.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-133",
@@ -2782,7 +3285,11 @@
    "explanation": "Scattered, closed bundles with a sclerenchymatous sheath are typical of monocot stems such as maize.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-134",
@@ -2803,7 +3310,11 @@
    "explanation": "Hypogynous flowers (mustard, brinjal) have a superior ovary.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-135",
@@ -2823,7 +3334,10 @@
    "explanation": "These differences are seen in transverse sections.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-136",
@@ -2843,7 +3357,10 @@
    "explanation": "Sapwood, the outer region, conducts water.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-137",
@@ -2864,7 +3381,11 @@
    "explanation": "Adipose tissue is a loose connective tissue rich in fat-storing cells.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-138",
@@ -2885,7 +3406,11 @@
    "explanation": "Platelets (thrombocytes) release substances that trigger clotting.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-139",
@@ -2906,7 +3431,11 @@
    "explanation": "Cutaneous respiration through the skin is used in water and during hibernation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-140",
@@ -2927,7 +3456,11 @@
    "explanation": "Malpighian tubules at the junction of the midgut and hindgut remove nitrogenous waste.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-141",
@@ -2948,7 +3481,12 @@
    "explanation": "The ureter acts as a urinogenital duct in the male frog.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "unsure",
+    "checkerAnswer": "C",
+    "note": "In male frog the sperm and urine share the urinogenital duct, which is the ureter in males; 'urethra' is not the standard term here, so the key option is best guess but the wording is loose. Reviewed: kept; matches NCERT."
+   }
   },
   {
    "id": "biology-c11-142",
@@ -2969,7 +3507,11 @@
    "explanation": "A thin one-cell layer favours rapid diffusion and filtration.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-143",
@@ -2989,7 +3531,10 @@
    "explanation": "Cardiac muscle is striated but involuntary.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-144",
@@ -3009,7 +3554,10 @@
    "explanation": "Insect respiration is by a tracheal system.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-145",
@@ -3030,7 +3578,11 @@
    "explanation": "Robert Hooke observed cork cells in 1665 and called them cells.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-146",
@@ -3051,7 +3603,11 @@
    "explanation": "Virchow stated 'omnis cellula-e cellula', modifying the cell theory.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-147",
@@ -3072,7 +3628,11 @@
    "explanation": "Plant cell walls are made mainly of cellulose, hemicellulose and pectins.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-148",
@@ -3093,7 +3653,11 @@
    "explanation": "Lysosomes may burst and digest the cell if their enzymes leak out.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-149",
@@ -3114,7 +3678,11 @@
    "explanation": "Ribosomes are made of RNA and protein and have no limiting membrane.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-150",
@@ -3135,7 +3703,11 @@
    "explanation": "More inner membrane carries more electron transport components and ATP synthase.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-151",
@@ -3155,7 +3727,10 @@
    "explanation": "Carrier proteins are involved in active transport.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-152",
@@ -3175,7 +3750,10 @@
    "explanation": "Pure water is hypotonic to the cell contents.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-153",
@@ -3196,7 +3774,11 @@
    "explanation": "Collagen is the most abundant protein in animals, while RuBisCO is the most abundant in the biosphere.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-154",
@@ -3217,7 +3799,11 @@
    "explanation": "Glycogen is stored mainly in the liver and muscles.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-155",
@@ -3238,7 +3824,11 @@
    "explanation": "Ligases join substrates, usually with ATP hydrolysis.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-156",
@@ -3259,7 +3849,11 @@
    "explanation": "Adding a phosphate group to a nucleoside gives a nucleotide.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-157",
@@ -3280,7 +3874,11 @@
    "explanation": "Carboxypeptidase needs Zn2+ as a cofactor.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-158",
@@ -3301,7 +3899,11 @@
    "explanation": "A = T = 30 per cent, so G + C = 40 per cent, i.e. G = 20 per cent.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-159",
@@ -3321,7 +3923,10 @@
    "explanation": "Prosthetic groups, coenzymes and metal ions are all cofactors.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-160",
@@ -3341,7 +3946,10 @@
    "explanation": "For example pepsin works at acid pH and trypsin at alkaline pH.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-161",
@@ -3362,7 +3970,11 @@
    "explanation": "Cells in G0 remain metabolically active but do not proliferate.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-162",
@@ -3383,7 +3995,11 @@
    "explanation": "In metaphase chromosomes are aligned at the equator with spindle fibres attached to their kinetochores.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-163",
@@ -3404,7 +4020,11 @@
    "explanation": "Mitosis is short, about an hour; most of the cycle is spent in interphase.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-164",
@@ -3425,7 +4045,11 @@
    "explanation": "Telophase is the reverse of prophase in these events.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-165",
@@ -3446,7 +4070,11 @@
    "explanation": "In anaphase I whole homologous chromosomes move to opposite poles; the centromeres do not split.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-166",
@@ -3467,7 +4095,11 @@
    "explanation": "Mitosis is equational, so the chromosome number is the same as in the parent cell.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-167",
@@ -3487,7 +4119,10 @@
    "explanation": "Prophase follows the G2 phase.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-168",
@@ -3507,7 +4142,10 @@
    "explanation": "Reduction in chromosome number takes place in meiosis I.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-169",
@@ -3528,7 +4166,11 @@
    "explanation": "Priestley concluded plants restore the air, later shown to be oxygen.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-170",
@@ -3549,7 +4191,11 @@
    "explanation": "NADP+ is reduced to NADPH in the light reaction.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-171",
@@ -3570,7 +4216,11 @@
    "explanation": "PS I has P700, and PS II has P680.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-172",
@@ -3591,7 +4241,11 @@
    "explanation": "Three ATP and two NADPH are used per CO2 fixed.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-173",
@@ -3612,7 +4266,11 @@
    "explanation": "One CO2 is fixed per turn and glucose has six carbons.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-174",
@@ -3633,7 +4291,11 @@
    "explanation": "Blackman's law says the factor in shortest supply limits the rate.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-175",
@@ -3653,7 +4315,10 @@
    "explanation": "The same principle operates in mitochondria.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-176",
@@ -3673,7 +4338,10 @@
    "explanation": "C3 plants lose a part of fixed carbon this way.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-177",
@@ -3694,7 +4362,11 @@
    "explanation": "The enzymes of the TCA cycle are located in the mitochondrial matrix.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-178",
@@ -3715,7 +4387,11 @@
    "explanation": "Acetyl CoA joins oxaloacetic acid to form citric acid.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-179",
@@ -3736,7 +4412,11 @@
    "explanation": "ATP synthase (complex V) is in the inner mitochondrial membrane.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-180",
@@ -3757,7 +4437,11 @@
    "explanation": "One turn gives 3 NADH, 1 FADH2 and 1 GTP (or ATP), and releases 2 CO2.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-181",
@@ -3778,7 +4462,11 @@
    "explanation": "Each pyruvate gives 3 CO2 (1 in the link reaction, 2 in the cycle), so two pyruvate give 6.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-182",
@@ -3799,7 +4487,11 @@
    "explanation": "RQ = 51 / 72.5, about 0.7.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-183",
@@ -3819,7 +4511,10 @@
    "explanation": "Without oxygen the electron transport chain stops.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-184",
@@ -3839,7 +4534,10 @@
    "explanation": "Amphibolic pathways serve both catabolic and anabolic functions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-185",
@@ -3860,7 +4558,11 @@
    "explanation": "Shoots bend towards light, showing positive phototropism.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-186",
@@ -3881,7 +4583,11 @@
    "explanation": "Differentiation produces structurally and functionally distinct cell types.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-187",
@@ -3902,7 +4608,11 @@
    "explanation": "Photoperiodism classifies plants as short-day, long-day or day-neutral.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-188",
@@ -3923,7 +4633,11 @@
    "explanation": "In the log phase the growth rate increases rapidly.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-189",
@@ -3944,7 +4658,11 @@
    "explanation": "ABA maintains dormancy; gibberellins promote germination.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-190",
@@ -3965,7 +4683,11 @@
    "explanation": "Auxins and gibberellins can induce parthenocarpy, e.g. in tomatoes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-191",
@@ -3985,7 +4707,10 @@
    "explanation": "Interfascicular cambium arises by dedifferentiation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-192",
@@ -4005,7 +4730,10 @@
    "explanation": "Ethylene is a gaseous plant hormone.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-193",
@@ -4026,7 +4754,11 @@
    "explanation": "The liver weighs about 1.2 to 1.5 kg in an adult.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-194",
@@ -4047,7 +4779,11 @@
    "explanation": "Contraction of the diaphragm increases the thoracic volume in inspiration.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-195",
@@ -4068,7 +4804,11 @@
    "explanation": "The dental formula 2123/2123 gives 32 teeth.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-196",
@@ -4089,7 +4829,11 @@
    "explanation": "RBCs live about 120 days and are destroyed in the spleen.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-197",
@@ -4110,7 +4854,11 @@
    "explanation": "Group AB has A and B antigens on RBCs and no anti-A or anti-B antibodies in plasma.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-198",
@@ -4131,7 +4879,11 @@
    "explanation": "Rh antibodies of an Rh-negative mother can cross the placenta and attack the red cells of an Rh-positive foetus in a later pregnancy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-199",
@@ -4151,7 +4903,10 @@
    "explanation": "The average human cardiac output is about 5 litres per minute.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-200",
@@ -4171,7 +4926,10 @@
    "explanation": "Each lung has millions of alveoli.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-201",
@@ -4192,7 +4950,11 @@
    "explanation": "Humans are ureotelic; urea is formed in the liver.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-202",
@@ -4213,7 +4975,11 @@
    "explanation": "The adult human skeleton has 206 bones.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-203",
@@ -4234,7 +5000,11 @@
    "explanation": "The shoulder and hip are ball and socket joints, allowing movement in many directions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-204",
@@ -4255,7 +5025,11 @@
    "explanation": "The pituitary secretes tropic hormones that control other glands.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-205",
@@ -4276,7 +5050,11 @@
    "explanation": "Lack of iodine reduces thyroid hormone production and the gland enlarges.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-206",
@@ -4297,7 +5075,11 @@
    "explanation": "Myelin insulates the axon, so depolarisation occurs only at the nodes (saltatory conduction).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-207",
@@ -4317,7 +5099,10 @@
    "explanation": "The two hormones act in opposite ways.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-208",
@@ -4337,7 +5122,10 @@
    "explanation": "This ensures orderly transmission of information.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-209",
@@ -4358,7 +5146,11 @@
    "explanation": "Kingdom is the broadest category and includes several phyla.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-210",
@@ -4379,7 +5171,11 @@
    "explanation": "Related genera form a family, and related families form an order.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-211",
@@ -4400,7 +5196,11 @@
    "explanation": "Non-living objects such as a mountain or a sand mound grow by accumulation of material on the surface.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-212",
@@ -4421,7 +5221,11 @@
    "explanation": "Metabolism is a defining feature of all living organisms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-213",
@@ -4442,7 +5246,11 @@
    "explanation": "Mules and worker bees are alive but sterile, so reproduction cannot define all living things.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-214",
@@ -4463,7 +5271,11 @@
    "explanation": "Isolated metabolic reactions in vitro are living reactions, but not a living organism.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-215",
@@ -4483,7 +5295,10 @@
    "explanation": "Growth in living things is intrinsic.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-216",
@@ -4503,7 +5318,10 @@
    "explanation": "Whittaker's five kingdoms replaced the earlier two-kingdom system for this reason.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-217",
@@ -4524,7 +5342,11 @@
    "explanation": "Green algae (Chlorophyceae) have chlorophyll a and b and store starch.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-218",
@@ -4545,7 +5367,11 @@
    "explanation": "Red algae (Rhodophyceae) store floridean starch.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-219",
@@ -4566,7 +5392,11 @@
    "explanation": "Sphagnum, a moss, accumulates as peat and holds much water.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-220",
@@ -4587,7 +5417,11 @@
    "explanation": "The embryo sac is seven-celled and eight-nucleate.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-221",
@@ -4608,7 +5442,11 @@
    "explanation": "Pollen tubes deliver the male gametes directly to the egg in seed plants.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-222",
@@ -4629,7 +5467,11 @@
    "explanation": "In a diplontic cycle the diploid phase dominates, as in gymnosperms and angiosperms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-223",
@@ -4649,7 +5491,10 @@
    "explanation": "Algae are also primary producers in water.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-224",
@@ -4669,7 +5514,10 @@
    "explanation": "The seed habit is a major evolutionary advance.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-225",
@@ -4690,7 +5538,11 @@
    "explanation": "Water enters through ostia and leaves through the osculum.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-226",
@@ -4711,7 +5563,11 @@
    "explanation": "Fishes have gills for respiration in water.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-227",
@@ -4732,7 +5588,11 @@
    "explanation": "The tapeworm Taenia has a scolex with hooks and suckers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-228",
@@ -4753,7 +5613,11 @@
    "explanation": "Aschelminthes (roundworms), e.g. Ascaris, are pseudocoelomates with separate sexes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-229",
@@ -4774,7 +5638,11 @@
    "explanation": "Mammary glands, hair and viviparity are mammalian features; flight is not a deciding character.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-230",
@@ -4795,7 +5663,11 @@
    "explanation": "Ctenophores, or comb jellies, move with comb plates.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-231",
@@ -4815,7 +5687,10 @@
    "explanation": "Arthropoda is the largest phylum.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-232",
@@ -4835,7 +5710,10 @@
    "explanation": "Other vertebrates are poikilotherms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-233",
@@ -4856,7 +5734,11 @@
    "explanation": "The radicle forms the primary root, and the plumule forms the shoot.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-234",
@@ -4877,7 +5759,11 @@
    "explanation": "The potato tuber is a swollen underground stem with buds (eyes).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-235",
@@ -4898,7 +5784,11 @@
    "explanation": "Pea has five petals: a standard, two wings and two keel petals, forming a papilionaceous corolla.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-236",
@@ -4919,7 +5809,11 @@
    "explanation": "Tracheids, vessels and fibres are dead at maturity; xylem parenchyma is living.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-237",
@@ -4940,7 +5834,11 @@
    "explanation": "Phellogen cuts off phellem outwards and phelloderm inwards.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-238",
@@ -4961,7 +5859,11 @@
    "explanation": "In roots, protoxylem is outer and metaxylem is inner (exarch condition).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-239",
@@ -4981,7 +5883,10 @@
    "explanation": "A bud is present in the axil of a leaf but not of a leaflet.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-240",
@@ -5001,7 +5906,10 @@
    "explanation": "They are a feature of the isobilateral monocot leaf.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-241",
@@ -5022,7 +5930,11 @@
    "explanation": "Osteocytes lie in lacunae in the hard bone matrix.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-242",
@@ -5043,7 +5955,11 @@
    "explanation": "Chondrocytes lie in small cavities in the solid but pliable cartilage matrix.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-243",
@@ -5064,7 +5980,11 @@
    "explanation": "Each thoracic segment bears a pair of legs, so a cockroach has three pairs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-244",
@@ -5085,7 +6005,11 @@
    "explanation": "Cockroach mouthparts include labrum, mandibles, maxillae and labium for chewing.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-245",
@@ -5106,7 +6030,11 @@
    "explanation": "Cuboidal epithelium has cube-shaped cells and is found in ducts of glands and nephron tubules.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-246",
@@ -5127,7 +6055,11 @@
    "explanation": "A female cockroach produces ootheca, each containing about 14 to 16 eggs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-247",
@@ -5147,7 +6079,10 @@
    "explanation": "Both are made of collagen fibres arranged in parallel rows.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-248",
@@ -5167,7 +6102,10 @@
    "explanation": "This ensures coordinated beating.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-249",
@@ -5188,7 +6126,11 @@
    "explanation": "Ribosomes translate mRNA into proteins.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-250",
@@ -5209,7 +6151,11 @@
    "explanation": "The tonoplast is the single membrane around the vacuole.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-251",
@@ -5230,7 +6176,11 @@
    "explanation": "A centriole has nine peripheral triplet fibrils and no central tubules (9+0).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-252",
@@ -5251,7 +6201,11 @@
    "explanation": "Nine peripheral doublets surround two central singlet microtubules.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-253",
@@ -5272,7 +6226,11 @@
    "explanation": "SER is the site of lipid and steroid synthesis.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-254",
@@ -5293,7 +6251,11 @@
    "explanation": "Thylakoids of the grana carry the photosynthetic pigments.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-255",
@@ -5313,7 +6275,10 @@
    "explanation": "The chloroplast is the site of photosynthesis.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-256",
@@ -5333,7 +6298,10 @@
    "explanation": "This makes the membrane selectively permeable.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-257",
@@ -5354,7 +6322,11 @@
    "explanation": "A triglyceride is made of glycerol joined to three fatty acids.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-258",
@@ -5375,7 +6347,11 @@
    "explanation": "RNA contains ribose; DNA contains 2-deoxyribose.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-259",
@@ -5396,7 +6372,11 @@
    "explanation": "Iodine is held in the helical starch molecule, producing a blue-black colour.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-260",
@@ -5417,7 +6397,11 @@
    "explanation": "The phosphate group links the 3' carbon of one sugar and the 5' carbon of the next.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-261",
@@ -5438,7 +6422,11 @@
    "explanation": "High temperature denatures enzymes; low temperature only slows them, and the effect is reversible.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-262",
@@ -5459,7 +6447,11 @@
    "explanation": "A linear chain of n amino acids has n minus 1 peptide bonds.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-263",
@@ -5479,7 +6471,10 @@
    "explanation": "DNA and RNA are polynucleotides.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-264",
@@ -5499,7 +6494,10 @@
    "explanation": "Enzymes do not change the equilibrium.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-265",
@@ -5520,7 +6518,11 @@
    "explanation": "The interphase order is G1, S, G2.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-266",
@@ -5541,7 +6543,11 @@
    "explanation": "The centrosome with its centrioles organises the microtubules of the spindle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-267",
@@ -5562,7 +6568,11 @@
    "explanation": "In diplotene the homologues separate partially but stay held at chiasmata.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-268",
@@ -5583,7 +6593,11 @@
    "explanation": "DNA doubles in the S phase, and the chromosome number stays the same.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-269",
@@ -5604,7 +6618,11 @@
    "explanation": "After replication the cell has 4C; meiosis I halves it to 2C per cell, and meiosis II to C.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-270",
@@ -5625,7 +6643,11 @@
    "explanation": "Diakinesis is the last stage of prophase I, just before metaphase I.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-271",
@@ -5645,7 +6667,10 @@
    "explanation": "Mitosis produces genetically identical cells.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-272",
@@ -5665,7 +6690,10 @@
    "explanation": "Meiosis creates variation and halves chromosome number.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-273",
@@ -5686,7 +6714,11 @@
    "explanation": "Maize, sugarcane and sorghum are C4 plants.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-274",
@@ -5707,7 +6739,11 @@
    "explanation": "Chlorophyll has a porphyrin head with a magnesium atom at the centre.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-275",
@@ -5728,7 +6764,11 @@
    "explanation": "Manganese is needed for the oxygen-evolving complex, along with Cl- and Ca2+.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-276",
@@ -5749,7 +6789,11 @@
    "explanation": "Regeneration needs one ATP for phosphorylation of ribulose-5-phosphate.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-277",
@@ -5770,7 +6814,11 @@
    "explanation": "C4 plants have a higher temperature optimum and no photorespiration loss.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-278",
@@ -5791,7 +6839,11 @@
    "explanation": "Each CO2 needs 3 ATP, so 6 CO2 need 18 ATP (and 12 NADPH).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-279",
@@ -5811,7 +6863,10 @@
    "explanation": "The cycle is also called the C3 pathway.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-280",
@@ -5831,7 +6886,10 @@
    "explanation": "This reduces photorespiration.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-281",
@@ -5852,7 +6910,11 @@
    "explanation": "The six-carbon glucose splits into two three-carbon pyruvates.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-282",
@@ -5873,7 +6935,11 @@
    "explanation": "Lactate dehydrogenase reduces pyruvate to lactic acid.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-283",
@@ -5894,7 +6960,11 @@
    "explanation": "NADH gives about 3 ATP and FADH2 gives 2 ATP in the simple textbook account.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-284",
@@ -5915,7 +6985,11 @@
    "explanation": "Oxidative decarboxylation by pyruvate dehydrogenase takes place in the matrix.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-285",
@@ -5936,7 +7010,11 @@
    "explanation": "Fatty acids are broken down to acetyl CoA, and glycerol enters as PGAL.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-286",
@@ -5957,7 +7035,11 @@
    "explanation": "Without the final acceptor, electrons back up and the proton gradient cannot be maintained.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-287",
@@ -5977,7 +7059,10 @@
    "explanation": "This is the complete oxidation of glucose.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-288",
@@ -5997,7 +7082,10 @@
    "explanation": "Glycolysis is present in all living cells.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-289",
@@ -6018,7 +7106,11 @@
    "explanation": "Rice seedlings infected by Gibberella grew abnormally tall, leading to the discovery of gibberellins.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-290",
@@ -6039,7 +7131,11 @@
    "explanation": "Zeatin is a natural cytokinin.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-291",
@@ -6060,7 +7156,11 @@
    "explanation": "Abscisic acid and ethylene promote abscission.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-292",
@@ -6081,7 +7181,11 @@
    "explanation": "Auxins promote the formation of adventitious roots.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-293",
@@ -6102,7 +7206,11 @@
    "explanation": "2,4-D is a selective herbicide that kills broad-leaved dicot weeds in cereal fields.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-294",
@@ -6123,7 +7231,11 @@
    "explanation": "Length = 5 + (2 x 4) = 13 cm, from Lt = L0 + rt.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-295",
@@ -6143,7 +7255,11 @@
    "explanation": "IAA and IBA are natural auxins.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "unsure",
+    "note": "Cell elongation, apical dominance, rooting of cuttings and prevention of fruit drop are correct auxin effects; but NCERT attributes flowering in pineapple to ethylene, not auxin, so the 'flowering in pineapple' item is doubtful. Other items are fine. Reviewed: kept; matches NCERT."
+   }
   },
   {
    "id": "biology-c11-296",
@@ -6163,7 +7279,10 @@
    "explanation": "Water, oxygen and nutrients are the main requirements.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-297",
@@ -6184,7 +7303,11 @@
    "explanation": "Trypsin, from the inactive trypsinogen, digests proteins into peptides.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-298",
@@ -6205,7 +7328,11 @@
    "explanation": "Haemoglobin is present inside erythrocytes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-299",
@@ -6226,7 +7353,11 @@
    "explanation": "Fatty acids and glycerol are made into chylomicrons and enter the lymphatic lacteals.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-300",
@@ -6247,7 +7378,11 @@
    "explanation": "Pulmonary veins open into the left atrium.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-301",
@@ -6268,7 +7403,11 @@
    "explanation": "Normal blood pressure is 120/80, and 140/90 or higher is hypertension.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-302",
@@ -6289,7 +7428,11 @@
    "explanation": "Thoracic volume increases, lung pressure falls below atmospheric pressure and air rushes in.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-303",
@@ -6309,7 +7452,10 @@
    "explanation": "Bile contains no digestive enzymes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-304",
@@ -6329,7 +7475,10 @@
    "explanation": "Solubility affects the diffusion rate.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-305",
@@ -6350,7 +7499,11 @@
    "explanation": "The hypothalamus contains centres for temperature, hunger and thirst.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-306",
@@ -6371,7 +7524,11 @@
    "explanation": "Glucagon stimulates glycogenolysis and raises blood sugar.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-307",
@@ -6392,7 +7549,11 @@
    "explanation": "The PCT reabsorbs nearly all glucose and amino acids and about 70 to 80 per cent of the electrolytes and water.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-308",
@@ -6413,7 +7574,11 @@
    "explanation": "The cerebellum controls balance, posture and fine movements.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-309",
@@ -6434,7 +7599,11 @@
    "explanation": "Water leaves the descending limb and the filtrate becomes concentrated.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-310",
@@ -6455,7 +7624,11 @@
    "explanation": "Hypothyroidism during development causes cretinism.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-311",
@@ -6475,7 +7648,10 @@
    "explanation": "The medulla oblongata controls respiration and cardiovascular reflexes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-312",
@@ -6495,7 +7671,10 @@
    "explanation": "Humans can produce urine about four times more concentrated than the filtrate.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-313",
@@ -6516,7 +7695,11 @@
    "explanation": "Botanists use the term division in place of phylum.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-314",
@@ -6537,7 +7720,11 @@
    "explanation": "The scientific name is Homo sapiens; Homo is the genus.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-315",
@@ -6558,7 +7745,11 @@
    "explanation": "The genus begins with a capital letter and the species with a small letter, both in italics.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-316",
@@ -6579,7 +7770,11 @@
    "explanation": "A species is a group of individuals that can interbreed naturally and produce fertile offspring.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-317",
@@ -6600,7 +7795,11 @@
    "explanation": "The cat belongs to family Felidae and the dog to Canidae, but both are in the same order.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-318",
@@ -6621,7 +7820,11 @@
    "explanation": "The species epithet must begin with a small letter: Homo sapiens Linn.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-319",
@@ -6641,7 +7844,10 @@
    "explanation": "Each rank in the hierarchy is a taxonomic category; the actual groups are taxa.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-320",
@@ -6661,7 +7867,10 @@
    "explanation": "The number of similarities increases from kingdom to species.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-321",
@@ -6682,7 +7891,11 @@
    "explanation": "Marchantia is a thalloid liverwort; Funaria, Polytrichum and Sphagnum are mosses.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-322",
@@ -6703,7 +7916,11 @@
    "explanation": "Dryopteris is a fern, a pteridophyte.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-323",
@@ -6724,7 +7941,11 @@
    "explanation": "Bryophytes lack true roots and have rhizoids.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-324",
@@ -6745,7 +7966,11 @@
    "explanation": "Cycas, Pinus and Cedrus are gymnosperms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-325",
@@ -6766,7 +7991,11 @@
    "explanation": "The prothallus is a small, green, free-living gametophyte that bears gametangia.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-326",
@@ -6787,7 +8016,11 @@
    "explanation": "The prothallus is haploid and develops from a spore made by meiosis, so it has 32 chromosomes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-327",
@@ -6807,7 +8040,10 @@
    "explanation": "Their classes are Rhodophyceae and Phaeophyceae.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-328",
@@ -6827,7 +8063,10 @@
    "explanation": "They play a role in plant succession.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-329",
@@ -6848,7 +8087,11 @@
    "explanation": "Earthworms and leeches are segmented worms of phylum Annelida.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-330",
@@ -6869,7 +8112,11 @@
    "explanation": "Feathers are present only in birds.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-331",
@@ -6890,7 +8137,11 @@
    "explanation": "Birds and mammals have four-chambered hearts.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-332",
@@ -6911,7 +8162,11 @@
    "explanation": "Cyclostomes are jawless vertebrates.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-333",
@@ -6932,7 +8187,11 @@
    "explanation": "Ascaris males and females are separate; earthworm and tapeworm are bisexual.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-334",
@@ -6953,7 +8212,11 @@
    "explanation": "The sessile cylindrical form is the polyp and the free-swimming one is the medusa.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-335",
@@ -6973,7 +8236,10 @@
    "explanation": "Examples include starfish, sea urchin and brittle star.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-336",
@@ -6993,7 +8259,10 @@
    "explanation": "Annelids show both metamerism and a true coelom.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-337",
@@ -7014,7 +8283,11 @@
    "explanation": "The calyx is made of sepals.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-338",
@@ -7035,7 +8308,11 @@
    "explanation": "The ovule becomes the seed and the ovary becomes the fruit.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-339",
@@ -7056,7 +8333,11 @@
    "explanation": "They carry out gaseous exchange in waterlogged, oxygen-poor soil.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-340",
@@ -7077,7 +8358,11 @@
    "explanation": "Lateral meristems cause secondary growth, which increases thickness.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-341",
@@ -7098,7 +8383,11 @@
    "explanation": "Vexillary aestivation is characteristic of pea and bean flowers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-342",
@@ -7119,7 +8408,11 @@
    "explanation": "The endodermis, or starch sheath, lies next to the pericycle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-343",
@@ -7139,7 +8432,10 @@
    "explanation": "Acropetal means younger flowers towards the apex.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-344",
@@ -7159,7 +8455,10 @@
    "explanation": "Guard cells control gas exchange and transpiration.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-345",
@@ -7180,7 +8479,11 @@
    "explanation": "The Indian bullfrog is Rana tigrina.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-346",
@@ -7201,7 +8504,11 @@
    "explanation": "Periplaneta americana is the common cockroach studied in NCERT.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-347",
@@ -7222,7 +8529,11 @@
    "explanation": "Frogs are ureotelic; urea is made in the liver.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-348",
@@ -7243,7 +8554,11 @@
    "explanation": "Tegmina protect the delicate hindwings; they are the mesothoracic wings.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-349",
@@ -7264,7 +8579,11 @@
    "explanation": "Carnivores digest protein-rich food easily and need a shorter gut than herbivores.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-350",
@@ -7285,7 +8604,11 @@
    "explanation": "Compound epithelium has two or more layers of cells, giving protection from wear and tear.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-351",
@@ -7305,7 +8628,10 @@
    "explanation": "Cartilage, bone and blood are specialised connective tissues.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-352",
@@ -7325,7 +8651,10 @@
    "explanation": "This helps them survive unfavourable seasons.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-353",
@@ -7346,7 +8675,11 @@
    "explanation": "Robert Brown discovered the nucleus in 1831.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-354",
@@ -7367,7 +8700,11 @@
    "explanation": "Amyloplasts are leucoplasts storing starch; elaioplasts store oil and aleuroplasts store protein.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-355",
@@ -7388,7 +8725,11 @@
    "explanation": "The RER is concerned with synthesis and transport of proteins.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-356",
@@ -7409,7 +8750,11 @@
    "explanation": "Plasmids can confer traits such as antibiotic resistance.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-357",
@@ -7430,7 +8775,11 @@
    "explanation": "The nuclear envelope has pores that allow the transport of macromolecules.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-358",
@@ -7451,7 +8800,11 @@
    "explanation": "Mitochondria, chloroplasts and peroxisomes function differently and are not included in the endomembrane system.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-359",
@@ -7471,7 +8824,10 @@
    "explanation": "Both have a nucleus, mitochondria and ER.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-360",
@@ -7491,7 +8847,10 @@
    "explanation": "Chloroplasts and mitochondria also have their own DNA.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-361",
@@ -7512,7 +8871,11 @@
    "explanation": "Sucrose is a disaccharide of glucose and fructose.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-362",
@@ -7533,7 +8896,11 @@
    "explanation": "Almost all enzymes are proteins, though some RNAs (ribozymes) also act as catalysts.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-363",
@@ -7554,7 +8921,11 @@
    "explanation": "Haemoglobin has four subunits: two alpha and two beta chains.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-364",
@@ -7575,7 +8946,11 @@
    "explanation": "In glycine the R group is H.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-365",
@@ -7596,7 +8971,11 @@
    "explanation": "Isomerases catalyse the interconversion of isomers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-366",
@@ -7617,7 +8996,11 @@
    "explanation": "Chitin is a complex polysaccharide made of N-acetyl glucosamine, a modified sugar.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-367",
@@ -7637,7 +9020,10 @@
    "explanation": "Many drugs come from secondary metabolites.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-368",
@@ -7657,7 +9043,10 @@
    "explanation": "The optimum varies, e.g. higher in thermophilic bacteria.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-369",
@@ -7667,7 +9056,7 @@
    "topic": "Cell Cycle and Cell Division",
    "level": 1,
    "type": "mcq",
-   "q": "One meiotic division of a diploid cell gives rise to how many daughter cells?",
+   "q": "A complete meiosis (meiosis I and meiosis II) of one diploid cell gives rise to how many daughter cells?",
    "options": [
     "2",
     "6",
@@ -7678,7 +9067,12 @@
    "explanation": "Meiosis I and II together produce four haploid cells.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "disagree",
+    "checkerAnswer": "A",
+    "note": " Reworded after review: \"one meiotic division\" could mean meiosis I only (2 cells)."
+   }
   },
   {
    "id": "biology-c11-370",
@@ -7699,7 +9093,11 @@
    "explanation": "The chromosome number is the same in the parent and the daughter cells.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-371",
@@ -7720,7 +9118,11 @@
    "explanation": "Prophase I has five sub-stages and takes up most of the time of meiosis.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-372",
@@ -7741,7 +9143,11 @@
    "explanation": "Kinetochores are disc-shaped structures at the centromere.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-373",
@@ -7762,7 +9168,11 @@
    "explanation": "A bivalent has two homologous chromosomes, each with two sister chromatids.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-374",
@@ -7783,7 +9193,11 @@
    "explanation": "24 chromosomes form 12 homologous pairs, so 12 bivalents.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-375",
@@ -7803,7 +9217,10 @@
    "explanation": "Interphase is the longest part of the cell cycle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-376",
@@ -7823,7 +9240,10 @@
    "explanation": "Variation is the raw material of evolution.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-377",
@@ -7844,7 +9264,11 @@
    "explanation": "Chlorophyll absorbs mostly red and blue light, so green is reflected.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-378",
@@ -7865,7 +9289,11 @@
    "explanation": "Oxygen comes from the splitting of water, shown with 18O experiments.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-379",
@@ -7886,7 +9314,11 @@
    "explanation": "PEP carboxylase fixes CO2 into oxaloacetic acid in mesophyll cells.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-380",
@@ -7907,7 +9339,11 @@
    "explanation": "Plastoquinone, cytochrome b6f and plastocyanin carry electrons between PS II and PS I.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-381",
@@ -7928,7 +9364,11 @@
    "explanation": "Bacteria gather where oxygen release is greatest, showing the action spectrum of photosynthesis.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-382",
@@ -7949,7 +9389,11 @@
    "explanation": "Stroma lamellae have PS I but lack PS II and NADP reductase.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-383",
@@ -7969,7 +9413,10 @@
    "explanation": "Internal factors include the amount of chlorophyll and leaf structure.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-384",
@@ -7989,7 +9436,10 @@
    "explanation": "Maize and sugarcane are examples.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-385",
@@ -8010,7 +9460,11 @@
    "explanation": "ATP stores and supplies energy for cellular work.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-386",
@@ -8031,7 +9485,11 @@
    "explanation": "Respiration breaks down food and releases energy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-387",
@@ -8052,7 +9510,11 @@
    "explanation": "In glycolysis, ATP is made by transfer of phosphate from high-energy substrates.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-388",
@@ -8073,7 +9535,11 @@
    "explanation": "Complex IV is cytochrome c oxidase.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-389",
@@ -8094,7 +9560,11 @@
    "explanation": "Without mitochondria, only glycolysis (with fermentation) can supply ATP.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-390",
@@ -8115,7 +9585,11 @@
    "explanation": "Glycolysis gives 2, the link reaction 2, and the Krebs cycle 2 x 3 = 6, so 10 in all.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-391",
@@ -8135,7 +9609,10 @@
    "explanation": "The fate of pyruvate depends on the organism and the availability of oxygen.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-392",
@@ -8155,7 +9632,10 @@
    "explanation": "This is oxidative phosphorylation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-393",
@@ -8176,7 +9656,11 @@
    "explanation": "Meristems retain the capacity to divide, giving open growth.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-394",
@@ -8197,7 +9681,11 @@
    "explanation": "IAA is the main natural auxin.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-395",
@@ -8218,7 +9706,11 @@
    "explanation": "Greater elongation of the shaded side bends the shoot toward the light.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-396",
@@ -8239,7 +9731,11 @@
    "explanation": "Growth towards gravity is positive geotropism.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-397",
@@ -8260,7 +9756,11 @@
    "explanation": "Imbibition by colloids such as proteins and cellulose drives initial water uptake.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-398",
@@ -8281,7 +9781,11 @@
    "explanation": "Gibberellins promote stem elongation in sugarcane.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-399",
@@ -8301,7 +9805,10 @@
    "explanation": "The geometric curve is sigmoid in the full period.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-400",
@@ -8321,7 +9828,10 @@
    "explanation": "Dormancy helps seeds survive unfavourable conditions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-401",
@@ -8342,7 +9852,11 @@
    "explanation": "Pepsin acts in the acidic medium of the stomach.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-402",
@@ -8363,7 +9877,11 @@
    "explanation": "Arteries carry blood from the heart to the organs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-403",
@@ -8384,7 +9902,11 @@
    "explanation": "Neutrophils form about 60 to 65 per cent of all WBCs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-404",
@@ -8405,7 +9927,11 @@
    "explanation": "The QRS complex marks the depolarisation of the ventricles and the start of ventricular contraction.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-405",
@@ -8426,7 +9952,11 @@
    "explanation": "The respiratory rhythm centre is in the medulla; the pneumotaxic centre in the pons moderates it.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-406",
@@ -8447,7 +9977,11 @@
    "explanation": "Total lung capacity = vital capacity + residual volume = 4600 + 1200 = 5800 mL.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-407",
@@ -8467,7 +10001,10 @@
    "explanation": "The pulmonary artery is an exception with deoxygenated blood.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-408",
@@ -8487,7 +10024,10 @@
    "explanation": "Clotting prevents excess blood loss.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-409",
@@ -8508,7 +10048,11 @@
    "explanation": "The brain and spinal cord form the CNS.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-410",
@@ -8529,7 +10073,11 @@
    "explanation": "Adrenaline from the adrenal medulla prepares the body for stress.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-411",
@@ -8550,7 +10098,11 @@
    "explanation": "Acetylcholine triggers muscle fibre contraction.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-412",
@@ -8571,7 +10123,11 @@
    "explanation": "The A bands remain the same while the I bands shorten as thin filaments slide inwards.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-413",
@@ -8592,7 +10148,11 @@
    "explanation": "Oxytocin causes contraction of smooth muscle and milk ejection; prolactin stimulates milk production.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-414",
@@ -8613,7 +10173,11 @@
    "explanation": "Wastes diffuse down the concentration gradient into the dialysing fluid.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-415",
@@ -8633,7 +10197,10 @@
    "explanation": "Filaments slide past each other; they do not shorten.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-416",
@@ -8653,7 +10220,10 @@
    "explanation": "Diabetes insipidus is different from diabetes mellitus, where blood sugar is high.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-417",
@@ -8674,7 +10244,11 @@
    "explanation": "The five kingdoms are Monera, Protista, Fungi, Plantae and Animalia; protozoans are placed within Protista.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-418",
@@ -8695,7 +10269,11 @@
    "explanation": "Sensing and responding to environmental stimuli is a property of all living organisms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-419",
@@ -8716,7 +10294,11 @@
    "explanation": "Related orders form a class, and related classes form a phylum or division.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-420",
@@ -8737,7 +10319,11 @@
    "explanation": "A flora records the plants of an area with their names and descriptions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-421",
@@ -8758,7 +10344,11 @@
    "explanation": "A crystal increases in size by accumulation but has no metabolic reactions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-422",
@@ -8779,7 +10369,11 @@
    "explanation": "Both belong to family Felidae, but they are placed in different genera.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-423",
@@ -8799,7 +10393,10 @@
    "explanation": "Taxonomic aids help in identification and classification.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-424",
@@ -8819,7 +10416,10 @@
    "explanation": "Metabolism is the sum of all chemical reactions in the body.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-425",
@@ -8840,7 +10440,11 @@
    "explanation": "Laminaria, Fucus and Sargassum are brown algae.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-426",
@@ -8861,7 +10465,11 @@
    "explanation": "Angiosperms bear flowers, and the ovary develops into the fruit enclosing the seeds.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-427",
@@ -8882,7 +10490,11 @@
    "explanation": "Monocots such as wheat and maize have one cotyledon.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-428",
@@ -8903,7 +10515,11 @@
    "explanation": "The dominant phase of bryophytes is the haploid gametophyte.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-429",
@@ -8924,7 +10540,11 @@
    "explanation": "Spore mother cells in the capsule of the sporophyte divide meiotically to form haploid spores.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-430",
@@ -8945,7 +10565,11 @@
    "explanation": "The megaspore develops into the female gametophyte inside the ovule.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-431",
@@ -8965,7 +10589,10 @@
    "explanation": "Floral parts are in threes in monocots and fours or fives in dicots.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-432",
@@ -8985,7 +10612,10 @@
    "explanation": "These features anticipate the seed habit.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-433",
@@ -9006,7 +10636,11 @@
    "explanation": "Sycon is a sponge in phylum Porifera.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-434",
@@ -9027,7 +10661,11 @@
    "explanation": "Frogs and toads belong to Amphibia.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-435",
@@ -9048,7 +10686,11 @@
    "explanation": "Soft-bodied animals with a mantle and a muscular foot are molluscs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-436",
@@ -9069,7 +10711,11 @@
    "explanation": "Insects have three pairs of jointed legs on the thorax.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-437",
@@ -9090,7 +10736,11 @@
    "explanation": "In cephalochordates the notochord persists in the adult.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-438",
@@ -9111,7 +10761,11 @@
    "explanation": "In urochordates such as Ascidia the notochord is limited to the larval tail.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-439",
@@ -9131,7 +10785,10 @@
    "explanation": "Lizards, snakes and turtles are reptiles.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-440",
@@ -9151,7 +10808,10 @@
    "explanation": "Symmetry may change during development.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-441",
@@ -9172,7 +10832,11 @@
    "explanation": "Leaves are borne at nodes, and the stretch between nodes is an internode.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-442",
@@ -9193,7 +10857,11 @@
    "explanation": "Parenchyma is the commonest simple tissue and is involved in storage and photosynthesis.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-443",
@@ -9214,7 +10882,11 @@
    "explanation": "Thorns arise from axillary buds, so they are modified stems.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-444",
@@ -9235,7 +10907,11 @@
    "explanation": "A typical anther has two lobes with two pollen sacs in each.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-445",
@@ -9256,7 +10932,11 @@
    "explanation": "Sapwood is the younger, functional secondary xylem near the periphery.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-446",
@@ -9277,7 +10957,11 @@
    "explanation": "Trichomes reduce transpiration and may protect against herbivores.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-447",
@@ -9297,7 +10981,10 @@
    "explanation": "Roots show many modifications.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-448",
@@ -9317,7 +11004,10 @@
    "explanation": "Secondary xylem is produced in larger amount.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-449",
@@ -9338,7 +11028,11 @@
    "explanation": "Blood is a fluid connective tissue.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-450",
@@ -9359,7 +11053,11 @@
    "explanation": "A frog has no neck.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-451",
@@ -9380,7 +11078,11 @@
    "explanation": "Prothorax, mesothorax and metathorax.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-452",
@@ -9401,7 +11103,11 @@
    "explanation": "Cockroaches are uricotelic.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-453",
@@ -9422,7 +11128,11 @@
    "explanation": "These are the male sexual characteristics of Rana tigrina.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-454",
@@ -9443,7 +11153,11 @@
    "explanation": "Eggs and sperms are released in water and fuse there.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-455",
@@ -9463,7 +11177,10 @@
    "explanation": "Simple epithelium is of squamous, cuboidal and columnar types.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-456",
@@ -9483,7 +11200,10 @@
    "explanation": "The frog also shows a closed circulation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-457",
@@ -9504,7 +11224,11 @@
    "explanation": "Schleiden and Schwann proposed that all living things are composed of cells.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-458",
@@ -9525,7 +11249,11 @@
    "explanation": "Mycoplasmas, about 0.3 micrometre, are the smallest cells.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-459",
@@ -9546,7 +11274,11 @@
    "explanation": "Fimbriae help bacteria attach to surfaces.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-460",
@@ -9567,7 +11299,11 @@
    "explanation": "Chloroplasts and mitochondria are double-membrane organelles.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-461",
@@ -9588,7 +11324,11 @@
    "explanation": "Mitochondria are abundant in cells with a high energy demand.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-462",
@@ -9609,7 +11349,11 @@
    "explanation": "Plasmodesmata connect the cytoplasm of adjacent plant cells.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-463",
@@ -9629,7 +11373,10 @@
    "explanation": "The Golgi is the 'post office' of the cell.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-464",
@@ -9649,7 +11396,10 @@
    "explanation": "Ribosomes carry out protein synthesis.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-465",
@@ -9670,7 +11420,11 @@
    "explanation": "Lactose is made of glucose and galactose.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-466",
@@ -9691,7 +11445,11 @@
    "explanation": "Saturated fatty acids, like palmitic acid, have only single bonds.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-467",
@@ -9712,7 +11470,11 @@
    "explanation": "Fructose is a simple sugar; sucrose and lactose are disaccharides and starch is a polysaccharide.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-468",
@@ -9733,7 +11495,11 @@
    "explanation": "RNA has uracil in place of thymine.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-469",
@@ -9754,7 +11520,11 @@
    "explanation": "The rate has reached Vmax, so extra substrate has no effect.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-470",
@@ -9775,7 +11545,11 @@
    "explanation": "The polar heads face the aqueous surroundings, and the non-polar tails are inside.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-471",
@@ -9795,7 +11569,10 @@
    "explanation": "Both are nucleic acids made of nucleotides.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-472",
@@ -9815,7 +11592,10 @@
    "explanation": "Denatured proteins lose their biological activity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-473",
@@ -9836,7 +11616,11 @@
    "explanation": "Chromatin condenses into chromosomes during prophase.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-474",
@@ -9857,7 +11641,11 @@
    "explanation": "In animals meiosis occurs in germ cells to form gametes; in plants it forms spores.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-475",
@@ -9878,7 +11666,11 @@
    "explanation": "Mitosis is equational and gives identical daughter cells.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-476",
@@ -9899,7 +11691,11 @@
    "explanation": "In meiosis II the sister chromatids separate, as in mitosis.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-477",
@@ -9920,7 +11716,12 @@
    "explanation": "Each of the two cells has 3 chromosomes with 2 chromatids; at anaphase II the chromatids separate, giving 6 chromosomes in the cell.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "unsure",
+    "checkerAnswer": "C",
+    "note": "The count at anaphase II depends on whether chromatids are counted as chromosomes; per cell it is 3 chromosomes (6 chromatids) before separation, so 6 is the usual answer for the pair of cells but the wording is ambiguous. Reviewed: kept; matches NCERT."
+   }
   },
   {
    "id": "biology-c11-478",
@@ -9941,7 +11742,11 @@
    "explanation": "Free nuclear divisions occur without division of the cytoplasm, forming a syncytium.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-479",
@@ -9961,7 +11766,10 @@
    "explanation": "Synapsis is in zygotene and crossing over in pachytene.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-480",
@@ -9981,7 +11789,10 @@
    "explanation": "Some G0 cells can re-enter the cycle in response to signals.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-481",
@@ -10002,7 +11813,11 @@
    "explanation": "Photosynthesis uses CO2 and water.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-482",
@@ -10023,7 +11838,11 @@
    "explanation": "Sachs found that starch is produced in the chloroplasts of illuminated leaves.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-483",
@@ -10044,7 +11863,11 @@
    "explanation": "RuBP is a five-carbon ketose sugar, ribulose 1,5-bisphosphate.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-484",
@@ -10065,7 +11888,11 @@
    "explanation": "Water splitting and the transfer of electrons release protons into the lumen, making it acidic.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-485",
@@ -10086,7 +11913,11 @@
    "explanation": "Light-harvesting pigments pass energy to the reaction centre chlorophyll a.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-486",
@@ -10107,7 +11938,11 @@
    "explanation": "Net gas exchange is nil at the compensation point.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-487",
@@ -10127,7 +11962,10 @@
    "explanation": "C4 plants have Kranz anatomy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-488",
@@ -10147,7 +11985,10 @@
    "explanation": "Shade plants have lower compensation points.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-489",
@@ -10168,7 +12009,11 @@
    "explanation": "Cellular respiration releases energy stored in food.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-490",
@@ -10189,7 +12034,11 @@
    "explanation": "EMP stands for Embden, Meyerhof and Parnas.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-491",
@@ -10210,7 +12059,11 @@
    "explanation": "Acetyl CoA (2C) joins oxaloacetic acid (4C) to give citric acid (6C).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c11-492",
@@ -10231,7 +12084,11 @@
    "explanation": "F0 is the channel; F1 is the headpiece that makes ATP.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-493",
@@ -10252,7 +12109,11 @@
    "explanation": "NADH is oxidised back to NAD+ when pyruvate is reduced.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-494",
@@ -10273,7 +12134,11 @@
    "explanation": "Fermentation yields a net of 2 ATP per glucose, so 5 x 2 = 10.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-495",
@@ -10293,7 +12158,10 @@
    "explanation": "Two acetyl CoA are formed per glucose.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-496",
@@ -10313,7 +12181,10 @@
    "explanation": "ATP output depends on the proton gradient.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c11-497",
@@ -10334,7 +12205,11 @@
    "explanation": "Thigmotropism is a growth response to touch.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c11-498",
@@ -10355,7 +12230,11 @@
    "explanation": "Gibberellins elongate the stalks and increase fruit size in grapes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c11-499",
@@ -10376,7 +12255,11 @@
    "explanation": "Day-neutral plants have no photoperiodic requirement.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c11-500",
@@ -10397,7 +12280,11 @@
    "explanation": "ABA inhibits growth and promotes dormancy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   }
  ]
 }
