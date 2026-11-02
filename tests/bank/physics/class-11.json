@@ -22,7 +22,14 @@
  "syllabus": "unverified: topics are the drafting model’s reading of the official syllabus (NCERT/CBSE, or the exam’s notified syllabus) and have not been checked against the official documents",
  "drafted_by": "claude-sonnet",
  "drafted_at": "2026-11-02",
- "crossCheck": null,
+ "crossCheck": {
+  "model": "claude-haiku",
+  "method": "MCQs answered blind (no key shown); short answers judged against their proposed answer",
+  "agree": 498,
+  "disagree": 1,
+  "unsure": 1,
+  "missing": 0
+ },
  "questions": [
   {
    "id": "physics-c11-001",
@@ -43,7 +50,11 @@
    "explanation": "Pressure is force per unit area, and its SI unit is the pascal (1 Pa = 1 N m⁻²).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-002",
@@ -64,7 +75,11 @@
    "explanation": "Work = force × distance = MLT⁻² × L = ML²T⁻².",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-003",
@@ -85,7 +100,11 @@
    "explanation": "The digits 6, 0, 2 and the trailing 0 after the decimal point are all significant, giving 4.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-004",
@@ -106,7 +125,11 @@
    "explanation": "Volume ∝ r³, so the fractional error in V is 3 × 2% = 6%.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-005",
@@ -127,7 +150,11 @@
    "explanation": "G = F r² / (m₁m₂) = (MLT⁻²)(L²)/M² = M⁻¹L³T⁻².",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-006",
@@ -148,7 +175,11 @@
    "explanation": "Torque (force × distance) and energy both have dimensions ML²T⁻²; the other pairs differ.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-007",
@@ -168,7 +199,10 @@
    "explanation": "Light travels about 3 × 10⁸ m s⁻¹, so in one year it covers roughly 9.46 × 10¹⁵ m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-008",
@@ -188,7 +222,10 @@
    "explanation": "In a quotient the maximum fractional errors add, so ΔR/R = 5% + 2% = 7%.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-009",
@@ -209,7 +246,11 @@
    "explanation": "Slope of x–t graph = dx/dt, which is velocity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-010",
@@ -230,7 +271,11 @@
    "explanation": "Area under a v–t graph is the integral of v dt, which is displacement.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-011",
@@ -251,7 +296,11 @@
    "explanation": "s = ½at² = ½ × 2 × 25 = 25 m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-012",
@@ -272,7 +321,11 @@
    "explanation": "h = u²/2g = 400/20 = 20 m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-013",
@@ -293,7 +346,11 @@
    "explanation": "Distance in the nth second = ½g(2n−1), so the distances are in the ratio 1 : 3 : 5.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-014",
@@ -314,7 +371,11 @@
    "explanation": "Height in 4 s = ½ × 10 × 16 = 80 m; in 3 s = 45 m; last second = 80 − 45 = 35 m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-015",
@@ -334,7 +395,10 @@
    "explanation": "Convert 72 km/h to 20 m s⁻¹, then use v = u + at and s = average speed × time.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-016",
@@ -354,7 +418,10 @@
    "explanation": "The motion up and down is symmetric, so the total time is twice u/g.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-017",
@@ -375,7 +442,11 @@
    "explanation": "Displacement has both magnitude and direction; the others are scalars.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-018",
@@ -396,7 +467,11 @@
    "explanation": "Range = u² sin 2θ / g is maximum when sin 2θ = 1, i.e. θ = 45°.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-019",
@@ -417,7 +492,11 @@
    "explanation": "R = √(3² + 4²) = 5 N.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-020",
@@ -438,7 +517,11 @@
    "explanation": "T = 2u sinθ / g = 2 × 20 × 0.5 / 10 = 2 s.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-021",
@@ -459,7 +542,11 @@
    "explanation": "Range depends on sin 2θ, which is equal for complementary angles θ and 90° − θ; the complement of 15° is 75°.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-022",
@@ -480,7 +567,11 @@
    "explanation": "With no net force, the stone continues with its instantaneous velocity, which is tangent to the circle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-023",
@@ -500,7 +591,10 @@
    "explanation": "Centripetal acceleration is v²/r = 25/0.5 = 50 m s⁻².",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-024",
@@ -520,7 +614,10 @@
    "explanation": "Vertical and horizontal motions are independent; the fall time fixes the horizontal distance.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-025",
@@ -541,7 +638,11 @@
    "explanation": "The greater the mass, the greater the inertia (resistance to change in the state of motion).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-026",
@@ -562,7 +663,11 @@
    "explanation": "The first law states that a body continues in its state of rest or uniform motion unless acted on by an external force; this property is inertia.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-027",
@@ -583,7 +688,11 @@
    "explanation": "a = F/m = 20/5 = 4 m s⁻².",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-028",
@@ -604,7 +713,11 @@
    "explanation": "f_max = μN = 0.4 × 10 × 10 = 40 N.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-029",
@@ -625,7 +738,11 @@
    "explanation": "N − mg = ma, so N = m(g + a) = 60 × 12 = 720 N.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-030",
@@ -646,7 +763,11 @@
    "explanation": "Common acceleration = 10/5 = 2 m s⁻²; the force on the 3 kg block is 3 × 2 = 6 N.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-031",
@@ -666,7 +787,10 @@
    "explanation": "Conservation of momentum gives the gun a momentum equal and opposite to the bullet's (6 kg m s⁻¹).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-032",
@@ -686,7 +810,10 @@
    "explanation": "At the angle of repose the component of weight along the plane equals the limiting friction.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-033",
@@ -707,7 +834,11 @@
    "explanation": "Power is the rate of doing work; 1 watt = 1 J s⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-034",
@@ -728,7 +859,11 @@
    "explanation": "The force is perpendicular to the displacement at every instant, so W = Fs cos 90° = 0.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-035",
@@ -749,7 +884,11 @@
    "explanation": "KE = ½mv² = ½ × 2 × 9 = 9 J.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-036",
@@ -770,7 +909,11 @@
    "explanation": "W = F s cosθ = 10 × 5 × 0.5 = 25 J.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-037",
@@ -791,7 +934,11 @@
    "explanation": "KE = p²/2m. Doubling p makes KE four times, an increase of 300%.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-038",
@@ -812,7 +959,11 @@
    "explanation": "Work = mgh = 100 × 10 × 20 = 20000 J; power = 20000/10 = 2000 W.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-039",
@@ -832,7 +983,10 @@
    "explanation": "Elastic potential energy of a spring is ½kx² = 0.5 × 200 × 0.01 = 1 J.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-040",
@@ -852,7 +1006,10 @@
    "explanation": "Equating mgh to ½mv² gives v = √200 ≈ 14.1 m s⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-041",
@@ -873,7 +1030,11 @@
    "explanation": "Torque = force × perpendicular distance, with unit newton metre.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-042",
@@ -894,7 +1055,11 @@
    "explanation": "I = Σmr² depends on how the mass is distributed about the chosen axis.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-043",
@@ -915,7 +1080,11 @@
    "explanation": "All the mass is at distance R from the axis, so I = MR².",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-044",
@@ -936,7 +1105,11 @@
    "explanation": "τ = F × d = 10 × 0.3 = 3 N m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-045",
@@ -957,7 +1130,11 @@
    "explanation": "KE = L²/2I; I decreases while L is fixed, so KE increases (she does internal work pulling the arms in).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-046",
@@ -978,7 +1155,11 @@
    "explanation": "The disc has a smaller moment of inertia, so less energy goes into rotation and it has a larger acceleration (g sinθ / (1 + k²/R²)).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-047",
@@ -998,7 +1179,10 @@
    "explanation": "Use L = Iω and KE = ½Iω².",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-048",
@@ -1019,7 +1203,11 @@
    "explanation": "Johannes Kepler formulated the three laws of planetary motion.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-049",
@@ -1040,7 +1228,11 @@
    "explanation": "The gravitational force is central, so torque about the Sun is zero and angular momentum is conserved.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-050",
@@ -1061,7 +1253,11 @@
    "explanation": "g' = g R²/(R + h)² = g R²/(2R)² = g/4.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-051",
@@ -1082,7 +1278,11 @@
    "explanation": "v_e = √(2gR) and v_o = √(gR), so v_e = √2 v_o (about 11.2 km s⁻¹ versus 7.9 km s⁻¹).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-052",
@@ -1103,7 +1303,11 @@
    "explanation": "Inside a uniform sphere g falls linearly with distance from the centre and is zero at the centre.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-053",
@@ -1124,7 +1328,11 @@
    "explanation": "By Kepler's third law T² ∝ r³, so T ∝ r^{3/2} = 4^{3/2} = 8 times.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-054",
@@ -1144,7 +1352,10 @@
    "explanation": "Doubling mass doubles g, doubling radius divides g by 4, so the net factor is 1/2.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-055",
@@ -1165,7 +1376,11 @@
    "explanation": "Stress is the internal restoring force per unit cross-sectional area.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-056",
@@ -1186,7 +1401,11 @@
    "explanation": "Young's modulus = stress/strain, and strain is dimensionless, so it has the unit of stress, N m⁻² or pascal.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-057",
@@ -1207,7 +1426,11 @@
    "explanation": "Strain = ΔL/L = 1 × 10⁻³ m / 2 m = 5 × 10⁻⁴.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-058",
@@ -1228,7 +1451,11 @@
    "explanation": "Stress = 100 / 10⁻⁶ = 10⁸ Pa, so strain = 10⁸ / (2 × 10¹¹) = 5 × 10⁻⁴.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-059",
@@ -1249,7 +1476,11 @@
    "explanation": "Extension = FL/(πr²Y) ∝ 1/r², so the ratio is (1/r²) : (1/4r²) = 4 : 1.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-060",
@@ -1270,7 +1501,11 @@
    "explanation": "Energy = ½ × F × ΔL, and dividing by volume AL gives ½ × (F/A) × (ΔL/L).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-061",
@@ -1290,7 +1525,10 @@
    "explanation": "Substituting in Y = FL/(AΔL) gives ΔL = 3 × 10⁻⁴ m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-062",
@@ -1311,7 +1549,11 @@
    "explanation": "Pascal's law says pressure applied to an enclosed fluid is transmitted undiminished in all directions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-063",
@@ -1332,7 +1574,11 @@
    "explanation": "η = F/(A · dv/dx) has unit N s m⁻² = Pa s.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-064",
@@ -1353,7 +1599,11 @@
    "explanation": "P = ρgh = 1000 × 10 × 10 = 10⁵ Pa.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-065",
@@ -1374,7 +1624,11 @@
    "explanation": "Pressure is the same, so F₂ = F₁ × (A₂/A₁) = 100 × 50 = 5000 N.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-066",
@@ -1395,7 +1649,11 @@
    "explanation": "For floating, weight = buoyant force: ρ_block V = ρ_water V_sub, so V_sub/V = 0.6.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-067",
@@ -1416,7 +1674,11 @@
    "explanation": "Equation of continuity: A₁v₁ = A₂v₂. Area becomes one-quarter, so the speed becomes 4 times.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-068",
@@ -1436,7 +1698,10 @@
    "explanation": "Two liquid surfaces each contribute 2S/r, giving ΔP = 4S/r = 6 Pa.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-069",
@@ -1456,7 +1721,10 @@
    "explanation": "Capillary rise follows h = 2S cosθ/(rρg), giving 0.028 m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-070",
@@ -1477,7 +1745,11 @@
    "explanation": "Absolute zero (0 K) corresponds to −273.15 °C.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-071",
@@ -1498,7 +1770,11 @@
    "explanation": "The heat supplied is latent heat; it breaks the structure of the solid while the temperature stays constant.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-072",
@@ -1519,7 +1795,11 @@
    "explanation": "Q = mcΔT = 2 × 4200 × 10 = 84000 J.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-073",
@@ -1540,7 +1820,11 @@
    "explanation": "ΔL = αLΔT = 1.2 × 10⁻⁵ × 100 × 50 = 0.06 m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-074",
@@ -1561,7 +1845,11 @@
    "explanation": "With equal masses and the same specific heat, the final temperature is the average, 50 °C.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-075",
@@ -1582,7 +1870,11 @@
    "explanation": "Power ∝ T⁴, so doubling T multiplies the power by 2⁴ = 16.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-076",
@@ -1602,7 +1894,10 @@
    "explanation": "Heat needed for a change of state is mL = 0.5 × 3.36 × 10⁵ J.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-077",
@@ -1623,7 +1918,11 @@
    "explanation": "It states that heat supplied to a system equals the increase in internal energy plus the work done by the system.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-078",
@@ -1644,7 +1943,11 @@
    "explanation": "The internal energy of an ideal gas depends only on temperature, which stays constant.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-079",
@@ -1665,7 +1968,11 @@
    "explanation": "ΔU = Q − W = 500 − 200 = 300 J.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-080",
@@ -1686,7 +1993,11 @@
    "explanation": "η = 1 − T₂/T₁ = 1 − 300/600 = 0.5, i.e. 50%.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-081",
@@ -1707,7 +2018,11 @@
    "explanation": "W = PΔV = 2 × 10⁵ × 2 × 10⁻³ = 400 J.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-082",
@@ -1728,7 +2043,11 @@
    "explanation": "With Q = 0, the work done on the gas increases its internal energy, so its temperature rises.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-083",
@@ -1748,7 +2067,10 @@
    "explanation": "Work output is the efficiency times the heat absorbed from the source.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-084",
@@ -1769,7 +2091,11 @@
    "explanation": "This is Avogadro's number, 6.022 × 10²³ per mole.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-085",
@@ -1790,7 +2116,11 @@
    "explanation": "Average KE per molecule = (3/2)k_B T.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-086",
@@ -1811,7 +2141,11 @@
    "explanation": "A monatomic molecule has three translational degrees of freedom.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-087",
@@ -1832,7 +2166,11 @@
    "explanation": "v_rms ∝ √T, so quadrupling T doubles v_rms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-088",
@@ -1853,7 +2191,11 @@
    "explanation": "v_rms ∝ 1/√M, so the ratio is √(32/2) = √16 = 4.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-089",
@@ -1874,7 +2216,11 @@
    "explanation": "P = nRT/V = 2 × 8.31 × 300 / (5 × 10⁻³) ≈ 9.97 × 10⁵ Pa ≈ 1 × 10⁶ Pa.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-090",
@@ -1894,7 +2240,10 @@
    "explanation": "Translational KE of one mole is (3/2)RT = 3739.5 J.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-091",
@@ -1915,7 +2264,11 @@
    "explanation": "The defining condition of SHM is a = −ω²x.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-092",
@@ -1936,7 +2289,11 @@
    "explanation": "Frequency is the number of oscillations per second, f = 1/T.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-093",
@@ -1957,7 +2314,11 @@
    "explanation": "T = 2π√(l/g) = 2π√(1/9.8) ≈ 2.0 s.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-094",
@@ -1978,7 +2339,11 @@
    "explanation": "T = 2π√(m/k) = 2π√(0.5/200) = 2π × 0.05 ≈ 0.314 s.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-095",
@@ -1999,7 +2364,11 @@
    "explanation": "ω = 2πf = 10π rad s⁻¹; v_max = Aω = 0.1 × 31.4 = 3.14 m s⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-096",
@@ -2020,7 +2389,11 @@
    "explanation": "T ∝ √l, so four times the length gives twice the time period.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-097",
@@ -2040,7 +2413,10 @@
    "explanation": "Total energy in SHM is ½mω²A² = 0.025 J.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-098",
@@ -2061,7 +2437,11 @@
    "explanation": "Air particles vibrate along the direction of propagation, forming compressions and rarefactions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-099",
@@ -2082,7 +2462,11 @@
    "explanation": "A wave travels one wavelength in each period, so v = λ/T = fλ.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-100",
@@ -2103,7 +2487,11 @@
    "explanation": "v = fλ = 500 × 0.68 = 340 m s⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-101",
@@ -2124,7 +2512,11 @@
    "explanation": "In the fundamental mode L = λ/2, so f = v/λ = v/2L.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-102",
@@ -2145,7 +2537,11 @@
    "explanation": "For a closed pipe f = v/4L = 340/(4 × 0.85) = 100 Hz.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-103",
@@ -2166,7 +2562,11 @@
    "explanation": "Beat frequency = |f₁ − f₂| = 4 Hz.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-104",
@@ -2186,7 +2586,10 @@
    "explanation": "Reading A, ω and k from the equation gives f, λ and v = ω/k = 10 m s⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-105",
@@ -2207,7 +2610,11 @@
    "explanation": "The newton is a derived unit (kg m s⁻²); kelvin, ampere and mole are base units.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-106",
@@ -2228,7 +2635,11 @@
    "explanation": "Micro means one millionth, 10⁻⁶.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-107",
@@ -2249,7 +2660,11 @@
    "explanation": "Pressure = force/area = MLT⁻² / L² = ML⁻¹T⁻².",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-108",
@@ -2270,7 +2685,11 @@
    "explanation": "Least count = 1 MSD − 1 VSD = 1 mm − 0.9 mm = 0.1 mm.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-109",
@@ -2291,7 +2710,11 @@
    "explanation": "k has dimensions MT⁻², so m/k has dimensions T² and √(m/k) has dimensions of time.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-110",
@@ -2312,7 +2735,11 @@
    "explanation": "Fractional error = ΔL/L + 2ΔT/T = 1% + 4% = 5%.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-111",
@@ -2332,7 +2759,10 @@
    "explanation": "Dividing 10⁻³ kg by 10⁻⁶ m³ gives 1000 kg m⁻³.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-112",
@@ -2352,7 +2782,10 @@
    "explanation": "Matching powers of M, L and T on both sides fixes the exponents; the mass drops out.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-113",
@@ -2373,7 +2806,11 @@
    "explanation": "Acceleration a = dv/dt.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-114",
@@ -2394,7 +2831,11 @@
    "explanation": "Uniform velocity means velocity does not change, so acceleration is zero.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-115",
@@ -2415,7 +2856,11 @@
    "explanation": "v² = u² + 2as = 100 + 96 = 196, so v = 14 m s⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-116",
@@ -2436,7 +2881,11 @@
    "explanation": "Average speed = 2v₁v₂/(v₁ + v₂) = 2 × 40 × 60/100 = 48 km/h.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-117",
@@ -2457,7 +2906,11 @@
    "explanation": "They meet when 20t = ½ × 2 × t², so t = 20 s.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-118",
@@ -2478,7 +2931,11 @@
    "explanation": "Only the velocity is zero at the top; gravity continues to act, so the acceleration is g directed downward.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-119",
@@ -2498,7 +2955,10 @@
    "explanation": "Differentiate the position once for velocity and twice for acceleration.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-120",
@@ -2518,7 +2978,10 @@
    "explanation": "Solving the displacement equation with the final position 25 m below the start gives t = 5 s.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-121",
@@ -2539,7 +3002,11 @@
    "explanation": "A unit vector has magnitude one and only specifies a direction.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-122",
@@ -2560,7 +3027,11 @@
    "explanation": "The speed is constant, but the direction of velocity (and hence velocity, momentum and acceleration as vectors) keeps changing.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-123",
@@ -2581,7 +3052,11 @@
    "explanation": "A · B = (2)(4) + (3)(−1) = 8 − 3 = 5.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-124",
@@ -2602,7 +3077,11 @@
    "explanation": "H = u² sin²θ/(2g) = 400 × 0.25/20 = 5 m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-125",
@@ -2623,7 +3102,11 @@
    "explanation": "Range R = u² sin 2θ / g is proportional to u², so doubling u gives 4 times the range.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-126",
@@ -2644,7 +3127,11 @@
    "explanation": "The two velocities are perpendicular, so v = √(5² + 3²) = √34 ≈ 5.8 m s⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-127",
@@ -2664,7 +3151,10 @@
    "explanation": "The components are F cosθ along the horizontal and F sinθ along the vertical.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-128",
@@ -2684,7 +3174,10 @@
    "explanation": "Use a = v²/r, ω = v/r and T = 2π/ω.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-129",
@@ -2705,7 +3198,11 @@
    "explanation": "Momentum = mass × velocity, so its unit is kg m s⁻¹ (equivalent to N s).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-130",
@@ -2726,7 +3223,11 @@
    "explanation": "They are equal in magnitude, opposite in direction and act on two different bodies, so they cannot cancel each other.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-131",
@@ -2747,7 +3248,11 @@
    "explanation": "Impulse = F Δt = 50 × 0.2 = 10 N s.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-132",
@@ -2768,7 +3273,11 @@
    "explanation": "F = Δp/Δt = 0.15 × 20 / 0.1 = 30 N.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-133",
@@ -2789,7 +3298,11 @@
    "explanation": "a = (m₂ − m₁)g/(m₁ + m₂) = 2 × 10/8 = 2.5 m s⁻².",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-134",
@@ -2810,7 +3323,11 @@
    "explanation": "Friction = 0.2 × 100 = 20 N; net force = 10 N; a = 10/10 = 1 m s⁻².",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-135",
@@ -2830,7 +3347,10 @@
    "explanation": "The driving force must provide the net force and also overcome the resistance.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-136",
@@ -2850,7 +3370,10 @@
    "explanation": "The maximum friction μmg supplies the centripetal force mv²/r, independent of the car's mass.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-137",
@@ -2871,7 +3394,11 @@
    "explanation": "W_net = ΔKE.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-138",
@@ -2892,7 +3419,11 @@
    "explanation": "Work done by gravity depends only on the end points, not on the path, so it is conservative.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-139",
@@ -2913,7 +3444,11 @@
    "explanation": "U = mgh = 5 × 10 × 4 = 200 J.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-140",
@@ -2934,7 +3469,11 @@
    "explanation": "W = Pt = 500 × 120 = 60000 J.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-141",
@@ -2955,7 +3494,11 @@
    "explanation": "For an elastic head-on collision between equal masses, the velocities are exchanged.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-142",
@@ -2976,7 +3519,11 @@
    "explanation": "Common speed = 12/6 = 2 m s⁻¹; KE falls from ½ × 2 × 36 = 36 J to ½ × 6 × 4 = 12 J, a loss of 24 J.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-143",
@@ -2996,7 +3543,10 @@
    "explanation": "The work done by gravity is mgh, equal to the gain in kinetic energy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-144",
@@ -3016,7 +3566,10 @@
    "explanation": "The speed depends only on the vertical drop, not on the angle or the mass.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-145",
@@ -3037,7 +3590,11 @@
    "explanation": "By symmetry, the centre of mass of a uniform rod is at its midpoint.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-146",
@@ -3058,7 +3615,11 @@
    "explanation": "L = Iω has unit kg m² s⁻¹ (equivalently J s).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-147",
@@ -3079,7 +3640,11 @@
    "explanation": "x_cm = (1 × 0 + 3 × 4)/(1 + 3) = 3 m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-148",
@@ -3100,7 +3665,11 @@
    "explanation": "α = τ/I = 20/5 = 4 rad s⁻².",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-149",
@@ -3121,7 +3690,11 @@
    "explanation": "Parallel axis theorem: I = ML²/12 + M(L/2)² = ML²/3.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-150",
@@ -3142,7 +3715,11 @@
    "explanation": "Rotational KE = ½ × (2/5)mv² = mv²/5; total = 7mv²/10; the fraction is 2/7.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-151",
@@ -3162,7 +3739,10 @@
    "explanation": "A bigger lever arm means a smaller force is needed to produce the required torque.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-152",
@@ -3183,7 +3763,11 @@
    "explanation": "Gravitation between any two masses is always attractive.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-153",
@@ -3204,7 +3788,11 @@
    "explanation": "From F = Gm₁m₂/r², G = F r²/(m₁m₂), so its unit is N m² kg⁻².",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-154",
@@ -3225,7 +3813,11 @@
    "explanation": "F = G × 1 × 1 / 1² = 6.67 × 10⁻¹¹ N.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-155",
@@ -3246,7 +3838,11 @@
    "explanation": "v = √(gR) = √(10 × 6.4 × 10⁶) = 8000 m s⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-156",
@@ -3267,7 +3863,11 @@
    "explanation": "The surface potential energy is −GMm/R = −mgR, so mgR of work is required.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-157",
@@ -3288,7 +3888,11 @@
    "explanation": "KE = GMm/2r and PE = −GMm/r, so total energy = −GMm/2r, equal in magnitude to the KE.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-158",
@@ -3308,7 +3912,10 @@
    "explanation": "Inside a uniform Earth, g decreases linearly with depth.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-159",
@@ -3329,7 +3936,11 @@
    "explanation": "This is Hooke's law: stress ∝ strain.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-160",
@@ -3350,7 +3961,11 @@
    "explanation": "Bulk modulus = pressure change / fractional change in volume.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-161",
@@ -3371,7 +3986,11 @@
    "explanation": "B = ΔP/(ΔV/V) = 10⁷/10⁻⁴ = 10¹¹ Pa.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-162",
@@ -3392,7 +4011,11 @@
    "explanation": "Steel has Young's modulus of about 2 × 10¹¹ Pa, much larger than lead, rubber or aluminium.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-163",
@@ -3413,7 +4036,11 @@
    "explanation": "Energy = ½ × (YA/L) × (ΔL)², which is proportional to the square of the extension, so it becomes 4 times.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-164",
@@ -3434,7 +4061,11 @@
    "explanation": "Extension ΔL = FL/(AY) is proportional to the length, so the shorter wire stretches by x/2.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-165",
@@ -3454,7 +4085,10 @@
    "explanation": "Beyond the elastic limit a material no longer fully recovers its original dimensions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-166",
@@ -3475,7 +4109,11 @@
    "explanation": "This is Archimedes' principle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-167",
@@ -3496,7 +4134,11 @@
    "explanation": "Surface tension is force per unit length, so its unit is N m⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-168",
@@ -3517,7 +4159,11 @@
    "explanation": "P = ρgh = 800 × 10 × 5 = 40000 Pa.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-169",
@@ -3538,7 +4184,11 @@
    "explanation": "Buoyant force = apparent loss of weight = 5 − 3 = 2 N.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-170",
@@ -3559,7 +4209,11 @@
    "explanation": "Bernoulli: ΔP = ½ρ(v₂² − v₁²) = ½ × 1000 × (36 − 4) = 16000 Pa.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-171",
@@ -3580,7 +4234,11 @@
    "explanation": "v_t ∝ r², so doubling r gives 4 times the terminal velocity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-172",
@@ -3600,7 +4258,10 @@
    "explanation": "Applying Bernoulli's principle between the surface and the hole gives v = √(2gh).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-173",
@@ -3620,7 +4281,10 @@
    "explanation": "The pressure below the roof is greater than the pressure above it, producing upward lift.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-174",
@@ -3641,7 +4305,11 @@
    "explanation": "Water has a very high specific heat, about 4200 J kg⁻¹ K⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-175",
@@ -3662,7 +4330,11 @@
    "explanation": "Radiation does not need a material medium, so it can travel through space.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-176",
@@ -3683,7 +4355,11 @@
    "explanation": "t = T − 273 = 300 − 273 = 27 °C.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-177",
@@ -3704,7 +4380,11 @@
    "explanation": "Q = mcΔT = 0.2 × 4200 × 50 = 42000 J.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-178",
@@ -3725,7 +4405,11 @@
    "explanation": "H = kAΔT/L = 400 × 10⁻⁴ × 100 / 1 = 4 W.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-179",
@@ -3746,7 +4430,11 @@
    "explanation": "Cooling the water to 0 °C releases 400 × 20 = 8000 cal, which exactly melts 100 g of ice (100 × 80 = 8000 cal).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-180",
@@ -3766,7 +4454,10 @@
    "explanation": "The sensation of cold depends on the rate of heat loss from the skin, not just on temperature.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-181",
@@ -3787,7 +4478,11 @@
    "explanation": "If two bodies are each in thermal equilibrium with a third, they are in equilibrium with each other, which defines temperature.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-182",
@@ -3808,7 +4503,11 @@
    "explanation": "In an isochoric (constant-volume) process ΔV = 0, so W = PΔV = 0.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-183",
@@ -3829,7 +4528,11 @@
    "explanation": "COP = T_cold/(T_hot − T_cold) = 270/30 = 9.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-184",
@@ -3850,7 +4553,11 @@
    "explanation": "Work = 800 − 600 = 200 J; efficiency = 200/800 = 25%.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-185",
@@ -3871,7 +4578,11 @@
    "explanation": "W = nRT ln(V₂/V₁) = 8.31 × 300 × 0.693 ≈ 1728 J ≈ 1.73 kJ.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-186",
@@ -3892,7 +4603,11 @@
    "explanation": "Mayer's relation: Cp − Cv = R.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-187",
@@ -3912,7 +4627,10 @@
    "explanation": "Some heat must always be rejected to a colder sink.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-188",
@@ -3933,7 +4651,11 @@
    "explanation": "This is Boyle's law: PV = constant at constant temperature.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-189",
@@ -3954,7 +4676,11 @@
    "explanation": "V/T = constant at constant pressure, with T in kelvin.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-190",
@@ -3975,7 +4701,11 @@
    "explanation": "The molar volume of an ideal gas at STP is 22.4 litres.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-191",
@@ -3996,7 +4726,11 @@
    "explanation": "P = ⅓ × 1.2 × 250000 = 100000 Pa.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-192",
@@ -4017,7 +4751,11 @@
    "explanation": "A rigid diatomic molecule has 5 degrees of freedom, each contributing ½RT per mole.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-193",
@@ -4038,7 +4776,11 @@
    "explanation": "Average translational KE = (3/2)k_BT depends only on temperature, not on the type of gas.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-194",
@@ -4058,7 +4800,10 @@
    "explanation": "Average translational KE per molecule is (3/2)k_BT = 6.21 × 10⁻²¹ J.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-195",
@@ -4079,7 +4824,11 @@
    "explanation": "At the mean position displacement and acceleration are zero, speed and kinetic energy are maximum.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-196",
@@ -4100,7 +4849,11 @@
    "explanation": "ω = 2π/T, measured in radians per second.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-197",
@@ -4121,7 +4874,11 @@
    "explanation": "ω = 20π rad s⁻¹, so f = ω/2π = 10 Hz.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-198",
@@ -4142,7 +4899,11 @@
    "explanation": "T = 2π√(m/k) does not depend on g, so it is unchanged.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "disagree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-199",
@@ -4163,7 +4924,11 @@
    "explanation": "PE = E(x/A)² = E/4, so KE = E − E/4 = 3E/4.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-200",
@@ -4184,7 +4949,11 @@
    "explanation": "Parallel springs have effective constant 2k, so T = 2π√(m/2k), which is 1/√2 of the single-spring period.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-201",
@@ -4204,7 +4973,10 @@
    "explanation": "Because T depends on the square root of l, the percentage change is halved. A clock with such a pendulum would run fast.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-202",
@@ -4225,7 +4997,11 @@
    "explanation": "Solids are the most rigid, so sound travels fastest in them.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-203",
@@ -4246,7 +5022,11 @@
    "explanation": "This is the Doppler effect: an approaching source gives a higher apparent frequency.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-204",
@@ -4267,7 +5047,11 @@
    "explanation": "λ = v/f = 340/170 = 2 m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-205",
@@ -4288,7 +5072,11 @@
    "explanation": "Adjacent nodes are separated by λ/2 = 0.3 m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-206",
@@ -4309,7 +5097,11 @@
    "explanation": "v = √(T/μ), so four times the tension doubles the speed.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-207",
@@ -4330,7 +5122,11 @@
    "explanation": "For an open pipe f = v/2L = 340/(2 × 0.5) = 340 Hz.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-208",
@@ -4350,7 +5146,10 @@
    "explanation": "The wave speed on a stretched string is √(T/μ) = 20 m s⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-209",
@@ -4371,7 +5170,11 @@
    "explanation": "Frequency is the number of cycles per unit time, so its dimensions are T⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-210",
@@ -4392,7 +5195,11 @@
    "explanation": "The seven SI base quantities are length, mass, time, electric current, temperature, amount of substance and luminous intensity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-211",
@@ -4413,7 +5220,11 @@
    "explanation": "Leading zeros are not significant; the digits 2, 5 and the trailing 0 are, giving 3.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-212",
@@ -4434,7 +5245,11 @@
    "explanation": "In addition the answer keeps as many decimal places as the least precise number (3.4 has one), so 6.075 is rounded to 6.1 m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-213",
@@ -4455,7 +5270,11 @@
    "explanation": "h = E/ν = ML²T⁻² / T⁻¹ = ML²T⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-214",
@@ -4476,7 +5295,11 @@
    "explanation": "Error = 1% (mass) + 2 × 1% (radius squared) + 1% (length) = 4%.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-215",
@@ -4496,7 +5319,10 @@
    "explanation": "All terms on both sides have the same dimensions, L.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-216",
@@ -4516,7 +5342,10 @@
    "explanation": "The correct expression is KE = ½mv²; the check only catches errors in dimensions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-217",
@@ -4537,7 +5366,11 @@
    "explanation": "Instantaneous speed is the magnitude of the instantaneous velocity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-218",
@@ -4558,7 +5391,11 @@
    "explanation": "A constant v means zero acceleration, i.e. uniform velocity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-219",
@@ -4579,7 +5416,11 @@
    "explanation": "s = ut + ½at² = 15 + ½ × 4 × 9 = 33 m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-220",
@@ -4600,7 +5441,11 @@
    "explanation": "s = v²/(2a) = 900/10 = 90 m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-221",
@@ -4621,7 +5466,11 @@
    "explanation": "First 4 s: ½ × 4 × 8 = 16 m (area of triangle); next 6 s: 8 × 6 = 48 m; total 64 m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-222",
@@ -4642,7 +5491,11 @@
    "explanation": "Separation = ½g[t² − (t − 1)²] = ½g(2t − 1), which grows with t.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-223",
@@ -4662,7 +5515,10 @@
    "explanation": "With uniform acceleration the distance equals average velocity times time.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-224",
@@ -4682,7 +5538,10 @@
    "explanation": "The ball reaches the top at 2.5 s, so t = 1 s and t = 4 s are symmetric about that instant.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-225",
@@ -4703,7 +5562,11 @@
    "explanation": "Equal magnitudes and opposite directions cancel, giving a null vector.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-226",
@@ -4724,7 +5587,11 @@
    "explanation": "The vertical component vanishes at the top; the horizontal component remains unchanged.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-227",
@@ -4745,7 +5612,11 @@
    "explanation": "ω = 2π/T = 2π/3600 = π/1800 rad s⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-228",
@@ -4766,7 +5637,11 @@
    "explanation": "|A × B| = AB sin 90° = 3 × 4 = 12.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-229",
@@ -4787,7 +5662,11 @@
    "explanation": "R² = 10² + 10² + 2 × 10 × 10 × cos 120° = 200 − 100 = 100, so R = 10 N.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-230",
@@ -4808,7 +5687,11 @@
    "explanation": "H = u² sin²45°/2g = u²/4g and R = u²/g, so H = R/4.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-231",
@@ -4828,7 +5711,10 @@
    "explanation": "The forces are perpendicular, so Pythagoras gives the magnitude and tan⁻¹(8/6) the direction.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-232",
@@ -4848,7 +5734,10 @@
    "explanation": "The packet keeps the plane's horizontal speed while falling freely.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-233",
@@ -4869,7 +5758,11 @@
    "explanation": "From Newton's second law, if the net external force is zero the total momentum does not change.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-234",
@@ -4890,7 +5783,11 @@
    "explanation": "Rolling friction is much smaller than sliding friction, which is why wheels are used.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-235",
@@ -4911,7 +5808,11 @@
    "explanation": "W = mg = 5 × 9.8 = 49 N.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-236",
@@ -4932,7 +5833,11 @@
    "explanation": "Net force = 4 − 3 = 1 N, so a = 1/1 = 1 m s⁻².",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-237",
@@ -4953,7 +5858,11 @@
    "explanation": "mg − N = ma, so N = m(g − a) = 50 × 8 = 400 N.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-238",
@@ -4974,7 +5883,11 @@
    "explanation": "a = g sinθ = 10 × 0.5 = 5 m s⁻².",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-239",
@@ -4994,7 +5907,10 @@
    "explanation": "This is an everyday example of Newton's first law.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-240",
@@ -5014,7 +5930,10 @@
    "explanation": "The tension is the only horizontal force on the 2 kg block, so T = ma = 4 N.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-241",
@@ -5035,7 +5954,11 @@
    "explanation": "1 kWh = 1000 W × 3600 s = 3.6 × 10⁶ J.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-242",
@@ -5056,7 +5979,11 @@
    "explanation": "Work done in deforming the spring is stored as elastic potential energy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-243",
@@ -5077,7 +6004,11 @@
    "explanation": "½ × 4 × v² = 50 gives v² = 25, so v = 5 m s⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-244",
@@ -5098,7 +6029,11 @@
    "explanation": "P = Fv = 200 × 10 = 2000 W.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-245",
@@ -5119,7 +6054,11 @@
    "explanation": "W = ∫₀² 3x² dx = [x³]₀² = 8 J.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-246",
@@ -5140,7 +6079,11 @@
    "explanation": "At the top, v² = gr, so energy conservation gives mgh = mg(2r) + ½m(gr), i.e. h = 2.5r.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-247",
@@ -5160,7 +6103,10 @@
    "explanation": "Friction acts opposite to the displacement, so its work is negative.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-248",
@@ -5180,7 +6126,10 @@
    "explanation": "The work done by the resistive force equals the bullet's initial kinetic energy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-249",
@@ -5201,7 +6150,11 @@
    "explanation": "Moment of inertia measures a body's resistance to change in its rotational motion.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-250",
@@ -5222,7 +6175,11 @@
    "explanation": "τ = rF sinθ; if the line of action passes through the axis, the perpendicular distance is zero.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-251",
@@ -5243,7 +6200,11 @@
    "explanation": "120 rpm = 2 rev s⁻¹, so ω = 2 × 2π = 4π rad s⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-252",
@@ -5264,7 +6225,11 @@
    "explanation": "I = ½MR² = ½ × 2 × 0.25 = 0.25 kg m².",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-253",
@@ -5285,7 +6250,11 @@
    "explanation": "L is conserved: 4 × 5 = 8 × ω, so ω = 2.5 rad s⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-254",
@@ -5306,7 +6275,11 @@
    "explanation": "Balance of torques: 40 × 1.5 = 30 × d, so d = 2.0 m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-255",
@@ -5326,7 +6299,10 @@
    "explanation": "The equations of rotational kinematics mirror those of linear motion.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-256",
@@ -5347,7 +6323,11 @@
    "explanation": "The square of the orbital period is proportional to the cube of the semi-major axis.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-257",
@@ -5368,7 +6348,11 @@
    "explanation": "The Moon's surface gravity is roughly 1.6 m s⁻², about one-sixth of Earth's.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-258",
@@ -5389,7 +6373,11 @@
    "explanation": "g = (4/3)πGρR, so for the same density g is proportional to R, giving 2g.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-259",
@@ -5410,7 +6398,11 @@
    "explanation": "v_e = √(2GM/R) ∝ 1/√R, so halving R multiplies it by √2: 11.2 × 1.414 ≈ 15.8 km s⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-260",
@@ -5431,7 +6423,11 @@
    "explanation": "A geostationary satellite must match the Earth's rotation: same period, same direction and an equatorial orbit.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-261",
@@ -5452,7 +6448,11 @@
    "explanation": "Gravity still acts, but the astronaut and the satellite fall together, so there is no normal force between them.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-262",
@@ -5472,7 +6472,10 @@
    "explanation": "gR² = 4.01 × 10¹⁴; dividing by G gives about 6.0 × 10²⁴ kg.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-263",
@@ -5493,7 +6496,11 @@
    "explanation": "Strain is a ratio of two lengths (or volumes), so it has no dimensions or unit.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-264",
@@ -5514,7 +6521,11 @@
    "explanation": "This is the definition of elasticity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-265",
@@ -5535,7 +6546,11 @@
    "explanation": "Shear modulus = shear stress/shear strain = 10⁵/10⁻⁶ = 10¹¹ Pa.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-266",
@@ -5556,7 +6571,11 @@
    "explanation": "Stress = 50/10⁻⁶ = 5 × 10⁷ Pa; strain = 0.25 × 10⁻³; Y = 5 × 10⁷ / 2.5 × 10⁻⁴ = 2 × 10¹¹ Pa.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-267",
@@ -5577,7 +6596,11 @@
    "explanation": "F = stress × area = 5 × 10⁸ × 2 × 10⁻⁶ = 1000 N.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-268",
@@ -5598,7 +6621,11 @@
    "explanation": "The slope of a stress–strain graph is Young's modulus, so the steeper line indicates the larger modulus.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-269",
@@ -5618,7 +6645,10 @@
    "explanation": "With F, L and A equal, the wire with the smaller Young's modulus extends more.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-270",
@@ -5639,7 +6669,11 @@
    "explanation": "1 atm = 1.013 × 10⁵ Pa.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-271",
@@ -5660,7 +6694,11 @@
    "explanation": "In liquids, viscosity falls as temperature rises (in gases it rises).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-272",
@@ -5681,7 +6719,11 @@
    "explanation": "A₁v₁ = A₂v₂ gives v₂ = 4 × 3 / 2 = 6 m s⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-273",
@@ -5702,7 +6744,11 @@
    "explanation": "P = F/A = 200/0.5 = 400 Pa.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-274",
@@ -5723,7 +6769,11 @@
    "explanation": "The submerged fraction is 900/1000 = 90%, so 10% is above the surface.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-275",
@@ -5744,7 +6794,11 @@
    "explanation": "Each droplet has radius R/2, so the total area is 8 × 4π(R/2)² = 2 × 4πR².",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-276",
@@ -5764,7 +6818,10 @@
    "explanation": "Absolute pressure is atmospheric pressure plus the gauge pressure ρgh.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-277",
@@ -5784,7 +6841,10 @@
    "explanation": "Apparent weight equals true weight minus the buoyant force.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-278",
@@ -5805,7 +6865,11 @@
    "explanation": "α = ΔL/(L ΔT), so its unit is per kelvin.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-279",
@@ -5826,7 +6890,11 @@
    "explanation": "Water is densest at about 4 °C, an anomalous behaviour of water.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-280",
@@ -5847,7 +6915,11 @@
    "explanation": "c = Q/(mΔT) = 500/(0.1 × 5) = 1000 J kg⁻¹ K⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-281",
@@ -5868,7 +6940,11 @@
    "explanation": "For a solid, γ = 3α = 3 × 10⁻⁵ K⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-282",
@@ -5889,7 +6965,11 @@
    "explanation": "Wien's displacement law: λ_max T = constant, so higher T gives smaller λ_max.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-283",
@@ -5910,7 +6990,11 @@
    "explanation": "Melting needs 10 × 80 = 800 cal; warming the water by 20 °C needs 10 × 1 × 20 = 200 cal; total 1000 cal.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-284",
@@ -5930,7 +7014,10 @@
    "explanation": "Using the principle of calorimetry, the heat lost by the hot metal equals the heat gained by the water.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-285",
@@ -5951,7 +7038,11 @@
    "explanation": "Experience, expressed by the second law, shows heat flows from higher to lower temperature on its own.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-286",
@@ -5972,7 +7063,11 @@
    "explanation": "Adiabatic means Q = 0.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-287",
@@ -5993,7 +7088,11 @@
    "explanation": "ΔU = Q − W = (−100) − (−300) = +200 J.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-288",
@@ -6014,7 +7113,11 @@
    "explanation": "η = 1 − T₂/T₁ gives T₂/T₁ = 0.6, so T₁ = 300/0.6 = 500 K.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-289",
@@ -6035,7 +7138,11 @@
    "explanation": "Net work = area of the rectangle = (2 × 10⁵ Pa)(10⁻³ m³) = 200 J.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-290",
@@ -6056,7 +7163,11 @@
    "explanation": "For a monatomic gas Cp = (5/2)R, so Q = 2.5 × 8.31 × 10 ≈ 208 J.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-291",
@@ -6076,7 +7187,10 @@
    "explanation": "Internal energy change of an ideal gas depends only on ΔT: ΔU = nCvΔT.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-292",
@@ -6097,7 +7211,11 @@
    "explanation": "At low pressure the molecules are far apart and at high temperature intermolecular forces matter less.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-293",
@@ -6118,7 +7236,11 @@
    "explanation": "Molecules striking the walls transfer momentum, producing a steady average force per unit area.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-294",
@@ -6139,7 +7261,11 @@
    "explanation": "n = mass/molar mass = 88/44 = 2.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-295",
@@ -6160,7 +7286,11 @@
    "explanation": "At constant volume P/T is constant: P = 2 × 450/300 = 3 atm.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-296",
@@ -6181,7 +7311,11 @@
    "explanation": "λ = 1/(√2 π d² n), so doubling n halves λ.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-297",
@@ -6202,7 +7336,11 @@
    "explanation": "With 5 degrees of freedom, Cv = (5/2)R and Cp = (7/2)R, so γ = 7/5 = 1.4.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-298",
@@ -6222,7 +7360,10 @@
    "explanation": "3 × 8.31 × 300 = 7479; dividing by 0.028 gives 2.67 × 10⁵, whose square root is about 517.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-299",
@@ -6243,7 +7384,11 @@
    "explanation": "That is the definition of amplitude.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-300",
@@ -6264,7 +7409,11 @@
    "explanation": "If x = A sin ωt, then v = Aω cos ωt, which differs in phase by π/2.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-301",
@@ -6285,7 +7434,11 @@
    "explanation": "l = gT²/(4π²) = 9.8 × 4 / 39.5 ≈ 0.99 m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-302",
@@ -6306,7 +7459,11 @@
    "explanation": "x = 3 sin(2 × π/4) = 3 sin(π/2) = 3 m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-303",
@@ -6327,7 +7484,11 @@
    "explanation": "T = 2π√(l/g) increases when g decreases, so each tick takes longer and the clock loses time.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-304",
@@ -6348,7 +7509,11 @@
    "explanation": "At equilibrium mg = kx, so m/k = x/g; T = 2π√(x/g) = 2π√(0.1/10) = 0.63 s.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-305",
@@ -6368,7 +7533,10 @@
    "explanation": "Maximum acceleration is ω²A = 987 × 0.02 ≈ 19.7 m s⁻².",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-306",
@@ -6389,7 +7557,11 @@
    "explanation": "On a stretched string the particles vibrate perpendicular to the direction of travel.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-307",
@@ -6410,7 +7582,11 @@
    "explanation": "The net displacement is the algebraic (vector) sum of the displacements due to each wave.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-308",
@@ -6431,7 +7607,11 @@
    "explanation": "The sound travels to the cliff and back in 2 s, so the distance is 340 × 2 / 2 = 340 m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-309",
@@ -6452,7 +7632,11 @@
    "explanation": "f = v/4L = 340/(4 × 0.25) = 340 Hz.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-310",
@@ -6473,7 +7657,11 @@
    "explanation": "A closed pipe supports only odd harmonics (f, 3f, 5f, …), so the first overtone is 3f.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-311",
@@ -6494,7 +7682,11 @@
    "explanation": "f' = f × v/(v − v_s) = 500 × 340/306 ≈ 556 Hz.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-312",
@@ -6514,7 +7706,10 @@
    "explanation": "The distinction lies in the direction of particle vibration relative to the direction of wave travel.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-313",
@@ -6535,7 +7730,11 @@
    "explanation": "The ampere is the SI base unit of electric current.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-314",
@@ -6556,7 +7755,11 @@
    "explanation": "Velocity = length/time = LT⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-315",
@@ -6577,7 +7780,11 @@
    "explanation": "Momentum = mass × velocity = M × LT⁻¹ = MLT⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-316",
@@ -6598,7 +7805,11 @@
    "explanation": "Least count = pitch / number of circular divisions = 1/100 = 0.01 mm.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-317",
@@ -6619,7 +7830,11 @@
    "explanation": "Only quantities with the same dimensions can be added; torque has dimensions ML²T⁻², like energy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-318",
@@ -6640,7 +7855,11 @@
    "explanation": "Δg/g = Δl/l + 2ΔT/T = 0.1% + 2 × 1% = 2.1%.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-319",
@@ -6660,7 +7879,10 @@
    "explanation": "Multiplying km/h by 5/18 gives m s⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-320",
@@ -6680,7 +7902,10 @@
    "explanation": "The numerical factor 6π is dimensionless, so only F, r and v matter.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-321",
@@ -6701,7 +7926,11 @@
    "explanation": "Displacement is the straight-line change in position, which is zero when he ends where he began.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-322",
@@ -6722,7 +7951,11 @@
    "explanation": "Slope of v–t graph = dv/dt = acceleration.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-323",
@@ -6743,7 +7976,11 @@
    "explanation": "v = u + at = 0 + 3 × 6 = 18 m s⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-324",
@@ -6764,7 +8001,11 @@
    "explanation": "s = ½gt² = ½ × 9.8 × 4 = 19.6 m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-325",
@@ -6785,7 +8026,11 @@
    "explanation": "It rises 20 m in 2 s and falls 20 m in the next 2 s, so the distance is 40 m and the average speed is 40/4 = 10 m s⁻¹ (average velocity is zero).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-326",
@@ -6806,7 +8051,11 @@
    "explanation": "Relative speed = 50 m s⁻¹, so time = 500/50 = 10 s.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-327",
@@ -6826,7 +8075,10 @@
    "explanation": "Free fall from rest: h = ½gt² and v = gt.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-328",
@@ -6846,7 +8098,10 @@
    "explanation": "The car moves at constant speed during the reaction time and then decelerates uniformly.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-329",
@@ -6867,7 +8122,11 @@
    "explanation": "Centripetal acceleration points along the radius towards the centre.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-330",
@@ -6888,7 +8147,11 @@
    "explanation": "A · B = AB cos 90° = 0.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-331",
@@ -6909,7 +8172,11 @@
    "explanation": "v_x = v cos 60° = 20 × 0.5 = 10 m s⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-332",
@@ -6930,7 +8197,11 @@
    "explanation": "T = 2πr/v = 2π × 2 / 4π = 1 s.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-333",
@@ -6951,7 +8222,11 @@
    "explanation": "Only the horizontal component remains at the top: 20 cos 60° = 10 m s⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-334",
@@ -6972,7 +8247,11 @@
    "explanation": "Relative to the man the rain has a horizontal component of 10 m s⁻¹ towards him and a vertical one of 10 m s⁻¹, so it comes from 45° ahead of him.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-335",
@@ -6992,7 +8271,10 @@
    "explanation": "At 45° the range is u²/g = 40 m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-336",
@@ -7012,7 +8294,10 @@
    "explanation": "Apply the standard formulae with sin 30° = 0.5 and sin 60° = 0.866.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-337",
@@ -7033,7 +8318,11 @@
    "explanation": "F = ma, so 1 N = 1 kg × 1 m s⁻².",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-338",
@@ -7054,7 +8343,11 @@
    "explanation": "Friction opposes the relative motion, or the tendency of relative motion, between the surfaces.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-339",
@@ -7075,7 +8368,11 @@
    "explanation": "p = mv = 2 × 5 = 10 kg m s⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-340",
@@ -7096,7 +8393,11 @@
    "explanation": "N + 20 = mg = 50, so N = 30 N.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-341",
@@ -7117,7 +8418,11 @@
    "explanation": "a = m₂g/(m₁ + m₂) = 10/5 = 2 m s⁻².",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-342",
@@ -7138,7 +8443,11 @@
    "explanation": "tanθ = v²/(rg) = 400/400 = 1, so θ = 45°.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-343",
@@ -7158,7 +8467,10 @@
    "explanation": "Use Newton's second law and then v = u + at with u = 0.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-344",
@@ -7178,7 +8490,10 @@
    "explanation": "Friction on the upper block can supply at most μmg, limiting the common acceleration to μg.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-345",
@@ -7199,7 +8514,11 @@
    "explanation": "W = Fs cosθ is zero when θ = 90°.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-346",
@@ -7220,7 +8539,11 @@
    "explanation": "Work = force × distance, so 1 J = 1 N m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-347",
@@ -7241,7 +8564,11 @@
    "explanation": "KE ∝ v², so doubling v multiplies KE by 4.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-348",
@@ -7262,7 +8589,11 @@
    "explanation": "Work = mgh = 6000 J; power = 6000/20 = 300 W.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-349",
@@ -7283,7 +8614,11 @@
    "explanation": "It falls 1 m, so v = √(2gl) = √20 ≈ 4.5 m s⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-350",
@@ -7304,7 +8639,11 @@
    "explanation": "½ × 0.5 × 16 = ½ × 200 × x², so 4 = 100x² and x = 0.2 m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-351",
@@ -7324,7 +8663,10 @@
    "explanation": "e is the ratio of the speed after to the speed before the collision.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-352",
@@ -7344,7 +8686,10 @@
    "explanation": "With zero acceleration the driving force equals the resistance, and P = Fv.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-353",
@@ -7365,7 +8710,11 @@
    "explanation": "I = Σmr², so its unit is kg m².",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-354",
@@ -7386,7 +8735,11 @@
    "explanation": "Since τ = dL/dt, L is constant when the net external torque vanishes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-355",
@@ -7407,7 +8760,11 @@
    "explanation": "I = 0.4 × 5 × 0.04 = 0.08 kg m².",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-356",
@@ -7428,7 +8785,11 @@
    "explanation": "v = ωr = 10 × 0.5 = 5 m s⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-357",
@@ -7449,7 +8810,11 @@
    "explanation": "Rotational KE = ½ × ½MR² × (v/R)² = Mv²/4; total = 3Mv²/4; the fraction is 1/3.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-358",
@@ -7470,7 +8835,12 @@
    "explanation": "Taking torques about the hinge: F × 4 = 100 × 2, so F = 50 N.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "unsure",
+    "checkerAnswer": "B",
+    "note": "Unsure."
+   }
   },
   {
    "id": "physics-c11-359",
@@ -7490,7 +8860,10 @@
    "explanation": "For circular motion, L = mvr.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-360",
@@ -7511,7 +8884,11 @@
    "explanation": "Near the Earth's surface g ≈ 9.8 m s⁻².",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-361",
@@ -7532,7 +8909,11 @@
    "explanation": "Isaac Newton stated that every particle attracts every other with a force proportional to the product of the masses and inversely proportional to the square of the distance.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-362",
@@ -7553,7 +8934,11 @@
    "explanation": "F ∝ 1/r², so doubling r divides F by 4.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-363",
@@ -7574,7 +8959,11 @@
    "explanation": "The distance from the centre is 3R, so g' = g R²/(3R)² = g/9.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-364",
@@ -7595,7 +8984,11 @@
    "explanation": "KE = GMm/2r and |PE| = GMm/r, so the ratio is 1/2.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-365",
@@ -7616,7 +9009,11 @@
    "explanation": "T = 2π√(R/g) = 2π√(6.4 × 10⁶/10) ≈ 5030 s ≈ 84 minutes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-366",
@@ -7636,7 +9033,10 @@
    "explanation": "Mass is the same everywhere; only the weight changes with local g.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-367",
@@ -7657,7 +9057,11 @@
    "explanation": "Stress is proportional to strain only within the elastic limit.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-368",
@@ -7678,7 +9082,11 @@
    "explanation": "This ratio is Young's modulus.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-369",
@@ -7699,7 +9107,11 @@
    "explanation": "Stress = 100/(2 × 10⁻⁴ m²) = 5 × 10⁵ Pa.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-370",
@@ -7720,7 +9132,11 @@
    "explanation": "Y = stress/strain = 4 × 10⁸/0.002 = 2 × 10¹¹ Pa.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-371",
@@ -7741,7 +9157,11 @@
    "explanation": "k = (2 × 10¹¹ × 10⁻⁶)/2 = 1 × 10⁵ N m⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-372",
@@ -7762,7 +9182,11 @@
    "explanation": "k = YA/L, so halving L doubles k.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-373",
@@ -7782,7 +9206,10 @@
    "explanation": "A larger Young's modulus means less extension for the same stress.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-374",
@@ -7803,7 +9230,11 @@
    "explanation": "Bernoulli's equation is an expression of energy conservation for a flowing ideal fluid.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-375",
@@ -7824,7 +9255,11 @@
    "explanation": "In steady flow every fluid particle passing a given point has the same velocity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-376",
@@ -7845,7 +9280,11 @@
    "explanation": "Buoyant force = ρVg = 1000 × 2 × 10⁻³ × 10 = 20 N.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-377",
@@ -7866,7 +9305,11 @@
    "explanation": "F₁ = F₂ × (A₁/A₂) = 1000 × 10/1000 = 10 N.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-378",
@@ -7887,7 +9330,11 @@
    "explanation": "Flow rate ∝ r⁴, so 2⁴ = 16 times.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-379",
@@ -7908,7 +9355,11 @@
    "explanation": "h = 2S cosθ/(rρg) ∝ 1/r, so halving r doubles h.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-380",
@@ -7928,7 +9379,10 @@
    "explanation": "Minimising surface energy leads to a spherical shape.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-381",
@@ -7948,7 +9402,10 @@
    "explanation": "The flow rate Av is the same in every section.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-382",
@@ -7969,7 +9426,11 @@
    "explanation": "c = Q/(mΔT), with unit J kg⁻¹ K⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-383",
@@ -7990,7 +9451,11 @@
    "explanation": "A perfect black body absorbs all incident radiation (and is also the best emitter).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-384",
@@ -8011,7 +9476,11 @@
    "explanation": "C = (F − 32) × 5/9 = 66.6 × 5/9 = 37 °C.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-385",
@@ -8032,7 +9501,11 @@
    "explanation": "Q = mL = 2 × 3.36 × 10⁵ = 6.72 × 10⁵ J.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-386",
@@ -8053,7 +9526,11 @@
    "explanation": "The metal that expands more becomes longer, so it lies on the outside of the curve.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-387",
@@ -8074,7 +9551,11 @@
    "explanation": "Equal heat flow: 2k(100 − T) = k(T − 0), so 200 = 3T and T = 66.7 °C.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-388",
@@ -8094,7 +9575,10 @@
    "explanation": "Energy supplied by the heater equals the heat absorbed by the water.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-389",
@@ -8115,7 +9599,11 @@
    "explanation": "'Isobaric' means constant pressure.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-390",
@@ -8136,7 +9624,11 @@
    "explanation": "An ideal gas has no intermolecular potential energy, so U depends only on T.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-391",
@@ -8157,7 +9649,11 @@
    "explanation": "η = 1 − 400/500 = 0.2 = 20%.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-392",
@@ -8178,7 +9674,11 @@
    "explanation": "|W| = PΔV = 10⁵ × 2 × 10⁻³ = 200 J; since the volume decreases, the work is done on the gas.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-393",
@@ -8199,7 +9699,11 @@
    "explanation": "PV^γ is constant, so P₂/P₁ = (V₁/V₂)^γ = 2^1.4 ≈ 2.64.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-394",
@@ -8220,7 +9724,11 @@
    "explanation": "Heat absorbed = 600/0.3 = 2000 J; heat rejected = 2000 − 600 = 1400 J.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-395",
@@ -8240,7 +9748,10 @@
    "explanation": "Heat supplied is shared between raising internal energy and doing work.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-396",
@@ -8261,7 +9772,11 @@
    "explanation": "KE ∝ T, so it would vanish at T = 0.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-397",
@@ -8282,7 +9797,11 @@
    "explanation": "R ≈ 8.31 J mol⁻¹ K⁻¹ (while 1.38 × 10⁻²³ J K⁻¹ is the Boltzmann constant).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-398",
@@ -8303,7 +9822,11 @@
    "explanation": "2 g of H₂ is one mole, which contains 6.022 × 10²³ molecules.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-399",
@@ -8324,7 +9847,11 @@
    "explanation": "By Boyle's law PV is constant, so halving V doubles P.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-400",
@@ -8345,7 +9872,11 @@
    "explanation": "Partial pressure = mole fraction × total pressure = (2/5) × 5 = 2 atm.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-401",
@@ -8366,7 +9897,11 @@
    "explanation": "v_rms ∝ √T, so the ratio is √(400/100) = 2.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-402",
@@ -8386,7 +9921,10 @@
    "explanation": "Divide Avogadro's number by the molar volume in litres.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-403",
@@ -8407,7 +9945,11 @@
    "explanation": "In SHM the restoring force is proportional to displacement and opposite to it.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-404",
@@ -8428,7 +9970,11 @@
    "explanation": "T = 2π√(l/g) depends on l and g only.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-405",
@@ -8449,7 +9995,11 @@
    "explanation": "In one oscillation it covers 4 amplitudes: 4 × 5 = 20 cm.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-406",
@@ -8470,7 +10020,11 @@
    "explanation": "U = ½kx² = ½ × 50 × 0.04 = 1 J.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-407",
@@ -8491,7 +10045,11 @@
    "explanation": "v = ω√(A² − x²) = 2 × √(0.25 − 0.09) = 2 × 0.4 = 0.8 m s⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-408",
@@ -8512,7 +10070,11 @@
    "explanation": "T ∝ √l, so T₁ : T₂ = √1 : √4 = 1 : 2.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-409",
@@ -8532,7 +10094,10 @@
    "explanation": "The energy of an oscillator is proportional to the square of its amplitude, so energy loss reduces the amplitude.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-410",
@@ -8553,7 +10118,11 @@
    "explanation": "Frequency is measured in hertz (1 Hz = 1 s⁻¹).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-411",
@@ -8574,7 +10143,11 @@
    "explanation": "Humans typically hear from about 20 Hz to 20 kHz.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-412",
@@ -8595,7 +10168,11 @@
    "explanation": "λ = 2π/k = 2π/(π/2) = 4 m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-413",
@@ -8616,7 +10193,11 @@
    "explanation": "v ∝ √T, so quadrupling T doubles v.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-414",
@@ -8637,7 +10218,11 @@
    "explanation": "Maximum amplitude = 4, minimum = 2; intensity ∝ amplitude², so the ratio is 16 : 4 = 4 : 1.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-415",
@@ -8658,7 +10243,11 @@
    "explanation": "Fundamental f₁ = v/2L = 120/1.2 = 100 Hz; the third harmonic is 3 × 100 = 300 Hz.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-416",
@@ -8678,7 +10267,10 @@
    "explanation": "The pulse travels to the sea bed and back, so the depth is half the total path.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-417",
@@ -8699,7 +10291,11 @@
    "explanation": "The kelvin (K) is the SI base unit of thermodynamic temperature.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-418",
@@ -8720,7 +10316,11 @@
    "explanation": "The dyne is the CGS unit of force (g cm s⁻²).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-419",
@@ -8741,7 +10341,11 @@
    "explanation": "1 N = 1 kg m s⁻² = 1000 g × 100 cm s⁻² = 10⁵ dyne.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-420",
@@ -8762,7 +10366,11 @@
    "explanation": "Zeros between non-zero digits and trailing zeros after a decimal point are significant, so all 5 digits count.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-421",
@@ -8783,7 +10391,11 @@
    "explanation": "Average velocity = displacement divided by the time taken.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-422",
@@ -8804,7 +10416,11 @@
    "explanation": "Gravity always pulls towards the centre of the Earth, whatever the direction of motion.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-423",
@@ -8825,7 +10441,11 @@
    "explanation": "v = u − gt = 15 − 10 = 5 m s⁻¹, still upward.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-424",
@@ -8846,7 +10466,11 @@
    "explanation": "Distance in 3 s = ½ × 2 × 9 = 9 m; in 2 s = 4 m; so the 3rd second covers 5 m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-425",
@@ -8867,7 +10491,11 @@
    "explanation": "A · B = AB cosθ is a number with no direction.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-426",
@@ -8888,7 +10516,11 @@
    "explanation": "By the right-hand rule, A × B is perpendicular to both A and B.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-427",
@@ -8909,7 +10541,11 @@
    "explanation": "|A| = √(36 + 64) = 10.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-428",
@@ -8930,7 +10566,11 @@
    "explanation": "ω = 2π/T = 2π/0.5 = 4π rad s⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-429",
@@ -8951,7 +10591,11 @@
    "explanation": "t = u sinθ/g = 30 × 0.5/10 = 1.5 s.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-430",
@@ -8972,7 +10616,11 @@
    "explanation": "The net force equals the rate of change of momentum.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-431",
@@ -8993,7 +10641,11 @@
    "explanation": "Limiting static friction is slightly larger than kinetic friction, and rolling friction is far smaller.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-432",
@@ -9014,7 +10666,11 @@
    "explanation": "Net force = 18 N, so a = 18/3 = 6 m s⁻².",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-433",
@@ -9035,7 +10691,11 @@
    "explanation": "At rest, T = mg = 10 × 10 = 100 N.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-434",
@@ -9056,7 +10716,11 @@
    "explanation": "T − mg = ma, so T = 500 × (10 + 1) = 5500 N.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-435",
@@ -9077,7 +10741,11 @@
    "explanation": "P = W/t.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-436",
@@ -9098,7 +10766,11 @@
    "explanation": "That is the definition of kinetic energy, ½mv².",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-437",
@@ -9119,7 +10791,11 @@
    "explanation": "KE = loss of PE = mgh = 3 × 10 × 5 = 150 J.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-438",
@@ -9140,7 +10816,11 @@
    "explanation": "W = ½kx² = ½ × 100 × 0.04 = 2 J.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-439",
@@ -9161,7 +10841,11 @@
    "explanation": "Δp = 0.1 × 10 − (−0.1 × 10) = 2 kg m s⁻¹, even though the kinetic energy does not change.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-440",
@@ -9182,7 +10866,11 @@
    "explanation": "Angular velocity is the angle turned per unit time, in rad s⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-441",
@@ -9203,7 +10891,11 @@
    "explanation": "The large moment of inertia keeps the rotation smooth by opposing speed fluctuations.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-442",
@@ -9224,7 +10916,11 @@
    "explanation": "x_cm = (1 × 0 + 2 × 1 + 3 × 2)/6 = 8/6 ≈ 1.33 m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-443",
@@ -9245,7 +10941,11 @@
    "explanation": "τ = Iα = 2 × 3 = 6 N m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-444",
@@ -9266,7 +10966,11 @@
    "explanation": "I_ring = MR² and I_disc = ½MR², giving a ratio 2 : 1.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-445",
@@ -9287,7 +10991,11 @@
    "explanation": "Both masses are 30 cm from the pivot, so their torques balance only if the masses are equal.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-446",
@@ -9307,7 +11015,10 @@
    "explanation": "For a ring all the mass is at distance R from the axis.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-447",
@@ -9328,7 +11039,11 @@
    "explanation": "v = √(GM/r) depends on the planet's mass M and the orbital radius r, not on the satellite's mass.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-448",
@@ -9349,7 +11064,11 @@
    "explanation": "Planets move in elliptical orbits with the Sun at one of the foci.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-449",
@@ -9370,7 +11089,11 @@
    "explanation": "The Earth is slightly flattened and rotates, so g is greatest at the poles and least at the equator.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-450",
@@ -9391,7 +11114,11 @@
    "explanation": "W = mg = 10 × 2.5 = 25 N.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-451",
@@ -9412,7 +11139,11 @@
    "explanation": "v ∝ 1/√r, so v_A/v_B = √(2r/r) = √2.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-452",
@@ -9433,7 +11164,11 @@
    "explanation": "v_e = √(2GM/R) does not depend on the mass of the projectile.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-453",
@@ -9453,7 +11188,10 @@
    "explanation": "With T in years and r in Earth–Sun distances, T² = r³.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-454",
@@ -9474,7 +11212,11 @@
    "explanation": "Stress is force per unit area, measured in N m⁻² or pascal.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-455",
@@ -9495,7 +11237,11 @@
    "explanation": "Shear stress changes the shape of a body without changing its volume.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-456",
@@ -9516,7 +11262,11 @@
    "explanation": "Stress = 200 N / 10⁻⁶ m² = 2 × 10⁸ Pa.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-457",
@@ -9537,7 +11287,11 @@
    "explanation": "Compressibility = 1/B = 1/(5 × 10⁹) = 2 × 10⁻¹⁰ Pa⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-458",
@@ -9558,7 +11312,11 @@
    "explanation": "U = ½ F Δl = ½ × 100 × 10⁻³ = 0.05 J.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-459",
@@ -9579,7 +11337,11 @@
    "explanation": "Extension ∝ L/r², so the factor is 2/4 = 1/2, giving x/2.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-460",
@@ -9599,7 +11361,10 @@
    "explanation": "Extension is FL/(AY) with the cross-sectional area found from the diameter.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-461",
@@ -9620,7 +11385,11 @@
    "explanation": "Viscosity is the internal friction of a fluid.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-462",
@@ -9641,7 +11410,11 @@
    "explanation": "Water wets glass, so the angle of contact is small and acute.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-463",
@@ -9662,7 +11435,11 @@
    "explanation": "P = ρgh = 13600 × 9.8 × 0.76 ≈ 1.01 × 10⁵ Pa.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-464",
@@ -9683,7 +11460,11 @@
    "explanation": "F = 2Sl = 2 × 0.03 × 0.05 = 3 × 10⁻³ N.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-465",
@@ -9704,7 +11485,11 @@
    "explanation": "ΔP = ½ρ(v₁² − v₂²) = 0.6 × (2500 − 1600) = 540 Pa.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-466",
@@ -9725,7 +11510,11 @@
    "explanation": "100 °C + 273 = 373 K.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-467",
@@ -9746,7 +11535,11 @@
    "explanation": "Latent heat per unit mass is L = Q/m, with unit J kg⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-468",
@@ -9767,7 +11560,11 @@
    "explanation": "Q = mcΔT = 0.5 × 400 × 20 = 4000 J.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-469",
@@ -9788,7 +11585,11 @@
    "explanation": "ΔL = αLΔT = 2 × 10⁻⁵ × 2 × 100 = 4 × 10⁻³ m = 4 mm.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-470",
@@ -9809,7 +11610,11 @@
    "explanation": "P = σAT⁴ = 5.67 × 10⁻⁸ × (4π × 0.01) × 10¹² ≈ 7.1 × 10³ W.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-471",
@@ -9830,7 +11635,11 @@
    "explanation": "The hole expands as if it were made of the same metal, so its diameter increases.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-472",
@@ -9850,7 +11659,10 @@
    "explanation": "Condensation releases the same latent heat that vaporisation absorbs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-473",
@@ -9871,7 +11683,11 @@
    "explanation": "Internal energy depends only on the state of the system; heat and work depend on the process.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-474",
@@ -9892,7 +11708,11 @@
    "explanation": "The Kelvin–Planck statement rules out a cyclic engine with 100% conversion of heat to work.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-475",
@@ -9913,7 +11733,11 @@
    "explanation": "ΔU = 0 for an isothermal process, so Q = W; since W is negative (work done on the gas), Q is negative: heat is released.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-476",
@@ -9934,7 +11758,11 @@
    "explanation": "Q = nCvΔT = 2 × 12.5 × 10 = 250 J (no work is done at constant volume).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-477",
@@ -9955,7 +11783,11 @@
    "explanation": "COP = Q_cold/W, so W = 1000/5 = 200 J.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-478",
@@ -9976,7 +11808,11 @@
    "explanation": "For an adiabatic process PV^γ = constant with γ > 1, so the curve falls more steeply than an isotherm.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-479",
@@ -9996,7 +11832,10 @@
    "explanation": "The heat not converted into work raises the internal energy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-480",
@@ -10017,7 +11856,11 @@
    "explanation": "PV = nRT relates pressure, volume, temperature and amount of gas.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-481",
@@ -10038,7 +11881,11 @@
    "explanation": "k_B = R/N_A ≈ 1.38 × 10⁻²³ J K⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-482",
@@ -10059,7 +11906,11 @@
    "explanation": "Density = 32 g / 22.4 L ≈ 1.43 g L⁻¹ = 1.43 kg m⁻³.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-483",
@@ -10080,7 +11931,11 @@
    "explanation": "Average KE = (3/2)k_BT is proportional to T, so it doubles.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-484",
@@ -10101,7 +11956,11 @@
    "explanation": "Cv = (3/2)R = 1.5 × 8.31 ≈ 12.5 J mol⁻¹ K⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-485",
@@ -10122,7 +11981,11 @@
    "explanation": "v_rms ∝ 1/√M, so the ratio is √(2/4) = 1/√2.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-486",
@@ -10142,7 +12005,10 @@
    "explanation": "Divide the number of molecules by Avogadro's number.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-487",
@@ -10163,7 +12029,11 @@
    "explanation": "T = 1/f = 1/50 = 0.02 s.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-488",
@@ -10184,7 +12054,11 @@
    "explanation": "This is resonance.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-489",
@@ -10205,7 +12079,11 @@
    "explanation": "T² = 4π²m/k, so m = kT²/(4π²) = 40π²/(4π²) = 10 kg.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-490",
@@ -10226,7 +12104,11 @@
    "explanation": "At t = 0 the particle is at the extreme position x = A, where speed and KE are zero and PE is maximum.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-491",
@@ -10247,7 +12129,11 @@
    "explanation": "x = A sin ωt gives sin ωt = 0.5, so ωt = π/6 and t = T/12 = 1/3 s.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-492",
@@ -10268,7 +12154,11 @@
    "explanation": "The effective gravity becomes g + a, which is larger, so T = 2π√(l/g_eff) decreases.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-493",
@@ -10288,7 +12178,10 @@
    "explanation": "Rearranging T = 2π√(m/k) gives k = 4π²m/T².",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "physics-c11-494",
@@ -10309,7 +12202,11 @@
    "explanation": "Waves carry energy and momentum from place to place without bulk transport of the medium.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-495",
@@ -10330,7 +12227,11 @@
    "explanation": "Ultrasound lies above the audible range, i.e. above about 20 kHz.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-496",
@@ -10351,7 +12252,11 @@
    "explanation": "ω = 4π rad s⁻¹, so f = ω/2π = 2 Hz.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "physics-c11-497",
@@ -10372,7 +12277,11 @@
    "explanation": "f = v/2L = 200/2 = 100 Hz.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "physics-c11-498",
@@ -10393,7 +12302,11 @@
    "explanation": "Open pipe: f = v/2L; closed pipe: f = v/4L, so the open pipe's frequency is double.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "physics-c11-499",
@@ -10414,7 +12327,11 @@
    "explanation": "f' = f(v + v_o)/v = 340 × 357/340 = 357 Hz.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "physics-c11-500",
@@ -10434,7 +12351,10 @@
    "explanation": "Use v = fλ, then time = distance/speed.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   }
  ]
 }

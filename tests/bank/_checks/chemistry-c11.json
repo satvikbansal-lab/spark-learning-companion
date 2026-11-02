@@ -1,0 +1,2006 @@
+{
+ "model": "claude-haiku",
+ "answers": [
+  {
+   "id": "chemistry-c11-001",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-002",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-003",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-004",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-005",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-006",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-007",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-008",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-009",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-010",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-011",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-012",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-013",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-014",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-015",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-016",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-017",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-018",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-019",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-020",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-021",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-022",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-023",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-024",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-025",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-026",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-027",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-028",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-029",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-030",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-031",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-032",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-033",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-034",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-035",
+   "verdict": "incorrect",
+   "note": "Bond order formula and value 3 are right, but the keyPoints say N2 has 10 bonding and 4 antibonding electrons. Correct counts are 8 bonding and 2 antibonding (bond order (8-2)/2 = 3)."
+  },
+  {
+   "id": "chemistry-c11-036",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-037",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-038",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-039",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-040",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-041",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-042",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-043",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-044",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-045",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-046",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-047",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-048",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-049",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-050",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-051",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-052",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-053",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-054",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-055",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-056",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-057",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-058",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-059",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-060",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-061",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-062",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-063",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-064",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-065",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-066",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-067",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-068",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-069",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-070",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-071",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-072",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-073",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-074",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-075",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-076",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-077",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-078",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-079",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-080",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-081",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-082",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-083",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-084",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-085",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-086",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-087",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-088",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-089",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-090",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-091",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-092",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-093",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-094",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-095",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-096",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-097",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-098",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-099",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-100",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-101",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-102",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-103",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-104",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-105",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-106",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-107",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-108",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-109",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-110",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-111",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-112",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-113",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-114",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-115",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-116",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-117",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-118",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-119",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-120",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-121",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-122",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-123",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-124",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-125",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-126",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-127",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-128",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-129",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-130",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-131",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-132",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-133",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-134",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-135",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-136",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-137",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-138",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-139",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-140",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-141",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-142",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-143",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-144",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-145",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-146",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-147",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-148",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-149",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-150",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-151",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-152",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-153",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-154",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-155",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-156",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-157",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-158",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-159",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-160",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-161",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-162",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-163",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-164",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-165",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-166",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-167",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-168",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-169",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-170",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-171",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-172",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-173",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-174",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-175",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-176",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-177",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-178",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-179",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-180",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-181",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-182",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-183",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-184",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-185",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-186",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-187",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-188",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-189",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-190",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-191",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-192",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-193",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-194",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-195",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-196",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-197",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-198",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-199",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-200",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-201",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-202",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-203",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-204",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-205",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-206",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-207",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-208",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-209",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-210",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-211",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-212",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-213",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-214",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-215",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-216",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-217",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-218",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-219",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-220",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-221",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-222",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-223",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-224",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-225",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-226",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-227",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-228",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-229",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-230",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-231",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-232",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-233",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-234",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-235",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-236",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-237",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-238",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-239",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-240",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-241",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-242",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-243",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-244",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-245",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-246",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-247",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-248",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-249",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-250",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-251",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-252",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-253",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-254",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-255",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-256",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-257",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-258",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-259",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-260",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-261",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-262",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-263",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-264",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-265",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-266",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-267",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-268",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-269",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-270",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-271",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-272",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-273",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-274",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-275",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-276",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-277",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-278",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-279",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-280",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-281",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-282",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-283",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-284",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-285",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-286",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-287",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-288",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-289",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-290",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-291",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-292",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-293",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-294",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-295",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-296",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-297",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-298",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-299",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-300",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-301",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-302",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-303",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-304",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-305",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-306",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-307",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-308",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-309",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-310",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-311",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-312",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-313",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-314",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-315",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-316",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-317",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-318",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-319",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-320",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-321",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-322",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-323",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-324",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-325",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-326",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-327",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-328",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-329",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-330",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-331",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-332",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-333",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-334",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-335",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-336",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-337",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-338",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-339",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-340",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-341",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-342",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-343",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-344",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-345",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-346",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-347",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-348",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-349",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-350",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-351",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-352",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-353",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-354",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-355",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-356",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-357",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-358",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-359",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-360",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-361",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-362",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-363",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-364",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-365",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-366",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-367",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-368",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-369",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-370",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-371",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-372",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-373",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-374",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-375",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-376",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-377",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-378",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-379",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-380",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-381",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-382",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-383",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-384",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-385",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-386",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-387",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-388",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-389",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-390",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-391",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-392",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-393",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-394",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-395",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-396",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-397",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-398",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-399",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-400",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-401",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-402",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-403",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-404",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-405",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-406",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-407",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-408",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-409",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-410",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-411",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-412",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-413",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-414",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-415",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-416",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-417",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-418",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-419",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-420",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-421",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-422",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-423",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-424",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-425",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-426",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-427",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-428",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-429",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-430",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-431",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-432",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-433",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-434",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-435",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-436",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-437",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-438",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-439",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-440",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-441",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-442",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-443",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-444",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-445",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-446",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-447",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-448",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-449",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-450",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-451",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-452",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-453",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-454",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-455",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-456",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-457",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-458",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-459",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-460",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-461",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-462",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-463",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-464",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-465",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-466",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-467",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-468",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-469",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-470",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-471",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-472",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-473",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-474",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-475",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-476",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-477",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-478",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-479",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-480",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-481",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-482",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-483",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-484",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-485",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-486",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-487",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-488",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-489",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-490",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-491",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-492",
+   "verdict": "correct"
+  },
+  {
+   "id": "chemistry-c11-493",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-494",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-495",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-496",
+   "answer": "C"
+  },
+  {
+   "id": "chemistry-c11-497",
+   "answer": "D"
+  },
+  {
+   "id": "chemistry-c11-498",
+   "answer": "B"
+  },
+  {
+   "id": "chemistry-c11-499",
+   "answer": "A"
+  },
+  {
+   "id": "chemistry-c11-500",
+   "verdict": "correct"
+  }
+ ]
+}
