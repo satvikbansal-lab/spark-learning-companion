@@ -1,0 +1,5506 @@
+{
+ "class": 11,
+ "subject": "physics",
+ "items": [
+  {
+   "id": "physics-c11-001",
+   "type": "mcq",
+   "q": "What is the SI unit of pressure?",
+   "options": [
+    "newton",
+    "pascal",
+    "joule",
+    "watt"
+   ]
+  },
+  {
+   "id": "physics-c11-002",
+   "type": "mcq",
+   "q": "What is the dimensional formula of work (or energy)?",
+   "options": [
+    "MLT⁻²",
+    "ML²T⁻¹",
+    "ML⁻¹T⁻²",
+    "ML²T⁻²"
+   ]
+  },
+  {
+   "id": "physics-c11-003",
+   "type": "mcq",
+   "q": "How many significant figures are there in the measurement 6.020 × 10³ kg?",
+   "options": [
+    "4",
+    "3",
+    "2",
+    "5"
+   ]
+  },
+  {
+   "id": "physics-c11-004",
+   "type": "mcq",
+   "q": "The radius of a sphere is measured with a possible error of 2%. What is the possible percentage error in its calculated volume?",
+   "options": [
+    "2%",
+    "4%",
+    "6%",
+    "8%"
+   ]
+  },
+  {
+   "id": "physics-c11-005",
+   "type": "mcq",
+   "q": "From Newton's law of gravitation F = G m₁m₂ / r², what is the dimensional formula of the gravitational constant G?",
+   "options": [
+    "M⁻¹L²T⁻²",
+    "M⁻¹L³T⁻²",
+    "ML³T⁻²",
+    "M⁻¹L³T⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-006",
+   "type": "mcq",
+   "q": "Which pair of physical quantities has the same dimensions?",
+   "options": [
+    "Force and momentum",
+    "Pressure and energy",
+    "Power and work",
+    "Torque and energy"
+   ]
+  },
+  {
+   "id": "physics-c11-007",
+   "type": "short",
+   "q": "What is a light year? Is it a unit of time or of distance?",
+   "proposedAnswer": "A light year is a unit of distance: the distance travelled by light in vacuum in one year, about 9.46 × 10¹⁵ m.",
+   "keyPoints": [
+    "It is a unit of distance, not time",
+    "Distance travelled by light in vacuum in one year",
+    "Approximately 9.46 × 10¹⁵ m"
+   ]
+  },
+  {
+   "id": "physics-c11-008",
+   "type": "short",
+   "q": "A resistance is found from R = V/I, with V = (100 ± 5) V and I = (10 ± 0.2) A. Find the maximum percentage error in R.",
+   "proposedAnswer": "7%",
+   "keyPoints": [
+    "Percentage error in V = 5%",
+    "Percentage error in I = 0.2/10 × 100 = 2%",
+    "For a quotient, add percentage errors: 5% + 2% = 7%"
+   ]
+  },
+  {
+   "id": "physics-c11-009",
+   "type": "mcq",
+   "q": "In a position–time graph, what does the slope of the graph give?",
+   "options": [
+    "Velocity",
+    "Acceleration",
+    "Displacement",
+    "Jerk"
+   ]
+  },
+  {
+   "id": "physics-c11-010",
+   "type": "mcq",
+   "q": "The area under a velocity–time graph between two instants gives",
+   "options": [
+    "acceleration",
+    "speed only",
+    "displacement",
+    "force"
+   ]
+  },
+  {
+   "id": "physics-c11-011",
+   "type": "mcq",
+   "q": "A car starts from rest and moves with a uniform acceleration of 2 m s⁻² for 5 s. What distance does it cover in this time?",
+   "options": [
+    "10 m",
+    "20 m",
+    "50 m",
+    "25 m"
+   ]
+  },
+  {
+   "id": "physics-c11-012",
+   "type": "mcq",
+   "q": "A ball is thrown vertically upward with a speed of 20 m s⁻¹. Taking g = 10 m s⁻² and ignoring air resistance, what maximum height does it reach?",
+   "options": [
+    "10 m",
+    "20 m",
+    "40 m",
+    "200 m"
+   ]
+  },
+  {
+   "id": "physics-c11-013",
+   "type": "mcq",
+   "q": "A body falls freely from rest. What is the ratio of the distances covered in the 1st, 2nd and 3rd seconds?",
+   "options": [
+    "1 : 3 : 5",
+    "1 : 2 : 3",
+    "1 : 4 : 9",
+    "1 : 1 : 1"
+   ]
+  },
+  {
+   "id": "physics-c11-014",
+   "type": "mcq",
+   "q": "A stone dropped from the top of a tower reaches the ground after 4 s. Taking g = 10 m s⁻², what distance does it cover in the last second of its fall?",
+   "options": [
+    "20 m",
+    "30 m",
+    "35 m",
+    "45 m"
+   ]
+  },
+  {
+   "id": "physics-c11-015",
+   "type": "short",
+   "q": "A car travelling at 72 km/h is brought to rest by uniform braking in 5 s. Find the deceleration and the stopping distance.",
+   "proposedAnswer": "Deceleration = 4 m s⁻²; stopping distance = 50 m.",
+   "keyPoints": [
+    "72 km/h = 20 m s⁻¹",
+    "a = (0 − 20)/5 = −4 m s⁻²",
+    "s = (u + v)t/2 = 20 × 5/2 = 50 m"
+   ]
+  },
+  {
+   "id": "physics-c11-016",
+   "type": "short",
+   "q": "A ball is thrown vertically upward at 30 m s⁻¹ (g = 10 m s⁻²). Find the time of flight until it returns to the thrower's hand and the maximum height reached.",
+   "proposedAnswer": "Time of flight = 6 s; maximum height = 45 m.",
+   "keyPoints": [
+    "Time to top = u/g = 3 s",
+    "Total time = 2 × 3 = 6 s",
+    "Maximum height = u²/2g = 900/20 = 45 m"
+   ]
+  },
+  {
+   "id": "physics-c11-017",
+   "type": "mcq",
+   "q": "Which of the following is a vector quantity?",
+   "options": [
+    "Speed",
+    "Distance",
+    "Mass",
+    "Displacement"
+   ]
+  },
+  {
+   "id": "physics-c11-018",
+   "type": "mcq",
+   "q": "For a given speed of projection (no air resistance, level ground), the horizontal range of a projectile is maximum when the angle of projection is",
+   "options": [
+    "30°",
+    "45°",
+    "60°",
+    "90°"
+   ]
+  },
+  {
+   "id": "physics-c11-019",
+   "type": "mcq",
+   "q": "What is the magnitude of the resultant of two perpendicular forces of 3 N and 4 N?",
+   "options": [
+    "5 N",
+    "7 N",
+    "1 N",
+    "12 N"
+   ]
+  },
+  {
+   "id": "physics-c11-020",
+   "type": "mcq",
+   "q": "A projectile is launched at 20 m s⁻¹ at 30° above the horizontal. Taking g = 10 m s⁻², what is its time of flight on level ground?",
+   "options": [
+    "1 s",
+    "1.5 s",
+    "2 s",
+    "4 s"
+   ]
+  },
+  {
+   "id": "physics-c11-021",
+   "type": "mcq",
+   "q": "A projectile fired at 15° to the horizontal has the same horizontal range as another projectile fired with the same speed at which angle?",
+   "options": [
+    "30°",
+    "75°",
+    "60°",
+    "45°"
+   ]
+  },
+  {
+   "id": "physics-c11-022",
+   "type": "mcq",
+   "q": "A stone tied to a string is whirled in a horizontal circle at constant speed. If the string suddenly breaks, in what direction does the stone initially move (ignoring gravity for the moment of release)?",
+   "options": [
+    "Radially outward",
+    "Radially inward",
+    "Along a spiral",
+    "Along the tangent to the circle at that point"
+   ]
+  },
+  {
+   "id": "physics-c11-023",
+   "type": "short",
+   "q": "A body moves in a circle of radius 0.5 m with a constant speed of 5 m s⁻¹. Find its centripetal acceleration.",
+   "proposedAnswer": "50 m s⁻² directed towards the centre.",
+   "keyPoints": [
+    "a = v²/r",
+    "a = 25/0.5",
+    "= 50 m s⁻² towards the centre"
+   ]
+  },
+  {
+   "id": "physics-c11-024",
+   "type": "short",
+   "q": "A ball is thrown horizontally at 15 m s⁻¹ from the top of an 80 m high cliff. Taking g = 10 m s⁻², find the time taken to reach the ground and the horizontal distance covered.",
+   "proposedAnswer": "Time = 4 s; horizontal distance = 60 m.",
+   "keyPoints": [
+    "Vertical motion: 80 = ½ × 10 × t², so t = 4 s",
+    "Horizontal speed stays 15 m s⁻¹",
+    "Range = 15 × 4 = 60 m"
+   ]
+  },
+  {
+   "id": "physics-c11-025",
+   "type": "mcq",
+   "q": "Which physical quantity is a measure of the inertia of a body?",
+   "options": [
+    "Velocity",
+    "Force",
+    "Mass",
+    "Acceleration"
+   ]
+  },
+  {
+   "id": "physics-c11-026",
+   "type": "mcq",
+   "q": "Newton's first law of motion gives the concept of",
+   "options": [
+    "inertia",
+    "momentum conservation",
+    "gravitation",
+    "work"
+   ]
+  },
+  {
+   "id": "physics-c11-027",
+   "type": "mcq",
+   "q": "A net force of 20 N acts on a 5 kg block. What is the acceleration of the block?",
+   "options": [
+    "0.25 m s⁻²",
+    "1 m s⁻²",
+    "100 m s⁻²",
+    "4 m s⁻²"
+   ]
+  },
+  {
+   "id": "physics-c11-028",
+   "type": "mcq",
+   "q": "A 10 kg block rests on a horizontal surface with coefficient of static friction 0.4. Taking g = 10 m s⁻², what is the maximum static friction force?",
+   "options": [
+    "4 N",
+    "40 N",
+    "25 N",
+    "400 N"
+   ]
+  },
+  {
+   "id": "physics-c11-029",
+   "type": "mcq",
+   "q": "A 60 kg person stands on a weighing scale in a lift that accelerates upward at 2 m s⁻². Taking g = 10 m s⁻², what does the scale read (as a force)?",
+   "options": [
+    "720 N",
+    "600 N",
+    "480 N",
+    "120 N"
+   ]
+  },
+  {
+   "id": "physics-c11-030",
+   "type": "mcq",
+   "q": "Blocks of 2 kg and 3 kg touch each other on a smooth horizontal table. A horizontal force of 10 N pushes the 2 kg block towards the 3 kg block. What force does the 2 kg block exert on the 3 kg block?",
+   "options": [
+    "4 N",
+    "5 N",
+    "6 N",
+    "10 N"
+   ]
+  },
+  {
+   "id": "physics-c11-031",
+   "type": "short",
+   "q": "A bullet of mass 20 g is fired at 300 m s⁻¹ from a gun of mass 4 kg. Find the recoil speed of the gun.",
+   "proposedAnswer": "1.5 m s⁻¹",
+   "keyPoints": [
+    "Total momentum before firing is zero",
+    "0.02 × 300 = 4 × V",
+    "V = 6/4 = 1.5 m s⁻¹, opposite to the bullet"
+   ]
+  },
+  {
+   "id": "physics-c11-032",
+   "type": "short",
+   "q": "A block just begins to slide on a rough plane when the plane is tilted to 30° with the horizontal. Find the coefficient of static friction.",
+   "proposedAnswer": "μ = tan 30° ≈ 0.58",
+   "keyPoints": [
+    "At the point of sliding, mg sinθ = μ mg cosθ",
+    "So μ = tanθ",
+    "tan 30° ≈ 0.58"
+   ]
+  },
+  {
+   "id": "physics-c11-033",
+   "type": "mcq",
+   "q": "What is the SI unit of power?",
+   "options": [
+    "Joule",
+    "Newton",
+    "Pascal",
+    "Watt"
+   ]
+  },
+  {
+   "id": "physics-c11-034",
+   "type": "mcq",
+   "q": "In uniform circular motion, the work done by the centripetal force is",
+   "options": [
+    "positive",
+    "zero",
+    "negative",
+    "infinite"
+   ]
+  },
+  {
+   "id": "physics-c11-035",
+   "type": "mcq",
+   "q": "What is the kinetic energy of a 2 kg body moving at 3 m s⁻¹?",
+   "options": [
+    "3 J",
+    "6 J",
+    "9 J",
+    "18 J"
+   ]
+  },
+  {
+   "id": "physics-c11-036",
+   "type": "mcq",
+   "q": "A force of 10 N moves a body through 5 m. The force makes an angle of 60° with the displacement. How much work does the force do?",
+   "options": [
+    "25 J",
+    "50 J",
+    "43.3 J",
+    "12.5 J"
+   ]
+  },
+  {
+   "id": "physics-c11-037",
+   "type": "mcq",
+   "q": "The momentum of a body is increased by 100%. By what percentage does its kinetic energy increase?",
+   "options": [
+    "100%",
+    "300%",
+    "200%",
+    "400%"
+   ]
+  },
+  {
+   "id": "physics-c11-038",
+   "type": "mcq",
+   "q": "A pump raises 100 kg of water through a height of 20 m in 10 s. Taking g = 10 m s⁻², what is the power delivered to the water?",
+   "options": [
+    "200 W",
+    "1000 W",
+    "1500 W",
+    "2000 W"
+   ]
+  },
+  {
+   "id": "physics-c11-039",
+   "type": "short",
+   "q": "A spring of force constant 200 N m⁻¹ is compressed by 0.1 m. Find the elastic potential energy stored.",
+   "proposedAnswer": "1 J",
+   "keyPoints": [
+    "U = ½kx²",
+    "U = ½ × 200 × (0.1)²",
+    "= 1 J"
+   ]
+  },
+  {
+   "id": "physics-c11-040",
+   "type": "short",
+   "q": "A ball is dropped from a height of 10 m. Using energy conservation and g = 10 m s⁻², find its speed just before it hits the ground (ignore air resistance).",
+   "proposedAnswer": "About 14.1 m s⁻¹ (√200 m s⁻¹).",
+   "keyPoints": [
+    "Loss of PE = gain of KE: mgh = ½mv²",
+    "v = √(2gh) = √(2 × 10 × 10) = √200",
+    "v ≈ 14.1 m s⁻¹, independent of mass"
+   ]
+  },
+  {
+   "id": "physics-c11-041",
+   "type": "mcq",
+   "q": "Which of the following is the SI unit of torque?",
+   "options": [
+    "N m",
+    "N m⁻¹",
+    "N s",
+    "J s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-042",
+   "type": "mcq",
+   "q": "The moment of inertia of a rigid body depends on",
+   "options": [
+    "only its angular velocity",
+    "only its total mass",
+    "its mass distribution and the position of the axis",
+    "only the torque applied"
+   ]
+  },
+  {
+   "id": "physics-c11-043",
+   "type": "mcq",
+   "q": "What is the moment of inertia of a thin ring of mass M and radius R about an axis through its centre perpendicular to its plane?",
+   "options": [
+    "½MR²",
+    "MR²",
+    "⅖MR²",
+    "⅔MR²"
+   ]
+  },
+  {
+   "id": "physics-c11-044",
+   "type": "mcq",
+   "q": "A force of 10 N acts at a perpendicular distance of 0.3 m from an axis. What is the torque about the axis?",
+   "options": [
+    "0.3 N m",
+    "13 N m",
+    "30 N m",
+    "3 N m"
+   ]
+  },
+  {
+   "id": "physics-c11-045",
+   "type": "mcq",
+   "q": "A spinning skater pulls her arms in. Her angular momentum is conserved. What happens to her rotational kinetic energy?",
+   "options": [
+    "It increases",
+    "It decreases",
+    "It stays the same",
+    "It becomes zero"
+   ]
+  },
+  {
+   "id": "physics-c11-046",
+   "type": "mcq",
+   "q": "A solid disc and a ring of the same mass and radius roll without slipping from rest down the same incline. Which reaches the bottom first?",
+   "options": [
+    "The ring",
+    "Both together",
+    "The solid disc",
+    "It depends on the mass"
+   ]
+  },
+  {
+   "id": "physics-c11-047",
+   "type": "short",
+   "q": "A wheel of moment of inertia 0.5 kg m² rotates at 20 rad s⁻¹. Find its angular momentum and rotational kinetic energy.",
+   "proposedAnswer": "L = 10 kg m² s⁻¹; KE = 100 J.",
+   "keyPoints": [
+    "L = Iω = 0.5 × 20 = 10 kg m² s⁻¹",
+    "KE = ½Iω² = ½ × 0.5 × 400",
+    "= 100 J"
+   ]
+  },
+  {
+   "id": "physics-c11-048",
+   "type": "mcq",
+   "q": "Which scientist gave the three laws of planetary motion?",
+   "options": [
+    "Newton",
+    "Galileo",
+    "Cavendish",
+    "Kepler"
+   ]
+  },
+  {
+   "id": "physics-c11-049",
+   "type": "mcq",
+   "q": "Kepler's second law (equal areas swept in equal times) is a consequence of conservation of",
+   "options": [
+    "linear momentum",
+    "angular momentum",
+    "energy",
+    "charge"
+   ]
+  },
+  {
+   "id": "physics-c11-050",
+   "type": "mcq",
+   "q": "At a height equal to the radius of the Earth above its surface, the acceleration due to gravity is",
+   "options": [
+    "g/4",
+    "g/2",
+    "g/9",
+    "2g"
+   ]
+  },
+  {
+   "id": "physics-c11-051",
+   "type": "mcq",
+   "q": "The escape speed from the Earth's surface compared with the orbital speed of a satellite just above the surface is",
+   "options": [
+    "the same",
+    "2 times as large",
+    "√2 times as large",
+    "half as large"
+   ]
+  },
+  {
+   "id": "physics-c11-052",
+   "type": "mcq",
+   "q": "Assuming the Earth to be a uniform sphere, what is the weight of a body of mass m at the centre of the Earth?",
+   "options": [
+    "mg",
+    "mg/2",
+    "2mg",
+    "Zero"
+   ]
+  },
+  {
+   "id": "physics-c11-053",
+   "type": "mcq",
+   "q": "A satellite is moved from an orbit of radius r to one of radius 4r around the same planet. By what factor does its time period change?",
+   "options": [
+    "4 times",
+    "8 times",
+    "16 times",
+    "2 times"
+   ]
+  },
+  {
+   "id": "physics-c11-054",
+   "type": "short",
+   "q": "A planet has twice the mass and twice the radius of the Earth. Find its surface gravity in terms of the Earth's g.",
+   "proposedAnswer": "g/2 (about 4.9 m s⁻²)",
+   "keyPoints": [
+    "g = GM/R²",
+    "g' = G(2M)/(2R)² = (2/4) GM/R²",
+    "g' = g/2"
+   ]
+  },
+  {
+   "id": "physics-c11-055",
+   "type": "mcq",
+   "q": "Stress is defined as",
+   "options": [
+    "extension per unit length",
+    "force × area",
+    "restoring force per unit area",
+    "force per unit volume"
+   ]
+  },
+  {
+   "id": "physics-c11-056",
+   "type": "mcq",
+   "q": "What is the SI unit of Young's modulus?",
+   "options": [
+    "Pascal",
+    "Newton",
+    "It has no unit",
+    "Joule"
+   ]
+  },
+  {
+   "id": "physics-c11-057",
+   "type": "mcq",
+   "q": "A wire of original length 2 m stretches by 1 mm under a load. What is the longitudinal strain?",
+   "options": [
+    "2 × 10⁻³",
+    "1 × 10⁻³",
+    "5 × 10⁻³",
+    "5 × 10⁻⁴"
+   ]
+  },
+  {
+   "id": "physics-c11-058",
+   "type": "mcq",
+   "q": "A wire of cross-section 1 mm² and Young's modulus 2 × 10¹¹ Pa carries a tensile force of 100 N. What is the strain produced?",
+   "options": [
+    "2 × 10⁻⁴",
+    "5 × 10⁻⁴",
+    "5 × 10⁻³",
+    "2 × 10⁻³"
+   ]
+  },
+  {
+   "id": "physics-c11-059",
+   "type": "mcq",
+   "q": "Two wires of the same material and length have radii r and 2r. The same load is hung from each. What is the ratio of the extension of the thinner wire to that of the thicker wire?",
+   "options": [
+    "1 : 2",
+    "2 : 1",
+    "4 : 1",
+    "1 : 4"
+   ]
+  },
+  {
+   "id": "physics-c11-060",
+   "type": "mcq",
+   "q": "The elastic potential energy stored per unit volume in a stretched wire is",
+   "options": [
+    "½ × stress × strain",
+    "stress × strain",
+    "stress / strain",
+    "½ × stress / strain"
+   ]
+  },
+  {
+   "id": "physics-c11-061",
+   "type": "short",
+   "q": "A steel wire of length 3 m and cross-section 2 × 10⁻⁶ m² carries a load of 40 N. Young's modulus of steel is 2 × 10¹¹ N m⁻². Find the extension.",
+   "proposedAnswer": "3 × 10⁻⁴ m (0.3 mm)",
+   "keyPoints": [
+    "ΔL = FL/(AY)",
+    "ΔL = (40 × 3)/(2 × 10⁻⁶ × 2 × 10¹¹)",
+    "= 120 / (4 × 10⁵) = 3 × 10⁻⁴ m"
+   ]
+  },
+  {
+   "id": "physics-c11-062",
+   "type": "mcq",
+   "q": "A hydraulic lift works on the principle of",
+   "options": [
+    "Bernoulli's principle",
+    "Pascal's law",
+    "Archimedes' principle",
+    "Stokes' law"
+   ]
+  },
+  {
+   "id": "physics-c11-063",
+   "type": "mcq",
+   "q": "What is the SI unit of the coefficient of viscosity?",
+   "options": [
+    "N m⁻²",
+    "N s",
+    "kg m⁻³",
+    "Pa s"
+   ]
+  },
+  {
+   "id": "physics-c11-064",
+   "type": "mcq",
+   "q": "Taking g = 10 m s⁻² and density of water 1000 kg m⁻³, what is the gauge pressure at a depth of 10 m in water?",
+   "options": [
+    "1 × 10⁵ Pa",
+    "1 × 10⁴ Pa",
+    "1 × 10⁶ Pa",
+    "1 × 10³ Pa"
+   ]
+  },
+  {
+   "id": "physics-c11-065",
+   "type": "mcq",
+   "q": "In a hydraulic lift the large piston has 50 times the area of the small piston. A force of 100 N is applied to the small piston. What force acts on the large piston?",
+   "options": [
+    "500 N",
+    "2500 N",
+    "5000 N",
+    "50 N"
+   ]
+  },
+  {
+   "id": "physics-c11-066",
+   "type": "mcq",
+   "q": "A block of density 600 kg m⁻³ floats in water of density 1000 kg m⁻³. What fraction of its volume is submerged?",
+   "options": [
+    "40%",
+    "60%",
+    "50%",
+    "100%"
+   ]
+  },
+  {
+   "id": "physics-c11-067",
+   "type": "mcq",
+   "q": "Water flows steadily through a horizontal pipe whose radius is reduced to half. How does the flow speed in the narrow part compare with that in the wide part?",
+   "options": [
+    "2 times",
+    "The same",
+    "8 times",
+    "4 times"
+   ]
+  },
+  {
+   "id": "physics-c11-068",
+   "type": "short",
+   "q": "Find the excess pressure inside a soap bubble of radius 2 cm if the surface tension of the soap solution is 0.03 N m⁻¹.",
+   "proposedAnswer": "6 Pa",
+   "keyPoints": [
+    "A soap bubble has two surfaces, so ΔP = 4S/r",
+    "ΔP = 4 × 0.03 / 0.02",
+    "= 6 Pa"
+   ]
+  },
+  {
+   "id": "physics-c11-069",
+   "type": "short",
+   "q": "Water (surface tension 0.07 N m⁻¹, density 1000 kg m⁻³, contact angle 0°) rises in a capillary tube of radius 0.5 mm. Taking g = 10 m s⁻², find the height of the rise.",
+   "proposedAnswer": "2.8 cm",
+   "keyPoints": [
+    "h = 2S cosθ / (rρg)",
+    "h = 2 × 0.07 / (5 × 10⁻⁴ × 1000 × 10)",
+    "= 0.14/5 = 0.028 m = 2.8 cm"
+   ]
+  },
+  {
+   "id": "physics-c11-070",
+   "type": "mcq",
+   "q": "Absolute zero on the Celsius scale is approximately",
+   "options": [
+    "−273.15 °C",
+    "−100 °C",
+    "0 °C",
+    "−373 °C"
+   ]
+  },
+  {
+   "id": "physics-c11-071",
+   "type": "mcq",
+   "q": "While ice melts at 0 °C, the heat supplied",
+   "options": [
+    "raises its temperature",
+    "is lost to the surroundings only",
+    "changes its state without changing its temperature",
+    "decreases its mass"
+   ]
+  },
+  {
+   "id": "physics-c11-072",
+   "type": "mcq",
+   "q": "How much heat is needed to raise the temperature of 2 kg of water by 10 °C? (Specific heat of water = 4200 J kg⁻¹ K⁻¹.)",
+   "options": [
+    "8400 J",
+    "84000 J",
+    "42000 J",
+    "840 J"
+   ]
+  },
+  {
+   "id": "physics-c11-073",
+   "type": "mcq",
+   "q": "A 100 m long steel rail has α = 1.2 × 10⁻⁵ K⁻¹. By how much does it expand when its temperature rises by 50 °C?",
+   "options": [
+    "0.6 m",
+    "0.006 m",
+    "0.12 m",
+    "0.06 m"
+   ]
+  },
+  {
+   "id": "physics-c11-074",
+   "type": "mcq",
+   "q": "100 g of water at 80 °C is mixed with 100 g of water at 20 °C in an insulated container. What is the final temperature?",
+   "options": [
+    "50 °C",
+    "60 °C",
+    "40 °C",
+    "100 °C"
+   ]
+  },
+  {
+   "id": "physics-c11-075",
+   "type": "mcq",
+   "q": "According to Stefan–Boltzmann law, the power radiated by a black body is proportional to T⁴. If its absolute temperature is doubled, the power radiated becomes",
+   "options": [
+    "2 times",
+    "8 times",
+    "16 times",
+    "4 times"
+   ]
+  },
+  {
+   "id": "physics-c11-076",
+   "type": "short",
+   "q": "How much heat is needed to melt 0.5 kg of ice at 0 °C? The latent heat of fusion of ice is 3.36 × 10⁵ J kg⁻¹.",
+   "proposedAnswer": "1.68 × 10⁵ J",
+   "keyPoints": [
+    "Q = mL",
+    "Q = 0.5 × 3.36 × 10⁵",
+    "= 1.68 × 10⁵ J"
+   ]
+  },
+  {
+   "id": "physics-c11-077",
+   "type": "mcq",
+   "q": "The first law of thermodynamics is a statement of conservation of",
+   "options": [
+    "mass",
+    "momentum",
+    "charge",
+    "energy"
+   ]
+  },
+  {
+   "id": "physics-c11-078",
+   "type": "mcq",
+   "q": "For an ideal gas undergoing an isothermal process, the change in internal energy is",
+   "options": [
+    "positive",
+    "zero",
+    "negative",
+    "infinite"
+   ]
+  },
+  {
+   "id": "physics-c11-079",
+   "type": "mcq",
+   "q": "A gas absorbs 500 J of heat and does 200 J of work on its surroundings. What is the change in its internal energy?",
+   "options": [
+    "700 J",
+    "200 J",
+    "300 J",
+    "500 J"
+   ]
+  },
+  {
+   "id": "physics-c11-080",
+   "type": "mcq",
+   "q": "What is the efficiency of a Carnot engine working between 600 K and 300 K?",
+   "options": [
+    "50%",
+    "25%",
+    "75%",
+    "100%"
+   ]
+  },
+  {
+   "id": "physics-c11-081",
+   "type": "mcq",
+   "q": "A gas at a constant pressure of 2 × 10⁵ Pa expands from 1 litre to 3 litres (1 litre = 10⁻³ m³). How much work does it do?",
+   "options": [
+    "200 J",
+    "800 J",
+    "600 J",
+    "400 J"
+   ]
+  },
+  {
+   "id": "physics-c11-082",
+   "type": "mcq",
+   "q": "An ideal gas is compressed adiabatically. What happens to its temperature?",
+   "options": [
+    "It falls",
+    "It rises",
+    "It stays the same",
+    "It becomes zero"
+   ]
+  },
+  {
+   "id": "physics-c11-083",
+   "type": "short",
+   "q": "A Carnot engine has a source at 400 K and a sink at 300 K. Find its efficiency and the work done per cycle if it absorbs 1000 J from the source.",
+   "proposedAnswer": "Efficiency 25%; work done 250 J.",
+   "keyPoints": [
+    "η = 1 − T₂/T₁ = 1 − 300/400 = 0.25",
+    "W = η × Q₁ = 0.25 × 1000",
+    "W = 250 J"
+   ]
+  },
+  {
+   "id": "physics-c11-084",
+   "type": "mcq",
+   "q": "The number of molecules in one mole of a substance is",
+   "options": [
+    "6.022 × 10²³",
+    "6.022 × 10²⁶",
+    "6.022 × 10²⁰",
+    "6.022 × 10⁻²³"
+   ]
+  },
+  {
+   "id": "physics-c11-085",
+   "type": "mcq",
+   "q": "The average translational kinetic energy of a gas molecule is directly proportional to its",
+   "options": [
+    "pressure",
+    "volume",
+    "absolute temperature",
+    "mass"
+   ]
+  },
+  {
+   "id": "physics-c11-086",
+   "type": "mcq",
+   "q": "How many degrees of freedom does a monatomic gas molecule have?",
+   "options": [
+    "1",
+    "3",
+    "5",
+    "6"
+   ]
+  },
+  {
+   "id": "physics-c11-087",
+   "type": "mcq",
+   "q": "If the absolute temperature of a gas is made four times, its rms speed becomes",
+   "options": [
+    "4 times",
+    "16 times",
+    "√2 times",
+    "2 times"
+   ]
+  },
+  {
+   "id": "physics-c11-088",
+   "type": "mcq",
+   "q": "At the same temperature, what is the ratio of the rms speed of hydrogen (molar mass 2 g/mol) to that of oxygen (molar mass 32 g/mol)?",
+   "options": [
+    "4 : 1",
+    "16 : 1",
+    "2 : 1",
+    "1 : 4"
+   ]
+  },
+  {
+   "id": "physics-c11-089",
+   "type": "mcq",
+   "q": "2 mol of an ideal gas occupy 5 litres at 300 K. Using R = 8.31 J mol⁻¹ K⁻¹, what is the approximate pressure?",
+   "options": [
+    "2 × 10⁵ Pa",
+    "5 × 10⁵ Pa",
+    "1 × 10⁶ Pa",
+    "8.3 × 10⁶ Pa"
+   ]
+  },
+  {
+   "id": "physics-c11-090",
+   "type": "short",
+   "q": "Find the total translational kinetic energy of 1 mol of an ideal gas at 300 K. (R = 8.31 J mol⁻¹ K⁻¹.)",
+   "proposedAnswer": "About 3.74 × 10³ J",
+   "keyPoints": [
+    "Energy per mole = (3/2)RT",
+    "= 1.5 × 8.31 × 300",
+    "≈ 3740 J"
+   ]
+  },
+  {
+   "id": "physics-c11-091",
+   "type": "mcq",
+   "q": "In simple harmonic motion, the acceleration of the particle is directly proportional to its",
+   "options": [
+    "velocity",
+    "displacement (and opposite in direction)",
+    "time",
+    "amplitude squared"
+   ]
+  },
+  {
+   "id": "physics-c11-092",
+   "type": "mcq",
+   "q": "The frequency f and time period T of an oscillation are related by",
+   "options": [
+    "f = T",
+    "f = T²",
+    "f = 2T",
+    "f = 1/T"
+   ]
+  },
+  {
+   "id": "physics-c11-093",
+   "type": "mcq",
+   "q": "What is the time period of a simple pendulum of length 1 m? (Take g = 9.8 m s⁻².)",
+   "options": [
+    "1 s",
+    "1.5 s",
+    "2 s",
+    "3 s"
+   ]
+  },
+  {
+   "id": "physics-c11-094",
+   "type": "mcq",
+   "q": "A 0.5 kg mass is attached to a spring of force constant 200 N m⁻¹. What is the time period of its oscillations?",
+   "options": [
+    "0.31 s",
+    "0.63 s",
+    "3.14 s",
+    "0.05 s"
+   ]
+  },
+  {
+   "id": "physics-c11-095",
+   "type": "mcq",
+   "q": "A particle executes SHM with amplitude 0.1 m and frequency 5 Hz. What is its maximum speed?",
+   "options": [
+    "0.5 m s⁻¹",
+    "3.14 m s⁻¹",
+    "31.4 m s⁻¹",
+    "1.57 m s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-096",
+   "type": "mcq",
+   "q": "The length of a simple pendulum is made four times. Its time period",
+   "options": [
+    "becomes 4 times",
+    "becomes half",
+    "remains unchanged",
+    "becomes 2 times"
+   ]
+  },
+  {
+   "id": "physics-c11-097",
+   "type": "short",
+   "q": "A 0.2 kg particle performs SHM with angular frequency 10 rad s⁻¹ and amplitude 0.05 m. Find its total mechanical energy.",
+   "proposedAnswer": "0.025 J",
+   "keyPoints": [
+    "E = ½mω²A²",
+    "E = ½ × 0.2 × 100 × 0.0025",
+    "= 0.025 J"
+   ]
+  },
+  {
+   "id": "physics-c11-098",
+   "type": "mcq",
+   "q": "Sound waves in air are",
+   "options": [
+    "transverse",
+    "electromagnetic",
+    "longitudinal",
+    "stationary only"
+   ]
+  },
+  {
+   "id": "physics-c11-099",
+   "type": "mcq",
+   "q": "The speed v, frequency f and wavelength λ of a wave are related by",
+   "options": [
+    "v = fλ",
+    "v = f/λ",
+    "v = λ/f",
+    "v = f + λ"
+   ]
+  },
+  {
+   "id": "physics-c11-100",
+   "type": "mcq",
+   "q": "A sound wave has frequency 500 Hz and wavelength 0.68 m. What is its speed?",
+   "options": [
+    "170 m s⁻¹",
+    "340 m s⁻¹",
+    "735 m s⁻¹",
+    "680 m s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-101",
+   "type": "mcq",
+   "q": "A string of length L fixed at both ends has a wave speed v. What is its fundamental frequency?",
+   "options": [
+    "v/L",
+    "2v/L",
+    "v/4L",
+    "v/2L"
+   ]
+  },
+  {
+   "id": "physics-c11-102",
+   "type": "mcq",
+   "q": "A pipe closed at one end is 0.85 m long. If the speed of sound is 340 m s⁻¹, what is its fundamental frequency?",
+   "options": [
+    "200 Hz",
+    "50 Hz",
+    "100 Hz",
+    "400 Hz"
+   ]
+  },
+  {
+   "id": "physics-c11-103",
+   "type": "mcq",
+   "q": "Two tuning forks of frequencies 256 Hz and 260 Hz are sounded together. What is the beat frequency?",
+   "options": [
+    "2 Hz",
+    "4 Hz",
+    "8 Hz",
+    "516 Hz"
+   ]
+  },
+  {
+   "id": "physics-c11-104",
+   "type": "short",
+   "q": "A travelling wave is described by y = 0.02 sin(10πt − πx) in SI units. Find its amplitude, frequency, wavelength and speed.",
+   "proposedAnswer": "Amplitude 0.02 m; frequency 5 Hz; wavelength 2 m; speed 10 m s⁻¹.",
+   "keyPoints": [
+    "Compare with y = A sin(ωt − kx): A = 0.02 m",
+    "ω = 10π gives f = ω/2π = 5 Hz; k = π gives λ = 2π/k = 2 m",
+    "v = fλ = 5 × 2 = 10 m s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-105",
+   "type": "mcq",
+   "q": "Which of the following is NOT an SI base unit?",
+   "options": [
+    "Kelvin",
+    "Ampere",
+    "Newton",
+    "Mole"
+   ]
+  },
+  {
+   "id": "physics-c11-106",
+   "type": "mcq",
+   "q": "The SI prefix 'micro' stands for a factor of",
+   "options": [
+    "10⁻⁶",
+    "10⁻³",
+    "10⁻⁹",
+    "10⁶"
+   ]
+  },
+  {
+   "id": "physics-c11-107",
+   "type": "mcq",
+   "q": "What is the dimensional formula of pressure?",
+   "options": [
+    "MLT⁻²",
+    "ML²T⁻²",
+    "ML⁻²T⁻²",
+    "ML⁻¹T⁻²"
+   ]
+  },
+  {
+   "id": "physics-c11-108",
+   "type": "mcq",
+   "q": "In a vernier callipers, 10 vernier divisions coincide with 9 main-scale divisions, and one main-scale division is 1 mm. What is the least count?",
+   "options": [
+    "0.01 mm",
+    "0.1 mm",
+    "1 mm",
+    "0.9 mm"
+   ]
+  },
+  {
+   "id": "physics-c11-109",
+   "type": "mcq",
+   "q": "Which expression for the time period of a mass m attached to a spring of force constant k is dimensionally consistent?",
+   "options": [
+    "2π√(m/k)",
+    "2π√(k/m)",
+    "2π m k",
+    "2π m/k"
+   ]
+  },
+  {
+   "id": "physics-c11-110",
+   "type": "mcq",
+   "q": "g is found from g = 4π²L/T². The length L is measured with 1% error and the time period T with 2% error. What is the maximum percentage error in g?",
+   "options": [
+    "3%",
+    "4%",
+    "5%",
+    "6%"
+   ]
+  },
+  {
+   "id": "physics-c11-111",
+   "type": "short",
+   "q": "Convert a density of 1 g cm⁻³ into kg m⁻³.",
+   "proposedAnswer": "1000 kg m⁻³",
+   "keyPoints": [
+    "1 g = 10⁻³ kg",
+    "1 cm³ = 10⁻⁶ m³",
+    "So 1 g cm⁻³ = 10⁻³/10⁻⁶ = 10³ kg m⁻³"
+   ]
+  },
+  {
+   "id": "physics-c11-112",
+   "type": "short",
+   "q": "Using dimensional analysis, show that the time period T of a simple pendulum depends on its length l and the acceleration due to gravity g as T ∝ √(l/g). Assume T depends only on l, g and mass m.",
+   "proposedAnswer": "Writing T ∝ m^a l^b g^c and equating dimensions gives a = 0, b = ½, c = −½, so T ∝ √(l/g).",
+   "keyPoints": [
+    "Write T = k m^a l^b g^c",
+    "Equate dimensions: M: a = 0; L: b + c = 0; T: −2c = 1",
+    "So c = −½, b = ½, a = 0, hence T ∝ √(l/g)"
+   ]
+  },
+  {
+   "id": "physics-c11-113",
+   "type": "mcq",
+   "q": "The rate of change of velocity of a body with time is called",
+   "options": [
+    "speed",
+    "acceleration",
+    "displacement",
+    "momentum"
+   ]
+  },
+  {
+   "id": "physics-c11-114",
+   "type": "mcq",
+   "q": "A body moving with uniform velocity has an acceleration that is",
+   "options": [
+    "constant and non-zero",
+    "increasing with time",
+    "negative",
+    "zero"
+   ]
+  },
+  {
+   "id": "physics-c11-115",
+   "type": "mcq",
+   "q": "A particle with initial speed 10 m s⁻¹ moves with a uniform acceleration of 2 m s⁻² over a distance of 24 m. What is its final speed?",
+   "options": [
+    "14 m s⁻¹",
+    "12 m s⁻¹",
+    "16 m s⁻¹",
+    "34 m s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-116",
+   "type": "mcq",
+   "q": "A car travels the first half of a journey at 40 km/h and the second half (same distance) at 60 km/h. What is its average speed for the whole journey?",
+   "options": [
+    "50 km/h",
+    "52 km/h",
+    "48 km/h",
+    "45 km/h"
+   ]
+  },
+  {
+   "id": "physics-c11-117",
+   "type": "mcq",
+   "q": "Car A moves at a constant 20 m s⁻¹. Car B starts from rest at the same place and the same instant with a constant acceleration of 2 m s⁻² in the same direction. After how long does B overtake A?",
+   "options": [
+    "10 s",
+    "20 s",
+    "40 s",
+    "5 s"
+   ]
+  },
+  {
+   "id": "physics-c11-118",
+   "type": "mcq",
+   "q": "A ball thrown vertically upward reaches its highest point. At that instant its acceleration is",
+   "options": [
+    "zero",
+    "g upward",
+    "infinite",
+    "g downward"
+   ]
+  },
+  {
+   "id": "physics-c11-119",
+   "type": "short",
+   "q": "The position of a particle is x = 3t² + 2t (x in metres, t in seconds). Find its velocity at t = 2 s and its acceleration.",
+   "proposedAnswer": "Velocity at t = 2 s is 14 m s⁻¹; acceleration is 6 m s⁻² (constant).",
+   "keyPoints": [
+    "v = dx/dt = 6t + 2",
+    "At t = 2 s, v = 14 m s⁻¹",
+    "a = dv/dt = 6 m s⁻²"
+   ]
+  },
+  {
+   "id": "physics-c11-120",
+   "type": "short",
+   "q": "A stone is thrown vertically upward at 20 m s⁻¹ from the top of a 25 m high building (g = 10 m s⁻²). Find the time it takes to reach the ground and its speed on arrival.",
+   "proposedAnswer": "Time = 5 s; speed on arrival = 30 m s⁻¹.",
+   "keyPoints": [
+    "Take up as positive: −25 = 20t − 5t²",
+    "t² − 4t − 5 = 0 gives t = 5 s",
+    "v = 20 − 10 × 5 = −30, so speed 30 m s⁻¹ downward"
+   ]
+  },
+  {
+   "id": "physics-c11-121",
+   "type": "mcq",
+   "q": "What is the magnitude of a unit vector?",
+   "options": [
+    "Zero",
+    "It depends on the direction",
+    "One",
+    "Infinite"
+   ]
+  },
+  {
+   "id": "physics-c11-122",
+   "type": "mcq",
+   "q": "In uniform circular motion, which of the following remains constant?",
+   "options": [
+    "Speed",
+    "Velocity",
+    "Acceleration",
+    "Momentum"
+   ]
+  },
+  {
+   "id": "physics-c11-123",
+   "type": "mcq",
+   "q": "For vectors A = 2î + 3ĵ and B = 4î − ĵ, what is the scalar product A · B?",
+   "options": [
+    "11",
+    "5",
+    "14",
+    "8"
+   ]
+  },
+  {
+   "id": "physics-c11-124",
+   "type": "mcq",
+   "q": "A projectile is launched at 20 m s⁻¹ at 30° above the horizontal. Taking g = 10 m s⁻², what maximum height does it reach?",
+   "options": [
+    "10 m",
+    "2.5 m",
+    "20 m",
+    "5 m"
+   ]
+  },
+  {
+   "id": "physics-c11-125",
+   "type": "mcq",
+   "q": "If the launch speed of a projectile is doubled while the angle of projection is kept the same, its horizontal range becomes",
+   "options": [
+    "4 times",
+    "2 times",
+    "8 times",
+    "unchanged"
+   ]
+  },
+  {
+   "id": "physics-c11-126",
+   "type": "mcq",
+   "q": "A boat can move at 5 m s⁻¹ in still water. It is steered perpendicular to the bank of a river flowing at 3 m s⁻¹. What is the boat's speed relative to the ground?",
+   "options": [
+    "8 m s⁻¹",
+    "2 m s⁻¹",
+    "5.8 m s⁻¹",
+    "4 m s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-127",
+   "type": "short",
+   "q": "Resolve a force of 50 N acting at 30° above the horizontal into horizontal and vertical components.",
+   "proposedAnswer": "Horizontal ≈ 43.3 N; vertical = 25 N.",
+   "keyPoints": [
+    "Fx = F cos 30° = 50 × 0.866",
+    "≈ 43.3 N",
+    "Fy = F sin 30° = 50 × 0.5 = 25 N"
+   ]
+  },
+  {
+   "id": "physics-c11-128",
+   "type": "short",
+   "q": "A cyclist rides at a constant speed of 10 m s⁻¹ around a circular track of radius 20 m. Find the centripetal acceleration, the angular speed and the time for one lap.",
+   "proposedAnswer": "a = 5 m s⁻²; ω = 0.5 rad s⁻¹; time for one lap = 4π s ≈ 12.6 s.",
+   "keyPoints": [
+    "a = v²/r = 100/20 = 5 m s⁻²",
+    "ω = v/r = 0.5 rad s⁻¹",
+    "T = 2π/ω = 4π ≈ 12.6 s"
+   ]
+  },
+  {
+   "id": "physics-c11-129",
+   "type": "mcq",
+   "q": "What is the SI unit of linear momentum?",
+   "options": [
+    "kg m s⁻²",
+    "N",
+    "J",
+    "kg m s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-130",
+   "type": "mcq",
+   "q": "According to Newton's third law, the action and reaction forces",
+   "options": [
+    "act on the same body",
+    "act on different bodies",
+    "cancel each other on the same body",
+    "have different magnitudes"
+   ]
+  },
+  {
+   "id": "physics-c11-131",
+   "type": "mcq",
+   "q": "A force of 50 N acts on a body for 0.2 s. What is the impulse?",
+   "options": [
+    "10 N s",
+    "250 N s",
+    "0.004 N s",
+    "50 N s"
+   ]
+  },
+  {
+   "id": "physics-c11-132",
+   "type": "mcq",
+   "q": "A 0.15 kg ball moving at 20 m s⁻¹ is stopped by a player's hand in 0.1 s. What average force does the hand exert?",
+   "options": [
+    "3 N",
+    "15 N",
+    "30 N",
+    "300 N"
+   ]
+  },
+  {
+   "id": "physics-c11-133",
+   "type": "mcq",
+   "q": "Two masses of 3 kg and 5 kg hang from the ends of a light string passing over a smooth light pulley (an Atwood machine). Taking g = 10 m s⁻², what is the acceleration of the masses?",
+   "options": [
+    "2 m s⁻²",
+    "2.5 m s⁻²",
+    "5 m s⁻²",
+    "1.25 m s⁻²"
+   ]
+  },
+  {
+   "id": "physics-c11-134",
+   "type": "mcq",
+   "q": "A 10 kg block on a rough horizontal floor is pulled by a horizontal force of 30 N. The coefficient of kinetic friction is 0.2 and g = 10 m s⁻². What is the acceleration of the block?",
+   "options": [
+    "3 m s⁻²",
+    "2 m s⁻²",
+    "0.5 m s⁻²",
+    "1 m s⁻²"
+   ]
+  },
+  {
+   "id": "physics-c11-135",
+   "type": "short",
+   "q": "A car of mass 1500 kg must accelerate at 2 m s⁻² against a constant resistive force of 500 N. What forward force must the engine supply through the wheels?",
+   "proposedAnswer": "3500 N",
+   "keyPoints": [
+    "Net force = ma = 1500 × 2 = 3000 N",
+    "Driving force − resistance = 3000 N",
+    "Driving force = 3000 + 500 = 3500 N"
+   ]
+  },
+  {
+   "id": "physics-c11-136",
+   "type": "short",
+   "q": "A car rounds a flat circular bend of radius 50 m. The coefficient of friction between the tyres and road is 0.5. Taking g = 10 m s⁻², find the maximum speed with which the car can turn without skidding.",
+   "proposedAnswer": "About 15.8 m s⁻¹ (√250 m s⁻¹, about 57 km/h).",
+   "keyPoints": [
+    "Friction provides the centripetal force: μmg = mv²/r",
+    "v = √(μrg) = √(0.5 × 50 × 10)",
+    "= √250 ≈ 15.8 m s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-137",
+   "type": "mcq",
+   "q": "According to the work–energy theorem, the net work done on a body equals the change in its",
+   "options": [
+    "potential energy",
+    "total energy",
+    "kinetic energy",
+    "momentum"
+   ]
+  },
+  {
+   "id": "physics-c11-138",
+   "type": "mcq",
+   "q": "Which of the following is a conservative force?",
+   "options": [
+    "Gravitational force",
+    "Friction",
+    "Air drag",
+    "Viscous force"
+   ]
+  },
+  {
+   "id": "physics-c11-139",
+   "type": "mcq",
+   "q": "What is the gravitational potential energy of a 5 kg body raised to a height of 4 m? (Take g = 10 m s⁻².)",
+   "options": [
+    "20 J",
+    "50 J",
+    "40 J",
+    "200 J"
+   ]
+  },
+  {
+   "id": "physics-c11-140",
+   "type": "mcq",
+   "q": "A machine of power 500 W works for 2 minutes. How much work does it do?",
+   "options": [
+    "1000 J",
+    "60000 J",
+    "250 J",
+    "6000 J"
+   ]
+  },
+  {
+   "id": "physics-c11-141",
+   "type": "mcq",
+   "q": "A ball collides head-on elastically with an identical stationary ball. What happens after the collision?",
+   "options": [
+    "The first ball stops and the second moves off with the first one's speed",
+    "Both move with half the original speed",
+    "The first ball rebounds with the original speed",
+    "Both balls stop"
+   ]
+  },
+  {
+   "id": "physics-c11-142",
+   "type": "mcq",
+   "q": "A 2 kg body moving at 6 m s⁻¹ collides with a 4 kg body at rest and they stick together. How much kinetic energy is lost?",
+   "options": [
+    "12 J",
+    "18 J",
+    "24 J",
+    "36 J"
+   ]
+  },
+  {
+   "id": "physics-c11-143",
+   "type": "short",
+   "q": "How much work does gravity do on a 2 kg ball that falls through 5 m? (g = 10 m s⁻².)",
+   "proposedAnswer": "100 J",
+   "keyPoints": [
+    "W = mgh",
+    "= 2 × 10 × 5",
+    "= 100 J (positive, since the force and displacement are in the same direction)"
+   ]
+  },
+  {
+   "id": "physics-c11-144",
+   "type": "short",
+   "q": "A 2 kg block slides from rest down a smooth incline from a vertical height of 1.8 m (g = 10 m s⁻²). Find its speed at the bottom.",
+   "proposedAnswer": "6 m s⁻¹",
+   "keyPoints": [
+    "The incline is smooth, so mechanical energy is conserved",
+    "mgh = ½mv²",
+    "v = √(2 × 10 × 1.8) = 6 m s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-145",
+   "type": "mcq",
+   "q": "Where is the centre of mass of a uniform thin rod?",
+   "options": [
+    "At one end",
+    "At its midpoint",
+    "One-third of the length from one end",
+    "One-quarter of the length from one end"
+   ]
+  },
+  {
+   "id": "physics-c11-146",
+   "type": "mcq",
+   "q": "What is the SI unit of angular momentum?",
+   "options": [
+    "kg m s⁻¹",
+    "N m",
+    "J",
+    "kg m² s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-147",
+   "type": "mcq",
+   "q": "A 1 kg mass is at x = 0 and a 3 kg mass is at x = 4 m on a line. Where is their centre of mass?",
+   "options": [
+    "x = 3 m",
+    "x = 2 m",
+    "x = 1 m",
+    "x = 2.5 m"
+   ]
+  },
+  {
+   "id": "physics-c11-148",
+   "type": "mcq",
+   "q": "A torque of 20 N m acts on a wheel of moment of inertia 5 kg m². What is its angular acceleration?",
+   "options": [
+    "0.25 rad s⁻²",
+    "100 rad s⁻²",
+    "4 rad s⁻²",
+    "15 rad s⁻²"
+   ]
+  },
+  {
+   "id": "physics-c11-149",
+   "type": "mcq",
+   "q": "The moment of inertia of a uniform rod of mass M and length L about a perpendicular axis through its centre is ML²/12. What is it about a parallel axis through one end?",
+   "options": [
+    "ML²/12",
+    "ML²/3",
+    "ML²/2",
+    "ML²"
+   ]
+  },
+  {
+   "id": "physics-c11-150",
+   "type": "mcq",
+   "q": "A solid sphere rolls without slipping on a horizontal surface. What fraction of its total kinetic energy is rotational?",
+   "options": [
+    "1/2",
+    "2/5",
+    "1/3",
+    "2/7"
+   ]
+  },
+  {
+   "id": "physics-c11-151",
+   "type": "short",
+   "q": "Why is it easier to push open a door by applying the force at the edge farthest from the hinges than near the hinges?",
+   "proposedAnswer": "The torque is force × perpendicular distance from the hinge; a larger distance gives a larger torque for the same force.",
+   "keyPoints": [
+    "Turning effect is torque τ = r F sinθ",
+    "Distance from the hinge (axis) is larger at the edge",
+    "So the same force gives a larger torque there"
+   ]
+  },
+  {
+   "id": "physics-c11-152",
+   "type": "mcq",
+   "q": "The gravitational force between two masses is",
+   "options": [
+    "always attractive",
+    "always repulsive",
+    "attractive or repulsive depending on the masses",
+    "zero in vacuum"
+   ]
+  },
+  {
+   "id": "physics-c11-153",
+   "type": "mcq",
+   "q": "What is the SI unit of the universal gravitational constant G?",
+   "options": [
+    "N m kg⁻¹",
+    "N kg² m⁻²",
+    "N m² kg⁻²",
+    "N m⁻² kg²"
+   ]
+  },
+  {
+   "id": "physics-c11-154",
+   "type": "mcq",
+   "q": "Taking G = 6.67 × 10⁻¹¹ N m² kg⁻², what is the gravitational force between two 1 kg masses 1 m apart?",
+   "options": [
+    "6.67 × 10⁻⁹ N",
+    "6.67 × 10⁻⁷ N",
+    "1 N",
+    "6.67 × 10⁻¹¹ N"
+   ]
+  },
+  {
+   "id": "physics-c11-155",
+   "type": "mcq",
+   "q": "Taking g = 10 m s⁻² and the radius of the Earth as 6400 km, what is the orbital speed of a satellite revolving just above the Earth's surface?",
+   "options": [
+    "4 km s⁻¹",
+    "8 km s⁻¹",
+    "11 km s⁻¹",
+    "16 km s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-156",
+   "type": "mcq",
+   "q": "What minimum work must be done to take a body of mass m from the Earth's surface to infinity (R = radius, g = surface gravity)?",
+   "options": [
+    "mgR/2",
+    "2mgR",
+    "mgR",
+    "Zero"
+   ]
+  },
+  {
+   "id": "physics-c11-157",
+   "type": "mcq",
+   "q": "The total mechanical energy of a satellite in a circular orbit around a planet is",
+   "options": [
+    "positive and equal to its kinetic energy",
+    "zero",
+    "negative and twice its kinetic energy in magnitude",
+    "negative and equal in magnitude to its kinetic energy"
+   ]
+  },
+  {
+   "id": "physics-c11-158",
+   "type": "short",
+   "q": "What is the acceleration due to gravity at a depth equal to half the Earth's radius below the surface, in terms of the surface value g?",
+   "proposedAnswer": "g/2",
+   "keyPoints": [
+    "g at depth d is g(1 − d/R)",
+    "d = R/2",
+    "g' = g(1 − ½) = g/2"
+   ]
+  },
+  {
+   "id": "physics-c11-159",
+   "type": "mcq",
+   "q": "Within the elastic limit, stress is directly proportional to",
+   "options": [
+    "length",
+    "strain",
+    "area",
+    "density"
+   ]
+  },
+  {
+   "id": "physics-c11-160",
+   "type": "mcq",
+   "q": "Which modulus of elasticity describes the change in volume of a body under uniform pressure?",
+   "options": [
+    "Young's modulus",
+    "Shear modulus",
+    "Modulus of rigidity",
+    "Bulk modulus"
+   ]
+  },
+  {
+   "id": "physics-c11-161",
+   "type": "mcq",
+   "q": "A pressure increase of 10⁷ Pa decreases the volume of a liquid by 0.01% (a fractional change of 10⁻⁴). What is its bulk modulus?",
+   "options": [
+    "10¹¹ Pa",
+    "10⁹ Pa",
+    "10¹³ Pa",
+    "10⁷ Pa"
+   ]
+  },
+  {
+   "id": "physics-c11-162",
+   "type": "mcq",
+   "q": "Which of these materials has the largest Young's modulus?",
+   "options": [
+    "Lead",
+    "Rubber",
+    "Steel",
+    "Aluminium"
+   ]
+  },
+  {
+   "id": "physics-c11-163",
+   "type": "mcq",
+   "q": "The extension of a wire under a load is doubled by increasing the load (within the elastic limit). How does the elastic potential energy stored in the wire change?",
+   "options": [
+    "It doubles",
+    "It becomes 8 times",
+    "It is unchanged",
+    "It becomes 4 times"
+   ]
+  },
+  {
+   "id": "physics-c11-164",
+   "type": "mcq",
+   "q": "A wire of length L stretches by x under a load F. A second wire of the same material and cross-section, with length L/2, carries the same load. What is its extension?",
+   "options": [
+    "x",
+    "x/2",
+    "2x",
+    "x/4"
+   ]
+  },
+  {
+   "id": "physics-c11-165",
+   "type": "short",
+   "q": "Distinguish between elastic and plastic behaviour of a material.",
+   "proposedAnswer": "A body is elastic if it regains its original shape and size when the deforming force is removed; if the deformation remains after the force is removed (beyond the elastic limit), the behaviour is plastic.",
+   "keyPoints": [
+    "Elastic: complete recovery when force is removed",
+    "Plastic: permanent deformation remains",
+    "The elastic limit separates the two"
+   ]
+  },
+  {
+   "id": "physics-c11-166",
+   "type": "mcq",
+   "q": "The upward buoyant force on a body immersed in a fluid equals the weight of the fluid displaced. This statement is known as",
+   "options": [
+    "Archimedes' principle",
+    "Pascal's law",
+    "Bernoulli's principle",
+    "Boyle's law"
+   ]
+  },
+  {
+   "id": "physics-c11-167",
+   "type": "mcq",
+   "q": "What is the SI unit of surface tension?",
+   "options": [
+    "N m",
+    "N m⁻²",
+    "N m⁻¹",
+    "N s"
+   ]
+  },
+  {
+   "id": "physics-c11-168",
+   "type": "mcq",
+   "q": "What is the gauge pressure at a depth of 5 m in a liquid of density 800 kg m⁻³? (Take g = 10 m s⁻².)",
+   "options": [
+    "4000 Pa",
+    "8000 Pa",
+    "400000 Pa",
+    "40000 Pa"
+   ]
+  },
+  {
+   "id": "physics-c11-169",
+   "type": "mcq",
+   "q": "A body weighs 5 N in air and 3 N when fully immersed in water. What is the buoyant force on it?",
+   "options": [
+    "8 N",
+    "2 N",
+    "3 N",
+    "15 N"
+   ]
+  },
+  {
+   "id": "physics-c11-170",
+   "type": "mcq",
+   "q": "Water flows steadily in a horizontal pipe, at 2 m s⁻¹ in the wide part and 6 m s⁻¹ in the narrow part. By how much is the pressure in the wide part higher? (Density of water = 1000 kg m⁻³.)",
+   "options": [
+    "16000 Pa",
+    "20000 Pa",
+    "4000 Pa",
+    "32000 Pa"
+   ]
+  },
+  {
+   "id": "physics-c11-171",
+   "type": "mcq",
+   "q": "The terminal velocity of a small sphere falling through a viscous liquid is proportional to the square of its radius. If the radius is doubled (same material), the terminal velocity becomes",
+   "options": [
+    "2 times",
+    "8 times",
+    "4 times",
+    "16 times"
+   ]
+  },
+  {
+   "id": "physics-c11-172",
+   "type": "short",
+   "q": "Water flows out through a small hole in the side of a tank, 5 m below the free surface. Taking g = 10 m s⁻², find the speed of efflux.",
+   "proposedAnswer": "10 m s⁻¹",
+   "keyPoints": [
+    "Torricelli's theorem: v = √(2gh)",
+    "v = √(2 × 10 × 5)",
+    "= 10 m s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-173",
+   "type": "short",
+   "q": "Explain, using Bernoulli's principle, why the roof of a house may be lifted off during a strong storm.",
+   "proposedAnswer": "Fast-moving air over the roof has lower pressure than the still air inside the house, so a net upward force acts on the roof.",
+   "keyPoints": [
+    "Air speed above the roof is high",
+    "By Bernoulli's principle, high speed means low pressure",
+    "Pressure difference between inside and outside gives a net upward force"
+   ]
+  },
+  {
+   "id": "physics-c11-174",
+   "type": "mcq",
+   "q": "Which of the following substances has the highest specific heat capacity?",
+   "options": [
+    "Iron",
+    "Copper",
+    "Aluminium",
+    "Water"
+   ]
+  },
+  {
+   "id": "physics-c11-175",
+   "type": "mcq",
+   "q": "Heat from the Sun reaches the Earth mainly by",
+   "options": [
+    "conduction",
+    "radiation",
+    "convection",
+    "evaporation"
+   ]
+  },
+  {
+   "id": "physics-c11-176",
+   "type": "mcq",
+   "q": "A temperature of 300 K corresponds to what Celsius temperature (taking 0 °C = 273 K)?",
+   "options": [
+    "27 °C",
+    "573 °C",
+    "−27 °C",
+    "300 °C"
+   ]
+  },
+  {
+   "id": "physics-c11-177",
+   "type": "mcq",
+   "q": "0.2 kg of water cools from 100 °C to 50 °C. How much heat does it lose? (c = 4200 J kg⁻¹ K⁻¹.)",
+   "options": [
+    "4200 J",
+    "84000 J",
+    "42000 J",
+    "21000 J"
+   ]
+  },
+  {
+   "id": "physics-c11-178",
+   "type": "mcq",
+   "q": "The ends of a metal rod 1 m long and 1 cm² in cross-section are held at 100 °C and 0 °C. Its thermal conductivity is 400 W m⁻¹ K⁻¹. What is the steady rate of heat flow along the rod?",
+   "options": [
+    "0.4 W",
+    "40 W",
+    "400 W",
+    "4 W"
+   ]
+  },
+  {
+   "id": "physics-c11-179",
+   "type": "mcq",
+   "q": "100 g of ice at 0 °C is added to 400 g of water at 20 °C in an insulated container. (Latent heat of fusion of ice = 80 cal g⁻¹; specific heat of water = 1 cal g⁻¹ °C⁻¹.) What is the final state?",
+   "options": [
+    "All the ice melts; mixture at 0 °C",
+    "Some ice remains; mixture at 0 °C",
+    "All the ice melts; mixture at 10 °C",
+    "No ice melts; mixture at 20 °C"
+   ]
+  },
+  {
+   "id": "physics-c11-180",
+   "type": "short",
+   "q": "Why does a metal spoon feel colder than a wooden spoon when both are at room temperature?",
+   "proposedAnswer": "Metal is a better conductor of heat, so it draws heat from the hand faster than wood, which feels colder.",
+   "keyPoints": [
+    "Both spoons are at the same temperature",
+    "Metal has high thermal conductivity",
+    "Heat leaves the hand faster into the metal"
+   ]
+  },
+  {
+   "id": "physics-c11-181",
+   "type": "mcq",
+   "q": "The zeroth law of thermodynamics leads to the concept of",
+   "options": [
+    "pressure",
+    "energy",
+    "temperature",
+    "entropy"
+   ]
+  },
+  {
+   "id": "physics-c11-182",
+   "type": "mcq",
+   "q": "In which of the following processes is the work done by the gas zero?",
+   "options": [
+    "Isochoric",
+    "Isobaric",
+    "Isothermal",
+    "Adiabatic"
+   ]
+  },
+  {
+   "id": "physics-c11-183",
+   "type": "mcq",
+   "q": "A refrigerator works between 270 K (inside) and 300 K (outside). What is its maximum coefficient of performance?",
+   "options": [
+    "0.11",
+    "1.1",
+    "10",
+    "9"
+   ]
+  },
+  {
+   "id": "physics-c11-184",
+   "type": "mcq",
+   "q": "A heat engine absorbs 800 J from the source and rejects 600 J to the sink in each cycle. What is its efficiency?",
+   "options": [
+    "75%",
+    "25%",
+    "20%",
+    "33%"
+   ]
+  },
+  {
+   "id": "physics-c11-185",
+   "type": "mcq",
+   "q": "One mole of an ideal gas at 300 K expands isothermally to double its volume. Taking R = 8.31 J mol⁻¹ K⁻¹ and ln 2 = 0.693, how much work does it do?",
+   "options": [
+    "0.83 kJ",
+    "3.46 kJ",
+    "1.73 kJ",
+    "2.49 kJ"
+   ]
+  },
+  {
+   "id": "physics-c11-186",
+   "type": "mcq",
+   "q": "For one mole of an ideal gas, the difference between the molar specific heats at constant pressure and constant volume, Cp − Cv, equals",
+   "options": [
+    "R/2",
+    "2R",
+    "zero",
+    "R"
+   ]
+  },
+  {
+   "id": "physics-c11-187",
+   "type": "short",
+   "q": "State the Kelvin–Planck statement of the second law of thermodynamics.",
+   "proposedAnswer": "It is impossible to construct a heat engine that, working in a cycle, takes heat from a single reservoir and converts it entirely into work.",
+   "keyPoints": [
+    "Heat engine operating in a cycle",
+    "Heat taken from a single reservoir",
+    "Cannot be completely converted into work (efficiency cannot be 100%)"
+   ]
+  },
+  {
+   "id": "physics-c11-188",
+   "type": "mcq",
+   "q": "At constant temperature, the pressure of a fixed mass of an ideal gas is inversely proportional to its",
+   "options": [
+    "temperature",
+    "volume",
+    "mass",
+    "number of moles per second"
+   ]
+  },
+  {
+   "id": "physics-c11-189",
+   "type": "mcq",
+   "q": "According to Charles's law, at constant pressure the volume of a fixed mass of gas is",
+   "options": [
+    "inversely proportional to its absolute temperature",
+    "proportional to the square of its temperature",
+    "independent of temperature",
+    "directly proportional to its absolute temperature"
+   ]
+  },
+  {
+   "id": "physics-c11-190",
+   "type": "mcq",
+   "q": "What is the approximate volume of one mole of an ideal gas at standard temperature and pressure (0 °C, 1 atm)?",
+   "options": [
+    "22.4 L",
+    "24 L",
+    "11.2 L",
+    "2.24 L"
+   ]
+  },
+  {
+   "id": "physics-c11-191",
+   "type": "mcq",
+   "q": "A gas has density 1.2 kg m⁻³ and rms molecular speed 500 m s⁻¹. Using P = ⅓ρv²_rms, what is its pressure?",
+   "options": [
+    "30000 Pa",
+    "50000 Pa",
+    "100000 Pa",
+    "360000 Pa"
+   ]
+  },
+  {
+   "id": "physics-c11-192",
+   "type": "mcq",
+   "q": "According to the law of equipartition of energy, what is the total internal energy of one mole of a rigid diatomic ideal gas at temperature T (translation and rotation only)?",
+   "options": [
+    "(3/2) RT",
+    "(5/2) RT",
+    "(7/2) RT",
+    "RT"
+   ]
+  },
+  {
+   "id": "physics-c11-193",
+   "type": "mcq",
+   "q": "Helium (molar mass 4 g/mol) and oxygen (molar mass 32 g/mol) are at the same temperature. What is the ratio of the average translational kinetic energy per molecule of helium to that of oxygen?",
+   "options": [
+    "8 : 1",
+    "1 : 8",
+    "1 : 1",
+    "1 : √8"
+   ]
+  },
+  {
+   "id": "physics-c11-194",
+   "type": "short",
+   "q": "Find the average translational kinetic energy of a gas molecule at 27 °C. (Boltzmann constant = 1.38 × 10⁻²³ J K⁻¹.)",
+   "proposedAnswer": "About 6.2 × 10⁻²¹ J",
+   "keyPoints": [
+    "T = 27 + 273 = 300 K",
+    "KE = (3/2)k_BT = 1.5 × 1.38 × 10⁻²³ × 300",
+    "≈ 6.21 × 10⁻²¹ J"
+   ]
+  },
+  {
+   "id": "physics-c11-195",
+   "type": "mcq",
+   "q": "At the mean position of a particle executing SHM",
+   "options": [
+    "the speed is maximum",
+    "the acceleration is maximum",
+    "the potential energy is maximum",
+    "the kinetic energy is zero"
+   ]
+  },
+  {
+   "id": "physics-c11-196",
+   "type": "mcq",
+   "q": "What is the SI unit of angular frequency ω?",
+   "options": [
+    "Hz s",
+    "m s⁻¹",
+    "rad s⁻¹",
+    "rad"
+   ]
+  },
+  {
+   "id": "physics-c11-197",
+   "type": "mcq",
+   "q": "A particle's displacement is x = 0.05 sin(20πt) metres. What is the frequency of oscillation?",
+   "options": [
+    "20 Hz",
+    "10 Hz",
+    "5 Hz",
+    "0.05 Hz"
+   ]
+  },
+  {
+   "id": "physics-c11-198",
+   "type": "mcq",
+   "q": "A mass–spring system is taken from the Earth to the Moon. Compared with the time period on Earth, the period on the Moon is",
+   "options": [
+    "longer",
+    "shorter",
+    "zero",
+    "the same"
+   ]
+  },
+  {
+   "id": "physics-c11-199",
+   "type": "mcq",
+   "q": "A particle performs SHM of amplitude A and total energy E. What is its kinetic energy when the displacement is A/2?",
+   "options": [
+    "3E/4",
+    "E/4",
+    "E/2",
+    "E"
+   ]
+  },
+  {
+   "id": "physics-c11-200",
+   "type": "mcq",
+   "q": "A mass m is attached to two identical springs, each of force constant k, connected in parallel. Compared with the time period for a single spring, the new period is",
+   "options": [
+    "2 times",
+    "√2 times",
+    "1/√2 times",
+    "1/2 times"
+   ]
+  },
+  {
+   "id": "physics-c11-201",
+   "type": "short",
+   "q": "The length of a simple pendulum is decreased by 2%. By approximately what percentage does its time period change?",
+   "proposedAnswer": "It decreases by about 1%.",
+   "keyPoints": [
+    "T ∝ √l",
+    "Fractional change in T = ½ × fractional change in l",
+    "= ½ × (−2%) = −1%"
+   ]
+  },
+  {
+   "id": "physics-c11-202",
+   "type": "mcq",
+   "q": "In which type of medium is the speed of sound generally the largest?",
+   "options": [
+    "Vacuum",
+    "Gases",
+    "Liquids",
+    "Solids"
+   ]
+  },
+  {
+   "id": "physics-c11-203",
+   "type": "mcq",
+   "q": "When a source of sound moves towards a stationary listener, the apparent frequency heard by the listener",
+   "options": [
+    "decreases",
+    "increases",
+    "stays the same",
+    "becomes zero"
+   ]
+  },
+  {
+   "id": "physics-c11-204",
+   "type": "mcq",
+   "q": "A sound wave of frequency 170 Hz travels at 340 m s⁻¹. What is its wavelength?",
+   "options": [
+    "2 m",
+    "0.5 m",
+    "5780 m",
+    "1.7 m"
+   ]
+  },
+  {
+   "id": "physics-c11-205",
+   "type": "mcq",
+   "q": "A stationary wave on a string has wavelength 0.6 m. What is the distance between two consecutive nodes?",
+   "options": [
+    "0.6 m",
+    "0.15 m",
+    "0.3 m",
+    "1.2 m"
+   ]
+  },
+  {
+   "id": "physics-c11-206",
+   "type": "mcq",
+   "q": "The tension in a stretched string is made four times, with the mass per unit length unchanged. The speed of a transverse wave on the string becomes",
+   "options": [
+    "4 times",
+    "half",
+    "unchanged",
+    "2 times"
+   ]
+  },
+  {
+   "id": "physics-c11-207",
+   "type": "mcq",
+   "q": "An open organ pipe is 0.5 m long and the speed of sound is 340 m s⁻¹. What is the fundamental frequency?",
+   "options": [
+    "170 Hz",
+    "340 Hz",
+    "680 Hz",
+    "85 Hz"
+   ]
+  },
+  {
+   "id": "physics-c11-208",
+   "type": "short",
+   "q": "A string has mass per unit length 0.01 kg m⁻¹ and is under a tension of 4 N. Find the speed of a transverse wave on it.",
+   "proposedAnswer": "20 m s⁻¹",
+   "keyPoints": [
+    "v = √(T/μ)",
+    "v = √(4/0.01) = √400",
+    "= 20 m s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-209",
+   "type": "mcq",
+   "q": "What is the dimensional formula of frequency?",
+   "options": [
+    "T",
+    "LT⁻¹",
+    "MT⁻²",
+    "T⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-210",
+   "type": "mcq",
+   "q": "How many base quantities are there in the International System of Units (SI)?",
+   "options": [
+    "6",
+    "7",
+    "8",
+    "9"
+   ]
+  },
+  {
+   "id": "physics-c11-211",
+   "type": "mcq",
+   "q": "How many significant figures are there in the number 0.00250 m?",
+   "options": [
+    "2",
+    "4",
+    "3",
+    "5"
+   ]
+  },
+  {
+   "id": "physics-c11-212",
+   "type": "mcq",
+   "q": "Two lengths 2.675 m and 3.4 m are added. Which result is reported correctly with the proper number of significant decimal places?",
+   "options": [
+    "6.1 m",
+    "6.08 m",
+    "6.075 m",
+    "6.0 m"
+   ]
+  },
+  {
+   "id": "physics-c11-213",
+   "type": "mcq",
+   "q": "Planck's constant h is defined through E = hν, where E is energy and ν is frequency. What is its dimensional formula?",
+   "options": [
+    "ML²T⁻²",
+    "MLT⁻¹",
+    "ML²T⁻¹",
+    "ML⁻¹T⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-214",
+   "type": "mcq",
+   "q": "The density of a solid cylinder is found from ρ = m/(πr²l). The mass m, radius r and length l are each measured with a 1% error. What is the maximum percentage error in the density?",
+   "options": [
+    "2%",
+    "3%",
+    "3.14%",
+    "4%"
+   ]
+  },
+  {
+   "id": "physics-c11-215",
+   "type": "short",
+   "q": "Check by dimensions that the equation s = ut + ½at² is dimensionally correct.",
+   "proposedAnswer": "Every term has the dimension of length, L, so the equation is dimensionally consistent.",
+   "keyPoints": [
+    "[s] = L",
+    "[ut] = (LT⁻¹)(T) = L",
+    "[½at²] = (LT⁻²)(T²) = L"
+   ]
+  },
+  {
+   "id": "physics-c11-216",
+   "type": "short",
+   "q": "A student writes the kinetic energy of a body as KE = mv². Is the formula dimensionally correct? Does that prove that it is a correct physical formula?",
+   "proposedAnswer": "Yes, it is dimensionally correct (ML²T⁻²), but dimensional correctness does not prove correctness: the actual formula is ½mv², because dimensional analysis cannot fix dimensionless constants such as ½.",
+   "keyPoints": [
+    "[mv²] = M(LT⁻¹)² = ML²T⁻², which matches energy",
+    "Dimensional analysis cannot determine pure numbers like ½",
+    "Dimensional consistency is a necessary, not a sufficient, condition"
+   ]
+  },
+  {
+   "id": "physics-c11-217",
+   "type": "mcq",
+   "q": "The magnitude of the instantaneous velocity of a particle is equal to its",
+   "options": [
+    "instantaneous speed",
+    "average speed",
+    "displacement",
+    "acceleration"
+   ]
+  },
+  {
+   "id": "physics-c11-218",
+   "type": "mcq",
+   "q": "A straight horizontal line in a velocity–time graph represents motion with",
+   "options": [
+    "uniform acceleration",
+    "rest only",
+    "uniform velocity",
+    "increasing speed"
+   ]
+  },
+  {
+   "id": "physics-c11-219",
+   "type": "mcq",
+   "q": "A body has initial velocity 5 m s⁻¹ and a uniform acceleration of 4 m s⁻². How far does it travel in 3 s?",
+   "options": [
+    "24 m",
+    "33 m",
+    "27 m",
+    "42 m"
+   ]
+  },
+  {
+   "id": "physics-c11-220",
+   "type": "mcq",
+   "q": "A train moving at 30 m s⁻¹ is braked with a uniform deceleration of 5 m s⁻². How far does it travel before stopping?",
+   "options": [
+    "45 m",
+    "60 m",
+    "180 m",
+    "90 m"
+   ]
+  },
+  {
+   "id": "physics-c11-221",
+   "type": "mcq",
+   "q": "A body starts from rest, accelerates uniformly to 8 m s⁻¹ in 4 s, and then moves at this constant speed for 6 s. What is the total distance covered in these 10 s?",
+   "options": [
+    "64 m",
+    "48 m",
+    "80 m",
+    "32 m"
+   ]
+  },
+  {
+   "id": "physics-c11-222",
+   "type": "mcq",
+   "q": "Ball A is dropped from a high point. One second later ball B is dropped from the same point. While both are still falling, the distance between them",
+   "options": [
+    "stays equal to 4.9 m",
+    "decreases",
+    "increases with time",
+    "is zero"
+   ]
+  },
+  {
+   "id": "physics-c11-223",
+   "type": "short",
+   "q": "A car increases its speed uniformly from 10 m s⁻¹ to 30 m s⁻¹ in 10 s. Find its acceleration and the distance covered in this time.",
+   "proposedAnswer": "Acceleration = 2 m s⁻²; distance = 200 m.",
+   "keyPoints": [
+    "a = (30 − 10)/10 = 2 m s⁻²",
+    "Average speed = 20 m s⁻¹",
+    "s = 20 × 10 = 200 m"
+   ]
+  },
+  {
+   "id": "physics-c11-224",
+   "type": "short",
+   "q": "A ball is thrown vertically upward at 25 m s⁻¹ (g = 10 m s⁻²). Find its height above the starting point at t = 1 s and at t = 4 s, and explain why the two heights are equal.",
+   "proposedAnswer": "Height is 20 m at both t = 1 s and t = 4 s. At 1 s the ball is rising (velocity +15 m s⁻¹); at 4 s it is falling (velocity −15 m s⁻¹) through the same point.",
+   "keyPoints": [
+    "y = 25t − 5t²: y(1) = 20 m, y(4) = 100 − 80 = 20 m",
+    "Velocity at 1 s is +15 m s⁻¹; at 4 s is −15 m s⁻¹",
+    "The ball passes the same height twice, once going up and once coming down"
+   ]
+  },
+  {
+   "id": "physics-c11-225",
+   "type": "mcq",
+   "q": "The resultant of two equal vectors acting in exactly opposite directions is",
+   "options": [
+    "double one of them",
+    "a null (zero) vector",
+    "a unit vector",
+    "infinite"
+   ]
+  },
+  {
+   "id": "physics-c11-226",
+   "type": "mcq",
+   "q": "At the highest point of its path, the velocity of a projectile is",
+   "options": [
+    "zero",
+    "vertical",
+    "directed downward",
+    "horizontal"
+   ]
+  },
+  {
+   "id": "physics-c11-227",
+   "type": "mcq",
+   "q": "What is the angular speed of the minute hand of a clock?",
+   "options": [
+    "π/1800 rad s⁻¹",
+    "π/30 rad s⁻¹",
+    "π/60 rad s⁻¹",
+    "2π/60 rad s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-228",
+   "type": "mcq",
+   "q": "Two perpendicular vectors have magnitudes 3 and 4. What is the magnitude of their vector (cross) product?",
+   "options": [
+    "7",
+    "5",
+    "12",
+    "0"
+   ]
+  },
+  {
+   "id": "physics-c11-229",
+   "type": "mcq",
+   "q": "Two forces of 10 N each act at a point with an angle of 120° between them. What is the magnitude of the resultant?",
+   "options": [
+    "20 N",
+    "14.1 N",
+    "0 N",
+    "10 N"
+   ]
+  },
+  {
+   "id": "physics-c11-230",
+   "type": "mcq",
+   "q": "A projectile is fired at 45° to the horizontal. What is the relationship between its maximum height H and its horizontal range R?",
+   "options": [
+    "H = R/2",
+    "H = R/4",
+    "H = R/8",
+    "H = R"
+   ]
+  },
+  {
+   "id": "physics-c11-231",
+   "type": "short",
+   "q": "A force of 6 N acts towards the east and a force of 8 N acts towards the north on the same body. Find the magnitude and direction of the resultant.",
+   "proposedAnswer": "10 N, at about 53° north of east.",
+   "keyPoints": [
+    "R = √(6² + 8²) = 10 N",
+    "tanθ = 8/6",
+    "θ ≈ 53° from the east towards the north"
+   ]
+  },
+  {
+   "id": "physics-c11-232",
+   "type": "short",
+   "q": "An aeroplane flying horizontally at 100 m s⁻¹ at a height of 500 m releases a packet. Taking g = 10 m s⁻² and ignoring air resistance, find the time the packet takes to reach the ground and the horizontal distance it travels.",
+   "proposedAnswer": "Time = 10 s; horizontal distance = 1000 m.",
+   "keyPoints": [
+    "Vertical: 500 = ½ × 10 × t², so t = 10 s",
+    "Horizontal speed stays 100 m s⁻¹",
+    "Distance = 100 × 10 = 1000 m"
+   ]
+  },
+  {
+   "id": "physics-c11-233",
+   "type": "mcq",
+   "q": "The total linear momentum of a system is conserved when",
+   "options": [
+    "no external force acts on it",
+    "no internal force acts on it",
+    "its mass is constant",
+    "its velocity is constant"
+   ]
+  },
+  {
+   "id": "physics-c11-234",
+   "type": "mcq",
+   "q": "Compared with sliding friction, rolling friction is generally",
+   "options": [
+    "greater",
+    "equal",
+    "less",
+    "unrelated"
+   ]
+  },
+  {
+   "id": "physics-c11-235",
+   "type": "mcq",
+   "q": "What is the weight of a 5 kg body at a place where g = 9.8 m s⁻²?",
+   "options": [
+    "5 N",
+    "9.8 N",
+    "4.9 N",
+    "49 N"
+   ]
+  },
+  {
+   "id": "physics-c11-236",
+   "type": "mcq",
+   "q": "A 1 kg body on a smooth surface is acted on by two horizontal forces, 3 N and 4 N, in opposite directions. What is the magnitude of its acceleration?",
+   "options": [
+    "1 m s⁻²",
+    "7 m s⁻²",
+    "5 m s⁻²",
+    "12 m s⁻²"
+   ]
+  },
+  {
+   "id": "physics-c11-237",
+   "type": "mcq",
+   "q": "A 50 kg person stands on a weighing machine in a lift that is accelerating downward at 2 m s⁻². Taking g = 10 m s⁻², what force does the machine read?",
+   "options": [
+    "500 N",
+    "400 N",
+    "600 N",
+    "100 N"
+   ]
+  },
+  {
+   "id": "physics-c11-238",
+   "type": "mcq",
+   "q": "A block slides down a smooth incline of angle 30° with the horizontal. Taking g = 10 m s⁻², what is its acceleration?",
+   "options": [
+    "10 m s⁻²",
+    "8.66 m s⁻²",
+    "5 m s⁻²",
+    "2.5 m s⁻²"
+   ]
+  },
+  {
+   "id": "physics-c11-239",
+   "type": "short",
+   "q": "Why do passengers in a bus lurch forward when the driver applies the brakes suddenly?",
+   "proposedAnswer": "Because of inertia of motion: the passengers' bodies tend to continue moving forward at the original speed while the bus slows down.",
+   "keyPoints": [
+    "Bus slows down due to braking",
+    "Passengers' bodies tend to retain their state of uniform motion (inertia)",
+    "So they move forward relative to the bus"
+   ]
+  },
+  {
+   "id": "physics-c11-240",
+   "type": "short",
+   "q": "A 2 kg block and a 3 kg block are joined by a light string on a smooth horizontal table. A horizontal force of 10 N pulls the 3 kg block away from the 2 kg block. Find the acceleration and the tension in the string.",
+   "proposedAnswer": "Acceleration = 2 m s⁻²; tension = 4 N.",
+   "keyPoints": [
+    "Whole system: a = 10/(2 + 3) = 2 m s⁻²",
+    "The string alone accelerates the 2 kg block",
+    "T = 2 × 2 = 4 N"
+   ]
+  },
+  {
+   "id": "physics-c11-241",
+   "type": "mcq",
+   "q": "One kilowatt-hour is equal to",
+   "options": [
+    "3.6 × 10³ J",
+    "3.6 × 10⁶ J",
+    "1000 J",
+    "36 J"
+   ]
+  },
+  {
+   "id": "physics-c11-242",
+   "type": "mcq",
+   "q": "A stretched spring possesses",
+   "options": [
+    "kinetic energy",
+    "thermal energy",
+    "chemical energy",
+    "elastic potential energy"
+   ]
+  },
+  {
+   "id": "physics-c11-243",
+   "type": "mcq",
+   "q": "A 4 kg body has a kinetic energy of 50 J. What is its speed?",
+   "options": [
+    "5 m s⁻¹",
+    "25 m s⁻¹",
+    "10 m s⁻¹",
+    "12.5 m s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-244",
+   "type": "mcq",
+   "q": "A constant force of 200 N moves a vehicle at a constant speed of 10 m s⁻¹ along the direction of the force. What is the power delivered?",
+   "options": [
+    "20 W",
+    "200 W",
+    "2000 W",
+    "20000 W"
+   ]
+  },
+  {
+   "id": "physics-c11-245",
+   "type": "mcq",
+   "q": "A variable force F = 3x² newtons acts on a body, where x is in metres. How much work does it do in moving the body from x = 0 to x = 2 m?",
+   "options": [
+    "6 J",
+    "12 J",
+    "4 J",
+    "8 J"
+   ]
+  },
+  {
+   "id": "physics-c11-246",
+   "type": "mcq",
+   "q": "A small car slides without friction down a track and into a vertical loop of radius r. From what minimum height above the lowest point of the loop must it be released from rest to just complete the loop?",
+   "options": [
+    "2.5 r",
+    "2 r",
+    "1.5 r",
+    "3.5 r"
+   ]
+  },
+  {
+   "id": "physics-c11-247",
+   "type": "short",
+   "q": "A block is pushed 5 m along a floor against a constant friction force of 10 N. Find the work done by friction.",
+   "proposedAnswer": "−50 J",
+   "keyPoints": [
+    "Friction opposes the displacement",
+    "W = F s cos 180° = −(10 × 5)",
+    "= −50 J (negative work)"
+   ]
+  },
+  {
+   "id": "physics-c11-248",
+   "type": "short",
+   "q": "A 20 g bullet moving at 200 m s⁻¹ penetrates 10 cm into a wooden block and stops. Find the average resistive force exerted by the wood.",
+   "proposedAnswer": "4000 N",
+   "keyPoints": [
+    "Initial KE = ½ × 0.02 × 200² = 400 J",
+    "Work-energy theorem: F × 0.10 = 400",
+    "F = 4000 N"
+   ]
+  },
+  {
+   "id": "physics-c11-249",
+   "type": "mcq",
+   "q": "The rotational analogue of mass in linear motion is",
+   "options": [
+    "torque",
+    "angular velocity",
+    "moment of inertia",
+    "angular momentum"
+   ]
+  },
+  {
+   "id": "physics-c11-250",
+   "type": "mcq",
+   "q": "The torque of a force about an axis is zero when",
+   "options": [
+    "its line of action passes through the axis",
+    "the force is perpendicular to the position vector",
+    "the force is very large",
+    "the body is at rest"
+   ]
+  },
+  {
+   "id": "physics-c11-251",
+   "type": "mcq",
+   "q": "A wheel rotates at 120 revolutions per minute. What is its angular speed?",
+   "options": [
+    "2π rad s⁻¹",
+    "π rad s⁻¹",
+    "8π rad s⁻¹",
+    "4π rad s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-252",
+   "type": "mcq",
+   "q": "What is the moment of inertia of a uniform disc of mass 2 kg and radius 0.5 m about an axis through its centre perpendicular to its plane?",
+   "options": [
+    "0.5 kg m²",
+    "0.25 kg m²",
+    "1 kg m²",
+    "0.125 kg m²"
+   ]
+  },
+  {
+   "id": "physics-c11-253",
+   "type": "mcq",
+   "q": "A man stands on a freely rotating platform. Together they have a moment of inertia of 4 kg m² and rotate at 5 rad s⁻¹. The man stretches his arms so that the combined moment of inertia becomes 8 kg m². What is the new angular speed?",
+   "options": [
+    "2.5 rad s⁻¹",
+    "10 rad s⁻¹",
+    "5 rad s⁻¹",
+    "1.25 rad s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-254",
+   "type": "mcq",
+   "q": "A uniform light seesaw is balanced at its middle. A 40 kg child sits 1.5 m from the pivot. At what distance from the pivot on the other side must a 30 kg child sit to balance it?",
+   "options": [
+    "1.0 m",
+    "1.5 m",
+    "2.5 m",
+    "2.0 m"
+   ]
+  },
+  {
+   "id": "physics-c11-255",
+   "type": "short",
+   "q": "A flywheel starts from rest and has a constant angular acceleration of 2 rad s⁻². Find its angular speed and the angle turned after 10 s.",
+   "proposedAnswer": "ω = 20 rad s⁻¹; angle turned = 100 rad.",
+   "keyPoints": [
+    "ω = ω₀ + αt = 0 + 2 × 10 = 20 rad s⁻¹",
+    "θ = ½αt² = ½ × 2 × 100",
+    "= 100 rad"
+   ]
+  },
+  {
+   "id": "physics-c11-256",
+   "type": "mcq",
+   "q": "Kepler's third law of planetary motion states that",
+   "options": [
+    "T ∝ a",
+    "T² ∝ a³",
+    "T ∝ a²",
+    "T³ ∝ a²"
+   ]
+  },
+  {
+   "id": "physics-c11-257",
+   "type": "mcq",
+   "q": "The acceleration due to gravity on the Moon's surface is about",
+   "options": [
+    "the same as on Earth",
+    "six times that on Earth",
+    "half that on Earth",
+    "one-sixth of that on Earth"
+   ]
+  },
+  {
+   "id": "physics-c11-258",
+   "type": "mcq",
+   "q": "A planet has the same average density as the Earth but twice the Earth's radius. What is the acceleration due to gravity on its surface?",
+   "options": [
+    "2g",
+    "4g",
+    "g/2",
+    "8g"
+   ]
+  },
+  {
+   "id": "physics-c11-259",
+   "type": "mcq",
+   "q": "The Earth's escape speed is 11.2 km s⁻¹. What would be the escape speed from a planet of the same mass but half the radius?",
+   "options": [
+    "22.4 km s⁻¹",
+    "11.2 km s⁻¹",
+    "15.8 km s⁻¹",
+    "5.6 km s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-260",
+   "type": "mcq",
+   "q": "For a communications satellite to appear fixed in the sky as seen from Earth, it must",
+   "options": [
+    "orbit in a polar plane with a period of 24 hours",
+    "revolve in the equatorial plane, from west to east, with a period of 24 hours",
+    "revolve in the equatorial plane, from east to west, with a period of 12 hours",
+    "revolve at a height of about 400 km"
+   ]
+  },
+  {
+   "id": "physics-c11-261",
+   "type": "mcq",
+   "q": "An astronaut inside a satellite orbiting the Earth feels weightless because",
+   "options": [
+    "gravity is zero at that height",
+    "the Moon cancels the Earth's attraction",
+    "both the astronaut and the satellite are in free fall with the same acceleration",
+    "there is no atmosphere outside"
+   ]
+  },
+  {
+   "id": "physics-c11-262",
+   "type": "short",
+   "q": "Using g = 9.8 m s⁻², the radius of the Earth R = 6.4 × 10⁶ m and G = 6.67 × 10⁻¹¹ N m² kg⁻², estimate the mass of the Earth.",
+   "proposedAnswer": "About 6.0 × 10²⁴ kg",
+   "keyPoints": [
+    "g = GM/R², so M = gR²/G",
+    "M = 9.8 × (6.4 × 10⁶)² / (6.67 × 10⁻¹¹)",
+    "≈ 6.0 × 10²⁴ kg"
+   ]
+  },
+  {
+   "id": "physics-c11-263",
+   "type": "mcq",
+   "q": "Strain is",
+   "options": [
+    "dimensionless",
+    "measured in pascal",
+    "measured in newton",
+    "measured in metre"
+   ]
+  },
+  {
+   "id": "physics-c11-264",
+   "type": "mcq",
+   "q": "Elasticity is the property of a body by which it",
+   "options": [
+    "breaks when a force is applied",
+    "remains deformed permanently",
+    "regains its original shape and size when the deforming force is removed",
+    "expands when heated"
+   ]
+  },
+  {
+   "id": "physics-c11-265",
+   "type": "mcq",
+   "q": "A shear stress of 10⁵ Pa produces a shear strain of 10⁻⁶. What is the shear modulus of the material?",
+   "options": [
+    "10⁻¹¹ Pa",
+    "10⁻¹ Pa",
+    "10⁵ Pa",
+    "10¹¹ Pa"
+   ]
+  },
+  {
+   "id": "physics-c11-266",
+   "type": "mcq",
+   "q": "A wire of length 1 m and cross-section 1 mm² extends by 0.25 mm under a load of 50 N. What is its Young's modulus?",
+   "options": [
+    "2 × 10¹⁰ Pa",
+    "2 × 10¹¹ Pa",
+    "4 × 10¹¹ Pa",
+    "5 × 10¹¹ Pa"
+   ]
+  },
+  {
+   "id": "physics-c11-267",
+   "type": "mcq",
+   "q": "A wire of cross-sectional area 2 mm² has a breaking stress of 5 × 10⁸ N m⁻². What is the maximum load it can carry without breaking?",
+   "options": [
+    "500 N",
+    "2500 N",
+    "1000 N",
+    "250 N"
+   ]
+  },
+  {
+   "id": "physics-c11-268",
+   "type": "mcq",
+   "q": "Stress–strain graphs for the elastic region of two wires of the same dimensions are straight lines through the origin. Wire 1's line is steeper than wire 2's. Which statement is correct?",
+   "options": [
+    "Wire 1 has the larger Young's modulus",
+    "Wire 2 has the larger Young's modulus",
+    "Both have equal Young's modulus",
+    "Nothing can be said"
+   ]
+  },
+  {
+   "id": "physics-c11-269",
+   "type": "short",
+   "q": "A steel wire and a copper wire have the same length and cross-sectional area and carry the same load. Young's modulus is 2 × 10¹¹ Pa for steel and 1.1 × 10¹¹ Pa for copper. Which stretches more, and by what ratio?",
+   "proposedAnswer": "The copper wire stretches more, about 1.8 times as much as the steel wire.",
+   "keyPoints": [
+    "Extension ΔL = FL/(AY), so ΔL ∝ 1/Y",
+    "Ratio copper : steel = 2/1.1",
+    "≈ 1.8"
+   ]
+  },
+  {
+   "id": "physics-c11-270",
+   "type": "mcq",
+   "q": "Standard atmospheric pressure at sea level is about",
+   "options": [
+    "1.013 × 10³ Pa",
+    "1.013 × 10⁴ Pa",
+    "1.013 × 10⁷ Pa",
+    "1.013 × 10⁵ Pa"
+   ]
+  },
+  {
+   "id": "physics-c11-271",
+   "type": "mcq",
+   "q": "When the temperature of a liquid is increased, its coefficient of viscosity generally",
+   "options": [
+    "increases",
+    "decreases",
+    "stays the same",
+    "becomes infinite"
+   ]
+  },
+  {
+   "id": "physics-c11-272",
+   "type": "mcq",
+   "q": "Water flows in a pipe of cross-section 4 cm² at 3 m s⁻¹ and then enters a narrower section of cross-section 2 cm². What is its speed in the narrower section?",
+   "options": [
+    "6 m s⁻¹",
+    "1.5 m s⁻¹",
+    "12 m s⁻¹",
+    "3 m s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-273",
+   "type": "mcq",
+   "q": "A force of 200 N acts uniformly and perpendicularly on a surface of area 0.5 m². What is the pressure?",
+   "options": [
+    "100 Pa",
+    "40 Pa",
+    "400 Pa",
+    "1000 Pa"
+   ]
+  },
+  {
+   "id": "physics-c11-274",
+   "type": "mcq",
+   "q": "Ice has a density of 900 kg m⁻³ and floats in fresh water of density 1000 kg m⁻³. What percentage of the ice's volume is above the water surface?",
+   "options": [
+    "90%",
+    "50%",
+    "1%",
+    "10%"
+   ]
+  },
+  {
+   "id": "physics-c11-275",
+   "type": "mcq",
+   "q": "A spherical water drop of radius R splits into 8 identical small droplets. How does the total surface area change?",
+   "options": [
+    "It is unchanged",
+    "It becomes 2 times",
+    "It becomes 4 times",
+    "It becomes 8 times"
+   ]
+  },
+  {
+   "id": "physics-c11-276",
+   "type": "short",
+   "q": "Find the absolute pressure at a depth of 20 m in a lake. Take atmospheric pressure = 1.0 × 10⁵ Pa, density of water = 1000 kg m⁻³ and g = 10 m s⁻².",
+   "proposedAnswer": "3.0 × 10⁵ Pa",
+   "keyPoints": [
+    "P = P₀ + ρgh",
+    "ρgh = 1000 × 10 × 20 = 2 × 10⁵ Pa",
+    "P = 1 × 10⁵ + 2 × 10⁵ = 3 × 10⁵ Pa"
+   ]
+  },
+  {
+   "id": "physics-c11-277",
+   "type": "short",
+   "q": "A metal block of volume 0.001 m³ and density 8000 kg m⁻³ is held fully immersed in water (density 1000 kg m⁻³). Taking g = 10 m s⁻², find its apparent weight in water.",
+   "proposedAnswer": "70 N",
+   "keyPoints": [
+    "Weight in air = 8000 × 0.001 × 10 = 80 N",
+    "Buoyant force = 1000 × 0.001 × 10 = 10 N",
+    "Apparent weight = 80 − 10 = 70 N"
+   ]
+  },
+  {
+   "id": "physics-c11-278",
+   "type": "mcq",
+   "q": "What is the SI unit of the coefficient of linear expansion?",
+   "options": [
+    "K⁻¹",
+    "K",
+    "J K⁻¹",
+    "m K⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-279",
+   "type": "mcq",
+   "q": "Water has its maximum density at",
+   "options": [
+    "0 °C",
+    "2 °C",
+    "4 °C",
+    "100 °C"
+   ]
+  },
+  {
+   "id": "physics-c11-280",
+   "type": "mcq",
+   "q": "A heat input of 500 J raises the temperature of a 0.1 kg object by 5 K. What is the specific heat capacity of the material?",
+   "options": [
+    "500 J kg⁻¹ K⁻¹",
+    "1000 J kg⁻¹ K⁻¹",
+    "2500 J kg⁻¹ K⁻¹",
+    "100 J kg⁻¹ K⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-281",
+   "type": "mcq",
+   "q": "A solid has a coefficient of linear expansion of 1 × 10⁻⁵ K⁻¹. What is its coefficient of volume expansion?",
+   "options": [
+    "1 × 10⁻⁵ K⁻¹",
+    "2 × 10⁻⁵ K⁻¹",
+    "1 × 10⁻¹⁵ K⁻¹",
+    "3 × 10⁻⁵ K⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-282",
+   "type": "mcq",
+   "q": "As the temperature of a hot body is raised, the wavelength at which it emits the maximum radiation",
+   "options": [
+    "shifts to shorter wavelengths",
+    "shifts to longer wavelengths",
+    "does not change",
+    "becomes infinite"
+   ]
+  },
+  {
+   "id": "physics-c11-283",
+   "type": "mcq",
+   "q": "How much heat is needed to convert 10 g of ice at 0 °C into water at 20 °C? (L = 80 cal g⁻¹, c of water = 1 cal g⁻¹ °C⁻¹.)",
+   "options": [
+    "800 cal",
+    "200 cal",
+    "1000 cal",
+    "1600 cal"
+   ]
+  },
+  {
+   "id": "physics-c11-284",
+   "type": "short",
+   "q": "A 200 g piece of metal at 100 °C is dropped into 100 g of water at 20 °C. The final temperature is 30 °C. The specific heat of water is 4.2 J g⁻¹ K⁻¹. Find the specific heat of the metal (ignore heat losses).",
+   "proposedAnswer": "0.3 J g⁻¹ K⁻¹",
+   "keyPoints": [
+    "Heat lost by metal = heat gained by water",
+    "c × 200 × 70 = 100 × 4.2 × 10",
+    "c = 4200/14000 = 0.3 J g⁻¹ K⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-285",
+   "type": "mcq",
+   "q": "Heat flows spontaneously",
+   "options": [
+    "from a cold body to a hot body",
+    "from a hot body to a cold body",
+    "in no preferred direction",
+    "only from the sink to the source"
+   ]
+  },
+  {
+   "id": "physics-c11-286",
+   "type": "mcq",
+   "q": "In an adiabatic process",
+   "options": [
+    "the temperature is constant",
+    "the pressure is constant",
+    "the volume is constant",
+    "no heat is exchanged with the surroundings"
+   ]
+  },
+  {
+   "id": "physics-c11-287",
+   "type": "mcq",
+   "q": "300 J of work is done on a gas and the gas loses 100 J of heat to the surroundings. What is the change in its internal energy?",
+   "options": [
+    "400 J",
+    "−200 J",
+    "200 J",
+    "−400 J"
+   ]
+  },
+  {
+   "id": "physics-c11-288",
+   "type": "mcq",
+   "q": "A Carnot engine whose sink is at 300 K has an efficiency of 40%. What is the temperature of its source?",
+   "options": [
+    "500 K",
+    "400 K",
+    "750 K",
+    "600 K"
+   ]
+  },
+  {
+   "id": "physics-c11-289",
+   "type": "mcq",
+   "q": "A gas is taken around a rectangular cycle on a P–V diagram. Pressure varies between 1 × 10⁵ Pa and 3 × 10⁵ Pa and volume between 1 litre and 2 litres (1 litre = 10⁻³ m³). What net work is done in one cycle?",
+   "options": [
+    "100 J",
+    "400 J",
+    "50 J",
+    "200 J"
+   ]
+  },
+  {
+   "id": "physics-c11-290",
+   "type": "mcq",
+   "q": "How much heat is needed to raise the temperature of 1 mol of a monatomic ideal gas by 10 K at constant pressure? (R = 8.31 J mol⁻¹ K⁻¹.)",
+   "options": [
+    "125 J",
+    "208 J",
+    "83 J",
+    "291 J"
+   ]
+  },
+  {
+   "id": "physics-c11-291",
+   "type": "short",
+   "q": "Find the change in internal energy of 1 mol of a monatomic ideal gas when its temperature rises by 20 K. (R = 8.31 J mol⁻¹ K⁻¹.)",
+   "proposedAnswer": "About 249 J",
+   "keyPoints": [
+    "For a monatomic gas Cv = (3/2)R",
+    "ΔU = nCvΔT = 1 × 1.5 × 8.31 × 20",
+    "≈ 249 J"
+   ]
+  },
+  {
+   "id": "physics-c11-292",
+   "type": "mcq",
+   "q": "Real gases behave most nearly like an ideal gas at",
+   "options": [
+    "low pressure and high temperature",
+    "high pressure and low temperature",
+    "high pressure and high temperature",
+    "low pressure and low temperature"
+   ]
+  },
+  {
+   "id": "physics-c11-293",
+   "type": "mcq",
+   "q": "According to the kinetic theory, the pressure exerted by a gas is due to",
+   "options": [
+    "the weight of the gas",
+    "attraction between molecules",
+    "collisions of the molecules with the walls of the container",
+    "the gas expanding upward"
+   ]
+  },
+  {
+   "id": "physics-c11-294",
+   "type": "mcq",
+   "q": "How many moles are there in 88 g of carbon dioxide (molar mass 44 g mol⁻¹)?",
+   "options": [
+    "1",
+    "2",
+    "4",
+    "0.5"
+   ]
+  },
+  {
+   "id": "physics-c11-295",
+   "type": "mcq",
+   "q": "A gas in a rigid container is at a pressure of 2 atm at 300 K. What is the pressure when it is heated to 450 K?",
+   "options": [
+    "2.5 atm",
+    "4 atm",
+    "1.5 atm",
+    "3 atm"
+   ]
+  },
+  {
+   "id": "physics-c11-296",
+   "type": "mcq",
+   "q": "The mean free path of a gas molecule is inversely proportional to the number of molecules per unit volume. If the number density is doubled (same molecular size), the mean free path",
+   "options": [
+    "doubles",
+    "stays the same",
+    "halves",
+    "becomes one-quarter"
+   ]
+  },
+  {
+   "id": "physics-c11-297",
+   "type": "mcq",
+   "q": "What is the ratio of specific heats γ = Cp/Cv for a rigid diatomic ideal gas?",
+   "options": [
+    "1.4",
+    "1.67",
+    "1.33",
+    "1.0"
+   ]
+  },
+  {
+   "id": "physics-c11-298",
+   "type": "short",
+   "q": "Calculate the rms speed of nitrogen molecules at 300 K. (Molar mass of N₂ = 28 g mol⁻¹, R = 8.31 J mol⁻¹ K⁻¹.)",
+   "proposedAnswer": "About 517 m s⁻¹",
+   "keyPoints": [
+    "v_rms = √(3RT/M)",
+    "= √(3 × 8.31 × 300 / 0.028)",
+    "≈ 517 m s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-299",
+   "type": "mcq",
+   "q": "The maximum displacement of an oscillating particle from its mean position is called its",
+   "options": [
+    "frequency",
+    "phase",
+    "time period",
+    "amplitude"
+   ]
+  },
+  {
+   "id": "physics-c11-300",
+   "type": "mcq",
+   "q": "In SHM, the phase difference between the displacement and the velocity of the particle is",
+   "options": [
+    "0",
+    "π/2",
+    "π",
+    "2π"
+   ]
+  },
+  {
+   "id": "physics-c11-301",
+   "type": "mcq",
+   "q": "Roughly what is the length of a 'seconds pendulum' (time period 2 s) at a place where g = 9.8 m s⁻²?",
+   "options": [
+    "About 1 m",
+    "2 m",
+    "0.5 m",
+    "4 m"
+   ]
+  },
+  {
+   "id": "physics-c11-302",
+   "type": "mcq",
+   "q": "A particle's displacement is x = 3 sin(2t) metres, with t in seconds. What is its displacement at t = π/4 s?",
+   "options": [
+    "0 m",
+    "1.5 m",
+    "3 m",
+    "−3 m"
+   ]
+  },
+  {
+   "id": "physics-c11-303",
+   "type": "mcq",
+   "q": "A pendulum clock keeps correct time at sea level. It is taken to the top of a high mountain where g is slightly smaller. The clock will",
+   "options": [
+    "run fast",
+    "run slow",
+    "keep correct time",
+    "stop"
+   ]
+  },
+  {
+   "id": "physics-c11-304",
+   "type": "mcq",
+   "q": "A mass hung from a vertical spring stretches it by 10 cm at equilibrium. If the mass is pulled down slightly and released, what is the time period of its oscillation? (Take g = 10 m s⁻².)",
+   "options": [
+    "0.31 s",
+    "1.0 s",
+    "3.14 s",
+    "0.63 s"
+   ]
+  },
+  {
+   "id": "physics-c11-305",
+   "type": "short",
+   "q": "A particle performs SHM with amplitude 2 cm and frequency 5 Hz. Find its maximum acceleration. (Use π² = 9.87.)",
+   "proposedAnswer": "About 19.7 m s⁻²",
+   "keyPoints": [
+    "ω = 2πf = 10π rad s⁻¹",
+    "a_max = ω²A = 100π² × 0.02",
+    "≈ 19.7 m s⁻²"
+   ]
+  },
+  {
+   "id": "physics-c11-306",
+   "type": "mcq",
+   "q": "Which of the following is a transverse wave?",
+   "options": [
+    "Sound in air",
+    "Sound in water",
+    "A wave on a stretched string",
+    "An ultrasonic wave in air"
+   ]
+  },
+  {
+   "id": "physics-c11-307",
+   "type": "mcq",
+   "q": "According to the principle of superposition, when two waves overlap at a point, the resultant displacement is",
+   "options": [
+    "the algebraic sum of the individual displacements",
+    "the product of the displacements",
+    "the difference of the amplitudes only",
+    "the larger of the two displacements"
+   ]
+  },
+  {
+   "id": "physics-c11-308",
+   "type": "mcq",
+   "q": "A person shouts towards a cliff and hears the echo 2 s later. If the speed of sound is 340 m s⁻¹, how far away is the cliff?",
+   "options": [
+    "170 m",
+    "680 m",
+    "1360 m",
+    "340 m"
+   ]
+  },
+  {
+   "id": "physics-c11-309",
+   "type": "mcq",
+   "q": "A pipe closed at one end is 0.25 m long. If the speed of sound is 340 m s⁻¹, what is its fundamental frequency?",
+   "options": [
+    "170 Hz",
+    "340 Hz",
+    "680 Hz",
+    "85 Hz"
+   ]
+  },
+  {
+   "id": "physics-c11-310",
+   "type": "mcq",
+   "q": "In a pipe closed at one end, the frequency of the first overtone is how many times the fundamental frequency?",
+   "options": [
+    "3",
+    "2",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "id": "physics-c11-311",
+   "type": "mcq",
+   "q": "A train sounding a horn of frequency 500 Hz approaches a stationary listener at 34 m s⁻¹. If the speed of sound is 340 m s⁻¹, what frequency does the listener hear?",
+   "options": [
+    "450 Hz",
+    "500 Hz",
+    "556 Hz",
+    "611 Hz"
+   ]
+  },
+  {
+   "id": "physics-c11-312",
+   "type": "short",
+   "q": "Distinguish between transverse and longitudinal waves, giving one example of each.",
+   "proposedAnswer": "In a transverse wave the particles vibrate perpendicular to the direction of propagation (example: waves on a string); in a longitudinal wave they vibrate parallel to it (example: sound in air).",
+   "keyPoints": [
+    "Transverse: particle motion perpendicular to wave direction; crests and troughs",
+    "Longitudinal: particle motion parallel to wave direction; compressions and rarefactions",
+    "Examples: string wave; sound wave"
+   ]
+  },
+  {
+   "id": "physics-c11-313",
+   "type": "mcq",
+   "q": "What is the SI unit of electric current?",
+   "options": [
+    "Coulomb",
+    "Volt",
+    "Ampere",
+    "Ohm"
+   ]
+  },
+  {
+   "id": "physics-c11-314",
+   "type": "mcq",
+   "q": "What is the dimensional formula of velocity?",
+   "options": [
+    "LT⁻¹",
+    "L²T⁻¹",
+    "LT⁻²",
+    "L⁻¹T"
+   ]
+  },
+  {
+   "id": "physics-c11-315",
+   "type": "mcq",
+   "q": "What is the dimensional formula of linear momentum?",
+   "options": [
+    "ML²T⁻¹",
+    "MLT⁻²",
+    "M²LT⁻¹",
+    "MLT⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-316",
+   "type": "mcq",
+   "q": "A screw gauge has a pitch of 1 mm and 100 divisions on its circular scale. What is its least count?",
+   "options": [
+    "0.1 mm",
+    "0.01 mm",
+    "0.001 mm",
+    "1 mm"
+   ]
+  },
+  {
+   "id": "physics-c11-317",
+   "type": "mcq",
+   "q": "Which of the following physical quantities can be added to a quantity with dimensions ML²T⁻²?",
+   "options": [
+    "Torque",
+    "Power",
+    "Momentum",
+    "Force"
+   ]
+  },
+  {
+   "id": "physics-c11-318",
+   "type": "mcq",
+   "q": "In a pendulum experiment g = 4π²l/T². The length is l = 100.0 cm with an error of 0.1 cm, and the period is T = 2.00 s with an error of 0.02 s. What is the percentage error in g?",
+   "options": [
+    "1.1%",
+    "2.0%",
+    "2.1%",
+    "3.0%"
+   ]
+  },
+  {
+   "id": "physics-c11-319",
+   "type": "short",
+   "q": "Express a speed of 54 km/h in m s⁻¹.",
+   "proposedAnswer": "15 m s⁻¹",
+   "keyPoints": [
+    "1 km = 1000 m and 1 h = 3600 s",
+    "54 × 1000/3600",
+    "= 15 m s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-320",
+   "type": "short",
+   "q": "Stokes' law gives the viscous force on a sphere as F = 6πηrv. Use this to find the dimensional formula of the coefficient of viscosity η.",
+   "proposedAnswer": "[η] = ML⁻¹T⁻¹",
+   "keyPoints": [
+    "η = F/(6π r v)",
+    "[F] = MLT⁻², [r] = L, [v] = LT⁻¹",
+    "[η] = MLT⁻² / (L · LT⁻¹) = ML⁻¹T⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-321",
+   "type": "mcq",
+   "q": "A runner completes one full lap of a circular track and returns to the starting point. His displacement is",
+   "options": [
+    "equal to the distance",
+    "half the distance",
+    "negative",
+    "zero"
+   ]
+  },
+  {
+   "id": "physics-c11-322",
+   "type": "mcq",
+   "q": "The slope of a velocity–time graph gives",
+   "options": [
+    "displacement",
+    "acceleration",
+    "speed",
+    "position"
+   ]
+  },
+  {
+   "id": "physics-c11-323",
+   "type": "mcq",
+   "q": "A car starts from rest with a uniform acceleration of 3 m s⁻². What is its speed after 6 s?",
+   "options": [
+    "18 m s⁻¹",
+    "9 m s⁻¹",
+    "12 m s⁻¹",
+    "36 m s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-324",
+   "type": "mcq",
+   "q": "An object is dropped from rest. Taking g = 9.8 m s⁻², how far does it fall in 2 s?",
+   "options": [
+    "9.8 m",
+    "4.9 m",
+    "19.6 m",
+    "39.2 m"
+   ]
+  },
+  {
+   "id": "physics-c11-325",
+   "type": "mcq",
+   "q": "A ball is thrown vertically upward at 20 m s⁻¹ (g = 10 m s⁻²). What is its average speed over the first 4 s of motion?",
+   "options": [
+    "0",
+    "5 m s⁻¹",
+    "20 m s⁻¹",
+    "10 m s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-326",
+   "type": "mcq",
+   "q": "Two cars 500 m apart approach each other along a straight road at constant speeds of 20 m s⁻¹ and 30 m s⁻¹. After how long do they meet?",
+   "options": [
+    "10 s",
+    "25 s",
+    "50 s",
+    "5 s"
+   ]
+  },
+  {
+   "id": "physics-c11-327",
+   "type": "short",
+   "q": "A stone is dropped from a height of 80 m (g = 10 m s⁻²). Find the time it takes to reach the ground and its speed on impact.",
+   "proposedAnswer": "Time = 4 s; speed = 40 m s⁻¹.",
+   "keyPoints": [
+    "80 = ½ × 10 × t², so t = 4 s",
+    "v = gt = 10 × 4",
+    "= 40 m s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-328",
+   "type": "short",
+   "q": "A driver travelling at 20 m s⁻¹ sees an obstacle and applies the brakes after a reaction time of 0.5 s. The car then decelerates uniformly at 5 m s⁻². Find the total distance travelled from the moment the obstacle is seen until the car stops.",
+   "proposedAnswer": "50 m",
+   "keyPoints": [
+    "Distance during reaction time = 20 × 0.5 = 10 m",
+    "Braking distance = v²/2a = 400/10 = 40 m",
+    "Total = 10 + 40 = 50 m"
+   ]
+  },
+  {
+   "id": "physics-c11-329",
+   "type": "mcq",
+   "q": "In uniform circular motion, the acceleration of the body is directed",
+   "options": [
+    "along the tangent",
+    "away from the centre",
+    "towards the centre",
+    "vertically downward"
+   ]
+  },
+  {
+   "id": "physics-c11-330",
+   "type": "mcq",
+   "q": "The scalar product of two perpendicular vectors is",
+   "options": [
+    "zero",
+    "maximum",
+    "one",
+    "negative"
+   ]
+  },
+  {
+   "id": "physics-c11-331",
+   "type": "mcq",
+   "q": "What is the horizontal component of a velocity of 20 m s⁻¹ directed 60° above the horizontal?",
+   "options": [
+    "20 m s⁻¹",
+    "17.3 m s⁻¹",
+    "5 m s⁻¹",
+    "10 m s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-332",
+   "type": "mcq",
+   "q": "A particle moves on a circle of radius 2 m with a speed of 4π m s⁻¹. What is its time period?",
+   "options": [
+    "0.5 s",
+    "1 s",
+    "2 s",
+    "4 s"
+   ]
+  },
+  {
+   "id": "physics-c11-333",
+   "type": "mcq",
+   "q": "A projectile is launched at 20 m s⁻¹ at 60° to the horizontal. What is its speed at the highest point of its path?",
+   "options": [
+    "0",
+    "17.3 m s⁻¹",
+    "10 m s⁻¹",
+    "20 m s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-334",
+   "type": "mcq",
+   "q": "Rain falls vertically at 10 m s⁻¹. A man walks on a level road at 10 m s⁻¹. At what angle to the vertical should he tilt his umbrella to keep dry?",
+   "options": [
+    "45°, tilted forward (in the direction he walks)",
+    "0°, held vertically",
+    "30°, tilted backward",
+    "60°, tilted forward"
+   ]
+  },
+  {
+   "id": "physics-c11-335",
+   "type": "short",
+   "q": "Find the horizontal range of a projectile launched at 20 m s⁻¹ at an angle of 45° (g = 10 m s⁻², level ground).",
+   "proposedAnswer": "40 m",
+   "keyPoints": [
+    "R = u² sin 2θ / g",
+    "= 400 × sin 90° / 10",
+    "= 40 m"
+   ]
+  },
+  {
+   "id": "physics-c11-336",
+   "type": "short",
+   "q": "A ball is struck at 30 m s⁻¹ at 30° above the horizontal (g = 10 m s⁻², level ground, no air resistance). Find the maximum height and the horizontal range.",
+   "proposedAnswer": "Maximum height = 11.25 m; range ≈ 77.9 m.",
+   "keyPoints": [
+    "H = u² sin²θ/2g = 900 × 0.25/20 = 11.25 m",
+    "R = u² sin 2θ/g = 900 × 0.866/10",
+    "≈ 77.9 m"
+   ]
+  },
+  {
+   "id": "physics-c11-337",
+   "type": "mcq",
+   "q": "One newton is equal to",
+   "options": [
+    "1 kg m s⁻¹",
+    "1 kg m s⁻²",
+    "1 kg m² s⁻²",
+    "1 kg s⁻²"
+   ]
+  },
+  {
+   "id": "physics-c11-338",
+   "type": "mcq",
+   "q": "The force of friction between two surfaces acts",
+   "options": [
+    "in the direction of motion",
+    "perpendicular to the surfaces",
+    "along the direction of gravity",
+    "opposite to the relative motion (or its tendency)"
+   ]
+  },
+  {
+   "id": "physics-c11-339",
+   "type": "mcq",
+   "q": "What is the momentum of a 2 kg body moving at 5 m s⁻¹?",
+   "options": [
+    "10 kg m s⁻¹",
+    "7 kg m s⁻¹",
+    "2.5 kg m s⁻¹",
+    "25 kg m s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-340",
+   "type": "mcq",
+   "q": "A 5 kg block rests on a table. A string attached to it pulls it vertically upward with a force of 20 N (the block stays on the table). Taking g = 10 m s⁻², what is the normal force from the table?",
+   "options": [
+    "70 N",
+    "50 N",
+    "30 N",
+    "20 N"
+   ]
+  },
+  {
+   "id": "physics-c11-341",
+   "type": "mcq",
+   "q": "A 4 kg block on a smooth horizontal table is connected by a light string over a smooth pulley at the table edge to a 1 kg block hanging freely. Taking g = 10 m s⁻², what is the acceleration of the system?",
+   "options": [
+    "1 m s⁻²",
+    "2 m s⁻²",
+    "2.5 m s⁻²",
+    "4 m s⁻²"
+   ]
+  },
+  {
+   "id": "physics-c11-342",
+   "type": "mcq",
+   "q": "A frictionless road is banked so that a car can negotiate a bend of radius 40 m at 20 m s⁻¹ without any friction. Taking g = 10 m s⁻², what is the angle of banking?",
+   "options": [
+    "30°",
+    "37°",
+    "60°",
+    "45°"
+   ]
+  },
+  {
+   "id": "physics-c11-343",
+   "type": "short",
+   "q": "A 2000 kg truck is acted on by a net force of 5000 N. Find its acceleration and the speed it reaches from rest after 4 s.",
+   "proposedAnswer": "Acceleration = 2.5 m s⁻²; speed after 4 s = 10 m s⁻¹.",
+   "keyPoints": [
+    "a = F/m = 5000/2000 = 2.5 m s⁻²",
+    "v = at = 2.5 × 4",
+    "= 10 m s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-344",
+   "type": "short",
+   "q": "A 2 kg block rests on top of a 4 kg block that lies on a smooth floor. The coefficient of friction between the blocks is 0.3. What is the maximum horizontal force that can be applied to the lower block so that the upper block does not slip? (g = 10 m s⁻².)",
+   "proposedAnswer": "18 N",
+   "keyPoints": [
+    "Maximum acceleration of the upper block = μg = 3 m s⁻²",
+    "Both blocks must share this acceleration",
+    "F = (2 + 4) × 3 = 18 N"
+   ]
+  },
+  {
+   "id": "physics-c11-345",
+   "type": "mcq",
+   "q": "The work done by a force is zero when the force is",
+   "options": [
+    "perpendicular to the displacement",
+    "parallel to the displacement",
+    "opposite to the displacement",
+    "at 45° to the displacement"
+   ]
+  },
+  {
+   "id": "physics-c11-346",
+   "type": "mcq",
+   "q": "One joule is the same as one",
+   "options": [
+    "watt",
+    "pascal",
+    "newton metre",
+    "newton per metre"
+   ]
+  },
+  {
+   "id": "physics-c11-347",
+   "type": "mcq",
+   "q": "If the speed of a body is doubled, its kinetic energy becomes",
+   "options": [
+    "2 times",
+    "4 times",
+    "8 times",
+    "unchanged"
+   ]
+  },
+  {
+   "id": "physics-c11-348",
+   "type": "mcq",
+   "q": "A 60 kg person climbs a staircase of vertical height 10 m in 20 s. Taking g = 10 m s⁻², what is the average power used against gravity?",
+   "options": [
+    "600 W",
+    "30 W",
+    "1200 W",
+    "300 W"
+   ]
+  },
+  {
+   "id": "physics-c11-349",
+   "type": "mcq",
+   "q": "A 0.5 kg pendulum bob on a 1 m string is released from the horizontal position. Taking g = 10 m s⁻², what is its speed at the lowest point?",
+   "options": [
+    "2.2 m s⁻¹",
+    "3.1 m s⁻¹",
+    "4.5 m s⁻¹",
+    "10 m s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-350",
+   "type": "mcq",
+   "q": "A 0.5 kg block moving at 4 m s⁻¹ on a smooth surface hits a spring of force constant 200 N m⁻¹ and compresses it until it stops. What is the maximum compression?",
+   "options": [
+    "0.2 m",
+    "0.4 m",
+    "0.1 m",
+    "0.04 m"
+   ]
+  },
+  {
+   "id": "physics-c11-351",
+   "type": "short",
+   "q": "A ball dropped from a height of 4 m rebounds to a height of 1 m. Find the coefficient of restitution.",
+   "proposedAnswer": "0.5",
+   "keyPoints": [
+    "Speed before impact ∝ √h₁, after impact ∝ √h₂",
+    "e = √(h₂/h₁) = √(1/4)",
+    "= 0.5"
+   ]
+  },
+  {
+   "id": "physics-c11-352",
+   "type": "short",
+   "q": "A train engine delivers a constant power of 20 kW while the train moves at a constant speed of 20 m s⁻¹. Find the resistive force acting on the train.",
+   "proposedAnswer": "1000 N",
+   "keyPoints": [
+    "P = Fv",
+    "At constant speed, driving force = resistive force",
+    "F = 20000/20 = 1000 N"
+   ]
+  },
+  {
+   "id": "physics-c11-353",
+   "type": "mcq",
+   "q": "What is the SI unit of the moment of inertia?",
+   "options": [
+    "kg m",
+    "kg m²",
+    "kg m² s⁻¹",
+    "N m"
+   ]
+  },
+  {
+   "id": "physics-c11-354",
+   "type": "mcq",
+   "q": "The angular momentum of a system is conserved when",
+   "options": [
+    "the net external force is zero",
+    "the kinetic energy is constant",
+    "the speed is constant",
+    "the net external torque is zero"
+   ]
+  },
+  {
+   "id": "physics-c11-355",
+   "type": "mcq",
+   "q": "A solid sphere of mass 5 kg and radius 0.2 m has a moment of inertia (about a diameter) of ⅖MR². What is its value?",
+   "options": [
+    "0.08 kg m²",
+    "0.2 kg m²",
+    "0.4 kg m²",
+    "0.04 kg m²"
+   ]
+  },
+  {
+   "id": "physics-c11-356",
+   "type": "mcq",
+   "q": "A wheel of radius 0.5 m rotates at 10 rad s⁻¹. What is the linear speed of a point on its rim?",
+   "options": [
+    "2 m s⁻¹",
+    "20 m s⁻¹",
+    "5 m s⁻¹",
+    "10 m s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-357",
+   "type": "mcq",
+   "q": "A solid disc rolls without slipping on a horizontal surface. What fraction of its total kinetic energy is rotational?",
+   "options": [
+    "1/2",
+    "2/5",
+    "1/4",
+    "1/3"
+   ]
+  },
+  {
+   "id": "physics-c11-358",
+   "type": "mcq",
+   "q": "A uniform horizontal beam of mass 10 kg and length 4 m is hinged at one end and supported at the other end. Taking g = 10 m s⁻², what force does the support exert?",
+   "options": [
+    "100 N",
+    "50 N",
+    "25 N",
+    "200 N"
+   ]
+  },
+  {
+   "id": "physics-c11-359",
+   "type": "short",
+   "q": "A particle of mass 2 kg moves in a circle of radius 0.5 m at a speed of 4 m s⁻¹. Find its angular momentum about the centre.",
+   "proposedAnswer": "4 kg m² s⁻¹",
+   "keyPoints": [
+    "L = m v r (velocity is perpendicular to radius)",
+    "= 2 × 4 × 0.5",
+    "= 4 kg m² s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-360",
+   "type": "mcq",
+   "q": "The value of the acceleration due to gravity at the Earth's surface is approximately",
+   "options": [
+    "9.8 m s⁻²",
+    "98 m s⁻²",
+    "0.98 m s⁻²",
+    "6.67 m s⁻²"
+   ]
+  },
+  {
+   "id": "physics-c11-361",
+   "type": "mcq",
+   "q": "The universal law of gravitation was proposed by",
+   "options": [
+    "Kepler",
+    "Galileo",
+    "Newton",
+    "Copernicus"
+   ]
+  },
+  {
+   "id": "physics-c11-362",
+   "type": "mcq",
+   "q": "If the distance between two masses is doubled, the gravitational force between them becomes",
+   "options": [
+    "half",
+    "one-quarter",
+    "double",
+    "one-eighth"
+   ]
+  },
+  {
+   "id": "physics-c11-363",
+   "type": "mcq",
+   "q": "What is the acceleration due to gravity at a height equal to twice the Earth's radius above the surface?",
+   "options": [
+    "g/3",
+    "g/4",
+    "g/6",
+    "g/9"
+   ]
+  },
+  {
+   "id": "physics-c11-364",
+   "type": "mcq",
+   "q": "For a satellite in a circular orbit, what is the ratio of its kinetic energy to the magnitude of its gravitational potential energy?",
+   "options": [
+    "1/2",
+    "1",
+    "2",
+    "1/4"
+   ]
+  },
+  {
+   "id": "physics-c11-365",
+   "type": "mcq",
+   "q": "Taking g = 10 m s⁻² and the Earth's radius as 6400 km, what is the approximate period of a satellite orbiting just above the Earth's surface?",
+   "options": [
+    "24 hours",
+    "12 hours",
+    "About 84 minutes",
+    "About 10 minutes"
+   ]
+  },
+  {
+   "id": "physics-c11-366",
+   "type": "short",
+   "q": "The acceleration due to gravity on the Moon is 1.6 m s⁻². What would a 60 kg person weigh on the Moon?",
+   "proposedAnswer": "96 N",
+   "keyPoints": [
+    "Mass stays 60 kg",
+    "Weight = mg_moon",
+    "= 60 × 1.6 = 96 N"
+   ]
+  },
+  {
+   "id": "physics-c11-367",
+   "type": "mcq",
+   "q": "Hooke's law holds good within the",
+   "options": [
+    "breaking point",
+    "plastic region",
+    "yield point only",
+    "elastic limit"
+   ]
+  },
+  {
+   "id": "physics-c11-368",
+   "type": "mcq",
+   "q": "The ratio of tensile stress to tensile strain is called",
+   "options": [
+    "bulk modulus",
+    "Young's modulus",
+    "shear modulus",
+    "compressibility"
+   ]
+  },
+  {
+   "id": "physics-c11-369",
+   "type": "mcq",
+   "q": "A force of 100 N is applied uniformly over a cross-section of 2 cm². What is the stress?",
+   "options": [
+    "5 × 10⁵ Pa",
+    "5 × 10³ Pa",
+    "2 × 10⁵ Pa",
+    "5 × 10⁷ Pa"
+   ]
+  },
+  {
+   "id": "physics-c11-370",
+   "type": "mcq",
+   "q": "A wire is subjected to a stress of 4 × 10⁸ Pa and shows a strain of 0.002. What is its Young's modulus?",
+   "options": [
+    "2 × 10⁸ Pa",
+    "8 × 10⁵ Pa",
+    "2 × 10¹¹ Pa",
+    "8 × 10¹¹ Pa"
+   ]
+  },
+  {
+   "id": "physics-c11-371",
+   "type": "mcq",
+   "q": "A wire of length 2 m, cross-section 1 mm² and Young's modulus 2 × 10¹¹ Pa behaves like a spring. What is its force constant k = YA/L?",
+   "options": [
+    "4 × 10⁵ N m⁻¹",
+    "2 × 10⁵ N m⁻¹",
+    "5 × 10⁴ N m⁻¹",
+    "1 × 10⁵ N m⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-372",
+   "type": "mcq",
+   "q": "A wire of force constant k is cut into two equal halves. What is the force constant of each half?",
+   "options": [
+    "k/2",
+    "2k",
+    "4k",
+    "k"
+   ]
+  },
+  {
+   "id": "physics-c11-373",
+   "type": "short",
+   "q": "Why are steel cables, rather than rubber ropes, used in cranes to lift heavy loads?",
+   "proposedAnswer": "Steel has a much larger Young's modulus than rubber, so it stretches very little under a heavy load and stays within its elastic limit.",
+   "keyPoints": [
+    "Steel has a high Young's modulus",
+    "Small strain for a given stress",
+    "Remains within elastic limit and is strong"
+   ]
+  },
+  {
+   "id": "physics-c11-374",
+   "type": "mcq",
+   "q": "Bernoulli's principle is based on the conservation of",
+   "options": [
+    "momentum",
+    "mass",
+    "energy",
+    "charge"
+   ]
+  },
+  {
+   "id": "physics-c11-375",
+   "type": "mcq",
+   "q": "In streamline (steady) flow of a fluid",
+   "options": [
+    "the velocity at any given point remains constant with time",
+    "the fluid moves randomly",
+    "the velocity changes irregularly at every point",
+    "the fluid rotates about every point"
+   ]
+  },
+  {
+   "id": "physics-c11-376",
+   "type": "mcq",
+   "q": "A wooden block of volume 2 × 10⁻³ m³ is held completely under water (density 1000 kg m⁻³). Taking g = 10 m s⁻², what is the buoyant force?",
+   "options": [
+    "2 N",
+    "10 N",
+    "200 N",
+    "20 N"
+   ]
+  },
+  {
+   "id": "physics-c11-377",
+   "type": "mcq",
+   "q": "The pistons of a hydraulic press have areas of 10 cm² and 1000 cm². What force must be applied on the small piston to lift a weight of 1000 N on the large piston?",
+   "options": [
+    "1 N",
+    "10 N",
+    "100 N",
+    "1000 N"
+   ]
+  },
+  {
+   "id": "physics-c11-378",
+   "type": "mcq",
+   "q": "According to Poiseuille's formula, the volume flow rate of a viscous liquid through a tube is proportional to r⁴ (for fixed pressure difference, length and liquid). If the radius is doubled, the flow rate becomes",
+   "options": [
+    "16 times",
+    "8 times",
+    "4 times",
+    "2 times"
+   ]
+  },
+  {
+   "id": "physics-c11-379",
+   "type": "mcq",
+   "q": "The height to which a liquid rises in a capillary tube is inversely proportional to the radius of the tube. If a tube of half the radius is used, the height of the rise",
+   "options": [
+    "halves",
+    "is unchanged",
+    "doubles",
+    "becomes four times"
+   ]
+  },
+  {
+   "id": "physics-c11-380",
+   "type": "short",
+   "q": "Why do small drops of mercury on a smooth surface take an almost spherical shape?",
+   "proposedAnswer": "Because of surface tension: a liquid surface tends to have the least possible area, and a sphere has the smallest surface area for a given volume.",
+   "keyPoints": [
+    "Surface tension tends to minimise surface area",
+    "A sphere has minimum surface area for a given volume",
+    "Gravity is negligible for very small drops"
+   ]
+  },
+  {
+   "id": "physics-c11-381",
+   "type": "short",
+   "q": "Water flows steadily through a pipe of radius 2 cm at a speed of 1 m s⁻¹. The pipe narrows to a radius of 1 cm. Find the speed in the narrow section and the volume flow rate.",
+   "proposedAnswer": "Speed = 4 m s⁻¹; volume flow rate ≈ 1.26 × 10⁻³ m³ s⁻¹.",
+   "keyPoints": [
+    "Continuity: A₁v₁ = A₂v₂, area ratio = 4",
+    "v₂ = 4 × 1 = 4 m s⁻¹",
+    "Q = π(0.02)² × 1 ≈ 1.26 × 10⁻³ m³ s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-382",
+   "type": "mcq",
+   "q": "What is the SI unit of specific heat capacity?",
+   "options": [
+    "J kg",
+    "J kg⁻¹ K⁻¹",
+    "J K",
+    "W"
+   ]
+  },
+  {
+   "id": "physics-c11-383",
+   "type": "mcq",
+   "q": "An ideal black body is one that",
+   "options": [
+    "reflects all radiation falling on it",
+    "transmits all radiation falling on it",
+    "absorbs none of the radiation falling on it",
+    "absorbs all radiation falling on it"
+   ]
+  },
+  {
+   "id": "physics-c11-384",
+   "type": "mcq",
+   "q": "A thermometer reads 98.6 °F. What is this in degrees Celsius?",
+   "options": [
+    "37 °C",
+    "36 °C",
+    "38 °C",
+    "40 °C"
+   ]
+  },
+  {
+   "id": "physics-c11-385",
+   "type": "mcq",
+   "q": "How much heat is needed to melt 2 kg of ice at 0 °C? (L = 3.36 × 10⁵ J kg⁻¹.)",
+   "options": [
+    "3.36 × 10⁵ J",
+    "1.68 × 10⁵ J",
+    "6.72 × 10⁵ J",
+    "3.36 × 10⁶ J"
+   ]
+  },
+  {
+   "id": "physics-c11-386",
+   "type": "mcq",
+   "q": "A bimetallic strip made of two metals with different coefficients of linear expansion is heated. What happens?",
+   "options": [
+    "It remains straight",
+    "It bends, with the metal of larger expansion coefficient on the outer (convex) side",
+    "It bends, with the metal of larger expansion coefficient on the inner (concave) side",
+    "It expands only along its length"
+   ]
+  },
+  {
+   "id": "physics-c11-387",
+   "type": "mcq",
+   "q": "Two rods of equal length and cross-section are joined end to end. Rod A has thermal conductivity 2k and rod B has k. The free end of A is held at 100 °C and the free end of B at 0 °C. What is the steady-state temperature at the junction?",
+   "options": [
+    "50 °C",
+    "33.3 °C",
+    "75 °C",
+    "66.7 °C"
+   ]
+  },
+  {
+   "id": "physics-c11-388",
+   "type": "short",
+   "q": "A 1 kW heater is used to heat 0.5 kg of water from 20 °C to 100 °C. Taking c = 4200 J kg⁻¹ K⁻¹ and ignoring losses, find the time required.",
+   "proposedAnswer": "168 s",
+   "keyPoints": [
+    "Q = mcΔT = 0.5 × 4200 × 80 = 168000 J",
+    "Power = 1000 W",
+    "t = 168000/1000 = 168 s"
+   ]
+  },
+  {
+   "id": "physics-c11-389",
+   "type": "mcq",
+   "q": "A process that takes place at constant pressure is called",
+   "options": [
+    "isobaric",
+    "isochoric",
+    "isothermal",
+    "adiabatic"
+   ]
+  },
+  {
+   "id": "physics-c11-390",
+   "type": "mcq",
+   "q": "The internal energy of an ideal gas depends only on its",
+   "options": [
+    "pressure",
+    "volume",
+    "temperature",
+    "container material"
+   ]
+  },
+  {
+   "id": "physics-c11-391",
+   "type": "mcq",
+   "q": "What is the efficiency of a Carnot engine operating between a source at 500 K and a sink at 400 K?",
+   "options": [
+    "10%",
+    "25%",
+    "80%",
+    "20%"
+   ]
+  },
+  {
+   "id": "physics-c11-392",
+   "type": "mcq",
+   "q": "A gas is compressed at a constant pressure of 1 × 10⁵ Pa from 3 litres to 1 litre (1 litre = 10⁻³ m³). What is the work involved?",
+   "options": [
+    "200 J done by the gas",
+    "200 J done on the gas",
+    "100 J done on the gas",
+    "2000 J done on the gas"
+   ]
+  },
+  {
+   "id": "physics-c11-393",
+   "type": "mcq",
+   "q": "A diatomic ideal gas (γ = 1.4) is compressed adiabatically to half its volume. By what factor does its pressure increase? (Use 2^1.4 ≈ 2.64.)",
+   "options": [
+    "2.64",
+    "2",
+    "4",
+    "1.4"
+   ]
+  },
+  {
+   "id": "physics-c11-394",
+   "type": "mcq",
+   "q": "A heat engine of efficiency 30% does 600 J of work per cycle. How much heat does it reject to the sink per cycle?",
+   "options": [
+    "600 J",
+    "1000 J",
+    "1400 J",
+    "2000 J"
+   ]
+  },
+  {
+   "id": "physics-c11-395",
+   "type": "short",
+   "q": "State the first law of thermodynamics and write its mathematical form.",
+   "proposedAnswer": "The heat supplied to a system equals the increase in its internal energy plus the work done by the system: Q = ΔU + W.",
+   "keyPoints": [
+    "It is a statement of energy conservation",
+    "Q = ΔU + W",
+    "Q = heat supplied, ΔU = change in internal energy, W = work done by the system"
+   ]
+  },
+  {
+   "id": "physics-c11-396",
+   "type": "mcq",
+   "q": "According to classical kinetic theory, the kinetic energy of the molecules of an ideal gas at absolute zero is",
+   "options": [
+    "maximum",
+    "zero",
+    "infinite",
+    "equal to RT"
+   ]
+  },
+  {
+   "id": "physics-c11-397",
+   "type": "mcq",
+   "q": "The value of the universal gas constant R is about",
+   "options": [
+    "0.0821 J mol⁻¹ K⁻¹",
+    "83.1 J mol⁻¹ K⁻¹",
+    "1.38 × 10⁻²³ J K⁻¹",
+    "8.31 J mol⁻¹ K⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-398",
+   "type": "mcq",
+   "q": "How many molecules are there in 2 g of hydrogen gas (H₂, molar mass 2 g mol⁻¹)?",
+   "options": [
+    "6.022 × 10²³",
+    "1.2 × 10²⁴",
+    "3 × 10²³",
+    "2"
+   ]
+  },
+  {
+   "id": "physics-c11-399",
+   "type": "mcq",
+   "q": "At constant temperature the volume of a fixed mass of an ideal gas is halved. Its pressure",
+   "options": [
+    "halves",
+    "is unchanged",
+    "doubles",
+    "becomes four times"
+   ]
+  },
+  {
+   "id": "physics-c11-400",
+   "type": "mcq",
+   "q": "A container holds 2 mol of gas A and 3 mol of gas B at a total pressure of 5 atm (ideal gases, no reaction). What is the partial pressure of A?",
+   "options": [
+    "5 atm",
+    "3 atm",
+    "1 atm",
+    "2 atm"
+   ]
+  },
+  {
+   "id": "physics-c11-401",
+   "type": "mcq",
+   "q": "What is the ratio of the rms speed of the molecules of a gas at 400 K to that at 100 K?",
+   "options": [
+    "4",
+    "2",
+    "1/2",
+    "16"
+   ]
+  },
+  {
+   "id": "physics-c11-402",
+   "type": "short",
+   "q": "How many molecules are there in 1 litre of an ideal gas at STP? (Molar volume at STP = 22.4 L, N_A = 6.022 × 10²³ mol⁻¹.)",
+   "proposedAnswer": "About 2.69 × 10²²",
+   "keyPoints": [
+    "22.4 L contains 6.022 × 10²³ molecules",
+    "Number in 1 L = 6.022 × 10²³/22.4",
+    "≈ 2.69 × 10²²"
+   ]
+  },
+  {
+   "id": "physics-c11-403",
+   "type": "mcq",
+   "q": "The restoring force acting on a particle in simple harmonic motion is given by",
+   "options": [
+    "F = −kx",
+    "F = kx²",
+    "F = constant",
+    "F = k/x"
+   ]
+  },
+  {
+   "id": "physics-c11-404",
+   "type": "mcq",
+   "q": "For small oscillations, the time period of a simple pendulum depends on",
+   "options": [
+    "the mass of the bob",
+    "the amplitude only",
+    "its length and the acceleration due to gravity",
+    "the material of the bob"
+   ]
+  },
+  {
+   "id": "physics-c11-405",
+   "type": "mcq",
+   "q": "A particle performs SHM with amplitude 5 cm. What total distance does it cover in one complete oscillation?",
+   "options": [
+    "5 cm",
+    "10 cm",
+    "15 cm",
+    "20 cm"
+   ]
+  },
+  {
+   "id": "physics-c11-406",
+   "type": "mcq",
+   "q": "A spring of force constant 50 N m⁻¹ is stretched by 0.2 m. How much elastic potential energy is stored?",
+   "options": [
+    "0.5 J",
+    "1 J",
+    "2 J",
+    "10 J"
+   ]
+  },
+  {
+   "id": "physics-c11-407",
+   "type": "mcq",
+   "q": "A particle in SHM has angular frequency 2 rad s⁻¹ and amplitude 0.5 m. What is its speed when its displacement is 0.3 m?",
+   "options": [
+    "0.4 m s⁻¹",
+    "1.0 m s⁻¹",
+    "0.8 m s⁻¹",
+    "1.6 m s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-408",
+   "type": "mcq",
+   "q": "Two simple pendulums have lengths 1 m and 4 m. What is the ratio of their time periods?",
+   "options": [
+    "1 : 2",
+    "1 : 4",
+    "2 : 1",
+    "1 : 16"
+   ]
+  },
+  {
+   "id": "physics-c11-409",
+   "type": "short",
+   "q": "Why does the amplitude of a real oscillating pendulum gradually decrease with time?",
+   "proposedAnswer": "Because of damping: air resistance and friction at the support dissipate the pendulum's mechanical energy as heat.",
+   "keyPoints": [
+    "Dissipative forces (air drag, friction) act",
+    "Mechanical energy is gradually lost as heat",
+    "Amplitude decreases as energy falls"
+   ]
+  },
+  {
+   "id": "physics-c11-410",
+   "type": "mcq",
+   "q": "What is the SI unit of frequency?",
+   "options": [
+    "Metre",
+    "Second",
+    "Metre per second",
+    "Hertz"
+   ]
+  },
+  {
+   "id": "physics-c11-411",
+   "type": "mcq",
+   "q": "The audible range of frequencies for a normal human ear is approximately",
+   "options": [
+    "2 Hz to 2 kHz",
+    "20 Hz to 20 kHz",
+    "200 Hz to 2000 Hz",
+    "20 kHz to 200 kHz"
+   ]
+  },
+  {
+   "id": "physics-c11-412",
+   "type": "mcq",
+   "q": "A wave is described by y = A sin(kx − ωt) with k = π/2 m⁻¹. What is its wavelength?",
+   "options": [
+    "4 m",
+    "2π m",
+    "π/2 m",
+    "0.25 m"
+   ]
+  },
+  {
+   "id": "physics-c11-413",
+   "type": "mcq",
+   "q": "The speed of sound in a gas is proportional to the square root of its absolute temperature. If the absolute temperature is made four times, the speed of sound becomes",
+   "options": [
+    "4 times",
+    "half",
+    "2 times",
+    "unchanged"
+   ]
+  },
+  {
+   "id": "physics-c11-414",
+   "type": "mcq",
+   "q": "Two waves of amplitudes 3 units and 1 unit superpose to produce beats. What is the ratio of the maximum to the minimum intensity?",
+   "options": [
+    "9 : 1",
+    "3 : 1",
+    "2 : 1",
+    "4 : 1"
+   ]
+  },
+  {
+   "id": "physics-c11-415",
+   "type": "mcq",
+   "q": "A string 0.6 m long is fixed at both ends and the wave speed on it is 120 m s⁻¹. What is the frequency of its third harmonic?",
+   "options": [
+    "100 Hz",
+    "300 Hz",
+    "200 Hz",
+    "400 Hz"
+   ]
+  },
+  {
+   "id": "physics-c11-416",
+   "type": "short",
+   "q": "A ship's sonar sends an ultrasonic pulse down and receives the echo from the sea bed 0.2 s later. If the speed of sound in sea water is 1500 m s⁻¹, find the depth of the water.",
+   "proposedAnswer": "150 m",
+   "keyPoints": [
+    "Total distance travelled = 1500 × 0.2 = 300 m",
+    "This is the down-and-back path",
+    "Depth = 300/2 = 150 m"
+   ]
+  },
+  {
+   "id": "physics-c11-417",
+   "type": "mcq",
+   "q": "Which of the following is the SI unit of thermodynamic temperature?",
+   "options": [
+    "Celsius",
+    "Kelvin",
+    "Fahrenheit",
+    "Joule"
+   ]
+  },
+  {
+   "id": "physics-c11-418",
+   "type": "mcq",
+   "q": "What is the unit of force in the CGS system?",
+   "options": [
+    "Newton",
+    "Joule",
+    "Erg",
+    "Dyne"
+   ]
+  },
+  {
+   "id": "physics-c11-419",
+   "type": "mcq",
+   "q": "How many dynes are there in one newton?",
+   "options": [
+    "10⁵",
+    "10³",
+    "10⁷",
+    "10²"
+   ]
+  },
+  {
+   "id": "physics-c11-420",
+   "type": "mcq",
+   "q": "How many significant figures does the number 100.50 have?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "2"
+   ]
+  },
+  {
+   "id": "physics-c11-421",
+   "type": "mcq",
+   "q": "Average velocity of a body over a time interval is defined as",
+   "options": [
+    "total displacement / total time",
+    "total distance / total time",
+    "initial velocity + final velocity",
+    "acceleration × time"
+   ]
+  },
+  {
+   "id": "physics-c11-422",
+   "type": "mcq",
+   "q": "The acceleration due to gravity near the Earth's surface is directed",
+   "options": [
+    "upward",
+    "horizontally",
+    "downward, towards the centre of the Earth",
+    "in the direction of the object's motion"
+   ]
+  },
+  {
+   "id": "physics-c11-423",
+   "type": "mcq",
+   "q": "A ball is thrown vertically upward at 15 m s⁻¹. Taking g = 10 m s⁻², what is its velocity after 1 s?",
+   "options": [
+    "25 m s⁻¹ upward",
+    "5 m s⁻¹ upward",
+    "15 m s⁻¹ upward",
+    "10 m s⁻¹ downward"
+   ]
+  },
+  {
+   "id": "physics-c11-424",
+   "type": "mcq",
+   "q": "A body starts from rest with a uniform acceleration of 2 m s⁻². How far does it travel during the 3rd second alone?",
+   "options": [
+    "9 m",
+    "4 m",
+    "6 m",
+    "5 m"
+   ]
+  },
+  {
+   "id": "physics-c11-425",
+   "type": "mcq",
+   "q": "The scalar (dot) product of two vectors is",
+   "options": [
+    "a vector",
+    "a tensor",
+    "an angle",
+    "a scalar"
+   ]
+  },
+  {
+   "id": "physics-c11-426",
+   "type": "mcq",
+   "q": "The vector product A × B is directed",
+   "options": [
+    "parallel to A",
+    "perpendicular to the plane containing A and B",
+    "along A + B",
+    "it has no direction"
+   ]
+  },
+  {
+   "id": "physics-c11-427",
+   "type": "mcq",
+   "q": "What is the magnitude of the vector A = 6î − 8ĵ?",
+   "options": [
+    "14",
+    "2",
+    "10",
+    "7"
+   ]
+  },
+  {
+   "id": "physics-c11-428",
+   "type": "mcq",
+   "q": "A particle moves in a circle with a time period of 0.5 s. What is its angular speed?",
+   "options": [
+    "4π rad s⁻¹",
+    "π/4 rad s⁻¹",
+    "2π rad s⁻¹",
+    "π rad s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-429",
+   "type": "mcq",
+   "q": "A projectile is launched at 30 m s⁻¹ at 30° above the horizontal (g = 10 m s⁻²). After how long does it reach its highest point?",
+   "options": [
+    "3 s",
+    "0.75 s",
+    "2.6 s",
+    "1.5 s"
+   ]
+  },
+  {
+   "id": "physics-c11-430",
+   "type": "mcq",
+   "q": "Newton's second law can be stated in terms of momentum p as",
+   "options": [
+    "F = mv",
+    "F = m/a",
+    "F = dp/dt",
+    "F = m²a"
+   ]
+  },
+  {
+   "id": "physics-c11-431",
+   "type": "mcq",
+   "q": "For the same pair of surfaces, which of the following is generally the largest?",
+   "options": [
+    "Limiting static friction",
+    "Kinetic friction",
+    "Rolling friction",
+    "They are always equal"
+   ]
+  },
+  {
+   "id": "physics-c11-432",
+   "type": "mcq",
+   "q": "Forces of 12 N and 6 N act on a 3 kg body in the same direction. What is the acceleration?",
+   "options": [
+    "2 m s⁻²",
+    "3 m s⁻²",
+    "4 m s⁻²",
+    "6 m s⁻²"
+   ]
+  },
+  {
+   "id": "physics-c11-433",
+   "type": "mcq",
+   "q": "A 10 kg mass hangs at rest from a rope. Taking g = 10 m s⁻², what is the tension in the rope?",
+   "options": [
+    "10 N",
+    "100 N",
+    "1000 N",
+    "0 N"
+   ]
+  },
+  {
+   "id": "physics-c11-434",
+   "type": "mcq",
+   "q": "A 500 kg lift is pulled upward by a cable and accelerates upward at 1 m s⁻². Taking g = 10 m s⁻², what is the tension in the cable?",
+   "options": [
+    "5500 N",
+    "5000 N",
+    "4500 N",
+    "500 N"
+   ]
+  },
+  {
+   "id": "physics-c11-435",
+   "type": "mcq",
+   "q": "Power is defined as",
+   "options": [
+    "force × distance",
+    "work × time",
+    "mass × velocity",
+    "work done per unit time"
+   ]
+  },
+  {
+   "id": "physics-c11-436",
+   "type": "mcq",
+   "q": "The energy possessed by a body because of its motion is called",
+   "options": [
+    "kinetic energy",
+    "potential energy",
+    "thermal energy",
+    "chemical energy"
+   ]
+  },
+  {
+   "id": "physics-c11-437",
+   "type": "mcq",
+   "q": "A 3 kg body falls freely from a height of 5 m (g = 10 m s⁻²). What is its kinetic energy just before it reaches the ground?",
+   "options": [
+    "15 J",
+    "50 J",
+    "150 J",
+    "300 J"
+   ]
+  },
+  {
+   "id": "physics-c11-438",
+   "type": "mcq",
+   "q": "A spring of force constant 100 N m⁻¹ is stretched from its natural length by 0.2 m. How much work is done in stretching it?",
+   "options": [
+    "1 J",
+    "2 J",
+    "4 J",
+    "20 J"
+   ]
+  },
+  {
+   "id": "physics-c11-439",
+   "type": "mcq",
+   "q": "A 0.1 kg ball hits a wall perpendicularly at 10 m s⁻¹ and bounces back elastically with the same speed. What is the magnitude of the change in its momentum?",
+   "options": [
+    "0",
+    "1 kg m s⁻¹",
+    "1.5 kg m s⁻¹",
+    "2 kg m s⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-440",
+   "type": "mcq",
+   "q": "What is the SI unit of angular velocity?",
+   "options": [
+    "rad s⁻¹",
+    "m s⁻¹",
+    "Hz m",
+    "kg s"
+   ]
+  },
+  {
+   "id": "physics-c11-441",
+   "type": "mcq",
+   "q": "A flywheel is fitted to an engine because",
+   "options": [
+    "it reduces the mass of the engine",
+    "it increases friction",
+    "its large moment of inertia resists sudden changes in rotational speed",
+    "it increases the torque"
+   ]
+  },
+  {
+   "id": "physics-c11-442",
+   "type": "mcq",
+   "q": "Masses of 1 kg, 2 kg and 3 kg are placed on the x-axis at x = 0, 1 m and 2 m. Where is the centre of mass?",
+   "options": [
+    "1.0 m",
+    "1.5 m",
+    "2.0 m",
+    "1.33 m"
+   ]
+  },
+  {
+   "id": "physics-c11-443",
+   "type": "mcq",
+   "q": "A body has moment of inertia 2 kg m² and an angular acceleration of 3 rad s⁻². What torque acts on it?",
+   "options": [
+    "5 N m",
+    "6 N m",
+    "1.5 N m",
+    "12 N m"
+   ]
+  },
+  {
+   "id": "physics-c11-444",
+   "type": "mcq",
+   "q": "A ring and a disc have the same mass and radius. What is the ratio of the moment of inertia of the ring to that of the disc about the axis through the centre perpendicular to the plane?",
+   "options": [
+    "2 : 1",
+    "1 : 2",
+    "1 : 1",
+    "3 : 2"
+   ]
+  },
+  {
+   "id": "physics-c11-445",
+   "type": "mcq",
+   "q": "A uniform metre stick is balanced on a knife edge at the 50 cm mark. A 100 g mass hangs at the 20 cm mark. What mass must hang at the 80 cm mark to keep it balanced?",
+   "options": [
+    "50 g",
+    "200 g",
+    "100 g",
+    "150 g"
+   ]
+  },
+  {
+   "id": "physics-c11-446",
+   "type": "short",
+   "q": "A thin ring of mass 2 kg and radius 0.3 m is to be given an angular acceleration of 5 rad s⁻² about its central axis. Find its moment of inertia and the torque required.",
+   "proposedAnswer": "I = 0.18 kg m²; torque = 0.9 N m.",
+   "keyPoints": [
+    "I = MR² = 2 × 0.09 = 0.18 kg m²",
+    "τ = Iα",
+    "= 0.18 × 5 = 0.9 N m"
+   ]
+  },
+  {
+   "id": "physics-c11-447",
+   "type": "mcq",
+   "q": "The orbital speed of a satellite in a circular orbit depends on",
+   "options": [
+    "the mass of the satellite",
+    "the mass of the planet and the orbital radius",
+    "the size of the satellite",
+    "the mass of the Moon"
+   ]
+  },
+  {
+   "id": "physics-c11-448",
+   "type": "mcq",
+   "q": "According to Kepler's first law, the orbit of a planet is",
+   "options": [
+    "a circle with the Sun at the centre",
+    "a parabola",
+    "an ellipse with the Sun at the centre",
+    "an ellipse with the Sun at one focus"
+   ]
+  },
+  {
+   "id": "physics-c11-449",
+   "type": "mcq",
+   "q": "At which place on the Earth's surface is the acceleration due to gravity the largest?",
+   "options": [
+    "At the poles",
+    "At the equator",
+    "It is the same everywhere",
+    "At the centre"
+   ]
+  },
+  {
+   "id": "physics-c11-450",
+   "type": "mcq",
+   "q": "A 10 kg body is taken to a planet where the acceleration due to gravity is 2.5 m s⁻². What is its weight there?",
+   "options": [
+    "10 N",
+    "250 N",
+    "25 N",
+    "4 N"
+   ]
+  },
+  {
+   "id": "physics-c11-451",
+   "type": "mcq",
+   "q": "Two satellites A and B orbit the same planet in circular orbits of radii r and 2r. What is the ratio of their orbital speeds v_A : v_B?",
+   "options": [
+    "2 : 1",
+    "√2 : 1",
+    "1 : √2",
+    "4 : 1"
+   ]
+  },
+  {
+   "id": "physics-c11-452",
+   "type": "mcq",
+   "q": "How does the escape speed from the Earth's surface change if the mass of the projectile is doubled?",
+   "options": [
+    "It doubles",
+    "It halves",
+    "It increases by √2",
+    "It stays the same"
+   ]
+  },
+  {
+   "id": "physics-c11-453",
+   "type": "short",
+   "q": "A planet orbits the Sun at 4 times the Earth's distance from the Sun. Using Kepler's third law, find its orbital period in years.",
+   "proposedAnswer": "8 years",
+   "keyPoints": [
+    "T² ∝ r³",
+    "T² = 4³ = 64 (in years² when r is in astronomical units)",
+    "T = 8 years"
+   ]
+  },
+  {
+   "id": "physics-c11-454",
+   "type": "mcq",
+   "q": "What is the SI unit of stress?",
+   "options": [
+    "Pascal (N m⁻²)",
+    "It has no unit",
+    "Newton",
+    "Metre"
+   ]
+  },
+  {
+   "id": "physics-c11-455",
+   "type": "mcq",
+   "q": "The shear modulus describes how a solid responds to a deforming force that tends to change its",
+   "options": [
+    "volume",
+    "length",
+    "shape",
+    "density"
+   ]
+  },
+  {
+   "id": "physics-c11-456",
+   "type": "mcq",
+   "q": "A 20 kg mass hangs from a wire of cross-section 1 mm². Taking g = 10 m s⁻², what is the tensile stress in the wire?",
+   "options": [
+    "2 × 10⁶ Pa",
+    "2 × 10⁸ Pa",
+    "2 × 10⁷ Pa",
+    "2 × 10¹⁰ Pa"
+   ]
+  },
+  {
+   "id": "physics-c11-457",
+   "type": "mcq",
+   "q": "A material has a bulk modulus of 5 × 10⁹ Pa. What is its compressibility (the reciprocal of the bulk modulus)?",
+   "options": [
+    "5 × 10⁹ Pa⁻¹",
+    "2 × 10⁹ Pa⁻¹",
+    "5 × 10⁻¹⁰ Pa⁻¹",
+    "2 × 10⁻¹⁰ Pa⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-458",
+   "type": "mcq",
+   "q": "A load of 100 N produces an extension of 1 mm in a wire (within the elastic limit). How much elastic potential energy is stored in the wire?",
+   "options": [
+    "0.05 J",
+    "0.1 J",
+    "0.5 J",
+    "5 J"
+   ]
+  },
+  {
+   "id": "physics-c11-459",
+   "type": "mcq",
+   "q": "A wire of length L and radius r stretches by x under a load F. A wire of the same material with length 2L and radius 2r carries the same load. What is its extension?",
+   "options": [
+    "x",
+    "2x",
+    "x/2",
+    "x/4"
+   ]
+  },
+  {
+   "id": "physics-c11-460",
+   "type": "short",
+   "q": "A steel wire 2 m long and 1 mm in diameter carries a 10 kg load (g = 10 m s⁻²). Young's modulus of steel is 2 × 10¹¹ Pa. Find the extension.",
+   "proposedAnswer": "About 1.27 mm",
+   "keyPoints": [
+    "Area = π(0.5 × 10⁻³)² ≈ 7.85 × 10⁻⁷ m²",
+    "ΔL = FL/(AY) = 100 × 2/(7.85 × 10⁻⁷ × 2 × 10¹¹)",
+    "≈ 1.27 × 10⁻³ m"
+   ]
+  },
+  {
+   "id": "physics-c11-461",
+   "type": "mcq",
+   "q": "The property of a fluid by which it resists the relative motion between its layers is called",
+   "options": [
+    "surface tension",
+    "viscosity",
+    "density",
+    "elasticity"
+   ]
+  },
+  {
+   "id": "physics-c11-462",
+   "type": "mcq",
+   "q": "The angle of contact between pure water and clean glass is",
+   "options": [
+    "obtuse",
+    "exactly 90°",
+    "180°",
+    "acute (nearly zero)"
+   ]
+  },
+  {
+   "id": "physics-c11-463",
+   "type": "mcq",
+   "q": "A mercury barometer reads 76 cm. Taking the density of mercury as 13600 kg m⁻³ and g = 9.8 m s⁻², what is the atmospheric pressure?",
+   "options": [
+    "1.01 × 10⁵ Pa",
+    "7.6 × 10⁴ Pa",
+    "1.36 × 10⁵ Pa",
+    "1.01 × 10⁷ Pa"
+   ]
+  },
+  {
+   "id": "physics-c11-464",
+   "type": "mcq",
+   "q": "A soap film is stretched on a wire frame, and a 5 cm long wire slides on it. If the surface tension is 0.03 N m⁻¹ and the film has two surfaces, what force must be applied to the wire to hold it in equilibrium?",
+   "options": [
+    "1.5 mN",
+    "6 mN",
+    "3 mN",
+    "0.3 mN"
+   ]
+  },
+  {
+   "id": "physics-c11-465",
+   "type": "mcq",
+   "q": "Air flows over the top surface of an aircraft wing at 50 m s⁻¹ and under it at 40 m s⁻¹. Taking the density of air as 1.2 kg m⁻³, what is the pressure difference between the lower and upper surfaces?",
+   "options": [
+    "100 Pa",
+    "270 Pa",
+    "1080 Pa",
+    "540 Pa"
+   ]
+  },
+  {
+   "id": "physics-c11-466",
+   "type": "mcq",
+   "q": "The boiling point of water at normal atmospheric pressure on the Kelvin scale is about",
+   "options": [
+    "273 K",
+    "100 K",
+    "373 K",
+    "473 K"
+   ]
+  },
+  {
+   "id": "physics-c11-467",
+   "type": "mcq",
+   "q": "What is the SI unit of specific latent heat?",
+   "options": [
+    "J kg⁻¹",
+    "J K⁻¹",
+    "W",
+    "J"
+   ]
+  },
+  {
+   "id": "physics-c11-468",
+   "type": "mcq",
+   "q": "The specific heat of copper is 400 J kg⁻¹ K⁻¹. How much heat is needed to raise the temperature of 0.5 kg of copper by 20 K?",
+   "options": [
+    "400 J",
+    "2000 J",
+    "800 J",
+    "4000 J"
+   ]
+  },
+  {
+   "id": "physics-c11-469",
+   "type": "mcq",
+   "q": "A 2 m long rod has a coefficient of linear expansion of 2 × 10⁻⁵ K⁻¹. By how much does its length increase when its temperature rises by 100 K?",
+   "options": [
+    "0.4 mm",
+    "4 mm",
+    "40 mm",
+    "0.04 mm"
+   ]
+  },
+  {
+   "id": "physics-c11-470",
+   "type": "mcq",
+   "q": "A black sphere of radius 0.1 m is at 1000 K. Taking σ = 5.67 × 10⁻⁸ W m⁻² K⁻⁴, approximately how much power does it radiate (treat it as a perfect black body)?",
+   "options": [
+    "71 W",
+    "710 W",
+    "7.1 × 10³ W",
+    "7.1 × 10⁵ W"
+   ]
+  },
+  {
+   "id": "physics-c11-471",
+   "type": "mcq",
+   "q": "A thin metal plate with a circular hole in it is heated uniformly. What happens to the diameter of the hole?",
+   "options": [
+    "It increases",
+    "It decreases",
+    "It does not change",
+    "The hole closes up"
+   ]
+  },
+  {
+   "id": "physics-c11-472",
+   "type": "short",
+   "q": "How much heat is released when 10 g of steam at 100 °C condenses to water at 100 °C? (Latent heat of vaporisation = 540 cal g⁻¹.)",
+   "proposedAnswer": "5400 cal",
+   "keyPoints": [
+    "Q = mL",
+    "= 10 × 540",
+    "= 5400 cal"
+   ]
+  },
+  {
+   "id": "physics-c11-473",
+   "type": "mcq",
+   "q": "Which of the following is a state variable (a quantity that depends only on the state of the system)?",
+   "options": [
+    "Heat absorbed",
+    "Work done",
+    "Length of the path followed",
+    "Internal energy"
+   ]
+  },
+  {
+   "id": "physics-c11-474",
+   "type": "mcq",
+   "q": "Which of the following is forbidden by the second law of thermodynamics?",
+   "options": [
+    "Heat flowing from a hot body to a cold body",
+    "A cyclic engine converting all the heat from a single reservoir into work",
+    "Work being converted completely into heat",
+    "A gas expanding into a vacuum"
+   ]
+  },
+  {
+   "id": "physics-c11-475",
+   "type": "mcq",
+   "q": "An ideal gas is compressed isothermally. What happens to the heat?",
+   "options": [
+    "The gas gives out heat equal to the work done on it",
+    "The gas absorbs heat from the surroundings",
+    "No heat is exchanged",
+    "The internal energy of the gas increases"
+   ]
+  },
+  {
+   "id": "physics-c11-476",
+   "type": "mcq",
+   "q": "2 mol of an ideal gas with Cv = 12.5 J mol⁻¹ K⁻¹ is heated at constant volume through 10 K. How much heat is absorbed?",
+   "options": [
+    "125 J",
+    "500 J",
+    "250 J",
+    "0 J"
+   ]
+  },
+  {
+   "id": "physics-c11-477",
+   "type": "mcq",
+   "q": "A refrigerator has a coefficient of performance of 5. How much work is needed to remove 1000 J of heat from the cold space?",
+   "options": [
+    "100 J",
+    "200 J",
+    "500 J",
+    "5000 J"
+   ]
+  },
+  {
+   "id": "physics-c11-478",
+   "type": "mcq",
+   "q": "On a P–V diagram, an adiabatic curve through a point compared with the isothermal curve through the same point is",
+   "options": [
+    "less steep",
+    "equally steep",
+    "horizontal",
+    "steeper"
+   ]
+  },
+  {
+   "id": "physics-c11-479",
+   "type": "short",
+   "q": "A gas absorbs 400 J of heat and does 150 J of work. Find the change in its internal energy.",
+   "proposedAnswer": "+250 J",
+   "keyPoints": [
+    "First law: Q = ΔU + W",
+    "ΔU = Q − W = 400 − 150",
+    "= 250 J (increase)"
+   ]
+  },
+  {
+   "id": "physics-c11-480",
+   "type": "mcq",
+   "q": "The ideal gas equation for n moles of a gas is",
+   "options": [
+    "PV = nRT",
+    "PV = RT/n",
+    "P = nRTV",
+    "V = nRTP"
+   ]
+  },
+  {
+   "id": "physics-c11-481",
+   "type": "mcq",
+   "q": "The Boltzmann constant has a value of about",
+   "options": [
+    "8.31 J mol⁻¹ K⁻¹",
+    "6.02 × 10²³ mol⁻¹",
+    "1.38 × 10⁻²³ J K⁻¹",
+    "9.8 m s⁻²"
+   ]
+  },
+  {
+   "id": "physics-c11-482",
+   "type": "mcq",
+   "q": "What is the density of oxygen gas (molar mass 32 g mol⁻¹) at STP? (Molar volume = 22.4 L.)",
+   "options": [
+    "0.71 kg m⁻³",
+    "1.43 kg m⁻³",
+    "2.86 kg m⁻³",
+    "32 kg m⁻³"
+   ]
+  },
+  {
+   "id": "physics-c11-483",
+   "type": "mcq",
+   "q": "The average translational kinetic energy per molecule of a gas at 600 K compared with that at 300 K is",
+   "options": [
+    "the same",
+    "half",
+    "4 times",
+    "2 times"
+   ]
+  },
+  {
+   "id": "physics-c11-484",
+   "type": "mcq",
+   "q": "What is the molar specific heat at constant volume of a monatomic ideal gas? (R = 8.31 J mol⁻¹ K⁻¹.)",
+   "options": [
+    "12.5 J mol⁻¹ K⁻¹",
+    "20.8 J mol⁻¹ K⁻¹",
+    "8.31 J mol⁻¹ K⁻¹",
+    "29.1 J mol⁻¹ K⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-485",
+   "type": "mcq",
+   "q": "Helium (molar mass 4 g mol⁻¹) and hydrogen (H₂, molar mass 2 g mol⁻¹) are at the same temperature. What is the ratio of the rms speed of helium molecules to that of hydrogen molecules?",
+   "options": [
+    "√2",
+    "2",
+    "1/√2",
+    "1/2"
+   ]
+  },
+  {
+   "id": "physics-c11-486",
+   "type": "short",
+   "q": "How many moles of a gas are there in 3.011 × 10²³ molecules? (N_A = 6.022 × 10²³ mol⁻¹.)",
+   "proposedAnswer": "0.5 mol",
+   "keyPoints": [
+    "n = N/N_A",
+    "= 3.011 × 10²³ / 6.022 × 10²³",
+    "= 0.5 mol"
+   ]
+  },
+  {
+   "id": "physics-c11-487",
+   "type": "mcq",
+   "q": "A source vibrates at a frequency of 50 Hz. What is its time period?",
+   "options": [
+    "0.2 s",
+    "0.02 s",
+    "2 s",
+    "50 s"
+   ]
+  },
+  {
+   "id": "physics-c11-488",
+   "type": "mcq",
+   "q": "When the frequency of an external periodic force equals the natural frequency of an oscillator, the amplitude of oscillation becomes",
+   "options": [
+    "zero",
+    "very small",
+    "constant at any frequency",
+    "maximum"
+   ]
+  },
+  {
+   "id": "physics-c11-489",
+   "type": "mcq",
+   "q": "A mass on a spring of force constant 40π² N m⁻¹ has a time period of 1 s. What is the mass?",
+   "options": [
+    "10 kg",
+    "1 kg",
+    "4 kg",
+    "0.25 kg"
+   ]
+  },
+  {
+   "id": "physics-c11-490",
+   "type": "mcq",
+   "q": "A particle in SHM has displacement x = A cos ωt. At t = 0 which of the following is true?",
+   "options": [
+    "Its kinetic energy is maximum",
+    "Its speed is maximum",
+    "Its potential energy is maximum",
+    "Its acceleration is zero"
+   ]
+  },
+  {
+   "id": "physics-c11-491",
+   "type": "mcq",
+   "q": "A particle performs SHM with a time period of 4 s and amplitude 8 cm, starting from the mean position. How long does it take to reach a displacement of 4 cm?",
+   "options": [
+    "0.5 s",
+    "1/3 s",
+    "2/3 s",
+    "1 s"
+   ]
+  },
+  {
+   "id": "physics-c11-492",
+   "type": "mcq",
+   "q": "A simple pendulum is suspended in a lift that accelerates upward. Compared with the lift at rest, its time period",
+   "options": [
+    "increases",
+    "is unchanged",
+    "becomes zero",
+    "decreases"
+   ]
+  },
+  {
+   "id": "physics-c11-493",
+   "type": "short",
+   "q": "A 2 kg mass attached to a spring oscillates with a time period of 0.628 s. Find the force constant of the spring.",
+   "proposedAnswer": "About 200 N m⁻¹",
+   "keyPoints": [
+    "T = 2π√(m/k)",
+    "k = 4π²m/T² = 39.5 × 2/0.394",
+    "≈ 200 N m⁻¹"
+   ]
+  },
+  {
+   "id": "physics-c11-494",
+   "type": "mcq",
+   "q": "A travelling wave transports",
+   "options": [
+    "matter",
+    "only mass",
+    "energy",
+    "only charge"
+   ]
+  },
+  {
+   "id": "physics-c11-495",
+   "type": "mcq",
+   "q": "Ultrasonic waves are sound waves with frequencies",
+   "options": [
+    "above 20 kHz",
+    "below 20 Hz",
+    "between 20 Hz and 2000 Hz",
+    "of exactly 20 kHz"
+   ]
+  },
+  {
+   "id": "physics-c11-496",
+   "type": "mcq",
+   "q": "A wave is given by y = 0.1 sin(4πt − 2πx) in SI units. What is its frequency?",
+   "options": [
+    "4 Hz",
+    "1 Hz",
+    "π Hz",
+    "2 Hz"
+   ]
+  },
+  {
+   "id": "physics-c11-497",
+   "type": "mcq",
+   "q": "A string 1 m long is fixed at both ends and the wave speed on it is 200 m s⁻¹. What is its fundamental frequency?",
+   "options": [
+    "50 Hz",
+    "100 Hz",
+    "200 Hz",
+    "400 Hz"
+   ]
+  },
+  {
+   "id": "physics-c11-498",
+   "type": "mcq",
+   "q": "An open organ pipe and a closed organ pipe have the same length. How does the fundamental frequency of the open pipe compare with that of the closed pipe?",
+   "options": [
+    "It is twice as large",
+    "It is half as large",
+    "They are equal",
+    "It is four times as large"
+   ]
+  },
+  {
+   "id": "physics-c11-499",
+   "type": "mcq",
+   "q": "A source emits a note of 340 Hz. An observer moves towards the stationary source at 17 m s⁻¹. If the speed of sound is 340 m s⁻¹, what frequency does the observer hear?",
+   "options": [
+    "323 Hz",
+    "340 Hz",
+    "357 Hz",
+    "374 Hz"
+   ]
+  },
+  {
+   "id": "physics-c11-500",
+   "type": "short",
+   "q": "A wave on a string has a frequency of 50 Hz and a wavelength of 0.4 m. Find its speed and the time it takes to travel 10 m along the string.",
+   "proposedAnswer": "Speed = 20 m s⁻¹; time = 0.5 s.",
+   "keyPoints": [
+    "v = fλ = 50 × 0.4 = 20 m s⁻¹",
+    "t = distance/speed",
+    "= 10/20 = 0.5 s"
+   ]
+  }
+ ]
+}
