@@ -4902,7 +4902,8 @@
    "reviewed": false,
    "crossCheck": {
     "result": "disagree",
-    "checkerAnswer": "A"
+    "checkerAnswer": "A",
+    "note": " Reviewed: T = 2π√(m/k) does not depend on g; the key is right."
    }
   },
   {
@@ -8839,7 +8840,7 @@
    "crossCheck": {
     "result": "unsure",
     "checkerAnswer": "B",
-    "note": "Unsure."
+    "note": "Unsure. Reviewed: torque about the hinge gives 50 N; kept."
    }
   },
   {

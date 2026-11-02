@@ -21,7 +21,14 @@
  "syllabus": "unverified: topics are the drafting model’s reading of the official syllabus (NCERT/CBSE, or the exam’s notified syllabus) and have not been checked against the official documents",
  "drafted_by": "claude-sonnet",
  "drafted_at": "2026-11-02",
- "crossCheck": null,
+ "crossCheck": {
+  "model": "claude-haiku",
+  "method": "MCQs answered blind (no key shown); short answers judged against their proposed answer",
+  "agree": 496,
+  "disagree": 3,
+  "unsure": 1,
+  "missing": 0
+ },
  "questions": [
   {
    "id": "chemistry-c12-001",
@@ -42,7 +49,11 @@
    "explanation": "Glass has only short-range order and no sharp melting point, so it is amorphous; the others are crystalline.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-002",
@@ -63,7 +74,11 @@
    "explanation": "8 corners x 1/8 + 6 face centres x 1/2 = 1 + 3 = 4 atoms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-003",
@@ -84,7 +99,11 @@
    "explanation": "Simple cubic is 52.4%, bcc is about 68% and fcc/hcp are 74%.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-004",
@@ -105,7 +124,11 @@
    "explanation": "In a Schottky defect, pairs of oppositely charged ions leave the crystal, so the density decreases.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-005",
@@ -126,7 +149,11 @@
    "explanation": "d = ZM/(a³N_A) = 4 x 63.5/[(3.61 x 10⁻⁸)³ x 6.022 x 10²³] = 254/28.33 ≈ 8.97 g cm⁻³.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-006",
@@ -147,7 +174,11 @@
    "explanation": "A radius ratio of 0.414–0.732 corresponds to an octahedral void, giving coordination number 6.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-007",
@@ -167,7 +198,10 @@
    "explanation": "The order in the arrangement of particles decides the melting behaviour and the directional properties.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-008",
@@ -187,7 +221,10 @@
    "explanation": "Each fcc cell has 4 atoms, so the number of cells is one quarter of Avogadro's number.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-009",
@@ -208,7 +245,11 @@
    "explanation": "Molality (m) = moles of solute / mass of solvent in kg; it does not change with temperature.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-010",
@@ -229,7 +270,11 @@
    "explanation": "Henry's law: p = K_H x, where x is the mole fraction of the dissolved gas.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-011",
@@ -250,7 +295,11 @@
    "explanation": "K₂SO₄ gives 2 K⁺ and 1 SO₄²⁻, i.e. 3 particles per formula unit, so i = 3.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-012",
@@ -271,7 +320,11 @@
    "explanation": "Moles = 18/180 = 0.1; mass of solvent = 0.5 kg; molality = 0.1/0.5 = 0.2 m.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-013",
@@ -292,7 +345,11 @@
    "explanation": "Moles of urea = 0.1; molality = 0.1/0.2 = 0.5 m; ΔT_f = 1.86 x 0.5 = 0.93 K.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-014",
@@ -313,7 +370,11 @@
    "explanation": "Stronger A–B interactions lower the vapour pressure below the ideal value; mixing is exothermic with a decrease in volume.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-015",
@@ -333,7 +394,10 @@
    "explanation": "Raoult's law holds for ideal solutions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-016",
@@ -353,7 +417,10 @@
    "explanation": "Association reduces the number of particles and so the measured colligative property.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-017",
@@ -374,7 +441,11 @@
    "explanation": "Oxidation (loss of electrons) always occurs at the anode.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-018",
@@ -395,7 +466,11 @@
    "explanation": "Λm = κ/c, so the unit is S m⁻¹ / (mol m⁻³) = S m² mol⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-019",
@@ -416,7 +491,11 @@
    "explanation": "E°cell = E°cathode − E°anode = 0.34 − (−0.76) = 1.10 V.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-020",
@@ -437,7 +516,11 @@
    "explanation": "Al³⁺ + 3e⁻ → Al needs 3 F = 3 x 96 500 = 2.895 x 10⁵ C.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-021",
@@ -458,7 +541,11 @@
    "explanation": "Q = 2.0 x 1930 = 3860 C = 0.04 mol e⁻; Cu²⁺ needs 2 e⁻, so 0.02 mol Cu = 0.02 x 63.5 = 1.27 g.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-022",
@@ -479,7 +566,11 @@
    "explanation": "Only metals with negative E° (more reducing than H₂, E° = 0) displace hydrogen; copper has E° = +0.34 V.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-023",
@@ -499,7 +590,10 @@
    "explanation": "The law is used to find Λm° of weak electrolytes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-024",
@@ -519,7 +613,10 @@
    "explanation": "A lower product concentration makes the cell EMF larger than E°.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-025",
@@ -540,7 +637,11 @@
    "explanation": "For rate = k[A], k = rate/[A] = (mol L⁻¹ s⁻¹)/(mol L⁻¹) = s⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-026",
@@ -561,7 +662,11 @@
    "explanation": "Molecularity is the number of species colliding in an elementary step, so it is a whole number (rarely above 3).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-027",
@@ -582,7 +687,11 @@
    "explanation": "t½ = 0.693/k = 0.693/0.0693 = 10 min.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-028",
@@ -603,7 +712,11 @@
    "explanation": "According to the Arrhenius equation and the Maxwell distribution, more molecules cross the energy barrier at higher temperature.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-029",
@@ -624,7 +737,11 @@
    "explanation": "75% completion equals two half-lives (100 → 50 → 25% left), so t½ = 30/2 = 15 min.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-030",
@@ -645,7 +762,11 @@
    "explanation": "New rate = k(2[A])²(½[B]) = 4 x ½ = 2 times the original.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-031",
@@ -665,7 +786,10 @@
    "explanation": "A complex reaction has an order but its molecularity is defined only for each step.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-032",
@@ -685,7 +809,10 @@
    "explanation": "log 1.25 = 0.0969, so k = 0.2303 x 0.0969 ≈ 0.0223 min⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-033",
@@ -706,7 +833,11 @@
    "explanation": "Adsorption is a surface phenomenon; uniform uptake throughout the bulk is absorption.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-034",
@@ -727,7 +858,11 @@
    "explanation": "Physical adsorption involves weak van der Waals forces, unlike chemisorption which involves chemical bonds.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-035",
@@ -748,7 +883,11 @@
    "explanation": "Colloidal particles are large enough to scatter light, making the path of a beam visible.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-036",
@@ -769,7 +908,11 @@
    "explanation": "Starch forms a stable, reversible, solvent-loving (lyophilic) sol; metal and metal-sulphide sols are lyophobic.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-037",
@@ -790,7 +933,11 @@
    "explanation": "By the Hardy–Schulze rule, the coagulating power of an oppositely charged ion increases with its charge; Al³⁺ has the highest charge.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-038",
@@ -811,7 +958,11 @@
    "explanation": "A catalyst lowers E_a for both forward and reverse reactions equally and leaves ΔH and the equilibrium position unchanged.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-039",
@@ -831,7 +982,10 @@
    "explanation": "The nature of the force decides the strength and reversibility of adsorption.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-040",
@@ -851,7 +1005,10 @@
    "explanation": "Extent of physisorption increases with the ease of liquefaction of the gas.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-041",
@@ -872,7 +1029,11 @@
    "explanation": "Xenon reacted with PtF₆ to give the first noble gas compound, XePtF₆.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-042",
@@ -893,7 +1054,11 @@
    "explanation": "Electronegativity decreases down group 17, so fluorine is the most electronegative element of all.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-043",
@@ -914,7 +1079,11 @@
    "explanation": "NH₃ has three bond pairs and one lone pair on nitrogen (sp³), giving a pyramidal shape.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-044",
@@ -935,7 +1104,11 @@
    "explanation": "Ostwald process: catalytic oxidation of ammonia to NO, then to NO₂, which is absorbed in water to give HNO₃.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-045",
@@ -956,7 +1129,11 @@
    "explanation": "3(+1) + x + 3(−2) = 0, so x = +3.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-046",
@@ -977,7 +1154,11 @@
    "explanation": "Oxygen is small and highly electronegative, so water molecules form strong intermolecular hydrogen bonds, raising the boiling point.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-047",
@@ -997,7 +1178,10 @@
    "explanation": "Strong bonding and a non-polar molecule make N₂ chemically inert at room temperature.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-048",
@@ -1017,7 +1201,10 @@
    "explanation": "Availability of d orbitals allows expansion of the octet for P but not for N.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-049",
@@ -1038,7 +1225,11 @@
    "explanation": "All lanthanoids show +3; +2 and +4 occur only in a few cases.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-050",
@@ -1059,7 +1250,11 @@
    "explanation": "The MnO₄⁻ ion is intensely purple.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-051",
@@ -1080,7 +1275,11 @@
    "explanation": "A transition element should have an incomplete d subshell in the atom or in a common ion; Zn has 3d¹⁰ in both.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-052",
@@ -1101,7 +1300,11 @@
    "explanation": "4f electrons shield poorly, so increasing nuclear charge pulls the outer electrons in and radii decrease steadily.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-053",
@@ -1122,7 +1325,11 @@
    "explanation": "2(+1) + x + 4(−2) = 0, so x = +6 (manganate).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-054",
@@ -1143,7 +1350,11 @@
    "explanation": "Sc³⁺ has a 3d⁰ configuration, so no d–d transition is possible; the other ions have partly filled d orbitals.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-055",
@@ -1163,7 +1374,10 @@
    "explanation": "These arise from the partly filled d orbitals.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-056",
@@ -1183,7 +1397,10 @@
    "explanation": "Spin-only formula: μ = √[n(n+2)] Bohr magnetons.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-057",
@@ -1204,7 +1421,11 @@
    "explanation": "Six NH₃ ligands are directly bonded to Co³⁺ inside the coordination sphere.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-058",
@@ -1225,7 +1446,11 @@
    "explanation": "Ethane-1,2-diamine has two nitrogen donor atoms and binds through both.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-059",
@@ -1246,7 +1471,11 @@
    "explanation": "4(+1) + x + 6(−1) = 0, so x = +2.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-060",
@@ -1267,7 +1496,11 @@
    "explanation": "The complex ion [Fe(CN)₆]³⁻ has Fe in +3 state, hence ferrate(III).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-061",
@@ -1288,7 +1521,11 @@
    "explanation": "The strong field pairs the d electrons, giving dsp² hybridisation, a square planar shape and no unpaired electrons.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-062",
@@ -1309,7 +1546,11 @@
    "explanation": "The two compounds give different ions in solution (SO₄²⁻ and Br⁻ respectively), which is ionisation isomerism.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-063",
@@ -1329,7 +1570,10 @@
    "explanation": "These are basic terms in Werner's theory.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-064",
@@ -1349,7 +1593,10 @@
    "explanation": "Strong-field ligands force pairing, giving a low-spin inner orbital complex.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-065",
@@ -1370,7 +1617,11 @@
    "explanation": "A three-carbon chain with bromine on the end carbon is 1-bromopropane.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-066",
@@ -1391,7 +1642,11 @@
    "explanation": "Aqueous KOH brings about nucleophilic substitution of the halogen by OH⁻, giving an alcohol.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-067",
@@ -1412,7 +1667,11 @@
    "explanation": "Tertiary halides give the most stable carbocation, so they react fastest by S_N1.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-068",
@@ -1433,7 +1692,11 @@
    "explanation": "This is the Sandmeyer reaction, which replaces the diazonium group by chlorine.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-069",
@@ -1454,7 +1717,11 @@
    "explanation": "Delocalisation of chlorine's lone pair into the ring and the sp² carbon make the C–Cl bond shorter and stronger, so it is hard to break.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-070",
@@ -1475,7 +1742,11 @@
    "explanation": "In 2-bromobutane, C-2 is bonded to four different groups (H, Br, CH₃, C₂H₅), so it is chiral.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-071",
@@ -1495,7 +1766,10 @@
    "explanation": "It is a halogen exchange reaction by S_N2.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-072",
@@ -1515,7 +1789,10 @@
    "explanation": "Hybridisation and resonance both lower the polarity of the C–Cl bond in chlorobenzene.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-073",
@@ -1536,7 +1813,11 @@
    "explanation": "Phenols have the –OH group bonded directly to an sp² carbon of an aromatic ring.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-074",
@@ -1557,7 +1838,11 @@
    "explanation": "Zymase in yeast converts glucose and fructose into ethanol and carbon dioxide.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-075",
@@ -1578,7 +1863,11 @@
    "explanation": "Tertiary alcohols form the most stable carbocation and react at once with HCl/ZnCl₂.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-076",
@@ -1599,7 +1888,11 @@
    "explanation": "The –OH group strongly activates the ring, giving a white precipitate of 2,4,6-tribromophenol.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-077",
@@ -1620,7 +1913,11 @@
    "explanation": "The negative charge of the phenoxide ion is delocalised into the benzene ring, which stabilises it.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-078",
@@ -1641,7 +1938,11 @@
    "explanation": "The alkyl halide must be primary; a tertiary halide would give an alkene by elimination.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-079",
@@ -1661,7 +1962,10 @@
    "explanation": "Dichlorocarbene attacks the ortho position of the phenoxide ion.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-080",
@@ -1681,7 +1985,10 @@
    "explanation": "Hydrogen bonding raises the boiling point of alcohols.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-081",
@@ -1702,7 +2009,11 @@
    "explanation": "Aldehydes contain the –CHO group; ketones have a C=O between two carbon atoms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-082",
@@ -1723,7 +2034,11 @@
    "explanation": "Ammoniacal silver nitrate (Tollens' reagent) is reduced to silver by aldehydes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-083",
@@ -1744,7 +2059,11 @@
    "explanation": "Methanal has no α-hydrogen atoms, which are necessary for aldol condensation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-084",
@@ -1765,7 +2084,11 @@
    "explanation": "NaBH₄ reduces aldehydes to primary alcohols.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-085",
@@ -1786,7 +2109,11 @@
    "explanation": "Benzaldehyde has no α-hydrogen, so it undergoes the Cannizzaro reaction (disproportionation) to give the alcohol and the carboxylate salt.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-086",
@@ -1807,7 +2134,11 @@
    "explanation": "Three electron-withdrawing chlorine atoms stabilise the carboxylate ion most through the –I effect.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-087",
@@ -1827,7 +2158,10 @@
    "explanation": "The poisoned catalyst stops the reduction at the aldehyde stage.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-088",
@@ -1847,7 +2181,10 @@
    "explanation": "A more stable conjugate base means a stronger acid.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-089",
@@ -1868,7 +2205,11 @@
    "explanation": "The nitrogen is bonded to two alkyl groups and one hydrogen, so it is a secondary amine.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-090",
@@ -1889,7 +2230,11 @@
    "explanation": "Benzenesulphonyl chloride is used to distinguish primary, secondary and tertiary amines.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-091",
@@ -1910,7 +2255,11 @@
    "explanation": "The nitro group is reduced to an amino group, giving aniline.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-092",
@@ -1931,7 +2280,11 @@
    "explanation": "Alkyl groups increase electron density on nitrogen, so dimethylamine is more basic than ammonia, trimethylamine (solvation effect) or aniline (lone pair delocalised).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-093",
@@ -1952,7 +2305,11 @@
    "explanation": "Aryl halides do not undergo nucleophilic substitution with potassium phthalimide, so only aliphatic primary amines are formed.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-094",
@@ -1973,7 +2330,11 @@
    "explanation": "Only primary amines give the carbylamine reaction.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-095",
@@ -1993,7 +2354,10 @@
    "explanation": "Nitrous acid is generated in situ from NaNO₂ and HCl.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-096",
@@ -2013,7 +2377,10 @@
    "explanation": "Availability of the lone pair determines basic strength.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-097",
@@ -2034,7 +2401,11 @@
    "explanation": "Glucose has six carbon atoms and an aldehyde group.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-098",
@@ -2055,7 +2426,11 @@
    "explanation": "Sucrose is a disaccharide of α-D-glucose and β-D-fructose.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-099",
@@ -2076,7 +2451,11 @@
    "explanation": "Condensation of –COOH and –NH₂ with loss of water forms the –CO–NH– peptide (amide) linkage.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-100",
@@ -2097,7 +2476,11 @@
    "explanation": "Lack of vitamin C (ascorbic acid) causes scurvy, with bleeding gums.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-101",
@@ -2118,7 +2501,11 @@
    "explanation": "Heat disrupts hydrogen bonds, destroying the secondary and tertiary structure; the amino acid sequence is unchanged.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-102",
@@ -2139,7 +2526,11 @@
    "explanation": "RNA contains the sugar ribose and the base uracil; DNA has deoxyribose and thymine.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-103",
@@ -2159,7 +2550,10 @@
    "explanation": "Whether the body can make the amino acid decides the classification.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-104",
@@ -2179,7 +2573,10 @@
    "explanation": "The change of optical rotation from + to − is called inversion.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-105",
@@ -2200,7 +2597,11 @@
    "explanation": "Solid CO₂ consists of discrete molecules held by weak van der Waals forces.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-106",
@@ -2221,7 +2622,11 @@
    "explanation": "Each sphere touches 6 in its own layer, 3 above and 3 below, giving 12.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-107",
@@ -2242,7 +2647,11 @@
    "explanation": "Excess metal atoms create anion vacancies occupied by electrons, which absorb visible light.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-108",
@@ -2263,7 +2672,11 @@
    "explanation": "There is one octahedral void and two tetrahedral voids per atom.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-109",
@@ -2284,7 +2697,11 @@
    "explanation": "For N atoms of B there are N octahedral voids, so A = 2N/3. A : B = 2/3 : 1 = 2 : 3.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-110",
@@ -2305,7 +2722,11 @@
    "explanation": "Z = dN_A a³/M = 7.2 x 6.022 x 10²³ x (2.89 x 10⁻⁸)³/52 ≈ 2.0, which is bcc.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-111",
@@ -2325,7 +2746,10 @@
    "explanation": "No ions leave the crystal in a Frenkel defect, only change position.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-112",
@@ -2345,7 +2769,11 @@
    "explanation": "The face diagonal of the cube passes through three atoms in contact.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "disagree",
+    "note": "The 141 pm value is right, but keyPoint 2 has wrong algebra (\"4r = √2 a / r\"). The correct relation is 4r = √2 a, so r = a/(2√2). Reviewed: kept; the key is right."
+   }
   },
   {
    "id": "chemistry-c12-113",
@@ -2366,7 +2794,11 @@
    "explanation": "Colligative properties depend on the number of solute particles; depression of freezing point is one of them.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-114",
@@ -2387,7 +2819,11 @@
    "explanation": "Mole fractions are fractions of the total number of moles, so they add up to 1.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-115",
@@ -2408,7 +2844,11 @@
    "explanation": "π = CRT = 0.01 x 0.0821 x 300 = 0.246 atm.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-116",
@@ -2429,7 +2869,11 @@
    "explanation": "Isotonic solutions exert equal osmotic pressure at a given temperature, so there is no net flow across a semipermeable membrane.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-117",
@@ -2450,7 +2894,11 @@
    "explanation": "Moles = 0.1; molality = 0.1/0.25 = 0.4 m; ΔT_b = 0.52 x 0.4 = 0.208 K.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-118",
@@ -2471,7 +2919,11 @@
    "explanation": "CaCl₂ gives 3 particles (i = 3), more than NaCl (2) or the non-electrolytes (1), so it has the largest elevation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-119",
@@ -2491,7 +2943,10 @@
    "explanation": "Azeotropes arise from large deviations from Raoult's law.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-120",
@@ -2511,7 +2966,10 @@
    "explanation": "Mole fraction is moles of the component divided by total moles.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-121",
@@ -2532,7 +2990,11 @@
    "explanation": "Ions migrate through the salt bridge to balance the charge built up in the half-cells.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-122",
@@ -2553,7 +3015,11 @@
    "explanation": "A lead storage battery can be recharged, so it is a secondary cell.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-123",
@@ -2574,7 +3040,11 @@
    "explanation": "H₂SO₄ is consumed to form PbSO₄ and water is produced, so the solution becomes less dense.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-124",
@@ -2595,7 +3065,11 @@
    "explanation": "On dilution ions move more freely with less inter-ionic attraction, so Λm rises towards its limiting value.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-125",
@@ -2616,7 +3090,11 @@
    "explanation": "Mg has a more negative electrode potential, so it corrodes instead of iron.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-126",
@@ -2637,7 +3115,11 @@
    "explanation": "Water is reduced more easily than Na⁺, so H₂ is formed at the cathode (and Cl₂ at the anode).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-127",
@@ -2657,7 +3139,10 @@
    "explanation": "The fuel cell converts chemical energy directly into electrical energy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-128",
@@ -2677,7 +3162,10 @@
    "explanation": "1000/c converts the volume per mole into cm³.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-129",
@@ -2698,7 +3186,11 @@
    "explanation": "The powers in the rate law (the orders) are found from experiment and need not equal the coefficients.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-130",
@@ -2719,7 +3211,11 @@
    "explanation": "For a zero-order reaction, rate = k[A]⁰ = k, which is constant.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-131",
@@ -2740,7 +3236,11 @@
    "explanation": "ln k = ln A − E_a/(RT), so the slope is −E_a/R and the intercept is ln A.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-132",
@@ -2761,7 +3261,11 @@
    "explanation": "For zero order, t½ = [A]₀/2k, so it is proportional to [A]₀.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-133",
@@ -2782,7 +3286,11 @@
    "explanation": "A constant half-life (20 min) independent of concentration is the characteristic of a first-order reaction.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-134",
@@ -2803,7 +3311,11 @@
    "explanation": "For zero order, [A] = [A]₀ − kt, so t = 0.5/0.01 = 50 s.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-135",
@@ -2823,7 +3335,10 @@
    "explanation": "The excess reactant's concentration is absorbed into the rate constant.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-136",
@@ -2843,7 +3358,10 @@
    "explanation": "Since 2.303/k = 100 min and log 10 = 1, the time is 100 min.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-137",
@@ -2864,7 +3382,11 @@
    "explanation": "Smoke consists of fine solid particles dispersed in air; it is an aerosol.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-138",
@@ -2885,7 +3407,11 @@
    "explanation": "Milk has fat droplets dispersed in water.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-139",
@@ -2906,7 +3432,11 @@
    "explanation": "Unbalanced collisions with the medium's molecules make the particles move in a zig-zag path, which also keeps the sol stable.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-140",
@@ -2927,7 +3457,11 @@
    "explanation": "Here the catalyst (solid iron) is in a different phase from the gaseous reactants.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-141",
@@ -2948,7 +3482,11 @@
    "explanation": "When 1/n = 0, P⁰ = 1, so x/m = k and adsorption is constant (saturation).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-142",
@@ -2969,7 +3507,11 @@
    "explanation": "Zeolites are shape-selective catalysts, because only molecules that fit the pores can react or leave.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-143",
@@ -2989,7 +3531,10 @@
    "explanation": "The direction of migration shows the sign of the charge.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-144",
@@ -3009,7 +3554,10 @@
    "explanation": "Physisorption is generally high at low temperature.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-145",
@@ -3030,7 +3578,11 @@
    "explanation": "Helium is the second lightest gas and does not burn.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-146",
@@ -3051,7 +3603,11 @@
    "explanation": "Bleaching powder is made by passing chlorine over slaked lime and is represented as CaOCl₂ (Ca(OCl)Cl).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-147",
@@ -3072,7 +3628,11 @@
    "explanation": "V₂O₅ catalyses the oxidation of SO₂ to SO₃.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-148",
@@ -3093,7 +3653,11 @@
    "explanation": "Six bond pairs and no lone pair give an octahedral shape with sp³d² hybridisation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-149",
@@ -3114,7 +3678,11 @@
    "explanation": "More oxygen atoms disperse the negative charge of the anion better, so the acid strength increases with oxidation state of chlorine.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-150",
@@ -3135,7 +3703,11 @@
    "explanation": "Bond pairs close to the central atom repel each other more strongly, widening the angle; in PH₃ they lie farther from P.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-151",
@@ -3146,7 +3718,7 @@
    "level": 2,
    "type": "short",
    "q": "Write the equation for the industrial manufacture of ammonia by Haber's process and state the conditions.",
-   "answer": "N₂(g) + 3H₂(g) ⇌ 2NH₃(g), ΔH = −46.1 kJ/mol. Conditions: iron catalyst with promoters, about 200 atm pressure and about 700 K.",
+   "answer": "N₂(g) + 3H₂(g) ⇌ 2NH₃(g), ΔH = −92.4 kJ (that is, −46.1 kJ per mole of NH₃). Conditions: iron catalyst with promoters, about 200 atm pressure and about 700 K.",
    "keyPoints": [
     "N₂ + 3H₂ ⇌ 2NH₃",
     "Iron catalyst with promoters",
@@ -3155,7 +3727,11 @@
    "explanation": "High pressure favours ammonia; moderate temperature balances yield and rate.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "disagree",
+    "note": "The ΔH value is misstated. -46.1 kJ/mol is per mole of NH3. For the equation as written (N2 + 3H2 ⇌ 2NH3) ΔH is about -92.4 kJ. The conditions are correct. Fixed after review: ΔH for the equation as written is −92.4 kJ (−46.1 kJ per mole of NH₃)."
+   }
   },
   {
    "id": "chemistry-c12-152",
@@ -3175,7 +3751,10 @@
    "explanation": "Acid strength of hydrogen halides increases from HF to HI.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-153",
@@ -3196,7 +3775,11 @@
    "explanation": "Brass is Cu + Zn; bronze is Cu + Sn.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-154",
@@ -3217,7 +3800,11 @@
    "explanation": "Dichromate ions are orange; chromate ions are yellow.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-155",
@@ -3238,7 +3825,11 @@
    "explanation": "A half-filled d subshell is extra stable, so one 4s electron shifts to give 3d⁵4s¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-156",
@@ -3259,7 +3850,11 @@
    "explanation": "Manganese can use all its 3d and 4s electrons (3d⁵4s²), giving +7 as in KMnO₄.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-157",
@@ -3280,7 +3875,11 @@
    "explanation": "MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O accepts 5 electrons, and each Fe²⁺ gives 1.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-158",
@@ -3301,7 +3900,11 @@
    "explanation": "Fe³⁺ is d⁵ with 5 unpaired electrons; Fe²⁺ has 4, Co²⁺ has 3 and Cu²⁺ has 1.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-159",
@@ -3321,7 +3924,10 @@
    "explanation": "Examples are TiC and Fe₃H.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-160",
@@ -3341,7 +3947,10 @@
    "explanation": "Both ions are d⁴ but their products are particularly stable.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-161",
@@ -3362,7 +3971,11 @@
    "explanation": "Secondary valence is non-ionisable and equals the coordination number; primary valence is the oxidation state.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-162",
@@ -3383,7 +3996,11 @@
    "explanation": "NH₃ is neutral, so the charge on the metal equals the charge of the complex ion, +2.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-163",
@@ -3404,7 +4021,11 @@
    "explanation": "Co³⁺ with 4 NH₃ and 2 Cl⁻ gives a +1 complex cation, balanced by one chloride.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-164",
@@ -3425,7 +4046,11 @@
    "explanation": "EDTA binds through two nitrogen and four oxygen donor atoms, so it is hexadentate.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-165",
@@ -3446,7 +4071,11 @@
    "explanation": "The two Cl ligands can be adjacent (cis) or opposite (trans).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-166",
@@ -3467,7 +4096,11 @@
    "explanation": "Only the two ionisable chloride ions outside the coordination sphere precipitate; the coordinated Cl⁻ does not.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-167",
@@ -3487,7 +4120,10 @@
    "explanation": "Ligands are named first, then the metal with its oxidation state.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-168",
@@ -3507,7 +4143,10 @@
    "explanation": "Colour in complexes arises from d–d electronic transitions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-169",
@@ -3528,7 +4167,11 @@
    "explanation": "CHCl₃ is trichloromethane, commonly called chloroform.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-170",
@@ -3549,7 +4192,11 @@
    "explanation": "In the stratosphere CFCs release chlorine atoms that catalytically destroy ozone.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-171",
@@ -3570,7 +4217,11 @@
    "explanation": "S_N2 is fastest at the least hindered carbon, i.e. methyl, followed by primary, secondary and tertiary.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-172",
@@ -3591,7 +4242,11 @@
    "explanation": "Wurtz reaction: 2CH₃Br + 2Na → CH₃–CH₃ + 2NaBr.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-173",
@@ -3612,7 +4267,11 @@
    "explanation": "Elimination gives the more substituted, more stable alkene, but-2-ene.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-174",
@@ -3633,7 +4292,11 @@
    "explanation": "A racemate has equal amounts of d and l forms, so net rotation is zero (external compensation).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-175",
@@ -3653,7 +4316,10 @@
    "explanation": "The site of attack depends on the reaction conditions and the reagent.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-176",
@@ -3673,7 +4339,10 @@
    "explanation": "The nature of the cyanide salt decides which atom acts as the nucleophile.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-177",
@@ -3694,7 +4363,11 @@
    "explanation": "Methanol was originally obtained by destructive distillation of wood.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-178",
@@ -3715,7 +4388,11 @@
    "explanation": "Poisonous or foul-tasting substances (methanol, pyridine) are added so it cannot be misused as a beverage.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-179",
@@ -3736,7 +4413,11 @@
    "explanation": "Water adds according to Markovnikov's rule, so –OH goes to the middle carbon.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-180",
@@ -3757,7 +4438,11 @@
    "explanation": "PCC is a mild oxidising agent that stops at the aldehyde stage.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-181",
@@ -3778,7 +4463,11 @@
    "explanation": "The –NO₂ group withdraws electrons and stabilises the phenoxide ion, whereas the –CH₃ group in p-cresol destabilises it.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-182",
@@ -3799,7 +4488,11 @@
    "explanation": "The O–CH₃ bond cleaves because the C(aryl)–O bond is strong (partial double bond character) and does not break.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-183",
@@ -3819,7 +4512,10 @@
    "explanation": "Intramolecular dehydration occurs at the higher temperature.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-184",
@@ -3839,7 +4535,10 @@
    "explanation": "Substituents affect acidity through their influence on phenoxide stability.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-185",
@@ -3860,7 +4559,11 @@
    "explanation": "A two-carbon aldehyde is ethanal (acetaldehyde).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-186",
@@ -3881,7 +4584,11 @@
    "explanation": "Acetone, CH₃COCH₃, is propanone.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-187",
@@ -3902,7 +4609,11 @@
    "explanation": "Aromatic aldehydes such as benzaldehyde do not reduce Fehling's solution; aliphatic aldehydes do.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-188",
@@ -3923,7 +4634,11 @@
    "explanation": "Compounds containing a CH₃CO– group (methyl ketones) give the iodoform reaction; propanone has this group.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-189",
@@ -3944,7 +4659,11 @@
    "explanation": "The α-hydrogen is replaced by chlorine, giving ClCH₂COOH.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-190",
@@ -3965,7 +4684,11 @@
    "explanation": "Decarboxylation removes CO₂: CH₃COONa + NaOH → CH₄ + Na₂CO₃.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-191",
@@ -3985,7 +4708,10 @@
    "explanation": "The reaction stops at the aldehyde and does not give benzoic acid.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-192",
@@ -4005,7 +4731,10 @@
    "explanation": "Steric and electronic effects both favour aldehydes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-193",
@@ -4026,7 +4755,11 @@
    "explanation": "Its –NH₂ group is attached directly to a benzene ring.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-194",
@@ -4047,7 +4780,11 @@
    "explanation": "Amines accept protons from water, producing OH⁻ ions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-195",
@@ -4068,7 +4805,11 @@
    "explanation": "The amine formed has one carbon atom less than the amide.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-196",
@@ -4089,7 +4830,11 @@
    "explanation": "The –NH₂ group strongly activates the ring, giving a white precipitate of 2,4,6-tribromoaniline.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-197",
@@ -4110,7 +4855,11 @@
    "explanation": "Aliphatic primary amines give unstable diazonium salts that decompose to the alcohol and nitrogen gas.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-198",
@@ -4131,7 +4880,11 @@
    "explanation": "The sulphonamide of a secondary amine has no acidic N–H hydrogen, so it stays insoluble; that of a primary amine dissolves in alkali.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-199",
@@ -4151,7 +4904,10 @@
    "explanation": "Primary and secondary amines undergo acylation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-200",
@@ -4171,7 +4927,10 @@
    "explanation": "Protecting the amino group by acetylation avoids these problems.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-201",
@@ -4192,7 +4951,11 @@
    "explanation": "In sucrose the reducing groups of glucose and fructose are tied up in the glycosidic bond, so it does not reduce Tollens' or Fehling's reagent.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-202",
@@ -4213,7 +4976,11 @@
    "explanation": "Plants store glucose as starch; animals store it as glycogen.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-203",
@@ -4234,7 +5001,11 @@
    "explanation": "Enzymes are globular proteins that act as biological catalysts.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-204",
@@ -4255,7 +5026,11 @@
    "explanation": "Carbons 2, 3, 4 and 5 each carry four different groups.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-205",
@@ -4276,7 +5051,11 @@
    "explanation": "Anomers differ at the new chiral centre (C-1) created on ring closure of the aldehyde group.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-206",
@@ -4297,7 +5076,11 @@
    "explanation": "G–C pairs have three hydrogen bonds, while A–T pairs have two.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-207",
@@ -4317,7 +5100,10 @@
    "explanation": "Solubility determines whether a vitamin is stored in the body.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-208",
@@ -4337,7 +5123,10 @@
    "explanation": "The proton moves from the –COOH group to the –NH₂ group, forming a dipolar ion.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-209",
@@ -4358,7 +5147,11 @@
    "explanation": "Metals have a sea of delocalised electrons that carries current even in the solid state.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-210",
@@ -4379,7 +5172,11 @@
    "explanation": "8 corners x 1/8 + 1 body-centre atom = 2.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-211",
@@ -4400,7 +5197,11 @@
    "explanation": "Phosphorus has five valence electrons, so each dopant atom supplies one extra electron; this is n-type doping.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-212",
@@ -4421,7 +5222,11 @@
    "explanation": "Iron, cobalt and nickel are ferromagnetic; the others are diamagnetic.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-213",
@@ -4442,7 +5247,11 @@
    "explanation": "a³ = ZM/(dN_A) = 4 x 27/(2.7 x 6.022 x 10²³) = 6.64 x 10⁻²³ cm³, so a ≈ 4.05 x 10⁻⁸ cm = 405 pm.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-214",
@@ -4463,7 +5272,11 @@
    "explanation": "There are 4 Cl⁻ and 4 octahedral voids per unit cell, all filled by Na⁺, giving 1 : 1 stoichiometry and coordination number 6 : 6.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-215",
@@ -4483,7 +5296,10 @@
    "explanation": "Magnetic behaviour depends on the electron pairing.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-216",
@@ -4503,7 +5319,10 @@
    "explanation": "Corner atoms are shared by 8 cells, face atoms by 2 and edge atoms by 4.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-217",
@@ -4524,7 +5343,11 @@
    "explanation": "In an ideal solution ΔH_mix = 0 and ΔV_mix = 0, and Raoult's law holds at all concentrations.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-218",
@@ -4545,7 +5368,11 @@
    "explanation": "This is osmosis; it continues until the osmotic pressure balances the flow.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-219",
@@ -4566,7 +5393,11 @@
    "explanation": "A pressure greater than the osmotic pressure applied on the salt-water side forces water through the membrane, leaving the salt behind.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-220",
@@ -4587,7 +5418,11 @@
    "explanation": "ppm = (10 x 10⁻³ g / 2000 g) x 10⁶ = 5.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-221",
@@ -4608,7 +5443,11 @@
    "explanation": "x = p/K_H = 2/(4 x 10⁴) = 5 x 10⁻⁵.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-222",
@@ -4629,7 +5468,11 @@
    "explanation": "i = 1 + (n − 1)α = 1 + 2(0.5) = 2; ΔT_f = i K_f m = 2 x 1.86 x 0.1 = 0.372 K.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-223",
@@ -4649,7 +5492,10 @@
    "explanation": "Mixtures such as n-hexane and n-heptane are nearly ideal.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-224",
@@ -4669,7 +5515,10 @@
    "explanation": "Gas dissolution is exothermic, so by Le Chatelier's principle it is favoured at lower temperature.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-225",
@@ -4690,7 +5539,11 @@
    "explanation": "ρ = R A / l, so its unit is ohm x metre.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-226",
@@ -4711,7 +5564,11 @@
    "explanation": "Cl⁻ ions are oxidised at the anode: 2Cl⁻ → Cl₂ + 2e⁻.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-227",
@@ -4732,7 +5589,11 @@
    "explanation": "SHE is taken as the reference, and its potential is defined as zero at all temperatures.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-228",
@@ -4753,7 +5614,11 @@
    "explanation": "ΔG° = −nFE° = −2 x 96 500 x 1.10 = −212 300 J = −212.3 kJ/mol.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-229",
@@ -4774,7 +5639,11 @@
    "explanation": "log K = nE°/0.0592 = 2 x 1.10/0.0592 ≈ 37.2.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-230",
@@ -4795,7 +5664,11 @@
    "explanation": "The most negative E° belongs to the species most easily oxidised, i.e. lithium.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-231",
@@ -4814,7 +5687,10 @@
    "explanation": "The direction of energy conversion and the polarity of the electrodes differ.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-232",
@@ -4834,7 +5710,10 @@
    "explanation": "One mole of electrons deposits one mole of silver.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-233",
@@ -4855,7 +5734,11 @@
    "explanation": "k depends on temperature, activation energy and catalyst, but not on the concentrations.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-234",
@@ -4876,7 +5759,11 @@
    "explanation": "It is the energy barrier between reactants and the activated complex.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-235",
@@ -4897,7 +5784,11 @@
    "explanation": "The overall order is the sum of the powers: 2 + 1 = 3.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-236",
@@ -4918,7 +5809,11 @@
    "explanation": "k = rate/[A]² = (mol L⁻¹ s⁻¹)/(mol L⁻¹)² = L mol⁻¹ s⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-237",
@@ -4939,7 +5834,11 @@
    "explanation": "A 30 K rise corresponds to three 10 K steps, so the factor is 2³ = 8.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-238",
@@ -4960,7 +5859,11 @@
    "explanation": "The rate is controlled by the slow step, which involves one A and one B.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-239",
@@ -4980,7 +5883,10 @@
    "explanation": "Faster steps do not influence the overall rate.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-240",
@@ -5000,7 +5906,10 @@
    "explanation": "For a first-order reaction each half-life halves the concentration.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-241",
@@ -5021,7 +5930,11 @@
    "explanation": "Activated charcoal has a highly porous structure with a large surface area that adsorbs toxic gases.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-242",
@@ -5042,7 +5955,11 @@
    "explanation": "Fog consists of tiny liquid droplets suspended in air (a liquid aerosol).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-243",
@@ -5063,7 +5980,11 @@
    "explanation": "Fe(OH)₃ sol particles adsorb Fe³⁺ ions and are positively charged; As₂S₃ sol is negatively charged.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-244",
@@ -5084,7 +6005,11 @@
    "explanation": "The added electrolyte provides ions that are adsorbed on the precipitate particles, breaking them into colloidal size.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-245",
@@ -5105,7 +6030,11 @@
    "explanation": "Each enzyme has an active site that fits one particular substrate, so it acts on a specific reaction.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-246",
@@ -5126,7 +6055,11 @@
    "explanation": "Gold number is the minimum mass (mg) of protective colloid that prevents coagulation of a standard gold sol; the smaller the value, the greater the protective power.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-247",
@@ -5146,7 +6079,10 @@
    "explanation": "Colloidal particles are too large to cross the membrane.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-248",
@@ -5166,7 +6102,10 @@
    "explanation": "This is an application of coagulation of a colloid by electrolytes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-249",
@@ -5187,7 +6126,11 @@
    "explanation": "White phosphorus is highly reactive and red phosphorus is less reactive; they are well-known allotropes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-250",
@@ -5208,7 +6151,11 @@
    "explanation": "Ozone is a triatomic allotrope of oxygen.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-251",
@@ -5229,7 +6176,11 @@
    "explanation": "Chlorine has three bond pairs and two lone pairs (sp³d), giving a T-shape.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-252",
@@ -5250,7 +6201,11 @@
    "explanation": "SO₂ reduces purple MnO₄⁻ to nearly colourless Mn²⁺, being oxidised to sulphate.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-253",
@@ -5271,7 +6226,11 @@
    "explanation": "Six oxygens are −2 and two are −1 (peroxide): 2(+1) + 2x + 6(−2) + 2(−1) = 0 gives x = +6.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-254",
@@ -5292,7 +6251,11 @@
    "explanation": "XeF₆ + 3H₂O → XeO₃ + 6HF.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-255",
@@ -5312,7 +6275,10 @@
    "explanation": "Concentrated H₂SO₄ acts as an oxidising agent.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-256",
@@ -5332,7 +6298,10 @@
    "explanation": "The same trend is seen across the p-block when electrons begin to pair.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-257",
@@ -5353,7 +6322,11 @@
    "explanation": "Mercury has a very low melting point (about 234 K).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-258",
@@ -5374,7 +6347,11 @@
    "explanation": "Misch metal consists mainly of lanthanoids with some iron and traces of S, C, Ca and Al.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-259",
@@ -5395,7 +6372,11 @@
    "explanation": "Unpaired electrons give a net magnetic moment, which makes the ion paramagnetic.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-260",
@@ -5416,7 +6397,11 @@
    "explanation": "Cu⁺ is 3d¹⁰, so there is no vacancy in the d subshell and no d–d transition.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-261",
@@ -5437,7 +6422,11 @@
    "explanation": "Cr³⁺ is 3d³ with 3 unpaired electrons: μ = √(3 x 5) = √15 ≈ 3.87 BM.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-262",
@@ -5458,7 +6447,11 @@
    "explanation": "Cr₂O₇²⁻ + 2OH⁻ ⇌ 2CrO₄²⁻ + H₂O; chromium stays in the +6 state.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-263",
@@ -5478,7 +6471,10 @@
    "explanation": "Manganese goes from +4 to +6 and then to +7.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-264",
@@ -5498,7 +6494,10 @@
    "explanation": "Each Cr changes from +6 to +3, so two Cr atoms accept 6 electrons.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-265",
@@ -5519,7 +6518,11 @@
    "explanation": "Ambidentate ligands such as NO₂⁻ (N or O) and SCN⁻ (S or N) can attach through either donor atom.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-266",
@@ -5540,7 +6543,11 @@
    "explanation": "Haemoglobin contains iron in a porphyrin complex; chlorophyll has magnesium.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-267",
@@ -5561,7 +6568,11 @@
    "explanation": "H₂O is a weak-field ligand, so Fe²⁺ (d⁶) keeps t₂g⁴e_g² with 4 unpaired electrons.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-268",
@@ -5582,7 +6593,11 @@
    "explanation": "The complex ion [Zn(OH)₄]²⁻ needs two K⁺ ions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-269",
@@ -5603,7 +6618,11 @@
    "explanation": "All six ligands are identical, so only one arrangement exists.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-270",
@@ -5624,7 +6643,11 @@
    "explanation": "t₂g³e_g¹ gives 3(−0.4Δ₀) + 1(+0.6Δ₀) = −0.6Δ₀.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-271",
@@ -5644,7 +6667,10 @@
    "explanation": "Complex formation is used in analysis, metallurgy and medicine.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-272",
@@ -5664,7 +6690,10 @@
    "explanation": "Ligand field strength decides whether pairing occurs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-273",
@@ -5685,7 +6714,11 @@
    "explanation": "In (CH₃)₂CHCl the carbon bearing chlorine is attached to two other carbons.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-274",
@@ -5706,7 +6739,11 @@
    "explanation": "Iodoform is triiodomethane, a yellow solid used as an antiseptic.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-275",
@@ -5727,7 +6764,11 @@
    "explanation": "Thionyl chloride gives pure alkyl chloride because both by-products escape as gases.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-276",
@@ -5748,7 +6789,11 @@
    "explanation": "Chlorine is deactivating but ortho–para directing in electrophilic substitution.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-277",
@@ -5769,7 +6814,11 @@
    "explanation": "Benzyl chloride forms the resonance-stabilised benzyl carbocation; chlorobenzene and vinyl chloride have strong C–Cl bonds.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-278",
@@ -5790,7 +6839,11 @@
    "explanation": "It has two identical chiral centres, so there are two enantiomers (d and l) and one meso form.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-279",
@@ -5810,7 +6863,10 @@
    "explanation": "The rule follows from the more stable carbocation intermediate.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-280",
@@ -5830,7 +6886,10 @@
    "explanation": "Solubility depends on the energy balance of breaking and forming interactions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-281",
@@ -5851,7 +6910,11 @@
    "explanation": "Glycerol (propane-1,2,3-triol) has three –OH groups.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-282",
@@ -5872,7 +6935,11 @@
    "explanation": "An ether contains an oxygen atom bonded to two alkyl groups; CH₃OCH₃ is methoxymethane.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-283",
@@ -5893,7 +6960,11 @@
    "explanation": "2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-284",
@@ -5914,7 +6985,11 @@
    "explanation": "Zinc removes the oxygen of the –OH group, converting phenol to benzene.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-285",
@@ -5935,7 +7010,11 @@
    "explanation": "The methyl group adds to the carbonyl carbon of ethanal, giving a secondary alcohol, CH₃CH(OH)CH₃.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-286",
@@ -5956,7 +7035,11 @@
    "explanation": "The iodide attacks the smaller, less hindered methyl group by S_N2, giving CH₃I and C₂H₅OH.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-287",
@@ -5976,7 +7059,10 @@
    "explanation": "The –OH group activates the ring toward electrophilic substitution.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-288",
@@ -5996,7 +7082,10 @@
    "explanation": "Hydrogen bonding is present in all isomers; the difference comes from van der Waals forces.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-289",
@@ -6017,7 +7106,11 @@
    "explanation": "Formalin is an aqueous solution of methanal (formaldehyde), used to preserve biological specimens.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-290",
@@ -6038,7 +7131,11 @@
    "explanation": "Vinegar contains about 5–8% ethanoic (acetic) acid.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-291",
@@ -6059,7 +7156,11 @@
    "explanation": "The carbonyl carbon is electron-deficient and is attacked by nucleophiles.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-292",
@@ -6080,7 +7181,11 @@
    "explanation": "Secondary alcohols are oxidised to ketones.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-293",
@@ -6101,7 +7206,11 @@
    "explanation": "Benzoic acid gives brisk effervescence of CO₂ with NaHCO₃; phenol is too weak an acid to do so.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-294",
@@ -6122,7 +7231,11 @@
    "explanation": "LiAlH₄ reduces carboxylic acids to primary alcohols.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-295",
@@ -6141,7 +7254,10 @@
    "explanation": "Both uses are standard textbook applications.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-296",
@@ -6161,7 +7277,10 @@
    "explanation": "Stronger intermolecular attraction gives a higher boiling point.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-297",
@@ -6182,7 +7301,11 @@
    "explanation": "A two-carbon chain with –NH₂ is ethanamine (ethylamine).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-298",
@@ -6203,7 +7326,11 @@
    "explanation": "Aniline is colourless when freshly distilled but darkens because it is oxidised by air.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-299",
@@ -6224,7 +7351,11 @@
    "explanation": "Nitriles are reduced to primary amines containing the same number of carbons.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-300",
@@ -6245,7 +7376,11 @@
    "explanation": "The amine formed is itself nucleophilic and reacts further with the alkyl halide.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-301",
@@ -6266,7 +7401,11 @@
    "explanation": "Without solvation effects, each added alkyl group's +I effect increases basicity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-302",
@@ -6287,7 +7426,11 @@
    "explanation": "Coupling at the para position of phenoxide gives an azo dye.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-303",
@@ -6307,7 +7450,10 @@
    "explanation": "Secondary and tertiary amines do not give this test.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-304",
@@ -6327,7 +7473,10 @@
    "explanation": "Solubility reflects the balance of polar and non-polar parts.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-305",
@@ -6348,7 +7497,11 @@
    "explanation": "Fructose is the sweetest natural sugar and is found in honey and fruits.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-306",
@@ -6369,7 +7522,11 @@
    "explanation": "Cellulose has β-glycosidic linkages between β-D-glucose units.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-307",
@@ -6390,7 +7547,11 @@
    "explanation": "Insulin is a small protein (polypeptide) hormone.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-308",
@@ -6411,7 +7572,11 @@
    "explanation": "α-Helix and β-pleated sheet are secondary structures stabilised by hydrogen bonds.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-309",
@@ -6432,7 +7597,11 @@
    "explanation": "A nucleoside is base + sugar; adding a phosphate group gives the nucleotide.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-310",
@@ -6453,7 +7622,11 @@
    "explanation": "Vitamin B₁₂ (cyanocobalamin) has a cobalt ion at its centre.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-311",
@@ -6473,7 +7646,10 @@
    "explanation": "It is the bond that links sugar units into larger carbohydrates.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-312",
@@ -6493,7 +7669,10 @@
    "explanation": "Enzymes are specific to the type of linkage.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-313",
@@ -6514,7 +7693,11 @@
    "explanation": "In diamond every carbon atom is joined to four others by covalent bonds throughout the crystal.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-314",
@@ -6535,7 +7718,11 @@
    "explanation": "A unit cell is the smallest repeating unit of the lattice.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-315",
@@ -6556,7 +7743,11 @@
    "explanation": "Each atom touches one neighbour along each of the six directions ±x, ±y, ±z.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-316",
@@ -6577,7 +7768,11 @@
    "explanation": "Metal-deficiency defect: loss of Fe²⁺ is compensated by oxidation of other Fe²⁺ to Fe³⁺.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-317",
@@ -6598,7 +7793,11 @@
    "explanation": "For N atoms of X there are 2N tetrahedral voids, all filled by Y, giving X : Y = 1 : 2.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-318",
@@ -6619,7 +7818,11 @@
    "explanation": "d = 2 x 23/[(4.29 x 10⁻⁸)³ x 6.022 x 10²³] = 46/47.5 ≈ 0.97 g cm⁻³.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-319",
@@ -6638,7 +7841,10 @@
    "explanation": "Unit cells are described by edge lengths and the angles between the edges.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-320",
@@ -6658,7 +7864,10 @@
    "explanation": "Group 13 dopants give p-type; group 15 dopants give n-type.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-321",
@@ -6679,7 +7888,11 @@
    "explanation": "Mole fraction depends only on the amounts of components, not on volume, so it is temperature independent.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-322",
@@ -6700,7 +7913,11 @@
    "explanation": "Soda water is carbon dioxide dissolved in water.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-323",
@@ -6721,7 +7938,11 @@
    "explanation": "From ΔT_b = K_b m, K_b = ΔT_b/m, with unit K/(mol kg⁻¹) = K kg mol⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-324",
@@ -6742,7 +7963,11 @@
    "explanation": "Relative lowering = mole fraction of solute = 1/(1 + 9) = 0.1.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-325",
@@ -6763,7 +7988,11 @@
    "explanation": "M = wRT/(πV) = 3.0 x 0.0821 x 300/(0.0821 x 0.5) = 1800 g/mol.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-326",
@@ -6784,7 +8013,11 @@
    "explanation": "Al₂(SO₄)₃ gives 5 ions (i = 5), the most particles, so it has the largest depression in freezing point.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-327",
@@ -6803,7 +8036,10 @@
    "explanation": "Molarity changes with temperature because volume changes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-328",
@@ -6823,7 +8059,10 @@
    "explanation": "Molarity = moles/volume in litres.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-329",
@@ -6844,7 +8083,11 @@
    "explanation": "In an electrolytic cell the cathode is connected to the negative terminal of the source and attracts cations.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-330",
@@ -6865,7 +8108,11 @@
    "explanation": "Electrolytic conduction involves the migration of cations and anions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-331",
@@ -6886,7 +8133,11 @@
    "explanation": "m = Z x Q, where Q is the charge in coulombs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-332",
@@ -6907,7 +8158,11 @@
    "explanation": "E°cell = 0.80 − 0.34 = 0.46 V.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-333",
@@ -6928,7 +8183,11 @@
    "explanation": "E = (0.0592/2) log(1.0/0.01) = 0.0296 x 2 = 0.0592 V.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-334",
@@ -6949,7 +8208,11 @@
    "explanation": "By Kohlrausch's law: Λ°(CH₃COOH) = 426.2 + 91.0 − 126.5 = 390.7 S cm² mol⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-335",
@@ -6968,7 +8231,10 @@
    "explanation": "The proportionality constant Z is the electrochemical equivalent.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-336",
@@ -6988,7 +8254,10 @@
    "explanation": "The side reaction between zinc and the acidic paste continues on the shelf.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-337",
@@ -7009,7 +8278,11 @@
    "explanation": "Both sufficient energy and correct orientation are needed for an effective collision.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-338",
@@ -7030,7 +8303,11 @@
    "explanation": "Order is an experimental quantity and need not equal the stoichiometric coefficients.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-339",
@@ -7051,7 +8328,11 @@
    "explanation": "For first order t½ = 0.693/k, which does not involve the concentration.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-340",
@@ -7072,7 +8353,11 @@
    "explanation": "ln[A] = ln[A]₀ − kt.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-341",
@@ -7093,7 +8378,11 @@
    "explanation": "The rate is proportional to [A]² and [B]¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-342",
@@ -7114,7 +8403,11 @@
    "explanation": "t₉₀ = (2.303/k) log 10 and t₉₉ = (2.303/k) log 100, so the ratio is 2.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-343",
@@ -7134,7 +8427,10 @@
    "explanation": "Rate = −Δ[R]/Δt = +Δ[P]/Δt.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-344",
@@ -7154,7 +8450,10 @@
    "explanation": "The Arrhenius equation gives ln k = ln A − E_a/RT.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-345",
@@ -7175,7 +8474,11 @@
    "explanation": "Vegetable oils are hydrogenated into fats (vanaspati) using nickel.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-346",
@@ -7196,7 +8499,11 @@
    "explanation": "An emulsifier forms a protective film around droplets and prevents them from merging.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-347",
@@ -7217,7 +8524,11 @@
    "explanation": "Above the critical micelle concentration soap anions aggregate with their hydrocarbon tails inside.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-348",
@@ -7238,7 +8549,12 @@
    "explanation": "Sulphur sol consists of aggregates of many S₈ molecules; starch and proteins are macromolecular colloids and soap forms associated colloids.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "disagree",
+    "checkerAnswer": "B",
+    "note": " Reviewed: kept; the key is right."
+   }
   },
   {
    "id": "chemistry-c12-349",
@@ -7259,7 +8575,11 @@
    "explanation": "Langmuir assumed a uniform surface with a single layer of adsorbed molecules.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-350",
@@ -7280,7 +8600,11 @@
    "explanation": "Chemisorption needs activation energy, so it rises at first, but being exothermic it falls at high temperature.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-351",
@@ -7299,7 +8623,10 @@
    "explanation": "A catalyst provides a different path with lower activation energy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-352",
@@ -7318,7 +8645,10 @@
    "explanation": "Greater charge neutralises the colloidal charge more effectively.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-353",
@@ -7339,7 +8669,11 @@
    "explanation": "Dinitrogen oxide (nitrous oxide) is called laughing gas.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-354",
@@ -7360,7 +8694,11 @@
    "explanation": "Argon makes up about 0.93% of air by volume.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-355",
@@ -7381,7 +8719,11 @@
    "explanation": "HF molecules are associated through hydrogen bonds, raising its boiling point above those of HCl, HBr and HI.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-356",
@@ -7402,7 +8744,11 @@
    "explanation": "+1 + x + 4(−2) = 0, so x = +7.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-357",
@@ -7423,7 +8769,11 @@
    "explanation": "Cl₂ + 2NaOH (cold, dilute) → NaCl + NaOCl + H₂O; with hot concentrated NaOH, chlorate forms instead.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-358",
@@ -7444,7 +8794,11 @@
    "explanation": "Boiling points rise from PH₃ to SbH₃, but NH₃ is anomalously high because of hydrogen bonding, so PH₃ is lowest.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-359",
@@ -7463,7 +8817,10 @@
    "explanation": "Both consist of S₈ rings but differ in crystal structure; rhombic is the stable form at room temperature.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-360",
@@ -7483,7 +8840,10 @@
    "explanation": "The order of bond enthalpy is Cl₂ > Br₂ > F₂ > I₂.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-361",
@@ -7504,7 +8864,11 @@
    "explanation": "Actinoids (Z = 90–103) are 5f-block elements.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-362",
@@ -7525,7 +8889,11 @@
    "explanation": "d-Block elements are filling the (n−1)d orbitals, with one or two electrons in the outer s orbital.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-363",
@@ -7546,7 +8914,11 @@
    "explanation": "Loss of 3d¹4s² electrons gives Sc³⁺, which has the noble gas configuration.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-364",
@@ -7567,7 +8939,11 @@
    "explanation": "Chromite ore is fused with sodium carbonate in air, and the sodium chromate formed is converted to dichromate.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-365",
@@ -7588,7 +8964,11 @@
    "explanation": "Ce⁴⁺ has the empty 4f⁰ configuration; Eu prefers +2 (4f⁷).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-366",
@@ -7609,7 +8989,11 @@
    "explanation": "The poor shielding by 4f electrons shrinks Hf so that its size matches that of Zr, making them very hard to separate.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-367",
@@ -7628,7 +9012,10 @@
    "explanation": "They are also called rare-earth elements.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-368",
@@ -7648,7 +9035,10 @@
    "explanation": "Similar sizes allow substitution without distorting the lattice much.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-369",
@@ -7669,7 +9059,11 @@
    "explanation": "This is the definition of coordination number.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-370",
@@ -7690,7 +9084,11 @@
    "explanation": "Neutral NH₃ is called 'ammine' in complex names.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-371",
@@ -7711,7 +9109,11 @@
    "explanation": "Co³⁺ + 6 NO₂⁻ gives a 3− complex ion, needing three Na⁺.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-372",
@@ -7732,7 +9134,11 @@
    "explanation": "The ambidentate NO₂⁻ ligand is bonded through N in one and through O in the other.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-373",
@@ -7753,7 +9159,11 @@
    "explanation": "Three bidentate oxalates give coordination number 6; 3(+1) + x + 3(−2) = 0 gives x = +3.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-374",
@@ -7774,7 +9184,11 @@
    "explanation": "Ni(0) is effectively d¹⁰; four CO ligands use the 4s and three 4p orbitals, so it is sp³ and tetrahedral (diamagnetic).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-375",
@@ -7794,7 +9208,10 @@
    "explanation": "Chelates are more stable than complexes of similar monodentate ligands.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-376",
@@ -7813,7 +9230,10 @@
    "explanation": "Crystal field theory overcomes these limitations.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-377",
@@ -7834,7 +9254,11 @@
    "explanation": "In light and air, chloroform is slowly oxidised to carbonyl chloride (phosgene), which is toxic.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-378",
@@ -7855,7 +9279,11 @@
    "explanation": "CCl₂F₂ is the chlorofluorocarbon known as Freon-12.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-379",
@@ -7876,7 +9304,11 @@
    "explanation": "For the same alkyl group, boiling point increases with the size and polarisability of the halogen.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-380",
@@ -7897,7 +9329,11 @@
    "explanation": "UV light splits Cl₂ into chlorine radicals, starting a radical chain substitution.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-381",
@@ -7918,7 +9354,11 @@
    "explanation": "Under these drastic conditions the –Cl is replaced by –OH (Dow process), giving phenol.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-382",
@@ -7939,7 +9379,11 @@
    "explanation": "DDT stands for dichlorodiphenyltrichloroethane; it is a persistent organochlorine compound.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-383",
@@ -7958,7 +9402,10 @@
    "explanation": "Number the chain from the end that gives the halogen the lowest locant.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-384",
@@ -7978,7 +9425,10 @@
    "explanation": "Direct fluorination is too violent, so halogen exchange is used.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-385",
@@ -7999,7 +9449,11 @@
    "explanation": "A three-carbon chain with –OH on the end carbon is propan-1-ol.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-386",
@@ -8020,7 +9474,11 @@
    "explanation": "A primary alcohol is oxidised first to the aldehyde and then to the carboxylic acid by strong oxidising agents.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-387",
@@ -8041,7 +9499,11 @@
    "explanation": "At about 413 K the intermolecular dehydration gives ether; at 443 K ethene is formed.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-388",
@@ -8062,7 +9524,11 @@
    "explanation": "Phenol is acidic enough to react with a strong base but not with the weak base HCO₃⁻.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-389",
@@ -8083,7 +9549,11 @@
    "explanation": "Tertiary alcohols lack an α-hydrogen, so they are not oxidised without breaking C–C bonds.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-390",
@@ -8104,7 +9574,11 @@
    "explanation": "This is the Kolbe reaction, which introduces –COOH at the ortho position of phenol.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-391",
@@ -8124,7 +9598,10 @@
    "explanation": "Ordinary distillation cannot remove the last 5% water because of the azeotrope.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-392",
@@ -8144,7 +9621,10 @@
    "explanation": "Solubility reflects the balance of polar and non-polar parts.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-393",
@@ -8165,7 +9645,11 @@
    "explanation": "Methanoic (formic) acid occurs in red ants, hence its name.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-394",
@@ -8186,7 +9670,11 @@
    "explanation": "CH₃COCH₂CH₃ (butanone) has a carbonyl group between two carbon atoms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-395",
@@ -8207,7 +9695,11 @@
    "explanation": "Wolff–Kishner reduction uses NH₂NH₂/KOH at high temperature in a basic medium.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-396",
@@ -8228,7 +9720,11 @@
    "explanation": "HCN adds across the C=O bond: CH₃CHO + HCN → CH₃CH(OH)CN.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-397",
@@ -8249,7 +9745,11 @@
    "explanation": "The –COOH group deactivates the ring and directs the incoming electrophile to the meta position.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-398",
@@ -8270,7 +9770,11 @@
    "explanation": "Only an aldehyde gives a silver mirror; propanal is the aldehyde with formula C₃H₆O.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-399",
@@ -8289,7 +9793,10 @@
    "explanation": "The carboxyl group combines a carbonyl and a hydroxyl group.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-400",
@@ -8309,7 +9816,10 @@
    "explanation": "Any alkyl side chain with a benzylic hydrogen is oxidised to –COOH.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-401",
@@ -8330,7 +9840,11 @@
    "explanation": "In a tertiary amine all three hydrogens of NH₃ are replaced by alkyl or aryl groups.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-402",
@@ -8351,7 +9865,11 @@
    "explanation": "The lowest members of the aliphatic amines, such as methylamine, are gases with a fishy smell.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-403",
@@ -8372,7 +9890,11 @@
    "explanation": "Hydrogen over a palladium or nickel catalyst reduces the nitro group to an amino group.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-404",
@@ -8393,7 +9915,11 @@
    "explanation": "Acetylation of the –NH₂ group gives N-phenylethanamide (acetanilide).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-405",
@@ -8414,7 +9940,11 @@
    "explanation": "The –NO₂ group withdraws electrons and further lowers the availability of the lone pair on nitrogen.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-406",
@@ -8435,7 +9965,11 @@
    "explanation": "The diazonium group is replaced by –CN, giving C₆H₅CN.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-407",
@@ -8455,7 +9989,10 @@
    "explanation": "Classification depends on the number of hydrogens of NH₃ replaced.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-408",
@@ -8475,7 +10012,10 @@
    "explanation": "The order of boiling points is primary > secondary > tertiary.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-409",
@@ -8496,7 +10036,11 @@
    "explanation": "Lactose is composed of galactose and glucose units.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-410",
@@ -8517,7 +10061,11 @@
    "explanation": "Vitamin K helps in the synthesis of prothrombin, needed for blood clotting.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-411",
@@ -8538,7 +10086,11 @@
    "explanation": "In glycine the α-carbon carries two hydrogens, so it is not chiral.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-412",
@@ -8559,7 +10111,11 @@
    "explanation": "Amylase (diastase) breaks starch into maltose; maltase then gives glucose.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-413",
@@ -8580,7 +10136,11 @@
    "explanation": "Transfer RNA (tRNA) binds specific amino acids and delivers them according to the codons of mRNA.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-414",
@@ -8601,7 +10161,11 @@
    "explanation": "DNA is made of phosphate, 2-deoxyribose and the four bases adenine, guanine, cytosine and thymine.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-415",
@@ -8621,7 +10185,10 @@
    "explanation": "Each enzyme acts on a particular substrate.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-416",
@@ -8640,7 +10207,10 @@
    "explanation": "The shape of the polypeptide chain determines the solubility and function.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-417",
@@ -8661,7 +10231,11 @@
    "explanation": "There are seven crystal systems (cubic, tetragonal, orthorhombic, hexagonal, rhombohedral, monoclinic, triclinic); the 14 Bravais lattices belong to them.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-418",
@@ -8682,7 +10256,11 @@
    "explanation": "ABAB stacking is hexagonal close packing; ABCABC stacking is cubic close packing.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-419",
@@ -8703,7 +10281,11 @@
    "explanation": "The octahedral void has radius 0.414 r and the tetrahedral void 0.225 r.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-420",
@@ -8724,7 +10306,11 @@
    "explanation": "The small cation can move into an interstitial site, as in AgBr and ZnS.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-421",
@@ -8745,7 +10331,11 @@
    "explanation": "d = 168.4/[(4.12 x 10⁻⁸)³ x 6.022 x 10²³] = 168.4/42.1 ≈ 4.0 g cm⁻³.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-422",
@@ -8766,7 +10356,11 @@
    "explanation": "a = 2(r⁺ + r⁻) = 2(95 + 181) = 552 pm.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-423",
@@ -8787,7 +10381,11 @@
    "explanation": "Mass % = 10/(10 + 90) x 100 = 10%.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-424",
@@ -8808,7 +10406,11 @@
    "explanation": "A hypotonic solution has lower osmotic pressure than the other; a hypertonic solution has higher.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-425",
@@ -8829,7 +10431,11 @@
    "explanation": "By Henry's law, a higher partial pressure of CO₂ increases its solubility.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-426",
@@ -8850,7 +10456,11 @@
    "explanation": "x = 2/(2 + 8) = 0.2.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-427",
@@ -8871,7 +10481,11 @@
    "explanation": "P = 0.5(100) + 0.5(60) = 50 + 30 = 80 mmHg.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-428",
@@ -8892,7 +10506,11 @@
    "explanation": "p_A = 50 mmHg and P_total = 80 mmHg, so y_A = 50/80 = 0.625.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-429",
@@ -8913,7 +10531,11 @@
    "explanation": "Cell constant = l/A, so its unit is length⁻¹ (cm⁻¹ or m⁻¹).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-430",
@@ -8934,7 +10556,11 @@
    "explanation": "1 F = N_A x e ≈ 96 500 C.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-431",
@@ -8955,7 +10581,11 @@
    "explanation": "Iron corrodes in moist air to form hydrated ferric oxide.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-432",
@@ -8976,7 +10606,11 @@
    "explanation": "A weak electrolyte ionises more as it is diluted, increasing the number of ions per mole.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-433",
@@ -8997,7 +10631,11 @@
    "explanation": "1.08 g = 0.01 mol Ag, which needs 0.01 F = 965 C; t = 965 C/1.0 A = 965 s.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-434",
@@ -9018,7 +10656,11 @@
    "explanation": "E°cell = E°(SHE) − E°(Zn²⁺/Zn) = 0 − (−0.76) = +0.76 V.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-435",
@@ -9039,7 +10681,11 @@
    "explanation": "Rate depends on reactant concentrations, which decrease with time.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-436",
@@ -9060,7 +10706,11 @@
    "explanation": "This is the definition of half-life, t½.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-437",
@@ -9081,7 +10731,11 @@
    "explanation": "The rate of decay is proportional to the number of radioactive nuclei present.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-438",
@@ -9102,7 +10756,11 @@
    "explanation": "k = A e^(−E_a/RT), so a smaller E_a gives a larger k.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-439",
@@ -9123,7 +10781,11 @@
    "explanation": "87.5% consumed leaves 12.5% = (1/2)³, i.e. 3 half-lives = 90 min.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-440",
@@ -9144,7 +10806,11 @@
    "explanation": "Doubling [A] quadruples the rate, so the order is 2; k = 2 x 10⁻⁴/(0.1)² = 2 x 10⁻² L mol⁻¹ s⁻¹.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-441",
@@ -9165,7 +10831,11 @@
    "explanation": "Metal sols are lyophobic (solvent-hating) and need stabilisers; gelatin, starch and gum are lyophilic.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-442",
@@ -9186,7 +10856,11 @@
    "explanation": "Adsorption increases with pressure until the surface is saturated.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-443",
@@ -9207,7 +10881,11 @@
    "explanation": "The opposite charges neutralise each other, so the particles aggregate and settle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-444",
@@ -9228,7 +10906,11 @@
    "explanation": "Platinum (with rhodium) gauze catalyses the oxidation of NH₃ to NO at about 800 °C.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-445",
@@ -9249,7 +10931,11 @@
    "explanation": "A substance that enhances the activity of a catalyst is called a promoter.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-446",
@@ -9270,7 +10956,11 @@
    "explanation": "Particles of a sol carry the same charge, which prevents them from coming together and coagulating.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-447",
@@ -9291,7 +10981,11 @@
    "explanation": "White phosphorus (P₄) is highly reactive and shows chemiluminescence.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-448",
@@ -9312,7 +11006,11 @@
    "explanation": "Oleum is formed by dissolving SO₃ in concentrated H₂SO₄.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-449",
@@ -9333,7 +11031,11 @@
    "explanation": "NH₃ + HCl → NH₄Cl, a white solid.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-450",
@@ -9354,7 +11056,11 @@
    "explanation": "The ozone layer absorbs most of the sun's harmful UV rays.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-451",
@@ -9375,7 +11081,11 @@
    "explanation": "4H₃PO₃ → 3H₃PO₄ + PH₃; phosphorus goes from +3 to +5 and −3.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-452",
@@ -9396,7 +11106,11 @@
    "explanation": "H₃PO₃ has two –OH groups and one P–H bond, so only two hydrogens are acidic (dibasic).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-453",
@@ -9417,7 +11131,11 @@
    "explanation": "Zinc coating protects iron from rusting.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-454",
@@ -9438,7 +11156,11 @@
    "explanation": "Calcium is an s-block element.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-455",
@@ -9459,7 +11181,11 @@
    "explanation": "Fe is [Ar]3d⁶4s²; removing two 4s and one 3d electron leaves 3d⁵.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-456",
@@ -9480,7 +11206,11 @@
    "explanation": "A pale blue precipitate first forms and dissolves in excess ammonia to give the deep blue tetraamminecopper(II) complex.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-457",
@@ -9501,7 +11231,11 @@
    "explanation": "MnO₄⁻ + 2H₂O + 3e⁻ → MnO₂ + 4OH⁻ in neutral or weakly alkaline medium.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-458",
@@ -9522,7 +11256,11 @@
    "explanation": "Fe²⁺ has 4 unpaired electrons: μ = √(4 x 6) = √24 ≈ 4.90 BM.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-459",
@@ -9543,7 +11281,11 @@
    "explanation": "H₂O carries no charge; the others are anions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-460",
@@ -9564,7 +11306,11 @@
    "explanation": "Cisplatin is cis-[Pt(NH₃)₂Cl₂].",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-461",
@@ -9585,7 +11331,11 @@
    "explanation": "The ligands are exchanged between the cationic and anionic complexes, which is coordination isomerism.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-462",
@@ -9606,7 +11356,11 @@
    "explanation": "NH₃ pairs the d electrons of Co³⁺ (d⁶), leaving two 3d orbitals vacant for d²sp³ hybridisation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-463",
@@ -9627,7 +11381,11 @@
    "explanation": "It gives one [Co(NH₃)₅Cl]²⁺ ion and two Cl⁻ ions, 3 in total.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-464",
@@ -9648,7 +11406,11 @@
    "explanation": "A bidentate ligand such as ethane-1,2-diamine forms stable five-membered rings, increasing stability.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-465",
@@ -9667,7 +11429,10 @@
    "explanation": "The complex cation has charge +3, balanced by three Cl⁻.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-466",
@@ -9688,7 +11453,11 @@
    "explanation": "RBr + Mg → RMgBr in dry ether.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-467",
@@ -9709,7 +11478,11 @@
    "explanation": "C₂H₅OH + PCl₅ → C₂H₅Cl + POCl₃ + HCl.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-468",
@@ -9730,7 +11503,11 @@
    "explanation": "The carbon in CHFClBr bears four different atoms (H, F, Cl, Br).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-469",
@@ -9751,7 +11528,11 @@
    "explanation": "Alcoholic KOH brings about dehydrohalogenation (β-elimination) to give an alkene.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-470",
@@ -9772,7 +11553,11 @@
    "explanation": "The planar carbocation can be attacked from either face with equal probability, giving equal amounts of both enantiomers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-471",
@@ -9793,7 +11578,11 @@
    "explanation": "They are 1-bromobutane, 2-bromobutane, 1-bromo-2-methylpropane and 2-bromo-2-methylpropane.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-472",
@@ -9812,7 +11601,10 @@
    "explanation": "FeCl₃ acts as a Lewis acid catalyst that polarises Cl₂.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-473",
@@ -9833,7 +11625,11 @@
    "explanation": "Ethylene glycol lowers the freezing point of water.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-474",
@@ -9854,7 +11650,11 @@
    "explanation": "Diethyl ether (ethoxyethane) was widely used as a general anaesthetic.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-475",
@@ -9875,7 +11675,11 @@
    "explanation": "RCOOH + R'OH ⇌ RCOOR' + H₂O is esterification.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-476",
@@ -9896,7 +11700,11 @@
    "explanation": "Hydroboration–oxidation gives the anti-Markovnikov alcohol, propan-1-ol.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-477",
@@ -9917,7 +11725,11 @@
    "explanation": "o-Nitrophenol has intramolecular hydrogen bonding, so it does not associate and is volatile; the p-isomer is associated by intermolecular hydrogen bonds.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-478",
@@ -9938,7 +11750,11 @@
    "explanation": "They are butan-1-ol, butan-2-ol, 2-methylpropan-1-ol and 2-methylpropan-2-ol.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-479",
@@ -9958,7 +11774,10 @@
    "explanation": "Turbidity is due to the insoluble alkyl chloride.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-480",
@@ -9979,7 +11798,11 @@
    "explanation": "Secondary alcohols are oxidised to ketones; primary alcohols give aldehydes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-481",
@@ -10000,7 +11823,11 @@
    "explanation": "Its ice-like crystals on cooling give the name glacial acetic acid.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-482",
@@ -10021,7 +11848,11 @@
    "explanation": "2CH₃CHO → CH₃CH(OH)CH₂CHO, which is 3-hydroxybutanal.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-483",
@@ -10042,7 +11873,11 @@
    "explanation": "Benzaldehyde is oxidised to benzoate by Ag⁺ in ammonia, depositing silver.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-484",
@@ -10063,7 +11898,11 @@
    "explanation": "Alkyl groups donate electrons and reduce acidity, so methanoic acid (no alkyl group) is the strongest of these.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-485",
@@ -10084,7 +11923,11 @@
    "explanation": "CH₃MgBr adds to CO₂ to give CH₃COOMgBr, which on hydrolysis gives CH₃COOH.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-486",
@@ -10103,7 +11946,10 @@
    "explanation": "The aldehyde carbon is numbered 1.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-487",
@@ -10124,7 +11970,12 @@
    "explanation": "Amines are derivatives of ammonia, with one or more hydrogens replaced by alkyl or aryl groups.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "unsure",
+    "checkerAnswer": "D",
+    "note": "The option wording is hedged (\"–NH2 (amino group) or its substituted forms\"), so the item is weakly worded; D is still the amine functional group. Reviewed: kept; the key is right."
+   }
   },
   {
    "id": "chemistry-c12-488",
@@ -10145,7 +11996,11 @@
    "explanation": "Potassium phthalimide reacts with an alkyl halide, and alkaline hydrolysis releases the primary amine.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-489",
@@ -10166,7 +12021,11 @@
    "explanation": "O–H···O hydrogen bonds are stronger than N–H···N bonds, and ethers and alkanes have no hydrogen bonding.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-490",
@@ -10187,7 +12046,11 @@
    "explanation": "The diazonium salt couples with β-naphthol to give an orange-red azo dye.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-491",
@@ -10208,7 +12071,11 @@
    "explanation": "The basic –NH₂ group is protonated, giving the ionic C₆H₅NH₃⁺Cl⁻.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-492",
@@ -10229,7 +12096,11 @@
    "explanation": "Propan-1-amine, propan-2-amine, N-methylethanamine and N,N-dimethylmethanamine.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-493",
@@ -10248,7 +12119,10 @@
    "explanation": "The –NH₂ group on benzene is named as an amine.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "chemistry-c12-494",
@@ -10269,7 +12143,11 @@
    "explanation": "Amino acids are joined by peptide bonds to form proteins.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-495",
@@ -10290,7 +12168,11 @@
    "explanation": "Triglycerides contain three fatty acid chains attached to glycerol.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "chemistry-c12-496",
@@ -10311,7 +12193,11 @@
    "explanation": "About 20 α-amino acids occur commonly in proteins.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-497",
@@ -10332,7 +12218,11 @@
    "explanation": "Lactose, or milk sugar, is formed from galactose and glucose.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "chemistry-c12-498",
@@ -10353,7 +12243,11 @@
    "explanation": "Bromine water oxidises only the aldehyde group, giving the monocarboxylic gluconic acid; this shows the presence of –CHO.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "chemistry-c12-499",
@@ -10374,7 +12268,11 @@
    "explanation": "Complete reduction to n-hexane shows that all six carbon atoms are in a straight chain.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "chemistry-c12-500",
@@ -10393,7 +12291,10 @@
    "explanation": "A peptide bond forms between –COOH and –NH₂ with loss of water.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   }
  ]
 }

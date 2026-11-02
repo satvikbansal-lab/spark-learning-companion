@@ -21,7 +21,14 @@
  "syllabus": "unverified: topics are the drafting model’s reading of the official syllabus (NCERT/CBSE, or the exam’s notified syllabus) and have not been checked against the official documents",
  "drafted_by": "claude-sonnet",
  "drafted_at": "2026-11-02",
- "crossCheck": null,
+ "crossCheck": {
+  "model": "claude-haiku",
+  "method": "MCQs answered blind (no key shown); short answers judged against their proposed answer",
+  "agree": 494,
+  "disagree": 4,
+  "unsure": 2,
+  "missing": 0
+ },
  "questions": [
   {
    "id": "biology-c12-001",
@@ -42,7 +49,11 @@
    "explanation": "A pollen grain is the male gametophyte; it develops from a microspore and produces the male gametes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-002",
@@ -63,7 +74,11 @@
    "explanation": "The typical embryo sac is 7-celled and 8-nucleate: the egg apparatus (3 cells), 3 antipodals and the central cell with two polar nuclei.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-003",
@@ -84,7 +99,11 @@
    "explanation": "One male gamete fuses with the two polar nuclei (syngamy and triple fusion), giving the triploid primary endosperm nucleus.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-004",
@@ -105,7 +124,11 @@
    "explanation": "The tapetum is the innermost wall layer of the microsporangium and provides nutrition to the developing pollen grains.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-005",
@@ -126,7 +149,11 @@
    "explanation": "In geitonogamy, pollen moves between flowers of the same plant, so it is functionally cross-pollination but genetically like self-pollination.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-006",
@@ -147,7 +174,11 @@
    "explanation": "The pollen grain is the haploid male gametophyte, so its generative cell has half the somatic number: 12.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-007",
@@ -168,7 +199,10 @@
    "explanation": "Double fertilisation is the characteristic feature of angiosperms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-008",
@@ -188,7 +222,10 @@
    "explanation": "This is an evolutionary adaptation that safeguards embryo nutrition.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-009",
@@ -209,7 +246,11 @@
    "explanation": "Spermatogenesis takes place in the seminiferous tubules of the testes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-010",
@@ -230,7 +271,11 @@
    "explanation": "The sperm and ovum meet and fuse at the ampullary-isthmic junction of the fallopian tube.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-011",
@@ -251,7 +296,11 @@
    "explanation": "A mid-cycle surge of LH (and FSH) causes rupture of the Graafian follicle and release of the ovum.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-012",
@@ -272,7 +321,11 @@
    "explanation": "Leydig (interstitial) cells lying between seminiferous tubules secrete testosterone and other androgens.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-013",
@@ -293,7 +346,11 @@
    "explanation": "Meiosis I halves the chromosome number, so each secondary spermatocyte has 23 chromosomes (each with two chromatids).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-014",
@@ -314,7 +371,11 @@
    "explanation": "Without implantation the corpus luteum degenerates, progesterone falls, and the endometrium is shed as menstrual flow.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-015",
@@ -334,7 +395,10 @@
    "explanation": "The placenta is connected to the embryo by the umbilical cord.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-016",
@@ -353,7 +417,10 @@
    "explanation": "The scrotum acts as a thermoregulator for the testes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-017",
@@ -374,7 +441,11 @@
    "explanation": "CuT, Cu7 and Multiload 375 release copper ions; LNG-20 and Progestasert are hormone-releasing IUDs, and Saheli is an oral pill.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-018",
@@ -395,7 +466,11 @@
    "explanation": "The MTP Act was legalised in India in 1971 with strict conditions to prevent its misuse.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-019",
@@ -416,7 +491,11 @@
    "explanation": "Saheli is a non-steroidal oral contraceptive taken once a week, with few side effects and high contraceptive value.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-020",
@@ -437,7 +516,11 @@
    "explanation": "Condoms, diaphragms, cervical caps and vaults are barriers that physically prevent sperm from reaching the ovum.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-021",
@@ -458,7 +541,11 @@
    "explanation": "In ZIFT up to 8 blastomeres go into the fallopian tube; embryos with more than 8 blastomeres are placed in the uterus (IUT).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-022",
@@ -479,7 +566,11 @@
    "explanation": "During intense lactation after parturition, ovulation does not occur; the method is effective only for about six months after delivery.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-023",
@@ -499,7 +590,10 @@
    "explanation": "Both are permanent methods that block gamete transport.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-024",
@@ -519,7 +613,10 @@
    "explanation": "The ban is meant to prevent female foeticide.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-025",
@@ -540,7 +637,11 @@
    "explanation": "Gregor Mendel conducted hybridisation experiments on garden pea and proposed the laws of inheritance.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-026",
@@ -561,7 +662,11 @@
    "explanation": "Selfing the F1 heterozygotes gives 3 dominant to 1 recessive phenotype.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-027",
@@ -582,7 +687,11 @@
    "explanation": "Crossing an individual of unknown genotype with the homozygous recessive parent reveals whether it is homozygous or heterozygous.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-028",
@@ -603,7 +712,11 @@
    "explanation": "Incomplete dominance gives 1 red : 2 pink : 1 white, the same as the genotypic ratio.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-029",
@@ -624,7 +737,11 @@
    "explanation": "AaBb produces four gamete types in equal proportion, so aabb appears with a probability of 1/4.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-030",
@@ -645,7 +762,12 @@
    "explanation": "IAIB x ii gives IAi (group A) and IBi (group B) only.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "disagree",
+    "checkerAnswer": "C",
+    "note": " Reviewed: the key is right; the checker was wrong."
+   }
   },
   {
    "id": "biology-c12-031",
@@ -665,7 +787,10 @@
    "explanation": "It is also called the law of purity of gametes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-032",
@@ -685,7 +810,10 @@
    "explanation": "Morgan's work on Drosophila showed this.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-033",
@@ -706,7 +834,11 @@
    "explanation": "The 3'-OH of one nucleotide links to the 5' phosphate of the next through a phosphodiester bond.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-034",
@@ -727,7 +859,11 @@
    "explanation": "G and C are held by three hydrogen bonds, while A and T are held by two.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-035",
@@ -748,7 +884,11 @@
    "explanation": "DNA contains phosphorus (32P) and protein contains sulphur (35S); only 32P entered bacteria, showing DNA is the genetic material.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-036",
@@ -769,7 +909,11 @@
    "explanation": "AUG codes for methionine and also initiates translation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-037",
@@ -790,7 +934,11 @@
    "explanation": "mRNA is complementary and antiparallel to the template and has U in place of T, so it is 5'-AUGCCUAA-3'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-038",
@@ -811,7 +959,11 @@
    "explanation": "The repressor binds the operator and blocks RNA polymerase, so the structural genes are not transcribed.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-039",
@@ -832,7 +984,10 @@
    "explanation": "These features were deduced from experiments by Nirenberg, Khorana and others.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-040",
@@ -852,7 +1007,10 @@
    "explanation": "This is negative regulation of transcription.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-041",
@@ -873,7 +1031,11 @@
    "explanation": "They have the same basic anatomy but different functions, which is homology resulting from divergent evolution.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-042",
@@ -894,7 +1056,11 @@
    "explanation": "They perform the same function but have different structure and origin; this is analogy and shows convergent evolution.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-043",
@@ -915,7 +1081,11 @@
    "explanation": "Evolution of different species in a geographical area from a common ancestor is adaptive radiation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-044",
@@ -936,7 +1106,11 @@
    "explanation": "p² and q² are the two homozygous genotypes, and 2pq is the heterozygote frequency.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-045",
@@ -957,7 +1131,11 @@
    "explanation": "q = 0.2, so p = 0.8 and 2pq = 2 x 0.8 x 0.2 = 0.32.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-046",
@@ -978,7 +1156,11 @@
    "explanation": "Natural selection favoured the better camouflaged dark form, so its proportion increased.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-047",
@@ -998,7 +1180,10 @@
    "explanation": "Miller's experiment (1953) supported the chemical origin of life.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-048",
@@ -1019,7 +1204,10 @@
    "explanation": "Hardy-Weinberg equilibrium needs stable allele frequency from generation to generation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-049",
@@ -1040,7 +1228,11 @@
    "explanation": "Malaria is caused by protozoans of the genus Plasmodium, transmitted by female Anopheles mosquitoes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-050",
@@ -1061,7 +1253,11 @@
    "explanation": "Typhoid caused by Salmonella typhi is confirmed by the Widal test.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-051",
@@ -1082,7 +1278,11 @@
    "explanation": "Sporozoites in the mosquito's saliva enter the human liver cells and begin the cycle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-052",
@@ -1103,7 +1303,11 @@
    "explanation": "HIV enters macrophages and helper T-cells, whose numbers decline, weakening immunity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-053",
@@ -1124,7 +1328,11 @@
    "explanation": "In passive immunity ready-made antibodies are received, such as IgA in colostrum or across the placenta.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-054",
@@ -1145,7 +1353,11 @@
    "explanation": "Memory cells formed in the primary response recognise the antigen and respond quickly, which is the basis of vaccination.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-055",
@@ -1165,7 +1377,10 @@
    "explanation": "HIV does not spread by casual contact such as touching or sharing a handshake.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-056",
@@ -1185,7 +1400,10 @@
    "explanation": "Metastasis is the major feature of malignant tumours.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-057",
@@ -1206,7 +1424,11 @@
    "explanation": "Lactic acid bacteria such as Lactobacillus acidify milk and coagulate and partially digest milk proteins.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-058",
@@ -1227,7 +1449,11 @@
    "explanation": "Alexander Fleming observed penicillin from Penicillium notatum; Chain and Florey later established its effectiveness.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-059",
@@ -1248,7 +1474,11 @@
    "explanation": "Biogas produced by methanogens is mainly methane, along with carbon dioxide and hydrogen.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-060",
@@ -1269,7 +1499,11 @@
    "explanation": "Citric acid is produced by the fungus Aspergillus niger; Acetobacter aceti gives acetic acid.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-061",
@@ -1290,7 +1524,11 @@
    "explanation": "BOD is the oxygen consumed by microbes to oxidise organic matter; a higher value means more organic pollution.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-062",
@@ -1311,7 +1549,11 @@
    "explanation": "Statins that lower blood cholesterol come from yeast Monascus purpureus; cyclosporin A comes from Trichoderma polysporum and streptokinase from Streptococcus.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-063",
@@ -1331,7 +1573,10 @@
    "explanation": "Biofertilisers reduce the use of chemical fertilisers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-064",
@@ -1351,7 +1596,10 @@
    "explanation": "Treated effluent is released into water bodies after BOD is reduced.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-065",
@@ -1372,7 +1620,11 @@
    "explanation": "EcoRI cuts between G and A in the sequence GAATTC, forming sticky ends.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-066",
@@ -1393,7 +1645,11 @@
    "explanation": "DNA ligase seals the nicks and joins the sugar-phosphate backbones of vector and insert.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-067",
@@ -1414,7 +1670,11 @@
    "explanation": "The ori is the sequence from where replication starts; it also controls the copy number.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-068",
@@ -1435,7 +1695,11 @@
    "explanation": "Taq polymerase is from the thermophilic bacterium Thermus aquaticus and stays stable at denaturation temperature.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-069",
@@ -1456,7 +1720,11 @@
    "explanation": "Insertional inactivation of lacZ prevents beta-galactosidase production, so the substrate is not converted into a blue product.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-070",
@@ -1477,7 +1745,11 @@
    "explanation": "Each cycle doubles the DNA, so after 5 cycles there are 2^5 = 32 copies.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-071",
@@ -1497,7 +1769,10 @@
    "explanation": "Repeated cycles amplify the target DNA exponentially.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-072",
@@ -1517,7 +1792,10 @@
    "explanation": "Compatible sticky ends make ligation efficient.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-073",
@@ -1538,7 +1816,11 @@
    "explanation": "Bacillus thuringiensis produces crystal (Cry) proteins toxic to certain insects.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-074",
@@ -1559,7 +1841,11 @@
    "explanation": "Rosie's milk contained the human protein alpha-lactalbumin, making it nutritionally better for infants.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-075",
@@ -1580,7 +1866,11 @@
    "explanation": "Eli Lilly prepared the A and B chains of insulin separately in E. coli and joined them by disulphide bonds.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-076",
@@ -1601,7 +1891,11 @@
    "explanation": "Golden rice has a higher level of beta-carotene, which is converted into vitamin A.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-077",
@@ -1622,7 +1916,11 @@
    "explanation": "The dsRNA made in the host silences nematode mRNA, so the parasite cannot survive in the transgenic host.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-078",
@@ -1643,7 +1941,11 @@
    "explanation": "The corrected lymphocytes are returned, but they are not immortal, so periodic infusions are needed unless gene is introduced into marrow cells.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-079",
@@ -1663,7 +1965,10 @@
    "explanation": "The Cry protein is activated by alkaline gut pH of the insect.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-080",
@@ -1683,7 +1988,10 @@
    "explanation": "India has framed laws to prevent such exploitation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-081",
@@ -1704,7 +2012,11 @@
    "explanation": "Eurythermal organisms tolerate a wide temperature range; stenothermal ones tolerate only a narrow range.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-082",
@@ -1725,7 +2037,11 @@
    "explanation": "The fungus absorbs phosphorus for the plant, and the plant provides carbohydrates to the fungus, so both benefit.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-083",
@@ -1746,7 +2062,11 @@
    "explanation": "The rate of change of population size equals the intrinsic rate of natural increase (r) multiplied by N.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-084",
@@ -1767,7 +2087,11 @@
    "explanation": "In brood parasitism a bird lays its eggs in the nest of another species, which incubates and rears them.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-085",
@@ -1788,7 +2112,11 @@
    "explanation": "Nt+1 = Nt + (B + I) - (D + E) = 500 + (40 + 15) - (20 + 5) = 530.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-086",
@@ -1809,7 +2137,11 @@
    "explanation": "Gause's competitive exclusion principle states that competing species using the same resource cannot coexist indefinitely.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-087",
@@ -1828,7 +2160,10 @@
    "explanation": "These are physiological adaptations to a water-scarce habitat.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-088",
@@ -1848,7 +2183,10 @@
    "explanation": "The Verhulst-Pearl logistic equation is dN/dt = rN(K-N)/K.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-089",
@@ -1869,7 +2207,11 @@
    "explanation": "Green plants, algae and some bacteria produce food by photosynthesis and form the first trophic level.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-090",
@@ -1890,7 +2232,11 @@
    "explanation": "Energy decreases at each trophic level, so the pyramid of energy can never be inverted.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-091",
@@ -1911,7 +2257,11 @@
    "explanation": "Primary consumers get 1000 J and secondary consumers get 10% of that, which is 100 J.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-092",
@@ -1932,7 +2282,11 @@
    "explanation": "Fragmentation is the first step of decomposition, followed by leaching, catabolism, humification and mineralisation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-093",
@@ -1953,7 +2307,11 @@
    "explanation": "Lichens secrete acids that weather the rock and form soil, preparing the way for mosses.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-094",
@@ -1974,7 +2332,11 @@
    "explanation": "NPP is the gross primary productivity minus the respiratory losses (R); it is the biomass available to consumers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-095",
@@ -1994,7 +2356,10 @@
    "explanation": "In an aquatic ecosystem the GFC is the major conduit for energy flow.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-096",
@@ -2014,7 +2379,10 @@
    "explanation": "The pyramid of energy is still upright in the sea.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-097",
@@ -2035,7 +2403,11 @@
    "explanation": "The Western Ghats and Sri Lanka, Indo-Burma and the Himalaya are the three hotspots covering India.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-098",
@@ -2056,7 +2428,11 @@
    "explanation": "National parks, sanctuaries and biosphere reserves protect species in their natural habitat; the others are ex situ methods.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-099",
@@ -2077,7 +2453,11 @@
    "explanation": "On a log scale it is a straight line given by log S = log C + Z log A.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-100",
@@ -2098,7 +2478,11 @@
    "explanation": "Habitat loss and fragmentation is the most important cause of the loss of biodiversity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-101",
@@ -2119,7 +2503,11 @@
    "explanation": "The introduced predator eliminated native cichlid fish, which is a case of alien species invasion.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-102",
@@ -2140,7 +2528,11 @@
    "explanation": "Stable and predictable climate, long evolutionary time and high solar energy support greater productivity and diversity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-103",
@@ -2159,7 +2551,10 @@
    "explanation": "Examples are found in Meghalaya, the Western Ghats and Rajasthan.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-104",
@@ -2179,7 +2574,10 @@
    "explanation": "It stresses the need to conserve all species.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-105",
@@ -2200,7 +2598,11 @@
    "explanation": "Vallisneria is a water-pollinated plant; maize is wind-pollinated and Salvia and rose are insect-pollinated.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-106",
@@ -2221,7 +2623,11 @@
    "explanation": "Apomixis is a form of asexual reproduction that mimics sexual reproduction by producing seeds without fertilisation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-107",
@@ -2242,7 +2648,11 @@
    "explanation": "One megaspore of the tetrad is functional; its nucleus divides mitotically to form the 8-nucleate embryo sac.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-108",
@@ -2263,7 +2673,11 @@
    "explanation": "Sporopollenin is one of the most resistant organic materials and withstands high temperature, strong acids and alkalis.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-109",
@@ -2284,7 +2698,11 @@
    "explanation": "Self-incompatibility is a genetic mechanism in which the pistil rejects pollen of the same flower or plant, promoting out-breeding.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-110",
@@ -2305,7 +2723,11 @@
    "explanation": "The pollen tube enters one synergid through the filiform apparatus and discharges the male gametes there.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-111",
@@ -2325,7 +2747,10 @@
    "explanation": "Sporopollenin makes pollen well preserved as fossils.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-112",
@@ -2345,7 +2770,10 @@
    "explanation": "These steps ensure that only the chosen male parent pollinates the female parent.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-113",
@@ -2366,7 +2794,11 @@
    "explanation": "The corpus luteum secretes large amounts of progesterone, which maintains the endometrium for implantation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-114",
@@ -2387,7 +2819,11 @@
    "explanation": "The acrosome is a cap-like structure filled with enzymes that help fertilisation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-115",
@@ -2408,7 +2844,11 @@
    "explanation": "Spermiogenesis is the transformation of spermatids into sperms; spermiation is the release of sperms from Sertoli cells into the lumen.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-116",
@@ -2429,7 +2869,11 @@
    "explanation": "Contact of a sperm with the zona pellucida induces changes that block the entry of additional sperms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-117",
@@ -2450,7 +2894,11 @@
    "explanation": "The trophoblast layer helps in implantation, and the inner cell mass gives rise to the embryo.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-118",
@@ -2471,7 +2919,11 @@
    "explanation": "Ovulation occurs near the middle of the cycle, around day 14, after the LH surge.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-119",
@@ -2491,7 +2943,10 @@
    "explanation": "Oogenesis includes arrested stages that complete only after sperm entry.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-120",
@@ -2511,7 +2966,10 @@
    "explanation": "Implantation leads to the formation of the placenta.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-121",
@@ -2532,7 +2990,11 @@
    "explanation": "Gonorrhoea is caused by the bacterium Neisseria gonorrhoeae, whereas the other three are viral.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-122",
@@ -2553,7 +3015,11 @@
    "explanation": "In vitro fertilisation followed by embryo transfer is popularly called the test tube baby programme.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-123",
@@ -2574,7 +3040,11 @@
    "explanation": "ICSI is an assisted reproductive technique in which a sperm is directly injected into the ovum in the laboratory.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-124",
@@ -2595,7 +3065,11 @@
    "explanation": "Hormonal pills inhibit ovulation and implantation and alter cervical mucus to retard the entry of sperms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-125",
@@ -2616,7 +3090,11 @@
    "explanation": "They are effective if administered within 72 hours of coitus and are meant only for emergency use.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-126",
@@ -2637,7 +3115,11 @@
    "explanation": "A condom acts as a barrier and prevents contact with semen and body fluids that carry pathogens.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-127",
@@ -2657,7 +3139,10 @@
    "explanation": "The test is legally banned for determining foetal sex.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-128",
@@ -2677,7 +3162,10 @@
    "explanation": "A falling death rate and rising birth rate have caused a population explosion in India.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-129",
@@ -2698,7 +3186,11 @@
    "explanation": "Alleles are alternative forms of a gene, such as T and t for height in pea.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-130",
@@ -2719,7 +3211,11 @@
    "explanation": "Human males are heterogametic with X and Y chromosomes, and females have XX.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-131",
@@ -2740,7 +3236,11 @@
    "explanation": "XCXc x XCY gives sons XCY and XcY in equal numbers, so half the sons are colour blind.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-132",
@@ -2761,7 +3261,11 @@
    "explanation": "An extra copy of chromosome 21 causes Down's syndrome.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-133",
@@ -2782,7 +3286,11 @@
    "explanation": "Sons receive the Y from the father and a normal X from the mother; daughters receive the father's affected X and a normal X, so they are carriers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-134",
@@ -2803,7 +3311,11 @@
    "explanation": "The presence of an extra X chromosome in a male (47, XXY) is Klinefelter's syndrome, due to non-disjunction of sex chromosomes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-135",
@@ -2822,7 +3334,10 @@
    "explanation": "Pleiotropy contrasts with polygenic inheritance, where many genes control one trait.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-136",
@@ -2842,7 +3357,10 @@
    "explanation": "Any person carries only two of the three alleles.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-137",
@@ -2863,7 +3381,11 @@
    "explanation": "James Watson and Francis Crick proposed the double helix model in 1953 based on X-ray diffraction data.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-138",
@@ -2884,7 +3406,11 @@
    "explanation": "The project was launched in 1990 and completed in 2003.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-139",
@@ -2905,7 +3431,11 @@
    "explanation": "Introns are non-coding sequences removed by splicing, and exons are joined to form mRNA.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-140",
@@ -2926,7 +3456,11 @@
    "explanation": "The heavy isotope 15N made the DNA denser, so it could be separated from 14N DNA by caesium chloride density gradient centrifugation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-141",
@@ -2947,7 +3481,11 @@
    "explanation": "After one generation all DNA is hybrid; after two, half is hybrid and half is light because replication is semi-conservative.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-142",
@@ -2968,7 +3506,11 @@
    "explanation": "A = T = 20%, so A + T = 40%; the remaining 60% is G + C, so G = 30%.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-143",
@@ -2988,7 +3530,10 @@
    "explanation": "The 2'-OH in RNA makes it more reactive and less stable.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-144",
@@ -3008,7 +3553,10 @@
    "explanation": "Crick called it the adapter in his hypothesis.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-145",
@@ -3029,7 +3577,11 @@
    "explanation": "Charles Darwin proposed natural selection as the mechanism of evolution in 'On the Origin of Species'.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-146",
@@ -3050,7 +3602,11 @@
    "explanation": "Hugo de Vries, working on evening primrose, proposed that mutations (saltations) are the cause of evolution.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-147",
@@ -3071,7 +3627,11 @@
    "explanation": "Radioactive isotopes of known half-lives in the rocks or fossils are used to estimate their age.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-148",
@@ -3092,7 +3652,11 @@
    "explanation": "Homo habilis had a brain capacity between 650 and 800 cc and probably did not eat meat.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-149",
@@ -3113,7 +3677,11 @@
    "explanation": "The antibiotic acts as a selective agent; resistant variants leave more offspring, so the resistant fraction rises.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-150",
@@ -3134,7 +3702,11 @@
    "explanation": "The founder effect is a type of genetic drift in which the founders carry only a random sample of the parent population's alleles.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-151",
@@ -3154,7 +3726,10 @@
    "explanation": "Convergent evolution produces analogous structures.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-152",
@@ -3174,7 +3749,10 @@
    "explanation": "These are the three ways natural selection can affect a population's distribution.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-153",
@@ -3195,7 +3773,11 @@
    "explanation": "Dengue is a viral disease spread by Aedes aegypti and Aedes albopictus.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-154",
@@ -3216,7 +3798,11 @@
    "explanation": "Antibodies are protein molecules (immunoglobulins) made of two light and two heavy chains.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-155",
@@ -3237,7 +3823,11 @@
    "explanation": "IgE binds to mast cells, which release histamine and serotonin, causing allergic symptoms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-156",
@@ -3258,7 +3848,11 @@
    "explanation": "Virus-infected cells secrete interferons, which are part of cellular barriers of innate immunity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-157",
@@ -3279,7 +3873,11 @@
    "explanation": "Heroin is diacetylmorphine, obtained by acetylation of morphine, which is extracted from the latex of the poppy plant.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-158",
@@ -3300,7 +3898,11 @@
    "explanation": "HIV is a retrovirus; reverse transcriptase makes viral DNA from RNA, which integrates into the host genome.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-159",
@@ -3319,7 +3921,10 @@
    "explanation": "Cell-mediated immunity is responsible for graft rejection.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-160",
@@ -3339,7 +3944,10 @@
    "explanation": "Antiserum is used when immediate protection is required.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-161",
@@ -3360,7 +3968,11 @@
    "explanation": "A large amount of CO2 produced by the bacterium Propionibacterium sharmanii forms the large holes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-162",
@@ -3381,7 +3993,11 @@
    "explanation": "Baker's yeast (Saccharomyces cerevisiae) ferments sugars and releases CO2, which puffs up the dough.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-163",
@@ -3402,7 +4018,11 @@
    "explanation": "Azotobacter and Azospirillum are free-living nitrogen fixers; Rhizobium is symbiotic.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-164",
@@ -3423,7 +4043,11 @@
    "explanation": "Bacillus thuringiensis spores are mixed with water and sprayed on plants, where caterpillars eat them and die.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-165",
@@ -3444,7 +4068,11 @@
    "explanation": "Aerobic microbes form flocs and decompose organic matter, reducing the BOD of the effluent.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-166",
@@ -3465,7 +4093,11 @@
    "explanation": "Methanogens grow anaerobically on cellulosic material and produce methane along with CO2 and H2.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-167",
@@ -3484,7 +4116,10 @@
    "explanation": "Large-scale fermentation is done in fermentors.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-168",
@@ -3504,7 +4139,10 @@
    "explanation": "Integrated pest management aims at reducing chemical pesticides.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-169",
@@ -3525,7 +4163,11 @@
    "explanation": "Stanley Cohen and Herbert Boyer made the first recombinant DNA in 1972.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-170",
@@ -3546,7 +4188,11 @@
    "explanation": "Plasmids are autonomously replicating circular double-stranded DNA that are used as cloning vectors.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-171",
@@ -3567,7 +4213,11 @@
    "explanation": "DNA is negatively charged, so the fragments move towards the positive electrode; smaller fragments move farther.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-172",
@@ -3588,7 +4238,11 @@
    "explanation": "Ethidium bromide stains DNA and shows bright orange bands under UV radiation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-173",
@@ -3609,7 +4263,11 @@
    "explanation": "The sparger bubbles sterile air into the medium, and the stirrer mixes it for good oxygen availability.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-174",
@@ -3630,7 +4288,11 @@
    "explanation": "Calcium ions increase efficiency of DNA entry through pores; a brief heat shock then lets the recombinant DNA enter.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-175",
@@ -3650,7 +4312,10 @@
    "explanation": "Bioreactors allow production of large quantities of products such as enzymes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-176",
@@ -3670,7 +4335,10 @@
    "explanation": "This is selection by insertional inactivation of an antibiotic marker.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-177",
@@ -3691,7 +4359,11 @@
    "explanation": "ELISA detects the presence of antigens or antibodies, for example for early diagnosis of HIV infection.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-178",
@@ -3712,7 +4384,11 @@
    "explanation": "Organisms with a manipulated genome carrying a foreign gene are called transgenic.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-179",
@@ -3733,7 +4409,11 @@
    "explanation": "cryIAc and cryIIAb control cotton bollworms, while cryIAb controls the corn borer.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-180",
@@ -3754,7 +4434,11 @@
    "explanation": "Genes are inserted into the person's cells or tissues to correct a hereditary defect.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-181",
@@ -3775,7 +4459,11 @@
    "explanation": "Mammalian proinsulin must be processed to remove the C peptide; bacteria cannot do this, so the A and B chains were made separately and linked.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-182",
@@ -3796,7 +4484,11 @@
    "explanation": "Mice made susceptible to cancer allow researchers to study the disease and test drugs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-183",
@@ -3816,7 +4508,10 @@
    "explanation": "GM crops also help reduce post-harvest losses.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-184",
@@ -3836,7 +4531,10 @@
    "explanation": "Recombinant human insulin is marketed as Humulin.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-185",
@@ -3857,7 +4555,11 @@
    "explanation": "Hibernation is a way of escaping in time from stressful cold conditions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-186",
@@ -3878,7 +4580,11 @@
    "explanation": "The orchid (epiphyte) benefits while the mango tree is neither harmed nor benefited.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-187",
@@ -3899,7 +4605,11 @@
    "explanation": "Cuscuta is a parasitic plant that benefits at the expense of its host.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-188",
@@ -3920,7 +4630,11 @@
    "explanation": "A triangular pyramid shows many young individuals who will enter the reproductive age, so the population will grow.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-189",
@@ -3941,7 +4655,11 @@
    "explanation": "Change = births - deaths, so 20 = 30 - D, giving D = 10.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-190",
@@ -3962,7 +4680,11 @@
    "explanation": "This adaptation of body shape to temperature is Allen's rule.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-191",
@@ -3981,7 +4703,10 @@
    "explanation": "Regulation costs energy, but it allows wide distribution.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-192",
@@ -4001,7 +4726,10 @@
    "explanation": "Prickly pear in Australia was controlled by introducing a moth predator.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-193",
@@ -4022,7 +4750,11 @@
    "explanation": "Bacteria and fungi break down dead organic matter and release inorganic nutrients.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-194",
@@ -4043,7 +4775,11 @@
    "explanation": "Solar energy captured in photosynthesis drives the flow of energy through the ecosystem.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-195",
@@ -4064,7 +4800,11 @@
    "explanation": "Plants capture only 2-10 per cent of the PAR, and this small amount sustains the entire living world.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-196",
@@ -4085,7 +4825,11 @@
    "explanation": "The standing crop is measured as the mass of living organisms (biomass) or the number in a unit area.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-197",
@@ -4106,7 +4850,11 @@
    "explanation": "Phosphorus is released by weathering of rocks, and there is no significant gaseous exchange with the atmosphere.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-198",
@@ -4127,7 +4875,11 @@
    "explanation": "CO2 is released by respiration of organisms, decomposition of organic matter and combustion of fuels.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-199",
@@ -4147,7 +4899,10 @@
    "explanation": "Examples of secondary succession are abandoned farms and burnt forests.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-200",
@@ -4167,7 +4922,10 @@
    "explanation": "Energy flow obeys the laws of thermodynamics.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-201",
@@ -4188,7 +4946,11 @@
    "explanation": "Species diversity generally decreases from the equator towards the poles, which is the latitudinal gradient.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-202",
@@ -4209,7 +4971,11 @@
    "explanation": "The Red List categorises species according to their risk of extinction.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-203",
@@ -4230,7 +4996,11 @@
    "explanation": "Cryopreservation in liquid nitrogen at -196 degrees C stops cellular activity so that gametes can be stored.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-204",
@@ -4251,7 +5021,11 @@
    "explanation": "The dodo of Mauritius is one of the species extinct in recent history; the Steller's sea cow and quagga are others.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-205",
@@ -4272,7 +5046,11 @@
    "explanation": "Co-extinction occurs when the extinction of one species causes the extinction of another that depends on it.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-206",
@@ -4293,7 +5071,11 @@
    "explanation": "Differences within a single species are genetic diversity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-207",
@@ -4313,7 +5095,10 @@
    "explanation": "India has about 50,000 genetically different strains of rice.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-208",
@@ -4333,7 +5118,10 @@
    "explanation": "These three arguments are used to justify conservation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-209",
@@ -4354,7 +5142,11 @@
    "explanation": "The ovary wall develops into the fruit wall (pericarp), and the ovary becomes the fruit.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-210",
@@ -4375,7 +5167,11 @@
    "explanation": "The fertilised ovule matures into the seed, containing the embryo, stored food and a seed coat.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-211",
@@ -4396,7 +5192,11 @@
    "explanation": "Coconut water is free-nuclear endosperm, while the white kernel is the cellular endosperm.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-212",
@@ -4417,7 +5217,11 @@
    "explanation": "The residual, persistent nucellus is called perisperm.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-213",
@@ -4438,7 +5242,11 @@
    "explanation": "In non-albuminous seeds such as pea and groundnut, no residual endosperm is left at maturity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-214",
@@ -4459,7 +5267,11 @@
    "explanation": "In monocots such as grasses the single cotyledon is called the scutellum, lying towards one side of the embryonal axis.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-215",
@@ -4478,7 +5290,10 @@
    "explanation": "The difference depends on how much endosperm is left at seed maturity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-216",
@@ -4499,7 +5314,10 @@
    "explanation": "These advantages help angiosperms to colonise diverse habitats.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-217",
@@ -4520,7 +5338,11 @@
    "explanation": "The epididymis stores sperms, which become motile and mature there.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-218",
@@ -4541,7 +5363,11 @@
    "explanation": "Colostrum is rich in antibodies (IgA) and gives passive immunity to the newborn.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-219",
@@ -4562,7 +5388,11 @@
    "explanation": "Sertoli cells nourish the germ cells and support spermatogenesis, whereas Leydig cells secrete androgens.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-220",
@@ -4583,7 +5413,11 @@
    "explanation": "The placenta secretes hCG, human placental lactogen, oestrogens and progesterone.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-221",
@@ -4604,7 +5438,11 @@
    "explanation": "Meiosis II is arrested at metaphase II and completes only when a sperm enters the ovum.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-222",
@@ -4625,7 +5463,11 @@
    "explanation": "The corpus luteum and placenta keep hormone levels high, so the endometrium is maintained and no ovulation or menstruation occurs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-223",
@@ -4645,7 +5487,10 @@
    "explanation": "The plasma membrane envelops the whole sperm.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-224",
@@ -4665,7 +5510,10 @@
    "explanation": "Parturition is the process of delivery of the full-term foetus.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-225",
@@ -4686,7 +5534,11 @@
    "explanation": "Periodic abstinence, withdrawal and lactational amenorrhoea are natural methods; they do not involve devices or drugs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-226",
@@ -4707,7 +5559,11 @@
    "explanation": "In vasectomy a small part of the vas deferens is removed or tied, so sperms cannot be ejaculated.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-227",
@@ -4728,7 +5584,11 @@
    "explanation": "MTPs are safest in the first trimester, that is, up to 12 weeks.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-228",
@@ -4749,7 +5609,11 @@
    "explanation": "GIFT transfers a donor ovum into the fallopian tube of a female unable to produce ova.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-229",
@@ -4770,7 +5634,11 @@
    "explanation": "Hormone-releasing IUDs make the uterus unsuitable for implantation and the cervix hostile to sperms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-230",
@@ -4791,7 +5659,11 @@
    "explanation": "Cu ions released by copper IUDs suppress sperm motility and fertilising capacity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-231",
@@ -4811,7 +5683,10 @@
    "explanation": "Early detection and complete treatment reduce the spread of STIs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-232",
@@ -4831,7 +5706,10 @@
    "explanation": "Both are assisted reproductive technologies for infertile couples.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-233",
@@ -4852,7 +5730,11 @@
    "explanation": "Mendel studied seven pairs of contrasting traits such as seed shape, seed colour, plant height and flower colour.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-234",
@@ -4873,7 +5755,11 @@
    "explanation": "Homozygous individuals have identical alleles, such as TT or tt.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-235",
@@ -4894,7 +5780,11 @@
    "explanation": "Tt x Tt gives 1 TT : 2 Tt : 1 tt, so one quarter are dwarf (tt).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-236",
@@ -4915,7 +5805,11 @@
    "explanation": "Skin colour is controlled by several genes whose effects add up, which is polygenic inheritance.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-237",
@@ -4936,7 +5830,11 @@
    "explanation": "HbA HbS x HbA HbS gives 1 HbA HbA : 2 HbA HbS : 1 HbS HbS, so 25% are affected.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-238",
@@ -4957,7 +5855,11 @@
    "explanation": "Round green plants have genotype R_yy, with probability 3/4 x 1/4 = 3/16.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-239",
@@ -4977,7 +5879,10 @@
    "explanation": "Experimental verification was done by T. H. Morgan.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-240",
@@ -4997,7 +5902,10 @@
    "explanation": "The disorder is an autosome-linked recessive trait.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-241",
@@ -5018,7 +5926,11 @@
    "explanation": "Adenine and guanine are purines; cytosine, thymine and uracil are pyrimidines.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-242",
@@ -5039,7 +5951,11 @@
    "explanation": "A nucleosome has about 200 base pairs of DNA wrapped around a histone octamer.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-243",
@@ -5060,7 +5976,11 @@
    "explanation": "Okazaki fragments are joined together by DNA ligase.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-244",
@@ -5081,7 +6001,11 @@
    "explanation": "UAA, UAG and UGA do not code for any amino acid and terminate translation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-245",
@@ -5102,7 +6026,11 @@
    "explanation": "AUG, UUU and GGC code for three amino acids and UAA is a stop codon, which codes for none.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-246",
@@ -5123,7 +6051,11 @@
    "explanation": "303/3 = 101 codons; one is the stop codon, so 100 amino acids.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-247",
@@ -5143,7 +6075,10 @@
    "explanation": "The promoter is at the 5' end of the coding strand and the terminator at the 3' end.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-248",
@@ -5163,7 +6098,10 @@
    "explanation": "The strand made discontinuously is called the lagging strand.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-249",
@@ -5184,7 +6122,11 @@
    "explanation": "Palaeontology is the study of fossils, which are remains of organisms of the past.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-250",
@@ -5205,7 +6147,11 @@
    "explanation": "Archaeopteryx had feathers and wings like birds, and teeth and a long tail like reptiles.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-251",
@@ -5226,7 +6172,11 @@
    "explanation": "The vermiform appendix is reduced and functionless in humans, though it is well developed in herbivores.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-252",
@@ -5247,7 +6197,11 @@
    "explanation": "The early atmosphere had water vapour, methane, ammonia and hydrogen, but no free oxygen.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-253",
@@ -5268,7 +6222,11 @@
    "explanation": "According to the theory, life originated from non-living organic molecules that formed in the primitive environment.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-254",
@@ -5289,7 +6247,11 @@
    "explanation": "Homo erectus had a brain capacity of about 900 cc and probably ate meat.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-255",
@@ -5309,7 +6271,10 @@
    "explanation": "They are evidence of evolution from ancestral forms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-256",
@@ -5329,7 +6294,10 @@
    "explanation": "Modern biology supports Darwin's explanation, as acquired characters are not inherited.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-257",
@@ -5350,7 +6318,11 @@
    "explanation": "Salmonella typhi enters the small intestine through contaminated food and water.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-258",
@@ -5371,7 +6343,11 @@
    "explanation": "Ringworm is a fungal disease caused by Microsporum, Trichophyton and Epidermophyton.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-259",
@@ -5392,7 +6368,11 @@
    "explanation": "Rhinoviruses infect the nose and respiratory passage but not the lungs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-260",
@@ -5413,7 +6393,11 @@
    "explanation": "Filarial worms of Wuchereria bancrofti and W. malayi cause chronic inflammation of the lymphatic vessels.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-261",
@@ -5434,7 +6418,11 @@
    "explanation": "In autoimmune disease the immune system fails to distinguish self from non-self and damages body cells.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-262",
@@ -5455,7 +6443,11 @@
    "explanation": "X-rays and gamma rays are physical carcinogens, while tobacco smoke is chemical and oncogenic viruses are biological.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-263",
@@ -5474,7 +6466,10 @@
    "explanation": "Lymphocytes mature in the primary organs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-264",
@@ -5494,7 +6489,10 @@
    "explanation": "The immune deficiency makes even weak pathogens dangerous.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-265",
@@ -5515,7 +6513,11 @@
    "explanation": "Saccharomyces cerevisiae, also called brewer's yeast, ferments sugars to ethanol and CO2.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-266",
@@ -5536,7 +6538,11 @@
    "explanation": "Lactic acid bacteria increase the vitamin B12 content of milk.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-267",
@@ -5557,7 +6563,11 @@
    "explanation": "Streptokinase is produced by the bacterium Streptococcus and modified by genetic engineering.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-268",
@@ -5578,7 +6588,11 @@
    "explanation": "Toddy is prepared by fermenting the sap of palms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-269",
@@ -5599,7 +6613,11 @@
    "explanation": "Glomus forms mycorrhiza that absorbs phosphorus, and also gives resistance to root pathogens and salinity tolerance.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-270",
@@ -5620,7 +6638,11 @@
    "explanation": "Methanogens present in the rumen of cattle help break down cellulose, so the dung is rich in these bacteria.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-271",
@@ -5640,7 +6662,10 @@
    "explanation": "Any two valid examples with uses are accepted.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-272",
@@ -5660,7 +6685,10 @@
    "explanation": "The effluent from the settling tank is released into water bodies.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-273",
@@ -5681,7 +6709,11 @@
    "explanation": "They are isolated from bacteria, where they protect the cell from invading viral DNA.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-274",
@@ -5702,7 +6734,11 @@
    "explanation": "PCR amplifies a target DNA sequence in vitro using primers and a thermostable DNA polymerase.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-275",
@@ -5723,7 +6759,11 @@
    "explanation": "Exonucleases remove nucleotides from the ends, whereas restriction endonucleases cut at specific internal sites.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-276",
@@ -5744,7 +6784,11 @@
    "explanation": "Genes for antibiotic resistance are used as selectable markers to identify transformants.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-277",
@@ -5765,7 +6809,11 @@
    "explanation": "Agrobacterium naturally transfers T-DNA into plant cells, so it is used as a natural genetic engineer.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-278",
@@ -5786,7 +6834,11 @@
    "explanation": "High-velocity DNA-coated microparticles of gold or tungsten are shot into plant cells.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-279",
@@ -5805,7 +6857,10 @@
    "explanation": "Restriction enzymes recognise palindromic sites.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-280",
@@ -5825,7 +6880,10 @@
    "explanation": "Purified DNA is then cut by restriction enzymes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-281",
@@ -5846,7 +6904,11 @@
    "explanation": "Bt cotton makes Bt toxin, which kills the larvae of bollworms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-282",
@@ -5867,7 +6929,11 @@
    "explanation": "ADA deficiency affects the immune system, and was the first disease treated with gene therapy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-283",
@@ -5888,7 +6954,11 @@
    "explanation": "PCR can amplify the small amount of HIV nucleic acid so that it can be detected early.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-284",
@@ -5909,7 +6979,11 @@
    "explanation": "The Genetic Engineering Approval Committee (GEAC) makes decisions about GM research and its safety.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-285",
@@ -5930,7 +7004,11 @@
    "explanation": "Alpha-1-antitrypsin is used to treat emphysema.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-286",
@@ -5951,7 +7029,11 @@
    "explanation": "The protoxin is converted to active toxin by the alkaline pH in the insect gut, which solubilises the crystals.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-287",
@@ -5971,7 +7053,10 @@
    "explanation": "The toxin is harmless to humans because the human gut is not alkaline.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-288",
@@ -5991,7 +7076,10 @@
    "explanation": "It is used to make nematode-resistant tobacco plants.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-289",
@@ -6012,7 +7100,11 @@
    "explanation": "A population consists of individuals of one species in a specific area at a given time.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-290",
@@ -6033,7 +7125,11 @@
    "explanation": "The fungus absorbs nutrients and the photosynthetic partner provides food.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-291",
@@ -6054,7 +7150,11 @@
    "explanation": "The goats' greater browsing efficiency eliminated the tortoise, an example of interspecific competition.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-292",
@@ -6075,7 +7175,11 @@
    "explanation": "Parasites often lose unnecessary sense organs and develop adhesive organs, suckers and high reproductive capacity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-293",
@@ -6096,7 +7200,11 @@
    "explanation": "One hour is three doublings: 500 x 2 x 2 x 2 = 4000.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-294",
@@ -6117,7 +7225,11 @@
    "explanation": "Small animals lose body heat fast, so they would have to spend much energy to stay warm in cold regions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-295",
@@ -6138,7 +7250,10 @@
    "explanation": "Abiotic factors shape the distribution of organisms.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-296",
@@ -6157,7 +7272,10 @@
    "explanation": "It shows that competition restricts the realised niche of a species.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-297",
@@ -6178,7 +7296,11 @@
    "explanation": "Crop fields and aquaria are man-made ecosystems.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-298",
@@ -6199,7 +7321,11 @@
    "explanation": "It is expressed in terms of weight (g/m2) or energy (kcal/m2).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-299",
@@ -6220,7 +7346,11 @@
    "explanation": "Humus is highly resistant to microbial action and undergoes decomposition at an extremely slow rate.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-300",
@@ -6241,7 +7371,11 @@
    "explanation": "Humus is degraded by microbes and inorganic nutrients are released, which is mineralisation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-301",
@@ -6262,7 +7396,11 @@
    "explanation": "Lignin and chitin decompose slowly, and low temperature and dryness inhibit microbial activity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-302",
@@ -6283,7 +7421,11 @@
    "explanation": "Small phytoplankton are the pioneers, followed by submerged, floating, reed-swamp and marsh stages and finally forest.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-303",
@@ -6303,7 +7445,10 @@
    "explanation": "NPP is the food available for heterotrophs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-304",
@@ -6324,7 +7469,10 @@
    "explanation": "These steps occur simultaneously in the soil.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-305",
@@ -6345,7 +7493,11 @@
    "explanation": "Botanical gardens, zoos and seed banks conserve species outside their natural habitat.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-306",
@@ -6366,7 +7518,11 @@
    "explanation": "The Convention on Biological Diversity came out of the Earth Summit held in Rio de Janeiro.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-307",
@@ -6387,7 +7543,11 @@
    "explanation": "Endemic species are restricted to one region; hotspots have a high level of endemism.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-308",
@@ -6408,7 +7568,11 @@
    "explanation": "Hotspots are rich in species and endemics, and are under threat of habitat loss.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-309",
@@ -6429,7 +7593,11 @@
    "explanation": "Z is 0.1-0.2 for most regions, but it is 0.6-1.2 when analysing very large areas.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-310",
@@ -6450,7 +7618,11 @@
    "explanation": "Both were driven to extinction by excessive hunting or harvesting.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-311",
@@ -6469,7 +7641,10 @@
    "explanation": "In situ conservation is considered the best method.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-312",
@@ -6489,7 +7664,10 @@
    "explanation": "Habitat loss and fragmentation is the major cause of biodiversity loss.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-313",
@@ -6510,7 +7688,11 @@
    "explanation": "Each lobe has two theca, so a typical anther is tetrasporangiate with four microsporangia.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-314",
@@ -6531,7 +7713,11 @@
    "explanation": "The stigma is the landing platform for pollen grains.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-315",
@@ -6552,7 +7738,12 @@
    "explanation": "Meiosis of the diploid megaspore mother cell gives four haploid megaspores, of which usually one is functional.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "disagree",
+    "checkerAnswer": "D",
+    "note": " Reviewed: the key is right; the checker was wrong."
+   }
   },
   {
    "id": "biology-c12-316",
@@ -6573,7 +7764,11 @@
    "explanation": "Cleistogamous flowers remain closed, so pollen falls on the stigma of the same flower and seeds are produced even without pollinators.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-317",
@@ -6594,7 +7789,11 @@
    "explanation": "Endosperm is triploid (3n) because it arises from two polar nuclei and one male gamete, so 3 x 8 = 24.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-318",
@@ -6615,7 +7814,11 @@
    "explanation": "All eight nuclei of the embryo sac are formed from a haploid functional megaspore by mitosis, so each has 10 chromosomes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-319",
@@ -6636,7 +7839,10 @@
    "explanation": "The ovule becomes the seed after fertilisation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-320",
@@ -6656,7 +7862,10 @@
    "explanation": "Parthenocarpy is different from apomixis, which produces seeds.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-321",
@@ -6677,7 +7886,11 @@
    "explanation": "The ovum is haploid with 23 chromosomes, so fusion with a sperm restores the diploid number of 46.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-322",
@@ -6698,7 +7911,11 @@
    "explanation": "The seminal vesicles, prostate and bulbourethral glands are male accessory glands.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-323",
@@ -6719,7 +7936,11 @@
    "explanation": "After ovulation the remaining follicular cells turn into the corpus luteum, which secretes progesterone.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-324",
@@ -6740,7 +7961,11 @@
    "explanation": "Sperms undergo capacitation in the female tract before they can fertilise the ovum.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-325",
@@ -6761,7 +7986,11 @@
    "explanation": "Meiosis I produces two haploid secondary spermatocytes, and meiosis II then produces four spermatids.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-326",
@@ -6782,7 +8011,11 @@
    "explanation": "Two different zygotes give fraternal twins, which are genetically different like ordinary siblings.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-327",
@@ -6803,7 +8036,10 @@
    "explanation": "The average cycle length is about 28 days.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-328",
@@ -6823,7 +8059,10 @@
    "explanation": "If there is no fertilisation, the corpus luteum degenerates and menstruation follows.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-329",
@@ -6844,7 +8083,11 @@
    "explanation": "According to the WHO, reproductive health is total well-being in all aspects related to reproduction.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-330",
@@ -6865,7 +8108,11 @@
    "explanation": "IUDs are inserted by doctors or trained nurses into the uterus through the vagina.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-331",
@@ -6886,7 +8133,11 @@
    "explanation": "Hepatitis-B and HIV can spread through shared needles, blood transfusion and sexual contact.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-332",
@@ -6907,7 +8158,11 @@
    "explanation": "India was among the first countries to start family planning programmes, in 1951.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-333",
@@ -6928,7 +8183,11 @@
    "explanation": "These rubber barriers are inserted into the female reproductive tract to cover the cervix and block sperm entry.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-334",
@@ -6949,7 +8208,11 @@
    "explanation": "Embryos with more than 8 blastomeres are placed in the uterus, as they have developed further.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-335",
@@ -6969,7 +8232,10 @@
    "explanation": "Awareness removes myths and misconceptions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-336",
@@ -6989,7 +8255,10 @@
    "explanation": "The first test tube baby was born in 1978.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-337",
@@ -7010,7 +8279,11 @@
    "explanation": "The trait that appears in the F1 is dominant, and the hidden trait is recessive.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-338",
@@ -7031,7 +8304,12 @@
    "explanation": "Humans have 23 pairs: 22 pairs of autosomes and one pair of sex chromosomes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "disagree",
+    "checkerAnswer": "C",
+    "note": " Reviewed: the key is right; the checker was wrong."
+   }
   },
   {
    "id": "biology-c12-339",
@@ -7052,7 +8330,11 @@
    "explanation": "Independent assortment of two gene pairs gives 9:3:3:1 in the F2.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-340",
@@ -7073,7 +8355,11 @@
    "explanation": "Haemophilia is a sex-linked recessive disease in which a protein of the blood clotting cascade is affected.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-341",
@@ -7094,7 +8380,11 @@
    "explanation": "Both parents must be carriers (Aa), and Aa x Aa gives 1/4 aa.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-342",
@@ -7115,7 +8405,11 @@
    "explanation": "The child's genotype is ii, so each parent must carry the i allele, making them IAi and IBi.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-343",
@@ -7135,7 +8429,10 @@
    "explanation": "This ratio was the basis of Mendel's law of segregation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-344",
@@ -7155,7 +8452,10 @@
    "explanation": "This is the key difference between the two haemoglobin disorders.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-345",
@@ -7176,7 +8476,11 @@
    "explanation": "tRNA reads the codon through its anticodon and carries the corresponding amino acid.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-346",
@@ -7197,7 +8501,11 @@
    "explanation": "Griffith used smooth (S) and rough (R) strains of Streptococcus pneumoniae and mice.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-347",
@@ -7218,7 +8526,11 @@
    "explanation": "DNA-digesting enzymes stopped transformation, while protease and RNase did not, showing that DNA is the transforming principle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-348",
@@ -7239,7 +8551,11 @@
    "explanation": "A pairs with T and G pairs with C, so the total purines equal the total pyrimidines.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-349",
@@ -7260,7 +8576,11 @@
    "explanation": "The bacterial ribosome has a 50S large and a 30S small subunit (Svedberg units do not simply add).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-350",
@@ -7281,7 +8601,11 @@
    "explanation": "Repetitive (satellite) DNA shows variation in the number of repeats between individuals, which gives a unique pattern.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-351",
@@ -7301,7 +8625,10 @@
    "explanation": "The dogma was proposed by Francis Crick.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-352",
@@ -7322,7 +8649,10 @@
    "explanation": "The method was developed by Alec Jeffreys.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-353",
@@ -7343,7 +8673,11 @@
    "explanation": "Darwin's observations during the voyage of H.M.S. Beagle shaped his theory.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-354",
@@ -7364,7 +8698,11 @@
    "explanation": "Wallace was a naturalist working in the Malay Archipelago.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-355",
@@ -7385,7 +8723,11 @@
    "explanation": "Reptiles, including dinosaurs, dominated the Mesozoic era.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-356",
@@ -7406,7 +8748,11 @@
    "explanation": "Genetic drift is change in allele frequency due to chance events.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-357",
@@ -7427,7 +8773,12 @@
    "explanation": "Thorns and tendrils have a similar origin (axillary buds) but different functions, so they are homologous.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "unsure",
+    "checkerAnswer": "D",
+    "note": "Only option that can be homologous (both are modified stems in most treatments), but many texts list this pair as analogous, so the intended answer may differ. Reviewed: kept; matches NCERT wording."
+   }
   },
   {
    "id": "biology-c12-358",
@@ -7448,7 +8799,11 @@
    "explanation": "Structures with similar function but different origin are analogous and arise by convergent evolution.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-359",
@@ -7467,7 +8822,10 @@
    "explanation": "Darwin's theory rested on variation, struggle for existence and survival of the fittest.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-360",
@@ -7487,7 +8845,10 @@
    "explanation": "Darwin's finches are another example.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-361",
@@ -7508,7 +8869,11 @@
    "explanation": "Streptococcus pneumoniae and Haemophilus influenzae infect the alveoli of the lungs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-362",
@@ -7529,7 +8894,11 @@
    "explanation": "Entamoeba histolytica is a protozoan parasite of the human large intestine.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-363",
@@ -7550,7 +8919,11 @@
    "explanation": "Gastric acid, saliva and tears are physiological barriers, while skin and mucus are physical barriers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-364",
@@ -7571,7 +8944,11 @@
    "explanation": "An antibody is H2L2, made of two heavy and two light polypeptide chains.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-365",
@@ -7592,7 +8969,11 @@
    "explanation": "Opioids bind to opioid receptors in the CNS and gastrointestinal tract.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-366",
@@ -7613,7 +8994,11 @@
    "explanation": "Preformed antibodies give quick passive protection, as the body's own response would be too slow.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-367",
@@ -7632,7 +9017,10 @@
    "explanation": "Vaccination gives active immunity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-368",
@@ -7653,7 +9041,10 @@
    "explanation": "Gametocytes are taken up by a mosquito, where sexual stages are completed.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-369",
@@ -7674,7 +9065,11 @@
    "explanation": "Clostridium butylicum gives butyric acid; Acetobacter aceti gives acetic acid.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-370",
@@ -7695,7 +9090,11 @@
    "explanation": "Wine and beer are produced without distillation, while whisky, brandy and rum are obtained by distillation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-371",
@@ -7716,7 +9115,11 @@
    "explanation": "Bacteria in the fermented batter produce CO2, which causes it to puff.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-372",
@@ -7737,7 +9140,11 @@
    "explanation": "Cyanobacteria such as Anabaena, Nostoc and Oscillatoria are autotrophic nitrogen fixers in paddy fields.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-373",
@@ -7758,7 +9165,11 @@
    "explanation": "Microbes consume the organic matter, so BOD of the treated effluent falls.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-374",
@@ -7779,7 +9190,11 @@
    "explanation": "LAB play a beneficial role in checking disease-causing microbes in the stomach.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-375",
@@ -7799,7 +9214,10 @@
    "explanation": "Other examples of symbiotic nitrogen fixers include Frankia.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-376",
@@ -7819,7 +9237,10 @@
    "explanation": "Biogas is a renewable fuel.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-377",
@@ -7840,7 +9261,11 @@
    "explanation": "Plasmids and bacteriophages are examples of vectors used to carry foreign DNA.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-378",
@@ -7861,7 +9286,11 @@
    "explanation": "The first letter comes from the genus (Escherichia) and the next two from the species (coli).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-379",
@@ -7882,7 +9311,11 @@
    "explanation": "The staggered cut leaves short single-stranded sticky ends that can base-pair with complementary ends.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-380",
@@ -7903,7 +9336,11 @@
    "explanation": "A single cloning site ensures that the vector is cut only once, so the foreign DNA can be inserted at a specific place.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-381",
@@ -7924,7 +9361,11 @@
    "explanation": "Primers anneal to the template and give a 3'-OH end from which the polymerase adds nucleotides.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-382",
@@ -7945,7 +9386,11 @@
    "explanation": "Each cut in a linear molecule adds one fragment, so two cuts produce three fragments.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-383",
@@ -7965,7 +9410,10 @@
    "explanation": "These steps form the basis of genetic engineering.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-384",
@@ -7985,7 +9433,10 @@
    "explanation": "Downstream processing varies with each product.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-385",
@@ -8006,7 +9457,11 @@
    "explanation": "Insulin regulates blood sugar and is given to patients with diabetes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-386",
@@ -8027,7 +9482,11 @@
    "explanation": "The girl had adenosine deaminase deficiency, which affects the immune system.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-387",
@@ -8048,7 +9507,11 @@
    "explanation": "Patents give inventors exclusive commercial rights for a period.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-388",
@@ -8069,7 +9532,11 @@
    "explanation": "GM crops can have improved nutrition, tolerance to stress, less need for pesticides and fewer post-harvest losses.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-389",
@@ -8090,7 +9557,11 @@
    "explanation": "Transgenic mice are used to test vaccine safety, and this reduces the need to use monkeys.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-390",
@@ -8111,7 +9582,11 @@
    "explanation": "Such animals show toxic effects quickly, so the safety of the chemical can be tested faster.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-391",
@@ -8131,7 +9606,10 @@
    "explanation": "Any two valid uses are acceptable.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-392",
@@ -8151,7 +9629,10 @@
    "explanation": "Biotechnology needs ethical evaluation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-393",
@@ -8172,7 +9653,11 @@
    "explanation": "These are adaptations to reduce water loss in deserts.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-394",
@@ -8193,7 +9678,11 @@
    "explanation": "The egrets benefit while the cattle are neither benefited nor harmed.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-395",
@@ -8214,7 +9703,11 @@
    "explanation": "The flower mimics a female bee, so the male bee is deceived and pollinates it.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-396",
@@ -8235,7 +9728,11 @@
    "explanation": "Age structure is represented by pyramids showing these three groups.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-397",
@@ -8256,7 +9753,11 @@
    "explanation": "Per capita birth rate = 25/500 = 0.05 offspring per individual per year.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-398",
@@ -8277,7 +9778,11 @@
    "explanation": "r = b - d = 0.04 - 0.01 = 0.03.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-399",
@@ -8297,7 +9802,10 @@
    "explanation": "Niche includes the way the organism interacts with biotic and abiotic factors.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-400",
@@ -8317,7 +9825,10 @@
    "explanation": "Suspension lets organisms avoid stress in time.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-401",
@@ -8338,7 +9849,11 @@
    "explanation": "The deer is the primary consumer and the tiger, which eats it, is the secondary consumer.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-402",
@@ -8359,7 +9874,11 @@
    "explanation": "Many food chains are linked together in nature to form a food web.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-403",
@@ -8380,7 +9899,11 @@
    "explanation": "The standing state is the amount of nutrients in the soil at a given time.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-404",
@@ -8401,7 +9924,11 @@
    "explanation": "Phosphorus and sulphur cycles are sedimentary, whereas carbon and nitrogen cycles are gaseous.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-405",
@@ -8422,7 +9949,11 @@
    "explanation": "Large producer biomass supports smaller biomass at each higher trophic level, so the pyramid is upright.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-406",
@@ -8443,7 +9974,11 @@
    "explanation": "Primary consumers had 20/0.1 = 200 J, and the producers had 200/0.1 = 2000 J.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-407",
@@ -8463,7 +9998,10 @@
    "explanation": "Ecosystem services have a large economic value.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-408",
@@ -8483,7 +10021,10 @@
    "explanation": "Xerarch succession takes place in dry areas.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-409",
@@ -8504,7 +10045,11 @@
    "explanation": "Insects make up more than 70 per cent of all the recorded animal species.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-410",
@@ -8525,7 +10070,11 @@
    "explanation": "This alien species is a threat to the indigenous catfishes of Indian rivers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-411",
@@ -8546,7 +10095,11 @@
    "explanation": "Sacred groves exist in the Khasi and Jaintia hills of Meghalaya, the Aravalli hills of Rajasthan and the Western Ghats.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-412",
@@ -8567,7 +10120,11 @@
    "explanation": "The present rate of extinction is 100 to 1000 times faster than in the pre-human period, and it is due to human activities.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-413",
@@ -8588,7 +10145,11 @@
    "explanation": "Alpha diversity is within a community, beta is between communities and gamma is over the whole region.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-414",
@@ -8609,7 +10170,11 @@
    "explanation": "More species gave greater stability, and the plots also showed higher productivity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-415",
@@ -8630,7 +10195,10 @@
    "explanation": "The term was coined by Jared Diamond.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-416",
@@ -8650,7 +10218,10 @@
    "explanation": "The relationship was described by Alexander von Humboldt.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-417",
@@ -8671,7 +10242,11 @@
    "explanation": "Wind-pollinated flowers have light, non-sticky pollen that is easily carried by air currents.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-418",
@@ -8692,7 +10267,11 @@
    "explanation": "The integuments of the ovule harden to form the protective seed coat.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-419",
@@ -8713,7 +10292,11 @@
    "explanation": "Insect-pollinated flowers attract insects with colour, fragrance and nectar, and their pollen is sticky.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-420",
@@ -8734,7 +10317,11 @@
    "explanation": "The synergids have special cellular thickenings at the micropylar tip called the filiform apparatus.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-421",
@@ -8755,7 +10342,11 @@
    "explanation": "In dioecious plants such as papaya, male and female flowers are on different plants, so neither self-pollination nor pollination between flowers of the same plant can occur.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-422",
@@ -8776,7 +10367,11 @@
    "explanation": "Each pollen mother cell gives a tetrad of four pollen grains, so 100/4 = 25 cells are needed.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-423",
@@ -8797,7 +10392,11 @@
    "explanation": "The uterine wall has three layers: the outer perimetrium, middle myometrium and inner endometrium.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-424",
@@ -8818,7 +10417,11 @@
    "explanation": "The glans penis is covered by a loose fold of skin called the foreskin.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-425",
@@ -8839,7 +10442,11 @@
    "explanation": "The cavity of the cervix, called the cervical canal, and the vagina form the birth canal.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-426",
@@ -8860,7 +10467,11 @@
    "explanation": "Fimbriae are close to the ovary and help to collect the ovum released at ovulation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-427",
@@ -8881,7 +10492,11 @@
    "explanation": "hCG is produced by the placenta only during pregnancy, so its presence indicates pregnancy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-428",
@@ -8902,7 +10517,11 @@
    "explanation": "FSH acts on the Sertoli cells and stimulates secretion of factors that help in spermiogenesis; LH acts on Leydig cells.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-429",
@@ -8923,7 +10542,11 @@
    "explanation": "In tubectomy the fallopian tubes are cut and tied, so the ovum cannot reach the uterus.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-430",
@@ -8944,7 +10567,11 @@
    "explanation": "They are called STIs, venereal diseases (VD) or reproductive tract infections (RTI).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-431",
@@ -8965,7 +10592,11 @@
    "explanation": "In AI, semen from the husband or a healthy donor is introduced into the vagina or uterus of the female.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-432",
@@ -8986,7 +10617,11 @@
    "explanation": "Better health facilities lowered the death rates while birth rates remained high.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-433",
@@ -9007,7 +10642,11 @@
    "explanation": "The pill is taken for 21 days, followed by a gap of seven days, after which the course is repeated.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-434",
@@ -9028,7 +10667,11 @@
    "explanation": "The Act aims to allow abortion on legal grounds while checking its misuse.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-435",
@@ -9049,7 +10692,11 @@
    "explanation": "A recessive trait appears only in the homozygous recessive condition, rr.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-436",
@@ -9070,7 +10717,11 @@
    "explanation": "T. H. Morgan and his colleagues worked on linkage and recombination in fruit flies.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-437",
@@ -9091,7 +10742,11 @@
    "explanation": "In birds, females are heterogametic (ZW) and males are homogametic (ZZ).",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-438",
@@ -9112,7 +10767,11 @@
    "explanation": "In the XO type of sex determination, males have only one X chromosome and females have two.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-439",
@@ -9133,7 +10792,11 @@
    "explanation": "Drones develop parthenogenetically from unfertilised eggs, so they are haploid, whereas queens and workers are diploid.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-440",
@@ -9154,7 +10817,11 @@
    "explanation": "XcY x XCXc gives daughters XCXc (carrier) and XcXc (colour blind) in equal numbers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-441",
@@ -9175,7 +10842,11 @@
    "explanation": "A single DNA-dependent RNA polymerase catalyses transcription of all types of RNA in bacteria.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-442",
@@ -9196,7 +10867,11 @@
    "explanation": "DNA contains the pentose sugar 2'-deoxyribose.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-443",
@@ -9217,7 +10892,11 @@
    "explanation": "Translation occurs on ribosomes, which are made of rRNA and proteins.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-444",
@@ -9238,7 +10917,11 @@
    "explanation": "After splicing, hnRNA receives a cap at the 5' end and a poly-A tail at the 3' end to become mRNA.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-445",
@@ -9259,7 +10942,11 @@
    "explanation": "The z gene codes for beta-galactosidase, y for permease and a for transacetylase.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-446",
@@ -9280,7 +10967,11 @@
    "explanation": "Length = 10^6 x 0.34 nm = 3.4 x 10^5 nm = 0.34 mm.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-447",
@@ -9301,7 +10992,11 @@
    "explanation": "Natural selection acts on heritable variations that give some individuals a better chance of survival and reproduction.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-448",
@@ -9322,7 +11017,11 @@
    "explanation": "Homo sapiens arose in Africa and moved across continents, developing into distinct races.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-449",
@@ -9343,7 +11042,11 @@
    "explanation": "Similar embryonic features point to descent from a common ancestor.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-450",
@@ -9364,7 +11067,11 @@
    "explanation": "Resistant forms are selected in the presence of the drug or herbicide and then increase in the population.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-451",
@@ -9385,7 +11092,11 @@
    "explanation": "The frequency of AA is p squared = 0.6 x 0.6 = 0.36.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-452",
@@ -9406,7 +11117,11 @@
    "explanation": "The principle holds only if allele frequencies are not changed by evolutionary forces.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-453",
@@ -9427,7 +11142,11 @@
    "explanation": "Culex mosquitoes transmit Wuchereria, the filarial worm.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-454",
@@ -9448,7 +11167,11 @@
    "explanation": "A biopsy is the microscopic study of a sample of tissue after staining.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-455",
@@ -9469,7 +11192,11 @@
    "explanation": "Allergens such as dust and pollen trigger release of histamine from mast cells.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-456",
@@ -9490,7 +11217,11 @@
    "explanation": "Cannabinoids are extracted from the inflorescences of Cannabis sativa; they affect the cardiovascular system.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-457",
@@ -9511,7 +11242,11 @@
    "explanation": "Cocaine interferes with dopamine transport, causing excessive stimulation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-458",
@@ -9532,7 +11267,11 @@
    "explanation": "T-lymphocytes recognise the graft as foreign and cause its rejection.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-459",
@@ -9553,7 +11292,11 @@
    "explanation": "Antibiotics such as penicillin are made by microbes and act against other microbes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-460",
@@ -9574,7 +11317,11 @@
    "explanation": "Primary treatment is a physical process of filtration and sedimentation that removes floating material and grit.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-461",
@@ -9595,7 +11342,11 @@
    "explanation": "Ladybirds feed on aphids, and dragonflies feed on mosquitoes, so they are used as biocontrol agents.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-462",
@@ -9616,7 +11367,11 @@
    "explanation": "Trichoderma are free-living fungi that are effective biocontrol agents of plant pathogens.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-463",
@@ -9637,7 +11392,11 @@
    "explanation": "LAB need a suitable warm temperature to multiply and convert milk into curd.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-464",
@@ -9658,7 +11417,11 @@
    "explanation": "Biofertilisers enrich nutrients without the harmful effects of excess chemicals.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-465",
@@ -9678,7 +11441,10 @@
    "explanation": "Fermentation by microbes is used in many foods.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-466",
@@ -9699,7 +11465,11 @@
    "explanation": "DNA must first be isolated in a pure form before it can be cut and joined.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-467",
@@ -9720,7 +11490,11 @@
    "explanation": "E. coli is the commonly used bacterial host for cloning.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-468",
@@ -9741,7 +11515,11 @@
    "explanation": "The p stands for plasmid, BR for the two scientists Bolivar and Rodriguez, and 322 is the number of the plasmid developed in their laboratory.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-469",
@@ -9762,7 +11540,11 @@
    "explanation": "Ribonuclease degrades RNA, protease removes proteins and lysozyme breaks bacterial cell walls.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-470",
@@ -9783,7 +11565,11 @@
    "explanation": "The agarose gel acts as a sieve, so smaller fragments move faster and farther.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-471",
@@ -9804,7 +11590,11 @@
    "explanation": "RNA polymerase of the host must recognise the promoter that controls the transcription of the inserted gene.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-472",
@@ -9824,7 +11614,10 @@
    "explanation": "Other methods are microinjection and the gene gun.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-473",
@@ -9845,7 +11638,11 @@
    "explanation": "Bt refers to Bacillus thuringiensis, the source of the toxin gene.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-474",
@@ -9866,7 +11663,11 @@
    "explanation": "In mature insulin the C peptide is removed, leaving chains A and B joined by disulphide bonds.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-475",
@@ -9887,7 +11688,11 @@
    "explanation": "PCR helps to detect mutations in genes in suspected cancer patients.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-476",
@@ -9908,7 +11713,11 @@
    "explanation": "Rosie was the first transgenic cow, born in 1997.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-477",
@@ -9929,7 +11738,11 @@
    "explanation": "A permanent cure would require introducing the gene into early embryonic marrow cells.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-478",
@@ -9950,7 +11763,11 @@
    "explanation": "The separately produced chains were extracted and combined by creating disulphide bonds.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-479",
@@ -9969,7 +11786,10 @@
    "explanation": "Bacteria are easy to grow in large quantities.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-480",
@@ -9990,7 +11810,11 @@
    "explanation": "Organisms form populations, which make up communities, which together form biomes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-481",
@@ -10011,7 +11835,11 @@
    "explanation": "Light and day length regulate flowering and other processes in plants and the behaviour of animals.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-482",
@@ -10032,7 +11860,11 @@
    "explanation": "The wasp pollinates the fig, and the fig provides the wasp with a place to lay eggs and food.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-483",
@@ -10053,7 +11885,11 @@
    "explanation": "The liver fluke lives inside the host, whereas lice, ticks and leeches feed from outside.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-484",
@@ -10074,7 +11910,11 @@
    "explanation": "Density = 600/20 = 30 plants per square metre.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-485",
@@ -10095,7 +11935,11 @@
    "explanation": "At K the factor (K - N)/K becomes zero, so the population stops growing.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-486",
@@ -10115,7 +11959,11 @@
    "explanation": "This is a physiological adaptation, called acclimatisation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "disagree",
+    "note": "Acclimatisation to low oxygen increases the binding capacity (affinity) of haemoglobin for oxygen; the proposed answer says it decreases, which is wrong. Reviewed: kept; matches NCERT wording."
+   }
   },
   {
    "id": "biology-c12-487",
@@ -10136,7 +11984,11 @@
    "explanation": "Phytoplankton photosynthesise and are the major producers of aquatic ecosystems.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-488",
@@ -10157,7 +12009,11 @@
    "explanation": "Ponds, lakes, rivers and oceans are aquatic ecosystems.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-489",
@@ -10178,7 +12034,11 @@
    "explanation": "Nitrosomonas converts ammonia to nitrite, and Nitrobacter converts nitrite to nitrate.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-490",
@@ -10199,7 +12059,11 @@
    "explanation": "Bacteria such as Pseudomonas convert nitrate back to N2, which returns to the atmosphere.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-491",
@@ -10220,7 +12084,11 @@
    "explanation": "The oceans have a lower productivity than land because of limited light and nutrients, even though they are larger in area.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-492",
@@ -10241,7 +12109,11 @@
    "explanation": "The climax community is stable, in equilibrium with the climate, and remains unchanged unless disturbed.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-493",
@@ -10260,7 +12132,10 @@
    "explanation": "Stratification reduces competition for light.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "biology-c12-494",
@@ -10281,7 +12156,12 @@
    "explanation": "Three hotspots, the Western Ghats and Sri Lanka, Indo-Burma and the Himalaya, cover India.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "unsure",
+    "checkerAnswer": "B",
+    "note": "Standard hotspot lists give three hotspots touching India (Himalaya, Indo-Burma, Western Ghats and Sri Lanka); check NCERT's exact wording before relying on it. Reviewed: kept; matches NCERT wording."
+   }
   },
   {
    "id": "biology-c12-495",
@@ -10302,7 +12182,11 @@
    "explanation": "Tropical rain forests like the Amazon have the highest species richness.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-496",
@@ -10323,7 +12207,11 @@
    "explanation": "Critically endangered species face an extremely high risk of extinction in the wild.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "biology-c12-497",
@@ -10344,7 +12232,11 @@
    "explanation": "Water hyacinth, Lantana and Parthenium are invasive alien species that threaten native biodiversity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "biology-c12-498",
@@ -10365,7 +12257,11 @@
    "explanation": "Species richness rises towards the equator, so the tropical country has far more bird species.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "biology-c12-499",
@@ -10386,7 +12282,11 @@
    "explanation": "Ex situ methods like zoos, gene banks and seed banks protect species that cannot survive in the wild.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "biology-c12-500",
@@ -10406,7 +12306,10 @@
    "explanation": "Keystone predators maintain species diversity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   }
  ]
 }

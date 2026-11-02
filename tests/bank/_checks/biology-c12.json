@@ -1,0 +1,2010 @@
+{
+ "model": "claude-haiku",
+ "answers": [
+  {
+   "id": "biology-c12-001",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-002",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-003",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-004",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-005",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-006",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-007",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-008",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-009",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-010",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-011",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-012",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-013",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-014",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-015",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-016",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-017",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-018",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-019",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-020",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-021",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-022",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-023",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-024",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-025",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-026",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-027",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-028",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-029",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-030",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-031",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-032",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-033",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-034",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-035",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-036",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-037",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-038",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-039",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-040",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-041",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-042",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-043",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-044",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-045",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-046",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-047",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-048",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-049",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-050",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-051",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-052",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-053",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-054",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-055",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-056",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-057",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-058",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-059",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-060",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-061",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-062",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-063",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-064",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-065",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-066",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-067",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-068",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-069",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-070",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-071",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-072",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-073",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-074",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-075",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-076",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-077",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-078",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-079",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-080",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-081",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-082",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-083",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-084",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-085",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-086",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-087",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-088",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-089",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-090",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-091",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-092",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-093",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-094",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-095",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-096",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-097",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-098",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-099",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-100",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-101",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-102",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-103",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-104",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-105",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-106",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-107",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-108",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-109",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-110",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-111",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-112",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-113",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-114",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-115",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-116",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-117",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-118",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-119",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-120",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-121",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-122",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-123",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-124",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-125",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-126",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-127",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-128",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-129",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-130",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-131",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-132",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-133",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-134",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-135",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-136",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-137",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-138",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-139",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-140",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-141",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-142",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-143",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-144",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-145",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-146",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-147",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-148",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-149",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-150",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-151",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-152",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-153",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-154",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-155",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-156",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-157",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-158",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-159",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-160",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-161",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-162",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-163",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-164",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-165",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-166",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-167",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-168",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-169",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-170",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-171",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-172",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-173",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-174",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-175",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-176",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-177",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-178",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-179",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-180",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-181",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-182",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-183",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-184",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-185",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-186",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-187",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-188",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-189",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-190",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-191",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-192",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-193",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-194",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-195",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-196",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-197",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-198",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-199",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-200",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-201",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-202",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-203",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-204",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-205",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-206",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-207",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-208",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-209",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-210",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-211",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-212",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-213",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-214",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-215",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-216",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-217",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-218",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-219",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-220",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-221",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-222",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-223",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-224",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-225",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-226",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-227",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-228",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-229",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-230",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-231",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-232",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-233",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-234",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-235",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-236",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-237",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-238",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-239",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-240",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-241",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-242",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-243",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-244",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-245",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-246",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-247",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-248",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-249",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-250",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-251",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-252",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-253",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-254",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-255",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-256",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-257",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-258",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-259",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-260",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-261",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-262",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-263",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-264",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-265",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-266",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-267",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-268",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-269",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-270",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-271",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-272",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-273",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-274",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-275",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-276",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-277",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-278",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-279",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-280",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-281",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-282",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-283",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-284",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-285",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-286",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-287",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-288",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-289",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-290",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-291",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-292",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-293",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-294",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-295",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-296",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-297",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-298",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-299",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-300",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-301",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-302",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-303",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-304",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-305",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-306",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-307",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-308",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-309",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-310",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-311",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-312",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-313",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-314",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-315",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-316",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-317",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-318",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-319",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-320",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-321",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-322",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-323",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-324",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-325",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-326",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-327",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-328",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-329",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-330",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-331",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-332",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-333",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-334",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-335",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-336",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-337",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-338",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-339",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-340",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-341",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-342",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-343",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-344",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-345",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-346",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-347",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-348",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-349",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-350",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-351",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-352",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-353",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-354",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-355",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-356",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-357",
+   "answer": "D",
+   "unsure": true,
+   "note": "Only option that can be homologous (both are modified stems in most treatments), but many texts list this pair as analogous, so the intended answer may differ."
+  },
+  {
+   "id": "biology-c12-358",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-359",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-360",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-361",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-362",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-363",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-364",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-365",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-366",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-367",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-368",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-369",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-370",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-371",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-372",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-373",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-374",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-375",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-376",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-377",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-378",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-379",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-380",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-381",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-382",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-383",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-384",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-385",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-386",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-387",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-388",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-389",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-390",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-391",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-392",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-393",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-394",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-395",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-396",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-397",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-398",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-399",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-400",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-401",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-402",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-403",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-404",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-405",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-406",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-407",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-408",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-409",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-410",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-411",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-412",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-413",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-414",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-415",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-416",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-417",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-418",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-419",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-420",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-421",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-422",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-423",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-424",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-425",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-426",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-427",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-428",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-429",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-430",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-431",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-432",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-433",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-434",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-435",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-436",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-437",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-438",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-439",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-440",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-441",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-442",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-443",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-444",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-445",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-446",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-447",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-448",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-449",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-450",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-451",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-452",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-453",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-454",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-455",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-456",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-457",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-458",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-459",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-460",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-461",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-462",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-463",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-464",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-465",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-466",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-467",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-468",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-469",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-470",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-471",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-472",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-473",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-474",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-475",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-476",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-477",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-478",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-479",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-480",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-481",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-482",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-483",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-484",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-485",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-486",
+   "verdict": "incorrect",
+   "note": "Acclimatisation to low oxygen increases the binding capacity (affinity) of haemoglobin for oxygen; the proposed answer says it decreases, which is wrong."
+  },
+  {
+   "id": "biology-c12-487",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-488",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-489",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-490",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-491",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-492",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-493",
+   "verdict": "correct"
+  },
+  {
+   "id": "biology-c12-494",
+   "answer": "B",
+   "unsure": true,
+   "note": "Standard hotspot lists give three hotspots touching India (Himalaya, Indo-Burma, Western Ghats and Sri Lanka); check NCERT's exact wording before relying on it."
+  },
+  {
+   "id": "biology-c12-495",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-496",
+   "answer": "D"
+  },
+  {
+   "id": "biology-c12-497",
+   "answer": "A"
+  },
+  {
+   "id": "biology-c12-498",
+   "answer": "B"
+  },
+  {
+   "id": "biology-c12-499",
+   "answer": "C"
+  },
+  {
+   "id": "biology-c12-500",
+   "verdict": "correct"
+  }
+ ]
+}
