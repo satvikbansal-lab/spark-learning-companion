@@ -1,0 +1,5480 @@
+{
+ "class": 12,
+ "subject": "social",
+ "items": [
+  {
+   "id": "social-c12-001",
+   "type": "mcq",
+   "q": "Mohenjodaro, a major Harappan city, stood on the banks of which river?",
+   "options": [
+    "Ravi",
+    "Sutlej",
+    "Indus",
+    "Ghaggar"
+   ]
+  },
+  {
+   "id": "social-c12-002",
+   "type": "mcq",
+   "q": "The Great Bath, a large water tank with steps, was found at which Harappan site?",
+   "options": [
+    "Mohenjodaro",
+    "Lothal",
+    "Kalibangan",
+    "Banawali"
+   ]
+  },
+  {
+   "id": "social-c12-003",
+   "type": "mcq",
+   "q": "Which evidence suggests that Harappan people traded with Mesopotamia?",
+   "options": [
+    "Mesopotamian cities were laid out exactly like Harappan cities",
+    "Both regions used the same script, which has been fully deciphered",
+    "Harappan cities stood on the Tigris river",
+    "Seals and beads of Indus type have been found at Mesopotamian sites"
+   ]
+  },
+  {
+   "id": "social-c12-004",
+   "type": "mcq",
+   "q": "Which of these was a feature of Harappan town planning?",
+   "options": [
+    "Streets laid out at random with no drainage",
+    "A grid-like layout of streets with covered drains",
+    "A single huge temple at the centre of every city",
+    "Houses built only of wood"
+   ]
+  },
+  {
+   "id": "social-c12-005",
+   "type": "mcq",
+   "q": "Why is it hard for historians to say much about Harappan beliefs and government?",
+   "options": [
+    "The script was written in Sanskrit, which few people know",
+    "The script has not been deciphered, so conclusions rest mostly on material remains",
+    "No objects have been found at Harappan sites",
+    "All Harappan records were written on stone and have survived intact"
+   ]
+  },
+  {
+   "id": "social-c12-006",
+   "type": "mcq",
+   "q": "Standardised bricks and weights have been found across many Harappan sites. What is the best inference?",
+   "options": [
+    "Each village made its own measures",
+    "Trade took place only within a single city",
+    "Bricks were imported from Mesopotamia",
+    "Some form of organisation helped regulate production and trade over a wide area"
+   ]
+  },
+  {
+   "id": "social-c12-007",
+   "type": "short",
+   "q": "Describe two features of Harappan town planning.",
+   "proposedAnswer": "Harappan cities had a planned layout with streets crossing at right angles, and a system of drains covering the streets. Many cities had a raised citadel and a lower town.",
+   "keyPoints": [
+    "Streets in a grid pattern",
+    "Covered drains",
+    "Citadel and lower town"
+   ]
+  },
+  {
+   "id": "social-c12-008",
+   "type": "short",
+   "q": "Why is it difficult to know how the Harappan civilisation was governed?",
+   "proposedAnswer": "The script has not been deciphered, so there are no readable records. Excavations have not clearly identified palaces or royal tombs, so historians can only make inferences from planning, seals and weights.",
+   "keyPoints": [
+    "Script undeciphered",
+    "No clearly identified palace or royal records",
+    "Only inference from material remains"
+   ]
+  },
+  {
+   "id": "social-c12-009",
+   "type": "mcq",
+   "q": "Which Mauryan ruler turned away from conquest by war after the Kalinga war and promoted Dhamma?",
+   "options": [
+    "Ashoka",
+    "Chandragupta Maurya",
+    "Bindusara",
+    "Samudragupta"
+   ]
+  },
+  {
+   "id": "social-c12-010",
+   "type": "mcq",
+   "q": "Which Greek envoy wrote an account called Indica after staying at Chandragupta Maurya's court?",
+   "options": [
+    "Ptolemy",
+    "Alexander",
+    "Megasthenes",
+    "Fa-Hien"
+   ]
+  },
+  {
+   "id": "social-c12-011",
+   "type": "mcq",
+   "q": "Why are Ashoka's inscriptions valuable to historians?",
+   "options": [
+    "They carry the king's own messages and policies, giving first-hand evidence",
+    "They were written by foreign travellers",
+    "They list the cities of the Harappan civilisation",
+    "They are in a script nobody can read"
+   ]
+  },
+  {
+   "id": "social-c12-012",
+   "type": "mcq",
+   "q": "The prashasti on the Allahabad pillar mainly praises which Gupta ruler?",
+   "options": [
+    "Chandragupta I",
+    "Skandagupta",
+    "Samudragupta",
+    "Kumaragupta"
+   ]
+  },
+  {
+   "id": "social-c12-013",
+   "type": "mcq",
+   "q": "Chinese pilgrims such as Fa-Hien described what they saw in India. How should historians use such accounts?",
+   "options": [
+    "As complete proof of every claim, without comparison",
+    "As an outsider's observations on society and religion, to be compared with other sources",
+    "As evidence about the Harappan civilisation",
+    "They should be ignored because foreigners never wrote about India"
+   ]
+  },
+  {
+   "id": "social-c12-014",
+   "type": "mcq",
+   "q": "Why did Pataliputra, on the Ganga, help Magadha grow powerful?",
+   "options": [
+    "It was a port on the Arabian Sea",
+    "It lay far from fertile land",
+    "It had no neighbouring kingdoms",
+    "River routes aided trade and troop movement, and fertile land and iron resources lay nearby"
+   ]
+  },
+  {
+   "id": "social-c12-015",
+   "type": "short",
+   "q": "State two features of Ashoka's Dhamma.",
+   "proposedAnswer": "Dhamma urged non-violence towards living beings, respect for elders and teachers, and tolerance among different sects and religions.",
+   "keyPoints": [
+    "Non-violence",
+    "Respect for elders",
+    "Tolerance of other sects"
+   ]
+  },
+  {
+   "id": "social-c12-016",
+   "type": "short",
+   "q": "How did long-distance trade connect ancient India with other regions?",
+   "proposedAnswer": "Land routes such as the Silk Route and sea routes carried goods like spices and textiles. Trade also carried ideas, so cultural contact followed, for example the spread of Buddhism to other lands.",
+   "keyPoints": [
+    "Land and sea routes",
+    "Exchange of goods",
+    "Exchange of ideas such as Buddhism"
+   ]
+  },
+  {
+   "id": "social-c12-017",
+   "type": "mcq",
+   "q": "Who defeated Ibrahim Lodi in the First Battle of Panipat in 1526?",
+   "options": [
+    "Humayun",
+    "Akbar",
+    "Sher Shah",
+    "Babur"
+   ]
+  },
+  {
+   "id": "social-c12-018",
+   "type": "mcq",
+   "q": "Which city on the Tungabhadra river was the capital of the Vijayanagara Empire?",
+   "options": [
+    "Warangal",
+    "Hampi",
+    "Madurai",
+    "Golconda"
+   ]
+  },
+  {
+   "id": "social-c12-019",
+   "type": "mcq",
+   "q": "Why is Abul Fazl's Ain-i-Akbari useful to historians?",
+   "options": [
+    "It is a Sufi poem on love",
+    "It was written by a European traveller",
+    "It describes Mughal administration, revenue and the imperial court",
+    "It narrates only battles in South India"
+   ]
+  },
+  {
+   "id": "social-c12-020",
+   "type": "mcq",
+   "q": "Which idea was common in the teachings of Bhakti saints such as Kabir?",
+   "options": [
+    "Devotion to God and criticism of rigid ritual and caste distinctions",
+    "Strict control by priests over worship",
+    "Conquest of neighbouring kingdoms",
+    "Withdrawal from society into forests only"
+   ]
+  },
+  {
+   "id": "social-c12-021",
+   "type": "mcq",
+   "q": "How did the mansabdari system help the Mughal emperor control his nobles?",
+   "options": [
+    "Ranks tied pay and military duty to the emperor, who could appoint, promote or transfer officers",
+    "Nobles were chosen by village assemblies",
+    "Ranks were hereditary with no imperial control",
+    "It abolished the army"
+   ]
+  },
+  {
+   "id": "social-c12-022",
+   "type": "mcq",
+   "q": "Why did Sufi dargahs attract people from different communities?",
+   "options": [
+    "Entry was limited to rulers",
+    "Only members of one caste were allowed",
+    "They worked as state tax offices",
+    "Their message of love and devotion, with local languages and music, reached ordinary people"
+   ]
+  },
+  {
+   "id": "social-c12-023",
+   "type": "short",
+   "q": "Describe two features of Hampi, the capital of Vijayanagara.",
+   "proposedAnswer": "Hampi was protected by massive fortifications. It had grand temples such as the Virupaksha temple and a system for bringing water, and it was a busy centre of markets on the Tungabhadra.",
+   "keyPoints": [
+    "Strong fortifications",
+    "Temples",
+    "Water management or markets"
+   ]
+  },
+  {
+   "id": "social-c12-024",
+   "type": "short",
+   "q": "How did the Mughal land revenue system link peasants to the state?",
+   "proposedAnswer": "Land was measured and assessed, and the revenue was mostly collected in cash. Officers, including jagirdars, collected it, so the peasant paid a share of the produce to the empire through them. Todar Mal's measurements are associated with the system.",
+   "keyPoints": [
+    "Land assessed and measured",
+    "Revenue collected mostly in cash",
+    "Officers collected it for the emperor"
+   ]
+  },
+  {
+   "id": "social-c12-025",
+   "type": "mcq",
+   "q": "Which battle of 1757 laid the foundation of British political power in Bengal?",
+   "options": [
+    "Buxar",
+    "Panipat",
+    "Plassey",
+    "Haldighati"
+   ]
+  },
+  {
+   "id": "social-c12-026",
+   "type": "mcq",
+   "q": "The Revolt of 1857 began at which place?",
+   "options": [
+    "Delhi",
+    "Meerut",
+    "Kanpur",
+    "Jhansi"
+   ]
+  },
+  {
+   "id": "social-c12-027",
+   "type": "mcq",
+   "q": "Under the Permanent Settlement introduced in Bengal in 1793, the revenue demand from zamindars was",
+   "options": [
+    "revised every year",
+    "collected directly from peasants by officials",
+    "fixed permanently",
+    "abolished"
+   ]
+  },
+  {
+   "id": "social-c12-028",
+   "type": "mcq",
+   "q": "Why did peasants in Bengal revolt against indigo planters around 1859-60?",
+   "options": [
+    "Indigo prices were very high",
+    "They were forced to grow indigo on unfair terms instead of food crops",
+    "Planters offered free land",
+    "Railways had stopped"
+   ]
+  },
+  {
+   "id": "social-c12-029",
+   "type": "mcq",
+   "q": "How did the Doctrine of Lapse add to discontent before 1857?",
+   "options": [
+    "Annexing states without a natural heir displaced rulers and their dependents",
+    "It gave Indian states more freedom",
+    "It ended recruitment of sepoys",
+    "It was applied only in Bengal"
+   ]
+  },
+  {
+   "id": "social-c12-030",
+   "type": "mcq",
+   "q": "Why is the 1857 revolt seen as more than just a mutiny of soldiers?",
+   "options": [
+    "It was confined to one regiment",
+    "It occurred only in southern India",
+    "Civilians such as peasants, artisans and displaced rulers also joined in many areas",
+    "Only British officers took part"
+   ]
+  },
+  {
+   "id": "social-c12-031",
+   "type": "short",
+   "q": "Describe two ways in which British economic policy harmed Indian artisans.",
+   "proposedAnswer": "Cheap machine-made goods from Britain flooded Indian markets, while Indian goods faced high duties in Britain. As a result many weavers and craftsmen lost their livelihood.",
+   "keyPoints": [
+    "Cheap imported factory goods",
+    "High duties on Indian goods in Britain",
+    "Decline of weavers and craftsmen"
+   ]
+  },
+  {
+   "id": "social-c12-032",
+   "type": "short",
+   "q": "Why did the British Crown take over the administration from the East India Company after 1857?",
+   "proposedAnswer": "The revolt exposed the weaknesses of Company rule, so Parliament passed the Government of India Act 1858. Power passed to the Crown through a Secretary of State and a Viceroy, and a proclamation promised not to interfere in religion.",
+   "keyPoints": [
+    "Revolt exposed the Company's weaknesses",
+    "Act of 1858 transferred power to the Crown",
+    "Viceroy and Secretary of State"
+   ]
+  },
+  {
+   "id": "social-c12-033",
+   "type": "mcq",
+   "q": "Gandhi's first major satyagraha in India, in 1917, took place in which district of Bihar?",
+   "options": [
+    "Kheda",
+    "Ahmedabad",
+    "Bardoli",
+    "Champaran"
+   ]
+  },
+  {
+   "id": "social-c12-034",
+   "type": "mcq",
+   "q": "Which event of 13 April 1919 in Amritsar caused widespread anger in India?",
+   "options": [
+    "Chauri Chaura incident",
+    "The Dandi March",
+    "Firing at Jallianwala Bagh",
+    "The Kakori incident"
+   ]
+  },
+  {
+   "id": "social-c12-035",
+   "type": "mcq",
+   "q": "Why did Gandhi withdraw the Non-Cooperation Movement in 1922?",
+   "options": [
+    "The British accepted all demands",
+    "A mob burnt a police station at Chauri Chaura, with deaths",
+    "He was elected President",
+    "The Muslim League opposed it"
+   ]
+  },
+  {
+   "id": "social-c12-036",
+   "type": "mcq",
+   "q": "The Poona Pact of 1932 was an agreement between Gandhi and",
+   "options": [
+    "B. R. Ambedkar, on representation of the Depressed Classes",
+    "Jinnah on Partition",
+    "Lord Irwin on salt",
+    "Subhas Bose on the INA"
+   ]
+  },
+  {
+   "id": "social-c12-037",
+   "type": "mcq",
+   "q": "Why was the Simon Commission boycotted by Indian leaders?",
+   "options": [
+    "It had only Indian members",
+    "It had no Indian member, though it was to consider India's constitutional future",
+    "It proposed immediate independence",
+    "It was set up after Chauri Chaura"
+   ]
+  },
+  {
+   "id": "social-c12-038",
+   "type": "mcq",
+   "q": "Why was salt a good symbol for the Civil Disobedience Movement?",
+   "options": [
+    "Everyone used salt, so a tax on it touched all sections of society",
+    "Only the rich used salt",
+    "Salt was produced only in Britain",
+    "It was the only tax the British levied"
+   ]
+  },
+  {
+   "id": "social-c12-039",
+   "type": "short",
+   "q": "State two aims of the Non-Cooperation Movement.",
+   "proposedAnswer": "It aimed to withdraw cooperation from the British government by boycotting schools, courts and titles, and to promote swadeshi and khadi. It also sought swaraj and redress of the Khilafat issue.",
+   "keyPoints": [
+    "Boycott of schools, courts, titles",
+    "Swadeshi and khadi",
+    "Swaraj"
+   ]
+  },
+  {
+   "id": "social-c12-040",
+   "type": "short",
+   "q": "How did Gandhi's satyagraha differ from the earlier method of petitions?",
+   "proposedAnswer": "Earlier leaders mostly petitioned and appealed to the government. Gandhi relied on mass participation, non-violence and truth, using boycotts and civil disobedience to put pressure on the government.",
+   "keyPoints": [
+    "Petitions were appeals to authority",
+    "Mass participation",
+    "Non-violent civil disobedience and boycott"
+   ]
+  },
+  {
+   "id": "social-c12-041",
+   "type": "mcq",
+   "q": "Who was Chairman of the Drafting Committee of the Constituent Assembly?",
+   "options": [
+    "Rajendra Prasad",
+    "Jawaharlal Nehru",
+    "B. R. Ambedkar",
+    "Vallabhbhai Patel"
+   ]
+  },
+  {
+   "id": "social-c12-042",
+   "type": "mcq",
+   "q": "On which date did the Constitution of India come into effect?",
+   "options": [
+    "15 August 1947",
+    "26 November 1949",
+    "30 January 1948",
+    "26 January 1950"
+   ]
+  },
+  {
+   "id": "social-c12-043",
+   "type": "mcq",
+   "q": "Why was 26 January chosen as the date to bring the Constitution into force?",
+   "options": [
+    "It was Gandhi's birthday",
+    "The British left India on that day",
+    "In 1930 the Congress had observed that day as Purna Swaraj Day",
+    "The Constituent Assembly first met on that day"
+   ]
+  },
+  {
+   "id": "social-c12-044",
+   "type": "mcq",
+   "q": "What does the Radcliffe Line refer to?",
+   "options": [
+    "The boundary drawn between India and Pakistan at Partition",
+    "The boundary between India and China",
+    "The line dividing North and South Korea",
+    "A railway line in Punjab"
+   ]
+  },
+  {
+   "id": "social-c12-045",
+   "type": "mcq",
+   "q": "Why was the integration of princely states important for the new India?",
+   "options": [
+    "They were already part of India",
+    "The United Nations had said they must remain separate",
+    "They had no territory",
+    "Hundreds of them had been under British paramountcy, so national unity required their accession"
+   ]
+  },
+  {
+   "id": "social-c12-046",
+   "type": "mcq",
+   "q": "Why was the Objectives Resolution moved in the Constituent Assembly in 1946 important?",
+   "options": [
+    "It listed the Fundamental Duties",
+    "It set out ideals of liberty, equality and justice that guided the drafting",
+    "It created the Planning Commission",
+    "It announced Partition"
+   ]
+  },
+  {
+   "id": "social-c12-047",
+   "type": "short",
+   "q": "What four ideals does the Preamble seek to secure for all citizens?",
+   "proposedAnswer": "The Preamble seeks to secure justice, liberty, equality and fraternity for all citizens.",
+   "keyPoints": [
+    "Justice",
+    "Liberty",
+    "Equality",
+    "Fraternity"
+   ]
+  },
+  {
+   "id": "social-c12-048",
+   "type": "short",
+   "q": "Why did the framers adopt a federal structure with a strong Centre?",
+   "proposedAnswer": "India is a large, diverse country, so power was divided between the Union and the states. After Partition, unity and integrity were a priority, so the Centre was made strong.",
+   "keyPoints": [
+    "Diversity of the country",
+    "Need for unity after Partition",
+    "Division of powers between Centre and states"
+   ]
+  },
+  {
+   "id": "social-c12-049",
+   "type": "mcq",
+   "q": "Which Article of the Constitution abolishes untouchability?",
+   "options": [
+    "Article 14",
+    "Article 17",
+    "Article 21",
+    "Article 32"
+   ]
+  },
+  {
+   "id": "social-c12-050",
+   "type": "mcq",
+   "q": "Which house of Parliament is a permanent house, not subject to dissolution?",
+   "options": [
+    "Lok Sabha",
+    "Legislative Assembly",
+    "Gram Sabha",
+    "Rajya Sabha"
+   ]
+  },
+  {
+   "id": "social-c12-051",
+   "type": "mcq",
+   "q": "Why did Ambedkar call Article 32 the heart and soul of the Constitution?",
+   "options": [
+    "It lets citizens approach the Supreme Court directly to enforce Fundamental Rights",
+    "It describes Parliament",
+    "It lists the Directive Principles",
+    "It deals with elections"
+   ]
+  },
+  {
+   "id": "social-c12-052",
+   "type": "mcq",
+   "q": "In the division of powers, defence belongs to which list?",
+   "options": [
+    "State List",
+    "Concurrent List",
+    "Union List",
+    "Residuary List"
+   ]
+  },
+  {
+   "id": "social-c12-053",
+   "type": "mcq",
+   "q": "Which situation best shows the working of judicial review?",
+   "options": [
+    "The Supreme Court strikes down a law that violates a Fundamental Right",
+    "Parliament passes a new law",
+    "The President appoints a Governor",
+    "The Election Commission announces an election schedule"
+   ]
+  },
+  {
+   "id": "social-c12-054",
+   "type": "mcq",
+   "q": "Why does the Lok Sabha have more power than the Rajya Sabha in money matters?",
+   "options": [
+    "Rajya Sabha members are all nominated by the President",
+    "Rajya Sabha was created later",
+    "The council of ministers is responsible to the directly elected Lok Sabha, where money bills originate",
+    "Rajya Sabha has only two members"
+   ]
+  },
+  {
+   "id": "social-c12-055",
+   "type": "short",
+   "q": "How do Fundamental Rights differ from Directive Principles of State Policy?",
+   "proposedAnswer": "Fundamental Rights can be enforced in courts and protect individuals against the state. Directive Principles are guidelines for the state to promote welfare and are not enforceable by courts.",
+   "keyPoints": [
+    "Rights are justiciable",
+    "Directive Principles are not enforceable in court",
+    "Directive Principles aim at social and economic welfare"
+   ]
+  },
+  {
+   "id": "social-c12-056",
+   "type": "short",
+   "q": "How did the 73rd Amendment strengthen local self-government?",
+   "proposedAnswer": "It gave panchayats constitutional status with a three-tier structure and regular elections every five years. It also reserved seats for women and for Scheduled Castes and Tribes.",
+   "keyPoints": [
+    "Constitutional status to panchayats",
+    "Regular elections every five years",
+    "Reservation of seats"
+   ]
+  },
+  {
+   "id": "social-c12-057",
+   "type": "mcq",
+   "q": "Which two superpowers were the main rivals in the Cold War?",
+   "options": [
+    "Britain and France",
+    "The USA and the USSR",
+    "China and Japan",
+    "India and Pakistan"
+   ]
+  },
+  {
+   "id": "social-c12-058",
+   "type": "mcq",
+   "q": "Where is the headquarters of the United Nations?",
+   "options": [
+    "Geneva",
+    "Paris",
+    "London",
+    "New York"
+   ]
+  },
+  {
+   "id": "social-c12-059",
+   "type": "mcq",
+   "q": "What was the central idea of the Non-Aligned Movement?",
+   "options": [
+    "Joining NATO",
+    "Joining the Warsaw Pact",
+    "A military alliance with the USSR",
+    "Not joining either bloc and following an independent foreign policy"
+   ]
+  },
+  {
+   "id": "social-c12-060",
+   "type": "mcq",
+   "q": "Which military alliance was led by the Soviet Union?",
+   "options": [
+    "NATO",
+    "Warsaw Pact",
+    "SEATO",
+    "ASEAN"
+   ]
+  },
+  {
+   "id": "social-c12-061",
+   "type": "mcq",
+   "q": "Why is the Cuban Missile Crisis of 1962 seen as a turning point in the Cold War?",
+   "options": [
+    "It ended in a Soviet military victory",
+    "It started the building of the Berlin Wall",
+    "It brought the superpowers close to nuclear war, after which both sought to ease tensions",
+    "It created the United Nations"
+   ]
+  },
+  {
+   "id": "social-c12-062",
+   "type": "mcq",
+   "q": "Why did the collapse of the USSR in 1991 change world politics?",
+   "options": [
+    "The bipolar order ended and the USA became the sole superpower",
+    "NATO was dissolved at once",
+    "China joined the Warsaw Pact",
+    "The UN was dissolved"
+   ]
+  },
+  {
+   "id": "social-c12-063",
+   "type": "short",
+   "q": "Name the five permanent members of the UN Security Council and state one special power they hold.",
+   "proposedAnswer": "The five permanent members are the United States, the United Kingdom, France, Russia and China. Each holds the power of veto over substantive resolutions.",
+   "keyPoints": [
+    "US, UK, France, Russia, China",
+    "Veto power"
+   ]
+  },
+  {
+   "id": "social-c12-064",
+   "type": "short",
+   "q": "Why did newly independent countries such as India choose non-alignment?",
+   "proposedAnswer": "They wanted to keep independence in decisions on foreign policy and avoid being drawn into military blocs. They also wished to focus on development and to cooperate with countries of both blocs.",
+   "keyPoints": [
+    "Independence in foreign policy",
+    "Avoid military blocs",
+    "Focus on development"
+   ]
+  },
+  {
+   "id": "social-c12-065",
+   "type": "mcq",
+   "q": "How often is the Census of India conducted?",
+   "options": [
+    "Every ten years",
+    "Every five years",
+    "Every twenty years",
+    "Every year"
+   ]
+  },
+  {
+   "id": "social-c12-066",
+   "type": "mcq",
+   "q": "In the Indian census, sex ratio is expressed as the number of",
+   "options": [
+    "males per 1000 females",
+    "females per 100 males",
+    "males per 100 females",
+    "females per 1000 males"
+   ]
+  },
+  {
+   "id": "social-c12-067",
+   "type": "mcq",
+   "q": "A settlement in which houses are built close together is called",
+   "options": [
+    "linear",
+    "dispersed",
+    "compact",
+    "isolated"
+   ]
+  },
+  {
+   "id": "social-c12-068",
+   "type": "mcq",
+   "q": "Which pair of factors favours dense population?",
+   "options": [
+    "High mountains and dry deserts",
+    "Fertile plains and plentiful water",
+    "Dense forest and no rain",
+    "Ice-covered land"
+   ]
+  },
+  {
+   "id": "social-c12-069",
+   "type": "mcq",
+   "q": "A region with a high birth rate and a falling death rate will most likely see",
+   "options": [
+    "a decline in population",
+    "no change in population",
+    "rapid natural increase of population",
+    "a very high death rate"
+   ]
+  },
+  {
+   "id": "social-c12-070",
+   "type": "mcq",
+   "q": "Why are both push and pull factors used to explain migration?",
+   "options": [
+    "Migration is only ordered by governments",
+    "People leave places because of poor conditions and are drawn to places with better opportunities",
+    "Pull factors affect only animals",
+    "Only climate causes migration"
+   ]
+  },
+  {
+   "id": "social-c12-071",
+   "type": "short",
+   "q": "Define population density and give its formula.",
+   "proposedAnswer": "Population density is the number of persons living per unit area, usually per square kilometre. It equals total population divided by total area.",
+   "keyPoints": [
+    "Persons per unit area",
+    "Population divided by area"
+   ]
+  },
+  {
+   "id": "social-c12-072",
+   "type": "short",
+   "q": "Why are rural settlements in hilly regions often dispersed?",
+   "proposedAnswer": "Flat land is limited and farm plots are scattered, so people build houses near their fields. Difficult terrain and scattered water sources also keep houses apart.",
+   "keyPoints": [
+    "Limited flat land",
+    "Scattered farms and water sources",
+    "Difficult terrain"
+   ]
+  },
+  {
+   "id": "social-c12-073",
+   "type": "mcq",
+   "q": "Which of these crops is mainly grown in the kharif season?",
+   "options": [
+    "Rice",
+    "Wheat",
+    "Mustard",
+    "Gram"
+   ]
+  },
+  {
+   "id": "social-c12-074",
+   "type": "mcq",
+   "q": "Where did the Green Revolution first show strong success?",
+   "options": [
+    "Kerala",
+    "Assam",
+    "Arunachal Pradesh",
+    "Punjab and Haryana"
+   ]
+  },
+  {
+   "id": "social-c12-075",
+   "type": "mcq",
+   "q": "Why is solar energy called a renewable resource?",
+   "options": [
+    "It is found only in mines",
+    "It gets used up quickly",
+    "It cannot be used for power",
+    "It is continuously available and is not exhausted by use"
+   ]
+  },
+  {
+   "id": "social-c12-076",
+   "type": "mcq",
+   "q": "Why was the steel plant at Jamshedpur set up where it was?",
+   "options": [
+    "Near a seaport only",
+    "Near Himalayan hydropower",
+    "Iron ore, coal and water were available nearby",
+    "No raw materials were needed"
+   ]
+  },
+  {
+   "id": "social-c12-077",
+   "type": "mcq",
+   "q": "Why does shortening the fallow period in shifting cultivation harm the land?",
+   "options": [
+    "It increases forest cover",
+    "The soil does not get time to regain fertility and forest does not regrow",
+    "It adds water to the soil",
+    "It stops the use of fire"
+   ]
+  },
+  {
+   "id": "social-c12-078",
+   "type": "mcq",
+   "q": "According to Weber's theory, why do sugar mills tend to be located near cane fields?",
+   "options": [
+    "Cane loses much weight in processing, so moving it far is costly",
+    "Sugar is heavier than cane",
+    "Cane cannot be transported",
+    "Mills need to be near a port"
+   ]
+  },
+  {
+   "id": "social-c12-079",
+   "type": "short",
+   "q": "Differentiate between kharif and rabi crops.",
+   "proposedAnswer": "Kharif crops are sown at the start of the monsoon, around June-July, and harvested in autumn; rice is an example. Rabi crops are sown in winter, around October-December, and harvested in spring; wheat is an example.",
+   "keyPoints": [
+    "Kharif: monsoon sowing, autumn harvest",
+    "Rabi: winter sowing, spring harvest",
+    "Examples rice and wheat"
+   ]
+  },
+  {
+   "id": "social-c12-080",
+   "type": "short",
+   "q": "Suggest two ways to conserve water in agriculture.",
+   "proposedAnswer": "Drip or sprinkler irrigation delivers water directly to roots and reduces waste. Rainwater harvesting stores rain for later use, and choosing crops suited to local rainfall reduces demand for irrigation.",
+   "keyPoints": [
+    "Drip or sprinkler irrigation",
+    "Rainwater harvesting",
+    "Crops suited to local rainfall"
+   ]
+  },
+  {
+   "id": "social-c12-081",
+   "type": "mcq",
+   "q": "The Human Development Index is published by which organisation?",
+   "options": [
+    "World Bank",
+    "UNDP",
+    "WTO",
+    "IMF"
+   ]
+  },
+  {
+   "id": "social-c12-082",
+   "type": "mcq",
+   "q": "Which canal links the Mediterranean Sea with the Red Sea?",
+   "options": [
+    "Suez Canal",
+    "Panama Canal",
+    "Kiel Canal",
+    "Grand Canal"
+   ]
+  },
+  {
+   "id": "social-c12-083",
+   "type": "mcq",
+   "q": "Which three dimensions does the HDI measure?",
+   "options": [
+    "Area, population and forests",
+    "Exports, imports and tariffs",
+    "Health, education and standard of living",
+    "Rainfall, soil and minerals"
+   ]
+  },
+  {
+   "id": "social-c12-084",
+   "type": "mcq",
+   "q": "The Golden Quadrilateral highway network connects",
+   "options": [
+    "Delhi, Jaipur, Patna and Guwahati",
+    "Shimla, Pune, Bhopal and Kochi",
+    "Amritsar, Nagpur, Surat and Ranchi",
+    "Delhi, Mumbai, Chennai and Kolkata"
+   ]
+  },
+  {
+   "id": "social-c12-085",
+   "type": "mcq",
+   "q": "A country exports goods worth 80 units and imports goods worth 100 units. Its balance of trade is",
+   "options": [
+    "a surplus of 20",
+    "a deficit of 180",
+    "a deficit of 20",
+    "zero"
+   ]
+  },
+  {
+   "id": "social-c12-086",
+   "type": "mcq",
+   "q": "Why does water transport remain important for bulky goods in international trade?",
+   "options": [
+    "It is the cheapest way to move heavy bulky cargo over long distances",
+    "It is the fastest mode",
+    "It needs no ports",
+    "It is used only for passengers"
+   ]
+  },
+  {
+   "id": "social-c12-087",
+   "type": "short",
+   "q": "Why is the Panama Canal important for shipping?",
+   "proposedAnswer": "It links the Atlantic and Pacific oceans across Central America, so ships avoid the long voyage around the southern tip of South America. This saves time and cost.",
+   "keyPoints": [
+    "Links Atlantic and Pacific",
+    "Avoids long route around South America"
+   ]
+  },
+  {
+   "id": "social-c12-088",
+   "type": "short",
+   "q": "Why is high income alone not enough to measure development?",
+   "proposedAnswer": "Income does not show whether people are healthy or educated or how evenly income is shared. HDI includes health and education as well as income for a fuller picture.",
+   "keyPoints": [
+    "Income ignores health and education",
+    "Does not show distribution",
+    "HDI uses several dimensions"
+   ]
+  },
+  {
+   "id": "social-c12-089",
+   "type": "mcq",
+   "q": "GDP measures the value of",
+   "options": [
+    "all intermediate goods only",
+    "only imports",
+    "only exports",
+    "all final goods and services produced within a country's domestic territory in a year"
+   ]
+  },
+  {
+   "id": "social-c12-090",
+   "type": "mcq",
+   "q": "Which institution is the central bank of India?",
+   "options": [
+    "State Bank of India",
+    "Reserve Bank of India",
+    "NABARD",
+    "SEBI"
+   ]
+  },
+  {
+   "id": "social-c12-091",
+   "type": "mcq",
+   "q": "Why is the value of intermediate goods not added separately in GDP?",
+   "options": [
+    "They have no value",
+    "To avoid double counting, since their value is already in final goods",
+    "They are always imported",
+    "They are untaxed"
+   ]
+  },
+  {
+   "id": "social-c12-092",
+   "type": "mcq",
+   "q": "Which problem arises in a barter system?",
+   "options": [
+    "Excess money supply",
+    "Inflation",
+    "High taxes",
+    "Lack of a double coincidence of wants"
+   ]
+  },
+  {
+   "id": "social-c12-093",
+   "type": "mcq",
+   "q": "If the marginal propensity to consume is 0.8, the investment multiplier is",
+   "options": [
+    "5",
+    "4",
+    "8",
+    "1.25"
+   ]
+  },
+  {
+   "id": "social-c12-094",
+   "type": "mcq",
+   "q": "What is the likely effect when the RBI raises the cash reserve ratio?",
+   "options": [
+    "Banks have more to lend",
+    "Money supply rises sharply",
+    "Banks have less to lend, so credit and money supply tend to fall",
+    "Banks stop taking deposits"
+   ]
+  },
+  {
+   "id": "social-c12-095",
+   "type": "short",
+   "q": "State any two functions of money.",
+   "proposedAnswer": "Money acts as a medium of exchange and as a unit of account. It also serves as a store of value and a standard of deferred payment.",
+   "keyPoints": [
+    "Medium of exchange",
+    "Unit of account",
+    "Store of value"
+   ]
+  },
+  {
+   "id": "social-c12-096",
+   "type": "short",
+   "q": "Distinguish between nominal GDP and real GDP, and say why real GDP is better for comparing growth.",
+   "proposedAnswer": "Nominal GDP uses current prices, while real GDP uses the prices of a fixed base year. Real GDP removes the effect of price changes and shows the actual change in output.",
+   "keyPoints": [
+    "Nominal uses current prices",
+    "Real uses base-year prices",
+    "Real removes the price effect"
+   ]
+  },
+  {
+   "id": "social-c12-097",
+   "type": "mcq",
+   "q": "A revenue deficit occurs when",
+   "options": [
+    "revenue expenditure exceeds revenue receipts",
+    "capital receipts exceed capital expenditure",
+    "exports exceed imports",
+    "taxes are cut to zero"
+   ]
+  },
+  {
+   "id": "social-c12-098",
+   "type": "mcq",
+   "q": "Which of these is a direct tax?",
+   "options": [
+    "GST",
+    "Customs duty",
+    "Income tax",
+    "Excise duty"
+   ]
+  },
+  {
+   "id": "social-c12-099",
+   "type": "mcq",
+   "q": "Fiscal deficit is equal to",
+   "options": [
+    "revenue receipts minus revenue expenditure",
+    "total expenditure minus total receipts excluding borrowing",
+    "exports minus imports",
+    "taxes minus subsidies"
+   ]
+  },
+  {
+   "id": "social-c12-100",
+   "type": "mcq",
+   "q": "Which was a feature of the economic reforms of 1991?",
+   "options": [
+    "Introduction of Five-Year Plans",
+    "Nationalisation of banks",
+    "A ban on foreign investment",
+    "Reduced industrial licensing and lower import tariffs"
+   ]
+  },
+  {
+   "id": "social-c12-101",
+   "type": "mcq",
+   "q": "If the rupee depreciates against the dollar, other things being equal,",
+   "options": [
+    "imports become cheaper",
+    "Indian exports become dearer abroad",
+    "exports and imports are unaffected",
+    "Indian exports become cheaper for foreign buyers and imports become costlier"
+   ]
+  },
+  {
+   "id": "social-c12-102",
+   "type": "mcq",
+   "q": "Why did the balance of payments crisis of 1991 push India towards reform?",
+   "options": [
+    "Reserves were abundant",
+    "Foreign exchange reserves had become very low, so confidence had to be restored by opening up and reforming",
+    "India had no imports",
+    "Planning had just started"
+   ]
+  },
+  {
+   "id": "social-c12-103",
+   "type": "short",
+   "q": "State two objectives of the government budget.",
+   "proposedAnswer": "The budget helps to allocate resources for public goods and to redistribute income through taxes and spending. It also helps to stabilise the economy.",
+   "keyPoints": [
+    "Allocation of resources",
+    "Redistribution of income",
+    "Economic stabilisation"
+   ]
+  },
+  {
+   "id": "social-c12-104",
+   "type": "short",
+   "q": "How does sustainable development differ from growth that ignores the environment?",
+   "proposedAnswer": "Sustainable development meets present needs without reducing the ability of future generations to meet theirs, as the Brundtland Report put it. Growth that ignores the environment may use up resources and cause damage that later generations must bear.",
+   "keyPoints": [
+    "Meets present needs without harming future generations",
+    "Conserves resources and environment",
+    "Ignoring the environment causes lasting damage"
+   ]
+  },
+  {
+   "id": "social-c12-105",
+   "type": "mcq",
+   "q": "Which Harappan site in Gujarat is known for a structure regarded as a dockyard?",
+   "options": [
+    "Kalibangan",
+    "Harappa",
+    "Ropar",
+    "Lothal"
+   ]
+  },
+  {
+   "id": "social-c12-106",
+   "type": "mcq",
+   "q": "Which pair of crops is known from Harappan sites?",
+   "options": [
+    "Tea and coffee",
+    "Wheat and barley",
+    "Maize and potato",
+    "Rubber and cocoa"
+   ]
+  },
+  {
+   "id": "social-c12-107",
+   "type": "mcq",
+   "q": "Why are Harappan seals important sources for historians?",
+   "options": [
+    "They carry writing and images that hint at trade and administration",
+    "They were coins used throughout the civilisation",
+    "They are the only buildings that survive",
+    "They record the names of kings in a language we can read"
+   ]
+  },
+  {
+   "id": "social-c12-108",
+   "type": "mcq",
+   "q": "Which statement about Harappan houses is correct?",
+   "options": [
+    "All houses were built only of stone",
+    "No house had a courtyard",
+    "Many houses had bathing areas with drains joined to street drains",
+    "Houses had no connection to streets"
+   ]
+  },
+  {
+   "id": "social-c12-109",
+   "type": "mcq",
+   "q": "What do most historians now say about the decline of Harappan cities?",
+   "options": [
+    "One sudden invasion destroyed every city",
+    "A volcano ended the civilisation",
+    "Several changes, such as shifting rivers and climate, may have contributed rather than one single cause",
+    "The cities were never abandoned"
+   ]
+  },
+  {
+   "id": "social-c12-110",
+   "type": "mcq",
+   "q": "Granaries have been found at some Harappan sites. What can be inferred?",
+   "options": [
+    "Surplus grain was stored, which suggests organised collection and storage",
+    "There was no farming",
+    "Everyone was nomadic",
+    "Grain was never stored"
+   ]
+  },
+  {
+   "id": "social-c12-111",
+   "type": "short",
+   "q": "Name any two Harappan sites.",
+   "proposedAnswer": "Harappa and Mohenjodaro are two major sites. Others include Lothal, Kalibangan and Dholavira.",
+   "keyPoints": [
+    "Harappa",
+    "Mohenjodaro",
+    "Lothal, Kalibangan or Dholavira"
+   ]
+  },
+  {
+   "id": "social-c12-112",
+   "type": "short",
+   "q": "How do archaeologists use objects like beads and seals to learn about Harappan trade?",
+   "proposedAnswer": "Beads made of stones such as carnelian and seals of Indus type found far from their source show that goods moved over long distances. Similar objects at foreign sites suggest contact with other regions.",
+   "keyPoints": [
+    "Objects found far from their source",
+    "Indus-type objects at foreign sites",
+    "Shows long-distance exchange"
+   ]
+  },
+  {
+   "id": "social-c12-113",
+   "type": "mcq",
+   "q": "The Arthashastra, a text on statecraft, is associated with whom?",
+   "options": [
+    "Kalidasa",
+    "Kautilya",
+    "Banabhatta",
+    "Harishena"
+   ]
+  },
+  {
+   "id": "social-c12-114",
+   "type": "mcq",
+   "q": "Which Chinese pilgrim visited India during the reign of Harshavardhana?",
+   "options": [
+    "Fa-Hien",
+    "Marco Polo",
+    "Megasthenes",
+    "Hsuan Tsang"
+   ]
+  },
+  {
+   "id": "social-c12-115",
+   "type": "mcq",
+   "q": "Why did Ashoka have edicts inscribed on rocks and pillars at public places?",
+   "options": [
+    "To hide them from the people",
+    "So that people could read or hear his messages",
+    "To mark the graves of kings",
+    "To record Harappan history"
+   ]
+  },
+  {
+   "id": "social-c12-116",
+   "type": "mcq",
+   "q": "Why is the Gupta period often called a classical age?",
+   "options": [
+    "No literature was produced",
+    "Trade stopped completely",
+    "The empire was the largest in history",
+    "It saw notable achievements in literature, mathematics and art, such as the works of Kalidasa and Aryabhata"
+   ]
+  },
+  {
+   "id": "social-c12-117",
+   "type": "mcq",
+   "q": "Why were most of Ashoka's edicts written in Prakrit in the Brahmi script?",
+   "options": [
+    "Sanskrit did not exist",
+    "Brahmi was a secret script",
+    "Ordinary people in much of the empire could understand it",
+    "Prakrit was used only by foreigners"
+   ]
+  },
+  {
+   "id": "social-c12-118",
+   "type": "mcq",
+   "q": "Which feature best shows that the Mauryan state was centralised?",
+   "options": [
+    "A large salaried bureaucracy and army supported by taxes",
+    "No taxes were collected",
+    "Every village governed itself fully with no officials",
+    "There were no officials at all"
+   ]
+  },
+  {
+   "id": "social-c12-119",
+   "type": "short",
+   "q": "What was Nalanda in ancient India?",
+   "proposedAnswer": "Nalanda was a great Buddhist monastery and centre of learning in Magadha. It attracted students and scholars, including visitors from other countries such as Hsuan Tsang.",
+   "keyPoints": [
+    "Buddhist monastic centre of learning",
+    "Attracted students from other lands"
+   ]
+  },
+  {
+   "id": "social-c12-120",
+   "type": "short",
+   "q": "Why did Magadha become the most powerful of the Mahajanapadas?",
+   "proposedAnswer": "Magadha had fertile land in the Ganga plain, rivers for transport, and nearby iron resources for tools and weapons. Elephants were available for its army, and it had capable rulers.",
+   "keyPoints": [
+    "Fertile land and rivers",
+    "Iron resources",
+    "Strong army and capable rulers"
+   ]
+  },
+  {
+   "id": "social-c12-121",
+   "type": "mcq",
+   "q": "Who built the Taj Mahal in memory of his wife Mumtaz Mahal?",
+   "options": [
+    "Shah Jahan",
+    "Akbar",
+    "Aurangzeb",
+    "Humayun"
+   ]
+  },
+  {
+   "id": "social-c12-122",
+   "type": "mcq",
+   "q": "With which Sufi saint is the dargah at Ajmer associated?",
+   "options": [
+    "Nizamuddin Auliya",
+    "Baba Farid",
+    "Khwaja Moinuddin Chishti",
+    "Kabir"
+   ]
+  },
+  {
+   "id": "social-c12-123",
+   "type": "mcq",
+   "q": "For what is Sher Shah Suri remembered?",
+   "options": [
+    "Building the Taj Mahal",
+    "Founding the Vijayanagara Empire",
+    "Writing the Ain-i-Akbari",
+    "Strengthening the Grand Trunk Road and introducing a silver rupee"
+   ]
+  },
+  {
+   "id": "social-c12-124",
+   "type": "mcq",
+   "q": "Why is Alberuni's Kitab-ul-Hind valuable to historians?",
+   "options": [
+    "It is a Mughal revenue record",
+    "It is an account by a scholar of the eleventh century on Indian society, science and religion",
+    "It was written by Ashoka",
+    "It describes the Harappan cities"
+   ]
+  },
+  {
+   "id": "social-c12-125",
+   "type": "mcq",
+   "q": "How did Akbar's policy of treating followers of all religions with respect help his empire?",
+   "options": [
+    "It made the empire smaller",
+    "It reduced conflict and helped win the loyalty of a diverse population",
+    "It ended the need for an army",
+    "It stopped all trade"
+   ]
+  },
+  {
+   "id": "social-c12-126",
+   "type": "mcq",
+   "q": "How did the use of Persian as the court language help Mughal administration?",
+   "options": [
+    "A common official language let officials from different regions communicate",
+    "It stopped local languages from being spoken",
+    "It was spoken only by peasants",
+    "It abolished revenue records"
+   ]
+  },
+  {
+   "id": "social-c12-127",
+   "type": "short",
+   "q": "State two contributions of the Bhakti and Sufi movements to Indian society.",
+   "proposedAnswer": "They stressed devotion and the equality of people before God, and used local languages that ordinary people could understand. They also encouraged harmony among communities.",
+   "keyPoints": [
+    "Devotion over ritual",
+    "Use of local languages",
+    "Harmony among communities"
+   ]
+  },
+  {
+   "id": "social-c12-128",
+   "type": "short",
+   "q": "Give two reasons for the decline of the Mughal Empire after Aurangzeb.",
+   "proposedAnswer": "Long wars, especially in the Deccan, strained the treasury and army, and weak successors fought over succession. Regional powers grew stronger, and invasions such as that of Nadir Shah in 1739 weakened Delhi.",
+   "keyPoints": [
+    "Costly wars in the Deccan",
+    "Weak successors and succession struggles",
+    "Rise of regional powers or foreign invasion"
+   ]
+  },
+  {
+   "id": "social-c12-129",
+   "type": "mcq",
+   "q": "Whom did the rebels of 1857 proclaim as their leader in Delhi?",
+   "options": [
+    "Akbar II",
+    "Shah Alam II",
+    "Aurangzeb",
+    "Bahadur Shah Zafar"
+   ]
+  },
+  {
+   "id": "social-c12-130",
+   "type": "mcq",
+   "q": "The first railway line in India, opened in 1853, ran between",
+   "options": [
+    "Calcutta and Howrah",
+    "Madras and Arcot",
+    "Bombay and Thane",
+    "Delhi and Agra"
+   ]
+  },
+  {
+   "id": "social-c12-131",
+   "type": "mcq",
+   "q": "Under the Ryotwari system, revenue was settled with",
+   "options": [
+    "zamindars",
+    "the Company's army",
+    "moneylenders only",
+    "the individual cultivator, or ryot"
+   ]
+  },
+  {
+   "id": "social-c12-132",
+   "type": "mcq",
+   "q": "What did Dadabhai Naoroji's drain of wealth theory argue?",
+   "options": [
+    "Britain was investing heavily in India",
+    "India's wealth was growing quickly",
+    "Wealth flowed from India to Britain without a return",
+    "Indian trade was free from duties"
+   ]
+  },
+  {
+   "id": "social-c12-133",
+   "type": "mcq",
+   "q": "Why did the British build railways in India?",
+   "options": [
+    "Only for Indian pilgrims",
+    "Mainly to carry raw materials to ports and British goods to markets, and also to move troops",
+    "To stop trade",
+    "To end the need for ports"
+   ]
+  },
+  {
+   "id": "social-c12-134",
+   "type": "mcq",
+   "q": "Why did the rumour about greased cartridges have such a strong effect on sepoys?",
+   "options": [
+    "It touched their religious feelings, adding to existing grievances",
+    "They had never used rifles",
+    "Cartridges were free",
+    "It had no connection with religion"
+   ]
+  },
+  {
+   "id": "social-c12-135",
+   "type": "short",
+   "q": "Name two leaders of the 1857 revolt and the places associated with them.",
+   "proposedAnswer": "Rani Lakshmibai led at Jhansi and Nana Sahib at Kanpur. Begum Hazrat Mahal at Lucknow and Tantia Tope are also remembered.",
+   "keyPoints": [
+    "Rani Lakshmibai - Jhansi",
+    "Nana Sahib - Kanpur",
+    "Begum Hazrat Mahal - Lucknow"
+   ]
+  },
+  {
+   "id": "social-c12-136",
+   "type": "short",
+   "q": "Why did the commercialisation of agriculture often leave peasants in debt?",
+   "proposedAnswer": "Peasants had to pay revenue in cash and grew crops like cotton and indigo for the market. Price falls or crop failures forced them to borrow from moneylenders, so many fell into debt.",
+   "keyPoints": [
+    "Cash revenue demand",
+    "Dependence on market crops and prices",
+    "Borrowing from moneylenders"
+   ]
+  },
+  {
+   "id": "social-c12-137",
+   "type": "mcq",
+   "q": "Which party declared Purna Swaraj as its goal at its Lahore session in 1929?",
+   "options": [
+    "Indian National Congress",
+    "Muslim League",
+    "Hindu Mahasabha",
+    "Swaraj Party"
+   ]
+  },
+  {
+   "id": "social-c12-138",
+   "type": "mcq",
+   "q": "Which movement was launched in 1942 with the call Do or Die?",
+   "options": [
+    "Non-Cooperation Movement",
+    "Civil Disobedience Movement",
+    "Khilafat Movement",
+    "Quit India Movement"
+   ]
+  },
+  {
+   "id": "social-c12-139",
+   "type": "mcq",
+   "q": "The Rowlatt Act of 1919 allowed the government to",
+   "options": [
+    "end the salt tax",
+    "give Indians more seats",
+    "detain suspects without trial",
+    "free all prisoners"
+   ]
+  },
+  {
+   "id": "social-c12-140",
+   "type": "mcq",
+   "q": "Why did Gandhi link the Khilafat issue with the Non-Cooperation Movement?",
+   "options": [
+    "To end all protests",
+    "To unite Hindus and Muslims in a common cause against British rule",
+    "To support the Rowlatt Act",
+    "To start a war"
+   ]
+  },
+  {
+   "id": "social-c12-141",
+   "type": "mcq",
+   "q": "What was the importance of the Gandhi-Irwin Pact of 1931?",
+   "options": [
+    "It ended British rule",
+    "It declared Partition",
+    "Civil disobedience was suspended and Gandhi agreed to attend the Second Round Table Conference",
+    "It established the Constituent Assembly"
+   ]
+  },
+  {
+   "id": "social-c12-142",
+   "type": "mcq",
+   "q": "Why did the Quit India Movement spread without a central leadership?",
+   "options": [
+    "It was planned in secret by no one",
+    "Major leaders were arrested early, so ordinary people and local leaders carried it forward",
+    "It had no supporters",
+    "The British accepted it at once"
+   ]
+  },
+  {
+   "id": "social-c12-143",
+   "type": "short",
+   "q": "What was the significance of the Champaran Satyagraha?",
+   "proposedAnswer": "It was Gandhi's first satyagraha in India, in support of peasants forced to grow indigo. Its success showed the power of non-violent protest and established Gandhi as a leader.",
+   "keyPoints": [
+    "First satyagraha in India",
+    "Against compulsory indigo cultivation",
+    "Established Gandhi as a leader"
+   ]
+  },
+  {
+   "id": "social-c12-144",
+   "type": "short",
+   "q": "How did the national movement become a mass movement under Gandhi?",
+   "proposedAnswer": "Gandhi involved peasants, workers and women, not only the educated elite, by using simple symbols such as khadi and salt. His emphasis on non-violence and programmes anyone could join drew wide participation.",
+   "keyPoints": [
+    "Peasants, workers and women joined",
+    "Simple symbols like khadi and salt",
+    "Non-violent programmes open to all"
+   ]
+  },
+  {
+   "id": "social-c12-145",
+   "type": "mcq",
+   "q": "Who was elected President of the Constituent Assembly?",
+   "options": [
+    "Jawaharlal Nehru",
+    "B. R. Ambedkar",
+    "Vallabhbhai Patel",
+    "Rajendra Prasad"
+   ]
+  },
+  {
+   "id": "social-c12-146",
+   "type": "mcq",
+   "q": "Who is popularly called the Iron Man of India for his role in integrating princely states?",
+   "options": [
+    "Vallabhbhai Patel",
+    "Subhas Chandra Bose",
+    "Rajendra Prasad",
+    "Lala Lajpat Rai"
+   ]
+  },
+  {
+   "id": "social-c12-147",
+   "type": "mcq",
+   "q": "On what main basis were state boundaries redrawn by the States Reorganisation Act of 1956?",
+   "options": [
+    "Religion",
+    "River basins",
+    "Caste",
+    "Language"
+   ]
+  },
+  {
+   "id": "social-c12-148",
+   "type": "mcq",
+   "q": "Which mission of 1946 came to India to discuss the transfer of power?",
+   "options": [
+    "Cripps Mission",
+    "Cabinet Mission",
+    "Simon Commission",
+    "Hunter Commission"
+   ]
+  },
+  {
+   "id": "social-c12-149",
+   "type": "mcq",
+   "q": "Why did the framers choose a parliamentary form of government?",
+   "options": [
+    "They wanted a government accountable to the elected house, and it was familiar from earlier legislatures",
+    "They wanted rule by a hereditary monarch",
+    "They wished to avoid elections",
+    "They had never heard of legislatures"
+   ]
+  },
+  {
+   "id": "social-c12-150",
+   "type": "mcq",
+   "q": "Why is the Constitution described as partly flexible and partly rigid?",
+   "options": [
+    "It can never be amended",
+    "It can be amended by any state alone",
+    "Some parts can be amended by a simple majority and others need a special majority and state ratification",
+    "It has no provisions on amendment"
+   ]
+  },
+  {
+   "id": "social-c12-151",
+   "type": "short",
+   "q": "When was the Constitution adopted by the Constituent Assembly and about how long did the drafting take?",
+   "proposedAnswer": "It was adopted on 26 November 1949. The drafting took about two years, eleven months and eighteen days.",
+   "keyPoints": [
+    "Adopted 26 November 1949",
+    "About 2 years 11 months"
+   ]
+  },
+  {
+   "id": "social-c12-152",
+   "type": "short",
+   "q": "Why was Partition in 1947 accompanied by large-scale migration and violence?",
+   "proposedAnswer": "Boundaries were drawn on the basis of religious majorities in Punjab and Bengal at great speed, and people feared being a minority on the wrong side. Tension and mistrust led to violence and mass movement across the new border.",
+   "keyPoints": [
+    "Boundaries drawn on religious lines",
+    "Speed of the process",
+    "Fear and mistrust led to mass migration"
+   ]
+  },
+  {
+   "id": "social-c12-153",
+   "type": "mcq",
+   "q": "Which Article guarantees the right to life and personal liberty?",
+   "options": [
+    "Article 14",
+    "Article 19",
+    "Article 21",
+    "Article 25"
+   ]
+  },
+  {
+   "id": "social-c12-154",
+   "type": "mcq",
+   "q": "Who appoints the Governor of a state?",
+   "options": [
+    "The President",
+    "The Chief Minister",
+    "The Chief Justice",
+    "The Speaker"
+   ]
+  },
+  {
+   "id": "social-c12-155",
+   "type": "mcq",
+   "q": "Which body conducts elections to Parliament and the state legislatures?",
+   "options": [
+    "Supreme Court",
+    "Election Commission",
+    "Finance Commission",
+    "Parliament itself"
+   ]
+  },
+  {
+   "id": "social-c12-156",
+   "type": "mcq",
+   "q": "What did the Supreme Court hold in the Kesavananda Bharati case of 1973?",
+   "options": [
+    "Parliament cannot amend the Constitution at all",
+    "The Constitution cannot be changed by anyone",
+    "Parliament has no power over taxes",
+    "Parliament can amend the Constitution but cannot alter its basic structure"
+   ]
+  },
+  {
+   "id": "social-c12-157",
+   "type": "mcq",
+   "q": "How long can a Prime Minister continue in office in a parliamentary system?",
+   "options": [
+    "For a fixed ten years",
+    "As long as he or she has the support of a majority in the Lok Sabha",
+    "As long as the President wishes, whatever Parliament thinks",
+    "Only until the next census"
+   ]
+  },
+  {
+   "id": "social-c12-158",
+   "type": "mcq",
+   "q": "Why is an independent judiciary considered essential in a democracy?",
+   "options": [
+    "So that courts can obey the executive",
+    "So that laws are never questioned",
+    "So that elections are cancelled",
+    "It protects rights and settles disputes impartially, free from control by the executive and legislature"
+   ]
+  },
+  {
+   "id": "social-c12-159",
+   "type": "short",
+   "q": "Name the three lists of the Seventh Schedule and give one subject for each.",
+   "proposedAnswer": "The Union List includes defence, the State List includes police and public order, and the Concurrent List includes education.",
+   "keyPoints": [
+    "Union List - e.g. defence",
+    "State List - e.g. police",
+    "Concurrent List - e.g. education"
+   ]
+  },
+  {
+   "id": "social-c12-160",
+   "type": "short",
+   "q": "What is a Public Interest Litigation and how has it widened access to justice?",
+   "proposedAnswer": "A PIL lets any person or group approach the court on behalf of those who cannot do so themselves, for a public cause. It relaxed the rule that only the affected person could sue, so the poor and disadvantaged gained a path to justice.",
+   "keyPoints": [
+    "Petition in public interest",
+    "Relaxed standing rules",
+    "Helps the poor and disadvantaged"
+   ]
+  },
+  {
+   "id": "social-c12-161",
+   "type": "mcq",
+   "q": "In which year was the United Nations established?",
+   "options": [
+    "1919",
+    "1939",
+    "1945",
+    "1950"
+   ]
+  },
+  {
+   "id": "social-c12-162",
+   "type": "mcq",
+   "q": "Which regional organisation of South Asian countries was formed in 1985?",
+   "options": [
+    "SAARC",
+    "ASEAN",
+    "The European Union",
+    "NATO"
+   ]
+  },
+  {
+   "id": "social-c12-163",
+   "type": "mcq",
+   "q": "What did the Panchsheel principles of 1954 promote?",
+   "options": [
+    "Peaceful coexistence among nations",
+    "A military alliance",
+    "A trade war",
+    "The division of Germany"
+   ]
+  },
+  {
+   "id": "social-c12-164",
+   "type": "mcq",
+   "q": "The Berlin Wall, which fell in 1989, had divided",
+   "options": [
+    "North and South Korea",
+    "France and Germany",
+    "East and West Berlin",
+    "Poland and Russia"
+   ]
+  },
+  {
+   "id": "social-c12-165",
+   "type": "mcq",
+   "q": "Why is the veto power of permanent members criticised?",
+   "options": [
+    "It gives all countries a veto",
+    "It forces votes in the General Assembly",
+    "It cannot stop any resolution",
+    "One permanent member can block a decision even when most members support it"
+   ]
+  },
+  {
+   "id": "social-c12-166",
+   "type": "mcq",
+   "q": "Why do neighbouring countries form regional organisations like ASEAN or the EU?",
+   "options": [
+    "To end all trade",
+    "To promote economic cooperation and peace through shared rules",
+    "To avoid talking to each other",
+    "To join the UN"
+   ]
+  },
+  {
+   "id": "social-c12-167",
+   "type": "short",
+   "q": "What is meant by a bipolar world?",
+   "proposedAnswer": "A bipolar world is one in which power is centred in two main states or blocs. During the Cold War the USA and the USSR led rival blocs and most countries were tied to one of them.",
+   "keyPoints": [
+    "Two centres of power",
+    "USA and USSR blocs"
+   ]
+  },
+  {
+   "id": "social-c12-168",
+   "type": "short",
+   "q": "Explain how the Cold War shaped the formation of military alliances.",
+   "proposedAnswer": "Each superpower sought allies to resist the other, so the USA and its partners formed NATO in 1949, and the USSR and its partners formed the Warsaw Pact in 1955. The alliances divided Europe into two camps.",
+   "keyPoints": [
+    "Rivalry led to alliances",
+    "NATO in 1949",
+    "Warsaw Pact in 1955"
+   ]
+  },
+  {
+   "id": "social-c12-169",
+   "type": "mcq",
+   "q": "What is the term for the movement of people from one place to another to live?",
+   "options": [
+    "Transhumance",
+    "Migration",
+    "Census",
+    "Settlement"
+   ]
+  },
+  {
+   "id": "social-c12-170",
+   "type": "mcq",
+   "q": "Which type of rural settlement stretches along a road, river or canal?",
+   "options": [
+    "Linear",
+    "Compact",
+    "Isolated",
+    "Dispersed"
+   ]
+  },
+  {
+   "id": "social-c12-171",
+   "type": "mcq",
+   "q": "In the Indian census, a person is counted as literate if aged at least what and able to read and write with understanding?",
+   "options": [
+    "5 years",
+    "10 years",
+    "14 years",
+    "7 years"
+   ]
+  },
+  {
+   "id": "social-c12-172",
+   "type": "mcq",
+   "q": "In the first stage of the demographic transition, a country typically has",
+   "options": [
+    "low birth and low death rates",
+    "low birth and high death rates",
+    "high birth and high death rates, with slow growth",
+    "very rapid growth"
+   ]
+  },
+  {
+   "id": "social-c12-173",
+   "type": "mcq",
+   "q": "Why do large cities attract many migrants from rural areas?",
+   "options": [
+    "Cities offer no jobs",
+    "Rural areas have better schools",
+    "Cities are always cheaper",
+    "Cities offer more jobs and better education and health services"
+   ]
+  },
+  {
+   "id": "social-c12-174",
+   "type": "mcq",
+   "q": "Urban settlements differ from rural settlements mainly because",
+   "options": [
+    "they have no people",
+    "they have only farmers",
+    "most people work in secondary and tertiary activities rather than farming",
+    "they have no roads"
+   ]
+  },
+  {
+   "id": "social-c12-175",
+   "type": "short",
+   "q": "Distinguish between natural growth and migration as causes of population change.",
+   "proposedAnswer": "Natural growth is the difference between births and deaths. Migration is the movement of people into or out of an area, which also changes the population.",
+   "keyPoints": [
+    "Natural growth equals births minus deaths",
+    "Migration is movement in or out"
+   ]
+  },
+  {
+   "id": "social-c12-176",
+   "type": "short",
+   "q": "How does a rapid fall in death rate with a continued high birth rate affect a country's age structure?",
+   "proposedAnswer": "More children survive, so the share of young people rises and the population grows quickly. This increases the dependency ratio and puts pressure on schools, health care and jobs.",
+   "keyPoints": [
+    "Larger share of young population",
+    "Rapid growth",
+    "Pressure on services and jobs"
+   ]
+  },
+  {
+   "id": "social-c12-177",
+   "type": "mcq",
+   "q": "Black soil is regarded as most suitable for which crop?",
+   "options": [
+    "Tea",
+    "Cotton",
+    "Coconut",
+    "Apple"
+   ]
+  },
+  {
+   "id": "social-c12-178",
+   "type": "mcq",
+   "q": "Which of these is a plantation crop?",
+   "options": [
+    "Tea",
+    "Wheat",
+    "Gram",
+    "Millet"
+   ]
+  },
+  {
+   "id": "social-c12-179",
+   "type": "mcq",
+   "q": "Which kind of agriculture is practised on a small plot mainly to feed the farmer's family?",
+   "options": [
+    "Subsistence agriculture",
+    "Plantation agriculture",
+    "Commercial grain farming",
+    "Ranching"
+   ]
+  },
+  {
+   "id": "social-c12-180",
+   "type": "mcq",
+   "q": "Why are river valley dams called multipurpose projects?",
+   "options": [
+    "They serve only one use",
+    "They are built for tourism only",
+    "They only store sand",
+    "They serve irrigation, power, flood control and water supply together"
+   ]
+  },
+  {
+   "id": "social-c12-181",
+   "type": "mcq",
+   "q": "Why do many industries cluster in the same region?",
+   "options": [
+    "They want higher costs",
+    "Clustering has no benefit",
+    "Shared infrastructure, labour and markets reduce costs",
+    "Laws forbid scattering"
+   ]
+  },
+  {
+   "id": "social-c12-182",
+   "type": "mcq",
+   "q": "What is a likely long-term effect of heavy use of chemical fertilisers?",
+   "options": [
+    "Soil always improves",
+    "Soil may degrade and water may be polluted",
+    "Rainfall increases",
+    "Crops need no water"
+   ]
+  },
+  {
+   "id": "social-c12-183",
+   "type": "short",
+   "q": "What is rainwater harvesting? State one benefit.",
+   "proposedAnswer": "It is the collection and storage of rainwater for later use. It helps to recharge groundwater and provides water in dry periods.",
+   "keyPoints": [
+    "Collecting and storing rainwater",
+    "Recharges groundwater or supplies water in dry months"
+   ]
+  },
+  {
+   "id": "social-c12-184",
+   "type": "short",
+   "q": "Discuss two environmental problems that mining can cause.",
+   "proposedAnswer": "Mining can degrade land by leaving pits and waste heaps, and it can cause deforestation. Waste water may pollute rivers and groundwater, and dust affects air quality.",
+   "keyPoints": [
+    "Land degradation",
+    "Deforestation",
+    "Water or air pollution"
+   ]
+  },
+  {
+   "id": "social-c12-185",
+   "type": "mcq",
+   "q": "Which of these ports is on the Gujarat coast?",
+   "options": [
+    "Paradip",
+    "Visakhapatnam",
+    "Kandla",
+    "Haldia"
+   ]
+  },
+  {
+   "id": "social-c12-186",
+   "type": "mcq",
+   "q": "The ancient Silk Route linked",
+   "options": [
+    "Africa with Australia",
+    "China with Europe through West Asia",
+    "India with Antarctica",
+    "Brazil with Spain"
+   ]
+  },
+  {
+   "id": "social-c12-187",
+   "type": "mcq",
+   "q": "HDI values lie between",
+   "options": [
+    "1 and 100",
+    "0 and 100",
+    "-1 and 1",
+    "0 and 1"
+   ]
+  },
+  {
+   "id": "social-c12-188",
+   "type": "mcq",
+   "q": "What does the World Trade Organization mainly deal with?",
+   "options": [
+    "Rules of trade between nations",
+    "Weather forecasting",
+    "Census operations",
+    "School education"
+   ]
+  },
+  {
+   "id": "social-c12-189",
+   "type": "mcq",
+   "q": "What does the idea of comparative advantage suggest?",
+   "options": [
+    "Countries should produce everything themselves",
+    "Trade is always harmful",
+    "Only large countries benefit",
+    "Countries gain by specialising in goods with lower opportunity cost and trading"
+   ]
+  },
+  {
+   "id": "social-c12-190",
+   "type": "mcq",
+   "q": "Why is air transport often used for perishable, high-value goods such as cut flowers?",
+   "options": [
+    "It is the cheapest mode",
+    "It is fast, which keeps such goods fresh, despite the higher cost",
+    "It can carry any weight",
+    "It needs no airports"
+   ]
+  },
+  {
+   "id": "social-c12-191",
+   "type": "short",
+   "q": "State two advantages of road transport.",
+   "proposedAnswer": "Roads give door-to-door service and are flexible over short and medium distances. They are cheaper to build than railways and can reach remote villages.",
+   "keyPoints": [
+    "Door-to-door service",
+    "Flexible over short distances",
+    "Reaches remote areas"
+   ]
+  },
+  {
+   "id": "social-c12-192",
+   "type": "short",
+   "q": "How have information and communication technologies changed trade?",
+   "proposedAnswer": "They allow faster exchange of information, so orders and payments can be made quickly. E-commerce widens markets, and global supply chains can be coordinated more easily.",
+   "keyPoints": [
+    "Faster information and payments",
+    "E-commerce widens markets",
+    "Easier coordination of supply chains"
+   ]
+  },
+  {
+   "id": "social-c12-193",
+   "type": "mcq",
+   "q": "GNP is equal to GDP plus",
+   "options": [
+    "net factor income from abroad",
+    "imports",
+    "depreciation",
+    "indirect taxes"
+   ]
+  },
+  {
+   "id": "social-c12-194",
+   "type": "mcq",
+   "q": "Currency notes in India, apart from small-value ones, are issued by",
+   "options": [
+    "the State Bank of India",
+    "the Ministry of Home Affairs",
+    "the Reserve Bank of India",
+    "IDBI"
+   ]
+  },
+  {
+   "id": "social-c12-195",
+   "type": "mcq",
+   "q": "Net national product is gross national product minus",
+   "options": [
+    "imports",
+    "exports",
+    "depreciation",
+    "subsidies"
+   ]
+  },
+  {
+   "id": "social-c12-196",
+   "type": "mcq",
+   "q": "When prices keep rising, the purchasing power of money",
+   "options": [
+    "falls",
+    "rises",
+    "stays the same",
+    "doubles"
+   ]
+  },
+  {
+   "id": "social-c12-197",
+   "type": "mcq",
+   "q": "If the marginal propensity to save is 0.25, the marginal propensity to consume is",
+   "options": [
+    "0.25",
+    "0.75",
+    "4",
+    "1.25"
+   ]
+  },
+  {
+   "id": "social-c12-198",
+   "type": "mcq",
+   "q": "With a cash reserve ratio of 10 per cent, a fresh deposit of 1,000 can lead to a maximum total deposit of",
+   "options": [
+    "100",
+    "1,100",
+    "9,000",
+    "10,000"
+   ]
+  },
+  {
+   "id": "social-c12-199",
+   "type": "short",
+   "q": "What is inflation?",
+   "proposedAnswer": "Inflation is a sustained rise in the general price level over time. It reduces the purchasing power of money.",
+   "keyPoints": [
+    "Sustained rise in general price level",
+    "Falling purchasing power"
+   ]
+  },
+  {
+   "id": "social-c12-200",
+   "type": "short",
+   "q": "How does a rise in the repo rate help to control inflation?",
+   "proposedAnswer": "The repo rate is the rate at which the RBI lends to banks. A rise makes borrowing costlier, so banks charge more for loans, demand for credit falls, and spending and price pressure ease.",
+   "keyPoints": [
+    "Repo rate is RBI's lending rate to banks",
+    "Loans become costlier",
+    "Lower demand eases prices"
+   ]
+  },
+  {
+   "id": "social-c12-201",
+   "type": "mcq",
+   "q": "Under which Article is the annual financial statement, or budget, laid before Parliament?",
+   "options": [
+    "Article 14",
+    "Article 112",
+    "Article 32",
+    "Article 352"
+   ]
+  },
+  {
+   "id": "social-c12-202",
+   "type": "mcq",
+   "q": "Which of these is an indirect tax?",
+   "options": [
+    "Income tax",
+    "Corporation tax",
+    "Capital gains tax",
+    "Goods and Services Tax"
+   ]
+  },
+  {
+   "id": "social-c12-203",
+   "type": "mcq",
+   "q": "Primary deficit equals",
+   "options": [
+    "revenue deficit plus imports",
+    "exports minus imports",
+    "fiscal deficit minus interest payments",
+    "revenue receipts minus expenditure"
+   ]
+  },
+  {
+   "id": "social-c12-204",
+   "type": "mcq",
+   "q": "Which two accounts together make up the balance of payments?",
+   "options": [
+    "Current account and capital account",
+    "Revenue account and tax account",
+    "Savings account and loan account",
+    "Import account and tax account"
+   ]
+  },
+  {
+   "id": "social-c12-205",
+   "type": "mcq",
+   "q": "The government borrows to build a new highway. Which measure shows its overall borrowing need?",
+   "options": [
+    "Fiscal deficit",
+    "Balance of trade",
+    "Revenue surplus",
+    "Exchange rate"
+   ]
+  },
+  {
+   "id": "social-c12-206",
+   "type": "mcq",
+   "q": "Why did India adopt planning after independence?",
+   "options": [
+    "To end all public investment",
+    "To close the economy",
+    "To use limited resources for national development goals, with a major role for the public sector",
+    "To remove the Constitution"
+   ]
+  },
+  {
+   "id": "social-c12-207",
+   "type": "short",
+   "q": "State two features of a mixed economy.",
+   "proposedAnswer": "In a mixed economy both the private sector and the public sector exist side by side. The government regulates and provides some goods and services, while private enterprises also produce for profit.",
+   "keyPoints": [
+    "Public and private sectors coexist",
+    "Government regulates and provides some goods"
+   ]
+  },
+  {
+   "id": "social-c12-208",
+   "type": "short",
+   "q": "Explain how globalisation has affected Indian consumers and producers.",
+   "proposedAnswer": "Consumers gain more choice and often lower prices because of imports and foreign firms. Producers face more competition and must improve quality, though they also gain access to foreign markets.",
+   "keyPoints": [
+    "More choice for consumers",
+    "More competition for producers",
+    "Wider markets abroad"
+   ]
+  },
+  {
+   "id": "social-c12-209",
+   "type": "mcq",
+   "q": "The Harappan civilisation is also known as the",
+   "options": [
+    "Indus Valley Civilisation",
+    "Vedic Civilisation",
+    "Gupta Civilisation",
+    "Mauryan Civilisation"
+   ]
+  },
+  {
+   "id": "social-c12-210",
+   "type": "mcq",
+   "q": "Harappa, the site that gave the civilisation its name, is located in present-day",
+   "options": [
+    "Nepal",
+    "Bangladesh",
+    "Pakistan",
+    "Afghanistan"
+   ]
+  },
+  {
+   "id": "social-c12-211",
+   "type": "mcq",
+   "q": "Why did Harappan cities have drains covered with bricks or stone slabs?",
+   "options": [
+    "To store grain",
+    "To carry waste water away and keep streets clean",
+    "To mark property boundaries",
+    "To bury the dead"
+   ]
+  },
+  {
+   "id": "social-c12-212",
+   "type": "mcq",
+   "q": "Which of these materials was used by Harappan craftsmen to make beads?",
+   "options": [
+    "Iron",
+    "Plastic",
+    "Paper",
+    "Carnelian"
+   ]
+  },
+  {
+   "id": "social-c12-213",
+   "type": "mcq",
+   "q": "Mesopotamian records mention a distant land called Meluhha. Why is this of interest to historians of the Harappan civilisation?",
+   "options": [
+    "It proves Meluhha was in Africa",
+    "It shows no trade existed",
+    "It describes the Great Bath",
+    "It is often identified with the Indus region, so it suggests trade contact"
+   ]
+  },
+  {
+   "id": "social-c12-214",
+   "type": "mcq",
+   "q": "Spindle whorls and remains of cotton have been found at Harappan sites. What can be inferred?",
+   "options": [
+    "No cloth was ever made",
+    "Cotton was grown and spun, so textile production existed",
+    "Cotton was imported only from Europe",
+    "People wore only metal clothes"
+   ]
+  },
+  {
+   "id": "social-c12-215",
+   "type": "short",
+   "q": "What were the citadel and the lower town in a Harappan city?",
+   "proposedAnswer": "The citadel was a raised area to the west that held important public buildings. The lower town was a larger area to the east where most people lived and worked.",
+   "keyPoints": [
+    "Citadel: raised area with public buildings",
+    "Lower town: residential and working area"
+   ]
+  },
+  {
+   "id": "social-c12-216",
+   "type": "short",
+   "q": "Why must historians be careful when saying that a Harappan object had a religious purpose?",
+   "proposedAnswer": "The script cannot be read, so there are no texts to explain objects. Interpretations are often based on comparison with later practices and may not be correct, and an object may have had more than one use.",
+   "keyPoints": [
+    "Script unread",
+    "Comparison with later times may mislead",
+    "Objects may have had several uses"
+   ]
+  },
+  {
+   "id": "social-c12-217",
+   "type": "mcq",
+   "q": "Mahavira is associated with which religion?",
+   "options": [
+    "Buddhism",
+    "Sikhism",
+    "Jainism",
+    "Zoroastrianism"
+   ]
+  },
+  {
+   "id": "social-c12-218",
+   "type": "mcq",
+   "q": "Where did the Buddha deliver his first sermon?",
+   "options": [
+    "Sarnath",
+    "Lumbini",
+    "Bodh Gaya",
+    "Kushinagar"
+   ]
+  },
+  {
+   "id": "social-c12-219",
+   "type": "mcq",
+   "q": "Why is the Sanchi stupa important to historians?",
+   "options": [
+    "It is a Harappan citadel",
+    "It is a Mughal palace",
+    "Its sculptures show early Buddhist art and beliefs",
+    "It was built in the twentieth century"
+   ]
+  },
+  {
+   "id": "social-c12-220",
+   "type": "mcq",
+   "q": "Sangam literature belongs to which region of India?",
+   "options": [
+    "The Tamil-speaking south",
+    "Kashmir",
+    "Bengal",
+    "Rajasthan"
+   ]
+  },
+  {
+   "id": "social-c12-221",
+   "type": "mcq",
+   "q": "Why did Ashoka appoint officers called dhamma mahamattas?",
+   "options": [
+    "To collect only taxes",
+    "To lead the army",
+    "To destroy temples",
+    "To spread Dhamma and look after the welfare of people of different groups"
+   ]
+  },
+  {
+   "id": "social-c12-222",
+   "type": "mcq",
+   "q": "Why did Buddhism and Jainism gain followers among traders and ordinary people?",
+   "options": [
+    "They were taught only in a language few knew",
+    "They used simple language, were open to many people and questioned rituals and birth-based distinctions",
+    "They banned all trade",
+    "They were forced on people by the Harappans"
+   ]
+  },
+  {
+   "id": "social-c12-223",
+   "type": "short",
+   "q": "Mention two sources historians use to study the Mauryan period.",
+   "proposedAnswer": "Ashoka's inscriptions give direct evidence of his policies. Kautilya's Arthashastra, Megasthenes' Indica as quoted by later writers, and archaeological remains are also used.",
+   "keyPoints": [
+    "Ashokan inscriptions",
+    "Arthashastra",
+    "Indica or archaeology"
+   ]
+  },
+  {
+   "id": "social-c12-224",
+   "type": "short",
+   "q": "Explain how coins, inscriptions and travellers' accounts together help historians reconstruct the past.",
+   "proposedAnswer": "Coins show rulers, trade and the economy, inscriptions give official messages and grants, and travellers' accounts give an outsider's view. Comparing them helps check each source against the others and gives a fuller picture.",
+   "keyPoints": [
+    "Coins show rulers and economy",
+    "Inscriptions give official records",
+    "Travellers give outside views; compare sources"
+   ]
+  },
+  {
+   "id": "social-c12-225",
+   "type": "mcq",
+   "q": "The Vijayanagara Empire was founded by",
+   "options": [
+    "Babur and Humayun",
+    "Harihara and Bukka",
+    "Akbar and Todar Mal",
+    "Alauddin and Malik Kafur"
+   ]
+  },
+  {
+   "id": "social-c12-226",
+   "type": "mcq",
+   "q": "Guru Nanak was the founder of",
+   "options": [
+    "Jainism",
+    "Buddhism",
+    "the Arya Samaj",
+    "Sikhism"
+   ]
+  },
+  {
+   "id": "social-c12-227",
+   "type": "mcq",
+   "q": "With which of the following is Todar Mal associated under Akbar?",
+   "options": [
+    "Land revenue arrangements",
+    "Naval command",
+    "Temple building at Hampi",
+    "Sufi poetry"
+   ]
+  },
+  {
+   "id": "social-c12-228",
+   "type": "mcq",
+   "q": "Why did Akbar build the city of Fatehpur Sikri?",
+   "options": [
+    "As a port on the Arabian Sea",
+    "As a fort on the Himalayas",
+    "As a capital near the dargah of Sheikh Salim Chishti",
+    "As a mining town"
+   ]
+  },
+  {
+   "id": "social-c12-229",
+   "type": "mcq",
+   "q": "Why did the Mughal state depend on zamindars?",
+   "options": [
+    "They commanded the navy",
+    "They wrote imperial decrees",
+    "They collected revenue and helped maintain local order, linking the state to the countryside",
+    "They had no role at all"
+   ]
+  },
+  {
+   "id": "social-c12-230",
+   "type": "mcq",
+   "q": "How did Bhakti poets who composed in local languages help spread their ideas?",
+   "options": [
+    "Only scholars of Sanskrit could follow them",
+    "People could understand the message directly without depending on Sanskrit",
+    "They were written in a lost script",
+    "They avoided song entirely"
+   ]
+  },
+  {
+   "id": "social-c12-231",
+   "type": "short",
+   "q": "Who was Mirabai and what is she known for?",
+   "proposedAnswer": "Mirabai was a Bhakti poet-saint who composed devotional songs in praise of Krishna. Her bhajans are sung widely.",
+   "keyPoints": [
+    "Bhakti poet-saint",
+    "Devotion to Krishna in songs"
+   ]
+  },
+  {
+   "id": "social-c12-232",
+   "type": "short",
+   "q": "Why is Ibn Battuta's account useful for studying the fourteenth century, and why should it be used with care?",
+   "proposedAnswer": "Ibn Battuta, a traveller from Morocco, described the Delhi Sultanate's court, travel and daily life as an outsider. Since he wrote partly from memory and from his own viewpoint, his statements need to be checked against other sources.",
+   "keyPoints": [
+    "Outsider's description of the Sultanate",
+    "Written from his own viewpoint and memory",
+    "Compare with other sources"
+   ]
+  },
+  {
+   "id": "social-c12-233",
+   "type": "mcq",
+   "q": "Which Governor-General introduced the system of Subsidiary Alliance?",
+   "options": [
+    "Lord Wellesley",
+    "Lord Cornwallis",
+    "Lord Dalhousie",
+    "Lord Canning"
+   ]
+  },
+  {
+   "id": "social-c12-234",
+   "type": "mcq",
+   "q": "The Santhal rebellion of 1855-56 was a rising by",
+   "options": [
+    "Mughal nobles",
+    "indigo planters",
+    "British soldiers",
+    "the Santhal people"
+   ]
+  },
+  {
+   "id": "social-c12-235",
+   "type": "mcq",
+   "q": "Which Governor-General is associated with the Doctrine of Lapse?",
+   "options": [
+    "Lord Dalhousie",
+    "Lord Wellesley",
+    "Lord Curzon",
+    "Lord Ripon"
+   ]
+  },
+  {
+   "id": "social-c12-236",
+   "type": "mcq",
+   "q": "The Deccan riots of 1875 were mainly directed against",
+   "options": [
+    "the railways",
+    "the Viceroy",
+    "salt officers",
+    "moneylenders"
+   ]
+  },
+  {
+   "id": "social-c12-237",
+   "type": "mcq",
+   "q": "According to Macaulay's Minute of 1835, why was English education to be promoted?",
+   "options": [
+    "To end all schools",
+    "To teach only local crafts",
+    "To create a class of Indians who could assist in administration",
+    "To ban Indian languages"
+   ]
+  },
+  {
+   "id": "social-c12-238",
+   "type": "mcq",
+   "q": "Which factor best explains why the 1857 revolt did not succeed?",
+   "options": [
+    "It had a single unified command",
+    "It lacked unified leadership and coordination, and the British had greater resources and better communication",
+    "The rebels had more modern arms than the British",
+    "The British were absent from India"
+   ]
+  },
+  {
+   "id": "social-c12-239",
+   "type": "short",
+   "q": "State two causes of the Revolt of 1857.",
+   "proposedAnswer": "Political causes included annexations under the Doctrine of Lapse. Economic hardship for peasants and artisans, and resentment among sepoys, including the cartridge issue, also contributed.",
+   "keyPoints": [
+    "Annexation of states",
+    "Economic hardship",
+    "Sepoys' grievances and cartridge issue"
+   ]
+  },
+  {
+   "id": "social-c12-240",
+   "type": "short",
+   "q": "Describe two effects of the 1857 revolt on British policy in India.",
+   "proposedAnswer": "Rule passed from the Company to the Crown in 1858. The army was reorganised with a larger share of British troops, and the government became more cautious about interfering in social and religious matters.",
+   "keyPoints": [
+    "Transfer of rule to the Crown",
+    "Army reorganised",
+    "Caution on social and religious matters"
+   ]
+  },
+  {
+   "id": "social-c12-241",
+   "type": "mcq",
+   "q": "In which year was the Indian National Congress founded?",
+   "options": [
+    "1857",
+    "1885",
+    "1905",
+    "1919"
+   ]
+  },
+  {
+   "id": "social-c12-242",
+   "type": "mcq",
+   "q": "Which movement began after the partition of Bengal in 1905, with a boycott of foreign goods?",
+   "options": [
+    "Swadeshi Movement",
+    "Quit India Movement",
+    "Khilafat Movement",
+    "Salt Satyagraha"
+   ]
+  },
+  {
+   "id": "social-c12-243",
+   "type": "mcq",
+   "q": "Who reorganised the Indian National Army in Southeast Asia during the Second World War?",
+   "options": [
+    "Jawaharlal Nehru",
+    "Mahatma Gandhi",
+    "Vallabhbhai Patel",
+    "Subhas Chandra Bose"
+   ]
+  },
+  {
+   "id": "social-c12-244",
+   "type": "mcq",
+   "q": "From where did Gandhi begin the Dandi March on 12 March 1930?",
+   "options": [
+    "Wardha",
+    "Champaran",
+    "Sabarmati Ashram near Ahmedabad",
+    "Kolkata"
+   ]
+  },
+  {
+   "id": "social-c12-245",
+   "type": "mcq",
+   "q": "Why did Gandhi insist on non-violence even when it slowed the movement?",
+   "options": [
+    "He had no interest in politics",
+    "He wanted to hold elections",
+    "He thought the British would leave in a day",
+    "He believed that means must be pure, and that violence would invite harsh repression and divide people"
+   ]
+  },
+  {
+   "id": "social-c12-246",
+   "type": "mcq",
+   "q": "What was a significant feature of the Government of India Act of 1935?",
+   "options": [
+    "It abolished the Viceroy",
+    "It ended the provinces",
+    "It provided for provincial autonomy, and elections were held in 1937",
+    "It gave independence"
+   ]
+  },
+  {
+   "id": "social-c12-247",
+   "type": "short",
+   "q": "Name any two leaders of the Moderate phase of the Congress.",
+   "proposedAnswer": "Dadabhai Naoroji and Gopal Krishna Gokhale were Moderate leaders. Pherozeshah Mehta is another example.",
+   "keyPoints": [
+    "Dadabhai Naoroji",
+    "Gopal Krishna Gokhale or Pherozeshah Mehta"
+   ]
+  },
+  {
+   "id": "social-c12-248",
+   "type": "short",
+   "q": "Distinguish between the methods of the Moderates and the Extremists in the Congress.",
+   "proposedAnswer": "The Moderates used petitions, prayers and constitutional methods to seek reforms. The Extremists, such as Tilak, favoured boycott, swadeshi and more active pressure, and aimed at swaraj.",
+   "keyPoints": [
+    "Moderates: petitions and constitutional means",
+    "Extremists: boycott and swadeshi",
+    "Extremists sought swaraj"
+   ]
+  },
+  {
+   "id": "social-c12-249",
+   "type": "mcq",
+   "q": "Who moved the Objectives Resolution in the Constituent Assembly in December 1946?",
+   "options": [
+    "Jawaharlal Nehru",
+    "B. R. Ambedkar",
+    "Rajendra Prasad",
+    "Sarojini Naidu"
+   ]
+  },
+  {
+   "id": "social-c12-250",
+   "type": "mcq",
+   "q": "On which date did India become independent?",
+   "options": [
+    "26 January 1950",
+    "15 August 1947",
+    "2 October 1947",
+    "26 November 1949"
+   ]
+  },
+  {
+   "id": "social-c12-251",
+   "type": "mcq",
+   "q": "Who was the last Viceroy of British India and the first Governor-General of independent India?",
+   "options": [
+    "Lord Mountbatten",
+    "Lord Wavell",
+    "Lord Linlithgow",
+    "Lord Irwin"
+   ]
+  },
+  {
+   "id": "social-c12-252",
+   "type": "mcq",
+   "q": "Through which amendment were Fundamental Duties added to the Constitution?",
+   "options": [
+    "First",
+    "Twenty-fourth",
+    "Forty-second",
+    "Eighty-sixth"
+   ]
+  },
+  {
+   "id": "social-c12-253",
+   "type": "mcq",
+   "q": "Why did the framers include Directive Principles even though courts cannot enforce them?",
+   "options": [
+    "They are meaningless",
+    "They guide governments towards a welfare-oriented society and social justice",
+    "They replace Fundamental Rights",
+    "They apply only to courts"
+   ]
+  },
+  {
+   "id": "social-c12-254",
+   "type": "mcq",
+   "q": "Why is the Preamble useful in understanding the Constitution?",
+   "options": [
+    "It lists all the Articles",
+    "It is a law that courts enforce above all others",
+    "It names every minister",
+    "It states the ideals and objectives that help in understanding the spirit of the provisions"
+   ]
+  },
+  {
+   "id": "social-c12-255",
+   "type": "short",
+   "q": "What are Fundamental Duties? Give two examples.",
+   "proposedAnswer": "Fundamental Duties are obligations of citizens listed in Article 51A. Examples are respecting the Constitution, the national flag and the national anthem, and protecting the environment.",
+   "keyPoints": [
+    "Citizens' obligations in Article 51A",
+    "Respect the Constitution, flag and anthem",
+    "Protect the environment"
+   ]
+  },
+  {
+   "id": "social-c12-256",
+   "type": "short",
+   "q": "How did the framers try to accommodate India's diversity in the Constitution?",
+   "proposedAnswer": "They adopted a federal structure with divided powers, guaranteed Fundamental Rights and cultural and educational rights for minorities, recognised several languages in the Eighth Schedule, and provided reservation for disadvantaged groups.",
+   "keyPoints": [
+    "Federal structure",
+    "Rights including minority rights",
+    "Recognition of languages and reservations"
+   ]
+  },
+  {
+   "id": "social-c12-257",
+   "type": "mcq",
+   "q": "For how many years are members of the Lok Sabha elected?",
+   "options": [
+    "Three",
+    "Four",
+    "Six",
+    "Five"
+   ]
+  },
+  {
+   "id": "social-c12-258",
+   "type": "mcq",
+   "q": "Who is the constitutional head of state in India?",
+   "options": [
+    "The Prime Minister",
+    "The President",
+    "The Chief Justice",
+    "The Speaker"
+   ]
+  },
+  {
+   "id": "social-c12-259",
+   "type": "mcq",
+   "q": "Freedom of speech and expression falls under which group of Fundamental Rights?",
+   "options": [
+    "Right to Equality",
+    "Right against Exploitation",
+    "Right to Freedom",
+    "Cultural and Educational Rights"
+   ]
+  },
+  {
+   "id": "social-c12-260",
+   "type": "mcq",
+   "q": "Which Article prohibits the employment of children below fourteen years in factories and hazardous work?",
+   "options": [
+    "Article 24",
+    "Article 18",
+    "Article 28",
+    "Article 30"
+   ]
+  },
+  {
+   "id": "social-c12-261",
+   "type": "mcq",
+   "q": "President's rule in a state under Article 356 can be imposed when",
+   "options": [
+    "the Governor is on leave",
+    "the state has a new Chief Minister",
+    "the constitutional machinery in the state fails",
+    "the monsoon is late"
+   ]
+  },
+  {
+   "id": "social-c12-262",
+   "type": "mcq",
+   "q": "Why are seats reserved for women in panchayats?",
+   "options": [
+    "To increase women's participation in local decision-making",
+    "To reduce the number of seats",
+    "To end elections",
+    "To exclude men from voting"
+   ]
+  },
+  {
+   "id": "social-c12-263",
+   "type": "short",
+   "q": "Name any four of the six Fundamental Rights.",
+   "proposedAnswer": "The six Fundamental Rights are the Right to Equality, Right to Freedom, Right against Exploitation, Right to Freedom of Religion, Cultural and Educational Rights, and Right to Constitutional Remedies.",
+   "keyPoints": [
+    "Equality",
+    "Freedom",
+    "Against exploitation",
+    "Freedom of religion, cultural and educational rights, constitutional remedies"
+   ]
+  },
+  {
+   "id": "social-c12-264",
+   "type": "short",
+   "q": "What is the anti-defection law and why was it introduced?",
+   "proposedAnswer": "The Tenth Schedule, added by the 52nd Amendment in 1985, disqualifies a legislator who leaves the party on whose ticket he or she was elected, subject to conditions. It was meant to curb frequent switching of parties that made governments unstable.",
+   "keyPoints": [
+    "Tenth Schedule, 52nd Amendment",
+    "Disqualification for leaving the party",
+    "Aimed at preventing instability"
+   ]
+  },
+  {
+   "id": "social-c12-265",
+   "type": "mcq",
+   "q": "Which body of the UN has representatives of all member states?",
+   "options": [
+    "Security Council",
+    "Secretariat",
+    "International Court of Justice",
+    "General Assembly"
+   ]
+  },
+  {
+   "id": "social-c12-266",
+   "type": "mcq",
+   "q": "Along with Nehru and Tito, which leader was a founder of the Non-Aligned Movement?",
+   "options": [
+    "Churchill",
+    "Nasser",
+    "Roosevelt",
+    "Stalin"
+   ]
+  },
+  {
+   "id": "social-c12-267",
+   "type": "mcq",
+   "q": "What was the Marshall Plan of 1948?",
+   "options": [
+    "A Soviet military alliance",
+    "United States economic aid to help rebuild Western European economies",
+    "A treaty between India and China",
+    "A plan to divide Germany permanently"
+   ]
+  },
+  {
+   "id": "social-c12-268",
+   "type": "mcq",
+   "q": "ASEAN is a regional organisation of countries in",
+   "options": [
+    "South America",
+    "Africa",
+    "Central Asia",
+    "Southeast Asia"
+   ]
+  },
+  {
+   "id": "social-c12-269",
+   "type": "mcq",
+   "q": "Why did the Cold War not lead to a direct war between the USA and the USSR?",
+   "options": [
+    "Nuclear weapons made a direct war too destructive for both",
+    "They had no armies",
+    "They were allies",
+    "The UN forced them to disarm"
+   ]
+  },
+  {
+   "id": "social-c12-270",
+   "type": "mcq",
+   "q": "Non-alignment did not mean isolation for India because",
+   "options": [
+    "India cut all contact with other countries",
+    "India joined both alliances",
+    "India engaged diplomatically and traded with both blocs while staying out of military alliances",
+    "India closed its ports"
+   ]
+  },
+  {
+   "id": "social-c12-271",
+   "type": "short",
+   "q": "Name any three principal organs of the United Nations.",
+   "proposedAnswer": "The General Assembly, the Security Council and the International Court of Justice are principal organs. The Economic and Social Council and the Secretariat are others.",
+   "keyPoints": [
+    "General Assembly",
+    "Security Council",
+    "International Court of Justice, ECOSOC or Secretariat"
+   ]
+  },
+  {
+   "id": "social-c12-272",
+   "type": "short",
+   "q": "Why do some countries ask for reform of the UN Security Council?",
+   "proposedAnswer": "Its permanent membership reflects the world of 1945, and several regions and large countries have no permanent seat. The veto also lets one member block action, so reform is sought to make it more representative.",
+   "keyPoints": [
+    "Membership reflects 1945",
+    "Some regions lack permanent seats",
+    "Veto concerns"
+   ]
+  },
+  {
+   "id": "social-c12-273",
+   "type": "mcq",
+   "q": "Which type of settlement has houses scattered over fields, far from one another?",
+   "options": [
+    "Linear",
+    "Compact",
+    "Dispersed",
+    "Urban"
+   ]
+  },
+  {
+   "id": "social-c12-274",
+   "type": "mcq",
+   "q": "The number of persons living per square kilometre is called",
+   "options": [
+    "sex ratio",
+    "population density",
+    "literacy rate",
+    "growth rate"
+   ]
+  },
+  {
+   "id": "social-c12-275",
+   "type": "mcq",
+   "q": "Which of the following is a pull factor for migration?",
+   "options": [
+    "Better job opportunities",
+    "Drought",
+    "Floods",
+    "War"
+   ]
+  },
+  {
+   "id": "social-c12-276",
+   "type": "mcq",
+   "q": "Which set lists primary activities only?",
+   "options": [
+    "Banking, teaching, trade",
+    "Computing, finance, insurance",
+    "Manufacturing, building, textile making",
+    "Farming, fishing, mining"
+   ]
+  },
+  {
+   "id": "social-c12-277",
+   "type": "mcq",
+   "q": "A country has a birth rate of 40 and a death rate of 10 per thousand. Its natural growth rate per thousand is",
+   "options": [
+    "30",
+    "50",
+    "4",
+    "25"
+   ]
+  },
+  {
+   "id": "social-c12-278",
+   "type": "mcq",
+   "q": "Why is population density very low in polar and desert regions?",
+   "options": [
+    "They have too much farmland",
+    "They have mild weather",
+    "They are close to ports",
+    "Harsh climate and scarce food and water limit settlement"
+   ]
+  },
+  {
+   "id": "social-c12-279",
+   "type": "short",
+   "q": "Differentiate between emigrants and immigrants.",
+   "proposedAnswer": "Emigrants are people who leave a country or region to settle elsewhere. Immigrants are people who come to settle in a country or region.",
+   "keyPoints": [
+    "Emigrants move out",
+    "Immigrants move in"
+   ]
+  },
+  {
+   "id": "social-c12-280",
+   "type": "short",
+   "q": "Explain two problems that rapid urbanisation can create in cities.",
+   "proposedAnswer": "Rapid growth can cause a shortage of housing, leading to slums. It also strains water supply, transport and sanitation, and increases pollution.",
+   "keyPoints": [
+    "Housing shortage and slums",
+    "Pressure on water, transport and sanitation",
+    "Pollution"
+   ]
+  },
+  {
+   "id": "social-c12-281",
+   "type": "mcq",
+   "q": "Which of these is a rabi crop?",
+   "options": [
+    "Rice",
+    "Maize",
+    "Wheat",
+    "Cotton"
+   ]
+  },
+  {
+   "id": "social-c12-282",
+   "type": "mcq",
+   "q": "Which of these is a fossil fuel?",
+   "options": [
+    "Wind",
+    "Coal",
+    "Sunlight",
+    "Tides"
+   ]
+  },
+  {
+   "id": "social-c12-283",
+   "type": "mcq",
+   "q": "Jhum cultivation in north-eastern India is a form of",
+   "options": [
+    "plantation farming",
+    "shifting cultivation",
+    "mixed farming",
+    "dairy farming"
+   ]
+  },
+  {
+   "id": "social-c12-284",
+   "type": "mcq",
+   "q": "The main raw materials of the iron and steel industry are",
+   "options": [
+    "Iron ore, coal and limestone",
+    "Cotton, jute and wool",
+    "Bauxite and cement only",
+    "Sand and salt"
+   ]
+  },
+  {
+   "id": "social-c12-285",
+   "type": "mcq",
+   "q": "Why does growing pulses in rotation with cereals help a farmer?",
+   "options": [
+    "Pulses use up all the nitrogen",
+    "Pulses need no sunlight",
+    "Pulses reduce rainfall",
+    "Pulses add nitrogen to the soil and help maintain fertility"
+   ]
+  },
+  {
+   "id": "social-c12-286",
+   "type": "mcq",
+   "q": "Why are farmers who depend on rainfall alone vulnerable?",
+   "options": [
+    "Rain always arrives on time",
+    "They have too much irrigation",
+    "Rainfall can vary from year to year and harm crops",
+    "They grow no crops"
+   ]
+  },
+  {
+   "id": "social-c12-287",
+   "type": "short",
+   "q": "State two differences between subsistence and commercial agriculture.",
+   "proposedAnswer": "Subsistence farming is on small plots and mainly feeds the farmer's family, using simple tools and family labour. Commercial farming grows crops for sale in the market, using more capital, machinery and inputs.",
+   "keyPoints": [
+    "Subsistence feeds the family; commercial sells",
+    "Simple tools versus machinery and capital"
+   ]
+  },
+  {
+   "id": "social-c12-288",
+   "type": "short",
+   "q": "Why is the conservation of resources necessary? Suggest two measures.",
+   "proposedAnswer": "Resources are limited and overuse can exhaust them or harm the environment, so future generations may be left without them. Measures include recycling, using renewable sources and avoiding waste.",
+   "keyPoints": [
+    "Resources are limited",
+    "Future generations",
+    "Recycling, renewables, avoiding waste"
+   ]
+  },
+  {
+   "id": "social-c12-289",
+   "type": "mcq",
+   "q": "Which railway crosses Russia from Moscow to the Pacific coast?",
+   "options": [
+    "Orient Express",
+    "Trans-Canadian Railway",
+    "Cape-to-Cairo Railway",
+    "Trans-Siberian Railway"
+   ]
+  },
+  {
+   "id": "social-c12-290",
+   "type": "mcq",
+   "q": "The Border Roads Organisation mainly builds roads in",
+   "options": [
+    "cities only",
+    "deserts only",
+    "border and remote hilly areas",
+    "coastal ports only"
+   ]
+  },
+  {
+   "id": "social-c12-291",
+   "type": "mcq",
+   "q": "National Waterway 1 runs along which river?",
+   "options": [
+    "Ganga",
+    "Brahmaputra",
+    "Godavari",
+    "Narmada"
+   ]
+  },
+  {
+   "id": "social-c12-292",
+   "type": "mcq",
+   "q": "Pipelines are mainly used to transport",
+   "options": [
+    "people",
+    "liquids and gases such as oil and natural gas",
+    "fresh vegetables",
+    "furniture"
+   ]
+  },
+  {
+   "id": "social-c12-293",
+   "type": "mcq",
+   "q": "Why do landlocked countries depend on their neighbours for sea trade?",
+   "options": [
+    "They have no coastline, so goods must pass through neighbouring ports",
+    "They have too many ports",
+    "They do not trade",
+    "Sea trade is banned"
+   ]
+  },
+  {
+   "id": "social-c12-294",
+   "type": "mcq",
+   "q": "Two countries have the same per capita income but different life expectancy and literacy. What will the HDI show?",
+   "options": [
+    "Identical values",
+    "Zero for both",
+    "Different values, since HDI also counts health and education",
+    "Values above 1"
+   ]
+  },
+  {
+   "id": "social-c12-295",
+   "type": "short",
+   "q": "State two advantages of water transport.",
+   "proposedAnswer": "Water transport is cheap for carrying bulky goods over long distances. It also needs little energy per unit of cargo and does not need costly roads or rails.",
+   "keyPoints": [
+    "Cheap for bulky goods",
+    "Energy efficient",
+    "No road or rail construction"
+   ]
+  },
+  {
+   "id": "social-c12-296",
+   "type": "short",
+   "q": "Why do countries form trade blocs? Give one example.",
+   "proposedAnswer": "Member countries cut tariffs and barriers among themselves to enlarge their market and encourage trade and cooperation. The European Union and ASEAN are examples.",
+   "keyPoints": [
+    "Lower trade barriers among members",
+    "Larger market",
+    "Example: EU or ASEAN"
+   ]
+  },
+  {
+   "id": "social-c12-297",
+   "type": "mcq",
+   "q": "Which of these is a final good?",
+   "options": [
+    "Flour bought by a bakery",
+    "Bread bought by a household for its own use",
+    "Steel bought by a car factory",
+    "Cotton bought by a textile mill"
+   ]
+  },
+  {
+   "id": "social-c12-298",
+   "type": "mcq",
+   "q": "Money that must be accepted in payment of debts by law is called",
+   "options": [
+    "barter",
+    "a bill",
+    "credit",
+    "legal tender"
+   ]
+  },
+  {
+   "id": "social-c12-299",
+   "type": "mcq",
+   "q": "Which of these is a method of measuring GDP?",
+   "options": [
+    "Census method",
+    "Voting method",
+    "Survey method",
+    "Expenditure method"
+   ]
+  },
+  {
+   "id": "social-c12-300",
+   "type": "mcq",
+   "q": "Commercial banks earn profit mainly by",
+   "options": [
+    "charging no interest",
+    "charging a higher rate of interest on loans than they pay on deposits",
+    "printing notes",
+    "issuing coins"
+   ]
+  },
+  {
+   "id": "social-c12-301",
+   "type": "mcq",
+   "q": "If the marginal propensity to consume is 0.5 and investment rises by 100, the rise in income is",
+   "options": [
+    "50",
+    "100",
+    "200",
+    "500"
+   ]
+  },
+  {
+   "id": "social-c12-302",
+   "type": "mcq",
+   "q": "Why is GDP an imperfect measure of welfare?",
+   "options": [
+    "It leaves out unpaid household work and says nothing on distribution or environmental harm",
+    "It counts every activity perfectly",
+    "It measures happiness exactly",
+    "It includes all hidden income"
+   ]
+  },
+  {
+   "id": "social-c12-303",
+   "type": "short",
+   "q": "State two functions of a central bank.",
+   "proposedAnswer": "A central bank issues currency and acts as banker to the government. It also regulates commercial banks and controls credit and the money supply.",
+   "keyPoints": [
+    "Issues currency",
+    "Banker to government and banks",
+    "Controls credit and money supply"
+   ]
+  },
+  {
+   "id": "social-c12-304",
+   "type": "short",
+   "q": "How can double counting be avoided when measuring GDP? Give an example.",
+   "proposedAnswer": "Only the value added at each stage is counted, or only final goods. If a farmer sells wheat worth 100, a miller flour worth 150 and a baker bread worth 200, the total value added is 100 + 50 + 50 = 200, the value of the bread.",
+   "keyPoints": [
+    "Count only final goods or value added",
+    "Example with stages",
+    "Total equals value of final good"
+   ]
+  },
+  {
+   "id": "social-c12-305",
+   "type": "mcq",
+   "q": "Which of these is a capital receipt of the government?",
+   "options": [
+    "Income tax",
+    "Excise duty",
+    "Borrowing by the government",
+    "Fees for services"
+   ]
+  },
+  {
+   "id": "social-c12-306",
+   "type": "mcq",
+   "q": "In which year was the Planning Commission set up?",
+   "options": [
+    "1950",
+    "1947",
+    "1956",
+    "1991"
+   ]
+  },
+  {
+   "id": "social-c12-307",
+   "type": "mcq",
+   "q": "Which of these is revenue expenditure?",
+   "options": [
+    "Building a new bridge",
+    "Buying machinery",
+    "Giving a loan to a state for a project",
+    "Paying salaries to government employees"
+   ]
+  },
+  {
+   "id": "social-c12-308",
+   "type": "mcq",
+   "q": "The balance of trade is a part of the",
+   "options": [
+    "capital account",
+    "current account",
+    "revenue account",
+    "fiscal account"
+   ]
+  },
+  {
+   "id": "social-c12-309",
+   "type": "mcq",
+   "q": "A government lowers import duties. What is a likely short-run effect?",
+   "options": [
+    "Imports become costlier",
+    "Imports become cheaper and domestic producers face more competition",
+    "Exports are banned",
+    "Prices of all goods rise"
+   ]
+  },
+  {
+   "id": "social-c12-310",
+   "type": "mcq",
+   "q": "Why did the government undertake disinvestment as part of reforms?",
+   "options": [
+    "To buy more public companies",
+    "To close all private firms",
+    "To increase taxes on the poor",
+    "To raise revenue and encourage efficiency through private participation in public enterprises"
+   ]
+  },
+  {
+   "id": "social-c12-311",
+   "type": "short",
+   "q": "Differentiate between revenue expenditure and capital expenditure.",
+   "proposedAnswer": "Revenue expenditure is spending on day-to-day running of government, such as salaries and interest, and creates no asset. Capital expenditure is spending that creates assets or reduces liabilities, such as building roads.",
+   "keyPoints": [
+    "Revenue: routine, no asset created",
+    "Capital: creates assets or reduces liabilities"
+   ]
+  },
+  {
+   "id": "social-c12-312",
+   "type": "short",
+   "q": "Why is a persistently high fiscal deficit considered a problem?",
+   "proposedAnswer": "It means heavy borrowing, so interest payments grow and take a large part of future spending. It can also crowd out private investment and add to inflation.",
+   "keyPoints": [
+    "Heavy borrowing and interest burden",
+    "May crowd out private investment",
+    "Can add to inflation"
+   ]
+  },
+  {
+   "id": "social-c12-313",
+   "type": "mcq",
+   "q": "Which of these Harappan sites is located in Rajasthan?",
+   "options": [
+    "Lothal",
+    "Kalibangan",
+    "Dholavira",
+    "Mohenjodaro"
+   ]
+  },
+  {
+   "id": "social-c12-314",
+   "type": "mcq",
+   "q": "Most Harappan seals were made of which material?",
+   "options": [
+    "Gold",
+    "Glass",
+    "Wood",
+    "Steatite"
+   ]
+  },
+  {
+   "id": "social-c12-315",
+   "type": "mcq",
+   "q": "Terracotta toy models of carts have been found at Harappan sites. What do they suggest?",
+   "options": [
+    "Wheeled vehicles were unknown",
+    "Only ships were used",
+    "Wheeled carts were used for transport",
+    "Roads did not exist"
+   ]
+  },
+  {
+   "id": "social-c12-316",
+   "type": "mcq",
+   "q": "Harappan weights were generally",
+   "options": [
+    "standardised and made of stone in regular ratios",
+    "irregular and different in every village",
+    "made only of gold",
+    "made of paper"
+   ]
+  },
+  {
+   "id": "social-c12-317",
+   "type": "mcq",
+   "q": "Why do archaeologists consider Harappan cities to have been planned and not randomly grown?",
+   "options": [
+    "Streets, drains and brick sizes follow a consistent pattern",
+    "Streets were random",
+    "The cities had no streets",
+    "Bricks were of every size"
+   ]
+  },
+  {
+   "id": "social-c12-318",
+   "type": "mcq",
+   "q": "Shell bangles and beads are found at Harappan sites far from the sea. What is the likely explanation?",
+   "options": [
+    "Shells grow in deserts",
+    "Shells fell from the sky",
+    "The raw material was brought by trade or exchange",
+    "Shells were never used"
+   ]
+  },
+  {
+   "id": "social-c12-319",
+   "type": "short",
+   "q": "Name two crafts practised by the Harappans.",
+   "proposedAnswer": "Harappan craftspeople made beads, pottery and metal objects. They also made seals and ornaments of shell and stone.",
+   "keyPoints": [
+    "Bead making",
+    "Pottery or metalwork",
+    "Seals or shell work"
+   ]
+  },
+  {
+   "id": "social-c12-320",
+   "type": "short",
+   "q": "Why was Lothal an important Harappan site?",
+   "proposedAnswer": "Lothal had a large brick basin regarded as a dockyard, and it was a centre of bead making. Its location made it useful for trade by sea and with other regions.",
+   "keyPoints": [
+    "Dockyard-like basin",
+    "Bead-making centre",
+    "Trade by sea"
+   ]
+  },
+  {
+   "id": "social-c12-321",
+   "type": "mcq",
+   "q": "What was the capital of the Mauryan Empire under Ashoka?",
+   "options": [
+    "Hastinapura",
+    "Ujjain",
+    "Taxila",
+    "Pataliputra"
+   ]
+  },
+  {
+   "id": "social-c12-322",
+   "type": "mcq",
+   "q": "The mathematician and astronomer Aryabhata belonged to which period?",
+   "options": [
+    "Mauryan",
+    "Gupta",
+    "Harappan",
+    "Mughal"
+   ]
+  },
+  {
+   "id": "social-c12-323",
+   "type": "mcq",
+   "q": "Which of these works was written by Kalidasa?",
+   "options": [
+    "Arthashastra",
+    "Indica",
+    "Harshacharita",
+    "Abhijnanashakuntalam"
+   ]
+  },
+  {
+   "id": "social-c12-324",
+   "type": "mcq",
+   "q": "What were the Mahajanapadas?",
+   "options": [
+    "Harappan cities",
+    "Sixteen large states of about the sixth century BCE",
+    "Mughal provinces",
+    "Buddhist monasteries"
+   ]
+  },
+  {
+   "id": "social-c12-325",
+   "type": "mcq",
+   "q": "Why was Ashoka's reaction to the Kalinga war significant for state policy?",
+   "options": [
+    "He gave up expansion by war and emphasised Dhamma in dealing with his subjects",
+    "He expanded the war further",
+    "He ended all government",
+    "He moved to Greece"
+   ]
+  },
+  {
+   "id": "social-c12-326",
+   "type": "mcq",
+   "q": "Why did Chinese pilgrims like Hsuan Tsang travel to India?",
+   "options": [
+    "To trade in horses only",
+    "To fight wars",
+    "To visit Buddhist sites and collect texts",
+    "To build railways"
+   ]
+  },
+  {
+   "id": "social-c12-327",
+   "type": "short",
+   "q": "What is a prashasti? Give one example.",
+   "proposedAnswer": "A prashasti is a praise poem or inscription glorifying a ruler. The Allahabad pillar inscription praising Samudragupta is an example.",
+   "keyPoints": [
+    "Praise composition for a ruler",
+    "Allahabad pillar inscription"
+   ]
+  },
+  {
+   "id": "social-c12-328",
+   "type": "short",
+   "q": "Why should historians study inscriptions together with literary texts?",
+   "proposedAnswer": "Inscriptions are often contemporary records, while literary texts may have been composed or changed later. Each can reflect the views of its author, so comparing them helps check accuracy and reduce bias.",
+   "keyPoints": [
+    "Inscriptions often contemporary",
+    "Texts may be later and biased",
+    "Cross-check for reliability"
+   ]
+  },
+  {
+   "id": "social-c12-329",
+   "type": "mcq",
+   "q": "Who was the father of the Mughal emperor Akbar?",
+   "options": [
+    "Babur",
+    "Shah Jahan",
+    "Humayun",
+    "Jahangir"
+   ]
+  },
+  {
+   "id": "social-c12-330",
+   "type": "mcq",
+   "q": "In which present-day state is Hampi located?",
+   "options": [
+    "Karnataka",
+    "Gujarat",
+    "Punjab",
+    "Assam"
+   ]
+  },
+  {
+   "id": "social-c12-331",
+   "type": "mcq",
+   "q": "What was the role of a Chishti khanqah?",
+   "options": [
+    "A military fort",
+    "A hospice where devotees gathered, shared community meals and heard devotional music",
+    "A tax office",
+    "A royal treasury"
+   ]
+  },
+  {
+   "id": "social-c12-332",
+   "type": "mcq",
+   "q": "In the Mughal system, a mansabdar was",
+   "options": [
+    "a village priest",
+    "a foreign traveller",
+    "a temple builder",
+    "an imperial officer holding a rank, or mansab"
+   ]
+  },
+  {
+   "id": "social-c12-333",
+   "type": "mcq",
+   "q": "Why did Mughal rulers maintain roads and sarais?",
+   "options": [
+    "To stop trade",
+    "To block armies",
+    "To make travel impossible",
+    "To aid the movement of armies, officials and merchants, and support trade"
+   ]
+  },
+  {
+   "id": "social-c12-334",
+   "type": "mcq",
+   "q": "Why were coastal ports important to the Vijayanagara Empire?",
+   "options": [
+    "They had no trade",
+    "They were only for fishing",
+    "They brought in horses and other goods from abroad and carried out spices and textiles",
+    "They were used only by the Mughals"
+   ]
+  },
+  {
+   "id": "social-c12-335",
+   "type": "short",
+   "q": "What is langar in the Sikh tradition?",
+   "proposedAnswer": "Langar is a community kitchen where free meals are served to all, seated together irrespective of caste or status. It began with the early Sikh Gurus and expresses equality.",
+   "keyPoints": [
+    "Community kitchen with free meals",
+    "People of all backgrounds eat together"
+   ]
+  },
+  {
+   "id": "social-c12-336",
+   "type": "short",
+   "q": "Describe two ways in which Mughal architecture combined different traditions.",
+   "proposedAnswer": "Mughal buildings combined Persian elements such as domes, arches and gardens with Indian features such as chhatris and jharokhas. They also used local materials like red sandstone.",
+   "keyPoints": [
+    "Persian domes, arches and gardens",
+    "Indian chhatris and jharokhas",
+    "Local materials"
+   ]
+  },
+  {
+   "id": "social-c12-337",
+   "type": "mcq",
+   "q": "Which Governor-General introduced the Permanent Settlement in Bengal?",
+   "options": [
+    "Wellesley",
+    "Cornwallis",
+    "Dalhousie",
+    "Bentinck"
+   ]
+  },
+  {
+   "id": "social-c12-338",
+   "type": "mcq",
+   "q": "Which Act of 1858 transferred power from the East India Company to the British Crown?",
+   "options": [
+    "Government of India Act, 1858",
+    "Regulating Act, 1773",
+    "Pitt's India Act, 1784",
+    "Charter Act, 1833"
+   ]
+  },
+  {
+   "id": "social-c12-339",
+   "type": "mcq",
+   "q": "What could happen to a zamindar's estate under the Permanent Settlement if he failed to pay revenue on time?",
+   "options": [
+    "He was rewarded",
+    "The estate could be auctioned",
+    "Revenue was waived",
+    "It became a school"
+   ]
+  },
+  {
+   "id": "social-c12-340",
+   "type": "mcq",
+   "q": "Under the tinkathia system in Champaran, peasants were made to",
+   "options": [
+    "grow indigo on a part of their land for planters",
+    "give up farming",
+    "sell salt",
+    "work in railway workshops"
+   ]
+  },
+  {
+   "id": "social-c12-341",
+   "type": "mcq",
+   "q": "Why did the Company fix revenue permanently in Bengal?",
+   "options": [
+    "To end revenue collection",
+    "To raise land prices",
+    "To give land to peasants free",
+    "To secure a stable income and create a class of landlords loyal to the Company"
+   ]
+  },
+  {
+   "id": "social-c12-342",
+   "type": "mcq",
+   "q": "Why did early nationalist leaders criticise British economic policy?",
+   "options": [
+    "They said it helped Indian industry grow",
+    "They said it was perfect",
+    "They argued it drained wealth and harmed Indian industries and peasants",
+    "They said India had no economy"
+   ]
+  },
+  {
+   "id": "social-c12-343",
+   "type": "short",
+   "q": "What was the Subsidiary Alliance?",
+   "proposedAnswer": "It was a system under which an Indian ruler accepted a British force in his territory and paid for it. He also agreed not to ally with other European powers and kept a British Resident at his court.",
+   "keyPoints": [
+    "Ruler accepts and pays for British troops",
+    "No alliance with other Europeans",
+    "British Resident at court"
+   ]
+  },
+  {
+   "id": "social-c12-344",
+   "type": "short",
+   "q": "Why did peasants and artisans join the revolt in some regions in 1857?",
+   "proposedAnswer": "Many had lost livelihoods through high revenue demands and cheap imports, and displaced rulers and their dependents also had grievances. Religious fears and anger against the Company added to the discontent.",
+   "keyPoints": [
+    "Heavy revenue and loss of livelihood",
+    "Displaced rulers and followers",
+    "Religious fears"
+   ]
+  },
+  {
+   "id": "social-c12-345",
+   "type": "mcq",
+   "q": "Who gave the slogan Swaraj is my birthright and I shall have it?",
+   "options": [
+    "Gopal Krishna Gokhale",
+    "Dadabhai Naoroji",
+    "Bal Gangadhar Tilak",
+    "Lala Lajpat Rai"
+   ]
+  },
+  {
+   "id": "social-c12-346",
+   "type": "mcq",
+   "q": "In which year did Gandhi return to India from South Africa?",
+   "options": [
+    "1905",
+    "1915",
+    "1920",
+    "1930"
+   ]
+  },
+  {
+   "id": "social-c12-347",
+   "type": "mcq",
+   "q": "The Ahmedabad satyagraha of 1918 was connected with a dispute between",
+   "options": [
+    "mill owners and workers",
+    "peasants and the Viceroy",
+    "students and teachers",
+    "planters and Gandhi's family"
+   ]
+  },
+  {
+   "id": "social-c12-348",
+   "type": "mcq",
+   "q": "Where was the Muslim League founded in 1906?",
+   "options": [
+    "Lahore",
+    "Delhi",
+    "Lucknow",
+    "Dhaka"
+   ]
+  },
+  {
+   "id": "social-c12-349",
+   "type": "mcq",
+   "q": "How did the Jallianwala Bagh massacre affect Indian politics?",
+   "options": [
+    "It increased anger against British rule and pushed many towards non-cooperation",
+    "It ended all protest",
+    "It made the British popular",
+    "It had no effect"
+   ]
+  },
+  {
+   "id": "social-c12-350",
+   "type": "mcq",
+   "q": "Why did the Non-Cooperation Movement reach more social groups than earlier movements?",
+   "options": [
+    "It was limited to lawyers",
+    "It ignored local issues",
+    "Only the army joined",
+    "It linked local grievances of peasants, workers and students with national demands"
+   ]
+  },
+  {
+   "id": "social-c12-351",
+   "type": "short",
+   "q": "What decision did the Congress take at its Lahore session in 1929?",
+   "proposedAnswer": "It declared Purna Swaraj, or complete independence, as its goal. It also decided that 26 January 1930 would be observed as Independence Day.",
+   "keyPoints": [
+    "Purna Swaraj as the goal",
+    "26 January 1930 as Independence Day"
+   ]
+  },
+  {
+   "id": "social-c12-352",
+   "type": "short",
+   "q": "Why was the Salt March important for the national movement?",
+   "proposedAnswer": "Breaking the salt law was a symbolic and peaceful defiance that anyone could join. It drew mass participation including women, and attracted attention abroad, putting pressure on the government.",
+   "keyPoints": [
+    "Symbolic peaceful defiance",
+    "Mass and women's participation",
+    "Attention in India and abroad"
+   ]
+  },
+  {
+   "id": "social-c12-353",
+   "type": "mcq",
+   "q": "Who was the first Prime Minister of independent India?",
+   "options": [
+    "Vallabhbhai Patel",
+    "Jawaharlal Nehru",
+    "Rajendra Prasad",
+    "B. R. Ambedkar"
+   ]
+  },
+  {
+   "id": "social-c12-354",
+   "type": "mcq",
+   "q": "The Preamble describes India as a",
+   "options": [
+    "Sovereign, Monarchical, Religious Republic",
+    "Colonial, Federal Kingdom",
+    "Sovereign, Socialist, Secular, Democratic Republic",
+    "Military State"
+   ]
+  },
+  {
+   "id": "social-c12-355",
+   "type": "mcq",
+   "q": "Why is India called a republic?",
+   "options": [
+    "Its head of state is a hereditary king",
+    "Its head of state is elected and not hereditary",
+    "It has no head of state",
+    "It has no elections"
+   ]
+  },
+  {
+   "id": "social-c12-356",
+   "type": "mcq",
+   "q": "Which state was formed in 1953 as the first on a linguistic basis?",
+   "options": [
+    "Kerala",
+    "Karnataka",
+    "Gujarat",
+    "Andhra"
+   ]
+  },
+  {
+   "id": "social-c12-357",
+   "type": "mcq",
+   "q": "Why did the framers adopt universal adult franchise from the start?",
+   "options": [
+    "To restrict voting to the wealthy",
+    "To exclude women",
+    "To ensure political equality regardless of wealth, education, sex or caste",
+    "To avoid elections"
+   ]
+  },
+  {
+   "id": "social-c12-358",
+   "type": "mcq",
+   "q": "Why is the Indian Constitution a lengthy document?",
+   "options": [
+    "It covers a large and diverse country with detailed provisions on federalism, rights and administration",
+    "It has no provisions",
+    "It was copied word for word from one text",
+    "It contains only the Preamble"
+   ]
+  },
+  {
+   "id": "social-c12-359",
+   "type": "short",
+   "q": "State two features of the Indian Constitution.",
+   "proposedAnswer": "India has a parliamentary form of government and a federal structure with a strong Centre. The Constitution guarantees Fundamental Rights and has an independent judiciary.",
+   "keyPoints": [
+    "Parliamentary system",
+    "Federal structure",
+    "Fundamental Rights"
+   ]
+  },
+  {
+   "id": "social-c12-360",
+   "type": "short",
+   "q": "Why were the first general elections of 1951-52 a major test for democracy in India?",
+   "proposedAnswer": "They were held on the basis of universal adult franchise in a vast country where most voters could not read. Organising them involved huge administrative effort, and their peaceful conduct strengthened democratic practice.",
+   "keyPoints": [
+    "Universal adult franchise",
+    "Large electorate with low literacy",
+    "Success strengthened democracy"
+   ]
+  },
+  {
+   "id": "social-c12-361",
+   "type": "mcq",
+   "q": "Who is the presiding officer of the Lok Sabha?",
+   "options": [
+    "The Speaker",
+    "The Prime Minister",
+    "The Vice-President",
+    "The Chief Justice"
+   ]
+  },
+  {
+   "id": "social-c12-362",
+   "type": "mcq",
+   "q": "Where is the Supreme Court of India located?",
+   "options": [
+    "Mumbai",
+    "Kolkata",
+    "New Delhi",
+    "Chennai"
+   ]
+  },
+  {
+   "id": "social-c12-363",
+   "type": "mcq",
+   "q": "Which writ directs that a person who has been detained be produced before the court?",
+   "options": [
+    "Mandamus",
+    "Certiorari",
+    "Quo warranto",
+    "Habeas corpus"
+   ]
+  },
+  {
+   "id": "social-c12-364",
+   "type": "mcq",
+   "q": "Which writ commands a public authority to perform its duty?",
+   "options": [
+    "Habeas corpus",
+    "Mandamus",
+    "Prohibition",
+    "Quo warranto"
+   ]
+  },
+  {
+   "id": "social-c12-365",
+   "type": "mcq",
+   "q": "What is the Rajya Sabha's role in respect of a Money Bill?",
+   "options": [
+    "It can reject it",
+    "It can amend it finally",
+    "It can reduce it to nothing",
+    "It can only make recommendations, which the Lok Sabha may accept or reject"
+   ]
+  },
+  {
+   "id": "social-c12-366",
+   "type": "mcq",
+   "q": "Why is a federal system suitable for a large and diverse country?",
+   "options": [
+    "It prevents any self-rule",
+    "It allows regional self-rule alongside national unity",
+    "It abolishes states",
+    "It stops elections"
+   ]
+  },
+  {
+   "id": "social-c12-367",
+   "type": "short",
+   "q": "What does secularism mean in the Indian context?",
+   "proposedAnswer": "The state has no official religion and treats all religions with equal respect. Citizens have freedom to profess, practise and propagate their faith, and the state does not discriminate on the ground of religion.",
+   "keyPoints": [
+    "No official state religion",
+    "Equal respect for all religions",
+    "Freedom of religion"
+   ]
+  },
+  {
+   "id": "social-c12-368",
+   "type": "short",
+   "q": "Why is the Right to Information important for democracy?",
+   "proposedAnswer": "It lets citizens obtain information from public authorities, making government more open and accountable. The Right to Information Act of 2005 gave this a legal framework.",
+   "keyPoints": [
+    "Transparency",
+    "Accountability of officials",
+    "Act of 2005"
+   ]
+  },
+  {
+   "id": "social-c12-369",
+   "type": "mcq",
+   "q": "In which year was NATO formed?",
+   "options": [
+    "1949",
+    "1939",
+    "1955",
+    "1961"
+   ]
+  },
+  {
+   "id": "social-c12-370",
+   "type": "mcq",
+   "q": "The first summit of the Non-Aligned Movement was held in 1961 in",
+   "options": [
+    "Cairo",
+    "Bandung",
+    "Belgrade",
+    "Geneva"
+   ]
+  },
+  {
+   "id": "social-c12-371",
+   "type": "mcq",
+   "q": "Glasnost and perestroika were policies introduced in the Soviet Union by",
+   "options": [
+    "Khrushchev",
+    "Stalin",
+    "Mikhail Gorbachev",
+    "Brezhnev"
+   ]
+  },
+  {
+   "id": "social-c12-372",
+   "type": "mcq",
+   "q": "What is the Security Council's primary responsibility?",
+   "options": [
+    "Maintaining international peace and security",
+    "Conducting censuses",
+    "Printing money for members",
+    "Setting school curricula"
+   ]
+  },
+  {
+   "id": "social-c12-373",
+   "type": "mcq",
+   "q": "Why did many newly independent countries find the Non-Aligned Movement useful?",
+   "options": [
+    "It forced them to join a bloc",
+    "It gave them a collective voice and room for independent policies",
+    "It ended their independence",
+    "It cut all their trade"
+   ]
+  },
+  {
+   "id": "social-c12-374",
+   "type": "mcq",
+   "q": "How did the failure of the League of Nations influence the founding of the UN?",
+   "options": [
+    "The League succeeded, so no change was needed",
+    "The League was never formed",
+    "The UN was formed to stop all trade",
+    "The League could not prevent the Second World War, so a new body with stronger arrangements was designed"
+   ]
+  },
+  {
+   "id": "social-c12-375",
+   "type": "short",
+   "q": "What is the full form of ASEAN and what kind of organisation is it?",
+   "proposedAnswer": "ASEAN stands for the Association of Southeast Asian Nations. It is a regional organisation that promotes economic and political cooperation among its members.",
+   "keyPoints": [
+    "Association of Southeast Asian Nations",
+    "Regional cooperation"
+   ]
+  },
+  {
+   "id": "social-c12-376",
+   "type": "short",
+   "q": "State two reasons that contributed to the end of the Cold War.",
+   "proposedAnswer": "The Soviet economy faced serious problems and could not keep up with the arms race. Reforms by Gorbachev and demands for change in Eastern Europe weakened the Soviet bloc.",
+   "keyPoints": [
+    "Soviet economic problems",
+    "Reforms and weakening of the Soviet bloc",
+    "Strain of the arms race"
+   ]
+  },
+  {
+   "id": "social-c12-377",
+   "type": "mcq",
+   "q": "A city with a population of one million or more is often called",
+   "options": [
+    "a hamlet",
+    "a village",
+    "a census town",
+    "a million-plus city"
+   ]
+  },
+  {
+   "id": "social-c12-378",
+   "type": "mcq",
+   "q": "Which authority conducts the Census of India?",
+   "options": [
+    "Reserve Bank of India",
+    "Election Commission",
+    "Office of the Registrar General and Census Commissioner",
+    "Finance Commission"
+   ]
+  },
+  {
+   "id": "social-c12-379",
+   "type": "mcq",
+   "q": "Why do many agricultural societies traditionally have high birth rates?",
+   "options": [
+    "Children are never wanted",
+    "Children are seen as helpers on the farm",
+    "Farms need no workers",
+    "Birth rates are zero in villages"
+   ]
+  },
+  {
+   "id": "social-c12-380",
+   "type": "mcq",
+   "q": "A sex ratio of 900 means",
+   "options": [
+    "fewer females than males",
+    "more females than males",
+    "equal females and males",
+    "no females"
+   ]
+  },
+  {
+   "id": "social-c12-381",
+   "type": "mcq",
+   "q": "Why are hilly and mountainous regions often thinly populated?",
+   "options": [
+    "They have flat fertile plains",
+    "Steep slopes, thin soil and poor access limit farming and settlement",
+    "They have very hot deserts",
+    "They have no rivers at all"
+   ]
+  },
+  {
+   "id": "social-c12-382",
+   "type": "mcq",
+   "q": "Why do big metropolitan cities have a very high population density?",
+   "options": [
+    "They concentrate jobs and services in a limited space",
+    "They have very large areas per person",
+    "They have no employment",
+    "People are forbidden to enter"
+   ]
+  },
+  {
+   "id": "social-c12-383",
+   "type": "short",
+   "q": "State two effects of rapid population growth on resources.",
+   "proposedAnswer": "Rapid growth increases demand for food, water, housing and energy, which can strain supplies. It can also lead to overuse of land and forests, causing environmental damage.",
+   "keyPoints": [
+    "Greater demand for food, water and housing",
+    "Overuse of land and forests"
+   ]
+  },
+  {
+   "id": "social-c12-384",
+   "type": "short",
+   "q": "How can a high dependency ratio affect a country's economy?",
+   "proposedAnswer": "A high dependency ratio means many children or elderly depend on fewer working-age people. This can reduce savings, and raise spending needed on education, health and care.",
+   "keyPoints": [
+    "Many dependants per worker",
+    "Lower savings",
+    "Higher spending on education, health and care"
+   ]
+  },
+  {
+   "id": "social-c12-385",
+   "type": "mcq",
+   "q": "Bauxite is the main ore of which metal?",
+   "options": [
+    "Iron",
+    "Copper",
+    "Gold",
+    "Aluminium"
+   ]
+  },
+  {
+   "id": "social-c12-386",
+   "type": "mcq",
+   "q": "Which of these is a cash crop?",
+   "options": [
+    "Barley",
+    "Wheat",
+    "Sugarcane",
+    "Gram"
+   ]
+  },
+  {
+   "id": "social-c12-387",
+   "type": "mcq",
+   "q": "Nuclear power plants use which element as fuel?",
+   "options": [
+    "Coal",
+    "Petrol",
+    "Uranium",
+    "Wood"
+   ]
+  },
+  {
+   "id": "social-c12-388",
+   "type": "mcq",
+   "q": "The Bhakra Nangal project is built on which river?",
+   "options": [
+    "Ganga",
+    "Sutlej",
+    "Narmada",
+    "Krishna"
+   ]
+  },
+  {
+   "id": "social-c12-389",
+   "type": "mcq",
+   "q": "How does terrace farming help in hilly areas?",
+   "options": [
+    "It reduces soil erosion and allows cultivation on slopes",
+    "It increases erosion",
+    "It removes all rainfall",
+    "It stops crops growing"
+   ]
+  },
+  {
+   "id": "social-c12-390",
+   "type": "mcq",
+   "q": "Why is crop diversification encouraged?",
+   "options": [
+    "It ensures every crop fails together",
+    "It raises risk",
+    "It reduces income",
+    "It lowers risk from failure of a single crop and can help maintain soil health"
+   ]
+  },
+  {
+   "id": "social-c12-391",
+   "type": "short",
+   "q": "Why is soil erosion a serious problem? State two methods of controlling it.",
+   "proposedAnswer": "Erosion removes fertile topsoil, lowering yields and degrading land. It can be reduced by planting trees and grass cover, terracing and contour ploughing.",
+   "keyPoints": [
+    "Loss of fertile topsoil",
+    "Afforestation or cover crops",
+    "Terracing or contour ploughing"
+   ]
+  },
+  {
+   "id": "social-c12-392",
+   "type": "short",
+   "q": "Explain briefly Weber's least cost theory of industrial location.",
+   "proposedAnswer": "Alfred Weber argued that an industry locates where its total costs are lowest. He gave most weight to transport cost, and also considered labour cost and the advantage of clustering.",
+   "keyPoints": [
+    "Industry locates at least-cost site",
+    "Transport cost is most important",
+    "Labour cost and agglomeration"
+   ]
+  },
+  {
+   "id": "social-c12-393",
+   "type": "mcq",
+   "q": "Trade between two countries is called",
+   "options": [
+    "bilateral trade",
+    "multilateral trade",
+    "domestic trade",
+    "local trade"
+   ]
+  },
+  {
+   "id": "social-c12-394",
+   "type": "mcq",
+   "q": "Exports of goods minus imports of goods is called",
+   "options": [
+    "balance of payments",
+    "GDP",
+    "fiscal deficit",
+    "balance of trade"
+   ]
+  },
+  {
+   "id": "social-c12-395",
+   "type": "mcq",
+   "q": "Which of these is an advantage of railways?",
+   "options": [
+    "Unsuitable for heavy goods",
+    "Suited to carrying heavy goods and many passengers over long distances",
+    "Only works over short distances",
+    "Needs no tracks"
+   ]
+  },
+  {
+   "id": "social-c12-396",
+   "type": "mcq",
+   "q": "Which of these ports is on India's east coast?",
+   "options": [
+    "Kandla",
+    "Mumbai",
+    "Visakhapatnam",
+    "Kochi"
+   ]
+  },
+  {
+   "id": "social-c12-397",
+   "type": "mcq",
+   "q": "Why do countries impose tariffs on imports?",
+   "options": [
+    "To harm all trade",
+    "To protect domestic industries and raise revenue",
+    "To lower all prices to zero",
+    "To end exports"
+   ]
+  },
+  {
+   "id": "social-c12-398",
+   "type": "mcq",
+   "q": "Why is the Suez Canal important to trade between India and Europe?",
+   "options": [
+    "It is a land road",
+    "It connects India with Africa by rail",
+    "It lies in the Pacific",
+    "It shortens the sea route compared with going around Africa"
+   ]
+  },
+  {
+   "id": "social-c12-399",
+   "type": "short",
+   "q": "What is meant by human development?",
+   "proposedAnswer": "Human development means widening people's choices and improving their lives, mainly through better health, education and access to resources. It looks at what people can do and be, not only at income.",
+   "keyPoints": [
+    "Widening people's choices",
+    "Health, education and resources"
+   ]
+  },
+  {
+   "id": "social-c12-400",
+   "type": "short",
+   "q": "Why do countries trade with one another?",
+   "proposedAnswer": "Resources and skills are unevenly spread, so countries import what they lack and export what they produce well. Specialisation based on comparative advantage and demand for variety also encourage trade.",
+   "keyPoints": [
+    "Uneven distribution of resources",
+    "Comparative advantage",
+    "Variety for consumers"
+   ]
+  },
+  {
+   "id": "social-c12-401",
+   "type": "mcq",
+   "q": "Which of these is a function of money?",
+   "options": [
+    "Setting taxes",
+    "Printing textbooks",
+    "Acting as a medium of exchange",
+    "Settling court cases"
+   ]
+  },
+  {
+   "id": "social-c12-402",
+   "type": "mcq",
+   "q": "In which year was the Reserve Bank of India established?",
+   "options": [
+    "1935",
+    "1947",
+    "1950",
+    "1969"
+   ]
+  },
+  {
+   "id": "social-c12-403",
+   "type": "mcq",
+   "q": "Real GDP differs from nominal GDP because real GDP is",
+   "options": [
+    "measured at constant base-year prices",
+    "measured at current prices",
+    "always smaller than nominal GDP",
+    "unrelated to output"
+   ]
+  },
+  {
+   "id": "social-c12-404",
+   "type": "mcq",
+   "q": "The Consumer Price Index measures",
+   "options": [
+    "the change in exports",
+    "the change in bank deposits",
+    "the change in retail prices of a fixed basket of goods and services bought by consumers",
+    "the change in taxes"
+   ]
+  },
+  {
+   "id": "social-c12-405",
+   "type": "mcq",
+   "q": "Why does a central bank conduct open market operations?",
+   "options": [
+    "To print school books",
+    "To fix wages",
+    "To collect income tax",
+    "To adjust the money supply by buying or selling government securities"
+   ]
+  },
+  {
+   "id": "social-c12-406",
+   "type": "mcq",
+   "q": "Why can a rise in investment raise national income by more than the initial amount?",
+   "options": [
+    "Because of taxes",
+    "Because of the multiplier effect, as spending is re-spent and creates more income",
+    "Because savings vanish",
+    "Because prices fall to zero"
+   ]
+  },
+  {
+   "id": "social-c12-407",
+   "type": "short",
+   "q": "State two reasons why people hold money.",
+   "proposedAnswer": "People hold money for transactions, to buy goods and services in daily life. They also keep it as a precaution for emergencies, and some hold it for speculative reasons.",
+   "keyPoints": [
+    "Transactions motive",
+    "Precautionary motive",
+    "Speculative motive"
+   ]
+  },
+  {
+   "id": "social-c12-408",
+   "type": "short",
+   "q": "Distinguish between GDP and GNP.",
+   "proposedAnswer": "GDP counts the value of final goods and services produced within a country's domestic territory. GNP adds net factor income from abroad, so it counts the output of a country's residents wherever they work.",
+   "keyPoints": [
+    "GDP by territory",
+    "GNP adds net factor income from abroad"
+   ]
+  },
+  {
+   "id": "social-c12-409",
+   "type": "mcq",
+   "q": "The government's yearly statement of expected receipts and expenditure is called the",
+   "options": [
+    "census",
+    "GDP",
+    "survey",
+    "budget"
+   ]
+  },
+  {
+   "id": "social-c12-410",
+   "type": "mcq",
+   "q": "Which of these is a non-tax receipt of the government?",
+   "options": [
+    "Income tax",
+    "Interest and dividends",
+    "GST",
+    "Customs duty"
+   ]
+  },
+  {
+   "id": "social-c12-411",
+   "type": "mcq",
+   "q": "In a flexible exchange rate system, the rate is determined by",
+   "options": [
+    "the demand and supply of foreign exchange in the market",
+    "a fixed decision of the government",
+    "the price of gold alone",
+    "the size of the budget"
+   ]
+  },
+  {
+   "id": "social-c12-412",
+   "type": "mcq",
+   "q": "Which was an aim of liberalisation after 1991?",
+   "options": [
+    "Increasing licensing",
+    "Closing foreign trade",
+    "Reducing government control over private enterprise and opening the economy to foreign trade",
+    "Raising import duties to the maximum"
+   ]
+  },
+  {
+   "id": "social-c12-413",
+   "type": "mcq",
+   "q": "Why was the Green Revolution important for India's development?",
+   "options": [
+    "It reduced food output",
+    "It stopped farming",
+    "Higher-yielding varieties raised foodgrain output and reduced dependence on imports",
+    "It ended irrigation"
+   ]
+  },
+  {
+   "id": "social-c12-414",
+   "type": "mcq",
+   "q": "Why is spending on education and health called investment in human capital?",
+   "options": [
+    "It improves the skills and productivity of workers",
+    "It reduces the number of workers",
+    "It destroys skills",
+    "It has no effect on output"
+   ]
+  },
+  {
+   "id": "social-c12-415",
+   "type": "short",
+   "q": "What is the informal sector? State two features.",
+   "proposedAnswer": "The informal sector consists of enterprises and workers not covered by formal regulation or registration. Its features include low and irregular earnings and little job security or social protection.",
+   "keyPoints": [
+    "Unregistered or unregulated work",
+    "Low and irregular earnings",
+    "Little job security"
+   ]
+  },
+  {
+   "id": "social-c12-416",
+   "type": "short",
+   "q": "Describe one benefit and one problem that have been linked with economic reforms since 1991.",
+   "proposedAnswer": "A benefit is higher growth and greater choice for consumers because of competition and openness. A problem is that gains were uneven, and some small producers found it hard to compete.",
+   "keyPoints": [
+    "Benefit: growth or consumer choice",
+    "Problem: uneven gains or pressure on small producers"
+   ]
+  },
+  {
+   "id": "social-c12-417",
+   "type": "mcq",
+   "q": "In which part of the Indian subcontinent did the Harappan civilisation mainly flourish?",
+   "options": [
+    "The far south",
+    "The north-west",
+    "The north-east",
+    "Only the Deccan plateau"
+   ]
+  },
+  {
+   "id": "social-c12-418",
+   "type": "mcq",
+   "q": "Which alloy, made of copper and tin, was used by Harappan craftspeople for tools and objects?",
+   "options": [
+    "Iron",
+    "Steel",
+    "Aluminium",
+    "Bronze"
+   ]
+  },
+  {
+   "id": "social-c12-419",
+   "type": "mcq",
+   "q": "Why did many Harappan settlements grow up near rivers?",
+   "options": [
+    "Rivers provided water, fertile land and routes for transport",
+    "Rivers were useless",
+    "Rivers kept people away from farms",
+    "Rivers prevented trade"
+   ]
+  },
+  {
+   "id": "social-c12-420",
+   "type": "mcq",
+   "q": "Which statement about Harappan seals and script is correct?",
+   "options": [
+    "The script has been fully deciphered",
+    "Seals carry long poems",
+    "Seals carry short inscriptions in a script yet to be deciphered",
+    "Seals have no markings"
+   ]
+  },
+  {
+   "id": "social-c12-421",
+   "type": "mcq",
+   "q": "Why is comparing Harappan finds with other contemporary civilisations such as Mesopotamia useful?",
+   "options": [
+    "It shows that no two civilisations existed",
+    "It proves that they were identical",
+    "It reveals similarities and differences in trade, urban life and writing",
+    "It removes the need for excavation"
+   ]
+  },
+  {
+   "id": "social-c12-422",
+   "type": "mcq",
+   "q": "Differences in the size of houses at Harappan sites suggest",
+   "options": [
+    "some differences in wealth or status among residents",
+    "that everyone lived in identical houses",
+    "that there were no houses",
+    "that all houses were temples"
+   ]
+  },
+  {
+   "id": "social-c12-423",
+   "type": "short",
+   "q": "Describe the economy of the Harappan civilisation.",
+   "proposedAnswer": "The economy rested on agriculture, with crops such as wheat and barley, and on crafts such as bead making and pottery. Trade, including with distant regions, linked it to other societies.",
+   "keyPoints": [
+    "Agriculture",
+    "Crafts",
+    "Trade"
+   ]
+  },
+  {
+   "id": "social-c12-424",
+   "type": "short",
+   "q": "Why was a drainage system important in a densely populated Harappan city?",
+   "proposedAnswer": "A drainage system carried waste water away, keeping streets and homes clean and lowering the risk of disease. Its planning also shows that the city had some organised civic arrangements.",
+   "keyPoints": [
+    "Removed waste water",
+    "Better health and cleanliness",
+    "Shows civic planning"
+   ]
+  },
+  {
+   "id": "social-c12-425",
+   "type": "mcq",
+   "q": "The Lion Capital at Sarnath is the basis of",
+   "options": [
+    "the Indian rupee note's colour",
+    "the Mauryan tax system",
+    "the Gupta coin design only",
+    "India's national emblem"
+   ]
+  },
+  {
+   "id": "social-c12-426",
+   "type": "mcq",
+   "q": "Who founded the Mauryan Empire?",
+   "options": [
+    "Ashoka",
+    "Chandragupta Maurya",
+    "Bindusara",
+    "Harshavardhana"
+   ]
+  },
+  {
+   "id": "social-c12-427",
+   "type": "mcq",
+   "q": "The Arthashastra mainly deals with",
+   "options": [
+    "the lives of saints",
+    "the history of the Harappans",
+    "poetry about love",
+    "statecraft, administration and the economy"
+   ]
+  },
+  {
+   "id": "social-c12-428",
+   "type": "mcq",
+   "q": "Who deciphered the Brahmi script of Ashoka's inscriptions in the 1830s?",
+   "options": [
+    "Alexander Cunningham",
+    "James Prinsep",
+    "John Marshall",
+    "Max Muller"
+   ]
+  },
+  {
+   "id": "social-c12-429",
+   "type": "mcq",
+   "q": "Why was the decipherment of Brahmi important to historians?",
+   "options": [
+    "It had no value",
+    "It proved the Harappan script was Brahmi",
+    "It allowed Ashokan and many other early inscriptions to be read",
+    "It ended the study of coins"
+   ]
+  },
+  {
+   "id": "social-c12-430",
+   "type": "mcq",
+   "q": "What does the spread of Buddhism to Sri Lanka and Southeast Asia show?",
+   "options": [
+    "Ideas travelled with monks and traders, linking India with other regions",
+    "India was isolated",
+    "Buddhism was never taught abroad",
+    "Trade routes were closed"
+   ]
+  },
+  {
+   "id": "social-c12-431",
+   "type": "short",
+   "q": "Name any two Gupta rulers.",
+   "proposedAnswer": "Chandragupta I and Samudragupta were Gupta rulers. Chandragupta II and Skandagupta are others.",
+   "keyPoints": [
+    "Chandragupta I",
+    "Samudragupta",
+    "Chandragupta II or Skandagupta"
+   ]
+  },
+  {
+   "id": "social-c12-432",
+   "type": "short",
+   "q": "What role did guilds play in the economy of ancient India?",
+   "proposedAnswer": "Guilds organised crafts and trade, set standards and rules for members, and some also took deposits and lent money. Many guilds also supported religious institutions through donations.",
+   "keyPoints": [
+    "Organised crafts and trade",
+    "Set standards",
+    "Banking functions or donations"
+   ]
+  },
+  {
+   "id": "social-c12-433",
+   "type": "mcq",
+   "q": "Who wrote the Baburnama?",
+   "options": [
+    "Babur",
+    "Akbar",
+    "Abul Fazl",
+    "Jahangir"
+   ]
+  },
+  {
+   "id": "social-c12-434",
+   "type": "mcq",
+   "q": "Who built the Red Fort at Delhi?",
+   "options": [
+    "Akbar",
+    "Jahangir",
+    "Shah Jahan",
+    "Aurangzeb"
+   ]
+  },
+  {
+   "id": "social-c12-435",
+   "type": "mcq",
+   "q": "Which Vijayanagara ruler is noted for his patronage of art and literature, and for a work in Telugu?",
+   "options": [
+    "Harihara",
+    "Krishnadevaraya",
+    "Bukka",
+    "Alauddin"
+   ]
+  },
+  {
+   "id": "social-c12-436",
+   "type": "mcq",
+   "q": "Chaitanya was a Bhakti saint who was devoted to",
+   "options": [
+    "the Buddha",
+    "Shiva alone",
+    "Mahavira",
+    "Krishna"
+   ]
+  },
+  {
+   "id": "social-c12-437",
+   "type": "mcq",
+   "q": "Why do historians read court chronicles like the Akbarnama with care?",
+   "options": [
+    "They are anonymous folk songs",
+    "They were written by rebels",
+    "They record only rainfall",
+    "They were written under royal patronage and may present the ruler favourably"
+   ]
+  },
+  {
+   "id": "social-c12-438",
+   "type": "mcq",
+   "q": "Why did Akbar's officials measure land and record its fertility?",
+   "options": [
+    "To assess revenue on the basis of productivity",
+    "To abolish farming",
+    "To give land away free",
+    "To list temples"
+   ]
+  },
+  {
+   "id": "social-c12-439",
+   "type": "short",
+   "q": "Mention two teachings of Kabir.",
+   "proposedAnswer": "Kabir taught devotion to one formless God and criticised idol worship and empty ritual. He also rejected caste distinctions and urged simple, honest living.",
+   "keyPoints": [
+    "One God, devotion",
+    "Criticism of empty ritual",
+    "Rejection of caste distinctions"
+   ]
+  },
+  {
+   "id": "social-c12-440",
+   "type": "short",
+   "q": "How did the Mughal state try to win the loyalty of regional elites?",
+   "proposedAnswer": "It gave ranks and offices to nobles of different backgrounds, including Rajput chiefs, and formed marriage alliances with some ruling families. A policy of religious tolerance and recognition of local zamindars also helped.",
+   "keyPoints": [
+    "Ranks and offices to local chiefs",
+    "Marriage alliances",
+    "Tolerance and recognition of zamindars"
+   ]
+  },
+  {
+   "id": "social-c12-441",
+   "type": "mcq",
+   "q": "In which year was the English East India Company chartered?",
+   "options": [
+    "1498",
+    "1600",
+    "1757",
+    "1857"
+   ]
+  },
+  {
+   "id": "social-c12-442",
+   "type": "mcq",
+   "q": "Who was the Governor-General of India at the time of the 1857 revolt?",
+   "options": [
+    "Lord Dalhousie",
+    "Lord Wellesley",
+    "Lord Canning",
+    "Lord Cornwallis"
+   ]
+  },
+  {
+   "id": "social-c12-443",
+   "type": "mcq",
+   "q": "Which of these was a result of the Permanent Settlement?",
+   "options": [
+    "Peasants became owners paying no revenue",
+    "Zamindars became hereditary landlords with a fixed revenue demand",
+    "Revenue was collected by the army",
+    "Land revenue was abolished"
+   ]
+  },
+  {
+   "id": "social-c12-444",
+   "type": "mcq",
+   "q": "Why did the British introduce the telegraph and postal system?",
+   "options": [
+    "To end communication",
+    "To prevent trade",
+    "To strengthen administration and military control and aid trade",
+    "To help the rebels"
+   ]
+  },
+  {
+   "id": "social-c12-445",
+   "type": "mcq",
+   "q": "Why were Deccan peasants in the 1870s heavily indebted?",
+   "options": [
+    "Cotton prices rose without end",
+    "There was no revenue demand",
+    "They had no loans",
+    "Cotton prices fell after the boom of the American Civil War years while revenue demand stayed high"
+   ]
+  },
+  {
+   "id": "social-c12-446",
+   "type": "mcq",
+   "q": "Why did the rebels of 1857 choose Bahadur Shah Zafar as their leader?",
+   "options": [
+    "He was a symbol of authority recognised by many, which gave the revolt legitimacy",
+    "He commanded the largest army",
+    "He was a British officer",
+    "He was the Viceroy"
+   ]
+  },
+  {
+   "id": "social-c12-447",
+   "type": "short",
+   "q": "Name two social reforms of the nineteenth century linked to reformers or the government.",
+   "proposedAnswer": "The practice of sati was banned in 1829 during William Bentinck's time, with the support of reformers such as Raja Ram Mohan Roy. The Widow Remarriage Act of 1856 followed efforts of Ishwar Chandra Vidyasagar.",
+   "keyPoints": [
+    "Ban on sati, 1829",
+    "Widow Remarriage Act, 1856"
+   ]
+  },
+  {
+   "id": "social-c12-448",
+   "type": "short",
+   "q": "Evaluate the effects of the railways on India's economy under British rule.",
+   "proposedAnswer": "Railways joined markets and moved raw materials to ports, helping trade and also famine relief. However, they mainly served British commercial and military needs, and much of the benefit went to Britain.",
+   "keyPoints": [
+    "Joined markets and ports",
+    "Helped movement of goods and relief",
+    "Served mainly British interests"
+   ]
+  },
+  {
+   "id": "social-c12-449",
+   "type": "mcq",
+   "q": "Who is called the Father of the Nation in India?",
+   "options": [
+    "Mahatma Gandhi",
+    "Jawaharlal Nehru",
+    "Subhas Chandra Bose",
+    "Bal Gangadhar Tilak"
+   ]
+  },
+  {
+   "id": "social-c12-450",
+   "type": "mcq",
+   "q": "The Dandi March ended at Dandi in which present-day state?",
+   "options": [
+    "Maharashtra",
+    "Gujarat",
+    "Bihar",
+    "Rajasthan"
+   ]
+  },
+  {
+   "id": "social-c12-451",
+   "type": "mcq",
+   "q": "The Khilafat Movement was launched to",
+   "options": [
+    "start the salt satyagraha",
+    "oppose the Simon Commission",
+    "protest against the treatment of the Ottoman Caliph after the First World War",
+    "demand the Poona Pact"
+   ]
+  },
+  {
+   "id": "social-c12-452",
+   "type": "mcq",
+   "q": "Which agreement of 1916 was made between the Congress and the Muslim League?",
+   "options": [
+    "Poona Pact",
+    "Gandhi-Irwin Pact",
+    "Cripps proposals",
+    "Lucknow Pact"
+   ]
+  },
+  {
+   "id": "social-c12-453",
+   "type": "mcq",
+   "q": "Why did Gandhi prefer the term satyagraha to passive resistance?",
+   "options": [
+    "He thought it was weak",
+    "He disliked all action",
+    "He stressed the force of truth and active non-violent resistance",
+    "He wanted violence"
+   ]
+  },
+  {
+   "id": "social-c12-454",
+   "type": "mcq",
+   "q": "Why did the Congress ministries of 1937 matter in the national movement?",
+   "options": [
+    "They ended all elections",
+    "They gave up the goal of swaraj",
+    "They were formed in Britain",
+    "They showed that Indians could run provincial governments, building confidence in self-rule"
+   ]
+  },
+  {
+   "id": "social-c12-455",
+   "type": "short",
+   "q": "Mention two constructive programmes promoted by Gandhi.",
+   "proposedAnswer": "Gandhi promoted khadi and spinning to encourage self-reliance. He also worked for the removal of untouchability and for harmony among communities.",
+   "keyPoints": [
+    "Khadi and spinning",
+    "Removal of untouchability",
+    "Communal harmony"
+   ]
+  },
+  {
+   "id": "social-c12-456",
+   "type": "short",
+   "q": "How did newspapers in Indian languages help spread nationalist ideas?",
+   "proposedAnswer": "They carried news and criticism of British policies to people who did not read English. They helped create public opinion, which is why the government tried to control them, as in the Vernacular Press Act of 1878.",
+   "keyPoints": [
+    "Reached readers in local languages",
+    "Created public opinion",
+    "Government tried to control them"
+   ]
+  },
+  {
+   "id": "social-c12-457",
+   "type": "mcq",
+   "q": "How many groups of Fundamental Rights does the Constitution now guarantee?",
+   "options": [
+    "Five",
+    "Six",
+    "Seven",
+    "Eight"
+   ]
+  },
+  {
+   "id": "social-c12-458",
+   "type": "mcq",
+   "q": "In which year did the Constituent Assembly first meet?",
+   "options": [
+    "1946",
+    "1947",
+    "1949",
+    "1950"
+   ]
+  },
+  {
+   "id": "social-c12-459",
+   "type": "mcq",
+   "q": "Which event of 30 January 1948 deeply shocked the nation?",
+   "options": [
+    "The adoption of the Constitution",
+    "The assassination of Mahatma Gandhi",
+    "The first general election",
+    "The end of the Constituent Assembly"
+   ]
+  },
+  {
+   "id": "social-c12-460",
+   "type": "mcq",
+   "q": "In which part of the Constitution are the Directive Principles of State Policy found?",
+   "options": [
+    "Part I",
+    "Part II",
+    "Part III",
+    "Part IV"
+   ]
+  },
+  {
+   "id": "social-c12-461",
+   "type": "mcq",
+   "q": "Why did many leaders favour a secular state in India after Partition?",
+   "options": [
+    "To ensure equal citizenship for all communities in a country of many faiths",
+    "To favour one religion",
+    "To ban all religions",
+    "To avoid having a Constitution"
+   ]
+  },
+  {
+   "id": "social-c12-462",
+   "type": "mcq",
+   "q": "Article 1 describes India as a Union of States. What did this wording stress?",
+   "options": [
+    "States are fully sovereign",
+    "States may leave the Union freely",
+    "The Union is indestructible and states cannot secede",
+    "The Union has no states"
+   ]
+  },
+  {
+   "id": "social-c12-463",
+   "type": "short",
+   "q": "What does the word sovereign in the Preamble mean?",
+   "proposedAnswer": "Sovereign means that India is fully independent and has supreme authority over its own affairs. It is not subject to the control of any outside power.",
+   "keyPoints": [
+    "Fully independent",
+    "No external control"
+   ]
+  },
+  {
+   "id": "social-c12-464",
+   "type": "short",
+   "q": "Why was it significant that the Constitution was drafted by a Constituent Assembly of Indians and not by the British Parliament?",
+   "proposedAnswer": "It meant that Indians themselves framed the rules of their government, which gave the Constitution legitimacy. The members, chosen mainly by the provincial assemblies, represented many regions and views.",
+   "keyPoints": [
+    "Self-government in framing the law",
+    "Legitimacy",
+    "Representation of many regions"
+   ]
+  },
+  {
+   "id": "social-c12-465",
+   "type": "mcq",
+   "q": "The Parliament of India consists of the President and",
+   "options": [
+    "the Supreme Court and the Cabinet",
+    "the Governors",
+    "Lok Sabha and Rajya Sabha",
+    "the Planning Commission"
+   ]
+  },
+  {
+   "id": "social-c12-466",
+   "type": "mcq",
+   "q": "What is the minimum voting age for Lok Sabha elections?",
+   "options": [
+    "18 years",
+    "21 years",
+    "25 years",
+    "16 years"
+   ]
+  },
+  {
+   "id": "social-c12-467",
+   "type": "mcq",
+   "q": "Which Article makes education a Fundamental Right for children aged 6 to 14?",
+   "options": [
+    "Article 17",
+    "Article 19",
+    "Article 32",
+    "Article 21A"
+   ]
+  },
+  {
+   "id": "social-c12-468",
+   "type": "mcq",
+   "q": "A Bill becomes an Act after",
+   "options": [
+    "only the Speaker signs it",
+    "passing both Houses and receiving the President's assent",
+    "being read once in the Lok Sabha",
+    "approval by a court"
+   ]
+  },
+  {
+   "id": "social-c12-469",
+   "type": "mcq",
+   "q": "Why are Fundamental Rights subject to reasonable restrictions?",
+   "options": [
+    "Rights are meaningless",
+    "Restrictions are never allowed",
+    "Only judges have rights",
+    "To balance individual freedom with public order, security and the rights of others"
+   ]
+  },
+  {
+   "id": "social-c12-470",
+   "type": "mcq",
+   "q": "Why does the stability of a coalition government depend on its partners?",
+   "options": [
+    "One party always has a majority",
+    "No single party has a majority, so the government relies on allied parties for support",
+    "Coalitions need no votes",
+    "Partners cannot leave"
+   ]
+  },
+  {
+   "id": "social-c12-471",
+   "type": "short",
+   "q": "State two functions of the Election Commission of India.",
+   "proposedAnswer": "The Election Commission conducts free and fair elections to Parliament, state legislatures and the offices of President and Vice-President. It also prepares electoral rolls and enforces the Model Code of Conduct.",
+   "keyPoints": [
+    "Conducts free and fair elections",
+    "Prepares electoral rolls",
+    "Enforces the Model Code of Conduct"
+   ]
+  },
+  {
+   "id": "social-c12-472",
+   "type": "short",
+   "q": "How do the legislature, executive and judiciary act as checks on one another?",
+   "proposedAnswer": "The legislature makes laws and holds the executive accountable through questions and votes. The executive carries out laws and can be questioned in courts, while the judiciary can strike down laws or actions that violate the Constitution.",
+   "keyPoints": [
+    "Legislature makes laws and holds the executive accountable",
+    "Executive implements laws",
+    "Judiciary reviews laws and actions"
+   ]
+  },
+  {
+   "id": "social-c12-473",
+   "type": "mcq",
+   "q": "Why was the Cold War called cold?",
+   "options": [
+    "It was fought in cold regions only",
+    "It was fought only in winter",
+    "There was no direct large-scale war between the two superpowers",
+    "It involved no weapons"
+   ]
+  },
+  {
+   "id": "social-c12-474",
+   "type": "mcq",
+   "q": "Which of these is a United Nations agency dealing with health?",
+   "options": [
+    "WHO",
+    "WTO",
+    "NATO",
+    "ASEAN"
+   ]
+  },
+  {
+   "id": "social-c12-475",
+   "type": "mcq",
+   "q": "The Bandung Conference of 1955 brought together",
+   "options": [
+    "newly independent Asian and African countries",
+    "only European powers",
+    "only NATO members",
+    "only the Warsaw Pact states"
+   ]
+  },
+  {
+   "id": "social-c12-476",
+   "type": "mcq",
+   "q": "Which of these is an international financial institution set up after the Second World War?",
+   "options": [
+    "NATO",
+    "ASEAN",
+    "World Bank",
+    "SAARC"
+   ]
+  },
+  {
+   "id": "social-c12-477",
+   "type": "mcq",
+   "q": "Why are General Assembly resolutions generally not binding on states?",
+   "options": [
+    "They are secret",
+    "They are recommendations rather than enforceable orders",
+    "They are signed by judges",
+    "They are written by the Secretariat alone"
+   ]
+  },
+  {
+   "id": "social-c12-478",
+   "type": "mcq",
+   "q": "Why did several European Union members adopt a common currency, the euro?",
+   "options": [
+    "To end trade",
+    "To close borders to goods",
+    "To lower the number of countries",
+    "To ease trade and deepen economic integration"
+   ]
+  },
+  {
+   "id": "social-c12-479",
+   "type": "short",
+   "q": "What was the Berlin Wall and what did its fall in 1989 symbolise?",
+   "proposedAnswer": "The Berlin Wall divided East and West Berlin from 1961. Its fall in 1989 symbolised the end of the division of Europe and the approaching end of the Cold War.",
+   "keyPoints": [
+    "Divided East and West Berlin",
+    "Fall in 1989",
+    "Symbol of the end of Cold War divisions"
+   ]
+  },
+  {
+   "id": "social-c12-480",
+   "type": "short",
+   "q": "How did the formation of the European Union reflect the idea of integration after the Second World War?",
+   "proposedAnswer": "After the destruction of the war, European countries sought to prevent future conflict through economic cooperation, beginning with joint control of coal and steel in the early 1950s. This grew into a common market and later the Union with shared institutions.",
+   "keyPoints": [
+    "Aim to prevent future war",
+    "Started with coal and steel cooperation",
+    "Grew into a common market and Union"
+   ]
+  },
+  {
+   "id": "social-c12-481",
+   "type": "mcq",
+   "q": "The process by which a growing share of people live in towns and cities is called",
+   "options": [
+    "afforestation",
+    "emigration",
+    "irrigation",
+    "urbanisation"
+   ]
+  },
+  {
+   "id": "social-c12-482",
+   "type": "mcq",
+   "q": "People who move with their animals from place to place in search of pasture are called",
+   "options": [
+    "pastoral nomads",
+    "factory workers",
+    "plantation owners",
+    "city planners"
+   ]
+  },
+  {
+   "id": "social-c12-483",
+   "type": "mcq",
+   "q": "The dependency ratio is the ratio of",
+   "options": [
+    "males to females",
+    "the young and old to the working-age population",
+    "births to deaths",
+    "the rural to the urban population"
+   ]
+  },
+  {
+   "id": "social-c12-484",
+   "type": "mcq",
+   "q": "Which of these regions in India is generally densely populated?",
+   "options": [
+    "The Thar desert",
+    "The high Himalayas",
+    "The Ganga plain",
+    "The Rann of Kachchh"
+   ]
+  },
+  {
+   "id": "social-c12-485",
+   "type": "mcq",
+   "q": "Why do many large cities develop along rivers or coasts?",
+   "options": [
+    "Water, trade routes and a fertile hinterland support large populations",
+    "Rivers are always dry",
+    "Coasts have no trade",
+    "Cities avoid water"
+   ]
+  },
+  {
+   "id": "social-c12-486",
+   "type": "mcq",
+   "q": "Why is the education of girls often linked with lower birth rates?",
+   "options": [
+    "Education has no effect on families",
+    "Education increases birth rates always",
+    "Education, especially of women, is often linked with later marriage and smaller families",
+    "Educated people never have children"
+   ]
+  },
+  {
+   "id": "social-c12-487",
+   "type": "short",
+   "q": "Describe two characteristics of rural settlements.",
+   "proposedAnswer": "Most people in rural settlements depend on agriculture and related primary activities. Settlements are usually small, with fewer services, and are closely tied to land and local resources.",
+   "keyPoints": [
+    "Dependence on agriculture or primary activities",
+    "Smaller size and fewer services"
+   ]
+  },
+  {
+   "id": "social-c12-488",
+   "type": "short",
+   "q": "Why do young people from some rural regions move to cities?",
+   "proposedAnswer": "Rural areas may offer few jobs outside farming and limited schools and health services. Cities offer wider employment and better facilities, so these push and pull factors lead to migration.",
+   "keyPoints": [
+    "Few jobs in rural areas",
+    "Better jobs and services in cities",
+    "Push and pull factors"
+   ]
+  },
+  {
+   "id": "social-c12-489",
+   "type": "mcq",
+   "q": "Which of these is a metallic mineral?",
+   "options": [
+    "Coal",
+    "Limestone",
+    "Mica",
+    "Iron ore"
+   ]
+  },
+  {
+   "id": "social-c12-490",
+   "type": "mcq",
+   "q": "Which source of energy comes from the heat of the Earth's interior?",
+   "options": [
+    "Geothermal energy",
+    "Tidal energy",
+    "Wind energy",
+    "Solar energy"
+   ]
+  },
+  {
+   "id": "social-c12-491",
+   "type": "mcq",
+   "q": "Which kind of farming uses large landholdings, machinery and chemicals mainly to grow crops for sale?",
+   "options": [
+    "Commercial farming",
+    "Subsistence farming",
+    "Shifting cultivation",
+    "Kitchen gardening"
+   ]
+  },
+  {
+   "id": "social-c12-492",
+   "type": "mcq",
+   "q": "What is humus?",
+   "options": [
+    "A kind of rock",
+    "The organic part of soil formed from decayed plants and animals",
+    "A type of fertiliser made of salt",
+    "Sand"
+   ]
+  },
+  {
+   "id": "social-c12-493",
+   "type": "mcq",
+   "q": "Why is the jute industry concentrated in the lower Ganga basin?",
+   "options": [
+    "Jute does not grow there",
+    "There are no rivers there",
+    "Jute is grown in the region, and river transport and the Kolkata port help",
+    "It is far from ports"
+   ]
+  },
+  {
+   "id": "social-c12-494",
+   "type": "mcq",
+   "q": "A farmer in a dry region wants to save water while irrigating. Which method suits best?",
+   "options": [
+    "Flooding the field daily",
+    "Leaving taps open",
+    "Growing water-hungry crops",
+    "Drip irrigation"
+   ]
+  },
+  {
+   "id": "social-c12-495",
+   "type": "short",
+   "q": "Differentiate between renewable and non-renewable resources, with an example of each.",
+   "proposedAnswer": "Renewable resources, such as solar energy or wind, are replenished naturally and are not exhausted by use. Non-renewable resources, such as coal or petroleum, take millions of years to form and can be used up.",
+   "keyPoints": [
+    "Renewable: replenished, e.g. solar",
+    "Non-renewable: limited, e.g. coal"
+   ]
+  },
+  {
+   "id": "social-c12-496",
+   "type": "short",
+   "q": "How does agriculture contribute to industrial development?",
+   "proposedAnswer": "Agriculture supplies raw materials such as cotton, jute and sugarcane to industries. It also provides a market for industrial goods such as fertilisers and machinery and gives employment to many people.",
+   "keyPoints": [
+    "Supplies raw materials",
+    "Market for industrial goods",
+    "Employment"
+   ]
+  },
+  {
+   "id": "social-c12-497",
+   "type": "mcq",
+   "q": "Which mode of transport is the fastest?",
+   "options": [
+    "Road",
+    "Rail",
+    "Air",
+    "Water"
+   ]
+  },
+  {
+   "id": "social-c12-498",
+   "type": "mcq",
+   "q": "Which of these is an Indian satellite system used for communication?",
+   "options": [
+    "Apollo",
+    "Sputnik",
+    "Hubble",
+    "INSAT"
+   ]
+  },
+  {
+   "id": "social-c12-499",
+   "type": "mcq",
+   "q": "Which roads link state capitals, major ports and industrial centres and are maintained by the Central Government?",
+   "options": [
+    "Village roads",
+    "National Highways",
+    "District roads",
+    "Footpaths"
+   ]
+  },
+  {
+   "id": "social-c12-500",
+   "type": "mcq",
+   "q": "Which of these is an invisible item of trade?",
+   "options": [
+    "Tourism services",
+    "Wheat",
+    "Steel",
+    "Cotton"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,5423 @@
+{
+ "class": 10,
+ "subject": "english",
+ "items": [
+  {
+   "id": "english-c10-001",
+   "type": "mcq",
+   "q": "Choose the correct verb: She ___ to school every day.",
+   "options": [
+    "go",
+    "goes",
+    "going",
+    "gone"
+   ]
+  },
+  {
+   "id": "english-c10-002",
+   "type": "mcq",
+   "q": "Choose the correct verb: They ___ cricket when it started to rain.",
+   "options": [
+    "play",
+    "are playing",
+    "have played",
+    "were playing"
+   ]
+  },
+  {
+   "id": "english-c10-003",
+   "type": "mcq",
+   "q": "Choose the correct verb: I ___ this book twice already.",
+   "options": [
+    "have read",
+    "am reading",
+    "was read",
+    "shall read"
+   ]
+  },
+  {
+   "id": "english-c10-004",
+   "type": "mcq",
+   "q": "Choose the correct verb: By the time we reached the station, the train ___.",
+   "options": [
+    "leaves",
+    "is leaving",
+    "had left",
+    "has left"
+   ]
+  },
+  {
+   "id": "english-c10-005",
+   "type": "mcq",
+   "q": "Choose the correct verb: She ___ in Jaipur since 2015.",
+   "options": [
+    "has lived",
+    "lived",
+    "is living",
+    "lives"
+   ]
+  },
+  {
+   "id": "english-c10-006",
+   "type": "mcq",
+   "q": "Which sentence is correct?",
+   "options": [
+    "I am knowing the answer.",
+    "He is having three brothers.",
+    "She understands the rule now.",
+    "They are belonging to Pune."
+   ]
+  },
+  {
+   "id": "english-c10-007",
+   "type": "short",
+   "q": "Rewrite in the simple past tense: 'My uncle visits us every summer.'",
+   "proposedAnswer": "My uncle visited us every summer.",
+   "keyPoints": [
+    "visits changes to visited",
+    "rest of the sentence unchanged"
+   ]
+  },
+  {
+   "id": "english-c10-008",
+   "type": "short",
+   "q": "Fill in the blank with the correct form of the verb in brackets: 'By next June, I ___ (complete) my course.'",
+   "proposedAnswer": "will have completed",
+   "keyPoints": [
+    "future perfect tense",
+    "will have + past participle",
+    "action finished before a future time"
+   ]
+  },
+  {
+   "id": "english-c10-009",
+   "type": "mcq",
+   "q": "Choose the correct verb: The children ___ playing in the garden.",
+   "options": [
+    "is",
+    "was",
+    "has",
+    "are"
+   ]
+  },
+  {
+   "id": "english-c10-010",
+   "type": "mcq",
+   "q": "Choose the correct verb: Each of the girls ___ a prize.",
+   "options": [
+    "have",
+    "has",
+    "are",
+    "were"
+   ]
+  },
+  {
+   "id": "english-c10-011",
+   "type": "mcq",
+   "q": "Choose the correct verb: A number of students ___ absent today.",
+   "options": [
+    "is",
+    "was",
+    "are",
+    "has"
+   ]
+  },
+  {
+   "id": "english-c10-012",
+   "type": "mcq",
+   "q": "Choose the correct verb: The number of students in our school ___ increased.",
+   "options": [
+    "has",
+    "have",
+    "are",
+    "were"
+   ]
+  },
+  {
+   "id": "english-c10-013",
+   "type": "mcq",
+   "q": "Choose the correct verb: Mathematics ___ my favourite subject.",
+   "options": [
+    "are",
+    "is",
+    "were",
+    "have"
+   ]
+  },
+  {
+   "id": "english-c10-014",
+   "type": "mcq",
+   "q": "Choose the correct verb: One of the books on the shelf ___ torn.",
+   "options": [
+    "are",
+    "were",
+    "have",
+    "is"
+   ]
+  },
+  {
+   "id": "english-c10-015",
+   "type": "short",
+   "q": "Correct the error: 'The furniture in these rooms are old.'",
+   "proposedAnswer": "The furniture in these rooms is old.",
+   "keyPoints": [
+    "furniture is an uncountable noun",
+    "it takes a singular verb: is"
+   ]
+  },
+  {
+   "id": "english-c10-016",
+   "type": "short",
+   "q": "Why do we say 'The police have arrived' and not 'The police has arrived'?",
+   "proposedAnswer": "'Police' is a collective noun that is always treated as plural in English, so it takes a plural verb.",
+   "keyPoints": [
+    "police is a collective noun",
+    "it is treated as plural",
+    "plural verb 'have'"
+   ]
+  },
+  {
+   "id": "english-c10-017",
+   "type": "mcq",
+   "q": "Choose the correct article: She is ___ honest girl.",
+   "options": [
+    "a",
+    "the",
+    "one",
+    "an"
+   ]
+  },
+  {
+   "id": "english-c10-018",
+   "type": "mcq",
+   "q": "Choose the correct article: My brother is studying at ___ university in Delhi.",
+   "options": [
+    "an",
+    "a",
+    "the",
+    "some"
+   ]
+  },
+  {
+   "id": "english-c10-019",
+   "type": "mcq",
+   "q": "Choose the correct article: ___ Ganga is a sacred river in India.",
+   "options": [
+    "A",
+    "An",
+    "The",
+    "This"
+   ]
+  },
+  {
+   "id": "english-c10-020",
+   "type": "mcq",
+   "q": "Choose the correct word: We have ___ time; the film starts in two minutes.",
+   "options": [
+    "little",
+    "few",
+    "many",
+    "a number of"
+   ]
+  },
+  {
+   "id": "english-c10-021",
+   "type": "mcq",
+   "q": "Choose the correct word: Neena has two cousins. ___ of them live in Pune.",
+   "options": [
+    "Each",
+    "Both",
+    "Every",
+    "Either"
+   ]
+  },
+  {
+   "id": "english-c10-022",
+   "type": "mcq",
+   "q": "Which sentence is correct?",
+   "options": [
+    "He plays the cricket every evening.",
+    "She is an European tourist.",
+    "I had a breakfast at eight.",
+    "The sun rises in the east."
+   ]
+  },
+  {
+   "id": "english-c10-023",
+   "type": "short",
+   "q": "Fill in with a, an or the: 'I saw ___ owl on the roof. ___ owl was very big.'",
+   "proposedAnswer": "an; The",
+   "keyPoints": [
+    "'an' before the vowel sound in owl",
+    "'the' for a thing already mentioned"
+   ]
+  },
+  {
+   "id": "english-c10-024",
+   "type": "short",
+   "q": "Explain why we say 'an hour' but 'a university'.",
+   "proposedAnswer": "The choice of a or an depends on the sound, not the spelling. 'Hour' begins with a vowel sound because the h is silent, while 'university' begins with a consonant 'yoo' sound.",
+   "keyPoints": [
+    "depends on sound, not letter",
+    "hour starts with a vowel sound",
+    "university starts with a consonant sound"
+   ]
+  },
+  {
+   "id": "english-c10-025",
+   "type": "mcq",
+   "q": "Choose the correct word: The cat jumped ___ the wall.",
+   "options": [
+    "over",
+    "at",
+    "with",
+    "for"
+   ]
+  },
+  {
+   "id": "english-c10-026",
+   "type": "mcq",
+   "q": "Choose the correct word: I have been waiting for you ___ morning.",
+   "options": [
+    "during",
+    "at",
+    "since",
+    "by"
+   ]
+  },
+  {
+   "id": "english-c10-027",
+   "type": "mcq",
+   "q": "Choose the correct word: She is afraid ___ spiders.",
+   "options": [
+    "of",
+    "from",
+    "with",
+    "to"
+   ]
+  },
+  {
+   "id": "english-c10-028",
+   "type": "mcq",
+   "q": "Choose the correct word: The meeting was postponed ___ heavy rain.",
+   "options": [
+    "because",
+    "although",
+    "because of",
+    "unless"
+   ]
+  },
+  {
+   "id": "english-c10-029",
+   "type": "mcq",
+   "q": "Choose the correct word: He was tired, ___ he kept working.",
+   "options": [
+    "so",
+    "because",
+    "unless",
+    "yet"
+   ]
+  },
+  {
+   "id": "english-c10-030",
+   "type": "mcq",
+   "q": "Choose the correct word: Hurry up, ___ you will miss the bus.",
+   "options": [
+    "and",
+    "or",
+    "so",
+    "though"
+   ]
+  },
+  {
+   "id": "english-c10-031",
+   "type": "short",
+   "q": "Join the sentences using 'although': 'It was raining. We went for a walk.'",
+   "proposedAnswer": "Although it was raining, we went for a walk.",
+   "keyPoints": [
+    "although introduces the contrasting clause",
+    "comma after the first clause"
+   ]
+  },
+  {
+   "id": "english-c10-032",
+   "type": "short",
+   "q": "Explain the difference between 'beside' and 'besides' with one sentence for each.",
+   "proposedAnswer": "'Beside' means next to: She sat beside me. 'Besides' means in addition to: Besides English, she speaks French.",
+   "keyPoints": [
+    "beside = next to",
+    "besides = in addition to",
+    "an example sentence for each"
+   ]
+  },
+  {
+   "id": "english-c10-033",
+   "type": "mcq",
+   "q": "Choose the correct word: You ___ obey your teachers.",
+   "options": [
+    "can",
+    "may",
+    "must",
+    "might"
+   ]
+  },
+  {
+   "id": "english-c10-034",
+   "type": "mcq",
+   "q": "Choose the correct word: ___ I borrow your pen, please?",
+   "options": [
+    "May",
+    "Must",
+    "Shall",
+    "Would"
+   ]
+  },
+  {
+   "id": "english-c10-035",
+   "type": "mcq",
+   "q": "Choose the correct word: She ___ swim when she was five.",
+   "options": [
+    "can",
+    "could",
+    "may",
+    "must"
+   ]
+  },
+  {
+   "id": "english-c10-036",
+   "type": "mcq",
+   "q": "Choose the correct word: You ___ not touch the wires; they are live.",
+   "options": [
+    "might",
+    "would",
+    "could",
+    "must"
+   ]
+  },
+  {
+   "id": "english-c10-037",
+   "type": "mcq",
+   "q": "Choose the correct word: I ___ to finish my homework before dinner.",
+   "options": [
+    "must",
+    "can",
+    "should",
+    "have"
+   ]
+  },
+  {
+   "id": "english-c10-038",
+   "type": "mcq",
+   "q": "Which sentence is a polite request?",
+   "options": [
+    "Give me the salt.",
+    "Could you please pass the salt?",
+    "You will pass the salt.",
+    "Pass the salt now."
+   ]
+  },
+  {
+   "id": "english-c10-039",
+   "type": "short",
+   "q": "Rewrite using 'ought to': 'You should respect your elders.'",
+   "proposedAnswer": "You ought to respect your elders.",
+   "keyPoints": [
+    "ought to replaces should",
+    "base form of the verb follows"
+   ]
+  },
+  {
+   "id": "english-c10-040",
+   "type": "short",
+   "q": "Explain the difference in meaning between 'He may come' and 'He must come'.",
+   "proposedAnswer": "'He may come' says it is possible that he will come. 'He must come' says it is necessary or compulsory for him to come.",
+   "keyPoints": [
+    "may expresses possibility",
+    "must expresses obligation or necessity"
+   ]
+  },
+  {
+   "id": "english-c10-041",
+   "type": "mcq",
+   "q": "Choose the passive voice of: 'The boy kicked the ball.'",
+   "options": [
+    "The ball kicks the boy.",
+    "The ball is kicked by the boy.",
+    "The ball was kicked by the boy.",
+    "The ball has been kicked by the boy."
+   ]
+  },
+  {
+   "id": "english-c10-042",
+   "type": "mcq",
+   "q": "Choose the passive voice of: 'They are building a bridge.'",
+   "options": [
+    "A bridge is being built by them.",
+    "A bridge was built by them.",
+    "A bridge is built by them.",
+    "A bridge has been built by them."
+   ]
+  },
+  {
+   "id": "english-c10-043",
+   "type": "mcq",
+   "q": "Choose the active voice of: 'The letter was written by Meera.'",
+   "options": [
+    "Meera writes the letter.",
+    "Meera wrote the letter.",
+    "Meera has written the letter.",
+    "Meera had written the letter."
+   ]
+  },
+  {
+   "id": "english-c10-044",
+   "type": "mcq",
+   "q": "Choose the correct verb: The thief ___ by the police yesterday.",
+   "options": [
+    "catches",
+    "is caught",
+    "has been caught",
+    "was caught"
+   ]
+  },
+  {
+   "id": "english-c10-045",
+   "type": "mcq",
+   "q": "Choose the correct verb: English ___ in many countries.",
+   "options": [
+    "is spoken",
+    "speaks",
+    "has spoken",
+    "was speak"
+   ]
+  },
+  {
+   "id": "english-c10-046",
+   "type": "mcq",
+   "q": "Which sentence cannot be changed into the passive voice?",
+   "options": [
+    "She wrote a poem.",
+    "They opened the door.",
+    "The baby sleeps soundly.",
+    "He broke the window."
+   ]
+  },
+  {
+   "id": "english-c10-047",
+   "type": "short",
+   "q": "Change into the passive voice: 'The teacher will announce the results tomorrow.'",
+   "proposedAnswer": "The results will be announced by the teacher tomorrow.",
+   "keyPoints": [
+    "object becomes subject",
+    "will be + past participle"
+   ]
+  },
+  {
+   "id": "english-c10-048",
+   "type": "short",
+   "q": "Change into the passive voice: 'Who wrote this letter?'",
+   "proposedAnswer": "By whom was this letter written?",
+   "keyPoints": [
+    "'by whom' begins the question",
+    "was written (simple past passive)"
+   ]
+  },
+  {
+   "id": "english-c10-049",
+   "type": "mcq",
+   "q": "Choose the correct indirect speech: He said, 'I am tired.'",
+   "options": [
+    "He said that he was tired.",
+    "He said that I am tired.",
+    "He said that he has been tired.",
+    "He said that I was tired."
+   ]
+  },
+  {
+   "id": "english-c10-050",
+   "type": "mcq",
+   "q": "Choose the correct indirect speech: She said, 'I will call you tomorrow.'",
+   "options": [
+    "She said that she will call me the next day.",
+    "She said that she called me the next day.",
+    "She said that she would call me the next day.",
+    "She said that she would call you the next day."
+   ]
+  },
+  {
+   "id": "english-c10-051",
+   "type": "mcq",
+   "q": "Choose the correct indirect speech: He asked, 'Where do you live?'",
+   "options": [
+    "He asked me where did I live.",
+    "He asked me where do you live.",
+    "He asked me that where I lived.",
+    "He asked me where I lived."
+   ]
+  },
+  {
+   "id": "english-c10-052",
+   "type": "mcq",
+   "q": "Choose the correct indirect speech: She asked, 'Do you like tea?'",
+   "options": [
+    "She asked me that I liked tea.",
+    "She asked me if I liked tea.",
+    "She asked me do I like tea.",
+    "She asked me what I liked tea."
+   ]
+  },
+  {
+   "id": "english-c10-053",
+   "type": "mcq",
+   "q": "Choose the correct indirect speech: Mother said to me, 'Don't touch the stove.'",
+   "options": [
+    "Mother told me that don't touch the stove.",
+    "Mother said me not to touch the stove.",
+    "Mother told me not to touch the stove.",
+    "Mother told me do not touch the stove."
+   ]
+  },
+  {
+   "id": "english-c10-054",
+   "type": "mcq",
+   "q": "Choose the correct indirect speech: Rita said, 'Alas! I have lost my watch.'",
+   "options": [
+    "Rita exclaimed with sorrow that she had lost her watch.",
+    "Rita exclaimed with sorrow that she has lost her watch.",
+    "Rita exclaimed with sorrow that I had lost my watch.",
+    "Rita exclaimed with sorrow that she would lose her watch."
+   ]
+  },
+  {
+   "id": "english-c10-055",
+   "type": "short",
+   "q": "Change into direct speech: Arun said that he was going to Mumbai the next day.",
+   "proposedAnswer": "Arun said, 'I am going to Mumbai tomorrow.'",
+   "keyPoints": [
+    "'he' becomes 'I'",
+    "was going becomes am going",
+    "'the next day' becomes 'tomorrow'",
+    "inverted commas"
+   ]
+  },
+  {
+   "id": "english-c10-056",
+   "type": "short",
+   "q": "Change into indirect speech: The teacher said to the class, 'Why are you making so much noise?'",
+   "proposedAnswer": "The teacher asked the class why they were making so much noise.",
+   "keyPoints": [
+    "said to becomes asked",
+    "statement word order, no question mark",
+    "you becomes they, are making becomes were making"
+   ]
+  },
+  {
+   "id": "english-c10-057",
+   "type": "mcq",
+   "q": "In 'I know that he is honest', the clause 'that he is honest' is a ___ clause.",
+   "options": [
+    "adjective",
+    "noun",
+    "adverb",
+    "main"
+   ]
+  },
+  {
+   "id": "english-c10-058",
+   "type": "mcq",
+   "q": "Which complex sentence can be made from 'He worked hard. He failed.'?",
+   "options": [
+    "He worked hard and he failed.",
+    "Because he worked hard, he failed.",
+    "He failed, so he worked hard.",
+    "Although he worked hard, he failed."
+   ]
+  },
+  {
+   "id": "english-c10-059",
+   "type": "mcq",
+   "q": "Rewrite with 'so ... that': 'She is too weak to walk.'",
+   "options": [
+    "She is so weak that she can walk.",
+    "She is so weak that she could walk.",
+    "She is weak enough to walk.",
+    "She is so weak that she cannot walk."
+   ]
+  },
+  {
+   "id": "english-c10-060",
+   "type": "mcq",
+   "q": "Which sentence has the same meaning as 'Mount Everest is higher than any other mountain in the world'?",
+   "options": [
+    "Mount Everest is as high as any other mountain.",
+    "No other mountain in the world is as high as Mount Everest.",
+    "Some mountains are as high as Mount Everest.",
+    "Mount Everest is the lowest mountain in the world."
+   ]
+  },
+  {
+   "id": "english-c10-061",
+   "type": "mcq",
+   "q": "Which of these is a compound sentence?",
+   "options": [
+    "Because it rained, we stayed home.",
+    "The boy who sits there is my cousin.",
+    "I wanted to go, but it was late.",
+    "Although she was ill, she came."
+   ]
+  },
+  {
+   "id": "english-c10-062",
+   "type": "mcq",
+   "q": "Which sentence contains an adverb clause of time?",
+   "options": [
+    "When the bell rang, the students left.",
+    "The students left and the bell rang.",
+    "The students who were late left.",
+    "The students left quickly."
+   ]
+  },
+  {
+   "id": "english-c10-063",
+   "type": "short",
+   "q": "Rewrite using 'as soon as': 'No sooner had she reached home than it started to rain.'",
+   "proposedAnswer": "As soon as she reached home, it started to rain.",
+   "keyPoints": [
+    "as soon as replaces no sooner ... than",
+    "past simple tense in both parts"
+   ]
+  },
+  {
+   "id": "english-c10-064",
+   "type": "short",
+   "q": "Combine into one sentence using a relative pronoun: 'I met a girl. She had won a medal.'",
+   "proposedAnswer": "I met a girl who had won a medal.",
+   "keyPoints": [
+    "relative pronoun 'who' for a person",
+    "second sentence becomes an adjective clause"
+   ]
+  },
+  {
+   "id": "english-c10-065",
+   "type": "mcq",
+   "q": "Which sentence is punctuated correctly?",
+   "options": [
+    "what a lovely day",
+    "What a lovely day!",
+    "What a lovely day?",
+    "What, a lovely day."
+   ]
+  },
+  {
+   "id": "english-c10-066",
+   "type": "mcq",
+   "q": "Which sentence uses the apostrophe correctly?",
+   "options": [
+    "The dog wagged it's tail.",
+    "The childrens' toys are here.",
+    "Three boy's came.",
+    "The girl's bag is red."
+   ]
+  },
+  {
+   "id": "english-c10-067",
+   "type": "mcq",
+   "q": "Which sentence uses commas correctly?",
+   "options": [
+    "Riya bought apples, oranges and bananas.",
+    "Riya bought, apples, oranges and bananas.",
+    "Riya bought apples oranges, and, bananas.",
+    "Riya bought apples, oranges and, bananas."
+   ]
+  },
+  {
+   "id": "english-c10-068",
+   "type": "mcq",
+   "q": "Which sentence is punctuated correctly?",
+   "options": [
+    "He asked 'Where are you going'?",
+    "He asked, Where are you going?",
+    "He asked, 'Where are you going?'",
+    "He asked 'where are you going'."
+   ]
+  },
+  {
+   "id": "english-c10-069",
+   "type": "mcq",
+   "q": "Which sentence uses the semicolon correctly?",
+   "options": [
+    "I wanted to play; however, it was raining.",
+    "I wanted to play, however it was raining.",
+    "I wanted to play; however it was raining;",
+    "I wanted; to play, however, it was raining."
+   ]
+  },
+  {
+   "id": "english-c10-070",
+   "type": "mcq",
+   "q": "Which sentence correctly shows that the speaker is inviting Grandma to eat?",
+   "options": [
+    "Lets eat grandma.",
+    "Let's eat grandma.",
+    "Let's eat, Grandma.",
+    "Let's, eat Grandma."
+   ]
+  },
+  {
+   "id": "english-c10-071",
+   "type": "short",
+   "q": "Punctuate correctly: the teacher said open your books to page ten",
+   "proposedAnswer": "The teacher said, 'Open your books to page ten.'",
+   "keyPoints": [
+    "capital letters at the start of the sentence and the quotation",
+    "comma before the quotation",
+    "inverted commas and a full stop"
+   ]
+  },
+  {
+   "id": "english-c10-072",
+   "type": "short",
+   "q": "Explain the difference in meaning between 'The students, who were tired, left early' and 'The students who were tired left early'.",
+   "proposedAnswer": "With commas, all the students were tired and all left early. Without commas, only the students who were tired left early.",
+   "keyPoints": [
+    "commas add extra information about all the students",
+    "without commas the clause identifies which students"
+   ]
+  },
+  {
+   "id": "english-c10-073",
+   "type": "mcq",
+   "q": "Choose the synonym of 'rapid'.",
+   "options": [
+    "slow",
+    "weak",
+    "tiny",
+    "quick"
+   ]
+  },
+  {
+   "id": "english-c10-074",
+   "type": "mcq",
+   "q": "Choose the antonym of 'generous'.",
+   "options": [
+    "kind",
+    "miserly",
+    "wealthy",
+    "polite"
+   ]
+  },
+  {
+   "id": "english-c10-075",
+   "type": "mcq",
+   "q": "Which word means 'to make a problem or pain less severe'?",
+   "options": [
+    "aggravate",
+    "intensify",
+    "alleviate",
+    "provoke"
+   ]
+  },
+  {
+   "id": "english-c10-076",
+   "type": "mcq",
+   "q": "Which prefix makes the opposite of 'legal'?",
+   "options": [
+    "il-",
+    "un-",
+    "dis-",
+    "non-"
+   ]
+  },
+  {
+   "id": "english-c10-077",
+   "type": "mcq",
+   "q": "Choose the noun form of 'decide'.",
+   "options": [
+    "decided",
+    "decision",
+    "decisive",
+    "deciding"
+   ]
+  },
+  {
+   "id": "english-c10-078",
+   "type": "mcq",
+   "q": "The word 'meticulous' describes someone who is",
+   "options": [
+    "careless about details",
+    "fond of travelling",
+    "easily angered",
+    "very careful about details"
+   ]
+  },
+  {
+   "id": "english-c10-079",
+   "type": "short",
+   "q": "Form nouns from the words 'brave', 'wise' and 'free'.",
+   "proposedAnswer": "bravery, wisdom, freedom",
+   "keyPoints": [
+    "brave gives bravery",
+    "wise gives wisdom",
+    "free gives freedom"
+   ]
+  },
+  {
+   "id": "english-c10-080",
+   "type": "short",
+   "q": "Explain the difference between 'affect' and 'effect', with a sentence for each.",
+   "proposedAnswer": "'Affect' is usually a verb meaning to influence: Rain affects our plans. 'Effect' is usually a noun meaning a result: The effect of the rain was a delay.",
+   "keyPoints": [
+    "affect is usually a verb meaning to influence",
+    "effect is usually a noun meaning result",
+    "a sentence for each"
+   ]
+  },
+  {
+   "id": "english-c10-081",
+   "type": "mcq",
+   "q": "What does the idiom 'a piece of cake' mean?",
+   "options": [
+    "a slice of dessert",
+    "a dangerous task",
+    "a small gift",
+    "something very easy"
+   ]
+  },
+  {
+   "id": "english-c10-082",
+   "type": "mcq",
+   "q": "What does the idiom 'to break the ice' mean?",
+   "options": [
+    "to damage something",
+    "to begin a conversation in an awkward situation",
+    "to feel very cold",
+    "to stop an argument"
+   ]
+  },
+  {
+   "id": "english-c10-083",
+   "type": "mcq",
+   "q": "What does 'once in a blue moon' mean?",
+   "options": [
+    "every month",
+    "never",
+    "very rarely",
+    "only at night"
+   ]
+  },
+  {
+   "id": "english-c10-084",
+   "type": "mcq",
+   "q": "What does the idiom 'to bury the hatchet' mean?",
+   "options": [
+    "to end a quarrel and become friends",
+    "to hide a weapon",
+    "to start a fight",
+    "to cut down a tree"
+   ]
+  },
+  {
+   "id": "english-c10-085",
+   "type": "mcq",
+   "q": "What does the phrasal verb 'give up' mean in 'He gave up smoking'?",
+   "options": [
+    "to return",
+    "to stop doing something",
+    "to begin",
+    "to forgive"
+   ]
+  },
+  {
+   "id": "english-c10-086",
+   "type": "mcq",
+   "q": "Choose the correct phrasal verb: The flight was ___ because of fog.",
+   "options": [
+    "called up",
+    "put on",
+    "turned in",
+    "called off"
+   ]
+  },
+  {
+   "id": "english-c10-087",
+   "type": "short",
+   "q": "Use the idiom 'a blessing in disguise' in a sentence of your own.",
+   "proposedAnswer": "Missing the early bus turned out to be a blessing in disguise, because I met my old friend on the next one.",
+   "keyPoints": [
+    "meaning: something that seems bad but proves good",
+    "used correctly in a sentence"
+   ]
+  },
+  {
+   "id": "english-c10-088",
+   "type": "short",
+   "q": "Explain the meaning of the idiom 'to let the cat out of the bag' and use it in a sentence.",
+   "proposedAnswer": "It means to reveal a secret by mistake: Ravi let the cat out of the bag about the surprise party.",
+   "keyPoints": [
+    "means to reveal a secret accidentally",
+    "correct example sentence"
+   ]
+  },
+  {
+   "id": "english-c10-089",
+   "type": "mcq",
+   "q": "Read the passage. 'Meera's grandmother kept a small garden on her terrace. Every morning she watered the tulsi plant first and then the marigolds. She said that plants, like people, need a little care at the same time every day. Meera laughed at first, but after a month of copying her grandmother, she noticed that her own pot of mint had grown twice as tall.' Which plant did the grandmother water first?",
+   "options": [
+    "The tulsi",
+    "The marigold",
+    "The mint",
+    "The rose"
+   ]
+  },
+  {
+   "id": "english-c10-090",
+   "type": "mcq",
+   "q": "Read the passage. 'Meera's grandmother kept a small garden on her terrace. Every morning she watered the tulsi plant first and then the marigolds. She said that plants, like people, need a little care at the same time every day. Meera laughed at first, but after a month of copying her grandmother, she noticed that her own pot of mint had grown twice as tall.' What did the grandmother mean by care 'at the same time every day'?",
+   "options": [
+    "Plants should be watered only at night",
+    "Plants should be watered once a week",
+    "Plants do best with a regular routine of care",
+    "Plants drink as much as people do"
+   ]
+  },
+  {
+   "id": "english-c10-091",
+   "type": "mcq",
+   "q": "Read the passage. 'Meera's grandmother kept a small garden on her terrace. Every morning she watered the tulsi plant first and then the marigolds. She said that plants, like people, need a little care at the same time every day. Meera laughed at first, but after a month of copying her grandmother, she noticed that her own pot of mint had grown twice as tall.' What can be inferred about Meera at the end?",
+   "options": [
+    "She was convinced by her grandmother's method after seeing the result",
+    "She stopped gardening",
+    "She disliked her grandmother's plants",
+    "She grew only marigolds"
+   ]
+  },
+  {
+   "id": "english-c10-092",
+   "type": "short",
+   "q": "Read the passage. 'Meera's grandmother kept a small garden on her terrace. Every morning she watered the tulsi plant first and then the marigolds. She said that plants, like people, need a little care at the same time every day. Meera laughed at first, but after a month of copying her grandmother, she noticed that her own pot of mint had grown twice as tall.' What changed Meera's attitude towards her grandmother's advice?",
+   "proposedAnswer": "After copying her grandmother's routine for a month, Meera saw that her own pot of mint had grown twice as tall.",
+   "keyPoints": [
+    "she followed the routine for a month",
+    "her mint plant grew twice as tall"
+   ]
+  },
+  {
+   "id": "english-c10-093",
+   "type": "mcq",
+   "q": "Read the passage. 'The library in our town opens at nine, but Mr. Rao is always there by eight. He sweeps the floor, dusts the shelves and arranges the newspapers on the long table. When asked why he comes so early, he smiles and says, \"A reader should find a clean room waiting for him.\" In twenty years, he has never taken a single day off.' At what time does the library open?",
+   "options": [
+    "Eight",
+    "Ten",
+    "Nine",
+    "Seven"
+   ]
+  },
+  {
+   "id": "english-c10-094",
+   "type": "mcq",
+   "q": "Read the passage. 'The library in our town opens at nine, but Mr. Rao is always there by eight. He sweeps the floor, dusts the shelves and arranges the newspapers on the long table. When asked why he comes so early, he smiles and says, \"A reader should find a clean room waiting for him.\" In twenty years, he has never taken a single day off.' Which of these does the passage NOT say Mr. Rao does before opening?",
+   "options": [
+    "Sweeps the floor",
+    "Dusts the shelves",
+    "Arranges the newspapers",
+    "Issues books to readers"
+   ]
+  },
+  {
+   "id": "english-c10-095",
+   "type": "mcq",
+   "q": "Read the passage. 'The library in our town opens at nine, but Mr. Rao is always there by eight. He sweeps the floor, dusts the shelves and arranges the newspapers on the long table. When asked why he comes so early, he smiles and says, \"A reader should find a clean room waiting for him.\" In twenty years, he has never taken a single day off.' Which word best describes Mr. Rao?",
+   "options": [
+    "lazy",
+    "dedicated",
+    "boastful",
+    "forgetful"
+   ]
+  },
+  {
+   "id": "english-c10-096",
+   "type": "short",
+   "q": "Read the passage. 'The library in our town opens at nine, but Mr. Rao is always there by eight. He sweeps the floor, dusts the shelves and arranges the newspapers on the long table. When asked why he comes so early, he smiles and says, \"A reader should find a clean room waiting for him.\" In twenty years, he has never taken a single day off.' Why does Mr. Rao reach the library an hour before it opens?",
+   "proposedAnswer": "He wants readers to find a clean, tidy room when they arrive.",
+   "keyPoints": [
+    "he cleans and arranges the room",
+    "he wants readers to be comfortable"
+   ]
+  },
+  {
+   "id": "english-c10-097",
+   "type": "mcq",
+   "q": "Read the passage. 'Last Sunday, a thick fog covered the village. Farmer Karan could not see the road, so he walked slowly with a stick, tapping the ground in front of him. Suddenly, the stick struck something soft. It was a lost calf, shivering near the ditch. Karan wrapped it in his shawl and carried it home.' What did Karan use to find his way?",
+   "options": [
+    "A lantern",
+    "A map",
+    "A stick",
+    "A dog"
+   ]
+  },
+  {
+   "id": "english-c10-098",
+   "type": "mcq",
+   "q": "Read the passage. 'Last Sunday, a thick fog covered the village. Farmer Karan could not see the road, so he walked slowly with a stick, tapping the ground in front of him. Suddenly, the stick struck something soft. It was a lost calf, shivering near the ditch. Karan wrapped it in his shawl and carried it home.' Why did Karan walk slowly?",
+   "options": [
+    "He could not see the road because of the fog",
+    "He was carrying a calf",
+    "He was tired from work",
+    "The ground was very dry"
+   ]
+  },
+  {
+   "id": "english-c10-099",
+   "type": "mcq",
+   "q": "Read the passage. 'Last Sunday, a thick fog covered the village. Farmer Karan could not see the road, so he walked slowly with a stick, tapping the ground in front of him. Suddenly, the stick struck something soft. It was a lost calf, shivering near the ditch. Karan wrapped it in his shawl and carried it home.' The word 'shivering' suggests that the calf was",
+   "options": [
+    "angry",
+    "cold and frightened",
+    "eating grass",
+    "fast asleep"
+   ]
+  },
+  {
+   "id": "english-c10-100",
+   "type": "short",
+   "q": "Read the passage. 'Last Sunday, a thick fog covered the village. Farmer Karan could not see the road, so he walked slowly with a stick, tapping the ground in front of him. Suddenly, the stick struck something soft. It was a lost calf, shivering near the ditch. Karan wrapped it in his shawl and carried it home.' How did Karan help the calf?",
+   "proposedAnswer": "He wrapped the calf in his shawl and carried it home.",
+   "keyPoints": [
+    "wrapped it in his shawl",
+    "carried it home"
+   ]
+  },
+  {
+   "id": "english-c10-101",
+   "type": "mcq",
+   "q": "Read the passage. 'Honey bees communicate by dancing. When a worker bee finds a good source of nectar, she returns to the hive and moves in a pattern called the waggle dance. The direction of the dance shows where the flowers are, and the time she spends waggling tells the other bees how far they must fly.' What is the dance of honey bees called?",
+   "options": [
+    "Round dance",
+    "Sun dance",
+    "Flower dance",
+    "Waggle dance"
+   ]
+  },
+  {
+   "id": "english-c10-102",
+   "type": "mcq",
+   "q": "Read the passage. 'Honey bees communicate by dancing. When a worker bee finds a good source of nectar, she returns to the hive and moves in a pattern called the waggle dance. The direction of the dance shows where the flowers are, and the time she spends waggling tells the other bees how far they must fly.' What does the direction of the dance tell other bees?",
+   "options": [
+    "How sweet the nectar is",
+    "How many bees should go",
+    "The time of day",
+    "Where the flowers are"
+   ]
+  },
+  {
+   "id": "english-c10-103",
+   "type": "mcq",
+   "q": "Read the passage. 'Honey bees communicate by dancing. When a worker bee finds a good source of nectar, she returns to the hive and moves in a pattern called the waggle dance. The direction of the dance shows where the flowers are, and the time she spends waggling tells the other bees how far they must fly.' Which conclusion is supported by the passage?",
+   "options": [
+    "Bees find flowers only by smell",
+    "Bees share information with each other about food",
+    "Only the queen performs dances",
+    "Bees dance to scare away enemies"
+   ]
+  },
+  {
+   "id": "english-c10-104",
+   "type": "short",
+   "q": "Read the passage. 'Honey bees communicate by dancing. When a worker bee finds a good source of nectar, she returns to the hive and moves in a pattern called the waggle dance. The direction of the dance shows where the flowers are, and the time she spends waggling tells the other bees how far they must fly.' How does the waggle dance help the hive?",
+   "proposedAnswer": "It tells the other bees where the flowers are and how far to fly, so they can reach the nectar directly.",
+   "keyPoints": [
+    "direction of the dance shows the location of flowers",
+    "time spent waggling shows the distance",
+    "other bees can fly straight to the nectar"
+   ]
+  },
+  {
+   "id": "english-c10-105",
+   "type": "mcq",
+   "q": "Choose the correct verb: Water ___ at 100 degrees Celsius at sea level.",
+   "options": [
+    "boil",
+    "boils",
+    "boiling",
+    "boiled"
+   ]
+  },
+  {
+   "id": "english-c10-106",
+   "type": "mcq",
+   "q": "Choose the correct verb: We ___ lunch when the guests arrived.",
+   "options": [
+    "have",
+    "has had",
+    "are having",
+    "were having"
+   ]
+  },
+  {
+   "id": "english-c10-107",
+   "type": "mcq",
+   "q": "Choose the correct verb: I ___ for the bus for twenty minutes now.",
+   "options": [
+    "have been waiting",
+    "was waiting",
+    "wait",
+    "will wait"
+   ]
+  },
+  {
+   "id": "english-c10-108",
+   "type": "mcq",
+   "q": "Choose the correct verb: He said that he ___ the film already.",
+   "options": [
+    "sees",
+    "has seen",
+    "had seen",
+    "will see"
+   ]
+  },
+  {
+   "id": "english-c10-109",
+   "type": "mcq",
+   "q": "Choose the correct verb: Look! The baby ___.",
+   "options": [
+    "is smiling",
+    "smiles",
+    "smiled",
+    "has smiled"
+   ]
+  },
+  {
+   "id": "english-c10-110",
+   "type": "mcq",
+   "q": "Choose the correct verb: If it rains tomorrow, we ___ the match.",
+   "options": [
+    "would cancel",
+    "cancelled",
+    "will cancel",
+    "had cancelled"
+   ]
+  },
+  {
+   "id": "english-c10-111",
+   "type": "short",
+   "q": "Change into the past continuous tense: 'They are watching a film.'",
+   "proposedAnswer": "They were watching a film.",
+   "keyPoints": [
+    "are changes to were",
+    "-ing form retained"
+   ]
+  },
+  {
+   "id": "english-c10-112",
+   "type": "short",
+   "q": "Correct the error: 'I am living in this city since 2010.'",
+   "proposedAnswer": "I have been living in this city since 2010.",
+   "keyPoints": [
+    "'since' with a starting point needs a perfect tense",
+    "present perfect continuous: have been living"
+   ]
+  },
+  {
+   "id": "english-c10-113",
+   "type": "mcq",
+   "q": "Choose the correct verb: The dog and the cat ___ friends.",
+   "options": [
+    "is",
+    "has",
+    "was",
+    "are"
+   ]
+  },
+  {
+   "id": "english-c10-114",
+   "type": "mcq",
+   "q": "Choose the correct verb: My sister ___ a teacher.",
+   "options": [
+    "are",
+    "is",
+    "were",
+    "have"
+   ]
+  },
+  {
+   "id": "english-c10-115",
+   "type": "mcq",
+   "q": "Choose the correct verb: The news ___ true.",
+   "options": [
+    "are",
+    "were",
+    "is",
+    "have"
+   ]
+  },
+  {
+   "id": "english-c10-116",
+   "type": "mcq",
+   "q": "Choose the correct verb: The scissors ___ on the table.",
+   "options": [
+    "are",
+    "is",
+    "has",
+    "was"
+   ]
+  },
+  {
+   "id": "english-c10-117",
+   "type": "mcq",
+   "q": "Choose the correct verb: Rohit, along with his friends, ___ going to the fair.",
+   "options": [
+    "are",
+    "is",
+    "were",
+    "have"
+   ]
+  },
+  {
+   "id": "english-c10-118",
+   "type": "mcq",
+   "q": "Which sentence is grammatically correct?",
+   "options": [
+    "Every student have a ticket.",
+    "The books is on the table.",
+    "Many a student have failed.",
+    "Each of the players has a bottle."
+   ]
+  },
+  {
+   "id": "english-c10-119",
+   "type": "short",
+   "q": "Correct the error: 'The boys in the team was happy.'",
+   "proposedAnswer": "The boys in the team were happy.",
+   "keyPoints": [
+    "subject 'boys' is plural",
+    "verb must be 'were'"
+   ]
+  },
+  {
+   "id": "english-c10-120",
+   "type": "short",
+   "q": "Complete with 'is' or 'are' and give the reason: 'A pair of gloves ___ on the table.'",
+   "proposedAnswer": "is. The subject is 'pair', which is singular, even though 'gloves' is plural.",
+   "keyPoints": [
+    "the subject is 'pair'",
+    "pair is singular so the verb is 'is'"
+   ]
+  },
+  {
+   "id": "english-c10-121",
+   "type": "mcq",
+   "q": "Choose the correct article: He is ___ engineer.",
+   "options": [
+    "a",
+    "the",
+    "one",
+    "an"
+   ]
+  },
+  {
+   "id": "english-c10-122",
+   "type": "mcq",
+   "q": "Choose the correct article: We saw ___ one-eyed man.",
+   "options": [
+    "an",
+    "a",
+    "the",
+    "some"
+   ]
+  },
+  {
+   "id": "english-c10-123",
+   "type": "mcq",
+   "q": "Choose the correct article: ___ Himalayas are the highest mountains in the world.",
+   "options": [
+    "A",
+    "An",
+    "The",
+    "One"
+   ]
+  },
+  {
+   "id": "english-c10-124",
+   "type": "mcq",
+   "q": "Choose the correct word: ___ of the two shirts fits me.",
+   "options": [
+    "Neither",
+    "None",
+    "No",
+    "Few"
+   ]
+  },
+  {
+   "id": "english-c10-125",
+   "type": "mcq",
+   "q": "Choose the correct word: There are ___ mangoes in the basket.",
+   "options": [
+    "much",
+    "many",
+    "little",
+    "a little"
+   ]
+  },
+  {
+   "id": "english-c10-126",
+   "type": "mcq",
+   "q": "Which sentence is correct?",
+   "options": [
+    "She gave me a advice.",
+    "I need informations.",
+    "He bought many furnitures.",
+    "The teacher gave us some useful advice."
+   ]
+  },
+  {
+   "id": "english-c10-127",
+   "type": "short",
+   "q": "Fill in with 'much' or 'many': (a) How ___ water is left? (b) How ___ books do you have?",
+   "proposedAnswer": "(a) much (b) many",
+   "keyPoints": [
+    "much with uncountable nouns like water",
+    "many with countable plural nouns like books"
+   ]
+  },
+  {
+   "id": "english-c10-128",
+   "type": "short",
+   "q": "Why is 'the' used before 'sun' in 'The sun is a star'?",
+   "proposedAnswer": "Because there is only one sun that everybody knows about, so the definite article is used with it.",
+   "keyPoints": [
+    "the sun is unique",
+    "unique things take the definite article"
+   ]
+  },
+  {
+   "id": "english-c10-129",
+   "type": "mcq",
+   "q": "Choose the correct word: She was born ___ 2008.",
+   "options": [
+    "in",
+    "on",
+    "at",
+    "by"
+   ]
+  },
+  {
+   "id": "english-c10-130",
+   "type": "mcq",
+   "q": "Choose the correct word: The book is ___ the table.",
+   "options": [
+    "at",
+    "from",
+    "on",
+    "into"
+   ]
+  },
+  {
+   "id": "english-c10-131",
+   "type": "mcq",
+   "q": "Choose the correct word: He apologised ___ being late.",
+   "options": [
+    "for",
+    "of",
+    "about",
+    "at"
+   ]
+  },
+  {
+   "id": "english-c10-132",
+   "type": "mcq",
+   "q": "Choose the correct word: We walked ___ the bridge to reach the other bank.",
+   "options": [
+    "into",
+    "at",
+    "across",
+    "till"
+   ]
+  },
+  {
+   "id": "english-c10-133",
+   "type": "mcq",
+   "q": "Choose the correct word: I will wait here ___ you come back.",
+   "options": [
+    "since",
+    "because",
+    "though",
+    "until"
+   ]
+  },
+  {
+   "id": "english-c10-134",
+   "type": "mcq",
+   "q": "Which sentence is correct?",
+   "options": [
+    "She is good in Maths.",
+    "She is good at Maths.",
+    "She is good on Maths.",
+    "She is good to Maths."
+   ]
+  },
+  {
+   "id": "english-c10-135",
+   "type": "short",
+   "q": "Fill in the blanks with prepositions: 'He is fond ___ music and is married ___ a doctor.'",
+   "proposedAnswer": "of; to",
+   "keyPoints": [
+    "fond of",
+    "married to"
+   ]
+  },
+  {
+   "id": "english-c10-136",
+   "type": "short",
+   "q": "Rewrite using 'unless': 'If you do not hurry, you will miss the train.'",
+   "proposedAnswer": "Unless you hurry, you will miss the train.",
+   "keyPoints": [
+    "unless means if not",
+    "verb in the unless-clause is not negative"
+   ]
+  },
+  {
+   "id": "english-c10-137",
+   "type": "mcq",
+   "q": "Choose the correct word: Birds ___ fly, but fish cannot.",
+   "options": [
+    "must",
+    "shall",
+    "can",
+    "ought"
+   ]
+  },
+  {
+   "id": "english-c10-138",
+   "type": "mcq",
+   "q": "Choose the correct word: ___ you help me with this bag?",
+   "options": [
+    "Can",
+    "Must",
+    "Ought",
+    "Need"
+   ]
+  },
+  {
+   "id": "english-c10-139",
+   "type": "mcq",
+   "q": "Choose the correct word: Look at those dark clouds. It ___ rain soon.",
+   "options": [
+    "can",
+    "may",
+    "must",
+    "would"
+   ]
+  },
+  {
+   "id": "english-c10-140",
+   "type": "mcq",
+   "q": "Choose the correct word: I ___ like a cup of tea, please.",
+   "options": [
+    "will",
+    "can",
+    "shall",
+    "would"
+   ]
+  },
+  {
+   "id": "english-c10-141",
+   "type": "mcq",
+   "q": "Choose the correct word: You ___ see a doctor; your fever is high.",
+   "options": [
+    "might",
+    "can",
+    "may",
+    "should"
+   ]
+  },
+  {
+   "id": "english-c10-142",
+   "type": "mcq",
+   "q": "Which sentence is correct?",
+   "options": [
+    "He can speaks French.",
+    "She can speak French.",
+    "She cans speak French.",
+    "She can to speak French."
+   ]
+  },
+  {
+   "id": "english-c10-143",
+   "type": "short",
+   "q": "Rewrite using 'must': 'It is necessary for every student to wear a uniform.'",
+   "proposedAnswer": "Every student must wear a uniform.",
+   "keyPoints": [
+    "must expresses necessity",
+    "base form of the verb follows"
+   ]
+  },
+  {
+   "id": "english-c10-144",
+   "type": "short",
+   "q": "Explain the difference between 'You needn't go' and 'You mustn't go'.",
+   "proposedAnswer": "'You needn't go' means it is not necessary for you to go. 'You mustn't go' means you are forbidden to go.",
+   "keyPoints": [
+    "needn't = not necessary",
+    "mustn't = prohibition"
+   ]
+  },
+  {
+   "id": "english-c10-145",
+   "type": "mcq",
+   "q": "Choose the correct verb: The window ___ by Rahul.",
+   "options": [
+    "broke",
+    "breaks",
+    "was broken",
+    "has broke"
+   ]
+  },
+  {
+   "id": "english-c10-146",
+   "type": "mcq",
+   "q": "Choose the correct verb: The cake ___ by my mother.",
+   "options": [
+    "was baked",
+    "baked",
+    "bakes",
+    "is bake"
+   ]
+  },
+  {
+   "id": "english-c10-147",
+   "type": "mcq",
+   "q": "Choose the passive voice of: 'She has finished the work.'",
+   "options": [
+    "The work is finished by her.",
+    "The work has been finished by her.",
+    "The work was finished by her.",
+    "The work had been finished by her."
+   ]
+  },
+  {
+   "id": "english-c10-148",
+   "type": "mcq",
+   "q": "Choose the passive voice of: 'Open the door.'",
+   "options": [
+    "The door is opened.",
+    "Let the door open.",
+    "The door should open.",
+    "Let the door be opened."
+   ]
+  },
+  {
+   "id": "english-c10-149",
+   "type": "mcq",
+   "q": "Choose the passive voice of: 'People speak Hindi here.'",
+   "options": [
+    "Hindi is spoken here.",
+    "Hindi speaks here.",
+    "Hindi was spoken here.",
+    "Hindi has spoken here."
+   ]
+  },
+  {
+   "id": "english-c10-150",
+   "type": "mcq",
+   "q": "Which sentence is in the passive voice?",
+   "options": [
+    "The artist painted a mural.",
+    "Birds build nests in trees.",
+    "The mural was painted by the artist.",
+    "Children love ice cream."
+   ]
+  },
+  {
+   "id": "english-c10-151",
+   "type": "short",
+   "q": "Change into the passive voice: 'The students are planting trees.'",
+   "proposedAnswer": "Trees are being planted by the students.",
+   "keyPoints": [
+    "object becomes subject",
+    "are being + past participle"
+   ]
+  },
+  {
+   "id": "english-c10-152",
+   "type": "short",
+   "q": "Change into the active voice: 'By whom was the window broken?'",
+   "proposedAnswer": "Who broke the window?",
+   "keyPoints": [
+    "'by whom' becomes 'who'",
+    "was broken becomes broke"
+   ]
+  },
+  {
+   "id": "english-c10-153",
+   "type": "mcq",
+   "q": "Choose the correct indirect speech: He said, 'I like mangoes.'",
+   "options": [
+    "He said that he liked mangoes.",
+    "He said that I liked mangoes.",
+    "He said that he would like mangoes.",
+    "He said that he liking mangoes."
+   ]
+  },
+  {
+   "id": "english-c10-154",
+   "type": "mcq",
+   "q": "Choose the correct indirect speech: She said, 'I am reading a novel.'",
+   "options": [
+    "She said that she has been reading a novel.",
+    "She said that I was reading a novel.",
+    "She said that she was reading a novel.",
+    "She said that she is read a novel."
+   ]
+  },
+  {
+   "id": "english-c10-155",
+   "type": "mcq",
+   "q": "Choose the correct indirect speech: The boy said, 'I have finished my work.'",
+   "options": [
+    "The boy said that I had finished my work.",
+    "The boy said that he would finish his work.",
+    "The boy said that he has finished my work.",
+    "The boy said that he had finished his work."
+   ]
+  },
+  {
+   "id": "english-c10-156",
+   "type": "mcq",
+   "q": "Choose the correct indirect speech: He asked, 'What is your name?'",
+   "options": [
+    "He asked me what is my name.",
+    "He asked me what my name was.",
+    "He asked me what was your name.",
+    "He asked me that what my name was."
+   ]
+  },
+  {
+   "id": "english-c10-157",
+   "type": "mcq",
+   "q": "Choose the correct indirect speech: The teacher said to the boys, 'Be quiet.'",
+   "options": [
+    "The teacher said the boys that be quiet.",
+    "The teacher told the boys they are quiet.",
+    "The teacher ordered the boys to be quiet.",
+    "The teacher asked the boys if they were quiet."
+   ]
+  },
+  {
+   "id": "english-c10-158",
+   "type": "mcq",
+   "q": "Choose the correct indirect speech: He said to me, 'Where did you go yesterday?'",
+   "options": [
+    "He asked me where I had gone the day before.",
+    "He asked me where did I go yesterday.",
+    "He asked me where you had gone the day before.",
+    "He asked me where I have gone the day before."
+   ]
+  },
+  {
+   "id": "english-c10-159",
+   "type": "short",
+   "q": "Change into indirect speech: Priya said, 'I bought a new bag yesterday.'",
+   "proposedAnswer": "Priya said that she had bought a new bag the day before.",
+   "keyPoints": [
+    "bought becomes had bought",
+    "'I' becomes she",
+    "'yesterday' becomes 'the day before'"
+   ]
+  },
+  {
+   "id": "english-c10-160",
+   "type": "short",
+   "q": "Change into direct speech: The captain told the players to practise daily.",
+   "proposedAnswer": "The captain said to the players, 'Practise daily.'",
+   "keyPoints": [
+    "told becomes said to",
+    "the command in inverted commas",
+    "base form of the verb"
+   ]
+  },
+  {
+   "id": "english-c10-161",
+   "type": "mcq",
+   "q": "A group of words that has its own subject and verb is called a ___.",
+   "options": [
+    "phrase",
+    "clause",
+    "paragraph",
+    "prefix"
+   ]
+  },
+  {
+   "id": "english-c10-162",
+   "type": "mcq",
+   "q": "Which of these is a simple sentence?",
+   "options": [
+    "She sang and he danced.",
+    "I stayed home because I was ill.",
+    "The man who called is my uncle.",
+    "The children played in the park."
+   ]
+  },
+  {
+   "id": "english-c10-163",
+   "type": "mcq",
+   "q": "Combine using 'not only ... but also': 'He is intelligent. He is hardworking.'",
+   "options": [
+    "He is not only intelligent and also hardworking.",
+    "He is intelligent not only but also hardworking.",
+    "Not only he is intelligent but also hardworking.",
+    "He is not only intelligent but also hardworking."
+   ]
+  },
+  {
+   "id": "english-c10-164",
+   "type": "mcq",
+   "q": "Change into an exclamatory sentence: 'It is a very beautiful garden.'",
+   "options": [
+    "How a beautiful garden it is!",
+    "What a beautiful garden it is!",
+    "What beautiful a garden it is!",
+    "How beautiful garden it is!"
+   ]
+  },
+  {
+   "id": "english-c10-165",
+   "type": "mcq",
+   "q": "Which sentence means the same as 'Gold is more precious than silver'?",
+   "options": [
+    "Silver is as precious as gold.",
+    "Gold is as precious as silver.",
+    "Silver is not so precious as gold.",
+    "Silver is more precious than gold."
+   ]
+  },
+  {
+   "id": "english-c10-166",
+   "type": "mcq",
+   "q": "Which sentence contains an adjective clause?",
+   "options": [
+    "The book that I borrowed is interesting.",
+    "He ran so that he could catch the bus.",
+    "I think that she is right.",
+    "When it rains, I stay in."
+   ]
+  },
+  {
+   "id": "english-c10-167",
+   "type": "short",
+   "q": "Rewrite as a negative sentence without changing the meaning: 'He always speaks the truth.'",
+   "proposedAnswer": "He never tells a lie.",
+   "keyPoints": [
+    "always becomes never",
+    "opposite idea expressed negatively"
+   ]
+  },
+  {
+   "id": "english-c10-168",
+   "type": "short",
+   "q": "Rewrite using 'too ... to': 'He is so tired that he cannot walk.'",
+   "proposedAnswer": "He is too tired to walk.",
+   "keyPoints": [
+    "too + adjective + to + verb",
+    "no negative word needed"
+   ]
+  },
+  {
+   "id": "english-c10-169",
+   "type": "mcq",
+   "q": "Which punctuation mark is used at the end of a statement?",
+   "options": [
+    "comma",
+    "full stop",
+    "colon",
+    "dash"
+   ]
+  },
+  {
+   "id": "english-c10-170",
+   "type": "mcq",
+   "q": "Which words need capital letters in: 'we visited delhi last june.'?",
+   "options": [
+    "Only 'we'",
+    "Only 'delhi'",
+    "'delhi' and 'june'",
+    "'we', 'delhi' and 'june'"
+   ]
+  },
+  {
+   "id": "english-c10-171",
+   "type": "mcq",
+   "q": "Which sentence uses the apostrophe correctly for several boys?",
+   "options": [
+    "The boys' hostel is near the gate.",
+    "The boy's' hostel is near the gate.",
+    "The boys's hostel is near the gate.",
+    "The boys hostel's is near the gate."
+   ]
+  },
+  {
+   "id": "english-c10-172",
+   "type": "mcq",
+   "q": "Which sentence uses a colon correctly?",
+   "options": [
+    "She bought: milk, eggs and bread.",
+    "He said: that he was late.",
+    "You will need these items: a pen, a ruler and a notebook.",
+    "I like: tea."
+   ]
+  },
+  {
+   "id": "english-c10-173",
+   "type": "mcq",
+   "q": "Which sentence is punctuated correctly?",
+   "options": [
+    "Well, I think you are right.",
+    "Well I think, you are right.",
+    "Well I think you are right,",
+    "Well. I think, you are right."
+   ]
+  },
+  {
+   "id": "english-c10-174",
+   "type": "mcq",
+   "q": "Which sentence is punctuated correctly?",
+   "options": [
+    "'I am late', said Anil 'because the bus broke down'.",
+    "'I am late' said Anil, 'because the bus broke down.'",
+    "'I am late,' said Anil, 'because the bus broke down.'",
+    "'I am late,' said Anil. 'because the bus broke down.'"
+   ]
+  },
+  {
+   "id": "english-c10-175",
+   "type": "short",
+   "q": "Punctuate correctly: where are you going asked the guard",
+   "proposedAnswer": "'Where are you going?' asked the guard.",
+   "keyPoints": [
+    "capital W",
+    "question mark inside the inverted commas",
+    "full stop at the end"
+   ]
+  },
+  {
+   "id": "english-c10-176",
+   "type": "short",
+   "q": "Explain the difference between 'its' and 'it's'.",
+   "proposedAnswer": "'Its' is a possessive word meaning belonging to it. 'It's' is the short form of 'it is' or 'it has'.",
+   "keyPoints": [
+    "its shows possession",
+    "it's is a contraction of it is / it has"
+   ]
+  },
+  {
+   "id": "english-c10-177",
+   "type": "mcq",
+   "q": "Choose the synonym of 'enormous'.",
+   "options": [
+    "tiny",
+    "narrow",
+    "ancient",
+    "huge"
+   ]
+  },
+  {
+   "id": "english-c10-178",
+   "type": "mcq",
+   "q": "Choose the antonym of 'ancient'.",
+   "options": [
+    "old",
+    "modern",
+    "dull",
+    "distant"
+   ]
+  },
+  {
+   "id": "english-c10-179",
+   "type": "mcq",
+   "q": "A person who writes poems is called a",
+   "options": [
+    "novelist",
+    "dramatist",
+    "poet",
+    "editor"
+   ]
+  },
+  {
+   "id": "english-c10-180",
+   "type": "mcq",
+   "q": "Choose the correctly spelt word.",
+   "options": [
+    "necessary",
+    "neccessary",
+    "necesary",
+    "neccesary"
+   ]
+  },
+  {
+   "id": "english-c10-181",
+   "type": "mcq",
+   "q": "The suffix -less in 'careless' means",
+   "options": [
+    "full of",
+    "without",
+    "able to",
+    "again"
+   ]
+  },
+  {
+   "id": "english-c10-182",
+   "type": "mcq",
+   "q": "Which pair of words are homophones?",
+   "options": [
+    "big - large",
+    "hot - cold",
+    "bat - ball",
+    "flour - flower"
+   ]
+  },
+  {
+   "id": "english-c10-183",
+   "type": "short",
+   "q": "Write the antonyms of 'victory', 'success' and 'hope'.",
+   "proposedAnswer": "defeat; failure; despair",
+   "keyPoints": [
+    "victory - defeat",
+    "success - failure",
+    "hope - despair"
+   ]
+  },
+  {
+   "id": "english-c10-184",
+   "type": "short",
+   "q": "Form adjectives from the words 'beauty', 'courage' and 'harm'.",
+   "proposedAnswer": "beautiful; courageous; harmful",
+   "keyPoints": [
+    "beauty - beautiful",
+    "courage - courageous",
+    "harm - harmful"
+   ]
+  },
+  {
+   "id": "english-c10-185",
+   "type": "mcq",
+   "q": "What does the idiom 'under the weather' mean?",
+   "options": [
+    "in the rain",
+    "very cheerful",
+    "outside the house",
+    "feeling slightly ill"
+   ]
+  },
+  {
+   "id": "english-c10-186",
+   "type": "mcq",
+   "q": "What does the idiom 'to spill the beans' mean?",
+   "options": [
+    "to cook beans",
+    "to reveal a secret",
+    "to waste food",
+    "to plant seeds"
+   ]
+  },
+  {
+   "id": "english-c10-187",
+   "type": "mcq",
+   "q": "What does the idiom 'to cost an arm and a leg' mean?",
+   "options": [
+    "to cause injury",
+    "to be easy to afford",
+    "to be very expensive",
+    "to be given freely"
+   ]
+  },
+  {
+   "id": "english-c10-188",
+   "type": "mcq",
+   "q": "What does the idiom 'to hit the nail on the head' mean?",
+   "options": [
+    "to say or do exactly the right thing",
+    "to repair a house",
+    "to hurt oneself",
+    "to make a loud noise"
+   ]
+  },
+  {
+   "id": "english-c10-189",
+   "type": "mcq",
+   "q": "What does the phrasal verb 'look after' mean?",
+   "options": [
+    "to search for",
+    "to take care of",
+    "to admire",
+    "to examine"
+   ]
+  },
+  {
+   "id": "english-c10-190",
+   "type": "mcq",
+   "q": "Choose the correct phrasal verb: The teacher asked us to ___ the lesson before the test.",
+   "options": [
+    "go off",
+    "go on",
+    "go by",
+    "go over"
+   ]
+  },
+  {
+   "id": "english-c10-191",
+   "type": "short",
+   "q": "Explain the idiom 'to turn over a new leaf' and use it in a sentence.",
+   "proposedAnswer": "It means to start behaving in a better way: After failing the test, Sam turned over a new leaf and began to study daily.",
+   "keyPoints": [
+    "means to make a fresh, better start",
+    "correct example sentence"
+   ]
+  },
+  {
+   "id": "english-c10-192",
+   "type": "short",
+   "q": "Explain the phrasal verb 'put off' and use it in a sentence.",
+   "proposedAnswer": "'Put off' means to postpone: The school put off the picnic because of rain.",
+   "keyPoints": [
+    "means to postpone",
+    "correct example sentence"
+   ]
+  },
+  {
+   "id": "english-c10-193",
+   "type": "mcq",
+   "q": "Read the passage. 'Anita's village had no library, so she began collecting old books from neighbours. Within three months she had gathered nearly two hundred books and kept them on shelves in the veranda of her home. Children came every evening to read, and some even began to bring books of their own to share.' How many books had Anita gathered in three months?",
+   "options": [
+    "Nearly two hundred",
+    "Nearly twenty",
+    "About a thousand",
+    "Exactly ten"
+   ]
+  },
+  {
+   "id": "english-c10-194",
+   "type": "mcq",
+   "q": "Read the passage. 'Anita's village had no library, so she began collecting old books from neighbours. Within three months she had gathered nearly two hundred books and kept them on shelves in the veranda of her home. Children came every evening to read, and some even began to bring books of their own to share.' Where did Anita keep the books?",
+   "options": [
+    "In the school",
+    "In a shop",
+    "In the veranda of her home",
+    "In a temple"
+   ]
+  },
+  {
+   "id": "english-c10-195",
+   "type": "mcq",
+   "q": "Read the passage. 'Anita's village had no library, so she began collecting old books from neighbours. Within three months she had gathered nearly two hundred books and kept them on shelves in the veranda of her home. Children came every evening to read, and some even began to bring books of their own to share.' What does the last sentence suggest?",
+   "options": [
+    "Her effort inspired others to contribute",
+    "Children did not like the books",
+    "The books were too expensive",
+    "Anita closed the library"
+   ]
+  },
+  {
+   "id": "english-c10-196",
+   "type": "short",
+   "q": "Read the passage. 'Anita's village had no library, so she began collecting old books from neighbours. Within three months she had gathered nearly two hundred books and kept them on shelves in the veranda of her home. Children came every evening to read, and some even began to bring books of their own to share.' Why did Anita start collecting books?",
+   "proposedAnswer": "Her village had no library.",
+   "keyPoints": [
+    "the village had no library",
+    "she wanted children to have books to read"
+   ]
+  },
+  {
+   "id": "english-c10-197",
+   "type": "mcq",
+   "q": "Read the passage. 'The banyan tree is the national tree of India. Its branches send down thin roots that grow into the soil and become new trunks. Because of this, a single banyan can spread over a very large area and give shade to hundreds of people.' Which tree is the national tree of India according to the passage?",
+   "options": [
+    "Neem",
+    "Peepal",
+    "Banyan",
+    "Mango"
+   ]
+  },
+  {
+   "id": "english-c10-198",
+   "type": "mcq",
+   "q": "Read the passage. 'The banyan tree is the national tree of India. Its branches send down thin roots that grow into the soil and become new trunks. Because of this, a single banyan can spread over a very large area and give shade to hundreds of people.' How does a banyan tree spread?",
+   "options": [
+    "By dropping large fruit",
+    "By scattering its flowers",
+    "By shedding its leaves",
+    "Thin roots from its branches grow into the soil and become new trunks"
+   ]
+  },
+  {
+   "id": "english-c10-199",
+   "type": "mcq",
+   "q": "Read the passage. 'The banyan tree is the national tree of India. Its branches send down thin roots that grow into the soil and become new trunks. Because of this, a single banyan can spread over a very large area and give shade to hundreds of people.' Why can one banyan shade hundreds of people?",
+   "options": [
+    "Its leaves are very large",
+    "It spreads over a wide area through new trunks",
+    "It grows very tall",
+    "It grows near water"
+   ]
+  },
+  {
+   "id": "english-c10-200",
+   "type": "short",
+   "q": "Read the passage. 'The banyan tree is the national tree of India. Its branches send down thin roots that grow into the soil and become new trunks. Because of this, a single banyan can spread over a very large area and give shade to hundreds of people.' Explain how a banyan grows wider.",
+   "proposedAnswer": "Its branches send down thin roots, which grow into the soil and become new trunks, so the tree keeps spreading sideways.",
+   "keyPoints": [
+    "branches send down thin roots",
+    "roots become new trunks",
+    "the tree spreads over a large area"
+   ]
+  },
+  {
+   "id": "english-c10-201",
+   "type": "mcq",
+   "q": "Read the passage. 'Ravi stood at the edge of the stage, his hands cold. The hall was full, and every face seemed to stare at him. He remembered his teacher's advice: take a deep breath and look at one friendly face. He found his mother in the third row, smiled, and began his speech.' In which row was Ravi's mother sitting?",
+   "options": [
+    "First",
+    "Last",
+    "Third",
+    "Second"
+   ]
+  },
+  {
+   "id": "english-c10-202",
+   "type": "mcq",
+   "q": "Read the passage. 'Ravi stood at the edge of the stage, his hands cold. The hall was full, and every face seemed to stare at him. He remembered his teacher's advice: take a deep breath and look at one friendly face. He found his mother in the third row, smiled, and began his speech.' What did Ravi do to calm himself?",
+   "options": [
+    "He took a deep breath and looked at one friendly face",
+    "He left the stage",
+    "He asked for water",
+    "He read from his notes"
+   ]
+  },
+  {
+   "id": "english-c10-203",
+   "type": "mcq",
+   "q": "Read the passage. 'Ravi stood at the edge of the stage, his hands cold. The hall was full, and every face seemed to stare at him. He remembered his teacher's advice: take a deep breath and look at one friendly face. He found his mother in the third row, smiled, and began his speech.' Why were Ravi's hands cold?",
+   "options": [
+    "He was ill",
+    "He was nervous",
+    "He was angry",
+    "He was sleepy"
+   ]
+  },
+  {
+   "id": "english-c10-204",
+   "type": "short",
+   "q": "Read the passage. 'Ravi stood at the edge of the stage, his hands cold. The hall was full, and every face seemed to stare at him. He remembered his teacher's advice: take a deep breath and look at one friendly face. He found his mother in the third row, smiled, and began his speech.' How does the passage show that Ravi was nervous, and how did he overcome it?",
+   "proposedAnswer": "His cold hands and the feeling that every face was staring at him show his nervousness. He overcame it by taking a deep breath and looking at his mother's friendly face.",
+   "keyPoints": [
+    "cold hands and the staring faces show nerves",
+    "he used his teacher's advice",
+    "he focused on his mother's friendly face"
+   ]
+  },
+  {
+   "id": "english-c10-205",
+   "type": "mcq",
+   "q": "Read the passage. 'Rainwater harvesting means collecting rainwater from roofs and storing it for later use. In places where water is scarce, the stored water can be used for washing, gardening and, after proper treatment, even for drinking. The method also helps raise the level of groundwater when the water is allowed to seep into the soil.' What is rainwater harvesting?",
+   "options": [
+    "Selling rainwater",
+    "Washing roofs",
+    "Draining water into rivers",
+    "Collecting rainwater and storing it for later use"
+   ]
+  },
+  {
+   "id": "english-c10-206",
+   "type": "mcq",
+   "q": "Read the passage. 'Rainwater harvesting means collecting rainwater from roofs and storing it for later use. In places where water is scarce, the stored water can be used for washing, gardening and, after proper treatment, even for drinking. The method also helps raise the level of groundwater when the water is allowed to seep into the soil.' Which use of stored water is mentioned?",
+   "options": [
+    "Cooking oil",
+    "Running machines",
+    "Making ice",
+    "Gardening"
+   ]
+  },
+  {
+   "id": "english-c10-207",
+   "type": "mcq",
+   "q": "Read the passage. 'Rainwater harvesting means collecting rainwater from roofs and storing it for later use. In places where water is scarce, the stored water can be used for washing, gardening and, after proper treatment, even for drinking. The method also helps raise the level of groundwater when the water is allowed to seep into the soil.' How can rainwater harvesting help groundwater?",
+   "options": [
+    "By evaporating quickly",
+    "By letting water seep into the soil",
+    "By cleaning rivers",
+    "By stopping the rain"
+   ]
+  },
+  {
+   "id": "english-c10-208",
+   "type": "short",
+   "q": "Read the passage. 'Rainwater harvesting means collecting rainwater from roofs and storing it for later use. In places where water is scarce, the stored water can be used for washing, gardening and, after proper treatment, even for drinking. The method also helps raise the level of groundwater when the water is allowed to seep into the soil.' Give two uses of stored rainwater mentioned in the passage.",
+   "proposedAnswer": "Washing and gardening (and, after proper treatment, drinking).",
+   "keyPoints": [
+    "washing",
+    "gardening",
+    "drinking after treatment"
+   ]
+  },
+  {
+   "id": "english-c10-209",
+   "type": "mcq",
+   "q": "Choose the correct verb: The sun ___ in the east.",
+   "options": [
+    "rise",
+    "rises",
+    "rising",
+    "rose"
+   ]
+  },
+  {
+   "id": "english-c10-210",
+   "type": "mcq",
+   "q": "Choose the correct verb: Ria ___ a letter at this moment.",
+   "options": [
+    "writes",
+    "wrote",
+    "has written",
+    "is writing"
+   ]
+  },
+  {
+   "id": "english-c10-211",
+   "type": "mcq",
+   "q": "Choose the correct verb: My father ___ in this office since 2012.",
+   "options": [
+    "has worked",
+    "worked",
+    "works",
+    "will work"
+   ]
+  },
+  {
+   "id": "english-c10-212",
+   "type": "mcq",
+   "q": "Choose the correct verb: She ___ the cake before the guests came.",
+   "options": [
+    "bakes",
+    "is baking",
+    "had baked",
+    "has baked"
+   ]
+  },
+  {
+   "id": "english-c10-213",
+   "type": "mcq",
+   "q": "Choose the correct verb: Next week at this time, we ___ on a beach in Goa.",
+   "options": [
+    "will be relaxing",
+    "relax",
+    "have relaxed",
+    "relaxed"
+   ]
+  },
+  {
+   "id": "english-c10-214",
+   "type": "mcq",
+   "q": "Which sentence uses the correct tense?",
+   "options": [
+    "I have seen him yesterday.",
+    "She has gone there last week.",
+    "They have lived here for years.",
+    "He is knowing the way."
+   ]
+  },
+  {
+   "id": "english-c10-215",
+   "type": "short",
+   "q": "Fill in the blank with the correct form of the verb in brackets: 'The train ___ (leave) before I reached the platform.'",
+   "proposedAnswer": "had left",
+   "keyPoints": [
+    "past perfect tense",
+    "earlier of two past actions"
+   ]
+  },
+  {
+   "id": "english-c10-216",
+   "type": "short",
+   "q": "Correct the error: 'He has gone to Delhi last month.'",
+   "proposedAnswer": "He went to Delhi last month.",
+   "keyPoints": [
+    "'last month' is a finished time",
+    "simple past, not present perfect"
+   ]
+  },
+  {
+   "id": "english-c10-217",
+   "type": "mcq",
+   "q": "Choose the correct verb: The boys ___ cricket every evening.",
+   "options": [
+    "plays",
+    "is playing",
+    "has played",
+    "play"
+   ]
+  },
+  {
+   "id": "english-c10-218",
+   "type": "mcq",
+   "q": "Choose the correct verb: My friend ___ in Chennai.",
+   "options": [
+    "live",
+    "lives",
+    "living",
+    "are living"
+   ]
+  },
+  {
+   "id": "english-c10-219",
+   "type": "mcq",
+   "q": "Choose the correct verb: All of the milk ___ spilt.",
+   "options": [
+    "are",
+    "were",
+    "was",
+    "have"
+   ]
+  },
+  {
+   "id": "english-c10-220",
+   "type": "mcq",
+   "q": "Choose the correct verb: Both of my brothers ___ engineers.",
+   "options": [
+    "are",
+    "is",
+    "has",
+    "was"
+   ]
+  },
+  {
+   "id": "english-c10-221",
+   "type": "mcq",
+   "q": "Choose the correct verb: The woman as well as her children ___ safe.",
+   "options": [
+    "are",
+    "is",
+    "were",
+    "have"
+   ]
+  },
+  {
+   "id": "english-c10-222",
+   "type": "mcq",
+   "q": "Which sentence is grammatically correct?",
+   "options": [
+    "Physics are my favourite subject.",
+    "The trousers is in the cupboard.",
+    "Many a flower have bloomed.",
+    "A bunch of keys was found on the road."
+   ]
+  },
+  {
+   "id": "english-c10-223",
+   "type": "short",
+   "q": "Correct the error: 'The list of items are on the desk.'",
+   "proposedAnswer": "The list of items is on the desk.",
+   "keyPoints": [
+    "the subject is 'list'",
+    "singular verb 'is'"
+   ]
+  },
+  {
+   "id": "english-c10-224",
+   "type": "short",
+   "q": "Complete and explain: 'Two-thirds of the apples ___ rotten.'",
+   "proposedAnswer": "are. A fraction takes its verb from the noun after 'of', and 'apples' is plural.",
+   "keyPoints": [
+    "verb agrees with the noun after 'of'",
+    "apples is plural so 'are'"
+   ]
+  },
+  {
+   "id": "english-c10-225",
+   "type": "mcq",
+   "q": "Choose the correct article: My mother bought ___ umbrella.",
+   "options": [
+    "a",
+    "the",
+    "one",
+    "an"
+   ]
+  },
+  {
+   "id": "english-c10-226",
+   "type": "mcq",
+   "q": "Choose the correct article: She has ___ unique collection of stamps.",
+   "options": [
+    "an",
+    "a",
+    "the",
+    "some"
+   ]
+  },
+  {
+   "id": "english-c10-227",
+   "type": "mcq",
+   "q": "Choose the correct article: ___ Indian Ocean lies to the south of India.",
+   "options": [
+    "A",
+    "An",
+    "The",
+    "Some"
+   ]
+  },
+  {
+   "id": "english-c10-228",
+   "type": "mcq",
+   "q": "Choose the correct word: I have ___ friends in this city, so I feel at home.",
+   "options": [
+    "many",
+    "much",
+    "little",
+    "a little"
+   ]
+  },
+  {
+   "id": "english-c10-229",
+   "type": "mcq",
+   "q": "Choose the correct word: There is very ___ sugar in my tea; it tastes bitter.",
+   "options": [
+    "few",
+    "little",
+    "many",
+    "several"
+   ]
+  },
+  {
+   "id": "english-c10-230",
+   "type": "mcq",
+   "q": "Which sentence is correct?",
+   "options": [
+    "The honesty is the best policy.",
+    "He is an university student.",
+    "Please give me a water.",
+    "I need an hour to finish the work."
+   ]
+  },
+  {
+   "id": "english-c10-231",
+   "type": "short",
+   "q": "Fill in with a, an or the: 'He is ___ best player in ___ team.'",
+   "proposedAnswer": "the; the",
+   "keyPoints": [
+    "'the' before a superlative",
+    "'the' for a specific team"
+   ]
+  },
+  {
+   "id": "english-c10-232",
+   "type": "short",
+   "q": "Explain why 'the' is used in 'The poor need our help.'",
+   "proposedAnswer": "'The' before an adjective such as 'poor' makes it refer to a whole class of people, here all poor people, and the phrase takes a plural verb.",
+   "keyPoints": [
+    "the + adjective names a class of people",
+    "plural meaning"
+   ]
+  },
+  {
+   "id": "english-c10-233",
+   "type": "mcq",
+   "q": "Choose the correct word: The teacher divided the sweets ___ the twenty children.",
+   "options": [
+    "among",
+    "between",
+    "beside",
+    "besides"
+   ]
+  },
+  {
+   "id": "english-c10-234",
+   "type": "mcq",
+   "q": "Choose the correct word: She came to school ___ foot.",
+   "options": [
+    "in",
+    "by",
+    "on",
+    "with"
+   ]
+  },
+  {
+   "id": "english-c10-235",
+   "type": "mcq",
+   "q": "Choose the correct word: Mr. Das has been teaching here ___ twenty years.",
+   "options": [
+    "for",
+    "since",
+    "from",
+    "during"
+   ]
+  },
+  {
+   "id": "english-c10-236",
+   "type": "mcq",
+   "q": "Choose the correct word: I prefer tea ___ coffee.",
+   "options": [
+    "than",
+    "from",
+    "to",
+    "over"
+   ]
+  },
+  {
+   "id": "english-c10-237",
+   "type": "mcq",
+   "q": "Choose the correct word: He worked hard ___ he could pass the examination.",
+   "options": [
+    "although",
+    "unless",
+    "but",
+    "so that"
+   ]
+  },
+  {
+   "id": "english-c10-238",
+   "type": "mcq",
+   "q": "Which sentence is correct?",
+   "options": [
+    "He insisted in going.",
+    "He insisted on going.",
+    "He insisted to go.",
+    "He insisted for going."
+   ]
+  },
+  {
+   "id": "english-c10-239",
+   "type": "short",
+   "q": "Combine using 'because': 'He was absent. He was ill.'",
+   "proposedAnswer": "He was absent because he was ill.",
+   "keyPoints": [
+    "because introduces the reason",
+    "reason clause follows the result"
+   ]
+  },
+  {
+   "id": "english-c10-240",
+   "type": "short",
+   "q": "Fill in the blanks with prepositions: 'She was angry ___ me ___ forgetting her book.'",
+   "proposedAnswer": "with; for",
+   "keyPoints": [
+    "angry with a person",
+    "for the reason"
+   ]
+  },
+  {
+   "id": "english-c10-241",
+   "type": "mcq",
+   "q": "Choose the correct word: I ___ ride a bicycle when I was six.",
+   "options": [
+    "must",
+    "shall",
+    "could",
+    "need"
+   ]
+  },
+  {
+   "id": "english-c10-242",
+   "type": "mcq",
+   "q": "Choose the correct word: ___ I come in, sir?",
+   "options": [
+    "May",
+    "Must",
+    "Ought",
+    "Need"
+   ]
+  },
+  {
+   "id": "english-c10-243",
+   "type": "mcq",
+   "q": "Choose the correct word: He ___ be at home; his car is outside.",
+   "options": [
+    "can",
+    "must",
+    "shall",
+    "dare"
+   ]
+  },
+  {
+   "id": "english-c10-244",
+   "type": "mcq",
+   "q": "Choose the correct word: ___ you like some more rice?",
+   "options": [
+    "Can",
+    "Must",
+    "Shall",
+    "Would"
+   ]
+  },
+  {
+   "id": "english-c10-245",
+   "type": "mcq",
+   "q": "Choose the correct word: Students ___ keep silence in the library.",
+   "options": [
+    "might",
+    "can",
+    "would",
+    "should"
+   ]
+  },
+  {
+   "id": "english-c10-246",
+   "type": "mcq",
+   "q": "Which sentence shows a prohibition?",
+   "options": [
+    "You may leave now.",
+    "You must not enter this room.",
+    "You need not enter this room.",
+    "You can enter this room."
+   ]
+  },
+  {
+   "id": "english-c10-247",
+   "type": "short",
+   "q": "Rewrite using 'can': 'She is able to solve the problem.'",
+   "proposedAnswer": "She can solve the problem.",
+   "keyPoints": [
+    "can expresses ability",
+    "base form of the verb follows"
+   ]
+  },
+  {
+   "id": "english-c10-248",
+   "type": "short",
+   "q": "Explain why 'He can swims' is wrong and write the correct sentence.",
+   "proposedAnswer": "A modal verb is followed by the base form of the verb, with no -s. The correct sentence is 'He can swim.'",
+   "keyPoints": [
+    "modals take the base form",
+    "no -s after a modal",
+    "He can swim"
+   ]
+  },
+  {
+   "id": "english-c10-249",
+   "type": "mcq",
+   "q": "Choose the correct verb: The song ___ by the children.",
+   "options": [
+    "sang",
+    "sings",
+    "was sung",
+    "has sang"
+   ]
+  },
+  {
+   "id": "english-c10-250",
+   "type": "mcq",
+   "q": "Choose the correct verb: Letters ___ by the postman every day.",
+   "options": [
+    "are delivered",
+    "delivers",
+    "delivered",
+    "is delivering"
+   ]
+  },
+  {
+   "id": "english-c10-251",
+   "type": "mcq",
+   "q": "Choose the passive voice of: 'He had written a letter.'",
+   "options": [
+    "A letter was written by him.",
+    "A letter had been written by him.",
+    "A letter has been written by him.",
+    "A letter is written by him."
+   ]
+  },
+  {
+   "id": "english-c10-252",
+   "type": "mcq",
+   "q": "Choose the passive voice of: 'Do you know him?'",
+   "options": [
+    "Is he knew by you?",
+    "Are he known by you?",
+    "Does he be known to you?",
+    "Is he known to you?"
+   ]
+  },
+  {
+   "id": "english-c10-253",
+   "type": "mcq",
+   "q": "Choose the passive voice of: 'She will sing a song.'",
+   "options": [
+    "A song will be sung by her.",
+    "A song will sung by her.",
+    "A song would be sung by her.",
+    "A song is sung by her."
+   ]
+  },
+  {
+   "id": "english-c10-254",
+   "type": "mcq",
+   "q": "Which sentence is in the active voice?",
+   "options": [
+    "The bridge was built in 1950.",
+    "Rice is grown in Punjab.",
+    "The farmers grow rice in Punjab.",
+    "The tickets were sold out."
+   ]
+  },
+  {
+   "id": "english-c10-255",
+   "type": "short",
+   "q": "Change into the passive voice: 'The gardener waters the plants every morning.'",
+   "proposedAnswer": "The plants are watered by the gardener every morning.",
+   "keyPoints": [
+    "plants becomes the subject",
+    "are watered (present passive)"
+   ]
+  },
+  {
+   "id": "english-c10-256",
+   "type": "short",
+   "q": "Change into the passive voice: 'People say that honesty is the best policy.'",
+   "proposedAnswer": "It is said that honesty is the best policy.",
+   "keyPoints": [
+    "impersonal passive with 'It'",
+    "is said that"
+   ]
+  },
+  {
+   "id": "english-c10-257",
+   "type": "mcq",
+   "q": "Choose the correct indirect speech: She said, 'I live in Pune.'",
+   "options": [
+    "She said that she lived in Pune.",
+    "She said that I lived in Pune.",
+    "She said that she would live in Pune.",
+    "She said that she had live in Pune."
+   ]
+  },
+  {
+   "id": "english-c10-258",
+   "type": "mcq",
+   "q": "Choose the correct indirect speech: He said, 'I can swim.'",
+   "options": [
+    "He said that I could swim.",
+    "He said that he would swim.",
+    "He said that he could swim.",
+    "He said that he can to swim."
+   ]
+  },
+  {
+   "id": "english-c10-259",
+   "type": "mcq",
+   "q": "Choose the correct indirect speech: She said, 'My brother is coming today.'",
+   "options": [
+    "She said that my brother was coming that day.",
+    "She said that her brother had come that day.",
+    "She said that her brother would come the next day.",
+    "She said that her brother was coming that day."
+   ]
+  },
+  {
+   "id": "english-c10-260",
+   "type": "mcq",
+   "q": "Choose the correct indirect speech: He said to her, 'Are you ready?'",
+   "options": [
+    "He asked her that she was ready.",
+    "He asked her if she was ready.",
+    "He asked her was she ready.",
+    "He asked her what she was ready."
+   ]
+  },
+  {
+   "id": "english-c10-261",
+   "type": "mcq",
+   "q": "Choose the correct indirect speech: The mother said to the child, 'Please sit down.'",
+   "options": [
+    "The mother said to the child that please sit down.",
+    "The mother requested the child that sit down.",
+    "The mother requested the child to sit down.",
+    "The mother asked the child sit down."
+   ]
+  },
+  {
+   "id": "english-c10-262",
+   "type": "mcq",
+   "q": "Choose the correct indirect speech: Rahul said, 'Hurrah! We have won the match.'",
+   "options": [
+    "Rahul exclaimed with joy that they had won the match.",
+    "Rahul exclaimed with joy that we had won the match.",
+    "Rahul exclaimed with sorrow that they had won the match.",
+    "Rahul exclaimed with joy that they would win the match."
+   ]
+  },
+  {
+   "id": "english-c10-263",
+   "type": "short",
+   "q": "Change into indirect speech: Seema said to me, 'I will help you.'",
+   "proposedAnswer": "Seema told me that she would help me.",
+   "keyPoints": [
+    "said to becomes told",
+    "will becomes would",
+    "pronouns change: I to she, you to me"
+   ]
+  },
+  {
+   "id": "english-c10-264",
+   "type": "short",
+   "q": "Change into direct speech: She asked him whether he had seen her bag.",
+   "proposedAnswer": "She said to him, 'Have you seen my bag?'",
+   "keyPoints": [
+    "asked becomes said to",
+    "question order restored with a question mark",
+    "he becomes you, her becomes my, had seen becomes have seen"
+   ]
+  },
+  {
+   "id": "english-c10-265",
+   "type": "mcq",
+   "q": "Which of these is a coordinating conjunction?",
+   "options": [
+    "because",
+    "but",
+    "although",
+    "unless"
+   ]
+  },
+  {
+   "id": "english-c10-266",
+   "type": "mcq",
+   "q": "Which of these is a complex sentence?",
+   "options": [
+    "He came and I left.",
+    "She sings well.",
+    "Come here at once.",
+    "I did not go because it was raining."
+   ]
+  },
+  {
+   "id": "english-c10-267",
+   "type": "mcq",
+   "q": "Combine using a relative pronoun: 'The man is my uncle. He lives next door.'",
+   "options": [
+    "The man who is my uncle who lives next door.",
+    "The man which lives next door is my uncle.",
+    "The man whom lives next door is my uncle.",
+    "The man who lives next door is my uncle."
+   ]
+  },
+  {
+   "id": "english-c10-268",
+   "type": "mcq",
+   "q": "Change the degree: 'Iron is the most useful metal.'",
+   "options": [
+    "Iron is as useful as any other metal.",
+    "Iron is more useful than any other metal.",
+    "Iron is the more useful than other metal.",
+    "Iron is useful than any metal."
+   ]
+  },
+  {
+   "id": "english-c10-269",
+   "type": "mcq",
+   "q": "Rewrite in the negative form: 'Everyone likes ice cream.'",
+   "options": [
+    "Nobody likes ice cream.",
+    "Somebody dislikes ice cream.",
+    "Nobody dislikes ice cream.",
+    "No one wants ice cream."
+   ]
+  },
+  {
+   "id": "english-c10-270",
+   "type": "mcq",
+   "q": "Which sentence contains a noun clause?",
+   "options": [
+    "I do not know where she lives.",
+    "The girl who lives here is kind.",
+    "Because he was late, he was scolded.",
+    "She sang while he played."
+   ]
+  },
+  {
+   "id": "english-c10-271",
+   "type": "short",
+   "q": "Change into an assertive sentence: 'Who can doubt his honesty?'",
+   "proposedAnswer": "No one can doubt his honesty.",
+   "keyPoints": [
+    "rhetorical question becomes a statement",
+    "negative meaning: no one"
+   ]
+  },
+  {
+   "id": "english-c10-272",
+   "type": "short",
+   "q": "Combine using a participle: 'She finished her work. She went out to play.'",
+   "proposedAnswer": "Having finished her work, she went out to play.",
+   "keyPoints": [
+    "perfect participle 'Having finished'",
+    "comma after the participle phrase"
+   ]
+  },
+  {
+   "id": "english-c10-273",
+   "type": "mcq",
+   "q": "Which sentence is punctuated correctly?",
+   "options": [
+    "Where is my book.",
+    "Where is my book?",
+    "Where is my book!",
+    "where is my book?"
+   ]
+  },
+  {
+   "id": "english-c10-274",
+   "type": "mcq",
+   "q": "Which sentence has correct capital letters?",
+   "options": [
+    "my uncle lives in mumbai.",
+    "My uncle lives in mumbai.",
+    "my uncle lives in Mumbai.",
+    "My uncle lives in Mumbai."
+   ]
+  },
+  {
+   "id": "english-c10-275",
+   "type": "mcq",
+   "q": "Which sentence uses commas correctly?",
+   "options": [
+    "Delhi, the capital of India, is a big city.",
+    "Delhi the capital, of India is a big city.",
+    "Delhi, the capital of India is, a big city.",
+    "Delhi the capital of India, is a big city."
+   ]
+  },
+  {
+   "id": "english-c10-276",
+   "type": "mcq",
+   "q": "Choose the correct possessive form: The ___ playground is closed.",
+   "options": [
+    "childrens'",
+    "childrens",
+    "children's",
+    "childrens's"
+   ]
+  },
+  {
+   "id": "english-c10-277",
+   "type": "mcq",
+   "q": "Which sentence uses hyphens correctly?",
+   "options": [
+    "She is my sister-in-law.",
+    "She is my sister in-law.",
+    "She is my sister-in law.",
+    "She is my sis-ter-in-law."
+   ]
+  },
+  {
+   "id": "english-c10-278",
+   "type": "mcq",
+   "q": "Which sentence is punctuated correctly?",
+   "options": [
+    "'Stop' shouted the guard!",
+    "'Stop,!' shouted the guard.",
+    "'Stop!' shouted the guard.",
+    "Stop! 'shouted the guard'."
+   ]
+  },
+  {
+   "id": "english-c10-279",
+   "type": "short",
+   "q": "Punctuate correctly: the boy asked his mother may i go out to play",
+   "proposedAnswer": "The boy asked his mother, 'May I go out to play?'",
+   "keyPoints": [
+    "capital letters for The and May",
+    "comma before the quotation",
+    "inverted commas and a question mark"
+   ]
+  },
+  {
+   "id": "english-c10-280",
+   "type": "short",
+   "q": "Insert the missing commas: My teacher Mr Rao who is very strict gave us extra homework.",
+   "proposedAnswer": "My teacher, Mr Rao, who is very strict, gave us extra homework.",
+   "keyPoints": [
+    "commas around the name Mr Rao",
+    "commas around the clause who is very strict"
+   ]
+  },
+  {
+   "id": "english-c10-281",
+   "type": "mcq",
+   "q": "Choose the synonym of 'begin'.",
+   "options": [
+    "end",
+    "stop",
+    "delay",
+    "start"
+   ]
+  },
+  {
+   "id": "english-c10-282",
+   "type": "mcq",
+   "q": "Choose the antonym of 'brave'.",
+   "options": [
+    "bold",
+    "cowardly",
+    "strong",
+    "clever"
+   ]
+  },
+  {
+   "id": "english-c10-283",
+   "type": "mcq",
+   "q": "What is a person who travels on foot called?",
+   "options": [
+    "passenger",
+    "driver",
+    "pedestrian",
+    "tourist"
+   ]
+  },
+  {
+   "id": "english-c10-284",
+   "type": "mcq",
+   "q": "Choose the correctly spelt word.",
+   "options": [
+    "separate",
+    "seperate",
+    "separete",
+    "sepurate"
+   ]
+  },
+  {
+   "id": "english-c10-285",
+   "type": "mcq",
+   "q": "The prefix 'mis-' in 'misunderstand' means",
+   "options": [
+    "again",
+    "wrongly",
+    "before",
+    "not"
+   ]
+  },
+  {
+   "id": "english-c10-286",
+   "type": "mcq",
+   "q": "If a person is 'reluctant' to speak, he is",
+   "options": [
+    "eager",
+    "angry",
+    "tired",
+    "unwilling"
+   ]
+  },
+  {
+   "id": "english-c10-287",
+   "type": "short",
+   "q": "Write the plural forms of 'child', 'tooth' and 'sheep'.",
+   "proposedAnswer": "children, teeth, sheep",
+   "keyPoints": [
+    "child - children",
+    "tooth - teeth",
+    "sheep - sheep"
+   ]
+  },
+  {
+   "id": "english-c10-288",
+   "type": "short",
+   "q": "Explain the difference between 'principal' and 'principle', with a sentence for each.",
+   "proposedAnswer": "'Principal' means the head of a school (or main): The principal addressed us. 'Principle' means a rule or belief: Honesty is a good principle.",
+   "keyPoints": [
+    "principal = head of a school or chief",
+    "principle = rule or belief",
+    "a sentence for each"
+   ]
+  },
+  {
+   "id": "english-c10-289",
+   "type": "mcq",
+   "q": "What does the idiom 'break a leg' mean when said before a performance?",
+   "options": [
+    "to hurt oneself",
+    "to run fast",
+    "to be lazy",
+    "to wish someone good luck"
+   ]
+  },
+  {
+   "id": "english-c10-290",
+   "type": "mcq",
+   "q": "What does the idiom 'it is raining cats and dogs' mean?",
+   "options": [
+    "It is raining very lightly.",
+    "It is raining very heavily.",
+    "Animals are falling from the sky.",
+    "It is raining at night."
+   ]
+  },
+  {
+   "id": "english-c10-291",
+   "type": "mcq",
+   "q": "What does the idiom 'to call it a day' mean?",
+   "options": [
+    "to name a day",
+    "to start work",
+    "to stop working for the day",
+    "to make a phone call"
+   ]
+  },
+  {
+   "id": "english-c10-292",
+   "type": "mcq",
+   "q": "What does 'the black sheep of the family' mean?",
+   "options": [
+    "a person who is seen as a disgrace to the family",
+    "a kind of sheep",
+    "a very rich person",
+    "the leader of the family"
+   ]
+  },
+  {
+   "id": "english-c10-293",
+   "type": "mcq",
+   "q": "What does the phrasal verb 'carry out' mean in 'The doctors carried out the test'?",
+   "options": [
+    "to lift",
+    "to perform or complete",
+    "to leave",
+    "to cancel"
+   ]
+  },
+  {
+   "id": "english-c10-294",
+   "type": "mcq",
+   "q": "Choose the correct phrasal verb: The hikers had to ___ the climb because of the storm.",
+   "options": [
+    "take up",
+    "set out",
+    "run into",
+    "give up"
+   ]
+  },
+  {
+   "id": "english-c10-295",
+   "type": "short",
+   "q": "Explain the idiom 'to add fuel to the fire' and use it in a sentence.",
+   "proposedAnswer": "It means to make a bad situation worse: His angry reply only added fuel to the fire.",
+   "keyPoints": [
+    "means to worsen a difficult situation",
+    "correct example sentence"
+   ]
+  },
+  {
+   "id": "english-c10-296",
+   "type": "short",
+   "q": "Explain the phrasal verb 'run out of' and use it in a sentence.",
+   "proposedAnswer": "'Run out of' means to have no more of something: We ran out of milk this morning.",
+   "keyPoints": [
+    "means to have none left",
+    "correct example sentence"
+   ]
+  },
+  {
+   "id": "english-c10-297",
+   "type": "mcq",
+   "q": "Read the passage. 'Ladakh is a cold desert high in the mountains. It receives very little rain, and winter temperatures can fall far below freezing. Even so, farmers there grow barley and apricots, using water from melting glaciers carried through narrow channels to their fields.' What do farmers in Ladakh grow, according to the passage?",
+   "options": [
+    "Barley and apricots",
+    "Rice and tea",
+    "Cotton and jute",
+    "Coffee and rubber"
+   ]
+  },
+  {
+   "id": "english-c10-298",
+   "type": "mcq",
+   "q": "Read the passage. 'Ladakh is a cold desert high in the mountains. It receives very little rain, and winter temperatures can fall far below freezing. Even so, farmers there grow barley and apricots, using water from melting glaciers carried through narrow channels to their fields.' Where do the farmers get water for their fields?",
+   "options": [
+    "From heavy monsoon rain",
+    "From deep tube wells",
+    "From melting glaciers",
+    "From the sea"
+   ]
+  },
+  {
+   "id": "english-c10-299",
+   "type": "mcq",
+   "q": "Read the passage. 'Ladakh is a cold desert high in the mountains. It receives very little rain, and winter temperatures can fall far below freezing. Even so, farmers there grow barley and apricots, using water from melting glaciers carried through narrow channels to their fields.' Why is Ladakh described as a 'cold desert'?",
+   "options": [
+    "It is cold and receives very little rain",
+    "It is full of sand dunes",
+    "It has no people",
+    "It has no mountains"
+   ]
+  },
+  {
+   "id": "english-c10-300",
+   "type": "short",
+   "q": "Read the passage. 'Ladakh is a cold desert high in the mountains. It receives very little rain, and winter temperatures can fall far below freezing. Even so, farmers there grow barley and apricots, using water from melting glaciers carried through narrow channels to their fields.' How do Ladakh's farmers manage to grow crops despite the harsh climate?",
+   "proposedAnswer": "They bring water from melting glaciers through narrow channels to their fields and grow crops such as barley and apricots.",
+   "keyPoints": [
+    "use water from melting glaciers",
+    "carried through narrow channels",
+    "grow hardy crops like barley and apricots"
+   ]
+  },
+  {
+   "id": "english-c10-301",
+   "type": "mcq",
+   "q": "Read the passage. 'The old clock in the village square had stopped years ago, but nobody had bothered to repair it. One day, a young boy named Imran climbed the tower with a small toolbox. After two days of patient work, the hands began to move again. People gathered below and cheered, and the first chime rang out across the fields.' Who repaired the clock?",
+   "options": [
+    "The village head",
+    "A tourist",
+    "Imran",
+    "A watchmaker"
+   ]
+  },
+  {
+   "id": "english-c10-302",
+   "type": "mcq",
+   "q": "Read the passage. 'The old clock in the village square had stopped years ago, but nobody had bothered to repair it. One day, a young boy named Imran climbed the tower with a small toolbox. After two days of patient work, the hands began to move again. People gathered below and cheered, and the first chime rang out across the fields.' How long did Imran take to repair the clock?",
+   "options": [
+    "One hour",
+    "One week",
+    "Two weeks",
+    "Two days"
+   ]
+  },
+  {
+   "id": "english-c10-303",
+   "type": "mcq",
+   "q": "Read the passage. 'The old clock in the village square had stopped years ago, but nobody had bothered to repair it. One day, a young boy named Imran climbed the tower with a small toolbox. After two days of patient work, the hands began to move again. People gathered below and cheered, and the first chime rang out across the fields.' What does 'patient work' tell us about Imran?",
+   "options": [
+    "He was in a hurry",
+    "He worked carefully without giving up",
+    "He was lazy",
+    "He disliked the clock"
+   ]
+  },
+  {
+   "id": "english-c10-304",
+   "type": "short",
+   "q": "Read the passage. 'The old clock in the village square had stopped years ago, but nobody had bothered to repair it. One day, a young boy named Imran climbed the tower with a small toolbox. After two days of patient work, the hands began to move again. People gathered below and cheered, and the first chime rang out across the fields.' How did the villagers react when the clock started again?",
+   "proposedAnswer": "They gathered below the tower and cheered.",
+   "keyPoints": [
+    "people gathered below",
+    "they cheered"
+   ]
+  },
+  {
+   "id": "english-c10-305",
+   "type": "mcq",
+   "q": "Read the passage. 'The Great Indian bustard is a large bird found in dry grasslands. Its numbers have fallen sharply because its grassland habitat has been turned into farms, and because power lines in its path are dangerous. Conservation groups are protecting nesting areas and marking power lines so that birds can see them.' Where is the Great Indian bustard found?",
+   "options": [
+    "In dense forests",
+    "On snowy mountains",
+    "In dry grasslands",
+    "Near the sea"
+   ]
+  },
+  {
+   "id": "english-c10-306",
+   "type": "mcq",
+   "q": "Read the passage. 'The Great Indian bustard is a large bird found in dry grasslands. Its numbers have fallen sharply because its grassland habitat has been turned into farms, and because power lines in its path are dangerous. Conservation groups are protecting nesting areas and marking power lines so that birds can see them.' Which threat to the bird is mentioned?",
+   "options": [
+    "Loss of grassland to farms",
+    "Too much rainfall",
+    "A shortage of insects",
+    "Competition from tigers"
+   ]
+  },
+  {
+   "id": "english-c10-307",
+   "type": "mcq",
+   "q": "Read the passage. 'The Great Indian bustard is a large bird found in dry grasslands. Its numbers have fallen sharply because its grassland habitat has been turned into farms, and because power lines in its path are dangerous. Conservation groups are protecting nesting areas and marking power lines so that birds can see them.' Why are power lines being marked?",
+   "options": [
+    "To attract more birds",
+    "So that birds can see them and avoid them",
+    "To light up the nests",
+    "To warn farmers"
+   ]
+  },
+  {
+   "id": "english-c10-308",
+   "type": "short",
+   "q": "Read the passage. 'The Great Indian bustard is a large bird found in dry grasslands. Its numbers have fallen sharply because its grassland habitat has been turned into farms, and because power lines in its path are dangerous. Conservation groups are protecting nesting areas and marking power lines so that birds can see them.' Name two causes of the fall in numbers and one step taken to help the bird.",
+   "proposedAnswer": "Causes: grassland turned into farms and dangerous power lines. Step: protecting nesting areas (or marking power lines).",
+   "keyPoints": [
+    "loss of grassland habitat",
+    "danger from power lines",
+    "protecting nesting areas or marking power lines"
+   ]
+  },
+  {
+   "id": "english-c10-309",
+   "type": "mcq",
+   "q": "Read the passage. 'Kavya's school bus broke down halfway to the museum. While the driver called for help, the teacher suggested a game: each student had to describe the museum they imagined. By the time a new bus arrived, the children had spoken about robots, dinosaurs and ancient coins, and nobody was grumbling about the delay.' What happened to the school bus?",
+   "options": [
+    "It was stolen",
+    "It reached late",
+    "It was sold",
+    "It broke down"
+   ]
+  },
+  {
+   "id": "english-c10-310",
+   "type": "mcq",
+   "q": "Read the passage. 'Kavya's school bus broke down halfway to the museum. While the driver called for help, the teacher suggested a game: each student had to describe the museum they imagined. By the time a new bus arrived, the children had spoken about robots, dinosaurs and ancient coins, and nobody was grumbling about the delay.' What did the teacher suggest?",
+   "options": [
+    "Walking to the museum",
+    "Going back to school",
+    "Sleeping until help came",
+    "A game of describing an imagined museum"
+   ]
+  },
+  {
+   "id": "english-c10-311",
+   "type": "mcq",
+   "q": "Read the passage. 'Kavya's school bus broke down halfway to the museum. While the driver called for help, the teacher suggested a game: each student had to describe the museum they imagined. By the time a new bus arrived, the children had spoken about robots, dinosaurs and ancient coins, and nobody was grumbling about the delay.' What does the passage suggest about the teacher's idea?",
+   "options": [
+    "It made the delay worse",
+    "It kept the children cheerful during the wait",
+    "It was ignored by everyone",
+    "It made the driver angry"
+   ]
+  },
+  {
+   "id": "english-c10-312",
+   "type": "short",
+   "q": "Read the passage. 'Kavya's school bus broke down halfway to the museum. While the driver called for help, the teacher suggested a game: each student had to describe the museum they imagined. By the time a new bus arrived, the children had spoken about robots, dinosaurs and ancient coins, and nobody was grumbling about the delay.' How did the children spend the time while waiting?",
+   "proposedAnswer": "They played a game in which each described an imagined museum, talking about robots, dinosaurs and ancient coins.",
+   "keyPoints": [
+    "played the teacher's game",
+    "described an imagined museum",
+    "robots, dinosaurs and coins"
+   ]
+  },
+  {
+   "id": "english-c10-313",
+   "type": "mcq",
+   "q": "Choose the correct verb: My grandmother ___ tea every morning.",
+   "options": [
+    "drink",
+    "drinks",
+    "drinking",
+    "drunk"
+   ]
+  },
+  {
+   "id": "english-c10-314",
+   "type": "mcq",
+   "q": "Choose the correct verb: Listen! Someone ___ at the door.",
+   "options": [
+    "knocks",
+    "knocked",
+    "has knocked",
+    "is knocking"
+   ]
+  },
+  {
+   "id": "english-c10-315",
+   "type": "mcq",
+   "q": "Choose the correct verb: I ___ him since childhood.",
+   "options": [
+    "have known",
+    "knew",
+    "know",
+    "am knowing"
+   ]
+  },
+  {
+   "id": "english-c10-316",
+   "type": "mcq",
+   "q": "Choose the correct verb: The match ___ before we reached the ground.",
+   "options": [
+    "starts",
+    "is starting",
+    "had started",
+    "has started"
+   ]
+  },
+  {
+   "id": "english-c10-317",
+   "type": "mcq",
+   "q": "Choose the correct verb: This time tomorrow, I ___ an exam.",
+   "options": [
+    "will be writing",
+    "wrote",
+    "have written",
+    "write"
+   ]
+  },
+  {
+   "id": "english-c10-318",
+   "type": "mcq",
+   "q": "Which sentence is correct?",
+   "options": [
+    "When I will reach, I will call you.",
+    "If he will come, I will go.",
+    "When I reach home, I will call you.",
+    "I will call you when I will reach."
+   ]
+  },
+  {
+   "id": "english-c10-319",
+   "type": "short",
+   "q": "Change into the present perfect tense: 'They finished the project.'",
+   "proposedAnswer": "They have finished the project.",
+   "keyPoints": [
+    "have + past participle",
+    "finished becomes have finished"
+   ]
+  },
+  {
+   "id": "english-c10-320",
+   "type": "short",
+   "q": "Correct the error: 'Since morning it is raining.'",
+   "proposedAnswer": "It has been raining since morning.",
+   "keyPoints": [
+    "'since' needs a perfect tense",
+    "present perfect continuous: has been raining"
+   ]
+  },
+  {
+   "id": "english-c10-321",
+   "type": "mcq",
+   "q": "Choose the correct verb: The flowers ___ beautiful.",
+   "options": [
+    "is",
+    "was",
+    "has",
+    "are"
+   ]
+  },
+  {
+   "id": "english-c10-322",
+   "type": "mcq",
+   "q": "Choose the correct verb: He ___ his homework daily.",
+   "options": [
+    "do",
+    "does",
+    "doing",
+    "are doing"
+   ]
+  },
+  {
+   "id": "english-c10-323",
+   "type": "mcq",
+   "q": "Choose the correct verb: Everyone ___ invited to the party.",
+   "options": [
+    "are",
+    "were",
+    "is",
+    "have"
+   ]
+  },
+  {
+   "id": "english-c10-324",
+   "type": "mcq",
+   "q": "Choose the correct verb: The principal and the teachers ___ present.",
+   "options": [
+    "are",
+    "is",
+    "has",
+    "was"
+   ]
+  },
+  {
+   "id": "english-c10-325",
+   "type": "mcq",
+   "q": "Choose the correct verb: The quality of these mangoes ___ excellent.",
+   "options": [
+    "are",
+    "is",
+    "were",
+    "have"
+   ]
+  },
+  {
+   "id": "english-c10-326",
+   "type": "mcq",
+   "q": "Which sentence is grammatically correct?",
+   "options": [
+    "The cattle is grazing in the field.",
+    "My spectacles is broken.",
+    "The news were broadcast at nine.",
+    "Neither the boy nor the girl was absent."
+   ]
+  },
+  {
+   "id": "english-c10-327",
+   "type": "short",
+   "q": "Correct the error: 'The sceneries of Kashmir is charming.'",
+   "proposedAnswer": "The scenery of Kashmir is charming.",
+   "keyPoints": [
+    "scenery is uncountable and has no plural",
+    "singular verb is"
+   ]
+  },
+  {
+   "id": "english-c10-328",
+   "type": "short",
+   "q": "Complete and explain: 'The Arabian Nights ___ a collection of stories.'",
+   "proposedAnswer": "is. The title names a single work, so it takes a singular verb even though it looks plural.",
+   "keyPoints": [
+    "title of one book is singular",
+    "verb is 'is'"
+   ]
+  },
+  {
+   "id": "english-c10-329",
+   "type": "mcq",
+   "q": "Choose the correct article: I read ___ interesting article.",
+   "options": [
+    "a",
+    "the",
+    "one",
+    "an"
+   ]
+  },
+  {
+   "id": "english-c10-330",
+   "type": "mcq",
+   "q": "Choose the correct article: He bought ___ useful book.",
+   "options": [
+    "an",
+    "a",
+    "the",
+    "some"
+   ]
+  },
+  {
+   "id": "english-c10-331",
+   "type": "mcq",
+   "q": "Choose the correct article: ___ Taj Mahal is in Agra.",
+   "options": [
+    "A",
+    "An",
+    "The",
+    "This"
+   ]
+  },
+  {
+   "id": "english-c10-332",
+   "type": "mcq",
+   "q": "Choose the correct word: He has ___ interest in sports, so he rarely plays.",
+   "options": [
+    "little",
+    "few",
+    "many",
+    "several"
+   ]
+  },
+  {
+   "id": "english-c10-333",
+   "type": "mcq",
+   "q": "Choose the correct word: ___ student must carry an identity card.",
+   "options": [
+    "All",
+    "Every",
+    "Both",
+    "Many"
+   ]
+  },
+  {
+   "id": "english-c10-334",
+   "type": "mcq",
+   "q": "Which sentence is correct?",
+   "options": [
+    "The Mount Everest is the highest peak.",
+    "I have the headache.",
+    "She is an one-rupee coin collector.",
+    "My brother wants to be an astronaut."
+   ]
+  },
+  {
+   "id": "english-c10-335",
+   "type": "short",
+   "q": "Fill in with 'some' or 'any': (a) I have ___ questions. (b) Do you have ___ questions?",
+   "proposedAnswer": "(a) some (b) any",
+   "keyPoints": [
+    "some in positive statements",
+    "any in questions"
+   ]
+  },
+  {
+   "id": "english-c10-336",
+   "type": "short",
+   "q": "Explain the difference in meaning between 'a few' and 'few'.",
+   "proposedAnswer": "'A few' means some, a small number (a positive idea). 'Few' means hardly any (a negative idea).",
+   "keyPoints": [
+    "a few = some",
+    "few = hardly any"
+   ]
+  },
+  {
+   "id": "english-c10-337",
+   "type": "mcq",
+   "q": "Choose the correct word: The picture is hanging ___ the wall.",
+   "options": [
+    "on",
+    "in",
+    "between",
+    "through"
+   ]
+  },
+  {
+   "id": "english-c10-338",
+   "type": "mcq",
+   "q": "Choose the correct word: He jumped ___ the river.",
+   "options": [
+    "on",
+    "at",
+    "into",
+    "with"
+   ]
+  },
+  {
+   "id": "english-c10-339",
+   "type": "mcq",
+   "q": "Choose the correct word: She is interested ___ painting.",
+   "options": [
+    "in",
+    "on",
+    "at",
+    "for"
+   ]
+  },
+  {
+   "id": "english-c10-340",
+   "type": "mcq",
+   "q": "Choose the correct word: He has been absent ___ Monday.",
+   "options": [
+    "for",
+    "from",
+    "since",
+    "during"
+   ]
+  },
+  {
+   "id": "english-c10-341",
+   "type": "mcq",
+   "q": "Choose the correct word: She is poor, ___ she is happy.",
+   "options": [
+    "so",
+    "because",
+    "for",
+    "but"
+   ]
+  },
+  {
+   "id": "english-c10-342",
+   "type": "mcq",
+   "q": "Which sentence is correct?",
+   "options": [
+    "He is senior than me.",
+    "He is senior to me.",
+    "He is senior from me.",
+    "He is senior of me."
+   ]
+  },
+  {
+   "id": "english-c10-343",
+   "type": "short",
+   "q": "Join using 'so that': 'She saved money. She could buy a bicycle.'",
+   "proposedAnswer": "She saved money so that she could buy a bicycle.",
+   "keyPoints": [
+    "so that introduces purpose",
+    "could follows in the past"
+   ]
+  },
+  {
+   "id": "english-c10-344",
+   "type": "short",
+   "q": "Fill in the blanks with prepositions: 'The children were excited ___ the trip, and they thanked their teacher ___ organising it.'",
+   "proposedAnswer": "about; for",
+   "keyPoints": [
+    "excited about",
+    "thank someone for"
+   ]
+  },
+  {
+   "id": "english-c10-345",
+   "type": "mcq",
+   "q": "Choose the correct word: Cats ___ see in dim light.",
+   "options": [
+    "must",
+    "shall",
+    "can",
+    "dare"
+   ]
+  },
+  {
+   "id": "english-c10-346",
+   "type": "mcq",
+   "q": "Choose the correct word: ___ I help you with your bag?",
+   "options": [
+    "Shall",
+    "Must",
+    "Ought",
+    "Need"
+   ]
+  },
+  {
+   "id": "english-c10-347",
+   "type": "mcq",
+   "q": "Choose the correct word: She has worked for sixteen hours, so she ___ be very tired.",
+   "options": [
+    "can",
+    "must",
+    "shall",
+    "dare"
+   ]
+  },
+  {
+   "id": "english-c10-348",
+   "type": "mcq",
+   "q": "Choose the correct word: You ___ better take a taxi; it is getting late.",
+   "options": [
+    "would",
+    "should",
+    "could",
+    "had"
+   ]
+  },
+  {
+   "id": "english-c10-349",
+   "type": "mcq",
+   "q": "Choose the correct word: I ___ rather walk than take a bus.",
+   "options": [
+    "will",
+    "can",
+    "should",
+    "would"
+   ]
+  },
+  {
+   "id": "english-c10-350",
+   "type": "mcq",
+   "q": "Which sentence expresses ability?",
+   "options": [
+    "She may win the race.",
+    "She can speak four languages.",
+    "She must win the race.",
+    "She should win the race."
+   ]
+  },
+  {
+   "id": "english-c10-351",
+   "type": "short",
+   "q": "Rewrite using 'may': 'Perhaps it will rain tomorrow.'",
+   "proposedAnswer": "It may rain tomorrow.",
+   "keyPoints": [
+    "may expresses possibility",
+    "base form rain follows"
+   ]
+  },
+  {
+   "id": "english-c10-352",
+   "type": "short",
+   "q": "Explain the difference between 'He used to play cricket' and 'He is used to playing cricket'.",
+   "proposedAnswer": "'Used to play' describes a habit in the past that no longer exists. 'Is used to playing' means he is accustomed to playing now.",
+   "keyPoints": [
+    "used to + verb = past habit",
+    "be used to + -ing = accustomed to"
+   ]
+  },
+  {
+   "id": "english-c10-353",
+   "type": "mcq",
+   "q": "Choose the correct verb: The thief ___ by the police.",
+   "options": [
+    "caught",
+    "catches",
+    "was caught",
+    "has catch"
+   ]
+  },
+  {
+   "id": "english-c10-354",
+   "type": "mcq",
+   "q": "Choose the correct verb: A new school ___ in our town.",
+   "options": [
+    "is being built",
+    "builds",
+    "built",
+    "is building"
+   ]
+  },
+  {
+   "id": "english-c10-355",
+   "type": "mcq",
+   "q": "Choose the passive voice of: 'Mohan is writing a letter.'",
+   "options": [
+    "A letter is written by Mohan.",
+    "A letter is being written by Mohan.",
+    "A letter was being written by Mohan.",
+    "A letter has been written by Mohan."
+   ]
+  },
+  {
+   "id": "english-c10-356",
+   "type": "mcq",
+   "q": "Choose the passive voice of: 'They have sold the house.'",
+   "options": [
+    "The house is sold by them.",
+    "The house was sold by them.",
+    "The house had been sold by them.",
+    "The house has been sold by them."
+   ]
+  },
+  {
+   "id": "english-c10-357",
+   "type": "mcq",
+   "q": "Choose the passive voice of: 'Who broke the vase?'",
+   "options": [
+    "By whom was the vase broken?",
+    "Who was the vase broken?",
+    "By whom the vase was broken?",
+    "Who is the vase broken by?"
+   ]
+  },
+  {
+   "id": "english-c10-358",
+   "type": "mcq",
+   "q": "Which of these sentences cannot be changed into the passive voice?",
+   "options": [
+    "He loves her.",
+    "She sold the car.",
+    "The sun shines brightly.",
+    "They painted the wall."
+   ]
+  },
+  {
+   "id": "english-c10-359",
+   "type": "short",
+   "q": "Change into the passive voice: 'The principal gave the prizes.'",
+   "proposedAnswer": "The prizes were given by the principal.",
+   "keyPoints": [
+    "prizes becomes the subject",
+    "were given"
+   ]
+  },
+  {
+   "id": "english-c10-360",
+   "type": "short",
+   "q": "Change into the passive voice: 'Someone has stolen my bicycle.'",
+   "proposedAnswer": "My bicycle has been stolen.",
+   "keyPoints": [
+    "has been + past participle",
+    "agent 'someone' is omitted"
+   ]
+  },
+  {
+   "id": "english-c10-361",
+   "type": "mcq",
+   "q": "Choose the correct indirect speech: Ravi said, 'We are late.'",
+   "options": [
+    "Ravi said that they were late.",
+    "Ravi said that we were late.",
+    "Ravi said that they had been late.",
+    "Ravi said that he was late."
+   ]
+  },
+  {
+   "id": "english-c10-362",
+   "type": "mcq",
+   "q": "Choose the correct indirect speech: She said, 'I have lost my pen.'",
+   "options": [
+    "She said that she lost my pen.",
+    "She said that I had lost my pen.",
+    "She said that she had lost her pen.",
+    "She said that she would lose her pen."
+   ]
+  },
+  {
+   "id": "english-c10-363",
+   "type": "mcq",
+   "q": "Choose the correct indirect speech: He said, 'I will come tomorrow.'",
+   "options": [
+    "He said that he will come the next day.",
+    "He said that I would come the next day.",
+    "He said that he came the next day.",
+    "He said that he would come the next day."
+   ]
+  },
+  {
+   "id": "english-c10-364",
+   "type": "mcq",
+   "q": "Choose the correct indirect speech: She asked me, 'Why are you crying?'",
+   "options": [
+    "She asked me why was I crying.",
+    "She asked me why I was crying.",
+    "She asked me why you were crying.",
+    "She asked me that why I was crying."
+   ]
+  },
+  {
+   "id": "english-c10-365",
+   "type": "mcq",
+   "q": "Choose the correct indirect speech: The officer said to the driver, 'Do not park here.'",
+   "options": [
+    "The officer told the driver do not park here.",
+    "The officer said to the driver not park there.",
+    "The officer told the driver not to park there.",
+    "The officer told the driver that do not park there."
+   ]
+  },
+  {
+   "id": "english-c10-366",
+   "type": "mcq",
+   "q": "Choose the correct indirect speech: Anu said, 'What a lovely garden!'",
+   "options": [
+    "Anu exclaimed with delight that it was a lovely garden.",
+    "Anu said what a lovely garden!",
+    "Anu asked what a lovely garden it was.",
+    "Anu exclaimed that she had a lovely garden."
+   ]
+  },
+  {
+   "id": "english-c10-367",
+   "type": "short",
+   "q": "Change into indirect speech: The boy said to his father, 'I need a new bag.'",
+   "proposedAnswer": "The boy told his father that he needed a new bag.",
+   "keyPoints": [
+    "said to becomes told",
+    "need becomes needed",
+    "'I' becomes he"
+   ]
+  },
+  {
+   "id": "english-c10-368",
+   "type": "short",
+   "q": "Change into direct speech: The teacher asked Mohan why he had not done his homework.",
+   "proposedAnswer": "The teacher said to Mohan, 'Why have you not done your homework?'",
+   "keyPoints": [
+    "asked becomes said to",
+    "question order and question mark",
+    "he becomes you, his becomes your, had not done becomes have not done"
+   ]
+  },
+  {
+   "id": "english-c10-369",
+   "type": "mcq",
+   "q": "A sentence that gives an order or a request is called",
+   "options": [
+    "declarative",
+    "imperative",
+    "interrogative",
+    "exclamatory"
+   ]
+  },
+  {
+   "id": "english-c10-370",
+   "type": "mcq",
+   "q": "What kind of sentence is this? 'He is rich, yet he is unhappy.'",
+   "options": [
+    "simple",
+    "complex",
+    "exclamatory",
+    "compound"
+   ]
+  },
+  {
+   "id": "english-c10-371",
+   "type": "mcq",
+   "q": "Combine using 'although': 'She is old. She works hard.'",
+   "options": [
+    "Although she is old and works hard.",
+    "She works hard although old she is.",
+    "She is old although she works hard.",
+    "Although she is old, she works hard."
+   ]
+  },
+  {
+   "id": "english-c10-372",
+   "type": "mcq",
+   "q": "Change into an interrogative sentence: 'He is a doctor.'",
+   "options": [
+    "He is a doctor?",
+    "Is he a doctor?",
+    "Does he is a doctor?",
+    "Is a doctor he?"
+   ]
+  },
+  {
+   "id": "english-c10-373",
+   "type": "mcq",
+   "q": "Which sentence means the same as 'Sita is wiser than Gita'?",
+   "options": [
+    "Gita is as wise as Sita.",
+    "Sita is not as wise as Gita.",
+    "Gita is not so wise as Sita.",
+    "Gita is wiser than Sita."
+   ]
+  },
+  {
+   "id": "english-c10-374",
+   "type": "mcq",
+   "q": "Which sentence contains an adverb clause of reason?",
+   "options": [
+    "She was happy because she had passed.",
+    "She said that she had passed.",
+    "The girl who passed is happy.",
+    "She passed after studying hard."
+   ]
+  },
+  {
+   "id": "english-c10-375",
+   "type": "short",
+   "q": "Change into a complex sentence: 'Hearing the news, she wept.'",
+   "proposedAnswer": "When she heard the news, she wept.",
+   "keyPoints": [
+    "participle phrase becomes a subordinate clause",
+    "'when' introduces the clause"
+   ]
+  },
+  {
+   "id": "english-c10-376",
+   "type": "short",
+   "q": "Combine using 'neither ... nor': 'He did not call. He did not write.'",
+   "proposedAnswer": "He neither called nor wrote.",
+   "keyPoints": [
+    "neither ... nor joins the two verbs",
+    "no other negative word"
+   ]
+  },
+  {
+   "id": "english-c10-377",
+   "type": "mcq",
+   "q": "Which sentence is punctuated correctly?",
+   "options": [
+    "Its raining.",
+    "It's raining.",
+    "Its' raining.",
+    "Its raining!"
+   ]
+  },
+  {
+   "id": "english-c10-378",
+   "type": "mcq",
+   "q": "Which sentence uses capital letters correctly?",
+   "options": [
+    "We celebrate diwali with joy.",
+    "she is my sister.",
+    "i like mangoes.",
+    "Diwali is a festival of lights."
+   ]
+  },
+  {
+   "id": "english-c10-379",
+   "type": "mcq",
+   "q": "Which sentence uses the comma correctly?",
+   "options": [
+    "After the match, the players went home.",
+    "After the match the players, went home.",
+    "After, the match the players went home.",
+    "After the match the players went, home."
+   ]
+  },
+  {
+   "id": "english-c10-380",
+   "type": "mcq",
+   "q": "Which sentence is punctuated correctly?",
+   "options": [
+    "He said 'I will come'.",
+    "He said, I will come.",
+    "He said, 'I will come.'",
+    "He said 'I will come.',"
+   ]
+  },
+  {
+   "id": "english-c10-381",
+   "type": "mcq",
+   "q": "Which sentence has the apostrophe in the correct place?",
+   "options": [
+    "They don't know the answer.",
+    "They do'nt know the answer.",
+    "They dont' know the answer.",
+    "They d'ont know the answer."
+   ]
+  },
+  {
+   "id": "english-c10-382",
+   "type": "mcq",
+   "q": "Which sentence is punctuated correctly?",
+   "options": [
+    "My favourite fruits are: mangoes, grapes and apples.",
+    "I bought a bag; a pen; and a book.",
+    "He was late; therefore, he missed the bus.",
+    "He was late, therefore he missed the bus."
+   ]
+  },
+  {
+   "id": "english-c10-383",
+   "type": "short",
+   "q": "Punctuate correctly: what a beautiful sunset exclaimed the tourist",
+   "proposedAnswer": "'What a beautiful sunset!' exclaimed the tourist.",
+   "keyPoints": [
+    "capital W",
+    "exclamation mark inside the inverted commas",
+    "full stop at the end"
+   ]
+  },
+  {
+   "id": "english-c10-384",
+   "type": "short",
+   "q": "Give one use of the semicolon, with an example.",
+   "proposedAnswer": "A semicolon joins two closely related independent clauses: She was tired; she went to bed early.",
+   "keyPoints": [
+    "links two related complete clauses",
+    "correct example"
+   ]
+  },
+  {
+   "id": "english-c10-385",
+   "type": "mcq",
+   "q": "Choose the synonym of 'assist'.",
+   "options": [
+    "hinder",
+    "ignore",
+    "refuse",
+    "help"
+   ]
+  },
+  {
+   "id": "english-c10-386",
+   "type": "mcq",
+   "q": "Choose the antonym of 'expand'.",
+   "options": [
+    "grow",
+    "shrink",
+    "spread",
+    "stretch"
+   ]
+  },
+  {
+   "id": "english-c10-387",
+   "type": "mcq",
+   "q": "A collection of poems or other literary pieces is called a(n)",
+   "options": [
+    "novel",
+    "drama",
+    "anthology",
+    "biography"
+   ]
+  },
+  {
+   "id": "english-c10-388",
+   "type": "mcq",
+   "q": "Choose the correctly spelt word.",
+   "options": [
+    "accommodation",
+    "acommodation",
+    "accomodation",
+    "accomadation"
+   ]
+  },
+  {
+   "id": "english-c10-389",
+   "type": "mcq",
+   "q": "The suffix -able in 'readable' means",
+   "options": [
+    "without",
+    "capable of being",
+    "full of",
+    "state of"
+   ]
+  },
+  {
+   "id": "english-c10-390",
+   "type": "mcq",
+   "q": "If an argument is 'cogent', it is",
+   "options": [
+    "confusing",
+    "very long",
+    "weak",
+    "convincing"
+   ]
+  },
+  {
+   "id": "english-c10-391",
+   "type": "short",
+   "q": "Write the opposites of 'increase', 'accept' and 'polite'.",
+   "proposedAnswer": "decrease; reject (or refuse); rude (or impolite)",
+   "keyPoints": [
+    "increase - decrease",
+    "accept - reject",
+    "polite - rude"
+   ]
+  },
+  {
+   "id": "english-c10-392",
+   "type": "short",
+   "q": "Explain the difference between 'stationary' and 'stationery'.",
+   "proposedAnswer": "'Stationary' means not moving. 'Stationery' means writing materials such as pens and paper.",
+   "keyPoints": [
+    "stationary = not moving",
+    "stationery = writing materials"
+   ]
+  },
+  {
+   "id": "english-c10-393",
+   "type": "mcq",
+   "q": "What does the idiom 'to pull someone's leg' mean?",
+   "options": [
+    "to injure someone",
+    "to help someone walk",
+    "to push someone",
+    "to tease someone playfully"
+   ]
+  },
+  {
+   "id": "english-c10-394",
+   "type": "mcq",
+   "q": "What does the idiom 'at the eleventh hour' mean?",
+   "options": [
+    "very early",
+    "at the last moment",
+    "at eleven o'clock",
+    "very slowly"
+   ]
+  },
+  {
+   "id": "english-c10-395",
+   "type": "mcq",
+   "q": "What does the idiom 'to keep an eye on' mean?",
+   "options": [
+    "to blind",
+    "to dislike",
+    "to watch carefully",
+    "to ignore"
+   ]
+  },
+  {
+   "id": "english-c10-396",
+   "type": "mcq",
+   "q": "What does the idiom 'to beat around the bush' mean?",
+   "options": [
+    "to avoid coming to the point",
+    "to hit a plant",
+    "to go for a walk",
+    "to speak very loudly"
+   ]
+  },
+  {
+   "id": "english-c10-397",
+   "type": "mcq",
+   "q": "What does the phrasal verb 'turn down' mean in 'She turned down the offer'?",
+   "options": [
+    "accepted",
+    "refused",
+    "explained",
+    "delayed"
+   ]
+  },
+  {
+   "id": "english-c10-398",
+   "type": "mcq",
+   "q": "Choose the correct phrasal verb: The company decided to ___ a new branch in Surat.",
+   "options": [
+    "set off",
+    "put on",
+    "look into",
+    "set up"
+   ]
+  },
+  {
+   "id": "english-c10-399",
+   "type": "short",
+   "q": "Explain the idiom 'a storm in a teacup' and use it in a sentence.",
+   "proposedAnswer": "It means a lot of fuss about something unimportant: The argument over the seat was a storm in a teacup.",
+   "keyPoints": [
+    "means excitement over a trivial matter",
+    "correct example sentence"
+   ]
+  },
+  {
+   "id": "english-c10-400",
+   "type": "short",
+   "q": "Explain the phrasal verb 'break down' and use it in a sentence.",
+   "proposedAnswer": "'Break down' means to stop working (of a machine): Our car broke down on the highway.",
+   "keyPoints": [
+    "means to stop working or fail",
+    "correct example sentence"
+   ]
+  },
+  {
+   "id": "english-c10-401",
+   "type": "mcq",
+   "q": "Read the passage. 'Kabir's father repairs bicycles in a tiny shop near the bus stand. Kabir often helps him after school by pumping air into tyres. Though the shop earns little, his father says that honest work is its own reward. Kabir has decided that when he grows up, he will open a bigger workshop and teach other young people the trade.' What does Kabir's father do?",
+   "options": [
+    "Repairs bicycles",
+    "Drives a bus",
+    "Sells tyres",
+    "Teaches in a school"
+   ]
+  },
+  {
+   "id": "english-c10-402",
+   "type": "mcq",
+   "q": "Read the passage. 'Kabir's father repairs bicycles in a tiny shop near the bus stand. Kabir often helps him after school by pumping air into tyres. Though the shop earns little, his father says that honest work is its own reward. Kabir has decided that when he grows up, he will open a bigger workshop and teach other young people the trade.' How does Kabir help his father?",
+   "options": [
+    "By painting the shop",
+    "By collecting money",
+    "By pumping air into tyres",
+    "By repairing engines"
+   ]
+  },
+  {
+   "id": "english-c10-403",
+   "type": "mcq",
+   "q": "Read the passage. 'Kabir's father repairs bicycles in a tiny shop near the bus stand. Kabir often helps him after school by pumping air into tyres. Though the shop earns little, his father says that honest work is its own reward. Kabir has decided that when he grows up, he will open a bigger workshop and teach other young people the trade.' What does Kabir's plan show?",
+   "options": [
+    "He respects his father's work and wants to carry it forward",
+    "He wants to leave the town",
+    "He dislikes studying",
+    "He thinks the shop earns too much"
+   ]
+  },
+  {
+   "id": "english-c10-404",
+   "type": "short",
+   "q": "Read the passage. 'Kabir's father repairs bicycles in a tiny shop near the bus stand. Kabir often helps him after school by pumping air into tyres. Though the shop earns little, his father says that honest work is its own reward. Kabir has decided that when he grows up, he will open a bigger workshop and teach other young people the trade.' What does Kabir's father believe about honest work?",
+   "proposedAnswer": "He believes that honest work is its own reward, even if it earns little money.",
+   "keyPoints": [
+    "honest work is its own reward",
+    "money earned is not the only measure"
+   ]
+  },
+  {
+   "id": "english-c10-405",
+   "type": "mcq",
+   "q": "Read the passage. 'Sound travels in waves. These waves move through air, water and solids, but they cannot travel through empty space because there is nothing to carry them. This is why astronauts working outside a spacecraft cannot hear each other without radios.' Through which of these can sound travel?",
+   "options": [
+    "Only air",
+    "Only water",
+    "Air, water and solids",
+    "Empty space"
+   ]
+  },
+  {
+   "id": "english-c10-406",
+   "type": "mcq",
+   "q": "Read the passage. 'Sound travels in waves. These waves move through air, water and solids, but they cannot travel through empty space because there is nothing to carry them. This is why astronauts working outside a spacecraft cannot hear each other without radios.' Why can sound not travel through empty space?",
+   "options": [
+    "There is too much light",
+    "Space is too cold",
+    "Sound is too weak",
+    "There is nothing to carry the waves"
+   ]
+  },
+  {
+   "id": "english-c10-407",
+   "type": "mcq",
+   "q": "Read the passage. 'Sound travels in waves. These waves move through air, water and solids, but they cannot travel through empty space because there is nothing to carry them. This is why astronauts working outside a spacecraft cannot hear each other without radios.' What does the example of the astronauts show?",
+   "options": [
+    "Radios are heavy",
+    "Sound needs a material to travel through, which space lacks",
+    "Astronauts cannot hear",
+    "Space is very noisy"
+   ]
+  },
+  {
+   "id": "english-c10-408",
+   "type": "short",
+   "q": "Read the passage. 'Sound travels in waves. These waves move through air, water and solids, but they cannot travel through empty space because there is nothing to carry them. This is why astronauts working outside a spacecraft cannot hear each other without radios.' Why do astronauts need radios to talk outside their spacecraft?",
+   "proposedAnswer": "Outside the spacecraft there is empty space with nothing to carry sound waves, so they cannot hear each other without radios.",
+   "keyPoints": [
+    "space is empty",
+    "sound waves need something to travel through",
+    "radios carry their voices instead"
+   ]
+  },
+  {
+   "id": "english-c10-409",
+   "type": "mcq",
+   "q": "Read the passage. 'Neha found a wallet on the pavement outside the market. Inside were some money and a card with an address. Though she was tempted to keep the money for a new book, she remembered how worried her mother had been when she once lost her purse. She walked three streets to the address and returned the wallet to its grateful owner.' Where did Neha find the wallet?",
+   "options": [
+    "Inside a shop",
+    "In a bus",
+    "On the pavement outside the market",
+    "In her school bag"
+   ]
+  },
+  {
+   "id": "english-c10-410",
+   "type": "mcq",
+   "q": "Read the passage. 'Neha found a wallet on the pavement outside the market. Inside were some money and a card with an address. Though she was tempted to keep the money for a new book, she remembered how worried her mother had been when she once lost her purse. She walked three streets to the address and returned the wallet to its grateful owner.' What helped Neha decide to return the wallet?",
+   "options": [
+    "She remembered her mother's worry when she lost a purse",
+    "A policeman asked her to",
+    "She did not need a book",
+    "The wallet was empty"
+   ]
+  },
+  {
+   "id": "english-c10-411",
+   "type": "mcq",
+   "q": "Read the passage. 'Neha found a wallet on the pavement outside the market. Inside were some money and a card with an address. Though she was tempted to keep the money for a new book, she remembered how worried her mother had been when she once lost her purse. She walked three streets to the address and returned the wallet to its grateful owner.' In the passage, 'tempted' means",
+   "options": [
+    "afraid",
+    "strongly attracted to doing something",
+    "angry",
+    "forced"
+   ]
+  },
+  {
+   "id": "english-c10-412",
+   "type": "short",
+   "q": "Read the passage. 'Neha found a wallet on the pavement outside the market. Inside were some money and a card with an address. Though she was tempted to keep the money for a new book, she remembered how worried her mother had been when she once lost her purse. She walked three streets to the address and returned the wallet to its grateful owner.' What does Neha's action show about her character? Support your answer from the passage.",
+   "proposedAnswer": "She is honest and thoughtful. She resisted the temptation to keep the money, thought of how the owner would feel, and walked three streets to return the wallet.",
+   "keyPoints": [
+    "honest and considerate",
+    "resisted temptation",
+    "took trouble to return the wallet"
+   ]
+  },
+  {
+   "id": "english-c10-413",
+   "type": "mcq",
+   "q": "Read the passage. 'A rainbow appears when sunlight passes through raindrops. The drops bend and split the light into its colours, which spread out in a curved band. To see a rainbow, you must stand with the sun behind you and the raindrops in front of you.' When does a rainbow appear?",
+   "options": [
+    "When snow melts",
+    "When the moon is full",
+    "When the wind is strong",
+    "When sunlight passes through raindrops"
+   ]
+  },
+  {
+   "id": "english-c10-414",
+   "type": "mcq",
+   "q": "Read the passage. 'A rainbow appears when sunlight passes through raindrops. The drops bend and split the light into its colours, which spread out in a curved band. To see a rainbow, you must stand with the sun behind you and the raindrops in front of you.' Where must you stand to see a rainbow?",
+   "options": [
+    "Facing the sun",
+    "Under a tree",
+    "Inside a house",
+    "With the sun behind you and the rain in front"
+   ]
+  },
+  {
+   "id": "english-c10-415",
+   "type": "mcq",
+   "q": "Read the passage. 'A rainbow appears when sunlight passes through raindrops. The drops bend and split the light into its colours, which spread out in a curved band. To see a rainbow, you must stand with the sun behind you and the raindrops in front of you.' What do raindrops do to sunlight?",
+   "options": [
+    "Absorb it completely",
+    "Bend and split it into colours",
+    "Only make it brighter",
+    "Turn it into heat"
+   ]
+  },
+  {
+   "id": "english-c10-416",
+   "type": "short",
+   "q": "Read the passage. 'A rainbow appears when sunlight passes through raindrops. The drops bend and split the light into its colours, which spread out in a curved band. To see a rainbow, you must stand with the sun behind you and the raindrops in front of you.' Explain how a rainbow is formed.",
+   "proposedAnswer": "Sunlight passes through raindrops, which bend and split it into its colours; the colours spread out as a curved band.",
+   "keyPoints": [
+    "sunlight passes through raindrops",
+    "drops bend and split the light into colours",
+    "colours form a curved band"
+   ]
+  },
+  {
+   "id": "english-c10-417",
+   "type": "mcq",
+   "q": "Choose the correct verb: The earth ___ round the sun.",
+   "options": [
+    "move",
+    "moves",
+    "moving",
+    "moved"
+   ]
+  },
+  {
+   "id": "english-c10-418",
+   "type": "mcq",
+   "q": "Choose the correct verb: At 8 p.m. yesterday, we ___ dinner.",
+   "options": [
+    "have",
+    "had had",
+    "are having",
+    "were having"
+   ]
+  },
+  {
+   "id": "english-c10-419",
+   "type": "mcq",
+   "q": "Choose the correct verb: She ___ in Mysuru for three years before she moved to Kolkata.",
+   "options": [
+    "had lived",
+    "has lived",
+    "lives",
+    "is living"
+   ]
+  },
+  {
+   "id": "english-c10-420",
+   "type": "mcq",
+   "q": "Choose the correct verb: I ___ my keys; can you help me look for them?",
+   "options": [
+    "lose",
+    "am losing",
+    "have lost",
+    "will lose"
+   ]
+  },
+  {
+   "id": "english-c10-421",
+   "type": "mcq",
+   "q": "Choose the correct verb: He ___ to the gym every day, but today he is resting.",
+   "options": [
+    "goes",
+    "is going",
+    "went",
+    "has gone"
+   ]
+  },
+  {
+   "id": "english-c10-422",
+   "type": "mcq",
+   "q": "Which sentence is correct?",
+   "options": [
+    "I am working here since March.",
+    "She is knowing the answer.",
+    "We have known each other for years.",
+    "He has finished it yesterday."
+   ]
+  },
+  {
+   "id": "english-c10-423",
+   "type": "short",
+   "q": "Change into the simple future tense: 'They visited the museum.'",
+   "proposedAnswer": "They will visit the museum.",
+   "keyPoints": [
+    "will + base verb",
+    "visited becomes visit"
+   ]
+  },
+  {
+   "id": "english-c10-424",
+   "type": "short",
+   "q": "Correct the error: 'I have met him yesterday.'",
+   "proposedAnswer": "I met him yesterday.",
+   "keyPoints": [
+    "'yesterday' is a finished time",
+    "simple past, not present perfect"
+   ]
+  },
+  {
+   "id": "english-c10-425",
+   "type": "mcq",
+   "q": "Choose the correct verb: The students ___ in the library.",
+   "options": [
+    "is",
+    "was",
+    "has",
+    "are"
+   ]
+  },
+  {
+   "id": "english-c10-426",
+   "type": "mcq",
+   "q": "Choose the correct verb: She ___ a beautiful voice.",
+   "options": [
+    "have",
+    "has",
+    "are",
+    "were"
+   ]
+  },
+  {
+   "id": "english-c10-427",
+   "type": "mcq",
+   "q": "Choose the correct verb: The teacher, together with the students, ___ gone on a trip.",
+   "options": [
+    "have",
+    "are",
+    "has",
+    "were"
+   ]
+  },
+  {
+   "id": "english-c10-428",
+   "type": "mcq",
+   "q": "Choose the correct verb: Half of the cake ___ eaten.",
+   "options": [
+    "was",
+    "were",
+    "are",
+    "have"
+   ]
+  },
+  {
+   "id": "english-c10-429",
+   "type": "mcq",
+   "q": "Choose the correct verb: Measles ___ a contagious disease.",
+   "options": [
+    "are",
+    "is",
+    "were",
+    "have"
+   ]
+  },
+  {
+   "id": "english-c10-430",
+   "type": "mcq",
+   "q": "Which sentence is grammatically correct?",
+   "options": [
+    "The furniture are new.",
+    "Each of the boys have a bat.",
+    "A number of reasons was given.",
+    "Every boy and every girl was given a certificate."
+   ]
+  },
+  {
+   "id": "english-c10-431",
+   "type": "short",
+   "q": "Correct the error: 'My trousers is too long.'",
+   "proposedAnswer": "My trousers are too long.",
+   "keyPoints": [
+    "trousers is a plural noun",
+    "verb must be 'are'"
+   ]
+  },
+  {
+   "id": "english-c10-432",
+   "type": "short",
+   "q": "Rewrite correctly: 'Neither the principal nor the teachers was present.'",
+   "proposedAnswer": "Neither the principal nor the teachers were present.",
+   "keyPoints": [
+    "with neither ... nor, the verb agrees with the nearer subject",
+    "'teachers' is plural so 'were'"
+   ]
+  },
+  {
+   "id": "english-c10-433",
+   "type": "mcq",
+   "q": "Choose the correct article: He is ___ MLA.",
+   "options": [
+    "a",
+    "the",
+    "one",
+    "an"
+   ]
+  },
+  {
+   "id": "english-c10-434",
+   "type": "mcq",
+   "q": "Choose the correct article: She wore ___ red saree.",
+   "options": [
+    "an",
+    "a",
+    "the",
+    "some"
+   ]
+  },
+  {
+   "id": "english-c10-435",
+   "type": "mcq",
+   "q": "Choose the correct article: He plays ___ guitar very well.",
+   "options": [
+    "a",
+    "an",
+    "the",
+    "some"
+   ]
+  },
+  {
+   "id": "english-c10-436",
+   "type": "mcq",
+   "q": "Choose the correct word: ___ of my friends lives in Delhi.",
+   "options": [
+    "One",
+    "Ones",
+    "Some",
+    "Few"
+   ]
+  },
+  {
+   "id": "english-c10-437",
+   "type": "mcq",
+   "q": "Choose the correct word: How ___ rice do you need for the recipe?",
+   "options": [
+    "many",
+    "much",
+    "few",
+    "several"
+   ]
+  },
+  {
+   "id": "english-c10-438",
+   "type": "mcq",
+   "q": "Which sentence is correct?",
+   "options": [
+    "She is a honest woman.",
+    "I saw a elephant.",
+    "He has a one-year-old son and an one-rupee coin.",
+    "She visited an orphanage on Sunday."
+   ]
+  },
+  {
+   "id": "english-c10-439",
+   "type": "short",
+   "q": "Fill in with a, an or the: 'She asked for ___ apple and ___ orange. ___ apple was sweet.'",
+   "proposedAnswer": "an; an; The",
+   "keyPoints": [
+    "an before vowel sounds",
+    "the for the apple already mentioned"
+   ]
+  },
+  {
+   "id": "english-c10-440",
+   "type": "short",
+   "q": "Explain why 'school' has no article in 'He went to school' but has one in 'He went to the school to meet the principal'.",
+   "proposedAnswer": "Without 'the', school refers to the purpose of the place, studying. With 'the', it refers to a particular school building he visited for another reason.",
+   "keyPoints": [
+    "no article: the institution and its purpose",
+    "'the school': a specific building",
+    "different purpose of the visit"
+   ]
+  },
+  {
+   "id": "english-c10-441",
+   "type": "mcq",
+   "q": "Choose the correct word: He was born ___ Monday.",
+   "options": [
+    "on",
+    "in",
+    "at",
+    "by"
+   ]
+  },
+  {
+   "id": "english-c10-442",
+   "type": "mcq",
+   "q": "Choose the correct word: The shop opens ___ nine o'clock.",
+   "options": [
+    "on",
+    "in",
+    "at",
+    "by"
+   ]
+  },
+  {
+   "id": "english-c10-443",
+   "type": "mcq",
+   "q": "Choose the correct word: She is proud ___ her son.",
+   "options": [
+    "of",
+    "for",
+    "at",
+    "with"
+   ]
+  },
+  {
+   "id": "english-c10-444",
+   "type": "mcq",
+   "q": "Choose the correct word: He is suffering ___ fever.",
+   "options": [
+    "of",
+    "at",
+    "from",
+    "to"
+   ]
+  },
+  {
+   "id": "english-c10-445",
+   "type": "mcq",
+   "q": "Choose the correct word: Work hard, ___ you will fail.",
+   "options": [
+    "and",
+    "so",
+    "because",
+    "or"
+   ]
+  },
+  {
+   "id": "english-c10-446",
+   "type": "mcq",
+   "q": "Which sentence is correct?",
+   "options": [
+    "He congratulated me for my success.",
+    "He congratulated me on my success.",
+    "He congratulated me at my success.",
+    "He congratulated me with my success."
+   ]
+  },
+  {
+   "id": "english-c10-447",
+   "type": "short",
+   "q": "Join using 'as soon as': 'He saw the snake. He ran away.'",
+   "proposedAnswer": "As soon as he saw the snake, he ran away.",
+   "keyPoints": [
+    "as soon as shows immediate sequence",
+    "comma after the first clause"
+   ]
+  },
+  {
+   "id": "english-c10-448",
+   "type": "short",
+   "q": "Fill in the blanks with prepositions: 'She is good ___ music and keen ___ learning the sitar.'",
+   "proposedAnswer": "at; on",
+   "keyPoints": [
+    "good at",
+    "keen on"
+   ]
+  },
+  {
+   "id": "english-c10-449",
+   "type": "mcq",
+   "q": "Choose the correct word: I ___ not swim, so I stayed on the shore.",
+   "options": [
+    "must",
+    "shall",
+    "could",
+    "may"
+   ]
+  },
+  {
+   "id": "english-c10-450",
+   "type": "mcq",
+   "q": "Choose the correct word: ___ you please open the window?",
+   "options": [
+    "Could",
+    "Must",
+    "Ought",
+    "Need"
+   ]
+  },
+  {
+   "id": "english-c10-451",
+   "type": "mcq",
+   "q": "Choose the correct word: Take your raincoat; it ___ rain this afternoon.",
+   "options": [
+    "can",
+    "might",
+    "shall",
+    "must"
+   ]
+  },
+  {
+   "id": "english-c10-452",
+   "type": "mcq",
+   "q": "Choose the correct word: ___ we go for a walk after dinner?",
+   "options": [
+    "Must",
+    "Would",
+    "Ought",
+    "Shall"
+   ]
+  },
+  {
+   "id": "english-c10-453",
+   "type": "mcq",
+   "q": "Choose the correct word: Visitors ___ not feed the animals.",
+   "options": [
+    "might",
+    "would",
+    "could",
+    "must"
+   ]
+  },
+  {
+   "id": "english-c10-454",
+   "type": "mcq",
+   "q": "Which sentence gives advice?",
+   "options": [
+    "You may sit down.",
+    "You should drink more water.",
+    "You can drink water here.",
+    "You will drink water."
+   ]
+  },
+  {
+   "id": "english-c10-455",
+   "type": "short",
+   "q": "Rewrite using 'should': 'It is advisable to save some money every month.'",
+   "proposedAnswer": "You should save some money every month.",
+   "keyPoints": [
+    "should expresses advice",
+    "base form of the verb follows"
+   ]
+  },
+  {
+   "id": "english-c10-456",
+   "type": "short",
+   "q": "Explain the difference in meaning between 'He should have come' and 'He must have come'.",
+   "proposedAnswer": "'He should have come' means it was his duty to come, but he did not. 'He must have come' means I conclude that he came.",
+   "keyPoints": [
+    "should have = missed duty",
+    "must have = logical conclusion about the past"
+   ]
+  },
+  {
+   "id": "english-c10-457",
+   "type": "mcq",
+   "q": "Choose the correct verb: The door ___ by the watchman.",
+   "options": [
+    "opened",
+    "opens",
+    "was opened",
+    "has open"
+   ]
+  },
+  {
+   "id": "english-c10-458",
+   "type": "mcq",
+   "q": "Choose the correct verb: Rice ___ in many parts of India.",
+   "options": [
+    "is grown",
+    "grown by",
+    "grew",
+    "has grew"
+   ]
+  },
+  {
+   "id": "english-c10-459",
+   "type": "mcq",
+   "q": "Choose the passive voice of: 'She was singing a song.'",
+   "options": [
+    "A song was sung by her.",
+    "A song was being sung by her.",
+    "A song is being sung by her.",
+    "A song had been sung by her."
+   ]
+  },
+  {
+   "id": "english-c10-460",
+   "type": "mcq",
+   "q": "Choose the passive voice of: 'They will build a dam.'",
+   "options": [
+    "A dam is built by them.",
+    "A dam would be built by them.",
+    "A dam will built by them.",
+    "A dam will be built by them."
+   ]
+  },
+  {
+   "id": "english-c10-461",
+   "type": "mcq",
+   "q": "Choose the passive voice of: 'The boy has eaten the apple.'",
+   "options": [
+    "The apple has been eaten by the boy.",
+    "The apple was eaten by the boy.",
+    "The apple is eaten by the boy.",
+    "The apple had been eaten by the boy."
+   ]
+  },
+  {
+   "id": "english-c10-462",
+   "type": "mcq",
+   "q": "Which sentence is in the passive voice?",
+   "options": [
+    "Rahul fixed the tap.",
+    "Dogs bark at strangers.",
+    "The tap was fixed by Rahul.",
+    "Rahul is fixing the tap."
+   ]
+  },
+  {
+   "id": "english-c10-463",
+   "type": "short",
+   "q": "Change into the passive voice: 'The children sang the national anthem.'",
+   "proposedAnswer": "The national anthem was sung by the children.",
+   "keyPoints": [
+    "anthem becomes the subject",
+    "was sung"
+   ]
+  },
+  {
+   "id": "english-c10-464",
+   "type": "short",
+   "q": "Change into the active voice: 'The prizes will be distributed by the Chief Guest.'",
+   "proposedAnswer": "The Chief Guest will distribute the prizes.",
+   "keyPoints": [
+    "agent becomes the subject",
+    "will be distributed becomes will distribute"
+   ]
+  },
+  {
+   "id": "english-c10-465",
+   "type": "mcq",
+   "q": "Choose the correct indirect speech: He said, 'I play football.'",
+   "options": [
+    "He said that he played football.",
+    "He said that I played football.",
+    "He said that he will play football.",
+    "He said that he had play football."
+   ]
+  },
+  {
+   "id": "english-c10-466",
+   "type": "mcq",
+   "q": "Choose the correct indirect speech: They said, 'We are winning.'",
+   "options": [
+    "They said that we were winning.",
+    "They said that they would be winning.",
+    "They said that they were winning.",
+    "They said that they have been winning."
+   ]
+  },
+  {
+   "id": "english-c10-467",
+   "type": "mcq",
+   "q": "Choose the correct indirect speech: She said, 'I saw him yesterday.'",
+   "options": [
+    "She said that she had seen him tomorrow.",
+    "She said that I had seen him the day before.",
+    "She said that she has seen him the day before.",
+    "She said that she had seen him the day before."
+   ]
+  },
+  {
+   "id": "english-c10-468",
+   "type": "mcq",
+   "q": "Choose the correct indirect speech: He asked, 'Can you swim?'",
+   "options": [
+    "He asked me that I could swim.",
+    "He asked me if I could swim.",
+    "He asked me could I swim.",
+    "He asked me what I could swim."
+   ]
+  },
+  {
+   "id": "english-c10-469",
+   "type": "mcq",
+   "q": "Choose the correct indirect speech: The teacher said to the student, 'Work hard.'",
+   "options": [
+    "The teacher said the student work hard.",
+    "The teacher advised the student that work hard.",
+    "The teacher advised the student to work hard.",
+    "The teacher asked the student if he worked hard."
+   ]
+  },
+  {
+   "id": "english-c10-470",
+   "type": "mcq",
+   "q": "Choose the correct indirect speech: Mother said to me, 'May God bless you!'",
+   "options": [
+    "Mother prayed that God might bless me.",
+    "Mother said that God may bless me.",
+    "Mother asked God to bless her.",
+    "Mother prayed that God bless me."
+   ]
+  },
+  {
+   "id": "english-c10-471",
+   "type": "short",
+   "q": "Change into indirect speech: He said to me, 'Where are you going?'",
+   "proposedAnswer": "He asked me where I was going.",
+   "keyPoints": [
+    "said to becomes asked",
+    "statement word order",
+    "are going becomes was going"
+   ]
+  },
+  {
+   "id": "english-c10-472",
+   "type": "short",
+   "q": "Change into direct speech: The mother told her son not to play near the road.",
+   "proposedAnswer": "The mother said to her son, 'Do not play near the road.'",
+   "keyPoints": [
+    "told becomes said to",
+    "negative imperative in inverted commas",
+    "'Do not play'"
+   ]
+  },
+  {
+   "id": "english-c10-473",
+   "type": "mcq",
+   "q": "The part of a sentence that says something about the subject is called the",
+   "options": [
+    "object",
+    "predicate",
+    "clause",
+    "phrase"
+   ]
+  },
+  {
+   "id": "english-c10-474",
+   "type": "mcq",
+   "q": "Combine using 'both ... and': 'He is honest. He is hardworking.'",
+   "options": [
+    "He is both honest or hardworking.",
+    "Both he is honest and hardworking.",
+    "He both is honest and hardworking.",
+    "He is both honest and hardworking."
+   ]
+  },
+  {
+   "id": "english-c10-475",
+   "type": "mcq",
+   "q": "Rewrite using 'unless': 'If you do not work hard, you will fail.'",
+   "options": [
+    "Unless you do not work hard, you will fail.",
+    "Unless you worked hard, you will fail.",
+    "Unless you work hard, you will not fail.",
+    "Unless you work hard, you will fail."
+   ]
+  },
+  {
+   "id": "english-c10-476",
+   "type": "mcq",
+   "q": "Change into a simple sentence: 'He went to the market so that he might buy fruit.'",
+   "options": [
+    "He went to the market for buy fruit.",
+    "He went to the market to buy fruit.",
+    "He went to the market for to buy fruit.",
+    "He went to the market and buy fruit."
+   ]
+  },
+  {
+   "id": "english-c10-477",
+   "type": "mcq",
+   "q": "Change into the superlative degree: 'Gold is more precious than any other metal.'",
+   "options": [
+    "Gold is most precious metal.",
+    "Gold is the more precious metal.",
+    "Gold is the most precious metal.",
+    "Gold is the precious metal most."
+   ]
+  },
+  {
+   "id": "english-c10-478",
+   "type": "mcq",
+   "q": "In 'He stayed at home because he was ill', the clause 'because he was ill' is a/an",
+   "options": [
+    "adverb clause of reason",
+    "noun clause",
+    "adjective clause",
+    "main clause"
+   ]
+  },
+  {
+   "id": "english-c10-479",
+   "type": "short",
+   "q": "Change into an exclamatory sentence: 'The sky is very blue.'",
+   "proposedAnswer": "How blue the sky is!",
+   "keyPoints": [
+    "begins with how",
+    "ends with an exclamation mark"
+   ]
+  },
+  {
+   "id": "english-c10-480",
+   "type": "short",
+   "q": "Combine using 'not only ... but also': 'She sings well. She dances well.'",
+   "proposedAnswer": "She not only sings well but also dances well.",
+   "keyPoints": [
+    "not only before the first verb phrase",
+    "but also before the second"
+   ]
+  },
+  {
+   "id": "english-c10-481",
+   "type": "mcq",
+   "q": "Which punctuation mark is used to show possession?",
+   "options": [
+    "comma",
+    "apostrophe",
+    "colon",
+    "hyphen"
+   ]
+  },
+  {
+   "id": "english-c10-482",
+   "type": "mcq",
+   "q": "Which words need capital letters in: 'on monday we visited the red fort.'?",
+   "options": [
+    "Only 'on'",
+    "Only 'monday'",
+    "'on' and 'monday'",
+    "'On', 'Monday', 'Red' and 'Fort'"
+   ]
+  },
+  {
+   "id": "english-c10-483",
+   "type": "mcq",
+   "q": "Which sentence uses commas correctly?",
+   "options": [
+    "Yes, I will come.",
+    "Yes I will, come.",
+    "Yes I, will come.",
+    "Yes, I will, come."
+   ]
+  },
+  {
+   "id": "english-c10-484",
+   "type": "mcq",
+   "q": "Which sentence is punctuated correctly?",
+   "options": [
+    "'Come here' she said, 'and sit down.'",
+    "'Come here,' she said 'and sit down.'",
+    "'Come here,' she said, 'and sit down.'",
+    "'Come here' she said and 'sit down'."
+   ]
+  },
+  {
+   "id": "english-c10-485",
+   "type": "mcq",
+   "q": "Which sentence uses the colon correctly?",
+   "options": [
+    "The shop sells three things: books, pens and bags.",
+    "The shop sells three things; books, pens and bags.",
+    "The shop sells; three things, books pens and bags.",
+    "The shop sells three things, books: pens and bags."
+   ]
+  },
+  {
+   "id": "english-c10-486",
+   "type": "mcq",
+   "q": "Which sentence is punctuated correctly?",
+   "options": [
+    "Its a lovely day, isn't it",
+    "It's a lovely day isn't it?",
+    "It's a lovely day, isn't it?",
+    "Its a lovely day, isnt it?"
+   ]
+  },
+  {
+   "id": "english-c10-487",
+   "type": "short",
+   "q": "Punctuate correctly: rohan said i am going to delhi on friday",
+   "proposedAnswer": "Rohan said, 'I am going to Delhi on Friday.'",
+   "keyPoints": [
+    "capital letters for names and days",
+    "comma before the quotation",
+    "inverted commas and full stop"
+   ]
+  },
+  {
+   "id": "english-c10-488",
+   "type": "short",
+   "q": "Why does 'the girls' room' take an apostrophe but 'the girls play' does not?",
+   "proposedAnswer": "In 'the girls' room' the apostrophe shows possession (the room belongs to the girls). In 'the girls play' the -s only makes 'girl' plural, so no apostrophe is needed.",
+   "keyPoints": [
+    "apostrophe shows possession",
+    "plural -s needs no apostrophe"
+   ]
+  },
+  {
+   "id": "english-c10-489",
+   "type": "mcq",
+   "q": "Choose the synonym of 'courage'.",
+   "options": [
+    "fear",
+    "anger",
+    "weakness",
+    "bravery"
+   ]
+  },
+  {
+   "id": "english-c10-490",
+   "type": "mcq",
+   "q": "Choose the antonym of 'victory'.",
+   "options": [
+    "success",
+    "defeat",
+    "triumph",
+    "win"
+   ]
+  },
+  {
+   "id": "english-c10-491",
+   "type": "mcq",
+   "q": "A person who has just started learning something is called a",
+   "options": [
+    "expert",
+    "veteran",
+    "novice",
+    "master"
+   ]
+  },
+  {
+   "id": "english-c10-492",
+   "type": "mcq",
+   "q": "Choose the correctly spelt word.",
+   "options": [
+    "receive",
+    "recieve",
+    "receeve",
+    "recive"
+   ]
+  },
+  {
+   "id": "english-c10-493",
+   "type": "mcq",
+   "q": "The prefix 'un-' in 'unhappy' means",
+   "options": [
+    "again",
+    "not",
+    "before",
+    "too much"
+   ]
+  },
+  {
+   "id": "english-c10-494",
+   "type": "mcq",
+   "q": "Something that is 'ephemeral' is",
+   "options": [
+    "lasting forever",
+    "very large",
+    "extremely old",
+    "lasting a very short time"
+   ]
+  },
+  {
+   "id": "english-c10-495",
+   "type": "short",
+   "q": "Form verbs from the words 'beauty', 'strength' and 'class'.",
+   "proposedAnswer": "beautify; strengthen; classify",
+   "keyPoints": [
+    "beauty - beautify",
+    "strength - strengthen",
+    "class - classify"
+   ]
+  },
+  {
+   "id": "english-c10-496",
+   "type": "short",
+   "q": "Explain the difference between 'complement' and 'compliment', with a sentence for each.",
+   "proposedAnswer": "'Complement' means something that completes or goes well with another: The scarf complements her dress. 'Compliment' means an expression of praise: He paid her a compliment.",
+   "keyPoints": [
+    "complement = completes",
+    "compliment = praise",
+    "a sentence for each"
+   ]
+  },
+  {
+   "id": "english-c10-497",
+   "type": "mcq",
+   "q": "What does the idiom 'to face the music' mean?",
+   "options": [
+    "to play an instrument",
+    "to enjoy a concert",
+    "to sing loudly",
+    "to accept the consequences of one's actions"
+   ]
+  },
+  {
+   "id": "english-c10-498",
+   "type": "mcq",
+   "q": "What does the idiom 'a drop in the ocean' mean?",
+   "options": [
+    "a large amount of water",
+    "a very small amount compared with what is needed",
+    "a deep problem",
+    "a rare gift"
+   ]
+  },
+  {
+   "id": "english-c10-499",
+   "type": "mcq",
+   "q": "What does the idiom 'to hit the sack' mean?",
+   "options": [
+    "to hurt someone",
+    "to carry a bag",
+    "to go to bed",
+    "to leave suddenly"
+   ]
+  },
+  {
+   "id": "english-c10-500",
+   "type": "mcq",
+   "q": "What does the idiom 'out of the blue' mean?",
+   "options": [
+    "unexpectedly",
+    "very sad",
+    "in the sky",
+    "after a long time"
+   ]
+  }
+ ]
+}
