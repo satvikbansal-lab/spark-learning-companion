@@ -1,0 +1,5381 @@
+{
+ "class": 7,
+ "subject": "science",
+ "items": [
+  {
+   "id": "science-c7-001",
+   "type": "mcq",
+   "q": "Which process do green plants use to make their own food with the help of sunlight?",
+   "options": [
+    "Photosynthesis",
+    "Transpiration",
+    "Digestion",
+    "Respiration"
+   ]
+  },
+  {
+   "id": "science-c7-002",
+   "type": "mcq",
+   "q": "Which green pigment in leaves traps the energy of sunlight?",
+   "options": [
+    "Haemoglobin",
+    "Chlorophyll",
+    "Melanin",
+    "Keratin"
+   ]
+  },
+  {
+   "id": "science-c7-003",
+   "type": "mcq",
+   "q": "Which two raw materials does a leaf need for photosynthesis?",
+   "options": [
+    "Oxygen and glucose",
+    "Nitrogen and starch",
+    "Carbon dioxide and water",
+    "Oxygen and water"
+   ]
+  },
+  {
+   "id": "science-c7-004",
+   "type": "short",
+   "q": "A potted plant is kept in a dark cupboard for several days. A leaf from it is then tested with iodine solution and does not turn blue-black. Explain why.",
+   "proposedAnswer": "Without light the leaf cannot carry out photosynthesis, so it makes no starch. The starch it had before has been used up. Iodine turns blue-black only in the presence of starch.",
+   "keyPoints": [
+    "No light means no photosynthesis",
+    "No starch is present",
+    "Iodine turns blue-black only with starch"
+   ]
+  },
+  {
+   "id": "science-c7-005",
+   "type": "mcq",
+   "q": "Cuscuta (amarbel) is a yellow, thread-like plant without chlorophyll. How does it get its food?",
+   "options": [
+    "It makes food from sunlight",
+    "It catches and digests insects",
+    "It feeds on dead and rotting matter",
+    "It takes ready-made food from the host plant it climbs on"
+   ]
+  },
+  {
+   "id": "science-c7-006",
+   "type": "mcq",
+   "q": "The pitcher plant has green leaves and makes food by photosynthesis, yet it also traps insects. What is the most likely reason?",
+   "options": [
+    "It grows in soil poor in nitrogen and gets this nutrient from the insects",
+    "It cannot take in carbon dioxide",
+    "It has no roots at all",
+    "It cannot make food in sunlight"
+   ]
+  },
+  {
+   "id": "science-c7-007",
+   "type": "short",
+   "q": "Animals and plants both use oxygen all the time. Explain why the amount of oxygen in the air does not run out.",
+   "proposedAnswer": "Green plants release oxygen during photosynthesis in the daytime. This replaces the oxygen used up in respiration by living things, so the oxygen content of air stays almost steady.",
+   "keyPoints": [
+    "Photosynthesis releases oxygen",
+    "Oxygen used in respiration is replaced"
+   ]
+  },
+  {
+   "id": "science-c7-008",
+   "type": "mcq",
+   "q": "Which gas is given out by green plants during photosynthesis?",
+   "options": [
+    "Carbon dioxide",
+    "Oxygen",
+    "Nitrogen",
+    "Hydrogen"
+   ]
+  },
+  {
+   "id": "science-c7-009",
+   "type": "mcq",
+   "q": "In which part of the human digestive system does digestion of food begin?",
+   "options": [
+    "Stomach",
+    "Small intestine",
+    "Mouth",
+    "Food pipe"
+   ]
+  },
+  {
+   "id": "science-c7-010",
+   "type": "mcq",
+   "q": "Which organ makes bile juice?",
+   "options": [
+    "Pancreas",
+    "Kidney",
+    "Stomach",
+    "Liver"
+   ]
+  },
+  {
+   "id": "science-c7-011",
+   "type": "mcq",
+   "q": "Where is most of the digested food absorbed into the blood?",
+   "options": [
+    "Small intestine",
+    "Mouth",
+    "Stomach",
+    "Large intestine"
+   ]
+  },
+  {
+   "id": "science-c7-012",
+   "type": "short",
+   "q": "What are villi and what is their use in the small intestine?",
+   "proposedAnswer": "Villi are finger-like projections on the inner wall of the small intestine. They increase the surface area so that digested food can be absorbed into the blood more quickly.",
+   "keyPoints": [
+    "Finger-like projections in the small intestine",
+    "Increase surface area for absorption"
+   ]
+  },
+  {
+   "id": "science-c7-013",
+   "type": "mcq",
+   "q": "Which of these animals chews the cud?",
+   "options": [
+    "Lion",
+    "Cow",
+    "Dog",
+    "Cat"
+   ]
+  },
+  {
+   "id": "science-c7-014",
+   "type": "mcq",
+   "q": "How does an amoeba take in food?",
+   "options": [
+    "Through a mouth and stomach",
+    "By absorbing it through its gills",
+    "By engulfing it with finger-like false feet called pseudopodia",
+    "By filtering it with its teeth"
+   ]
+  },
+  {
+   "id": "science-c7-015",
+   "type": "mcq",
+   "q": "A cow can live on grass but a human cannot. Which is the correct reason?",
+   "options": [
+    "Humans have no small intestine",
+    "Grass has no nutrients for humans because it is green",
+    "A cow has no stomach",
+    "A cow has bacteria in a large caecum that help break down cellulose"
+   ]
+  },
+  {
+   "id": "science-c7-016",
+   "type": "short",
+   "q": "A student says food is digested only in the stomach. Using the mouth and small intestine as examples, show that this is not correct.",
+   "proposedAnswer": "Digestion starts in the mouth, where saliva begins to break down starch. Digestion is completed in the small intestine, where juices from the liver, pancreas and the intestine itself act on carbohydrates, proteins and fats. So several organs take part.",
+   "keyPoints": [
+    "Saliva acts on starch in the mouth",
+    "Digestion is completed in the small intestine",
+    "Several organs and juices are involved"
+   ]
+  },
+  {
+   "id": "science-c7-017",
+   "type": "mcq",
+   "q": "What is the removal of the fleece of a sheep called?",
+   "options": [
+    "Shearing",
+    "Reeling",
+    "Spinning",
+    "Scouring"
+   ]
+  },
+  {
+   "id": "science-c7-018",
+   "type": "mcq",
+   "q": "Silk fibres are obtained from the cocoon of which animal?",
+   "options": [
+    "Spider",
+    "Silkworm",
+    "Sheep",
+    "Goat"
+   ]
+  },
+  {
+   "id": "science-c7-019",
+   "type": "short",
+   "q": "What is sericulture?",
+   "proposedAnswer": "Sericulture is the rearing of silkworms for the production of silk.",
+   "keyPoints": [
+    "Rearing of silkworms",
+    "Done to obtain silk"
+   ]
+  },
+  {
+   "id": "science-c7-020",
+   "type": "mcq",
+   "q": "After shearing, the sheep's fleece is washed in tanks to remove grease, dust and dirt. What is this step called?",
+   "options": [
+    "Sorting",
+    "Reeling",
+    "Scouring",
+    "Weaving"
+   ]
+  },
+  {
+   "id": "science-c7-021",
+   "type": "mcq",
+   "q": "In which stage of its life cycle does the silk moth spin a cocoon?",
+   "options": [
+    "Egg",
+    "Adult moth",
+    "Larva (caterpillar)",
+    "Both egg and adult"
+   ]
+  },
+  {
+   "id": "science-c7-022",
+   "type": "mcq",
+   "q": "Which animal gives angora wool?",
+   "options": [
+    "Angora goat",
+    "Camel",
+    "Sheep",
+    "Yak"
+   ]
+  },
+  {
+   "id": "science-c7-023",
+   "type": "mcq",
+   "q": "Woollen sweaters keep us warm in winter mainly because:",
+   "options": [
+    "Wool produces heat of its own",
+    "The fibres trap air, which is a poor conductor of heat",
+    "Wool is a good conductor of heat",
+    "Wool stops sunlight from reaching the body"
+   ]
+  },
+  {
+   "id": "science-c7-024",
+   "type": "short",
+   "q": "Arrange the stages in the life cycle of a silk moth in the correct order.",
+   "proposedAnswer": "Egg, then larva (silkworm or caterpillar), then pupa inside the cocoon, then adult moth.",
+   "keyPoints": [
+    "Egg first",
+    "Larva then pupa in cocoon",
+    "Adult moth last"
+   ]
+  },
+  {
+   "id": "science-c7-025",
+   "type": "mcq",
+   "q": "What is the normal temperature of a healthy human body?",
+   "options": [
+    "27 degrees C",
+    "47 degrees C",
+    "37 degrees C",
+    "100 degrees C"
+   ]
+  },
+  {
+   "id": "science-c7-026",
+   "type": "mcq",
+   "q": "By which mode does heat travel through a solid such as a metal rod?",
+   "options": [
+    "Radiation",
+    "Evaporation",
+    "Convection",
+    "Conduction"
+   ]
+  },
+  {
+   "id": "science-c7-027",
+   "type": "mcq",
+   "q": "Heat from the Sun reaches the Earth by:",
+   "options": [
+    "Radiation",
+    "Convection",
+    "Conduction",
+    "Reflection only"
+   ]
+  },
+  {
+   "id": "science-c7-028",
+   "type": "short",
+   "q": "Why do people prefer to wear light-coloured clothes in summer?",
+   "proposedAnswer": "Light-coloured clothes reflect most of the heat falling on them, while dark clothes absorb more heat. So light colours keep us cooler.",
+   "keyPoints": [
+    "Light colours reflect more heat",
+    "Dark colours absorb more heat"
+   ]
+  },
+  {
+   "id": "science-c7-029",
+   "type": "mcq",
+   "q": "Which material is the best choice for the handle of a cooking pan?",
+   "options": [
+    "Copper",
+    "Wood",
+    "Iron",
+    "Aluminium"
+   ]
+  },
+  {
+   "id": "science-c7-030",
+   "type": "mcq",
+   "q": "Water in a vessel is heated from the bottom. Why does all the water get heated?",
+   "options": [
+    "Heat travels by radiation through the water",
+    "Water is a good conductor of heat",
+    "Hot water rises and cooler water sinks, setting up convection currents",
+    "The vessel makes the water boil on its own"
+   ]
+  },
+  {
+   "id": "science-c7-031",
+   "type": "mcq",
+   "q": "Why should a clinical thermometer be shaken before use?",
+   "options": [
+    "To cool the bulb",
+    "To make the mercury expand",
+    "To bring the mercury thread below the normal mark, because it does not fall back by itself",
+    "To clean the glass"
+   ]
+  },
+  {
+   "id": "science-c7-032",
+   "type": "short",
+   "q": "You feel warm when standing a little away from a bonfire even though you are not touching it. Which mode of heat transfer is mainly responsible, and why?",
+   "proposedAnswer": "Radiation. Air is a poor conductor, and the warm air mostly rises, so the heat reaching you at the side comes as radiation that travels directly from the fire.",
+   "keyPoints": [
+    "Radiation",
+    "Air is a poor conductor",
+    "Heat travels without a medium"
+   ]
+  },
+  {
+   "id": "science-c7-033",
+   "type": "mcq",
+   "q": "What happens when an acid is put on blue litmus paper?",
+   "options": [
+    "It turns red",
+    "It stays blue",
+    "It turns green",
+    "It turns white"
+   ]
+  },
+  {
+   "id": "science-c7-034",
+   "type": "mcq",
+   "q": "Which acid is present in lemon juice?",
+   "options": [
+    "Acetic acid",
+    "Citric acid",
+    "Lactic acid",
+    "Formic acid"
+   ]
+  },
+  {
+   "id": "science-c7-035",
+   "type": "mcq",
+   "q": "Which of these turns red litmus paper blue?",
+   "options": [
+    "Lemon juice",
+    "Vinegar",
+    "Soap solution",
+    "Curd"
+   ]
+  },
+  {
+   "id": "science-c7-036",
+   "type": "mcq",
+   "q": "What are formed when an acid reacts with a base?",
+   "options": [
+    "Only water",
+    "Only a gas",
+    "Another acid and a base",
+    "A salt and water"
+   ]
+  },
+  {
+   "id": "science-c7-037",
+   "type": "short",
+   "q": "Why is baking soda or calamine solution rubbed on the skin after an ant bite?",
+   "proposedAnswer": "An ant sting injects formic acid. Baking soda or calamine is a base, so it neutralises the acid and soothes the skin.",
+   "keyPoints": [
+    "Ant sting contains formic acid",
+    "Base neutralises the acid"
+   ]
+  },
+  {
+   "id": "science-c7-038",
+   "type": "mcq",
+   "q": "A turmeric stain on a white shirt turns reddish when rubbed with soap. What does this show?",
+   "options": [
+    "Soap is a base and turmeric turns red with bases",
+    "Soap is neutral",
+    "Turmeric is an acid",
+    "Soap is an acid"
+   ]
+  },
+  {
+   "id": "science-c7-039",
+   "type": "mcq",
+   "q": "A solution does not change the colour of either red or blue litmus paper. The solution is:",
+   "options": [
+    "Acidic",
+    "Neutral",
+    "Strongly basic",
+    "Both acidic and basic"
+   ]
+  },
+  {
+   "id": "science-c7-040",
+   "type": "short",
+   "q": "A farmer finds that the soil in a field is too acidic for crops. What can be added to it and why?",
+   "proposedAnswer": "Slaked lime or quicklime can be added. These are bases, so they neutralise the extra acid in the soil and make it more suitable for crops.",
+   "keyPoints": [
+    "Add a base such as slaked lime or quicklime",
+    "It neutralises the acid in soil"
+   ]
+  },
+  {
+   "id": "science-c7-041",
+   "type": "mcq",
+   "q": "Which acid is responsible for the pain of an ant sting?",
+   "options": [
+    "Acetic acid",
+    "Citric acid",
+    "Formic acid",
+    "Tartaric acid"
+   ]
+  },
+  {
+   "id": "science-c7-042",
+   "type": "mcq",
+   "q": "Which of these is a physical change?",
+   "options": [
+    "Rusting of iron",
+    "Burning of paper",
+    "Curdling of milk",
+    "Melting of ice"
+   ]
+  },
+  {
+   "id": "science-c7-043",
+   "type": "mcq",
+   "q": "Which of these is a chemical change?",
+   "options": [
+    "Rusting of an iron nail",
+    "Cutting a paper",
+    "Dissolving sugar in water",
+    "Boiling water"
+   ]
+  },
+  {
+   "id": "science-c7-044",
+   "type": "mcq",
+   "q": "Which two things are needed for iron to rust?",
+   "options": [
+    "Carbon dioxide and nitrogen",
+    "Oxygen and water",
+    "Only sunlight",
+    "Hydrogen and heat"
+   ]
+  },
+  {
+   "id": "science-c7-045",
+   "type": "mcq",
+   "q": "Which gas turns lime water milky?",
+   "options": [
+    "Oxygen",
+    "Nitrogen",
+    "Carbon dioxide",
+    "Hydrogen"
+   ]
+  },
+  {
+   "id": "science-c7-046",
+   "type": "short",
+   "q": "State two differences between a physical change and a chemical change.",
+   "proposedAnswer": "In a physical change no new substance is formed and the change can usually be reversed, like melting wax. In a chemical change one or more new substances are formed and the change is generally not easily reversed, like burning wood.",
+   "keyPoints": [
+    "Physical change forms no new substance",
+    "Chemical change forms a new substance",
+    "Physical changes are usually reversible"
+   ]
+  },
+  {
+   "id": "science-c7-047",
+   "type": "mcq",
+   "q": "A candle is burning. Which statement is correct?",
+   "options": [
+    "Both melting of wax and burning are chemical changes",
+    "Both melting of wax and burning are physical changes",
+    "Melting of wax is a chemical change and burning is a physical change",
+    "Melting of wax is a physical change and burning is a chemical change"
+   ]
+  },
+  {
+   "id": "science-c7-048",
+   "type": "mcq",
+   "q": "Why are iron gates and railings painted regularly?",
+   "options": [
+    "To keep air and water from reaching the iron and so prevent rusting",
+    "To make them heavier",
+    "To make them conduct electricity",
+    "To make them dissolve in water"
+   ]
+  },
+  {
+   "id": "science-c7-049",
+   "type": "short",
+   "q": "Vinegar is added to baking soda and bubbles appear. Name the gas, say how you can test for it, and tell whether the change is physical or chemical.",
+   "proposedAnswer": "The gas is carbon dioxide. It turns lime water milky. The change is chemical because a new substance (a gas) is formed.",
+   "keyPoints": [
+    "Carbon dioxide is released",
+    "It turns lime water milky",
+    "A new substance forms so it is chemical"
+   ]
+  },
+  {
+   "id": "science-c7-050",
+   "type": "mcq",
+   "q": "Which term describes the average weather pattern of a place over a long period?",
+   "options": [
+    "Rainfall",
+    "Climate",
+    "Humidity",
+    "Season only"
+   ]
+  },
+  {
+   "id": "science-c7-051",
+   "type": "mcq",
+   "q": "Which of these animals lives in the polar regions?",
+   "options": [
+    "Monkey",
+    "Elephant",
+    "Polar bear",
+    "Hornbill"
+   ]
+  },
+  {
+   "id": "science-c7-052",
+   "type": "mcq",
+   "q": "Which statement about weather and climate is correct?",
+   "options": [
+    "Weather is the average of climate",
+    "Climate changes every hour",
+    "Weather and climate always mean the same thing",
+    "Weather is the day-to-day condition of the atmosphere at a place"
+   ]
+  },
+  {
+   "id": "science-c7-053",
+   "type": "mcq",
+   "q": "How does a long, strong tail help a monkey living in a tropical rainforest?",
+   "options": [
+    "It helps the monkey grip branches and move among trees",
+    "It keeps the monkey warm",
+    "It helps the monkey swim",
+    "It stores food"
+   ]
+  },
+  {
+   "id": "science-c7-054",
+   "type": "short",
+   "q": "What is meant by adaptation? Give one example.",
+   "proposedAnswer": "Adaptation is a special feature or habit that helps an organism to survive in its surroundings. For example, a polar bear has thick white fur and a layer of fat to stay warm in cold regions.",
+   "keyPoints": [
+    "Feature or habit that helps survival in a habitat",
+    "A correct example"
+   ]
+  },
+  {
+   "id": "science-c7-055",
+   "type": "mcq",
+   "q": "How does the white fur of a polar bear help it?",
+   "options": [
+    "It makes the bear heavier",
+    "It blends with the snow and ice, which helps the bear to hunt without being noticed",
+    "It makes the bear sink in water",
+    "It attracts the Sun's heat only"
+   ]
+  },
+  {
+   "id": "science-c7-056",
+   "type": "short",
+   "q": "A news reader says, 'The climate of our city was very hot today.' Is this statement correct? Explain.",
+   "proposedAnswer": "No. Climate is the average weather over a long time, so a single hot day is a matter of weather, not climate. The reader should have said the weather was very hot today.",
+   "keyPoints": [
+    "Climate is a long-term average",
+    "One day describes weather"
+   ]
+  },
+  {
+   "id": "science-c7-057",
+   "type": "mcq",
+   "q": "Which of these is NOT used to describe the weather of a place?",
+   "options": [
+    "Temperature",
+    "Humidity",
+    "Type of rock in the hills",
+    "Wind speed"
+   ]
+  },
+  {
+   "id": "science-c7-058",
+   "type": "mcq",
+   "q": "What is moving air called?",
+   "options": [
+    "Smoke",
+    "Fog",
+    "Dew",
+    "Wind"
+   ]
+  },
+  {
+   "id": "science-c7-059",
+   "type": "mcq",
+   "q": "What is the calm region at the centre of a cyclone called?",
+   "options": [
+    "Eye",
+    "Funnel",
+    "Crest",
+    "Tail"
+   ]
+  },
+  {
+   "id": "science-c7-060",
+   "type": "mcq",
+   "q": "During the day, near the sea, the breeze blows:",
+   "options": [
+    "From land to sea",
+    "From sea to land",
+    "From the sky to the sea",
+    "Only upwards"
+   ]
+  },
+  {
+   "id": "science-c7-061",
+   "type": "short",
+   "q": "Why does wind blow? Explain in terms of heated air.",
+   "proposedAnswer": "Air that is heated becomes lighter and rises, leaving a region of low pressure. Cooler air from regions of higher pressure moves in to take its place, and this moving air is wind.",
+   "keyPoints": [
+    "Hot air rises",
+    "Air moves from high pressure to low pressure"
+   ]
+  },
+  {
+   "id": "science-c7-062",
+   "type": "mcq",
+   "q": "During a thunderstorm with lightning, which is the safest place to be?",
+   "options": [
+    "Under a tall tree",
+    "On an open field",
+    "Inside a closed building or a car",
+    "In a lake"
+   ]
+  },
+  {
+   "id": "science-c7-063",
+   "type": "mcq",
+   "q": "Why does the breeze near the coast blow from the land towards the sea at night?",
+   "options": [
+    "There is no air over the land at night",
+    "The sea becomes colder than the land",
+    "The Sun heats the land at night",
+    "The land cools faster than the sea, so the air over the sea is warmer and rises"
+   ]
+  },
+  {
+   "id": "science-c7-064",
+   "type": "short",
+   "q": "Why are people living near the coast often moved to cyclone shelters before a cyclone strikes?",
+   "proposedAnswer": "A cyclone brings very strong winds, heavy rain and a storm surge that can flood the coast. Moving people to shelters keeps them safe from these dangers.",
+   "keyPoints": [
+    "Strong winds and heavy rain",
+    "Flooding from storm surge on the coast"
+   ]
+  },
+  {
+   "id": "science-c7-065",
+   "type": "mcq",
+   "q": "What is the process called in which cells release energy from food?",
+   "options": [
+    "Cellular respiration",
+    "Excretion",
+    "Photosynthesis",
+    "Digestion"
+   ]
+  },
+  {
+   "id": "science-c7-066",
+   "type": "mcq",
+   "q": "Which organs do fish use to breathe in water?",
+   "options": [
+    "Lungs",
+    "Gills",
+    "Spiracles",
+    "Skin only"
+   ]
+  },
+  {
+   "id": "science-c7-067",
+   "type": "mcq",
+   "q": "Through which openings does a cockroach take in air?",
+   "options": [
+    "Gills",
+    "Nostrils",
+    "Spiracles",
+    "Mouth only"
+   ]
+  },
+  {
+   "id": "science-c7-068",
+   "type": "mcq",
+   "q": "What happens to the diaphragm and ribs during inhalation?",
+   "options": [
+    "The diaphragm moves up and the ribs move down",
+    "The diaphragm moves down and the ribs move up and outwards",
+    "Both stay still",
+    "Both move upwards"
+   ]
+  },
+  {
+   "id": "science-c7-069",
+   "type": "short",
+   "q": "What is anaerobic respiration? Name one organism that carries it out.",
+   "proposedAnswer": "Anaerobic respiration is the breakdown of food to release energy without using oxygen. Yeast is an organism that does this.",
+   "keyPoints": [
+    "Breakdown of food without oxygen",
+    "Example such as yeast or bacteria"
+   ]
+  },
+  {
+   "id": "science-c7-070",
+   "type": "mcq",
+   "q": "After running a fast race, a boy gets cramps in his legs. Which substance collecting in the muscles is the usual cause?",
+   "options": [
+    "Lactic acid",
+    "Alcohol",
+    "Glucose",
+    "Oxygen"
+   ]
+  },
+  {
+   "id": "science-c7-071",
+   "type": "short",
+   "q": "Why does bread dough rise after yeast is added and the dough is kept in a warm place?",
+   "proposedAnswer": "Yeast respires and gives out carbon dioxide. The gas gets trapped in the dough as bubbles and makes it swell and rise.",
+   "keyPoints": [
+    "Yeast respires and releases carbon dioxide",
+    "Gas bubbles make the dough swell"
+   ]
+  },
+  {
+   "id": "science-c7-072",
+   "type": "mcq",
+   "q": "Which organ pumps blood around the body?",
+   "options": [
+    "Lungs",
+    "Heart",
+    "Liver",
+    "Kidney"
+   ]
+  },
+  {
+   "id": "science-c7-073",
+   "type": "mcq",
+   "q": "Which red pigment in red blood cells carries oxygen?",
+   "options": [
+    "Chlorophyll",
+    "Keratin",
+    "Haemoglobin",
+    "Insulin"
+   ]
+  },
+  {
+   "id": "science-c7-074",
+   "type": "mcq",
+   "q": "In plants, which tissue carries water and minerals from the roots to the leaves?",
+   "options": [
+    "Cuticle",
+    "Phloem",
+    "Stomata",
+    "Xylem"
+   ]
+  },
+  {
+   "id": "science-c7-075",
+   "type": "mcq",
+   "q": "Which blood vessels carry blood towards the heart?",
+   "options": [
+    "Veins",
+    "Capillaries",
+    "Nerves",
+    "Arteries"
+   ]
+  },
+  {
+   "id": "science-c7-076",
+   "type": "short",
+   "q": "What is the function of platelets in the blood?",
+   "proposedAnswer": "Platelets help the blood to clot at a wound. The clot stops further bleeding.",
+   "keyPoints": [
+    "Help blood clotting",
+    "Stop bleeding from a cut"
+   ]
+  },
+  {
+   "id": "science-c7-077",
+   "type": "mcq",
+   "q": "A balsam stem is placed in water with red ink for some hours. When the stem is cut across, red dots are seen in a ring. What does this show?",
+   "options": [
+    "Food moves down the stem through the xylem",
+    "Water moves up the stem through the xylem",
+    "The stem makes its own red pigment",
+    "Leaves are not needed for water movement"
+   ]
+  },
+  {
+   "id": "science-c7-078",
+   "type": "short",
+   "q": "What is transpiration and why is it useful for a plant?",
+   "proposedAnswer": "Transpiration is the loss of water vapour from the leaves through stomata. It helps pull water and minerals upwards from the roots and also cools the plant.",
+   "keyPoints": [
+    "Loss of water vapour through stomata",
+    "Helps water rise from the roots",
+    "Cools the plant"
+   ]
+  },
+  {
+   "id": "science-c7-079",
+   "type": "mcq",
+   "q": "Which part of a flower is the male reproductive part?",
+   "options": [
+    "Pistil",
+    "Sepal",
+    "Stamen",
+    "Petal"
+   ]
+  },
+  {
+   "id": "science-c7-080",
+   "type": "mcq",
+   "q": "What is the transfer of pollen from an anther to a stigma called?",
+   "options": [
+    "Fertilisation",
+    "Dispersal",
+    "Germination",
+    "Pollination"
+   ]
+  },
+  {
+   "id": "science-c7-081",
+   "type": "mcq",
+   "q": "Bryophyllum can grow new plants from which part?",
+   "options": [
+    "Leaves",
+    "Seeds only",
+    "Roots",
+    "Flowers only"
+   ]
+  },
+  {
+   "id": "science-c7-082",
+   "type": "mcq",
+   "q": "How are the light, fibrous seeds of a coconut mainly dispersed along the seashore?",
+   "options": [
+    "By wind only",
+    "By water",
+    "By sticking to animals",
+    "By explosion of the fruit"
+   ]
+  },
+  {
+   "id": "science-c7-083",
+   "type": "short",
+   "q": "Differentiate between pollination and fertilisation in flowers.",
+   "proposedAnswer": "Pollination is the transfer of pollen from the anther to the stigma. Fertilisation is the joining of the male and female gametes, which happens later inside the ovule.",
+   "keyPoints": [
+    "Pollination is the transfer of pollen",
+    "Fertilisation is the fusion of male and female gametes"
+   ]
+  },
+  {
+   "id": "science-c7-084",
+   "type": "mcq",
+   "q": "Why do many flowers have bright petals and a sweet scent?",
+   "options": [
+    "To make them heavier",
+    "To keep the Sun away",
+    "To attract insects that help in pollination",
+    "To prevent seed formation"
+   ]
+  },
+  {
+   "id": "science-c7-085",
+   "type": "short",
+   "q": "Why is it useful for plants to spread their seeds far from the parent plant?",
+   "proposedAnswer": "Seeds that fall close to the parent would compete with it for sunlight, water and nutrients. Dispersal reduces this competition and lets the plant grow in new places.",
+   "keyPoints": [
+    "Avoids competition for light, water and nutrients",
+    "Helps the species spread to new areas"
+   ]
+  },
+  {
+   "id": "science-c7-086",
+   "type": "mcq",
+   "q": "How is speed calculated?",
+   "options": [
+    "Time divided by distance",
+    "Distance multiplied by time",
+    "Distance plus time",
+    "Distance divided by time"
+   ]
+  },
+  {
+   "id": "science-c7-087",
+   "type": "mcq",
+   "q": "What is the SI unit of time?",
+   "options": [
+    "Second",
+    "Hour",
+    "Minute",
+    "Day"
+   ]
+  },
+  {
+   "id": "science-c7-088",
+   "type": "mcq",
+   "q": "Which instrument in a vehicle shows its speed at any instant?",
+   "options": [
+    "Odometer",
+    "Speedometer",
+    "Thermometer",
+    "Barometer"
+   ]
+  },
+  {
+   "id": "science-c7-089",
+   "type": "mcq",
+   "q": "A bus covers 150 km in 3 hours at a steady speed. What is its speed?",
+   "options": [
+    "450 km/h",
+    "153 km/h",
+    "50 km/h",
+    "30 km/h"
+   ]
+  },
+  {
+   "id": "science-c7-090",
+   "type": "short",
+   "q": "A cyclist moves at a steady speed of 5 m/s for 20 seconds. How far does the cyclist travel?",
+   "proposedAnswer": "Distance = speed x time = 5 m/s x 20 s = 100 m.",
+   "keyPoints": [
+    "Distance = speed x time",
+    "5 x 20 = 100 m"
+   ]
+  },
+  {
+   "id": "science-c7-091",
+   "type": "mcq",
+   "q": "The distance-time graph of a car is a straight line sloping upwards through the origin. What does it show?",
+   "options": [
+    "The car is at rest",
+    "The car is moving with a changing speed",
+    "The car is moving backwards",
+    "The car is moving with a uniform speed"
+   ]
+  },
+  {
+   "id": "science-c7-092",
+   "type": "short",
+   "q": "A bus covers 40 km in the first hour and 20 km in the next hour. Find its average speed for the two hours.",
+   "proposedAnswer": "Total distance = 40 + 20 = 60 km. Total time = 2 h. Average speed = 60 / 2 = 30 km/h.",
+   "keyPoints": [
+    "Total distance is 60 km",
+    "Total time is 2 hours",
+    "Average speed is 30 km/h"
+   ]
+  },
+  {
+   "id": "science-c7-093",
+   "type": "mcq",
+   "q": "Which type of material allows electric current to pass through it easily?",
+   "options": [
+    "Conductor",
+    "Insulator",
+    "Rubber",
+    "Wood"
+   ]
+  },
+  {
+   "id": "science-c7-094",
+   "type": "mcq",
+   "q": "What is the purpose of a fuse in an electric circuit?",
+   "options": [
+    "To increase the current",
+    "To protect appliances by breaking the circuit when the current is too high",
+    "To store electricity",
+    "To make bulbs brighter"
+   ]
+  },
+  {
+   "id": "science-c7-095",
+   "type": "mcq",
+   "q": "Which of these devices works mainly on the heating effect of current?",
+   "options": [
+    "Electric bell",
+    "Compass",
+    "Electric iron",
+    "Electromagnet crane"
+   ]
+  },
+  {
+   "id": "science-c7-096",
+   "type": "mcq",
+   "q": "How is a simple electromagnet made?",
+   "options": [
+    "By rubbing a bar with wool",
+    "By joining two cells together",
+    "By heating a magnet",
+    "By wrapping insulated wire round an iron core and passing current through it"
+   ]
+  },
+  {
+   "id": "science-c7-097",
+   "type": "short",
+   "q": "Why is the wire used in a fuse made of a metal with a low melting point?",
+   "proposedAnswer": "If the current becomes too large, the fuse wire heats up and melts quickly. This breaks the circuit and protects the appliances and wiring from damage.",
+   "keyPoints": [
+    "Wire melts easily when current is too high",
+    "Circuit gets broken and appliances are protected"
+   ]
+  },
+  {
+   "id": "science-c7-098",
+   "type": "mcq",
+   "q": "A bulb connected to a fresh cell by wires does not glow, though the bulb is not fused. Which is the most likely reason?",
+   "options": [
+    "The circuit is not complete because of a loose connection",
+    "The wires are too short",
+    "The cell is too bright",
+    "The bulb is too bright"
+   ]
+  },
+  {
+   "id": "science-c7-099",
+   "type": "short",
+   "q": "Give one advantage of an electromagnet over a permanent magnet.",
+   "proposedAnswer": "An electromagnet can be switched on and off by turning the current on or off, and its strength can be changed by changing the current or the number of turns of the coil. A permanent magnet cannot be controlled like this.",
+   "keyPoints": [
+    "Can be turned on and off",
+    "Strength can be changed"
+   ]
+  },
+  {
+   "id": "science-c7-100",
+   "type": "mcq",
+   "q": "In which kind of path does light travel in a uniform medium such as air?",
+   "options": [
+    "Zigzag",
+    "Straight line",
+    "Circular",
+    "Curved"
+   ]
+  },
+  {
+   "id": "science-c7-101",
+   "type": "mcq",
+   "q": "What does the law of reflection say about the angle of incidence and the angle of reflection?",
+   "options": [
+    "Angle of incidence is greater",
+    "Angle of reflection is greater",
+    "They are equal",
+    "They are not related"
+   ]
+  },
+  {
+   "id": "science-c7-102",
+   "type": "mcq",
+   "q": "Which statement about the image formed by a plane mirror is correct?",
+   "options": [
+    "It is smaller than the object",
+    "It is real and can be shown on a screen",
+    "It is upside down",
+    "It is virtual and the same size as the object"
+   ]
+  },
+  {
+   "id": "science-c7-103",
+   "type": "mcq",
+   "q": "Which type of mirror is used as a rear-view mirror in vehicles?",
+   "options": [
+    "Convex",
+    "Concave",
+    "Cylindrical",
+    "Plane"
+   ]
+  },
+  {
+   "id": "science-c7-104",
+   "type": "short",
+   "q": "Name the seven colours of white light in order, starting from violet.",
+   "proposedAnswer": "Violet, indigo, blue, green, yellow, orange and red.",
+   "keyPoints": [
+    "Violet, indigo, blue",
+    "Green, yellow, orange, red"
+   ]
+  },
+  {
+   "id": "science-c7-105",
+   "type": "mcq",
+   "q": "A girl stands 2 m in front of a plane mirror. How far is she from her image?",
+   "options": [
+    "2 m",
+    "4 m",
+    "1 m",
+    "8 m"
+   ]
+  },
+  {
+   "id": "science-c7-106",
+   "type": "short",
+   "q": "Why do dentists use a concave mirror to examine teeth?",
+   "proposedAnswer": "When a tooth is held close to a concave mirror, the mirror forms a magnified, upright image. This lets the dentist see the tooth clearly in detail.",
+   "keyPoints": [
+    "Concave mirror gives a magnified image of a close object",
+    "Image is upright"
+   ]
+  },
+  {
+   "id": "science-c7-107",
+   "type": "mcq",
+   "q": "What are the tiny pores on the surface of a leaf, through which gases enter and leave, called?",
+   "options": [
+    "Root hairs",
+    "Veins",
+    "Stomata",
+    "Nodules"
+   ]
+  },
+  {
+   "id": "science-c7-108",
+   "type": "mcq",
+   "q": "What is the mode of nutrition called in which an organism makes its own food?",
+   "options": [
+    "Heterotrophic",
+    "Saprotrophic",
+    "Parasitic",
+    "Autotrophic"
+   ]
+  },
+  {
+   "id": "science-c7-109",
+   "type": "mcq",
+   "q": "Which bacteria living in the root nodules of pulse plants convert nitrogen of the air into a usable form?",
+   "options": [
+    "Rhizobium",
+    "Lactobacillus",
+    "Yeast",
+    "Amoeba"
+   ]
+  },
+  {
+   "id": "science-c7-110",
+   "type": "mcq",
+   "q": "Mushrooms and bread mould get their food from dead and decaying matter. Such organisms are called:",
+   "options": [
+    "Autotrophs",
+    "Saprotrophs",
+    "Insectivores",
+    "Parasites"
+   ]
+  },
+  {
+   "id": "science-c7-111",
+   "type": "short",
+   "q": "What is symbiosis? Give one example from plants.",
+   "proposedAnswer": "Symbiosis is a relationship in which two different organisms live together and share shelter and nutrients. In lichens, an alga and a fungus live together; the alga makes food and the fungus gives shelter and holds water.",
+   "keyPoints": [
+    "Two organisms live together and both benefit",
+    "Example such as alga and fungus in lichens"
+   ]
+  },
+  {
+   "id": "science-c7-112",
+   "type": "mcq",
+   "q": "Farmers often grow a pulse crop after a cereal crop in the same field. What is the likely benefit?",
+   "options": [
+    "Pulses remove nitrogen from the soil",
+    "Pulses make the soil more acidic",
+    "Pulse roots with Rhizobium add nitrogen compounds to the soil",
+    "Pulses stop sunlight from reaching the soil"
+   ]
+  },
+  {
+   "id": "science-c7-113",
+   "type": "short",
+   "q": "Why do farmers add manure or fertilisers to the soil repeatedly, and which three main nutrients do they supply?",
+   "proposedAnswer": "Crops take nutrients from the soil as they grow, so the soil gradually loses them. Manure and fertilisers replace these nutrients; the three main ones are nitrogen, phosphorus and potassium.",
+   "keyPoints": [
+    "Crops use up soil nutrients",
+    "Nitrogen, phosphorus and potassium"
+   ]
+  },
+  {
+   "id": "science-c7-114",
+   "type": "mcq",
+   "q": "In what form do plants store the extra food they make in their leaves?",
+   "options": [
+    "Protein",
+    "Vitamins",
+    "Fat only",
+    "Starch"
+   ]
+  },
+  {
+   "id": "science-c7-115",
+   "type": "mcq",
+   "q": "How many teeth does a healthy adult human usually have?",
+   "options": [
+    "32",
+    "28",
+    "20",
+    "36"
+   ]
+  },
+  {
+   "id": "science-c7-116",
+   "type": "mcq",
+   "q": "Which type of teeth is used for cutting and biting food?",
+   "options": [
+    "Molars",
+    "Incisors",
+    "Premolars",
+    "Wisdom teeth only"
+   ]
+  },
+  {
+   "id": "science-c7-117",
+   "type": "mcq",
+   "q": "What is the main function of the large intestine in digestion?",
+   "options": [
+    "To make bile",
+    "To digest proteins",
+    "To absorb water from undigested food",
+    "To absorb digested fats"
+   ]
+  },
+  {
+   "id": "science-c7-118",
+   "type": "mcq",
+   "q": "Which acid is secreted in the stomach and helps to kill harmful germs in food?",
+   "options": [
+    "Citric acid",
+    "Lactic acid",
+    "Acetic acid",
+    "Hydrochloric acid"
+   ]
+  },
+  {
+   "id": "science-c7-119",
+   "type": "short",
+   "q": "How does food move down the food pipe (oesophagus) to the stomach?",
+   "proposedAnswer": "The walls of the food pipe contract and relax in a wave-like movement called peristalsis. This pushes the food down towards the stomach.",
+   "keyPoints": [
+    "Wave-like contraction and relaxation of the muscles",
+    "Pushes food towards the stomach"
+   ]
+  },
+  {
+   "id": "science-c7-120",
+   "type": "mcq",
+   "q": "A child with diarrhoea is given oral rehydration solution (ORS). What is its purpose?",
+   "options": [
+    "To replace the water and salts lost from the body",
+    "To stop the child from eating",
+    "To kill the bacteria in the stomach",
+    "To make the stomach acid stronger"
+   ]
+  },
+  {
+   "id": "science-c7-121",
+   "type": "short",
+   "q": "Why does the food we eat have to be digested before the body can use it?",
+   "proposedAnswer": "Food contains large, insoluble molecules which cannot pass through the walls of the intestine into the blood. Digestion breaks them into small, soluble substances that can be absorbed and carried to the cells.",
+   "keyPoints": [
+    "Large insoluble food molecules cannot be absorbed",
+    "Digestion changes them to small soluble substances"
+   ]
+  },
+  {
+   "id": "science-c7-122",
+   "type": "mcq",
+   "q": "What is the removal of undigested food from the body through the anus called?",
+   "options": [
+    "Absorption",
+    "Egestion",
+    "Digestion",
+    "Ingestion"
+   ]
+  },
+  {
+   "id": "science-c7-123",
+   "type": "mcq",
+   "q": "Silkworms are fed on the leaves of which plant?",
+   "options": [
+    "Neem",
+    "Banyan",
+    "Mulberry",
+    "Mango"
+   ]
+  },
+  {
+   "id": "science-c7-124",
+   "type": "mcq",
+   "q": "Which of these animals gives wool?",
+   "options": [
+    "Cat",
+    "Horse",
+    "Rabbit only",
+    "Yak"
+   ]
+  },
+  {
+   "id": "science-c7-125",
+   "type": "mcq",
+   "q": "After scouring, small fluffy fibres stuck to the hair are picked out. What are these fibres called?",
+   "options": [
+    "Burrs",
+    "Cocoons",
+    "Fleece",
+    "Yarn"
+   ]
+  },
+  {
+   "id": "science-c7-126",
+   "type": "mcq",
+   "q": "What is the process of making yarn from fibres called?",
+   "options": [
+    "Shearing",
+    "Spinning",
+    "Scouring",
+    "Dyeing"
+   ]
+  },
+  {
+   "id": "science-c7-127",
+   "type": "short",
+   "q": "What is done during the sorting of sheared wool?",
+   "proposedAnswer": "The sheared fleece is sorted into groups according to the texture and quality of the hair. This is done by hand in the factory so that wool of one type is processed together.",
+   "keyPoints": [
+    "Wool is grouped by texture or type",
+    "Done before further processing"
+   ]
+  },
+  {
+   "id": "science-c7-128",
+   "type": "mcq",
+   "q": "Why are silkworm cocoons usually processed before the moth comes out?",
+   "options": [
+    "The cocoon stops making silk",
+    "The moth eats the silk",
+    "The moth would break the continuous thread of silk as it emerges",
+    "The moth turns the silk white"
+   ]
+  },
+  {
+   "id": "science-c7-129",
+   "type": "short",
+   "q": "Name two animals other than a sheep that give us wool or wool-like fibre, and name the fibre or wool for one of them.",
+   "proposedAnswer": "Goats and yaks both give wool. The angora goat gives angora wool, and the Kashmiri goat gives the fine wool used in shawls. Camels, llamas and alpacas also give wool.",
+   "keyPoints": [
+    "Two correct animals such as goat, yak, camel",
+    "A correct wool or fibre name"
+   ]
+  },
+  {
+   "id": "science-c7-130",
+   "type": "mcq",
+   "q": "At what temperature does pure water boil at normal atmospheric pressure?",
+   "options": [
+    "0 degrees C",
+    "50 degrees C",
+    "212 degrees C",
+    "100 degrees C"
+   ]
+  },
+  {
+   "id": "science-c7-131",
+   "type": "mcq",
+   "q": "What is the usual unit in which we measure temperature in daily life in India?",
+   "options": [
+    "Degree Celsius",
+    "Metre",
+    "Kilogram",
+    "Second"
+   ]
+  },
+  {
+   "id": "science-c7-132",
+   "type": "mcq",
+   "q": "What is the range of a clinical thermometer?",
+   "options": [
+    "0 to 100 degrees C",
+    "35 to 42 degrees C",
+    "-10 to 110 degrees C",
+    "20 to 80 degrees C"
+   ]
+  },
+  {
+   "id": "science-c7-133",
+   "type": "mcq",
+   "q": "When a hot object touches a cold object, in which direction does heat flow?",
+   "options": [
+    "From the cold object to the hot object",
+    "In neither direction",
+    "From the hot object to the cold object",
+    "In both directions equally for ever"
+   ]
+  },
+  {
+   "id": "science-c7-134",
+   "type": "short",
+   "q": "What is the difference between a conductor and an insulator of heat? Give two examples of each.",
+   "proposedAnswer": "A conductor allows heat to pass through it easily, such as copper and iron. An insulator does not allow heat to pass easily, such as wood and plastic.",
+   "keyPoints": [
+    "Conductors pass heat easily, with examples like metals",
+    "Insulators do not, with examples like wood or plastic"
+   ]
+  },
+  {
+   "id": "science-c7-135",
+   "type": "mcq",
+   "q": "On a cold morning an iron chair feels colder than a wooden stool kept in the same room. Why?",
+   "options": [
+    "Iron is colder than wood",
+    "Wood gives out cold",
+    "Wood absorbs heat from the room",
+    "Iron conducts heat away from the hand faster than wood does"
+   ]
+  },
+  {
+   "id": "science-c7-136",
+   "type": "short",
+   "q": "Why does a vacuum flask keep hot tea hot for a long time?",
+   "proposedAnswer": "A flask has two walls with a vacuum between them, which stops heat passing by conduction and convection. The shiny surfaces reflect heat back, which cuts down radiation, and the stopper prevents loss of heat through the opening.",
+   "keyPoints": [
+    "Vacuum between double walls reduces conduction and convection",
+    "Shiny surfaces reduce radiation"
+   ]
+  },
+  {
+   "id": "science-c7-137",
+   "type": "mcq",
+   "q": "Which acid is present in vinegar?",
+   "options": [
+    "Acetic acid",
+    "Citric acid",
+    "Formic acid",
+    "Tartaric acid"
+   ]
+  },
+  {
+   "id": "science-c7-138",
+   "type": "mcq",
+   "q": "From which natural source is litmus obtained?",
+   "options": [
+    "Cactus",
+    "Lichens",
+    "Mushrooms",
+    "Seaweed leaves only"
+   ]
+  },
+  {
+   "id": "science-c7-139",
+   "type": "mcq",
+   "q": "Why is milk of magnesia taken for indigestion caused by too much acid in the stomach?",
+   "options": [
+    "It is an acid that adds to the stomach acid",
+    "It is a neutral liquid that dilutes the food",
+    "It is a base that neutralises the excess acid",
+    "It makes the stomach produce more juice"
+   ]
+  },
+  {
+   "id": "science-c7-140",
+   "type": "mcq",
+   "q": "A piece of china rose petals in water is used as an indicator. What colour does the solution become when an acid is added?",
+   "options": [
+    "Green",
+    "Colourless",
+    "Blue",
+    "Dark pink or magenta"
+   ]
+  },
+  {
+   "id": "science-c7-141",
+   "type": "short",
+   "q": "What is an indicator? Name two natural indicators.",
+   "proposedAnswer": "An indicator is a substance that shows by a change in colour whether a solution is acidic, basic or neutral. Litmus and turmeric are natural indicators, and so is china rose.",
+   "keyPoints": [
+    "Shows a colour change in acid or base",
+    "Two examples such as litmus, turmeric, china rose"
+   ]
+  },
+  {
+   "id": "science-c7-142",
+   "type": "mcq",
+   "q": "When hydrochloric acid reacts with sodium hydroxide, which products are formed?",
+   "options": [
+    "Sodium chloride and water",
+    "Sodium chloride and hydrogen only",
+    "Chlorine and water",
+    "Sodium and water"
+   ]
+  },
+  {
+   "id": "science-c7-143",
+   "type": "mcq",
+   "q": "Which group lists only substances that are acidic in nature?",
+   "options": [
+    "Soap solution, lime water, baking soda",
+    "Vinegar, lemon juice, curd",
+    "Vinegar, soap solution, milk of magnesia",
+    "Lime water, curd, lemon juice"
+   ]
+  },
+  {
+   "id": "science-c7-144",
+   "type": "short",
+   "q": "Why should acidic waste from factories be neutralised before it is let into a river?",
+   "proposedAnswer": "Acidic waste harms fish and other water life. Adding a base neutralises the acid so that the water becomes safe for living things.",
+   "keyPoints": [
+    "Acid harms aquatic life",
+    "A base neutralises the acid"
+   ]
+  },
+  {
+   "id": "science-c7-145",
+   "type": "mcq",
+   "q": "Which of these is a chemical change?",
+   "options": [
+    "Breaking a glass",
+    "Melting of butter",
+    "Cooking of food",
+    "Freezing of water"
+   ]
+  },
+  {
+   "id": "science-c7-146",
+   "type": "mcq",
+   "q": "Dissolving sugar in water is an example of:",
+   "options": [
+    "A chemical change",
+    "Burning",
+    "Rusting",
+    "A physical change"
+   ]
+  },
+  {
+   "id": "science-c7-147",
+   "type": "mcq",
+   "q": "A magnesium ribbon burns in air with a dazzling white flame. What is the white powder left behind?",
+   "options": [
+    "Magnesium oxide",
+    "Carbon",
+    "Magnesium chloride",
+    "Pure magnesium"
+   ]
+  },
+  {
+   "id": "science-c7-148",
+   "type": "mcq",
+   "q": "What is the coating of zinc on iron to protect it from rusting called?",
+   "options": [
+    "Crystallisation",
+    "Galvanisation",
+    "Sublimation",
+    "Neutralisation"
+   ]
+  },
+  {
+   "id": "science-c7-149",
+   "type": "short",
+   "q": "What is crystallisation? How can crystals of copper sulphate be obtained from its solution?",
+   "proposedAnswer": "Crystallisation is the process of getting crystals of a pure substance from its solution. A hot, saturated solution of copper sulphate is cooled slowly without disturbing it, and blue crystals form.",
+   "keyPoints": [
+    "Process of forming crystals from a solution",
+    "Cooling a saturated solution slowly"
+   ]
+  },
+  {
+   "id": "science-c7-150",
+   "type": "mcq",
+   "q": "An iron nail is dipped in copper sulphate solution. After some time the blue colour of the solution fades and the nail gets a brownish coating. What does this show?",
+   "options": [
+    "Only a physical change happened",
+    "The nail turned into copper",
+    "A chemical change happened because a new substance, copper, formed",
+    "The solution evaporated"
+   ]
+  },
+  {
+   "id": "science-c7-151",
+   "type": "short",
+   "q": "Classify each as a physical or a chemical change: (a) making ice from water, (b) burning of coal, (c) souring of milk.",
+   "proposedAnswer": "(a) Physical change. (b) Chemical change. (c) Chemical change.",
+   "keyPoints": [
+    "Ice making is physical",
+    "Burning coal and souring of milk are chemical"
+   ]
+  },
+  {
+   "id": "science-c7-152",
+   "type": "mcq",
+   "q": "Which instrument is used to measure the amount of rainfall?",
+   "options": [
+    "Anemometer",
+    "Barometer",
+    "Thermometer",
+    "Rain gauge"
+   ]
+  },
+  {
+   "id": "science-c7-153",
+   "type": "mcq",
+   "q": "What does humidity mean?",
+   "options": [
+    "Amount of water vapour in the air",
+    "Amount of sunshine",
+    "Speed of wind",
+    "Temperature of water"
+   ]
+  },
+  {
+   "id": "science-c7-154",
+   "type": "mcq",
+   "q": "Which describes the climate of a tropical rainforest?",
+   "options": [
+    "Cold and dry",
+    "Hot and humid with heavy rainfall",
+    "Cold and snowy all year",
+    "Hot and dry with almost no rain"
+   ]
+  },
+  {
+   "id": "science-c7-155",
+   "type": "mcq",
+   "q": "On which continent do penguins live in the wild near the South Pole?",
+   "options": [
+    "Europe",
+    "North America",
+    "Antarctica",
+    "Africa"
+   ]
+  },
+  {
+   "id": "science-c7-156",
+   "type": "short",
+   "q": "Why do some birds migrate to other places at certain times of the year?",
+   "proposedAnswer": "They move to escape very cold or harsh weather and to find food and a suitable place to breed. They return when conditions improve.",
+   "keyPoints": [
+    "To escape harsh weather",
+    "To find food or a place to breed"
+   ]
+  },
+  {
+   "id": "science-c7-157",
+   "type": "mcq",
+   "q": "Why do polar animals such as seals and penguins have a thick layer of fat under the skin?",
+   "options": [
+    "It helps them dig in the sand",
+    "It helps them fly",
+    "It makes them look bigger to predators only",
+    "It acts as insulation and keeps body heat in"
+   ]
+  },
+  {
+   "id": "science-c7-158",
+   "type": "short",
+   "q": "Why is it much hotter near the equator than near the poles?",
+   "proposedAnswer": "Near the equator the Sun's rays fall almost straight down, so a small area gets a lot of heat. Near the poles the rays fall at a slant and the same energy spreads over a larger area, so it is colder.",
+   "keyPoints": [
+    "Rays are nearly vertical at the equator",
+    "Rays are slanting at the poles and spread over a larger area"
+   ]
+  },
+  {
+   "id": "science-c7-159",
+   "type": "mcq",
+   "q": "Which instrument measures wind speed?",
+   "options": [
+    "Anemometer",
+    "Rain gauge",
+    "Thermometer",
+    "Speedometer"
+   ]
+  },
+  {
+   "id": "science-c7-160",
+   "type": "mcq",
+   "q": "What happens to air when it is heated?",
+   "options": [
+    "It contracts and becomes heavier",
+    "It expands and becomes lighter",
+    "It disappears",
+    "It stays the same"
+   ]
+  },
+  {
+   "id": "science-c7-161",
+   "type": "mcq",
+   "q": "Over which part of the earth do tropical cyclones form?",
+   "options": [
+    "Mountain tops",
+    "Deserts",
+    "Warm oceans",
+    "Polar ice caps"
+   ]
+  },
+  {
+   "id": "science-c7-162",
+   "type": "mcq",
+   "q": "What is a funnel-shaped column of rapidly spinning air that reaches from a cloud to the ground called?",
+   "options": [
+    "Monsoon",
+    "Sea breeze",
+    "Land breeze",
+    "Tornado"
+   ]
+  },
+  {
+   "id": "science-c7-163",
+   "type": "short",
+   "q": "Why is a lightning conductor fitted on tall buildings?",
+   "proposedAnswer": "A lightning conductor gives lightning an easy path to the ground through a thick metal strip. This protects the building and the people inside from the electric discharge.",
+   "keyPoints": [
+    "Gives lightning a path to the ground",
+    "Protects the building"
+   ]
+  },
+  {
+   "id": "science-c7-164",
+   "type": "mcq",
+   "q": "The air pressure at place X is higher than at place Y. In which direction will the wind blow?",
+   "options": [
+    "From X to Y",
+    "From Y to X",
+    "Wind will not blow",
+    "Upwards only at X"
+   ]
+  },
+  {
+   "id": "science-c7-165",
+   "type": "short",
+   "q": "Write two precautions to be taken during a thunderstorm.",
+   "proposedAnswer": "Stay inside a building or car and keep away from windows. Do not stand under a tall tree or in open fields, and avoid using electrical appliances or water taps.",
+   "keyPoints": [
+    "Stay indoors or in a closed vehicle",
+    "Avoid tall trees, open spaces and electric appliances"
+   ]
+  },
+  {
+   "id": "science-c7-166",
+   "type": "mcq",
+   "q": "Which gas do we take in from the air for respiration?",
+   "options": [
+    "Carbon dioxide",
+    "Oxygen",
+    "Nitrogen",
+    "Hydrogen"
+   ]
+  },
+  {
+   "id": "science-c7-167",
+   "type": "mcq",
+   "q": "A frog breathes through its lungs and through its:",
+   "options": [
+    "Gills always",
+    "Fins",
+    "Moist skin",
+    "Shell"
+   ]
+  },
+  {
+   "id": "science-c7-168",
+   "type": "mcq",
+   "q": "An earthworm takes in oxygen through its:",
+   "options": [
+    "Gills",
+    "Lungs",
+    "Spiracles",
+    "Moist skin"
+   ]
+  },
+  {
+   "id": "science-c7-169",
+   "type": "mcq",
+   "q": "Which solution can be used to show that exhaled air has more carbon dioxide than inhaled air?",
+   "options": [
+    "Lime water",
+    "Iodine solution",
+    "Vinegar",
+    "Salt solution"
+   ]
+  },
+  {
+   "id": "science-c7-170",
+   "type": "short",
+   "q": "Why does the breathing rate of a person go up during exercise?",
+   "proposedAnswer": "The muscles work harder and need more energy, so the cells need more oxygen to break down glucose. Breathing faster brings in more oxygen and removes the extra carbon dioxide.",
+   "keyPoints": [
+    "Muscles need more energy",
+    "More oxygen is needed and more carbon dioxide has to be removed"
+   ]
+  },
+  {
+   "id": "science-c7-171",
+   "type": "mcq",
+   "q": "Plants in a pot are watered so much that the soil stays flooded for many days and the roots begin to die. What is the most likely reason?",
+   "options": [
+    "Roots get too much oxygen",
+    "Roots cannot get enough air from the soil for respiration",
+    "Roots cannot absorb water at all",
+    "Roots start photosynthesis"
+   ]
+  },
+  {
+   "id": "science-c7-172",
+   "type": "short",
+   "q": "Explain the difference between breathing and respiration.",
+   "proposedAnswer": "Breathing is the taking in of oxygen-rich air and giving out of carbon dioxide-rich air by the body. Respiration is the process inside cells in which glucose is broken down with oxygen to release energy.",
+   "keyPoints": [
+    "Breathing is the exchange of air",
+    "Respiration releases energy from food in cells"
+   ]
+  },
+  {
+   "id": "science-c7-173",
+   "type": "mcq",
+   "q": "What is the liquid part of the blood called?",
+   "options": [
+    "Haemoglobin",
+    "Platelet",
+    "Plasma",
+    "Lymph nodes"
+   ]
+  },
+  {
+   "id": "science-c7-174",
+   "type": "mcq",
+   "q": "Which blood cells help to fight germs that enter the body?",
+   "options": [
+    "Red blood cells",
+    "Platelets",
+    "Plasma cells only",
+    "White blood cells"
+   ]
+  },
+  {
+   "id": "science-c7-175",
+   "type": "mcq",
+   "q": "Which organ filters waste from the blood and forms urine?",
+   "options": [
+    "Kidney",
+    "Heart",
+    "Lung",
+    "Liver"
+   ]
+  },
+  {
+   "id": "science-c7-176",
+   "type": "mcq",
+   "q": "Which structures of a plant absorb water from the soil?",
+   "options": [
+    "Stomata",
+    "Root hairs",
+    "Flowers",
+    "Thorns"
+   ]
+  },
+  {
+   "id": "science-c7-177",
+   "type": "short",
+   "q": "State one difference between xylem and phloem.",
+   "proposedAnswer": "Xylem carries water and minerals from the roots to the leaves. Phloem carries the food made in the leaves to the other parts of the plant.",
+   "keyPoints": [
+    "Xylem carries water and minerals",
+    "Phloem carries food"
+   ]
+  },
+  {
+   "id": "science-c7-178",
+   "type": "mcq",
+   "q": "Why do arteries have thick, muscular walls?",
+   "options": [
+    "Because they carry blood back to the heart slowly",
+    "Because they store blood",
+    "Because they carry blood away from the heart at high pressure",
+    "Because they exchange gases with cells"
+   ]
+  },
+  {
+   "id": "science-c7-179",
+   "type": "short",
+   "q": "Why do capillaries have very thin walls?",
+   "proposedAnswer": "Capillaries are where oxygen, nutrients and waste are exchanged between the blood and the body cells. Thin walls let these substances pass through easily.",
+   "keyPoints": [
+    "Exchange between blood and cells happens here",
+    "Thin walls allow easy passage"
+   ]
+  },
+  {
+   "id": "science-c7-180",
+   "type": "mcq",
+   "q": "How many chambers does the human heart have?",
+   "options": [
+    "Two",
+    "Three",
+    "Five",
+    "Four"
+   ]
+  },
+  {
+   "id": "science-c7-181",
+   "type": "mcq",
+   "q": "Which part of a flower is the female reproductive part?",
+   "options": [
+    "Pistil",
+    "Stamen",
+    "Anther",
+    "Filament"
+   ]
+  },
+  {
+   "id": "science-c7-182",
+   "type": "mcq",
+   "q": "Which part of the flower develops into the fruit?",
+   "options": [
+    "Petal",
+    "Ovary",
+    "Sepal",
+    "Stamen"
+   ]
+  },
+  {
+   "id": "science-c7-183",
+   "type": "mcq",
+   "q": "Yeast reproduces asexually by:",
+   "options": [
+    "Spores",
+    "Fragmentation",
+    "Budding",
+    "Seeds"
+   ]
+  },
+  {
+   "id": "science-c7-184",
+   "type": "mcq",
+   "q": "Which of these plants reproduces by means of spores?",
+   "options": [
+    "Rose",
+    "Potato",
+    "Mango",
+    "Fern"
+   ]
+  },
+  {
+   "id": "science-c7-185",
+   "type": "short",
+   "q": "What is vegetative propagation? Give two examples of plants grown this way.",
+   "proposedAnswer": "Vegetative propagation is the growth of new plants from a vegetative part such as a stem, root or leaf, without using seeds. Rose is grown from stem cuttings and potato grows from its buds (eyes).",
+   "keyPoints": [
+    "New plants from stem, root or leaf",
+    "Two correct examples"
+   ]
+  },
+  {
+   "id": "science-c7-186",
+   "type": "mcq",
+   "q": "Fruits of the Xanthium plant have hooks. How does this feature help the plant?",
+   "options": [
+    "The hooks stick to the fur of animals and carry the seeds far away",
+    "The hooks help the fruit float",
+    "The hooks make the fruit burst",
+    "The hooks help to attract bees"
+   ]
+  },
+  {
+   "id": "science-c7-187",
+   "type": "short",
+   "q": "A gardener plants cuttings from a rose bush that has deep red flowers. Why will the new plants also have deep red flowers?",
+   "proposedAnswer": "Plants grown from cuttings come from a single parent by vegetative propagation. They have the same characters as the parent, so they bear flowers of the same colour.",
+   "keyPoints": [
+    "Only one parent is involved",
+    "Offspring are identical to the parent"
+   ]
+  },
+  {
+   "id": "science-c7-188",
+   "type": "mcq",
+   "q": "The to-and-fro motion of the bob of a pendulum is an example of which kind of motion?",
+   "options": [
+    "Circular",
+    "Periodic",
+    "Rectilinear",
+    "Random"
+   ]
+  },
+  {
+   "id": "science-c7-189",
+   "type": "mcq",
+   "q": "What do we call the time taken by a pendulum to complete one oscillation?",
+   "options": [
+    "Frequency",
+    "Its speed",
+    "Its time period",
+    "Its distance"
+   ]
+  },
+  {
+   "id": "science-c7-190",
+   "type": "mcq",
+   "q": "A car moving along a straight road shows which kind of motion?",
+   "options": [
+    "Circular motion",
+    "Periodic motion",
+    "Rotational motion",
+    "Rectilinear motion"
+   ]
+  },
+  {
+   "id": "science-c7-191",
+   "type": "mcq",
+   "q": "How long will a vehicle moving at a steady 60 km/h take to cover 120 km?",
+   "options": [
+    "2 hours",
+    "0.5 hours",
+    "3 hours",
+    "180 hours"
+   ]
+  },
+  {
+   "id": "science-c7-192",
+   "type": "short",
+   "q": "What is the difference between uniform and non-uniform motion? Give one example of each.",
+   "proposedAnswer": "In uniform motion a body covers equal distances in equal intervals of time, like a car moving at a constant speed on a straight road. In non-uniform motion it covers unequal distances in equal intervals of time, like a bus in city traffic.",
+   "keyPoints": [
+    "Uniform motion has equal distances in equal times",
+    "Non-uniform motion has unequal distances in equal times"
+   ]
+  },
+  {
+   "id": "science-c7-193",
+   "type": "mcq",
+   "q": "What is a speed of 72 km/h in metres per second?",
+   "options": [
+    "7.2 m/s",
+    "20 m/s",
+    "36 m/s",
+    "72 m/s"
+   ]
+  },
+  {
+   "id": "science-c7-194",
+   "type": "short",
+   "q": "A simple pendulum completes 20 oscillations in 40 seconds. What is its time period?",
+   "proposedAnswer": "Time period = total time / number of oscillations = 40 / 20 = 2 seconds.",
+   "keyPoints": [
+    "Divide total time by number of oscillations",
+    "The answer is 2 s"
+   ]
+  },
+  {
+   "id": "science-c7-195",
+   "type": "mcq",
+   "q": "What is the use of a switch in an electric circuit?",
+   "options": [
+    "To make electricity",
+    "To make the bulb brighter",
+    "To open or close the circuit",
+    "To store charge"
+   ]
+  },
+  {
+   "id": "science-c7-196",
+   "type": "mcq",
+   "q": "Which of these is a source of electric current for a torch?",
+   "options": [
+    "Switch",
+    "Bulb",
+    "Wire",
+    "Cell"
+   ]
+  },
+  {
+   "id": "science-c7-197",
+   "type": "mcq",
+   "q": "In the symbol of an electric cell, which line represents the positive terminal?",
+   "options": [
+    "The longer, thin line",
+    "The shorter, thick line",
+    "Both lines",
+    "Neither line"
+   ]
+  },
+  {
+   "id": "science-c7-198",
+   "type": "mcq",
+   "q": "Who discovered that an electric current flowing in a wire deflects a magnetic compass needle placed near it?",
+   "options": [
+    "Newton",
+    "Hans Christian Oersted",
+    "Faraday only",
+    "Galileo"
+   ]
+  },
+  {
+   "id": "science-c7-199",
+   "type": "short",
+   "q": "What is the difference between an open circuit and a closed circuit?",
+   "proposedAnswer": "In a closed circuit there is a complete unbroken path, so current flows and the bulb glows. In an open circuit the path is broken, for example by an open switch, so no current flows.",
+   "keyPoints": [
+    "Closed circuit has a complete path and current flows",
+    "Open circuit has a break and no current flows"
+   ]
+  },
+  {
+   "id": "science-c7-200",
+   "type": "mcq",
+   "q": "Why is the filament of an electric bulb made of tungsten?",
+   "options": [
+    "Tungsten is cheap and soft",
+    "Tungsten does not conduct heat",
+    "Tungsten has a very high melting point and can glow without melting",
+    "Tungsten is an insulator"
+   ]
+  },
+  {
+   "id": "science-c7-201",
+   "type": "short",
+   "q": "Why should electrical appliances never be handled with wet hands?",
+   "proposedAnswer": "Water, especially if it has salts in it, can conduct electricity. With wet hands, current may pass through the body and cause a dangerous electric shock.",
+   "keyPoints": [
+    "Water conducts electricity",
+    "Current can flow through the body and cause a shock"
+   ]
+  },
+  {
+   "id": "science-c7-202",
+   "type": "mcq",
+   "q": "A material that allows light to pass through it completely so that objects behind are clearly seen is called:",
+   "options": [
+    "Opaque",
+    "Translucent",
+    "Reflective",
+    "Transparent"
+   ]
+  },
+  {
+   "id": "science-c7-203",
+   "type": "mcq",
+   "q": "A rainbow is formed because of which process?",
+   "options": [
+    "Dispersion of sunlight by water drops",
+    "Reflection by clouds only",
+    "Absorption of light by air",
+    "Shadow formation"
+   ]
+  },
+  {
+   "id": "science-c7-204",
+   "type": "mcq",
+   "q": "Which kind of lens is used in a magnifying glass?",
+   "options": [
+    "Concave lens",
+    "Convex lens",
+    "Plane glass",
+    "Cylindrical mirror"
+   ]
+  },
+  {
+   "id": "science-c7-205",
+   "type": "mcq",
+   "q": "When is a shadow formed?",
+   "options": [
+    "When light is reflected",
+    "When light passes through glass",
+    "When an opaque object blocks the path of light",
+    "When there is no light source"
+   ]
+  },
+  {
+   "id": "science-c7-206",
+   "type": "short",
+   "q": "Why is the word AMBULANCE written in reversed letters on the front of the vehicle?",
+   "proposedAnswer": "A driver ahead sees the word in the rear-view mirror. A mirror shows lateral inversion, which swaps left and right, so the reversed word looks normal and can be read easily.",
+   "keyPoints": [
+    "Mirror image is laterally inverted",
+    "Reversed writing is read correctly in a mirror"
+   ]
+  },
+  {
+   "id": "science-c7-207",
+   "type": "mcq",
+   "q": "A rough wall reflects light but we do not see our image in it. Why?",
+   "options": [
+    "Rough surfaces absorb all light",
+    "The wall is a transparent material",
+    "Light does not reach the wall",
+    "Light is scattered in many directions, so there is diffuse reflection"
+   ]
+  },
+  {
+   "id": "science-c7-208",
+   "type": "short",
+   "q": "How does a convex lens differ from a concave lens in shape and in the way it affects parallel rays of light?",
+   "proposedAnswer": "A convex lens is thicker in the middle and bends parallel rays so that they come together (converge). A concave lens is thinner in the middle and spreads the rays apart (diverges).",
+   "keyPoints": [
+    "Convex is thicker in the middle and converges light",
+    "Concave is thinner in the middle and diverges light"
+   ]
+  },
+  {
+   "id": "science-c7-209",
+   "type": "mcq",
+   "q": "Which part of a plant is the main food-making organ?",
+   "options": [
+    "Leaf",
+    "Root",
+    "Fruit",
+    "Stem"
+   ]
+  },
+  {
+   "id": "science-c7-210",
+   "type": "mcq",
+   "q": "Which source of energy is needed for photosynthesis?",
+   "options": [
+    "Wind",
+    "Sunlight",
+    "Electricity from the soil",
+    "Heat from the roots"
+   ]
+  },
+  {
+   "id": "science-c7-211",
+   "type": "mcq",
+   "q": "Which of these is an insectivorous plant?",
+   "options": [
+    "Wheat",
+    "Banyan",
+    "Venus flytrap",
+    "Rose"
+   ]
+  },
+  {
+   "id": "science-c7-212",
+   "type": "mcq",
+   "q": "A leaf has green and white patches. After testing with iodine, only the green patches turn blue-black. What does this show?",
+   "options": [
+    "White parts make more starch",
+    "Starch is made in the dark",
+    "Iodine is absorbed only by green colour",
+    "Chlorophyll is needed to make starch"
+   ]
+  },
+  {
+   "id": "science-c7-213",
+   "type": "mcq",
+   "q": "Which one of these is a heterotroph?",
+   "options": [
+    "Mushroom",
+    "Grass",
+    "Mango tree",
+    "Hibiscus"
+   ]
+  },
+  {
+   "id": "science-c7-214",
+   "type": "short",
+   "q": "Write the word equation for photosynthesis.",
+   "proposedAnswer": "Carbon dioxide + water, in the presence of sunlight and chlorophyll, gives glucose (food) + oxygen.",
+   "keyPoints": [
+    "Carbon dioxide and water are the raw materials",
+    "Glucose and oxygen are the products",
+    "Sunlight and chlorophyll are needed"
+   ]
+  },
+  {
+   "id": "science-c7-215",
+   "type": "mcq",
+   "q": "A strip of black paper is clipped over part of a leaf on a plant kept in sunlight for a few days. When the leaf is tested with iodine, the covered part does not turn blue-black. What is the conclusion?",
+   "options": [
+    "Chlorophyll is absent in the covered part",
+    "Light is needed for the formation of starch",
+    "Water cannot reach the covered part",
+    "Carbon dioxide is made in the covered part"
+   ]
+  },
+  {
+   "id": "science-c7-216",
+   "type": "short",
+   "q": "How does a parasitic plant differ from a saprotroph in the way it gets food? Give an example of each.",
+   "proposedAnswer": "A parasite takes food from the body of a living host plant; Cuscuta is an example. A saprotroph takes food from dead and decaying matter; a mushroom is an example.",
+   "keyPoints": [
+    "Parasite feeds on a living host",
+    "Saprotroph feeds on dead or decaying matter",
+    "One correct example of each"
+   ]
+  },
+  {
+   "id": "science-c7-217",
+   "type": "mcq",
+   "q": "Saliva in the mouth acts on which nutrient in food?",
+   "options": [
+    "Proteins",
+    "Fats",
+    "Starch",
+    "Vitamins"
+   ]
+  },
+  {
+   "id": "science-c7-218",
+   "type": "mcq",
+   "q": "Where is the bile juice made by the liver stored until it is needed?",
+   "options": [
+    "Large intestine",
+    "Stomach",
+    "Pancreas",
+    "Gall bladder"
+   ]
+  },
+  {
+   "id": "science-c7-219",
+   "type": "mcq",
+   "q": "How many milk teeth do children usually have?",
+   "options": [
+    "20",
+    "12",
+    "28",
+    "32"
+   ]
+  },
+  {
+   "id": "science-c7-220",
+   "type": "mcq",
+   "q": "In which organ is food churned with digestive juices to form a semi-liquid mixture?",
+   "options": [
+    "Mouth",
+    "Stomach",
+    "Food pipe",
+    "Anus"
+   ]
+  },
+  {
+   "id": "science-c7-221",
+   "type": "mcq",
+   "q": "The pancreatic juice acts on which nutrients?",
+   "options": [
+    "Only water",
+    "Only minerals",
+    "Carbohydrates, proteins and fats",
+    "Only vitamins"
+   ]
+  },
+  {
+   "id": "science-c7-222",
+   "type": "short",
+   "q": "What is the role of bile juice in digestion?",
+   "proposedAnswer": "Bile breaks fats into very tiny droplets, which makes it easier for the enzymes to digest them. It is made by the liver and poured into the small intestine.",
+   "keyPoints": [
+    "Acts on fats",
+    "Made by the liver and released into the small intestine"
+   ]
+  },
+  {
+   "id": "science-c7-223",
+   "type": "mcq",
+   "q": "Grass-eating animals such as cattle have a longer small intestine than meat-eating animals such as lions. What is the best reason?",
+   "options": [
+    "Cattle have no stomach",
+    "Cattle eat less food",
+    "Lions do not digest anything",
+    "Plant food is bulky and harder to digest, so it takes longer to digest and absorb"
+   ]
+  },
+  {
+   "id": "science-c7-224",
+   "type": "short",
+   "q": "Describe the path taken by a piece of bread from the mouth until the undigested part leaves the body.",
+   "proposedAnswer": "Bread goes from the mouth down the food pipe to the stomach, then to the small intestine, then to the large intestine, and the undigested waste leaves through the anus.",
+   "keyPoints": [
+    "Mouth, food pipe, stomach",
+    "Small intestine, large intestine, anus"
+   ]
+  },
+  {
+   "id": "science-c7-225",
+   "type": "mcq",
+   "q": "The pointed teeth in the human mouth used for tearing food are called:",
+   "options": [
+    "Canines",
+    "Incisors",
+    "Molars",
+    "Premolars only"
+   ]
+  },
+  {
+   "id": "science-c7-226",
+   "type": "mcq",
+   "q": "Wool is obtained from which part of a sheep?",
+   "options": [
+    "Its skin",
+    "Its hair or fleece",
+    "Its milk",
+    "Its feet"
+   ]
+  },
+  {
+   "id": "science-c7-227",
+   "type": "short",
+   "q": "What is a cocoon?",
+   "proposedAnswer": "A cocoon is the protective covering of silk thread that the silkworm spins around itself before it becomes a moth.",
+   "keyPoints": [
+    "A covering of silk thread",
+    "Spun by the silkworm before it turns into a moth"
+   ]
+  },
+  {
+   "id": "science-c7-228",
+   "type": "mcq",
+   "q": "Which of these fibres comes from an animal?",
+   "options": [
+    "Cotton",
+    "Jute",
+    "Silk",
+    "Nylon"
+   ]
+  },
+  {
+   "id": "science-c7-229",
+   "type": "mcq",
+   "q": "What do we call the process of taking out silk threads from cocoons?",
+   "options": [
+    "Sorting",
+    "Shearing",
+    "Scouring",
+    "Reeling"
+   ]
+  },
+  {
+   "id": "science-c7-230",
+   "type": "mcq",
+   "q": "Wool and silk are both fibres made mostly of:",
+   "options": [
+    "Protein",
+    "Cellulose",
+    "Petroleum",
+    "Starch"
+   ]
+  },
+  {
+   "id": "science-c7-231",
+   "type": "short",
+   "q": "Name any three steps in the processing of fleece into wool in the correct order, after shearing.",
+   "proposedAnswer": "After shearing, the fleece is scoured (washed), then sorted by quality, then the burrs are picked out. Later the fibres are dyed and spun into yarn.",
+   "keyPoints": [
+    "Scouring comes first",
+    "Sorting and removing burrs follow",
+    "Dyeing and spinning come later"
+   ]
+  },
+  {
+   "id": "science-c7-232",
+   "type": "mcq",
+   "q": "Shearing does not hurt the sheep. What is the best reason?",
+   "options": [
+    "Sheep have no feeling in their skin",
+    "Only the outer hair is cut, like a haircut, and the skin is not harmed",
+    "The sheep is made to sleep",
+    "Shearing is done under water"
+   ]
+  },
+  {
+   "id": "science-c7-233",
+   "type": "short",
+   "q": "Compare the sources of wool and silk.",
+   "proposedAnswer": "Wool comes from the fleece or hair of animals such as sheep, goat and yak. Silk comes from the cocoon spun by the silkworm, which is the larva of the silk moth.",
+   "keyPoints": [
+    "Wool from hair of animals like sheep, goat, yak",
+    "Silk from the cocoon of the silkworm"
+   ]
+  },
+  {
+   "id": "science-c7-234",
+   "type": "mcq",
+   "q": "By which mode does heat mainly travel in liquids and gases?",
+   "options": [
+    "Conduction",
+    "Radiation only",
+    "Convection",
+    "Reflection"
+   ]
+  },
+  {
+   "id": "science-c7-235",
+   "type": "mcq",
+   "q": "Which one of these is a good conductor of heat?",
+   "options": [
+    "Wood",
+    "Plastic",
+    "Rubber",
+    "Copper"
+   ]
+  },
+  {
+   "id": "science-c7-236",
+   "type": "mcq",
+   "q": "What is the range of a laboratory thermometer?",
+   "options": [
+    "-10 to 110 degrees C",
+    "35 to 42 degrees C",
+    "100 to 200 degrees C",
+    "0 to 10 degrees C"
+   ]
+  },
+  {
+   "id": "science-c7-237",
+   "type": "mcq",
+   "q": "While measuring the temperature of hot water with a laboratory thermometer, how should the bulb be placed?",
+   "options": [
+    "Touching the bottom of the beaker",
+    "Fully in the water without touching the bottom or sides",
+    "Outside the water",
+    "Touching the side of the beaker"
+   ]
+  },
+  {
+   "id": "science-c7-238",
+   "type": "short",
+   "q": "What is conduction of heat? Give an example.",
+   "proposedAnswer": "Conduction is the transfer of heat through a substance from the hot part to the cooler part without the substance itself moving. For example, the handle of a metal spoon becomes hot when the other end is in hot tea.",
+   "keyPoints": [
+    "Heat passes from particle to particle",
+    "A correct example"
+   ]
+  },
+  {
+   "id": "science-c7-239",
+   "type": "mcq",
+   "q": "Why are dark-coloured clothes preferred in winter, if one wants to stay warm in the sunshine?",
+   "options": [
+    "Dark colours reflect heat well",
+    "Dark colours are always thicker",
+    "Dark colours absorb more heat from the Sun",
+    "Dark colours produce heat"
+   ]
+  },
+  {
+   "id": "science-c7-240",
+   "type": "short",
+   "q": "Why do cooking vessels often have a copper or aluminium base?",
+   "proposedAnswer": "Copper and aluminium are good conductors of heat. They quickly pass the heat from the flame to the food inside, so cooking is faster.",
+   "keyPoints": [
+    "Copper and aluminium are good conductors",
+    "Heat passes quickly to the food"
+   ]
+  },
+  {
+   "id": "science-c7-241",
+   "type": "mcq",
+   "q": "Which of these substances is basic in nature?",
+   "options": [
+    "Curd",
+    "Vinegar",
+    "Orange juice",
+    "Baking soda"
+   ]
+  },
+  {
+   "id": "science-c7-242",
+   "type": "mcq",
+   "q": "Which acid is found in tamarind?",
+   "options": [
+    "Tartaric acid",
+    "Acetic acid",
+    "Lactic acid",
+    "Formic acid"
+   ]
+  },
+  {
+   "id": "science-c7-243",
+   "type": "mcq",
+   "q": "Which natural indicator changes from yellow to red in a basic solution?",
+   "options": [
+    "Litmus",
+    "Turmeric",
+    "Methyl orange",
+    "Starch"
+   ]
+  },
+  {
+   "id": "science-c7-244",
+   "type": "mcq",
+   "q": "Which acid is present in curd and sour milk?",
+   "options": [
+    "Citric acid",
+    "Tartaric acid",
+    "Lactic acid",
+    "Acetic acid"
+   ]
+  },
+  {
+   "id": "science-c7-245",
+   "type": "mcq",
+   "q": "What taste and feel are generally typical of bases?",
+   "options": [
+    "Sour and sticky",
+    "Salty and rough",
+    "Sweet and sticky",
+    "Bitter and soapy to the touch"
+   ]
+  },
+  {
+   "id": "science-c7-246",
+   "type": "short",
+   "q": "What is neutralisation? Give an example.",
+   "proposedAnswer": "Neutralisation is the reaction between an acid and a base in which both lose their properties and form a salt and water. For example, hydrochloric acid with sodium hydroxide gives sodium chloride and water.",
+   "keyPoints": [
+    "Acid reacts with base",
+    "Salt and water are formed"
+   ]
+  },
+  {
+   "id": "science-c7-247",
+   "type": "mcq",
+   "q": "A curry stain on a white shirt turns red when rubbed with soap but fades back to yellowish when the shirt is rinsed well with water. Why?",
+   "options": [
+    "Turmeric changes colour in soap, and rinsing removes the soap, so the yellow returns",
+    "Water is an acid that makes the stain disappear",
+    "Water turns turmeric red",
+    "Soap removes the yellow permanently"
+   ]
+  },
+  {
+   "id": "science-c7-248",
+   "type": "short",
+   "q": "You have three unlabelled colourless solutions: an acid, a base and a neutral solution. How can red and blue litmus papers be used to tell them apart?",
+   "proposedAnswer": "Dip both a red and a blue litmus paper in each solution. The one that turns blue litmus red is the acid. The one that turns red litmus blue is the base. The one that changes neither is neutral.",
+   "keyPoints": [
+    "Acid turns blue litmus red",
+    "Base turns red litmus blue",
+    "Neutral solution changes neither"
+   ]
+  },
+  {
+   "id": "science-c7-249",
+   "type": "mcq",
+   "q": "Tearing a sheet of paper into small pieces is which kind of change?",
+   "options": [
+    "Physical",
+    "Chemical",
+    "Both",
+    "Neither"
+   ]
+  },
+  {
+   "id": "science-c7-250",
+   "type": "mcq",
+   "q": "What is the reddish-brown coating that forms on iron objects left in moist air called?",
+   "options": [
+    "Salt",
+    "Soot",
+    "Rust",
+    "Ash"
+   ]
+  },
+  {
+   "id": "science-c7-251",
+   "type": "mcq",
+   "q": "Stainless steel does not rust easily because it is:",
+   "options": [
+    "Pure iron",
+    "Coated with oil",
+    "Made of plastic",
+    "Made of iron mixed with carbon and metals like chromium and nickel"
+   ]
+  },
+  {
+   "id": "science-c7-252",
+   "type": "mcq",
+   "q": "Which products are formed when a candle burns completely in air?",
+   "options": [
+    "Carbon dioxide and water vapour",
+    "Hydrogen and oxygen",
+    "Nitrogen and iron",
+    "Salt and water"
+   ]
+  },
+  {
+   "id": "science-c7-253",
+   "type": "short",
+   "q": "Name two things that may be observed during a chemical change.",
+   "proposedAnswer": "Examples of what can be observed are a change in colour, release of a gas, production of heat or light, formation of a solid (a precipitate), or a change in smell.",
+   "keyPoints": [
+    "Two correct observations such as colour change, gas, heat, light, precipitate"
+   ]
+  },
+  {
+   "id": "science-c7-254",
+   "type": "mcq",
+   "q": "Which one of these is NOT a sure sign of a chemical change?",
+   "options": [
+    "Release of a gas with a new smell",
+    "Change in shape of a substance",
+    "Formation of a new substance",
+    "Change in colour along with release of heat"
+   ]
+  },
+  {
+   "id": "science-c7-255",
+   "type": "short",
+   "q": "A cut apple turns brown if it is kept in the open for some time. Is this a physical or chemical change? Explain.",
+   "proposedAnswer": "It is a chemical change. The cut surface reacts with oxygen of the air and a new brown substance forms, which cannot be changed back to the original.",
+   "keyPoints": [
+    "Chemical change",
+    "Reaction with oxygen forms a new substance"
+   ]
+  },
+  {
+   "id": "science-c7-256",
+   "type": "mcq",
+   "q": "Which of the following is a chemical change that takes place in green leaves in sunlight?",
+   "options": [
+    "Evaporation of water",
+    "Falling of leaves",
+    "Making of food by photosynthesis",
+    "Drying of a wet leaf"
+   ]
+  },
+  {
+   "id": "science-c7-257",
+   "type": "mcq",
+   "q": "Which bird with a large colourful beak is found in tropical rainforests?",
+   "options": [
+    "Sparrow",
+    "Pigeon",
+    "Crow",
+    "Hornbill"
+   ]
+  },
+  {
+   "id": "science-c7-258",
+   "type": "mcq",
+   "q": "Regions lying close to the equator are called:",
+   "options": [
+    "Tropical regions",
+    "Temperate regions",
+    "Polar regions",
+    "Desert regions only"
+   ]
+  },
+  {
+   "id": "science-c7-259",
+   "type": "mcq",
+   "q": "The red-eyed tree frog of the rainforest has sticky pads on its feet. What does this help it to do?",
+   "options": [
+    "Swim in the sea",
+    "Climb and cling to leaves and branches",
+    "Dig in the soil",
+    "Walk on snow"
+   ]
+  },
+  {
+   "id": "science-c7-260",
+   "type": "mcq",
+   "q": "Which of these describes polar regions?",
+   "options": [
+    "Hot and humid",
+    "Dry and sandy",
+    "Very cold and covered with ice and snow",
+    "Warm with heavy rain"
+   ]
+  },
+  {
+   "id": "science-c7-261",
+   "type": "short",
+   "q": "Write two features that help animals live in the very cold polar regions.",
+   "proposedAnswer": "Polar animals have a thick layer of fat under the skin and thick fur or feathers that keep heat in. Some, like the polar bear, are white, which helps them blend in with the snow.",
+   "keyPoints": [
+    "Thick fat layer or fur to keep warm",
+    "White colour or another correct feature"
+   ]
+  },
+  {
+   "id": "science-c7-262",
+   "type": "mcq",
+   "q": "Which feature helps a penguin move quickly in water?",
+   "options": [
+    "Long legs",
+    "Thick horns",
+    "A big beak",
+    "A streamlined body and flippers"
+   ]
+  },
+  {
+   "id": "science-c7-263",
+   "type": "mcq",
+   "q": "A forecast says, 'Tomorrow there will be 10 mm of rain in our city.' This statement is about:",
+   "options": [
+    "Weather",
+    "Climate",
+    "Adaptation",
+    "Season of the year only"
+   ]
+  },
+  {
+   "id": "science-c7-264",
+   "type": "short",
+   "q": "Why are tropical rainforests home to a very large number of kinds of animals?",
+   "proposedAnswer": "The warm and wet climate allows plants to grow all year, so there is plenty of food and shelter. Many different animals can find what they need.",
+   "keyPoints": [
+    "Warm and wet climate throughout the year",
+    "Plenty of food and shelter"
+   ]
+  },
+  {
+   "id": "science-c7-265",
+   "type": "mcq",
+   "q": "What is the sound heard after a flash of lightning called?",
+   "options": [
+    "Echo",
+    "Thunder",
+    "Whistle",
+    "Hum"
+   ]
+  },
+  {
+   "id": "science-c7-266",
+   "type": "mcq",
+   "q": "What is a cyclone over the north-western Pacific Ocean usually called?",
+   "options": [
+    "Monsoon",
+    "Tornado",
+    "Typhoon",
+    "Trade wind"
+   ]
+  },
+  {
+   "id": "science-c7-267",
+   "type": "mcq",
+   "q": "Which of these is a sensible preparation when a cyclone warning has been given?",
+   "options": [
+    "Go to the beach to watch",
+    "Ignore the warning",
+    "Stand on the roof",
+    "Store drinking water, dry food and a torch"
+   ]
+  },
+  {
+   "id": "science-c7-268",
+   "type": "mcq",
+   "q": "Windmills use the energy of wind to generate electricity. Wind is described as:",
+   "options": [
+    "A renewable source of energy",
+    "A non-renewable source of energy",
+    "A fossil fuel",
+    "A source that is used up quickly"
+   ]
+  },
+  {
+   "id": "science-c7-269",
+   "type": "short",
+   "q": "Give two uses of wind.",
+   "proposedAnswer": "Wind turns windmills to generate electricity or to lift water. It also moves sailing boats, dries clothes and disperses seeds and pollen.",
+   "keyPoints": [
+    "Two correct uses of wind"
+   ]
+  },
+  {
+   "id": "science-c7-270",
+   "type": "mcq",
+   "q": "Why does a hot-air balloon rise?",
+   "options": [
+    "The hot air inside is heavier than the air outside",
+    "The hot air inside is lighter than the cooler air outside",
+    "The balloon is filled with water",
+    "Gravity pulls it up"
+   ]
+  },
+  {
+   "id": "science-c7-271",
+   "type": "short",
+   "q": "During a thunderstorm we see lightning first and hear thunder a little later. Why?",
+   "proposedAnswer": "Lightning and thunder happen at the same moment, but light travels much faster than sound. The light reaches our eyes almost at once, while the sound takes longer to arrive.",
+   "keyPoints": [
+    "Both occur together",
+    "Light travels much faster than sound"
+   ]
+  },
+  {
+   "id": "science-c7-272",
+   "type": "mcq",
+   "q": "Which organs are the main organs of breathing in humans?",
+   "options": [
+    "Kidneys",
+    "Intestines",
+    "Lungs",
+    "Gills"
+   ]
+  },
+  {
+   "id": "science-c7-273",
+   "type": "mcq",
+   "q": "Which gas is given out as a waste product of respiration?",
+   "options": [
+    "Oxygen",
+    "Hydrogen",
+    "Nitrogen",
+    "Carbon dioxide"
+   ]
+  },
+  {
+   "id": "science-c7-274",
+   "type": "mcq",
+   "q": "What is the function of hair and mucus in the nose?",
+   "options": [
+    "To trap dust and germs in the air we breathe in",
+    "To make food",
+    "To store oxygen",
+    "To produce sound"
+   ]
+  },
+  {
+   "id": "science-c7-275",
+   "type": "mcq",
+   "q": "A whale is a sea animal but it breathes with:",
+   "options": [
+    "Gills",
+    "Lungs, coming to the surface to breathe",
+    "Moist skin",
+    "Spiracles"
+   ]
+  },
+  {
+   "id": "science-c7-276",
+   "type": "short",
+   "q": "Write the word equation for aerobic respiration.",
+   "proposedAnswer": "Glucose + oxygen gives carbon dioxide + water + energy.",
+   "keyPoints": [
+    "Glucose and oxygen react",
+    "Carbon dioxide, water and energy are released"
+   ]
+  },
+  {
+   "id": "science-c7-277",
+   "type": "mcq",
+   "q": "Yeast is added to a sugar solution and kept warm. Which products form as it respires without oxygen?",
+   "options": [
+    "Lactic acid and oxygen",
+    "Oxygen and water",
+    "Alcohol and carbon dioxide",
+    "Starch and oxygen"
+   ]
+  },
+  {
+   "id": "science-c7-278",
+   "type": "short",
+   "q": "Why do people who climb to a high mountain often breathe faster?",
+   "proposedAnswer": "The air at high altitudes is thin and has less oxygen in each breath. The body breathes faster to try to get enough oxygen.",
+   "keyPoints": [
+    "Less oxygen available at high altitude",
+    "Faster breathing takes in more air"
+   ]
+  },
+  {
+   "id": "science-c7-279",
+   "type": "mcq",
+   "q": "What can we feel by placing fingers on the wrist?",
+   "options": [
+    "Temperature of lungs",
+    "Digestion",
+    "Breathing",
+    "Pulse"
+   ]
+  },
+  {
+   "id": "science-c7-280",
+   "type": "mcq",
+   "q": "A person with anaemia has a shortage of:",
+   "options": [
+    "Haemoglobin in the blood",
+    "Platelets only",
+    "Water",
+    "Chlorophyll"
+   ]
+  },
+  {
+   "id": "science-c7-281",
+   "type": "mcq",
+   "q": "Which instrument is used by a doctor to listen to the heartbeat?",
+   "options": [
+    "Thermometer",
+    "Stethoscope",
+    "Telescope",
+    "Microscope"
+   ]
+  },
+  {
+   "id": "science-c7-282",
+   "type": "mcq",
+   "q": "Which tissue of the plant carries food from the leaves to other parts?",
+   "options": [
+    "Xylem",
+    "Root hair",
+    "Phloem",
+    "Stomata"
+   ]
+  },
+  {
+   "id": "science-c7-283",
+   "type": "short",
+   "q": "Besides plasma, name the three kinds of components in blood.",
+   "proposedAnswer": "Red blood cells, white blood cells and platelets.",
+   "keyPoints": [
+    "Red blood cells",
+    "White blood cells",
+    "Platelets"
+   ]
+  },
+  {
+   "id": "science-c7-284",
+   "type": "mcq",
+   "q": "Which of these is a waste product removed by plants?",
+   "options": [
+    "Urine",
+    "Faeces",
+    "Sweat",
+    "Latex and gums"
+   ]
+  },
+  {
+   "id": "science-c7-285",
+   "type": "mcq",
+   "q": "Why does blood in the veins not flow backwards?",
+   "options": [
+    "Veins have valves that allow flow in one direction",
+    "Veins are very thick",
+    "Veins have no blood",
+    "Veins have no walls"
+   ]
+  },
+  {
+   "id": "science-c7-286",
+   "type": "short",
+   "q": "What would happen to a plant if all the xylem vessels in its stem were blocked?",
+   "proposedAnswer": "Water and minerals could not reach the leaves. The leaves could not make food by photosynthesis, so the plant would wilt and eventually die.",
+   "keyPoints": [
+    "Water cannot reach the leaves",
+    "No photosynthesis, so the plant wilts and dies"
+   ]
+  },
+  {
+   "id": "science-c7-287",
+   "type": "mcq",
+   "q": "What is the process called by which a seed grows into a new plant (seedling)?",
+   "options": [
+    "Pollination",
+    "Germination",
+    "Fertilisation",
+    "Budding"
+   ]
+  },
+  {
+   "id": "science-c7-288",
+   "type": "mcq",
+   "q": "In which part of the stamen are the pollen grains made?",
+   "options": [
+    "Filament",
+    "Style",
+    "Anther",
+    "Ovary"
+   ]
+  },
+  {
+   "id": "science-c7-289",
+   "type": "mcq",
+   "q": "Pollen falls on the stigma of a flower of another plant of the same kind. This is called:",
+   "options": [
+    "Self-pollination",
+    "Germination",
+    "Budding",
+    "Cross-pollination"
+   ]
+  },
+  {
+   "id": "science-c7-290",
+   "type": "mcq",
+   "q": "Winged seeds, such as those of the maple, are dispersed mainly by:",
+   "options": [
+    "Wind",
+    "Animals",
+    "Explosion",
+    "Water"
+   ]
+  },
+  {
+   "id": "science-c7-291",
+   "type": "short",
+   "q": "What is fragmentation? Name one plant that reproduces by it.",
+   "proposedAnswer": "Fragmentation is a type of asexual reproduction in which the body of an organism breaks into pieces, and each piece grows into a new organism. Spirogyra, an alga, reproduces this way.",
+   "keyPoints": [
+    "Body breaks into pieces that grow into new individuals",
+    "Example such as Spirogyra"
+   ]
+  },
+  {
+   "id": "science-c7-292",
+   "type": "mcq",
+   "q": "Which part of a potato grows into a new plant?",
+   "options": [
+    "The skin only",
+    "The buds in the eyes",
+    "The flowers",
+    "The roots only"
+   ]
+  },
+  {
+   "id": "science-c7-293",
+   "type": "mcq",
+   "q": "A flower has stamens but no pistil. Such a flower is called:",
+   "options": [
+    "Bisexual",
+    "Unisexual (female)",
+    "Unisexual (male)",
+    "Asexual"
+   ]
+  },
+  {
+   "id": "science-c7-294",
+   "type": "short",
+   "q": "Put these events in the correct order: seed formation, pollination, fertilisation.",
+   "proposedAnswer": "Pollination first, then fertilisation, and finally seed formation.",
+   "keyPoints": [
+    "Pollination comes first",
+    "Fertilisation follows",
+    "Seeds form last"
+   ]
+  },
+  {
+   "id": "science-c7-295",
+   "type": "mcq",
+   "q": "Which instrument measures the distance travelled by a vehicle?",
+   "options": [
+    "Speedometer",
+    "Stopwatch",
+    "Thermometer",
+    "Odometer"
+   ]
+  },
+  {
+   "id": "science-c7-296",
+   "type": "mcq",
+   "q": "What is the SI unit of speed?",
+   "options": [
+    "m/s",
+    "km/h",
+    "m",
+    "s"
+   ]
+  },
+  {
+   "id": "science-c7-297",
+   "type": "mcq",
+   "q": "An old device that uses the shadow of a stick to tell the time of day is called a:",
+   "options": [
+    "Pendulum clock",
+    "Sundial",
+    "Quartz clock",
+    "Water clock"
+   ]
+  },
+  {
+   "id": "science-c7-298",
+   "type": "short",
+   "q": "How can you find the speed of a rolling ball using simple instruments?",
+   "proposedAnswer": "Measure the distance the ball rolls with a measuring tape and the time it takes with a stopwatch. Then divide the distance by the time to find the speed.",
+   "keyPoints": [
+    "Measure distance with a tape and time with a stopwatch",
+    "Speed = distance / time"
+   ]
+  },
+  {
+   "id": "science-c7-299",
+   "type": "mcq",
+   "q": "On a distance-time graph, the line for an object is horizontal (parallel to the time axis). What does it show?",
+   "options": [
+    "It is moving with uniform speed",
+    "It is moving faster and faster",
+    "It is at rest",
+    "It is moving backwards"
+   ]
+  },
+  {
+   "id": "science-c7-300",
+   "type": "mcq",
+   "q": "Which is faster: a cyclist at 10 m/s or a scooter at 30 km/h?",
+   "options": [
+    "Cyclist",
+    "Scooter",
+    "Both have equal speeds",
+    "Cannot be compared"
+   ]
+  },
+  {
+   "id": "science-c7-301",
+   "type": "short",
+   "q": "A car travels 30 km in 30 minutes. Find its speed in km/h.",
+   "proposedAnswer": "30 minutes is 0.5 hour. Speed = 30 km / 0.5 h = 60 km/h.",
+   "keyPoints": [
+    "Convert 30 minutes to 0.5 hour",
+    "Speed is 60 km/h"
+   ]
+  },
+  {
+   "id": "science-c7-302",
+   "type": "mcq",
+   "q": "Which of these is an insulator of electricity?",
+   "options": [
+    "Rubber",
+    "Iron",
+    "Aluminium",
+    "Copper"
+   ]
+  },
+  {
+   "id": "science-c7-303",
+   "type": "mcq",
+   "q": "A group of two or more cells joined together is called a:",
+   "options": [
+    "Switch",
+    "Battery",
+    "Fuse",
+    "Filament"
+   ]
+  },
+  {
+   "id": "science-c7-304",
+   "type": "mcq",
+   "q": "Which device works on the magnetic effect of electric current?",
+   "options": [
+    "Electric iron",
+    "Electric heater",
+    "Electric bell",
+    "Geyser"
+   ]
+  },
+  {
+   "id": "science-c7-305",
+   "type": "mcq",
+   "q": "In homes, what do MCBs (miniature circuit breakers) do?",
+   "options": [
+    "They make appliances work faster",
+    "They increase voltage",
+    "They store electricity",
+    "They switch off the circuit automatically when the current is too high"
+   ]
+  },
+  {
+   "id": "science-c7-306",
+   "type": "short",
+   "q": "Name two electrical appliances that work on the heating effect of electric current.",
+   "proposedAnswer": "An electric iron and an electric heater. A geyser or a toaster are also examples.",
+   "keyPoints": [
+    "Two correct appliances such as iron, heater, toaster, geyser"
+   ]
+  },
+  {
+   "id": "science-c7-307",
+   "type": "mcq",
+   "q": "A fuse in a house circuit has blown. What is the right thing to do?",
+   "options": [
+    "Replace it with a fuse of the correct rating after finding the fault",
+    "Replace it with a copper wire",
+    "Join the broken ends with a thick wire",
+    "Ignore it and keep using the appliance"
+   ]
+  },
+  {
+   "id": "science-c7-308",
+   "type": "short",
+   "q": "How would you show that a wire carrying a current produces a magnetic effect?",
+   "proposedAnswer": "Place a magnetic compass near a straight wire and pass a current through it by closing the switch. The compass needle deflects, showing a magnetic effect of the current. When the switch is opened, the needle returns to its original position.",
+   "keyPoints": [
+    "Compass placed near the wire",
+    "Needle deflects when current flows"
+   ]
+  },
+  {
+   "id": "science-c7-309",
+   "type": "mcq",
+   "q": "Which of these is a luminous object?",
+   "options": [
+    "Moon",
+    "Sun",
+    "Mirror",
+    "Book"
+   ]
+  },
+  {
+   "id": "science-c7-310",
+   "type": "mcq",
+   "q": "Frosted glass lets some light pass but we cannot see clearly through it. It is:",
+   "options": [
+    "Opaque",
+    "Transparent",
+    "Translucent",
+    "Luminous"
+   ]
+  },
+  {
+   "id": "science-c7-311",
+   "type": "mcq",
+   "q": "An image that can be obtained on a screen is called:",
+   "options": [
+    "A virtual image",
+    "A reflection only",
+    "A shadow only",
+    "A real image"
+   ]
+  },
+  {
+   "id": "science-c7-312",
+   "type": "mcq",
+   "q": "Which mirror always forms an upright, smaller image of an object?",
+   "options": [
+    "Convex mirror",
+    "Concave mirror",
+    "Plane mirror",
+    "Cylindrical mirror"
+   ]
+  },
+  {
+   "id": "science-c7-313",
+   "type": "short",
+   "q": "State the two laws of reflection.",
+   "proposedAnswer": "The angle of incidence is equal to the angle of reflection. The incident ray, the reflected ray and the normal at the point of incidence all lie in the same plane.",
+   "keyPoints": [
+    "Angle of incidence equals angle of reflection",
+    "Incident ray, reflected ray and normal lie in one plane"
+   ]
+  },
+  {
+   "id": "science-c7-314",
+   "type": "mcq",
+   "q": "A candle is 10 cm in front of a plane mirror. If it is moved 2 cm closer to the mirror, what will be the distance between the candle and its image?",
+   "options": [
+    "8 cm",
+    "16 cm",
+    "20 cm",
+    "12 cm"
+   ]
+  },
+  {
+   "id": "science-c7-315",
+   "type": "short",
+   "q": "Why is a concave reflector used behind the bulb in a torch or a vehicle headlight?",
+   "proposedAnswer": "A concave reflector with the bulb at its focus sends the light out as a parallel beam. This makes the beam strong and directed so that it travels a long way.",
+   "keyPoints": [
+    "Bulb is at the focus",
+    "Reflected light forms a parallel beam"
+   ]
+  },
+  {
+   "id": "science-c7-316",
+   "type": "mcq",
+   "q": "Chlorophyll is found inside tiny structures in the cells of leaves. What are they called?",
+   "options": [
+    "Nuclei",
+    "Stomata",
+    "Chloroplasts",
+    "Vacuoles"
+   ]
+  },
+  {
+   "id": "science-c7-317",
+   "type": "mcq",
+   "q": "From where do plants absorb mineral salts such as nitrates?",
+   "options": [
+    "From the air through leaves",
+    "From the flowers",
+    "From sunlight",
+    "From the soil through roots"
+   ]
+  },
+  {
+   "id": "science-c7-318",
+   "type": "mcq",
+   "q": "A water plant like Hydrilla is kept in a funnel under water in sunlight. Bubbles rise from it. Which gas do the bubbles mostly contain?",
+   "options": [
+    "Oxygen",
+    "Hydrogen",
+    "Carbon dioxide",
+    "Nitrogen"
+   ]
+  },
+  {
+   "id": "science-c7-319",
+   "type": "mcq",
+   "q": "Why does Cuscuta look yellow instead of green?",
+   "options": [
+    "It has a lot of chlorophyll",
+    "It has no chlorophyll",
+    "It grows only in sand",
+    "It is a root"
+   ]
+  },
+  {
+   "id": "science-c7-320",
+   "type": "short",
+   "q": "Most leaves are thin and flat. How does this help the plant?",
+   "proposedAnswer": "A flat, broad leaf has a large surface area to catch sunlight, and it lets carbon dioxide reach the cells easily through the stomata. A thin leaf also lets gases and light reach every cell quickly.",
+   "keyPoints": [
+    "Large surface area to absorb sunlight",
+    "Easy entry of carbon dioxide"
+   ]
+  },
+  {
+   "id": "science-c7-321",
+   "type": "mcq",
+   "q": "During photosynthesis which change of energy takes place?",
+   "options": [
+    "Chemical energy becomes light energy",
+    "Heat energy becomes sound energy",
+    "Light energy becomes chemical energy stored in food",
+    "Sound energy becomes light energy"
+   ]
+  },
+  {
+   "id": "science-c7-322",
+   "type": "short",
+   "q": "Why is photosynthesis said to be important for almost all living things?",
+   "proposedAnswer": "Green plants make food by photosynthesis, and animals, directly or indirectly, depend on plants for food. Photosynthesis also releases the oxygen that most living things need for respiration.",
+   "keyPoints": [
+    "It makes food that all animals depend upon",
+    "It releases oxygen"
+   ]
+  },
+  {
+   "id": "science-c7-323",
+   "type": "mcq",
+   "q": "What is the use of the digested food by the cells of the body for growth and repair called?",
+   "options": [
+    "Absorption of water",
+    "Ingestion",
+    "Egestion",
+    "Assimilation"
+   ]
+  },
+  {
+   "id": "science-c7-324",
+   "type": "mcq",
+   "q": "What are the chemical substances in digestive juices that break down food called?",
+   "options": [
+    "Enzymes",
+    "Hormones",
+    "Vitamins",
+    "Minerals"
+   ]
+  },
+  {
+   "id": "science-c7-325",
+   "type": "mcq",
+   "q": "Into which part of its stomach does a cow first send the quickly swallowed grass?",
+   "options": [
+    "Gall bladder",
+    "Rumen",
+    "Appendix",
+    "Pancreas"
+   ]
+  },
+  {
+   "id": "science-c7-326",
+   "type": "mcq",
+   "q": "The stomach wall releases mucus. What is its function?",
+   "options": [
+    "To digest proteins",
+    "To absorb water",
+    "To protect the stomach lining from the acid",
+    "To kill all food"
+   ]
+  },
+  {
+   "id": "science-c7-327",
+   "type": "short",
+   "q": "How does an amoeba digest its food?",
+   "proposedAnswer": "The amoeba engulfs food with pseudopodia and encloses it in a food vacuole. Digestive juices act inside the vacuole, the digested food is absorbed, and the undigested part is thrown out through the cell surface.",
+   "keyPoints": [
+    "Food taken into a food vacuole",
+    "Digestive juices act and the undigested part is expelled"
+   ]
+  },
+  {
+   "id": "science-c7-328",
+   "type": "mcq",
+   "q": "If the liver of a person did not make enough bile, the digestion of which nutrient would be most affected?",
+   "options": [
+    "Vitamins in water",
+    "Water",
+    "Minerals",
+    "Fats"
+   ]
+  },
+  {
+   "id": "science-c7-329",
+   "type": "short",
+   "q": "How does chewing the cud help a cow to make use of grass?",
+   "proposedAnswer": "The cow swallows grass quickly and stores it in the rumen. Later it brings the partly digested food back to the mouth and chews it again, which breaks the tough fibres into fine pieces that are easier to digest.",
+   "keyPoints": [
+    "Food is brought back from the rumen",
+    "Chewing again breaks tough fibres"
+   ]
+  },
+  {
+   "id": "science-c7-330",
+   "type": "mcq",
+   "q": "In South America, which animals are reared for their wool, alongside sheep?",
+   "options": [
+    "Llamas and alpacas",
+    "Camels and horses",
+    "Cows",
+    "Dogs"
+   ]
+  },
+  {
+   "id": "science-c7-331",
+   "type": "mcq",
+   "q": "What hatches from the egg of a silk moth?",
+   "options": [
+    "A pupa",
+    "A larva (caterpillar)",
+    "An adult moth",
+    "A cocoon"
+   ]
+  },
+  {
+   "id": "science-c7-332",
+   "type": "mcq",
+   "q": "In selective breeding of sheep for wool, what do farmers do?",
+   "options": [
+    "Cross sheep with horses",
+    "Cut the hair every day",
+    "Choose parents that have good quality hair and breed them",
+    "Keep sheep indoors always"
+   ]
+  },
+  {
+   "id": "science-c7-333",
+   "type": "mcq",
+   "q": "Which is a property of silk fibre?",
+   "options": [
+    "It is rough and dull",
+    "It is made of petroleum",
+    "It is a plant fibre",
+    "It is smooth, shiny and strong"
+   ]
+  },
+  {
+   "id": "science-c7-334",
+   "type": "short",
+   "q": "What do silkworms feed on and what do they do after they have grown fully?",
+   "proposedAnswer": "Silkworms feed on mulberry leaves and grow quickly. When fully grown, a silkworm spins a cocoon of silk thread around itself.",
+   "keyPoints": [
+    "Feed on mulberry leaves",
+    "Spin a cocoon when fully grown"
+   ]
+  },
+  {
+   "id": "science-c7-335",
+   "type": "mcq",
+   "q": "Which sequence correctly shows the early steps of processing wool?",
+   "options": [
+    "Shearing, scouring, sorting",
+    "Scouring, shearing, sorting",
+    "Spinning, shearing, scouring",
+    "Sorting, spinning, shearing"
+   ]
+  },
+  {
+   "id": "science-c7-336",
+   "type": "short",
+   "q": "What is the difference between a fibre and a yarn?",
+   "proposedAnswer": "A fibre is a very thin, thread-like strand, such as a hair of wool. Yarn is made by twisting many fibres together in spinning, and yarn is used for weaving or knitting cloth.",
+   "keyPoints": [
+    "Fibre is a thin strand",
+    "Yarn is made by twisting fibres together"
+   ]
+  },
+  {
+   "id": "science-c7-337",
+   "type": "mcq",
+   "q": "Which liquid metal is often used in thermometers?",
+   "options": [
+    "Iron",
+    "Mercury",
+    "Copper",
+    "Zinc"
+   ]
+  },
+  {
+   "id": "science-c7-338",
+   "type": "mcq",
+   "q": "At what temperature does pure water freeze at normal pressure?",
+   "options": [
+    "100 degrees C",
+    "10 degrees C",
+    "0 degrees C",
+    "-10 degrees C"
+   ]
+  },
+  {
+   "id": "science-c7-339",
+   "type": "mcq",
+   "q": "How does a thermometer show a rise in temperature?",
+   "options": [
+    "The liquid in it contracts",
+    "The scale moves",
+    "The glass bends",
+    "The liquid in it expands and rises"
+   ]
+  },
+  {
+   "id": "science-c7-340",
+   "type": "mcq",
+   "q": "Why should a clinical thermometer not be used to measure the temperature of boiling water?",
+   "options": [
+    "Its range is only up to about 42 degrees C, so it may break",
+    "It is too small",
+    "It does not have mercury",
+    "Water is not hot enough"
+   ]
+  },
+  {
+   "id": "science-c7-341",
+   "type": "short",
+   "q": "What is convection? Give one example.",
+   "proposedAnswer": "Convection is the transfer of heat in liquids and gases by the movement of the heated material. For example, when water is heated in a pan, the hot water rises and cold water sinks in its place.",
+   "keyPoints": [
+    "Heat transfer by movement of the fluid itself",
+    "A correct example such as heating water"
+   ]
+  },
+  {
+   "id": "science-c7-342",
+   "type": "mcq",
+   "q": "Two thin blankets keep a person warmer than one thick blanket of the same total thickness. What is the reason?",
+   "options": [
+    "Thin blankets are heavier",
+    "Air trapped between the blankets is a poor conductor of heat",
+    "Thin blankets produce heat",
+    "Thin blankets reflect cold"
+   ]
+  },
+  {
+   "id": "science-c7-343",
+   "type": "short",
+   "q": "A doctor keeps a clinical thermometer in a patient's mouth for about a minute before reading it. Why is this needed?",
+   "proposedAnswer": "The mercury has to reach the same temperature as the body and expand to its full level. This takes a little time, so waiting gives the correct reading.",
+   "keyPoints": [
+    "Thermometer must reach body temperature",
+    "Mercury needs time to expand fully"
+   ]
+  },
+  {
+   "id": "science-c7-344",
+   "type": "mcq",
+   "q": "Which of these is a mineral acid?",
+   "options": [
+    "Acetic acid",
+    "Citric acid",
+    "Hydrochloric acid",
+    "Lactic acid"
+   ]
+  },
+  {
+   "id": "science-c7-345",
+   "type": "mcq",
+   "q": "What is the chemical name of common salt?",
+   "options": [
+    "Calcium carbonate",
+    "Potassium nitrate",
+    "Magnesium oxide",
+    "Sodium chloride"
+   ]
+  },
+  {
+   "id": "science-c7-346",
+   "type": "mcq",
+   "q": "Sodium hydroxide, also called caustic soda, is:",
+   "options": [
+    "A base",
+    "A salt",
+    "An acid",
+    "A neutral liquid"
+   ]
+  },
+  {
+   "id": "science-c7-347",
+   "type": "mcq",
+   "q": "Why should students never taste or touch unknown chemicals in the laboratory?",
+   "options": [
+    "They have a bad colour",
+    "They can be harmful, such as strong acids and bases",
+    "They are always sticky",
+    "They are always sweet"
+   ]
+  },
+  {
+   "id": "science-c7-348",
+   "type": "short",
+   "q": "State two properties of acids.",
+   "proposedAnswer": "Acids taste sour and turn blue litmus paper red. Some acids, in a strong form, are corrosive and can burn the skin.",
+   "keyPoints": [
+    "Sour taste",
+    "Turn blue litmus red"
+   ]
+  },
+  {
+   "id": "science-c7-349",
+   "type": "mcq",
+   "q": "A solution turns red litmus blue and turns china rose indicator green. The solution is most likely:",
+   "options": [
+    "Acidic",
+    "Neutral",
+    "Basic",
+    "Pure water"
+   ]
+  },
+  {
+   "id": "science-c7-350",
+   "type": "short",
+   "q": "Is common salt acidic, basic or neutral? Name an acid and a base from which it can be made.",
+   "proposedAnswer": "Common salt is neutral. It is formed when hydrochloric acid reacts with sodium hydroxide.",
+   "keyPoints": [
+    "Common salt is neutral",
+    "Made from hydrochloric acid and sodium hydroxide"
+   ]
+  },
+  {
+   "id": "science-c7-351",
+   "type": "mcq",
+   "q": "Boiling of water to form steam is:",
+   "options": [
+    "A chemical change",
+    "Rusting",
+    "Burning",
+    "A physical change"
+   ]
+  },
+  {
+   "id": "science-c7-352",
+   "type": "mcq",
+   "q": "When a piece of wood burns, ash and gases are formed. This is:",
+   "options": [
+    "A chemical change",
+    "A physical change",
+    "Melting",
+    "Dissolving"
+   ]
+  },
+  {
+   "id": "science-c7-353",
+   "type": "mcq",
+   "q": "Which of these does NOT help to prevent rusting of iron?",
+   "options": [
+    "Painting",
+    "Leaving it in water",
+    "Galvanising",
+    "Applying oil or grease"
+   ]
+  },
+  {
+   "id": "science-c7-354",
+   "type": "mcq",
+   "q": "When sugar is heated strongly it turns black and gives out fumes. This is because:",
+   "options": [
+    "It melts and the same sugar forms again on cooling",
+    "Only its state changes",
+    "A chemical change happens and new substances form",
+    "It dissolves in air"
+   ]
+  },
+  {
+   "id": "science-c7-355",
+   "type": "short",
+   "q": "Why is burning a sheet of paper a chemical change?",
+   "proposedAnswer": "Burning forms new substances, such as ash, carbon dioxide and water vapour. The paper cannot be recovered from them, so the change is chemical.",
+   "keyPoints": [
+    "New substances form",
+    "Paper cannot be recovered"
+   ]
+  },
+  {
+   "id": "science-c7-356",
+   "type": "mcq",
+   "q": "Which of these is a harmful chemical change?",
+   "options": [
+    "Making curd from milk",
+    "Cooking of rice",
+    "Digestion of food",
+    "Rusting of an iron bridge"
+   ]
+  },
+  {
+   "id": "science-c7-357",
+   "type": "short",
+   "q": "Three test tubes each hold iron nails: (1) nails in ordinary water open to air, (2) nails in boiled water with a layer of oil on top, (3) nails in dry air. In which tube will rusting occur, and what does this show?",
+   "proposedAnswer": "Rusting will take place mainly in tube 1. In tube 2 there is no air (oxygen) reaching the nails, and in tube 3 there is no water. This shows that both air (oxygen) and water are needed for rusting.",
+   "keyPoints": [
+    "Rusting in tube 1",
+    "Both oxygen and water are required"
+   ]
+  },
+  {
+   "id": "science-c7-358",
+   "type": "mcq",
+   "q": "Which instrument is used to measure the temperature of the air?",
+   "options": [
+    "Thermometer",
+    "Rain gauge",
+    "Anemometer",
+    "Odometer"
+   ]
+  },
+  {
+   "id": "science-c7-359",
+   "type": "mcq",
+   "q": "Which of these is a polar region of the Earth?",
+   "options": [
+    "Sahara",
+    "Arctic",
+    "Amazon basin",
+    "Deccan"
+   ]
+  },
+  {
+   "id": "science-c7-360",
+   "type": "mcq",
+   "q": "What is the main source of energy that drives the weather on Earth?",
+   "options": [
+    "The Moon",
+    "Volcanoes",
+    "The Sun",
+    "Ocean tides"
+   ]
+  },
+  {
+   "id": "science-c7-361",
+   "type": "mcq",
+   "q": "A tiger's coat has dark stripes on a yellowish background. How does this help the tiger in the forest?",
+   "options": [
+    "It makes the tiger look bigger",
+    "It makes the tiger run faster",
+    "It keeps the tiger warm",
+    "It helps it to blend with tall grass and shadows when hunting"
+   ]
+  },
+  {
+   "id": "science-c7-362",
+   "type": "short",
+   "q": "What is acclimatisation? Give one example.",
+   "proposedAnswer": "Acclimatisation is the slow adjustment of a single organism, over days or weeks, to small changes in its surroundings. For example, a mountaineer who stays at high altitude gets used to the thin air.",
+   "keyPoints": [
+    "Gradual adjustment of one organism to a change in its surroundings",
+    "A correct example"
+   ]
+  },
+  {
+   "id": "science-c7-363",
+   "type": "mcq",
+   "q": "A person from the plains goes to live in a high mountain area. At first the person gets breathless but after a few weeks feels better. This is an example of:",
+   "options": [
+    "Acclimatisation",
+    "Adaptation over generations",
+    "Migration",
+    "Camouflage"
+   ]
+  },
+  {
+   "id": "science-c7-364",
+   "type": "short",
+   "q": "How is adaptation different from acclimatisation?",
+   "proposedAnswer": "Adaptation is a feature developed by a species over many generations that helps it survive in its habitat. Acclimatisation is a short-term adjustment by one organism to a change in its surroundings.",
+   "keyPoints": [
+    "Adaptation takes place over many generations",
+    "Acclimatisation is quick and within one organism"
+   ]
+  },
+  {
+   "id": "science-c7-365",
+   "type": "mcq",
+   "q": "Which instrument measures air pressure?",
+   "options": [
+    "Anemometer",
+    "Barometer",
+    "Thermometer",
+    "Rain gauge"
+   ]
+  },
+  {
+   "id": "science-c7-366",
+   "type": "mcq",
+   "q": "Lightning is a:",
+   "options": [
+    "Kind of wind",
+    "Flow of water",
+    "Large electric discharge in the atmosphere",
+    "Type of cloud"
+   ]
+  },
+  {
+   "id": "science-c7-367",
+   "type": "mcq",
+   "q": "As we go higher above the sea level, the air pressure generally:",
+   "options": [
+    "Increases",
+    "Stays the same",
+    "Becomes zero immediately",
+    "Decreases"
+   ]
+  },
+  {
+   "id": "science-c7-368",
+   "type": "mcq",
+   "q": "In sunshine, which gets heated faster?",
+   "options": [
+    "Water",
+    "Land",
+    "Both at the same rate",
+    "Neither"
+   ]
+  },
+  {
+   "id": "science-c7-369",
+   "type": "short",
+   "q": "Why are people advised to unplug electrical appliances and avoid using the telephone line (corded) during a thunderstorm?",
+   "proposedAnswer": "Lightning can send a large current through electric wires into the house. This can damage appliances and give a dangerous shock, so it is safer to switch them off and unplug them.",
+   "keyPoints": [
+    "Lightning current can travel through wires",
+    "It can damage appliances or shock a person"
+   ]
+  },
+  {
+   "id": "science-c7-370",
+   "type": "mcq",
+   "q": "Which statement correctly explains a sea breeze during the day?",
+   "options": [
+    "Warm air over the sea rises and air from the land moves in",
+    "Warm air over the land rises, the pressure falls, and cooler air from the sea moves in",
+    "There is no pressure difference",
+    "Cold air rises over the land"
+   ]
+  },
+  {
+   "id": "science-c7-371",
+   "type": "short",
+   "q": "Why does a cyclone become weaker after it moves over land?",
+   "proposedAnswer": "A cyclone gets its energy from warm, moist air over the ocean. Over land this supply is cut off, and friction with the ground also slows its winds, so it weakens.",
+   "keyPoints": [
+    "Loses warm moist ocean supply",
+    "Friction with land slows the winds"
+   ]
+  },
+  {
+   "id": "science-c7-372",
+   "type": "mcq",
+   "q": "Through which tube does air pass to reach the lungs after the nose?",
+   "options": [
+    "Food pipe",
+    "Ureter",
+    "Windpipe (trachea)",
+    "Intestine"
+   ]
+  },
+  {
+   "id": "science-c7-373",
+   "type": "mcq",
+   "q": "What is the process of breathing out called?",
+   "options": [
+    "Inhalation",
+    "Ingestion",
+    "Digestion",
+    "Exhalation"
+   ]
+  },
+  {
+   "id": "science-c7-374",
+   "type": "mcq",
+   "q": "Through which tiny openings on leaves does a plant take in oxygen and give out carbon dioxide for respiration?",
+   "options": [
+    "Stomata",
+    "Root caps",
+    "Petals",
+    "Seeds"
+   ]
+  },
+  {
+   "id": "science-c7-375",
+   "type": "mcq",
+   "q": "Why does a fish die if it is taken out of water for a long time?",
+   "options": [
+    "It has no energy",
+    "Its gills cannot take in oxygen from air properly",
+    "It cannot see",
+    "Its lungs are full of water"
+   ]
+  },
+  {
+   "id": "science-c7-376",
+   "type": "short",
+   "q": "Describe what happens to the diaphragm and ribs when we breathe out.",
+   "proposedAnswer": "The ribs move down and inwards and the diaphragm moves up. This reduces the space in the chest cavity, so air is pushed out of the lungs.",
+   "keyPoints": [
+    "Ribs move down and in; diaphragm moves up",
+    "Chest space shrinks and air goes out"
+   ]
+  },
+  {
+   "id": "science-c7-377",
+   "type": "mcq",
+   "q": "Fish in a crowded, closed aquarium often come to the water surface. What is the most likely reason?",
+   "options": [
+    "The water has too much oxygen",
+    "The fish want to sleep",
+    "The water has too little dissolved oxygen",
+    "They are looking for food in the air"
+   ]
+  },
+  {
+   "id": "science-c7-378",
+   "type": "short",
+   "q": "How does smoking harm the lungs?",
+   "proposedAnswer": "Tobacco smoke contains tar and other harmful chemicals which damage the lungs and the air passages. This can cause breathing problems, coughing and diseases such as lung cancer.",
+   "keyPoints": [
+    "Smoke contains harmful substances like tar",
+    "Damages lungs and causes diseases"
+   ]
+  },
+  {
+   "id": "science-c7-379",
+   "type": "mcq",
+   "q": "Which thin blood vessels connect the arteries to the veins?",
+   "options": [
+    "Nerves",
+    "Valves",
+    "Ureters",
+    "Capillaries"
+   ]
+  },
+  {
+   "id": "science-c7-380",
+   "type": "mcq",
+   "q": "About how many times does the heart of a healthy adult beat in one minute at rest?",
+   "options": [
+    "About 72",
+    "About 7",
+    "About 700",
+    "About 7000"
+   ]
+  },
+  {
+   "id": "science-c7-381",
+   "type": "mcq",
+   "q": "Which waste substance is found in urine?",
+   "options": [
+    "Chlorophyll",
+    "Urea",
+    "Starch",
+    "Glucose in large amounts"
+   ]
+  },
+  {
+   "id": "science-c7-382",
+   "type": "mcq",
+   "q": "Besides the kidneys, which organ removes some waste through sweat?",
+   "options": [
+    "Heart",
+    "Liver",
+    "Skin",
+    "Stomach"
+   ]
+  },
+  {
+   "id": "science-c7-383",
+   "type": "short",
+   "q": "What is the function of the heart?",
+   "proposedAnswer": "The heart pumps blood to all parts of the body through blood vessels. The blood carries oxygen and food to cells and removes waste.",
+   "keyPoints": [
+    "Pumps blood",
+    "Blood carries oxygen and nutrients and removes wastes"
+   ]
+  },
+  {
+   "id": "science-c7-384",
+   "type": "mcq",
+   "q": "Why does the heart beat faster during exercise?",
+   "options": [
+    "The heart gets tired",
+    "The blood becomes thicker",
+    "The lungs stop working",
+    "Muscles need more oxygen and food, so blood must be pumped faster"
+   ]
+  },
+  {
+   "id": "science-c7-385",
+   "type": "short",
+   "q": "Trace the path of oxygen from the lungs to a muscle cell.",
+   "proposedAnswer": "Oxygen enters the blood in the lungs and is carried by the haemoglobin in red blood cells. The heart pumps this blood through arteries to capillaries near the muscles, where oxygen passes into the muscle cells.",
+   "keyPoints": [
+    "Oxygen carried by haemoglobin in red blood cells",
+    "Heart pumps it through arteries to capillaries and cells"
+   ]
+  },
+  {
+   "id": "science-c7-386",
+   "type": "mcq",
+   "q": "Which outer parts of a flower protect it when it is a bud?",
+   "options": [
+    "Sepals",
+    "Stamens",
+    "Ovules",
+    "Pollen grains"
+   ]
+  },
+  {
+   "id": "science-c7-387",
+   "type": "mcq",
+   "q": "What does a seed contain?",
+   "options": [
+    "Only water",
+    "An embryo and stored food",
+    "Only chlorophyll",
+    "A flower"
+   ]
+  },
+  {
+   "id": "science-c7-388",
+   "type": "mcq",
+   "q": "Seeds inside fleshy, sweet fruits are mostly dispersed by:",
+   "options": [
+    "Wind",
+    "Rainfall only",
+    "Animals and birds that eat the fruit",
+    "Magnetism"
+   ]
+  },
+  {
+   "id": "science-c7-389",
+   "type": "mcq",
+   "q": "Which of the following can carry pollen from one flower to another?",
+   "options": [
+    "Only roots",
+    "Only moonlight",
+    "Only soil",
+    "Bees and other insects, wind and birds"
+   ]
+  },
+  {
+   "id": "science-c7-390",
+   "type": "short",
+   "q": "Name three conditions needed for a seed to germinate.",
+   "proposedAnswer": "A seed needs water, air (oxygen) and a suitable temperature to germinate.",
+   "keyPoints": [
+    "Water",
+    "Air or oxygen",
+    "Suitable temperature"
+   ]
+  },
+  {
+   "id": "science-c7-391",
+   "type": "mcq",
+   "q": "Sugarcane is grown from pieces of stem. What must each piece have to grow into a new plant?",
+   "options": [
+    "A node with a bud",
+    "A flower",
+    "A fruit",
+    "A leaf blade only"
+   ]
+  },
+  {
+   "id": "science-c7-392",
+   "type": "short",
+   "q": "Maize flowers are small and have no bright colour or scent. How are they pollinated?",
+   "proposedAnswer": "They are pollinated by wind. Wind carries the light pollen from one flower to another, so showy petals and scent are not needed to attract insects.",
+   "keyPoints": [
+    "Wind pollination",
+    "No need to attract insects"
+   ]
+  },
+  {
+   "id": "science-c7-393",
+   "type": "mcq",
+   "q": "How many seconds are there in one hour?",
+   "options": [
+    "60",
+    "3600",
+    "360",
+    "86400"
+   ]
+  },
+  {
+   "id": "science-c7-394",
+   "type": "mcq",
+   "q": "The motion of a child on a swing is an example of:",
+   "options": [
+    "Rectilinear motion",
+    "Uniform motion",
+    "Periodic motion",
+    "Random motion"
+   ]
+  },
+  {
+   "id": "science-c7-395",
+   "type": "mcq",
+   "q": "How does the time period of a simple pendulum change when its length is increased?",
+   "options": [
+    "It decreases",
+    "It becomes zero",
+    "It stays the same",
+    "It increases"
+   ]
+  },
+  {
+   "id": "science-c7-396",
+   "type": "mcq",
+   "q": "Which of these is an example of circular motion?",
+   "options": [
+    "A stone tied to a string and whirled in a circle",
+    "A car moving on a straight road",
+    "A ball falling down",
+    "A book lying on a table"
+   ]
+  },
+  {
+   "id": "science-c7-397",
+   "type": "short",
+   "q": "What is an oscillation? Give an example.",
+   "proposedAnswer": "An oscillation is a complete to-and-fro movement about a fixed position, such as the bob of a simple pendulum swinging from one side to the other and back.",
+   "keyPoints": [
+    "To-and-fro movement",
+    "A correct example such as a pendulum"
+   ]
+  },
+  {
+   "id": "science-c7-398",
+   "type": "mcq",
+   "q": "What is a speed of 36 km/h in metres per second?",
+   "options": [
+    "3.6 m/s",
+    "10 m/s",
+    "36 m/s",
+    "100 m/s"
+   ]
+  },
+  {
+   "id": "science-c7-399",
+   "type": "short",
+   "q": "Car A covers 100 km in 2 hours and car B covers 150 km in 3 hours, each at a steady speed. Which car is faster?",
+   "proposedAnswer": "Speed of A = 100 / 2 = 50 km/h. Speed of B = 150 / 3 = 50 km/h. Both cars have the same speed.",
+   "keyPoints": [
+    "Speed of A is 50 km/h",
+    "Speed of B is 50 km/h so neither is faster"
+   ]
+  },
+  {
+   "id": "science-c7-400",
+   "type": "mcq",
+   "q": "The glowing of the filament of an electric bulb is due to which effect of current?",
+   "options": [
+    "Magnetic effect",
+    "Chemical effect only",
+    "Heating effect",
+    "Sound effect"
+   ]
+  },
+  {
+   "id": "science-c7-401",
+   "type": "mcq",
+   "q": "Which of these is needed to make a simple electric circuit glow a bulb?",
+   "options": [
+    "Only wires",
+    "Only a bulb",
+    "Only a cell",
+    "A cell, wires and a bulb joined in a closed loop"
+   ]
+  },
+  {
+   "id": "science-c7-402",
+   "type": "mcq",
+   "q": "Which is a use of an electromagnet?",
+   "options": [
+    "Lifting heavy iron scrap in a crane",
+    "Heating water",
+    "Measuring temperature",
+    "Making sound waves"
+   ]
+  },
+  {
+   "id": "science-c7-403",
+   "type": "mcq",
+   "q": "The direction of electric current, as normally shown in circuit diagrams, is from:",
+   "options": [
+    "The negative terminal to the positive terminal of the cell through the circuit",
+    "The positive terminal to the negative terminal of the cell through the circuit",
+    "Both directions at once",
+    "Neither direction"
+   ]
+  },
+  {
+   "id": "science-c7-404",
+   "type": "short",
+   "q": "List the components of a simple electric circuit.",
+   "proposedAnswer": "A simple circuit has a source of electricity such as a cell or battery, connecting wires, a device such as a bulb, and a switch to open or close the circuit.",
+   "keyPoints": [
+    "Cell or battery and wires",
+    "Bulb or other device and switch"
+   ]
+  },
+  {
+   "id": "science-c7-405",
+   "type": "mcq",
+   "q": "An electromagnet is made from an iron nail wrapped with insulated wire. What happens when the current in the wire is switched off?",
+   "options": [
+    "The nail stays a strong magnet",
+    "The nail melts",
+    "The nail loses its magnetism",
+    "The nail becomes a bulb"
+   ]
+  },
+  {
+   "id": "science-c7-406",
+   "type": "short",
+   "q": "What could happen if a thick copper wire is used instead of a proper fuse wire?",
+   "proposedAnswer": "A copper wire does not melt easily, so it would not cut off the circuit when the current becomes too large. The appliances and wires could overheat, be damaged or start a fire.",
+   "keyPoints": [
+    "Copper wire will not melt readily",
+    "Circuit is not cut off, so overheating or fire may occur"
+   ]
+  },
+  {
+   "id": "science-c7-407",
+   "type": "mcq",
+   "q": "What type of reflection takes place from a smooth, shiny surface such as a mirror?",
+   "options": [
+    "Diffuse reflection",
+    "No reflection",
+    "Refraction",
+    "Regular reflection"
+   ]
+  },
+  {
+   "id": "science-c7-408",
+   "type": "mcq",
+   "q": "Which instrument is used in a submarine to see objects above the water?",
+   "options": [
+    "Periscope",
+    "Telescope",
+    "Microscope",
+    "Binoculars only"
+   ]
+  },
+  {
+   "id": "science-c7-409",
+   "type": "mcq",
+   "q": "A disc painted with the seven colours of the rainbow is rotated very fast. How does it appear?",
+   "options": [
+    "Black",
+    "Nearly white",
+    "Red",
+    "Blue"
+   ]
+  },
+  {
+   "id": "science-c7-410",
+   "type": "mcq",
+   "q": "As an object is moved closer to a light source, the size of its shadow:",
+   "options": [
+    "Decreases",
+    "Stays exactly the same",
+    "Increases",
+    "Becomes zero"
+   ]
+  },
+  {
+   "id": "science-c7-411",
+   "type": "short",
+   "q": "How does a simple periscope work?",
+   "proposedAnswer": "A periscope has two plane mirrors fixed at 45 degrees to the tube, one at each end. Light from the object is reflected from the upper mirror to the lower mirror and then to the eye.",
+   "keyPoints": [
+    "Two plane mirrors at 45 degrees",
+    "Light is reflected twice into the eye"
+   ]
+  },
+  {
+   "id": "science-c7-412",
+   "type": "mcq",
+   "q": "Which word looks exactly the same when its image is seen in a plane mirror held to the side of the word (a vertical mirror)?",
+   "options": [
+    "DAD",
+    "RAT",
+    "BOX",
+    "MOM"
+   ]
+  },
+  {
+   "id": "science-c7-413",
+   "type": "short",
+   "q": "We can see our image clearly in a still pond but not on a wooden table. Explain.",
+   "proposedAnswer": "The surface of still water is smooth and acts like a mirror, giving regular reflection that forms a clear image. A wooden table is rough, so it scatters light in many directions and no clear image forms.",
+   "keyPoints": [
+    "Smooth surface gives regular reflection",
+    "Rough surface scatters light"
+   ]
+  },
+  {
+   "id": "science-c7-414",
+   "type": "mcq",
+   "q": "Which part of a plant mainly absorbs water from the soil?",
+   "options": [
+    "Roots",
+    "Flowers",
+    "Leaves",
+    "Fruits"
+   ]
+  },
+  {
+   "id": "science-c7-415",
+   "type": "mcq",
+   "q": "The sundew is a plant that gets part of its nutrition by:",
+   "options": [
+    "Living on a host plant",
+    "Trapping and digesting insects",
+    "Eating dead leaves",
+    "Absorbing food from the air"
+   ]
+  },
+  {
+   "id": "science-c7-416",
+   "type": "mcq",
+   "q": "A lichen is made of which two organisms living together?",
+   "options": [
+    "Two fungi",
+    "Two algae",
+    "An alga and a fungus",
+    "A moss and a fern"
+   ]
+  },
+  {
+   "id": "science-c7-417",
+   "type": "mcq",
+   "q": "Urea, used in agriculture as a fertiliser, mainly supplies which nutrient to plants?",
+   "options": [
+    "Calcium",
+    "Iron",
+    "Sodium",
+    "Nitrogen"
+   ]
+  },
+  {
+   "id": "science-c7-418",
+   "type": "short",
+   "q": "Why is a leaf boiled in alcohol before it is tested with iodine solution?",
+   "proposedAnswer": "Boiling in alcohol removes the green chlorophyll from the leaf. The leaf becomes pale so that any blue-black colour from starch can be seen clearly.",
+   "keyPoints": [
+    "Alcohol removes chlorophyll",
+    "The colour change can then be seen clearly"
+   ]
+  },
+  {
+   "id": "science-c7-419",
+   "type": "mcq",
+   "q": "The leaves of a wheat crop turn yellowish though water and sunlight are plentiful. Which nutrient shortage is the most likely cause?",
+   "options": [
+    "Nitrogen",
+    "Sunlight",
+    "Oxygen from air",
+    "Carbon dioxide from air"
+   ]
+  },
+  {
+   "id": "science-c7-420",
+   "type": "short",
+   "q": "Compare the way a green plant and a cow obtain their food.",
+   "proposedAnswer": "A green plant is an autotroph and makes its own food by photosynthesis using sunlight. A cow is a heterotroph and depends on plants for ready-made food, which it digests in its alimentary canal.",
+   "keyPoints": [
+    "Plant makes its own food by photosynthesis",
+    "Cow depends on other organisms for food"
+   ]
+  },
+  {
+   "id": "science-c7-421",
+   "type": "mcq",
+   "q": "What is the process of taking food into the body called?",
+   "options": [
+    "Egestion",
+    "Ingestion",
+    "Excretion",
+    "Assimilation"
+   ]
+  },
+  {
+   "id": "science-c7-422",
+   "type": "mcq",
+   "q": "Which is the largest gland in the human body?",
+   "options": [
+    "Pancreas",
+    "Salivary gland",
+    "Liver",
+    "Gall bladder"
+   ]
+  },
+  {
+   "id": "science-c7-423",
+   "type": "mcq",
+   "q": "Saliva changes the starch in food into:",
+   "options": [
+    "Protein",
+    "Fat",
+    "Water",
+    "Sugar"
+   ]
+  },
+  {
+   "id": "science-c7-424",
+   "type": "mcq",
+   "q": "Which opening ends the alimentary canal?",
+   "options": [
+    "Anus",
+    "Nostril",
+    "Mouth",
+    "Food pipe"
+   ]
+  },
+  {
+   "id": "science-c7-425",
+   "type": "short",
+   "q": "Why is it advised to chew food well before swallowing?",
+   "proposedAnswer": "Chewing breaks the food into small pieces and mixes it with saliva. This makes it easier for the digestive juices to act on it.",
+   "keyPoints": [
+    "Food broken into small pieces",
+    "Mixes with saliva so that digestion is easier"
+   ]
+  },
+  {
+   "id": "science-c7-426",
+   "type": "mcq",
+   "q": "If the villi of the small intestine were damaged, which function would be most affected?",
+   "options": [
+    "Chewing",
+    "Absorption of digested food",
+    "Making of saliva",
+    "Breathing"
+   ]
+  },
+  {
+   "id": "science-c7-427",
+   "type": "short",
+   "q": "Why does absorbed food have to reach the blood?",
+   "proposedAnswer": "The blood carries the absorbed food to all parts of the body. The cells use it to obtain energy, to grow and to repair themselves.",
+   "keyPoints": [
+    "Blood carries food to all cells",
+    "Cells use it for energy, growth and repair"
+   ]
+  },
+  {
+   "id": "science-c7-428",
+   "type": "mcq",
+   "q": "Which of these animals gives wool?",
+   "options": [
+    "Tiger",
+    "Dog",
+    "Goat",
+    "Frog"
+   ]
+  },
+  {
+   "id": "science-c7-429",
+   "type": "mcq",
+   "q": "What is the larva of the silk moth called?",
+   "options": [
+    "Cocoon",
+    "Pupa",
+    "Grub only",
+    "Silkworm"
+   ]
+  },
+  {
+   "id": "science-c7-430",
+   "type": "mcq",
+   "q": "Inside the cocoon, the silk moth is in which stage?",
+   "options": [
+    "Pupa",
+    "Larva",
+    "Egg",
+    "Adult"
+   ]
+  },
+  {
+   "id": "science-c7-431",
+   "type": "mcq",
+   "q": "After the burrs are removed, which steps change the cleaned wool fibres into yarn?",
+   "options": [
+    "Shearing",
+    "Dyeing and spinning",
+    "Scouring again",
+    "Reeling"
+   ]
+  },
+  {
+   "id": "science-c7-432",
+   "type": "short",
+   "q": "Why are silk cocoons put in hot water or steam in the process of getting silk?",
+   "proposedAnswer": "The hot water or steam softens the sticky substance that holds the threads together. The silk threads can then be unwound from the cocoon.",
+   "keyPoints": [
+    "Softens the sticky material",
+    "Allows threads to be unwound (reeled)"
+   ]
+  },
+  {
+   "id": "science-c7-433",
+   "type": "mcq",
+   "q": "Which pair correctly matches an animal with the fibre it gives?",
+   "options": [
+    "Yak and silk",
+    "Silkworm and wool",
+    "Silkworm and silk",
+    "Sheep and silk"
+   ]
+  },
+  {
+   "id": "science-c7-434",
+   "type": "short",
+   "q": "A student says that silk threads are made by the adult silk moth. Correct the statement.",
+   "proposedAnswer": "Silk threads are made by the larva (silkworm), which spins a cocoon around itself. The adult moth does not make silk.",
+   "keyPoints": [
+    "Larva spins the cocoon",
+    "Adult moth does not make silk"
+   ]
+  },
+  {
+   "id": "science-c7-435",
+   "type": "mcq",
+   "q": "Which instrument is used to measure the body temperature of a person?",
+   "options": [
+    "Stopwatch",
+    "Barometer",
+    "Anemometer",
+    "Clinical thermometer"
+   ]
+  },
+  {
+   "id": "science-c7-436",
+   "type": "mcq",
+   "q": "What does temperature tell us about an object?",
+   "options": [
+    "How hot or cold it is",
+    "How heavy it is",
+    "How big it is",
+    "How fast it moves"
+   ]
+  },
+  {
+   "id": "science-c7-437",
+   "type": "mcq",
+   "q": "One end of an iron rod is held in a flame. After some time the other end becomes hot. Heat travelled along the rod by:",
+   "options": [
+    "Convection",
+    "Conduction",
+    "Radiation",
+    "Reflection"
+   ]
+  },
+  {
+   "id": "science-c7-438",
+   "type": "mcq",
+   "q": "A room heater warms the air of a whole room mainly through:",
+   "options": [
+    "Magnetism",
+    "Conduction in the walls",
+    "Convection currents in the air",
+    "Evaporation"
+   ]
+  },
+  {
+   "id": "science-c7-439",
+   "type": "short",
+   "q": "What is radiation? Give an example from daily life.",
+   "proposedAnswer": "Radiation is the transfer of heat without any medium, in the form of heat rays. We feel the warmth of the Sun or a fire even when no matter carries the heat to us.",
+   "keyPoints": [
+    "Heat transfer without a medium",
+    "Example such as sunlight or a fire"
+   ]
+  },
+  {
+   "id": "science-c7-440",
+   "type": "mcq",
+   "q": "People in hot deserts often wear loose, light-coloured clothes. Why?",
+   "options": [
+    "Light colours absorb more heat",
+    "Dark colours are not available",
+    "Loose clothes trap heat",
+    "Light colours reflect heat and loose clothes let air move around the body"
+   ]
+  },
+  {
+   "id": "science-c7-441",
+   "type": "short",
+   "q": "An ice cube is held in the palm of the hand. In which direction does the heat flow, and why does the hand feel cold?",
+   "proposedAnswer": "Heat flows from the warmer hand to the colder ice. The hand loses heat to the ice, so it feels cold while the ice melts.",
+   "keyPoints": [
+    "Heat flows from hand to ice",
+    "Hand loses heat so it feels cold"
+   ]
+  },
+  {
+   "id": "science-c7-442",
+   "type": "mcq",
+   "q": "Which acid is present in our stomach and helps in digestion?",
+   "options": [
+    "Hydrochloric acid",
+    "Citric acid",
+    "Sulphuric acid",
+    "Acetic acid"
+   ]
+  },
+  {
+   "id": "science-c7-443",
+   "type": "mcq",
+   "q": "Which of these is a base?",
+   "options": [
+    "Lemon juice",
+    "Slaked lime",
+    "Vinegar",
+    "Tamarind juice"
+   ]
+  },
+  {
+   "id": "science-c7-444",
+   "type": "mcq",
+   "q": "Which solution has no effect on either red or blue litmus paper?",
+   "options": [
+    "Lemon juice",
+    "Soap solution",
+    "Sugar solution",
+    "Vinegar"
+   ]
+  },
+  {
+   "id": "science-c7-445",
+   "type": "mcq",
+   "q": "When vinegar is added to baking soda, bubbles of which gas are produced?",
+   "options": [
+    "Oxygen",
+    "Hydrogen",
+    "Nitrogen",
+    "Carbon dioxide"
+   ]
+  },
+  {
+   "id": "science-c7-446",
+   "type": "short",
+   "q": "Give two examples each of acidic and basic substances found at home.",
+   "proposedAnswer": "Acidic: vinegar and lemon juice. Basic: baking soda and soap solution.",
+   "keyPoints": [
+    "Two correct acids such as vinegar and lemon juice",
+    "Two correct bases such as baking soda and soap"
+   ]
+  },
+  {
+   "id": "science-c7-447",
+   "type": "mcq",
+   "q": "Soap solution turns turmeric red. A few drops of lemon juice are then added drop by drop. What is the most likely result?",
+   "options": [
+    "The colour slowly returns to yellow as the base is neutralised",
+    "The red colour turns deeper",
+    "The solution turns blue",
+    "Nothing can ever change"
+   ]
+  },
+  {
+   "id": "science-c7-448",
+   "type": "short",
+   "q": "Why is lemon juice not a good remedy for an ant bite, while calamine solution is?",
+   "proposedAnswer": "An ant bite contains formic acid. Lemon juice is also an acid and would not neutralise it, whereas calamine solution is a base and neutralises the acid.",
+   "keyPoints": [
+    "Ant bite has formic acid",
+    "Only a base can neutralise it"
+   ]
+  },
+  {
+   "id": "science-c7-449",
+   "type": "mcq",
+   "q": "Folding a sheet of paper into a boat is:",
+   "options": [
+    "A chemical change",
+    "A physical change",
+    "Burning",
+    "Rusting"
+   ]
+  },
+  {
+   "id": "science-c7-450",
+   "type": "mcq",
+   "q": "Which gas of the air is needed for burning?",
+   "options": [
+    "Nitrogen",
+    "Carbon dioxide",
+    "Oxygen",
+    "Hydrogen"
+   ]
+  },
+  {
+   "id": "science-c7-451",
+   "type": "mcq",
+   "q": "Souring of milk and its change into curd is:",
+   "options": [
+    "A physical change",
+    "Evaporation",
+    "Melting",
+    "A chemical change"
+   ]
+  },
+  {
+   "id": "science-c7-452",
+   "type": "mcq",
+   "q": "When a hot saturated solution of a salt cools and crystals form, the change is:",
+   "options": [
+    "Physical",
+    "Chemical",
+    "Burning",
+    "Rusting"
+   ]
+  },
+  {
+   "id": "science-c7-453",
+   "type": "short",
+   "q": "What is galvanisation and why is it done?",
+   "proposedAnswer": "Galvanisation is the process of coating iron with a thin layer of zinc. It protects the iron from rusting because it keeps air and water from the iron.",
+   "keyPoints": [
+    "Coating of iron with zinc",
+    "Prevents rusting"
+   ]
+  },
+  {
+   "id": "science-c7-454",
+   "type": "mcq",
+   "q": "A student dissolves salt in water and then fries an egg. Which statement is correct?",
+   "options": [
+    "Both are chemical changes",
+    "Both are physical changes",
+    "Dissolving is physical and frying is chemical",
+    "Dissolving is chemical and frying is physical"
+   ]
+  },
+  {
+   "id": "science-c7-455",
+   "type": "short",
+   "q": "A magnesium ribbon is burnt and the white ash is dissolved in water. What does the solution do to red litmus paper, and what does this show?",
+   "proposedAnswer": "The solution turns red litmus blue. This shows that magnesium oxide dissolves in water to form a base, so burning magnesium has formed a new substance.",
+   "keyPoints": [
+    "Red litmus turns blue",
+    "A new substance, a base, has formed"
+   ]
+  },
+  {
+   "id": "science-c7-456",
+   "type": "mcq",
+   "q": "Which animal of the desert has a hump on its back?",
+   "options": [
+    "Monkey",
+    "Penguin",
+    "Camel",
+    "Polar bear"
+   ]
+  },
+  {
+   "id": "science-c7-457",
+   "type": "mcq",
+   "q": "In which unit is rainfall usually measured?",
+   "options": [
+    "Kilograms",
+    "Degrees only",
+    "Seconds",
+    "Millimetres"
+   ]
+  },
+  {
+   "id": "science-c7-458",
+   "type": "mcq",
+   "q": "How does the hump of a camel help it in the desert?",
+   "options": [
+    "It stores fat that can be used when food is scarce",
+    "It stores water only",
+    "It stores oxygen",
+    "It helps it to swim"
+   ]
+  },
+  {
+   "id": "science-c7-459",
+   "type": "mcq",
+   "q": "When the air is very humid, it contains:",
+   "options": [
+    "Very little water vapour",
+    "A lot of water vapour",
+    "No gases",
+    "Only dust"
+   ]
+  },
+  {
+   "id": "science-c7-460",
+   "type": "short",
+   "q": "Name two elements of weather and the instrument used to measure each.",
+   "proposedAnswer": "Temperature is measured with a thermometer, and rainfall is measured with a rain gauge. Wind speed is measured with an anemometer.",
+   "keyPoints": [
+    "Temperature with a thermometer",
+    "Rainfall with a rain gauge or another correct pair"
+   ]
+  },
+  {
+   "id": "science-c7-461",
+   "type": "mcq",
+   "q": "'The summers in Rajasthan are generally hot and dry.' This statement describes:",
+   "options": [
+    "Weather",
+    "Adaptation",
+    "Climate",
+    "Acclimatisation"
+   ]
+  },
+  {
+   "id": "science-c7-462",
+   "type": "short",
+   "q": "Why do some animals of very cold regions migrate to warmer places or hibernate in winter?",
+   "proposedAnswer": "In winter food is scarce and the cold is severe. Migrating to a warmer place or hibernating in a sheltered place helps the animal to survive the harsh season.",
+   "keyPoints": [
+    "Scarce food and severe cold",
+    "Migration or hibernation helps survival"
+   ]
+  },
+  {
+   "id": "science-c7-463",
+   "type": "mcq",
+   "q": "A thunderstorm is usually accompanied by:",
+   "options": [
+    "Dew only",
+    "Snowfall always",
+    "No clouds",
+    "Lightning and thunder"
+   ]
+  },
+  {
+   "id": "science-c7-464",
+   "type": "mcq",
+   "q": "Why are cyclone shelters built along the coast?",
+   "options": [
+    "To protect people from the effects of a cyclone",
+    "To grow crops",
+    "To store water",
+    "To park boats"
+   ]
+  },
+  {
+   "id": "science-c7-465",
+   "type": "mcq",
+   "q": "Around the eye of a cyclone, the winds:",
+   "options": [
+    "Blow in a straight line",
+    "Spiral rapidly around the centre",
+    "Do not blow",
+    "Blow only downwards"
+   ]
+  },
+  {
+   "id": "science-c7-466",
+   "type": "mcq",
+   "q": "Air exerts pressure:",
+   "options": [
+    "Only downwards",
+    "Only upwards",
+    "In all directions",
+    "Only on the sea"
+   ]
+  },
+  {
+   "id": "science-c7-467",
+   "type": "short",
+   "q": "What is a tornado?",
+   "proposedAnswer": "A tornado is a violently spinning, funnel-shaped column of air that extends from a thunderstorm cloud to the ground. It can cause great damage along its path.",
+   "keyPoints": [
+    "Funnel-shaped spinning column of air",
+    "Extends from cloud to the ground"
+   ]
+  },
+  {
+   "id": "science-c7-468",
+   "type": "mcq",
+   "q": "At the centre of a cyclone the air pressure is:",
+   "options": [
+    "Very high",
+    "Zero everywhere",
+    "Same as the surroundings",
+    "Very low"
+   ]
+  },
+  {
+   "id": "science-c7-469",
+   "type": "short",
+   "q": "A student says that trees move and so wind is made. Correct the idea.",
+   "proposedAnswer": "Trees sway because wind is blowing; they do not cause it. Wind is caused by differences in air pressure produced by uneven heating of the Earth by the Sun.",
+   "keyPoints": [
+    "Swaying of trees is an effect of wind",
+    "Wind is due to uneven heating and pressure differences"
+   ]
+  },
+  {
+   "id": "science-c7-470",
+   "type": "mcq",
+   "q": "Compared with the air we breathe in, the air we breathe out has more:",
+   "options": [
+    "Carbon dioxide",
+    "Oxygen",
+    "Nitrogen",
+    "Neon"
+   ]
+  },
+  {
+   "id": "science-c7-471",
+   "type": "mcq",
+   "q": "What is the purpose of respiration in living things?",
+   "options": [
+    "To make food",
+    "To release energy from food",
+    "To get rid of urine",
+    "To digest proteins"
+   ]
+  },
+  {
+   "id": "science-c7-472",
+   "type": "mcq",
+   "q": "Which food substance is broken down in cells to release energy in respiration?",
+   "options": [
+    "Salt",
+    "Water",
+    "Glucose",
+    "Chlorophyll"
+   ]
+  },
+  {
+   "id": "science-c7-473",
+   "type": "mcq",
+   "q": "How does the breathing rate of a person who is running compare with that when resting?",
+   "options": [
+    "It is slower",
+    "It stops",
+    "It is the same",
+    "It is faster"
+   ]
+  },
+  {
+   "id": "science-c7-474",
+   "type": "short",
+   "q": "What is the role of the diaphragm in breathing?",
+   "proposedAnswer": "The diaphragm is a muscular sheet below the lungs. When it moves down the chest cavity enlarges and air enters; when it moves up the cavity gets smaller and air leaves.",
+   "keyPoints": [
+    "Muscular sheet below the lungs",
+    "Moves down for inhalation and up for exhalation"
+   ]
+  },
+  {
+   "id": "science-c7-475",
+   "type": "mcq",
+   "q": "Why is aerobic respiration more useful to the body than anaerobic respiration?",
+   "options": [
+    "It releases much more energy from the same amount of glucose",
+    "It makes alcohol",
+    "It uses no glucose",
+    "It makes no carbon dioxide"
+   ]
+  },
+  {
+   "id": "science-c7-476",
+   "type": "short",
+   "q": "Why do we feel warm after running or playing hard?",
+   "proposedAnswer": "In respiration the cells release energy from food, and part of this energy appears as heat. More respiration during hard exercise means more heat is produced.",
+   "keyPoints": [
+    "Respiration releases energy",
+    "Part of the energy is released as heat"
+   ]
+  },
+  {
+   "id": "science-c7-477",
+   "type": "mcq",
+   "q": "How many kidneys does a normal human being have?",
+   "options": [
+    "One",
+    "Two",
+    "Three",
+    "Four"
+   ]
+  },
+  {
+   "id": "science-c7-478",
+   "type": "mcq",
+   "q": "Which are the most numerous blood cells?",
+   "options": [
+    "White blood cells",
+    "Platelets",
+    "Red blood cells",
+    "Nerve cells"
+   ]
+  },
+  {
+   "id": "science-c7-479",
+   "type": "mcq",
+   "q": "Which blood vessels carry blood away from the heart?",
+   "options": [
+    "Veins",
+    "Nerves",
+    "Capillaries only",
+    "Arteries"
+   ]
+  },
+  {
+   "id": "science-c7-480",
+   "type": "mcq",
+   "q": "What is the main function of red blood cells?",
+   "options": [
+    "Carry oxygen",
+    "Clot the blood",
+    "Fight germs",
+    "Make urine"
+   ]
+  },
+  {
+   "id": "science-c7-481",
+   "type": "short",
+   "q": "How do plants absorb water from the soil?",
+   "proposedAnswer": "Root hairs have thin walls and a large surface area. Water from the soil enters them and then passes to the xylem, which carries it up to the leaves.",
+   "keyPoints": [
+    "Root hairs absorb water",
+    "Xylem carries it upward"
+   ]
+  },
+  {
+   "id": "science-c7-482",
+   "type": "mcq",
+   "q": "A potted plant that is not watered for many days starts to wilt. What is the best explanation?",
+   "options": [
+    "The plant has too much food",
+    "Water is not available to be carried to the leaves and cells",
+    "Leaves make too much starch",
+    "The roots have too much sunlight"
+   ]
+  },
+  {
+   "id": "science-c7-483",
+   "type": "short",
+   "q": "Why does a plant lose more water by transpiration on a hot, dry day?",
+   "proposedAnswer": "Heat and dry air make water evaporate faster from the leaves through the stomata. So the plant loses water more quickly on such a day.",
+   "keyPoints": [
+    "Faster evaporation of water from leaves",
+    "Water is lost through stomata"
+   ]
+  },
+  {
+   "id": "science-c7-484",
+   "type": "mcq",
+   "q": "Which of these plants reproduces by spores?",
+   "options": [
+    "Rose",
+    "Mango",
+    "Moss",
+    "Potato"
+   ]
+  },
+  {
+   "id": "science-c7-485",
+   "type": "mcq",
+   "q": "Which part of a plant produces seeds?",
+   "options": [
+    "Root",
+    "Thorn",
+    "Stem",
+    "Flower"
+   ]
+  },
+  {
+   "id": "science-c7-486",
+   "type": "mcq",
+   "q": "Which of these has unisexual flowers?",
+   "options": [
+    "Papaya",
+    "Mustard",
+    "Rose",
+    "Hibiscus"
+   ]
+  },
+  {
+   "id": "science-c7-487",
+   "type": "mcq",
+   "q": "Which of these has bisexual flowers, having both stamens and pistil?",
+   "options": [
+    "Cucumber",
+    "Mustard",
+    "Maize",
+    "Papaya"
+   ]
+  },
+  {
+   "id": "science-c7-488",
+   "type": "short",
+   "q": "What is budding? Name one organism that reproduces by it.",
+   "proposedAnswer": "In budding, a small outgrowth called a bud forms on the parent, grows, and then separates to become a new organism. Yeast reproduces by budding.",
+   "keyPoints": [
+    "Bud grows on the parent and separates",
+    "Example such as yeast"
+   ]
+  },
+  {
+   "id": "science-c7-489",
+   "type": "mcq",
+   "q": "After pollination, how does the male gamete reach the ovule?",
+   "options": [
+    "Through the sepals",
+    "Through the petals",
+    "Through a pollen tube that grows down the style",
+    "Through the roots"
+   ]
+  },
+  {
+   "id": "science-c7-490",
+   "type": "short",
+   "q": "The seeds of a dandelion are very light and have fine hairs. How does this help the plant?",
+   "proposedAnswer": "The light, hairy seeds float in the air and are carried far by the wind. This spreads the plant to new places.",
+   "keyPoints": [
+    "Light and hairy seeds float in air",
+    "Wind carries them far away"
+   ]
+  },
+  {
+   "id": "science-c7-491",
+   "type": "mcq",
+   "q": "How many metres are there in one kilometre?",
+   "options": [
+    "10",
+    "100",
+    "10000",
+    "1000"
+   ]
+  },
+  {
+   "id": "science-c7-492",
+   "type": "mcq",
+   "q": "The hands of a clock move along a:",
+   "options": [
+    "Circular path",
+    "Straight line",
+    "Zigzag path",
+    "Random path"
+   ]
+  },
+  {
+   "id": "science-c7-493",
+   "type": "mcq",
+   "q": "Which expression gives the time taken to cover a distance at a steady speed?",
+   "options": [
+    "Speed multiplied by distance",
+    "Distance divided by speed",
+    "Speed divided by distance",
+    "Distance minus speed"
+   ]
+  },
+  {
+   "id": "science-c7-494",
+   "type": "mcq",
+   "q": "A modern wristwatch usually keeps time with the help of:",
+   "options": [
+    "A sundial",
+    "A water clock",
+    "A quartz crystal",
+    "Burning candles"
+   ]
+  },
+  {
+   "id": "science-c7-495",
+   "type": "short",
+   "q": "Convert 5 minutes into seconds.",
+   "proposedAnswer": "1 minute = 60 seconds, so 5 minutes = 5 x 60 = 300 seconds.",
+   "keyPoints": [
+    "1 minute is 60 seconds",
+    "The answer is 300 s"
+   ]
+  },
+  {
+   "id": "science-c7-496",
+   "type": "mcq",
+   "q": "On a distance-time graph, one object has a steeper line than another. What does this mean?",
+   "options": [
+    "It has a smaller speed",
+    "It has the same speed",
+    "It is at rest",
+    "It has a greater speed"
+   ]
+  },
+  {
+   "id": "science-c7-497",
+   "type": "short",
+   "q": "A train leaves at 8:00 am and reaches a town 150 km away at 10:30 am. Find its average speed.",
+   "proposedAnswer": "Time taken = 2.5 hours. Average speed = 150 / 2.5 = 60 km/h.",
+   "keyPoints": [
+    "Time taken is 2.5 hours",
+    "Speed is 60 km/h"
+   ]
+  },
+  {
+   "id": "science-c7-498",
+   "type": "mcq",
+   "q": "Which metal is most commonly used for electrical connecting wires?",
+   "options": [
+    "Copper",
+    "Lead",
+    "Gold",
+    "Tin"
+   ]
+  },
+  {
+   "id": "science-c7-499",
+   "type": "mcq",
+   "q": "In an electric cell, which form of energy is converted into electrical energy?",
+   "options": [
+    "Sound energy",
+    "Chemical energy",
+    "Wind energy",
+    "Heat energy only"
+   ]
+  },
+  {
+   "id": "science-c7-500",
+   "type": "mcq",
+   "q": "Which instrument can be used to detect the magnetic effect of current?",
+   "options": [
+    "Stopwatch",
+    "Thermometer",
+    "Magnetic compass",
+    "Barometer"
+   ]
+  }
+ ]
+}

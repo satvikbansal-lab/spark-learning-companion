@@ -55,7 +55,7 @@ function assemble(subject, klass) {
     const j = read(join(root, '_parts', f));
     if (!meta && j.topics) meta = j;
     for (const q of j.questions || []) {
-      const key = String(q.q || '').trim().toLowerCase().replace(/\s+/g, ' ');
+      const key = (String(q.q || '') + ' | ' + (q.options || []).join(' | ')).trim().toLowerCase().replace(/\s+/g, ' '); // same stem, different options = a different question
       const why = problems(q, subject, meta && meta.topics);
       if (seen.has(key)) why.push('duplicate');
       if (why.length) { rejected.push({ q: String(q.q || '').slice(0, 80), why }); continue; }
@@ -159,6 +159,22 @@ async function exportReviewed() {
   writeFileSync(join(here, '..', 'examples', 'reviewed.json'), JSON.stringify(out) + '\n');
   console.log(`${out.length} reviewed questions → examples/reviewed.json`);
 }
+/* Evens out which letter is correct by swapping the correct option into a rotation of A-D, only where no option
+   refers to the others ("both", "none of the above") and the explanation names no letter, so meaning can't change. */
+function rebalance(subject, klass) {
+  const p = fileOf(subject, klass), b = read(p);
+  const safe = q => !q.options.some(o => /\b(both|either|neither|all of|none of|above|below)\b/i.test(o)) && !/\b(option\s*)?\(?[ABCD]\)?\s*(is|and)\b|\([ABCD]\)/.test(q.explanation);
+  let i = 0, moved = 0;
+  for (const q of b.questions.filter(x => x.type === 'mcq')) {
+    const want = LETTERS[i++ % 4]; if (q.answer === want || !safe(q)) continue;
+    const a = LETTERS.indexOf(q.answer), w = LETTERS.indexOf(want);
+    [q.options[a], q.options[w]] = [q.options[w], q.options[a]]; q.answer = want; moved++;
+  }
+  const c = { A: 0, B: 0, C: 0, D: 0 }; for (const q of b.questions) if (q.type === 'mcq') c[q.answer]++;
+  b.lettersRebalanced = 'The correct option was swapped into an even rotation of letters after drafting (only where options do not refer to each other and explanations name no letter).';
+  writeFileSync(p, JSON.stringify(b, null, 1) + '\n');
+  console.log(`${subject} ${klass}: ${moved} moved →`, c);
+}
 const [cmd, a, b] = process.argv.slice(2);
 if (cmd === 'assemble') assemble(a, b);
 else if (cmd === 'blind') blind(a, b);
@@ -166,5 +182,6 @@ else if (cmd === 'merge') merge(a, b);
 else if (cmd === 'status') status();
 else if (cmd === 'sample') sample(Number(a) || 60);
 else if (cmd === 'apply-review') applyReview(a);
+else if (cmd === 'rebalance') rebalance(a, b);
 else if (cmd === 'export-reviewed') exportReviewed();
 else if (cmd) { console.error('unknown command ' + cmd); process.exit(1); }
