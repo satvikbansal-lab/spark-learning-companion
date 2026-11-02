@@ -6,7 +6,8 @@
 //   node tests/bank-tools.mjs blind science 6        # what the second model sees: MCQs without their keys
 //   node tests/bank-tools.mjs merge science 6        # adds the second model's answers (…/_checks/science-c6.json)
 //   node tests/bank-tools.mjs status                 # counts, levels, cross-check agreement for every set
-//   node tests/bank-tools.mjs sample 40              # a review sheet: disagreements first, then a spread sample
+//   node tests/bank-tools.mjs sample 60              # review page: flagged first, then short answers, then MCQs → tests/bank/review.html
+//   node tests/bank-tools.mjs apply-review spark-review.json  # the reviewer's decisions: reviewed or rejected
 //   node tests/bank-tools.mjs export-reviewed        # questions a person marked reviewed → examples/reviewed.json (shipped)
 import { readFileSync, writeFileSync, existsSync, readdirSync, mkdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
@@ -113,14 +114,41 @@ function status() {
   console.log('total', total);
 }
 
-function sample(n = 40) {
+/* A review sheet for a person: everything the cross-check flagged, then short written answers (where real mistakes
+   have turned up), then a spread of MCQs across every set; questions already reviewed are left out. Writes
+   tests/bank/review-sample.json and tests/bank/review.html (open it in a browser; no server needed). */
+function sample(n = 60) {
   const all = [];
   for (const s of Object.keys(SUBJECTS)) for (const k of CLASSES) if (existsSync(fileOf(s, k))) all.push(...read(fileOf(s, k)).questions);
-  const dis = all.filter(q => q.crossCheck && q.crossCheck.result !== 'agree');
-  const rest = all.filter(q => !dis.includes(q)), step = Math.max(1, Math.floor(rest.length / n));
-  const pick = [...dis, ...rest.filter((_, i) => i % step === 0).slice(0, n)];
+  const open = all.filter(q => !q.reviewed && q.status !== 'rejected');
+  const flagged = open.filter(q => q.crossCheck && q.crossCheck.result !== 'agree');
+  const spread = (list, m) => { const step = Math.max(1, Math.floor(list.length / Math.max(1, m))); return list.filter((_, i) => i % step === 0).slice(0, m); };
+  const shorts = spread(open.filter(q => q.type === 'short' && !flagged.includes(q)), Math.ceil(n / 2));
+  const mcqs = spread(open.filter(q => q.type === 'mcq' && !flagged.includes(q)), Math.floor(n / 2));
+  const pick = [...flagged, ...shorts, ...mcqs];
   writeFileSync(join(root, 'review-sample.json'), JSON.stringify(pick, null, 1) + '\n');
-  console.log(`${dis.length} flagged by the cross-check + ${Math.min(n, rest.length)} spread sample → tests/bank/review-sample.json`);
+  const html = readFileSync(join(root, 'review-template.html'), 'utf8').replace('/*DATA*/[]', JSON.stringify(pick).replace(/</g, '\\u003c'));
+  writeFileSync(join(root, 'review.html'), html);
+  console.log(`${pick.length} questions to review (${flagged.length} flagged, ${shorts.length} short answers, ${mcqs.length} MCQs) → tests/bank/review.html`);
+}
+/* Applies a review file downloaded from review.html: "ok" → reviewed (can ship as an example), "wrong" → rejected
+   with the reviewer's note (never shipped; fix or replace it). */
+function applyReview(file) {
+  const dec = new Map(read(file).decisions.map(d => [d.id, d]));
+  const tally = { ok: 0, wrong: 0 };
+  for (const s of Object.keys(SUBJECTS)) for (const k of CLASSES) {
+    if (!existsSync(fileOf(s, k))) continue;
+    const b = read(fileOf(s, k)); let changed = false;
+    for (const q of b.questions) {
+      const d = dec.get(q.id); if (!d) continue;
+      if (d.verdict === 'ok') { q.reviewed = true; q.status = 'reviewed'; tally.ok++; }
+      else if (d.verdict === 'wrong') { q.reviewed = false; q.status = 'rejected'; tally.wrong++; }
+      if (d.note) q.reviewNote = String(d.note).slice(0, 500);
+      changed = true;
+    }
+    if (changed) writeFileSync(fileOf(s, k), JSON.stringify(b, null, 1) + '\n');
+  }
+  console.log(`${tally.ok} marked reviewed, ${tally.wrong} rejected. Run export-reviewed to ship the reviewed ones as examples.`);
 }
 
 /* Only questions with "reviewed": true (set by a person after checking) become shipped examples. */
@@ -136,6 +164,7 @@ if (cmd === 'assemble') assemble(a, b);
 else if (cmd === 'blind') blind(a, b);
 else if (cmd === 'merge') merge(a, b);
 else if (cmd === 'status') status();
-else if (cmd === 'sample') sample(Number(a) || 40);
+else if (cmd === 'sample') sample(Number(a) || 60);
+else if (cmd === 'apply-review') applyReview(a);
 else if (cmd === 'export-reviewed') exportReviewed();
 else if (cmd) { console.error('unknown command ' + cmd); process.exit(1); }

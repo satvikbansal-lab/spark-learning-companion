@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spark question review</title>
+<style>
+  :root { --bg: #f7f7f5; --panel: #fff; --ink: #1d1d1b; --muted: #6b6b66; --line: #e3e2dd; --accent: #4b5bdc; --good: #1f9d63; --bad: #c8412b; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #151514; --panel: #1f1f1d; --ink: #ecebe6; --muted: #a3a29b; --line: #34332f; --accent: #8b97ff; --good: #3dcb8a; --bad: #ff7a63; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 820px; margin: 0 auto; padding: 24px 16px 96px; display: grid; gap: 14px; }
+  h1 { margin: 0; font-size: 24px; }
+  .lead { margin: 0; color: var(--muted); }
+  .bar { position: sticky; top: 0; z-index: 2; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; padding: 10px 14px; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; }
+  .bar .n { font-weight: 600; } .bar .sp { flex: 1; }
+  button { font: inherit; padding: 7px 14px; border-radius: 10px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); cursor: pointer; }
+  button.pri { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .q { padding: 16px; background: var(--panel); border: 1px solid var(--line); border-radius: 16px; display: grid; gap: 8px; min-width: 0; }
+  .q.ok { border-color: var(--good); } .q.wrong { border-color: var(--bad); }
+  .meta { display: flex; gap: 6px; flex-wrap: wrap; font-size: 13px; color: var(--muted); }
+  .meta span { padding: 1px 8px; border: 1px solid var(--line); border-radius: 999px; }
+  .meta .flag { color: var(--bad); border-color: var(--bad); }
+  .text { white-space: pre-wrap; overflow-wrap: anywhere; font-weight: 500; }
+  ol.opts { margin: 0; padding-left: 0; list-style: none; display: grid; gap: 4px; }
+  ol.opts li { padding: 4px 10px; border-radius: 8px; overflow-wrap: anywhere; }
+  ol.opts li.key { background: color-mix(in srgb, var(--good) 14%, transparent); font-weight: 600; }
+  .ans { padding: 8px 10px; border-radius: 8px; background: color-mix(in srgb, var(--good) 10%, transparent); overflow-wrap: anywhere; }
+  .small { font-size: 14px; color: var(--muted); overflow-wrap: anywhere; }
+  .acts { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  .acts button[aria-pressed="true"].okb { background: var(--good); border-color: var(--good); color: #fff; }
+  .acts button[aria-pressed="true"].badb { background: var(--bad); border-color: var(--bad); color: #fff; }
+  textarea { width: 100%; min-height: 54px; font: inherit; padding: 8px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); }
+  .filters { display: flex; gap: 6px; flex-wrap: wrap; }
+  .filters button[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Spark question review</h1>
+  <p class="lead">For each question, check that the question makes sense and that the marked answer is right. Tap <b>✓ Correct</b> or <b>✗ Wrong</b>; for a wrong one, say what's wrong. Your answers are saved in this browser as you go. When you're done, tap <b>Download my review</b> and send the file back. Questions flagged by the second AI and short written answers come first, because that's where mistakes have turned up.</p>
+  <div class="bar"><span class="n" id="count"></span><span class="sp"></span>
+    <div class="filters" id="filters"><button data-f="all" aria-pressed="true">All</button><button data-f="todo" aria-pressed="false">Not reviewed yet</button><button data-f="flag" aria-pressed="false">Flagged</button></div>
+    <button class="pri" id="dl">Download my review</button></div>
+  <div id="list"></div>
+</main>
+<script>
+const DATA = /*DATA*/[];
+const KEY = 'spark-review-' + (DATA.length ? DATA[0].id + DATA.length : 'x');
+let D = {}; try { D = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) {}
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(D)); } catch (e) {} };
+const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+let filter = 'all';
+const flagged = q => q.crossCheck && q.crossCheck.result !== 'agree';
+function card(q) {
+  const d = D[q.id] || {}, L = 'ABCD';
+  return `<article class="q ${d.verdict || ''}" data-id="${esc(q.id)}">
+    <div class="meta"><span>${esc(q.subject)}${q.class ? ' · Class ' + q.class : ''}</span><span>${esc(q.topic)}</span><span>Level ${q.level}</span><span>${q.type === 'mcq' ? 'Multiple choice' : 'Short answer'}</span>${flagged(q) ? `<span class="flag">Flagged: second AI ${esc(q.crossCheck.result)}${q.crossCheck.checkerAnswer ? ' (chose ' + esc(q.crossCheck.checkerAnswer) + ')' : ''}</span>` : ''}<span>${esc(q.id)}</span></div>
+    <div class="text">${esc(q.q)}</div>
+    ${q.type === 'mcq' ? `<ol class="opts">${q.options.map((o, i) => `<li class="${L[i] === q.answer ? 'key' : ''}">${L[i]}) ${esc(o)}${L[i] === q.answer ? ' ✓ marked answer' : ''}</li>`).join('')}</ol>` : `<div class="ans"><b>Marked answer:</b> ${esc(q.answer)}<br><span class="small">Key points: ${esc((q.keyPoints || []).join(' · '))}</span></div>`}
+    <div class="small"><b>Why:</b> ${esc(q.explanation)}</div>
+    ${q.crossCheck && q.crossCheck.note ? `<div class="small"><b>Notes:</b> ${esc(q.crossCheck.note)}</div>` : ''}
+    <div class="acts"><button class="okb" data-v="ok" aria-pressed="${d.verdict === 'ok'}">✓ Correct</button><button class="badb" data-v="wrong" aria-pressed="${d.verdict === 'wrong'}">✗ Wrong</button></div>
+    <textarea placeholder="What's wrong, or the right answer (optional)" aria-label="Note for ${esc(q.id)}">${esc(d.note || '')}</textarea>
+  </article>`;
+}
+function render() {
+  const show = DATA.filter(q => filter === 'all' || (filter === 'todo' && !(D[q.id] && D[q.id].verdict)) || (filter === 'flag' && flagged(q)));
+  document.getElementById('list').innerHTML = show.map(card).join('') || '<p class="lead">Nothing here.</p>';
+  const done = DATA.filter(q => D[q.id] && D[q.id].verdict).length, wrong = DATA.filter(q => D[q.id] && D[q.id].verdict === 'wrong').length;
+  document.getElementById('count').textContent = `${done} of ${DATA.length} reviewed · ${wrong} marked wrong`;
+}
+document.getElementById('list').addEventListener('click', e => {
+  const b = e.target.closest('button[data-v]'); if (!b) return;
+  const id = b.closest('.q').dataset.id; D[id] = Object.assign(D[id] || {}, { verdict: b.dataset.v }); save(); render();
+});
+document.getElementById('list').addEventListener('input', e => {
+  if (e.target.tagName !== 'TEXTAREA') return; const id = e.target.closest('.q').dataset.id; D[id] = Object.assign(D[id] || {}, { note: e.target.value }); save();
+  const done = DATA.filter(q => D[q.id] && D[q.id].verdict).length; document.getElementById('count').textContent = `${done} of ${DATA.length} reviewed`;
+});
+document.getElementById('filters').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; filter = b.dataset.f; document.querySelectorAll('#filters button').forEach(x => x.setAttribute('aria-pressed', String(x === b))); render(); });
+document.getElementById('dl').onclick = () => {
+  const decisions = DATA.filter(q => D[q.id] && D[q.id].verdict).map(q => ({ id: q.id, verdict: D[q.id].verdict, note: D[q.id].note || '' }));
+  const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([JSON.stringify({ reviewedAt: new Date().toISOString(), decisions }, null, 1)], { type: 'application/json' }));
+  a.download = 'spark-review.json'; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+};
+render();
+</script>
+</body>
+</html>
