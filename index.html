@@ -1344,6 +1344,7 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
   <div class="field"><label for="sModel">Model</label><input id="sModel" placeholder="gemini-flash-latest"></div>
   <label class="check"><input type="checkbox" id="sThink"><span><b>Think before answering</b><br>More accurate answers; replies start a few seconds later.</span></label>
   <label class="check"><input type="checkbox" id="sSearch"><span><b>Look up recent facts online</b><br>Only for questions about news, current leaders, prices and other things that change. Sources are shown under the answer. Needs Google Search on your Gemini plan; without it Spark says the answer may be out of date.</span></label>
+  <label class="check"><input type="checkbox" id="sExamples"><span><b>Learn from checked answers</b><br>Answers that pass Spark’s checks are kept on this device as examples, so similar questions get a proven method. <span id="sExN"></span> <button type="button" class="linkish" id="sExClear">Clear them</button></span></label>
   <label class="check"><input type="checkbox" id="sThoughts"><span><b>Let Spark learn from my Thoughts</b> (off unless you turn it on)<br>Spark never replies there. It reads your pages only to note what helps it teach you, and you can see and delete every note.</span></label>
   <div class="field"><label for="sName">Your first name</label><input id="sName" placeholder="Riya"></div>
   <div class="field"><label for="sGrade">Class</label><input id="sGrade" placeholder="Class 7"></div>
@@ -1378,6 +1379,7 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
 <script src="spark-quiz.js"></script>
 <script src="spark-parent.js"></script>
 <script src="spark-paper.js"></script>
+<script src="spark-examples.js"></script>
 
 <script>
 'use strict';
@@ -2155,7 +2157,7 @@ async function solvePaper(p, all, only) {
       const raw = await geminiJSON(SparkPaper.solvePrompt(batch, { exam: p.exam, name: S.settings.name, grade: S.settings.grade, buddy: bn() }), SparkPaper.SOLVE_SCHEMA, PAPER_MODELS, 8000);
       const got = SparkPaper.readSolutions(raw, batch);
       for (const q of batch) {
-        if (got[q.n]) { p.solutions[q.n] = got[q.n]; delete p.checks[q.n]; exactPaperCheck(p, q); }
+        if (got[q.n]) { p.solutions[q.n] = got[q.n]; delete p.checks[q.n]; exactPaperCheck(p, q); learnFromPaper(p, q); }
         else p.failed[q.n] = (p.failed[q.n] || 0) + 1;
       }
       save();
@@ -2188,6 +2190,7 @@ async function paperDoubleCheck(p, n) {
     }
   } catch (e) { r = { status: 'unknown', note: 'The check couldn’t run right now.' }; }
   p.checks[n] = { status: r.status, note: r.note || (r.reason ? `Couldn’t check this one a second way (${r.reason}).` : '') };
+  learnFromPaper(p, q);
   save(); if (paperOpen() === p) renderPaper();
 }
 function paperAsk(p, n) {
@@ -2541,6 +2544,7 @@ async function send(textOverride, opts = {}) {
           reply.rechecking = false;
         }
         if (v.status !== 'unknown') reply.verify = { status: v.status, note: v.note };
+        if (v.status === 'agree') learnExample({ q: user.text, a: reply.text, subject: 'math', how: v.problem ? 'exact' : 'second' });
       }
     }
     else await mockStream(n, user, t => { reply.text = t; paint(); });
@@ -2579,11 +2583,33 @@ async function send(textOverride, opts = {}) {
 
 /* ---------- Gemini ---------- */
 /* The teaching method, maths rules and safety rules live in spark-ai.js so the test suite uses the same prompt. */
+/* ---------- learning from checked examples (spark-examples.js) ----------
+   Answers that passed a check are kept on this device (S.examples); questions a person reviewed in the question banks
+   come with the app (examples/reviewed.json). The closest one or two go into Sparky's instructions as a guide. */
+let REVIEWED = [];
+fetch('examples/reviewed.json', { cache: 'no-cache' }).then(r => (r.ok ? r.json() : [])).then(j => { if (Array.isArray(j)) REVIEWED = j; }).catch(() => {});
+function learnExample(ex) {
+  if (S.settings.learnExamples === false) return;
+  S.examples = SparkExamples.add(S.examples || [], Object.assign({ klass: S.settings.grade || '' }, ex));
+}
+/* A paper answer that matched the paper's key, or passed the exact or second check, becomes an example. */
+function learnFromPaper(p, q) {
+  const sol = p.solutions[q.n], c = p.checks[q.n]; if (!sol) return;
+  const how = SparkPaper.matchesKey(q, sol, p.answerKey[q.n]) === true ? 'key' : c && c.status === 'agree' ? (/exactly|calculator|back into/i.test(c.note || '') ? 'exact' : 'second') : null;
+  if (!how) return;
+  learnExample({ q: SparkPaper.questionBlock(q).replace(/^Question \d+[^:]*:\n/, ''), a: `${sol.answerText}. ${sol.idea} ${sol.steps.join(' ')}`, subject: SparkAI.route(q.text).subject, how });
+}
+function examplesFor(n, rt) {
+  if (n.kind === 'thought' || S.settings.learnExamples === false) return '';
+  const last = [...n.messages].reverse().find(m => m.role === 'user' && m.text);
+  const ex = last ? SparkExamples.retrieve(last.text, [...(S.examples || []), ...REVIEWED], { subject: rt.subject && rt.subject !== 'general' ? rt.subject : null }) : [];
+  return ex.length ? '\n\n' + SparkExamples.promptBlock(ex) : '';
+}
 function systemPrompt(n, rt = {}) {
   if (n.kind === 'thought') return thoughtPrompt(n);
   const s = S.settings;
   return SparkAI.systemPrompt({
-    buddy: bn(), name: s.name, grade: s.grade, teach: s.teach, langRule: langRule() + (SparkPaper.examRules(s.exam) ? '\n\n' + SparkPaper.examRules(s.exam) : ''),
+    buddy: bn(), name: s.name, grade: s.grade, teach: s.teach, langRule: langRule() + (SparkPaper.examRules(s.exam) ? '\n\n' + SparkPaper.examRules(s.exam) : '') + examplesFor(n, rt),
     memories: S.memories.filter(m => m.source !== 'thoughts').map(m => m.text),
     personal: S.settings.readThoughts === true ? S.memories.filter(m => m.source === 'thoughts').map(m => m.text) : [],
     notebook: n.title, concepts: Object.entries(n.concepts).map(([k, v]) => `${k}: ${v.status} (${v.evidence})`),
@@ -4575,16 +4601,18 @@ function openSettings() {
   $('#sExam').innerHTML = '<option value="">No exam</option>' + Object.entries(SparkPaper.EXAMS).map(([k, e]) => `<option value="${k}">${e.name}</option>`).join(''); $('#sExam').value = s.exam || '';
   $('#sLang').innerHTML = Object.entries(LANGS).map(([k, l]) => `<option value="${k}">${l.name}</option>`).join(''); $('#sLang').value = s.lang || 'auto';
   $('#sThink').checked = s.think !== false; $('#sSearch').checked = s.search !== false; $('#sThoughts').checked = s.readThoughts === true;
+  $('#sExamples').checked = s.learnExamples !== false; $('#sExN').textContent = `${(S.examples || []).length} learned so far.`;
   $('#setDlg').showModal();
 }
 $('#openSet').onclick = openSettings;
+$('#sExClear').onclick = () => { if (!confirm('Forget every checked example Spark learned on this device?')) return; S.examples = []; save(); $('#sExN').textContent = '0 learned so far.'; };
 $('#setForm').onsubmit = e => {
   e.preventDefault(); const s = S.settings;
   s.apiKey = $('#sKey').value.trim(); s.model = $('#sModel').value.trim() || DEFAULT_MODEL; s.name = $('#sName').value.trim(); s.grade = $('#sGrade').value.trim();
   s.buddy = $('#sBuddy').value; s.buddyName = $('#sBuddyName').value.trim(); s.autoRead = $('#sAutoRead').checked; s.quizzes = $('#sQuiz').checked;
   s.voiceName = $('#sVoice').value; s.teach = $('#sTeach').value; s.lang = $('#sLang').value; s.exam = $('#sExam').value;
   const pickedTheme = $('#sTheme').value; if (THEMES[pickedTheme]) s.theme = pickedTheme; else if (pickedTheme === 'disco') setTimeout(startDisco, 300);
-  s.think = $('#sThink').checked; s.search = $('#sSearch').checked; s.readThoughts = $('#sThoughts').checked;
+  s.think = $('#sThink').checked; s.search = $('#sSearch').checked; s.readThoughts = $('#sThoughts').checked; s.learnExamples = $('#sExamples').checked;
   save(); $('#setDlg').close(); render(); toast(s.apiKey ? 'Saved. Spark is using your Gemini key.' : SERVER_AI ? 'Saved. Spark is using this site\u2019s Gemini connection.' : 'Saved. Spark is in demo mode.');
 };
 $('#exportBtn').onclick = () => {

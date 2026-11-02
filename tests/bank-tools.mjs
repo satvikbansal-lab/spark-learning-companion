@@ -7,6 +7,7 @@
 //   node tests/bank-tools.mjs merge science 6        # adds the second model's answers (…/_checks/science-c6.json)
 //   node tests/bank-tools.mjs status                 # counts, levels, cross-check agreement for every set
 //   node tests/bank-tools.mjs sample 40              # a review sheet: disagreements first, then a spread sample
+//   node tests/bank-tools.mjs export-reviewed        # questions a person marked reviewed → examples/reviewed.json (shipped)
 import { readFileSync, writeFileSync, existsSync, readdirSync, mkdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -25,7 +26,7 @@ export function problems(q, subject, topics) {
   if (!s(q.topic) || (topics && !topics.includes(q.topic))) out.push(`topic "${q.topic}"`);
   if (q.type === 'mcq') {
     if (!Array.isArray(q.options) || q.options.length !== 4 || !q.options.every(s)) out.push('needs 4 options');
-    else if (new Set(q.options.map(o => o.trim().toLowerCase())).size !== 4) out.push('options repeat');
+    else if (new Set(q.options.map(o => o.trim())).size !== 4) out.push('options repeat'); // case matters: Tt and tt are different genotypes
     if (!LETTERS.includes(q.answer)) out.push('answer must be A-D');
   } else if (q.type === 'short') {
     if (!s(q.answer) || q.answer.length > 500) out.push('answer text');
@@ -113,10 +114,19 @@ function sample(n = 40) {
   console.log(`${dis.length} flagged by the cross-check + ${Math.min(n, rest.length)} spread sample → tests/bank/review-sample.json`);
 }
 
+/* Only questions with "reviewed": true (set by a person after checking) become shipped examples. */
+async function exportReviewed() {
+  const E = (await import('../spark-examples.js')).default;
+  const out = [];
+  for (const s of Object.keys(SUBJECTS)) for (let k = 1; k <= 12; k++) if (existsSync(fileOf(s, k))) for (const q of read(fileOf(s, k)).questions) { const ex = E.fromBank(q); if (ex) out.push(ex); }
+  writeFileSync(join(here, '..', 'examples', 'reviewed.json'), JSON.stringify(out) + '\n');
+  console.log(`${out.length} reviewed questions → examples/reviewed.json`);
+}
 const [cmd, a, b] = process.argv.slice(2);
 if (cmd === 'assemble') assemble(a, b);
 else if (cmd === 'blind') blind(a, b);
 else if (cmd === 'merge') merge(a, b);
 else if (cmd === 'status') status();
 else if (cmd === 'sample') sample(Number(a) || 40);
+else if (cmd === 'export-reviewed') exportReviewed();
 else if (cmd) { console.error('unknown command ' + cmd); process.exit(1); }

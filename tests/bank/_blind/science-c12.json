@@ -1,0 +1,5505 @@
+{
+ "class": 12,
+ "subject": "science",
+ "items": [
+  {
+   "id": "science-c12-001",
+   "type": "mcq",
+   "q": "What is the SI unit of electric charge?",
+   "options": [
+    "coulomb",
+    "ampere",
+    "volt",
+    "farad"
+   ]
+  },
+  {
+   "id": "science-c12-002",
+   "type": "mcq",
+   "q": "The magnitude of the charge on one electron is approximately",
+   "options": [
+    "1.6 × 10^-19 C",
+    "9.1 × 10^-31 C",
+    "1.6 × 10^-27 C",
+    "6.02 × 10^23 C"
+   ]
+  },
+  {
+   "id": "science-c12-003",
+   "type": "mcq",
+   "q": "Two point charges exert a force F on each other. If the distance between them is doubled, the force becomes",
+   "options": [
+    "2F",
+    "4F",
+    "F/2",
+    "F/4"
+   ]
+  },
+  {
+   "id": "science-c12-004",
+   "type": "mcq",
+   "q": "What is the magnitude of the electric field at 0.3 m from a point charge of 3 nC? (k = 9 × 10^9 N m^2 C^-2)",
+   "options": [
+    "90 N/C",
+    "270 N/C",
+    "300 N/C",
+    "900 N/C"
+   ]
+  },
+  {
+   "id": "science-c12-005",
+   "type": "mcq",
+   "q": "A hollow metallic sphere of radius R carries a charge Q. What is the electric potential at its centre?",
+   "options": [
+    "kQ/R",
+    "zero",
+    "kQ/(2R)",
+    "kQ/R^2"
+   ]
+  },
+  {
+   "id": "science-c12-006",
+   "type": "mcq",
+   "q": "A parallel-plate capacitor stays connected to a battery. A dielectric slab of constant K = 4 is then inserted to fill the gap completely. The energy stored in the capacitor becomes",
+   "options": [
+    "unchanged",
+    "one fourth",
+    "two times",
+    "four times"
+   ]
+  },
+  {
+   "id": "science-c12-007",
+   "type": "short",
+   "q": "Define the electric dipole moment. State its direction and SI unit.",
+   "proposedAnswer": "Electric dipole moment is the product of the magnitude of either charge and the separation between the two charges. It is a vector pointing from the negative charge to the positive charge, and its SI unit is coulomb metre (C m).",
+   "keyPoints": [
+    "p = q × 2a (charge times separation)",
+    "Directed from -q to +q",
+    "Unit: C m"
+   ]
+  },
+  {
+   "id": "science-c12-008",
+   "type": "short",
+   "q": "Why is the electric field inside a conductor zero in electrostatic conditions?",
+   "proposedAnswer": "Free charges in a conductor move until the net field inside is cancelled. If any field existed, free charges would keep moving, so in the static state the field must be zero, the excess charge sits on the surface and the field just outside is perpendicular to the surface.",
+   "keyPoints": [
+    "Free charges rearrange under any field",
+    "Rearrangement stops only when net field is zero",
+    "Excess charge resides on the surface"
+   ]
+  },
+  {
+   "id": "science-c12-009",
+   "type": "mcq",
+   "q": "What is the SI unit of electrical resistance?",
+   "options": [
+    "ohm",
+    "siemens",
+    "tesla",
+    "henry"
+   ]
+  },
+  {
+   "id": "science-c12-010",
+   "type": "mcq",
+   "q": "The magnetic field lines around a long straight current-carrying wire are",
+   "options": [
+    "straight lines parallel to the wire",
+    "radial lines pointing away from the wire",
+    "ellipses with the wire at one focus",
+    "concentric circles around the wire"
+   ]
+  },
+  {
+   "id": "science-c12-011",
+   "type": "mcq",
+   "q": "A 20 ohm resistor is connected across a 5 V battery. The current through it is",
+   "options": [
+    "4 A",
+    "100 A",
+    "0.5 A",
+    "0.25 A"
+   ]
+  },
+  {
+   "id": "science-c12-012",
+   "type": "mcq",
+   "q": "Three resistors of 6 ohm each are connected in parallel. Their equivalent resistance is",
+   "options": [
+    "2 ohm",
+    "6 ohm",
+    "9 ohm",
+    "18 ohm"
+   ]
+  },
+  {
+   "id": "science-c12-013",
+   "type": "mcq",
+   "q": "A charged particle enters a uniform magnetic field with its velocity perpendicular to the field. Which quantity of the particle remains constant?",
+   "options": [
+    "kinetic energy",
+    "momentum",
+    "velocity",
+    "direction of motion"
+   ]
+  },
+  {
+   "id": "science-c12-014",
+   "type": "mcq",
+   "q": "A uniform wire of resistance R is stretched uniformly to double its length, its volume remaining the same. Its new resistance is",
+   "options": [
+    "R/4",
+    "R/2",
+    "2R",
+    "4R"
+   ]
+  },
+  {
+   "id": "science-c12-015",
+   "type": "short",
+   "q": "State Kirchhoff's two rules for electric circuits.",
+   "proposedAnswer": "The junction rule says the algebraic sum of currents meeting at a junction is zero (charge is conserved). The loop rule says the algebraic sum of potential differences around any closed loop is zero (energy is conserved).",
+   "keyPoints": [
+    "Junction rule: sum of currents at a junction is zero",
+    "Loop rule: sum of potential changes in a closed loop is zero",
+    "Based on conservation of charge and energy"
+   ]
+  },
+  {
+   "id": "science-c12-016",
+   "type": "short",
+   "q": "How is a galvanometer converted into an ammeter, and why must the ammeter have a low resistance?",
+   "proposedAnswer": "A small resistance called a shunt is connected in parallel with the galvanometer so most of the current bypasses the coil. The ammeter is connected in series in the circuit, and its resistance must be very low so that it does not change the current it is measuring.",
+   "keyPoints": [
+    "Low-resistance shunt in parallel with galvanometer",
+    "Ammeter connected in series",
+    "Low resistance so the circuit current is hardly disturbed"
+   ]
+  },
+  {
+   "id": "science-c12-017",
+   "type": "mcq",
+   "q": "According to Faraday's law, the emf induced in a coil is proportional to",
+   "options": [
+    "the rate of change of magnetic flux through it",
+    "the resistance of the coil",
+    "the total magnetic flux through it",
+    "the current already in the coil"
+   ]
+  },
+  {
+   "id": "science-c12-018",
+   "type": "mcq",
+   "q": "The SI unit of inductance is",
+   "options": [
+    "henry",
+    "tesla",
+    "weber",
+    "farad"
+   ]
+  },
+  {
+   "id": "science-c12-019",
+   "type": "mcq",
+   "q": "The magnetic flux through a single-turn coil falls from 0.08 Wb to 0.02 Wb in 0.3 s. The magnitude of the induced emf is",
+   "options": [
+    "0.02 V",
+    "0.1 V",
+    "0.2 V",
+    "0.3 V"
+   ]
+  },
+  {
+   "id": "science-c12-020",
+   "type": "mcq",
+   "q": "An alternating voltage has a peak value of 100 V. Its rms value is approximately",
+   "options": [
+    "50 V",
+    "70.7 V",
+    "100 V",
+    "141 V"
+   ]
+  },
+  {
+   "id": "science-c12-021",
+   "type": "mcq",
+   "q": "Suppose the induced current in a loop aided the change in flux that produced it, instead of opposing it. Which principle would be violated?",
+   "options": [
+    "conservation of energy",
+    "Coulomb's law",
+    "conservation of charge",
+    "Ohm's law"
+   ]
+  },
+  {
+   "id": "science-c12-022",
+   "type": "mcq",
+   "q": "A series LCR circuit has L = 0.1 H and C = 10 microfarad. Its resonant angular frequency is",
+   "options": [
+    "100 rad/s",
+    "316 rad/s",
+    "10 000 rad/s",
+    "1000 rad/s"
+   ]
+  },
+  {
+   "id": "science-c12-023",
+   "type": "short",
+   "q": "What is a transformer and on what principle does it work?",
+   "proposedAnswer": "A transformer is a device that increases or decreases an alternating voltage. It works on the principle of mutual induction between two coils wound on a common iron core.",
+   "keyPoints": [
+    "Changes AC voltage up or down",
+    "Works on mutual induction",
+    "Primary and secondary coils on a common core"
+   ]
+  },
+  {
+   "id": "science-c12-024",
+   "type": "short",
+   "q": "Why does an ideal inductor connected to an AC source not consume any average power?",
+   "proposedAnswer": "In a purely inductive circuit the current lags the voltage by 90 degrees. Power is positive for one quarter of the cycle and negative for the next quarter, so the average power over a full cycle is zero.",
+   "keyPoints": [
+    "Current lags voltage by 90 degrees",
+    "Power alternates in sign",
+    "Average power over a cycle is zero"
+   ]
+  },
+  {
+   "id": "science-c12-025",
+   "type": "mcq",
+   "q": "The bending of light when it passes from one transparent medium to another is called",
+   "options": [
+    "diffraction",
+    "polarisation",
+    "reflection",
+    "refraction"
+   ]
+  },
+  {
+   "id": "science-c12-026",
+   "type": "mcq",
+   "q": "The SI unit of the power of a lens is",
+   "options": [
+    "dioptre",
+    "metre",
+    "watt",
+    "lumen"
+   ]
+  },
+  {
+   "id": "science-c12-027",
+   "type": "mcq",
+   "q": "A concave mirror has a focal length of 15 cm. An object is placed 30 cm in front of it. The image forms at a distance of",
+   "options": [
+    "10 cm",
+    "15 cm",
+    "30 cm",
+    "60 cm"
+   ]
+  },
+  {
+   "id": "science-c12-028",
+   "type": "mcq",
+   "q": "The refractive index of glass is 1.5. Taking the speed of light in vacuum as 3 × 10^8 m/s, the speed of light in glass is",
+   "options": [
+    "4.5 × 10^8 m/s",
+    "3 × 10^8 m/s",
+    "2 × 10^8 m/s",
+    "1.5 × 10^8 m/s"
+   ]
+  },
+  {
+   "id": "science-c12-029",
+   "type": "mcq",
+   "q": "A Young's double-slit experiment is shifted from air into water without changing the slit separation or screen distance. The fringe width",
+   "options": [
+    "decreases",
+    "increases",
+    "stays the same",
+    "becomes zero"
+   ]
+  },
+  {
+   "id": "science-c12-030",
+   "type": "mcq",
+   "q": "The critical angle for glass-air is about 42 degrees. In which case can total internal reflection occur?",
+   "options": [
+    "light going from air to glass at 80 degrees",
+    "light going from glass to air at 30 degrees",
+    "light going from glass to air at 60 degrees",
+    "light going from air to water at 89 degrees"
+   ]
+  },
+  {
+   "id": "science-c12-031",
+   "type": "short",
+   "q": "What is diffraction of light, and when is it most noticeable?",
+   "proposedAnswer": "Diffraction is the bending of light around the edges of an obstacle or aperture so that it spreads into the geometrical shadow. It is most noticeable when the size of the obstacle or slit is comparable to the wavelength of light.",
+   "keyPoints": [
+    "Bending or spreading of light at edges or slits",
+    "Size of aperture comparable to wavelength",
+    "Shows wave nature of light"
+   ]
+  },
+  {
+   "id": "science-c12-032",
+   "type": "short",
+   "q": "Why does a glass convex lens behave like a diverging lens when it is immersed in a liquid of higher refractive index than glass?",
+   "proposedAnswer": "The behaviour depends on the refractive index of the lens relative to the surrounding medium. If the surrounding liquid has a higher index than glass, light bends away from the normal on entering the lens and the relative index is below 1, so the focal length changes sign and the lens diverges.",
+   "keyPoints": [
+    "Depends on relative refractive index",
+    "Relative index of glass to liquid is less than 1",
+    "Sign of focal length reverses so lens diverges"
+   ]
+  },
+  {
+   "id": "science-c12-033",
+   "type": "mcq",
+   "q": "A packet or quantum of light energy is called a",
+   "options": [
+    "photon",
+    "phonon",
+    "positron",
+    "proton"
+   ]
+  },
+  {
+   "id": "science-c12-034",
+   "type": "mcq",
+   "q": "The photoelectric effect gives evidence for which nature of light?",
+   "options": [
+    "particle nature",
+    "wave nature",
+    "longitudinal nature",
+    "transverse nature only"
+   ]
+  },
+  {
+   "id": "science-c12-035",
+   "type": "mcq",
+   "q": "Using hc = 1240 eV nm, the energy of a photon of wavelength 600 nm is about",
+   "options": [
+    "1.03 eV",
+    "2.07 eV",
+    "3.10 eV",
+    "4.14 eV"
+   ]
+  },
+  {
+   "id": "science-c12-036",
+   "type": "mcq",
+   "q": "According to Bohr's model, the energy of the electron in the n = 2 level of a hydrogen atom is",
+   "options": [
+    "-13.6 eV",
+    "-6.8 eV",
+    "-1.51 eV",
+    "-3.4 eV"
+   ]
+  },
+  {
+   "id": "science-c12-037",
+   "type": "mcq",
+   "q": "Light above the threshold frequency falls on a metal and its intensity is doubled while the frequency is unchanged. What happens?",
+   "options": [
+    "the saturation photocurrent doubles",
+    "the maximum kinetic energy of electrons doubles",
+    "the stopping potential doubles",
+    "photoemission stops"
+   ]
+  },
+  {
+   "id": "science-c12-038",
+   "type": "mcq",
+   "q": "Why does the fusion of two light nuclei release energy?",
+   "options": [
+    "the product nucleus has a lower binding energy per nucleon",
+    "the product has no mass defect",
+    "the number of neutrons always decreases",
+    "the product nucleus has a higher binding energy per nucleon"
+   ]
+  },
+  {
+   "id": "science-c12-039",
+   "type": "short",
+   "q": "Define half-life of a radioactive substance and write its relation with the decay constant.",
+   "proposedAnswer": "Half-life is the time in which half of the radioactive nuclei in a sample decay. It is related to the decay constant by T_half = 0.693/lambda.",
+   "keyPoints": [
+    "Time for half the nuclei to decay",
+    "T_half = 0.693/lambda"
+   ]
+  },
+  {
+   "id": "science-c12-040",
+   "type": "short",
+   "q": "Calculate the de Broglie wavelength of an electron accelerated from rest through a potential difference of 100 V.",
+   "proposedAnswer": "Using lambda = h/sqrt(2 m e V) = 12.27/sqrt(V) angstrom, with V = 100 V the wavelength is about 1.23 angstrom (0.123 nm).",
+   "keyPoints": [
+    "lambda = h / sqrt(2meV)",
+    "Equivalent to 12.27/sqrt(V) angstrom",
+    "About 0.123 nm"
+   ]
+  },
+  {
+   "id": "science-c12-041",
+   "type": "mcq",
+   "q": "Molarity of a solution is defined as the number of moles of solute present in",
+   "options": [
+    "1 kg of solvent",
+    "1 litre of solution",
+    "100 g of solution",
+    "1 litre of solvent"
+   ]
+  },
+  {
+   "id": "science-c12-042",
+   "type": "mcq",
+   "q": "In a galvanic cell, reduction takes place at the",
+   "options": [
+    "cathode",
+    "salt bridge",
+    "anode",
+    "electrolyte only"
+   ]
+  },
+  {
+   "id": "science-c12-043",
+   "type": "mcq",
+   "q": "What is the molarity of a solution containing 4 g of NaOH (molar mass 40 g/mol) in 500 mL of solution?",
+   "options": [
+    "0.1 M",
+    "0.2 M",
+    "0.4 M",
+    "0.8 M"
+   ]
+  },
+  {
+   "id": "science-c12-044",
+   "type": "mcq",
+   "q": "A solution contains 2 mol of A and 3 mol of B. The mole fraction of A is",
+   "options": [
+    "0.4",
+    "0.5",
+    "0.6",
+    "0.67"
+   ]
+  },
+  {
+   "id": "science-c12-045",
+   "type": "mcq",
+   "q": "Which 0.1 molal aqueous solution has the highest boiling point? (assume complete dissociation of electrolytes)",
+   "options": [
+    "glucose",
+    "urea",
+    "sodium chloride",
+    "calcium chloride"
+   ]
+  },
+  {
+   "id": "science-c12-046",
+   "type": "mcq",
+   "q": "A current of 2 A is passed through CuSO4 solution for 965 s. What mass of copper is deposited? (Cu = 63.5 g/mol, F = 96500 C/mol)",
+   "options": [
+    "0.3175 g",
+    "1.27 g",
+    "6.35 g",
+    "0.635 g"
+   ]
+  },
+  {
+   "id": "science-c12-047",
+   "type": "short",
+   "q": "State Raoult's law for a solution of volatile liquids.",
+   "proposedAnswer": "For a solution of volatile liquids, the partial vapour pressure of each component is directly proportional to its mole fraction in the solution, p_A = x_A p_A^0, and the total vapour pressure is the sum of the partial pressures.",
+   "keyPoints": [
+    "Partial pressure proportional to mole fraction",
+    "p_A = x_A times vapour pressure of pure A",
+    "Total pressure is sum of partial pressures"
+   ]
+  },
+  {
+   "id": "science-c12-048",
+   "type": "short",
+   "q": "Why does the molar conductivity of a weak electrolyte rise sharply on dilution?",
+   "proposedAnswer": "On dilution the degree of dissociation of a weak electrolyte increases, giving more ions in solution for the same amount of electrolyte. This increase in ions outweighs the fall in concentration, so molar conductivity rises steeply.",
+   "keyPoints": [
+    "Degree of dissociation increases",
+    "More ions per mole of electrolyte",
+    "Molar conductivity rises"
+   ]
+  },
+  {
+   "id": "science-c12-049",
+   "type": "mcq",
+   "q": "The unit of the rate constant of a first-order reaction is",
+   "options": [
+    "mol L^-1 s^-1",
+    "s^-1",
+    "L mol^-1 s^-1",
+    "mol^2 L^-2 s^-1"
+   ]
+  },
+  {
+   "id": "science-c12-050",
+   "type": "mcq",
+   "q": "Which of the following is a d-block element?",
+   "options": [
+    "iron",
+    "calcium",
+    "sodium",
+    "aluminium"
+   ]
+  },
+  {
+   "id": "science-c12-051",
+   "type": "mcq",
+   "q": "A first-order reaction has k = 0.0693 min^-1. Its half-life is",
+   "options": [
+    "5 min",
+    "10 min",
+    "20 min",
+    "0.0481 min"
+   ]
+  },
+  {
+   "id": "science-c12-052",
+   "type": "mcq",
+   "q": "The oxidation state of manganese in potassium permanganate (KMnO4) is",
+   "options": [
+    "+2",
+    "+4",
+    "+6",
+    "+7"
+   ]
+  },
+  {
+   "id": "science-c12-053",
+   "type": "mcq",
+   "q": "For a reaction with rate = k[A]^2[B], the concentrations of both A and B are doubled. The rate becomes",
+   "options": [
+    "2 times",
+    "4 times",
+    "6 times",
+    "8 times"
+   ]
+  },
+  {
+   "id": "science-c12-054",
+   "type": "mcq",
+   "q": "Which aqueous ion is colourless?",
+   "options": [
+    "Cu2+",
+    "Zn2+",
+    "Ni2+",
+    "Fe2+"
+   ]
+  },
+  {
+   "id": "science-c12-055",
+   "type": "short",
+   "q": "What is activation energy? How does a catalyst affect it?",
+   "proposedAnswer": "Activation energy is the minimum extra energy that reacting molecules must have for a collision to result in a reaction. A catalyst provides an alternative pathway with lower activation energy, so more molecules can react and the rate increases.",
+   "keyPoints": [
+    "Minimum energy needed for effective collisions",
+    "Catalyst gives an alternative path",
+    "Lower activation energy raises the rate"
+   ]
+  },
+  {
+   "id": "science-c12-056",
+   "type": "short",
+   "q": "What is lanthanoid contraction and what is one of its consequences?",
+   "proposedAnswer": "Lanthanoid contraction is the steady decrease in atomic and ionic radii from lanthanum to lutetium, caused by poor shielding of the nuclear charge by the 4f electrons. As a result, zirconium and hafnium have almost the same radii and are very similar in properties.",
+   "keyPoints": [
+    "Gradual decrease in size across the 4f series",
+    "Poor shielding by 4f electrons",
+    "Zr and Hf very similar, hard to separate"
+   ]
+  },
+  {
+   "id": "science-c12-057",
+   "type": "mcq",
+   "q": "In the complex ion [Fe(CN)6]4-, the ligand is",
+   "options": [
+    "CN-",
+    "Fe2+",
+    "K+",
+    "C"
+   ]
+  },
+  {
+   "id": "science-c12-058",
+   "type": "mcq",
+   "q": "The coordination number of cobalt in [Co(NH3)6]3+ is",
+   "options": [
+    "3",
+    "4",
+    "6",
+    "9"
+   ]
+  },
+  {
+   "id": "science-c12-059",
+   "type": "mcq",
+   "q": "The oxidation state of cobalt in [Co(NH3)6]Cl3 is",
+   "options": [
+    "+3",
+    "+2",
+    "+6",
+    "0"
+   ]
+  },
+  {
+   "id": "science-c12-060",
+   "type": "mcq",
+   "q": "The IUPAC name of K4[Fe(CN)6] is",
+   "options": [
+    "potassium hexacyanoiron",
+    "potassium hexacyanidoferrate(III)",
+    "tetrapotassium cyanoferrate",
+    "potassium hexacyanidoferrate(II)"
+   ]
+  },
+  {
+   "id": "science-c12-061",
+   "type": "mcq",
+   "q": "How many geometrical isomers does the octahedral ion [Co(NH3)4Cl2]+ have?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  {
+   "id": "science-c12-062",
+   "type": "mcq",
+   "q": "Which statement about [Ni(CO)4] is correct?",
+   "options": [
+    "it is square planar and paramagnetic",
+    "it is square planar and diamagnetic",
+    "it is octahedral and paramagnetic",
+    "it is tetrahedral and diamagnetic"
+   ]
+  },
+  {
+   "id": "science-c12-063",
+   "type": "short",
+   "q": "What is a ligand? Give one example each of a monodentate and a bidentate ligand.",
+   "proposedAnswer": "A ligand is an ion or molecule that donates a lone pair of electrons to the central metal atom or ion to form a coordinate bond. NH3 or Cl- is monodentate, while ethane-1,2-diamine or oxalate is bidentate.",
+   "keyPoints": [
+    "Donates a lone pair to the central metal",
+    "Monodentate example such as NH3",
+    "Bidentate example such as ethane-1,2-diamine"
+   ]
+  },
+  {
+   "id": "science-c12-064",
+   "type": "short",
+   "q": "How does a coordination compound differ from a double salt? Give an example of each.",
+   "proposedAnswer": "A double salt such as carnallite or Mohr's salt breaks up completely into its simple ions in water and loses its identity. A coordination compound such as K4[Fe(CN)6] keeps the complex ion intact in solution and does not give the test for the central metal ion.",
+   "keyPoints": [
+    "Double salt dissociates completely into simple ions",
+    "Complex ion retains its identity in solution",
+    "Examples: Mohr's salt versus K4[Fe(CN)6]"
+   ]
+  },
+  {
+   "id": "science-c12-065",
+   "type": "mcq",
+   "q": "The functional group present in alcohols is",
+   "options": [
+    "-OH",
+    "-COOH",
+    "-CHO",
+    "-O-"
+   ]
+  },
+  {
+   "id": "science-c12-066",
+   "type": "mcq",
+   "q": "The IUPAC name of CH3CH2Br is",
+   "options": [
+    "bromoethane",
+    "ethyl bromide only",
+    "bromomethane",
+    "1-bromopropane"
+   ]
+  },
+  {
+   "id": "science-c12-067",
+   "type": "mcq",
+   "q": "An SN2 reaction at a chiral carbon proceeds with",
+   "options": [
+    "retention of configuration",
+    "no change in the carbon skeleton or geometry",
+    "racemisation only",
+    "inversion of configuration"
+   ]
+  },
+  {
+   "id": "science-c12-068",
+   "type": "mcq",
+   "q": "Ethanol heated with excess concentrated sulphuric acid at 443 K mainly gives",
+   "options": [
+    "ethene",
+    "ethanal",
+    "diethyl ether",
+    "ethane"
+   ]
+  },
+  {
+   "id": "science-c12-069",
+   "type": "mcq",
+   "q": "Which alkyl chloride reacts fastest by the SN1 mechanism?",
+   "options": [
+    "CH3Cl",
+    "CH3CH2Cl",
+    "(CH3)2CHCl",
+    "(CH3)3CCl"
+   ]
+  },
+  {
+   "id": "science-c12-070",
+   "type": "mcq",
+   "q": "Phenol is more acidic than ethanol mainly because",
+   "options": [
+    "the phenoxide ion is stabilised by resonance",
+    "phenol has more carbon atoms",
+    "phenol forms stronger hydrogen bonds with itself",
+    "the O-H bond in phenol is non-polar"
+   ]
+  },
+  {
+   "id": "science-c12-071",
+   "type": "short",
+   "q": "How can ethyl methyl ether be prepared by Williamson synthesis?",
+   "proposedAnswer": "Sodium ethoxide is reacted with bromomethane (or sodium methoxide with bromoethane): C2H5ONa + CH3Br gives C2H5OCH3 + NaBr. It is an SN2 reaction between an alkoxide and a primary alkyl halide.",
+   "keyPoints": [
+    "Alkoxide plus alkyl halide",
+    "C2H5ONa + CH3Br gives C2H5OCH3 + NaBr",
+    "SN2 reaction with a primary halide"
+   ]
+  },
+  {
+   "id": "science-c12-072",
+   "type": "short",
+   "q": "Why do alcohols have much higher boiling points than haloalkanes or ethers of comparable molar mass?",
+   "proposedAnswer": "Alcohol molecules form intermolecular hydrogen bonds through the O-H group, which need extra energy to break. Haloalkanes and ethers cannot hydrogen-bond with themselves, so their boiling points are lower.",
+   "keyPoints": [
+    "Alcohols form intermolecular hydrogen bonds",
+    "Extra energy needed to break them",
+    "Ethers and haloalkanes lack O-H bonding"
+   ]
+  },
+  {
+   "id": "science-c12-073",
+   "type": "mcq",
+   "q": "The functional group of an aldehyde is",
+   "options": [
+    "-CHO",
+    "-OH",
+    "-COOH",
+    "-NH2"
+   ]
+  },
+  {
+   "id": "science-c12-074",
+   "type": "mcq",
+   "q": "A silver mirror is formed on warming an aldehyde with",
+   "options": [
+    "Fehling's solution",
+    "Baeyer's reagent",
+    "Lucas reagent",
+    "Tollens' reagent"
+   ]
+  },
+  {
+   "id": "science-c12-075",
+   "type": "mcq",
+   "q": "Oxidation of ethanal gives",
+   "options": [
+    "ethanol",
+    "ethanoic acid",
+    "methanoic acid",
+    "propanone"
+   ]
+  },
+  {
+   "id": "science-c12-076",
+   "type": "mcq",
+   "q": "Glucose is classified as a",
+   "options": [
+    "ketohexose",
+    "disaccharide",
+    "polysaccharide",
+    "aldohexose"
+   ]
+  },
+  {
+   "id": "science-c12-077",
+   "type": "mcq",
+   "q": "Which of these gives a positive iodoform test?",
+   "options": [
+    "propanal",
+    "pentan-3-one",
+    "propanone",
+    "benzaldehyde"
+   ]
+  },
+  {
+   "id": "science-c12-078",
+   "type": "mcq",
+   "q": "Aniline is a weaker base than ethylamine because",
+   "options": [
+    "aniline has more hydrogen atoms",
+    "aniline is a larger molecule",
+    "ethylamine has no lone pair",
+    "the lone pair on nitrogen is delocalised into the benzene ring"
+   ]
+  },
+  {
+   "id": "science-c12-079",
+   "type": "short",
+   "q": "What is a peptide bond?",
+   "proposedAnswer": "A peptide bond is the amide linkage (-CO-NH-) formed between the carboxyl group of one amino acid and the amino group of another, with loss of a water molecule. Many such bonds join amino acids into peptides and proteins.",
+   "keyPoints": [
+    "-CO-NH- amide linkage",
+    "Between carboxyl of one and amino group of another amino acid",
+    "Formed with loss of water"
+   ]
+  },
+  {
+   "id": "science-c12-080",
+   "type": "short",
+   "q": "Why is sucrose a non-reducing sugar?",
+   "proposedAnswer": "In sucrose the C1 of glucose and C2 of fructose are joined through a glycosidic bond, so both potential carbonyl groups are tied up. There is no free aldehyde or ketone group, so sucrose does not reduce Tollens' or Fehling's reagent.",
+   "keyPoints": [
+    "Glycosidic link between C1 of glucose and C2 of fructose",
+    "No free aldehyde or ketone group",
+    "Does not reduce Tollens' or Fehling's reagent"
+   ]
+  },
+  {
+   "id": "science-c12-081",
+   "type": "mcq",
+   "q": "Sperms are produced in the",
+   "options": [
+    "testes",
+    "prostate gland",
+    "ovaries",
+    "seminal vesicles"
+   ]
+  },
+  {
+   "id": "science-c12-082",
+   "type": "mcq",
+   "q": "In humans, fertilisation normally takes place in the",
+   "options": [
+    "uterus",
+    "ovary",
+    "vagina",
+    "ampulla of the fallopian tube"
+   ]
+  },
+  {
+   "id": "science-c12-083",
+   "type": "mcq",
+   "q": "The surge of which hormone triggers ovulation in the human menstrual cycle?",
+   "options": [
+    "progesterone",
+    "oxytocin",
+    "luteinising hormone",
+    "prolactin"
+   ]
+  },
+  {
+   "id": "science-c12-084",
+   "type": "mcq",
+   "q": "In which part of the testis does spermatogenesis take place?",
+   "options": [
+    "epididymis",
+    "urethra",
+    "vas deferens",
+    "seminiferous tubules"
+   ]
+  },
+  {
+   "id": "science-c12-085",
+   "type": "mcq",
+   "q": "In flowering plants, the primary endosperm nucleus is triploid because it forms by the fusion of",
+   "options": [
+    "one male gamete with the egg",
+    "two male gametes with the egg",
+    "one male gamete with two polar nuclei",
+    "one male gamete with one synergid"
+   ]
+  },
+  {
+   "id": "science-c12-086",
+   "type": "mcq",
+   "q": "After a man undergoes vasectomy, which function continues normally?",
+   "options": [
+    "passage of sperms through the vas deferens",
+    "presence of sperms in the semen",
+    "secretion of testosterone",
+    "ability to fertilise an ovum"
+   ]
+  },
+  {
+   "id": "science-c12-087",
+   "type": "short",
+   "q": "What is double fertilisation in flowering plants?",
+   "proposedAnswer": "In double fertilisation, one male gamete fuses with the egg cell to form the diploid zygote (syngamy), while the other fuses with the two polar nuclei to form the triploid primary endosperm nucleus (triple fusion). It is characteristic of angiosperms.",
+   "keyPoints": [
+    "Syngamy forms the zygote",
+    "Triple fusion forms the primary endosperm nucleus",
+    "Both male gametes are used"
+   ]
+  },
+  {
+   "id": "science-c12-088",
+   "type": "short",
+   "q": "Describe how the placenta allows exchange between mother and foetus even though their bloods do not mix.",
+   "proposedAnswer": "The placenta has villi where foetal capillaries lie close to maternal blood spaces separated by thin membranes. Oxygen, nutrients and antibodies diffuse into the foetal blood while carbon dioxide and wastes pass to the mother, with the two blood supplies kept separate.",
+   "keyPoints": [
+    "Thin membrane between foetal and maternal blood",
+    "Oxygen and nutrients pass to foetus",
+    "Wastes and CO2 pass to mother"
+   ]
+  },
+  {
+   "id": "science-c12-089",
+   "type": "mcq",
+   "q": "Who is regarded as the father of genetics?",
+   "options": [
+    "Charles Darwin",
+    "Gregor Mendel",
+    "Hugo de Vries",
+    "Thomas Morgan"
+   ]
+  },
+  {
+   "id": "science-c12-090",
+   "type": "mcq",
+   "q": "In a DNA double helix, adenine pairs with",
+   "options": [
+    "guanine",
+    "cytosine",
+    "uracil",
+    "thymine"
+   ]
+  },
+  {
+   "id": "science-c12-091",
+   "type": "mcq",
+   "q": "In a cross between two heterozygous tall pea plants (Tt × Tt), the phenotypic ratio of the offspring is",
+   "options": [
+    "1 : 1",
+    "3 : 1",
+    "1 : 2 : 1",
+    "9 : 3 : 3 : 1"
+   ]
+  },
+  {
+   "id": "science-c12-092",
+   "type": "mcq",
+   "q": "The sex chromosomes of a normal human female are",
+   "options": [
+    "XY",
+    "YY",
+    "XO",
+    "XX"
+   ]
+  },
+  {
+   "id": "science-c12-093",
+   "type": "mcq",
+   "q": "A tall pea plant of unknown genotype is crossed with a dwarf plant, and all the offspring are tall. The tall parent is most likely",
+   "options": [
+    "Tt (heterozygous)",
+    "tt (homozygous recessive)",
+    "TT (homozygous dominant)",
+    "either Tt or tt"
+   ]
+  },
+  {
+   "id": "science-c12-094",
+   "type": "mcq",
+   "q": "In a population in Hardy-Weinberg equilibrium, the frequency of homozygous recessive individuals (q^2) is 0.04. The frequency of heterozygotes is",
+   "options": [
+    "0.16",
+    "0.32",
+    "0.64",
+    "0.96"
+   ]
+  },
+  {
+   "id": "science-c12-095",
+   "type": "short",
+   "q": "What is a codon? Which codon starts translation and what amino acid does it code for?",
+   "proposedAnswer": "A codon is a sequence of three adjacent nucleotides on mRNA that codes for one amino acid or a stop signal. The start codon is AUG, which codes for methionine.",
+   "keyPoints": [
+    "Triplet of nucleotides on mRNA",
+    "AUG is the start codon",
+    "AUG codes for methionine"
+   ]
+  },
+  {
+   "id": "science-c12-096",
+   "type": "short",
+   "q": "Explain with the example of peppered moths how natural selection can change a population.",
+   "proposedAnswer": "Before industrialisation light-coloured moths were camouflaged on lichen-covered bark and survived better. When soot darkened the bark, dark moths escaped predators more easily and their proportion increased, showing selection of the variant better suited to the changed environment.",
+   "keyPoints": [
+    "Pre-existing variation in colour",
+    "Predation favoured the camouflaged form",
+    "Proportion of the better-adapted form increased"
+   ]
+  },
+  {
+   "id": "science-c12-097",
+   "type": "mcq",
+   "q": "Enzymes that cut DNA at specific recognition sequences are called",
+   "options": [
+    "DNA ligases",
+    "reverse transcriptases",
+    "DNA polymerases",
+    "restriction endonucleases"
+   ]
+  },
+  {
+   "id": "science-c12-098",
+   "type": "mcq",
+   "q": "The heat-stable enzyme Taq polymerase used in PCR was isolated from",
+   "options": [
+    "Escherichia coli",
+    "Agrobacterium tumefaciens",
+    "Bacillus thuringiensis",
+    "Thermus aquaticus"
+   ]
+  },
+  {
+   "id": "science-c12-099",
+   "type": "mcq",
+   "q": "According to the ten per cent law, if producers fix 10 000 J of energy, the energy available to the herbivores is about",
+   "options": [
+    "10 J",
+    "100 J",
+    "1000 J",
+    "5000 J"
+   ]
+  },
+  {
+   "id": "science-c12-100",
+   "type": "mcq",
+   "q": "Bt cotton is protected against attack by",
+   "options": [
+    "bollworms",
+    "aphid viruses only",
+    "fungal rust",
+    "nematodes in roots"
+   ]
+  },
+  {
+   "id": "science-c12-101",
+   "type": "mcq",
+   "q": "Excess fertiliser run-off into a lake leads to eutrophication. Which sequence correctly describes the effect?",
+   "options": [
+    "nutrient rise, algal bloom, fall in dissolved oxygen, fish deaths",
+    "nutrient fall, algal decline, rise in oxygen, more fish",
+    "nutrient rise, rise in oxygen, more fish",
+    "nutrient rise, fall in algae, fall in temperature"
+   ]
+  },
+  {
+   "id": "science-c12-102",
+   "type": "mcq",
+   "q": "Why can the pyramid of numbers be inverted in a forest ecosystem with one large tree supporting many insects?",
+   "options": [
+    "the pyramid of energy is also inverted",
+    "trees consume more energy than insects",
+    "insects are producers",
+    "producers are fewer in number but each is very large"
+   ]
+  },
+  {
+   "id": "science-c12-103",
+   "type": "short",
+   "q": "Name the three types of ecological pyramids.",
+   "proposedAnswer": "The three ecological pyramids are the pyramid of numbers, the pyramid of biomass and the pyramid of energy. Only the pyramid of energy is always upright.",
+   "keyPoints": [
+    "Pyramid of numbers",
+    "Pyramid of biomass",
+    "Pyramid of energy (always upright)"
+   ]
+  },
+  {
+   "id": "science-c12-104",
+   "type": "short",
+   "q": "What roles do DNA ligase and a plasmid vector play in making recombinant DNA?",
+   "proposedAnswer": "A plasmid vector carries the foreign gene into a host cell and replicates there. DNA ligase joins the cut ends of the foreign DNA and the plasmid by forming phosphodiester bonds, giving a recombinant molecule.",
+   "keyPoints": [
+    "Plasmid carries and replicates the gene in the host",
+    "Ligase seals nicks by joining DNA fragments",
+    "Result is recombinant DNA"
+   ]
+  },
+  {
+   "id": "science-c12-105",
+   "type": "mcq",
+   "q": "Electric field lines due to an isolated positive point charge",
+   "options": [
+    "start at the charge and go outwards",
+    "end on the charge",
+    "form closed loops around the charge",
+    "cross each other near the charge"
+   ]
+  },
+  {
+   "id": "science-c12-106",
+   "type": "mcq",
+   "q": "The SI unit of capacitance is",
+   "options": [
+    "coulomb",
+    "henry",
+    "farad",
+    "ohm"
+   ]
+  },
+  {
+   "id": "science-c12-107",
+   "type": "mcq",
+   "q": "When a glass rod is rubbed with silk, the rod becomes positively charged because",
+   "options": [
+    "protons move from silk to glass",
+    "protons move from glass to silk",
+    "electrons move from silk to glass",
+    "electrons move from glass to silk"
+   ]
+  },
+  {
+   "id": "science-c12-108",
+   "type": "mcq",
+   "q": "The separation between the plates of an air-filled parallel-plate capacitor is doubled, with the plate area unchanged. Its capacitance",
+   "options": [
+    "doubles",
+    "becomes four times",
+    "halves",
+    "remains unchanged"
+   ]
+  },
+  {
+   "id": "science-c12-109",
+   "type": "mcq",
+   "q": "Capacitors of 3 microfarad and 6 microfarad are connected in series. The equivalent capacitance is",
+   "options": [
+    "9 microfarad",
+    "4.5 microfarad",
+    "2 microfarad",
+    "18 microfarad"
+   ]
+  },
+  {
+   "id": "science-c12-110",
+   "type": "mcq",
+   "q": "An electric dipole is placed in a uniform electric field with its axis at an angle to the field. The dipole experiences",
+   "options": [
+    "a net force but no torque",
+    "both a net force and a torque",
+    "neither force nor torque",
+    "a torque but no net force"
+   ]
+  },
+  {
+   "id": "science-c12-111",
+   "type": "short",
+   "q": "State Gauss's law in electrostatics.",
+   "proposedAnswer": "The total electric flux through any closed surface is equal to the net charge enclosed by the surface divided by epsilon_0, that is, flux = q_enclosed/epsilon_0.",
+   "keyPoints": [
+    "Applies to a closed surface",
+    "Flux depends on enclosed charge only",
+    "Flux = q/epsilon_0"
+   ]
+  },
+  {
+   "id": "science-c12-112",
+   "type": "short",
+   "q": "A point charge is at the centre of a spherical Gaussian surface. If the radius of the sphere is doubled, how does the electric flux through it change? Explain.",
+   "proposedAnswer": "The flux does not change. By Gauss's law the flux depends only on the charge enclosed, which stays the same. The field at the surface falls to one fourth but the area becomes four times as large, so the product is unchanged.",
+   "keyPoints": [
+    "Flux is unchanged",
+    "Depends only on enclosed charge",
+    "Field falls by 1/4 while area rises 4 times"
+   ]
+  },
+  {
+   "id": "science-c12-113",
+   "type": "mcq",
+   "q": "An ammeter is connected in a circuit",
+   "options": [
+    "in parallel with the component",
+    "in series with the component",
+    "across the battery only",
+    "either way with the same result"
+   ]
+  },
+  {
+   "id": "science-c12-114",
+   "type": "mcq",
+   "q": "The SI unit of magnetic field is",
+   "options": [
+    "weber",
+    "henry",
+    "gauss only",
+    "tesla"
+   ]
+  },
+  {
+   "id": "science-c12-115",
+   "type": "mcq",
+   "q": "A current of 2 A flows through a 10 ohm resistor for 5 s. The heat produced is",
+   "options": [
+    "20 J",
+    "100 J",
+    "200 J",
+    "400 J"
+   ]
+  },
+  {
+   "id": "science-c12-116",
+   "type": "mcq",
+   "q": "A straight wire of length 0.5 m carries 4 A current perpendicular to a uniform magnetic field of 0.2 T. The force on the wire is",
+   "options": [
+    "0.4 N",
+    "0.8 N",
+    "1.6 N",
+    "0.1 N"
+   ]
+  },
+  {
+   "id": "science-c12-117",
+   "type": "mcq",
+   "q": "A cell of emf 12 V and internal resistance 1 ohm is connected to an external resistance of 5 ohm. The terminal voltage of the cell is",
+   "options": [
+    "12 V",
+    "10 V",
+    "2 V",
+    "6 V"
+   ]
+  },
+  {
+   "id": "science-c12-118",
+   "type": "mcq",
+   "q": "The speed of a charged particle moving in a circle in a uniform magnetic field is doubled. The time period of its revolution",
+   "options": [
+    "is halved",
+    "doubles",
+    "becomes four times",
+    "remains the same"
+   ]
+  },
+  {
+   "id": "science-c12-119",
+   "type": "short",
+   "q": "State Ohm's law.",
+   "proposedAnswer": "At constant temperature the current flowing through a conductor is directly proportional to the potential difference across its ends, V = IR, where R is the resistance of the conductor.",
+   "keyPoints": [
+    "Current proportional to potential difference",
+    "At constant temperature and physical conditions",
+    "V = IR"
+   ]
+  },
+  {
+   "id": "science-c12-120",
+   "type": "short",
+   "q": "Why are alloys like manganin or constantan used to make standard resistors?",
+   "proposedAnswer": "These alloys have a high resistivity and a very small temperature coefficient of resistance, so their resistance stays almost constant when the wire heats up and a compact coil can give a large resistance.",
+   "keyPoints": [
+    "High resistivity",
+    "Very low temperature coefficient",
+    "Resistance stays nearly constant"
+   ]
+  },
+  {
+   "id": "science-c12-121",
+   "type": "mcq",
+   "q": "An AC generator converts",
+   "options": [
+    "electrical energy into mechanical energy",
+    "heat energy into mechanical energy only",
+    "chemical energy into electrical energy",
+    "mechanical energy into electrical energy"
+   ]
+  },
+  {
+   "id": "science-c12-122",
+   "type": "mcq",
+   "q": "The direction of the induced current in a closed loop is given by",
+   "options": [
+    "Coulomb's law",
+    "Gauss's law",
+    "Ampere's law only",
+    "Lenz's law"
+   ]
+  },
+  {
+   "id": "science-c12-123",
+   "type": "mcq",
+   "q": "A step-down transformer has 2200 turns in the primary and 100 turns in the secondary. If the input is 220 V, the output voltage is",
+   "options": [
+    "10 V",
+    "22 V",
+    "4840 V",
+    "2200 V"
+   ]
+  },
+  {
+   "id": "science-c12-124",
+   "type": "mcq",
+   "q": "The frequency of the domestic AC supply in India is",
+   "options": [
+    "25 Hz",
+    "50 Hz",
+    "60 Hz",
+    "100 Hz"
+   ]
+  },
+  {
+   "id": "science-c12-125",
+   "type": "mcq",
+   "q": "When the frequency of an AC source is increased, the reactance of a capacitor",
+   "options": [
+    "increases",
+    "becomes negative",
+    "remains the same",
+    "decreases"
+   ]
+  },
+  {
+   "id": "science-c12-126",
+   "type": "mcq",
+   "q": "The number of turns of a long solenoid is doubled while its length and area stay the same. Its self-inductance becomes",
+   "options": [
+    "twice",
+    "half",
+    "four times",
+    "unchanged"
+   ]
+  },
+  {
+   "id": "science-c12-127",
+   "type": "short",
+   "q": "State Lenz's law and give one everyday consequence of it.",
+   "proposedAnswer": "Lenz's law states that the polarity of the induced emf is such that it opposes the change in magnetic flux that produces it. For example, a magnet dropped through a copper tube falls slowly because eddy currents oppose its motion.",
+   "keyPoints": [
+    "Induced current opposes the change in flux",
+    "Consequence of conservation of energy",
+    "Example such as magnet falling slowly in a conducting tube"
+   ]
+  },
+  {
+   "id": "science-c12-128",
+   "type": "short",
+   "q": "Why are the iron cores of transformers made of thin insulated sheets instead of a solid block?",
+   "proposedAnswer": "A solid core has large eddy currents induced in it by the changing flux, which waste energy as heat. Thin laminations insulated from each other break up the paths of these currents and greatly reduce the loss.",
+   "keyPoints": [
+    "Changing flux induces eddy currents",
+    "Eddy currents cause heating loss",
+    "Laminations cut down the current paths"
+   ]
+  },
+  {
+   "id": "science-c12-129",
+   "type": "mcq",
+   "q": "Which type of mirror is used as the rear-view mirror of a vehicle?",
+   "options": [
+    "plane",
+    "concave",
+    "convex",
+    "cylindrical"
+   ]
+  },
+  {
+   "id": "science-c12-130",
+   "type": "mcq",
+   "q": "Among the visible colours, the one with the longest wavelength is",
+   "options": [
+    "violet",
+    "green",
+    "yellow",
+    "red"
+   ]
+  },
+  {
+   "id": "science-c12-131",
+   "type": "mcq",
+   "q": "A convex lens has a focal length of 20 cm. Its power is",
+   "options": [
+    "+0.05 D",
+    "+2 D",
+    "+5 D",
+    "+20 D"
+   ]
+  },
+  {
+   "id": "science-c12-132",
+   "type": "mcq",
+   "q": "A ray in air strikes a glass slab at 45 degrees and refracts at 30 degrees to the normal. The refractive index of the glass is about",
+   "options": [
+    "0.71",
+    "1.00",
+    "1.41",
+    "1.73"
+   ]
+  },
+  {
+   "id": "science-c12-133",
+   "type": "mcq",
+   "q": "An object is placed between F and 2F of a convex lens. The image formed is",
+   "options": [
+    "virtual, erect and magnified",
+    "real, inverted and diminished",
+    "real, inverted and magnified, beyond 2F",
+    "real, inverted and of the same size at 2F"
+   ]
+  },
+  {
+   "id": "science-c12-134",
+   "type": "mcq",
+   "q": "In a single-slit diffraction experiment the slit width is made smaller. The central maximum",
+   "options": [
+    "becomes narrower",
+    "disappears completely",
+    "remains the same",
+    "becomes wider"
+   ]
+  },
+  {
+   "id": "science-c12-135",
+   "type": "short",
+   "q": "What is total internal reflection? State its two conditions and one application.",
+   "proposedAnswer": "Total internal reflection is the complete reflection of light back into the denser medium at the boundary with a rarer medium. It needs light going from denser to rarer medium and an angle of incidence greater than the critical angle. It is used in optical fibres.",
+   "keyPoints": [
+    "Light travels from denser to rarer medium",
+    "Angle of incidence exceeds the critical angle",
+    "Application such as optical fibres or prisms"
+   ]
+  },
+  {
+   "id": "science-c12-136",
+   "type": "short",
+   "q": "Why does the Sun look reddish at sunrise and sunset?",
+   "proposedAnswer": "At these times sunlight travels a longer path through the atmosphere. Shorter wavelengths such as blue are scattered away much more strongly (scattering varies as 1/lambda^4), so mostly the longer red wavelengths reach the observer.",
+   "keyPoints": [
+    "Longer path through the atmosphere",
+    "Blue light scattered more strongly",
+    "Red light reaches the eye"
+   ]
+  },
+  {
+   "id": "science-c12-137",
+   "type": "mcq",
+   "q": "The nucleus of an atom was discovered through the scattering experiment of",
+   "options": [
+    "J. J. Thomson",
+    "James Chadwick",
+    "Niels Bohr",
+    "Ernest Rutherford"
+   ]
+  },
+  {
+   "id": "science-c12-138",
+   "type": "mcq",
+   "q": "Atoms of the same element having the same atomic number but different mass numbers are called",
+   "options": [
+    "isobars",
+    "isomers",
+    "isotones",
+    "isotopes"
+   ]
+  },
+  {
+   "id": "science-c12-139",
+   "type": "mcq",
+   "q": "Photons of energy 3.1 eV fall on a metal of work function 2.0 eV. The maximum kinetic energy of the emitted electrons is",
+   "options": [
+    "0.9 eV",
+    "1.1 eV",
+    "2.0 eV",
+    "5.1 eV"
+   ]
+  },
+  {
+   "id": "science-c12-140",
+   "type": "mcq",
+   "q": "After one alpha decay, the nucleus of uranium-238 (atomic number 92) becomes",
+   "options": [
+    "thorium-234 (Z = 90)",
+    "protactinium-238 (Z = 91)",
+    "thorium-238 (Z = 90)",
+    "radium-234 (Z = 88)"
+   ]
+  },
+  {
+   "id": "science-c12-141",
+   "type": "mcq",
+   "q": "A sample has 8000 radioactive nuclei and its half-life is 10 days. The number of undecayed nuclei after 30 days is",
+   "options": [
+    "4000",
+    "2000",
+    "1000",
+    "500"
+   ]
+  },
+  {
+   "id": "science-c12-142",
+   "type": "mcq",
+   "q": "An electron and a proton have the same kinetic energy. Which has the longer de Broglie wavelength?",
+   "options": [
+    "the electron",
+    "the proton",
+    "both are equal",
+    "cannot be compared"
+   ]
+  },
+  {
+   "id": "science-c12-143",
+   "type": "short",
+   "q": "Write Einstein's photoelectric equation and explain each term.",
+   "proposedAnswer": "The equation is K_max = h f - phi. Here h f is the energy of the incident photon, phi is the work function (minimum energy to free an electron from the metal) and K_max is the maximum kinetic energy of the emitted photoelectron.",
+   "keyPoints": [
+    "K_max = hf - phi",
+    "hf is photon energy",
+    "phi is the work function"
+   ]
+  },
+  {
+   "id": "science-c12-144",
+   "type": "short",
+   "q": "Why are neutrons more effective than protons or alpha particles for inducing nuclear reactions?",
+   "proposedAnswer": "Neutrons carry no charge, so they feel no electrostatic repulsion from the positively charged nucleus. Even slow neutrons can approach and enter the nucleus, while charged particles need high energy to overcome the Coulomb barrier.",
+   "keyPoints": [
+    "Neutrons are electrically neutral",
+    "No Coulomb repulsion from the nucleus",
+    "Slow neutrons can be captured"
+   ]
+  },
+  {
+   "id": "science-c12-145",
+   "type": "mcq",
+   "q": "Which of the following is a colligative property?",
+   "options": [
+    "viscosity",
+    "colour",
+    "density",
+    "osmotic pressure"
+   ]
+  },
+  {
+   "id": "science-c12-146",
+   "type": "mcq",
+   "q": "The SI unit of molality is",
+   "options": [
+    "mol L^-1",
+    "mol kg^-1",
+    "g L^-1",
+    "mol m^-1"
+   ]
+  },
+  {
+   "id": "science-c12-147",
+   "type": "mcq",
+   "q": "The molality of a solution prepared by dissolving 18 g of glucose (molar mass 180 g/mol) in 500 g of water is",
+   "options": [
+    "0.1 m",
+    "0.2 m",
+    "0.36 m",
+    "0.5 m"
+   ]
+  },
+  {
+   "id": "science-c12-148",
+   "type": "mcq",
+   "q": "The standard electrode potential of the standard hydrogen electrode is taken as",
+   "options": [
+    "+1.00 V",
+    "-1.00 V",
+    "0.00 V",
+    "+0.34 V"
+   ]
+  },
+  {
+   "id": "science-c12-149",
+   "type": "mcq",
+   "q": "Given E° (Zn2+/Zn) = -0.76 V and E° (Cu2+/Cu) = +0.34 V, the standard emf of the Zn-Cu galvanic cell is",
+   "options": [
+    "0.42 V",
+    "-1.10 V",
+    "1.10 V",
+    "0.76 V"
+   ]
+  },
+  {
+   "id": "science-c12-150",
+   "type": "mcq",
+   "q": "Bubbles of gas rush out when a soda bottle is opened mainly because",
+   "options": [
+    "the pressure above the liquid drops and gas solubility falls",
+    "the temperature of the drink falls suddenly",
+    "carbon dioxide reacts with the cap",
+    "the density of water increases"
+   ]
+  },
+  {
+   "id": "science-c12-151",
+   "type": "short",
+   "q": "State Faraday's first law of electrolysis.",
+   "proposedAnswer": "The mass of a substance deposited or liberated at an electrode during electrolysis is directly proportional to the quantity of charge passed through the electrolyte, m = Z I t.",
+   "keyPoints": [
+    "Mass proportional to charge passed",
+    "m = Z I t",
+    "Z is the electrochemical equivalent"
+   ]
+  },
+  {
+   "id": "science-c12-152",
+   "type": "short",
+   "q": "Why is osmotic pressure preferred over the other colligative properties for finding the molar mass of proteins and polymers?",
+   "proposedAnswer": "Osmotic pressure can be measured at room temperature, so heat-sensitive biomolecules are not damaged. It also gives a large, easily measured value even for very dilute solutions, whereas the other colligative effects are too small to measure accurately for large molecules.",
+   "keyPoints": [
+    "Measured at room temperature",
+    "Large value even at low concentration",
+    "Suitable for macromolecules"
+   ]
+  },
+  {
+   "id": "science-c12-153",
+   "type": "mcq",
+   "q": "The order of a reaction is",
+   "options": [
+    "the sum of the powers of the concentration terms in the rate law",
+    "always equal to the molecularity",
+    "the number of molecules in the balanced equation",
+    "always a whole number from 1 to 3"
+   ]
+  },
+  {
+   "id": "science-c12-154",
+   "type": "mcq",
+   "q": "The most common oxidation state of the lanthanoids is",
+   "options": [
+    "+1",
+    "+2",
+    "+3",
+    "+4"
+   ]
+  },
+  {
+   "id": "science-c12-155",
+   "type": "mcq",
+   "q": "For a zero-order reaction k = 0.02 mol L^-1 s^-1. How long does it take for the concentration to fall from 0.5 M to 0.3 M?",
+   "options": [
+    "5 s",
+    "10 s",
+    "20 s",
+    "25 s"
+   ]
+  },
+  {
+   "id": "science-c12-156",
+   "type": "mcq",
+   "q": "The oxidation state of chromium in potassium dichromate, K2Cr2O7, is",
+   "options": [
+    "+3",
+    "+4",
+    "+6",
+    "+7"
+   ]
+  },
+  {
+   "id": "science-c12-157",
+   "type": "mcq",
+   "q": "The rate of many reactions roughly doubles for a 10 K rise in temperature mainly because",
+   "options": [
+    "the activation energy doubles",
+    "a larger fraction of molecules has energy equal to or above the activation energy",
+    "the number of molecules doubles",
+    "the reaction becomes zero order"
+   ]
+  },
+  {
+   "id": "science-c12-158",
+   "type": "mcq",
+   "q": "The ground-state electronic configuration of chromium (Z = 24) is",
+   "options": [
+    "[Ar] 3d4 4s2",
+    "[Ar] 3d5 4s1",
+    "[Ar] 3d6 4s0",
+    "[Ar] 3d3 4s2 4p1"
+   ]
+  },
+  {
+   "id": "science-c12-159",
+   "type": "short",
+   "q": "Distinguish between the order and the molecularity of a reaction.",
+   "proposedAnswer": "Order is found experimentally from the rate law and can be zero, fractional or whole. Molecularity is the number of reacting species colliding in an elementary step; it is always a whole number and applies only to elementary reactions.",
+   "keyPoints": [
+    "Order is experimental, can be fractional or zero",
+    "Molecularity is a whole number",
+    "Molecularity refers to an elementary step"
+   ]
+  },
+  {
+   "id": "science-c12-160",
+   "type": "short",
+   "q": "Why do transition metals show variable oxidation states and act as good catalysts?",
+   "proposedAnswer": "The (n-1)d and ns electrons have nearly the same energy, so different numbers of electrons can be used in bonding, giving variable oxidation states. They can also form unstable intermediates and offer surfaces for adsorption, which lets them act as catalysts.",
+   "keyPoints": [
+    "Small energy gap between ns and (n-1)d",
+    "Several oxidation states possible",
+    "Intermediates and adsorption sites help catalysis"
+   ]
+  },
+  {
+   "id": "science-c12-161",
+   "type": "mcq",
+   "q": "The coordination theory of complex compounds was proposed by",
+   "options": [
+    "Alfred Werner",
+    "Linus Pauling",
+    "Dmitri Mendeleev",
+    "Michael Faraday"
+   ]
+  },
+  {
+   "id": "science-c12-162",
+   "type": "mcq",
+   "q": "EDTA is a",
+   "options": [
+    "monodentate ligand",
+    "bidentate ligand",
+    "tridentate ligand",
+    "hexadentate ligand"
+   ]
+  },
+  {
+   "id": "science-c12-163",
+   "type": "mcq",
+   "q": "The formula of tetraamminedichloridocobalt(III) chloride is",
+   "options": [
+    "[Co(NH3)4Cl2]Cl",
+    "[Co(NH3)2Cl4]Cl",
+    "[CoCl2(NH3)4]Cl2",
+    "Co(NH3)4Cl3"
+   ]
+  },
+  {
+   "id": "science-c12-164",
+   "type": "mcq",
+   "q": "The number of unpaired electrons in the low-spin complex [Fe(CN)6]4- is",
+   "options": [
+    "0",
+    "2",
+    "4",
+    "6"
+   ]
+  },
+  {
+   "id": "science-c12-165",
+   "type": "mcq",
+   "q": "How many unpaired electrons are present in the high-spin complex [CoF6]3-?",
+   "options": [
+    "0",
+    "2",
+    "4",
+    "6"
+   ]
+  },
+  {
+   "id": "science-c12-166",
+   "type": "mcq",
+   "q": "Which of the following octahedral complexes shows optical isomerism?",
+   "options": [
+    "[Co(NH3)6]3+",
+    "[Co(en)3]3+",
+    "[Co(NH3)5Cl]2+",
+    "[Co(NH3)3Cl3] (mer)"
+   ]
+  },
+  {
+   "id": "science-c12-167",
+   "type": "short",
+   "q": "What is the spectrochemical series? Arrange I-, H2O and CN- in order of increasing field strength.",
+   "proposedAnswer": "The spectrochemical series arranges ligands in order of the extent to which they split the d orbitals of the central metal. In increasing order of field strength: I- < H2O < CN-.",
+   "keyPoints": [
+    "Ligands ordered by crystal field splitting power",
+    "I- is weak field",
+    "CN- is strong field"
+   ]
+  },
+  {
+   "id": "science-c12-168",
+   "type": "short",
+   "q": "[Ni(CN)4]2- is diamagnetic but [NiCl4]2- is paramagnetic. Explain.",
+   "proposedAnswer": "CN- is a strong-field ligand that pairs the d electrons of Ni2+, giving dsp2 hybridisation and a square planar diamagnetic complex. Cl- is weak-field and cannot pair them, so Ni2+ uses sp3 hybridisation with two unpaired electrons in a tetrahedral paramagnetic complex.",
+   "keyPoints": [
+    "CN- pairs electrons, dsp2, square planar",
+    "Cl- leaves two unpaired electrons, sp3, tetrahedral",
+    "Strong versus weak field strength"
+   ]
+  },
+  {
+   "id": "science-c12-169",
+   "type": "mcq",
+   "q": "The general formula of a saturated monohaloalkane is",
+   "options": [
+    "CnH2nX",
+    "CnH2n+1X",
+    "CnH2n-1X",
+    "CnH2n+2X"
+   ]
+  },
+  {
+   "id": "science-c12-170",
+   "type": "mcq",
+   "q": "Which of the following is an ether?",
+   "options": [
+    "CH3OH",
+    "CH3COCH3",
+    "CH3OCH3",
+    "CH3CHO"
+   ]
+  },
+  {
+   "id": "science-c12-171",
+   "type": "mcq",
+   "q": "In the Lucas test, which alcohol gives turbidity immediately at room temperature?",
+   "options": [
+    "methanol",
+    "ethanol",
+    "propan-2-ol",
+    "2-methylpropan-2-ol"
+   ]
+  },
+  {
+   "id": "science-c12-172",
+   "type": "mcq",
+   "q": "Phenol on treatment with bromine water gives a white precipitate of",
+   "options": [
+    "4-bromophenol",
+    "2-bromophenol",
+    "2,4,6-tribromophenol",
+    "bromobenzene"
+   ]
+  },
+  {
+   "id": "science-c12-173",
+   "type": "mcq",
+   "q": "Chlorobenzene is much less reactive than chloroethane towards nucleophilic substitution mainly because",
+   "options": [
+    "it has a larger molar mass",
+    "chlorine is a poorer leaving group in aliphatic compounds",
+    "benzene rings are unstable",
+    "the C-Cl bond has partial double bond character and carbon is sp2 hybridised"
+   ]
+  },
+  {
+   "id": "science-c12-174",
+   "type": "mcq",
+   "q": "Drinking methanol is dangerous because in the body it is oxidised to",
+   "options": [
+    "methanal, which damages the optic nerve",
+    "ethanol, which causes intoxication",
+    "carbon dioxide only, which is harmless",
+    "methane, which causes bloating"
+   ]
+  },
+  {
+   "id": "science-c12-175",
+   "type": "short",
+   "q": "State Saytzeff's rule with an example.",
+   "proposedAnswer": "In dehydrohalogenation or dehydration the preferred product is the more substituted (more stable) alkene. For example, 2-bromobutane with alcoholic KOH gives mainly but-2-ene rather than but-1-ene.",
+   "keyPoints": [
+    "More substituted alkene is the major product",
+    "Hydrogen removed from the carbon with fewer hydrogens",
+    "Example 2-bromobutane gives but-2-ene"
+   ]
+  },
+  {
+   "id": "science-c12-176",
+   "type": "short",
+   "q": "Why are tertiary alcohols dehydrated more easily than primary alcohols?",
+   "proposedAnswer": "Dehydration in acid proceeds through a carbocation intermediate. A tertiary carbocation is stabilised by three alkyl groups through inductive effect and hyperconjugation, so it forms more easily and the reaction is faster than for primary alcohols.",
+   "keyPoints": [
+    "Carbocation is the intermediate",
+    "Tertiary carbocation is most stable",
+    "Hence faster reaction"
+   ]
+  },
+  {
+   "id": "science-c12-177",
+   "type": "mcq",
+   "q": "The IUPAC name of CH3COOH is",
+   "options": [
+    "methanoic acid",
+    "ethanol",
+    "propanoic acid",
+    "ethanoic acid"
+   ]
+  },
+  {
+   "id": "science-c12-178",
+   "type": "mcq",
+   "q": "Scurvy is caused by the deficiency of",
+   "options": [
+    "vitamin A",
+    "vitamin B1",
+    "vitamin C",
+    "vitamin D"
+   ]
+  },
+  {
+   "id": "science-c12-179",
+   "type": "mcq",
+   "q": "Which compound undergoes the Cannizzaro reaction with concentrated NaOH?",
+   "options": [
+    "ethanal",
+    "propanone",
+    "benzaldehyde",
+    "butanal"
+   ]
+  },
+  {
+   "id": "science-c12-180",
+   "type": "mcq",
+   "q": "The sugar present in DNA is",
+   "options": [
+    "glucose",
+    "ribose",
+    "deoxyribose",
+    "fructose"
+   ]
+  },
+  {
+   "id": "science-c12-181",
+   "type": "mcq",
+   "q": "Ethanamide is treated with bromine and sodium hydroxide (Hoffmann bromamide degradation). The product is",
+   "options": [
+    "ethylamine",
+    "propylamine",
+    "ethanol",
+    "methylamine"
+   ]
+  },
+  {
+   "id": "science-c12-182",
+   "type": "mcq",
+   "q": "At its isoelectric point, an amino acid in solution",
+   "options": [
+    "carries a net positive charge",
+    "carries a net negative charge",
+    "has zero net charge and exists as a zwitterion",
+    "is completely unionised"
+   ]
+  },
+  {
+   "id": "science-c12-183",
+   "type": "short",
+   "q": "Write the reaction of ethanoic acid with ethanol in the presence of concentrated sulphuric acid and name the product.",
+   "proposedAnswer": "CH3COOH + C2H5OH gives CH3COOC2H5 + H2O in the presence of concentrated H2SO4. The product is ethyl ethanoate (an ester), and the reaction is called esterification.",
+   "keyPoints": [
+    "Acid plus alcohol with conc. H2SO4",
+    "Product ethyl ethanoate",
+    "Esterification"
+   ]
+  },
+  {
+   "id": "science-c12-184",
+   "type": "short",
+   "q": "What happens to a protein on denaturation? Give an everyday example.",
+   "proposedAnswer": "Denaturation destroys the secondary and tertiary structures of a protein (and often its biological activity) through heat, acid or other agents, while the primary structure with its peptide bonds remains. Boiling an egg turns the soluble albumin into an insoluble white solid.",
+   "keyPoints": [
+    "Secondary and tertiary structures are lost",
+    "Primary structure remains",
+    "Example such as boiling an egg or curdling of milk"
+   ]
+  },
+  {
+   "id": "science-c12-185",
+   "type": "mcq",
+   "q": "In a flower, pollen grains are produced in the",
+   "options": [
+    "ovary",
+    "stigma",
+    "anther",
+    "style"
+   ]
+  },
+  {
+   "id": "science-c12-186",
+   "type": "mcq",
+   "q": "Which hormone is secreted by the corpus luteum?",
+   "options": [
+    "testosterone",
+    "oxytocin",
+    "FSH",
+    "progesterone"
+   ]
+  },
+  {
+   "id": "science-c12-187",
+   "type": "mcq",
+   "q": "How many chromosomes are present in a normal human sperm?",
+   "options": [
+    "46",
+    "44",
+    "23",
+    "22 only"
+   ]
+  },
+  {
+   "id": "science-c12-188",
+   "type": "mcq",
+   "q": "Male honey bees (drones) develop from unfertilised eggs. This type of reproduction is called",
+   "options": [
+    "budding",
+    "binary fission",
+    "fragmentation",
+    "parthenogenesis"
+   ]
+  },
+  {
+   "id": "science-c12-189",
+   "type": "mcq",
+   "q": "Menstruation occurs in the absence of pregnancy because",
+   "options": [
+    "the level of FSH becomes very high",
+    "the Graafian follicle ruptures",
+    "the ovum divides and is released",
+    "the corpus luteum degenerates and progesterone level falls, so the endometrium breaks down"
+   ]
+  },
+  {
+   "id": "science-c12-190",
+   "type": "mcq",
+   "q": "Which feature is typical of a wind-pollinated flower?",
+   "options": [
+    "bright petals and nectar",
+    "strong scent",
+    "light, non-sticky pollen and a feathery stigma",
+    "sticky, heavy pollen"
+   ]
+  },
+  {
+   "id": "science-c12-191",
+   "type": "short",
+   "q": "What is in vitro fertilisation (IVF)?",
+   "proposedAnswer": "In vitro fertilisation is a technique in which an ovum and sperm are fused outside the body in a laboratory medium. The early embryo is then transferred to the uterus (or fallopian tube) to complete development, as in the test-tube baby programme.",
+   "keyPoints": [
+    "Fertilisation outside the body",
+    "Embryo is later transferred into the female",
+    "Used to treat infertility"
+   ]
+  },
+  {
+   "id": "science-c12-192",
+   "type": "short",
+   "q": "Name two devices that flowering plants use to prevent self-pollination and explain how each works.",
+   "proposedAnswer": "In dichogamy, pollen release and stigma receptivity occur at different times. In herkogamy, the anther and stigma are placed so that pollen cannot reach the stigma of the same flower. Self-incompatibility, where pollen of the same plant fails to germinate, is another device.",
+   "keyPoints": [
+    "Dichogamy: different timing of maturation",
+    "Herkogamy: spatial separation of anther and stigma",
+    "Promotes cross-pollination and variation"
+   ]
+  },
+  {
+   "id": "science-c12-193",
+   "type": "mcq",
+   "q": "Which nitrogenous base is present in RNA but not in DNA?",
+   "options": [
+    "thymine",
+    "adenine",
+    "uracil",
+    "guanine"
+   ]
+  },
+  {
+   "id": "science-c12-194",
+   "type": "mcq",
+   "q": "In humans, the sex of the child is determined by",
+   "options": [
+    "the egg",
+    "the placenta",
+    "the mother's age",
+    "the sperm"
+   ]
+  },
+  {
+   "id": "science-c12-195",
+   "type": "mcq",
+   "q": "Mendel's law of segregation states that",
+   "options": [
+    "the two alleles of a gene separate so that each gamete receives only one",
+    "genes of different traits always remain linked",
+    "all alleles are dominant",
+    "alleles blend in the offspring"
+   ]
+  },
+  {
+   "id": "science-c12-196",
+   "type": "mcq",
+   "q": "The phenotypic ratio in the F2 generation of a Mendelian dihybrid cross is",
+   "options": [
+    "3 : 1",
+    "1 : 2 : 1",
+    "9 : 3 : 3 : 1",
+    "1 : 1 : 1 : 1"
+   ]
+  },
+  {
+   "id": "science-c12-197",
+   "type": "mcq",
+   "q": "Two pink-flowered snapdragon plants (incomplete dominance) are crossed. The ratio of red : pink : white offspring is expected to be",
+   "options": [
+    "3 : 1 : 0",
+    "1 : 2 : 1",
+    "1 : 1 : 2",
+    "9 : 3 : 4"
+   ]
+  },
+  {
+   "id": "science-c12-198",
+   "type": "mcq",
+   "q": "A colour-blind man (X-linked recessive) marries a normal woman who is not a carrier. Their sons will be",
+   "options": [
+    "all colour-blind",
+    "all carriers",
+    "half normal and half colour-blind",
+    "all normal"
+   ]
+  },
+  {
+   "id": "science-c12-199",
+   "type": "short",
+   "q": "What is transcription? Name the enzyme that carries it out.",
+   "proposedAnswer": "Transcription is the process in which one strand of DNA is used as a template to make a complementary RNA molecule. The enzyme RNA polymerase carries it out.",
+   "keyPoints": [
+    "DNA template makes RNA",
+    "Complementary base pairing, U in place of T",
+    "RNA polymerase"
+   ]
+  },
+  {
+   "id": "science-c12-200",
+   "type": "short",
+   "q": "The forelimbs of a human, bat and whale have the same bone plan but different functions. What do these structures show about evolution?",
+   "proposedAnswer": "They are homologous organs showing divergent evolution. The common structural plan suggests a common ancestor, while adaptation to different modes of life, such as grasping, flying and swimming, produced the differences in form.",
+   "keyPoints": [
+    "Homologous organs",
+    "Common ancestry",
+    "Divergent evolution through adaptation"
+   ]
+  },
+  {
+   "id": "science-c12-201",
+   "type": "mcq",
+   "q": "Which of the following is an example of in situ conservation?",
+   "options": [
+    "a seed bank",
+    "a zoo",
+    "a national park",
+    "a botanical garden"
+   ]
+  },
+  {
+   "id": "science-c12-202",
+   "type": "mcq",
+   "q": "The first recombinant human insulin was produced using",
+   "options": [
+    "Escherichia coli",
+    "yeast only",
+    "Rhizobium",
+    "a virus alone"
+   ]
+  },
+  {
+   "id": "science-c12-203",
+   "type": "mcq",
+   "q": "Severe combined immunodeficiency (SCID) is caused by deficiency of the enzyme",
+   "options": [
+    "amylase",
+    "lipase",
+    "DNA ligase",
+    "adenosine deaminase"
+   ]
+  },
+  {
+   "id": "science-c12-204",
+   "type": "mcq",
+   "q": "The main cause of depletion of the stratospheric ozone layer is",
+   "options": [
+    "carbon dioxide",
+    "sulphur dioxide",
+    "methane from paddy fields",
+    "chlorofluorocarbons"
+   ]
+  },
+  {
+   "id": "science-c12-205",
+   "type": "mcq",
+   "q": "Which organisms are the first to colonise a bare rock in primary ecological succession?",
+   "options": [
+    "shrubs",
+    "grasses",
+    "trees",
+    "lichens"
+   ]
+  },
+  {
+   "id": "science-c12-206",
+   "type": "mcq",
+   "q": "DDT sprayed in a water body shows the highest concentration in the tissues of",
+   "options": [
+    "phytoplankton",
+    "zooplankton",
+    "small fish",
+    "fish-eating birds"
+   ]
+  },
+  {
+   "id": "science-c12-207",
+   "type": "short",
+   "q": "Name the three steps of one cycle of the polymerase chain reaction (PCR).",
+   "proposedAnswer": "The three steps are denaturation (heating to separate the DNA strands), annealing (primers bind to the template at a lower temperature) and extension (Taq polymerase adds nucleotides to make new strands).",
+   "keyPoints": [
+    "Denaturation",
+    "Annealing of primers",
+    "Extension by Taq polymerase"
+   ]
+  },
+  {
+   "id": "science-c12-208",
+   "type": "short",
+   "q": "State any three causes of loss of biodiversity.",
+   "proposedAnswer": "Major causes are habitat loss and fragmentation, over-exploitation of species by hunting or harvesting, introduction of alien species that outcompete native ones, and co-extinction when a dependent species disappears with its host.",
+   "keyPoints": [
+    "Habitat loss and fragmentation",
+    "Over-exploitation",
+    "Alien species or co-extinction"
+   ]
+  },
+  {
+   "id": "science-c12-209",
+   "type": "mcq",
+   "q": "In SI units, the value of 1/(4 pi epsilon_0) is approximately",
+   "options": [
+    "9 × 10^9 N m^2 C^-2",
+    "9 × 10^-9 N m^2 C^-2",
+    "8.85 × 10^-12 N m^2 C^-2",
+    "6.67 × 10^-11 N m^2 C^-2"
+   ]
+  },
+  {
+   "id": "science-c12-210",
+   "type": "mcq",
+   "q": "Which of the following materials is a good electrical insulator?",
+   "options": [
+    "copper",
+    "silver",
+    "rubber",
+    "aluminium"
+   ]
+  },
+  {
+   "id": "science-c12-211",
+   "type": "mcq",
+   "q": "The electric potential at a distance of 0.5 m from a point charge of 5 microcoulomb is (k = 9 × 10^9 N m^2 C^-2)",
+   "options": [
+    "9 × 10^3 V",
+    "9 × 10^4 V",
+    "4.5 × 10^4 V",
+    "1.8 × 10^5 V"
+   ]
+  },
+  {
+   "id": "science-c12-212",
+   "type": "mcq",
+   "q": "A 10 microfarad capacitor is charged to 100 V. The energy stored in it is",
+   "options": [
+    "0.01 J",
+    "0.05 J",
+    "0.5 J",
+    "1 J"
+   ]
+  },
+  {
+   "id": "science-c12-213",
+   "type": "mcq",
+   "q": "Charges of +4 microcoulomb and +1 microcoulomb are 0.3 m apart. At what distance from the +4 microcoulomb charge, on the line joining them, is the net electric field zero?",
+   "options": [
+    "0.1 m",
+    "0.15 m",
+    "0.2 m",
+    "0.25 m"
+   ]
+  },
+  {
+   "id": "science-c12-214",
+   "type": "mcq",
+   "q": "A charge of 2 microcoulomb is moved by the electric field from a point at 100 V to a point at 40 V. The work done by the field is",
+   "options": [
+    "1.2 × 10^-4 J",
+    "2.8 × 10^-4 J",
+    "8 × 10^-5 J",
+    "2 × 10^-4 J"
+   ]
+  },
+  {
+   "id": "science-c12-215",
+   "type": "short",
+   "q": "State the principle of superposition for the electrostatic force on a charge due to several other charges.",
+   "proposedAnswer": "The net force on a charge due to a number of other charges is the vector sum of the forces that each of them exerts on it individually, as if the others were absent.",
+   "keyPoints": [
+    "Forces from each charge act independently",
+    "Net force is the vector sum",
+    "Applies to fields and potentials as well"
+   ]
+  },
+  {
+   "id": "science-c12-216",
+   "type": "short",
+   "q": "A parallel-plate capacitor is charged and then disconnected from the battery. A dielectric slab is then inserted between the plates. How do the potential difference and stored energy change?",
+   "proposedAnswer": "The charge stays constant while the capacitance rises by the factor K. Since V = Q/C, the potential difference falls to V/K, and U = Q^2/(2C) also falls to U/K. The energy is used in pulling the slab into the gap.",
+   "keyPoints": [
+    "Charge remains constant",
+    "Capacitance increases K times",
+    "V and U both decrease by the factor K"
+   ]
+  },
+  {
+   "id": "science-c12-217",
+   "type": "mcq",
+   "q": "A galvanometer is an instrument used to",
+   "options": [
+    "measure large voltages directly",
+    "detect or measure small electric currents",
+    "measure resistance only",
+    "store electric charge"
+   ]
+  },
+  {
+   "id": "science-c12-218",
+   "type": "mcq",
+   "q": "The direction of the force on a current-carrying conductor in a magnetic field is given by",
+   "options": [
+    "Fleming's left-hand rule",
+    "Fleming's right-hand rule",
+    "Lenz's law",
+    "Snell's law"
+   ]
+  },
+  {
+   "id": "science-c12-219",
+   "type": "mcq",
+   "q": "A bulb is rated 100 W at 220 V. Its resistance when working normally is",
+   "options": [
+    "2.2 ohm",
+    "22 ohm",
+    "484 ohm",
+    "4840 ohm"
+   ]
+  },
+  {
+   "id": "science-c12-220",
+   "type": "mcq",
+   "q": "The magnetic field at the centre of a circular loop of radius 10 cm carrying 5 A current is (mu_0 = 4 pi × 10^-7 T m/A)",
+   "options": [
+    "3.14 × 10^-5 T",
+    "6.28 × 10^-6 T",
+    "3.14 × 10^-3 T",
+    "1.57 × 10^-5 T"
+   ]
+  },
+  {
+   "id": "science-c12-221",
+   "type": "mcq",
+   "q": "Why is a potentiometer preferred over a voltmeter for measuring the emf of a cell?",
+   "options": [
+    "it draws no current from the cell at the balance point",
+    "it has a very low resistance",
+    "it is cheaper to make",
+    "it gives a larger deflection"
+   ]
+  },
+  {
+   "id": "science-c12-222",
+   "type": "mcq",
+   "q": "The magnetic field inside a long ideal solenoid with 1000 turns per metre carrying 2 A is about (mu_0 = 4 pi × 10^-7 T m/A)",
+   "options": [
+    "1.26 × 10^-3 T",
+    "2.5 × 10^-3 T",
+    "2.5 × 10^-5 T",
+    "8 × 10^-4 T"
+   ]
+  },
+  {
+   "id": "science-c12-223",
+   "type": "short",
+   "q": "Define drift velocity and write the relation between current and drift velocity.",
+   "proposedAnswer": "Drift velocity is the average velocity with which free electrons move in a conductor under an applied electric field. The current is I = n e A v_d, where n is the number of free electrons per unit volume and A is the cross-sectional area.",
+   "keyPoints": [
+    "Average velocity of electrons under a field",
+    "I = n e A v_d",
+    "n is electron density and A is the area"
+   ]
+  },
+  {
+   "id": "science-c12-224",
+   "type": "short",
+   "q": "Distinguish between diamagnetic, paramagnetic and ferromagnetic materials on the basis of their behaviour in an external magnetic field.",
+   "proposedAnswer": "Diamagnetic materials are weakly repelled by a magnetic field and have relative permeability slightly below 1. Paramagnetic materials are weakly attracted and are magnetised along the field. Ferromagnetic materials are strongly attracted and can be permanently magnetised.",
+   "keyPoints": [
+    "Diamagnetic: weakly repelled",
+    "Paramagnetic: weakly attracted",
+    "Ferromagnetic: strongly attracted, retain magnetism"
+   ]
+  },
+  {
+   "id": "science-c12-225",
+   "type": "mcq",
+   "q": "Which of the following devices works on the principle of electromagnetic induction?",
+   "options": [
+    "electric bulb",
+    "diode",
+    "electroscope",
+    "transformer"
+   ]
+  },
+  {
+   "id": "science-c12-226",
+   "type": "mcq",
+   "q": "The power factor of a purely resistive AC circuit is",
+   "options": [
+    "zero",
+    "0.5",
+    "1",
+    "infinite"
+   ]
+  },
+  {
+   "id": "science-c12-227",
+   "type": "mcq",
+   "q": "The inductive reactance of a 0.5 H inductor at 50 Hz is about",
+   "options": [
+    "25 ohm",
+    "78.5 ohm",
+    "157 ohm",
+    "314 ohm"
+   ]
+  },
+  {
+   "id": "science-c12-228",
+   "type": "mcq",
+   "q": "The current through a 0.5 H coil falls uniformly from 2 A to zero in 0.1 s. The magnitude of the self-induced emf is",
+   "options": [
+    "1 V",
+    "5 V",
+    "10 V",
+    "20 V"
+   ]
+  },
+  {
+   "id": "science-c12-229",
+   "type": "mcq",
+   "q": "At resonance in a series LCR circuit, the current in the circuit is",
+   "options": [
+    "minimum",
+    "independent of R",
+    "zero",
+    "maximum"
+   ]
+  },
+  {
+   "id": "science-c12-230",
+   "type": "mcq",
+   "q": "In a rotating-coil AC generator, the induced emf is maximum when the plane of the coil is",
+   "options": [
+    "perpendicular to the magnetic field",
+    "never maximum",
+    "at 45 degrees to the field only",
+    "parallel to the magnetic field"
+   ]
+  },
+  {
+   "id": "science-c12-231",
+   "type": "short",
+   "q": "What is meant by wattless current?",
+   "proposedAnswer": "The current in an AC circuit that does no net work, in a purely inductive or capacitive circuit where the phase difference between voltage and current is 90 degrees, is called wattless current. The average power consumed is zero.",
+   "keyPoints": [
+    "Phase difference of 90 degrees",
+    "Average power is zero",
+    "Occurs in pure inductor or capacitor"
+   ]
+  },
+  {
+   "id": "science-c12-232",
+   "type": "short",
+   "q": "How does an induction cooker heat a metal vessel without a flame or a hot plate?",
+   "proposedAnswer": "A coil below the surface carries a rapidly alternating current and produces a rapidly changing magnetic field. This induces large eddy currents in the base of the metal vessel, and the current heats the vessel through its resistance.",
+   "keyPoints": [
+    "Alternating current in a coil gives a changing field",
+    "Eddy currents are induced in the vessel",
+    "Joule heating warms the vessel"
+   ]
+  },
+  {
+   "id": "science-c12-233",
+   "type": "mcq",
+   "q": "Which mirror can form both real and virtual images of a real object?",
+   "options": [
+    "plane mirror",
+    "convex mirror",
+    "concave mirror",
+    "no mirror can"
+   ]
+  },
+  {
+   "id": "science-c12-234",
+   "type": "mcq",
+   "q": "The speed of light in vacuum is approximately",
+   "options": [
+    "3 × 10^6 m/s",
+    "3 × 10^8 m/s",
+    "3 × 10^10 m/s",
+    "3 × 10^5 m/s"
+   ]
+  },
+  {
+   "id": "science-c12-235",
+   "type": "mcq",
+   "q": "A convex lens of focal length 10 cm forms an image of an object placed 15 cm from it. The image distance is",
+   "options": [
+    "6 cm",
+    "25 cm",
+    "30 cm",
+    "60 cm"
+   ]
+  },
+  {
+   "id": "science-c12-236",
+   "type": "mcq",
+   "q": "A medium has refractive index root 2 with respect to air. The critical angle for light going from the medium to air is",
+   "options": [
+    "30 degrees",
+    "45 degrees",
+    "60 degrees",
+    "90 degrees"
+   ]
+  },
+  {
+   "id": "science-c12-237",
+   "type": "mcq",
+   "q": "In a Young's double-slit experiment, lambda = 600 nm, slit separation = 0.3 mm and screen distance = 1.5 m. The fringe width is",
+   "options": [
+    "0.3 mm",
+    "1.5 mm",
+    "3 mm",
+    "6 mm"
+   ]
+  },
+  {
+   "id": "science-c12-238",
+   "type": "mcq",
+   "q": "Light is reflected from glass of refractive index root 3. At what angle of incidence is the reflected light completely plane polarised?",
+   "options": [
+    "30 degrees",
+    "45 degrees",
+    "60 degrees",
+    "90 degrees"
+   ]
+  },
+  {
+   "id": "science-c12-239",
+   "type": "short",
+   "q": "State Huygens' principle.",
+   "proposedAnswer": "Every point on a wavefront acts as a source of secondary wavelets that spread out with the speed of light in that medium. The new wavefront at a later time is the surface that touches all these wavelets in the forward direction.",
+   "keyPoints": [
+    "Each point on a wavefront is a source of secondary wavelets",
+    "Wavelets travel with the speed of the wave",
+    "New wavefront is the forward envelope"
+   ]
+  },
+  {
+   "id": "science-c12-240",
+   "type": "short",
+   "q": "Why do astronomical telescopes use objective lenses or mirrors of large diameter?",
+   "proposedAnswer": "A large aperture collects more light, so faint distant objects look brighter. It also improves the resolving power, because the limit of resolution is about 1.22 lambda/D, so a larger D lets the telescope separate closer objects.",
+   "keyPoints": [
+    "Gathers more light",
+    "Greater resolving power",
+    "Resolution limit varies as lambda/D"
+   ]
+  },
+  {
+   "id": "science-c12-241",
+   "type": "mcq",
+   "q": "The neutron was discovered by",
+   "options": [
+    "Rutherford",
+    "Thomson",
+    "Bohr",
+    "Chadwick"
+   ]
+  },
+  {
+   "id": "science-c12-242",
+   "type": "mcq",
+   "q": "The Balmer series of the hydrogen spectrum lies mainly in the",
+   "options": [
+    "ultraviolet region",
+    "X-ray region",
+    "infrared region",
+    "visible region"
+   ]
+  },
+  {
+   "id": "science-c12-243",
+   "type": "mcq",
+   "q": "A metal has a work function of 2.48 eV. Using hc = 1240 eV nm, its threshold wavelength is",
+   "options": [
+    "300 nm",
+    "400 nm",
+    "500 nm",
+    "600 nm"
+   ]
+  },
+  {
+   "id": "science-c12-244",
+   "type": "mcq",
+   "q": "The nuclear radius varies as R = R0 A^(1/3). The ratio of the radii of nuclei with mass numbers 8 and 27 is",
+   "options": [
+    "2 : 3",
+    "8 : 27",
+    "3 : 2",
+    "1 : 1"
+   ]
+  },
+  {
+   "id": "science-c12-245",
+   "type": "mcq",
+   "q": "The mass defect of a nucleus is 0.03 u. Using 1 u = 931.5 MeV/c^2, its binding energy is about",
+   "options": [
+    "2.8 MeV",
+    "27.9 MeV",
+    "279 MeV",
+    "931.5 MeV"
+   ]
+  },
+  {
+   "id": "science-c12-246",
+   "type": "mcq",
+   "q": "For light of frequency well above the threshold, the frequency is doubled. The maximum kinetic energy of photoelectrons then",
+   "options": [
+    "stays the same",
+    "becomes exactly double",
+    "becomes more than double",
+    "becomes half"
+   ]
+  },
+  {
+   "id": "science-c12-247",
+   "type": "short",
+   "q": "State any two postulates of Bohr's model of the hydrogen atom.",
+   "proposedAnswer": "An electron revolves in certain stable circular orbits without radiating energy, and in these orbits its angular momentum is an integral multiple of h/2 pi. Radiation is emitted or absorbed only when the electron jumps between orbits, with photon energy hf equal to the difference in energy of the orbits.",
+   "keyPoints": [
+    "Stable non-radiating orbits",
+    "Angular momentum = nh/2pi",
+    "Photon emitted or absorbed during a jump, hf = E2 - E1"
+   ]
+  },
+  {
+   "id": "science-c12-248",
+   "type": "short",
+   "q": "What are the roles of the moderator and the control rods in a nuclear reactor?",
+   "proposedAnswer": "The moderator, such as heavy water or graphite, slows down fast neutrons so that they can cause further fission of uranium-235. Control rods of cadmium or boron absorb neutrons to keep the chain reaction steady and can shut the reactor down.",
+   "keyPoints": [
+    "Moderator slows neutrons",
+    "Control rods absorb neutrons",
+    "Chain reaction is kept controlled"
+   ]
+  },
+  {
+   "id": "science-c12-249",
+   "type": "mcq",
+   "q": "The law that relates the solubility of a gas in a liquid to the pressure of the gas is",
+   "options": [
+    "Raoult's law",
+    "Boyle's law only",
+    "Faraday's law",
+    "Henry's law"
+   ]
+  },
+  {
+   "id": "science-c12-250",
+   "type": "mcq",
+   "q": "The SI unit of conductivity of an electrolytic solution is",
+   "options": [
+    "ohm m",
+    "ohm^-2",
+    "S m^2",
+    "S m^-1"
+   ]
+  },
+  {
+   "id": "science-c12-251",
+   "type": "mcq",
+   "q": "The van't Hoff factor for a completely dissociated 0.1 M NaCl solution is",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "0.5"
+   ]
+  },
+  {
+   "id": "science-c12-252",
+   "type": "mcq",
+   "q": "The molal depression constant for water is 1.86 K kg/mol. The freezing point of water falls by how much when 0.5 mol of glucose is dissolved in 1 kg of water?",
+   "options": [
+    "0.93 K",
+    "1.86 K",
+    "3.72 K",
+    "0.186 K"
+   ]
+  },
+  {
+   "id": "science-c12-253",
+   "type": "mcq",
+   "q": "For a cell with E°cell = 1.10 V and n = 2, the standard free energy change is about (F = 96500 C/mol)",
+   "options": [
+    "+212 kJ/mol",
+    "-212 kJ/mol",
+    "-106 kJ/mol",
+    "-55 kJ/mol"
+   ]
+  },
+  {
+   "id": "science-c12-254",
+   "type": "mcq",
+   "q": "Given limiting molar conductivities in S cm^2 mol^-1 of HCl = 426, NaCl = 126 and CH3COONa = 91, the limiting molar conductivity of acetic acid is",
+   "options": [
+    "391",
+    "643",
+    "211",
+    "341"
+   ]
+  },
+  {
+   "id": "science-c12-255",
+   "type": "short",
+   "q": "State Kohlrausch's law of independent migration of ions.",
+   "proposedAnswer": "At infinite dilution the limiting molar conductivity of an electrolyte equals the sum of the limiting molar conductivities of its cation and anion, each ion contributing independently irrespective of the other ion present.",
+   "keyPoints": [
+    "Applies at infinite dilution",
+    "Sum of contributions of cation and anion",
+    "Each ion contributes independently"
+   ]
+  },
+  {
+   "id": "science-c12-256",
+   "type": "short",
+   "q": "What is the function of a salt bridge in a galvanic cell?",
+   "proposedAnswer": "The salt bridge completes the electrical circuit by letting ions move between the two half-cells, and it keeps each solution electrically neutral as charge builds up. It also minimises the liquid junction potential. Without it the cell would stop working quickly.",
+   "keyPoints": [
+    "Completes the inner circuit",
+    "Maintains electrical neutrality",
+    "Minimises liquid junction potential"
+   ]
+  },
+  {
+   "id": "science-c12-257",
+   "type": "mcq",
+   "q": "A catalyst increases the rate of a reaction by",
+   "options": [
+    "raising the temperature",
+    "being consumed in the reaction",
+    "increasing the enthalpy change",
+    "lowering the activation energy"
+   ]
+  },
+  {
+   "id": "science-c12-258",
+   "type": "mcq",
+   "q": "In the lanthanoid series, electrons are successively added to the",
+   "options": [
+    "3d subshell",
+    "4f subshell",
+    "5d subshell only",
+    "6p subshell"
+   ]
+  },
+  {
+   "id": "science-c12-259",
+   "type": "mcq",
+   "q": "A first-order reaction has a half-life of 20 minutes. The fraction of the reactant left after 60 minutes is",
+   "options": [
+    "1/2",
+    "1/4",
+    "1/6",
+    "1/8"
+   ]
+  },
+  {
+   "id": "science-c12-260",
+   "type": "mcq",
+   "q": "In acidic solution, permanganate ion (MnO4-) is reduced to",
+   "options": [
+    "MnO2",
+    "Mn",
+    "MnO4 2-",
+    "Mn2+"
+   ]
+  },
+  {
+   "id": "science-c12-261",
+   "type": "mcq",
+   "q": "For a first-order reaction, which graph is a straight line with slope equal to -k?",
+   "options": [
+    "[A] against t",
+    "[A] against 1/t",
+    "1/[A] against t",
+    "ln[A] against t"
+   ]
+  },
+  {
+   "id": "science-c12-262",
+   "type": "mcq",
+   "q": "Zinc is not regarded as a typical transition element because",
+   "options": [
+    "it is not a metal",
+    "it does not form any compounds",
+    "it has no d electrons at all",
+    "it has a completely filled d subshell in its atom and in its common ion"
+   ]
+  },
+  {
+   "id": "science-c12-263",
+   "type": "short",
+   "q": "What are interstitial compounds? State two properties.",
+   "proposedAnswer": "Interstitial compounds are formed when small atoms such as hydrogen, carbon or nitrogen occupy the voids in the crystal lattice of a transition metal. They are generally very hard, have high melting points and keep metallic conductivity, but are chemically inert.",
+   "keyPoints": [
+    "Small atoms trapped in lattice voids",
+    "Hard with high melting points",
+    "Metallic conductivity retained, chemically inert"
+   ]
+  },
+  {
+   "id": "science-c12-264",
+   "type": "short",
+   "q": "Why do the actinoids show a wider range of oxidation states than the lanthanoids?",
+   "proposedAnswer": "The 5f, 6d and 7s orbitals in actinoids are of comparable energy, so electrons from all of them can take part in bonding. In lanthanoids the 4f electrons are tightly held, so the +3 state dominates.",
+   "keyPoints": [
+    "5f, 6d and 7s are close in energy",
+    "More electrons available for bonding",
+    "4f electrons in lanthanoids are held more tightly"
+   ]
+  },
+  {
+   "id": "science-c12-265",
+   "type": "mcq",
+   "q": "The central metal atom in vitamin B12 is",
+   "options": [
+    "iron",
+    "magnesium",
+    "cobalt",
+    "zinc"
+   ]
+  },
+  {
+   "id": "science-c12-266",
+   "type": "mcq",
+   "q": "In the ligand NH3, the donor atom that bonds to the metal is",
+   "options": [
+    "hydrogen",
+    "nitrogen",
+    "both N and H",
+    "no donor atom"
+   ]
+  },
+  {
+   "id": "science-c12-267",
+   "type": "mcq",
+   "q": "Excess silver nitrate solution is added to one mole of [Co(NH3)5Cl]Cl2. How many moles of AgCl precipitate?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "0"
+   ]
+  },
+  {
+   "id": "science-c12-268",
+   "type": "mcq",
+   "q": "The hybridisation of cobalt in the inner orbital complex [Co(NH3)6]3+ is",
+   "options": [
+    "sp3",
+    "dsp2",
+    "sp3d2",
+    "d2sp3"
+   ]
+  },
+  {
+   "id": "science-c12-269",
+   "type": "mcq",
+   "q": "Which of these is an ambidentate ligand that can show linkage isomerism?",
+   "options": [
+    "Cl-",
+    "NH3",
+    "NO2-",
+    "H2O"
+   ]
+  },
+  {
+   "id": "science-c12-270",
+   "type": "mcq",
+   "q": "The compound [Pt(NH3)4Cl2]Cl2 is dissolved in water. The total number of ions per formula unit in solution is",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "id": "science-c12-271",
+   "type": "short",
+   "q": "Mention two applications of coordination compounds.",
+   "proposedAnswer": "Coordination compounds are used in biology (haemoglobin contains iron, chlorophyll contains magnesium), in medicine (cisplatin as an anticancer drug and EDTA for removing toxic metals), in metallurgy such as extraction of silver and gold as cyanide complexes, and in analysis such as hardness estimation with EDTA.",
+   "keyPoints": [
+    "Biological pigments or enzymes",
+    "Medicine such as cisplatin or chelation therapy",
+    "Extraction of metals or analytical tests"
+   ]
+  },
+  {
+   "id": "science-c12-272",
+   "type": "short",
+   "q": "Most copper(I) compounds are colourless, whereas copper(II) compounds are usually coloured. Explain.",
+   "proposedAnswer": "Cu+ has the configuration 3d10, so all d orbitals are full and no d-d transition is possible, making it colourless. Cu2+ has 3d9 with one unpaired electron which can be excited between split d levels by absorbing visible light, giving colour.",
+   "keyPoints": [
+    "Cu+ is d10, no d-d transitions",
+    "Cu2+ is d9 with a vacancy",
+    "Absorption of visible light gives colour"
+   ]
+  },
+  {
+   "id": "science-c12-273",
+   "type": "mcq",
+   "q": "The chemical formula of chloroform is",
+   "options": [
+    "CH3Cl",
+    "CH2Cl2",
+    "CHCl3",
+    "CCl4"
+   ]
+  },
+  {
+   "id": "science-c12-274",
+   "type": "mcq",
+   "q": "Which of the following is a secondary alcohol?",
+   "options": [
+    "ethanol",
+    "propan-1-ol",
+    "propan-2-ol",
+    "2-methylpropan-2-ol"
+   ]
+  },
+  {
+   "id": "science-c12-275",
+   "type": "mcq",
+   "q": "When ethanol reacts with sodium metal, the gas evolved is",
+   "options": [
+    "oxygen",
+    "ethane",
+    "carbon dioxide",
+    "hydrogen"
+   ]
+  },
+  {
+   "id": "science-c12-276",
+   "type": "mcq",
+   "q": "Ethanol on oxidation with excess acidified potassium dichromate gives",
+   "options": [
+    "ethanal",
+    "ethyl ethanoate",
+    "ethene",
+    "ethanoic acid"
+   ]
+  },
+  {
+   "id": "science-c12-277",
+   "type": "mcq",
+   "q": "Phenol on heating with chloroform and aqueous sodium hydroxide, followed by acidification, mainly gives",
+   "options": [
+    "salicylaldehyde",
+    "benzoic acid",
+    "benzaldehyde",
+    "cyclohexanol"
+   ]
+  },
+  {
+   "id": "science-c12-278",
+   "type": "mcq",
+   "q": "Thionyl chloride is the preferred reagent for converting an alcohol into an alkyl chloride because",
+   "options": [
+    "it is cheaper than HCl",
+    "it oxidises the alcohol",
+    "it gives aryl halides only",
+    "the by-products SO2 and HCl are gases and escape, leaving a pure product"
+   ]
+  },
+  {
+   "id": "science-c12-279",
+   "type": "short",
+   "q": "Name a simple chemical test to distinguish phenol from ethanol.",
+   "proposedAnswer": "Add neutral ferric chloride solution. Phenol gives a violet colouration, while ethanol gives no colour.",
+   "keyPoints": [
+    "Neutral FeCl3 solution",
+    "Phenol gives violet colour",
+    "Ethanol gives no colour"
+   ]
+  },
+  {
+   "id": "science-c12-280",
+   "type": "short",
+   "q": "Haloalkanes are polar, yet they are only slightly soluble in water. Why?",
+   "proposedAnswer": "To dissolve, a haloalkane must break the strong hydrogen bonds between water molecules, but the new attractions between haloalkane and water molecules are weaker. The energy released is not enough to compensate, so solubility is low.",
+   "keyPoints": [
+    "Water molecules are hydrogen-bonded",
+    "Haloalkane-water attractions are weaker",
+    "Energy balance is unfavourable"
+   ]
+  },
+  {
+   "id": "science-c12-281",
+   "type": "mcq",
+   "q": "The IUPAC name of CH3COCH3 is",
+   "options": [
+    "ethanal",
+    "propanal",
+    "propanone",
+    "propan-2-ol"
+   ]
+  },
+  {
+   "id": "science-c12-282",
+   "type": "mcq",
+   "q": "Most enzymes are chemically",
+   "options": [
+    "carbohydrates",
+    "nucleotides",
+    "lipids",
+    "proteins"
+   ]
+  },
+  {
+   "id": "science-c12-283",
+   "type": "mcq",
+   "q": "Ethanal, on treatment with dilute NaOH, forms",
+   "options": [
+    "ethanoic acid",
+    "butanal",
+    "ethanol",
+    "3-hydroxybutanal"
+   ]
+  },
+  {
+   "id": "science-c12-284",
+   "type": "mcq",
+   "q": "The carbylamine reaction is a test for",
+   "options": [
+    "tertiary amines",
+    "secondary amines",
+    "primary amines",
+    "quaternary ammonium salts"
+   ]
+  },
+  {
+   "id": "science-c12-285",
+   "type": "mcq",
+   "q": "How many chiral carbon atoms are present in the open-chain structure of glucose?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "id": "science-c12-286",
+   "type": "mcq",
+   "q": "Which compound has the highest boiling point?",
+   "options": [
+    "propanal",
+    "butane",
+    "ethanoic acid",
+    "propan-1-ol"
+   ]
+  },
+  {
+   "id": "science-c12-287",
+   "type": "short",
+   "q": "State two differences between DNA and RNA.",
+   "proposedAnswer": "DNA contains deoxyribose sugar and the base thymine and is usually double-stranded, while RNA contains ribose sugar and the base uracil and is usually single-stranded.",
+   "keyPoints": [
+    "Deoxyribose in DNA, ribose in RNA",
+    "Thymine in DNA, uracil in RNA",
+    "DNA double-stranded, RNA mostly single-stranded"
+   ]
+  },
+  {
+   "id": "science-c12-288",
+   "type": "short",
+   "q": "Why are aldehydes more reactive than ketones towards nucleophilic addition?",
+   "proposedAnswer": "An aldehyde carbonyl carbon has only one alkyl group, so it is less hindered and more positively charged. In a ketone, two electron-releasing alkyl groups reduce the positive charge on carbon and make the approach of the nucleophile more crowded.",
+   "keyPoints": [
+    "Less steric hindrance in aldehydes",
+    "One alkyl group gives less electron donation",
+    "Carbonyl carbon is more electrophilic"
+   ]
+  },
+  {
+   "id": "science-c12-289",
+   "type": "mcq",
+   "q": "The hormone mainly responsible for the development of male secondary sexual characters is",
+   "options": [
+    "oestrogen",
+    "prolactin",
+    "progesterone",
+    "testosterone"
+   ]
+  },
+  {
+   "id": "science-c12-290",
+   "type": "mcq",
+   "q": "In humans, the embryo gets implanted in the",
+   "options": [
+    "fallopian tube",
+    "ovary",
+    "wall of the uterus",
+    "cervix"
+   ]
+  },
+  {
+   "id": "science-c12-291",
+   "type": "mcq",
+   "q": "A typical angiosperm embryo sac (female gametophyte) at maturity has",
+   "options": [
+    "7 cells and 8 nuclei",
+    "8 cells and 8 nuclei",
+    "4 cells and 4 nuclei",
+    "7 cells and 7 nuclei"
+   ]
+  },
+  {
+   "id": "science-c12-292",
+   "type": "mcq",
+   "q": "Which structure connects the foetus to the placenta?",
+   "options": [
+    "amnion",
+    "allantois sac",
+    "chorion",
+    "umbilical cord"
+   ]
+  },
+  {
+   "id": "science-c12-293",
+   "type": "mcq",
+   "q": "The copper-T used for contraception acts mainly because",
+   "options": [
+    "it blocks ovulation by hormones",
+    "it permanently blocks the fallopian tubes",
+    "it kills the ovum in the ovary",
+    "copper ions released in the uterus suppress sperm motility and fertilising ability"
+   ]
+  },
+  {
+   "id": "science-c12-294",
+   "type": "mcq",
+   "q": "Suppose gametes were produced by mitosis instead of meiosis. What would happen to the chromosome number in successive generations?",
+   "options": [
+    "it would remain constant",
+    "it would vary randomly but stay the same on average",
+    "it would halve each generation",
+    "it would double each generation"
+   ]
+  },
+  {
+   "id": "science-c12-295",
+   "type": "short",
+   "q": "Name the three main stages of sexual reproduction in organisms.",
+   "proposedAnswer": "The stages are the pre-fertilisation events (gametogenesis and gamete transfer), fertilisation (fusion of gametes to form the zygote) and post-fertilisation events (embryo development).",
+   "keyPoints": [
+    "Pre-fertilisation: gametogenesis and gamete transfer",
+    "Fertilisation: formation of zygote",
+    "Post-fertilisation: embryogenesis"
+   ]
+  },
+  {
+   "id": "science-c12-296",
+   "type": "short",
+   "q": "Describe the function of the tapetum in an anther.",
+   "proposedAnswer": "The tapetum is the innermost layer of the anther wall. It nourishes the developing pollen grains and supplies materials for the formation of their outer wall, and its cells are rich in nutrients and enzymes.",
+   "keyPoints": [
+    "Innermost layer of the anther wall",
+    "Nourishes developing pollen grains",
+    "Supplies material for pollen wall"
+   ]
+  },
+  {
+   "id": "science-c12-297",
+   "type": "mcq",
+   "q": "The basic unit of heredity that controls a trait is the",
+   "options": [
+    "gene",
+    "cell wall",
+    "ribosome",
+    "vacuole"
+   ]
+  },
+  {
+   "id": "science-c12-298",
+   "type": "mcq",
+   "q": "The theory of evolution by natural selection was proposed by",
+   "options": [
+    "Charles Darwin",
+    "Lamarck alone",
+    "Gregor Mendel",
+    "Louis Pasteur"
+   ]
+  },
+  {
+   "id": "science-c12-299",
+   "type": "mcq",
+   "q": "A test cross between a heterozygous tall plant (Tt) and a dwarf plant (tt) gives tall and dwarf offspring in the ratio",
+   "options": [
+    "1 : 1",
+    "3 : 1",
+    "1 : 2 : 1",
+    "all tall"
+   ]
+  },
+  {
+   "id": "science-c12-300",
+   "type": "mcq",
+   "q": "Down syndrome is caused by",
+   "options": [
+    "absence of one X chromosome",
+    "a point mutation in the beta-globin gene",
+    "an extra Y chromosome",
+    "an extra copy of chromosome 21"
+   ]
+  },
+  {
+   "id": "science-c12-301",
+   "type": "mcq",
+   "q": "Sickle-cell anaemia results from a point mutation that changes",
+   "options": [
+    "glutamic acid to valine in the beta chain of haemoglobin",
+    "valine to glutamic acid in the beta chain",
+    "an alpha chain to a gamma chain",
+    "iron to magnesium in haem"
+   ]
+  },
+  {
+   "id": "science-c12-302",
+   "type": "mcq",
+   "q": "In the Hershey-Chase experiment, bacteriophage DNA was labelled with",
+   "options": [
+    "radioactive sulphur (35S)",
+    "radioactive iodine",
+    "radioactive carbon (14C) only",
+    "radioactive phosphorus (32P)"
+   ]
+  },
+  {
+   "id": "science-c12-303",
+   "type": "short",
+   "q": "State two characteristics of the genetic code.",
+   "proposedAnswer": "The code is triplet (three bases code for one amino acid), degenerate (more than one codon for most amino acids), non-overlapping, comma-free and nearly universal across organisms.",
+   "keyPoints": [
+    "Triplet code",
+    "Degenerate",
+    "Universal and non-overlapping"
+   ]
+  },
+  {
+   "id": "science-c12-304",
+   "type": "short",
+   "q": "How can the degeneracy of the genetic code protect an organism from the effects of some mutations?",
+   "proposedAnswer": "Because several codons code for the same amino acid, a change in the third base of a codon often still specifies the same amino acid. Such silent mutations leave the protein unchanged, so harm is avoided.",
+   "keyPoints": [
+    "Several codons per amino acid",
+    "Third-base change may be silent",
+    "Protein sequence remains unchanged"
+   ]
+  },
+  {
+   "id": "science-c12-305",
+   "type": "mcq",
+   "q": "Which of the following is a biofertiliser?",
+   "options": [
+    "Rhizobium",
+    "urea",
+    "DDT",
+    "superphosphate"
+   ]
+  },
+  {
+   "id": "science-c12-306",
+   "type": "mcq",
+   "q": "Which of the following is a greenhouse gas?",
+   "options": [
+    "nitrogen",
+    "argon",
+    "methane",
+    "helium"
+   ]
+  },
+  {
+   "id": "science-c12-307",
+   "type": "mcq",
+   "q": "A lichen is an example of",
+   "options": [
+    "mutualism between a fungus and an alga or cyanobacterium",
+    "parasitism",
+    "commensalism",
+    "predation"
+   ]
+  },
+  {
+   "id": "science-c12-308",
+   "type": "mcq",
+   "q": "Golden rice has been genetically modified to be rich in",
+   "options": [
+    "iron",
+    "protein only",
+    "vitamin A precursor (beta-carotene)",
+    "vitamin C"
+   ]
+  },
+  {
+   "id": "science-c12-309",
+   "type": "mcq",
+   "q": "In logistic population growth, as the population size approaches the carrying capacity K, the growth rate",
+   "options": [
+    "increases without limit",
+    "remains constant",
+    "becomes negative at once",
+    "decreases and finally reaches zero"
+   ]
+  },
+  {
+   "id": "science-c12-310",
+   "type": "mcq",
+   "q": "Species diversity is generally higher in tropical regions than in temperate regions mainly because tropical environments",
+   "options": [
+    "are more stable, receive more solar energy and have had a longer evolutionary time",
+    "are colder and less seasonal",
+    "have fewer predators",
+    "have less rainfall"
+   ]
+  },
+  {
+   "id": "science-c12-311",
+   "type": "short",
+   "q": "What is bioremediation? Give an example.",
+   "proposedAnswer": "Bioremediation is the use of living organisms, mainly microbes or plants, to clean up polluted soil or water by breaking down or removing pollutants. An example is the use of bacteria to degrade oil spills.",
+   "keyPoints": [
+    "Use of organisms to remove pollutants",
+    "Microbes break down contaminants",
+    "Example such as oil-degrading bacteria"
+   ]
+  },
+  {
+   "id": "science-c12-312",
+   "type": "short",
+   "q": "Distinguish between the grazing food chain and the detritus food chain.",
+   "proposedAnswer": "A grazing food chain begins with green plants (producers) and passes energy to herbivores and then carnivores. A detritus food chain begins with dead organic matter that is eaten by decomposers and detritivores, and then passes to their predators. In many ecosystems the detritus chain carries more energy than the grazing chain.",
+   "keyPoints": [
+    "Grazing chain starts with producers",
+    "Detritus chain starts with dead organic matter",
+    "Decomposers are key in detritus chain"
+   ]
+  },
+  {
+   "id": "science-c12-313",
+   "type": "mcq",
+   "q": "Quantisation of electric charge means that the charge on any body is",
+   "options": [
+    "any real number multiple of e",
+    "always equal to e",
+    "always zero",
+    "an integral multiple of e"
+   ]
+  },
+  {
+   "id": "science-c12-314",
+   "type": "mcq",
+   "q": "Which of the following is a correct unit of electric field?",
+   "options": [
+    "volt per metre",
+    "volt metre",
+    "coulomb per volt",
+    "newton metre"
+   ]
+  },
+  {
+   "id": "science-c12-315",
+   "type": "mcq",
+   "q": "Two point charges of 2 microcoulomb and 3 microcoulomb are 0.3 m apart in air. The force between them is (k = 9 × 10^9 N m^2 C^-2)",
+   "options": [
+    "0.18 N",
+    "0.6 N",
+    "1.8 N",
+    "6 N"
+   ]
+  },
+  {
+   "id": "science-c12-316",
+   "type": "mcq",
+   "q": "Capacitors of 2 microfarad and 4 microfarad are connected in parallel. The equivalent capacitance is",
+   "options": [
+    "1.33 microfarad",
+    "2 microfarad",
+    "6 microfarad",
+    "8 microfarad"
+   ]
+  },
+  {
+   "id": "science-c12-317",
+   "type": "mcq",
+   "q": "A point charge q is placed at the centre of a cube. The electric flux through one face of the cube is",
+   "options": [
+    "q/epsilon_0",
+    "q/(3 epsilon_0)",
+    "q/(6 epsilon_0)",
+    "zero"
+   ]
+  },
+  {
+   "id": "science-c12-318",
+   "type": "mcq",
+   "q": "Charges of +2 microcoulomb and -2 microcoulomb are 0.1 m apart. The electrostatic potential energy of this pair is (k = 9 × 10^9 N m^2 C^-2)",
+   "options": [
+    "-0.36 J",
+    "+0.36 J",
+    "-3.6 J",
+    "zero"
+   ]
+  },
+  {
+   "id": "science-c12-319",
+   "type": "short",
+   "q": "Why can two electric field lines never cross each other?",
+   "proposedAnswer": "The tangent to a field line at a point gives the direction of the electric field there. If two lines crossed, the field at the crossing point would have two directions at once, which is impossible, so field lines never intersect.",
+   "keyPoints": [
+    "Tangent gives direction of field",
+    "Crossing would mean two directions at one point",
+    "Field has a unique direction at every point"
+   ]
+  },
+  {
+   "id": "science-c12-320",
+   "type": "short",
+   "q": "Why is it relatively safe to stay inside a closed metal car during a lightning storm?",
+   "proposedAnswer": "The metal body acts as a conducting shell. The charge from lightning spreads over the outer surface and the electric field inside a hollow conductor is zero, so the passengers inside are shielded from the discharge.",
+   "keyPoints": [
+    "Car body acts as a hollow conductor",
+    "Charge stays on the outer surface",
+    "Field inside is zero (electrostatic shielding)"
+   ]
+  },
+  {
+   "id": "science-c12-321",
+   "type": "mcq",
+   "q": "Which material is used as the core of an electromagnet?",
+   "options": [
+    "soft iron",
+    "steel",
+    "copper",
+    "aluminium"
+   ]
+  },
+  {
+   "id": "science-c12-322",
+   "type": "mcq",
+   "q": "Two resistors of 3 ohm and 5 ohm are connected in series. Their equivalent resistance is",
+   "options": [
+    "1.875 ohm",
+    "2 ohm",
+    "8 ohm",
+    "15 ohm"
+   ]
+  },
+  {
+   "id": "science-c12-323",
+   "type": "mcq",
+   "q": "A steady current of 0.5 A flows in a wire for 10 minutes. The charge that passes through the wire is",
+   "options": [
+    "5 C",
+    "50 C",
+    "300 C",
+    "3000 C"
+   ]
+  },
+  {
+   "id": "science-c12-324",
+   "type": "mcq",
+   "q": "An electron moves at 2 × 10^6 m/s perpendicular to a magnetic field of 0.5 T. The magnetic force on it is (e = 1.6 × 10^-19 C)",
+   "options": [
+    "1.6 × 10^-13 N",
+    "3.2 × 10^-13 N",
+    "1.6 × 10^-19 N",
+    "zero"
+   ]
+  },
+  {
+   "id": "science-c12-325",
+   "type": "mcq",
+   "q": "A Wheatstone bridge is balanced with P = 10 ohm, Q = 20 ohm and R = 30 ohm, where P/Q = R/S. The value of S is",
+   "options": [
+    "15 ohm",
+    "20 ohm",
+    "60 ohm",
+    "6 ohm"
+   ]
+  },
+  {
+   "id": "science-c12-326",
+   "type": "mcq",
+   "q": "When the temperature of a semiconductor is raised, its resistance",
+   "options": [
+    "increases",
+    "becomes infinite",
+    "stays constant",
+    "decreases"
+   ]
+  },
+  {
+   "id": "science-c12-327",
+   "type": "short",
+   "q": "State the Biot-Savart law.",
+   "proposedAnswer": "The magnetic field dB produced at a point by a small current element I dl is directly proportional to the current, the length of the element and the sine of the angle between dl and the line to the point, and inversely proportional to the square of the distance, dB = (mu_0/4 pi) I dl sin(theta)/r^2.",
+   "keyPoints": [
+    "dB proportional to I dl sin(theta)",
+    "Inversely proportional to r^2",
+    "Constant mu_0/4pi"
+   ]
+  },
+  {
+   "id": "science-c12-328",
+   "type": "short",
+   "q": "A current loop is placed in a uniform magnetic field. Why does it rotate but not move as a whole?",
+   "proposedAnswer": "The forces on opposite sides of the loop are equal and opposite, so the net force is zero and there is no translation. These forces are not along the same line, so they form a couple that exerts a torque tau = m B sin(theta) and rotates the loop.",
+   "keyPoints": [
+    "Net force is zero",
+    "Forces form a couple",
+    "Torque = m B sin(theta)"
+   ]
+  },
+  {
+   "id": "science-c12-329",
+   "type": "mcq",
+   "q": "Electromagnetic induction was discovered by",
+   "options": [
+    "Michael Faraday",
+    "Isaac Newton",
+    "James Maxwell",
+    "Hans Oersted"
+   ]
+  },
+  {
+   "id": "science-c12-330",
+   "type": "mcq",
+   "q": "The SI unit of magnetic flux is",
+   "options": [
+    "weber",
+    "tesla",
+    "henry",
+    "gauss"
+   ]
+  },
+  {
+   "id": "science-c12-331",
+   "type": "mcq",
+   "q": "A loop of area 0.2 m^2 is placed in a magnetic field of 0.5 T with the field making an angle of 60 degrees with the normal to the loop. The magnetic flux is",
+   "options": [
+    "0.05 Wb",
+    "0.087 Wb",
+    "0.1 Wb",
+    "0.2 Wb"
+   ]
+  },
+  {
+   "id": "science-c12-332",
+   "type": "mcq",
+   "q": "An alternating current has a peak value of 5 A. Its rms value is about",
+   "options": [
+    "2.5 A",
+    "3.54 A",
+    "5 A",
+    "7.07 A"
+   ]
+  },
+  {
+   "id": "science-c12-333",
+   "type": "mcq",
+   "q": "An ideal step-up transformer has a turns ratio of 1 : 10. If the primary current is 10 A, the secondary current is",
+   "options": [
+    "1 A",
+    "10 A",
+    "100 A",
+    "0.1 A"
+   ]
+  },
+  {
+   "id": "science-c12-334",
+   "type": "mcq",
+   "q": "A metal rod 0.5 m long moves at 4 m/s perpendicular to a uniform magnetic field of 0.2 T, with its length perpendicular to both. The motional emf across its ends is",
+   "options": [
+    "0.1 V",
+    "0.4 V",
+    "0.8 V",
+    "4 V"
+   ]
+  },
+  {
+   "id": "science-c12-335",
+   "type": "short",
+   "q": "Distinguish between self-induction and mutual induction.",
+   "proposedAnswer": "In self-induction a changing current in a coil induces an emf in the same coil. In mutual induction a changing current in one coil induces an emf in a neighbouring coil. The emf is characterised by the self-inductance L or the mutual inductance M, both measured in henry.",
+   "keyPoints": [
+    "Self-induction: same coil",
+    "Mutual induction: neighbouring coil",
+    "Both measured in henry"
+   ]
+  },
+  {
+   "id": "science-c12-336",
+   "type": "short",
+   "q": "A bulb connected in series with a coil with iron core glows dimly when connected to an AC source, but brightly when connected to a DC source of the same voltage. Explain.",
+   "proposedAnswer": "With AC the inductor offers reactance X_L = 2 pi f L in addition to resistance, so the impedance is high and the current is small. With DC there is no change in current once steady, so there is no back emf and only the small resistance of the coil limits the current.",
+   "keyPoints": [
+    "Inductive reactance exists for AC",
+    "Reactance reduces current",
+    "DC meets only the resistance"
+   ]
+  },
+  {
+   "id": "science-c12-337",
+   "type": "mcq",
+   "q": "When white light passes through a glass prism, which colour is deviated the most?",
+   "options": [
+    "red",
+    "yellow",
+    "green",
+    "violet"
+   ]
+  },
+  {
+   "id": "science-c12-338",
+   "type": "mcq",
+   "q": "The focal length of a plane mirror is",
+   "options": [
+    "zero",
+    "equal to the object distance",
+    "infinite",
+    "equal to 1 m"
+   ]
+  },
+  {
+   "id": "science-c12-339",
+   "type": "mcq",
+   "q": "An object is placed 30 cm from a convex mirror of focal length 30 cm. The image is formed at",
+   "options": [
+    "15 cm behind the mirror",
+    "15 cm in front of the mirror",
+    "30 cm behind the mirror",
+    "60 cm in front of the mirror"
+   ]
+  },
+  {
+   "id": "science-c12-340",
+   "type": "mcq",
+   "q": "Two thin lenses of powers +10 D and -2 D are placed in contact. The focal length of the combination is",
+   "options": [
+    "8 cm",
+    "10 cm",
+    "12.5 cm",
+    "20 cm"
+   ]
+  },
+  {
+   "id": "science-c12-341",
+   "type": "mcq",
+   "q": "A prism of angle 60 degrees has refractive index root 2. The angle of minimum deviation is",
+   "options": [
+    "15 degrees",
+    "30 degrees",
+    "45 degrees",
+    "60 degrees"
+   ]
+  },
+  {
+   "id": "science-c12-342",
+   "type": "mcq",
+   "q": "Two ordinary bulbs shone on a screen do not produce a stable interference pattern because",
+   "options": [
+    "bulbs emit only one wavelength",
+    "the bulbs have different powers only",
+    "light waves cannot interfere",
+    "the light from them is not coherent"
+   ]
+  },
+  {
+   "id": "science-c12-343",
+   "type": "short",
+   "q": "Distinguish between a real image and a virtual image.",
+   "proposedAnswer": "A real image is formed when light rays actually meet at a point; it can be obtained on a screen and is inverted for a single mirror or lens. A virtual image is formed when rays only appear to diverge from a point; it cannot be taken on a screen and is erect.",
+   "keyPoints": [
+    "Real: rays actually meet, can be projected",
+    "Virtual: rays appear to come from a point, cannot be projected",
+    "Real is usually inverted, virtual erect"
+   ]
+  },
+  {
+   "id": "science-c12-344",
+   "type": "short",
+   "q": "Why is blue light preferred to red light when a microscope is used to see very fine detail?",
+   "proposedAnswer": "The limit of resolution is proportional to the wavelength of light used. Blue light has a shorter wavelength than red, so it can resolve objects that are closer together and gives a sharper view of fine detail.",
+   "keyPoints": [
+    "Resolution limit is proportional to wavelength",
+    "Blue wavelength is shorter than red",
+    "Closer objects can be separated"
+   ]
+  },
+  {
+   "id": "science-c12-345",
+   "type": "mcq",
+   "q": "The SI unit of radioactivity is",
+   "options": [
+    "becquerel",
+    "curie only",
+    "sievert",
+    "joule"
+   ]
+  },
+  {
+   "id": "science-c12-346",
+   "type": "mcq",
+   "q": "Which radiation from radioactive substances has the greatest penetrating power?",
+   "options": [
+    "alpha rays",
+    "beta rays",
+    "gamma rays",
+    "all are equal"
+   ]
+  },
+  {
+   "id": "science-c12-347",
+   "type": "mcq",
+   "q": "In beta-minus decay of a nucleus, the atomic number",
+   "options": [
+    "increases by 1 and the mass number is unchanged",
+    "decreases by 1 and the mass number is unchanged",
+    "decreases by 2 and the mass number decreases by 4",
+    "is unchanged and the mass number increases by 1"
+   ]
+  },
+  {
+   "id": "science-c12-348",
+   "type": "mcq",
+   "q": "Photoelectrons from a surface have a maximum kinetic energy of 3 eV. The stopping potential is",
+   "options": [
+    "1.5 V",
+    "3 V",
+    "6 V",
+    "9 V"
+   ]
+  },
+  {
+   "id": "science-c12-349",
+   "type": "mcq",
+   "q": "Using E_n = -13.6/n^2 eV, the energy of the photon emitted in the transition n = 3 to n = 2 in hydrogen is about",
+   "options": [
+    "1.51 eV",
+    "1.89 eV",
+    "3.4 eV",
+    "12.09 eV"
+   ]
+  },
+  {
+   "id": "science-c12-350",
+   "type": "mcq",
+   "q": "Nuclear density is nearly the same for all nuclei because",
+   "options": [
+    "nuclear volume is proportional to the mass number",
+    "all nuclei have equal mass",
+    "nuclear radius is independent of mass number",
+    "neutrons have no mass"
+   ]
+  },
+  {
+   "id": "science-c12-351",
+   "type": "short",
+   "q": "What is radioactivity?",
+   "proposedAnswer": "Radioactivity is the spontaneous emission of radiation, such as alpha particles, beta particles or gamma rays, from the nuclei of unstable atoms as they change into more stable nuclei.",
+   "keyPoints": [
+    "Spontaneous process",
+    "Emission of alpha, beta or gamma radiation",
+    "Unstable nucleus becomes more stable"
+   ]
+  },
+  {
+   "id": "science-c12-352",
+   "type": "short",
+   "q": "Compare nuclear fission and nuclear fusion in two points.",
+   "proposedAnswer": "In fission a heavy nucleus such as uranium-235 splits into two lighter nuclei after absorbing a neutron, releasing energy and more neutrons. In fusion two light nuclei such as hydrogen isotopes combine to form a heavier nucleus and release energy, but it needs a very high temperature to overcome the Coulomb repulsion.",
+   "keyPoints": [
+    "Fission splits a heavy nucleus",
+    "Fusion joins light nuclei",
+    "Fusion needs very high temperature"
+   ]
+  },
+  {
+   "id": "science-c12-353",
+   "type": "mcq",
+   "q": "Which of the following solutions does not conduct electricity?",
+   "options": [
+    "sodium chloride in water",
+    "dilute sulphuric acid",
+    "glucose in water",
+    "potassium hydroxide in water"
+   ]
+  },
+  {
+   "id": "science-c12-354",
+   "type": "mcq",
+   "q": "The value of one faraday is approximately",
+   "options": [
+    "9650 C/mol",
+    "96 500 C/mol",
+    "965 000 C/mol",
+    "6.02 × 10^23 C/mol"
+   ]
+  },
+  {
+   "id": "science-c12-355",
+   "type": "mcq",
+   "q": "10 g of sodium chloride is dissolved in 90 g of water. The mass percentage of NaCl in the solution is",
+   "options": [
+    "9%",
+    "10%",
+    "11.1%",
+    "90%"
+   ]
+  },
+  {
+   "id": "science-c12-356",
+   "type": "mcq",
+   "q": "The vapour pressure of pure liquid A is 100 mm Hg. In an ideal solution where the mole fraction of A is 0.6, the partial vapour pressure of A is",
+   "options": [
+    "40 mm Hg",
+    "60 mm Hg",
+    "100 mm Hg",
+    "160 mm Hg"
+   ]
+  },
+  {
+   "id": "science-c12-357",
+   "type": "mcq",
+   "q": "The osmotic pressure of a 0.01 M solution of a non-electrolyte at 300 K is (R = 0.0821 L atm mol^-1 K^-1)",
+   "options": [
+    "0.025 atm",
+    "0.25 atm",
+    "2.5 atm",
+    "25 atm"
+   ]
+  },
+  {
+   "id": "science-c12-358",
+   "type": "mcq",
+   "q": "In the electrolysis of concentrated aqueous sodium chloride with inert electrodes, the gas liberated at the cathode is",
+   "options": [
+    "chlorine",
+    "oxygen",
+    "hydrogen",
+    "sodium vapour"
+   ]
+  },
+  {
+   "id": "science-c12-359",
+   "type": "short",
+   "q": "What are azeotropes?",
+   "proposedAnswer": "Azeotropes are liquid mixtures that boil at a constant temperature and distil over with the same composition as the liquid, so they cannot be separated by simple fractional distillation. Ethanol-water mixture at about 95 per cent ethanol is an example.",
+   "keyPoints": [
+    "Constant boiling mixtures",
+    "Vapour has same composition as liquid",
+    "Cannot be separated by fractional distillation"
+   ]
+  },
+  {
+   "id": "science-c12-360",
+   "type": "short",
+   "q": "Why does zinc-coated (galvanised) iron resist rusting even when the zinc coating is scratched?",
+   "proposedAnswer": "Zinc is more reactive than iron, so in the presence of moisture it is oxidised in preference to iron and acts as a sacrificial anode. The exposed iron acts as the cathode and is protected from corrosion until the zinc is used up.",
+   "keyPoints": [
+    "Zinc is more reactive than iron",
+    "Zinc acts as sacrificial anode",
+    "Iron is protected as cathode"
+   ]
+  },
+  {
+   "id": "science-c12-361",
+   "type": "mcq",
+   "q": "The unit of the rate of a chemical reaction is",
+   "options": [
+    "s^-1",
+    "mol L^-1 s^-1",
+    "L mol^-1 s^-1",
+    "mol L^-1"
+   ]
+  },
+  {
+   "id": "science-c12-362",
+   "type": "mcq",
+   "q": "Which transition metal is a liquid at room temperature?",
+   "options": [
+    "iron",
+    "copper",
+    "zinc",
+    "mercury"
+   ]
+  },
+  {
+   "id": "science-c12-363",
+   "type": "mcq",
+   "q": "A first-order reaction has k = 0.0231 min^-1. The half-life is",
+   "options": [
+    "3 min",
+    "15 min",
+    "30 min",
+    "60 min"
+   ]
+  },
+  {
+   "id": "science-c12-364",
+   "type": "mcq",
+   "q": "The spin-only magnetic moment of an ion with three unpaired electrons is about",
+   "options": [
+    "1.73 BM",
+    "2.83 BM",
+    "3.87 BM",
+    "4.90 BM"
+   ]
+  },
+  {
+   "id": "science-c12-365",
+   "type": "mcq",
+   "q": "In an Arrhenius plot of ln k against 1/T, the slope of the straight line is",
+   "options": [
+    "Ea/R",
+    "RT",
+    "-ln A",
+    "-Ea/R"
+   ]
+  },
+  {
+   "id": "science-c12-366",
+   "type": "mcq",
+   "q": "Mn2+ is very difficult to oxidise to Mn3+ mainly because",
+   "options": [
+    "Mn2+ has a half-filled 3d5 configuration which is particularly stable",
+    "Mn2+ has a completely filled 3d subshell",
+    "Mn3+ is smaller than a proton",
+    "manganese has no d electrons"
+   ]
+  },
+  {
+   "id": "science-c12-367",
+   "type": "short",
+   "q": "What is a pseudo first-order reaction? Give an example.",
+   "proposedAnswer": "It is a reaction that is actually of higher order but behaves as first order because one reactant is present in such large excess that its concentration is practically constant. Hydrolysis of ethyl ethanoate in excess water or the inversion of cane sugar are examples.",
+   "keyPoints": [
+    "Higher order reaction behaving as first order",
+    "One reactant in large excess",
+    "Example: hydrolysis of ester or inversion of sucrose"
+   ]
+  },
+  {
+   "id": "science-c12-368",
+   "type": "short",
+   "q": "Write the balanced ionic equation for the oxidation of ferrous ions by permanganate in acidic medium.",
+   "proposedAnswer": "5Fe2+ + MnO4- + 8H+ gives 5Fe3+ + Mn2+ + 4H2O. Each Fe2+ loses one electron and each permanganate ion accepts five electrons.",
+   "keyPoints": [
+    "5Fe2+ + MnO4- + 8H+ -> 5Fe3+ + Mn2+ + 4H2O",
+    "Fe2+ oxidised to Fe3+",
+    "MnO4- reduced to Mn2+"
+   ]
+  },
+  {
+   "id": "science-c12-369",
+   "type": "mcq",
+   "q": "Which of the following is a neutral ligand?",
+   "options": [
+    "Cl-",
+    "CN-",
+    "H2O",
+    "OH-"
+   ]
+  },
+  {
+   "id": "science-c12-370",
+   "type": "mcq",
+   "q": "The anticancer drug cisplatin is a coordination complex of",
+   "options": [
+    "platinum",
+    "palladium",
+    "gold",
+    "iron"
+   ]
+  },
+  {
+   "id": "science-c12-371",
+   "type": "mcq",
+   "q": "How many ions are produced per formula unit when [Co(NH3)6]Cl3 dissolves in water?",
+   "options": [
+    "3",
+    "4",
+    "6",
+    "9"
+   ]
+  },
+  {
+   "id": "science-c12-372",
+   "type": "mcq",
+   "q": "The IUPAC name of the complex ion [Cu(NH3)4]2+ is",
+   "options": [
+    "tetraamminecopper(II)",
+    "tetraamminecopper(IV)",
+    "tetracopperammonia",
+    "copper tetraammonium"
+   ]
+  },
+  {
+   "id": "science-c12-373",
+   "type": "mcq",
+   "q": "How many unpaired electrons are there in an octahedral high-spin d4 complex?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  {
+   "id": "science-c12-374",
+   "type": "mcq",
+   "q": "[Co(NH3)5SO4]Br and [Co(NH3)5Br]SO4 are ionisation isomers. Which statement is correct?",
+   "options": [
+    "[Co(NH3)5SO4]Br gives a pale-yellow precipitate with silver nitrate",
+    "[Co(NH3)5Br]SO4 gives a pale-yellow precipitate with silver nitrate",
+    "both give a precipitate with barium chloride",
+    "neither gives any precipitate"
+   ]
+  },
+  {
+   "id": "science-c12-375",
+   "type": "short",
+   "q": "Define coordination number and coordination sphere with an example.",
+   "proposedAnswer": "The coordination number is the number of ligand donor atoms directly bonded to the central metal ion. The coordination sphere is the central metal with the ligands attached to it, written in square brackets. In [Co(NH3)6]Cl3 the coordination number is 6 and the sphere is [Co(NH3)6]3+.",
+   "keyPoints": [
+    "Number of donor atoms bonded to the metal",
+    "Coordination sphere is within square brackets",
+    "Example with Co and six NH3"
+   ]
+  },
+  {
+   "id": "science-c12-376",
+   "type": "short",
+   "q": "Why are chelate complexes more stable than comparable complexes with monodentate ligands?",
+   "proposedAnswer": "A polydentate ligand forms ring structures with the metal and, when it replaces several monodentate ligands, the number of free particles in solution increases. This raises the entropy and makes the complex more stable, which is called the chelate effect.",
+   "keyPoints": [
+    "Ring formation by polydentate ligand",
+    "Increase in entropy on substitution",
+    "Called the chelate effect"
+   ]
+  },
+  {
+   "id": "science-c12-377",
+   "type": "mcq",
+   "q": "The compound C6H5OH is called",
+   "options": [
+    "benzyl alcohol",
+    "toluene",
+    "benzoic acid",
+    "phenol"
+   ]
+  },
+  {
+   "id": "science-c12-378",
+   "type": "mcq",
+   "q": "Among ethane, chloroethane, ethanol and dimethyl ether, which has the highest boiling point?",
+   "options": [
+    "ethane",
+    "chloroethane",
+    "ethanol",
+    "dimethyl ether"
+   ]
+  },
+  {
+   "id": "science-c12-379",
+   "type": "mcq",
+   "q": "Bromoethane reacts with aqueous KOH to give mainly",
+   "options": [
+    "ethene",
+    "diethyl ether",
+    "ethane",
+    "ethanol"
+   ]
+  },
+  {
+   "id": "science-c12-380",
+   "type": "mcq",
+   "q": "Bromoethane heated with alcoholic KOH gives",
+   "options": [
+    "ethanol",
+    "ethane",
+    "ethyne",
+    "ethene"
+   ]
+  },
+  {
+   "id": "science-c12-381",
+   "type": "mcq",
+   "q": "Bromomethane is treated with sodium metal in dry ether (Wurtz reaction). The main organic product is",
+   "options": [
+    "methane",
+    "dimethyl ether",
+    "propane",
+    "ethane"
+   ]
+  },
+  {
+   "id": "science-c12-382",
+   "type": "mcq",
+   "q": "Propene undergoes hydroboration followed by oxidation with alkaline hydrogen peroxide. The main product is",
+   "options": [
+    "propan-2-ol",
+    "propan-1-ol",
+    "propanal",
+    "propanone"
+   ]
+  },
+  {
+   "id": "science-c12-383",
+   "type": "short",
+   "q": "What happens when phenol is treated with sodium hydroxide? What does this show?",
+   "proposedAnswer": "Phenol reacts with NaOH to form sodium phenoxide and water, C6H5OH + NaOH gives C6H5ONa + H2O. This shows that phenol is acidic, unlike alcohols which do not react with aqueous alkali.",
+   "keyPoints": [
+    "Sodium phenoxide and water formed",
+    "Phenol is acidic",
+    "Alcohols do not react with NaOH"
+   ]
+  },
+  {
+   "id": "science-c12-384",
+   "type": "short",
+   "q": "Why is p-nitrophenol more acidic than phenol?",
+   "proposedAnswer": "The nitro group is strongly electron-withdrawing through its -I and -M effects. It delocalises and stabilises the negative charge on the p-nitrophenoxide ion, so the ion forms more easily and the compound is a stronger acid.",
+   "keyPoints": [
+    "Nitro group withdraws electrons",
+    "Stabilises the phenoxide ion by delocalisation",
+    "More stable conjugate base means stronger acid"
+   ]
+  },
+  {
+   "id": "science-c12-385",
+   "type": "mcq",
+   "q": "Proteins are polymers of",
+   "options": [
+    "monosaccharides",
+    "nucleotides",
+    "fatty acids",
+    "amino acids"
+   ]
+  },
+  {
+   "id": "science-c12-386",
+   "type": "mcq",
+   "q": "When an aldehyde is warmed with Fehling's solution, the precipitate formed is",
+   "options": [
+    "white",
+    "yellow",
+    "black",
+    "reddish-brown"
+   ]
+  },
+  {
+   "id": "science-c12-387",
+   "type": "mcq",
+   "q": "Reduction of propanone with sodium borohydride gives",
+   "options": [
+    "propanal",
+    "propan-1-ol",
+    "propan-2-ol",
+    "propane"
+   ]
+  },
+  {
+   "id": "science-c12-388",
+   "type": "mcq",
+   "q": "Aniline reacts with bromine water to give a white precipitate of",
+   "options": [
+    "4-bromoaniline",
+    "2-bromoaniline",
+    "2,4,6-tribromoaniline",
+    "bromobenzene"
+   ]
+  },
+  {
+   "id": "science-c12-389",
+   "type": "mcq",
+   "q": "Benzenediazonium chloride on treatment with cuprous chloride gives",
+   "options": [
+    "phenol",
+    "chlorobenzene",
+    "aniline",
+    "azobenzene"
+   ]
+  },
+  {
+   "id": "science-c12-390",
+   "type": "mcq",
+   "q": "One strand of DNA has the base sequence 5'-ATGC-3'. The complementary strand reads",
+   "options": [
+    "3'-TACG-5'",
+    "3'-ATGC-5'",
+    "3'-UACG-5'",
+    "3'-CGTA-5'"
+   ]
+  },
+  {
+   "id": "science-c12-391",
+   "type": "short",
+   "q": "What are essential amino acids? Give two examples.",
+   "proposedAnswer": "Essential amino acids are those that the human body cannot synthesise and must obtain from the diet. Examples are valine, leucine, lysine and isoleucine.",
+   "keyPoints": [
+    "Cannot be synthesised by the body",
+    "Must come from food",
+    "Examples such as valine, leucine or lysine"
+   ]
+  },
+  {
+   "id": "science-c12-392",
+   "type": "short",
+   "q": "Why are carboxylic acids much more acidic than phenols?",
+   "proposedAnswer": "On losing a proton, a carboxylate ion has its negative charge shared equally between two oxygen atoms by resonance, which stabilises it well. The phenoxide ion delocalises the charge onto carbon atoms of the ring, which is less effective, so carboxylic acids ionise more.",
+   "keyPoints": [
+    "Carboxylate charge shared between two electronegative oxygens",
+    "Phenoxide charge sits partly on carbon",
+    "More stable anion gives stronger acid"
+   ]
+  },
+  {
+   "id": "science-c12-393",
+   "type": "mcq",
+   "q": "The testes lie outside the abdominal cavity in the scrotum because",
+   "options": [
+    "it protects them from infection",
+    "spermatogenesis needs a temperature slightly lower than body temperature",
+    "they need more oxygen",
+    "they cannot fit inside the body"
+   ]
+  },
+  {
+   "id": "science-c12-394",
+   "type": "mcq",
+   "q": "The cell formed by the fusion of a sperm and an ovum is the",
+   "options": [
+    "zygote",
+    "gamete",
+    "spore",
+    "polar body"
+   ]
+  },
+  {
+   "id": "science-c12-395",
+   "type": "mcq",
+   "q": "In the human female, FSH from the pituitary mainly",
+   "options": [
+    "stimulates the growth of ovarian follicles",
+    "maintains the corpus luteum",
+    "causes uterine contractions",
+    "stimulates milk ejection"
+   ]
+  },
+  {
+   "id": "science-c12-396",
+   "type": "mcq",
+   "q": "Which of the following is a barrier method of contraception?",
+   "options": [
+    "oral pills",
+    "condom",
+    "copper-T",
+    "vasectomy"
+   ]
+  },
+  {
+   "id": "science-c12-397",
+   "type": "mcq",
+   "q": "The acrosome at the head of a sperm contains enzymes that",
+   "options": [
+    "provide energy for swimming",
+    "help the sperm penetrate the layers surrounding the ovum",
+    "determine the sex of the child",
+    "carry the nutrients to the zygote"
+   ]
+  },
+  {
+   "id": "science-c12-398",
+   "type": "mcq",
+   "q": "A woman who breastfeeds her baby intensively often does not ovulate for some months. This is because",
+   "options": [
+    "milk contains hormones that block ovulation directly",
+    "high prolactin and the suckling reflex suppress the hormones that trigger ovulation",
+    "the uterus is absent",
+    "the ovaries are removed during lactation"
+   ]
+  },
+  {
+   "id": "science-c12-399",
+   "type": "short",
+   "q": "Trace the path of sperm from the testis to the outside of the body.",
+   "proposedAnswer": "Sperms pass from the seminiferous tubules to the rete testis, then through the vasa efferentia to the epididymis, then the vas deferens, the ejaculatory duct and finally through the urethra to the outside.",
+   "keyPoints": [
+    "Seminiferous tubules, rete testis, vasa efferentia",
+    "Epididymis and vas deferens",
+    "Ejaculatory duct and urethra"
+   ]
+  },
+  {
+   "id": "science-c12-400",
+   "type": "short",
+   "q": "Describe the role of hormones in childbirth (parturition).",
+   "proposedAnswer": "Signals from the fully developed foetus and placenta cause mild uterine contractions, called the foetal ejection reflex. This stimulates release of oxytocin from the mother's pituitary, which causes stronger contractions, and the cycle repeats until the baby is delivered.",
+   "keyPoints": [
+    "Foetal ejection reflex starts contractions",
+    "Oxytocin released from the mother's pituitary",
+    "Positive feedback leads to delivery"
+   ]
+  },
+  {
+   "id": "science-c12-401",
+   "type": "mcq",
+   "q": "The process of copying DNA before cell division is called",
+   "options": [
+    "transcription",
+    "translation",
+    "replication",
+    "transduction"
+   ]
+  },
+  {
+   "id": "science-c12-402",
+   "type": "mcq",
+   "q": "An individual with the genotype Tt for a trait is called",
+   "options": [
+    "homozygous dominant",
+    "homozygous recessive",
+    "heterozygous",
+    "hemizygous"
+   ]
+  },
+  {
+   "id": "science-c12-403",
+   "type": "mcq",
+   "q": "A woman with blood group O marries a man with blood group AB. Which blood group can their child have?",
+   "options": [
+    "AB",
+    "O",
+    "A",
+    "AB or O"
+   ]
+  },
+  {
+   "id": "science-c12-404",
+   "type": "mcq",
+   "q": "The Meselson-Stahl experiment showed that DNA replication is",
+   "options": [
+    "conservative",
+    "dispersive",
+    "semi-conservative",
+    "random"
+   ]
+  },
+  {
+   "id": "science-c12-405",
+   "type": "mcq",
+   "q": "In the lac operon of E. coli, when lactose is absent the repressor protein",
+   "options": [
+    "binds to the operator and blocks transcription of the structural genes",
+    "binds to lactose and activates the genes",
+    "is destroyed immediately",
+    "binds to the promoter and starts transcription"
+   ]
+  },
+  {
+   "id": "science-c12-406",
+   "type": "mcq",
+   "q": "Miller's experiment on the origin of life used an electric spark in a flask containing",
+   "options": [
+    "oxygen, nitrogen and carbon dioxide",
+    "methane, ammonia, hydrogen and water vapour",
+    "chlorine and sodium",
+    "only water and salt"
+   ]
+  },
+  {
+   "id": "science-c12-407",
+   "type": "short",
+   "q": "Explain what is meant by the semi-conservative nature of DNA replication.",
+   "proposedAnswer": "During replication the two strands of the parent DNA separate and each acts as a template for a new complementary strand. Every daughter DNA molecule therefore consists of one original strand and one newly synthesised strand.",
+   "keyPoints": [
+    "Parent strands separate",
+    "Each strand is a template",
+    "Daughter DNA has one old and one new strand"
+   ]
+  },
+  {
+   "id": "science-c12-408",
+   "type": "short",
+   "q": "Why are X-linked recessive disorders such as haemophilia more common in males than in females?",
+   "proposedAnswer": "A male has only one X chromosome, so a single recessive allele on it is expressed. A female has two X chromosomes and shows the disease only if both carry the recessive allele; a carrier female with one normal allele is usually unaffected.",
+   "keyPoints": [
+    "Males have one X chromosome",
+    "One recessive allele is enough in males",
+    "Females need two recessive alleles"
+   ]
+  },
+  {
+   "id": "science-c12-409",
+   "type": "mcq",
+   "q": "Which of the following organisms is a decomposer?",
+   "options": [
+    "grass",
+    "fungus",
+    "deer",
+    "eagle"
+   ]
+  },
+  {
+   "id": "science-c12-410",
+   "type": "mcq",
+   "q": "A plasmid is",
+   "options": [
+    "a circular extra-chromosomal DNA molecule in bacteria",
+    "a type of ribosome",
+    "a protein in the cell wall",
+    "a linear chromosome of humans"
+   ]
+  },
+  {
+   "id": "science-c12-411",
+   "type": "mcq",
+   "q": "Net primary productivity is equal to",
+   "options": [
+    "gross primary productivity plus respiration",
+    "gross primary productivity minus respiratory losses",
+    "the biomass of herbivores",
+    "the energy in the sunlight falling on the area"
+   ]
+  },
+  {
+   "id": "science-c12-412",
+   "type": "mcq",
+   "q": "Which process removes carbon dioxide from the atmosphere?",
+   "options": [
+    "respiration",
+    "burning of fuel",
+    "photosynthesis",
+    "decomposition"
+   ]
+  },
+  {
+   "id": "science-c12-413",
+   "type": "mcq",
+   "q": "Top carnivores are far fewer in number than herbivores in an ecosystem mainly because",
+   "options": [
+    "they are larger and eat plants",
+    "energy is lost at each trophic level, so less is available at the top",
+    "herbivores eat carnivores",
+    "carnivores cannot reproduce"
+   ]
+  },
+  {
+   "id": "science-c12-414",
+   "type": "mcq",
+   "q": "In agarose gel electrophoresis, DNA fragments move towards the",
+   "options": [
+    "cathode (negative electrode), the larger fragments faster",
+    "anode (positive electrode), the smaller fragments faster",
+    "anode (positive electrode), the larger fragments faster",
+    "cathode (negative electrode), the smaller fragments faster"
+   ]
+  },
+  {
+   "id": "science-c12-415",
+   "type": "short",
+   "q": "What is a genetically modified organism (GMO)? Mention two benefits of GM crops.",
+   "proposedAnswer": "A GMO is a plant, animal or microbe whose genes have been altered using recombinant DNA technology. Benefits of GM crops include resistance to pests (Bt cotton), tolerance to stress, longer shelf life and enhanced nutrition such as in golden rice.",
+   "keyPoints": [
+    "Organism with altered genes through rDNA technology",
+    "Pest resistance or stress tolerance",
+    "Improved nutrition or shelf life"
+   ]
+  },
+  {
+   "id": "science-c12-416",
+   "type": "short",
+   "q": "Explain how Bt toxin kills insect larvae without harming the Bt crop plant.",
+   "proposedAnswer": "The plant produces the toxin as an inactive protoxin. In the alkaline gut of the insect larva the protoxin is converted into its active form, which binds to the midgut cells, creates pores and causes them to swell and burst, killing the larva.",
+   "keyPoints": [
+    "Protoxin is inactive in the plant",
+    "Alkaline gut pH activates it",
+    "Pores in midgut cells cause lysis"
+   ]
+  },
+  {
+   "id": "science-c12-417",
+   "type": "mcq",
+   "q": "A 5 microfarad capacitor is connected to a 12 V battery. The charge stored is",
+   "options": [
+    "2.4 microcoulomb",
+    "17 microcoulomb",
+    "60 microcoulomb",
+    "600 microcoulomb"
+   ]
+  },
+  {
+   "id": "science-c12-418",
+   "type": "mcq",
+   "q": "A potential difference of 200 V is applied across two parallel plates 1 cm apart. The electric field between the plates is",
+   "options": [
+    "200 V/m",
+    "2000 V/m",
+    "20 000 V/m",
+    "2 V/m"
+   ]
+  },
+  {
+   "id": "science-c12-419",
+   "type": "mcq",
+   "q": "Two identical metal spheres carry charges +6 microcoulomb and -2 microcoulomb. They are touched together and then separated. The charge on each is",
+   "options": [
+    "+4 microcoulomb",
+    "+2 microcoulomb",
+    "+8 microcoulomb",
+    "zero"
+   ]
+  },
+  {
+   "id": "science-c12-420",
+   "type": "mcq",
+   "q": "A 1 microcoulomb charge moves 2 m along the direction of a uniform electric field of 500 N/C. The work done by the field is",
+   "options": [
+    "1 × 10^-3 J",
+    "2.5 × 10^-4 J",
+    "1 × 10^-6 J",
+    "5 × 10^-3 J"
+   ]
+  },
+  {
+   "id": "science-c12-421",
+   "type": "short",
+   "q": "What is polarisation of a dielectric in an electric field?",
+   "proposedAnswer": "When a dielectric is placed in an electric field, its molecules get a dipole moment (induced in non-polar molecules, aligned in polar ones). This gives a net surface charge that sets up a field opposing the applied field, which reduces the net field inside the dielectric.",
+   "keyPoints": [
+    "Induced or aligned dipoles",
+    "Surface charges develop",
+    "Internal field opposes and reduces the applied field"
+   ]
+  },
+  {
+   "id": "science-c12-422",
+   "type": "short",
+   "q": "A charged comb attracts small uncharged pieces of paper. Explain why.",
+   "proposedAnswer": "The field of the comb polarises the paper: the nearer side acquires the opposite charge and the farther side the same charge. The field is stronger at the nearer side, so the attraction on the near charge exceeds the repulsion on the far charge and there is a net force towards the comb.",
+   "keyPoints": [
+    "Paper is polarised by the comb",
+    "Opposite charge induced on near side",
+    "Non-uniform field gives a net attraction"
+   ]
+  },
+  {
+   "id": "science-c12-423",
+   "type": "mcq",
+   "q": "Resistors of 4 ohm and 12 ohm are connected in parallel. The equivalent resistance is",
+   "options": [
+    "16 ohm",
+    "8 ohm",
+    "3 ohm",
+    "48 ohm"
+   ]
+  },
+  {
+   "id": "science-c12-424",
+   "type": "mcq",
+   "q": "A wire of resistance 10 ohm is cut into two equal halves, which are then joined in parallel. The equivalent resistance is",
+   "options": [
+    "2.5 ohm",
+    "5 ohm",
+    "10 ohm",
+    "20 ohm"
+   ]
+  },
+  {
+   "id": "science-c12-425",
+   "type": "mcq",
+   "q": "A cell of emf 6 V has an internal resistance of 0.5 ohm. The current when its terminals are short-circuited is",
+   "options": [
+    "3 A",
+    "6 A",
+    "12 A",
+    "0.083 A"
+   ]
+  },
+  {
+   "id": "science-c12-426",
+   "type": "mcq",
+   "q": "A proton and an alpha particle enter the same uniform magnetic field perpendicularly with the same speed. The ratio of the radius of the alpha particle's path to that of the proton is",
+   "options": [
+    "1",
+    "2",
+    "4",
+    "1/2"
+   ]
+  },
+  {
+   "id": "science-c12-427",
+   "type": "short",
+   "q": "Distinguish between the emf and the terminal potential difference of a cell.",
+   "proposedAnswer": "The emf is the potential difference between the terminals of a cell when no current is drawn (open circuit). The terminal potential difference V is measured when current I flows, and is less than the emf by the drop across the internal resistance, V = E - Ir.",
+   "keyPoints": [
+    "emf is the open-circuit potential difference",
+    "Terminal pd is measured with current flowing",
+    "V = E - Ir"
+   ]
+  },
+  {
+   "id": "science-c12-428",
+   "type": "short",
+   "q": "Why does placing a soft iron core inside a solenoid make its magnetic field much stronger?",
+   "proposedAnswer": "Soft iron has a high relative permeability. The core becomes magnetised by the field of the solenoid and its magnetisation adds to the applied field, increasing the total field many times.",
+   "keyPoints": [
+    "Soft iron has high permeability",
+    "Core gets magnetised in the field",
+    "Its field adds to that of the current"
+   ]
+  },
+  {
+   "id": "science-c12-429",
+   "type": "mcq",
+   "q": "The capacitive reactance of a 100 microfarad capacitor at 50 Hz is about",
+   "options": [
+    "3.2 ohm",
+    "31.8 ohm",
+    "318 ohm",
+    "3180 ohm"
+   ]
+  },
+  {
+   "id": "science-c12-430",
+   "type": "mcq",
+   "q": "A series circuit has a resistance of 30 ohm and an inductive reactance of 40 ohm. Its impedance is",
+   "options": [
+    "10 ohm",
+    "50 ohm",
+    "70 ohm",
+    "1200 ohm"
+   ]
+  },
+  {
+   "id": "science-c12-431",
+   "type": "mcq",
+   "q": "A 100 V (rms) AC source is connected to a series circuit with R = 30 ohm and X_L = 40 ohm. The average power consumed is",
+   "options": [
+    "60 W",
+    "120 W",
+    "200 W",
+    "333 W"
+   ]
+  },
+  {
+   "id": "science-c12-432",
+   "type": "mcq",
+   "q": "A DC motor draws a very large current at the instant it is switched on mainly because",
+   "options": [
+    "the supply voltage is highest at that moment",
+    "the back emf is zero when the armature is at rest",
+    "the coil resistance is lowest then",
+    "the magnetic field is strongest then"
+   ]
+  },
+  {
+   "id": "science-c12-433",
+   "type": "short",
+   "q": "What are eddy currents? State one useful application.",
+   "proposedAnswer": "Eddy currents are circulating currents induced in a bulk piece of conductor when the magnetic flux through it changes. They are used in induction furnaces to melt metals and in electromagnetic braking of trains.",
+   "keyPoints": [
+    "Induced circulating currents in solid conductors",
+    "Caused by changing flux",
+    "Applications such as induction furnace or magnetic braking"
+   ]
+  },
+  {
+   "id": "science-c12-434",
+   "type": "short",
+   "q": "Why is electric power transmitted over long distances at very high voltage?",
+   "proposedAnswer": "For a given power P = V I, a higher voltage means a smaller current. The power wasted as heat in the lines is I^2 R, so a smaller current reduces the loss greatly. Transformers step the voltage up for transmission and down for use.",
+   "keyPoints": [
+    "P = VI, high V means low I",
+    "Line loss = I^2 R",
+    "Transformers change the voltage"
+   ]
+  },
+  {
+   "id": "science-c12-435",
+   "type": "mcq",
+   "q": "A ray of light passing through the optical centre of a thin lens",
+   "options": [
+    "passes undeviated",
+    "is deviated towards the axis",
+    "is deviated away from the axis",
+    "is totally reflected"
+   ]
+  },
+  {
+   "id": "science-c12-436",
+   "type": "mcq",
+   "q": "A concave mirror forms a real image 40 cm from the mirror of an object placed 20 cm from it. The magnification is",
+   "options": [
+    "+2",
+    "-2",
+    "-0.5",
+    "+0.5"
+   ]
+  },
+  {
+   "id": "science-c12-437",
+   "type": "mcq",
+   "q": "A short-sighted person has a far point at 50 cm. The power of the lens needed to see distant objects clearly is",
+   "options": [
+    "+2 D",
+    "-2 D",
+    "+0.5 D",
+    "-0.5 D"
+   ]
+  },
+  {
+   "id": "science-c12-438",
+   "type": "mcq",
+   "q": "Which pattern has fringes of unequal width, the central one being twice as wide as the others?",
+   "options": [
+    "Young's double-slit interference",
+    "single-slit diffraction",
+    "Newton's rings",
+    "reflection from a plane mirror"
+   ]
+  },
+  {
+   "id": "science-c12-439",
+   "type": "short",
+   "q": "What is the angle of minimum deviation of a prism?",
+   "proposedAnswer": "It is the smallest angle by which a prism can deviate a ray of light. It occurs when the ray passes symmetrically through the prism, with the angle of incidence equal to the angle of emergence.",
+   "keyPoints": [
+    "Smallest deviation produced by the prism",
+    "Angle of incidence equals angle of emergence",
+    "Ray inside the prism is parallel to the base"
+   ]
+  },
+  {
+   "id": "science-c12-440",
+   "type": "short",
+   "q": "Why does a cut diamond sparkle so much?",
+   "proposedAnswer": "Diamond has a very high refractive index (about 2.4), so its critical angle is small, about 24 degrees. Light entering the stone undergoes total internal reflection several times at the cut faces before emerging, which makes it flash brightly.",
+   "keyPoints": [
+    "Very high refractive index",
+    "Small critical angle",
+    "Repeated total internal reflection inside the stone"
+   ]
+  },
+  {
+   "id": "science-c12-441",
+   "type": "mcq",
+   "q": "A 1 kg ball moves at 1 m/s. Taking h = 6.63 × 10^-34 J s, its de Broglie wavelength is about",
+   "options": [
+    "6.63 × 10^-34 m",
+    "6.63 × 10^-10 m",
+    "6.63 m",
+    "1 m"
+   ]
+  },
+  {
+   "id": "science-c12-442",
+   "type": "mcq",
+   "q": "The number of neutrons in the nucleus of uranium-235 (atomic number 92) is",
+   "options": [
+    "92",
+    "143",
+    "235",
+    "327"
+   ]
+  },
+  {
+   "id": "science-c12-443",
+   "type": "mcq",
+   "q": "A graph of stopping potential against frequency of incident light for a photoelectric surface is a straight line. Its slope is",
+   "options": [
+    "h/e",
+    "e/h",
+    "h e",
+    "the work function"
+   ]
+  },
+  {
+   "id": "science-c12-444",
+   "type": "mcq",
+   "q": "In Bohr's model the speed of an electron in the n = 2 orbit compared with that in the n = 1 orbit is",
+   "options": [
+    "double",
+    "half",
+    "one quarter",
+    "the same"
+   ]
+  },
+  {
+   "id": "science-c12-445",
+   "type": "short",
+   "q": "State two observations of Rutherford's alpha-particle scattering experiment and the conclusion drawn from them.",
+   "proposedAnswer": "Most alpha particles passed straight through the gold foil, and a very small number were deflected through large angles, a few even turning back. This showed that most of the atom is empty space and that its positive charge and mass are concentrated in a tiny, dense nucleus.",
+   "keyPoints": [
+    "Most particles undeviated",
+    "A few deflected through large angles",
+    "Atom has a small dense positive nucleus"
+   ]
+  },
+  {
+   "id": "science-c12-446",
+   "type": "short",
+   "q": "Why do heavy stable nuclei contain more neutrons than protons?",
+   "proposedAnswer": "Protons repel one another by the electrostatic force, which grows as the number of protons rises. Extra neutrons add to the attractive short-range nuclear force without adding repulsion, and so help to hold a large nucleus together.",
+   "keyPoints": [
+    "Proton-proton Coulomb repulsion increases with Z",
+    "Neutrons add nuclear attraction",
+    "No electric repulsion from neutrons"
+   ]
+  },
+  {
+   "id": "science-c12-447",
+   "type": "mcq",
+   "q": "A solution contains 1 mol of glucose and 9 mol of water. The mole fraction of glucose is",
+   "options": [
+    "0.1",
+    "0.11",
+    "0.9",
+    "1.0"
+   ]
+  },
+  {
+   "id": "science-c12-448",
+   "type": "mcq",
+   "q": "The SI unit of the cell constant (l/A) of a conductivity cell is",
+   "options": [
+    "m",
+    "m^-1",
+    "m^2",
+    "S m^-1"
+   ]
+  },
+  {
+   "id": "science-c12-449",
+   "type": "mcq",
+   "q": "For water Kb = 0.52 K kg/mol. The elevation in boiling point of a 0.2 molal solution of a non-volatile non-electrolyte is",
+   "options": [
+    "0.052 K",
+    "0.104 K",
+    "0.26 K",
+    "2.6 K"
+   ]
+  },
+  {
+   "id": "science-c12-450",
+   "type": "mcq",
+   "q": "When a lead storage battery discharges, the density of the sulphuric acid electrolyte",
+   "options": [
+    "increases",
+    "decreases",
+    "remains the same",
+    "first increases and then decreases"
+   ]
+  },
+  {
+   "id": "science-c12-451",
+   "type": "short",
+   "q": "Distinguish between a primary cell and a secondary cell with one example of each.",
+   "proposedAnswer": "A primary cell, such as a dry cell, produces current by an irreversible chemical reaction and cannot be recharged. A secondary cell, such as the lead storage battery, undergoes a reversible reaction and can be recharged by passing current in the opposite direction.",
+   "keyPoints": [
+    "Primary: not rechargeable, e.g. dry cell",
+    "Secondary: rechargeable, e.g. lead storage battery",
+    "Reversibility of the cell reaction"
+   ]
+  },
+  {
+   "id": "science-c12-452",
+   "type": "short",
+   "q": "Why does a 0.1 molal NaCl solution show nearly twice the depression of freezing point of a 0.1 molal glucose solution?",
+   "proposedAnswer": "Freezing-point depression depends on the number of solute particles. Glucose does not dissociate, but NaCl dissociates into Na+ and Cl-, giving about twice as many particles, so the van't Hoff factor is close to 2 and the depression is nearly doubled.",
+   "keyPoints": [
+    "Colligative property depends on number of particles",
+    "NaCl gives two ions",
+    "van't Hoff factor close to 2"
+   ]
+  },
+  {
+   "id": "science-c12-453",
+   "type": "mcq",
+   "q": "The unit of the rate constant for a second-order reaction is",
+   "options": [
+    "s^-1",
+    "mol L^-1 s^-1",
+    "L mol^-1 s^-1",
+    "mol^2 L^-2 s^-1"
+   ]
+  },
+  {
+   "id": "science-c12-454",
+   "type": "mcq",
+   "q": "When acidified orange potassium dichromate oxidises an alcohol, the solution turns",
+   "options": [
+    "blue",
+    "green",
+    "colourless",
+    "purple"
+   ]
+  },
+  {
+   "id": "science-c12-455",
+   "type": "mcq",
+   "q": "In a reaction the rate doubles when [A] is doubled and does not change when [B] is doubled. The rate law is",
+   "options": [
+    "rate = k[A][B]",
+    "rate = k[A]",
+    "rate = k[B]",
+    "rate = k[A]^2"
+   ]
+  },
+  {
+   "id": "science-c12-456",
+   "type": "mcq",
+   "q": "For a zero-order reaction the initial concentration of the reactant is doubled. The half-life",
+   "options": [
+    "is halved",
+    "remains the same",
+    "doubles",
+    "becomes four times"
+   ]
+  },
+  {
+   "id": "science-c12-457",
+   "type": "short",
+   "q": "State any three characteristic properties of transition metals.",
+   "proposedAnswer": "Transition metals show variable oxidation states, form coloured compounds and complexes, are often paramagnetic, have high melting points and densities, and act as good catalysts.",
+   "keyPoints": [
+    "Variable oxidation states",
+    "Coloured ions and complex formation",
+    "Catalytic activity, paramagnetism, high melting points"
+   ]
+  },
+  {
+   "id": "science-c12-458",
+   "type": "short",
+   "q": "Scandium shows only the +3 oxidation state and zinc only +2, whereas manganese shows many. Explain.",
+   "proposedAnswer": "Scandium loses its two 4s electrons and the one 3d electron to reach the stable noble-gas configuration of Sc3+. Zinc loses only its two 4s electrons because the 3d10 subshell is stable. Manganese has five 3d and two 4s electrons of similar energy, so many different numbers can be lost.",
+   "keyPoints": [
+    "Sc3+ has a noble-gas configuration",
+    "Zn2+ keeps the stable 3d10",
+    "Mn has many d electrons available for bonding"
+   ]
+  },
+  {
+   "id": "science-c12-459",
+   "type": "mcq",
+   "q": "A bidentate ligand binds to the central metal through",
+   "options": [
+    "one donor atom",
+    "two donor atoms",
+    "three donor atoms",
+    "six donor atoms"
+   ]
+  },
+  {
+   "id": "science-c12-460",
+   "type": "mcq",
+   "q": "The oxidation state of nickel in K2[Ni(CN)4] is",
+   "options": [
+    "0",
+    "+1",
+    "+2",
+    "+4"
+   ]
+  },
+  {
+   "id": "science-c12-461",
+   "type": "mcq",
+   "q": "The IUPAC name of [Cr(H2O)6]Cl3 is",
+   "options": [
+    "hexaaquachromium(III) chloride",
+    "hexaaquachromium(VI) chloride",
+    "chromium hexahydrate chloride",
+    "hexachlorochromium(III) water"
+   ]
+  },
+  {
+   "id": "science-c12-462",
+   "type": "mcq",
+   "q": "[Cr(H2O)6]Cl3 and [Cr(H2O)5Cl]Cl2.H2O are examples of which type of isomerism?",
+   "options": [
+    "geometrical",
+    "optical",
+    "hydrate (solvate)",
+    "linkage"
+   ]
+  },
+  {
+   "id": "science-c12-463",
+   "type": "mcq",
+   "q": "The spin-only magnetic moment of the high-spin complex [Fe(H2O)6]2+ (four unpaired electrons) is about",
+   "options": [
+    "2.83 BM",
+    "3.87 BM",
+    "4.90 BM",
+    "5.92 BM"
+   ]
+  },
+  {
+   "id": "science-c12-464",
+   "type": "short",
+   "q": "Write the IUPAC name of [Co(NH3)5Cl]Cl2.",
+   "proposedAnswer": "Pentaamminechloridocobalt(III) chloride. Five ammine ligands, one chlorido ligand, cobalt in the +3 state, and two chloride counter ions.",
+   "keyPoints": [
+    "Ligands named alphabetically: ammine then chlorido",
+    "Cobalt(III)",
+    "Counter ion chloride"
+   ]
+  },
+  {
+   "id": "science-c12-465",
+   "type": "short",
+   "q": "How is EDTA used in the estimation of hardness of water?",
+   "proposedAnswer": "EDTA forms very stable, soluble complexes with Ca2+ and Mg2+ ions. The hard water is titrated with a standard EDTA solution using an indicator, and the volume used gives the total concentration of these ions.",
+   "keyPoints": [
+    "EDTA is a hexadentate chelating ligand",
+    "Forms stable complexes with Ca2+ and Mg2+",
+    "Complexometric titration with an indicator"
+   ]
+  },
+  {
+   "id": "science-c12-466",
+   "type": "mcq",
+   "q": "Which of the following is an aryl halide?",
+   "options": [
+    "chloroethane",
+    "chlorobenzene",
+    "benzyl chloride",
+    "chloromethane"
+   ]
+  },
+  {
+   "id": "science-c12-467",
+   "type": "mcq",
+   "q": "Which reagent oxidises a primary alcohol to an aldehyde without further oxidation to the acid?",
+   "options": [
+    "acidified potassium dichromate (excess)",
+    "alkaline potassium permanganate",
+    "pyridinium chlorochromate (PCC)",
+    "concentrated nitric acid"
+   ]
+  },
+  {
+   "id": "science-c12-468",
+   "type": "mcq",
+   "q": "Nitration of phenol with dilute nitric acid at low temperature gives",
+   "options": [
+    "only m-nitrophenol",
+    "a mixture of o- and p-nitrophenol",
+    "picric acid",
+    "nitrobenzene"
+   ]
+  },
+  {
+   "id": "science-c12-469",
+   "type": "mcq",
+   "q": "Which isomer of nitrophenol is steam volatile?",
+   "options": [
+    "o-nitrophenol",
+    "p-nitrophenol",
+    "both equally",
+    "neither"
+   ]
+  },
+  {
+   "id": "science-c12-470",
+   "type": "mcq",
+   "q": "Methylmagnesium bromide reacts with methanal, and the product is hydrolysed. The final product is",
+   "options": [
+    "methanol",
+    "ethanol",
+    "propan-2-ol",
+    "ethanal"
+   ]
+  },
+  {
+   "id": "science-c12-471",
+   "type": "short",
+   "q": "Distinguish between SN1 and SN2 reactions in terms of kinetics.",
+   "proposedAnswer": "SN1 is a two-step reaction through a carbocation and its rate depends only on the haloalkane concentration, so it is first order. SN2 occurs in one step with the nucleophile attacking from the back, so its rate depends on both haloalkane and nucleophile and it is second order.",
+   "keyPoints": [
+    "SN1 first order, carbocation intermediate",
+    "SN2 second order, single step",
+    "Rate of SN2 depends on nucleophile concentration"
+   ]
+  },
+  {
+   "id": "science-c12-472",
+   "type": "short",
+   "q": "Why does the boiling point of haloalkanes increase in the order RCl < RBr < RI for the same alkyl group?",
+   "proposedAnswer": "The size and molar mass of the halogen increase from Cl to I, so the molecule has a larger surface area and more polarisable electrons. The van der Waals forces between molecules become stronger, and more energy is needed to separate them.",
+   "keyPoints": [
+    "Larger halogen means greater molar mass and surface area",
+    "Stronger van der Waals forces",
+    "Higher boiling point"
+   ]
+  },
+  {
+   "id": "science-c12-473",
+   "type": "mcq",
+   "q": "Methanoic acid (formic acid) is naturally present in",
+   "options": [
+    "vinegar",
+    "red ant stings",
+    "lemon juice",
+    "curd"
+   ]
+  },
+  {
+   "id": "science-c12-474",
+   "type": "mcq",
+   "q": "Ethanal on reduction with lithium aluminium hydride gives",
+   "options": [
+    "ethanoic acid",
+    "ethanol",
+    "ethane",
+    "propanone"
+   ]
+  },
+  {
+   "id": "science-c12-475",
+   "type": "mcq",
+   "q": "Aniline treated with nitrous acid (NaNO2 and HCl) at 0 to 5 degrees C gives",
+   "options": [
+    "phenol directly",
+    "benzenediazonium chloride",
+    "nitrobenzene",
+    "benzoic acid"
+   ]
+  },
+  {
+   "id": "science-c12-476",
+   "type": "mcq",
+   "q": "Hydrolysis of sucrose gives an equimolar mixture of",
+   "options": [
+    "glucose and galactose",
+    "glucose and fructose",
+    "two molecules of glucose",
+    "fructose and maltose"
+   ]
+  },
+  {
+   "id": "science-c12-477",
+   "type": "mcq",
+   "q": "The alpha and beta forms of D-glucose are called anomers because they differ in configuration at",
+   "options": [
+    "carbon 1",
+    "carbon 4",
+    "carbon 6",
+    "all chiral carbons"
+   ]
+  },
+  {
+   "id": "science-c12-478",
+   "type": "short",
+   "q": "Distinguish between fibrous and globular proteins with an example of each.",
+   "proposedAnswer": "Fibrous proteins have long thread-like polypeptide chains held side by side, are insoluble in water and serve structural roles, for example keratin and myosin. Globular proteins fold into a spherical shape, are soluble in water and perform functions such as catalysis, for example enzymes and insulin.",
+   "keyPoints": [
+    "Fibrous: thread-like, insoluble, e.g. keratin",
+    "Globular: spherical, water soluble, e.g. insulin",
+    "Different roles: structural and functional"
+   ]
+  },
+  {
+   "id": "science-c12-479",
+   "type": "short",
+   "q": "Why are aliphatic amines stronger bases than ammonia in the gas phase?",
+   "proposedAnswer": "Alkyl groups release electrons by the +I effect, which increases the electron density on nitrogen. The lone pair is then more available to accept a proton, and the ammonium ion formed is stabilised by the alkyl groups, so alkylamines are stronger bases than ammonia.",
+   "keyPoints": [
+    "+I effect of alkyl groups",
+    "More electron density on nitrogen",
+    "Conjugate acid stabilised"
+   ]
+  },
+  {
+   "id": "science-c12-480",
+   "type": "mcq",
+   "q": "The release of the ovum from the Graafian follicle is called",
+   "options": [
+    "menstruation",
+    "ovulation",
+    "implantation",
+    "parturition"
+   ]
+  },
+  {
+   "id": "science-c12-481",
+   "type": "mcq",
+   "q": "Yeast reproduces asexually mainly by",
+   "options": [
+    "binary fission",
+    "budding",
+    "spore formation only",
+    "fragmentation"
+   ]
+  },
+  {
+   "id": "science-c12-482",
+   "type": "mcq",
+   "q": "Gametes in humans are formed by",
+   "options": [
+    "mitosis",
+    "meiosis",
+    "binary fission",
+    "budding"
+   ]
+  },
+  {
+   "id": "science-c12-483",
+   "type": "mcq",
+   "q": "How many pollen mother cells must undergo meiosis to produce 100 pollen grains?",
+   "options": [
+    "10",
+    "25",
+    "50",
+    "100"
+   ]
+  },
+  {
+   "id": "science-c12-484",
+   "type": "mcq",
+   "q": "In the human male, luteinising hormone acts on the",
+   "options": [
+    "Sertoli cells to nourish sperms",
+    "Leydig cells to secrete testosterone",
+    "prostate gland to secrete semen",
+    "vas deferens to cause contraction"
+   ]
+  },
+  {
+   "id": "science-c12-485",
+   "type": "short",
+   "q": "What is parturition?",
+   "proposedAnswer": "Parturition is the process of giving birth, in which the fully developed foetus is expelled from the uterus through the vagina at the end of pregnancy, brought about by powerful uterine contractions.",
+   "keyPoints": [
+    "Delivery of the baby",
+    "Strong uterine contractions",
+    "Controlled by hormones such as oxytocin"
+   ]
+  },
+  {
+   "id": "science-c12-486",
+   "type": "short",
+   "q": "What is the role of human chorionic gonadotropin (hCG) in early pregnancy?",
+   "proposedAnswer": "hCG is secreted by the developing placental tissue. It maintains the corpus luteum so that it keeps secreting progesterone, which preserves the endometrium and prevents menstruation. It is also the basis of pregnancy tests.",
+   "keyPoints": [
+    "Secreted by placental tissue",
+    "Maintains corpus luteum and progesterone",
+    "Prevents menstruation"
+   ]
+  },
+  {
+   "id": "science-c12-487",
+   "type": "mcq",
+   "q": "Which type of RNA carries amino acids to the ribosome during translation?",
+   "options": [
+    "mRNA",
+    "tRNA",
+    "rRNA",
+    "hnRNA"
+   ]
+  },
+  {
+   "id": "science-c12-488",
+   "type": "mcq",
+   "q": "How many different types of gametes can an individual of genotype AaBb produce, assuming independent assortment?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "8"
+   ]
+  },
+  {
+   "id": "science-c12-489",
+   "type": "mcq",
+   "q": "Mendel's law of independent assortment holds good for genes that are",
+   "options": [
+    "on different chromosomes (or far apart)",
+    "very close on the same chromosome",
+    "on the X chromosome only",
+    "mutated"
+   ]
+  },
+  {
+   "id": "science-c12-490",
+   "type": "mcq",
+   "q": "Morgan's work on Drosophila showed that genes located close together on the same chromosome",
+   "options": [
+    "always assort independently",
+    "show linkage and a low frequency of recombination",
+    "never recombine at all",
+    "are always on the X chromosome"
+   ]
+  },
+  {
+   "id": "science-c12-491",
+   "type": "mcq",
+   "q": "Phenylketonuria is an autosomal recessive disorder. Two phenotypically normal carrier parents have a child. The probability that the child is affected is",
+   "options": [
+    "0",
+    "1/4",
+    "1/2",
+    "3/4"
+   ]
+  },
+  {
+   "id": "science-c12-492",
+   "type": "short",
+   "q": "What are mutations? Name two types.",
+   "proposedAnswer": "Mutations are sudden heritable changes in the DNA of an organism. They include point mutations, which change a single base pair (such as in sickle-cell anaemia), and chromosomal mutations such as deletion, duplication or changes in chromosome number.",
+   "keyPoints": [
+    "Sudden heritable change in DNA",
+    "Point mutation",
+    "Chromosomal aberration"
+   ]
+  },
+  {
+   "id": "science-c12-493",
+   "type": "short",
+   "q": "What is adaptive radiation? Give one example.",
+   "proposedAnswer": "Adaptive radiation is the evolution of many different forms from a common ancestor in one geographical area, each adapted to a different habitat or way of life. Darwin's finches in the Galapagos Islands, with differently shaped beaks, are an example.",
+   "keyPoints": [
+    "Many forms from one ancestor",
+    "Adapted to different niches",
+    "Example Darwin's finches or Australian marsupials"
+   ]
+  },
+  {
+   "id": "science-c12-494",
+   "type": "mcq",
+   "q": "The restriction enzyme EcoRI is obtained from",
+   "options": [
+    "Escherichia coli",
+    "Thermus aquaticus",
+    "yeast",
+    "Rhizobium"
+   ]
+  },
+  {
+   "id": "science-c12-495",
+   "type": "mcq",
+   "q": "A plasmid vector such as pBR322 contains genes for",
+   "options": [
+    "antibiotic resistance, which act as selectable markers",
+    "photosynthesis",
+    "insulin synthesis only",
+    "cell wall formation"
+   ]
+  },
+  {
+   "id": "science-c12-496",
+   "type": "mcq",
+   "q": "A high biochemical oxygen demand (BOD) of a water sample indicates",
+   "options": [
+    "clean water with few microbes",
+    "water rich in organic pollutants",
+    "water rich in dissolved oxygen only",
+    "distilled water"
+   ]
+  },
+  {
+   "id": "science-c12-497",
+   "type": "mcq",
+   "q": "Water hyacinth is a serious problem in Indian water bodies because it",
+   "options": [
+    "is a native slow-growing plant",
+    "grows very rapidly and depletes oxygen, harming aquatic life",
+    "adds extra oxygen to the water",
+    "is eaten by all fish"
+   ]
+  },
+  {
+   "id": "science-c12-498",
+   "type": "mcq",
+   "q": "In the gene gun (biolistics) method of gene transfer into plant cells, the DNA is",
+   "options": [
+    "coated on microscopic gold or tungsten particles fired into the cells",
+    "injected into the nucleus with a fine needle",
+    "carried by a virus only",
+    "added with calcium ions to bacteria"
+   ]
+  },
+  {
+   "id": "science-c12-499",
+   "type": "short",
+   "q": "Name two methods of ex situ conservation.",
+   "proposedAnswer": "Examples are zoos and botanical gardens, seed banks, gene banks and cryopreservation of gametes at very low temperature in liquid nitrogen.",
+   "keyPoints": [
+    "Conservation outside the natural habitat",
+    "Zoos or botanical gardens",
+    "Seed banks or cryopreservation"
+   ]
+  },
+  {
+   "id": "science-c12-500",
+   "type": "short",
+   "q": "Explain the greenhouse effect and name one consequence of its enhancement.",
+   "proposedAnswer": "Greenhouse gases such as carbon dioxide and methane absorb the infrared radiation emitted by the Earth and re-radiate part of it back, keeping the planet warm. Increased emissions from human activity strengthen this effect and cause global warming, leading to melting of ice and rising sea level.",
+   "keyPoints": [
+    "Gases absorb outgoing infrared radiation",
+    "Natural effect keeps Earth warm",
+    "Enhancement causes global warming and sea-level rise"
+   ]
+  }
+ ]
+}

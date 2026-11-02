@@ -1,0 +1,5518 @@
+{
+ "class": 9,
+ "subject": "science",
+ "items": [
+  {
+   "id": "science-c9-001",
+   "type": "mcq",
+   "q": "Which state of matter has a definite volume but no definite shape?",
+   "options": [
+    "Liquid",
+    "Solid",
+    "Gas",
+    "Plasma"
+   ]
+  },
+  {
+   "id": "science-c9-002",
+   "type": "mcq",
+   "q": "What is the SI unit of temperature?",
+   "options": [
+    "Degree Celsius",
+    "Kelvin",
+    "Fahrenheit",
+    "Joule"
+   ]
+  },
+  {
+   "id": "science-c9-003",
+   "type": "mcq",
+   "q": "The change of a solid directly into a gas without passing through the liquid state is called",
+   "options": [
+    "evaporation",
+    "condensation",
+    "sublimation",
+    "fusion"
+   ]
+  },
+  {
+   "id": "science-c9-004",
+   "type": "mcq",
+   "q": "Water freezes at 0 °C. On the kelvin scale, rounded to a whole number, this temperature is",
+   "options": [
+    "0 K",
+    "100 K",
+    "373 K",
+    "273 K"
+   ]
+  },
+  {
+   "id": "science-c9-005",
+   "type": "mcq",
+   "q": "Gases can be compressed easily because",
+   "options": [
+    "their particles have very large spaces between them",
+    "their particles are very heavy",
+    "their particles are tightly packed",
+    "their particles do not move"
+   ]
+  },
+  {
+   "id": "science-c9-006",
+   "type": "mcq",
+   "q": "Wet clothes dry faster on a windy day than on a still day because the wind",
+   "options": [
+    "makes the water in the clothes boil",
+    "carries away water vapour, which speeds up evaporation",
+    "freezes the water on the clothes",
+    "increases the humidity of the air near the clothes"
+   ]
+  },
+  {
+   "id": "science-c9-007",
+   "type": "mcq",
+   "q": "While ice is melting in a beaker over a flame, the thermometer keeps reading 0 °C even though heat is supplied. This is because",
+   "options": [
+    "the thermometer is faulty",
+    "all the heat is lost to the surroundings",
+    "the heat supplied is used to overcome the forces between particles (latent heat of fusion)",
+    "ice does not absorb heat while melting"
+   ]
+  },
+  {
+   "id": "science-c9-008",
+   "type": "short",
+   "q": "What is evaporation? Name two factors that increase its rate.",
+   "proposedAnswer": "Evaporation is the change of a liquid into vapour at any temperature below its boiling point, taking place at the surface. Its rate increases with a larger surface area and with a higher temperature (also with less humidity and more wind).",
+   "keyPoints": [
+    "Liquid changes to vapour below boiling point",
+    "Surface phenomenon",
+    "Rate rises with surface area",
+    "Rate rises with temperature, wind or lower humidity"
+   ]
+  },
+  {
+   "id": "science-c9-009",
+   "type": "short",
+   "q": "Why do we feel cooler after sweating when we sit under a fan?",
+   "proposedAnswer": "Sweat on the skin evaporates. The particles of water need energy to change into vapour and take this latent heat from the body, which cools us. The fan blows away the vapour and makes evaporation faster.",
+   "keyPoints": [
+    "Sweat evaporates",
+    "Evaporation takes heat from the body",
+    "Fan speeds up evaporation",
+    "So more cooling"
+   ]
+  },
+  {
+   "id": "science-c9-010",
+   "type": "mcq",
+   "q": "Which of the following is a pure substance?",
+   "options": [
+    "Air",
+    "Milk",
+    "Sea water",
+    "Distilled water"
+   ]
+  },
+  {
+   "id": "science-c9-011",
+   "type": "mcq",
+   "q": "Which of the following is a mixture?",
+   "options": [
+    "Brass",
+    "Water",
+    "Iron",
+    "Oxygen"
+   ]
+  },
+  {
+   "id": "science-c9-012",
+   "type": "mcq",
+   "q": "Common salt is obtained from sea water by",
+   "options": [
+    "filtration",
+    "evaporation",
+    "sublimation",
+    "using a magnet"
+   ]
+  },
+  {
+   "id": "science-c9-013",
+   "type": "mcq",
+   "q": "Which method separates a mixture of common salt and ammonium chloride?",
+   "options": [
+    "Filtration",
+    "Distillation",
+    "Sublimation",
+    "Chromatography"
+   ]
+  },
+  {
+   "id": "science-c9-014",
+   "type": "mcq",
+   "q": "Which of the following shows the Tyndall effect?",
+   "options": [
+    "Salt solution",
+    "Sugar solution",
+    "Copper sulphate solution",
+    "Milk"
+   ]
+  },
+  {
+   "id": "science-c9-015",
+   "type": "mcq",
+   "q": "A separating funnel can be used to separate oil from water because the two liquids",
+   "options": [
+    "are immiscible and form separate layers",
+    "are miscible",
+    "have the same density",
+    "have the same boiling point"
+   ]
+  },
+  {
+   "id": "science-c9-016",
+   "type": "mcq",
+   "q": "A beam of light is clearly visible when passed through a liquid. The particles do not settle on standing and cannot be removed by ordinary filtration. The liquid is a",
+   "options": [
+    "true solution",
+    "colloid",
+    "suspension",
+    "pure compound"
+   ]
+  },
+  {
+   "id": "science-c9-017",
+   "type": "short",
+   "q": "Give two differences between a compound and a mixture.",
+   "proposedAnswer": "A compound is formed by chemical combination of elements in a fixed ratio by mass and has properties different from its elements. A mixture can have any proportion of its components, which keep their own properties and can be separated by physical methods.",
+   "keyPoints": [
+    "Compound has fixed composition, mixture variable",
+    "Compound properties differ from elements",
+    "Mixture components keep properties",
+    "Mixture separated by physical methods"
+   ]
+  },
+  {
+   "id": "science-c9-018",
+   "type": "short",
+   "q": "How would you separate a mixture of sand, common salt and iron filings?",
+   "proposedAnswer": "First pass a magnet over the mixture to remove the iron filings. Add water to the remaining mixture to dissolve the salt and filter it, so the sand stays on the filter paper. Evaporate the filtrate to get the salt.",
+   "keyPoints": [
+    "Magnet removes iron",
+    "Dissolve salt in water",
+    "Filter to separate sand",
+    "Evaporate filtrate to get salt"
+   ]
+  },
+  {
+   "id": "science-c9-019",
+   "type": "mcq",
+   "q": "The law of conservation of mass was put forward by",
+   "options": [
+    "John Dalton",
+    "Joseph Proust",
+    "Antoine Lavoisier",
+    "Robert Boyle"
+   ]
+  },
+  {
+   "id": "science-c9-020",
+   "type": "mcq",
+   "q": "The chemical symbol of sodium is",
+   "options": [
+    "S",
+    "So",
+    "Sd",
+    "Na"
+   ]
+  },
+  {
+   "id": "science-c9-021",
+   "type": "mcq",
+   "q": "What is the chemical formula of water?",
+   "options": [
+    "H2O",
+    "HO2",
+    "H2O2",
+    "OH"
+   ]
+  },
+  {
+   "id": "science-c9-022",
+   "type": "mcq",
+   "q": "How many atoms are present in one molecule of sulphuric acid, H2SO4?",
+   "options": [
+    "6",
+    "7",
+    "8",
+    "4"
+   ]
+  },
+  {
+   "id": "science-c9-023",
+   "type": "mcq",
+   "q": "The molecular mass of carbon dioxide, CO2, is (C = 12 u, O = 16 u)",
+   "options": [
+    "28 u",
+    "32 u",
+    "44 u",
+    "56 u"
+   ]
+  },
+  {
+   "id": "science-c9-024",
+   "type": "mcq",
+   "q": "How many moles are present in 11 g of carbon dioxide (molar mass 44 g/mol)?",
+   "options": [
+    "4",
+    "0.5",
+    "2",
+    "0.25"
+   ]
+  },
+  {
+   "id": "science-c9-025",
+   "type": "mcq",
+   "q": "Samples of pure water from a river and from rain are both found to contain hydrogen and oxygen in the mass ratio 1 : 8. Which law does this illustrate?",
+   "options": [
+    "Law of constant proportions",
+    "Law of conservation of mass",
+    "Avogadro's law",
+    "Law of multiple proportions"
+   ]
+  },
+  {
+   "id": "science-c9-026",
+   "type": "short",
+   "q": "State the law of conservation of mass and give an example.",
+   "proposedAnswer": "In a chemical reaction the total mass of the reactants equals the total mass of the products; mass is neither created nor destroyed. For example, when 12 g of carbon burns in 32 g of oxygen, 44 g of carbon dioxide is formed.",
+   "keyPoints": [
+    "Mass is neither created nor destroyed",
+    "Total mass of reactants equals products",
+    "Suitable example"
+   ]
+  },
+  {
+   "id": "science-c9-027",
+   "type": "short",
+   "q": "Calculate the number of molecules in 0.5 mole of a gas. (Avogadro constant = 6.022 × 10^23 per mole)",
+   "proposedAnswer": "Number of molecules = moles × Avogadro constant = 0.5 × 6.022 × 10^23 = 3.011 × 10^23 molecules.",
+   "keyPoints": [
+    "N = n × NA",
+    "0.5 × 6.022 × 10^23",
+    "3.011 × 10^23 molecules"
+   ]
+  },
+  {
+   "id": "science-c9-028",
+   "type": "mcq",
+   "q": "Who discovered the atomic nucleus through the gold foil experiment?",
+   "options": [
+    "J.J. Thomson",
+    "Ernest Rutherford",
+    "Niels Bohr",
+    "James Chadwick"
+   ]
+  },
+  {
+   "id": "science-c9-029",
+   "type": "mcq",
+   "q": "Which subatomic particle carries no electric charge?",
+   "options": [
+    "Proton",
+    "Electron",
+    "Neutron",
+    "Alpha particle"
+   ]
+  },
+  {
+   "id": "science-c9-030",
+   "type": "mcq",
+   "q": "The electron was discovered by",
+   "options": [
+    "E. Goldstein",
+    "Ernest Rutherford",
+    "James Chadwick",
+    "J.J. Thomson"
+   ]
+  },
+  {
+   "id": "science-c9-031",
+   "type": "mcq",
+   "q": "The atomic number of an element is equal to the number of",
+   "options": [
+    "protons in its atom",
+    "neutrons in its atom",
+    "protons plus neutrons",
+    "neutrons minus electrons"
+   ]
+  },
+  {
+   "id": "science-c9-032",
+   "type": "mcq",
+   "q": "What is the maximum number of electrons that the M shell (third shell) can hold?",
+   "options": [
+    "8",
+    "18",
+    "32",
+    "2"
+   ]
+  },
+  {
+   "id": "science-c9-033",
+   "type": "mcq",
+   "q": "An atom has the electronic configuration 2, 8, 1. Its valency is",
+   "options": [
+    "8",
+    "2",
+    "1",
+    "3"
+   ]
+  },
+  {
+   "id": "science-c9-034",
+   "type": "mcq",
+   "q": "Two atoms both have mass number 40, but their atomic numbers are 18 and 20. They are called",
+   "options": [
+    "isotopes",
+    "isotones",
+    "isomers",
+    "isobars"
+   ]
+  },
+  {
+   "id": "science-c9-035",
+   "type": "short",
+   "q": "State two drawbacks of Rutherford's model of the atom.",
+   "proposedAnswer": "According to the model, electrons revolving around the nucleus would be accelerating and lose energy, so they should spiral into the nucleus and the atom would collapse. The model also could not explain why atoms are stable.",
+   "keyPoints": [
+    "Revolving electrons would radiate energy",
+    "Atom would collapse",
+    "Cannot explain stability of atom"
+   ]
+  },
+  {
+   "id": "science-c9-036",
+   "type": "short",
+   "q": "Chlorine occurs as two isotopes, Cl-35 and Cl-37, yet its atomic mass is given as 35.5 u. Explain.",
+   "proposedAnswer": "The atomic mass of an element is the average of the masses of its isotopes weighted by their natural abundance. Cl-35 is more abundant (about three times Cl-37), so the average is 35.5 u, not a whole number.",
+   "keyPoints": [
+    "Average of isotope masses",
+    "Weighted by abundance",
+    "Cl-35 more abundant than Cl-37"
+   ]
+  },
+  {
+   "id": "science-c9-037",
+   "type": "mcq",
+   "q": "Who first observed cells in a thin slice of cork?",
+   "options": [
+    "Robert Hooke",
+    "Robert Brown",
+    "Rudolf Virchow",
+    "Matthias Schleiden"
+   ]
+  },
+  {
+   "id": "science-c9-038",
+   "type": "mcq",
+   "q": "Which cell organelle is called the powerhouse of the cell?",
+   "options": [
+    "Ribosome",
+    "Mitochondrion",
+    "Golgi apparatus",
+    "Lysosome"
+   ]
+  },
+  {
+   "id": "science-c9-039",
+   "type": "mcq",
+   "q": "The cell wall of a plant cell is mainly made of",
+   "options": [
+    "protein",
+    "chitin",
+    "cellulose",
+    "starch"
+   ]
+  },
+  {
+   "id": "science-c9-040",
+   "type": "mcq",
+   "q": "Who discovered the nucleus in the cell?",
+   "options": [
+    "Robert Hooke",
+    "Anton van Leeuwenhoek",
+    "Rudolf Virchow",
+    "Robert Brown"
+   ]
+  },
+  {
+   "id": "science-c9-041",
+   "type": "mcq",
+   "q": "Osmosis is the movement of",
+   "options": [
+    "water across a selectively permeable membrane from a region of higher water concentration to lower water concentration",
+    "solute particles from low to high concentration using energy",
+    "gases from a region of high to low pressure",
+    "solid particles through the cell wall"
+   ]
+  },
+  {
+   "id": "science-c9-042",
+   "type": "mcq",
+   "q": "Which organelles are known as the suicide bags of the cell?",
+   "options": [
+    "Ribosomes",
+    "Lysosomes",
+    "Vacuoles",
+    "Plastids"
+   ]
+  },
+  {
+   "id": "science-c9-043",
+   "type": "mcq",
+   "q": "Red blood cells are placed in a very concentrated salt solution. They shrink because",
+   "options": [
+    "water enters the cells by osmosis",
+    "salt molecules leave the cells",
+    "water leaves the cells by osmosis",
+    "the cells divide rapidly"
+   ]
+  },
+  {
+   "id": "science-c9-044",
+   "type": "short",
+   "q": "State two differences between prokaryotic and eukaryotic cells.",
+   "proposedAnswer": "A prokaryotic cell has no well-defined nucleus (no nuclear membrane) and no membrane-bound organelles, while a eukaryotic cell has a true nucleus and membrane-bound organelles. Prokaryotic cells are generally smaller, for example bacteria.",
+   "keyPoints": [
+    "Prokaryote lacks nuclear membrane",
+    "Eukaryote has true nucleus",
+    "Prokaryote lacks membrane-bound organelles",
+    "Prokaryotes are smaller"
+   ]
+  },
+  {
+   "id": "science-c9-045",
+   "type": "short",
+   "q": "Potato cubes are placed in distilled water and in a concentrated sugar solution. Predict what happens to each and explain.",
+   "proposedAnswer": "In distilled water the potato cubes gain water by osmosis and become firm and larger. In concentrated sugar solution they lose water by osmosis and shrink, because water moves toward the region with the lower water concentration.",
+   "keyPoints": [
+    "Distilled water: water enters, cube swells",
+    "Sugar solution: water leaves, cube shrinks",
+    "Water moves by osmosis across the membrane"
+   ]
+  },
+  {
+   "id": "science-c9-046",
+   "type": "mcq",
+   "q": "Which tissue carries water and minerals upward in a plant?",
+   "options": [
+    "Phloem",
+    "Parenchyma",
+    "Collenchyma",
+    "Xylem"
+   ]
+  },
+  {
+   "id": "science-c9-047",
+   "type": "mcq",
+   "q": "Which structure connects muscle to bone?",
+   "options": [
+    "Tendon",
+    "Ligament",
+    "Cartilage",
+    "Areolar tissue"
+   ]
+  },
+  {
+   "id": "science-c9-048",
+   "type": "mcq",
+   "q": "The structural and functional unit of nervous tissue is the",
+   "options": [
+    "nephron",
+    "neuron",
+    "alveolus",
+    "osteocyte"
+   ]
+  },
+  {
+   "id": "science-c9-049",
+   "type": "mcq",
+   "q": "Which meristem is responsible for the increase in the girth (thickness) of a stem?",
+   "options": [
+    "Apical meristem",
+    "Intercalary meristem",
+    "Lateral meristem",
+    "Parenchyma"
+   ]
+  },
+  {
+   "id": "science-c9-050",
+   "type": "mcq",
+   "q": "Which of these muscles works under the control of our will?",
+   "options": [
+    "The muscle of the heart wall",
+    "The muscle in the wall of the intestine",
+    "The muscle that controls the pupil of the eye",
+    "The biceps muscle of the arm"
+   ]
+  },
+  {
+   "id": "science-c9-051",
+   "type": "mcq",
+   "q": "A leaf that has lost much water droops, and the guard cells of its stomata change shape. The guard cells mainly control",
+   "options": [
+    "the opening and closing of the stomata",
+    "the transport of food to the roots",
+    "the thickness of the cell wall",
+    "the growth in length of the leaf"
+   ]
+  },
+  {
+   "id": "science-c9-052",
+   "type": "mcq",
+   "q": "Leaf stalks and tender stems bend in the wind without breaking. Which tissue gives them this flexibility?",
+   "options": [
+    "Sclerenchyma",
+    "Collenchyma",
+    "Xylem vessels",
+    "Cork"
+   ]
+  },
+  {
+   "id": "science-c9-053",
+   "type": "short",
+   "q": "Write two differences between xylem and phloem.",
+   "proposedAnswer": "Xylem transports water and minerals from roots to other parts, and most of its cells are dead. Phloem transports food (sugars) prepared in leaves to other parts, and its sieve tubes are living cells.",
+   "keyPoints": [
+    "Xylem carries water and minerals",
+    "Phloem carries food",
+    "Xylem mostly dead cells",
+    "Phloem has living sieve tubes"
+   ]
+  },
+  {
+   "id": "science-c9-054",
+   "type": "short",
+   "q": "What would happen to a shoot if its apical meristem were removed? Give a reason.",
+   "proposedAnswer": "The shoot would stop growing in length, because cell division at the tip, which adds new cells that elongate the stem, would no longer take place.",
+   "keyPoints": [
+    "Growth in length stops",
+    "Apical meristem divides at the tip",
+    "Division adds cells that elongate stem"
+   ]
+  },
+  {
+   "id": "science-c9-055",
+   "type": "mcq",
+   "q": "What is the SI unit of velocity?",
+   "options": [
+    "m/s²",
+    "m",
+    "m/s",
+    "km"
+   ]
+  },
+  {
+   "id": "science-c9-056",
+   "type": "mcq",
+   "q": "The slope of a distance-time graph gives",
+   "options": [
+    "acceleration",
+    "displacement",
+    "distance",
+    "speed"
+   ]
+  },
+  {
+   "id": "science-c9-057",
+   "type": "mcq",
+   "q": "Which of these quantities has both magnitude and direction?",
+   "options": [
+    "Velocity",
+    "Speed",
+    "Distance",
+    "Time"
+   ]
+  },
+  {
+   "id": "science-c9-058",
+   "type": "mcq",
+   "q": "A car covers 60 km in 1.5 hours. Its average speed is",
+   "options": [
+    "30 km/h",
+    "40 km/h",
+    "45 km/h",
+    "90 km/h"
+   ]
+  },
+  {
+   "id": "science-c9-059",
+   "type": "mcq",
+   "q": "A body starts from rest and has a uniform acceleration of 2 m/s². Its velocity after 5 s is",
+   "options": [
+    "5 m/s",
+    "7 m/s",
+    "10 m/s",
+    "25 m/s"
+   ]
+  },
+  {
+   "id": "science-c9-060",
+   "type": "mcq",
+   "q": "An athlete completes exactly one full round of a circular track of radius r. Her displacement is",
+   "options": [
+    "2πr",
+    "πr",
+    "r",
+    "zero"
+   ]
+  },
+  {
+   "id": "science-c9-061",
+   "type": "mcq",
+   "q": "A car moving at 20 m/s is brought to rest in 5 s by uniform braking. Taking the direction of motion as positive, its acceleration is",
+   "options": [
+    "−4 m/s²",
+    "+4 m/s²",
+    "−100 m/s²",
+    "+100 m/s²"
+   ]
+  },
+  {
+   "id": "science-c9-062",
+   "type": "short",
+   "q": "Differentiate between distance and displacement.",
+   "proposedAnswer": "Distance is the total length of the path travelled and is a scalar that is never negative. Displacement is the shortest straight-line distance from the initial to the final position with a direction, and it is a vector that can be zero.",
+   "keyPoints": [
+    "Distance is path length, scalar",
+    "Displacement is shortest change in position, vector",
+    "Displacement can be zero or negative"
+   ]
+  },
+  {
+   "id": "science-c9-063",
+   "type": "short",
+   "q": "A bus increases its speed from 10 m/s to 30 m/s in 10 s. Find its acceleration and the distance it covers in this time.",
+   "proposedAnswer": "Acceleration a = (30 − 10) / 10 = 2 m/s². Distance s = (v² − u²) / 2a = (900 − 100) / 4 = 200 m.",
+   "keyPoints": [
+    "a = (v − u)/t = 2 m/s²",
+    "s = (v² − u²)/2a",
+    "s = 200 m"
+   ]
+  },
+  {
+   "id": "science-c9-064",
+   "type": "mcq",
+   "q": "The law of inertia is which of Newton's laws of motion?",
+   "options": [
+    "Second law",
+    "First law",
+    "Third law",
+    "Law of gravitation"
+   ]
+  },
+  {
+   "id": "science-c9-065",
+   "type": "mcq",
+   "q": "The SI unit of force is the",
+   "options": [
+    "joule",
+    "watt",
+    "newton",
+    "pascal"
+   ]
+  },
+  {
+   "id": "science-c9-066",
+   "type": "mcq",
+   "q": "The momentum of a body is defined as",
+   "options": [
+    "mass divided by velocity",
+    "mass plus velocity",
+    "mass times acceleration",
+    "mass times velocity"
+   ]
+  },
+  {
+   "id": "science-c9-067",
+   "type": "mcq",
+   "q": "What force is needed to give a 5 kg body an acceleration of 3 m/s²?",
+   "options": [
+    "15 N",
+    "8 N",
+    "1.67 N",
+    "60 N"
+   ]
+  },
+  {
+   "id": "science-c9-068",
+   "type": "mcq",
+   "q": "A rocket moves forward by throwing hot gases backward. This is an example of",
+   "options": [
+    "Newton's first law",
+    "Newton's third law",
+    "the law of gravitation",
+    "the law of conservation of energy"
+   ]
+  },
+  {
+   "id": "science-c9-069",
+   "type": "mcq",
+   "q": "Passengers in a bus are thrown forward when the driver brakes suddenly. The reason is that",
+   "options": [
+    "the bus pushes the passengers forward",
+    "gravity suddenly increases",
+    "the passengers' bodies tend to continue in their state of motion",
+    "air pushes them from behind"
+   ]
+  },
+  {
+   "id": "science-c9-070",
+   "type": "mcq",
+   "q": "A 4 kg gun fires a 0.02 kg bullet at 100 m/s. The recoil speed of the gun is",
+   "options": [
+    "2 m/s",
+    "0.05 m/s",
+    "5 m/s",
+    "0.5 m/s"
+   ]
+  },
+  {
+   "id": "science-c9-071",
+   "type": "short",
+   "q": "State Newton's second law of motion and write its mathematical form.",
+   "proposedAnswer": "The rate of change of momentum of a body is directly proportional to the applied unbalanced force and takes place in the direction of the force. For constant mass, F = ma.",
+   "keyPoints": [
+    "Rate of change of momentum proportional to force",
+    "Same direction as force",
+    "F = ma"
+   ]
+  },
+  {
+   "id": "science-c9-072",
+   "type": "short",
+   "q": "Why does a cricketer pull his hands backward while catching a fast cricket ball?",
+   "proposedAnswer": "By moving the hands back, the cricketer increases the time over which the ball's momentum is brought to zero. A longer time means a smaller rate of change of momentum, so the force on the hands is smaller and they are not hurt.",
+   "keyPoints": [
+    "Time of stopping increases",
+    "Rate of change of momentum decreases",
+    "Force on hands is less"
+   ]
+  },
+  {
+   "id": "science-c9-073",
+   "type": "mcq",
+   "q": "The acceleration due to gravity near the Earth's surface is about",
+   "options": [
+    "9.8 m/s²",
+    "98 m/s²",
+    "0.98 m/s²",
+    "6.7 m/s²"
+   ]
+  },
+  {
+   "id": "science-c9-074",
+   "type": "mcq",
+   "q": "Weight of an object is measured in",
+   "options": [
+    "kilogram",
+    "newton",
+    "metre",
+    "joule"
+   ]
+  },
+  {
+   "id": "science-c9-075",
+   "type": "mcq",
+   "q": "What is the weight of a 10 kg object on Earth? (g = 9.8 m/s²)",
+   "options": [
+    "10 N",
+    "9.8 N",
+    "98 N",
+    "980 N"
+   ]
+  },
+  {
+   "id": "science-c9-076",
+   "type": "mcq",
+   "q": "The acceleration due to gravity on the Moon is about one-sixth of that on Earth. A person of mass 60 kg on the Moon has a mass of",
+   "options": [
+    "10 kg",
+    "360 kg",
+    "6 kg",
+    "60 kg"
+   ]
+  },
+  {
+   "id": "science-c9-077",
+   "type": "mcq",
+   "q": "A heavy stone and a light feather are dropped together from the same height in a vacuum. They",
+   "options": [
+    "reach the ground at the same time",
+    "the stone reaches first",
+    "the feather reaches first",
+    "never reach the ground"
+   ]
+  },
+  {
+   "id": "science-c9-078",
+   "type": "mcq",
+   "q": "If the distance between two masses is doubled, the gravitational force between them becomes",
+   "options": [
+    "half",
+    "one-fourth",
+    "double",
+    "four times"
+   ]
+  },
+  {
+   "id": "science-c9-079",
+   "type": "short",
+   "q": "State the universal law of gravitation.",
+   "proposedAnswer": "Every object in the universe attracts every other object with a force that is directly proportional to the product of their masses and inversely proportional to the square of the distance between them, F = G m1 m2 / r².",
+   "keyPoints": [
+    "Proportional to product of masses",
+    "Inversely proportional to square of distance",
+    "F = G m1 m2 / r²"
+   ]
+  },
+  {
+   "id": "science-c9-080",
+   "type": "short",
+   "q": "Why is the value of g slightly greater at the poles than at the equator?",
+   "proposedAnswer": "The Earth is not a perfect sphere; it is slightly flattened at the poles, so the poles are nearer to the centre of the Earth. Since g is inversely proportional to the square of the distance from the centre, g is larger at the poles.",
+   "keyPoints": [
+    "Earth is flattened at poles",
+    "Poles are closer to the centre",
+    "g varies inversely with square of radius"
+   ]
+  },
+  {
+   "id": "science-c9-081",
+   "type": "mcq",
+   "q": "The SI unit of work is the",
+   "options": [
+    "watt",
+    "newton",
+    "joule",
+    "pascal"
+   ]
+  },
+  {
+   "id": "science-c9-082",
+   "type": "mcq",
+   "q": "The energy possessed by a body due to its motion is called",
+   "options": [
+    "potential energy",
+    "chemical energy",
+    "heat energy",
+    "kinetic energy"
+   ]
+  },
+  {
+   "id": "science-c9-083",
+   "type": "mcq",
+   "q": "What is the potential energy of a 2 kg object at a height of 5 m? (take g = 10 m/s²)",
+   "options": [
+    "100 J",
+    "10 J",
+    "50 J",
+    "20 J"
+   ]
+  },
+  {
+   "id": "science-c9-084",
+   "type": "mcq",
+   "q": "The kinetic energy of a 2 kg object moving at 3 m/s is",
+   "options": [
+    "6 J",
+    "9 J",
+    "18 J",
+    "3 J"
+   ]
+  },
+  {
+   "id": "science-c9-085",
+   "type": "mcq",
+   "q": "A girl carries a bag and walks along a level road. The work done by the upward force she applies on the bag is",
+   "options": [
+    "positive",
+    "negative",
+    "zero",
+    "infinite"
+   ]
+  },
+  {
+   "id": "science-c9-086",
+   "type": "mcq",
+   "q": "A 60 W bulb is switched on for 5 hours. The electrical energy it uses is",
+   "options": [
+    "0.012 kWh",
+    "3 kWh",
+    "0.6 kWh",
+    "0.3 kWh"
+   ]
+  },
+  {
+   "id": "science-c9-087",
+   "type": "short",
+   "q": "State the law of conservation of energy.",
+   "proposedAnswer": "Energy can neither be created nor destroyed; it can only be changed from one form into another. The total energy of an isolated system remains constant.",
+   "keyPoints": [
+    "Energy is not created or destroyed",
+    "It changes from one form to another",
+    "Total energy remains constant"
+   ]
+  },
+  {
+   "id": "science-c9-088",
+   "type": "short",
+   "q": "Describe the energy changes in a swinging pendulum bob.",
+   "proposedAnswer": "At the extreme positions the bob is momentarily at rest and has maximum potential energy. As it swings down, potential energy changes to kinetic energy, which is maximum at the lowest point. The total energy stays constant if air resistance is ignored.",
+   "keyPoints": [
+    "Extreme positions: maximum PE",
+    "Lowest point: maximum KE",
+    "PE and KE interconvert",
+    "Total energy constant"
+   ]
+  },
+  {
+   "id": "science-c9-089",
+   "type": "mcq",
+   "q": "Sound cannot travel through",
+   "options": [
+    "a vacuum",
+    "water",
+    "steel",
+    "air"
+   ]
+  },
+  {
+   "id": "science-c9-090",
+   "type": "mcq",
+   "q": "The SI unit of frequency is the",
+   "options": [
+    "metre",
+    "hertz",
+    "decibel",
+    "newton"
+   ]
+  },
+  {
+   "id": "science-c9-091",
+   "type": "mcq",
+   "q": "The audible range of frequency for normal human ears is about",
+   "options": [
+    "2 Hz to 200 Hz",
+    "200 Hz to 2000 Hz",
+    "20 Hz to 20 000 Hz",
+    "2000 Hz to 200 000 Hz"
+   ]
+  },
+  {
+   "id": "science-c9-092",
+   "type": "mcq",
+   "q": "Sound waves in air are",
+   "options": [
+    "transverse waves",
+    "electromagnetic waves",
+    "stationary waves only",
+    "longitudinal waves"
+   ]
+  },
+  {
+   "id": "science-c9-093",
+   "type": "mcq",
+   "q": "To hear a distinct echo, the reflecting surface must be at least about how far from the source of sound (in air, ordinary temperature)?",
+   "options": [
+    "17 m",
+    "1.7 m",
+    "170 m",
+    "7 m"
+   ]
+  },
+  {
+   "id": "science-c9-094",
+   "type": "mcq",
+   "q": "We hear thunder some seconds after seeing the lightning because",
+   "options": [
+    "thunder is produced after the lightning",
+    "light travels much faster than sound",
+    "the sound is absorbed by clouds",
+    "lightning produces no sound"
+   ]
+  },
+  {
+   "id": "science-c9-095",
+   "type": "short",
+   "q": "Distinguish between loudness and pitch of a sound.",
+   "proposedAnswer": "Loudness depends on the amplitude of the vibration; a larger amplitude gives a louder sound. Pitch depends on the frequency; a higher frequency gives a higher pitch (shriller sound).",
+   "keyPoints": [
+    "Loudness depends on amplitude",
+    "Pitch depends on frequency",
+    "Higher frequency means higher pitch"
+   ]
+  },
+  {
+   "id": "science-c9-096",
+   "type": "short",
+   "q": "A person fires a gun and hears its echo from a cliff after 2 s. If the speed of sound is 340 m/s, how far is the cliff?",
+   "proposedAnswer": "The sound travels to the cliff and back, so total distance = 340 × 2 = 680 m. The cliff is half of this distance away, i.e. 340 m.",
+   "keyPoints": [
+    "Total path = speed × time = 680 m",
+    "Path is to the cliff and back",
+    "Distance of cliff = 340 m"
+   ]
+  },
+  {
+   "id": "science-c9-097",
+   "type": "mcq",
+   "q": "Which of the following is a kharif crop?",
+   "options": [
+    "Wheat",
+    "Gram",
+    "Paddy",
+    "Mustard"
+   ]
+  },
+  {
+   "id": "science-c9-098",
+   "type": "mcq",
+   "q": "Which of the following is a rabi crop?",
+   "options": [
+    "Paddy",
+    "Maize",
+    "Soyabean",
+    "Wheat"
+   ]
+  },
+  {
+   "id": "science-c9-099",
+   "type": "mcq",
+   "q": "The rearing of fish is called",
+   "options": [
+    "pisciculture",
+    "apiculture",
+    "sericulture",
+    "horticulture"
+   ]
+  },
+  {
+   "id": "science-c9-100",
+   "type": "mcq",
+   "q": "Apiculture is the rearing of",
+   "options": [
+    "silkworms",
+    "honey bees",
+    "fish",
+    "poultry birds"
+   ]
+  },
+  {
+   "id": "science-c9-101",
+   "type": "mcq",
+   "q": "Manure is",
+   "options": [
+    "a chemical fertiliser made in factories",
+    "a pesticide",
+    "an organic substance made by the decomposition of animal waste and plant residues",
+    "a mineral mined from the ground"
+   ]
+  },
+  {
+   "id": "science-c9-102",
+   "type": "mcq",
+   "q": "Why do farmers grow different crops, such as a legume after a cereal, on the same field in succession?",
+   "options": [
+    "To increase the number of weeds",
+    "To use more fertiliser",
+    "To make the soil acidic",
+    "To help maintain soil fertility and reduce pests and diseases"
+   ]
+  },
+  {
+   "id": "science-c9-103",
+   "type": "short",
+   "q": "What are macronutrients? Name any three.",
+   "proposedAnswer": "Macronutrients are the nutrients that plants need in large quantities. Examples are nitrogen, phosphorus, potassium, calcium, magnesium and sulphur.",
+   "keyPoints": [
+    "Needed by plants in large amounts",
+    "Three named examples such as N, P, K"
+   ]
+  },
+  {
+   "id": "science-c9-104",
+   "type": "short",
+   "q": "What is intercropping? Give one example and one advantage.",
+   "proposedAnswer": "Intercropping is growing two or more crops simultaneously in the same field in a definite pattern of rows. An example is soyabean with maize. Its advantage is that it reduces the risk of crop failure and makes better use of resources.",
+   "keyPoints": [
+    "Two or more crops in definite row pattern",
+    "Example such as soyabean with maize",
+    "Better use of resources or less pest spread"
+   ]
+  },
+  {
+   "id": "science-c9-105",
+   "type": "mcq",
+   "q": "In which state of matter are the forces of attraction between particles the weakest?",
+   "options": [
+    "Gas",
+    "Liquid",
+    "Solid",
+    "Ice"
+   ]
+  },
+  {
+   "id": "science-c9-106",
+   "type": "mcq",
+   "q": "At normal atmospheric pressure, water boils at",
+   "options": [
+    "273 K",
+    "373 K",
+    "473 K",
+    "100 K"
+   ]
+  },
+  {
+   "id": "science-c9-107",
+   "type": "mcq",
+   "q": "The smell of hot food reaches us from the kitchen even from a distance because of",
+   "options": [
+    "evaporation",
+    "condensation",
+    "diffusion",
+    "sublimation"
+   ]
+  },
+  {
+   "id": "science-c9-108",
+   "type": "mcq",
+   "q": "The heat energy needed to change 1 kg of a liquid into gas at its boiling point, without any rise in temperature, is called",
+   "options": [
+    "latent heat of fusion",
+    "specific heat capacity",
+    "heat of sublimation",
+    "latent heat of vaporisation"
+   ]
+  },
+  {
+   "id": "science-c9-109",
+   "type": "mcq",
+   "q": "Solid carbon dioxide is called dry ice because it",
+   "options": [
+    "changes directly from solid to gas without becoming a liquid",
+    "is frozen water with no moisture",
+    "is carbon dioxide dissolved in ice",
+    "is ice stored in dry air"
+   ]
+  },
+  {
+   "id": "science-c9-110",
+   "type": "mcq",
+   "q": "A syringe full of air can be pressed in easily, but a syringe full of water cannot. This is because",
+   "options": [
+    "water particles are lighter than air particles",
+    "the spaces between air particles are large, but those between liquid particles are very small",
+    "air has less mass than water",
+    "water particles do not move"
+   ]
+  },
+  {
+   "id": "science-c9-111",
+   "type": "mcq",
+   "q": "Steam at 100 °C causes more severe burns than boiling water at 100 °C because steam",
+   "options": [
+    "is heavier than water",
+    "moves faster than water",
+    "carries extra latent heat of vaporisation that is released when it condenses on the skin",
+    "is at a higher temperature than 100 °C"
+   ]
+  },
+  {
+   "id": "science-c9-112",
+   "type": "short",
+   "q": "Write two differences between boiling and evaporation.",
+   "proposedAnswer": "Boiling takes place throughout the liquid at one fixed temperature, the boiling point, and is a bulk phenomenon. Evaporation occurs only at the surface, at any temperature below the boiling point, and is a slow process.",
+   "keyPoints": [
+    "Boiling occurs at a fixed temperature",
+    "Evaporation occurs at any temperature",
+    "Boiling is throughout the liquid; evaporation is at the surface"
+   ]
+  },
+  {
+   "id": "science-c9-113",
+   "type": "short",
+   "q": "Why are cotton clothes preferred in summer?",
+   "proposedAnswer": "Cotton absorbs sweat and exposes it to the air over a large surface, so the sweat evaporates quickly. Evaporation takes heat from the body and keeps us cool.",
+   "keyPoints": [
+    "Cotton absorbs sweat",
+    "Large surface helps evaporation",
+    "Evaporation cools the body"
+   ]
+  },
+  {
+   "id": "science-c9-114",
+   "type": "mcq",
+   "q": "Which of the following is an element?",
+   "options": [
+    "Water",
+    "Common salt",
+    "Sugar",
+    "Sulphur"
+   ]
+  },
+  {
+   "id": "science-c9-115",
+   "type": "mcq",
+   "q": "In a solution of common salt in water, the salt is called the",
+   "options": [
+    "solute",
+    "solvent",
+    "suspension",
+    "colloid"
+   ]
+  },
+  {
+   "id": "science-c9-116",
+   "type": "mcq",
+   "q": "Which of the following is a chemical change?",
+   "options": [
+    "Melting of ice",
+    "Rusting of iron",
+    "Dissolving sugar in water",
+    "Boiling of water"
+   ]
+  },
+  {
+   "id": "science-c9-117",
+   "type": "mcq",
+   "q": "20 g of common salt is dissolved in 80 g of water. The mass percentage of the solution is",
+   "options": [
+    "25%",
+    "16%",
+    "20%",
+    "80%"
+   ]
+  },
+  {
+   "id": "science-c9-118",
+   "type": "mcq",
+   "q": "The different dyes present in black ink can be separated by",
+   "options": [
+    "distillation",
+    "filtration",
+    "crystallisation",
+    "chromatography"
+   ]
+  },
+  {
+   "id": "science-c9-119",
+   "type": "mcq",
+   "q": "Which method is best for getting pure crystals of copper sulphate from its impure solution?",
+   "options": [
+    "Crystallisation",
+    "Filtration",
+    "Magnetic separation",
+    "Sublimation"
+   ]
+  },
+  {
+   "id": "science-c9-120",
+   "type": "mcq",
+   "q": "Nitrogen and oxygen of the air can be separated industrially by",
+   "options": [
+    "chromatography",
+    "fractional distillation of liquid air, using their different boiling points",
+    "filtration",
+    "evaporation of air at room temperature"
+   ]
+  },
+  {
+   "id": "science-c9-121",
+   "type": "short",
+   "q": "Differentiate between a homogeneous and a heterogeneous mixture, giving one example of each.",
+   "proposedAnswer": "A homogeneous mixture has uniform composition throughout, for example salt solution. A heterogeneous mixture has non-uniform composition with visible parts, for example sand and water.",
+   "keyPoints": [
+    "Homogeneous has uniform composition",
+    "Heterogeneous has non-uniform composition",
+    "One correct example of each"
+   ]
+  },
+  {
+   "id": "science-c9-122",
+   "type": "short",
+   "q": "Is air a compound or a mixture? Give two reasons.",
+   "proposedAnswer": "Air is a mixture. Its components (nitrogen, oxygen, etc.) are present in no fixed ratio that varies slightly from place to place, and each keeps its own properties. They can be separated by physical methods such as fractional distillation of liquid air.",
+   "keyPoints": [
+    "Air is a mixture",
+    "Composition is not fixed",
+    "Components keep properties",
+    "Separated by physical methods"
+   ]
+  },
+  {
+   "id": "science-c9-123",
+   "type": "mcq",
+   "q": "How many atoms are present in a molecule of oxygen, O2?",
+   "options": [
+    "1",
+    "3",
+    "2",
+    "4"
+   ]
+  },
+  {
+   "id": "science-c9-124",
+   "type": "mcq",
+   "q": "The chemical formula of sodium chloride is",
+   "options": [
+    "Na2Cl",
+    "NaCl2",
+    "Na2Cl2",
+    "NaCl"
+   ]
+  },
+  {
+   "id": "science-c9-125",
+   "type": "mcq",
+   "q": "According to Dalton's atomic theory, atoms",
+   "options": [
+    "can neither be created nor destroyed in a chemical reaction",
+    "can be divided into electrons and protons",
+    "of all elements are identical",
+    "can be seen with a simple microscope"
+   ]
+  },
+  {
+   "id": "science-c9-126",
+   "type": "mcq",
+   "q": "The chemical formula of aluminium oxide is",
+   "options": [
+    "AlO",
+    "Al2O3",
+    "Al3O2",
+    "AlO3"
+   ]
+  },
+  {
+   "id": "science-c9-127",
+   "type": "mcq",
+   "q": "The mass of 1 mole of oxygen atoms is (atomic mass of O = 16 u)",
+   "options": [
+    "8 g",
+    "32 g",
+    "16 g",
+    "6 g"
+   ]
+  },
+  {
+   "id": "science-c9-128",
+   "type": "mcq",
+   "q": "One mole of carbon dioxide molecules contains how many moles of atoms?",
+   "options": [
+    "1",
+    "2",
+    "4",
+    "3"
+   ]
+  },
+  {
+   "id": "science-c9-129",
+   "type": "mcq",
+   "q": "In water, hydrogen and oxygen combine in the ratio 1 : 8 by mass. How much hydrogen is present in 18 g of water?",
+   "options": [
+    "2 g",
+    "1 g",
+    "8 g",
+    "16 g"
+   ]
+  },
+  {
+   "id": "science-c9-130",
+   "type": "short",
+   "q": "Write the chemical formulae of calcium chloride and magnesium hydroxide.",
+   "proposedAnswer": "Calcium has valency 2 and chloride has valency 1, so calcium chloride is CaCl2. Magnesium has valency 2 and hydroxide has valency 1, so magnesium hydroxide is Mg(OH)2.",
+   "keyPoints": [
+    "CaCl2",
+    "Mg(OH)2",
+    "Use criss-cross of valencies"
+   ]
+  },
+  {
+   "id": "science-c9-131",
+   "type": "short",
+   "q": "Calculate the molar mass of calcium carbonate, CaCO3, and the mass of 0.2 mole of it. (Ca = 40 u, C = 12 u, O = 16 u)",
+   "proposedAnswer": "Molar mass = 40 + 12 + 3 × 16 = 100 g/mol. Mass of 0.2 mole = 0.2 × 100 = 20 g.",
+   "keyPoints": [
+    "Molar mass 100 g/mol",
+    "Mass = moles × molar mass",
+    "20 g"
+   ]
+  },
+  {
+   "id": "science-c9-132",
+   "type": "mcq",
+   "q": "Who proposed that electrons revolve around the nucleus only in certain fixed shells?",
+   "options": [
+    "Ernest Rutherford",
+    "Niels Bohr",
+    "J.J. Thomson",
+    "John Dalton"
+   ]
+  },
+  {
+   "id": "science-c9-133",
+   "type": "mcq",
+   "q": "The mass of an electron compared with that of a proton is",
+   "options": [
+    "equal",
+    "about one-tenth",
+    "about 1/2000",
+    "about 2000 times"
+   ]
+  },
+  {
+   "id": "science-c9-134",
+   "type": "mcq",
+   "q": "A proton carries a",
+   "options": [
+    "negative charge",
+    "no charge",
+    "double negative charge",
+    "positive charge"
+   ]
+  },
+  {
+   "id": "science-c9-135",
+   "type": "mcq",
+   "q": "The mass number of an atom is the",
+   "options": [
+    "number of protons plus neutrons",
+    "number of protons minus neutrons",
+    "number of electrons only",
+    "number of neutrons only"
+   ]
+  },
+  {
+   "id": "science-c9-136",
+   "type": "mcq",
+   "q": "How many neutrons are present in an atom of carbon-14 (atomic number 6)?",
+   "options": [
+    "6",
+    "8",
+    "14",
+    "20"
+   ]
+  },
+  {
+   "id": "science-c9-137",
+   "type": "mcq",
+   "q": "Isotopes of an element have the same",
+   "options": [
+    "mass number",
+    "number of neutrons",
+    "number of protons",
+    "atomic mass"
+   ]
+  },
+  {
+   "id": "science-c9-138",
+   "type": "mcq",
+   "q": "An atom has the electronic configuration 2, 8, 8. This atom is",
+   "options": [
+    "a highly reactive metal",
+    "a highly reactive non-metal",
+    "a metal with valency 1",
+    "chemically inert because its outermost shell is complete"
+   ]
+  },
+  {
+   "id": "science-c9-139",
+   "type": "short",
+   "q": "Write the electronic configuration and valency of magnesium (atomic number 12).",
+   "proposedAnswer": "The electronic configuration is 2, 8, 2. Magnesium has two electrons in its outermost shell, which it can lose, so its valency is 2.",
+   "keyPoints": [
+    "2, 8, 2",
+    "Two valence electrons",
+    "Valency 2"
+   ]
+  },
+  {
+   "id": "science-c9-140",
+   "type": "short",
+   "q": "Why do isotopes of an element have the same chemical properties but different physical properties?",
+   "proposedAnswer": "Chemical properties depend on the number and arrangement of electrons, which is the same for isotopes. Physical properties such as density and mass depend on the number of neutrons, which differs.",
+   "keyPoints": [
+    "Chemical properties depend on electrons",
+    "Isotopes have equal electrons",
+    "Physical properties depend on mass",
+    "Neutron number differs"
+   ]
+  },
+  {
+   "id": "science-c9-141",
+   "type": "mcq",
+   "q": "Proteins are made in the cell by small structures called",
+   "options": [
+    "ribosomes",
+    "lysosomes",
+    "vacuoles",
+    "centrosomes"
+   ]
+  },
+  {
+   "id": "science-c9-142",
+   "type": "mcq",
+   "q": "Which part of the cell controls all its activities and contains the chromosomes?",
+   "options": [
+    "Cytoplasm",
+    "Nucleus",
+    "Cell wall",
+    "Vacuole"
+   ]
+  },
+  {
+   "id": "science-c9-143",
+   "type": "mcq",
+   "q": "The green plastids that carry out photosynthesis are called",
+   "options": [
+    "leucoplasts",
+    "chromoplasts",
+    "chloroplasts",
+    "mitochondria"
+   ]
+  },
+  {
+   "id": "science-c9-144",
+   "type": "mcq",
+   "q": "Which of the following cells has no cell wall?",
+   "options": [
+    "Plant cell",
+    "Bacterial cell",
+    "Fungal cell",
+    "Animal cell"
+   ]
+  },
+  {
+   "id": "science-c9-145",
+   "type": "mcq",
+   "q": "Rough endoplasmic reticulum looks rough because",
+   "options": [
+    "ribosomes are attached to its surface",
+    "it is covered with fat droplets",
+    "mitochondria are attached to it",
+    "it contains chlorophyll"
+   ]
+  },
+  {
+   "id": "science-c9-146",
+   "type": "mcq",
+   "q": "The Golgi apparatus is mainly concerned with",
+   "options": [
+    "digestion of waste",
+    "storage, modification and packaging of substances",
+    "photosynthesis",
+    "cell respiration"
+   ]
+  },
+  {
+   "id": "science-c9-147",
+   "type": "mcq",
+   "q": "A plant cell placed in pure water swells but does not burst, unlike an animal cell, because the plant cell has",
+   "options": [
+    "a nucleus",
+    "many mitochondria",
+    "a rigid cell wall",
+    "lysosomes"
+   ]
+  },
+  {
+   "id": "science-c9-148",
+   "type": "short",
+   "q": "State two functions of the plasma membrane.",
+   "proposedAnswer": "The plasma membrane encloses the cell contents and separates the cell from its surroundings. It is selectively permeable, so it controls which substances enter and leave the cell.",
+   "keyPoints": [
+    "Encloses the cell contents",
+    "Selectively permeable",
+    "Controls entry and exit of substances"
+   ]
+  },
+  {
+   "id": "science-c9-149",
+   "type": "short",
+   "q": "Why do muscle cells contain a large number of mitochondria?",
+   "proposedAnswer": "Muscle cells are very active and need a lot of energy for contraction. Mitochondria release energy from food as ATP, so more mitochondria supply more energy.",
+   "keyPoints": [
+    "Muscle cells need a lot of energy",
+    "Mitochondria release energy as ATP",
+    "More mitochondria give more energy"
+   ]
+  },
+  {
+   "id": "science-c9-150",
+   "type": "mcq",
+   "q": "Fat is stored in the body in which tissue?",
+   "options": [
+    "Blood",
+    "Bone",
+    "Cartilage",
+    "Adipose tissue"
+   ]
+  },
+  {
+   "id": "science-c9-151",
+   "type": "mcq",
+   "q": "Which tissue forms the protective covering of the skin and the lining of the mouth?",
+   "options": [
+    "Epithelial tissue",
+    "Muscular tissue",
+    "Nervous tissue",
+    "Adipose tissue"
+   ]
+  },
+  {
+   "id": "science-c9-152",
+   "type": "mcq",
+   "q": "Blood is a type of",
+   "options": [
+    "epithelial tissue",
+    "connective tissue",
+    "muscular tissue",
+    "nervous tissue"
+   ]
+  },
+  {
+   "id": "science-c9-153",
+   "type": "mcq",
+   "q": "Which of the following is a component of phloem?",
+   "options": [
+    "Tracheid",
+    "Vessel",
+    "Sieve tube",
+    "Cork cell"
+   ]
+  },
+  {
+   "id": "science-c9-154",
+   "type": "mcq",
+   "q": "In aquatic plants, parenchyma with large air cavities that helps them float is called",
+   "options": [
+    "collenchyma",
+    "sclerenchyma",
+    "meristem",
+    "aerenchyma"
+   ]
+  },
+  {
+   "id": "science-c9-155",
+   "type": "mcq",
+   "q": "Which muscle cells are long, cylindrical, unbranched, striped and have many nuclei?",
+   "options": [
+    "Skeletal muscle",
+    "Smooth muscle",
+    "Cardiac muscle",
+    "Nerve cells"
+   ]
+  },
+  {
+   "id": "science-c9-156",
+   "type": "mcq",
+   "q": "The tissue found at the joints that smoothens the bone surfaces and is also found in the nose, ear and trachea is",
+   "options": [
+    "tendon",
+    "cartilage",
+    "ligament",
+    "areolar tissue"
+   ]
+  },
+  {
+   "id": "science-c9-157",
+   "type": "short",
+   "q": "How does a ligament differ from a tendon?",
+   "proposedAnswer": "A ligament connects one bone to another bone and is elastic, while a tendon connects muscle to bone and is strong with little elasticity.",
+   "keyPoints": [
+    "Ligament joins bone to bone",
+    "Tendon joins muscle to bone",
+    "Ligament is elastic"
+   ]
+  },
+  {
+   "id": "science-c9-158",
+   "type": "short",
+   "q": "Why are the cells of the epithelium of the skin tightly packed with very little intercellular space?",
+   "proposedAnswer": "The skin epithelium forms a barrier that protects the body from injury, germs and loss of water. Tightly packed cells leave no gaps through which these could pass.",
+   "keyPoints": [
+    "Skin forms a protective barrier",
+    "No gaps for germs or water loss",
+    "Tight packing gives continuous layer"
+   ]
+  },
+  {
+   "id": "science-c9-159",
+   "type": "mcq",
+   "q": "Speed is calculated as",
+   "options": [
+    "time divided by distance",
+    "distance multiplied by time",
+    "distance divided by time",
+    "displacement multiplied by time"
+   ]
+  },
+  {
+   "id": "science-c9-160",
+   "type": "mcq",
+   "q": "A body that covers equal distances in equal intervals of time, however small the intervals, is said to be in",
+   "options": [
+    "non-uniform motion",
+    "accelerated motion",
+    "random motion",
+    "uniform motion"
+   ]
+  },
+  {
+   "id": "science-c9-161",
+   "type": "mcq",
+   "q": "The device in a vehicle that records the distance travelled is the",
+   "options": [
+    "odometer",
+    "speedometer",
+    "barometer",
+    "ammeter"
+   ]
+  },
+  {
+   "id": "science-c9-162",
+   "type": "mcq",
+   "q": "A straight sloping line in a velocity-time graph indicates",
+   "options": [
+    "constant speed",
+    "uniform acceleration",
+    "rest",
+    "no motion at all"
+   ]
+  },
+  {
+   "id": "science-c9-163",
+   "type": "mcq",
+   "q": "The area under a velocity-time graph gives the",
+   "options": [
+    "acceleration",
+    "time taken",
+    "displacement",
+    "force"
+   ]
+  },
+  {
+   "id": "science-c9-164",
+   "type": "mcq",
+   "q": "A car starts from rest and moves with a uniform acceleration of 4 m/s². The distance covered in 3 s is",
+   "options": [
+    "12 m",
+    "24 m",
+    "36 m",
+    "18 m"
+   ]
+  },
+  {
+   "id": "science-c9-165",
+   "type": "mcq",
+   "q": "A stone tied to a string is whirled in a circle at a constant speed. Its velocity is changing because",
+   "options": [
+    "its direction of motion keeps changing",
+    "its speed keeps changing",
+    "its mass keeps changing",
+    "the displacement is always zero"
+   ]
+  },
+  {
+   "id": "science-c9-166",
+   "type": "short",
+   "q": "Write the three equations of uniformly accelerated motion.",
+   "proposedAnswer": "v = u + at; s = ut + ½at²; v² = u² + 2as, where u is initial velocity, v is final velocity, a is acceleration, t is time and s is displacement.",
+   "keyPoints": [
+    "v = u + at",
+    "s = ut + ½at²",
+    "v² = u² + 2as"
+   ]
+  },
+  {
+   "id": "science-c9-167",
+   "type": "short",
+   "q": "A cyclist rides 6 km at 12 km/h and then another 6 km at 4 km/h. Find the average speed for the whole journey.",
+   "proposedAnswer": "Time for the first part = 6/12 = 0.5 h; time for the second part = 6/4 = 1.5 h. Total distance = 12 km, total time = 2 h, so average speed = 12/2 = 6 km/h.",
+   "keyPoints": [
+    "Time = distance / speed for each part",
+    "Total time 2 h",
+    "Average speed = total distance / total time = 6 km/h"
+   ]
+  },
+  {
+   "id": "science-c9-168",
+   "type": "mcq",
+   "q": "The inertia of a body depends on its",
+   "options": [
+    "velocity",
+    "mass",
+    "shape",
+    "colour"
+   ]
+  },
+  {
+   "id": "science-c9-169",
+   "type": "mcq",
+   "q": "According to Newton's third law, the action and reaction forces are",
+   "options": [
+    "equal in magnitude and in the same direction",
+    "unequal and opposite",
+    "equal in magnitude and opposite in direction",
+    "always zero"
+   ]
+  },
+  {
+   "id": "science-c9-170",
+   "type": "mcq",
+   "q": "If the net force on an object that is at rest is zero, the object will",
+   "options": [
+    "accelerate",
+    "start moving slowly",
+    "move faster and faster",
+    "remain at rest"
+   ]
+  },
+  {
+   "id": "science-c9-171",
+   "type": "mcq",
+   "q": "The momentum of a 3 kg object moving at 4 m/s is",
+   "options": [
+    "12 kg m/s",
+    "7 kg m/s",
+    "1.33 kg m/s",
+    "0.75 kg m/s"
+   ]
+  },
+  {
+   "id": "science-c9-172",
+   "type": "mcq",
+   "q": "Which of the following has the greatest inertia?",
+   "options": [
+    "A tennis ball",
+    "A loaded truck",
+    "A bicycle",
+    "A football"
+   ]
+  },
+  {
+   "id": "science-c9-173",
+   "type": "mcq",
+   "q": "A 1000 kg car accelerates uniformly from rest to 20 m/s in 10 s. The net force on it is",
+   "options": [
+    "200 N",
+    "1000 N",
+    "2000 N",
+    "20 000 N"
+   ]
+  },
+  {
+   "id": "science-c9-174",
+   "type": "mcq",
+   "q": "A 5 kg trolley moving at 2 m/s hits an identical stationary 5 kg trolley and they move together. Their common velocity is",
+   "options": [
+    "2 m/s",
+    "0.5 m/s",
+    "4 m/s",
+    "1 m/s"
+   ]
+  },
+  {
+   "id": "science-c9-175",
+   "type": "short",
+   "q": "Define inertia and give one example of inertia of rest.",
+   "proposedAnswer": "Inertia is the natural tendency of an object to resist a change in its state of rest or of uniform motion. Example: when a card under a coin on a glass is flicked away, the coin drops into the glass because it tends to stay at rest.",
+   "keyPoints": [
+    "Resistance to change of state",
+    "Measured by mass",
+    "Valid example"
+   ]
+  },
+  {
+   "id": "science-c9-176",
+   "type": "short",
+   "q": "Using Newton's third law, explain how a swimmer moves forward.",
+   "proposedAnswer": "The swimmer pushes the water backward with her hands and feet (action). The water pushes the swimmer forward with an equal and opposite force (reaction), so she moves forward.",
+   "keyPoints": [
+    "Swimmer pushes water backward",
+    "Water pushes swimmer forward",
+    "Forces are equal and opposite"
+   ]
+  },
+  {
+   "id": "science-c9-177",
+   "type": "mcq",
+   "q": "The universal law of gravitation was given by",
+   "options": [
+    "Isaac Newton",
+    "Galileo Galilei",
+    "Johannes Kepler",
+    "Archimedes"
+   ]
+  },
+  {
+   "id": "science-c9-178",
+   "type": "mcq",
+   "q": "The SI unit of the universal gravitational constant G is",
+   "options": [
+    "N kg/m²",
+    "N m²/kg²",
+    "kg m/s²",
+    "m/s²"
+   ]
+  },
+  {
+   "id": "science-c9-179",
+   "type": "mcq",
+   "q": "An object is dropped from rest and falls freely for 2 s. Taking g = 9.8 m/s², its velocity after 2 s is",
+   "options": [
+    "9.8 m/s",
+    "4.9 m/s",
+    "19.6 m/s",
+    "39.2 m/s"
+   ]
+  },
+  {
+   "id": "science-c9-180",
+   "type": "mcq",
+   "q": "A body floats in a liquid when the density of the body is",
+   "options": [
+    "much greater than that of the liquid",
+    "greater than that of the liquid",
+    "four times that of the liquid",
+    "less than that of the liquid"
+   ]
+  },
+  {
+   "id": "science-c9-181",
+   "type": "mcq",
+   "q": "It is easier to float in sea water than in river water because sea water",
+   "options": [
+    "is denser and so exerts a larger upthrust for the same displaced volume",
+    "is colder",
+    "is lighter",
+    "has less salt"
+   ]
+  },
+  {
+   "id": "science-c9-182",
+   "type": "mcq",
+   "q": "A person weighs 600 N on Earth. If the Moon's gravity is one-sixth of the Earth's, the person's weight on the Moon is",
+   "options": [
+    "50 N",
+    "100 N",
+    "360 N",
+    "3600 N"
+   ]
+  },
+  {
+   "id": "science-c9-183",
+   "type": "short",
+   "q": "Write two differences between mass and weight.",
+   "proposedAnswer": "Mass is the quantity of matter in a body; it is constant everywhere and is measured in kilograms. Weight is the force with which the Earth attracts the body; it changes from place to place and is measured in newtons.",
+   "keyPoints": [
+    "Mass is constant, weight varies",
+    "Mass in kg, weight in N",
+    "Weight is a force"
+   ]
+  },
+  {
+   "id": "science-c9-184",
+   "type": "short",
+   "q": "Why does a steel ship float while a steel needle sinks?",
+   "proposedAnswer": "The hull of the ship is hollow and shaped to displace a large volume of water, so the upthrust equals its weight and its average density is less than that of water. A needle displaces little water, so the upthrust is less than its weight.",
+   "keyPoints": [
+    "Ship displaces large volume of water",
+    "Upthrust equals weight",
+    "Average density lower than water",
+    "Needle displaces little water"
+   ]
+  },
+  {
+   "id": "science-c9-185",
+   "type": "mcq",
+   "q": "In science, work done on an object is equal to",
+   "options": [
+    "force times displacement in the direction of the force",
+    "force divided by displacement",
+    "mass times velocity",
+    "force times time"
+   ]
+  },
+  {
+   "id": "science-c9-186",
+   "type": "mcq",
+   "q": "The SI unit of power is the",
+   "options": [
+    "joule",
+    "watt",
+    "newton",
+    "pascal"
+   ]
+  },
+  {
+   "id": "science-c9-187",
+   "type": "mcq",
+   "q": "The energy stored in a stretched rubber band is",
+   "options": [
+    "kinetic energy",
+    "heat energy",
+    "potential energy",
+    "sound energy"
+   ]
+  },
+  {
+   "id": "science-c9-188",
+   "type": "mcq",
+   "q": "A man does 600 J of work in 20 s. His power is",
+   "options": [
+    "12 000 W",
+    "580 W",
+    "0.03 W",
+    "30 W"
+   ]
+  },
+  {
+   "id": "science-c9-189",
+   "type": "mcq",
+   "q": "In a solar cell, the energy conversion is from",
+   "options": [
+    "light energy to electrical energy",
+    "electrical energy to light energy",
+    "chemical energy to heat energy",
+    "sound energy to light energy"
+   ]
+  },
+  {
+   "id": "science-c9-190",
+   "type": "mcq",
+   "q": "A ball is thrown vertically upward. At its highest point",
+   "options": [
+    "kinetic energy is maximum and potential energy is zero",
+    "kinetic energy is zero and potential energy is maximum",
+    "both energies are zero",
+    "both energies are maximum"
+   ]
+  },
+  {
+   "id": "science-c9-191",
+   "type": "short",
+   "q": "Define 1 joule of work.",
+   "proposedAnswer": "One joule is the work done when a force of 1 newton displaces an object by 1 metre in the direction of the force.",
+   "keyPoints": [
+    "Force of 1 N",
+    "Displacement of 1 m",
+    "In the direction of force"
+   ]
+  },
+  {
+   "id": "science-c9-192",
+   "type": "short",
+   "q": "A force of 20 N moves a block 5 m along a smooth horizontal floor in the direction of the force. Find the work done and the kinetic energy gained if the block starts from rest.",
+   "proposedAnswer": "Work done = 20 × 5 = 100 J. By the work-energy theorem all of this becomes kinetic energy, since the floor is smooth, so the gain in kinetic energy is 100 J.",
+   "keyPoints": [
+    "W = F × s = 100 J",
+    "Smooth floor so no energy lost to friction",
+    "KE gained = 100 J"
+   ]
+  },
+  {
+   "id": "science-c9-193",
+   "type": "mcq",
+   "q": "The repeated hearing of a sound after reflection from a distant surface is called",
+   "options": [
+    "resonance",
+    "refraction",
+    "an echo",
+    "diffraction"
+   ]
+  },
+  {
+   "id": "science-c9-194",
+   "type": "mcq",
+   "q": "Loudness of sound is measured in",
+   "options": [
+    "hertz",
+    "watt",
+    "newton",
+    "decibel"
+   ]
+  },
+  {
+   "id": "science-c9-195",
+   "type": "mcq",
+   "q": "A sound wave of frequency 50 Hz travels at 340 m/s. Its wavelength is",
+   "options": [
+    "6.8 m",
+    "0.147 m",
+    "17 000 m",
+    "390 m"
+   ]
+  },
+  {
+   "id": "science-c9-196",
+   "type": "mcq",
+   "q": "Sound of frequency above 20 000 Hz is called",
+   "options": [
+    "infrasound",
+    "ultrasound",
+    "audible sound",
+    "noise"
+   ]
+  },
+  {
+   "id": "science-c9-197",
+   "type": "mcq",
+   "q": "A ship sends an ultrasonic pulse down and receives the echo from the sea floor after 4 s. If the speed of sound in sea water is 1500 m/s, the depth of the sea is",
+   "options": [
+    "6000 m",
+    "1500 m",
+    "3000 m",
+    "375 m"
+   ]
+  },
+  {
+   "id": "science-c9-198",
+   "type": "mcq",
+   "q": "Bats can detect obstacles in the dark by",
+   "options": [
+    "seeing infrared light",
+    "sensing temperature differences",
+    "hearing infrasonic waves",
+    "emitting ultrasonic waves and detecting their echoes"
+   ]
+  },
+  {
+   "id": "science-c9-199",
+   "type": "short",
+   "q": "What is reverberation? How can it be reduced in a big hall?",
+   "proposedAnswer": "Reverberation is the persistence of sound in a hall due to repeated reflections from the walls and ceiling. It can be reduced by covering the walls and ceiling with sound-absorbing materials such as curtains, carpets and acoustic tiles.",
+   "keyPoints": [
+    "Persistence of sound due to repeated reflection",
+    "Use of sound absorbers like curtains or carpets"
+   ]
+  },
+  {
+   "id": "science-c9-200",
+   "type": "short",
+   "q": "Astronauts on the Moon talk to each other using radio. Why can they not talk directly as on Earth?",
+   "proposedAnswer": "The Moon has no atmosphere, so there is no air or other medium to carry sound waves. Radio waves are electromagnetic waves that can travel through a vacuum.",
+   "keyPoints": [
+    "No atmosphere on the Moon",
+    "Sound needs a medium",
+    "Radio waves travel in vacuum"
+   ]
+  },
+  {
+   "id": "science-c9-201",
+   "type": "mcq",
+   "q": "Which of the following is a commonly used chemical fertiliser?",
+   "options": [
+    "Urea",
+    "Compost",
+    "Farmyard manure",
+    "Vermicompost"
+   ]
+  },
+  {
+   "id": "science-c9-202",
+   "type": "mcq",
+   "q": "Which of the following is a pulse crop that is a good source of protein?",
+   "options": [
+    "Wheat",
+    "Gram",
+    "Maize",
+    "Sugarcane"
+   ]
+  },
+  {
+   "id": "science-c9-203",
+   "type": "mcq",
+   "q": "Hybridisation in crops means crossing between",
+   "options": [
+    "identical plants",
+    "dead plants",
+    "genetically different plants",
+    "plants of the same variety only"
+   ]
+  },
+  {
+   "id": "science-c9-204",
+   "type": "mcq",
+   "q": "Broilers are chickens raised mainly for",
+   "options": [
+    "eggs",
+    "milk",
+    "wool",
+    "meat"
+   ]
+  },
+  {
+   "id": "science-c9-205",
+   "type": "mcq",
+   "q": "Poultry birds raised for egg production are called",
+   "options": [
+    "layers",
+    "broilers",
+    "drones",
+    "fingerlings"
+   ]
+  },
+  {
+   "id": "science-c9-206",
+   "type": "mcq",
+   "q": "Why is excessive use of chemical pesticides harmful?",
+   "options": [
+    "It increases soil fertility",
+    "It can pollute soil and water and enter the food chain",
+    "It makes crops ripen early",
+    "It helps bees to produce honey"
+   ]
+  },
+  {
+   "id": "science-c9-207",
+   "type": "short",
+   "q": "Differentiate between kharif and rabi crops.",
+   "proposedAnswer": "Kharif crops are grown in the rainy season from about June to October, for example paddy and maize. Rabi crops are grown in the winter season from about November to April, for example wheat and mustard.",
+   "keyPoints": [
+    "Kharif: rainy season",
+    "Rabi: winter season",
+    "Example of each"
+   ]
+  },
+  {
+   "id": "science-c9-208",
+   "type": "short",
+   "q": "Name two biotic and two abiotic factors that cause losses of stored grains.",
+   "proposedAnswer": "Biotic factors are living causes such as insects, rodents, fungi and bacteria. Abiotic factors are non-living causes such as improper moisture and temperature in the place of storage.",
+   "keyPoints": [
+    "Two biotic factors such as insects and rodents",
+    "Abiotic factors are moisture and temperature"
+   ]
+  },
+  {
+   "id": "science-c9-209",
+   "type": "mcq",
+   "q": "The change of a gas into a liquid is called",
+   "options": [
+    "condensation",
+    "sublimation",
+    "fusion",
+    "evaporation"
+   ]
+  },
+  {
+   "id": "science-c9-210",
+   "type": "mcq",
+   "q": "The change of a solid into a liquid at its melting point is called",
+   "options": [
+    "vaporisation",
+    "fusion",
+    "sublimation",
+    "condensation"
+   ]
+  },
+  {
+   "id": "science-c9-211",
+   "type": "mcq",
+   "q": "Which of the following is a property of solids?",
+   "options": [
+    "They take the shape of their container",
+    "They can be compressed a great deal",
+    "They have a fixed shape and negligible compressibility",
+    "They flow easily"
+   ]
+  },
+  {
+   "id": "science-c9-212",
+   "type": "mcq",
+   "q": "Gases can be turned into liquids by",
+   "options": [
+    "heating and reducing the pressure",
+    "heating only",
+    "reducing the pressure only",
+    "applying pressure and lowering the temperature"
+   ]
+  },
+  {
+   "id": "science-c9-213",
+   "type": "mcq",
+   "q": "Acetone evaporates faster than water at the same temperature because",
+   "options": [
+    "the forces of attraction between its particles are weaker",
+    "its particles are larger",
+    "its boiling point is higher",
+    "it is denser than water"
+   ]
+  },
+  {
+   "id": "science-c9-214",
+   "type": "mcq",
+   "q": "Food cooks faster in a pressure cooker because",
+   "options": [
+    "water boils at a lower temperature inside it",
+    "the increased pressure raises the boiling point, so the food is heated to a higher temperature",
+    "the steam inside is cooler",
+    "less water is needed"
+   ]
+  },
+  {
+   "id": "science-c9-215",
+   "type": "mcq",
+   "q": "Ice at 0 °C cools a drink better than the same mass of water at 0 °C because the ice",
+   "options": [
+    "is colder than water at 0 °C",
+    "is less dense",
+    "absorbs extra heat (latent heat of fusion) in order to melt",
+    "cannot absorb heat"
+   ]
+  },
+  {
+   "id": "science-c9-216",
+   "type": "short",
+   "q": "Why does a gas exert pressure on the walls of its container?",
+   "proposedAnswer": "The particles of a gas move randomly at high speed and keep colliding with the walls of the container. The force of these collisions per unit area is the gas pressure.",
+   "keyPoints": [
+    "Gas particles move randomly at high speed",
+    "They collide with the walls",
+    "Force per unit area is pressure"
+   ]
+  },
+  {
+   "id": "science-c9-217",
+   "type": "short",
+   "q": "Describe an activity to show that particles of matter are very small.",
+   "proposedAnswer": "Dissolve two or three crystals of potassium permanganate in a glass of water and note the colour. Take a small amount of this solution and dilute it again and again with water. Even after many dilutions the water is still slightly coloured, which shows that a few crystals contain a huge number of tiny particles.",
+   "keyPoints": [
+    "Dissolve a few crystals in water",
+    "Dilute the solution repeatedly",
+    "Colour persists after dilution",
+    "So particles are extremely small"
+   ]
+  },
+  {
+   "id": "science-c9-218",
+   "type": "mcq",
+   "q": "Which of the following is a suspension?",
+   "options": [
+    "Milk",
+    "Sugar solution",
+    "Smoke",
+    "Muddy water"
+   ]
+  },
+  {
+   "id": "science-c9-219",
+   "type": "mcq",
+   "q": "Which of the following is a compound?",
+   "options": [
+    "Carbon dioxide",
+    "Oxygen",
+    "Iron",
+    "Hydrogen"
+   ]
+  },
+  {
+   "id": "science-c9-220",
+   "type": "mcq",
+   "q": "An alloy is",
+   "options": [
+    "a pure metal",
+    "a homogeneous mixture of metals, or of a metal and a non-metal",
+    "a compound of two metals",
+    "a suspension of a metal in water"
+   ]
+  },
+  {
+   "id": "science-c9-221",
+   "type": "mcq",
+   "q": "A saturated solution is one in which",
+   "options": [
+    "no solvent is present",
+    "more solute can easily be added",
+    "no more solute can dissolve at that temperature",
+    "the solute is always a gas"
+   ]
+  },
+  {
+   "id": "science-c9-222",
+   "type": "mcq",
+   "q": "Cream is separated from milk by",
+   "options": [
+    "filtration",
+    "sublimation",
+    "distillation",
+    "centrifugation"
+   ]
+  },
+  {
+   "id": "science-c9-223",
+   "type": "mcq",
+   "q": "Sugar cannot be separated from its aqueous solution by filtration because",
+   "options": [
+    "the dissolved particles are smaller than the pores of the filter paper",
+    "sugar is insoluble in water",
+    "water is a solid",
+    "sugar is heavier than water"
+   ]
+  },
+  {
+   "id": "science-c9-224",
+   "type": "mcq",
+   "q": "When iron filings and sulphur are heated together, a black solid is formed which is not attracted by a magnet. This is a compound because it",
+   "options": [
+    "is attracted by a magnet like iron",
+    "has a fixed composition and properties different from iron and sulphur",
+    "can be separated by a magnet",
+    "is still just a mixture of the two"
+   ]
+  },
+  {
+   "id": "science-c9-225",
+   "type": "short",
+   "q": "What is the Tyndall effect? Why does it not occur in a true solution?",
+   "proposedAnswer": "The Tyndall effect is the scattering of a beam of light by particles of a colloid or suspension, which makes the path of the beam visible. In a true solution the particles are too small to scatter light, so the beam is not visible.",
+   "keyPoints": [
+    "Scattering of light by particles",
+    "Beam path becomes visible",
+    "True solution particles too small"
+   ]
+  },
+  {
+   "id": "science-c9-226",
+   "type": "short",
+   "q": "How can pure water be obtained from salt water? State the principle.",
+   "proposedAnswer": "Salt water is heated in a distillation flask. The water evaporates, the vapour passes into a condenser where it cools back into liquid water, and the salt is left in the flask. The principle is that water and salt differ greatly in volatility.",
+   "keyPoints": [
+    "Heat the salt water",
+    "Water vapour condensed in a condenser",
+    "Salt remains behind",
+    "Principle: difference in boiling points"
+   ]
+  },
+  {
+   "id": "science-c9-227",
+   "type": "mcq",
+   "q": "The chemical symbol of iron is",
+   "options": [
+    "I",
+    "Ir",
+    "Fe",
+    "In"
+   ]
+  },
+  {
+   "id": "science-c9-228",
+   "type": "mcq",
+   "q": "The chemical symbol of potassium is",
+   "options": [
+    "P",
+    "Po",
+    "Pt",
+    "K"
+   ]
+  },
+  {
+   "id": "science-c9-229",
+   "type": "mcq",
+   "q": "The value of the Avogadro constant is",
+   "options": [
+    "6.022 × 10^23",
+    "6.022 × 10^32",
+    "3.0 × 10^8",
+    "9.8"
+   ]
+  },
+  {
+   "id": "science-c9-230",
+   "type": "mcq",
+   "q": "The molecular mass of water (H = 1 u, O = 16 u) is",
+   "options": [
+    "16 u",
+    "18 u",
+    "20 u",
+    "10 u"
+   ]
+  },
+  {
+   "id": "science-c9-231",
+   "type": "mcq",
+   "q": "How many moles are there in 36 g of water? (molar mass 18 g/mol)",
+   "options": [
+    "0.5",
+    "1",
+    "2",
+    "18"
+   ]
+  },
+  {
+   "id": "science-c9-232",
+   "type": "mcq",
+   "q": "One mole of nitrogen gas, N2, contains how many moles of nitrogen atoms?",
+   "options": [
+    "1",
+    "3",
+    "4",
+    "2"
+   ]
+  },
+  {
+   "id": "science-c9-233",
+   "type": "mcq",
+   "q": "What is the mass of 3 moles of ammonia, NH3? (N = 14 u, H = 1 u)",
+   "options": [
+    "51 g",
+    "17 g",
+    "42 g",
+    "3 g"
+   ]
+  },
+  {
+   "id": "science-c9-234",
+   "type": "short",
+   "q": "What is a mole? How is it related to the Avogadro constant?",
+   "proposedAnswer": "A mole is the amount of a substance that contains 6.022 × 10^23 particles (atoms, molecules or ions) of it. This number is the Avogadro constant, and one mole of a substance has a mass equal to its atomic or molecular mass in grams.",
+   "keyPoints": [
+    "Amount containing 6.022 × 10^23 particles",
+    "That number is the Avogadro constant",
+    "Mass of one mole is molar mass in grams"
+   ]
+  },
+  {
+   "id": "science-c9-235",
+   "type": "short",
+   "q": "3 g of carbon combines with 8 g of oxygen to form carbon dioxide. How much oxygen is needed to burn 9 g of carbon completely to carbon dioxide? Which law do you use?",
+   "proposedAnswer": "The ratio of carbon to oxygen by mass in carbon dioxide is fixed at 3 : 8. So 9 g of carbon needs 8 × 3 = 24 g of oxygen. This uses the law of constant proportions.",
+   "keyPoints": [
+    "Fixed ratio C : O = 3 : 8",
+    "9 g carbon needs 24 g oxygen",
+    "Law of constant proportions"
+   ]
+  },
+  {
+   "id": "science-c9-236",
+   "type": "mcq",
+   "q": "Atoms of the same element that have different mass numbers are called",
+   "options": [
+    "isobars",
+    "isotopes",
+    "ions",
+    "isotones"
+   ]
+  },
+  {
+   "id": "science-c9-237",
+   "type": "mcq",
+   "q": "Which particle is present in the nucleus of an atom?",
+   "options": [
+    "Electron",
+    "Photon",
+    "Proton",
+    "Ion"
+   ]
+  },
+  {
+   "id": "science-c9-238",
+   "type": "mcq",
+   "q": "The plum-pudding model of the atom was proposed by",
+   "options": [
+    "Ernest Rutherford",
+    "Niels Bohr",
+    "John Dalton",
+    "J.J. Thomson"
+   ]
+  },
+  {
+   "id": "science-c9-239",
+   "type": "mcq",
+   "q": "In Rutherford's experiment most alpha particles passed straight through the gold foil. This showed that",
+   "options": [
+    "most of the space inside an atom is empty",
+    "the atom is a solid sphere",
+    "the nucleus is very large",
+    "electrons are heavier than alpha particles"
+   ]
+  },
+  {
+   "id": "science-c9-240",
+   "type": "mcq",
+   "q": "How many electrons does a sodium ion, Na+, have? (atomic number of sodium = 11)",
+   "options": [
+    "11",
+    "10",
+    "12",
+    "9"
+   ]
+  },
+  {
+   "id": "science-c9-241",
+   "type": "mcq",
+   "q": "The valency of oxygen (electronic configuration 2, 6) is",
+   "options": [
+    "6",
+    "1",
+    "2",
+    "8"
+   ]
+  },
+  {
+   "id": "science-c9-242",
+   "type": "mcq",
+   "q": "An element has the electronic configuration 2, 8, 3. Its atomic number is",
+   "options": [
+    "3",
+    "11",
+    "12",
+    "13"
+   ]
+  },
+  {
+   "id": "science-c9-243",
+   "type": "short",
+   "q": "Differentiate between isotopes and isobars with one example of each.",
+   "proposedAnswer": "Isotopes are atoms of the same element with the same atomic number but different mass numbers, for example carbon-12 and carbon-14. Isobars are atoms of different elements with the same mass number but different atomic numbers, for example argon-40 and calcium-40.",
+   "keyPoints": [
+    "Isotopes: same atomic number, different mass number",
+    "Isobars: same mass number, different atomic number",
+    "One example of each"
+   ]
+  },
+  {
+   "id": "science-c9-244",
+   "type": "short",
+   "q": "An atom X has 19 protons and 20 neutrons. Give its atomic number, mass number, electronic configuration and valency.",
+   "proposedAnswer": "Atomic number = 19, mass number = 19 + 20 = 39. The electronic configuration is 2, 8, 8, 1. It has one electron in its outermost shell, so its valency is 1.",
+   "keyPoints": [
+    "Atomic number 19",
+    "Mass number 39",
+    "Configuration 2, 8, 8, 1",
+    "Valency 1"
+   ]
+  },
+  {
+   "id": "science-c9-245",
+   "type": "mcq",
+   "q": "The smallest structural and functional unit of living organisms is the",
+   "options": [
+    "cell",
+    "tissue",
+    "organ",
+    "atom"
+   ]
+  },
+  {
+   "id": "science-c9-246",
+   "type": "mcq",
+   "q": "The jelly-like substance that fills the region between the nucleus and the plasma membrane is the",
+   "options": [
+    "nucleoplasm",
+    "cytoplasm",
+    "cell sap",
+    "chromatin"
+   ]
+  },
+  {
+   "id": "science-c9-247",
+   "type": "mcq",
+   "q": "Plastids are found in",
+   "options": [
+    "animal cells only",
+    "bacterial cells only",
+    "plant cells",
+    "all kinds of cells"
+   ]
+  },
+  {
+   "id": "science-c9-248",
+   "type": "mcq",
+   "q": "Oxygen enters a cell by moving from a region of higher concentration to one of lower concentration. This process is",
+   "options": [
+    "osmosis",
+    "endocytosis",
+    "respiration",
+    "diffusion"
+   ]
+  },
+  {
+   "id": "science-c9-249",
+   "type": "mcq",
+   "q": "An amoeba takes in food by engulfing it with its flexible plasma membrane. This process is called",
+   "options": [
+    "endocytosis",
+    "osmosis",
+    "photosynthesis",
+    "exocytosis"
+   ]
+  },
+  {
+   "id": "science-c9-250",
+   "type": "mcq",
+   "q": "The organelle that helps in making fats and removing poisons and drugs in liver cells is the",
+   "options": [
+    "rough endoplasmic reticulum",
+    "smooth endoplasmic reticulum",
+    "lysosome",
+    "plastid"
+   ]
+  },
+  {
+   "id": "science-c9-251",
+   "type": "mcq",
+   "q": "Which statement forms part of the cell theory?",
+   "options": [
+    "Cells arise spontaneously from non-living matter",
+    "Only plants are made of cells",
+    "All living things are made of cells and new cells arise from pre-existing cells",
+    "Cells are not found in animals"
+   ]
+  },
+  {
+   "id": "science-c9-252",
+   "type": "short",
+   "q": "Write two differences between a plant cell and an animal cell.",
+   "proposedAnswer": "A plant cell has a cell wall outside the plasma membrane, but an animal cell does not. A plant cell has plastids and a large central vacuole, while an animal cell has no plastids and only small vacuoles.",
+   "keyPoints": [
+    "Cell wall only in plant cells",
+    "Plastids only in plant cells",
+    "Large vacuole in plant cells"
+   ]
+  },
+  {
+   "id": "science-c9-253",
+   "type": "short",
+   "q": "What would happen if the plasma membrane of a cell were ruptured?",
+   "proposedAnswer": "The cell contents would leak out and the cell could no longer control which substances enter or leave. The internal environment of the cell would be lost and the cell would die.",
+   "keyPoints": [
+    "Contents leak out",
+    "Control over entry and exit is lost",
+    "Cell dies"
+   ]
+  },
+  {
+   "id": "science-c9-254",
+   "type": "mcq",
+   "q": "Contraction and relaxation to bring about movement is the function of",
+   "options": [
+    "epithelial tissue",
+    "connective tissue",
+    "nervous tissue",
+    "muscular tissue"
+   ]
+  },
+  {
+   "id": "science-c9-255",
+   "type": "mcq",
+   "q": "Meristematic tissue is made of",
+   "options": [
+    "actively dividing cells",
+    "dead cells",
+    "cells with large vacuoles only",
+    "cells found only in roots"
+   ]
+  },
+  {
+   "id": "science-c9-256",
+   "type": "mcq",
+   "q": "Apical meristem is found at the",
+   "options": [
+    "base of leaves",
+    "tips of roots and shoots",
+    "inner bark",
+    "leaf veins"
+   ]
+  },
+  {
+   "id": "science-c9-257",
+   "type": "mcq",
+   "q": "Which tissue has dead, thick-walled cells and gives hardness, as in the husk of a coconut?",
+   "options": [
+    "Parenchyma",
+    "Collenchyma",
+    "Sclerenchyma",
+    "Epidermis"
+   ]
+  },
+  {
+   "id": "science-c9-258",
+   "type": "mcq",
+   "q": "Parenchyma that contains chlorophyll and carries out photosynthesis is called",
+   "options": [
+    "aerenchyma",
+    "phloem",
+    "xylem",
+    "chlorenchyma"
+   ]
+  },
+  {
+   "id": "science-c9-259",
+   "type": "mcq",
+   "q": "A thin layer of flat cells forms the lining of the blood vessels and the air sacs of the lungs. This is",
+   "options": [
+    "squamous epithelium",
+    "columnar epithelium",
+    "cuboidal epithelium",
+    "ciliated epithelium"
+   ]
+  },
+  {
+   "id": "science-c9-260",
+   "type": "mcq",
+   "q": "The cells of cork in the bark of old trees are dead and compactly arranged, with suberin in their walls. This makes the cork",
+   "options": [
+    "permeable to water and gases",
+    "impervious to gases and water",
+    "food storing",
+    "photosynthetic"
+   ]
+  },
+  {
+   "id": "science-c9-261",
+   "type": "short",
+   "q": "Name the four types of animal tissue and give one function of each.",
+   "proposedAnswer": "Epithelial tissue covers and protects the body surfaces. Connective tissue joins and supports organs, for example bone or blood. Muscular tissue helps movement. Nervous tissue carries messages as impulses.",
+   "keyPoints": [
+    "Epithelial, connective, muscular, nervous",
+    "One function for each"
+   ]
+  },
+  {
+   "id": "science-c9-262",
+   "type": "short",
+   "q": "How is the structure of a neuron suited to its function?",
+   "proposedAnswer": "A neuron has a cell body with a nucleus and long thin extensions. Short branched dendrites receive impulses and a long axon carries the impulse over long distances to other cells, so a neuron can carry messages quickly throughout the body.",
+   "keyPoints": [
+    "Cell body with nucleus",
+    "Dendrites receive impulses",
+    "Long axon carries impulses far"
+   ]
+  },
+  {
+   "id": "science-c9-263",
+   "type": "mcq",
+   "q": "A body covers 20 m in 4 s. Its speed is",
+   "options": [
+    "80 m/s",
+    "16 m/s",
+    "5 m/s",
+    "24 m/s"
+   ]
+  },
+  {
+   "id": "science-c9-264",
+   "type": "mcq",
+   "q": "The shortest distance between the initial and the final position of a moving body is its",
+   "options": [
+    "distance",
+    "speed",
+    "velocity",
+    "displacement"
+   ]
+  },
+  {
+   "id": "science-c9-265",
+   "type": "mcq",
+   "q": "A negative acceleration, in which velocity decreases, is also called",
+   "options": [
+    "retardation",
+    "inertia",
+    "displacement",
+    "momentum"
+   ]
+  },
+  {
+   "id": "science-c9-266",
+   "type": "mcq",
+   "q": "The slope of a velocity-time graph gives",
+   "options": [
+    "distance",
+    "acceleration",
+    "displacement",
+    "speed"
+   ]
+  },
+  {
+   "id": "science-c9-267",
+   "type": "mcq",
+   "q": "A car moves at 36 km/h. Its speed in m/s is",
+   "options": [
+    "36 m/s",
+    "3.6 m/s",
+    "10 m/s",
+    "100 m/s"
+   ]
+  },
+  {
+   "id": "science-c9-268",
+   "type": "mcq",
+   "q": "In a distance-time graph, a horizontal straight line parallel to the time axis shows that the body is",
+   "options": [
+    "moving with uniform speed",
+    "accelerating",
+    "moving with uniform velocity",
+    "at rest"
+   ]
+  },
+  {
+   "id": "science-c9-269",
+   "type": "mcq",
+   "q": "A man walks 100 m east and then 40 m west in a straight line. His displacement is",
+   "options": [
+    "60 m east",
+    "140 m east",
+    "60 m west",
+    "140 m"
+   ]
+  },
+  {
+   "id": "science-c9-270",
+   "type": "short",
+   "q": "What is uniform circular motion? Give an example.",
+   "proposedAnswer": "Uniform circular motion is motion of a body along a circular path with constant speed. Its velocity changes continuously because its direction keeps changing. An example is the motion of a stone tied to a string whirled in a circle, or the tip of a clock's hand.",
+   "keyPoints": [
+    "Circular path with constant speed",
+    "Direction, and so velocity, keeps changing",
+    "Valid example"
+   ]
+  },
+  {
+   "id": "science-c9-271",
+   "type": "short",
+   "q": "A car moving at 20 m/s is brought to rest by brakes giving a retardation of 5 m/s². Find the time taken to stop and the distance covered.",
+   "proposedAnswer": "From v = u + at: 0 = 20 − 5t, so t = 4 s. From v² = u² + 2as: 0 = 400 − 10s, so s = 40 m.",
+   "keyPoints": [
+    "t = 4 s",
+    "s = 40 m",
+    "Use of equations of motion with a = −5"
+   ]
+  },
+  {
+   "id": "science-c9-272",
+   "type": "mcq",
+   "q": "The force that opposes the relative motion between two surfaces in contact is",
+   "options": [
+    "gravity",
+    "friction",
+    "tension",
+    "inertia"
+   ]
+  },
+  {
+   "id": "science-c9-273",
+   "type": "mcq",
+   "q": "The SI unit of momentum is",
+   "options": [
+    "kg m/s²",
+    "N",
+    "kg m/s",
+    "J"
+   ]
+  },
+  {
+   "id": "science-c9-274",
+   "type": "mcq",
+   "q": "Safety belts in cars protect passengers during a sudden stop because of",
+   "options": [
+    "Newton's third law",
+    "the law of gravitation",
+    "the law of conservation of energy",
+    "the inertia of the passengers' bodies (Newton's first law)"
+   ]
+  },
+  {
+   "id": "science-c9-275",
+   "type": "mcq",
+   "q": "What force acts on a 2 kg mass that has an acceleration of 5 m/s²?",
+   "options": [
+    "10 N",
+    "7 N",
+    "2.5 N",
+    "0.4 N"
+   ]
+  },
+  {
+   "id": "science-c9-276",
+   "type": "mcq",
+   "q": "A 10 kg body moves at 5 m/s. A 5 kg body has the same momentum. Its velocity is",
+   "options": [
+    "5 m/s",
+    "10 m/s",
+    "2.5 m/s",
+    "25 m/s"
+   ]
+  },
+  {
+   "id": "science-c9-277",
+   "type": "mcq",
+   "q": "A long jumper takes a run before jumping because",
+   "options": [
+    "it reduces his weight",
+    "it increases gravity",
+    "the inertia of his motion carries him farther",
+    "it cools his muscles"
+   ]
+  },
+  {
+   "id": "science-c9-278",
+   "type": "mcq",
+   "q": "A constant force of 10 N acts on a 2 kg object initially at rest for 3 s. Its final velocity is",
+   "options": [
+    "5 m/s",
+    "10 m/s",
+    "30 m/s",
+    "15 m/s"
+   ]
+  },
+  {
+   "id": "science-c9-279",
+   "type": "short",
+   "q": "State the law of conservation of momentum.",
+   "proposedAnswer": "When two or more objects interact, the total momentum of the objects before the interaction equals the total momentum after it, provided no external unbalanced force acts on them.",
+   "keyPoints": [
+    "Total momentum before equals after",
+    "No external unbalanced force"
+   ]
+  },
+  {
+   "id": "science-c9-280",
+   "type": "short",
+   "q": "Why does a boat move backward when a person jumps forward from it onto the shore?",
+   "proposedAnswer": "When the person pushes the boat backward to jump forward, the boat pushes the person forward with an equal and opposite force (third law). The boat gets momentum in the opposite direction, so it moves backward.",
+   "keyPoints": [
+    "Person pushes boat backward",
+    "Equal and opposite reaction on person",
+    "Boat moves backward by conservation of momentum"
+   ]
+  },
+  {
+   "id": "science-c9-281",
+   "type": "mcq",
+   "q": "The force of attraction between the Earth and an object is called",
+   "options": [
+    "gravitational force",
+    "magnetic force",
+    "frictional force",
+    "electrostatic force"
+   ]
+  },
+  {
+   "id": "science-c9-282",
+   "type": "mcq",
+   "q": "An object that falls under the action of gravity alone is said to be in",
+   "options": [
+    "uniform motion",
+    "free fall",
+    "circular motion",
+    "rest"
+   ]
+  },
+  {
+   "id": "science-c9-283",
+   "type": "mcq",
+   "q": "Pressure is defined as",
+   "options": [
+    "force multiplied by area",
+    "area divided by force",
+    "thrust per unit area",
+    "mass per unit volume"
+   ]
+  },
+  {
+   "id": "science-c9-284",
+   "type": "mcq",
+   "q": "The SI unit of pressure is the",
+   "options": [
+    "newton",
+    "joule",
+    "watt",
+    "pascal"
+   ]
+  },
+  {
+   "id": "science-c9-285",
+   "type": "mcq",
+   "q": "A sharp knife cuts better than a blunt one because the sharp edge",
+   "options": [
+    "has a smaller area, so the same force produces a larger pressure",
+    "has a larger area, so there is more pressure",
+    "is heavier",
+    "is hotter"
+   ]
+  },
+  {
+   "id": "science-c9-286",
+   "type": "mcq",
+   "q": "A wooden block of density 600 kg/m³ is placed in water of density 1000 kg/m³. The block will",
+   "options": [
+    "sink to the bottom",
+    "float with part of it above the water",
+    "float completely submerged at any depth",
+    "dissolve in the water"
+   ]
+  },
+  {
+   "id": "science-c9-287",
+   "type": "short",
+   "q": "What is buoyancy (upthrust)? On what does it depend?",
+   "proposedAnswer": "Buoyancy is the upward force exerted by a liquid or gas on an object immersed in it. It depends on the density of the fluid and on the volume of the fluid displaced by the object.",
+   "keyPoints": [
+    "Upward force by a fluid",
+    "Depends on density of fluid",
+    "Depends on volume displaced"
+   ]
+  },
+  {
+   "id": "science-c9-288",
+   "type": "short",
+   "q": "Why do tractors and heavy vehicles have wide tyres?",
+   "proposedAnswer": "A wide tyre spreads the weight of the vehicle over a large area. Since pressure is force divided by area, the pressure on the ground is smaller, so the vehicle does not sink into soft soil.",
+   "keyPoints": [
+    "Large area of contact",
+    "Pressure = force / area is reduced",
+    "Vehicle does not sink in soft ground"
+   ]
+  },
+  {
+   "id": "science-c9-289",
+   "type": "mcq",
+   "q": "In which situation is work done in the scientific sense?",
+   "options": [
+    "A boy stands holding a bag",
+    "A man pushes a wall that does not move",
+    "A boy pushes a cart and it moves",
+    "A girl sits thinking"
+   ]
+  },
+  {
+   "id": "science-c9-290",
+   "type": "mcq",
+   "q": "One kilowatt-hour is equal to",
+   "options": [
+    "3.6 × 10^3 J",
+    "3.6 × 10^4 J",
+    "3.6 × 10^5 J",
+    "3.6 × 10^6 J"
+   ]
+  },
+  {
+   "id": "science-c9-291",
+   "type": "mcq",
+   "q": "The energy stored in the food we eat is",
+   "options": [
+    "chemical energy",
+    "nuclear energy",
+    "sound energy",
+    "electrical energy"
+   ]
+  },
+  {
+   "id": "science-c9-292",
+   "type": "mcq",
+   "q": "If the speed of a moving body is doubled, its kinetic energy becomes",
+   "options": [
+    "double",
+    "four times",
+    "half",
+    "unchanged"
+   ]
+  },
+  {
+   "id": "science-c9-293",
+   "type": "mcq",
+   "q": "The gravitational potential energy of a body of mass m at height h above the ground is",
+   "options": [
+    "mg/h",
+    "m/gh",
+    "mgh",
+    "gh/m"
+   ]
+  },
+  {
+   "id": "science-c9-294",
+   "type": "mcq",
+   "q": "A stone falls freely from a height. Just before it hits the ground, compared with its starting position,",
+   "options": [
+    "its potential energy has increased",
+    "its potential energy is unchanged",
+    "its energy has become infinite",
+    "its potential energy has decreased and its kinetic energy has increased"
+   ]
+  },
+  {
+   "id": "science-c9-295",
+   "type": "short",
+   "q": "Differentiate between kinetic energy and potential energy with one example of each.",
+   "proposedAnswer": "Kinetic energy is the energy a body has because of its motion, for example a moving car. Potential energy is the energy a body has because of its position or state, for example a stone held at a height or a stretched spring.",
+   "keyPoints": [
+    "KE is due to motion",
+    "PE is due to position or state",
+    "One example each"
+   ]
+  },
+  {
+   "id": "science-c9-296",
+   "type": "short",
+   "q": "A boy of mass 50 kg climbs 30 steps, each 20 cm high, in 1 minute. Find the work done and his power. (g = 10 m/s²)",
+   "proposedAnswer": "Total height = 30 × 0.2 = 6 m. Work done = mgh = 50 × 10 × 6 = 3000 J. Power = work / time = 3000 / 60 = 50 W.",
+   "keyPoints": [
+    "Height = 6 m",
+    "Work = 3000 J",
+    "Power = 50 W"
+   ]
+  },
+  {
+   "id": "science-c9-297",
+   "type": "mcq",
+   "q": "The number of oscillations per second of a vibrating body is its",
+   "options": [
+    "frequency",
+    "amplitude",
+    "wavelength",
+    "time period"
+   ]
+  },
+  {
+   "id": "science-c9-298",
+   "type": "mcq",
+   "q": "The maximum displacement of a vibrating particle from its mean position is called its",
+   "options": [
+    "frequency",
+    "amplitude",
+    "wavelength",
+    "speed"
+   ]
+  },
+  {
+   "id": "science-c9-299",
+   "type": "mcq",
+   "q": "The distance between two consecutive compressions of a sound wave is its",
+   "options": [
+    "amplitude",
+    "time period",
+    "wavelength",
+    "frequency"
+   ]
+  },
+  {
+   "id": "science-c9-300",
+   "type": "mcq",
+   "q": "In a sound wave, the region where particles are crowded together and the pressure is high is called a",
+   "options": [
+    "rarefaction",
+    "crest",
+    "trough",
+    "compression"
+   ]
+  },
+  {
+   "id": "science-c9-301",
+   "type": "mcq",
+   "q": "Sound travels fastest through which of these?",
+   "options": [
+    "Steel",
+    "Water",
+    "Air",
+    "Vacuum"
+   ]
+  },
+  {
+   "id": "science-c9-302",
+   "type": "mcq",
+   "q": "A pendulum completes 20 oscillations in 10 s. Its frequency is",
+   "options": [
+    "0.5 Hz",
+    "2 Hz",
+    "10 Hz",
+    "200 Hz"
+   ]
+  },
+  {
+   "id": "science-c9-303",
+   "type": "short",
+   "q": "What does SONAR stand for? State one use.",
+   "proposedAnswer": "SONAR stands for Sound Navigation And Ranging. It uses ultrasonic waves to find the depth of the sea or to locate objects such as submarines and shoals of fish under water.",
+   "keyPoints": [
+    "Sound Navigation And Ranging",
+    "Uses ultrasonic waves and echoes",
+    "Finds depth or locates objects under water"
+   ]
+  },
+  {
+   "id": "science-c9-304",
+   "type": "short",
+   "q": "A sound wave has a frequency of 2 kHz and a wavelength of 40 cm. How long will it take to travel 1.5 km?",
+   "proposedAnswer": "Speed v = f × λ = 2000 × 0.4 = 800 m/s. Time = distance / speed = 1500 / 800 = 1.875 s.",
+   "keyPoints": [
+    "v = f × wavelength = 800 m/s",
+    "t = 1500 / 800",
+    "t = 1.875 s"
+   ]
+  },
+  {
+   "id": "science-c9-305",
+   "type": "mcq",
+   "q": "The removal of unwanted plants from a crop field is called",
+   "options": [
+    "irrigation",
+    "threshing",
+    "weeding",
+    "winnowing"
+   ]
+  },
+  {
+   "id": "science-c9-306",
+   "type": "mcq",
+   "q": "Which food group gives us most of our carbohydrates for energy?",
+   "options": [
+    "Pulses",
+    "Oilseeds",
+    "Spices",
+    "Cereals"
+   ]
+  },
+  {
+   "id": "science-c9-307",
+   "type": "mcq",
+   "q": "Pulses are important in our diet mainly as a source of",
+   "options": [
+    "protein",
+    "carbohydrate",
+    "vitamin C",
+    "common salt"
+   ]
+  },
+  {
+   "id": "science-c9-308",
+   "type": "mcq",
+   "q": "Mustard and groundnut are grown mainly to obtain",
+   "options": [
+    "carbohydrates",
+    "fats (oil)",
+    "vitamin A",
+    "dietary fibre only"
+   ]
+  },
+  {
+   "id": "science-c9-309",
+   "type": "mcq",
+   "q": "Growing two or more crops together in the same field without any definite pattern is called",
+   "options": [
+    "intercropping",
+    "crop rotation",
+    "mixed cropping",
+    "monoculture"
+   ]
+  },
+  {
+   "id": "science-c9-310",
+   "type": "mcq",
+   "q": "Why is vermicompost good for the soil?",
+   "options": [
+    "It adds harmful chemicals",
+    "It reduces the water-holding capacity of soil",
+    "It kills useful soil organisms",
+    "It improves the fertility and structure of the soil"
+   ]
+  },
+  {
+   "id": "science-c9-311",
+   "type": "short",
+   "q": "Name two sources of water used for irrigation in India.",
+   "proposedAnswer": "Common sources of irrigation include wells, canals, river lift systems and tanks.",
+   "keyPoints": [
+    "Wells",
+    "Canals",
+    "River lift systems or tanks"
+   ]
+  },
+  {
+   "id": "science-c9-312",
+   "type": "short",
+   "q": "Why should a farmer not depend on chemical fertilisers alone year after year?",
+   "proposedAnswer": "Continued use of chemical fertilisers alone reduces the organic matter and microorganisms in the soil and damages its structure and fertility. They can also pollute water through run-off. Adding manure or compost along with fertilisers keeps the soil healthy.",
+   "keyPoints": [
+    "Reduces soil organic matter and organisms",
+    "Water pollution by run-off",
+    "Manure keeps soil healthy"
+   ]
+  },
+  {
+   "id": "science-c9-313",
+   "type": "mcq",
+   "q": "Which of the following is a liquid at room temperature?",
+   "options": [
+    "Mercury",
+    "Iron",
+    "Copper",
+    "Sodium"
+   ]
+  },
+  {
+   "id": "science-c9-314",
+   "type": "mcq",
+   "q": "Which of the following is not matter?",
+   "options": [
+    "Air",
+    "Light",
+    "Water",
+    "Sand"
+   ]
+  },
+  {
+   "id": "science-c9-315",
+   "type": "mcq",
+   "q": "The temperature at which a liquid starts boiling at atmospheric pressure is its",
+   "options": [
+    "melting point",
+    "freezing point",
+    "boiling point",
+    "sublimation point"
+   ]
+  },
+  {
+   "id": "science-c9-316",
+   "type": "mcq",
+   "q": "Which order shows the space between particles from least to most?",
+   "options": [
+    "Gas, liquid, solid",
+    "Liquid, gas, solid",
+    "Gas, solid, liquid",
+    "Solid, liquid, gas"
+   ]
+  },
+  {
+   "id": "science-c9-317",
+   "type": "mcq",
+   "q": "Which of the following would decrease the rate of evaporation of a liquid?",
+   "options": [
+    "Increasing the humidity of the air",
+    "Increasing the temperature",
+    "Increasing the wind speed",
+    "Increasing the exposed surface area"
+   ]
+  },
+  {
+   "id": "science-c9-318",
+   "type": "mcq",
+   "q": "A desert cooler works better on a dry day than on a humid day because",
+   "options": [
+    "the day is hotter when it is dry",
+    "evaporation of water is faster when the air has low humidity",
+    "the water in the cooler is colder on dry days",
+    "the fan runs faster on dry days"
+   ]
+  },
+  {
+   "id": "science-c9-319",
+   "type": "mcq",
+   "q": "When ice at 0 °C changes to water at 0 °C, which statement is correct?",
+   "options": [
+    "The temperature rises",
+    "The particles lose energy",
+    "The particles gain energy and move more freely",
+    "There is no change in the energy of the particles"
+   ]
+  },
+  {
+   "id": "science-c9-320",
+   "type": "short",
+   "q": "Convert 25 °C to kelvin and 300 K to degrees Celsius.",
+   "proposedAnswer": "K = °C + 273, so 25 °C = 298 K. °C = K − 273, so 300 K = 27 °C.",
+   "keyPoints": [
+    "K = °C + 273",
+    "25 °C = 298 K",
+    "300 K = 27 °C"
+   ]
+  },
+  {
+   "id": "science-c9-321",
+   "type": "short",
+   "q": "Why does water in an earthen pot (matka) become cool in summer?",
+   "proposedAnswer": "The earthen pot has very tiny pores through which water seeps to the outer surface and evaporates. The evaporation takes heat from the water in the pot, so the water becomes cool.",
+   "keyPoints": [
+    "Pores let water seep out",
+    "Water evaporates from the surface",
+    "Evaporation takes heat from the water inside"
+   ]
+  },
+  {
+   "id": "science-c9-322",
+   "type": "mcq",
+   "q": "Which of the following is a heterogeneous mixture?",
+   "options": [
+    "Salt solution",
+    "Air",
+    "Brass",
+    "Sand and water"
+   ]
+  },
+  {
+   "id": "science-c9-323",
+   "type": "mcq",
+   "q": "The component of a solution that dissolves the solute is called the",
+   "options": [
+    "solvent",
+    "solute",
+    "colloid",
+    "precipitate"
+   ]
+  },
+  {
+   "id": "science-c9-324",
+   "type": "mcq",
+   "q": "Elements can be broadly classified as",
+   "options": [
+    "solids, liquids and gases",
+    "metals, non-metals and metalloids",
+    "acids, bases and salts",
+    "mixtures and solutions"
+   ]
+  },
+  {
+   "id": "science-c9-325",
+   "type": "mcq",
+   "q": "Which of the following is a metalloid?",
+   "options": [
+    "Sodium",
+    "Carbon",
+    "Silicon",
+    "Sulphur"
+   ]
+  },
+  {
+   "id": "science-c9-326",
+   "type": "mcq",
+   "q": "Which non-metal is a liquid at room temperature?",
+   "options": [
+    "Iodine",
+    "Sulphur",
+    "Carbon",
+    "Bromine"
+   ]
+  },
+  {
+   "id": "science-c9-327",
+   "type": "mcq",
+   "q": "Which of the following is a colloid?",
+   "options": [
+    "Fog",
+    "Sand in water",
+    "Salt in water",
+    "Copper sulphate solution"
+   ]
+  },
+  {
+   "id": "science-c9-328",
+   "type": "mcq",
+   "q": "Chalk powder is stirred into water. The mixture looks milky but the chalk settles slowly on standing. The mixture is a",
+   "options": [
+    "colloid",
+    "suspension",
+    "true solution",
+    "compound"
+   ]
+  },
+  {
+   "id": "science-c9-329",
+   "type": "short",
+   "q": "Give two differences between a true solution and a suspension.",
+   "proposedAnswer": "In a true solution the particles are very small, do not settle and pass through filter paper, and the solution is transparent. In a suspension the particles are large, settle on standing, can be filtered out and the mixture is opaque or cloudy.",
+   "keyPoints": [
+    "Particles of true solution are tiny",
+    "Suspension particles settle",
+    "Suspension can be filtered, solution cannot",
+    "Solution is transparent"
+   ]
+  },
+  {
+   "id": "science-c9-330",
+   "type": "short",
+   "q": "How will you separate (a) a mixture of kerosene oil and water and (b) a mixture of ethanol and water?",
+   "proposedAnswer": "(a) Kerosene and water are immiscible, so they are separated by a separating funnel, where the lower layer is run off. (b) Ethanol and water are miscible but have different boiling points, so they are separated by fractional distillation, in which the ethanol, which boils first, is collected.",
+   "keyPoints": [
+    "Immiscible liquids use separating funnel",
+    "Miscible liquids with different boiling points use distillation",
+    "Ethanol comes off first"
+   ]
+  },
+  {
+   "id": "science-c9-331",
+   "type": "mcq",
+   "q": "The law of constant proportions was stated by",
+   "options": [
+    "John Dalton",
+    "Antoine Lavoisier",
+    "Joseph Proust",
+    "Robert Boyle"
+   ]
+  },
+  {
+   "id": "science-c9-332",
+   "type": "mcq",
+   "q": "The chemical symbol of gold is",
+   "options": [
+    "Go",
+    "Gd",
+    "Ag",
+    "Au"
+   ]
+  },
+  {
+   "id": "science-c9-333",
+   "type": "mcq",
+   "q": "The chemical symbol of silver is",
+   "options": [
+    "Ag",
+    "Si",
+    "Au",
+    "Sr"
+   ]
+  },
+  {
+   "id": "science-c9-334",
+   "type": "mcq",
+   "q": "The molecular mass of hydrogen chloride, HCl, is (H = 1 u, Cl = 35.5 u)",
+   "options": [
+    "35.5 u",
+    "36.5 u",
+    "37.5 u",
+    "71 u"
+   ]
+  },
+  {
+   "id": "science-c9-335",
+   "type": "mcq",
+   "q": "The number of molecules in 2 moles of a substance is",
+   "options": [
+    "6.022 × 10^23",
+    "3.011 × 10^23",
+    "12.044 × 10^23",
+    "1.2044 × 10^23"
+   ]
+  },
+  {
+   "id": "science-c9-336",
+   "type": "mcq",
+   "q": "Which of the following chemical formulae is written correctly?",
+   "options": [
+    "NaO",
+    "MgCl",
+    "AlCl",
+    "K2O"
+   ]
+  },
+  {
+   "id": "science-c9-337",
+   "type": "mcq",
+   "q": "What is the mass of 0.5 mole of carbon dioxide? (C = 12 u, O = 16 u)",
+   "options": [
+    "22 g",
+    "44 g",
+    "11 g",
+    "88 g"
+   ]
+  },
+  {
+   "id": "science-c9-338",
+   "type": "short",
+   "q": "State any two postulates of Dalton's atomic theory.",
+   "proposedAnswer": "All matter is made of very small particles called atoms, which cannot be divided or created or destroyed in a chemical reaction. Atoms of the same element are identical in mass and properties, while atoms of different elements have different masses and properties.",
+   "keyPoints": [
+    "Matter made of atoms",
+    "Atoms neither created nor destroyed",
+    "Atoms of an element identical"
+   ]
+  },
+  {
+   "id": "science-c9-339",
+   "type": "short",
+   "q": "Find the number of atoms in 0.1 mole of water, H2O. (Avogadro constant = 6.022 × 10^23)",
+   "proposedAnswer": "Number of molecules = 0.1 × 6.022 × 10^23 = 6.022 × 10^22. Each molecule has 3 atoms, so the number of atoms = 3 × 6.022 × 10^22 = 1.8066 × 10^23.",
+   "keyPoints": [
+    "Molecules = 6.022 × 10^22",
+    "3 atoms in each molecule",
+    "Atoms = 1.8066 × 10^23"
+   ]
+  },
+  {
+   "id": "science-c9-340",
+   "type": "mcq",
+   "q": "The neutron was discovered by",
+   "options": [
+    "Ernest Rutherford",
+    "James Chadwick",
+    "J.J. Thomson",
+    "E. Goldstein"
+   ]
+  },
+  {
+   "id": "science-c9-341",
+   "type": "mcq",
+   "q": "An atom has 6 protons and 6 neutrons. Its mass number is",
+   "options": [
+    "6",
+    "10",
+    "12",
+    "18"
+   ]
+  },
+  {
+   "id": "science-c9-342",
+   "type": "mcq",
+   "q": "The number of electrons in the outermost shell of a sodium atom (2, 8, 1) is",
+   "options": [
+    "8",
+    "2",
+    "3",
+    "1"
+   ]
+  },
+  {
+   "id": "science-c9-343",
+   "type": "mcq",
+   "q": "The isotopes of hydrogen (protium, deuterium and tritium) differ in their",
+   "options": [
+    "number of neutrons",
+    "number of protons",
+    "number of electrons",
+    "atomic number"
+   ]
+  },
+  {
+   "id": "science-c9-344",
+   "type": "mcq",
+   "q": "The valency of neon (electronic configuration 2, 8) is",
+   "options": [
+    "1",
+    "0",
+    "2",
+    "8"
+   ]
+  },
+  {
+   "id": "science-c9-345",
+   "type": "mcq",
+   "q": "A chloride ion, Cl−, has how many electrons? (atomic number of chlorine = 17)",
+   "options": [
+    "16",
+    "17",
+    "18",
+    "19"
+   ]
+  },
+  {
+   "id": "science-c9-346",
+   "type": "mcq",
+   "q": "Which of the following has 10 electrons? (atomic numbers: Na = 11, Mg = 12, Cl = 17, F = 9)",
+   "options": [
+    "Na atom",
+    "Mg atom",
+    "Cl− ion",
+    "F− ion"
+   ]
+  },
+  {
+   "id": "science-c9-347",
+   "type": "short",
+   "q": "State two postulates of Bohr's model of the atom.",
+   "proposedAnswer": "Electrons revolve around the nucleus only in certain special orbits (shells) called discrete orbits. While an electron stays in one of these orbits it does not radiate energy.",
+   "keyPoints": [
+    "Electrons move in fixed orbits",
+    "No energy is radiated in these orbits"
+   ]
+  },
+  {
+   "id": "science-c9-348",
+   "type": "short",
+   "q": "Explain how sodium and chlorine atoms each acquire a stable electronic arrangement when they form sodium chloride.",
+   "proposedAnswer": "A sodium atom (2, 8, 1) loses one electron to become Na+ (2, 8), and a chlorine atom (2, 8, 7) gains that electron to become Cl− (2, 8, 8). Both then have complete outer shells, and the oppositely charged ions attract each other to form NaCl.",
+   "keyPoints": [
+    "Na loses one electron",
+    "Cl gains one electron",
+    "Both get a complete outer shell",
+    "Ions attract each other"
+   ]
+  },
+  {
+   "id": "science-c9-349",
+   "type": "mcq",
+   "q": "Who was the first to describe free-living cells such as bacteria and protozoa?",
+   "options": [
+    "Anton van Leeuwenhoek",
+    "Robert Hooke",
+    "Robert Brown",
+    "Rudolf Virchow"
+   ]
+  },
+  {
+   "id": "science-c9-350",
+   "type": "mcq",
+   "q": "Chromosomes are made up of",
+   "options": [
+    "fat and sugar",
+    "DNA and proteins",
+    "cellulose",
+    "water only"
+   ]
+  },
+  {
+   "id": "science-c9-351",
+   "type": "mcq",
+   "q": "Which of the following is a prokaryotic cell?",
+   "options": [
+    "Onion cell",
+    "Human cheek cell",
+    "Bacterial cell",
+    "Amoeba"
+   ]
+  },
+  {
+   "id": "science-c9-352",
+   "type": "mcq",
+   "q": "Chromoplasts are plastids that contain",
+   "options": [
+    "only chlorophyll",
+    "only starch",
+    "no pigments",
+    "coloured pigments other than green"
+   ]
+  },
+  {
+   "id": "science-c9-353",
+   "type": "mcq",
+   "q": "Colourless plastids that store starch, oils and proteins are called",
+   "options": [
+    "leucoplasts",
+    "chloroplasts",
+    "ribosomes",
+    "lysosomes"
+   ]
+  },
+  {
+   "id": "science-c9-354",
+   "type": "mcq",
+   "q": "The plasma membrane is said to be selectively permeable because it",
+   "options": [
+    "allows all substances to pass",
+    "allows some substances to pass through but not others",
+    "allows no substance to pass",
+    "allows only water to pass"
+   ]
+  },
+  {
+   "id": "science-c9-355",
+   "type": "mcq",
+   "q": "A dry raisin swells when placed in water. This is because",
+   "options": [
+    "water leaves the raisin",
+    "the raisin dissolves in water",
+    "water enters the raisin by osmosis since the water concentration is lower inside it",
+    "salt enters the raisin"
+   ]
+  },
+  {
+   "id": "science-c9-356",
+   "type": "short",
+   "q": "What are chromosomes? State their role.",
+   "proposedAnswer": "Chromosomes are thread-like structures in the nucleus, made of DNA and proteins, which become visible when the cell divides. They carry the genes and pass on characters from parents to offspring.",
+   "keyPoints": [
+    "Thread-like structures in the nucleus",
+    "Made of DNA and protein",
+    "Carry hereditary information"
+   ]
+  },
+  {
+   "id": "science-c9-357",
+   "type": "short",
+   "q": "Under a microscope a student sees a cell with a cell wall, a large central vacuole and chloroplasts. Identify the type of cell and give two reasons.",
+   "proposedAnswer": "It is a plant cell. Cell walls and chloroplasts occur only in plant cells and not in animal cells, and a large central vacuole is also a typical feature of plant cells.",
+   "keyPoints": [
+    "Plant cell",
+    "Cell wall present",
+    "Chloroplasts present",
+    "Large central vacuole"
+   ]
+  },
+  {
+   "id": "science-c9-358",
+   "type": "mcq",
+   "q": "The fluid connective tissue that carries oxygen and nutrients around the body is",
+   "options": [
+    "lymph only",
+    "cartilage",
+    "bone",
+    "blood"
+   ]
+  },
+  {
+   "id": "science-c9-359",
+   "type": "mcq",
+   "q": "The hard matrix of bone is rich in",
+   "options": [
+    "calcium and phosphorus",
+    "sodium and chlorine",
+    "iron and copper",
+    "carbon only"
+   ]
+  },
+  {
+   "id": "science-c9-360",
+   "type": "mcq",
+   "q": "The outermost protective layer of the parts of a plant is the",
+   "options": [
+    "phloem",
+    "epidermis",
+    "xylem",
+    "cambium"
+   ]
+  },
+  {
+   "id": "science-c9-361",
+   "type": "mcq",
+   "q": "The stomata in the epidermis of a leaf help in",
+   "options": [
+    "absorbing water",
+    "storing food",
+    "gaseous exchange and transpiration",
+    "giving support"
+   ]
+  },
+  {
+   "id": "science-c9-362",
+   "type": "mcq",
+   "q": "Which simple permanent tissue has thin-walled, loosely packed living cells that store food?",
+   "options": [
+    "Sclerenchyma",
+    "Collenchyma",
+    "Xylem",
+    "Parenchyma"
+   ]
+  },
+  {
+   "id": "science-c9-363",
+   "type": "mcq",
+   "q": "Which statement about smooth muscle is correct?",
+   "options": [
+    "Its cells are spindle-shaped with a single nucleus",
+    "Its cells are striped with many nuclei",
+    "It is a voluntary muscle",
+    "It is found in the limbs"
+   ]
+  },
+  {
+   "id": "science-c9-364",
+   "type": "mcq",
+   "q": "A ring of bark is removed all around the stem of a tree. The movement of food from the leaves to the roots stops because the",
+   "options": [
+    "xylem has been removed",
+    "phloem has been removed",
+    "only cork was removed",
+    "collenchyma has been removed"
+   ]
+  },
+  {
+   "id": "science-c9-365",
+   "type": "short",
+   "q": "State two features of meristematic tissue.",
+   "proposedAnswer": "Meristematic tissue consists of actively dividing cells. Its cells are thin-walled, closely packed with dense cytoplasm and a prominent nucleus, and they have little or no vacuole.",
+   "keyPoints": [
+    "Actively dividing cells",
+    "Dense cytoplasm and prominent nucleus",
+    "Little or no vacuole"
+   ]
+  },
+  {
+   "id": "science-c9-366",
+   "type": "short",
+   "q": "How do plants increase in length and in thickness? Name the tissues responsible.",
+   "proposedAnswer": "Plants grow in length because of the apical meristem at the tips of roots and shoots. They grow in thickness because of the lateral meristem (cambium) present along the sides of stems and roots.",
+   "keyPoints": [
+    "Length by apical meristem",
+    "Thickness by lateral meristem or cambium"
+   ]
+  },
+  {
+   "id": "science-c9-367",
+   "type": "mcq",
+   "q": "The SI unit of acceleration is",
+   "options": [
+    "m/s",
+    "m",
+    "m/s²",
+    "N"
+   ]
+  },
+  {
+   "id": "science-c9-368",
+   "type": "mcq",
+   "q": "A body moving in a straight line with uniform velocity has an acceleration that is",
+   "options": [
+    "increasing",
+    "decreasing",
+    "constant but not zero",
+    "zero"
+   ]
+  },
+  {
+   "id": "science-c9-369",
+   "type": "mcq",
+   "q": "The speedometer of a car shows",
+   "options": [
+    "its speed at that instant",
+    "the distance it has covered",
+    "its acceleration",
+    "its displacement"
+   ]
+  },
+  {
+   "id": "science-c9-370",
+   "type": "mcq",
+   "q": "A body moves 100 m in 10 s and then 50 m in the next 5 s along a straight line. Its average speed is",
+   "options": [
+    "5 m/s",
+    "10 m/s",
+    "15 m/s",
+    "20 m/s"
+   ]
+  },
+  {
+   "id": "science-c9-371",
+   "type": "mcq",
+   "q": "A car has an initial velocity of 5 m/s and a uniform acceleration of 3 m/s². Its velocity after 4 s is",
+   "options": [
+    "12 m/s",
+    "15 m/s",
+    "17 m/s",
+    "20 m/s"
+   ]
+  },
+  {
+   "id": "science-c9-372",
+   "type": "mcq",
+   "q": "A ball dropped from the top of a tower takes 3 s to reach the ground. The height of the tower is (g = 9.8 m/s²)",
+   "options": [
+    "29.4 m",
+    "14.7 m",
+    "88.2 m",
+    "44.1 m"
+   ]
+  },
+  {
+   "id": "science-c9-373",
+   "type": "mcq",
+   "q": "A horizontal straight line above the time axis in a velocity-time graph shows that the body has",
+   "options": [
+    "uniform velocity and zero acceleration",
+    "uniform acceleration",
+    "retardation",
+    "zero velocity"
+   ]
+  },
+  {
+   "id": "science-c9-374",
+   "type": "short",
+   "q": "Distinguish between speed and velocity.",
+   "proposedAnswer": "Speed is the distance travelled per unit time and is a scalar with magnitude only. Velocity is the displacement per unit time in a given direction and is a vector with both magnitude and direction.",
+   "keyPoints": [
+    "Speed is distance/time, scalar",
+    "Velocity is displacement/time, vector",
+    "Velocity includes direction"
+   ]
+  },
+  {
+   "id": "science-c9-375",
+   "type": "short",
+   "q": "A body accelerates uniformly from rest to 10 m/s in 5 s and then moves at 10 m/s for another 5 s. Find the total distance covered using the velocity-time graph.",
+   "proposedAnswer": "In the first 5 s the area under the graph is a triangle: ½ × 5 × 10 = 25 m. In the next 5 s the area is a rectangle: 10 × 5 = 50 m. Total distance = 75 m.",
+   "keyPoints": [
+    "Triangle area 25 m",
+    "Rectangle area 50 m",
+    "Total 75 m"
+   ]
+  },
+  {
+   "id": "science-c9-376",
+   "type": "mcq",
+   "q": "A force can change",
+   "options": [
+    "only the shape of a body",
+    "the speed, direction of motion or shape of a body",
+    "only the colour of a body",
+    "the mass of a body"
+   ]
+  },
+  {
+   "id": "science-c9-377",
+   "type": "mcq",
+   "q": "One newton is equal to",
+   "options": [
+    "1 kg m/s",
+    "1 kg/(m s²)",
+    "1 kg m/s²",
+    "1 kg m²/s²"
+   ]
+  },
+  {
+   "id": "science-c9-378",
+   "type": "mcq",
+   "q": "Dust comes out of a carpet when it is beaten with a stick because",
+   "options": [
+    "the dust is heavy",
+    "beating cools the carpet",
+    "air pushes the dust out",
+    "the carpet moves but the dust particles tend to remain at rest"
+   ]
+  },
+  {
+   "id": "science-c9-379",
+   "type": "mcq",
+   "q": "A force of 20 N acts on a 4 kg body. Its acceleration is",
+   "options": [
+    "5 m/s²",
+    "80 m/s²",
+    "0.2 m/s²",
+    "24 m/s²"
+   ]
+  },
+  {
+   "id": "science-c9-380",
+   "type": "mcq",
+   "q": "A 0.5 kg ball hits a wall at 4 m/s and rebounds at 4 m/s. The change in its momentum is",
+   "options": [
+    "0",
+    "4 kg m/s",
+    "2 kg m/s",
+    "8 kg m/s"
+   ]
+  },
+  {
+   "id": "science-c9-381",
+   "type": "mcq",
+   "q": "A truck collides head-on with a small car. The force that the truck exerts on the car, compared with the force the car exerts on the truck, is",
+   "options": [
+    "greater",
+    "smaller",
+    "equal",
+    "zero"
+   ]
+  },
+  {
+   "id": "science-c9-382",
+   "type": "mcq",
+   "q": "A 10 g bullet moving at 400 m/s embeds in a wooden block and stops in 0.01 s. The average force on the bullet is",
+   "options": [
+    "4 N",
+    "40 N",
+    "4000 N",
+    "400 N"
+   ]
+  },
+  {
+   "id": "science-c9-383",
+   "type": "short",
+   "q": "Differentiate between balanced and unbalanced forces.",
+   "proposedAnswer": "Balanced forces are forces that cancel each other so that the net force is zero and the state of motion does not change. Unbalanced forces have a non-zero net force, which changes the speed or direction of motion of the body.",
+   "keyPoints": [
+    "Balanced: net force zero, no change in motion",
+    "Unbalanced: net force non-zero, motion changes"
+   ]
+  },
+  {
+   "id": "science-c9-384",
+   "type": "short",
+   "q": "Why does a loaded truck need a larger force to stop in the same time than an empty truck moving at the same speed?",
+   "proposedAnswer": "The loaded truck has a greater mass, so at the same speed it has a greater momentum. To change this momentum to zero in the same time needs a greater force, since force equals the rate of change of momentum.",
+   "keyPoints": [
+    "More mass gives more momentum",
+    "Force = change in momentum / time",
+    "So greater force is needed"
+   ]
+  },
+  {
+   "id": "science-c9-385",
+   "type": "mcq",
+   "q": "The SI unit of density is",
+   "options": [
+    "kg/m³",
+    "kg m³",
+    "N/m²",
+    "m³/kg"
+   ]
+  },
+  {
+   "id": "science-c9-386",
+   "type": "mcq",
+   "q": "The statement that the upthrust on a body immersed in a fluid equals the weight of the fluid it displaces is",
+   "options": [
+    "Pascal's law",
+    "Archimedes' principle",
+    "Newton's first law",
+    "Ohm's law"
+   ]
+  },
+  {
+   "id": "science-c9-387",
+   "type": "mcq",
+   "q": "An object has a mass of 500 g and a volume of 250 cm³. Its density is",
+   "options": [
+    "0.5 g/cm³",
+    "1 g/cm³",
+    "2 g/cm³",
+    "125 g/cm³"
+   ]
+  },
+  {
+   "id": "science-c9-388",
+   "type": "mcq",
+   "q": "An object weighs 50 N in air and 30 N when completely immersed in water. The buoyant force on it is",
+   "options": [
+    "30 N",
+    "80 N",
+    "50 N",
+    "20 N"
+   ]
+  },
+  {
+   "id": "science-c9-389",
+   "type": "mcq",
+   "q": "We feel lighter when we are in water because",
+   "options": [
+    "water exerts an upward buoyant force on us",
+    "gravity is weaker in water",
+    "our mass decreases in water",
+    "air pressure is greater"
+   ]
+  },
+  {
+   "id": "science-c9-390",
+   "type": "mcq",
+   "q": "At a distance from the Earth's centre equal to twice the Earth's radius, the acceleration due to gravity is (g = value at the surface)",
+   "options": [
+    "g/2",
+    "g/4",
+    "2g",
+    "g"
+   ]
+  },
+  {
+   "id": "science-c9-391",
+   "type": "short",
+   "q": "What is free fall? What is the acceleration of a freely falling body near the Earth?",
+   "proposedAnswer": "Free fall is the motion of a body falling towards the Earth under the force of gravity alone, with no air resistance. Its acceleration is about 9.8 m/s² for all bodies.",
+   "keyPoints": [
+    "Motion under gravity alone",
+    "Acceleration about 9.8 m/s²",
+    "Same for all bodies"
+   ]
+  },
+  {
+   "id": "science-c9-392",
+   "type": "short",
+   "q": "A stone of mass 2 kg is dropped from a height of 20 m. Find its velocity just before it hits the ground. (g = 10 m/s²)",
+   "proposedAnswer": "Using v² = u² + 2gh with u = 0: v² = 2 × 10 × 20 = 400, so v = 20 m/s.",
+   "keyPoints": [
+    "v² = u² + 2gh",
+    "v² = 400",
+    "v = 20 m/s"
+   ]
+  },
+  {
+   "id": "science-c9-393",
+   "type": "mcq",
+   "q": "Work done by a force is positive when the force and the displacement are",
+   "options": [
+    "in opposite directions",
+    "perpendicular",
+    "in the same direction",
+    "both zero"
+   ]
+  },
+  {
+   "id": "science-c9-394",
+   "type": "mcq",
+   "q": "The commercial unit of electrical energy is the",
+   "options": [
+    "joule",
+    "watt",
+    "newton",
+    "kilowatt-hour"
+   ]
+  },
+  {
+   "id": "science-c9-395",
+   "type": "mcq",
+   "q": "One watt is equal to",
+   "options": [
+    "1 joule per second",
+    "1 joule per minute",
+    "1 newton per metre",
+    "1 kilogram metre"
+   ]
+  },
+  {
+   "id": "science-c9-396",
+   "type": "mcq",
+   "q": "A force of 15 N moves an object 4 m in the direction of the force. The work done is",
+   "options": [
+    "19 J",
+    "60 J",
+    "3.75 J",
+    "11 J"
+   ]
+  },
+  {
+   "id": "science-c9-397",
+   "type": "mcq",
+   "q": "The energy of the Sun comes mainly from",
+   "options": [
+    "burning of coal",
+    "nuclear fission",
+    "nuclear fusion",
+    "chemical reactions"
+   ]
+  },
+  {
+   "id": "science-c9-398",
+   "type": "mcq",
+   "q": "A 2 kg ball is dropped from a height of 10 m. Its kinetic energy just before hitting the ground is (g = 10 m/s²)",
+   "options": [
+    "20 J",
+    "100 J",
+    "2 J",
+    "200 J"
+   ]
+  },
+  {
+   "id": "science-c9-399",
+   "type": "short",
+   "q": "What is power? State its SI unit.",
+   "proposedAnswer": "Power is the rate of doing work, or the work done per unit time (P = W / t). Its SI unit is the watt (W), and 1 W = 1 J/s.",
+   "keyPoints": [
+    "Rate of doing work",
+    "P = W / t",
+    "Unit watt"
+   ]
+  },
+  {
+   "id": "science-c9-400",
+   "type": "short",
+   "q": "A pump raises 100 kg of water to a height of 10 m in 20 s. Find the power of the pump. (g = 10 m/s²)",
+   "proposedAnswer": "Work done = mgh = 100 × 10 × 10 = 10 000 J. Power = work / time = 10 000 / 20 = 500 W.",
+   "keyPoints": [
+    "Work = mgh = 10 000 J",
+    "Power = W / t",
+    "500 W"
+   ]
+  },
+  {
+   "id": "science-c9-401",
+   "type": "mcq",
+   "q": "The relation between frequency f and time period T of a wave is",
+   "options": [
+    "f = 1/T",
+    "f = T",
+    "f = T²",
+    "f = 2T"
+   ]
+  },
+  {
+   "id": "science-c9-402",
+   "type": "mcq",
+   "q": "The speed of sound in air at room temperature is about",
+   "options": [
+    "34 m/s",
+    "340 m/s",
+    "3400 m/s",
+    "3 × 10^8 m/s"
+   ]
+  },
+  {
+   "id": "science-c9-403",
+   "type": "mcq",
+   "q": "Sound is produced by",
+   "options": [
+    "stationary objects",
+    "cold objects",
+    "vibrating objects",
+    "bright objects"
+   ]
+  },
+  {
+   "id": "science-c9-404",
+   "type": "mcq",
+   "q": "The speed of sound in air increases when",
+   "options": [
+    "the temperature falls",
+    "the pressure falls only",
+    "the sound becomes louder",
+    "the temperature rises"
+   ]
+  },
+  {
+   "id": "science-c9-405",
+   "type": "mcq",
+   "q": "Sound of frequency less than 20 Hz is called",
+   "options": [
+    "infrasound",
+    "ultrasound",
+    "noise",
+    "music"
+   ]
+  },
+  {
+   "id": "science-c9-406",
+   "type": "mcq",
+   "q": "A female voice is usually shriller than a male voice because its",
+   "options": [
+    "amplitude is higher",
+    "frequency is higher",
+    "speed is higher",
+    "wavelength is longer"
+   ]
+  },
+  {
+   "id": "science-c9-407",
+   "type": "short",
+   "q": "State two uses of ultrasound.",
+   "proposedAnswer": "Ultrasound is used to clean delicate parts such as electronic components, to detect flaws and cracks in metal blocks, and in ultrasonography to image organs inside the body.",
+   "keyPoints": [
+    "Cleaning of parts",
+    "Detecting cracks in metal",
+    "Medical imaging"
+   ]
+  },
+  {
+   "id": "science-c9-408",
+   "type": "short",
+   "q": "A person standing 25 m from a high wall claps his hands. Will he hear a distinct echo? Take the speed of sound as 344 m/s and the minimum time gap for a distinct echo as 0.1 s.",
+   "proposedAnswer": "The sound travels 25 m to the wall and 25 m back, a total of 50 m. Time = 50 / 344 = about 0.145 s. This is more than 0.1 s, so he will hear a distinct echo.",
+   "keyPoints": [
+    "Path length 50 m",
+    "Time about 0.145 s",
+    "Greater than 0.1 s so echo is heard"
+   ]
+  },
+  {
+   "id": "science-c9-409",
+   "type": "mcq",
+   "q": "Separating the grain from the chaff using wind is called",
+   "options": [
+    "threshing",
+    "weeding",
+    "winnowing",
+    "harvesting"
+   ]
+  },
+  {
+   "id": "science-c9-410",
+   "type": "mcq",
+   "q": "Cattle that are kept for milk production are called",
+   "options": [
+    "draught animals",
+    "broilers",
+    "layers",
+    "milch animals"
+   ]
+  },
+  {
+   "id": "science-c9-411",
+   "type": "mcq",
+   "q": "Fish obtained from the sea are caught from",
+   "options": [
+    "marine fisheries",
+    "village ponds only",
+    "poultry farms",
+    "apiaries"
+   ]
+  },
+  {
+   "id": "science-c9-412",
+   "type": "mcq",
+   "q": "Legumes improve soil fertility because bacteria in their root nodules",
+   "options": [
+    "use up the soil nitrogen",
+    "fix atmospheric nitrogen",
+    "remove phosphorus from the soil",
+    "make the soil acidic"
+   ]
+  },
+  {
+   "id": "science-c9-413",
+   "type": "mcq",
+   "q": "Plants require 16 nutrients. How many of these are supplied by the soil?",
+   "options": [
+    "3",
+    "9",
+    "13",
+    "16"
+   ]
+  },
+  {
+   "id": "science-c9-414",
+   "type": "mcq",
+   "q": "An advantage of manure that chemical fertilisers do not have is that manure",
+   "options": [
+    "gives nutrients very quickly",
+    "has a high percentage of nutrients",
+    "is made in factories",
+    "adds humus and improves the structure of the soil"
+   ]
+  },
+  {
+   "id": "science-c9-415",
+   "type": "short",
+   "q": "Name the two kinds of fisheries and give a difference between them.",
+   "proposedAnswer": "The two kinds are marine fisheries and inland fisheries. Marine fisheries are in the sea and use sea water, while inland fisheries are in fresh water such as rivers, canals and ponds.",
+   "keyPoints": [
+    "Marine fisheries",
+    "Inland fisheries",
+    "Sea water versus fresh water"
+   ]
+  },
+  {
+   "id": "science-c9-416",
+   "type": "short",
+   "q": "Why is bee-keeping useful to farmers apart from giving honey?",
+   "proposedAnswer": "Bees visit flowers to collect nectar and pollen and in doing so they carry pollen from flower to flower, which helps pollination and increases crop yield. Beeswax is also obtained.",
+   "keyPoints": [
+    "Bees pollinate flowers",
+    "Better fruit and seed yield",
+    "Also gives beeswax"
+   ]
+  },
+  {
+   "id": "science-c9-417",
+   "type": "mcq",
+   "q": "In which state of matter do particles only vibrate about fixed positions?",
+   "options": [
+    "Solid",
+    "Liquid",
+    "Gas",
+    "Vapour"
+   ]
+  },
+  {
+   "id": "science-c9-418",
+   "type": "mcq",
+   "q": "Diffusion is fastest in",
+   "options": [
+    "solids",
+    "gases",
+    "liquids",
+    "metals"
+   ]
+  },
+  {
+   "id": "science-c9-419",
+   "type": "mcq",
+   "q": "The heat needed to change 1 kg of a solid into a liquid at its melting point is called the latent heat of",
+   "options": [
+    "vaporisation",
+    "sublimation",
+    "fusion",
+    "combustion"
+   ]
+  },
+  {
+   "id": "science-c9-420",
+   "type": "mcq",
+   "q": "Naphthalene balls kept in a cupboard slowly disappear without leaving any liquid. This is because they",
+   "options": [
+    "melt",
+    "dissolve in air",
+    "evaporate after melting",
+    "undergo sublimation"
+   ]
+  },
+  {
+   "id": "science-c9-421",
+   "type": "mcq",
+   "q": "LPG can be supplied in small cylinders because gases can be",
+   "options": [
+    "compressed and liquefied under pressure",
+    "frozen easily",
+    "burnt easily",
+    "made heavier than air"
+   ]
+  },
+  {
+   "id": "science-c9-422",
+   "type": "mcq",
+   "q": "A gas fills the whole of its container, but a liquid does not, because gas particles",
+   "options": [
+    "are larger than liquid particles",
+    "move freely in all directions and have negligible attraction between them",
+    "are lighter than the container",
+    "do not have any mass"
+   ]
+  },
+  {
+   "id": "science-c9-423",
+   "type": "mcq",
+   "q": "Water keeps boiling at 100 °C even though heat is supplied continuously, because",
+   "options": [
+    "the thermometer stops working",
+    "the flame becomes weaker",
+    "the heat supplied is used to change the liquid into vapour (latent heat)",
+    "the water loses all its heat to the pan"
+   ]
+  },
+  {
+   "id": "science-c9-424",
+   "type": "short",
+   "q": "State two characteristics of the particles of matter.",
+   "proposedAnswer": "The particles of matter are very small and have spaces between them. They are continuously moving, and they attract each other.",
+   "keyPoints": [
+    "Very small particles",
+    "Spaces between particles",
+    "Continuously moving",
+    "Attract each other"
+   ]
+  },
+  {
+   "id": "science-c9-425",
+   "type": "short",
+   "q": "Why do water droplets form on the outer surface of a glass containing ice-cold water?",
+   "proposedAnswer": "Water vapour present in the air comes in contact with the cold surface of the glass and loses energy. It condenses into tiny droplets of liquid water on the outside of the glass.",
+   "keyPoints": [
+    "Air contains water vapour",
+    "Cold surface cools the vapour",
+    "Vapour condenses into liquid droplets"
+   ]
+  },
+  {
+   "id": "science-c9-426",
+   "type": "mcq",
+   "q": "Soda water is an example of a solution of a",
+   "options": [
+    "solid in a liquid",
+    "liquid in a liquid",
+    "solid in a solid",
+    "gas in a liquid"
+   ]
+  },
+  {
+   "id": "science-c9-427",
+   "type": "mcq",
+   "q": "Which method can separate iron filings from sulphur powder when they are only mixed?",
+   "options": [
+    "Using a magnet",
+    "Filtration",
+    "Adding dilute acid",
+    "Sublimation"
+   ]
+  },
+  {
+   "id": "science-c9-428",
+   "type": "mcq",
+   "q": "A substance made up of only one kind of atom is a(n)",
+   "options": [
+    "compound",
+    "element",
+    "mixture",
+    "solution"
+   ]
+  },
+  {
+   "id": "science-c9-429",
+   "type": "mcq",
+   "q": "Brass is an alloy of",
+   "options": [
+    "copper and tin",
+    "iron and carbon",
+    "copper and zinc",
+    "copper and nickel"
+   ]
+  },
+  {
+   "id": "science-c9-430",
+   "type": "mcq",
+   "q": "5 g of sugar is dissolved in 95 g of water. The mass percentage of sugar in the solution is",
+   "options": [
+    "95%",
+    "10%",
+    "0.5%",
+    "5%"
+   ]
+  },
+  {
+   "id": "science-c9-431",
+   "type": "mcq",
+   "q": "Which of these will scatter a beam of light passing through it?",
+   "options": [
+    "Starch solution",
+    "Vinegar",
+    "Glucose solution",
+    "Salt solution"
+   ]
+  },
+  {
+   "id": "science-c9-432",
+   "type": "mcq",
+   "q": "To purify copper sulphate, crystallisation is preferred over simple evaporation to dryness because",
+   "options": [
+    "crystallisation is faster",
+    "crystallisation gives pure crystals and leaves impurities in the solution, while evaporation may leave impurities behind or decompose the solid",
+    "evaporation needs no heat",
+    "crystals cannot form on cooling"
+   ]
+  },
+  {
+   "id": "science-c9-433",
+   "type": "short",
+   "q": "What is chromatography? Give one use.",
+   "proposedAnswer": "Chromatography is a method for separating the components of a mixture that dissolve in the same solvent, based on their different rates of movement over a paper or other material. It is used to separate dyes in ink or colours in a dye.",
+   "keyPoints": [
+    "Separates soluble components",
+    "Different rates of movement",
+    "Use such as separating dyes"
+   ]
+  },
+  {
+   "id": "science-c9-434",
+   "type": "short",
+   "q": "Classify each of the following as an element, a compound or a mixture: sea water, hydrogen, sodium chloride, steel.",
+   "proposedAnswer": "Sea water is a mixture. Hydrogen is an element. Sodium chloride is a compound. Steel is a mixture (an alloy of iron and carbon).",
+   "keyPoints": [
+    "Sea water: mixture",
+    "Hydrogen: element",
+    "Sodium chloride: compound",
+    "Steel: mixture"
+   ]
+  },
+  {
+   "id": "science-c9-435",
+   "type": "mcq",
+   "q": "The smallest particle of an element that can take part in a chemical reaction is the",
+   "options": [
+    "molecule",
+    "ion",
+    "atom",
+    "electron"
+   ]
+  },
+  {
+   "id": "science-c9-436",
+   "type": "mcq",
+   "q": "One atomic mass unit is defined as one-twelfth of the mass of a",
+   "options": [
+    "hydrogen atom",
+    "oxygen atom",
+    "helium atom",
+    "carbon-12 atom"
+   ]
+  },
+  {
+   "id": "science-c9-437",
+   "type": "mcq",
+   "q": "How many atoms are in a molecule of ozone, O3?",
+   "options": [
+    "3",
+    "2",
+    "4",
+    "1"
+   ]
+  },
+  {
+   "id": "science-c9-438",
+   "type": "mcq",
+   "q": "The chemical formula of ammonia is",
+   "options": [
+    "N3H",
+    "NH3",
+    "NH2",
+    "N2H3"
+   ]
+  },
+  {
+   "id": "science-c9-439",
+   "type": "mcq",
+   "q": "How many atoms are present in one molecule of glucose, C6H12O6?",
+   "options": [
+    "12",
+    "18",
+    "24",
+    "6"
+   ]
+  },
+  {
+   "id": "science-c9-440",
+   "type": "mcq",
+   "q": "What is the mass of 6.022 × 10^23 molecules of water? (H = 1 u, O = 16 u)",
+   "options": [
+    "6.022 g",
+    "36 g",
+    "1.8 g",
+    "18 g"
+   ]
+  },
+  {
+   "id": "science-c9-441",
+   "type": "mcq",
+   "q": "Which of the following has the greatest mass? (C = 12, N = 14, O = 16, H = 1)",
+   "options": [
+    "1 mole of CO2",
+    "1 mole of O2",
+    "1 mole of N2",
+    "1 mole of H2O"
+   ]
+  },
+  {
+   "id": "science-c9-442",
+   "type": "short",
+   "q": "Write the chemical symbols of calcium, copper, chlorine and nitrogen.",
+   "proposedAnswer": "Calcium is Ca, copper is Cu, chlorine is Cl and nitrogen is N.",
+   "keyPoints": [
+    "Ca",
+    "Cu",
+    "Cl",
+    "N"
+   ]
+  },
+  {
+   "id": "science-c9-443",
+   "type": "short",
+   "q": "On heating 10 g of calcium carbonate, 5.6 g of calcium oxide and 4.4 g of carbon dioxide are obtained. Which law does this verify? Explain.",
+   "proposedAnswer": "It verifies the law of conservation of mass. The mass of the products is 5.6 + 4.4 = 10 g, which equals the mass of the reactant, so no mass is lost or gained.",
+   "keyPoints": [
+    "Law of conservation of mass",
+    "Products total 10 g",
+    "Equals mass of reactant"
+   ]
+  },
+  {
+   "id": "science-c9-444",
+   "type": "mcq",
+   "q": "The central part of an atom, containing protons and neutrons, is called the",
+   "options": [
+    "shell",
+    "nucleus",
+    "orbit",
+    "ion"
+   ]
+  },
+  {
+   "id": "science-c9-445",
+   "type": "mcq",
+   "q": "The overall electric charge on a neutral atom is",
+   "options": [
+    "positive",
+    "negative",
+    "zero",
+    "variable"
+   ]
+  },
+  {
+   "id": "science-c9-446",
+   "type": "mcq",
+   "q": "In an atom, electrons are arranged in",
+   "options": [
+    "nuclei",
+    "molecules",
+    "isotopes",
+    "shells (orbits)"
+   ]
+  },
+  {
+   "id": "science-c9-447",
+   "type": "mcq",
+   "q": "How many neutrons are in an atom of sodium with atomic number 11 and mass number 23?",
+   "options": [
+    "12",
+    "11",
+    "23",
+    "34"
+   ]
+  },
+  {
+   "id": "science-c9-448",
+   "type": "mcq",
+   "q": "The maximum number of electrons that can be accommodated in the K shell is",
+   "options": [
+    "1",
+    "2",
+    "8",
+    "18"
+   ]
+  },
+  {
+   "id": "science-c9-449",
+   "type": "mcq",
+   "q": "An element has the electronic configuration 2, 8, 8, 2. Its valency is",
+   "options": [
+    "1",
+    "8",
+    "2",
+    "4"
+   ]
+  },
+  {
+   "id": "science-c9-450",
+   "type": "mcq",
+   "q": "Which pair of atoms (atomic number, mass number) are isotopes of the same element?",
+   "options": [
+    "(6, 12) and (7, 14)",
+    "(18, 40) and (20, 40)",
+    "(1, 1) and (2, 4)",
+    "(17, 35) and (17, 37)"
+   ]
+  },
+  {
+   "id": "science-c9-451",
+   "type": "short",
+   "q": "State two uses of isotopes.",
+   "proposedAnswer": "An isotope of uranium is used as a fuel in nuclear reactors. An isotope of cobalt is used in the treatment of cancer, and an isotope of iodine is used in the treatment of goitre.",
+   "keyPoints": [
+    "Uranium isotope as nuclear fuel",
+    "Cobalt isotope in cancer treatment",
+    "Iodine isotope in goitre treatment"
+   ]
+  },
+  {
+   "id": "science-c9-452",
+   "type": "short",
+   "q": "Why does the atomic number, and not the mass number, identify an element?",
+   "proposedAnswer": "The atomic number is the number of protons, which is fixed for each element. Atoms of the same element can have different mass numbers (isotopes), and atoms of different elements can have the same mass number (isobars), so mass number cannot identify an element.",
+   "keyPoints": [
+    "Atomic number is the number of protons",
+    "Unique for each element",
+    "Isotopes differ in mass number",
+    "Isobars share a mass number"
+   ]
+  },
+  {
+   "id": "science-c9-453",
+   "type": "mcq",
+   "q": "Which of the following is a unicellular organism?",
+   "options": [
+    "Amoeba",
+    "Hydra",
+    "Frog",
+    "Mango tree"
+   ]
+  },
+  {
+   "id": "science-c9-454",
+   "type": "mcq",
+   "q": "The nucleus is surrounded by a double-layered covering called the",
+   "options": [
+    "cell wall",
+    "nuclear membrane",
+    "vacuole",
+    "Golgi body"
+   ]
+  },
+  {
+   "id": "science-c9-455",
+   "type": "mcq",
+   "q": "Vacuoles in plant cells are filled with",
+   "options": [
+    "only gases",
+    "only proteins",
+    "cell sap containing water, sugars and wastes",
+    "DNA"
+   ]
+  },
+  {
+   "id": "science-c9-456",
+   "type": "mcq",
+   "q": "Which organelle is found in both plant and animal cells?",
+   "options": [
+    "Cell wall",
+    "Chloroplast",
+    "Large central vacuole",
+    "Mitochondrion"
+   ]
+  },
+  {
+   "id": "science-c9-457",
+   "type": "mcq",
+   "q": "The endoplasmic reticulum serves as",
+   "options": [
+    "a channel for transport of materials within the cell",
+    "a store of the cell's DNA",
+    "the site of photosynthesis",
+    "the boundary of the cell"
+   ]
+  },
+  {
+   "id": "science-c9-458",
+   "type": "mcq",
+   "q": "The plasma membrane is made mainly of",
+   "options": [
+    "cellulose",
+    "lipids and proteins",
+    "starch",
+    "DNA"
+   ]
+  },
+  {
+   "id": "science-c9-459",
+   "type": "mcq",
+   "q": "Onion peel cells are placed in a strong salt solution. The cell contents shrink away from the cell wall because",
+   "options": [
+    "the cell wall dissolves",
+    "the cell absorbs water and bursts",
+    "water leaves the cell by osmosis",
+    "salt enters and makes the cell divide"
+   ]
+  },
+  {
+   "id": "science-c9-460",
+   "type": "short",
+   "q": "What is diffusion? Give an example of its importance in cells.",
+   "proposedAnswer": "Diffusion is the spontaneous movement of a substance from a region of higher concentration to a region of lower concentration. For example, oxygen diffuses into the cell and carbon dioxide diffuses out of the cell.",
+   "keyPoints": [
+    "High to low concentration",
+    "No energy needed",
+    "Gas exchange example"
+   ]
+  },
+  {
+   "id": "science-c9-461",
+   "type": "short",
+   "q": "Why is the cell called the structural and functional unit of life?",
+   "proposedAnswer": "All living organisms are made of cells, so the cell is the structural unit. Each cell can carry out the basic functions of life such as taking in food, respiration and removing wastes, so it is also the functional unit.",
+   "keyPoints": [
+    "Organisms are made of cells",
+    "Each cell performs life functions",
+    "Cell is the smallest living unit"
+   ]
+  },
+  {
+   "id": "science-c9-462",
+   "type": "mcq",
+   "q": "Which of the following is a permanent tissue?",
+   "options": [
+    "Apical meristem",
+    "Lateral meristem",
+    "Intercalary meristem",
+    "Parenchyma"
+   ]
+  },
+  {
+   "id": "science-c9-463",
+   "type": "mcq",
+   "q": "Intercalary meristem is found",
+   "options": [
+    "at the base of leaves or internodes",
+    "at the tips of roots",
+    "in the cork",
+    "in the epidermis"
+   ]
+  },
+  {
+   "id": "science-c9-464",
+   "type": "mcq",
+   "q": "Phloem transports",
+   "options": [
+    "only water",
+    "food prepared in the leaves",
+    "only minerals",
+    "oxygen"
+   ]
+  },
+  {
+   "id": "science-c9-465",
+   "type": "mcq",
+   "q": "Ciliated epithelium in the windpipe helps to",
+   "options": [
+    "absorb oxygen",
+    "produce hormones",
+    "move mucus and dust out of the respiratory tract",
+    "contract the muscles"
+   ]
+  },
+  {
+   "id": "science-c9-466",
+   "type": "mcq",
+   "q": "Which muscle is found only in the heart?",
+   "options": [
+    "Skeletal muscle",
+    "Smooth muscle",
+    "The muscle of the biceps",
+    "Cardiac muscle"
+   ]
+  },
+  {
+   "id": "science-c9-467",
+   "type": "mcq",
+   "q": "The wood of a tree trunk consists mainly of",
+   "options": [
+    "xylem",
+    "phloem",
+    "parenchyma",
+    "epidermis"
+   ]
+  },
+  {
+   "id": "science-c9-468",
+   "type": "mcq",
+   "q": "The tall, pillar-like epithelial cells that line the intestine are suited to",
+   "options": [
+    "protection from germs",
+    "absorption and secretion",
+    "contraction",
+    "storing fat"
+   ]
+  },
+  {
+   "id": "science-c9-469",
+   "type": "short",
+   "q": "State two functions of areolar tissue.",
+   "proposedAnswer": "Areolar tissue fills the space inside organs and supports internal organs. It also helps in the repair of tissues.",
+   "keyPoints": [
+    "Fills space inside organs",
+    "Supports internal organs",
+    "Helps repair tissues"
+   ]
+  },
+  {
+   "id": "science-c9-470",
+   "type": "short",
+   "q": "How is the structure of sclerenchyma suited to its function?",
+   "proposedAnswer": "Sclerenchyma cells are dead and have thick walls hardened with lignin, and there is almost no space between the cells. This makes the tissue strong and rigid, so it gives mechanical support to the plant.",
+   "keyPoints": [
+    "Dead cells with thick lignified walls",
+    "No intercellular space",
+    "Gives strength and rigidity"
+   ]
+  },
+  {
+   "id": "science-c9-471",
+   "type": "mcq",
+   "q": "Which of the following is a scalar quantity?",
+   "options": [
+    "Displacement",
+    "Velocity",
+    "Speed",
+    "Acceleration"
+   ]
+  },
+  {
+   "id": "science-c9-472",
+   "type": "mcq",
+   "q": "Motion in which the velocity changes by equal amounts in equal intervals of time is called",
+   "options": [
+    "uniform motion",
+    "random motion",
+    "circular motion only",
+    "uniformly accelerated motion"
+   ]
+  },
+  {
+   "id": "science-c9-473",
+   "type": "mcq",
+   "q": "A passenger sitting in a moving train is at rest relative to",
+   "options": [
+    "the train",
+    "the platform",
+    "a tree outside",
+    "a passing car"
+   ]
+  },
+  {
+   "id": "science-c9-474",
+   "type": "mcq",
+   "q": "A speed of 54 km/h is equal to",
+   "options": [
+    "5 m/s",
+    "15 m/s",
+    "54 m/s",
+    "194.4 m/s"
+   ]
+  },
+  {
+   "id": "science-c9-475",
+   "type": "mcq",
+   "q": "How long does a body moving at 5 m/s take to cover 150 m?",
+   "options": [
+    "3 s",
+    "15 s",
+    "30 s",
+    "750 s"
+   ]
+  },
+  {
+   "id": "science-c9-476",
+   "type": "mcq",
+   "q": "On a distance-time graph the line for body A is steeper than the line for body B. This means",
+   "options": [
+    "B is faster than A",
+    "both move at the same speed",
+    "A is at rest",
+    "A is faster than B"
+   ]
+  },
+  {
+   "id": "science-c9-477",
+   "type": "mcq",
+   "q": "A car's velocity changes from 10 m/s to 20 m/s in 5 s. Its average acceleration is",
+   "options": [
+    "2 m/s²",
+    "4 m/s²",
+    "5 m/s²",
+    "0.5 m/s²"
+   ]
+  },
+  {
+   "id": "science-c9-478",
+   "type": "short",
+   "q": "What does the slope of a distance-time graph represent? What does the graph of a body at rest look like?",
+   "proposedAnswer": "The slope of a distance-time graph represents the speed of the body. For a body at rest the distance does not change with time, so the graph is a straight line parallel to the time axis.",
+   "keyPoints": [
+    "Slope is speed",
+    "Body at rest: horizontal line",
+    "Distance constant with time"
+   ]
+  },
+  {
+   "id": "science-c9-479",
+   "type": "short",
+   "q": "A stone is thrown vertically upward with a speed of 20 m/s. Find the maximum height it reaches and the time taken to reach it. (g = 10 m/s²)",
+   "proposedAnswer": "At the highest point v = 0 and a = −10 m/s². From v = u + at: 0 = 20 − 10t, so t = 2 s. From v² = u² + 2as: 0 = 400 − 20s, so s = 20 m.",
+   "keyPoints": [
+    "Final velocity zero at top",
+    "t = 2 s",
+    "Maximum height 20 m"
+   ]
+  },
+  {
+   "id": "science-c9-480",
+   "type": "mcq",
+   "q": "A ball rolling on level ground slows down and stops because of",
+   "options": [
+    "gravity",
+    "friction",
+    "inertia",
+    "its mass"
+   ]
+  },
+  {
+   "id": "science-c9-481",
+   "type": "mcq",
+   "q": "Newton's second law relates the force on a body to its",
+   "options": [
+    "mass and velocity",
+    "velocity and time",
+    "mass and acceleration",
+    "distance and time"
+   ]
+  },
+  {
+   "id": "science-c9-482",
+   "type": "mcq",
+   "q": "Which of the following is an example of the inertia of motion?",
+   "options": [
+    "A book stays at rest on a table",
+    "A coin falls into a glass when the card under it is flicked",
+    "Dust falls out when a carpet is beaten",
+    "A passenger leans forward when a moving bus brakes suddenly"
+   ]
+  },
+  {
+   "id": "science-c9-483",
+   "type": "mcq",
+   "q": "A force of 12 N acts on a 3 kg body. The acceleration produced is",
+   "options": [
+    "4 m/s²",
+    "36 m/s²",
+    "0.25 m/s²",
+    "15 m/s²"
+   ]
+  },
+  {
+   "id": "science-c9-484",
+   "type": "mcq",
+   "q": "A force of 5 N acts on a body for 2 s. The change in its momentum is",
+   "options": [
+    "2.5 kg m/s",
+    "10 kg m/s",
+    "7 kg m/s",
+    "3 kg m/s"
+   ]
+  },
+  {
+   "id": "science-c9-485",
+   "type": "mcq",
+   "q": "The same force acts on a 2 kg body and on a 4 kg body. The acceleration of the 2 kg body is",
+   "options": [
+    "the same as that of the 4 kg body",
+    "half that of the 4 kg body",
+    "twice that of the 4 kg body",
+    "four times that of the 4 kg body"
+   ]
+  },
+  {
+   "id": "science-c9-486",
+   "type": "mcq",
+   "q": "A 2 kg cart moving at 3 m/s collides with a stationary 1 kg cart and the two stick together. Their common velocity is",
+   "options": [
+    "3 m/s",
+    "1 m/s",
+    "1.5 m/s",
+    "2 m/s"
+   ]
+  },
+  {
+   "id": "science-c9-487",
+   "type": "short",
+   "q": "Give two examples of Newton's third law in everyday life.",
+   "proposedAnswer": "When we walk, we push the ground backward and the ground pushes us forward. When a balloon releases air backward, the air pushes the balloon forward. A rocket and the recoil of a gun are also examples.",
+   "keyPoints": [
+    "Walking",
+    "Balloon or rocket",
+    "Action and reaction pairs"
+   ]
+  },
+  {
+   "id": "science-c9-488",
+   "type": "short",
+   "q": "A force of 6 N acts on a body of mass 2 kg initially at rest. Find its velocity and the distance travelled after 4 s.",
+   "proposedAnswer": "Acceleration a = 6 / 2 = 3 m/s². Velocity v = at = 3 × 4 = 12 m/s. Distance s = ½at² = ½ × 3 × 16 = 24 m.",
+   "keyPoints": [
+    "a = 3 m/s²",
+    "v = 12 m/s",
+    "s = 24 m"
+   ]
+  },
+  {
+   "id": "science-c9-489",
+   "type": "mcq",
+   "q": "The Moon stays in its orbit around the Earth because of the",
+   "options": [
+    "gravitational force of the Earth",
+    "magnetic force",
+    "force of friction",
+    "nuclear force"
+   ]
+  },
+  {
+   "id": "science-c9-490",
+   "type": "mcq",
+   "q": "The acceleration due to gravity at a place does not depend on the",
+   "options": [
+    "mass of the Earth",
+    "mass of the falling object",
+    "radius of the Earth",
+    "height above the Earth's surface"
+   ]
+  },
+  {
+   "id": "science-c9-491",
+   "type": "mcq",
+   "q": "The weight of a 50 kg person on Earth is about (g = 9.8 m/s²)",
+   "options": [
+    "50 N",
+    "5 N",
+    "490 N",
+    "4900 N"
+   ]
+  },
+  {
+   "id": "science-c9-492",
+   "type": "mcq",
+   "q": "Relative density of a substance",
+   "options": [
+    "is measured in kg/m³",
+    "is measured in grams",
+    "is measured in newtons",
+    "has no unit"
+   ]
+  },
+  {
+   "id": "science-c9-493",
+   "type": "mcq",
+   "q": "We do not notice the gravitational force between everyday objects because",
+   "options": [
+    "the value of G is extremely small",
+    "the objects are always far apart",
+    "gravity acts only on planets",
+    "the force between them is repulsive"
+   ]
+  },
+  {
+   "id": "science-c9-494",
+   "type": "mcq",
+   "q": "When an object is taken from the ground to the top of a very high mountain, its weight",
+   "options": [
+    "increases",
+    "decreases slightly",
+    "is exactly unchanged",
+    "becomes zero"
+   ]
+  },
+  {
+   "id": "science-c9-495",
+   "type": "short",
+   "q": "Distinguish between the universal gravitational constant G and the acceleration due to gravity g.",
+   "proposedAnswer": "G is a constant with the same value everywhere in the universe (6.67 × 10^-11 N m²/kg²). The value of g is about 9.8 m/s² on the surface of the Earth and changes from place to place, for example with height and on other planets.",
+   "keyPoints": [
+    "G is universal and constant",
+    "g varies from place to place",
+    "Different units"
+   ]
+  },
+  {
+   "id": "science-c9-496",
+   "type": "short",
+   "q": "An object weighs 10 N on the Earth. Find its mass and its weight on the Moon, where gravity is one-sixth of the Earth's. (g = 10 m/s² on Earth)",
+   "proposedAnswer": "Mass = weight / g = 10 / 10 = 1 kg, which is the same on the Moon. Weight on the Moon = 10 / 6 = about 1.67 N.",
+   "keyPoints": [
+    "Mass 1 kg",
+    "Mass unchanged on the Moon",
+    "Moon weight about 1.67 N"
+   ]
+  },
+  {
+   "id": "science-c9-497",
+   "type": "mcq",
+   "q": "Which of the following is a renewable source of energy?",
+   "options": [
+    "Coal",
+    "Petroleum",
+    "Wind",
+    "Natural gas"
+   ]
+  },
+  {
+   "id": "science-c9-498",
+   "type": "mcq",
+   "q": "The work done by a force is zero when the displacement of the body is",
+   "options": [
+    "large",
+    "negative",
+    "double",
+    "zero"
+   ]
+  },
+  {
+   "id": "science-c9-499",
+   "type": "mcq",
+   "q": "The formula for the kinetic energy of a body of mass m moving with speed v is",
+   "options": [
+    "½mv²",
+    "mv²",
+    "mv",
+    "½mv"
+   ]
+  },
+  {
+   "id": "science-c9-500",
+   "type": "mcq",
+   "q": "The kinetic energy of a 1000 kg car moving at 10 m/s is",
+   "options": [
+    "10 000 J",
+    "50 000 J",
+    "5000 J",
+    "100 000 J"
+   ]
+  }
+ ]
+}

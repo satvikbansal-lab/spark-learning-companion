@@ -1,0 +1,5496 @@
+{
+ "class": 11,
+ "subject": "science",
+ "items": [
+  {
+   "id": "science-c11-001",
+   "type": "mcq",
+   "q": "What is the SI unit of luminous intensity?",
+   "options": [
+    "mole",
+    "candela",
+    "kelvin",
+    "ampere"
+   ]
+  },
+  {
+   "id": "science-c11-002",
+   "type": "mcq",
+   "q": "What is the dimensional formula of force?",
+   "options": [
+    "ML²T⁻²",
+    "MLT⁻¹",
+    "ML⁻¹T⁻²",
+    "MLT⁻²"
+   ]
+  },
+  {
+   "id": "science-c11-003",
+   "type": "mcq",
+   "q": "Which of the following is a derived quantity and not a base quantity in the SI system?",
+   "options": [
+    "Force",
+    "Length",
+    "Time",
+    "Mass"
+   ]
+  },
+  {
+   "id": "science-c11-004",
+   "type": "mcq",
+   "q": "How many significant figures does the measurement 0.04050 m have?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "id": "science-c11-005",
+   "type": "mcq",
+   "q": "A physical quantity has dimensions ML²T⁻³. Which quantity is it?",
+   "options": [
+    "Energy",
+    "Force",
+    "Pressure",
+    "Power"
+   ]
+  },
+  {
+   "id": "science-c11-006",
+   "type": "short",
+   "q": "Distinguish between the accuracy and the precision of a measurement.",
+   "proposedAnswer": "Accuracy is how close a measured value is to the true value. Precision is how close repeated measurements are to one another, whatever the true value is.",
+   "keyPoints": [
+    "Accuracy: closeness to the true value",
+    "Precision: closeness of repeated readings to each other",
+    "A measurement can be precise but not accurate"
+   ]
+  },
+  {
+   "id": "science-c11-007",
+   "type": "mcq",
+   "q": "The quantity √(P/ρ), where P is pressure and ρ is density, has the same dimensions as which of the following?",
+   "options": [
+    "Acceleration",
+    "Velocity",
+    "Momentum",
+    "Frequency"
+   ]
+  },
+  {
+   "id": "science-c11-008",
+   "type": "short",
+   "q": "Why can dimensional analysis not give the numerical constant in a formula such as s = ½at²?",
+   "proposedAnswer": "Pure numbers such as ½ are dimensionless, so they do not affect whether the dimensions of two sides match. Dimensional analysis can check the form of a relation but cannot fix such constants.",
+   "keyPoints": [
+    "Numerical constants have no dimensions",
+    "Dimensions match whatever the constant is",
+    "The constant must be found by experiment or derivation"
+   ]
+  },
+  {
+   "id": "science-c11-009",
+   "type": "mcq",
+   "q": "The slope of a position-time graph of a moving body gives its:",
+   "options": [
+    "acceleration",
+    "displacement",
+    "velocity",
+    "distance"
+   ]
+  },
+  {
+   "id": "science-c11-010",
+   "type": "mcq",
+   "q": "Which of the following is a vector quantity?",
+   "options": [
+    "Velocity",
+    "Speed",
+    "Distance",
+    "Mass"
+   ]
+  },
+  {
+   "id": "science-c11-011",
+   "type": "mcq",
+   "q": "A body moves in uniform circular motion. Which quantity stays constant?",
+   "options": [
+    "Velocity",
+    "Speed",
+    "Acceleration",
+    "Displacement from the start"
+   ]
+  },
+  {
+   "id": "science-c11-012",
+   "type": "mcq",
+   "q": "A car starts from rest and moves with a uniform acceleration of 2 m/s² for 10 s. How far does it travel?",
+   "options": [
+    "20 m",
+    "50 m",
+    "200 m",
+    "100 m"
+   ]
+  },
+  {
+   "id": "science-c11-013",
+   "type": "mcq",
+   "q": "A ball is thrown vertically upward with a speed of 20 m/s. Taking g = 10 m/s² and ignoring air resistance, what is the maximum height reached?",
+   "options": [
+    "20 m",
+    "40 m",
+    "10 m",
+    "200 m"
+   ]
+  },
+  {
+   "id": "science-c11-014",
+   "type": "short",
+   "q": "Two trains move in the same direction on parallel tracks at 60 km/h and 45 km/h. Find the velocity of the faster train relative to the slower one.",
+   "proposedAnswer": "Relative velocity = 60 − 45 = 15 km/h, in the direction of motion.",
+   "keyPoints": [
+    "Same direction, so subtract the velocities",
+    "Result is 15 km/h"
+   ]
+  },
+  {
+   "id": "science-c11-015",
+   "type": "mcq",
+   "q": "Two projectiles are launched from level ground with the same speed, one at 30° and the other at 60° to the horizontal. Ignoring air resistance, how do their horizontal ranges compare?",
+   "options": [
+    "The 30° projectile goes farther",
+    "The 60° projectile goes farther",
+    "The ranges are equal",
+    "It cannot be decided without the speed"
+   ]
+  },
+  {
+   "id": "science-c11-016",
+   "type": "short",
+   "q": "What are the velocity and the acceleration of a projectile at the highest point of its path (ignoring air resistance)?",
+   "proposedAnswer": "The velocity is not zero: only its vertical component is zero, so the projectile moves horizontally with speed u cosθ. The acceleration is still g, directed downward.",
+   "keyPoints": [
+    "Vertical velocity component is zero at the top",
+    "Horizontal component u cosθ stays constant",
+    "Acceleration remains g downward"
+   ]
+  },
+  {
+   "id": "science-c11-017",
+   "type": "mcq",
+   "q": "What is the SI unit of force?",
+   "options": [
+    "Joule",
+    "Watt",
+    "Pascal",
+    "Newton"
+   ]
+  },
+  {
+   "id": "science-c11-018",
+   "type": "mcq",
+   "q": "Newton's first law of motion is also known as the law of:",
+   "options": [
+    "momentum",
+    "inertia",
+    "gravitation",
+    "action and reaction"
+   ]
+  },
+  {
+   "id": "science-c11-019",
+   "type": "mcq",
+   "q": "According to Newton's second law, the net force on a body of mass m with acceleration a is:",
+   "options": [
+    "mv",
+    "m/a",
+    "ma",
+    "a/m"
+   ]
+  },
+  {
+   "id": "science-c11-020",
+   "type": "mcq",
+   "q": "What net force gives a 5 kg mass an acceleration of 3 m/s²?",
+   "options": [
+    "15 N",
+    "8 N",
+    "1.67 N",
+    "2 N"
+   ]
+  },
+  {
+   "id": "science-c11-021",
+   "type": "mcq",
+   "q": "A 0.15 kg ball moving at 20 m/s is brought to rest by a fielder in 0.1 s. What average force does the hand exert?",
+   "options": [
+    "3 N",
+    "30 N",
+    "300 N",
+    "0.3 N"
+   ]
+  },
+  {
+   "id": "science-c11-022",
+   "type": "short",
+   "q": "Why do passengers in a moving bus lurch forward when the driver applies the brakes suddenly?",
+   "proposedAnswer": "The bus slows down, but the passengers' bodies tend to keep moving at the earlier speed because of inertia, so they appear to be thrown forward.",
+   "keyPoints": [
+    "Inertia of motion",
+    "Bus stops but the body tends to continue moving",
+    "No force pushes the passenger forward"
+   ]
+  },
+  {
+   "id": "science-c11-023",
+   "type": "mcq",
+   "q": "A 2 kg block rests on a rough horizontal table (coefficient of static friction 0.5, g = 10 m/s²). A horizontal force of 8 N is applied to it. What is the force of friction on the block?",
+   "options": [
+    "10 N",
+    "Zero",
+    "5 N",
+    "8 N"
+   ]
+  },
+  {
+   "id": "science-c11-024",
+   "type": "short",
+   "q": "A gun of mass 4 kg fires a bullet of mass 20 g at 200 m/s. Find the recoil speed of the gun.",
+   "proposedAnswer": "By conservation of momentum, 4 × V = 0.02 × 200, so V = 1 m/s, in the direction opposite to the bullet.",
+   "keyPoints": [
+    "Total momentum before firing is zero",
+    "mass of gun × V = mass of bullet × v",
+    "Recoil speed is 1 m/s, opposite to the bullet"
+   ]
+  },
+  {
+   "id": "science-c11-025",
+   "type": "mcq",
+   "q": "What is the SI unit of work?",
+   "options": [
+    "Joule",
+    "Watt",
+    "Newton",
+    "Pascal"
+   ]
+  },
+  {
+   "id": "science-c11-026",
+   "type": "mcq",
+   "q": "The work done by a force that acts perpendicular to the displacement of a body is:",
+   "options": [
+    "positive",
+    "negative",
+    "zero",
+    "infinite"
+   ]
+  },
+  {
+   "id": "science-c11-027",
+   "type": "mcq",
+   "q": "The kinetic energy of a body of mass m moving with speed v is:",
+   "options": [
+    "mv",
+    "mv²",
+    "½mv",
+    "½mv²"
+   ]
+  },
+  {
+   "id": "science-c11-028",
+   "type": "mcq",
+   "q": "What is the kinetic energy of a 2 kg body moving at 3 m/s?",
+   "options": [
+    "6 J",
+    "9 J",
+    "18 J",
+    "3 J"
+   ]
+  },
+  {
+   "id": "science-c11-029",
+   "type": "mcq",
+   "q": "A 60 W bulb is used for 5 hours. How much electrical energy does it consume?",
+   "options": [
+    "12 kWh",
+    "3 kWh",
+    "0.3 kWh",
+    "0.03 kWh"
+   ]
+  },
+  {
+   "id": "science-c11-030",
+   "type": "short",
+   "q": "Calculate the work done against gravity in lifting a 10 kg load through a height of 5 m. Take g = 10 m/s².",
+   "proposedAnswer": "Work = mgh = 10 × 10 × 5 = 500 J.",
+   "keyPoints": [
+    "Work against gravity = mgh",
+    "10 × 10 × 5 = 500 J"
+   ]
+  },
+  {
+   "id": "science-c11-031",
+   "type": "mcq",
+   "q": "If the momentum of a body is doubled (its mass staying the same), by what percentage does its kinetic energy increase?",
+   "options": [
+    "300%",
+    "100%",
+    "200%",
+    "400%"
+   ]
+  },
+  {
+   "id": "science-c11-032",
+   "type": "short",
+   "q": "A car is braked with the same constant braking force at speed v and then at speed 2v. Compare the stopping distances and explain.",
+   "proposedAnswer": "The stopping distance at 2v is four times that at v. The work done by the brakes, F × d, must equal the kinetic energy ½mv², so d is proportional to v².",
+   "keyPoints": [
+    "Work done by brakes = initial kinetic energy",
+    "F d = ½mv², so d ∝ v²",
+    "Doubling the speed gives four times the distance"
+   ]
+  },
+  {
+   "id": "science-c11-033",
+   "type": "mcq",
+   "q": "Who formulated the law of universal gravitation?",
+   "options": [
+    "Kepler",
+    "Newton",
+    "Galileo",
+    "Copernicus"
+   ]
+  },
+  {
+   "id": "science-c11-034",
+   "type": "mcq",
+   "q": "What is the SI unit of the universal gravitational constant G?",
+   "options": [
+    "N kg m⁻²",
+    "N m kg⁻¹",
+    "N kg² m⁻²",
+    "N m² kg⁻²"
+   ]
+  },
+  {
+   "id": "science-c11-035",
+   "type": "mcq",
+   "q": "The acceleration due to gravity near the Earth's surface is approximately:",
+   "options": [
+    "9.8 m/s²",
+    "98 m/s²",
+    "0.98 m/s²",
+    "6.67 m/s²"
+   ]
+  },
+  {
+   "id": "science-c11-036",
+   "type": "mcq",
+   "q": "At a height equal to the Earth's radius above the surface, the acceleration due to gravity is (g = value at the surface):",
+   "options": [
+    "g/2",
+    "g",
+    "g/4",
+    "g/9"
+   ]
+  },
+  {
+   "id": "science-c11-037",
+   "type": "mcq",
+   "q": "The escape velocity from the surface of the Earth is approximately:",
+   "options": [
+    "7.9 km/s",
+    "9.8 km/s",
+    "3.0 km/s",
+    "11.2 km/s"
+   ]
+  },
+  {
+   "id": "science-c11-038",
+   "type": "short",
+   "q": "Distinguish between G and g.",
+   "proposedAnswer": "G is the universal gravitational constant, the same everywhere (6.67 × 10⁻¹¹ N m² kg⁻²). g is the acceleration due to gravity of a particular planet, which varies with place, height and depth (about 9.8 m/s² on Earth).",
+   "keyPoints": [
+    "G is a universal constant",
+    "g depends on the planet and on location",
+    "g = GM/R² at the surface"
+   ]
+  },
+  {
+   "id": "science-c11-039",
+   "type": "mcq",
+   "q": "An astronaut whose mass is 70 kg on Earth lands on the Moon, where g is about one-sixth of the Earth's. Which statement is correct?",
+   "options": [
+    "Her mass becomes about 12 kg",
+    "Her mass stays 70 kg and her weight becomes about one-sixth",
+    "Her mass becomes 420 kg and her weight is unchanged",
+    "Both her mass and weight are unchanged"
+   ]
+  },
+  {
+   "id": "science-c11-040",
+   "type": "short",
+   "q": "Why do astronauts in an orbiting satellite feel weightless even though gravity still acts on them?",
+   "proposedAnswer": "The astronaut and the satellite are both in free fall around the Earth with the same acceleration, so there is no contact force between them. Gravity provides the centripetal force, and the apparent weight is zero.",
+   "keyPoints": [
+    "Satellite and astronaut fall together with the same acceleration",
+    "Gravity is still acting and supplies centripetal force",
+    "No normal reaction, so apparent weight is zero"
+   ]
+  },
+  {
+   "id": "science-c11-041",
+   "type": "mcq",
+   "q": "The number of particles in one mole of a substance is:",
+   "options": [
+    "6.022 × 10²²",
+    "6.022 × 10²⁴",
+    "6.022 × 10²³",
+    "6.022 × 10²¹"
+   ]
+  },
+  {
+   "id": "science-c11-042",
+   "type": "mcq",
+   "q": "Which scientist stated the law of conservation of mass for chemical reactions?",
+   "options": [
+    "Lavoisier",
+    "Dalton",
+    "Proust",
+    "Avogadro"
+   ]
+  },
+  {
+   "id": "science-c11-043",
+   "type": "mcq",
+   "q": "What is the molar mass of water (H₂O)? (H = 1, O = 16)",
+   "options": [
+    "16 g/mol",
+    "18 g/mol",
+    "20 g/mol",
+    "10 g/mol"
+   ]
+  },
+  {
+   "id": "science-c11-044",
+   "type": "mcq",
+   "q": "What is the mass of 2 moles of carbon dioxide, CO₂? (C = 12, O = 16)",
+   "options": [
+    "44 g",
+    "22 g",
+    "66 g",
+    "88 g"
+   ]
+  },
+  {
+   "id": "science-c11-045",
+   "type": "mcq",
+   "q": "How many molecules are present in 4.4 g of CO₂? (Molar mass 44 g/mol; Avogadro number 6.022 × 10²³)",
+   "options": [
+    "6.022 × 10²²",
+    "6.022 × 10²³",
+    "6.022 × 10²¹",
+    "2.65 × 10²⁵"
+   ]
+  },
+  {
+   "id": "science-c11-046",
+   "type": "short",
+   "q": "Calculate the molarity of a solution made by dissolving 4 g of NaOH in water and making the volume 500 mL. (Na = 23, O = 16, H = 1)",
+   "proposedAnswer": "Moles of NaOH = 4/40 = 0.1 mol. Volume = 0.5 L. Molarity = 0.1/0.5 = 0.2 M.",
+   "keyPoints": [
+    "Molar mass of NaOH is 40 g/mol",
+    "Moles = 0.1",
+    "Molarity = moles per litre = 0.2 M"
+   ]
+  },
+  {
+   "id": "science-c11-047",
+   "type": "mcq",
+   "q": "In the reaction 2H₂ + O₂ → 2H₂O, 2 mol of H₂ is mixed with 2 mol of O₂ and the reaction goes to completion. How many moles of water are formed?",
+   "options": [
+    "4",
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "id": "science-c11-048",
+   "type": "short",
+   "q": "A compound contains 40% carbon, 6.7% hydrogen and 53.3% oxygen by mass. Find its empirical formula. (C = 12, H = 1, O = 16)",
+   "proposedAnswer": "Moles: C = 40/12 = 3.33, H = 6.7/1 = 6.7, O = 53.3/16 = 3.33. Dividing by 3.33 gives the ratio 1 : 2 : 1, so the empirical formula is CH₂O.",
+   "keyPoints": [
+    "Convert percentages to moles",
+    "Divide by the smallest value",
+    "Ratio C : H : O = 1 : 2 : 1, so CH₂O"
+   ]
+  },
+  {
+   "id": "science-c11-049",
+   "type": "mcq",
+   "q": "Who discovered the electron?",
+   "options": [
+    "Rutherford",
+    "Chadwick",
+    "Bohr",
+    "J. J. Thomson"
+   ]
+  },
+  {
+   "id": "science-c11-050",
+   "type": "mcq",
+   "q": "The neutron was discovered by:",
+   "options": [
+    "Goldstein",
+    "Chadwick",
+    "Millikan",
+    "Rutherford"
+   ]
+  },
+  {
+   "id": "science-c11-051",
+   "type": "mcq",
+   "q": "The atomic number of an element is equal to the number of:",
+   "options": [
+    "neutrons in the nucleus",
+    "protons plus neutrons",
+    "protons in the nucleus",
+    "neutrons minus protons"
+   ]
+  },
+  {
+   "id": "science-c11-052",
+   "type": "mcq",
+   "q": "How many neutrons are present in an atom of sodium-23 (atomic number 11)?",
+   "options": [
+    "12",
+    "11",
+    "23",
+    "34"
+   ]
+  },
+  {
+   "id": "science-c11-053",
+   "type": "mcq",
+   "q": "What is the maximum number of electrons that the third shell (n = 3) can hold?",
+   "options": [
+    "8",
+    "18",
+    "32",
+    "10"
+   ]
+  },
+  {
+   "id": "science-c11-054",
+   "type": "short",
+   "q": "Write the electronic configuration of chlorine (atomic number 17) in terms of subshells.",
+   "proposedAnswer": "1s² 2s² 2p⁶ 3s² 3p⁵.",
+   "keyPoints": [
+    "Fill subshells in order 1s, 2s, 2p, 3s, 3p",
+    "Total of 17 electrons",
+    "Seven electrons in the outer shell"
+   ]
+  },
+  {
+   "id": "science-c11-055",
+   "type": "mcq",
+   "q": "Which set of quantum numbers (n, l, m) is NOT permissible for an electron in an atom?",
+   "options": [
+    "n = 2, l = 1, m = 0",
+    "n = 3, l = 2, m = −2",
+    "n = 1, l = 0, m = 0",
+    "n = 2, l = 2, m = 0"
+   ]
+  },
+  {
+   "id": "science-c11-056",
+   "type": "short",
+   "q": "In Rutherford's alpha-particle scattering experiment, what did each of the three observations show about the atom?",
+   "proposedAnswer": "Most particles passed straight through, so most of the atom is empty space. A few were deflected through large angles, so there is a small, positively charged centre. A very few bounced back, so the nucleus is very dense and holds most of the mass.",
+   "keyPoints": [
+    "Most pass through: atom is mostly empty space",
+    "Some deflected: positive nucleus repels alpha particles",
+    "Very few rebound: nucleus is small and dense"
+   ]
+  },
+  {
+   "id": "science-c11-057",
+   "type": "mcq",
+   "q": "According to the modern periodic law, the properties of elements are a periodic function of their:",
+   "options": [
+    "atomic number",
+    "atomic mass",
+    "number of neutrons",
+    "density"
+   ]
+  },
+  {
+   "id": "science-c11-058",
+   "type": "mcq",
+   "q": "How many groups are there in the modern (long form) periodic table?",
+   "options": [
+    "7",
+    "8",
+    "18",
+    "16"
+   ]
+  },
+  {
+   "id": "science-c11-059",
+   "type": "mcq",
+   "q": "The halogens belong to which group of the periodic table?",
+   "options": [
+    "Group 1",
+    "Group 2",
+    "Group 16",
+    "Group 17"
+   ]
+  },
+  {
+   "id": "science-c11-060",
+   "type": "mcq",
+   "q": "Among the alkali metals Li, Na, K and Rb, which has the largest atomic radius?",
+   "options": [
+    "Li",
+    "Rb",
+    "Na",
+    "K"
+   ]
+  },
+  {
+   "id": "science-c11-061",
+   "type": "mcq",
+   "q": "Which of these elements has the highest electronegativity?",
+   "options": [
+    "Chlorine",
+    "Oxygen",
+    "Fluorine",
+    "Nitrogen"
+   ]
+  },
+  {
+   "id": "science-c11-062",
+   "type": "short",
+   "q": "Define ionisation enthalpy and state how it generally changes across a period from left to right.",
+   "proposedAnswer": "Ionisation enthalpy is the energy required to remove the most loosely held electron from an isolated gaseous atom. It generally increases across a period because the nuclear charge rises and the atomic size decreases.",
+   "keyPoints": [
+    "Energy to remove outermost electron from a gaseous atom",
+    "Increases from left to right in a period",
+    "Because of greater nuclear charge and smaller radius"
+   ]
+  },
+  {
+   "id": "science-c11-063",
+   "type": "mcq",
+   "q": "The species O²⁻, F⁻, Na⁺ and Mg²⁺ all have the same number of electrons. Which has the largest radius?",
+   "options": [
+    "O²⁻",
+    "F⁻",
+    "Na⁺",
+    "Mg²⁺"
+   ]
+  },
+  {
+   "id": "science-c11-064",
+   "type": "short",
+   "q": "Why is the first ionisation enthalpy of beryllium greater than that of boron even though boron has the higher atomic number?",
+   "proposedAnswer": "Beryllium's outer electron is in a filled 2s orbital, which is relatively stable and held tightly. Boron's outer electron is in the 2p orbital, which is higher in energy and partly shielded by the 2s electrons, so it is easier to remove.",
+   "keyPoints": [
+    "Be has a filled 2s subshell",
+    "B's electron to be removed is in 2p",
+    "2p electron is at higher energy and shielded, so removed more easily"
+   ]
+  },
+  {
+   "id": "science-c11-065",
+   "type": "mcq",
+   "q": "A bond formed by the complete transfer of electrons from one atom to another is called:",
+   "options": [
+    "covalent",
+    "ionic",
+    "metallic",
+    "hydrogen"
+   ]
+  },
+  {
+   "id": "science-c11-066",
+   "type": "mcq",
+   "q": "What is the shape of a methane (CH₄) molecule?",
+   "options": [
+    "Linear",
+    "Trigonal planar",
+    "Pyramidal",
+    "Tetrahedral"
+   ]
+  },
+  {
+   "id": "science-c11-067",
+   "type": "mcq",
+   "q": "How many bonds join the two nitrogen atoms in an N₂ molecule?",
+   "options": [
+    "Three",
+    "Two",
+    "One",
+    "Four"
+   ]
+  },
+  {
+   "id": "science-c11-068",
+   "type": "mcq",
+   "q": "What is the hybridisation of each carbon atom in ethene, C₂H₄?",
+   "options": [
+    "sp³",
+    "sp",
+    "sp²",
+    "sp³d"
+   ]
+  },
+  {
+   "id": "science-c11-069",
+   "type": "mcq",
+   "q": "The H–O–H bond angle in a water molecule is about:",
+   "options": [
+    "109.5°",
+    "120°",
+    "180°",
+    "104.5°"
+   ]
+  },
+  {
+   "id": "science-c11-070",
+   "type": "short",
+   "q": "Solid sodium chloride does not conduct electricity, but molten sodium chloride does. Explain why.",
+   "proposedAnswer": "In the solid the Na⁺ and Cl⁻ ions are held in fixed positions in the lattice, so no charge can move. When molten, the ions are free to move and carry current.",
+   "keyPoints": [
+    "Ions are fixed in the solid lattice",
+    "Ions are mobile in the molten state",
+    "Mobile ions carry the charge"
+   ]
+  },
+  {
+   "id": "science-c11-071",
+   "type": "mcq",
+   "q": "Which of the following molecules is linear?",
+   "options": [
+    "H₂O",
+    "CO₂",
+    "NH₃",
+    "CH₄"
+   ]
+  },
+  {
+   "id": "science-c11-072",
+   "type": "short",
+   "q": "Water boils at a much higher temperature than hydrogen sulphide (H₂S), though H₂S has a larger molar mass. Explain.",
+   "proposedAnswer": "Oxygen is highly electronegative, so water molecules form strong hydrogen bonds with one another. These need extra energy to break. H₂S molecules do not form significant hydrogen bonds, so they separate more easily.",
+   "keyPoints": [
+    "Hydrogen bonding in water",
+    "Oxygen is much more electronegative than sulphur",
+    "H₂S has only weak forces, so lower boiling point"
+   ]
+  },
+  {
+   "id": "science-c11-073",
+   "type": "mcq",
+   "q": "Who first used the term 'cell' after observing a thin slice of cork?",
+   "options": [
+    "Schleiden",
+    "Schwann",
+    "Robert Hooke",
+    "Rudolf Virchow"
+   ]
+  },
+  {
+   "id": "science-c11-074",
+   "type": "mcq",
+   "q": "Which cell organelle is called the powerhouse of the cell?",
+   "options": [
+    "Mitochondrion",
+    "Golgi apparatus",
+    "Lysosome",
+    "Ribosome"
+   ]
+  },
+  {
+   "id": "science-c11-075",
+   "type": "mcq",
+   "q": "Which of these organisms has cells without a true nucleus?",
+   "options": [
+    "Yeast",
+    "Bacterium",
+    "Amoeba",
+    "Onion"
+   ]
+  },
+  {
+   "id": "science-c11-076",
+   "type": "mcq",
+   "q": "Protein synthesis takes place at:",
+   "options": [
+    "Golgi apparatus",
+    "lysosomes",
+    "vacuoles",
+    "ribosomes"
+   ]
+  },
+  {
+   "id": "science-c11-077",
+   "type": "mcq",
+   "q": "The main chemical component of the cell wall of plants is:",
+   "options": [
+    "cellulose",
+    "chitin",
+    "peptidoglycan",
+    "glycogen"
+   ]
+  },
+  {
+   "id": "science-c11-078",
+   "type": "short",
+   "q": "State two differences between a prokaryotic cell and a eukaryotic cell.",
+   "proposedAnswer": "A prokaryotic cell has no membrane-bound nucleus (the DNA lies free in the nucleoid) and lacks membrane-bound organelles such as mitochondria. A eukaryotic cell has a true nucleus and membrane-bound organelles.",
+   "keyPoints": [
+    "Prokaryote: no nuclear membrane, eukaryote: true nucleus",
+    "Prokaryote lacks membrane-bound organelles",
+    "Prokaryotes have 70S ribosomes, eukaryotes 80S"
+   ]
+  },
+  {
+   "id": "science-c11-079",
+   "type": "mcq",
+   "q": "A chemical destroys all the lysosomes of a cell. What is the most likely result?",
+   "options": [
+    "The cell can no longer make proteins",
+    "The cell loses its cell wall",
+    "Worn-out organelles and engulfed material accumulate undigested",
+    "The cell cannot divide at all"
+   ]
+  },
+  {
+   "id": "science-c11-080",
+   "type": "short",
+   "q": "Why do muscle cells contain a much larger number of mitochondria than skin cells?",
+   "proposedAnswer": "Muscle cells contract continuously and need a large and steady supply of ATP. Mitochondria produce ATP by aerobic respiration, so more mitochondria meet this high energy demand.",
+   "keyPoints": [
+    "Muscle cells have high energy demand",
+    "Mitochondria make ATP",
+    "More mitochondria means more ATP production"
+   ]
+  },
+  {
+   "id": "science-c11-081",
+   "type": "mcq",
+   "q": "The building blocks (monomers) of proteins are:",
+   "options": [
+    "monosaccharides",
+    "fatty acids",
+    "nucleotides",
+    "amino acids"
+   ]
+  },
+  {
+   "id": "science-c11-082",
+   "type": "mcq",
+   "q": "The bond that joins two amino acids in a protein is called a:",
+   "options": [
+    "glycosidic bond",
+    "peptide bond",
+    "phosphodiester bond",
+    "hydrogen bond"
+   ]
+  },
+  {
+   "id": "science-c11-083",
+   "type": "mcq",
+   "q": "Which of the following is a polysaccharide?",
+   "options": [
+    "Glucose",
+    "Sucrose",
+    "Starch",
+    "Fructose"
+   ]
+  },
+  {
+   "id": "science-c11-084",
+   "type": "mcq",
+   "q": "Most enzymes are chemically:",
+   "options": [
+    "proteins",
+    "lipids",
+    "polysaccharides",
+    "inorganic salts"
+   ]
+  },
+  {
+   "id": "science-c11-085",
+   "type": "mcq",
+   "q": "Which nitrogenous base is present in RNA but not in DNA?",
+   "options": [
+    "Adenine",
+    "Uracil",
+    "Guanine",
+    "Cytosine"
+   ]
+  },
+  {
+   "id": "science-c11-086",
+   "type": "short",
+   "q": "What is the active site of an enzyme, and what role does it play?",
+   "proposedAnswer": "The active site is a specific region on the enzyme surface with a shape and chemistry that fit the substrate. The substrate binds there and is converted into product.",
+   "keyPoints": [
+    "Specific region on the enzyme",
+    "Complementary to the substrate",
+    "Substrate binds and is converted to product"
+   ]
+  },
+  {
+   "id": "science-c11-087",
+   "type": "mcq",
+   "q": "An enzyme solution is heated to 90 °C and loses its activity, which does not return when it is cooled. The best explanation is that:",
+   "options": [
+    "the substrate has been used up",
+    "the enzyme has evaporated",
+    "the pH has risen",
+    "the enzyme's three-dimensional structure has been permanently denatured"
+   ]
+  },
+  {
+   "id": "science-c11-088",
+   "type": "short",
+   "q": "Why are animal fats, rich in saturated fatty acids, usually solid at room temperature while plant oils, rich in unsaturated fatty acids, are liquid?",
+   "proposedAnswer": "Saturated fatty acid chains are straight and pack closely, so the molecules attract each other strongly and the fat is solid. Unsaturated chains have double bonds that bend the chain, so they pack loosely and the oil stays liquid.",
+   "keyPoints": [
+    "Saturated chains are straight and pack closely",
+    "Double bonds in unsaturated chains cause kinks",
+    "Looser packing means a lower melting point"
+   ]
+  },
+  {
+   "id": "science-c11-089",
+   "type": "mcq",
+   "q": "Which is the main pigment that directly takes part in photosynthesis?",
+   "options": [
+    "Chlorophyll a",
+    "Xanthophyll",
+    "Carotene",
+    "Anthocyanin"
+   ]
+  },
+  {
+   "id": "science-c11-090",
+   "type": "mcq",
+   "q": "The light-dependent reactions of photosynthesis take place in the:",
+   "options": [
+    "stroma",
+    "matrix of mitochondria",
+    "thylakoid membranes",
+    "cytoplasm"
+   ]
+  },
+  {
+   "id": "science-c11-091",
+   "type": "mcq",
+   "q": "Glycolysis, the first step of respiration, takes place in the:",
+   "options": [
+    "mitochondrial matrix",
+    "nucleus",
+    "chloroplast",
+    "cytoplasm"
+   ]
+  },
+  {
+   "id": "science-c11-092",
+   "type": "mcq",
+   "q": "What is the net gain of ATP from glycolysis of one glucose molecule?",
+   "options": [
+    "4",
+    "2",
+    "36",
+    "38"
+   ]
+  },
+  {
+   "id": "science-c11-093",
+   "type": "mcq",
+   "q": "The oxygen released during photosynthesis comes from:",
+   "options": [
+    "carbon dioxide",
+    "glucose",
+    "water",
+    "chlorophyll"
+   ]
+  },
+  {
+   "id": "science-c11-094",
+   "type": "short",
+   "q": "Write the overall balanced equation for photosynthesis and name the two requirements other than the reactants.",
+   "proposedAnswer": "6CO₂ + 12H₂O → C₆H₁₂O₆ + 6O₂ + 6H₂O, in the presence of light and chlorophyll.",
+   "keyPoints": [
+    "6CO₂ + 12H₂O gives C₆H₁₂O₆ + 6O₂ + 6H₂O",
+    "Light energy",
+    "Chlorophyll"
+   ]
+  },
+  {
+   "id": "science-c11-095",
+   "type": "mcq",
+   "q": "Why does the Calvin cycle stop after a short time if a plant is moved into darkness, even though CO₂ is available?",
+   "options": [
+    "The ATP and NADPH made in the light reactions are used up",
+    "RuBisCO is destroyed by darkness",
+    "CO₂ cannot enter the chloroplast in the dark",
+    "Chlorophyll is converted to carotene"
+   ]
+  },
+  {
+   "id": "science-c11-096",
+   "type": "short",
+   "q": "Compare aerobic respiration with fermentation in terms of end products and energy released.",
+   "proposedAnswer": "Aerobic respiration oxidises glucose completely to CO₂ and H₂O and releases a large amount of energy (about 30 to 38 ATP per glucose). Fermentation gives incomplete breakdown into ethanol and CO₂ (or lactic acid) and releases only 2 ATP.",
+   "keyPoints": [
+    "Aerobic: CO₂ and water, many ATP",
+    "Fermentation: ethanol and CO₂ or lactic acid",
+    "Fermentation yields only about 2 ATP"
+   ]
+  },
+  {
+   "id": "science-c11-097",
+   "type": "mcq",
+   "q": "Which muscular structure separates the thoracic cavity from the abdominal cavity in humans?",
+   "options": [
+    "Intercostal muscle",
+    "Diaphragm",
+    "Sternum",
+    "Pleura"
+   ]
+  },
+  {
+   "id": "science-c11-098",
+   "type": "mcq",
+   "q": "Which respiratory pigment carries most of the oxygen in human blood?",
+   "options": [
+    "Chlorophyll",
+    "Myoglobin",
+    "Haemocyanin",
+    "Haemoglobin"
+   ]
+  },
+  {
+   "id": "science-c11-099",
+   "type": "mcq",
+   "q": "Blood vessels that carry blood away from the heart are called:",
+   "options": [
+    "arteries",
+    "veins",
+    "capillaries",
+    "lymph vessels"
+   ]
+  },
+  {
+   "id": "science-c11-100",
+   "type": "mcq",
+   "q": "The normal blood pressure of a healthy adult human is approximately:",
+   "options": [
+    "80/120 mm Hg",
+    "200/120 mm Hg",
+    "120/80 mm Hg",
+    "60/40 mm Hg"
+   ]
+  },
+  {
+   "id": "science-c11-101",
+   "type": "mcq",
+   "q": "Which chamber of the human heart receives oxygenated blood from the lungs?",
+   "options": [
+    "Right atrium",
+    "Right ventricle",
+    "Left ventricle",
+    "Left atrium"
+   ]
+  },
+  {
+   "id": "science-c11-102",
+   "type": "short",
+   "q": "How is carbon dioxide transported in the blood?",
+   "proposedAnswer": "About 70% is carried as bicarbonate ions in the plasma, about 20 to 25% is bound to haemoglobin as carbamino-haemoglobin, and about 7% is dissolved in plasma.",
+   "keyPoints": [
+    "About 70% as bicarbonate",
+    "About 20 to 25% as carbamino-haemoglobin",
+    "About 7% dissolved in plasma"
+   ]
+  },
+  {
+   "id": "science-c11-103",
+   "type": "mcq",
+   "q": "People who go to high altitudes tend to breathe faster at first. What is the main reason?",
+   "options": [
+    "The air there contains more carbon dioxide",
+    "The lower partial pressure of oxygen means less oxygen reaches the blood",
+    "Their lungs become smaller",
+    "The air is much hotter"
+   ]
+  },
+  {
+   "id": "science-c11-104",
+   "type": "short",
+   "q": "Why is the wall of the left ventricle thicker than that of the right ventricle?",
+   "proposedAnswer": "The left ventricle pumps blood at high pressure to the whole body through the aorta, whereas the right ventricle pumps blood only to the nearby lungs at lower pressure. A thicker muscular wall generates the greater force needed.",
+   "keyPoints": [
+    "Left ventricle supplies the whole body",
+    "Right ventricle supplies only the lungs",
+    "Greater pressure needs thicker muscle"
+   ]
+  },
+  {
+   "id": "science-c11-105",
+   "type": "mcq",
+   "q": "What is the SI unit of pressure?",
+   "options": [
+    "Newton",
+    "Joule",
+    "Pascal",
+    "Watt"
+   ]
+  },
+  {
+   "id": "science-c11-106",
+   "type": "short",
+   "q": "State the SI base units of length, mass and time.",
+   "proposedAnswer": "Length is measured in metre (m), mass in kilogram (kg) and time in second (s).",
+   "keyPoints": [
+    "Length: metre",
+    "Mass: kilogram",
+    "Time: second"
+   ]
+  },
+  {
+   "id": "science-c11-107",
+   "type": "mcq",
+   "q": "What is the dimensional formula of pressure?",
+   "options": [
+    "ML⁻¹T⁻²",
+    "MLT⁻²",
+    "ML²T⁻²",
+    "ML⁻²T⁻²"
+   ]
+  },
+  {
+   "id": "science-c11-108",
+   "type": "mcq",
+   "q": "The number 3.14159 is rounded off to three significant figures. The result is:",
+   "options": [
+    "3.1",
+    "3.14",
+    "3.142",
+    "3.15"
+   ]
+  },
+  {
+   "id": "science-c11-109",
+   "type": "mcq",
+   "q": "Which pair of quantities has the same dimensions?",
+   "options": [
+    "Force and momentum",
+    "Power and energy",
+    "Pressure and force",
+    "Work and torque"
+   ]
+  },
+  {
+   "id": "science-c11-110",
+   "type": "mcq",
+   "q": "Two lengths, 2.5 cm and 3.25 cm, are measured with different instruments and added. Using the rule for adding measurements, the result should be reported as:",
+   "options": [
+    "5.8 cm",
+    "5.75 cm",
+    "5.7 cm",
+    "6 cm"
+   ]
+  },
+  {
+   "id": "science-c11-111",
+   "type": "mcq",
+   "q": "The radius of a sphere is measured with a possible error of 2%. What is the possible percentage error in its calculated volume?",
+   "options": [
+    "2%",
+    "4%",
+    "6%",
+    "8%"
+   ]
+  },
+  {
+   "id": "science-c11-112",
+   "type": "short",
+   "q": "The time period of a simple pendulum is T = 2π√(l/g). If the length l is measured with a 1% error, what is the resulting percentage error in T (g taken as exact)?",
+   "proposedAnswer": "T is proportional to l to the power ½, so the percentage error in T is ½ × 1% = 0.5%.",
+   "keyPoints": [
+    "T is proportional to the square root of l",
+    "Error is multiplied by the power ½",
+    "Result: 0.5%"
+   ]
+  },
+  {
+   "id": "science-c11-113",
+   "type": "mcq",
+   "q": "Which of the following is the SI unit of acceleration?",
+   "options": [
+    "m/s",
+    "m s",
+    "m²/s",
+    "m/s²"
+   ]
+  },
+  {
+   "id": "science-c11-114",
+   "type": "short",
+   "q": "Differentiate between distance and displacement.",
+   "proposedAnswer": "Distance is the total length of the path travelled and is a scalar. Displacement is the shortest straight-line change in position from start to end, with direction, and is a vector.",
+   "keyPoints": [
+    "Distance: path length, scalar",
+    "Displacement: change in position with direction, vector",
+    "Distance is never less than the magnitude of displacement"
+   ]
+  },
+  {
+   "id": "science-c11-115",
+   "type": "mcq",
+   "q": "A person walks 3 m east and then 4 m north. What is the magnitude of the displacement from the starting point?",
+   "options": [
+    "7 m",
+    "5 m",
+    "1 m",
+    "12 m"
+   ]
+  },
+  {
+   "id": "science-c11-116",
+   "type": "mcq",
+   "q": "A car is moving at 72 km/h. What is its speed in m/s?",
+   "options": [
+    "10 m/s",
+    "15 m/s",
+    "20 m/s",
+    "72 m/s"
+   ]
+  },
+  {
+   "id": "science-c11-117",
+   "type": "mcq",
+   "q": "A stone is dropped from rest. Taking g = 10 m/s² and ignoring air resistance, how far does it fall in the first 2 seconds?",
+   "options": [
+    "20 m",
+    "10 m",
+    "40 m",
+    "5 m"
+   ]
+  },
+  {
+   "id": "science-c11-118",
+   "type": "mcq",
+   "q": "The velocity of a body increases uniformly from 0 to 8 m/s in 4 s. What distance does it cover in this time?",
+   "options": [
+    "32 m",
+    "16 m",
+    "8 m",
+    "2 m"
+   ]
+  },
+  {
+   "id": "science-c11-119",
+   "type": "mcq",
+   "q": "Rain falls vertically at 10 m/s. A man walks on level ground at 10 m/s. At what angle to the vertical must he tilt his umbrella to keep dry?",
+   "options": [
+    "0°",
+    "30°",
+    "60°",
+    "45°"
+   ]
+  },
+  {
+   "id": "science-c11-120",
+   "type": "short",
+   "q": "A ball is thrown from level ground at 45° to the horizontal with a speed of 20 m/s. Taking g = 10 m/s², find its horizontal range.",
+   "proposedAnswer": "R = u² sin 2θ / g = (20² × sin 90°) / 10 = 400/10 = 40 m.",
+   "keyPoints": [
+    "Use R = u² sin2θ / g",
+    "sin 90° = 1",
+    "Range = 40 m"
+   ]
+  },
+  {
+   "id": "science-c11-121",
+   "type": "mcq",
+   "q": "Which statement is Newton's third law of motion?",
+   "options": [
+    "To every action there is an equal and opposite reaction",
+    "Force equals mass times acceleration",
+    "A body at rest stays at rest unless a net force acts on it",
+    "Force is the rate of change of velocity"
+   ]
+  },
+  {
+   "id": "science-c11-122",
+   "type": "short",
+   "q": "Define linear momentum and state its SI unit.",
+   "proposedAnswer": "Linear momentum is the product of the mass and the velocity of a body, p = mv. Its SI unit is kg m/s.",
+   "keyPoints": [
+    "p = mv",
+    "It is a vector in the direction of velocity",
+    "Unit: kg m/s"
+   ]
+  },
+  {
+   "id": "science-c11-123",
+   "type": "mcq",
+   "q": "What is the momentum of a 2 kg ball moving at 5 m/s?",
+   "options": [
+    "2.5 kg m/s",
+    "7 kg m/s",
+    "10 kg m/s",
+    "25 kg m/s"
+   ]
+  },
+  {
+   "id": "science-c11-124",
+   "type": "mcq",
+   "q": "Which type of friction is generally the smallest for a given pair of surfaces and load?",
+   "options": [
+    "Static friction",
+    "Sliding friction",
+    "Limiting friction",
+    "Rolling friction"
+   ]
+  },
+  {
+   "id": "science-c11-125",
+   "type": "mcq",
+   "q": "The impulse of a force acting on a body is equal to the:",
+   "options": [
+    "change in its kinetic energy",
+    "change in its momentum",
+    "work done by the force",
+    "product of its mass and velocity"
+   ]
+  },
+  {
+   "id": "science-c11-126",
+   "type": "mcq",
+   "q": "A 60 kg person stands on a weighing scale in a lift that is accelerating upward at 2 m/s². Taking g = 10 m/s², what force does the scale exert on the person?",
+   "options": [
+    "600 N",
+    "480 N",
+    "720 N",
+    "120 N"
+   ]
+  },
+  {
+   "id": "science-c11-127",
+   "type": "mcq",
+   "q": "Masses of 3 kg and 5 kg hang from the two ends of a light string passing over a smooth pulley. Taking g = 10 m/s², what is the acceleration of the masses?",
+   "options": [
+    "2.5 m/s²",
+    "5 m/s²",
+    "1.25 m/s²",
+    "10 m/s²"
+   ]
+  },
+  {
+   "id": "science-c11-128",
+   "type": "short",
+   "q": "Why does a cricketer move his hands backward while catching a fast cricket ball?",
+   "proposedAnswer": "Moving the hands back increases the time over which the ball's momentum is brought to zero. The change in momentum is fixed, so a longer time means a smaller average force on the hands.",
+   "keyPoints": [
+    "Change in momentum is fixed",
+    "Force = change in momentum / time",
+    "Longer time gives a smaller force and avoids injury"
+   ]
+  },
+  {
+   "id": "science-c11-129",
+   "type": "mcq",
+   "q": "What is the SI unit of power?",
+   "options": [
+    "Joule",
+    "Watt",
+    "Newton",
+    "Pascal"
+   ]
+  },
+  {
+   "id": "science-c11-130",
+   "type": "short",
+   "q": "State the work-energy theorem.",
+   "proposedAnswer": "The net work done on a body by all the forces acting on it is equal to the change in its kinetic energy.",
+   "keyPoints": [
+    "Net work done equals change in kinetic energy",
+    "W = ½mv² − ½mu²"
+   ]
+  },
+  {
+   "id": "science-c11-131",
+   "type": "mcq",
+   "q": "What is the gravitational potential energy of a 2 kg body at a height of 20 m above the ground? Take g = 10 m/s².",
+   "options": [
+    "40 J",
+    "200 J",
+    "4000 J",
+    "400 J"
+   ]
+  },
+  {
+   "id": "science-c11-132",
+   "type": "mcq",
+   "q": "One kilowatt-hour is equal to:",
+   "options": [
+    "3.6 × 10⁶ J",
+    "3.6 × 10³ J",
+    "1 × 10³ J",
+    "6 × 10⁴ J"
+   ]
+  },
+  {
+   "id": "science-c11-133",
+   "type": "mcq",
+   "q": "A pump raises 100 kg of water through a height of 10 m in 10 s. Taking g = 10 m/s², the power used is:",
+   "options": [
+    "100 W",
+    "500 W",
+    "1000 W",
+    "10000 W"
+   ]
+  },
+  {
+   "id": "science-c11-134",
+   "type": "mcq",
+   "q": "Two bodies collide and stick together (a perfectly inelastic collision). Which of the following is conserved?",
+   "options": [
+    "Kinetic energy only",
+    "Neither momentum nor kinetic energy",
+    "Both momentum and kinetic energy",
+    "Momentum only"
+   ]
+  },
+  {
+   "id": "science-c11-135",
+   "type": "mcq",
+   "q": "A ball is dropped from a height of 20 m. Ignoring air resistance and taking g = 10 m/s², its speed just before hitting the ground is:",
+   "options": [
+    "10 m/s",
+    "20 m/s",
+    "40 m/s",
+    "200 m/s"
+   ]
+  },
+  {
+   "id": "science-c11-136",
+   "type": "short",
+   "q": "A spring of force constant 200 N/m is compressed by 0.1 m. How much energy is stored in it? If it is released to push a 0.5 kg block on a smooth horizontal surface, what is the block's speed on leaving the spring?",
+   "proposedAnswer": "Energy stored = ½kx² = ½ × 200 × 0.01 = 1 J. This becomes kinetic energy, ½ × 0.5 × v² = 1, so v = 2 m/s.",
+   "keyPoints": [
+    "Elastic energy = ½kx² = 1 J",
+    "All of it becomes kinetic energy",
+    "v = 2 m/s"
+   ]
+  },
+  {
+   "id": "science-c11-137",
+   "type": "mcq",
+   "q": "Kepler's law of periods states that the square of the time period of a planet is proportional to the cube of its:",
+   "options": [
+    "mass",
+    "speed",
+    "semi-major axis of the orbit",
+    "density"
+   ]
+  },
+  {
+   "id": "science-c11-138",
+   "type": "short",
+   "q": "State Kepler's law of areas.",
+   "proposedAnswer": "The line joining a planet to the Sun sweeps out equal areas in equal intervals of time. So the planet moves faster when it is closer to the Sun.",
+   "keyPoints": [
+    "Equal areas in equal times",
+    "Planet moves faster when nearer the Sun"
+   ]
+  },
+  {
+   "id": "science-c11-139",
+   "type": "mcq",
+   "q": "The orbit of a planet around the Sun is:",
+   "options": [
+    "an ellipse with the Sun at one focus",
+    "a perfect circle with the Sun at the centre",
+    "a parabola",
+    "a straight line"
+   ]
+  },
+  {
+   "id": "science-c11-140",
+   "type": "mcq",
+   "q": "What is the approximate gravitational force between two 1 kg masses placed 1 m apart? (G = 6.67 × 10⁻¹¹ N m² kg⁻²)",
+   "options": [
+    "6.67 × 10⁻¹ N",
+    "6.67 × 10⁻¹¹ N",
+    "9.8 N",
+    "1 N"
+   ]
+  },
+  {
+   "id": "science-c11-141",
+   "type": "mcq",
+   "q": "If the distance between two masses is doubled, the gravitational force between them becomes:",
+   "options": [
+    "double",
+    "half",
+    "four times",
+    "one-fourth"
+   ]
+  },
+  {
+   "id": "science-c11-142",
+   "type": "mcq",
+   "q": "As one moves from the equator towards the poles on the Earth's surface, the value of g:",
+   "options": [
+    "increases slightly",
+    "decreases slightly",
+    "stays exactly the same",
+    "becomes zero"
+   ]
+  },
+  {
+   "id": "science-c11-143",
+   "type": "mcq",
+   "q": "Taking g = 9.8 m/s² and the Earth's radius as 6.4 × 10⁶ m, the orbital speed of a satellite revolving very close to the Earth's surface is approximately:",
+   "options": [
+    "11.2 km/s",
+    "3.9 km/s",
+    "7.9 km/s",
+    "9.8 km/s"
+   ]
+  },
+  {
+   "id": "science-c11-144",
+   "type": "short",
+   "q": "State three features of a geostationary satellite and explain why it appears fixed in the sky.",
+   "proposedAnswer": "It orbits in the equatorial plane, from west to east, with a period of 24 hours, at a height of about 36,000 km. Because it takes the same time as the Earth to complete one rotation, it stays above the same point on the Earth.",
+   "keyPoints": [
+    "Orbits in the equatorial plane, west to east",
+    "Time period 24 hours",
+    "Same angular speed as the Earth so it appears stationary"
+   ]
+  },
+  {
+   "id": "science-c11-145",
+   "type": "mcq",
+   "q": "The law of definite proportions was put forward by:",
+   "options": [
+    "Dalton",
+    "Gay-Lussac",
+    "Lavoisier",
+    "Proust"
+   ]
+  },
+  {
+   "id": "science-c11-146",
+   "type": "short",
+   "q": "Differentiate between an atom and a molecule.",
+   "proposedAnswer": "An atom is the smallest particle of an element that takes part in a chemical reaction. A molecule is a group of two or more atoms, of the same or different elements, bonded together and able to exist independently.",
+   "keyPoints": [
+    "Atom: smallest unit of an element",
+    "Molecule: two or more atoms bonded together",
+    "Example: H is an atom, H₂ is a molecule"
+   ]
+  },
+  {
+   "id": "science-c11-147",
+   "type": "mcq",
+   "q": "How many moles of water are present in 36 g of water? (H = 1, O = 16)",
+   "options": [
+    "1",
+    "2",
+    "4",
+    "0.5"
+   ]
+  },
+  {
+   "id": "science-c11-148",
+   "type": "mcq",
+   "q": "How many oxygen atoms are present in 0.5 mol of O₂ gas? (N_A = 6.022 × 10²³)",
+   "options": [
+    "3.011 × 10²³",
+    "1.2044 × 10²⁴",
+    "6.022 × 10²³",
+    "6.022 × 10²²"
+   ]
+  },
+  {
+   "id": "science-c11-149",
+   "type": "mcq",
+   "q": "What is the mass percentage of carbon in carbon dioxide? (C = 12, O = 16)",
+   "options": [
+    "27.3%",
+    "42.9%",
+    "72.7%",
+    "12%"
+   ]
+  },
+  {
+   "id": "science-c11-150",
+   "type": "mcq",
+   "q": "Propane burns completely as C₃H₈ + 5O₂ → 3CO₂ + 4H₂O. How many moles of oxygen are needed to burn 1 mol of propane completely?",
+   "options": [
+    "3",
+    "5",
+    "7",
+    "4"
+   ]
+  },
+  {
+   "id": "science-c11-151",
+   "type": "mcq",
+   "q": "Which of the following concentration terms does not change when the temperature of a solution changes?",
+   "options": [
+    "Molarity",
+    "Volume percentage",
+    "Normality",
+    "Molality"
+   ]
+  },
+  {
+   "id": "science-c11-152",
+   "type": "short",
+   "q": "10 g of calcium carbonate is heated strongly: CaCO₃ → CaO + CO₂. Calculate the mass of CaO and of CO₂ formed. (Ca = 40, C = 12, O = 16)",
+   "proposedAnswer": "Moles of CaCO₃ = 10/100 = 0.1 mol. This gives 0.1 mol CaO = 0.1 × 56 = 5.6 g and 0.1 mol CO₂ = 0.1 × 44 = 4.4 g. The total, 10 g, equals the mass of the reactant.",
+   "keyPoints": [
+    "0.1 mol of CaCO₃",
+    "CaO = 5.6 g",
+    "CO₂ = 4.4 g, and the masses add up to 10 g"
+   ]
+  },
+  {
+   "id": "science-c11-153",
+   "type": "mcq",
+   "q": "What is the charge on a proton?",
+   "options": [
+    "+1.6 × 10⁻¹⁹ C",
+    "−1.6 × 10⁻¹⁹ C",
+    "Zero",
+    "+3.2 × 10⁻¹⁹ C"
+   ]
+  },
+  {
+   "id": "science-c11-154",
+   "type": "short",
+   "q": "What are isotopes? Give one example.",
+   "proposedAnswer": "Isotopes are atoms of the same element with the same atomic number but different mass numbers, because they have different numbers of neutrons. Example: protium, deuterium and tritium of hydrogen.",
+   "keyPoints": [
+    "Same atomic number",
+    "Different mass number (different neutrons)",
+    "Example: ¹H, ²H, ³H"
+   ]
+  },
+  {
+   "id": "science-c11-155",
+   "type": "mcq",
+   "q": "How many electrons are present in an Fe³⁺ ion? (Atomic number of Fe = 26)",
+   "options": [
+    "26",
+    "29",
+    "23",
+    "3"
+   ]
+  },
+  {
+   "id": "science-c11-156",
+   "type": "mcq",
+   "q": "According to the Aufbau principle, which subshell is filled immediately after 3p?",
+   "options": [
+    "3d",
+    "4p",
+    "4d",
+    "4s"
+   ]
+  },
+  {
+   "id": "science-c11-157",
+   "type": "mcq",
+   "q": "According to the Pauli exclusion principle, the maximum number of electrons in one orbital is:",
+   "options": [
+    "1",
+    "2",
+    "4",
+    "6"
+   ]
+  },
+  {
+   "id": "science-c11-158",
+   "type": "mcq",
+   "q": "How many unpaired electrons are there in a nitrogen atom (1s² 2s² 2p³) in its ground state?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "0"
+   ]
+  },
+  {
+   "id": "science-c11-159",
+   "type": "mcq",
+   "q": "Which photon has more energy: one of wavelength 400 nm or one of wavelength 700 nm?",
+   "options": [
+    "The 400 nm photon",
+    "The 700 nm photon",
+    "Both have the same energy",
+    "It depends on the intensity of the light"
+   ]
+  },
+  {
+   "id": "science-c11-160",
+   "type": "short",
+   "q": "Calculate the energy of a photon of light of frequency 5 × 10¹⁴ Hz. (h = 6.626 × 10⁻³⁴ J s)",
+   "proposedAnswer": "E = hν = 6.626 × 10⁻³⁴ × 5 × 10¹⁴ = 3.313 × 10⁻¹⁹ J.",
+   "keyPoints": [
+    "Use E = hν",
+    "Substitute h and ν",
+    "E ≈ 3.31 × 10⁻¹⁹ J"
+   ]
+  },
+  {
+   "id": "science-c11-161",
+   "type": "mcq",
+   "q": "The noble gases are placed in which group of the modern periodic table?",
+   "options": [
+    "Group 17",
+    "Group 18",
+    "Group 16",
+    "Group 1"
+   ]
+  },
+  {
+   "id": "science-c11-162",
+   "type": "short",
+   "q": "Name the scientist who arranged elements in order of increasing atomic mass and left gaps for undiscovered elements. Why were the gaps important?",
+   "proposedAnswer": "Dmitri Mendeleev. He left gaps for elements not yet discovered and predicted their properties; the later discovery of such elements matching his predictions supported his table.",
+   "keyPoints": [
+    "Mendeleev",
+    "Left gaps for undiscovered elements",
+    "Predictions later came true"
+   ]
+  },
+  {
+   "id": "science-c11-163",
+   "type": "mcq",
+   "q": "Which of the following is an alkaline earth metal?",
+   "options": [
+    "Sodium",
+    "Potassium",
+    "Aluminium",
+    "Calcium"
+   ]
+  },
+  {
+   "id": "science-c11-164",
+   "type": "mcq",
+   "q": "Across period 3 from sodium to chlorine, the atomic radius:",
+   "options": [
+    "decreases",
+    "increases",
+    "stays the same",
+    "first increases and then decreases"
+   ]
+  },
+  {
+   "id": "science-c11-165",
+   "type": "mcq",
+   "q": "An element has the electronic configuration 1s² 2s² 2p⁶ 3s² 3p⁴. It belongs to group:",
+   "options": [
+    "14",
+    "15",
+    "16",
+    "17"
+   ]
+  },
+  {
+   "id": "science-c11-166",
+   "type": "mcq",
+   "q": "Among Na, Mg, Al and Si, which has the highest first ionisation enthalpy?",
+   "options": [
+    "Na",
+    "Mg",
+    "Al",
+    "Si"
+   ]
+  },
+  {
+   "id": "science-c11-167",
+   "type": "mcq",
+   "q": "Lithium shows a diagonal relationship with which element?",
+   "options": [
+    "Sodium",
+    "Magnesium",
+    "Aluminium",
+    "Beryllium"
+   ]
+  },
+  {
+   "id": "science-c11-168",
+   "type": "short",
+   "q": "Why are the noble gases chemically unreactive and why do they have high ionisation enthalpies?",
+   "proposedAnswer": "They have completely filled outer shells (ns² np⁶, or 1s² for helium), which is a very stable arrangement. Removing an electron from such a shell takes a lot of energy, and they have little tendency to gain or share electrons.",
+   "keyPoints": [
+    "Completely filled outermost shell",
+    "Very stable configuration",
+    "Large energy needed to remove an electron, so high ionisation enthalpy"
+   ]
+  },
+  {
+   "id": "science-c11-169",
+   "type": "mcq",
+   "q": "The bond between the two hydrogen atoms in an H₂ molecule is:",
+   "options": [
+    "ionic",
+    "metallic",
+    "covalent",
+    "hydrogen bond"
+   ]
+  },
+  {
+   "id": "science-c11-170",
+   "type": "short",
+   "q": "State the octet rule.",
+   "proposedAnswer": "Atoms tend to combine, by losing, gaining or sharing electrons, so that each has eight electrons in its outermost shell, like a noble gas.",
+   "keyPoints": [
+    "Atoms gain, lose or share electrons",
+    "Aim to have eight electrons in the outer shell"
+   ]
+  },
+  {
+   "id": "science-c11-171",
+   "type": "mcq",
+   "q": "In the ammonium ion, NH₄⁺, the fourth N–H bond is formed when:",
+   "options": [
+    "a lone pair of nitrogen is donated to an H⁺ ion",
+    "nitrogen transfers an electron to hydrogen",
+    "two hydrogen atoms share electrons",
+    "nitrogen gives up all its valence electrons"
+   ]
+  },
+  {
+   "id": "science-c11-172",
+   "type": "mcq",
+   "q": "The shape of an ammonia (NH₃) molecule is:",
+   "options": [
+    "planar triangular",
+    "trigonal pyramidal",
+    "tetrahedral",
+    "linear"
+   ]
+  },
+  {
+   "id": "science-c11-173",
+   "type": "mcq",
+   "q": "How many lone pairs of electrons are there on the oxygen atom in a water molecule?",
+   "options": [
+    "0",
+    "1",
+    "3",
+    "2"
+   ]
+  },
+  {
+   "id": "science-c11-174",
+   "type": "mcq",
+   "q": "Among N₂, O₂, F₂ and H₂, which has the highest bond order?",
+   "options": [
+    "N₂",
+    "O₂",
+    "F₂",
+    "H₂"
+   ]
+  },
+  {
+   "id": "science-c11-175",
+   "type": "mcq",
+   "q": "According to molecular orbital theory, which of the following molecules is paramagnetic?",
+   "options": [
+    "N₂",
+    "H₂",
+    "O₂",
+    "F₂"
+   ]
+  },
+  {
+   "id": "science-c11-176",
+   "type": "short",
+   "q": "The C=O bonds in carbon dioxide are polar, yet the CO₂ molecule has zero dipole moment. Explain.",
+   "proposedAnswer": "CO₂ is linear, so the two equal C=O bond dipoles point in opposite directions and cancel each other. The molecule as a whole is therefore non-polar.",
+   "keyPoints": [
+    "Each C=O bond is polar",
+    "Molecule is linear and symmetrical",
+    "Bond dipoles cancel, net dipole moment is zero"
+   ]
+  },
+  {
+   "id": "science-c11-177",
+   "type": "mcq",
+   "q": "The fluid mosaic model of the plasma membrane was proposed by:",
+   "options": [
+    "Robert Hooke",
+    "Robert Brown",
+    "Watson and Crick",
+    "Singer and Nicolson"
+   ]
+  },
+  {
+   "id": "science-c11-178",
+   "type": "short",
+   "q": "Name three structures found in plant cells but not in animal cells.",
+   "proposedAnswer": "A cell wall, plastids such as chloroplasts, and a large central vacuole.",
+   "keyPoints": [
+    "Cell wall",
+    "Plastids (chloroplasts)",
+    "Large central vacuole"
+   ]
+  },
+  {
+   "id": "science-c11-179",
+   "type": "mcq",
+   "q": "Which cell organelle contains its own DNA and ribosomes?",
+   "options": [
+    "Golgi apparatus",
+    "Mitochondrion",
+    "Lysosome",
+    "Smooth endoplasmic reticulum"
+   ]
+  },
+  {
+   "id": "science-c11-180",
+   "type": "mcq",
+   "q": "The rough endoplasmic reticulum looks rough because of the presence of:",
+   "options": [
+    "lipids",
+    "mitochondria",
+    "ribosomes",
+    "lysosomes"
+   ]
+  },
+  {
+   "id": "science-c11-181",
+   "type": "mcq",
+   "q": "The cell theory was proposed by:",
+   "options": [
+    "Schleiden and Schwann",
+    "Hooke and Brown",
+    "Mendel and Morgan",
+    "Watson and Crick"
+   ]
+  },
+  {
+   "id": "science-c11-182",
+   "type": "mcq",
+   "q": "A plant cell is placed in a strong salt solution. What will happen?",
+   "options": [
+    "It will swell and burst",
+    "Its protoplast will shrink away from the cell wall",
+    "It will become more turgid",
+    "Its cell wall will dissolve"
+   ]
+  },
+  {
+   "id": "science-c11-183",
+   "type": "mcq",
+   "q": "The inner membrane of a mitochondrion is folded into cristae. The main advantage of this is that it:",
+   "options": [
+    "makes more DNA",
+    "stores more water",
+    "digests food faster",
+    "increases the surface area for respiratory enzymes and ATP synthesis"
+   ]
+  },
+  {
+   "id": "science-c11-184",
+   "type": "short",
+   "q": "A red blood cell bursts when placed in distilled water, but a plant cell in distilled water does not. Why?",
+   "proposedAnswer": "Distilled water is hypotonic, so water enters both cells by osmosis. The red blood cell has only a thin plasma membrane and bursts. The plant cell has a rigid cell wall that resists expansion, so it becomes turgid instead.",
+   "keyPoints": [
+    "Water enters by osmosis in a hypotonic medium",
+    "Red blood cell has no cell wall, so it bursts",
+    "Plant cell wall prevents bursting"
+   ]
+  },
+  {
+   "id": "science-c11-185",
+   "type": "mcq",
+   "q": "Which sugar is present in DNA?",
+   "options": [
+    "Deoxyribose",
+    "Ribose",
+    "Glucose",
+    "Fructose"
+   ]
+  },
+  {
+   "id": "science-c11-186",
+   "type": "short",
+   "q": "Name the four nitrogenous bases of DNA and state the base-pairing rule.",
+   "proposedAnswer": "The bases are adenine, thymine, guanine and cytosine. Adenine pairs with thymine and guanine pairs with cytosine.",
+   "keyPoints": [
+    "A, T, G, C",
+    "A pairs with T",
+    "G pairs with C"
+   ]
+  },
+  {
+   "id": "science-c11-187",
+   "type": "mcq",
+   "q": "The disaccharide sucrose is made up of:",
+   "options": [
+    "two glucose units",
+    "glucose and galactose",
+    "glucose and fructose",
+    "two fructose units"
+   ]
+  },
+  {
+   "id": "science-c11-188",
+   "type": "mcq",
+   "q": "Cholesterol is classified as a:",
+   "options": [
+    "protein",
+    "carbohydrate",
+    "nucleic acid",
+    "lipid"
+   ]
+  },
+  {
+   "id": "science-c11-189",
+   "type": "mcq",
+   "q": "Which of the following is a protein?",
+   "options": [
+    "Cellulose",
+    "Insulin",
+    "Cholesterol",
+    "Glycogen"
+   ]
+  },
+  {
+   "id": "science-c11-190",
+   "type": "mcq",
+   "q": "A competitive inhibitor slows an enzyme-catalysed reaction by:",
+   "options": [
+    "permanently denaturing the enzyme",
+    "lowering the temperature of the solution",
+    "binding to the active site in place of the substrate",
+    "using up the substrate"
+   ]
+  },
+  {
+   "id": "science-c11-191",
+   "type": "mcq",
+   "q": "Adjacent nucleotides in a single strand of DNA are joined by:",
+   "options": [
+    "phosphodiester bonds",
+    "peptide bonds",
+    "glycosidic bonds between sugars",
+    "hydrogen bonds"
+   ]
+  },
+  {
+   "id": "science-c11-192",
+   "type": "short",
+   "q": "Explain why a DNA molecule with a high proportion of G-C base pairs is more stable (needs more heat to separate its strands) than one with mostly A-T pairs.",
+   "proposedAnswer": "A G-C pair is held together by three hydrogen bonds, whereas an A-T pair has only two. More hydrogen bonds mean more energy is needed to separate the strands.",
+   "keyPoints": [
+    "G-C pair has 3 hydrogen bonds",
+    "A-T pair has 2 hydrogen bonds",
+    "More bonds need more heat to break"
+   ]
+  },
+  {
+   "id": "science-c11-193",
+   "type": "mcq",
+   "q": "In which cell organelle does photosynthesis take place?",
+   "options": [
+    "Mitochondrion",
+    "Chloroplast",
+    "Ribosome",
+    "Nucleus"
+   ]
+  },
+  {
+   "id": "science-c11-194",
+   "type": "short",
+   "q": "Name the raw materials needed for photosynthesis and the two products.",
+   "proposedAnswer": "Raw materials: carbon dioxide and water (with light and chlorophyll). Products: glucose (carbohydrate) and oxygen.",
+   "keyPoints": [
+    "Carbon dioxide and water",
+    "Glucose is formed",
+    "Oxygen is released"
+   ]
+  },
+  {
+   "id": "science-c11-195",
+   "type": "mcq",
+   "q": "In the C₃ cycle, the first stable product formed when CO₂ is fixed is a three-carbon compound called:",
+   "options": [
+    "oxaloacetic acid",
+    "RuBP",
+    "pyruvic acid",
+    "3-phosphoglyceric acid (PGA)"
+   ]
+  },
+  {
+   "id": "science-c11-196",
+   "type": "mcq",
+   "q": "The Krebs cycle takes place in the:",
+   "options": [
+    "mitochondrial matrix",
+    "cytoplasm",
+    "thylakoid membrane",
+    "nucleus"
+   ]
+  },
+  {
+   "id": "science-c11-197",
+   "type": "mcq",
+   "q": "What is the respiratory quotient (RQ) when glucose is completely oxidised in aerobic respiration?",
+   "options": [
+    "0.7",
+    "0.9",
+    "1.0",
+    "1.3"
+   ]
+  },
+  {
+   "id": "science-c11-198",
+   "type": "mcq",
+   "q": "C₄ plants such as maize show very little photorespiration mainly because:",
+   "options": [
+    "they have no RuBisCO",
+    "they lack chlorophyll",
+    "their stomata are always closed",
+    "CO₂ is concentrated around RuBisCO in bundle sheath cells"
+   ]
+  },
+  {
+   "id": "science-c11-199",
+   "type": "mcq",
+   "q": "Which regions of visible light are most effective for photosynthesis?",
+   "options": [
+    "Green and yellow",
+    "Blue and red",
+    "Only green",
+    "Only yellow"
+   ]
+  },
+  {
+   "id": "science-c11-200",
+   "type": "short",
+   "q": "Explain the role of oxygen in aerobic respiration and why it makes the process yield much more ATP than fermentation.",
+   "proposedAnswer": "Oxygen is the final acceptor of electrons in the electron transport chain on the inner mitochondrial membrane and combines with hydrogen to form water. This keeps the chain working and the proton gradient driving ATP synthesis, so the glucose is fully oxidised and much more ATP is made.",
+   "keyPoints": [
+    "Oxygen is the final electron acceptor and forms water",
+    "Allows the electron transport chain to run and make ATP",
+    "Complete oxidation of glucose gives far more ATP than fermentation"
+   ]
+  },
+  {
+   "id": "science-c11-201",
+   "type": "mcq",
+   "q": "Which blood cells transport oxygen in the human body?",
+   "options": [
+    "White blood cells",
+    "Platelets",
+    "Red blood cells",
+    "Lymphocytes"
+   ]
+  },
+  {
+   "id": "science-c11-202",
+   "type": "short",
+   "q": "Which ABO blood group is called the universal donor and which the universal recipient?",
+   "proposedAnswer": "Group O is the universal donor (its red cells have no A or B antigens) and group AB is the universal recipient (it has no anti-A or anti-B antibodies).",
+   "keyPoints": [
+    "O: universal donor",
+    "AB: universal recipient"
+   ]
+  },
+  {
+   "id": "science-c11-203",
+   "type": "mcq",
+   "q": "The volume of air breathed in or out during normal quiet breathing in a healthy adult (tidal volume) is about:",
+   "options": [
+    "500 mL",
+    "1200 mL",
+    "2500 mL",
+    "5000 mL"
+   ]
+  },
+  {
+   "id": "science-c11-204",
+   "type": "mcq",
+   "q": "The natural pacemaker of the human heart is the:",
+   "options": [
+    "atrioventricular (AV) node",
+    "sinoatrial (SA) node",
+    "Purkinje fibres",
+    "bundle of His"
+   ]
+  },
+  {
+   "id": "science-c11-205",
+   "type": "mcq",
+   "q": "Which component of blood is mainly involved in clotting?",
+   "options": [
+    "Red blood cells",
+    "Neutrophils",
+    "Monocytes",
+    "Platelets"
+   ]
+  },
+  {
+   "id": "science-c11-206",
+   "type": "mcq",
+   "q": "Which of the following correctly describes inspiration?",
+   "options": [
+    "The diaphragm contracts and flattens, and the pressure in the lungs falls below atmospheric pressure",
+    "The diaphragm relaxes and moves upward, and the pressure in the lungs rises",
+    "The ribs move downward and inward and the lung volume decreases",
+    "The diaphragm contracts and the pressure in the lungs rises above atmospheric pressure"
+   ]
+  },
+  {
+   "id": "science-c11-207",
+   "type": "mcq",
+   "q": "In actively respiring tissues, haemoglobin releases more oxygen mainly because there:",
+   "options": [
+    "pCO₂ is low and pH is high",
+    "the temperature is lower",
+    "pCO₂ is high and pH is lower",
+    "pO₂ is higher than in the lungs"
+   ]
+  },
+  {
+   "id": "science-c11-208",
+   "type": "short",
+   "q": "Why does blockage of a coronary artery cause damage to the heart muscle?",
+   "proposedAnswer": "The coronary arteries supply the heart muscle itself with oxygen-rich blood. When one is blocked, the part of the muscle it supplies is starved of oxygen and nutrients and may die, causing a heart attack.",
+   "keyPoints": [
+    "Coronary arteries supply the heart muscle",
+    "Blockage cuts off oxygen and nutrients",
+    "Affected muscle can be damaged, causing a heart attack"
+   ]
+  },
+  {
+   "id": "science-c11-209",
+   "type": "mcq",
+   "q": "Which of the following is the SI unit of temperature?",
+   "options": [
+    "Degree Celsius",
+    "Degree Fahrenheit",
+    "Joule",
+    "Kelvin"
+   ]
+  },
+  {
+   "id": "science-c11-210",
+   "type": "mcq",
+   "q": "The SI prefix 'kilo' stands for a factor of:",
+   "options": [
+    "10²",
+    "10³",
+    "10⁶",
+    "10⁻³"
+   ]
+  },
+  {
+   "id": "science-c11-211",
+   "type": "mcq",
+   "q": "Which of the following quantities is dimensionless?",
+   "options": [
+    "Velocity",
+    "Pressure",
+    "Strain",
+    "Density"
+   ]
+  },
+  {
+   "id": "science-c11-212",
+   "type": "mcq",
+   "q": "One light year (the distance light travels in one year) is approximately:",
+   "options": [
+    "9.46 × 10¹⁵ m",
+    "3 × 10⁸ m",
+    "9.46 × 10¹² m",
+    "1.5 × 10¹¹ m"
+   ]
+  },
+  {
+   "id": "science-c11-213",
+   "type": "mcq",
+   "q": "The least count of an ordinary metre scale is:",
+   "options": [
+    "1 cm",
+    "1 mm",
+    "0.1 mm",
+    "0.01 mm"
+   ]
+  },
+  {
+   "id": "science-c11-214",
+   "type": "short",
+   "q": "Write the dimensional formula of the universal gravitational constant G.",
+   "proposedAnswer": "From F = G m₁m₂ / r², G = F r² / (m₁m₂) = (MLT⁻²)(L²) / M² = M⁻¹L³T⁻².",
+   "keyPoints": [
+    "Rearrange F = G m₁m₂ / r² for G",
+    "Substitute dimensions of F, r and m",
+    "G = M⁻¹L³T⁻²"
+   ]
+  },
+  {
+   "id": "science-c11-215",
+   "type": "mcq",
+   "q": "Here v is speed, u is initial speed, a is acceleration, x is distance and t is time. Which equation is dimensionally correct?",
+   "options": [
+    "v = at²",
+    "x = v/t",
+    "v² = u + 2ax",
+    "v² = u² + 2ax"
+   ]
+  },
+  {
+   "id": "science-c11-216",
+   "type": "short",
+   "q": "Assume the time period T of a simple pendulum depends only on its mass m, length l and the acceleration due to gravity g. Use dimensional analysis to find how T depends on these quantities.",
+   "proposedAnswer": "Let T = k m^a l^b g^c. Comparing dimensions: M: a = 0; L: b + c = 0; T: −2c = 1, so c = −½ and b = ½. Hence T ∝ √(l/g), independent of the mass.",
+   "keyPoints": [
+    "Write T = k m^a l^b g^c",
+    "Equate powers of M, L, T: a = 0, b = ½, c = −½",
+    "T is proportional to √(l/g) and does not depend on m"
+   ]
+  },
+  {
+   "id": "science-c11-217",
+   "type": "mcq",
+   "q": "The rate of change of velocity of a body is called:",
+   "options": [
+    "acceleration",
+    "speed",
+    "displacement",
+    "momentum"
+   ]
+  },
+  {
+   "id": "science-c11-218",
+   "type": "mcq",
+   "q": "What is the acceleration of a body moving with a uniform (constant) velocity?",
+   "options": [
+    "9.8 m/s²",
+    "Infinite",
+    "Zero",
+    "Equal to its velocity"
+   ]
+  },
+  {
+   "id": "science-c11-219",
+   "type": "mcq",
+   "q": "In uniform circular motion, the direction of the velocity of the body at any point is along the:",
+   "options": [
+    "radius, towards the centre",
+    "radius, away from the centre",
+    "axis of the circle",
+    "tangent to the circle"
+   ]
+  },
+  {
+   "id": "science-c11-220",
+   "type": "mcq",
+   "q": "A ball is thrown vertically upward with a speed of 30 m/s. Taking g = 10 m/s², how long does it take to reach its highest point?",
+   "options": [
+    "6 s",
+    "3 s",
+    "30 s",
+    "1.5 s"
+   ]
+  },
+  {
+   "id": "science-c11-221",
+   "type": "mcq",
+   "q": "A 100 m long train moves at a constant speed of 20 m/s. How long does it take to pass a signal pole completely?",
+   "options": [
+    "2 s",
+    "20 s",
+    "5 s",
+    "0.2 s"
+   ]
+  },
+  {
+   "id": "science-c11-222",
+   "type": "short",
+   "q": "A car increases its speed uniformly from 10 m/s to 30 m/s in 5 s. Find its acceleration and the distance covered in this time.",
+   "proposedAnswer": "a = (30 − 10)/5 = 4 m/s². Distance = (average speed) × time = ((10 + 30)/2) × 5 = 100 m.",
+   "keyPoints": [
+    "Acceleration = change in velocity / time = 4 m/s²",
+    "Distance = average velocity × time",
+    "Distance = 100 m"
+   ]
+  },
+  {
+   "id": "science-c11-223",
+   "type": "mcq",
+   "q": "A particle moves in a circle of radius 2 m at a constant speed of 4 m/s. What is the magnitude of its acceleration?",
+   "options": [
+    "8 m/s²",
+    "2 m/s²",
+    "16 m/s²",
+    "4 m/s²"
+   ]
+  },
+  {
+   "id": "science-c11-224",
+   "type": "short",
+   "q": "A car moves around a circular track at a constant speed. Is the car accelerating? Explain.",
+   "proposedAnswer": "Yes. Acceleration is the rate of change of velocity, a vector. The speed is constant, but the direction of the velocity changes continuously, so the velocity changes and the car has an acceleration directed towards the centre of the track.",
+   "keyPoints": [
+    "Acceleration is the change of velocity, including its direction",
+    "Direction changes continuously",
+    "Acceleration (v²/r) points towards the centre"
+   ]
+  },
+  {
+   "id": "science-c11-225",
+   "type": "mcq",
+   "q": "The inertia of a body depends on its:",
+   "options": [
+    "volume",
+    "mass",
+    "shape",
+    "speed"
+   ]
+  },
+  {
+   "id": "science-c11-226",
+   "type": "mcq",
+   "q": "Which of the following is the SI unit of impulse?",
+   "options": [
+    "N",
+    "N/s",
+    "kg m/s²",
+    "N s"
+   ]
+  },
+  {
+   "id": "science-c11-227",
+   "type": "mcq",
+   "q": "The force of friction between two surfaces in contact always acts:",
+   "options": [
+    "opposite to the relative motion, or the tendency of relative motion, between them",
+    "in the direction of the relative motion",
+    "perpendicular to the surfaces",
+    "towards the centre of the Earth"
+   ]
+  },
+  {
+   "id": "science-c11-228",
+   "type": "mcq",
+   "q": "A 1000 kg car moving at 20 m/s is brought to rest uniformly in 10 s. What is the average braking force?",
+   "options": [
+    "200 N",
+    "1000 N",
+    "2000 N",
+    "20000 N"
+   ]
+  },
+  {
+   "id": "science-c11-229",
+   "type": "mcq",
+   "q": "Taking g = 9.8 m/s², what is the weight of a 50 kg person on the Earth?",
+   "options": [
+    "50 N",
+    "5 N",
+    "5000 N",
+    "490 N"
+   ]
+  },
+  {
+   "id": "science-c11-230",
+   "type": "short",
+   "q": "State the law of conservation of linear momentum and give one example.",
+   "proposedAnswer": "If no external force acts on a system, the total linear momentum of the system remains constant. Example: the recoil of a gun when a bullet is fired, or the collision of two bodies.",
+   "keyPoints": [
+    "Total momentum is constant when the net external force is zero",
+    "Example such as gun recoil or a collision"
+   ]
+  },
+  {
+   "id": "science-c11-231",
+   "type": "mcq",
+   "q": "A 5 kg block slides down a smooth (frictionless) incline making an angle of 30° with the horizontal. Taking g = 10 m/s², its acceleration is:",
+   "options": [
+    "10 m/s²",
+    "5 m/s²",
+    "8.66 m/s²",
+    "2.5 m/s²"
+   ]
+  },
+  {
+   "id": "science-c11-232",
+   "type": "short",
+   "q": "A 10 kg block lies on a rough horizontal floor (coefficient of kinetic friction 0.3). A horizontal force of 50 N pulls it. Taking g = 10 m/s², find the acceleration of the block.",
+   "proposedAnswer": "Normal force = mg = 100 N, so kinetic friction = 0.3 × 100 = 30 N. Net force = 50 − 30 = 20 N. Acceleration = 20/10 = 2 m/s².",
+   "keyPoints": [
+    "Friction = μN = 30 N",
+    "Net force = 50 − 30 = 20 N",
+    "a = 2 m/s²"
+   ]
+  },
+  {
+   "id": "science-c11-233",
+   "type": "mcq",
+   "q": "A constant force F moves a body through a distance s in the direction of the force. The work done is:",
+   "options": [
+    "F/s",
+    "s/F",
+    "F × s",
+    "F + s"
+   ]
+  },
+  {
+   "id": "science-c11-234",
+   "type": "mcq",
+   "q": "The energy stored in a stretched spring is:",
+   "options": [
+    "elastic potential energy",
+    "kinetic energy",
+    "heat energy",
+    "nuclear energy"
+   ]
+  },
+  {
+   "id": "science-c11-235",
+   "type": "mcq",
+   "q": "One horsepower is approximately equal to:",
+   "options": [
+    "476 W",
+    "746 W",
+    "647 W",
+    "1000 W"
+   ]
+  },
+  {
+   "id": "science-c11-236",
+   "type": "mcq",
+   "q": "What is the kinetic energy of a 4 kg body moving at 5 m/s?",
+   "options": [
+    "20 J",
+    "100 J",
+    "25 J",
+    "50 J"
+   ]
+  },
+  {
+   "id": "science-c11-237",
+   "type": "mcq",
+   "q": "A force of 10 N acts on a body at 60° to the direction of its displacement, and the body moves 4 m. The work done by the force is:",
+   "options": [
+    "20 J",
+    "40 J",
+    "34.6 J",
+    "10 J"
+   ]
+  },
+  {
+   "id": "science-c11-238",
+   "type": "short",
+   "q": "Distinguish between a conservative force and a non-conservative force, giving one example of each.",
+   "proposedAnswer": "The work done by a conservative force depends only on the starting and end points, not on the path, and is zero over a closed path; gravity is an example. For a non-conservative force the work depends on the path taken; friction is an example.",
+   "keyPoints": [
+    "Conservative: work independent of path, zero for a closed loop",
+    "Non-conservative: work depends on the path",
+    "Examples: gravity, friction"
+   ]
+  },
+  {
+   "id": "science-c11-239",
+   "type": "mcq",
+   "q": "A ball dropped from a height h bounces back up to a height h/2. What fraction of its mechanical energy is lost in the bounce?",
+   "options": [
+    "One-fourth",
+    "One-third",
+    "One-half",
+    "Zero"
+   ]
+  },
+  {
+   "id": "science-c11-240",
+   "type": "short",
+   "q": "A person carries a 20 kg suitcase horizontally for 10 m at constant speed. Does the person do work against gravity? Explain.",
+   "proposedAnswer": "No work is done against gravity. The force needed to support the suitcase is vertical, but the displacement is horizontal, so the angle between them is 90° and W = Fs cos 90° = 0.",
+   "keyPoints": [
+    "Supporting force is vertical, displacement horizontal",
+    "Angle is 90°, cos 90° = 0",
+    "So the work done against gravity is zero"
+   ]
+  },
+  {
+   "id": "science-c11-241",
+   "type": "mcq",
+   "q": "The value of the universal gravitational constant G is:",
+   "options": [
+    "6.67 × 10⁻⁹ N m² kg⁻²",
+    "6.67 × 10⁻⁷ N m² kg⁻²",
+    "9.8 N m² kg⁻²",
+    "6.67 × 10⁻¹¹ N m² kg⁻²"
+   ]
+  },
+  {
+   "id": "science-c11-242",
+   "type": "mcq",
+   "q": "The gravitational force between two masses is always:",
+   "options": [
+    "repulsive",
+    "attractive",
+    "zero",
+    "repulsive at short and attractive at long distances"
+   ]
+  },
+  {
+   "id": "science-c11-243",
+   "type": "mcq",
+   "q": "The escape velocity of a body from the Earth does NOT depend on the:",
+   "options": [
+    "mass of the Earth",
+    "radius of the Earth",
+    "mass of the body",
+    "value of G"
+   ]
+  },
+  {
+   "id": "science-c11-244",
+   "type": "mcq",
+   "q": "The acceleration due to gravity on the surface of the Moon is approximately:",
+   "options": [
+    "1.6 m/s²",
+    "9.8 m/s²",
+    "3.7 m/s²",
+    "24 m/s²"
+   ]
+  },
+  {
+   "id": "science-c11-245",
+   "type": "mcq",
+   "q": "The time period of a satellite orbiting very close to the Earth's surface is about:",
+   "options": [
+    "24 hours",
+    "85 minutes",
+    "12 hours",
+    "8 minutes"
+   ]
+  },
+  {
+   "id": "science-c11-246",
+   "type": "short",
+   "q": "State Newton's law of gravitation and write its mathematical form.",
+   "proposedAnswer": "Every body attracts every other body with a force directly proportional to the product of their masses and inversely proportional to the square of the distance between them: F = G m₁m₂ / r².",
+   "keyPoints": [
+    "Proportional to the product of the masses",
+    "Inversely proportional to the square of the distance",
+    "F = G m₁m₂ / r²"
+   ]
+  },
+  {
+   "id": "science-c11-247",
+   "type": "mcq",
+   "q": "A planet has 4 times the mass of the Earth and 2 times the radius of the Earth. The acceleration due to gravity at its surface is:",
+   "options": [
+    "4g",
+    "2g",
+    "g/2",
+    "g"
+   ]
+  },
+  {
+   "id": "science-c11-248",
+   "type": "short",
+   "q": "Two people of mass 60 kg each stand 1 m apart. Estimate the gravitational force between them (G = 6.67 × 10⁻¹¹ N m² kg⁻²) and explain why they do not feel it.",
+   "proposedAnswer": "F = 6.67 × 10⁻¹¹ × 60 × 60 / 1² ≈ 2.4 × 10⁻⁷ N. This is extremely small compared to forces such as their own weight or friction, because G is so small and their masses are small. It only becomes noticeable when one of the masses is as large as a planet.",
+   "keyPoints": [
+    "F is about 2.4 × 10⁻⁷ N",
+    "G is very small and the masses are small",
+    "Much smaller than the weight or friction acting on them"
+   ]
+  },
+  {
+   "id": "science-c11-249",
+   "type": "mcq",
+   "q": "Which of the following is a mixture?",
+   "options": [
+    "Air",
+    "Water",
+    "Sodium chloride",
+    "Oxygen"
+   ]
+  },
+  {
+   "id": "science-c11-250",
+   "type": "mcq",
+   "q": "One atomic mass unit (u) is defined as exactly 1/12 of the mass of:",
+   "options": [
+    "a hydrogen atom",
+    "an oxygen-16 atom",
+    "a carbon-12 atom",
+    "an electron"
+   ]
+  },
+  {
+   "id": "science-c11-251",
+   "type": "mcq",
+   "q": "What is the molar mass of sodium chloride, NaCl? (Na = 23, Cl = 35.5)",
+   "options": [
+    "35.5 g/mol",
+    "23 g/mol",
+    "81 g/mol",
+    "58.5 g/mol"
+   ]
+  },
+  {
+   "id": "science-c11-252",
+   "type": "mcq",
+   "q": "How many moles are present in 5.85 g of sodium chloride? (Molar mass = 58.5 g/mol)",
+   "options": [
+    "1",
+    "0.1",
+    "0.01",
+    "10"
+   ]
+  },
+  {
+   "id": "science-c11-253",
+   "type": "mcq",
+   "q": "What is the molarity of a solution containing 0.5 mol of solute in 250 mL of solution?",
+   "options": [
+    "0.5 M",
+    "1 M",
+    "2 M",
+    "0.125 M"
+   ]
+  },
+  {
+   "id": "science-c11-254",
+   "type": "short",
+   "q": "State the law of multiple proportions and illustrate it with carbon monoxide and carbon dioxide.",
+   "proposedAnswer": "When two elements form more than one compound, the different masses of one element that combine with a fixed mass of the other are in a simple whole-number ratio. In CO, 12 g of carbon combines with 16 g of oxygen; in CO₂, 12 g of carbon combines with 32 g of oxygen. The ratio of oxygen masses is 1 : 2.",
+   "keyPoints": [
+    "Masses of one element combining with a fixed mass of the other are in simple whole-number ratio",
+    "CO: 16 g O per 12 g C; CO₂: 32 g O per 12 g C",
+    "Ratio 1 : 2"
+   ]
+  },
+  {
+   "id": "science-c11-255",
+   "type": "mcq",
+   "q": "Which of the following contains the greatest number of molecules? (H = 1, C = 12, O = 16)",
+   "options": [
+    "1 g of H₂",
+    "1 g of CH₄",
+    "1 g of O₂",
+    "1 g of CO₂"
+   ]
+  },
+  {
+   "id": "science-c11-256",
+   "type": "short",
+   "q": "100 mL of 2 M HCl is diluted with water to a total volume of 500 mL. What is the molarity of the diluted solution?",
+   "proposedAnswer": "The moles of HCl stay the same: M₁V₁ = M₂V₂, so 2 × 100 = M₂ × 500 and M₂ = 0.4 M.",
+   "keyPoints": [
+    "Moles of solute do not change on dilution",
+    "M₁V₁ = M₂V₂",
+    "New molarity = 0.4 M"
+   ]
+  },
+  {
+   "id": "science-c11-257",
+   "type": "mcq",
+   "q": "Which subatomic particle carries a negative charge?",
+   "options": [
+    "Proton",
+    "Electron",
+    "Neutron",
+    "Alpha particle"
+   ]
+  },
+  {
+   "id": "science-c11-258",
+   "type": "mcq",
+   "q": "Which scientist proposed an atomic model with electrons moving in fixed, quantised orbits?",
+   "options": [
+    "Thomson",
+    "Rutherford",
+    "Dalton",
+    "Bohr"
+   ]
+  },
+  {
+   "id": "science-c11-259",
+   "type": "mcq",
+   "q": "How many protons are present in an atom of carbon-14? (Atomic number of carbon = 6)",
+   "options": [
+    "6",
+    "8",
+    "14",
+    "12"
+   ]
+  },
+  {
+   "id": "science-c11-260",
+   "type": "mcq",
+   "q": "How many orbitals are there in a p subshell?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "5"
+   ]
+  },
+  {
+   "id": "science-c11-261",
+   "type": "mcq",
+   "q": "What is the shape of an s orbital?",
+   "options": [
+    "Dumbbell",
+    "Double dumbbell",
+    "Planar ring",
+    "Spherical"
+   ]
+  },
+  {
+   "id": "science-c11-262",
+   "type": "short",
+   "q": "State Heisenberg's uncertainty principle.",
+   "proposedAnswer": "It is impossible to determine both the exact position and the exact momentum (or velocity) of a microscopic particle such as an electron at the same time. The product of the uncertainties is at least h/4π.",
+   "keyPoints": [
+    "Position and momentum cannot both be known exactly",
+    "Δx · Δp is at least h/4π",
+    "Important for very small particles like electrons"
+   ]
+  },
+  {
+   "id": "science-c11-263",
+   "type": "mcq",
+   "q": "The energy of the electron in the nth orbit of a hydrogen atom is −13.6/n² eV. What is the energy in the first excited state (n = 2)?",
+   "options": [
+    "−1.51 eV",
+    "−3.4 eV",
+    "−6.8 eV",
+    "−13.6 eV"
+   ]
+  },
+  {
+   "id": "science-c11-264",
+   "type": "short",
+   "q": "Find the number of protons, neutrons and electrons in the chloride ion ³⁵Cl⁻ (atomic number 17).",
+   "proposedAnswer": "Protons = 17. Neutrons = 35 − 17 = 18. Electrons = 17 + 1 = 18, since the ion carries one extra electron.",
+   "keyPoints": [
+    "Protons = atomic number = 17",
+    "Neutrons = mass number − atomic number = 18",
+    "Electrons = 18 because of the negative charge"
+   ]
+  },
+  {
+   "id": "science-c11-265",
+   "type": "mcq",
+   "q": "The elements of Group 1 (except hydrogen) are known as:",
+   "options": [
+    "halogens",
+    "alkaline earth metals",
+    "alkali metals",
+    "noble gases"
+   ]
+  },
+  {
+   "id": "science-c11-266",
+   "type": "mcq",
+   "q": "Which of the following is a metalloid?",
+   "options": [
+    "Silicon",
+    "Sodium",
+    "Chlorine",
+    "Argon"
+   ]
+  },
+  {
+   "id": "science-c11-267",
+   "type": "mcq",
+   "q": "The element with atomic number 20 (calcium) belongs to which group?",
+   "options": [
+    "Group 1",
+    "Group 2",
+    "Group 18",
+    "Group 14"
+   ]
+  },
+  {
+   "id": "science-c11-268",
+   "type": "mcq",
+   "q": "Among the alkali metals Li, Na, K and Cs, the most reactive is:",
+   "options": [
+    "Li",
+    "Na",
+    "K",
+    "Cs"
+   ]
+  },
+  {
+   "id": "science-c11-269",
+   "type": "mcq",
+   "q": "Which halogen has the most negative electron gain enthalpy?",
+   "options": [
+    "Chlorine",
+    "Fluorine",
+    "Bromine",
+    "Iodine"
+   ]
+  },
+  {
+   "id": "science-c11-270",
+   "type": "short",
+   "q": "Define electronegativity. How does it change down a group?",
+   "proposedAnswer": "Electronegativity is the tendency of an atom in a molecule to attract the shared pair of electrons towards itself. It decreases down a group because the atoms become larger and the bonding electrons are farther from the nucleus.",
+   "keyPoints": [
+    "Tendency of an atom to attract shared electrons in a bond",
+    "Decreases down a group",
+    "Because atomic size increases"
+   ]
+  },
+  {
+   "id": "science-c11-271",
+   "type": "mcq",
+   "q": "Which of the following oxides is amphoteric?",
+   "options": [
+    "Na₂O",
+    "CO₂",
+    "Al₂O₃",
+    "MgO"
+   ]
+  },
+  {
+   "id": "science-c11-272",
+   "type": "short",
+   "q": "Why is a cation smaller than its parent atom, while an anion is larger than its parent atom?",
+   "proposedAnswer": "A cation has lost electrons, often a whole outer shell, and the same nuclear charge now pulls fewer electrons, so the radius shrinks. An anion has gained electrons, which increases electron-electron repulsion while the nuclear charge is unchanged, so it expands.",
+   "keyPoints": [
+    "Cation: fewer electrons, same nuclear charge, pulled in more strongly",
+    "Anion: more electrons, greater repulsion",
+    "Nuclear charge is unchanged in both cases"
+   ]
+  },
+  {
+   "id": "science-c11-273",
+   "type": "mcq",
+   "q": "How many valence electrons does a carbon atom have?",
+   "options": [
+    "2",
+    "6",
+    "3",
+    "4"
+   ]
+  },
+  {
+   "id": "science-c11-274",
+   "type": "mcq",
+   "q": "Which of the following compounds has ionic bonding?",
+   "options": [
+    "HCl",
+    "MgO",
+    "CH₄",
+    "H₂O"
+   ]
+  },
+  {
+   "id": "science-c11-275",
+   "type": "mcq",
+   "q": "Which of these molecules contains a double bond between its two atoms?",
+   "options": [
+    "H₂",
+    "N₂",
+    "O₂",
+    "HCl"
+   ]
+  },
+  {
+   "id": "science-c11-276",
+   "type": "mcq",
+   "q": "In boron trifluoride (BF₃), the boron atom is hybridised as:",
+   "options": [
+    "sp²",
+    "sp³",
+    "sp",
+    "sp³d"
+   ]
+  },
+  {
+   "id": "science-c11-277",
+   "type": "mcq",
+   "q": "The shape of the sulphur hexafluoride (SF₆) molecule is:",
+   "options": [
+    "tetrahedral",
+    "octahedral",
+    "square planar",
+    "trigonal bipyramidal"
+   ]
+  },
+  {
+   "id": "science-c11-278",
+   "type": "short",
+   "q": "Define bond length and bond enthalpy.",
+   "proposedAnswer": "Bond length is the equilibrium distance between the nuclei of two bonded atoms. Bond enthalpy is the amount of energy required to break one mole of a particular bond in gaseous molecules.",
+   "keyPoints": [
+    "Bond length: distance between nuclei of bonded atoms",
+    "Bond enthalpy: energy to break one mole of bonds",
+    "Higher bond order gives shorter bond and higher enthalpy"
+   ]
+  },
+  {
+   "id": "science-c11-279",
+   "type": "mcq",
+   "q": "Among HF, HCl, HBr and HI, which has the highest boiling point?",
+   "options": [
+    "HCl",
+    "HBr",
+    "HI",
+    "HF"
+   ]
+  },
+  {
+   "id": "science-c11-280",
+   "type": "short",
+   "q": "The dipole moment of NH₃ is larger than that of NF₃, although fluorine is more electronegative than hydrogen. Explain.",
+   "proposedAnswer": "In NH₃ the N-H bond dipoles point towards nitrogen and the lone pair dipole also points the same way, so they add up. In NF₃ the N-F bond dipoles point towards fluorine, opposite to the lone pair dipole, so they partly cancel and the net dipole moment is small.",
+   "keyPoints": [
+    "NH₃: bond dipoles and lone-pair dipole in the same direction",
+    "NF₃: bond dipoles oppose the lone-pair dipole",
+    "Partial cancellation gives a smaller net dipole in NF₃"
+   ]
+  },
+  {
+   "id": "science-c11-281",
+   "type": "mcq",
+   "q": "Which cell organelle is sometimes called the 'suicide bag' of the cell?",
+   "options": [
+    "Lysosome",
+    "Ribosome",
+    "Vacuole",
+    "Centriole"
+   ]
+  },
+  {
+   "id": "science-c11-282",
+   "type": "mcq",
+   "q": "The plasma membrane is made mainly of:",
+   "options": [
+    "cellulose and lignin",
+    "DNA and RNA",
+    "lipids and proteins",
+    "starch and glycogen"
+   ]
+  },
+  {
+   "id": "science-c11-283",
+   "type": "mcq",
+   "q": "Which organelle modifies, sorts and packages proteins for secretion?",
+   "options": [
+    "Lysosome",
+    "Nucleolus",
+    "Ribosome",
+    "Golgi apparatus"
+   ]
+  },
+  {
+   "id": "science-c11-284",
+   "type": "mcq",
+   "q": "The nucleolus in the nucleus is the main site of synthesis of:",
+   "options": [
+    "messenger RNA only",
+    "ribosomal RNA",
+    "lipids",
+    "cellulose"
+   ]
+  },
+  {
+   "id": "science-c11-285",
+   "type": "mcq",
+   "q": "In animal cells, centrioles help in:",
+   "options": [
+    "photosynthesis",
+    "protein synthesis",
+    "forming spindle fibres during cell division",
+    "respiration"
+   ]
+  },
+  {
+   "id": "science-c11-286",
+   "type": "short",
+   "q": "List three functions of the nucleus in a cell.",
+   "proposedAnswer": "The nucleus contains the genetic material (DNA in chromosomes), controls the activities of the cell by directing protein synthesis, and takes part in cell division and heredity. The nucleolus makes ribosomal RNA.",
+   "keyPoints": [
+    "Stores the DNA",
+    "Controls cell activities through gene expression",
+    "Involved in cell division and heredity"
+   ]
+  },
+  {
+   "id": "science-c11-287",
+   "type": "mcq",
+   "q": "A gland cell that secretes large amounts of digestive enzymes (proteins) would be expected to have well-developed:",
+   "options": [
+    "rough ER and Golgi apparatus",
+    "chloroplasts",
+    "a thick cell wall",
+    "only smooth ER"
+   ]
+  },
+  {
+   "id": "science-c11-288",
+   "type": "short",
+   "q": "How does facilitated diffusion differ from active transport across the plasma membrane?",
+   "proposedAnswer": "Facilitated diffusion moves substances down their concentration gradient through carrier or channel proteins without using energy. Active transport moves substances against the gradient and needs energy from ATP.",
+   "keyPoints": [
+    "Facilitated diffusion: down the gradient, no ATP",
+    "Active transport: against the gradient, uses ATP",
+    "Both need membrane proteins"
+   ]
+  },
+  {
+   "id": "science-c11-289",
+   "type": "mcq",
+   "q": "Glucose is an example of a:",
+   "options": [
+    "polysaccharide",
+    "monosaccharide",
+    "disaccharide",
+    "protein"
+   ]
+  },
+  {
+   "id": "science-c11-290",
+   "type": "mcq",
+   "q": "Which element is present in all proteins but not in simple carbohydrates or fats?",
+   "options": [
+    "Carbon",
+    "Hydrogen",
+    "Oxygen",
+    "Nitrogen"
+   ]
+  },
+  {
+   "id": "science-c11-291",
+   "type": "mcq",
+   "q": "In animals, carbohydrate is stored in the liver and muscles as:",
+   "options": [
+    "glycogen",
+    "starch",
+    "cellulose",
+    "chitin"
+   ]
+  },
+  {
+   "id": "science-c11-292",
+   "type": "mcq",
+   "q": "The double helix model of DNA was proposed by:",
+   "options": [
+    "Hooke and Schleiden",
+    "Mendel",
+    "Watson and Crick",
+    "Singer and Nicolson"
+   ]
+  },
+  {
+   "id": "science-c11-293",
+   "type": "mcq",
+   "q": "Enzymes speed up chemical reactions by:",
+   "options": [
+    "increasing the activation energy",
+    "changing the equilibrium position",
+    "being used up in the reaction",
+    "lowering the activation energy"
+   ]
+  },
+  {
+   "id": "science-c11-294",
+   "type": "short",
+   "q": "Distinguish between the primary and secondary structures of a protein.",
+   "proposedAnswer": "The primary structure is the linear sequence of amino acids in the polypeptide chain. The secondary structure is the regular folding of the chain, such as the alpha helix and beta pleated sheet, held by hydrogen bonds.",
+   "keyPoints": [
+    "Primary: sequence of amino acids",
+    "Secondary: alpha helix or beta sheet",
+    "Secondary structure is held by hydrogen bonds"
+   ]
+  },
+  {
+   "id": "science-c11-295",
+   "type": "mcq",
+   "q": "When egg white is boiled it coagulates. Which level of protein structure is NOT destroyed by this heating?",
+   "options": [
+    "Secondary structure",
+    "Primary structure",
+    "Tertiary structure",
+    "Quaternary structure"
+   ]
+  },
+  {
+   "id": "science-c11-296",
+   "type": "short",
+   "q": "Humans digest starch but cannot digest cellulose, though both are polymers of glucose. Explain why.",
+   "proposedAnswer": "In starch the glucose units are joined by alpha-glycosidic linkages, which our digestive enzyme (amylase) can break. In cellulose they are joined by beta-glycosidic linkages, and humans lack the enzyme cellulase to break them.",
+   "keyPoints": [
+    "Starch has alpha linkages, cellulose has beta linkages",
+    "Amylase cuts alpha linkages",
+    "Humans lack cellulase"
+   ]
+  },
+  {
+   "id": "science-c11-297",
+   "type": "mcq",
+   "q": "Plants take in carbon dioxide from the air mainly through tiny pores called:",
+   "options": [
+    "lenticels",
+    "hydathodes",
+    "stomata",
+    "root hairs"
+   ]
+  },
+  {
+   "id": "science-c11-298",
+   "type": "mcq",
+   "q": "Glycolysis converts one molecule of glucose into two molecules of:",
+   "options": [
+    "pyruvic acid",
+    "ethanol",
+    "starch",
+    "carbon dioxide and water"
+   ]
+  },
+  {
+   "id": "science-c11-299",
+   "type": "mcq",
+   "q": "How many carbon atoms are present in a molecule of pyruvic acid?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "6"
+   ]
+  },
+  {
+   "id": "science-c11-300",
+   "type": "mcq",
+   "q": "Which of the following is a C₄ plant?",
+   "options": [
+    "Wheat",
+    "Rice",
+    "Potato",
+    "Maize"
+   ]
+  },
+  {
+   "id": "science-c11-301",
+   "type": "mcq",
+   "q": "The energy in an ATP molecule is stored mainly in:",
+   "options": [
+    "its high-energy phosphate bonds",
+    "its adenine base",
+    "its ribose sugar",
+    "its nitrogen atoms as heat"
+   ]
+  },
+  {
+   "id": "science-c11-302",
+   "type": "short",
+   "q": "Give three differences between photosynthesis and respiration.",
+   "proposedAnswer": "Photosynthesis takes place only in cells with chlorophyll in light, stores energy in glucose, uses CO₂ and water and releases oxygen. Respiration takes place in all living cells, day and night, releases energy from glucose, uses oxygen and gives CO₂ and water.",
+   "keyPoints": [
+    "Photosynthesis stores energy; respiration releases it",
+    "Photosynthesis uses CO₂ and releases O₂; respiration does the opposite",
+    "Respiration occurs in all living cells; photosynthesis only in green cells"
+   ]
+  },
+  {
+   "id": "science-c11-303",
+   "type": "mcq",
+   "q": "The rate of photosynthesis of a leaf does not increase any further when the light intensity is raised. The most likely reason is that:",
+   "options": [
+    "the leaf has stopped absorbing light completely",
+    "water has turned into oxygen",
+    "another factor such as the CO₂ concentration or temperature has become limiting",
+    "chlorophyll has changed into carotene"
+   ]
+  },
+  {
+   "id": "science-c11-304",
+   "type": "short",
+   "q": "A plant respires all day, yet it releases oxygen during the day. Explain.",
+   "proposedAnswer": "During the day the rate of photosynthesis is higher than the rate of respiration, so the oxygen produced in photosynthesis is more than the oxygen used in respiration, and the excess is released. At the compensation point the two are equal and there is no net gas exchange.",
+   "keyPoints": [
+    "Both processes occur in the day",
+    "Photosynthesis rate exceeds respiration rate",
+    "Net release of oxygen"
+   ]
+  },
+  {
+   "id": "science-c11-305",
+   "type": "mcq",
+   "q": "The trachea is prevented from collapsing by rings of:",
+   "options": [
+    "bone",
+    "muscle",
+    "tendon",
+    "cartilage"
+   ]
+  },
+  {
+   "id": "science-c11-306",
+   "type": "mcq",
+   "q": "Exchange of gases between air and blood in the lungs takes place in the:",
+   "options": [
+    "bronchi",
+    "alveoli",
+    "trachea",
+    "pharynx"
+   ]
+  },
+  {
+   "id": "science-c11-307",
+   "type": "mcq",
+   "q": "Which blood vessel carries deoxygenated blood from the heart to the lungs?",
+   "options": [
+    "Pulmonary vein",
+    "Aorta",
+    "Pulmonary artery",
+    "Vena cava"
+   ]
+  },
+  {
+   "id": "science-c11-308",
+   "type": "mcq",
+   "q": "In a healthy adult at rest the cardiac cycle lasts about:",
+   "options": [
+    "0.8 s",
+    "8 s",
+    "0.08 s",
+    "80 s"
+   ]
+  },
+  {
+   "id": "science-c11-309",
+   "type": "mcq",
+   "q": "The first heart sound ('lub') is produced by the closure of the:",
+   "options": [
+    "semilunar valves",
+    "tricuspid and bicuspid valves",
+    "valves in the veins",
+    "walls of the aorta"
+   ]
+  },
+  {
+   "id": "science-c11-310",
+   "type": "short",
+   "q": "State three differences between arteries and veins.",
+   "proposedAnswer": "Arteries carry blood away from the heart, have thick elastic walls and carry blood under high pressure (mostly oxygenated, except the pulmonary artery). Veins carry blood to the heart, have thinner walls, carry blood under low pressure and have valves.",
+   "keyPoints": [
+    "Arteries away from heart, veins to heart",
+    "Arteries have thick walls, veins thinner walls",
+    "Veins have valves; arteries do not"
+   ]
+  },
+  {
+   "id": "science-c11-311",
+   "type": "mcq",
+   "q": "A patient with emphysema has breathing difficulty mainly because:",
+   "options": [
+    "the coronary arteries are blocked",
+    "there are too many red blood cells",
+    "the heart valves do not close",
+    "the alveolar walls are damaged, which reduces the surface area for gas exchange"
+   ]
+  },
+  {
+   "id": "science-c11-312",
+   "type": "short",
+   "q": "Why does a person suffering from anaemia feel breathless on mild exertion?",
+   "proposedAnswer": "Anaemia means low haemoglobin or too few red cells, so the blood carries less oxygen. During exertion the tissues need more oxygen, so the person must breathe faster and the heart beats faster to compensate, which feels like breathlessness.",
+   "keyPoints": [
+    "Low haemoglobin means reduced oxygen-carrying capacity",
+    "Tissues need more oxygen on exertion",
+    "Breathing and heart rate rise to compensate"
+   ]
+  },
+  {
+   "id": "science-c11-313",
+   "type": "mcq",
+   "q": "Which of the following is a base (fundamental) quantity in the SI system?",
+   "options": [
+    "Electric current",
+    "Force",
+    "Energy",
+    "Pressure"
+   ]
+  },
+  {
+   "id": "science-c11-314",
+   "type": "short",
+   "q": "What are significant figures? State how many significant figures there are in 0.0070.",
+   "proposedAnswer": "Significant figures are the reliably known digits in a measured value, plus the first uncertain digit. 0.0070 has two significant figures (7 and the final 0), because leading zeros are not significant.",
+   "keyPoints": [
+    "Digits that carry meaning about the precision of a measurement",
+    "Leading zeros are not significant",
+    "0.0070 has 2 significant figures"
+   ]
+  },
+  {
+   "id": "science-c11-315",
+   "type": "mcq",
+   "q": "What is the dimensional formula of linear momentum?",
+   "options": [
+    "MLT⁻²",
+    "ML²T⁻¹",
+    "MLT⁻¹",
+    "ML⁻¹T"
+   ]
+  },
+  {
+   "id": "science-c11-316",
+   "type": "mcq",
+   "q": "A length of 0.00025 m expressed in millimetres is:",
+   "options": [
+    "25 mm",
+    "2.5 mm",
+    "0.025 mm",
+    "0.25 mm"
+   ]
+  },
+  {
+   "id": "science-c11-317",
+   "type": "mcq",
+   "q": "How many significant figures are there in the measurement 100.0 g?",
+   "options": [
+    "1",
+    "4",
+    "3",
+    "2"
+   ]
+  },
+  {
+   "id": "science-c11-318",
+   "type": "mcq",
+   "q": "The side of a cube is measured as 2.0 cm with an uncertainty of 0.1 cm. What is the percentage uncertainty in its volume?",
+   "options": [
+    "5%",
+    "10%",
+    "15%",
+    "20%"
+   ]
+  },
+  {
+   "id": "science-c11-319",
+   "type": "mcq",
+   "q": "The product of force and time has the same dimensions as:",
+   "options": [
+    "momentum",
+    "energy",
+    "power",
+    "pressure"
+   ]
+  },
+  {
+   "id": "science-c11-320",
+   "type": "short",
+   "q": "A quantity is calculated as P = a³b² / (c√d). The percentage errors in a, b, c and d are 1%, 2%, 3% and 4% respectively. Find the maximum percentage error in P.",
+   "proposedAnswer": "Maximum error = 3(1%) + 2(2%) + 1(3%) + ½(4%) = 3 + 4 + 3 + 2 = 12%.",
+   "keyPoints": [
+    "Multiply each percentage error by the power of that quantity",
+    "Add the errors for the maximum error",
+    "Result 12%"
+   ]
+  },
+  {
+   "id": "science-c11-321",
+   "type": "mcq",
+   "q": "Speed is:",
+   "options": [
+    "a vector quantity",
+    "a scalar quantity",
+    "always zero for a moving body",
+    "the same as velocity"
+   ]
+  },
+  {
+   "id": "science-c11-322",
+   "type": "short",
+   "q": "What does the area under a velocity-time graph represent?",
+   "proposedAnswer": "The area under a velocity-time graph gives the displacement of the body in that time interval.",
+   "keyPoints": [
+    "Area under v-t graph is the displacement",
+    "For motion in one direction it equals the distance"
+   ]
+  },
+  {
+   "id": "science-c11-323",
+   "type": "mcq",
+   "q": "A bus slows from 20 m/s to 10 m/s in 5 s with uniform retardation. Its acceleration is:",
+   "options": [
+    "+2 m/s²",
+    "+6 m/s²",
+    "−6 m/s²",
+    "−2 m/s²"
+   ]
+  },
+  {
+   "id": "science-c11-324",
+   "type": "mcq",
+   "q": "A stone is thrown vertically upward with a speed of 20 m/s. Taking g = 10 m/s² and ignoring air resistance, how long does it take to return to the thrower's hand?",
+   "options": [
+    "4 s",
+    "2 s",
+    "8 s",
+    "20 s"
+   ]
+  },
+  {
+   "id": "science-c11-325",
+   "type": "mcq",
+   "q": "The position of a particle moving along a straight line is x = 3t² (x in metres, t in seconds). What is its velocity at t = 2 s?",
+   "options": [
+    "6 m/s",
+    "3 m/s",
+    "12 m/s",
+    "24 m/s"
+   ]
+  },
+  {
+   "id": "science-c11-326",
+   "type": "mcq",
+   "q": "A body dropped from a height h takes time t to reach the ground. How long would it take to fall from a height 4h?",
+   "options": [
+    "t",
+    "4t",
+    "t/2",
+    "2t"
+   ]
+  },
+  {
+   "id": "science-c11-327",
+   "type": "mcq",
+   "q": "A boat can move at 5 m/s in still water. It is steered straight across a 100 m wide river flowing at 3 m/s. How far downstream is it when it reaches the opposite bank?",
+   "options": [
+    "33 m",
+    "60 m",
+    "100 m",
+    "167 m"
+   ]
+  },
+  {
+   "id": "science-c11-328",
+   "type": "short",
+   "q": "Using the formula for range, explain why a projectile launched with a fixed speed has its maximum horizontal range when the angle of projection is 45°.",
+   "proposedAnswer": "The range is R = u² sin 2θ / g. For a given speed, R is largest when sin 2θ has its maximum value of 1, i.e. 2θ = 90°, so θ = 45°.",
+   "keyPoints": [
+    "R = u² sin2θ / g",
+    "sin 2θ is at most 1",
+    "It equals 1 when θ = 45°"
+   ]
+  },
+  {
+   "id": "science-c11-329",
+   "type": "mcq",
+   "q": "A force of 1 N acts on a body of mass 1 kg. The acceleration produced is:",
+   "options": [
+    "0.1 m/s²",
+    "10 m/s²",
+    "1 m/s²",
+    "9.8 m/s²"
+   ]
+  },
+  {
+   "id": "science-c11-330",
+   "type": "short",
+   "q": "What is friction? State two ways of reducing it.",
+   "proposedAnswer": "Friction is the force that opposes the relative motion, or the tendency of motion, between two surfaces in contact. It can be reduced by lubrication (oil or grease) and by using ball bearings or wheels, or by polishing the surfaces.",
+   "keyPoints": [
+    "Opposes relative motion between surfaces in contact",
+    "Reduce it by lubrication",
+    "Reduce it by ball bearings or wheels"
+   ]
+  },
+  {
+   "id": "science-c11-331",
+   "type": "mcq",
+   "q": "A rocket moves upward by throwing out hot gases downward. This is best explained by:",
+   "options": [
+    "Newton's third law and conservation of momentum",
+    "Newton's first law only",
+    "the law of gravitation",
+    "Hooke's law"
+   ]
+  },
+  {
+   "id": "science-c11-332",
+   "type": "mcq",
+   "q": "Limiting friction is:",
+   "options": [
+    "the friction acting on a body that is already sliding",
+    "the maximum value of static friction",
+    "the friction acting on a rolling body",
+    "the friction when no force is applied"
+   ]
+  },
+  {
+   "id": "science-c11-333",
+   "type": "mcq",
+   "q": "A body of mass 2 kg, initially at rest, is acted on by a constant force of 10 N for 3 s. What is its final speed?",
+   "options": [
+    "5 m/s",
+    "10 m/s",
+    "30 m/s",
+    "15 m/s"
+   ]
+  },
+  {
+   "id": "science-c11-334",
+   "type": "mcq",
+   "q": "A 70 kg man stands on a weighing scale in a lift that is accelerating downward at 3 m/s². Taking g = 10 m/s², the reading of the scale is:",
+   "options": [
+    "490 N",
+    "910 N",
+    "700 N",
+    "210 N"
+   ]
+  },
+  {
+   "id": "science-c11-335",
+   "type": "mcq",
+   "q": "A car travels round a level circular road of radius 40 m. The coefficient of friction between the tyres and road is 0.4 and g = 10 m/s². The maximum speed at which it can take the turn without skidding is about:",
+   "options": [
+    "4 m/s",
+    "8 m/s",
+    "12.6 m/s",
+    "20 m/s"
+   ]
+  },
+  {
+   "id": "science-c11-336",
+   "type": "short",
+   "q": "A 0.1 kg ball hits a wall at 10 m/s and rebounds at 10 m/s in the opposite direction. The contact lasts 0.01 s. Find the change in momentum and the average force on the ball.",
+   "proposedAnswer": "Taking the initial direction as positive, the change in momentum = (−0.1 × 10) − (0.1 × 10) = −2 kg m/s, so its magnitude is 2 kg m/s. The average force = 2 / 0.01 = 200 N, directed away from the wall.",
+   "keyPoints": [
+    "Reversal of velocity: Δp = 2mv = 2 kg m/s",
+    "F = Δp / Δt",
+    "F = 200 N"
+   ]
+  },
+  {
+   "id": "science-c11-337",
+   "type": "mcq",
+   "q": "'Energy can neither be created nor destroyed but only changed from one form to another.' This statement is called the law of:",
+   "options": [
+    "gravitation",
+    "inertia",
+    "reflection",
+    "conservation of energy"
+   ]
+  },
+  {
+   "id": "science-c11-338",
+   "type": "short",
+   "q": "Define power and state its SI unit.",
+   "proposedAnswer": "Power is the rate of doing work, or the work done per unit time. Its SI unit is the watt (1 W = 1 J/s).",
+   "keyPoints": [
+    "Power = work / time",
+    "SI unit: watt (joule per second)"
+   ]
+  },
+  {
+   "id": "science-c11-339",
+   "type": "mcq",
+   "q": "A body of mass 2 kg, initially at rest, is pushed by a constant force of 4 N through a distance of 5 m on a smooth surface. Its kinetic energy at the end is:",
+   "options": [
+    "10 J",
+    "20 J",
+    "40 J",
+    "8 J"
+   ]
+  },
+  {
+   "id": "science-c11-340",
+   "type": "mcq",
+   "q": "A machine does 3000 J of work in 20 s. Its power is:",
+   "options": [
+    "60000 W",
+    "15 W",
+    "150 W",
+    "1500 W"
+   ]
+  },
+  {
+   "id": "science-c11-341",
+   "type": "mcq",
+   "q": "A 1 kg ball falls freely from a height of 5 m. Taking g = 10 m/s² and ignoring air resistance, its kinetic energy just before it hits the ground is:",
+   "options": [
+    "50 J",
+    "5 J",
+    "500 J",
+    "0.5 J"
+   ]
+  },
+  {
+   "id": "science-c11-342",
+   "type": "mcq",
+   "q": "A car engine works at constant power. If the speed of the car is doubled, the driving force provided by the engine becomes:",
+   "options": [
+    "double",
+    "half",
+    "the same",
+    "four times"
+   ]
+  },
+  {
+   "id": "science-c11-343",
+   "type": "mcq",
+   "q": "A pendulum bob on a 0.8 m string is released from a point where the string is horizontal. Taking g = 10 m/s² and ignoring air resistance, its speed at the lowest point is:",
+   "options": [
+    "1.6 m/s",
+    "2.8 m/s",
+    "8 m/s",
+    "4 m/s"
+   ]
+  },
+  {
+   "id": "science-c11-344",
+   "type": "short",
+   "q": "A student of mass 50 kg climbs a staircase 3 m high in 10 s. Taking g = 10 m/s², find the average power she develops.",
+   "proposedAnswer": "Work done = mgh = 50 × 10 × 3 = 1500 J. Power = 1500 / 10 = 150 W.",
+   "keyPoints": [
+    "Work = mgh = 1500 J",
+    "Power = work / time",
+    "P = 150 W"
+   ]
+  },
+  {
+   "id": "science-c11-345",
+   "type": "mcq",
+   "q": "The force that keeps the Earth moving in its orbit around the Sun is:",
+   "options": [
+    "gravitational force",
+    "magnetic force",
+    "frictional force",
+    "nuclear force"
+   ]
+  },
+  {
+   "id": "science-c11-346",
+   "type": "short",
+   "q": "What is meant by free fall?",
+   "proposedAnswer": "Free fall is the motion of a body under the influence of gravity alone, with no other force such as air resistance acting on it. All bodies then fall with the same acceleration g.",
+   "keyPoints": [
+    "Motion under gravity only",
+    "Air resistance ignored",
+    "Same acceleration g for all bodies"
+   ]
+  },
+  {
+   "id": "science-c11-347",
+   "type": "mcq",
+   "q": "The weight of a body at the centre of the Earth is:",
+   "options": [
+    "maximum",
+    "twice its weight on the surface",
+    "zero",
+    "infinite"
+   ]
+  },
+  {
+   "id": "science-c11-348",
+   "type": "mcq",
+   "q": "The mass of the Earth is approximately:",
+   "options": [
+    "6 × 10²⁰ kg",
+    "6 × 10²² kg",
+    "6 × 10²⁶ kg",
+    "6 × 10²⁴ kg"
+   ]
+  },
+  {
+   "id": "science-c11-349",
+   "type": "mcq",
+   "q": "At which point in its orbit is a planet's speed the greatest?",
+   "options": [
+    "At the point farthest from the Sun",
+    "At the point nearest to the Sun",
+    "Midway between the nearest and farthest points",
+    "Its speed is the same everywhere"
+   ]
+  },
+  {
+   "id": "science-c11-350",
+   "type": "mcq",
+   "q": "A satellite moves in a circular orbit around the Earth. If the radius of the orbit is made 4 times larger, its orbital speed will:",
+   "options": [
+    "double",
+    "become 4 times",
+    "become half",
+    "remain unchanged"
+   ]
+  },
+  {
+   "id": "science-c11-351",
+   "type": "mcq",
+   "q": "Taking the gravitational potential energy at infinite distance as zero, the potential energy of a mass m on the surface of the Earth (mass M, radius R) is:",
+   "options": [
+    "−GMm/R",
+    "+GMm/R",
+    "zero",
+    "+mgR²"
+   ]
+  },
+  {
+   "id": "science-c11-352",
+   "type": "short",
+   "q": "The Moon has almost no atmosphere. Explain this using the idea of escape velocity.",
+   "proposedAnswer": "The Moon's escape velocity (about 2.4 km/s) is small because of its small mass and radius. Gas molecules can reach speeds comparable to this, so gases escape from the Moon over time, whereas the Earth's much larger escape velocity (11.2 km/s) holds on to its atmosphere.",
+   "keyPoints": [
+    "Moon's escape velocity is low (about 2.4 km/s)",
+    "Gas molecules can reach such speeds and escape",
+    "Earth's higher escape velocity retains its atmosphere"
+   ]
+  },
+  {
+   "id": "science-c11-353",
+   "type": "mcq",
+   "q": "The SI unit of the amount of a substance is the:",
+   "options": [
+    "gram",
+    "mole",
+    "litre",
+    "kelvin"
+   ]
+  },
+  {
+   "id": "science-c11-354",
+   "type": "short",
+   "q": "What is meant by one mole of a substance? How is it related to Avogadro's number?",
+   "proposedAnswer": "One mole is the amount of a substance that contains as many particles (atoms, molecules or ions) as there are atoms in 12 g of carbon-12. This number is Avogadro's number, 6.022 × 10²³.",
+   "keyPoints": [
+    "Amount of substance containing 6.022 × 10²³ particles",
+    "Equal to the number of atoms in 12 g of carbon-12",
+    "Mass of one mole is the molar mass"
+   ]
+  },
+  {
+   "id": "science-c11-355",
+   "type": "mcq",
+   "q": "How many moles are present in 22 g of carbon dioxide? (C = 12, O = 16)",
+   "options": [
+    "2",
+    "1",
+    "0.25",
+    "0.5"
+   ]
+  },
+  {
+   "id": "science-c11-356",
+   "type": "mcq",
+   "q": "Which law states that equal volumes of all gases under the same conditions of temperature and pressure contain equal numbers of molecules?",
+   "options": [
+    "Avogadro's law",
+    "Boyle's law",
+    "Charles's law",
+    "Dalton's law of partial pressures"
+   ]
+  },
+  {
+   "id": "science-c11-357",
+   "type": "mcq",
+   "q": "The empirical formula of glucose, C₆H₁₂O₆, is:",
+   "options": [
+    "CHO",
+    "C₂H₄O₂",
+    "CH₂O",
+    "C₃H₆O₃"
+   ]
+  },
+  {
+   "id": "science-c11-358",
+   "type": "mcq",
+   "q": "What mass of NaOH is needed to prepare 250 mL of a 0.1 M solution? (Na = 23, O = 16, H = 1)",
+   "options": [
+    "4 g",
+    "10 g",
+    "0.1 g",
+    "1 g"
+   ]
+  },
+  {
+   "id": "science-c11-359",
+   "type": "mcq",
+   "q": "In the reaction N₂ + 3H₂ → 2NH₃, what mass of ammonia is formed from 28 g of nitrogen if hydrogen is in excess? (N = 14, H = 1)",
+   "options": [
+    "17 g",
+    "34 g",
+    "68 g",
+    "28 g"
+   ]
+  },
+  {
+   "id": "science-c11-360",
+   "type": "short",
+   "q": "3 g of carbon is burnt in 4 g of oxygen: C + O₂ → CO₂. Identify the limiting reagent and find the mass of CO₂ formed. (C = 12, O = 16)",
+   "proposedAnswer": "Moles of C = 3/12 = 0.25 mol; moles of O₂ = 4/32 = 0.125 mol. Since 1 mol of C needs 1 mol of O₂, oxygen is the limiting reagent. CO₂ formed = 0.125 mol × 44 = 5.5 g.",
+   "keyPoints": [
+    "C = 0.25 mol, O₂ = 0.125 mol",
+    "O₂ is the limiting reagent",
+    "CO₂ = 0.125 × 44 = 5.5 g"
+   ]
+  },
+  {
+   "id": "science-c11-361",
+   "type": "mcq",
+   "q": "A neutral atom of an element with atomic number 11 has how many electrons?",
+   "options": [
+    "12",
+    "10",
+    "11",
+    "22"
+   ]
+  },
+  {
+   "id": "science-c11-362",
+   "type": "short",
+   "q": "Distinguish between an orbit and an orbital.",
+   "proposedAnswer": "An orbit (Bohr model) is a fixed circular path in which an electron revolves around the nucleus. An orbital is a three-dimensional region around the nucleus where the probability of finding an electron is high, and it can hold a maximum of two electrons.",
+   "keyPoints": [
+    "Orbit: definite path in the Bohr model",
+    "Orbital: region of high probability of finding the electron",
+    "An orbital holds at most two electrons"
+   ]
+  },
+  {
+   "id": "science-c11-363",
+   "type": "mcq",
+   "q": "Which quantum number determines the shape of an orbital?",
+   "options": [
+    "Azimuthal quantum number (l)",
+    "Principal quantum number (n)",
+    "Magnetic quantum number (m)",
+    "Spin quantum number (s)"
+   ]
+  },
+  {
+   "id": "science-c11-364",
+   "type": "mcq",
+   "q": "What is the maximum number of electrons that can be accommodated in a d subshell?",
+   "options": [
+    "6",
+    "10",
+    "14",
+    "2"
+   ]
+  },
+  {
+   "id": "science-c11-365",
+   "type": "mcq",
+   "q": "The electronic configuration [Ar] 3d¹⁰ 4s¹ belongs to the element:",
+   "options": [
+    "Zn",
+    "Ni",
+    "K",
+    "Cu"
+   ]
+  },
+  {
+   "id": "science-c11-366",
+   "type": "mcq",
+   "q": "Which of the following pairs of ions has the same number of electrons?",
+   "options": [
+    "K⁺ and Cl⁻",
+    "Na⁺ and Cl⁻",
+    "Mg²⁺ and S²⁻",
+    "Li⁺ and F⁻"
+   ]
+  },
+  {
+   "id": "science-c11-367",
+   "type": "mcq",
+   "q": "An electron and a proton move with the same speed. Which has the shorter de Broglie wavelength?",
+   "options": [
+    "The electron",
+    "Both have the same wavelength",
+    "The proton",
+    "Neither has a wavelength"
+   ]
+  },
+  {
+   "id": "science-c11-368",
+   "type": "short",
+   "q": "Calculate the de Broglie wavelength of a 0.1 kg ball moving at 10 m/s (h = 6.626 × 10⁻³⁴ J s). Why do we not observe this wavelength?",
+   "proposedAnswer": "λ = h/mv = 6.626 × 10⁻³⁴ / (0.1 × 10) = 6.626 × 10⁻³⁴ m. This is far too small to be detected, so wave behaviour is not observed for large objects.",
+   "keyPoints": [
+    "λ = h / (mv)",
+    "λ = 6.626 × 10⁻³⁴ m",
+    "Too small to detect for a macroscopic body"
+   ]
+  },
+  {
+   "id": "science-c11-369",
+   "type": "mcq",
+   "q": "Elements in the same group of the periodic table have the same:",
+   "options": [
+    "atomic mass",
+    "number of shells",
+    "atomic number",
+    "number of valence electrons"
+   ]
+  },
+  {
+   "id": "science-c11-370",
+   "type": "short",
+   "q": "How many elements are present in the second and in the third periods of the modern periodic table?",
+   "proposedAnswer": "Each of the second and third periods has 8 elements (lithium to neon, and sodium to argon).",
+   "keyPoints": [
+    "Second period: Li to Ne, 8 elements",
+    "Third period: Na to Ar, 8 elements"
+   ]
+  },
+  {
+   "id": "science-c11-371",
+   "type": "mcq",
+   "q": "Lanthanoids and actinoids belong to which block of the periodic table?",
+   "options": [
+    "s-block",
+    "f-block",
+    "p-block",
+    "d-block"
+   ]
+  },
+  {
+   "id": "science-c11-372",
+   "type": "mcq",
+   "q": "Which of the following is a d-block (transition) element?",
+   "options": [
+    "Magnesium",
+    "Aluminium",
+    "Iron",
+    "Chlorine"
+   ]
+  },
+  {
+   "id": "science-c11-373",
+   "type": "mcq",
+   "q": "Which element has the highest first ionisation enthalpy?",
+   "options": [
+    "Helium",
+    "Fluorine",
+    "Hydrogen",
+    "Caesium"
+   ]
+  },
+  {
+   "id": "science-c11-374",
+   "type": "mcq",
+   "q": "An element X has atomic number 17. Which element will be most similar to X in chemical properties?",
+   "options": [
+    "The element with atomic number 18",
+    "The element with atomic number 9",
+    "The element with atomic number 16",
+    "The element with atomic number 11"
+   ]
+  },
+  {
+   "id": "science-c11-375",
+   "type": "mcq",
+   "q": "Among the following elements of the third period, which is the strongest reducing agent?",
+   "options": [
+    "Chlorine",
+    "Sulphur",
+    "Aluminium",
+    "Sodium"
+   ]
+  },
+  {
+   "id": "science-c11-376",
+   "type": "short",
+   "q": "Why does a Group 1 element have a lower ionisation enthalpy than the Group 2 element in the same period?",
+   "proposedAnswer": "The Group 1 atom has a larger radius and a smaller nuclear charge, and its single ns electron is easier to remove. In the Group 2 atom the nuclear charge is higher, the atom is smaller and its filled ns² subshell is more stable, so more energy is needed.",
+   "keyPoints": [
+    "Group 1 atom is larger with lower nuclear charge",
+    "Group 2 has higher nuclear charge and smaller size",
+    "Filled ns² is more stable"
+   ]
+  },
+  {
+   "id": "science-c11-377",
+   "type": "mcq",
+   "q": "A covalent bond is formed by:",
+   "options": [
+    "sharing of electron pairs between atoms",
+    "complete transfer of electrons from one atom to another",
+    "attraction between metal ions and a sea of electrons",
+    "attraction between separate molecules"
+   ]
+  },
+  {
+   "id": "science-c11-378",
+   "type": "short",
+   "q": "What is an electrovalent (ionic) bond? Explain its formation in sodium chloride.",
+   "proposedAnswer": "An ionic bond is the electrostatic attraction between oppositely charged ions formed by the transfer of electrons. Sodium loses one electron to become Na⁺ and chlorine gains it to become Cl⁻; both then have noble gas configurations and the ions attract each other.",
+   "keyPoints": [
+    "Transfer of electrons gives ions",
+    "Na becomes Na⁺ and Cl becomes Cl⁻",
+    "Electrostatic attraction holds the ions together"
+   ]
+  },
+  {
+   "id": "science-c11-379",
+   "type": "mcq",
+   "q": "Which of the following molecules contains a polar covalent bond?",
+   "options": [
+    "Cl₂",
+    "N₂",
+    "HCl",
+    "O₂"
+   ]
+  },
+  {
+   "id": "science-c11-380",
+   "type": "mcq",
+   "q": "How many sigma (σ) bonds are present in a molecule of ethene, C₂H₄?",
+   "options": [
+    "3",
+    "4",
+    "6",
+    "5"
+   ]
+  },
+  {
+   "id": "science-c11-381",
+   "type": "mcq",
+   "q": "The shape of a BeCl₂ molecule in the gas phase is:",
+   "options": [
+    "bent",
+    "linear",
+    "trigonal planar",
+    "tetrahedral"
+   ]
+  },
+  {
+   "id": "science-c11-382",
+   "type": "mcq",
+   "q": "Which of the following molecules has a zero dipole moment?",
+   "options": [
+    "H₂O",
+    "NH₃",
+    "CCl₄",
+    "CHCl₃"
+   ]
+  },
+  {
+   "id": "science-c11-383",
+   "type": "mcq",
+   "q": "Which of the following molecules has a bent (angular) shape?",
+   "options": [
+    "SO₂",
+    "CO₂",
+    "BeCl₂",
+    "BF₃"
+   ]
+  },
+  {
+   "id": "science-c11-384",
+   "type": "short",
+   "q": "Explain why ice floats on liquid water.",
+   "proposedAnswer": "In ice the water molecules are held by hydrogen bonds in an open cage-like hexagonal structure with empty spaces. This arrangement makes ice less dense than liquid water, where the molecules are packed closer together, so ice floats.",
+   "keyPoints": [
+    "Hydrogen bonding in ice gives an open structure",
+    "Ice has a lower density than liquid water",
+    "So ice floats"
+   ]
+  },
+  {
+   "id": "science-c11-385",
+   "type": "mcq",
+   "q": "Which structure forms the outer boundary of an animal cell?",
+   "options": [
+    "Cell wall",
+    "Plasma membrane",
+    "Nuclear envelope",
+    "Cytoskeleton"
+   ]
+  },
+  {
+   "id": "science-c11-386",
+   "type": "short",
+   "q": "Name two organelles of eukaryotic cells that are bounded by a double membrane.",
+   "proposedAnswer": "The mitochondrion and the chloroplast (a plastid) are double-membrane organelles. The nucleus also has a double membrane, the nuclear envelope.",
+   "keyPoints": [
+    "Mitochondria",
+    "Chloroplasts or other plastids",
+    "Nucleus (nuclear envelope)"
+   ]
+  },
+  {
+   "id": "science-c11-387",
+   "type": "mcq",
+   "q": "Which organelle is mainly responsible for the synthesis of lipids in the cell?",
+   "options": [
+    "Rough endoplasmic reticulum",
+    "Lysosome",
+    "Ribosome",
+    "Smooth endoplasmic reticulum"
+   ]
+  },
+  {
+   "id": "science-c11-388",
+   "type": "mcq",
+   "q": "Chromatin in the nucleus is made of:",
+   "options": [
+    "DNA and proteins (histones)",
+    "RNA and lipids",
+    "cellulose and DNA",
+    "only RNA"
+   ]
+  },
+  {
+   "id": "science-c11-389",
+   "type": "mcq",
+   "q": "Starch is stored in plant cells in plastids called:",
+   "options": [
+    "chloroplasts",
+    "chromoplasts",
+    "amyloplasts",
+    "elaioplasts"
+   ]
+  },
+  {
+   "id": "science-c11-390",
+   "type": "mcq",
+   "q": "An animal cell is placed in a solution that is more concentrated than its cytoplasm. The cell will:",
+   "options": [
+    "swell",
+    "burst",
+    "remain unchanged",
+    "shrink as water leaves it"
+   ]
+  },
+  {
+   "id": "science-c11-391",
+   "type": "mcq",
+   "q": "A cell cannot grow indefinitely large mainly because, as a cell grows:",
+   "options": [
+    "its surface area increases faster than its volume",
+    "its volume increases faster than its surface area, making exchange with surroundings less efficient",
+    "its nucleus disappears",
+    "its DNA content becomes zero"
+   ]
+  },
+  {
+   "id": "science-c11-392",
+   "type": "short",
+   "q": "What would be the effect on a cell if its nucleolus were damaged?",
+   "proposedAnswer": "The nucleolus is the site where ribosomal RNA is made and ribosome subunits are assembled. If it is damaged, new ribosomes cannot be formed properly, so protein synthesis in the cell would be affected.",
+   "keyPoints": [
+    "Nucleolus makes rRNA and assembles ribosome subunits",
+    "Fewer ribosomes",
+    "Protein synthesis is reduced"
+   ]
+  },
+  {
+   "id": "science-c11-393",
+   "type": "mcq",
+   "q": "The most abundant protein in the animal world is:",
+   "options": [
+    "insulin",
+    "haemoglobin",
+    "collagen",
+    "amylase"
+   ]
+  },
+  {
+   "id": "science-c11-394",
+   "type": "short",
+   "q": "What are enzymes? Give two examples.",
+   "proposedAnswer": "Enzymes are biological catalysts, mostly proteins, that speed up chemical reactions in living organisms without being used up. Examples: amylase, pepsin, catalase.",
+   "keyPoints": [
+    "Biological catalysts, mostly proteins",
+    "Speed up reactions without being consumed",
+    "Examples: amylase, pepsin, catalase"
+   ]
+  },
+  {
+   "id": "science-c11-395",
+   "type": "mcq",
+   "q": "A molecule of fat (triglyceride) is formed from glycerol and:",
+   "options": [
+    "fatty acids",
+    "amino acids",
+    "nucleotides",
+    "monosaccharides"
+   ]
+  },
+  {
+   "id": "science-c11-396",
+   "type": "mcq",
+   "q": "Which sugar is present in RNA?",
+   "options": [
+    "Deoxyribose",
+    "Ribose",
+    "Fructose",
+    "Galactose"
+   ]
+  },
+  {
+   "id": "science-c11-397",
+   "type": "mcq",
+   "q": "Two monosaccharides are joined together in a disaccharide by a:",
+   "options": [
+    "peptide bond",
+    "hydrogen bond",
+    "ester bond",
+    "glycosidic bond"
+   ]
+  },
+  {
+   "id": "science-c11-398",
+   "type": "mcq",
+   "q": "The enzyme pepsin works best in the stomach because its optimum pH is:",
+   "options": [
+    "strongly acidic (about 2)",
+    "neutral (about 7)",
+    "weakly basic (about 8)",
+    "strongly basic (about 12)"
+   ]
+  },
+  {
+   "id": "science-c11-399",
+   "type": "mcq",
+   "q": "In an enzyme-catalysed reaction, the rate stops rising when the substrate concentration is increased far above a certain value because:",
+   "options": [
+    "the substrate becomes denatured",
+    "the enzyme is destroyed by the substrate",
+    "all the active sites of the enzyme molecules are occupied",
+    "the reaction reverses"
+   ]
+  },
+  {
+   "id": "science-c11-400",
+   "type": "short",
+   "q": "What are essential amino acids? Why must they be supplied in the diet?",
+   "proposedAnswer": "Essential amino acids are those that the human body cannot synthesise in sufficient amounts, so they must be obtained from food. Without them the body cannot make all the proteins it needs.",
+   "keyPoints": [
+    "Not synthesised by the body",
+    "Must come from the diet",
+    "Needed to build proteins"
+   ]
+  },
+  {
+   "id": "science-c11-401",
+   "type": "mcq",
+   "q": "Leaves look green because chlorophyll:",
+   "options": [
+    "absorbs green light most strongly",
+    "makes a green pigment from soil minerals",
+    "is green because of the water in leaves",
+    "absorbs mainly red and blue light and reflects green light"
+   ]
+  },
+  {
+   "id": "science-c11-402",
+   "type": "short",
+   "q": "Name the site of the Calvin cycle in a chloroplast and the two products of the light reactions that it uses.",
+   "proposedAnswer": "The Calvin cycle occurs in the stroma of the chloroplast. It uses ATP and NADPH produced in the light reactions.",
+   "keyPoints": [
+    "Stroma of the chloroplast",
+    "ATP",
+    "NADPH"
+   ]
+  },
+  {
+   "id": "science-c11-403",
+   "type": "mcq",
+   "q": "Most of the ATP in aerobic respiration is produced in the:",
+   "options": [
+    "glycolysis stage",
+    "electron transport chain (oxidative phosphorylation)",
+    "Krebs cycle only",
+    "fermentation stage"
+   ]
+  },
+  {
+   "id": "science-c11-404",
+   "type": "mcq",
+   "q": "When yeast ferments glucose in the absence of oxygen, the products are:",
+   "options": [
+    "lactic acid and water",
+    "carbon dioxide and water",
+    "ethanol and carbon dioxide",
+    "pyruvic acid and oxygen"
+   ]
+  },
+  {
+   "id": "science-c11-405",
+   "type": "mcq",
+   "q": "The splitting of water in the light reactions (photolysis) is associated with:",
+   "options": [
+    "photosystem II",
+    "photosystem I only",
+    "the Calvin cycle",
+    "the Krebs cycle"
+   ]
+  },
+  {
+   "id": "science-c11-406",
+   "type": "mcq",
+   "q": "Succulent desert plants with Crassulacean acid metabolism (CAM) open their stomata at night mainly to:",
+   "options": [
+    "release oxygen",
+    "take in CO₂ while losing less water",
+    "absorb more light",
+    "make chlorophyll"
+   ]
+  },
+  {
+   "id": "science-c11-407",
+   "type": "mcq",
+   "q": "In Engelmann's experiment, aerobic bacteria collected mainly in the blue and red regions of the spectrum falling on a filament of a green alga because:",
+   "options": [
+    "bacteria need blue and red light to live",
+    "the alga is killed in the other regions",
+    "the bacteria use carbon dioxide",
+    "photosynthesis, and so oxygen release, was greatest in those regions"
+   ]
+  },
+  {
+   "id": "science-c11-408",
+   "type": "short",
+   "q": "What is photorespiration and why is it considered a wasteful process?",
+   "proposedAnswer": "In photorespiration RuBisCO combines RuBP with oxygen instead of CO₂, so carbon is lost as CO₂ without making sugar. It also does not produce ATP or NADPH but uses energy, so it reduces the efficiency of photosynthesis in C₃ plants.",
+   "keyPoints": [
+    "RuBisCO acts on O₂ instead of CO₂",
+    "CO₂ is released and no sugar is made",
+    "No ATP or NADPH produced; energy is consumed"
+   ]
+  },
+  {
+   "id": "science-c11-409",
+   "type": "mcq",
+   "q": "The voice box in humans is the:",
+   "options": [
+    "larynx",
+    "trachea",
+    "pharynx",
+    "bronchus"
+   ]
+  },
+  {
+   "id": "science-c11-410",
+   "type": "short",
+   "q": "Name the four main components of human blood.",
+   "proposedAnswer": "Plasma, red blood cells (erythrocytes), white blood cells (leucocytes) and platelets (thrombocytes).",
+   "keyPoints": [
+    "Plasma",
+    "Red blood cells",
+    "White blood cells",
+    "Platelets"
+   ]
+  },
+  {
+   "id": "science-c11-411",
+   "type": "mcq",
+   "q": "Which blood cells mainly protect the body against infections?",
+   "options": [
+    "Red blood cells",
+    "Platelets",
+    "White blood cells",
+    "Plasma proteins only"
+   ]
+  },
+  {
+   "id": "science-c11-412",
+   "type": "mcq",
+   "q": "The human heart is enclosed in a double-walled protective sac called the:",
+   "options": [
+    "pleura",
+    "peritoneum",
+    "meninges",
+    "pericardium"
+   ]
+  },
+  {
+   "id": "science-c11-413",
+   "type": "mcq",
+   "q": "The haemoglobin content of normal human blood is about:",
+   "options": [
+    "2 to 4 g per 100 mL",
+    "12 to 16 g per 100 mL",
+    "30 to 40 g per 100 mL",
+    "60 to 80 g per 100 mL"
+   ]
+  },
+  {
+   "id": "science-c11-414",
+   "type": "mcq",
+   "q": "The respiratory rhythm centre in the medulla is most sensitive to changes in the blood level of:",
+   "options": [
+    "oxygen",
+    "nitrogen",
+    "carbon dioxide and hydrogen ions",
+    "glucose"
+   ]
+  },
+  {
+   "id": "science-c11-415",
+   "type": "mcq",
+   "q": "Human blood circulation is called 'double circulation' because:",
+   "options": [
+    "blood passes through the heart twice in one complete circuit of the body",
+    "the heart has two chambers",
+    "there are two hearts",
+    "blood flows in both directions in the same vessel"
+   ]
+  },
+  {
+   "id": "science-c11-416",
+   "type": "short",
+   "q": "Why does the narrowing of arteries by fatty deposits (atherosclerosis) tend to raise blood pressure?",
+   "proposedAnswer": "Deposits such as cholesterol plaques narrow the lumen of the arteries and make them less elastic, so there is more resistance to blood flow. The heart has to pump harder to push the blood through, so the pressure rises.",
+   "keyPoints": [
+    "Narrowed, stiffer arteries",
+    "Greater resistance to blood flow",
+    "Heart pumps harder, so blood pressure increases"
+   ]
+  },
+  {
+   "id": "science-c11-417",
+   "type": "mcq",
+   "q": "What is the SI unit of frequency?",
+   "options": [
+    "Second",
+    "Hertz",
+    "Newton",
+    "Metre per second"
+   ]
+  },
+  {
+   "id": "science-c11-418",
+   "type": "mcq",
+   "q": "Which instrument should be used to measure the diameter of a thin wire to the nearest 0.01 mm?",
+   "options": [
+    "Metre scale",
+    "Measuring tape",
+    "Vernier calliper with least count 0.1 mm",
+    "Screw gauge"
+   ]
+  },
+  {
+   "id": "science-c11-419",
+   "type": "mcq",
+   "q": "What is the SI unit of electric current?",
+   "options": [
+    "Ampere",
+    "Volt",
+    "Coulomb",
+    "Ohm"
+   ]
+  },
+  {
+   "id": "science-c11-420",
+   "type": "mcq",
+   "q": "One nanometre (1 nm) is equal to:",
+   "options": [
+    "10⁻³ m",
+    "10⁻⁶ m",
+    "10⁻⁹ m",
+    "10⁻¹² m"
+   ]
+  },
+  {
+   "id": "science-c11-421",
+   "type": "mcq",
+   "q": "What is the dimensional formula of frequency?",
+   "options": [
+    "T",
+    "LT⁻¹",
+    "T⁻²",
+    "T⁻¹"
+   ]
+  },
+  {
+   "id": "science-c11-422",
+   "type": "short",
+   "q": "Masses of 12.11 g, 18.0 g and 1.013 g are added. Report the sum to the correct number of significant figures.",
+   "proposedAnswer": "The raw sum is 31.123 g. The least precise value (18.0 g) has one decimal place, so the result is rounded to 31.1 g.",
+   "keyPoints": [
+    "Sum is 31.123 g",
+    "Limited by the value with fewest decimal places (18.0)",
+    "Report 31.1 g"
+   ]
+  },
+  {
+   "id": "science-c11-423",
+   "type": "mcq",
+   "q": "For a spring-mass system, the expression √(m/k) is used, where m is mass and k is the spring constant (force per unit extension). Its dimensions are those of:",
+   "options": [
+    "length",
+    "time",
+    "mass",
+    "frequency"
+   ]
+  },
+  {
+   "id": "science-c11-424",
+   "type": "short",
+   "q": "Express the speed of light, 3 × 10⁸ m/s, in km/h.",
+   "proposedAnswer": "3 × 10⁸ m/s = 3 × 10⁵ km/s. Multiplying by 3600 s per hour gives 1.08 × 10⁹ km/h.",
+   "keyPoints": [
+    "Convert m to km (divide by 1000)",
+    "Convert seconds to hours (multiply by 3600)",
+    "Result 1.08 × 10⁹ km/h"
+   ]
+  },
+  {
+   "id": "science-c11-425",
+   "type": "mcq",
+   "q": "A ball is thrown horizontally from the top of a tower. Ignoring air resistance, its horizontal velocity during the flight:",
+   "options": [
+    "increases",
+    "decreases",
+    "remains constant",
+    "is zero"
+   ]
+  },
+  {
+   "id": "science-c11-426",
+   "type": "mcq",
+   "q": "Which of the following can have a negative value?",
+   "options": [
+    "Displacement",
+    "Distance",
+    "Speed",
+    "Time interval"
+   ]
+  },
+  {
+   "id": "science-c11-427",
+   "type": "mcq",
+   "q": "What is the SI unit of angular velocity?",
+   "options": [
+    "m/s",
+    "rad/s",
+    "m/s²",
+    "rad"
+   ]
+  },
+  {
+   "id": "science-c11-428",
+   "type": "mcq",
+   "q": "A car travels 60 km in the first hour and 40 km in the second hour along a straight road. What is its average speed?",
+   "options": [
+    "40 km/h",
+    "60 km/h",
+    "100 km/h",
+    "50 km/h"
+   ]
+  },
+  {
+   "id": "science-c11-429",
+   "type": "mcq",
+   "q": "A horizontal straight line at v = 5 m/s on a velocity-time graph represents:",
+   "options": [
+    "motion with uniform velocity and zero acceleration",
+    "motion with uniform acceleration",
+    "a body at rest",
+    "uniform retardation"
+   ]
+  },
+  {
+   "id": "science-c11-430",
+   "type": "short",
+   "q": "A stone is thrown horizontally at 10 m/s from the top of a 20 m high cliff. Taking g = 10 m/s², find the time taken to reach the ground and the horizontal distance covered.",
+   "proposedAnswer": "Vertical motion: 20 = ½ × 10 × t², so t = 2 s. Horizontal distance = 10 × 2 = 20 m.",
+   "keyPoints": [
+    "Vertical fall gives t = 2 s",
+    "Horizontal velocity stays 10 m/s",
+    "Range = 20 m"
+   ]
+  },
+  {
+   "id": "science-c11-431",
+   "type": "mcq",
+   "q": "In uniform circular motion, the angle between the velocity and the acceleration of the body is:",
+   "options": [
+    "0°",
+    "180°",
+    "90°",
+    "45°"
+   ]
+  },
+  {
+   "id": "science-c11-432",
+   "type": "short",
+   "q": "Two forces of 3 N and 4 N act on a body at right angles to each other. Find the magnitude of the resultant and its direction relative to the 3 N force.",
+   "proposedAnswer": "Magnitude = √(3² + 4²) = 5 N. The angle with the 3 N force is tan⁻¹(4/3), about 53°.",
+   "keyPoints": [
+    "Use the Pythagoras theorem for perpendicular vectors",
+    "Resultant 5 N",
+    "Angle about 53° from the 3 N force"
+   ]
+  },
+  {
+   "id": "science-c11-433",
+   "type": "mcq",
+   "q": "A card is placed on a glass with a coin on the card. When the card is flicked away sharply, the coin drops into the glass. This demonstrates:",
+   "options": [
+    "the law of gravitation only",
+    "Newton's third law",
+    "conservation of energy",
+    "the inertia of rest"
+   ]
+  },
+  {
+   "id": "science-c11-434",
+   "type": "mcq",
+   "q": "The same force acts on a small car and on a heavy truck. Which one gets the greater acceleration?",
+   "options": [
+    "The truck",
+    "The car",
+    "Both the same",
+    "Neither accelerates"
+   ]
+  },
+  {
+   "id": "science-c11-435",
+   "type": "mcq",
+   "q": "A 2 kg book lies on a horizontal table. Taking g = 10 m/s², the normal reaction of the table on the book is:",
+   "options": [
+    "2 N",
+    "10 N",
+    "20 N",
+    "0 N"
+   ]
+  },
+  {
+   "id": "science-c11-436",
+   "type": "mcq",
+   "q": "A 10 kg body on a frictionless horizontal surface is pulled by a horizontal force of 20 N. Its acceleration is:",
+   "options": [
+    "2 m/s²",
+    "0.5 m/s²",
+    "200 m/s²",
+    "30 m/s²"
+   ]
+  },
+  {
+   "id": "science-c11-437",
+   "type": "mcq",
+   "q": "The coefficient of static friction between a 5 kg block and a floor is 0.4. Taking g = 10 m/s², the limiting friction is:",
+   "options": [
+    "2 N",
+    "20 N",
+    "50 N",
+    "200 N"
+   ]
+  },
+  {
+   "id": "science-c11-438",
+   "type": "short",
+   "q": "According to Newton's third law, the action and reaction forces are equal and opposite. Why do they not cancel each other?",
+   "proposedAnswer": "The action and reaction forces act on two different bodies, not on the same body. Forces cancel only when they act on the same body, so the pair never cancels.",
+   "keyPoints": [
+    "Action and reaction act on different bodies",
+    "Cancellation needs forces on the same body"
+   ]
+  },
+  {
+   "id": "science-c11-439",
+   "type": "mcq",
+   "q": "Blocks of mass 2 kg and 3 kg are in contact on a smooth horizontal surface. A horizontal force of 10 N is applied to the 2 kg block, pushing it against the 3 kg block. What force does the 2 kg block exert on the 3 kg block?",
+   "options": [
+    "10 N",
+    "4 N",
+    "2 N",
+    "6 N"
+   ]
+  },
+  {
+   "id": "science-c11-440",
+   "type": "short",
+   "q": "A 5 kg block remains at rest on a rough plane inclined at 30° to the horizontal. Taking g = 10 m/s², find the force of friction on the block.",
+   "proposedAnswer": "The block is in equilibrium, so friction balances the component of weight along the incline: f = mg sin 30° = 5 × 10 × 0.5 = 25 N, directed up the incline.",
+   "keyPoints": [
+    "Equilibrium along the incline",
+    "f = mg sin θ",
+    "f = 25 N up the slope"
+   ]
+  },
+  {
+   "id": "science-c11-441",
+   "type": "mcq",
+   "q": "Work is a:",
+   "options": [
+    "scalar quantity",
+    "vector quantity",
+    "quantity with no unit",
+    "quantity measured in newtons"
+   ]
+  },
+  {
+   "id": "science-c11-442",
+   "type": "mcq",
+   "q": "The gravitational potential energy of a body near the Earth's surface depends on its:",
+   "options": [
+    "speed",
+    "colour",
+    "height above the reference level",
+    "temperature"
+   ]
+  },
+  {
+   "id": "science-c11-443",
+   "type": "mcq",
+   "q": "One joule is equal to how many ergs?",
+   "options": [
+    "10³",
+    "10⁵",
+    "10⁹",
+    "10⁷"
+   ]
+  },
+  {
+   "id": "science-c11-444",
+   "type": "mcq",
+   "q": "A spring of force constant 100 N/m is stretched by 0.2 m. The energy stored in it is:",
+   "options": [
+    "4 J",
+    "2 J",
+    "20 J",
+    "1 J"
+   ]
+  },
+  {
+   "id": "science-c11-445",
+   "type": "mcq",
+   "q": "A 2 kg body falls through 5 m under gravity (g = 10 m/s²). The work done by gravity is:",
+   "options": [
+    "−100 J",
+    "10 J",
+    "100 J",
+    "0 J"
+   ]
+  },
+  {
+   "id": "science-c11-446",
+   "type": "short",
+   "q": "Differentiate between kinetic energy and potential energy, with one example of each.",
+   "proposedAnswer": "Kinetic energy is the energy a body has because of its motion (a moving car). Potential energy is the energy a body has because of its position or configuration (water in a raised tank, a stretched spring).",
+   "keyPoints": [
+    "Kinetic: due to motion, ½mv²",
+    "Potential: due to position or configuration",
+    "One example of each"
+   ]
+  },
+  {
+   "id": "science-c11-447",
+   "type": "mcq",
+   "q": "Two bodies of masses m and 4m have the same kinetic energy. What is the ratio of their momenta?",
+   "options": [
+    "1 : 2",
+    "1 : 4",
+    "2 : 1",
+    "1 : 1"
+   ]
+  },
+  {
+   "id": "science-c11-448",
+   "type": "short",
+   "q": "A 1000 kg car moving at 20 m/s is stopped by a constant braking force of 4000 N. Find the stopping distance.",
+   "proposedAnswer": "KE = ½ × 1000 × 20² = 200000 J. Work done by the brakes F × d must equal this, so d = 200000 / 4000 = 50 m.",
+   "keyPoints": [
+    "Initial kinetic energy = 2 × 10⁵ J",
+    "Work by brakes = F d",
+    "d = 50 m"
+   ]
+  },
+  {
+   "id": "science-c11-449",
+   "type": "mcq",
+   "q": "Weight is measured in:",
+   "options": [
+    "kilogram",
+    "newton",
+    "kilogram metre",
+    "joule"
+   ]
+  },
+  {
+   "id": "science-c11-450",
+   "type": "mcq",
+   "q": "The Moon is a natural satellite of:",
+   "options": [
+    "the Sun",
+    "Mars",
+    "Jupiter",
+    "the Earth"
+   ]
+  },
+  {
+   "id": "science-c11-451",
+   "type": "mcq",
+   "q": "According to Kepler's laws, a planet that is farther from the Sun has a:",
+   "options": [
+    "longer orbital period",
+    "shorter orbital period",
+    "the same orbital period",
+    "zero orbital period"
+   ]
+  },
+  {
+   "id": "science-c11-452",
+   "type": "mcq",
+   "q": "As a body is taken from the Earth's surface to a height above it, the acceleration due to gravity:",
+   "options": [
+    "increases",
+    "stays the same",
+    "decreases",
+    "becomes infinite"
+   ]
+  },
+  {
+   "id": "science-c11-453",
+   "type": "mcq",
+   "q": "Taking g on the Moon as 1.6 m/s², the weight of a 60 kg astronaut there is:",
+   "options": [
+    "600 N",
+    "588 N",
+    "60 N",
+    "96 N"
+   ]
+  },
+  {
+   "id": "science-c11-454",
+   "type": "short",
+   "q": "Define orbital velocity and write its expression for a satellite in a circular orbit of radius r around a planet of mass M.",
+   "proposedAnswer": "Orbital velocity is the speed a satellite must have to stay in a circular orbit. Gravity provides the centripetal force, so GMm/r² = mv²/r, giving v = √(GM/r).",
+   "keyPoints": [
+    "Speed needed to remain in orbit",
+    "Gravity equals the centripetal force",
+    "v = √(GM/r)"
+   ]
+  },
+  {
+   "id": "science-c11-455",
+   "type": "mcq",
+   "q": "The ratio of the escape velocity to the orbital velocity of a satellite moving very close to the Earth's surface is:",
+   "options": [
+    "2",
+    "√2",
+    "1/√2",
+    "1"
+   ]
+  },
+  {
+   "id": "science-c11-456",
+   "type": "short",
+   "q": "A planet has one-tenth the mass of the Earth and half its radius. Find the acceleration due to gravity at its surface in terms of g on Earth.",
+   "proposedAnswer": "g' = G(M/10)/(R/2)² = (4/10) GM/R² = 0.4 g, which is about 3.9 m/s².",
+   "keyPoints": [
+    "g is proportional to M / R²",
+    "Factor = (1/10) / (1/4) = 0.4",
+    "g' = 0.4 g"
+   ]
+  },
+  {
+   "id": "science-c11-457",
+   "type": "mcq",
+   "q": "Which of the following is a compound?",
+   "options": [
+    "Hydrogen",
+    "Gold",
+    "Water",
+    "Neon"
+   ]
+  },
+  {
+   "id": "science-c11-458",
+   "type": "mcq",
+   "q": "The chemical symbol of potassium is:",
+   "options": [
+    "K",
+    "P",
+    "Po",
+    "Pt"
+   ]
+  },
+  {
+   "id": "science-c11-459",
+   "type": "mcq",
+   "q": "What is the molecular mass of sulphuric acid, H₂SO₄? (H = 1, S = 32, O = 16)",
+   "options": [
+    "96 u",
+    "98 u",
+    "100 u",
+    "64 u"
+   ]
+  },
+  {
+   "id": "science-c11-460",
+   "type": "mcq",
+   "q": "How many atoms are present in 1 mole of water molecules? (N_A = 6.022 × 10²³)",
+   "options": [
+    "6.022 × 10²³",
+    "1.2 × 10²⁴",
+    "3.0 × 10²³",
+    "1.8 × 10²⁴"
+   ]
+  },
+  {
+   "id": "science-c11-461",
+   "type": "mcq",
+   "q": "What is the mass of 0.25 mol of NaOH? (Na = 23, O = 16, H = 1)",
+   "options": [
+    "10 g",
+    "160 g",
+    "1 g",
+    "0.625 g"
+   ]
+  },
+  {
+   "id": "science-c11-462",
+   "type": "short",
+   "q": "State Gay-Lussac's law of gaseous volumes with an example.",
+   "proposedAnswer": "When gases react, they do so in volumes that bear a simple whole-number ratio to one another and to the volumes of gaseous products, at the same temperature and pressure. Example: 2 volumes of hydrogen react with 1 volume of oxygen to give 2 volumes of steam.",
+   "keyPoints": [
+    "Simple whole-number ratio of volumes",
+    "Same temperature and pressure",
+    "Example: 2 : 1 : 2 for H₂, O₂ and steam"
+   ]
+  },
+  {
+   "id": "science-c11-463",
+   "type": "mcq",
+   "q": "What is the percentage of oxygen by mass in water, H₂O? (H = 1, O = 16)",
+   "options": [
+    "11.1%",
+    "50%",
+    "88.9%",
+    "94.1%"
+   ]
+  },
+  {
+   "id": "science-c11-464",
+   "type": "short",
+   "q": "What mass of oxygen is needed to burn 4 g of hydrogen completely? 2H₂ + O₂ → 2H₂O (H = 1, O = 16)",
+   "proposedAnswer": "4 g of H₂ is 2 mol. By the equation 2 mol of H₂ needs 1 mol of O₂, which is 32 g.",
+   "keyPoints": [
+    "Moles of H₂ = 2",
+    "Mole ratio H₂ : O₂ = 2 : 1",
+    "Mass of O₂ = 32 g"
+   ]
+  },
+  {
+   "id": "science-c11-465",
+   "type": "mcq",
+   "q": "Cathode rays are streams of:",
+   "options": [
+    "protons",
+    "neutrons",
+    "alpha particles",
+    "electrons"
+   ]
+  },
+  {
+   "id": "science-c11-466",
+   "type": "mcq",
+   "q": "What is the electric charge on a neutron?",
+   "options": [
+    "+1",
+    "Zero",
+    "−1",
+    "+2"
+   ]
+  },
+  {
+   "id": "science-c11-467",
+   "type": "mcq",
+   "q": "The mass of a proton is approximately how many times the mass of an electron?",
+   "options": [
+    "18",
+    "183",
+    "1836",
+    "18360"
+   ]
+  },
+  {
+   "id": "science-c11-468",
+   "type": "mcq",
+   "q": "How many electrons are there in the outermost shell of an oxygen atom (atomic number 8)?",
+   "options": [
+    "6",
+    "8",
+    "2",
+    "4"
+   ]
+  },
+  {
+   "id": "science-c11-469",
+   "type": "mcq",
+   "q": "An orbital with n = 2 and l = 1 is called:",
+   "options": [
+    "2s",
+    "2p",
+    "3p",
+    "2d"
+   ]
+  },
+  {
+   "id": "science-c11-470",
+   "type": "short",
+   "q": "State Hund's rule of maximum multiplicity and apply it to the 2p electrons of nitrogen.",
+   "proposedAnswer": "Electrons occupy the orbitals of a subshell singly with parallel spins before any orbital is filled with a second electron. In nitrogen (2p³) the three p electrons occupy the three p orbitals separately with parallel spins.",
+   "keyPoints": [
+    "Pairing does not start until every orbital has one electron",
+    "Single electrons have parallel spins",
+    "N has three unpaired 2p electrons"
+   ]
+  },
+  {
+   "id": "science-c11-471",
+   "type": "mcq",
+   "q": "In a multi-electron atom, which of the orbitals 3d, 4s, 4p and 4d has the highest energy (using the n + l rule)?",
+   "options": [
+    "3d",
+    "4s",
+    "4p",
+    "4d"
+   ]
+  },
+  {
+   "id": "science-c11-472",
+   "type": "short",
+   "q": "Calculate the wavelength of light of frequency 6 × 10¹⁴ Hz. (c = 3 × 10⁸ m/s)",
+   "proposedAnswer": "λ = c/ν = 3 × 10⁸ / 6 × 10¹⁴ = 5 × 10⁻⁷ m, which is 500 nm.",
+   "keyPoints": [
+    "Use c = νλ",
+    "λ = 5 × 10⁻⁷ m",
+    "That is 500 nm"
+   ]
+  },
+  {
+   "id": "science-c11-473",
+   "type": "mcq",
+   "q": "How many periods does the modern periodic table have?",
+   "options": [
+    "7",
+    "8",
+    "18",
+    "9"
+   ]
+  },
+  {
+   "id": "science-c11-474",
+   "type": "mcq",
+   "q": "Which of the following is a non-metal that is liquid at room temperature?",
+   "options": [
+    "Mercury",
+    "Chlorine",
+    "Bromine",
+    "Iodine"
+   ]
+  },
+  {
+   "id": "science-c11-475",
+   "type": "mcq",
+   "q": "Oxygen (atomic number 8) belongs to which group of the periodic table?",
+   "options": [
+    "Group 6",
+    "Group 8",
+    "Group 14",
+    "Group 16"
+   ]
+  },
+  {
+   "id": "science-c11-476",
+   "type": "mcq",
+   "q": "Which is larger in size?",
+   "options": [
+    "A chlorine atom",
+    "A chloride ion",
+    "Both are the same size",
+    "It cannot be compared"
+   ]
+  },
+  {
+   "id": "science-c11-477",
+   "type": "mcq",
+   "q": "An element has the electron arrangement 2, 8, 2. The element is:",
+   "options": [
+    "sodium",
+    "aluminium",
+    "magnesium",
+    "calcium"
+   ]
+  },
+  {
+   "id": "science-c11-478",
+   "type": "short",
+   "q": "Why do elements in the same group of the periodic table show similar chemical properties?",
+   "proposedAnswer": "Elements in a group have the same number of valence electrons and a similar outer electronic configuration. Chemical properties depend mainly on the valence electrons, so they behave alike.",
+   "keyPoints": [
+    "Same number of valence electrons",
+    "Similar outer configuration",
+    "Properties depend on valence electrons"
+   ]
+  },
+  {
+   "id": "science-c11-479",
+   "type": "mcq",
+   "q": "Which of the following sequences shows increasing atomic radius?",
+   "options": [
+    "F < Cl < Br < I",
+    "I < Br < Cl < F",
+    "Cl < F < I < Br",
+    "Br < I < F < Cl"
+   ]
+  },
+  {
+   "id": "science-c11-480",
+   "type": "short",
+   "q": "Why is hydrogen placed in a position by itself in the periodic table rather than clearly in Group 1 or Group 17?",
+   "proposedAnswer": "Hydrogen has one electron in its outer shell (1s¹), like the alkali metals, but it is one electron short of the helium configuration, like the halogens. It also exists as a diatomic non-metal gas, so it does not fit neatly into either group.",
+   "keyPoints": [
+    "1s¹ resembles alkali metals",
+    "Needs one electron to complete its shell like halogens",
+    "Properties are unique, so it is placed separately"
+   ]
+  },
+  {
+   "id": "science-c11-481",
+   "type": "mcq",
+   "q": "Ionic compounds generally have:",
+   "options": [
+    "low melting points",
+    "soft gaseous nature",
+    "high melting and boiling points",
+    "no ions in them"
+   ]
+  },
+  {
+   "id": "science-c11-482",
+   "type": "mcq",
+   "q": "How many valence electrons does a chlorine atom have?",
+   "options": [
+    "7",
+    "5",
+    "8",
+    "17"
+   ]
+  },
+  {
+   "id": "science-c11-483",
+   "type": "mcq",
+   "q": "The H–C–H bond angle in methane is:",
+   "options": [
+    "90°",
+    "109.5°",
+    "120°",
+    "180°"
+   ]
+  },
+  {
+   "id": "science-c11-484",
+   "type": "mcq",
+   "q": "The nitrogen atom in ammonia (NH₃) is hybridised as:",
+   "options": [
+    "sp",
+    "sp²",
+    "sp³d",
+    "sp³"
+   ]
+  },
+  {
+   "id": "science-c11-485",
+   "type": "mcq",
+   "q": "Which of these species has a tetrahedral shape?",
+   "options": [
+    "NH₄⁺",
+    "CO₂",
+    "BF₃",
+    "BeCl₂"
+   ]
+  },
+  {
+   "id": "science-c11-486",
+   "type": "short",
+   "q": "What is a hydrogen bond? Give one example of a substance in which it occurs.",
+   "proposedAnswer": "A hydrogen bond is a weak attraction between a hydrogen atom covalently bonded to a highly electronegative atom (N, O or F) and a lone pair on another electronegative atom. It occurs in water, ammonia and hydrogen fluoride.",
+   "keyPoints": [
+    "H attached to N, O or F",
+    "Attraction to a lone pair on a neighbouring molecule",
+    "Example: water"
+   ]
+  },
+  {
+   "id": "science-c11-487",
+   "type": "mcq",
+   "q": "Among O₂, O₂⁺ and O₂⁻, which has the shortest bond length?",
+   "options": [
+    "O₂",
+    "O₂⁻",
+    "O₂⁺",
+    "All have the same bond length"
+   ]
+  },
+  {
+   "id": "science-c11-488",
+   "type": "short",
+   "q": "The B-F bonds in BF₃ are polar, but BF₃ has zero dipole moment. Explain.",
+   "proposedAnswer": "BF₃ is trigonal planar with bond angles of 120°. The three equal B-F bond dipoles are arranged symmetrically and cancel each other, so the net dipole moment is zero.",
+   "keyPoints": [
+    "Trigonal planar, symmetrical shape",
+    "Three equal bond dipoles at 120°",
+    "They cancel, net dipole is zero"
+   ]
+  },
+  {
+   "id": "science-c11-489",
+   "type": "mcq",
+   "q": "Which of the following organelles is found only in plant cells?",
+   "options": [
+    "Mitochondrion",
+    "Ribosome",
+    "Nucleus",
+    "Chloroplast"
+   ]
+  },
+  {
+   "id": "science-c11-490",
+   "type": "mcq",
+   "q": "Which structure in a plant cell is a large fluid-filled sac that stores water and dissolved substances?",
+   "options": [
+    "Ribosome",
+    "Vacuole",
+    "Centriole",
+    "Lysosome"
+   ]
+  },
+  {
+   "id": "science-c11-491",
+   "type": "mcq",
+   "q": "Which of the following is absent from a bacterial cell?",
+   "options": [
+    "Ribosomes",
+    "Plasma membrane",
+    "Membrane-bound mitochondria",
+    "Cell wall"
+   ]
+  },
+  {
+   "id": "science-c11-492",
+   "type": "mcq",
+   "q": "70S ribosomes are found in the cytoplasm of:",
+   "options": [
+    "bacterial cells",
+    "human cheek cells",
+    "onion peel cells",
+    "yeast cells"
+   ]
+  },
+  {
+   "id": "science-c11-493",
+   "type": "mcq",
+   "q": "Which of the following organelles is NOT bounded by a membrane?",
+   "options": [
+    "Mitochondrion",
+    "Ribosome",
+    "Golgi apparatus",
+    "Lysosome"
+   ]
+  },
+  {
+   "id": "science-c11-494",
+   "type": "short",
+   "q": "Describe briefly the structure of a mitochondrion.",
+   "proposedAnswer": "A mitochondrion has a smooth outer membrane and an inner membrane folded into cristae. The space enclosed by the inner membrane is the matrix, which contains enzymes, a circular DNA molecule and ribosomes.",
+   "keyPoints": [
+    "Double membrane: outer and inner",
+    "Inner membrane folded into cristae",
+    "Matrix contains enzymes, DNA and ribosomes"
+   ]
+  },
+  {
+   "id": "science-c11-495",
+   "type": "mcq",
+   "q": "A red blood cell is placed in an isotonic saline solution. What happens to its size?",
+   "options": [
+    "It swells",
+    "It shrinks",
+    "It bursts",
+    "It stays the same"
+   ]
+  },
+  {
+   "id": "science-c11-496",
+   "type": "short",
+   "q": "Why are mitochondria and chloroplasts described as semi-autonomous organelles?",
+   "proposedAnswer": "Each contains its own DNA and ribosomes and can make some of its own proteins and divide independently. But they still depend on the nucleus for many of their proteins, so they are only partly independent.",
+   "keyPoints": [
+    "Have their own DNA and ribosomes",
+    "Make some of their own proteins and divide",
+    "Depend on nuclear genes for the rest"
+   ]
+  },
+  {
+   "id": "science-c11-497",
+   "type": "mcq",
+   "q": "The exoskeleton of insects contains the polysaccharide:",
+   "options": [
+    "chitin",
+    "starch",
+    "glycogen",
+    "inulin"
+   ]
+  },
+  {
+   "id": "science-c11-498",
+   "type": "mcq",
+   "q": "Lipids are generally insoluble in:",
+   "options": [
+    "ether",
+    "benzene",
+    "water",
+    "chloroform"
+   ]
+  },
+  {
+   "id": "science-c11-499",
+   "type": "mcq",
+   "q": "How many different amino acids are commonly found in proteins?",
+   "options": [
+    "4",
+    "8",
+    "12",
+    "20"
+   ]
+  },
+  {
+   "id": "science-c11-500",
+   "type": "mcq",
+   "q": "Which type of RNA carries amino acids to the ribosome during protein synthesis?",
+   "options": [
+    "mRNA",
+    "tRNA",
+    "rRNA",
+    "DNA"
+   ]
+  }
+ ]
+}

@@ -44,10 +44,14 @@ const done = new Set(existsSync(out) && !process.env.FRESH ? readFileSync(out, '
 
 async function post(model, body) {
   const url = KEY ? `https://generativelanguage.googleapis.com/v1beta/models/${model}:streamGenerateContent?alt=sse` : `${SITE}/api/gemini`;
-  const headers = KEY ? { 'Content-Type': 'application/json', 'x-goog-api-key': KEY } : { 'Content-Type': 'application/json', Origin: SITE };
+  const headers = KEY ? { 'Content-Type': 'application/json', 'x-goog-api-key': KEY } : Object.assign({ 'Content-Type': 'application/json', Origin: SITE }, INFO.token ? { 'x-spark-token': INFO.token } : {});
   // A dropped connection (laptop asleep, Wi-Fi blip) is waited out instead of being counted as an API error.
   for (let i = 0; ; i++) {
-    try { return await fetch(url, { method: 'POST', headers, body: JSON.stringify(KEY ? body : { model, stream: true, body }), signal: AbortSignal.timeout(150000) }); }
+    try {
+      const r = await fetch(url, { method: 'POST', headers, body: JSON.stringify(KEY ? body : { model, stream: true, body }), signal: AbortSignal.timeout(150000) });
+      if (r.status === 401 && !KEY && i < 8) { const j = await fetch(`${SITE}/api/gemini`).then(x => x.json()).catch(() => ({})); if (j.token) { INFO.token = headers['x-spark-token'] = j.token; continue; } } // page token expired
+      return r;
+    }
     catch (e) { if (e.name !== 'TypeError' || i >= 8) throw e; console.log(`  (connection dropped, retrying in 30 s: ${e.cause ? e.cause.code || e.cause.message : e.message})`); await new Promise(r => setTimeout(r, 30000)); }
   }
 }

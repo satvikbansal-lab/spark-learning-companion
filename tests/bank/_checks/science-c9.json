@@ -1,0 +1,2005 @@
+{
+ "model": "claude-haiku",
+ "answers": [
+  {
+   "id": "science-c9-001",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-002",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-003",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-004",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-005",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-006",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-007",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-008",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-009",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-010",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-011",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-012",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-013",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-014",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-015",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-016",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-017",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-018",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-019",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-020",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-021",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-022",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-023",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-024",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-025",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-026",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-027",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-028",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-029",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-030",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-031",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-032",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-033",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-034",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-035",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-036",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-037",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-038",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-039",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-040",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-041",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-042",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-043",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-044",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-045",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-046",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-047",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-048",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-049",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-050",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-051",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-052",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-053",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-054",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-055",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-056",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-057",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-058",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-059",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-060",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-061",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-062",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-063",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-064",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-065",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-066",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-067",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-068",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-069",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-070",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-071",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-072",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-073",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-074",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-075",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-076",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-077",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-078",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-079",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-080",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-081",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-082",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-083",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-084",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-085",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-086",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-087",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-088",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-089",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-090",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-091",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-092",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-093",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-094",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-095",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-096",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-097",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-098",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-099",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-100",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-101",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-102",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-103",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-104",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-105",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-106",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-107",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-108",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-109",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-110",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-111",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-112",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-113",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-114",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-115",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-116",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-117",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-118",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-119",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-120",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-121",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-122",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-123",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-124",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-125",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-126",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-127",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-128",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-129",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-130",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-131",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-132",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-133",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-134",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-135",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-136",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-137",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-138",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-139",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-140",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-141",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-142",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-143",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-144",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-145",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-146",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-147",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-148",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-149",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-150",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-151",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-152",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-153",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-154",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-155",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-156",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-157",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-158",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-159",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-160",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-161",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-162",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-163",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-164",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-165",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-166",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-167",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-168",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-169",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-170",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-171",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-172",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-173",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-174",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-175",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-176",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-177",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-178",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-179",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-180",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-181",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-182",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-183",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-184",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-185",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-186",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-187",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-188",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-189",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-190",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-191",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-192",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-193",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-194",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-195",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-196",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-197",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-198",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-199",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-200",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-201",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-202",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-203",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-204",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-205",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-206",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-207",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-208",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-209",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-210",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-211",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-212",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-213",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-214",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-215",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-216",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-217",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-218",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-219",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-220",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-221",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-222",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-223",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-224",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-225",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-226",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-227",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-228",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-229",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-230",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-231",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-232",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-233",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-234",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-235",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-236",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-237",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-238",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-239",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-240",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-241",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-242",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-243",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-244",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-245",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-246",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-247",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-248",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-249",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-250",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-251",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-252",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-253",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-254",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-255",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-256",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-257",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-258",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-259",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-260",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-261",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-262",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-263",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-264",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-265",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-266",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-267",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-268",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-269",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-270",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-271",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-272",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-273",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-274",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-275",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-276",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-277",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-278",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-279",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-280",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-281",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-282",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-283",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-284",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-285",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-286",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-287",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-288",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-289",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-290",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-291",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-292",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-293",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-294",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-295",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-296",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-297",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-298",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-299",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-300",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-301",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-302",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-303",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-304",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-305",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-306",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-307",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-308",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-309",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-310",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-311",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-312",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-313",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-314",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-315",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-316",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-317",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-318",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-319",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-320",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-321",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-322",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-323",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-324",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-325",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-326",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-327",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-328",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-329",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-330",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-331",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-332",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-333",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-334",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-335",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-336",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-337",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-338",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-339",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-340",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-341",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-342",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-343",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-344",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-345",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-346",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-347",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-348",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-349",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-350",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-351",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-352",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-353",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-354",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-355",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-356",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-357",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-358",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-359",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-360",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-361",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-362",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-363",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-364",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-365",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-366",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-367",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-368",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-369",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-370",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-371",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-372",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-373",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-374",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-375",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-376",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-377",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-378",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-379",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-380",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-381",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-382",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-383",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-384",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-385",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-386",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-387",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-388",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-389",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-390",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-391",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-392",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-393",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-394",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-395",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-396",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-397",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-398",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-399",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-400",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-401",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-402",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-403",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-404",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-405",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-406",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-407",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-408",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-409",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-410",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-411",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-412",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-413",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-414",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-415",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-416",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-417",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-418",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-419",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-420",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-421",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-422",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-423",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-424",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-425",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-426",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-427",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-428",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-429",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-430",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-431",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-432",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-433",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-434",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-435",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-436",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-437",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-438",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-439",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-440",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-441",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-442",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-443",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-444",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-445",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-446",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-447",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-448",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-449",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-450",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-451",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-452",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-453",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-454",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-455",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-456",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-457",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-458",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-459",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-460",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-461",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-462",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-463",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-464",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-465",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-466",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-467",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-468",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-469",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-470",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-471",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-472",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-473",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-474",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-475",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-476",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-477",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-478",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-479",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-480",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-481",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-482",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-483",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-484",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-485",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-486",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-487",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-488",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-489",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-490",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-491",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-492",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-493",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-494",
+   "answer": "B"
+  },
+  {
+   "id": "science-c9-495",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-496",
+   "verdict": "correct"
+  },
+  {
+   "id": "science-c9-497",
+   "answer": "C"
+  },
+  {
+   "id": "science-c9-498",
+   "answer": "D"
+  },
+  {
+   "id": "science-c9-499",
+   "answer": "A"
+  },
+  {
+   "id": "science-c9-500",
+   "answer": "B"
+  }
+ ]
+}
