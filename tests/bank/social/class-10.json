@@ -20,7 +20,14 @@
  "syllabus": "unverified: topics are the drafting model’s reading of the NCERT/CBSE syllabus and have not been checked against the official documents",
  "drafted_by": "claude-sonnet",
  "drafted_at": "2026-11-02",
- "crossCheck": null,
+ "crossCheck": {
+  "model": "claude-haiku",
+  "method": "MCQs answered blind (no key shown); short answers judged against their proposed answer",
+  "agree": 495,
+  "disagree": 0,
+  "unsure": 5,
+  "missing": 0
+ },
  "questions": [
   {
    "id": "social-c10-001",
@@ -41,7 +48,11 @@
    "explanation": "The French Revolution of 1789 spread the idea that sovereignty belongs to the people, who together form the nation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-002",
@@ -62,7 +73,11 @@
    "explanation": "Napoleon introduced the Civil Code in 1804.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-003",
@@ -83,7 +98,11 @@
    "explanation": "The Code did away with birth-based privileges, established equality before the law and secured the right to property.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-004",
@@ -104,7 +123,11 @@
    "explanation": "Duke Metternich of Austria hosted the Congress, which aimed to undo much of what Napoleon had changed.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-005",
@@ -125,7 +148,11 @@
    "explanation": "Conservative rulers saw liberal and nationalist ideas as threats to monarchy and the old social order, so they tried to control what was published.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-006",
@@ -146,7 +173,11 @@
    "explanation": "By abolishing tariff barriers and cutting the number of currencies, the Zollverein tied the German states together economically and strengthened a sense of nationhood.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-007",
@@ -166,7 +197,10 @@
    "explanation": "Mazzini’s societies spread the ideal of nation-states based on the will of the people.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-008",
@@ -186,7 +220,10 @@
    "explanation": "Unification was achieved by Prussian military power and diplomacy rather than by a popular liberal movement.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-009",
@@ -207,7 +244,11 @@
    "explanation": "The Act allowed detention of political prisoners for two years without trial, which Indians saw as unjust.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-010",
@@ -228,7 +269,11 @@
    "explanation": "On 13 April 1919 General Dyer’s troops fired on a crowd gathered in Jallianwala Bagh, Amritsar.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-011",
@@ -249,7 +294,11 @@
    "explanation": "The march began at Sabarmati Ashram near Ahmedabad and ended at Dandi on the Gujarat coast.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-012",
@@ -270,7 +319,11 @@
    "explanation": "Muslim leaders such as the Ali brothers protested against the treatment of the Caliph, and Gandhiji linked this cause with the Non-Cooperation Movement.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-013",
@@ -291,7 +344,11 @@
    "explanation": "After a mob set a police station on fire at Chauri Chaura, Gandhiji, committed to non-violence, withdrew the movement.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-014",
@@ -312,7 +369,11 @@
    "explanation": "All members were British, so Indians felt excluded; protesters shouted ‘Simon go back’.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-015",
@@ -332,7 +393,10 @@
    "explanation": "The pact settled the dispute over separate electorates for the Depressed Classes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-016",
@@ -352,7 +416,10 @@
    "explanation": "Salt was a simple and powerful symbol of unjust colonial rule.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-017",
@@ -373,7 +440,11 @@
    "explanation": "The Silk Routes were trade and cultural links connecting Asia, Europe and northern Africa.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-018",
@@ -394,7 +465,11 @@
    "explanation": "Henry Ford’s assembly line made cars cheaper and encouraged mass production and mass consumption.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-019",
@@ -415,7 +490,11 @@
    "explanation": "The Corn Laws limited grain imports; when they were abolished, cheaper food flowed into Britain.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-020",
@@ -436,7 +515,11 @@
    "explanation": "Indentured labourers signed contracts and were taken to plantations in distant colonies; many were from poor regions of India.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-021",
@@ -457,7 +540,11 @@
    "explanation": "Overproduction of crops pushed prices down, and farmers’ incomes collapsed.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-022",
@@ -478,7 +565,11 @@
    "explanation": "The International Monetary Fund and the World Bank were created to manage the post-war international economy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-023",
@@ -498,7 +589,10 @@
    "explanation": "New foods from the Americas changed diets, but depending on one crop was risky.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-024",
@@ -518,7 +612,10 @@
    "explanation": "Because economies were linked through trade and finance, the crisis spread worldwide.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-025",
@@ -539,7 +636,11 @@
    "explanation": "Industrialisation began in Britain in the 18th century, first with cotton textiles.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-026",
@@ -560,7 +661,11 @@
    "explanation": "James Watt improved Newcomen’s steam engine, which powered factories and later transport.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-027",
@@ -581,7 +686,11 @@
    "explanation": "Merchants in towns gave raw material to rural families who spun and wove at home; this preceded factory production.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-028",
@@ -602,7 +711,11 @@
    "explanation": "Bombay’s first cotton mill came up in 1854.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-029",
@@ -623,7 +736,11 @@
    "explanation": "Machines were costly and suited to standard goods, while labour was plentiful and could be hired when needed.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-030",
@@ -644,7 +761,11 @@
    "explanation": "Jobbers were intermediaries between mill owners and workers and gained power over those they recruited.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-031",
@@ -664,7 +785,10 @@
    "explanation": "The Company used gomasthas to control supply and cut out middlemen.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-032",
@@ -684,7 +808,10 @@
    "explanation": "Competition from imports and scarcity of raw cotton squeezed Indian weavers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-033",
@@ -705,7 +832,11 @@
    "explanation": "Hand printing with woodblocks began in China and later spread to Japan and Europe.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-034",
@@ -726,7 +857,11 @@
    "explanation": "Gutenberg built the first printing press with movable type; the Bible was among his first major books.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-035",
@@ -747,7 +882,11 @@
    "explanation": "Luther’s writings, widely printed, began the Protestant Reformation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-036",
@@ -768,7 +907,11 @@
    "explanation": "James Augustus Hickey started the weekly Bengal Gazette in 1780.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-037",
@@ -789,7 +932,11 @@
    "explanation": "Print made ideas about reason, rights and liberty widely available, encouraging public debate.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-038",
@@ -810,7 +957,11 @@
    "explanation": "The Act aimed to control the nationalist press, which is why it was widely criticised.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-039",
@@ -830,7 +981,10 @@
    "explanation": "His press allowed books to be produced in large numbers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-040",
@@ -850,7 +1004,10 @@
    "explanation": "Rulers and the Church feared that print could spread dissenting ideas.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-041",
@@ -871,7 +1028,11 @@
    "explanation": "Abiotic resources are non-living, such as rocks and metals.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-042",
@@ -892,7 +1053,11 @@
    "explanation": "Agenda 21 was adopted at Rio in 1992 as a plan for sustainable development in the 21st century.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-043",
@@ -913,7 +1078,11 @@
    "explanation": "Alluvial soil is carried and laid down by rivers and covers the northern plains.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-044",
@@ -934,7 +1103,11 @@
    "explanation": "Black soil holds moisture well and is ideal for cotton, so it is also called black cotton soil.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-045",
@@ -955,7 +1128,11 @@
    "explanation": "Under heavy rain the soil is leached, which is why laterite needs manure and fertiliser.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-046",
@@ -976,7 +1153,11 @@
    "explanation": "Contour ploughing slows water running down a slope, so less soil is washed away.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-047",
@@ -997,7 +1178,10 @@
    "explanation": "Ownership decides who may use and manage a resource.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-048",
@@ -1017,7 +1201,10 @@
    "explanation": "It balances present economic needs with long-term protection of resources.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-049",
@@ -1038,7 +1225,11 @@
    "explanation": "Wheat is sown in winter and harvested in summer, so it is a rabi crop.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-050",
@@ -1059,7 +1250,11 @@
    "explanation": "In jhumming, farmers clear land by cutting and burning vegetation, mostly in north-eastern India.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-051",
@@ -1080,7 +1275,11 @@
    "explanation": "Tea is grown on large estates, usually as a single crop, which is the mark of plantation agriculture.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-052",
@@ -1101,7 +1300,11 @@
    "explanation": "Vinoba Bhave walked from village to village asking landowners to give part of their land to the landless.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-053",
@@ -1122,7 +1325,11 @@
    "explanation": "Leguminous plants fix nitrogen in the soil, helping the next crop.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-054",
@@ -1143,7 +1350,11 @@
    "explanation": "Large dams submerge land and villages, so people lose homes and livelihoods; this led to movements such as the Narmada Bachao Andolan.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-055",
@@ -1162,7 +1373,10 @@
    "explanation": "Harvesting rain recharges groundwater and reduces dependence on distant sources.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-056",
@@ -1182,7 +1396,10 @@
    "explanation": "It improved food supply but had side-effects.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-057",
@@ -1203,7 +1420,11 @@
    "explanation": "Ferrous minerals contain iron; iron ore is the main one.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-058",
@@ -1224,7 +1445,11 @@
    "explanation": "Magnetite is the finest iron ore with the highest iron content.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-059",
@@ -1245,7 +1470,11 @@
    "explanation": "Wind, solar, tidal and geothermal power are non-conventional, renewable sources.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-060",
@@ -1266,7 +1495,11 @@
    "explanation": "Jharia in Jharkhand and Raniganj in West Bengal are important coalfields in the Damodar valley region.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-061",
@@ -1287,7 +1520,11 @@
    "explanation": "Bulky raw materials make transport costly; locating nearby cuts production costs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-062",
@@ -1308,7 +1545,11 @@
    "explanation": "Treating waste water removes harmful substances before it enters rivers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-063",
@@ -1328,7 +1569,10 @@
    "explanation": "The key difference is how widely they are used and whether they are renewable.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-064",
@@ -1348,7 +1592,10 @@
    "explanation": "It is one of the worst industrial disasters and led to stricter environmental rules.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-065",
@@ -1369,7 +1616,11 @@
    "explanation": "A majority of Belgians live in the Dutch-speaking region, while a large minority speak French.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-066",
@@ -1390,7 +1641,11 @@
    "explanation": "The 1956 Act recognised only Sinhala as the official language, ignoring Tamil.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-067",
@@ -1411,7 +1666,11 @@
    "explanation": "The Union List has subjects of national importance on which only the Union Parliament can make laws.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-068",
@@ -1432,7 +1691,11 @@
    "explanation": "Both the Union and the states can make laws on Concurrent List subjects.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-069",
@@ -1453,7 +1716,11 @@
    "explanation": "Sharing power makes government more acceptable to different groups and reduces tension.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-070",
@@ -1474,7 +1741,11 @@
    "explanation": "In holding-together federations, a large country shares power between the national and state governments.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-071",
@@ -1494,7 +1765,10 @@
    "explanation": "The Gram Sabha is the base of village-level democracy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-072",
@@ -1514,7 +1788,10 @@
    "explanation": "Sharing power among communities prevented conflict from splitting the country.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-073",
@@ -1535,7 +1812,11 @@
    "explanation": "The voting age was lowered from 21 to 18 years by a constitutional amendment in 1988.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-074",
@@ -1556,7 +1837,11 @@
    "explanation": "Democracy is a form of government in which rulers are elected by the people.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-075",
@@ -1577,7 +1862,11 @@
    "explanation": "Parties put up candidates, form governments if they win, or serve as opposition.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-076",
@@ -1598,7 +1887,11 @@
    "explanation": "Parties join together to form a coalition with enough members for a majority.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-077",
@@ -1619,7 +1912,11 @@
    "explanation": "Regular, fair elections give people real control over those who govern them.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-078",
@@ -1640,7 +1937,11 @@
    "explanation": "Frequent defections made governments unstable, so a law was passed to discourage members from switching parties.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-079",
@@ -1661,7 +1962,10 @@
    "explanation": "Parties connect citizens with government.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-080",
@@ -1681,7 +1985,10 @@
    "explanation": "Parties must be accountable and transparent to keep faith in democracy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-081",
@@ -1702,7 +2009,11 @@
    "explanation": "Dairy produces a natural product directly, so it is part of the primary sector.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-082",
@@ -1723,7 +2034,11 @@
    "explanation": "GDP is the value of all final goods and services produced within a country in a year.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-083",
@@ -1744,7 +2059,11 @@
    "explanation": "Per capita income is the average income per person.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-084",
@@ -1765,7 +2084,11 @@
    "explanation": "The Act aims to give rural households work for 100 days a year.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-085",
@@ -1786,7 +2109,11 @@
    "explanation": "On a small plot, extra family members appear to be working, but output would be the same without them.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-086",
@@ -1807,7 +2134,11 @@
    "explanation": "An average can hide inequality and says little about health, education and quality of life.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-087",
@@ -1827,7 +2158,10 @@
    "explanation": "The difference lies in regulation and the security workers enjoy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-088",
@@ -1846,7 +2180,10 @@
    "explanation": "Counting only final goods gives a correct total.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-089",
@@ -1867,7 +2204,11 @@
    "explanation": "Barter requires a double coincidence of wants, which is why money was a great improvement.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-090",
@@ -1888,7 +2229,11 @@
    "explanation": "The Reserve Bank of India supervises banks and issues currency.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-091",
@@ -1909,7 +2254,11 @@
    "explanation": "If the borrower fails to repay, the lender can sell the collateral to recover the loan.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-092",
@@ -1930,7 +2279,11 @@
    "explanation": "Globalisation links countries through the movement of goods, services, investment and technology.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-093",
@@ -1951,7 +2304,11 @@
    "explanation": "Lower wages and costs help MNCs earn higher profits.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-094",
@@ -1972,7 +2329,11 @@
    "explanation": "District, State and National commissions help consumers settle complaints without costly court cases.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-095",
@@ -1993,7 +2354,10 @@
    "explanation": "These terms differ between lenders and affect how costly a loan is.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-096",
@@ -2013,7 +2377,10 @@
    "explanation": "Group savings give poor households a source of cheap credit.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-097",
@@ -2034,7 +2401,11 @@
    "explanation": "William I of Prussia was proclaimed Emperor of the new German Empire in 1871.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-098",
@@ -2055,7 +2426,11 @@
    "explanation": "The Indian National Congress was founded in 1885.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-099",
@@ -2076,7 +2451,11 @@
    "explanation": "The potato, along with maize and tomato, came from the Americas.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-100",
@@ -2097,7 +2476,11 @@
    "explanation": "Cotton textile mills in places such as Lancashire led early industrialisation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-101",
@@ -2118,7 +2501,11 @@
    "explanation": "Chapbooks were pocket-sized and affordable, sold by travelling pedlars.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-102",
@@ -2139,7 +2526,11 @@
    "explanation": "Black soil is also called regur soil.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-103",
@@ -2158,7 +2549,10 @@
    "explanation": "The cropping seasons depend on sowing and harvesting times.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-104",
@@ -2178,7 +2572,10 @@
    "explanation": "Limited mineral stocks must be used carefully.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-105",
@@ -2199,7 +2596,11 @@
    "explanation": "Marianne was the popular female figure symbolising the French nation; Germania represented Germany.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-106",
@@ -2220,7 +2621,11 @@
    "explanation": "Giuseppe Garibaldi led the Red Shirts, who helped to win southern Italy in 1860.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-107",
@@ -2241,7 +2646,11 @@
    "explanation": "The Bourbon dynasty, overthrown during the French Revolution, was restored in France in 1815.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-108",
@@ -2262,7 +2671,11 @@
    "explanation": "Greece had been part of the Ottoman Empire; it was recognised as independent by the Treaty of Constantinople in 1832.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-109",
@@ -2283,7 +2696,11 @@
    "explanation": "King Frederick William IV of Prussia refused the crown, and the monarchy, army and landowners joined forces to end the Parliament.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-110",
@@ -2304,7 +2721,11 @@
    "explanation": "Nationalist aspirations and rivalry among the great powers made the Balkans a region of conflict that helped lead to the First World War.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-111",
@@ -2324,7 +2745,10 @@
    "explanation": "Artists used such figures to give a face to an abstract idea.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-112",
@@ -2344,7 +2768,10 @@
    "explanation": "A common system lowered the cost and difficulty of doing business.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-113",
@@ -2365,7 +2792,11 @@
    "explanation": "Jawaharlal Nehru presided at Lahore, and 26 January 1930 was to be celebrated as Independence Day.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-114",
@@ -2386,7 +2817,11 @@
    "explanation": "Gandhiji gave the call ‘Do or Die’ at the launch of the Quit India Movement in August 1942.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-115",
@@ -2407,7 +2842,11 @@
    "explanation": "In Champaran in Bihar he supported peasants who were forced by planters to grow indigo.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-116",
@@ -2428,7 +2867,11 @@
    "explanation": "C. R. Das and Motilal Nehru formed the Swaraj Party in 1923 to argue for a return to council politics.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-117",
@@ -2449,7 +2892,11 @@
    "explanation": "Industrialists wanted protection against imported goods and freedom from colonial restrictions on business.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-118",
@@ -2470,7 +2917,11 @@
    "explanation": "Ambedkar feared that general electorates would choose representatives who did not reflect the interests of the Depressed Classes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-119",
@@ -2490,7 +2941,10 @@
    "explanation": "Satyagraha was Gandhiji’s method of mass struggle.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-120",
@@ -2510,7 +2964,11 @@
    "explanation": "The movement combined political boycott with economic self-reliance.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "unsure",
+    "note": "Mostly accurate (schools, courts and councils boycotted; foreign cloth burnt; khadi promoted), but the causal claim that the movement slowed because khadi was costlier is debatable and not a standard textbook explanation. Check the wording before use. Reviewed: kept, follows NCERT (Nationalism in India) on khadi being costlier."
+   }
   },
   {
    "id": "social-c10-121",
@@ -2531,7 +2989,11 @@
    "explanation": "Rinderpest killed most of the cattle in Africa and weakened people’s ability to resist European rule.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-122",
@@ -2552,7 +3014,11 @@
    "explanation": "The First World War began in 1914 and ended in 1918.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-123",
@@ -2573,7 +3039,11 @@
    "explanation": "The World Trade Organization replaced GATT in 1995 to set rules for international trade.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-124",
@@ -2594,7 +3064,11 @@
    "explanation": "Indentured labour from places such as India filled the labour gap on plantations.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-125",
@@ -2615,7 +3089,11 @@
    "explanation": "Cheap British factory goods flooded India while raw materials were exported to feed British industry.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-126",
@@ -2636,7 +3114,11 @@
    "explanation": "Developing countries sought control over their natural resources and fairer trade terms, forming the Group of 77.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-127",
@@ -2656,7 +3138,10 @@
    "explanation": "The war shifted economic power towards the United States.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-128",
@@ -2676,7 +3161,10 @@
    "explanation": "New technology made global food trade possible.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-129",
@@ -2697,7 +3185,11 @@
    "explanation": "James Hargreaves’s spinning jenny allowed one worker to spin several threads at once.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-130",
@@ -2718,7 +3210,11 @@
    "explanation": "The first jute mill was set up near Calcutta, in Bengal.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-131",
@@ -2739,7 +3235,11 @@
    "explanation": "A stapler sorted wool by staple or fibre before it was cleaned and spun.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-132",
@@ -2760,7 +3260,11 @@
    "explanation": "Labels carried the name of the firm and place, assuring buyers of quality.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-133",
@@ -2781,7 +3285,11 @@
    "explanation": "Technical improvements, and the fact that mills concentrated on coarse varieties, helped many weavers survive.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-134",
@@ -2802,7 +3310,11 @@
    "explanation": "The jenny reduced the need for hand spinners, so many women lost their income and sometimes attacked the machines.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-135",
@@ -2822,7 +3334,10 @@
    "explanation": "Rapid growth of towns outpaced facilities for workers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-136",
@@ -2842,7 +3357,10 @@
    "explanation": "The war gave Indian industry a chance to expand.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-137",
@@ -2863,7 +3381,11 @@
    "explanation": "The Buddhist Diamond Sutra is the oldest Japanese book printed using woodblocks.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-138",
@@ -2884,7 +3406,11 @@
    "explanation": "Jyotiba Phule wrote Gulamgiri, a book against caste oppression.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-139",
@@ -2905,7 +3431,11 @@
    "explanation": "Roy used print to argue for social reform.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-140",
@@ -2926,7 +3456,11 @@
    "explanation": "His pictures, printed in large numbers, brought images of deities into many homes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-141",
@@ -2947,7 +3481,11 @@
    "explanation": "Women began writing about their lives and views; Rassundari Debi’s Amar Jiban is an early example.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-142",
@@ -2968,7 +3506,11 @@
    "explanation": "Nationalist papers criticised British policy and encouraged a sense of unity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-143",
@@ -2988,7 +3530,11 @@
    "explanation": "Woodblock printing was the first printing method in Europe.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "unsure",
+    "note": "Woodblock printing did develop in China and the story of Marco Polo carrying the knowledge to Italy is in many textbooks, but historians debate whether he was the channel and the claim is a traditional rather than established fact. Better to attribute it cautiously. Reviewed: kept, follows NCERT (Print Culture); historians debate the Marco Polo route."
+   }
   },
   {
    "id": "social-c10-144",
@@ -3008,7 +3554,10 @@
    "explanation": "Print made public discussion of social issues possible.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-145",
@@ -3029,7 +3578,11 @@
    "explanation": "Coal takes millions of years to form and cannot be replaced quickly.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-146",
@@ -3050,7 +3603,12 @@
    "explanation": "Plains cover about 43 per cent, mountains about 30 per cent and plateaus about 27 per cent.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "unsure",
+    "checkerAnswer": "A",
+    "note": "Plains cover about 43.9 per cent of India's area (plateaus about 27.7 per cent, mountains about 10.7 per cent), so the 43 per cent in the question points to plains, not plateaus. The answer is A (Plains); the question wording should be checked. Reviewed: kept, matches NCERT figures (43/30/27 per cent); the checker also chose A."
+   }
   },
   {
    "id": "social-c10-147",
@@ -3071,7 +3629,11 @@
    "explanation": "Red soil develops on crystalline igneous rocks and its colour comes from iron.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-148",
@@ -3092,7 +3654,11 @@
    "explanation": "Khadar is the newer alluvium; the older alluvium is bangar.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-149",
@@ -3113,7 +3679,11 @@
    "explanation": "Too much irrigation raises the water table and brings salts to the surface, reducing fertility.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-150",
@@ -3134,7 +3704,11 @@
    "explanation": "Some regions are rich in minerals while others are rich in water or soil, so planning helps balance development.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-151",
@@ -3155,7 +3729,10 @@
    "explanation": "Soils differ by parent rock, climate and rainfall.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-152",
@@ -3175,7 +3752,10 @@
    "explanation": "Both methods reduce the force of wind or water on bare soil.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-153",
@@ -3196,7 +3776,11 @@
    "explanation": "Rice is sown with the monsoon and harvested in autumn, so it is a kharif crop.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-154",
@@ -3217,7 +3801,11 @@
    "explanation": "Jute is called the golden fibre because of its colour and value.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-155",
@@ -3238,7 +3826,11 @@
    "explanation": "Maize is used as food and fodder.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-156",
@@ -3259,7 +3851,11 @@
    "explanation": "Operation Flood aimed to increase milk production in India through cooperatives.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-157",
@@ -3280,7 +3876,11 @@
    "explanation": "Even regions with enough rain face shortage because of overuse and unequal distribution.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-158",
@@ -3301,7 +3901,11 @@
    "explanation": "Delivering water slowly near roots saves water.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-159",
@@ -3320,7 +3924,10 @@
    "explanation": "The key difference is the purpose of cultivation and the inputs used.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-160",
@@ -3339,7 +3946,10 @@
    "explanation": "Dams bring benefits but also social and environmental costs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-161",
@@ -3360,7 +3970,11 @@
    "explanation": "Aluminium is extracted from bauxite.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-162",
@@ -3381,7 +3995,11 @@
    "explanation": "Digboi is one of India’s oldest oil-producing areas.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-163",
@@ -3402,7 +4020,11 @@
    "explanation": "Mica resists heat and electricity, so it is used in electrical and electronic goods.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-164",
@@ -3423,7 +4045,11 @@
    "explanation": "Neyveli has big deposits of lignite, also called brown coal.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-165",
@@ -3444,7 +4070,11 @@
    "explanation": "Abundant sunshine and no pollution make solar power attractive.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-166",
@@ -3465,7 +4095,11 @@
    "explanation": "Cotton from the black-soil region and ports such as Bombay supported the industry.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-167",
@@ -3486,7 +4120,10 @@
    "explanation": "Industries are set up where costs are low and access to markets is good.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-168",
@@ -3507,7 +4144,10 @@
    "explanation": "Treating waste and cutting emissions at the source reduces pollution.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-169",
@@ -3528,7 +4168,11 @@
    "explanation": "The USA divides power between a national government and state governments.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-170",
@@ -3549,7 +4193,11 @@
    "explanation": "Local governments such as panchayats and municipalities form the third tier.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-171",
@@ -3570,7 +4218,11 @@
    "explanation": "The courts interpret the Constitution and settle disputes over powers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-172",
@@ -3591,7 +4243,11 @@
    "explanation": "In India, residuary powers rest with the Union government.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-173",
@@ -3612,7 +4268,11 @@
    "explanation": "Checks and balances prevent misuse of power.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-174",
@@ -3633,7 +4293,11 @@
    "explanation": "People understand local problems best, and local bodies give them a direct role in solving them.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-175",
@@ -3653,7 +4317,10 @@
    "explanation": "In a federation each level of government has its own sphere of authority.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-176",
@@ -3673,7 +4340,10 @@
    "explanation": "Ignoring the needs of a minority can fuel conflict.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-177",
@@ -3694,7 +4364,11 @@
    "explanation": "Abraham Lincoln used this description in his Gettysburg Address.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-178",
@@ -3715,7 +4389,11 @@
    "explanation": "The Election Commission is an independent body that supervises elections.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-179",
@@ -3736,7 +4414,11 @@
    "explanation": "Article 17 abolishes untouchability and makes its practice an offence.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-180",
@@ -3757,7 +4439,11 @@
    "explanation": "India is a secular country in which the state does not promote any religion.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-181",
@@ -3778,7 +4464,11 @@
    "explanation": "Reservation brings more women into local politics and gives them a say in local decisions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-182",
@@ -3799,7 +4489,11 @@
    "explanation": "Regular elections and freedom to criticise make rulers answerable.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-183",
@@ -3819,7 +4513,10 @@
    "explanation": "These three groups together make up a party.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-184",
@@ -3839,7 +4536,10 @@
    "explanation": "Democracies manage differences through dialogue and rights.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-185",
@@ -3860,7 +4560,11 @@
    "explanation": "The secondary sector turns natural products into other goods through manufacturing.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-186",
@@ -3881,7 +4585,11 @@
    "explanation": "UNDP publishes the Human Development Report, which includes the Human Development Index.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-187",
@@ -3902,7 +4610,11 @@
    "explanation": "Banking is a service, so it belongs to the tertiary sector.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-188",
@@ -3923,7 +4635,11 @@
    "explanation": "Agricultural workers, for example, may find work only in sowing and harvesting seasons.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-189",
@@ -3944,7 +4660,11 @@
    "explanation": "Health and education improve quality of life, so governments need to make them available to all.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-190",
@@ -3965,7 +4685,11 @@
    "explanation": "As economies grow, demand for services such as banking, transport and ICT increases.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-191",
@@ -3985,7 +4709,10 @@
    "explanation": "The difference lies in who owns the assets.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-192",
@@ -4005,7 +4732,10 @@
    "explanation": "Development should not reduce the resources available to future generations.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-193",
@@ -4026,7 +4756,11 @@
    "explanation": "Money is accepted in exchange for goods and services, which removes the need for barter.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-194",
@@ -4047,7 +4781,11 @@
    "explanation": "Hallmarking certifies the purity of gold jewellery; ISI is for industrial products and Agmark for agricultural products.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-195",
@@ -4068,7 +4806,11 @@
    "explanation": "15 March is World Consumer Rights Day; India observes National Consumer Day on 24 December.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-196",
@@ -4089,7 +4831,11 @@
    "explanation": "Money in a current or savings account can be withdrawn whenever needed, so it is called demand deposit.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-197",
@@ -4110,7 +4856,11 @@
    "explanation": "High interest from informal lenders can trap borrowers in debt.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-198",
@@ -4131,7 +4881,11 @@
    "explanation": "Fewer barriers mean more trade and investment across borders.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-199",
@@ -4151,7 +4905,10 @@
    "explanation": "SEZs are used to attract investment.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-200",
@@ -4170,7 +4927,10 @@
    "explanation": "Globalisation has benefits and costs depending on size and capacity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-201",
@@ -4191,7 +4951,11 @@
    "explanation": "Hind Swaraj is Gandhiji’s 1909 book on swaraj and civilisation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-202",
@@ -4212,7 +4976,11 @@
    "explanation": "The Suez Canal, opened in 1869, links the Mediterranean and the Red Sea.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-203",
@@ -4233,7 +5001,11 @@
    "explanation": "It came into force on 26 January 1950.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-204",
@@ -4254,7 +5026,11 @@
    "explanation": "The tertiary sector provides services such as transport, banking and education.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-205",
@@ -4275,7 +5051,11 @@
    "explanation": "The Right to Information Act, 2005, lets citizens ask for information from government departments.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-206",
@@ -4296,7 +5076,11 @@
    "explanation": "Rubber needs a moist, warm climate and is mostly grown in Kerala.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-207",
@@ -4316,7 +5100,10 @@
    "explanation": "The Greek struggle inspired nationalist movements elsewhere.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-208",
@@ -4337,7 +5124,10 @@
    "explanation": "Removal of the plant cover leaves soil exposed to wind and water.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-209",
@@ -4358,7 +5148,11 @@
    "explanation": "The Bastille was stormed on 14 July 1789, a key event of the French Revolution.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-210",
@@ -4379,7 +5173,11 @@
    "explanation": "Victor Emmanuel II, the ruler of Sardinia-Piedmont, was proclaimed king of the unified Italy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-211",
@@ -4400,7 +5198,11 @@
    "explanation": "Cavour was a statesman, not a revolutionary, who used diplomacy and an alliance with France to unify Italy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-212",
@@ -4421,7 +5223,11 @@
    "explanation": "Middle-class liberals wanted free markets, and this was one reason for the Zollverein.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-213",
@@ -4442,7 +5248,11 @@
    "explanation": "Weavers protested against contractors who reduced their payments, which shows the economic hardship that fed the unrest of the 1840s.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-214",
@@ -4463,7 +5273,11 @@
    "explanation": "Romantics such as Herder stressed the importance of folk songs, dances and the national language.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-215",
@@ -4483,7 +5297,10 @@
    "explanation": "The settlement reflected the conservative aims of the victors.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-216",
@@ -4503,7 +5320,10 @@
    "explanation": "Language preserved national identity under foreign rule.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-217",
@@ -4524,7 +5344,11 @@
    "explanation": "Lord Curzon partitioned Bengal in 1905, which led to the Swadeshi Movement.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-218",
@@ -4545,7 +5369,11 @@
    "explanation": "Bankim Chandra Chattopadhyay wrote Vande Mataram in the 1870s; it became a popular song of the national movement.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-219",
@@ -4566,7 +5394,11 @@
    "explanation": "Gandhiji designed the flag; the spinning wheel symbolised self-help.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-220",
@@ -4587,7 +5419,11 @@
    "explanation": "The Swadeshi Movement began in Bengal in response to the partition and promoted Indian goods.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-221",
@@ -4608,7 +5444,11 @@
    "explanation": "Indians were burdened by war expenses, recruitment and inflation, which fuelled anger against colonial rule.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-222",
@@ -4629,7 +5469,11 @@
    "explanation": "During the trade depression, prices of cash crops fell but the revenue demand remained, so they supported the movement.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-223",
@@ -4649,7 +5493,10 @@
    "explanation": "The massacre turned many Indians against British rule.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-224",
@@ -4669,7 +5516,10 @@
    "explanation": "Dalits wanted their social problems addressed alongside political demands.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-225",
@@ -4690,7 +5540,11 @@
    "explanation": "Chinese silk travelled along these routes to Europe, Central Asia and elsewhere.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-226",
@@ -4711,7 +5565,11 @@
    "explanation": "The conference was held at Bretton Woods, New Hampshire.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-227",
@@ -4732,7 +5590,11 @@
    "explanation": "Indian indentured labourers and their descendants blended their traditions with local ones.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-228",
@@ -4753,7 +5615,11 @@
    "explanation": "Prices of agricultural goods fell much more than the fixed revenue demand.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-229",
@@ -4774,7 +5640,11 @@
    "explanation": "Europe had relied heavily on American credit, so the loss of it caused bank failures and falling production.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-230",
@@ -4795,7 +5665,11 @@
    "explanation": "Fixed, adjustable rates were meant to avoid the instability that had hurt world trade between the wars.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-231",
@@ -4815,7 +5689,10 @@
    "explanation": "Indentured labour was a harsh form of migration.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-232",
@@ -4835,7 +5712,10 @@
    "explanation": "Trade routes were also routes of cultural exchange.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-233",
@@ -4856,7 +5736,11 @@
    "explanation": "Arkwright set up the cotton mill with water-powered machinery, which brought spinning under one roof.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-234",
@@ -4877,7 +5761,11 @@
    "explanation": "Surat and Hooghly declined while Bombay and Calcutta grew under colonial trade.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-235",
@@ -4898,7 +5786,11 @@
    "explanation": "The fly shuttle sped up weaving and was adopted by many Indian handloom weavers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-236",
@@ -4919,7 +5811,11 @@
    "explanation": "The boycott of foreign cloth increased demand for Indian-made cloth.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-237",
@@ -4940,7 +5836,11 @@
    "explanation": "Where labour was cheap, employers saw little advantage in investing in costly machines.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-238",
@@ -4961,7 +5861,11 @@
    "explanation": "Religious images helped sell products to people who respected them.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-239",
@@ -4981,7 +5885,10 @@
    "explanation": "Transport is essential to industrial growth.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-240",
@@ -5001,7 +5908,10 @@
    "explanation": "Advertising helped connect industry with nationalism.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-241",
@@ -5022,7 +5932,11 @@
    "explanation": "Portuguese missionaries brought the printing press to Goa in the sixteenth century.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-242",
@@ -5043,7 +5957,11 @@
    "explanation": "Martin Luther started the Protestant Reformation by criticising the Roman Catholic Church.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-243",
@@ -5064,7 +5982,11 @@
    "explanation": "Bal Gangadhar Tilak edited Kesari and used it to spread nationalist ideas.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-244",
@@ -5085,7 +6007,11 @@
    "explanation": "Handwritten manuscripts took months to copy, so books were rare and costly.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-245",
@@ -5106,7 +6032,11 @@
    "explanation": "Lending libraries gave access to books for people who could not buy them.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-246",
@@ -5127,7 +6057,11 @@
    "explanation": "It gives a rare picture of a woman’s life and the obstacles to women’s education.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-247",
@@ -5147,7 +6081,10 @@
    "explanation": "The government wished to curb nationalist writing.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-248",
@@ -5167,7 +6104,10 @@
    "explanation": "Print created a public ready to challenge old authority.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-249",
@@ -5188,7 +6128,11 @@
    "explanation": "For example, the wind energy potential of Rajasthan and Gujarat has not been fully developed.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-250",
@@ -5209,7 +6153,11 @@
    "explanation": "Steps cut into hill slopes reduce run-off and soil erosion.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-251",
@@ -5230,7 +6178,11 @@
    "explanation": "Black soil is formed from volcanic rock in the Deccan plateau.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-252",
@@ -5251,7 +6203,11 @@
    "explanation": "In dry regions evaporation is high, so the soil is sandy, salty and low in humus.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-253",
@@ -5272,7 +6228,11 @@
    "explanation": "Vegetation cover protects topsoil from wind and water.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-254",
@@ -5293,7 +6253,11 @@
    "explanation": "Forests are linked with soil, water, climate and biodiversity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-255",
@@ -5313,7 +6277,10 @@
    "explanation": "The EEZ gives coastal countries rights over marine resources.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-256",
@@ -5333,7 +6300,10 @@
    "explanation": "Human activities, not only nature, degrade land.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-257",
@@ -5354,7 +6324,11 @@
    "explanation": "Watermelon, muskmelon and cucumber are grown in the short summer season between rabi and kharif.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-258",
@@ -5375,7 +6349,11 @@
    "explanation": "Darjeeling is a well-known tea-growing region.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-259",
@@ -5396,7 +6374,11 @@
    "explanation": "Wheat is a rabi crop that needs cool weather to grow and warm sunshine to ripen.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-260",
@@ -5417,7 +6399,11 @@
    "explanation": "Bhakra Nangal is on the Sutlej; Hirakud is on the Mahanadi.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-261",
@@ -5438,7 +6424,11 @@
    "explanation": "In dry regions, people stored rain in underground tanks for use through the year.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-262",
@@ -5459,7 +6449,11 @@
    "explanation": "The movement raised concern over the rehabilitation of displaced villagers and environmental impacts.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-263",
@@ -5479,7 +6473,10 @@
    "explanation": "Land is scarce, so farmers try to get the most from every plot.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-264",
@@ -5499,7 +6496,10 @@
    "explanation": "Both technology and institutions matter for agricultural growth.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-265",
@@ -5520,7 +6520,11 @@
    "explanation": "Copper is a good conductor of electricity, so it is widely used in electrical industries.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-266",
@@ -5541,7 +6545,11 @@
    "explanation": "Tarapur has one of India’s first nuclear power stations.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-267",
@@ -5562,7 +6570,11 @@
    "explanation": "Anthracite is the highest-grade coal, with over 80 per cent carbon.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-268",
@@ -5583,7 +6595,11 @@
    "explanation": "Mumbai High is an offshore oil field in the Arabian Sea off Mumbai.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-269",
@@ -5604,7 +6620,11 @@
    "explanation": "Renewable energy lowers dependence on imports and reduces pollution.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-270",
@@ -5625,7 +6645,11 @@
    "explanation": "Raw jute, water for processing, transport and cheap labour favoured this region.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-271",
@@ -5644,7 +6668,10 @@
    "explanation": "The classification depends on whether iron is a main component.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-272",
@@ -5664,7 +6691,10 @@
    "explanation": "Manufacturing supports growth and reduces poverty.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-273",
@@ -5685,7 +6715,11 @@
    "explanation": "A municipal corporation is headed by a Mayor, while a municipality is headed by a chairperson.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-274",
@@ -5706,7 +6740,11 @@
    "explanation": "The Gram Panchayat is the elected body at the village level.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-275",
@@ -5727,7 +6765,11 @@
    "explanation": "In coming-together federations such as the USA, Switzerland and Australia, independent states unite to form a larger unit.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-276",
@@ -5748,7 +6790,11 @@
    "explanation": "Reserved constituencies give weaker sections a share in political power.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-277",
@@ -5769,7 +6815,11 @@
    "explanation": "A written, protected division of powers keeps the federal balance stable.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-278",
@@ -5790,7 +6840,11 @@
    "explanation": "Accommodating linguistic aspirations strengthened rather than weakened the country.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-279",
@@ -5810,7 +6864,10 @@
    "explanation": "Together they form the rural local government.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-280",
@@ -5830,7 +6887,10 @@
    "explanation": "Accommodation reduces conflict; majoritarianism increases it.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-281",
@@ -5851,7 +6911,11 @@
    "explanation": "The Preamble describes India as a sovereign, socialist, secular, democratic republic.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-282",
@@ -5872,7 +6936,11 @@
    "explanation": "The opposition criticises the government and seeks to expose its failures.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-283",
@@ -5893,7 +6961,11 @@
    "explanation": "In the USA, power is mainly contested by the Democratic and Republican parties.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-284",
@@ -5914,7 +6986,11 @@
    "explanation": "Women’s movements campaigned for the vote, education and equal pay.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-285",
@@ -5935,7 +7011,11 @@
    "explanation": "Discussion allows many views to be heard, so decisions are more likely to be accepted.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-286",
@@ -5956,7 +7036,11 @@
    "explanation": "When groups organise, parties must take their concerns into account.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-287",
@@ -5975,7 +7059,10 @@
    "explanation": "Many parties reflect the diversity of a large country.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-288",
@@ -5995,7 +7082,10 @@
    "explanation": "Secularism protects both unity and individual freedom.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-289",
@@ -6016,7 +7106,11 @@
    "explanation": "IMR is expressed as deaths per 1,000 live births.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-290",
@@ -6037,7 +7131,11 @@
    "explanation": "The literacy rate is the share of the population above seven years who are literate.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-291",
@@ -6058,7 +7156,11 @@
    "explanation": "HDI uses indicators of health, education and income.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-292",
@@ -6079,7 +7181,11 @@
    "explanation": "Indian Railways is owned and run by the government.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-293",
@@ -6100,7 +7206,11 @@
    "explanation": "Without regulation, these workers face irregular income and poor working conditions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-294",
@@ -6121,7 +7231,11 @@
    "explanation": "MSP gives farmers assurance of a base price.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-295",
@@ -6141,7 +7255,10 @@
    "explanation": "Development goals depend on one’s circumstances.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-296",
@@ -6161,7 +7278,10 @@
    "explanation": "Rural jobs need investment in both farming and non-farm activities.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-297",
@@ -6182,7 +7302,11 @@
    "explanation": "A cheque instructs the bank to pay the stated amount.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-298",
@@ -6203,7 +7327,11 @@
    "explanation": "Moneylenders, relatives and traders are informal lenders not supervised by the RBI.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-299",
@@ -6224,7 +7352,11 @@
    "explanation": "The difference between interest charged on loans and interest paid on deposits is the bank’s income.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-300",
@@ -6245,7 +7377,11 @@
    "explanation": "MNCs have production units or offices in several countries.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-301",
@@ -6266,7 +7402,11 @@
    "explanation": "Knowing the quality, quantity, price and ingredients of goods helps consumers avoid being cheated.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-302",
@@ -6287,7 +7427,11 @@
    "explanation": "Collateral reduces the lender’s risk.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-303",
@@ -6308,7 +7452,10 @@
    "explanation": "These rights are recognised under the Consumer Protection Act.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-304",
@@ -6328,7 +7475,10 @@
    "explanation": "Technology has reduced distance as a barrier.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-305",
@@ -6349,7 +7499,11 @@
    "explanation": "‘Liberty, Equality, Fraternity’ expressed the ideals of the French Revolution.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-306",
@@ -6370,7 +7524,11 @@
    "explanation": "Gandhiji returned to India in January 1915.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-307",
@@ -6391,7 +7549,12 @@
    "explanation": "Hindi in Devanagari script is the official language, and English is also used for official purposes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "unsure",
+    "checkerAnswer": "A",
+    "note": "Article 343 makes Hindi in Devanagari script the official language of the Union, but English is also an official language for official purposes under the same article. Option A is incomplete rather than wrong, so the question wording needs checking. Reviewed: kept, Article 343: Hindi in Devanagari, with English continuing; the explanation says so."
+   }
   },
   {
    "id": "social-c10-308",
@@ -6412,7 +7575,11 @@
    "explanation": "Hirakud, in Odisha, is built on the Mahanadi.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-309",
@@ -6433,7 +7600,11 @@
    "explanation": "Organised-sector workers usually enjoy security, fixed hours and benefits.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-310",
@@ -6454,7 +7625,11 @@
    "explanation": "Currency is accepted because of its legal authorisation and general trust.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-311",
@@ -6475,7 +7650,10 @@
    "explanation": "Democracy’s value lies in accountability and respect for citizens.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-312",
@@ -6495,7 +7673,10 @@
    "explanation": "The lists divide legislative powers between the Union and the states.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-313",
@@ -6516,7 +7697,11 @@
    "explanation": "Napoleon was defeated at Waterloo in 1815 by an alliance of European powers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-314",
@@ -6537,7 +7722,11 @@
    "explanation": "The Habsburg Empire included Germans, Hungarians, Czechs, Italians, Poles and others under one ruler.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-315",
@@ -6558,7 +7747,11 @@
    "explanation": "The Kingdom of the Netherlands was set up on France’s northern border, and included Belgium.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-316",
@@ -6579,7 +7772,11 @@
    "explanation": "The oak symbolised heroism, and Germania’s crown of oak leaves showed the German nation’s courage.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-317",
@@ -6600,7 +7797,11 @@
    "explanation": "Repression could not erase ideas that had taken hold among the middle classes and young people.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-318",
@@ -6621,7 +7822,11 @@
    "explanation": "Although the reforms were welcomed at first, the burdens of taxes, censorship and military service turned people against French rule.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-319",
@@ -6641,7 +7846,10 @@
    "explanation": "Liberal ideas were mainly supported by the educated middle classes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-320",
@@ -6661,7 +7869,10 @@
    "explanation": "The revolutions did not establish nation-states then, but they left a legacy of ideas.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-321",
@@ -6682,7 +7893,11 @@
    "explanation": "The Quit India Movement was launched in August 1942.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-322",
@@ -6703,7 +7918,11 @@
    "explanation": "Dandi is a coastal village in Gujarat.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-323",
@@ -6724,7 +7943,11 @@
    "explanation": "Raju led a guerrilla-style movement in the Gudem hills against restrictions on forest use.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-324",
@@ -6745,7 +7968,11 @@
    "explanation": "The government agreed to release political prisoners, and Gandhiji took part in the Second Round Table Conference.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-325",
@@ -6766,7 +7993,11 @@
    "explanation": "Khadi was costlier than mill cloth, and it was hard for the poor to buy it.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-326",
@@ -6787,7 +8018,11 @@
    "explanation": "The peasants demanded a reduction of revenue, an end to forced labour and social boycott of oppressive landlords.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-327",
@@ -6807,7 +8042,10 @@
    "explanation": "The exclusion of Indians made it unacceptable.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-328",
@@ -6827,7 +8065,10 @@
    "explanation": "Civil Disobedience was a more active form of defiance.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-329",
@@ -6848,7 +8089,11 @@
    "explanation": "Columbus reached the Caribbean in 1492.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-330",
@@ -6869,7 +8114,11 @@
    "explanation": "Tomato, potato and maize came to the rest of the world from the Americas.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-331",
@@ -6890,7 +8139,11 @@
    "explanation": "Native Americans had no immunity to diseases such as smallpox, which helped Europeans conquer them.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-332",
@@ -6911,7 +8164,11 @@
    "explanation": "Refrigerated ships allowed perishable food to be transported over long distances.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-333",
@@ -6932,7 +8189,11 @@
    "explanation": "Producing in large numbers with a standard process cut costs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-334",
@@ -6953,7 +8214,11 @@
    "explanation": "Colonial rule had left them poor and dependent, so economic development remained a major challenge.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-335",
@@ -6973,7 +8238,10 @@
    "explanation": "Many indentured workers were exploited.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-336",
@@ -6993,7 +8261,10 @@
    "explanation": "The change linked food production in distant regions to British demand.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-337",
@@ -7014,7 +8285,11 @@
    "explanation": "Manchester and the surrounding region of Lancashire had many cotton mills.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-338",
@@ -7035,7 +8310,11 @@
    "explanation": "Jamsetji Tata’s family established the iron and steel company at Jamshedpur.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-339",
@@ -7056,7 +8335,11 @@
    "explanation": "Rural households worked for merchants and were paid for each piece.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-340",
@@ -7077,7 +8360,11 @@
    "explanation": "Aristocrats and the bourgeoisie saw handmade goods as finer than mass-produced ones.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-341",
@@ -7098,7 +8385,11 @@
    "explanation": "As Britain turned to India for cotton, prices rose and Indian weavers found it hard to buy cotton.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-342",
@@ -7119,7 +8410,11 @@
    "explanation": "Many mill workers kept links with their villages and left for farm work and festivals.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-343",
@@ -7139,7 +8434,10 @@
    "explanation": "Advertising shaped consumption habits.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-344",
@@ -7158,7 +8456,10 @@
    "explanation": "Urban growth was fast and often unplanned.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-345",
@@ -7179,7 +8480,12 @@
    "explanation": "Marco Polo, the Italian traveller, returned from China with knowledge of woodblock printing.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "unsure",
+    "checkerAnswer": "D",
+    "note": "Marco Polo is the textbook answer, but the claim that he brought woodblock printing from China to Italy is traditional and disputed by historians; the question presents it as established. Reviewed: kept, follows NCERT (Print Culture); historians debate the Marco Polo route."
+   }
   },
   {
    "id": "social-c10-346",
@@ -7200,7 +8506,11 @@
    "explanation": "Premchand’s Hindi fiction is considered a landmark of modern Hindi literature.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-347",
@@ -7221,7 +8531,11 @@
    "explanation": "Dickens wrote about poverty, factories and city life in Victorian England.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-348",
@@ -7242,7 +8556,11 @@
    "explanation": "He was prosecuted by the Church for unorthodox ideas that he formed from reading books.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-349",
@@ -7263,7 +8581,11 @@
    "explanation": "Print carried competing views to large audiences, which made public debate possible.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-350",
@@ -7284,7 +8606,11 @@
    "explanation": "Mass printing gave newspapers and books a far bigger readership.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-351",
@@ -7303,7 +8629,10 @@
    "explanation": "Print widened access to knowledge.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-352",
@@ -7323,7 +8652,10 @@
    "explanation": "Print opened new opportunities for women.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-353",
@@ -7344,7 +8676,11 @@
    "explanation": "Biotic resources come from the biosphere and have life, such as fish, plants and animals.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-354",
@@ -7365,7 +8701,11 @@
    "explanation": "Wind is continuously replenished, so it is renewable.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-355",
@@ -7386,7 +8726,11 @@
    "explanation": "Alluvial soil is fertile and well suited to many crops.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-356",
@@ -7407,7 +8751,11 @@
    "explanation": "With added manure and fertiliser, laterite soils suit tea, coffee and cashew.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-357",
@@ -7428,7 +8776,11 @@
    "explanation": "Gullies deepen into ravines and render land unfit for farming, as in the Chambal region.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-358",
@@ -7449,7 +8801,11 @@
    "explanation": "Unequal access to scarce resources increases inequality and conflict.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-359",
@@ -7468,7 +8824,10 @@
    "explanation": "The difference is the rate of replenishment.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-360",
@@ -7488,7 +8847,10 @@
    "explanation": "Local action is needed to achieve global sustainability goals.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-361",
@@ -7509,7 +8871,11 @@
    "explanation": "Karnataka is the leading coffee-producing state.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-362",
@@ -7530,7 +8896,11 @@
    "explanation": "Groundnut is an important oilseed; others include mustard and sesamum.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-363",
@@ -7551,7 +8921,11 @@
    "explanation": "Ragi is a nutritious millet with high iron and calcium content.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-364",
@@ -7572,7 +8946,11 @@
    "explanation": "Rabi crops are sown in winter and harvested in summer.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-365",
@@ -7593,7 +8971,11 @@
    "explanation": "Rain falls in a few months and varies from year to year, so irrigation secures crops.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-366",
@@ -7614,7 +8996,11 @@
    "explanation": "Different crops use and return different nutrients, and rotation breaks pest cycles.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-367",
@@ -7634,7 +9020,10 @@
    "explanation": "Plantation farming is commercial farming on a large scale.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-368",
@@ -7654,7 +9043,10 @@
    "explanation": "One dam can provide many benefits.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-369",
@@ -7675,7 +9067,11 @@
    "explanation": "Falling water turns turbines to generate hydroelectric power.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-370",
@@ -7696,7 +9092,11 @@
    "explanation": "Biogas is made by the decomposition of organic waste such as dung and crop residues.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-371",
@@ -7717,7 +9117,11 @@
    "explanation": "Bhilai is in Chhattisgarh.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-372",
@@ -7738,7 +9142,11 @@
    "explanation": "Gypsum is used in cement, and limestone is the main raw material.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-373",
@@ -7759,7 +9167,11 @@
    "explanation": "Smelting aluminium consumes large amounts of electricity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-374",
@@ -7780,7 +9192,11 @@
    "explanation": "Burning fossil fuels pollutes air and adds greenhouse gases.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-375",
@@ -7799,7 +9215,10 @@
    "explanation": "Industries are classified by their raw material.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-376",
@@ -7819,7 +9238,10 @@
    "explanation": "Saving energy conserves resources and reduces pollution.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-377",
@@ -7840,7 +9262,11 @@
    "explanation": "The 73rd Amendment of 1992 made panchayats constitutional bodies.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-378",
@@ -7861,7 +9287,11 @@
    "explanation": "Union Territories are too small to be states and are administered by the Centre.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-379",
@@ -7882,7 +9312,11 @@
    "explanation": "Police, trade, commerce, agriculture and irrigation are State List subjects.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-380",
@@ -7903,7 +9337,11 @@
    "explanation": "This arrangement was made to ensure fairness to the Dutch-speaking minority in Brussels.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-381",
@@ -7924,7 +9362,11 @@
    "explanation": "In a unitary system the central government is supreme, whereas in a federation the powers of each level are guaranteed.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-382",
@@ -7945,7 +9387,11 @@
    "explanation": "Democracy means that people rule themselves, so power should be shared with them.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-383",
@@ -7965,7 +9411,10 @@
    "explanation": "It is opposite to the principle of power sharing.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-384",
@@ -7985,7 +9434,10 @@
    "explanation": "Sharing power at the Centre strengthened the position of states.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-385",
@@ -8006,7 +9458,11 @@
    "explanation": "Lok Sabha members are directly elected by voters.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-386",
@@ -8027,7 +9483,11 @@
    "explanation": "The Election Commission allots symbols so that voters, including those who cannot read, can identify them.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-387",
@@ -8048,7 +9508,11 @@
    "explanation": "In a dictatorship, rulers are not chosen by the people and cannot be removed by them.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-388",
@@ -8069,7 +9533,11 @@
    "explanation": "The Right to Equality is one of the Fundamental Rights.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-389",
@@ -8090,7 +9558,11 @@
    "explanation": "Competition forces parties to listen to voters and offer programmes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-390",
@@ -8111,7 +9583,11 @@
    "explanation": "Heavy spending distorts competition and favours the wealthy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-391",
@@ -8131,7 +9607,10 @@
    "explanation": "Equal voting rights are the basis of democratic elections.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-392",
@@ -8151,7 +9630,10 @@
    "explanation": "Democracy provides peaceful means to resolve differences.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-393",
@@ -8172,7 +9654,11 @@
    "explanation": "Turning sugarcane into sugar is manufacturing, a secondary activity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-394",
@@ -8193,7 +9679,11 @@
    "explanation": "It is the number of children in an age group attending school as a percentage of all children in that age group.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-395",
@@ -8214,7 +9704,11 @@
    "explanation": "Seasonal unemployment occurs when work is available only during certain months.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-396",
@@ -8235,7 +9729,11 @@
    "explanation": "Street vendors work without registration, fixed wages or job security.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-397",
@@ -8256,7 +9754,11 @@
    "explanation": "Many workers share a smaller income pie, so average earnings are low.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-398",
@@ -8277,7 +9779,11 @@
    "explanation": "The tertiary sector contains both well-paid and poorly paid jobs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-399",
@@ -8297,7 +9803,10 @@
    "explanation": "Sectors are classified by the nature of the activity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-400",
@@ -8317,7 +9826,10 @@
    "explanation": "Public provision ensures essential services reach everyone.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-401",
@@ -8338,7 +9850,11 @@
    "explanation": "Interest is the price paid for using borrowed money.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-402",
@@ -8359,7 +9875,11 @@
    "explanation": "Banks and cooperatives are formal sources supervised by the Reserve Bank of India.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-403",
@@ -8380,7 +9900,11 @@
    "explanation": "Members meet regularly, save money and give small loans from their pooled savings.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-404",
@@ -8401,7 +9925,11 @@
    "explanation": "A tariff is a tax on imports, which makes them costlier.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-405",
@@ -8422,7 +9950,11 @@
    "explanation": "Trade barriers shield local producers while they develop.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-406",
@@ -8443,7 +9975,11 @@
    "explanation": "Liberalisation aimed to increase competition and bring in investment and technology.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-407",
@@ -8463,7 +9999,10 @@
    "explanation": "Money acts as a medium of exchange.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-408",
@@ -8483,7 +10022,10 @@
    "explanation": "Informed consumers can seek redress.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-409",
@@ -8504,7 +10046,11 @@
    "explanation": "In a nation-state, citizens see themselves as sharing a common identity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-410",
@@ -8525,7 +10071,11 @@
    "explanation": "The slogan is associated with Bal Gangadhar Tilak.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-411",
@@ -8546,7 +10096,11 @@
    "explanation": "It began in 1939 and ended in 1945.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-412",
@@ -8567,7 +10121,11 @@
    "explanation": "Kharif crops are sown with the monsoon and harvested in September–October.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-413",
@@ -8588,7 +10146,11 @@
    "explanation": "Per capita income is the average income of a person in a country.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-414",
@@ -8609,7 +10171,11 @@
    "explanation": "ISI is a certification mark for the quality of industrial products.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-415",
@@ -8629,7 +10195,10 @@
    "explanation": "Agriculture supports livelihoods and industry.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-416",
@@ -8649,7 +10218,10 @@
    "explanation": "The RBI oversees the formal banking system.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-417",
@@ -8670,7 +10242,11 @@
    "explanation": "Rome was annexed in 1870 and became the capital of the Kingdom of Italy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-418",
@@ -8691,7 +10267,11 @@
    "explanation": "Bismarck was the Prussian chief minister who led the unification of Germany.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-419",
@@ -8712,7 +10292,11 @@
    "explanation": "The treaty of 1832 recognised Greece as independent.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-420",
@@ -8733,7 +10317,11 @@
    "explanation": "Sorrieu’s series of prints imagined peoples of Europe and America marching towards the Statue of Liberty.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-421",
@@ -8754,7 +10342,11 @@
    "explanation": "Parts of Italy were under the Habsburgs, the Pope and the Bourbons, so unification required removing foreign rule.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-422",
@@ -8775,7 +10367,11 @@
    "explanation": "Although many women took part in the liberal movement, they were not given the vote or membership.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-423",
@@ -8795,7 +10391,10 @@
    "explanation": "The revolution showed that conservative order was not secure.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-424",
@@ -8815,7 +10414,10 @@
    "explanation": "Both unifications were led by strong states.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-425",
@@ -8836,7 +10438,11 @@
    "explanation": "Khan Abdul Ghaffar Khan, a leader of the North-West Frontier, was known as the Frontier Gandhi.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-426",
@@ -8857,7 +10463,11 @@
    "explanation": "Subhas Chandra Bose organised and led the Indian National Army.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-427",
@@ -8878,7 +10488,11 @@
    "explanation": "The Ali brothers were leaders of the Khilafat Movement.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-428",
@@ -8899,7 +10513,11 @@
    "explanation": "Gandhiji’s campaigns drew in groups that had earlier been outside the movement.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-429",
@@ -8920,7 +10538,11 @@
    "explanation": "Communal tensions and disputes over representation weakened the earlier unity.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-430",
@@ -8941,7 +10563,11 @@
    "explanation": "With the leadership jailed, people across the country carried on protests on their own.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-431",
@@ -8961,7 +10587,10 @@
    "explanation": "Women’s participation was large, though they were mostly not in leadership roles.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-432",
@@ -8981,7 +10610,10 @@
    "explanation": "Gandhiji connected the movement to everyday concerns.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-433",
@@ -9002,7 +10634,11 @@
    "explanation": "The International Bank for Reconstruction and Development was created to finance rebuilding of war-damaged Europe.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-434",
@@ -9023,7 +10659,11 @@
    "explanation": "Germany and Austria-Hungary were the main Central Powers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-435",
@@ -9044,7 +10684,11 @@
    "explanation": "Mass production lowered prices and instalment buying spread, but it also left households in debt.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-436",
@@ -9065,7 +10709,11 @@
    "explanation": "Jute prices collapsed, and growers fell deeply into debt.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-437",
@@ -9086,7 +10734,11 @@
    "explanation": "Bank failures wiped out savings and stopped lending, deepening the fall in demand.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-438",
@@ -9107,7 +10759,11 @@
    "explanation": "At the Berlin conference of 1884–85, European powers divided Africa among themselves.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-439",
@@ -9127,7 +10783,10 @@
    "explanation": "Indian bankers were active in Asian trade.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-440",
@@ -9147,7 +10806,10 @@
    "explanation": "The slump in prices hit India’s farmers most.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-441",
@@ -9168,7 +10830,11 @@
    "explanation": "Coal and iron were key to making machines, steam power and railways.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-442",
@@ -9189,7 +10855,11 @@
    "explanation": "Bombay was the leading centre of the cotton textile industry.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-443",
@@ -9210,7 +10880,11 @@
    "explanation": "Indian fine cloth was valued in European markets.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-444",
@@ -9231,7 +10905,11 @@
    "explanation": "Tariffs made imports costlier, protecting local producers.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-445",
@@ -9252,7 +10930,11 @@
    "explanation": "Producing coarse yarn was easier and had markets at home and abroad.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-446",
@@ -9273,7 +10955,11 @@
    "explanation": "Intricate hand-woven designs were hard for mills to copy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-447",
@@ -9292,7 +10978,10 @@
    "explanation": "The difference lies in scale, tools and organisation of work.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-448",
@@ -9312,7 +11001,10 @@
    "explanation": "The Company’s system reduced weavers’ independence.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-449",
@@ -9333,7 +11025,11 @@
    "explanation": "James Augustus Hickey started the Bengal Gazette in 1780.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-450",
@@ -9354,7 +11050,11 @@
    "explanation": "Raja Ram Mohan Roy started Sambad Kaumudi in 1821.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-451",
@@ -9375,7 +11075,11 @@
    "explanation": "Gutenberg adapted the screw press used for wine and olives.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-452",
@@ -9396,7 +11100,11 @@
    "explanation": "Deoband used print to spread religious guidance.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-453",
@@ -9417,7 +11125,11 @@
    "explanation": "Print created a shared body of ideas across regions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-454",
@@ -9438,7 +11150,11 @@
    "explanation": "Critics feared that fiction would distract readers from duties and lead them astray.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-455",
@@ -9458,7 +11174,10 @@
    "explanation": "Copying by hand made books scarce.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-456",
@@ -9478,7 +11197,10 @@
    "explanation": "Print widened access to reading.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-457",
@@ -9499,7 +11221,11 @@
    "explanation": "Roads, buildings and machines are human-made.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-458",
@@ -9520,7 +11246,11 @@
    "explanation": "Alluvial soil covers a large part of the northern plains and coastal areas.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-459",
@@ -9541,7 +11271,11 @@
    "explanation": "Net sown area is the area actually cropped during the year.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-460",
@@ -9562,7 +11296,11 @@
    "explanation": "Shelter belts protect the soil and help stabilise sand dunes.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-461",
@@ -9583,7 +11321,11 @@
    "explanation": "Relief and climate are physical limits to cultivation.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-462",
@@ -9604,7 +11346,11 @@
    "explanation": "Without plant cover, soil is easily blown away.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-463",
@@ -9624,7 +11370,10 @@
    "explanation": "Alluvial soil supports intensive farming.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-464",
@@ -9644,7 +11393,10 @@
    "explanation": "Fair sharing underpins sustainability.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-465",
@@ -9665,7 +11417,11 @@
    "explanation": "Cotton, jute, hemp and natural silk are fibre crops.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-466",
@@ -9686,7 +11442,11 @@
    "explanation": "Millets are coarse grains that grow in drier regions.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-467",
@@ -9707,7 +11467,11 @@
    "explanation": "Sugarcane needs warm, humid weather and plenty of water.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-468",
@@ -9728,7 +11492,11 @@
    "explanation": "Ahars are catchment basins and pynes are channels that lead water to fields in South Bihar.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-469",
@@ -9749,7 +11517,11 @@
    "explanation": "Excess chemicals run off into water and degrade the soil.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-470",
@@ -9770,7 +11542,11 @@
    "explanation": "Different crops have different water needs.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-471",
@@ -9790,7 +11566,10 @@
    "explanation": "Seasons depend on sowing and harvesting times.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-472",
@@ -9810,7 +11589,10 @@
    "explanation": "Pumping faster than recharge is unsustainable.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-473",
@@ -9831,7 +11613,11 @@
    "explanation": "Limestone is the main raw material for cement.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-474",
@@ -9852,7 +11638,11 @@
    "explanation": "Photovoltaic cells produce electricity directly from sunlight.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-475",
@@ -9873,7 +11663,11 @@
    "explanation": "Fossil fuels formed from organic matter in sedimentary rocks.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-476",
@@ -9894,7 +11688,11 @@
    "explanation": "Natural gas is often found with petroleum or in separate gas fields.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-477",
@@ -9915,7 +11713,11 @@
    "explanation": "Cane must be processed quickly, so mills are close to fields.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-478",
@@ -9936,7 +11738,11 @@
    "explanation": "Steel is used in machinery, construction and transport.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-479",
@@ -9955,7 +11761,10 @@
    "explanation": "Manganese is an essential alloy mineral.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-480",
@@ -9974,7 +11783,10 @@
    "explanation": "Nuclear power has benefits and risks.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-481",
@@ -9995,7 +11807,11 @@
    "explanation": "The elected head of a Gram Panchayat is the Sarpanch or Gram Pradhan.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-482",
@@ -10016,7 +11832,11 @@
    "explanation": "The Zila Parishad is the district-level body of the Panchayati Raj.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-483",
@@ -10037,7 +11857,11 @@
    "explanation": "Hindi is the official language, but the Constitution lists many languages and gives none the status of national language.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-484",
@@ -10058,7 +11882,11 @@
    "explanation": "Big cities are governed by municipal corporations headed by a Mayor.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-485",
@@ -10079,7 +11907,11 @@
    "explanation": "The framers wished to strengthen national unity in a diverse country.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-486",
@@ -10100,7 +11932,11 @@
    "explanation": "Recognising several languages has helped to keep the country united.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-487",
@@ -10119,7 +11955,10 @@
    "explanation": "Both are urban local governments of different scale.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-488",
@@ -10139,7 +11978,10 @@
    "explanation": "Constitutional status alone does not guarantee effective local government.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-489",
@@ -10160,7 +12002,11 @@
    "explanation": "Democracy means rule by people’s elected representatives.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-490",
@@ -10181,7 +12027,11 @@
    "explanation": "The electoral roll lists all eligible voters.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-491",
@@ -10202,7 +12052,11 @@
    "explanation": "Reservation ensures that their voices are heard in the legislature.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-492",
@@ -10223,7 +12077,11 @@
    "explanation": "Relatives of party leaders often get tickets and posts, which weakens internal democracy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-493",
@@ -10244,7 +12102,11 @@
    "explanation": "Legitimacy comes from the people’s participation in choosing their government.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-494",
@@ -10265,7 +12127,11 @@
    "explanation": "Customs, unequal division of work and party practices reduce women’s presence in politics.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   },
   {
    "id": "social-c10-495",
@@ -10285,7 +12151,10 @@
    "explanation": "Coalitions are common in multi-party systems.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-496",
@@ -10305,7 +12174,10 @@
    "explanation": "Transparency and participation strengthen democracy.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree"
+   }
   },
   {
    "id": "social-c10-497",
@@ -10326,7 +12198,11 @@
    "explanation": "Life expectancy is a key indicator of health in the Human Development Index.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "A"
+   }
   },
   {
    "id": "social-c10-498",
@@ -10347,7 +12223,11 @@
    "explanation": "The PDS supplies foodgrains such as rice, wheat and sugar to households at lower prices.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "B"
+   }
   },
   {
    "id": "social-c10-499",
@@ -10368,7 +12248,11 @@
    "explanation": "The cotton textile industry is a secondary activity using a primary product.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "C"
+   }
   },
   {
    "id": "social-c10-500",
@@ -10389,7 +12273,11 @@
    "explanation": "People in underemployment do work but could produce more if fully employed.",
    "source": "ai-drafted",
    "status": "unverified",
-   "reviewed": false
+   "reviewed": false,
+   "crossCheck": {
+    "result": "agree",
+    "checkerAnswer": "D"
+   }
   }
  ]
 }

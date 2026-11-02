@@ -1,0 +1,2013 @@
+{
+ "model": "claude-haiku",
+ "answers": [
+  {
+   "id": "social-c10-001",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-002",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-003",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-004",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-005",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-006",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-007",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-008",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-009",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-010",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-011",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-012",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-013",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-014",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-015",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-016",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-017",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-018",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-019",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-020",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-021",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-022",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-023",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-024",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-025",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-026",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-027",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-028",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-029",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-030",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-031",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-032",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-033",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-034",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-035",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-036",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-037",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-038",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-039",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-040",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-041",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-042",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-043",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-044",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-045",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-046",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-047",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-048",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-049",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-050",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-051",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-052",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-053",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-054",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-055",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-056",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-057",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-058",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-059",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-060",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-061",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-062",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-063",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-064",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-065",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-066",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-067",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-068",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-069",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-070",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-071",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-072",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-073",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-074",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-075",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-076",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-077",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-078",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-079",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-080",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-081",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-082",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-083",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-084",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-085",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-086",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-087",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-088",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-089",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-090",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-091",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-092",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-093",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-094",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-095",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-096",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-097",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-098",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-099",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-100",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-101",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-102",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-103",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-104",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-105",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-106",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-107",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-108",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-109",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-110",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-111",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-112",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-113",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-114",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-115",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-116",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-117",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-118",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-119",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-120",
+   "verdict": "unsure",
+   "note": "Mostly accurate (schools, courts and councils boycotted; foreign cloth burnt; khadi promoted), but the causal claim that the movement slowed because khadi was costlier is debatable and not a standard textbook explanation. Check the wording before use."
+  },
+  {
+   "id": "social-c10-121",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-122",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-123",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-124",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-125",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-126",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-127",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-128",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-129",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-130",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-131",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-132",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-133",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-134",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-135",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-136",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-137",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-138",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-139",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-140",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-141",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-142",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-143",
+   "verdict": "unsure",
+   "note": "Woodblock printing did develop in China and the story of Marco Polo carrying the knowledge to Italy is in many textbooks, but historians debate whether he was the channel and the claim is a traditional rather than established fact. Better to attribute it cautiously."
+  },
+  {
+   "id": "social-c10-144",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-145",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-146",
+   "answer": "A",
+   "unsure": true,
+   "note": "Plains cover about 43.9 per cent of India's area (plateaus about 27.7 per cent, mountains about 10.7 per cent), so the 43 per cent in the question points to plains, not plateaus. The answer is A (Plains); the question wording should be checked."
+  },
+  {
+   "id": "social-c10-147",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-148",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-149",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-150",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-151",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-152",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-153",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-154",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-155",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-156",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-157",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-158",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-159",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-160",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-161",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-162",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-163",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-164",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-165",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-166",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-167",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-168",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-169",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-170",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-171",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-172",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-173",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-174",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-175",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-176",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-177",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-178",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-179",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-180",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-181",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-182",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-183",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-184",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-185",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-186",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-187",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-188",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-189",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-190",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-191",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-192",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-193",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-194",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-195",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-196",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-197",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-198",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-199",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-200",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-201",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-202",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-203",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-204",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-205",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-206",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-207",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-208",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-209",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-210",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-211",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-212",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-213",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-214",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-215",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-216",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-217",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-218",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-219",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-220",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-221",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-222",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-223",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-224",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-225",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-226",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-227",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-228",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-229",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-230",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-231",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-232",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-233",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-234",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-235",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-236",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-237",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-238",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-239",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-240",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-241",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-242",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-243",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-244",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-245",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-246",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-247",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-248",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-249",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-250",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-251",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-252",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-253",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-254",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-255",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-256",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-257",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-258",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-259",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-260",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-261",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-262",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-263",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-264",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-265",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-266",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-267",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-268",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-269",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-270",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-271",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-272",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-273",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-274",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-275",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-276",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-277",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-278",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-279",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-280",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-281",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-282",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-283",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-284",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-285",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-286",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-287",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-288",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-289",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-290",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-291",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-292",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-293",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-294",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-295",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-296",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-297",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-298",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-299",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-300",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-301",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-302",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-303",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-304",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-305",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-306",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-307",
+   "answer": "A",
+   "unsure": true,
+   "note": "Article 343 makes Hindi in Devanagari script the official language of the Union, but English is also an official language for official purposes under the same article. Option A is incomplete rather than wrong, so the question wording needs checking."
+  },
+  {
+   "id": "social-c10-308",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-309",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-310",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-311",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-312",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-313",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-314",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-315",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-316",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-317",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-318",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-319",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-320",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-321",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-322",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-323",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-324",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-325",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-326",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-327",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-328",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-329",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-330",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-331",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-332",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-333",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-334",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-335",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-336",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-337",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-338",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-339",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-340",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-341",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-342",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-343",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-344",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-345",
+   "answer": "D",
+   "unsure": true,
+   "note": "Marco Polo is the textbook answer, but the claim that he brought woodblock printing from China to Italy is traditional and disputed by historians; the question presents it as established."
+  },
+  {
+   "id": "social-c10-346",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-347",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-348",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-349",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-350",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-351",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-352",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-353",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-354",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-355",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-356",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-357",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-358",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-359",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-360",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-361",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-362",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-363",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-364",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-365",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-366",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-367",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-368",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-369",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-370",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-371",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-372",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-373",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-374",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-375",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-376",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-377",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-378",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-379",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-380",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-381",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-382",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-383",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-384",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-385",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-386",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-387",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-388",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-389",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-390",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-391",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-392",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-393",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-394",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-395",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-396",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-397",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-398",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-399",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-400",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-401",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-402",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-403",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-404",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-405",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-406",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-407",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-408",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-409",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-410",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-411",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-412",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-413",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-414",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-415",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-416",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-417",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-418",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-419",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-420",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-421",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-422",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-423",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-424",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-425",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-426",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-427",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-428",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-429",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-430",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-431",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-432",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-433",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-434",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-435",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-436",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-437",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-438",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-439",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-440",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-441",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-442",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-443",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-444",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-445",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-446",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-447",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-448",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-449",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-450",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-451",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-452",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-453",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-454",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-455",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-456",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-457",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-458",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-459",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-460",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-461",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-462",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-463",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-464",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-465",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-466",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-467",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-468",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-469",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-470",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-471",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-472",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-473",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-474",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-475",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-476",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-477",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-478",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-479",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-480",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-481",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-482",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-483",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-484",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-485",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-486",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-487",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-488",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-489",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-490",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-491",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-492",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-493",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-494",
+   "answer": "D"
+  },
+  {
+   "id": "social-c10-495",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-496",
+   "verdict": "correct"
+  },
+  {
+   "id": "social-c10-497",
+   "answer": "A"
+  },
+  {
+   "id": "social-c10-498",
+   "answer": "B"
+  },
+  {
+   "id": "social-c10-499",
+   "answer": "C"
+  },
+  {
+   "id": "social-c10-500",
+   "answer": "D"
+  }
+ ]
+}
