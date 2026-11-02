@@ -1,0 +1,5506 @@
+{
+ "class": 12,
+ "subject": "physics",
+ "items": [
+  {
+   "id": "physics-c12-001",
+   "type": "mcq",
+   "q": "What is the magnitude of the charge on one electron?",
+   "options": [
+    "1.6 × 10^-19 C",
+    "1.6 × 10^-9 C",
+    "9.1 × 10^-31 C",
+    "3.2 × 10^-19 C"
+   ]
+  },
+  {
+   "id": "physics-c12-002",
+   "type": "mcq",
+   "q": "Quantisation of electric charge means that",
+   "options": [
+    "a body can carry any fractional amount of the charge e",
+    "the charge on a body is always an integral multiple of e",
+    "the charge on a body is always an even multiple of e",
+    "charge can be created on one body without an equal opposite charge elsewhere"
+   ]
+  },
+  {
+   "id": "physics-c12-003",
+   "type": "mcq",
+   "q": "Two point charges of 3 μC each are placed 30 cm apart in air. Taking k = 9 × 10^9 N m²/C², the force between them is",
+   "options": [
+    "0.09 N",
+    "0.81 N",
+    "0.9 N",
+    "9 N"
+   ]
+  },
+  {
+   "id": "physics-c12-004",
+   "type": "mcq",
+   "q": "If the distance between two point charges is doubled while the charges stay the same, the electrostatic force between them becomes",
+   "options": [
+    "twice",
+    "half",
+    "four times",
+    "one-fourth"
+   ]
+  },
+  {
+   "id": "physics-c12-005",
+   "type": "mcq",
+   "q": "Two identical small conducting spheres carry +6 μC and -2 μC. They are touched together and then returned to their original separation. The magnitude of the force after contact compared with the magnitude before contact is",
+   "options": [
+    "1/6 of it",
+    "1/3 of it",
+    "1/2 of it",
+    "3 times it"
+   ]
+  },
+  {
+   "id": "physics-c12-006",
+   "type": "mcq",
+   "q": "A point charge q is placed at the centre of a cube. Assuming the cube is a closed surface, the electric flux through any one face is",
+   "options": [
+    "q/ε0",
+    "q/(4ε0)",
+    "q/(6ε0)",
+    "q/(24ε0)"
+   ]
+  },
+  {
+   "id": "physics-c12-007",
+   "type": "short",
+   "q": "Find the magnitude and direction of the electric field at a distance of 2 m from a point charge of +4 μC in air (k = 9 × 10^9 N m²/C²).",
+   "proposedAnswer": "E = 9 × 10^3 N/C, directed radially away from the charge.",
+   "keyPoints": [
+    "E = kq/r²",
+    "E = 9 × 10^9 × 4 × 10^-6 / 4 = 9000 N/C",
+    "Direction is away from a positive charge"
+   ]
+  },
+  {
+   "id": "physics-c12-008",
+   "type": "short",
+   "q": "Why can two electric field lines never cross each other?",
+   "proposedAnswer": "At the point of intersection there would be two tangents, meaning two different directions of the electric field at one point, but the field at any point has a single, definite direction.",
+   "keyPoints": [
+    "Tangent to a field line gives the field direction",
+    "Crossing would give two directions at one point",
+    "The field at a point is unique"
+   ]
+  },
+  {
+   "id": "physics-c12-009",
+   "type": "mcq",
+   "q": "One volt is equal to",
+   "options": [
+    "1 N/C",
+    "1 C/J",
+    "1 J·C",
+    "1 J/C"
+   ]
+  },
+  {
+   "id": "physics-c12-010",
+   "type": "mcq",
+   "q": "The capacitance of a parallel plate capacitor increases when",
+   "options": [
+    "the area of the plates is increased",
+    "the distance between the plates is increased",
+    "the potential difference across it is doubled",
+    "the charge on the plates is halved"
+   ]
+  },
+  {
+   "id": "physics-c12-011",
+   "type": "mcq",
+   "q": "Two capacitors of 4 μF and 12 μF are connected in series. The equivalent capacitance is",
+   "options": [
+    "16 μF",
+    "8 μF",
+    "3 μF",
+    "48 μF"
+   ]
+  },
+  {
+   "id": "physics-c12-012",
+   "type": "mcq",
+   "q": "The energy stored in a 10 μF capacitor charged to 100 V is",
+   "options": [
+    "0.5 J",
+    "0.05 J",
+    "0.005 J",
+    "0.1 J"
+   ]
+  },
+  {
+   "id": "physics-c12-013",
+   "type": "mcq",
+   "q": "A parallel plate capacitor is charged and then disconnected from the battery. A dielectric slab is now inserted between the plates. The energy stored in the capacitor",
+   "options": [
+    "decreases",
+    "increases",
+    "remains the same",
+    "becomes zero"
+   ]
+  },
+  {
+   "id": "physics-c12-014",
+   "type": "mcq",
+   "q": "Two equal and opposite point charges are placed some distance apart. At the midpoint of the line joining them",
+   "options": [
+    "both the potential and the field are zero",
+    "the potential is non-zero and the field is zero",
+    "both the potential and the field are non-zero",
+    "the potential is zero and the field is non-zero"
+   ]
+  },
+  {
+   "id": "physics-c12-015",
+   "type": "short",
+   "q": "Calculate the electric potential at a distance of 3 cm from a point charge of 2 nC in air (k = 9 × 10^9 N m²/C²).",
+   "proposedAnswer": "V = 600 V.",
+   "keyPoints": [
+    "V = kq/r",
+    "V = 9 × 10^9 × 2 × 10^-9 / 0.03",
+    "= 18/0.03 = 600 V"
+   ]
+  },
+  {
+   "id": "physics-c12-016",
+   "type": "short",
+   "q": "A 5 μF parallel plate capacitor stays connected to a 12 V battery while the separation between its plates is doubled. Find the new charge on it and the new stored energy.",
+   "proposedAnswer": "New charge = 30 μC; new energy = 1.8 × 10^-4 J (180 μJ).",
+   "keyPoints": [
+    "Doubling d halves C to 2.5 μF",
+    "V stays 12 V, so Q = CV = 2.5 × 12 = 30 μC",
+    "U = ½CV² = ½ × 2.5 × 10^-6 × 144 = 1.8 × 10^-4 J"
+   ]
+  },
+  {
+   "id": "physics-c12-017",
+   "type": "mcq",
+   "q": "The SI unit of resistivity is",
+   "options": [
+    "ohm",
+    "ohm per metre",
+    "ohm-metre",
+    "siemens"
+   ]
+  },
+  {
+   "id": "physics-c12-018",
+   "type": "mcq",
+   "q": "The drift velocity of electrons in a conductor is",
+   "options": [
+    "the speed of electrons between collisions at room temperature",
+    "the speed with which the electric signal travels along the wire",
+    "the speed of the electromagnetic wave in the wire",
+    "the average velocity gained by free electrons due to the applied electric field"
+   ]
+  },
+  {
+   "id": "physics-c12-019",
+   "type": "mcq",
+   "q": "A wire of resistance 10 Ω is uniformly stretched to double its length without change in volume. Its new resistance is",
+   "options": [
+    "20 Ω",
+    "40 Ω",
+    "80 Ω",
+    "5 Ω"
+   ]
+  },
+  {
+   "id": "physics-c12-020",
+   "type": "mcq",
+   "q": "A cell of emf 12 V and internal resistance 1 Ω is connected to an external resistance of 5 Ω. The terminal voltage is",
+   "options": [
+    "10 V",
+    "12 V",
+    "2 V",
+    "6 V"
+   ]
+  },
+  {
+   "id": "physics-c12-021",
+   "type": "mcq",
+   "q": "Two bulbs rated 60 W and 100 W at 220 V are connected in series across 220 V. Which statement is correct?",
+   "options": [
+    "The 100 W bulb glows brighter because its power rating is higher",
+    "Both glow equally because the current is the same",
+    "Neither glows because the voltage is shared",
+    "The 60 W bulb glows brighter because it has the larger resistance and carries the same current"
+   ]
+  },
+  {
+   "id": "physics-c12-022",
+   "type": "mcq",
+   "q": "In a balanced Wheatstone bridge, P = 10 Ω and Q = 20 Ω lie in one arm pair and R = 15 Ω and an unknown S lie in the other, with P/Q = R/S. The value of S is",
+   "options": [
+    "7.5 Ω",
+    "30 Ω",
+    "20 Ω",
+    "5 Ω"
+   ]
+  },
+  {
+   "id": "physics-c12-023",
+   "type": "short",
+   "q": "An electric bulb is marked 60 W, 240 V. Find the current it draws and its resistance when working normally.",
+   "proposedAnswer": "Current = 0.25 A; resistance = 960 Ω.",
+   "keyPoints": [
+    "I = P/V = 60/240 = 0.25 A",
+    "R = V/I = 240/0.25 = 960 Ω",
+    "Or R = V²/P = 57600/60 = 960 Ω"
+   ]
+  },
+  {
+   "id": "physics-c12-024",
+   "type": "short",
+   "q": "A copper wire of cross-section 1 mm² carries a current of 2 A. If the free electron density is 8.5 × 10^28 m^-3 and e = 1.6 × 10^-19 C, find the drift speed of electrons.",
+   "proposedAnswer": "About 1.5 × 10^-4 m/s.",
+   "keyPoints": [
+    "I = neAv_d so v_d = I/(neA)",
+    "Denominator = 8.5 × 10^28 × 1.6 × 10^-19 × 10^-6 = 1.36 × 10^4",
+    "v_d = 2/(1.36 × 10^4) ≈ 1.5 × 10^-4 m/s"
+   ]
+  },
+  {
+   "id": "physics-c12-025",
+   "type": "mcq",
+   "q": "A charged particle moves parallel to a uniform magnetic field. The magnetic force on it is",
+   "options": [
+    "maximum",
+    "zero",
+    "along its velocity",
+    "such that it moves in a circle"
+   ]
+  },
+  {
+   "id": "physics-c12-026",
+   "type": "mcq",
+   "q": "The work done by a magnetic force on a moving charged particle is always",
+   "options": [
+    "positive",
+    "negative",
+    "zero",
+    "dependent on its speed"
+   ]
+  },
+  {
+   "id": "physics-c12-027",
+   "type": "mcq",
+   "q": "A proton moves at 2 × 10^6 m/s perpendicular to a uniform magnetic field of 0.5 T. The magnetic force on it is (e = 1.6 × 10^-19 C)",
+   "options": [
+    "1.6 × 10^-13 N",
+    "3.2 × 10^-13 N",
+    "1.6 × 10^-19 N",
+    "6.4 × 10^-13 N"
+   ]
+  },
+  {
+   "id": "physics-c12-028",
+   "type": "mcq",
+   "q": "The magnetic field at the centre of a circular loop of radius 10 cm carrying a current of 5 A is (μ0 = 4π × 10^-7 T m/A)",
+   "options": [
+    "6.28 × 10^-5 T",
+    "1.57 × 10^-5 T",
+    "3.14 × 10^-6 T",
+    "3.14 × 10^-5 T"
+   ]
+  },
+  {
+   "id": "physics-c12-029",
+   "type": "mcq",
+   "q": "An electron moves in a circle in a uniform magnetic field. If its speed is doubled (field unchanged), the time period of revolution",
+   "options": [
+    "doubles",
+    "halves",
+    "remains unchanged",
+    "becomes four times"
+   ]
+  },
+  {
+   "id": "physics-c12-030",
+   "type": "mcq",
+   "q": "Two long parallel wires, 0.1 m apart, each carry 10 A in the same direction. The force per unit length between them is (μ0 = 4π × 10^-7 T m/A)",
+   "options": [
+    "2 × 10^-4 N/m, attractive",
+    "2 × 10^-4 N/m, repulsive",
+    "2 × 10^-3 N/m, attractive",
+    "2 × 10^-5 N/m, attractive"
+   ]
+  },
+  {
+   "id": "physics-c12-031",
+   "type": "short",
+   "q": "A straight conductor 0.5 m long carries 4 A at right angles to a uniform magnetic field of 0.2 T. Find the force on it.",
+   "proposedAnswer": "0.4 N.",
+   "keyPoints": [
+    "F = BIL sinθ with θ = 90°",
+    "F = 0.2 × 4 × 0.5",
+    "= 0.4 N"
+   ]
+  },
+  {
+   "id": "physics-c12-032",
+   "type": "short",
+   "q": "Find the cyclotron frequency of a proton in a magnetic field of 1.0 T (e = 1.6 × 10^-19 C, mass of proton = 1.67 × 10^-27 kg).",
+   "proposedAnswer": "About 1.5 × 10^7 Hz (15 MHz).",
+   "keyPoints": [
+    "f = qB/(2πm)",
+    "f = 1.6 × 10^-19 / (2π × 1.67 × 10^-27)",
+    "≈ 1.52 × 10^7 Hz"
+   ]
+  },
+  {
+   "id": "physics-c12-033",
+   "type": "mcq",
+   "q": "Which statement about magnetic field lines is correct?",
+   "options": [
+    "They form closed loops",
+    "They start at the north pole and end at the south pole of the magnet only",
+    "They can intersect each other",
+    "They start from isolated magnetic monopoles"
+   ]
+  },
+  {
+   "id": "physics-c12-034",
+   "type": "mcq",
+   "q": "Substances that are weakly repelled by a magnetic field are called",
+   "options": [
+    "ferromagnetic",
+    "paramagnetic",
+    "ferrimagnetic",
+    "diamagnetic"
+   ]
+  },
+  {
+   "id": "physics-c12-035",
+   "type": "mcq",
+   "q": "A magnetic dipole of moment 2 A m² is placed in a uniform field of 0.5 T at 30° to the field. The torque on it is",
+   "options": [
+    "1.0 N m",
+    "0.5 N m",
+    "0.25 N m",
+    "0.87 N m"
+   ]
+  },
+  {
+   "id": "physics-c12-036",
+   "type": "mcq",
+   "q": "Above the Curie temperature a ferromagnetic material behaves as a",
+   "options": [
+    "diamagnetic material",
+    "permanent magnet",
+    "paramagnetic material",
+    "superconductor"
+   ]
+  },
+  {
+   "id": "physics-c12-037",
+   "type": "mcq",
+   "q": "Soft iron is chosen for the core of an electromagnet because it has",
+   "options": [
+    "high retentivity and high coercivity",
+    "high permeability and low retentivity",
+    "low permeability and high coercivity",
+    "low susceptibility and high retentivity"
+   ]
+  },
+  {
+   "id": "physics-c12-038",
+   "type": "mcq",
+   "q": "The core of a transformer, which is magnetised and demagnetised many times per second, should have a hysteresis loop that is",
+   "options": [
+    "wide and tall",
+    "wide and short",
+    "tall and wide with large area",
+    "narrow with small area"
+   ]
+  },
+  {
+   "id": "physics-c12-039",
+   "type": "short",
+   "q": "Define magnetic declination and angle of dip at a place.",
+   "proposedAnswer": "Declination is the angle between the geographic meridian and the magnetic meridian at the place. Dip is the angle that the Earth's total magnetic field makes with the horizontal at the place.",
+   "keyPoints": [
+    "Declination: angle between geographic and magnetic meridians",
+    "Dip: angle of total field with the horizontal",
+    "Both are Earth's magnetism elements"
+   ]
+  },
+  {
+   "id": "physics-c12-040",
+   "type": "short",
+   "q": "A material has magnetic susceptibility 2999. Find its relative permeability and the magnetic field B inside it when H = 100 A/m (μ0 = 4π × 10^-7 T m/A).",
+   "proposedAnswer": "μr = 3000; B ≈ 0.38 T.",
+   "keyPoints": [
+    "μr = 1 + χ = 3000",
+    "B = μ0μrH",
+    "B = 4π × 10^-7 × 3000 × 100 ≈ 0.377 T"
+   ]
+  },
+  {
+   "id": "physics-c12-041",
+   "type": "mcq",
+   "q": "According to Faraday's law, the induced emf in a coil is proportional to the",
+   "options": [
+    "magnetic flux through it",
+    "number of turns only",
+    "resistance of the coil",
+    "rate of change of magnetic flux linked with it"
+   ]
+  },
+  {
+   "id": "physics-c12-042",
+   "type": "mcq",
+   "q": "Lenz's law is a consequence of the law of conservation of",
+   "options": [
+    "charge",
+    "energy",
+    "momentum",
+    "mass"
+   ]
+  },
+  {
+   "id": "physics-c12-043",
+   "type": "mcq",
+   "q": "The magnetic flux through a coil of 100 turns changes from 0.04 Wb to 0.01 Wb in 0.1 s. The magnitude of the induced emf is",
+   "options": [
+    "30 V",
+    "3 V",
+    "300 V",
+    "0.3 V"
+   ]
+  },
+  {
+   "id": "physics-c12-044",
+   "type": "mcq",
+   "q": "A metal rod 0.5 m long moves at 4 m/s perpendicular to a uniform magnetic field of 0.2 T, with its length perpendicular to both. The motional emf across its ends is",
+   "options": [
+    "0.1 V",
+    "0.2 V",
+    "0.4 V",
+    "0.8 V"
+   ]
+  },
+  {
+   "id": "physics-c12-045",
+   "type": "mcq",
+   "q": "A strong magnet dropped through a long vertical copper tube falls much more slowly than through air. This is because",
+   "options": [
+    "eddy currents induced in the tube oppose the magnet's motion",
+    "copper is a magnetic material that attracts the magnet",
+    "air resistance inside the tube is large",
+    "the magnet loses its magnetism inside copper"
+   ]
+  },
+  {
+   "id": "physics-c12-046",
+   "type": "mcq",
+   "q": "A long solenoid's number of turns is doubled while its length and cross-sectional area stay the same. Its self-inductance becomes",
+   "options": [
+    "twice",
+    "half",
+    "four times",
+    "unchanged"
+   ]
+  },
+  {
+   "id": "physics-c12-047",
+   "type": "short",
+   "q": "The current in a 2 H inductor changes from 3 A to 1 A in 0.5 s. Find the magnitude of the induced emf.",
+   "proposedAnswer": "8 V.",
+   "keyPoints": [
+    "|ε| = L |ΔI|/Δt",
+    "ΔI = 2 A",
+    "= 2 × 2/0.5 = 8 V"
+   ]
+  },
+  {
+   "id": "physics-c12-048",
+   "type": "short",
+   "q": "Find the energy stored in a 0.5 H inductor carrying 4 A. By what factor does the energy change if the current is doubled?",
+   "proposedAnswer": "Energy = 4 J; it becomes four times (16 J) when the current is doubled.",
+   "keyPoints": [
+    "U = ½LI² = ½ × 0.5 × 16 = 4 J",
+    "U is proportional to I²",
+    "At 8 A: U = 16 J"
+   ]
+  },
+  {
+   "id": "physics-c12-049",
+   "type": "mcq",
+   "q": "The rms value of an alternating voltage of peak value V0 is",
+   "options": [
+    "V0",
+    "V0/2",
+    "V0/√2",
+    "√2 V0"
+   ]
+  },
+  {
+   "id": "physics-c12-050",
+   "type": "mcq",
+   "q": "In an AC circuit containing only a resistor, the phase difference between voltage and current is",
+   "options": [
+    "zero",
+    "π/2",
+    "π",
+    "π/4"
+   ]
+  },
+  {
+   "id": "physics-c12-051",
+   "type": "mcq",
+   "q": "An inductor of 0.1/π H is connected to a 50 Hz AC source. Its inductive reactance is",
+   "options": [
+    "5 Ω",
+    "20 Ω",
+    "100 Ω",
+    "10 Ω"
+   ]
+  },
+  {
+   "id": "physics-c12-052",
+   "type": "mcq",
+   "q": "A capacitor of (100/π) μF is connected to a 50 Hz AC source. Its capacitive reactance is",
+   "options": [
+    "50 Ω",
+    "100 Ω",
+    "10 Ω",
+    "1000 Ω"
+   ]
+  },
+  {
+   "id": "physics-c12-053",
+   "type": "mcq",
+   "q": "A series LCR circuit has L = 0.1 H and C = 10 μF. Its resonant angular frequency is",
+   "options": [
+    "100 rad/s",
+    "10^4 rad/s",
+    "10^6 rad/s",
+    "10^3 rad/s"
+   ]
+  },
+  {
+   "id": "physics-c12-054",
+   "type": "mcq",
+   "q": "An ideal step-down transformer converts 2200 V to 220 V and the secondary delivers 5 A. The primary current is",
+   "options": [
+    "0.5 A",
+    "50 A",
+    "5 A",
+    "0.05 A"
+   ]
+  },
+  {
+   "id": "physics-c12-055",
+   "type": "short",
+   "q": "A resistance of 30 Ω is in series with an inductive reactance of 40 Ω in an AC circuit. Find the impedance and the power factor.",
+   "proposedAnswer": "Impedance = 50 Ω; power factor = 0.6.",
+   "keyPoints": [
+    "Z = √(R² + X_L²) = √(900 + 1600) = 50 Ω",
+    "cos φ = R/Z",
+    "= 30/50 = 0.6"
+   ]
+  },
+  {
+   "id": "physics-c12-056",
+   "type": "short",
+   "q": "An alternating voltage is given by v = 100√2 sin(100πt) volts. Find its rms value and frequency.",
+   "proposedAnswer": "rms voltage = 100 V; frequency = 50 Hz.",
+   "keyPoints": [
+    "Peak V0 = 100√2 V so Vrms = V0/√2 = 100 V",
+    "ω = 100π rad/s",
+    "f = ω/2π = 50 Hz"
+   ]
+  },
+  {
+   "id": "physics-c12-057",
+   "type": "mcq",
+   "q": "The speed of electromagnetic waves in vacuum is approximately",
+   "options": [
+    "3 × 10^6 m/s",
+    "3 × 10^8 m/s",
+    "3 × 10^10 m/s",
+    "3 × 10^5 m/s"
+   ]
+  },
+  {
+   "id": "physics-c12-058",
+   "type": "mcq",
+   "q": "Which of the following electromagnetic radiations has the longest wavelength?",
+   "options": [
+    "X-rays",
+    "Ultraviolet rays",
+    "Radio waves",
+    "Visible light"
+   ]
+  },
+  {
+   "id": "physics-c12-059",
+   "type": "mcq",
+   "q": "An electromagnetic wave in vacuum has wavelength 3 m. Its frequency is",
+   "options": [
+    "10^6 Hz",
+    "10^7 Hz",
+    "9 × 10^8 Hz",
+    "10^8 Hz"
+   ]
+  },
+  {
+   "id": "physics-c12-060",
+   "type": "mcq",
+   "q": "Displacement current exists in a region where",
+   "options": [
+    "the electric flux changes with time",
+    "the magnetic flux is constant",
+    "there is only a conductor",
+    "charges flow physically through a wire"
+   ]
+  },
+  {
+   "id": "physics-c12-061",
+   "type": "mcq",
+   "q": "An electromagnetic wave travels along the +x direction with its electric field along +y. The magnetic field is along",
+   "options": [
+    "-z",
+    "+y",
+    "+z",
+    "-y"
+   ]
+  },
+  {
+   "id": "physics-c12-062",
+   "type": "mcq",
+   "q": "Electromagnetic waves are not deflected by electric or magnetic fields because they",
+   "options": [
+    "travel at a very high speed",
+    "carry no net electric charge",
+    "are transverse in nature",
+    "carry no energy"
+   ]
+  },
+  {
+   "id": "physics-c12-063",
+   "type": "short",
+   "q": "An FM radio station transmits at 100 MHz. Find the wavelength of the wave in air (c = 3 × 10^8 m/s).",
+   "proposedAnswer": "3 m.",
+   "keyPoints": [
+    "λ = c/f",
+    "= 3 × 10^8 / 10^8",
+    "= 3 m"
+   ]
+  },
+  {
+   "id": "physics-c12-064",
+   "type": "short",
+   "q": "Explain how Maxwell's displacement current removes the inconsistency in Ampère's circuital law for a capacitor that is being charged.",
+   "proposedAnswer": "Between the plates there is no conduction current, so Ampère's law applied to a surface passing between the plates would give zero while a surface cutting the wire gives a non-zero value. A changing electric field between the plates gives a displacement current equal to the conduction current in the wire, making the results agree.",
+   "keyPoints": [
+    "No conduction current flows between the plates",
+    "Two surfaces bounded by the same loop gave different answers",
+    "Displacement current ε0 dΦ_E/dt equals the conduction current"
+   ]
+  },
+  {
+   "id": "physics-c12-065",
+   "type": "mcq",
+   "q": "Total internal reflection occurs when light travels from",
+   "options": [
+    "a denser to a rarer medium at an angle of incidence greater than the critical angle",
+    "a rarer to a denser medium at an angle of incidence greater than the critical angle",
+    "a denser to a rarer medium at an angle of incidence less than the critical angle",
+    "any medium to another at normal incidence"
+   ]
+  },
+  {
+   "id": "physics-c12-066",
+   "type": "mcq",
+   "q": "A concave mirror has a focal length of 15 cm. Its radius of curvature is",
+   "options": [
+    "7.5 cm",
+    "15 cm",
+    "45 cm",
+    "30 cm"
+   ]
+  },
+  {
+   "id": "physics-c12-067",
+   "type": "mcq",
+   "q": "A concave mirror of focal length 10 cm forms an image of an object placed 20 cm in front of it. The image is",
+   "options": [
+    "10 cm behind the mirror",
+    "40 cm in front of the mirror",
+    "20 cm in front of the mirror",
+    "20 cm behind the mirror"
+   ]
+  },
+  {
+   "id": "physics-c12-068",
+   "type": "mcq",
+   "q": "The power of a convex lens of focal length 25 cm is",
+   "options": [
+    "+2.5 D",
+    "+4 D",
+    "-4 D",
+    "+0.25 D"
+   ]
+  },
+  {
+   "id": "physics-c12-069",
+   "type": "mcq",
+   "q": "An object is placed 30 cm from a convex lens of focal length 20 cm. The image distance and magnification are",
+   "options": [
+    "12 cm, -0.4",
+    "60 cm, +2",
+    "30 cm, -1",
+    "60 cm, -2"
+   ]
+  },
+  {
+   "id": "physics-c12-070",
+   "type": "mcq",
+   "q": "A prism of angle 60° has refractive index √2. The angle of minimum deviation is",
+   "options": [
+    "30°",
+    "15°",
+    "45°",
+    "60°"
+   ]
+  },
+  {
+   "id": "physics-c12-071",
+   "type": "short",
+   "q": "A swimming pool has real depth 2.4 m of water (refractive index 4/3). Find the apparent depth when viewed from directly above.",
+   "proposedAnswer": "1.8 m.",
+   "keyPoints": [
+    "Apparent depth = real depth / n",
+    "= 2.4 / (4/3)",
+    "= 1.8 m"
+   ]
+  },
+  {
+   "id": "physics-c12-072",
+   "type": "short",
+   "q": "Two thin lenses of focal lengths +20 cm and -30 cm are placed in contact. Find the combined focal length and power, and say whether the combination is converging or diverging.",
+   "proposedAnswer": "Combined focal length = +60 cm, power ≈ +1.67 D, converging.",
+   "keyPoints": [
+    "1/f = 1/f1 + 1/f2 = 1/20 - 1/30 = 1/60",
+    "f = +60 cm",
+    "P = 1/0.6 ≈ 1.67 D, positive so converging"
+   ]
+  },
+  {
+   "id": "physics-c12-073",
+   "type": "mcq",
+   "q": "The wavefront from a point source in a uniform medium is",
+   "options": [
+    "plane",
+    "cylindrical",
+    "spherical",
+    "elliptical"
+   ]
+  },
+  {
+   "id": "physics-c12-074",
+   "type": "mcq",
+   "q": "Which phenomenon shows that light waves are transverse?",
+   "options": [
+    "Interference",
+    "Polarisation",
+    "Diffraction",
+    "Reflection"
+   ]
+  },
+  {
+   "id": "physics-c12-075",
+   "type": "mcq",
+   "q": "In Young's double slit experiment, λ = 600 nm, slit separation 0.5 mm and screen distance 1 m. The fringe width is",
+   "options": [
+    "1.2 mm",
+    "0.12 mm",
+    "3 mm",
+    "0.6 mm"
+   ]
+  },
+  {
+   "id": "physics-c12-076",
+   "type": "mcq",
+   "q": "In single slit diffraction, if the slit width is decreased, the central maximum becomes",
+   "options": [
+    "narrower",
+    "unchanged in width",
+    "invisible",
+    "wider"
+   ]
+  },
+  {
+   "id": "physics-c12-077",
+   "type": "mcq",
+   "q": "Unpolarised light of intensity I0 passes through a polariser and then through an analyser whose axis makes 60° with the polariser. The final intensity is",
+   "options": [
+    "I0/8",
+    "I0/4",
+    "3I0/8",
+    "I0/2"
+   ]
+  },
+  {
+   "id": "physics-c12-078",
+   "type": "mcq",
+   "q": "In Young's double slit experiment, a point on the screen where the path difference is 1.5λ is",
+   "options": [
+    "a first-order bright fringe",
+    "a second-order bright fringe",
+    "a dark fringe",
+    "a point of half the maximum intensity"
+   ]
+  },
+  {
+   "id": "physics-c12-079",
+   "type": "short",
+   "q": "In a Young's double slit experiment in air the fringe width is 0.8 mm. What would it be if the whole apparatus is immersed in water of refractive index 4/3?",
+   "proposedAnswer": "0.6 mm.",
+   "keyPoints": [
+    "Wavelength in water λ' = λ/n",
+    "Fringe width is proportional to λ",
+    "β' = 0.8/(4/3) = 0.6 mm"
+   ]
+  },
+  {
+   "id": "physics-c12-080",
+   "type": "short",
+   "q": "Find the polarising (Brewster) angle for glass of refractive index √3. What is the angle between the reflected and refracted rays at this angle?",
+   "proposedAnswer": "Brewster angle = 60°; the reflected and refracted rays are at 90° to each other.",
+   "keyPoints": [
+    "tan i_B = n = √3 so i_B = 60°",
+    "Refracted angle r = 30°",
+    "Angle between reflected and refracted rays = 180° - 60° - 30° = 90°"
+   ]
+  },
+  {
+   "id": "physics-c12-081",
+   "type": "mcq",
+   "q": "The photoelectric effect supports the",
+   "options": [
+    "wave nature of light only",
+    "refraction of light",
+    "diffraction of light",
+    "particle nature of light"
+   ]
+  },
+  {
+   "id": "physics-c12-082",
+   "type": "mcq",
+   "q": "The threshold frequency of a metal is the",
+   "options": [
+    "minimum frequency of light below which no photoelectrons are emitted",
+    "maximum frequency of light that can be absorbed",
+    "frequency at which electrons emit most quickly",
+    "frequency at which the stopping potential is zero for all metals"
+   ]
+  },
+  {
+   "id": "physics-c12-083",
+   "type": "mcq",
+   "q": "Taking hc = 1240 eV nm, the energy of a photon of wavelength 400 nm is",
+   "options": [
+    "1.55 eV",
+    "3.1 eV",
+    "6.2 eV",
+    "0.31 eV"
+   ]
+  },
+  {
+   "id": "physics-c12-084",
+   "type": "mcq",
+   "q": "A metal has work function 2 eV. Light of photon energy 5 eV falls on it. The stopping potential is",
+   "options": [
+    "7 V",
+    "2.5 V",
+    "3 V",
+    "5 V"
+   ]
+  },
+  {
+   "id": "physics-c12-085",
+   "type": "mcq",
+   "q": "An electron is accelerated from rest through 150 V. Its de Broglie wavelength is closest to (h = 6.63 × 10^-34 J s, m = 9.1 × 10^-31 kg, e = 1.6 × 10^-19 C)",
+   "options": [
+    "0.1 Å",
+    "1.0 Å",
+    "10 Å",
+    "100 Å"
+   ]
+  },
+  {
+   "id": "physics-c12-086",
+   "type": "mcq",
+   "q": "Monochromatic light of fixed frequency above threshold falls on a photocell. If the intensity of the light is doubled, then",
+   "options": [
+    "both the saturation current and the stopping potential double",
+    "the stopping potential doubles and the saturation current is unchanged",
+    "neither the saturation current nor the stopping potential changes",
+    "the saturation current doubles while the stopping potential is unchanged"
+   ]
+  },
+  {
+   "id": "physics-c12-087",
+   "type": "short",
+   "q": "Calculate the de Broglie wavelength of a 0.1 kg ball moving at 10 m/s (h = 6.63 × 10^-34 J s). Why is its wave nature not observed?",
+   "proposedAnswer": "λ = 6.63 × 10^-34 m, far too small to detect.",
+   "keyPoints": [
+    "λ = h/(mv) = 6.63 × 10^-34 / (0.1 × 10)",
+    "= 6.63 × 10^-34 m",
+    "Much smaller than any size we can measure, so no diffraction is seen"
+   ]
+  },
+  {
+   "id": "physics-c12-088",
+   "type": "short",
+   "q": "Light of wavelength 300 nm falls on a metal of work function 2.3 eV. Find the stopping potential (hc = 1240 eV nm).",
+   "proposedAnswer": "About 1.83 V.",
+   "keyPoints": [
+    "Photon energy = 1240/300 ≈ 4.13 eV",
+    "K_max = 4.13 - 2.3 = 1.83 eV",
+    "Stopping potential = 1.83 V"
+   ]
+  },
+  {
+   "id": "physics-c12-089",
+   "type": "mcq",
+   "q": "Rutherford's alpha particle scattering experiment showed that",
+   "options": [
+    "electrons are embedded in a uniformly positive sphere",
+    "most of the atom's mass and positive charge is concentrated in a tiny nucleus",
+    "neutrons exist inside the atom",
+    "electrons occupy fixed energy shells"
+   ]
+  },
+  {
+   "id": "physics-c12-090",
+   "type": "mcq",
+   "q": "Isotopes of an element have",
+   "options": [
+    "the same mass number but different atomic numbers",
+    "the same number of neutrons",
+    "the same atomic number but different mass numbers",
+    "different numbers of protons"
+   ]
+  },
+  {
+   "id": "physics-c12-091",
+   "type": "mcq",
+   "q": "In the Bohr model of hydrogen, the energy of the n = 2 level is",
+   "options": [
+    "-13.6 eV",
+    "-6.8 eV",
+    "-1.51 eV",
+    "-3.4 eV"
+   ]
+  },
+  {
+   "id": "physics-c12-092",
+   "type": "mcq",
+   "q": "A radioactive sample has a half-life of 20 days. The fraction of the sample left after 60 days is",
+   "options": [
+    "1/8",
+    "1/6",
+    "1/3",
+    "1/4"
+   ]
+  },
+  {
+   "id": "physics-c12-093",
+   "type": "mcq",
+   "q": "A hydrogen atom drops from n = 3 to n = 2. Taking hc = 1240 eV nm and E_n = -13.6/n² eV, the wavelength of the emitted photon is closest to",
+   "options": [
+    "122 nm",
+    "486 nm",
+    "656 nm",
+    "1875 nm"
+   ]
+  },
+  {
+   "id": "physics-c12-094",
+   "type": "mcq",
+   "q": "Fusion of two light nuclei releases energy mainly because",
+   "options": [
+    "the binding energy per nucleon of the product is lower than that of the reactants",
+    "the binding energy per nucleon of the product is higher than that of the reactants",
+    "nucleons are destroyed in the process",
+    "protons convert entirely into electrons"
+   ]
+  },
+  {
+   "id": "physics-c12-095",
+   "type": "short",
+   "q": "A nuclear reaction has a mass defect of 0.03 u. Find the energy released in MeV (1 u = 931.5 MeV/c²).",
+   "proposedAnswer": "About 27.9 MeV.",
+   "keyPoints": [
+    "E = Δm × 931.5 MeV/u",
+    "= 0.03 × 931.5",
+    "≈ 27.9 MeV"
+   ]
+  },
+  {
+   "id": "physics-c12-096",
+   "type": "short",
+   "q": "A radioactive source has a half-life of 10 hours and an initial activity of 800 Bq. What is its activity after 30 hours?",
+   "proposedAnswer": "100 Bq.",
+   "keyPoints": [
+    "30 h = 3 half-lives",
+    "Activity halves each half-life: 800 → 400 → 200 → 100",
+    "A = 800 × (1/2)³ = 100 Bq"
+   ]
+  },
+  {
+   "id": "physics-c12-097",
+   "type": "mcq",
+   "q": "An n-type semiconductor is made by doping pure silicon with",
+   "options": [
+    "a pentavalent impurity such as phosphorus",
+    "a trivalent impurity such as boron",
+    "a tetravalent impurity such as carbon",
+    "a divalent impurity"
+   ]
+  },
+  {
+   "id": "physics-c12-098",
+   "type": "mcq",
+   "q": "When a p-n junction is forward biased, the depletion layer",
+   "options": [
+    "widens",
+    "stays unchanged",
+    "disappears completely at any voltage",
+    "narrows"
+   ]
+  },
+  {
+   "id": "physics-c12-099",
+   "type": "mcq",
+   "q": "A full-wave rectifier is fed with a 50 Hz AC input. The frequency of the pulsating output is",
+   "options": [
+    "25 Hz",
+    "50 Hz",
+    "100 Hz",
+    "200 Hz"
+   ]
+  },
+  {
+   "id": "physics-c12-100",
+   "type": "mcq",
+   "q": "In which type of solid do the conduction band and valence band overlap?",
+   "options": [
+    "Insulator",
+    "Metal",
+    "Pure silicon at 0 K",
+    "Pure diamond"
+   ]
+  },
+  {
+   "id": "physics-c12-101",
+   "type": "mcq",
+   "q": "A Zener diode is used as a voltage regulator when it operates in",
+   "options": [
+    "forward bias",
+    "reverse bias below the breakdown voltage",
+    "the unbiased condition",
+    "the reverse breakdown region"
+   ]
+  },
+  {
+   "id": "physics-c12-102",
+   "type": "mcq",
+   "q": "A NAND gate has its two inputs connected together. The resulting circuit behaves as a",
+   "options": [
+    "NOT gate",
+    "AND gate",
+    "OR gate",
+    "NOR gate"
+   ]
+  },
+  {
+   "id": "physics-c12-103",
+   "type": "short",
+   "q": "Write the truth table of a two-input OR gate.",
+   "proposedAnswer": "Inputs (A, B) and output Y: (0,0) gives 0; (0,1) gives 1; (1,0) gives 1; (1,1) gives 1.",
+   "keyPoints": [
+    "Output is 1 if at least one input is 1",
+    "Output is 0 only when both inputs are 0",
+    "Boolean expression Y = A + B"
+   ]
+  },
+  {
+   "id": "physics-c12-104",
+   "type": "short",
+   "q": "Explain why the resistivity of a semiconductor decreases with temperature while that of a metal increases.",
+   "proposedAnswer": "In a semiconductor heating breaks more covalent bonds, creating many more electron-hole pairs, so carrier density rises greatly and outweighs the extra collisions. In a metal the carrier density is almost fixed and heating increases lattice vibrations and collisions, reducing the relaxation time.",
+   "keyPoints": [
+    "Semiconductor: carrier density rises strongly with temperature",
+    "Metal: carrier density nearly constant",
+    "Metal: more collisions, shorter relaxation time, higher resistivity"
+   ]
+  },
+  {
+   "id": "physics-c12-105",
+   "type": "mcq",
+   "q": "Which of the following is a correct unit of electric field?",
+   "options": [
+    "C/N",
+    "N·C",
+    "J/C",
+    "N/C"
+   ]
+  },
+  {
+   "id": "physics-c12-106",
+   "type": "mcq",
+   "q": "The net electric field inside a charged conductor in electrostatic equilibrium is",
+   "options": [
+    "zero",
+    "uniform and non-zero",
+    "equal to the field at its surface",
+    "greatest at the centre"
+   ]
+  },
+  {
+   "id": "physics-c12-107",
+   "type": "mcq",
+   "q": "Charges +2 μC and -2 μC are placed 3 cm apart. The magnitude of the dipole moment is",
+   "options": [
+    "6 × 10^-6 C m",
+    "6 × 10^-8 C m",
+    "1.5 × 10^-4 C m",
+    "6 × 10^-5 C m"
+   ]
+  },
+  {
+   "id": "physics-c12-108",
+   "type": "mcq",
+   "q": "The electric field near a large uniformly charged non-conducting plane sheet of surface charge density σ = 8.85 × 10^-6 C/m² is (ε0 = 8.85 × 10^-12 C²/N m²)",
+   "options": [
+    "1 × 10^6 N/C",
+    "2.5 × 10^5 N/C",
+    "5 × 10^5 N/C",
+    "5 × 10^6 N/C"
+   ]
+  },
+  {
+   "id": "physics-c12-109",
+   "type": "mcq",
+   "q": "A charge Q is spread uniformly on a thin spherical shell of radius R. The field at a distance 2R from the centre is what fraction of the field just outside the shell?",
+   "options": [
+    "1/4",
+    "1/2",
+    "2",
+    "4"
+   ]
+  },
+  {
+   "id": "physics-c12-110",
+   "type": "mcq",
+   "q": "Three equal charges q are placed at the vertices of an equilateral triangle of side a. The magnitude of the net force on any one of them is",
+   "options": [
+    "kq²/a²",
+    "2kq²/a²",
+    "3kq²/a²",
+    "√3 kq²/a²"
+   ]
+  },
+  {
+   "id": "physics-c12-111",
+   "type": "short",
+   "q": "An electric dipole of moment 4 × 10^-9 C m is placed at 30° to a uniform electric field of 2 × 10^4 N/C. Find the torque on it.",
+   "proposedAnswer": "4 × 10^-5 N m.",
+   "keyPoints": [
+    "τ = pE sinθ",
+    "= 4 × 10^-9 × 2 × 10^4 × 0.5",
+    "= 4 × 10^-5 N m"
+   ]
+  },
+  {
+   "id": "physics-c12-112",
+   "type": "short",
+   "q": "A closed surface encloses charges of +5 μC and -3 μC. Find the net electric flux through the surface (ε0 = 8.85 × 10^-12 C²/N m²).",
+   "proposedAnswer": "About 2.26 × 10^5 N m²/C.",
+   "keyPoints": [
+    "Gauss's law: flux = q_enclosed/ε0",
+    "q_enclosed = +2 μC",
+    "Flux = 2 × 10^-6 / 8.85 × 10^-12 ≈ 2.26 × 10^5 N m²/C"
+   ]
+  },
+  {
+   "id": "physics-c12-113",
+   "type": "mcq",
+   "q": "The work done in moving a charge between two points on an equipotential surface is",
+   "options": [
+    "positive",
+    "zero",
+    "negative",
+    "dependent on the path"
+   ]
+  },
+  {
+   "id": "physics-c12-114",
+   "type": "mcq",
+   "q": "The dielectric constant K of a medium is the ratio of",
+   "options": [
+    "capacitance in vacuum to capacitance with the medium",
+    "charge with the medium to charge in vacuum",
+    "capacitance with the medium filling the space to capacitance in vacuum",
+    "voltage with the medium to voltage in vacuum"
+   ]
+  },
+  {
+   "id": "physics-c12-115",
+   "type": "mcq",
+   "q": "A 2 μF capacitor is connected in series with a combination of two 3 μF capacitors in parallel. The equivalent capacitance of the whole arrangement is",
+   "options": [
+    "8 μF",
+    "4 μF",
+    "2.5 μF",
+    "1.5 μF"
+   ]
+  },
+  {
+   "id": "physics-c12-116",
+   "type": "mcq",
+   "q": "A 2 μF capacitor is charged to 50 V. The charge on it is",
+   "options": [
+    "100 μC",
+    "25 μC",
+    "0.1 μC",
+    "2.5 mC"
+   ]
+  },
+  {
+   "id": "physics-c12-117",
+   "type": "mcq",
+   "q": "A 2 μF capacitor charged to 100 V is connected in parallel to an uncharged 3 μF capacitor. The common potential is",
+   "options": [
+    "60 V",
+    "100 V",
+    "20 V",
+    "40 V"
+   ]
+  },
+  {
+   "id": "physics-c12-118",
+   "type": "mcq",
+   "q": "An electron is released from rest at a point at 5 V in an electrostatic field and reaches a point at 15 V. Its kinetic energy",
+   "options": [
+    "decreases by 10 eV",
+    "increases by 10 eV",
+    "increases by 20 eV",
+    "is unchanged"
+   ]
+  },
+  {
+   "id": "physics-c12-119",
+   "type": "short",
+   "q": "A parallel plate capacitor has plate area 100 cm² and plate separation 1 mm in air. Find its capacitance (ε0 = 8.85 × 10^-12 F/m).",
+   "proposedAnswer": "8.85 × 10^-11 F (88.5 pF).",
+   "keyPoints": [
+    "C = ε0A/d",
+    "A = 10^-2 m², d = 10^-3 m",
+    "C = 8.85 × 10^-12 × 10 = 8.85 × 10^-11 F"
+   ]
+  },
+  {
+   "id": "physics-c12-120",
+   "type": "short",
+   "q": "A 2 μF air capacitor is charged to 100 V and disconnected from the supply. A dielectric of K = 4 then fills the space between its plates. Find the new potential difference and the new stored energy.",
+   "proposedAnswer": "New potential difference = 25 V; new energy = 2.5 × 10^-3 J (originally 1 × 10^-2 J).",
+   "keyPoints": [
+    "Q = 200 μC remains constant",
+    "C' = KC = 8 μF so V' = Q/C' = 25 V",
+    "U' = Q²/2C' = 2.5 mJ, a quarter of the original 10 mJ"
+   ]
+  },
+  {
+   "id": "physics-c12-121",
+   "type": "mcq",
+   "q": "Kirchhoff's junction rule is based on the conservation of",
+   "options": [
+    "charge",
+    "energy",
+    "momentum",
+    "mass"
+   ]
+  },
+  {
+   "id": "physics-c12-122",
+   "type": "mcq",
+   "q": "The SI unit of electrical conductance is",
+   "options": [
+    "ohm",
+    "siemens",
+    "volt",
+    "farad"
+   ]
+  },
+  {
+   "id": "physics-c12-123",
+   "type": "mcq",
+   "q": "Resistors of 6 Ω and 3 Ω are connected in parallel across a 12 V battery. The total current drawn from the battery is",
+   "options": [
+    "2 A",
+    "4 A",
+    "6 A",
+    "18 A"
+   ]
+  },
+  {
+   "id": "physics-c12-124",
+   "type": "mcq",
+   "q": "A current of 2 A flows through a 25 Ω resistor for 10 minutes. The heat produced is",
+   "options": [
+    "1000 J",
+    "6000 J",
+    "600 J",
+    "60000 J"
+   ]
+  },
+  {
+   "id": "physics-c12-125",
+   "type": "mcq",
+   "q": "A cell has emf 1.5 V. In a potentiometer its balance length is 75 cm without a load. When a 10 Ω resistor is connected across it the balance length is 60 cm. The internal resistance of the cell is",
+   "options": [
+    "0.5 Ω",
+    "1.5 Ω",
+    "2.5 Ω",
+    "5.0 Ω"
+   ]
+  },
+  {
+   "id": "physics-c12-126",
+   "type": "mcq",
+   "q": "A metal wire has resistance 100 Ω at 20 °C and a temperature coefficient of resistance of 0.004 per °C. Its resistance at 70 °C is",
+   "options": [
+    "120 Ω",
+    "140 Ω",
+    "104 Ω",
+    "200 Ω"
+   ]
+  },
+  {
+   "id": "physics-c12-127",
+   "type": "short",
+   "q": "Three resistors of 2 Ω, 3 Ω and 6 Ω are connected in parallel. Find the equivalent resistance.",
+   "proposedAnswer": "1 Ω.",
+   "keyPoints": [
+    "1/R = 1/2 + 1/3 + 1/6",
+    "= (3 + 2 + 1)/6 = 1",
+    "R = 1 Ω"
+   ]
+  },
+  {
+   "id": "physics-c12-128",
+   "type": "short",
+   "q": "A cell of emf 2 V and internal resistance 0.5 Ω supplies a current of 2 A to an external circuit. Find the terminal voltage and the power dissipated inside the cell.",
+   "proposedAnswer": "Terminal voltage = 1 V; power lost in the cell = 2 W.",
+   "keyPoints": [
+    "V = ε - Ir = 2 - 2 × 0.5 = 1 V",
+    "P_internal = I²r = 4 × 0.5 = 2 W",
+    "Total power ε I = 4 W, half in the cell"
+   ]
+  },
+  {
+   "id": "physics-c12-129",
+   "type": "mcq",
+   "q": "The SI unit of magnetic field is",
+   "options": [
+    "weber",
+    "gauss",
+    "tesla",
+    "henry"
+   ]
+  },
+  {
+   "id": "physics-c12-130",
+   "type": "mcq",
+   "q": "Ampère's circuital law states that the line integral of B around a closed loop equals",
+   "options": [
+    "ε0 times the flux through the loop",
+    "zero in every case",
+    "μ0 times the total current in the whole circuit",
+    "μ0 times the current enclosed by the loop"
+   ]
+  },
+  {
+   "id": "physics-c12-131",
+   "type": "mcq",
+   "q": "A long solenoid has 500 turns per metre and carries 2 A. The magnetic field inside it is (μ0 = 4π × 10^-7 T m/A)",
+   "options": [
+    "1.26 × 10^-3 T",
+    "1.26 × 10^-4 T",
+    "6.28 × 10^-3 T",
+    "2.5 × 10^-3 T"
+   ]
+  },
+  {
+   "id": "physics-c12-132",
+   "type": "mcq",
+   "q": "A long straight wire carries a current of 10 A. The magnetic field at a distance of 5 cm from it is (μ0 = 4π × 10^-7 T m/A)",
+   "options": [
+    "4 × 10^-4 T",
+    "4 × 10^-5 T",
+    "2 × 10^-5 T",
+    "8 × 10^-5 T"
+   ]
+  },
+  {
+   "id": "physics-c12-133",
+   "type": "mcq",
+   "q": "A galvanometer of resistance 50 Ω gives full-scale deflection at 2 mA. To convert it into an ammeter reading up to 1 A, the shunt resistance needed is closest to",
+   "options": [
+    "0.5 Ω",
+    "0.1 Ω",
+    "25 Ω",
+    "5 Ω"
+   ]
+  },
+  {
+   "id": "physics-c12-134",
+   "type": "mcq",
+   "q": "The same galvanometer (50 Ω, full-scale current 2 mA) is to be converted into a voltmeter of range 0 to 10 V. The series resistance needed is",
+   "options": [
+    "5050 Ω",
+    "500 Ω",
+    "4950 Ω",
+    "5000 Ω"
+   ]
+  },
+  {
+   "id": "physics-c12-135",
+   "type": "short",
+   "q": "An electron moves at 10^7 m/s perpendicular to a magnetic field of 0.01 T. Find the radius of its circular path (m = 9.1 × 10^-31 kg, e = 1.6 × 10^-19 C).",
+   "proposedAnswer": "About 5.7 mm.",
+   "keyPoints": [
+    "r = mv/(eB)",
+    "= 9.1 × 10^-31 × 10^7 / (1.6 × 10^-19 × 0.01)",
+    "≈ 5.7 × 10^-3 m"
+   ]
+  },
+  {
+   "id": "physics-c12-136",
+   "type": "short",
+   "q": "A rectangular coil of 50 turns, 0.1 m × 0.05 m, carries 2 A and lies with its plane parallel to a uniform field of 0.4 T. Find the torque on it.",
+   "proposedAnswer": "0.2 N m.",
+   "keyPoints": [
+    "τ = NIAB sinθ with θ = 90° between the normal and the field",
+    "A = 0.005 m²",
+    "τ = 50 × 2 × 0.005 × 0.4 = 0.2 N m"
+   ]
+  },
+  {
+   "id": "physics-c12-137",
+   "type": "mcq",
+   "q": "When a bar magnet is cut into two equal pieces across its length, we get",
+   "options": [
+    "a north pole piece and a south pole piece",
+    "two pieces with no magnetism",
+    "one piece magnetic and one non-magnetic",
+    "two smaller magnets each with a north and a south pole"
+   ]
+  },
+  {
+   "id": "physics-c12-138",
+   "type": "mcq",
+   "q": "The SI unit of magnetic dipole moment is",
+   "options": [
+    "A m²",
+    "A/m",
+    "T",
+    "N m"
+   ]
+  },
+  {
+   "id": "physics-c12-139",
+   "type": "mcq",
+   "q": "A bar magnet of moment 3 A m² lies in a uniform field of 0.2 T. Its minimum potential energy is",
+   "options": [
+    "+0.6 J",
+    "-1.5 J",
+    "-0.6 J",
+    "zero"
+   ]
+  },
+  {
+   "id": "physics-c12-140",
+   "type": "mcq",
+   "q": "At the magnetic equator the angle of dip is",
+   "options": [
+    "90°",
+    "0°",
+    "45°",
+    "30°"
+   ]
+  },
+  {
+   "id": "physics-c12-141",
+   "type": "mcq",
+   "q": "By Curie's law the susceptibility of a paramagnetic sample is inversely proportional to absolute temperature. If χ = 6 × 10^-5 at 300 K, its value at 600 K is",
+   "options": [
+    "3 × 10^-5",
+    "1.2 × 10^-4",
+    "6 × 10^-5",
+    "1.5 × 10^-5"
+   ]
+  },
+  {
+   "id": "physics-c12-142",
+   "type": "mcq",
+   "q": "At a place the angle of dip is 60° and the horizontal component of the Earth's field is 0.2 G. The total field there is",
+   "options": [
+    "0.1 G",
+    "0.2 G",
+    "0.35 G",
+    "0.4 G"
+   ]
+  },
+  {
+   "id": "physics-c12-143",
+   "type": "short",
+   "q": "State two properties that distinguish a ferromagnetic substance from a paramagnetic one.",
+   "proposedAnswer": "A ferromagnetic substance is strongly attracted and its atoms form domains that stay aligned; it keeps its magnetisation after the field is removed (hysteresis) and loses ferromagnetism above its Curie temperature. A paramagnetic substance is only weakly attracted and retains no magnetisation.",
+   "keyPoints": [
+    "Ferromagnets: very strong attraction due to domains",
+    "They show hysteresis and retain magnetism",
+    "Paramagnets are weakly attracted with no retained magnetism"
+   ]
+  },
+  {
+   "id": "physics-c12-144",
+   "type": "short",
+   "q": "Find the magnetic field on the axis of a short bar magnet of moment 1.5 A m² at a distance of 0.3 m from its centre (μ0/4π = 10^-7 T m/A).",
+   "proposedAnswer": "About 1.1 × 10^-5 T, along the direction of the magnetic moment.",
+   "keyPoints": [
+    "Axial field B = (μ0/4π)(2M/r³)",
+    "= 10^-7 × 3 / 0.027",
+    "≈ 1.1 × 10^-5 T"
+   ]
+  },
+  {
+   "id": "physics-c12-145",
+   "type": "mcq",
+   "q": "The SI unit of magnetic flux is",
+   "options": [
+    "tesla",
+    "weber",
+    "henry",
+    "gauss"
+   ]
+  },
+  {
+   "id": "physics-c12-146",
+   "type": "mcq",
+   "q": "The SI unit of self-inductance is",
+   "options": [
+    "ohm",
+    "farad",
+    "henry",
+    "tesla"
+   ]
+  },
+  {
+   "id": "physics-c12-147",
+   "type": "mcq",
+   "q": "A coil of area 0.02 m² is placed in a uniform magnetic field of 0.5 T such that the normal to the coil makes 60° with the field. The flux through the coil is",
+   "options": [
+    "1 × 10^-2 Wb",
+    "8.7 × 10^-3 Wb",
+    "2.5 × 10^-3 Wb",
+    "5 × 10^-3 Wb"
+   ]
+  },
+  {
+   "id": "physics-c12-148",
+   "type": "mcq",
+   "q": "When the current in a primary coil changes at 3 A/s, an emf of 6 V is induced in a nearby secondary coil. The mutual inductance is",
+   "options": [
+    "2 H",
+    "18 H",
+    "0.5 H",
+    "9 H"
+   ]
+  },
+  {
+   "id": "physics-c12-149",
+   "type": "mcq",
+   "q": "A metal rod of length 0.4 m rotates about one end with angular speed 50 rad/s in a uniform field of 0.5 T perpendicular to its plane of rotation. The emf between its ends is",
+   "options": [
+    "4 V",
+    "1 V",
+    "8 V",
+    "2 V"
+   ]
+  },
+  {
+   "id": "physics-c12-150",
+   "type": "mcq",
+   "q": "A square loop of side 0.1 m and resistance 2 Ω is pulled at 2 m/s out of a region of uniform field 0.5 T (field perpendicular to the loop). While one side is still in the field, the induced current is",
+   "options": [
+    "0.1 A",
+    "0.05 A",
+    "0.5 A",
+    "0.025 A"
+   ]
+  },
+  {
+   "id": "physics-c12-151",
+   "type": "short",
+   "q": "What are eddy currents? State one useful application and one undesirable effect.",
+   "proposedAnswer": "Eddy currents are circulating currents induced in a bulk piece of conductor by a changing magnetic flux. They are useful in induction furnaces and electromagnetic braking, and undesirable because they heat transformer cores and waste energy.",
+   "keyPoints": [
+    "Induced loops of current in solid conductors",
+    "Use: induction furnace or magnetic braking",
+    "Loss: heating of cores, reduced by laminating"
+   ]
+  },
+  {
+   "id": "physics-c12-152",
+   "type": "short",
+   "q": "A coil of 100 turns and area 0.05 m² rotates at 50 revolutions per second in a uniform magnetic field of 0.2 T about an axis perpendicular to the field. Find the peak emf.",
+   "proposedAnswer": "About 314 V (100π V).",
+   "keyPoints": [
+    "ε_max = NABω",
+    "ω = 2π × 50 = 314 rad/s",
+    "ε_max = 100 × 0.05 × 0.2 × 314 ≈ 314 V"
+   ]
+  },
+  {
+   "id": "physics-c12-153",
+   "type": "mcq",
+   "q": "In an AC circuit with only a capacitor, the current",
+   "options": [
+    "leads the voltage by π/2",
+    "lags the voltage by π/2",
+    "is in phase with the voltage",
+    "is in antiphase with the voltage"
+   ]
+  },
+  {
+   "id": "physics-c12-154",
+   "type": "mcq",
+   "q": "The average power consumed by an ideal inductor in a complete AC cycle is",
+   "options": [
+    "VI",
+    "VI/2",
+    "VI cosφ with φ = 0",
+    "zero"
+   ]
+  },
+  {
+   "id": "physics-c12-155",
+   "type": "mcq",
+   "q": "A series LR circuit with R = 3 Ω and X_L = 4 Ω is connected to a 100 V rms supply. The rms current is",
+   "options": [
+    "25 A",
+    "20 A",
+    "14.3 A",
+    "33 A"
+   ]
+  },
+  {
+   "id": "physics-c12-156",
+   "type": "mcq",
+   "q": "A 50 Hz alternating voltage is zero at t = 0. The time taken for it to reach its peak value for the first time is",
+   "options": [
+    "2.5 ms",
+    "10 ms",
+    "5 ms",
+    "20 ms"
+   ]
+  },
+  {
+   "id": "physics-c12-157",
+   "type": "mcq",
+   "q": "A series LCR circuit with R = 10 Ω is connected to a 200 V rms source at its resonant frequency. The average power consumed is",
+   "options": [
+    "2000 W",
+    "8000 W",
+    "4000 W",
+    "400 W"
+   ]
+  },
+  {
+   "id": "physics-c12-158",
+   "type": "mcq",
+   "q": "A series circuit has L = 0.5 H, C = 200 μF and R = 5 Ω. Its quality factor at resonance is",
+   "options": [
+    "10",
+    "100",
+    "1",
+    "0.1"
+   ]
+  },
+  {
+   "id": "physics-c12-159",
+   "type": "short",
+   "q": "An AC ammeter reads 5 A. What is the peak value of the current?",
+   "proposedAnswer": "About 7.07 A (5√2 A).",
+   "keyPoints": [
+    "Meters read rms values",
+    "I0 = √2 I_rms",
+    "= 5 × 1.414 ≈ 7.07 A"
+   ]
+  },
+  {
+   "id": "physics-c12-160",
+   "type": "short",
+   "q": "An ideal transformer has 200 turns in the primary and 1000 turns in the secondary. The primary is connected to 220 V and the secondary delivers 0.2 A. Find the secondary voltage and the primary current.",
+   "proposedAnswer": "Secondary voltage = 1100 V; primary current = 1 A.",
+   "keyPoints": [
+    "Vs/Vp = Ns/Np so Vs = 220 × 5 = 1100 V",
+    "Ideal: VpIp = VsIs",
+    "Ip = 1100 × 0.2/220 = 1 A"
+   ]
+  },
+  {
+   "id": "physics-c12-161",
+   "type": "mcq",
+   "q": "Which electromagnetic radiation has the highest frequency?",
+   "options": [
+    "X-rays",
+    "Ultraviolet rays",
+    "Gamma rays",
+    "Microwaves"
+   ]
+  },
+  {
+   "id": "physics-c12-162",
+   "type": "mcq",
+   "q": "Which electromagnetic waves are used in radar and in microwave ovens?",
+   "options": [
+    "Radio waves",
+    "Microwaves",
+    "X-rays",
+    "Ultraviolet rays"
+   ]
+  },
+  {
+   "id": "physics-c12-163",
+   "type": "mcq",
+   "q": "In an electromagnetic wave in vacuum the electric field amplitude is 30 V/m. The magnetic field amplitude is (c = 3 × 10^8 m/s)",
+   "options": [
+    "1 × 10^-7 T",
+    "1 × 10^-9 T",
+    "9 × 10^9 T",
+    "3 × 10^-7 T"
+   ]
+  },
+  {
+   "id": "physics-c12-164",
+   "type": "mcq",
+   "q": "In an electromagnetic wave in vacuum, the energy density associated with the electric field compared with that of the magnetic field is",
+   "options": [
+    "larger",
+    "smaller",
+    "zero",
+    "equal"
+   ]
+  },
+  {
+   "id": "physics-c12-165",
+   "type": "mcq",
+   "q": "Light of wavelength 500 nm in vacuum enters glass of refractive index 1.5. Its wavelength in the glass is",
+   "options": [
+    "5 × 10^-7 m",
+    "3.3 × 10^-7 m",
+    "7.5 × 10^-7 m",
+    "2 × 10^-7 m"
+   ]
+  },
+  {
+   "id": "physics-c12-166",
+   "type": "mcq",
+   "q": "A medium has relative permittivity 4 and relative permeability 1. The speed of an electromagnetic wave in it is",
+   "options": [
+    "c/4",
+    "c",
+    "c/2",
+    "2c"
+   ]
+  },
+  {
+   "id": "physics-c12-167",
+   "type": "short",
+   "q": "Write two uses of X-rays and one hazard associated with them.",
+   "proposedAnswer": "X-rays are used to image bones and detect fractures and to inspect luggage and materials. They are ionising radiation, so overexposure can damage living cells.",
+   "keyPoints": [
+    "Use: medical imaging of bones",
+    "Use: security or industrial inspection",
+    "Hazard: ionising, can damage tissue"
+   ]
+  },
+  {
+   "id": "physics-c12-168",
+   "type": "short",
+   "q": "The magnetic field amplitude of an electromagnetic wave in vacuum is 2 × 10^-8 T and its frequency is 5 × 10^7 Hz. Find the amplitude of the electric field and the wavelength (c = 3 × 10^8 m/s).",
+   "proposedAnswer": "E0 = 6 V/m and λ = 6 m.",
+   "keyPoints": [
+    "E0 = cB0 = 3 × 10^8 × 2 × 10^-8 = 6 V/m",
+    "λ = c/f = 3 × 10^8 / 5 × 10^7",
+    "= 6 m"
+   ]
+  },
+  {
+   "id": "physics-c12-169",
+   "type": "mcq",
+   "q": "A convex mirror always forms an image that is",
+   "options": [
+    "real and inverted",
+    "real and magnified",
+    "virtual and magnified",
+    "virtual, erect and diminished"
+   ]
+  },
+  {
+   "id": "physics-c12-170",
+   "type": "mcq",
+   "q": "The SI unit of the power of a lens is",
+   "options": [
+    "dioptre",
+    "metre",
+    "watt",
+    "lux"
+   ]
+  },
+  {
+   "id": "physics-c12-171",
+   "type": "mcq",
+   "q": "The speed of light in glass of refractive index 1.5 is (c = 3 × 10^8 m/s)",
+   "options": [
+    "4.5 × 10^8 m/s",
+    "2 × 10^8 m/s",
+    "1.5 × 10^8 m/s",
+    "3 × 10^8 m/s"
+   ]
+  },
+  {
+   "id": "physics-c12-172",
+   "type": "mcq",
+   "q": "A simple microscope of focal length 5 cm forms the final image at the near point D = 25 cm. Its magnification is",
+   "options": [
+    "5",
+    "4",
+    "6",
+    "30"
+   ]
+  },
+  {
+   "id": "physics-c12-173",
+   "type": "mcq",
+   "q": "An astronomical telescope has an objective of focal length 100 cm and an eyepiece of focal length 5 cm. In normal adjustment its magnifying power and tube length are",
+   "options": [
+    "20 and 105 cm",
+    "20 and 95 cm",
+    "0.05 and 105 cm",
+    "500 and 105 cm"
+   ]
+  },
+  {
+   "id": "physics-c12-174",
+   "type": "mcq",
+   "q": "A concave mirror forms a real image three times the size of the object, 40 cm in front of the mirror. Its focal length is",
+   "options": [
+    "30 cm",
+    "13.3 cm",
+    "40 cm",
+    "10 cm"
+   ]
+  },
+  {
+   "id": "physics-c12-175",
+   "type": "short",
+   "q": "An object is placed 15 cm from a convex lens of focal length 10 cm. Find the position and nature of the image.",
+   "proposedAnswer": "The image is 30 cm from the lens on the opposite side; it is real, inverted and magnified twice.",
+   "keyPoints": [
+    "1/v = 1/f + 1/u = 1/10 - 1/15 = 1/30",
+    "v = +30 cm",
+    "m = v/u = -2, so real, inverted, enlarged"
+   ]
+  },
+  {
+   "id": "physics-c12-176",
+   "type": "short",
+   "q": "Explain why a cut diamond sparkles strongly. (Refractive index of diamond ≈ 2.42.)",
+   "proposedAnswer": "The large refractive index gives a small critical angle of about 24°. Light entering the diamond meets internal faces at angles larger than this and undergoes repeated total internal reflection before leaving through selected faces, so much of the light is returned to the viewer.",
+   "keyPoints": [
+    "Critical angle sin C = 1/2.42, about 24°",
+    "Cut faces make light undergo multiple total internal reflections",
+    "Light emerges concentrated through few faces"
+   ]
+  },
+  {
+   "id": "physics-c12-177",
+   "type": "mcq",
+   "q": "Two sources produce a sustained interference pattern only if they are",
+   "options": [
+    "of different frequencies",
+    "coherent",
+    "of different amplitudes only",
+    "emitting with random phase changes"
+   ]
+  },
+  {
+   "id": "physics-c12-178",
+   "type": "mcq",
+   "q": "Diffraction of light is noticeable when the size of the obstacle or aperture is",
+   "options": [
+    "much larger than the wavelength",
+    "much smaller than the wavelength",
+    "exactly zero",
+    "comparable to the wavelength"
+   ]
+  },
+  {
+   "id": "physics-c12-179",
+   "type": "mcq",
+   "q": "In a Young's double slit set-up, λ = 500 nm, slit separation 1 mm and screen distance 2 m. The third bright fringe is at what distance from the central maximum?",
+   "options": [
+    "1.5 mm",
+    "2 mm",
+    "3 mm",
+    "1 mm"
+   ]
+  },
+  {
+   "id": "physics-c12-180",
+   "type": "mcq",
+   "q": "Two coherent sources each produce intensity I0 at a point. When they interfere constructively at that point, the resultant intensity is",
+   "options": [
+    "4I0",
+    "2I0",
+    "I0",
+    "zero"
+   ]
+  },
+  {
+   "id": "physics-c12-181",
+   "type": "mcq",
+   "q": "Light of wavelength 500 nm falls on a single slit of width 0.2 mm. The width of the central maximum on a screen 1 m away is",
+   "options": [
+    "0.5 mm",
+    "2.5 mm",
+    "10 mm",
+    "5 mm"
+   ]
+  },
+  {
+   "id": "physics-c12-182",
+   "type": "mcq",
+   "q": "In a Young's double slit experiment a thin transparent sheet is placed in front of one slit. The central fringe",
+   "options": [
+    "shifts away from the covered slit",
+    "shifts toward the covered slit",
+    "does not shift",
+    "disappears and the fringe width increases"
+   ]
+  },
+  {
+   "id": "physics-c12-183",
+   "type": "short",
+   "q": "In a double slit experiment the slits are 1 mm apart and the screen is 1.5 m away. The fringe width is 0.9 mm. Find the wavelength of the light.",
+   "proposedAnswer": "600 nm.",
+   "keyPoints": [
+    "β = λD/d so λ = βd/D",
+    "= 0.9 × 10^-3 × 10^-3 / 1.5",
+    "= 6 × 10^-7 m"
+   ]
+  },
+  {
+   "id": "physics-c12-184",
+   "type": "short",
+   "q": "State three differences between the interference pattern of a double slit and the diffraction pattern of a single slit.",
+   "proposedAnswer": "In interference all bright fringes have nearly equal width and intensity, whereas in single-slit diffraction the central maximum is twice as wide as the others and the intensity falls off rapidly for higher orders. Interference results from superposition of waves from two sources; diffraction from different parts of one wavefront.",
+   "keyPoints": [
+    "Interference fringes are of equal width; diffraction central maximum is widest",
+    "Interference intensity is nearly uniform; diffraction intensity falls with order",
+    "Interference: two coherent sources; diffraction: one wavefront"
+   ]
+  },
+  {
+   "id": "physics-c12-185",
+   "type": "mcq",
+   "q": "The SI unit of Planck's constant is",
+   "options": [
+    "J s",
+    "J/s",
+    "J m",
+    "N s"
+   ]
+  },
+  {
+   "id": "physics-c12-186",
+   "type": "mcq",
+   "q": "The de Broglie wavelength of a particle of momentum p is",
+   "options": [
+    "hp",
+    "p/h",
+    "h/p",
+    "hc/p"
+   ]
+  },
+  {
+   "id": "physics-c12-187",
+   "type": "mcq",
+   "q": "A metal has a work function of 4.2 eV. Taking hc = 1240 eV nm, its threshold wavelength is closest to",
+   "options": [
+    "148 nm",
+    "590 nm",
+    "4.2 nm",
+    "295 nm"
+   ]
+  },
+  {
+   "id": "physics-c12-188",
+   "type": "mcq",
+   "q": "The momentum of a photon of wavelength 500 nm is (h = 6.63 × 10^-34 J s)",
+   "options": [
+    "1.3 × 10^-25 kg m/s",
+    "1.3 × 10^-27 kg m/s",
+    "3.3 × 10^-27 kg m/s",
+    "1.3 × 10^-29 kg m/s"
+   ]
+  },
+  {
+   "id": "physics-c12-189",
+   "type": "mcq",
+   "q": "In a graph of stopping potential against frequency for a photocell, the slope is measured as 4.14 × 10^-15 V s. Using e = 1.6 × 10^-19 C, the value of Planck's constant obtained is",
+   "options": [
+    "2.6 × 10^-34 J s",
+    "4.14 × 10^-34 J s",
+    "6.62 × 10^-34 J s",
+    "6.62 × 10^-15 J s"
+   ]
+  },
+  {
+   "id": "physics-c12-190",
+   "type": "mcq",
+   "q": "An electron and a proton have the same kinetic energy. Which has the shorter de Broglie wavelength?",
+   "options": [
+    "The proton",
+    "The electron",
+    "They are equal",
+    "It cannot be compared"
+   ]
+  },
+  {
+   "id": "physics-c12-191",
+   "type": "short",
+   "q": "Write Einstein's photoelectric equation and explain each term.",
+   "proposedAnswer": "K_max = hf - φ0. Here hf is the energy of an incident photon, φ0 is the work function (minimum energy needed to free an electron from the metal) and K_max is the maximum kinetic energy of the emitted photoelectrons.",
+   "keyPoints": [
+    "K_max = hf - φ0",
+    "hf is photon energy, φ0 is work function",
+    "Emission occurs only if hf > φ0"
+   ]
+  },
+  {
+   "id": "physics-c12-192",
+   "type": "short",
+   "q": "What did the Davisson-Germer experiment demonstrate, and how?",
+   "proposedAnswer": "It showed that electrons behave as waves. A beam of electrons accelerated through about 54 V and scattered from a nickel crystal gave a diffraction peak at 50°, and the wavelength calculated from the crystal spacing matched the de Broglie wavelength of about 0.165 nm.",
+   "keyPoints": [
+    "Electron beam scattered from a nickel crystal",
+    "Intensity peak at a definite angle like X-ray diffraction",
+    "Measured wavelength agreed with h/p"
+   ]
+  },
+  {
+   "id": "physics-c12-193",
+   "type": "mcq",
+   "q": "The number of neutrons in a nucleus of uranium-238 (atomic number 92) is",
+   "options": [
+    "92",
+    "238",
+    "146",
+    "330"
+   ]
+  },
+  {
+   "id": "physics-c12-194",
+   "type": "mcq",
+   "q": "An alpha particle is the nucleus of",
+   "options": [
+    "a hydrogen atom",
+    "a helium atom",
+    "an electron",
+    "a deuterium atom"
+   ]
+  },
+  {
+   "id": "physics-c12-195",
+   "type": "mcq",
+   "q": "Taking the Bohr radius as 0.53 Å, the radius of the n = 3 orbit of hydrogen is",
+   "options": [
+    "4.77 Å",
+    "1.59 Å",
+    "0.177 Å",
+    "2.12 Å"
+   ]
+  },
+  {
+   "id": "physics-c12-196",
+   "type": "mcq",
+   "q": "Nuclear radius varies as R = R0 A^(1/3). The ratio of the radii of two nuclei of mass numbers 8 and 27 is",
+   "options": [
+    "8 : 27",
+    "3 : 2",
+    "1 : 3",
+    "2 : 3"
+   ]
+  },
+  {
+   "id": "physics-c12-197",
+   "type": "mcq",
+   "q": "A nucleus of carbon-14 (Z = 6) undergoes beta-minus decay. The daughter nucleus is",
+   "options": [
+    "nitrogen-14 (Z = 7)",
+    "boron-14 (Z = 5)",
+    "carbon-13 (Z = 6)",
+    "oxygen-14 (Z = 8)"
+   ]
+  },
+  {
+   "id": "physics-c12-198",
+   "type": "mcq",
+   "q": "After a time equal to one mean life, the fraction of the original radioactive nuclei remaining is about",
+   "options": [
+    "0.50",
+    "0.25",
+    "0.37",
+    "0.63"
+   ]
+  },
+  {
+   "id": "physics-c12-199",
+   "type": "short",
+   "q": "What is nuclear fission? Give an example reaction.",
+   "proposedAnswer": "Nuclear fission is the splitting of a heavy nucleus into two lighter nuclei, with the release of neutrons and a large amount of energy. For example, U-235 absorbs a neutron and splits into barium and krypton nuclei with three neutrons released.",
+   "keyPoints": [
+    "A heavy nucleus splits into two medium-mass nuclei",
+    "Extra neutrons and large energy are released",
+    "Example: n + U-235 gives Ba-141 + Kr-92 + 3 neutrons"
+   ]
+  },
+  {
+   "id": "physics-c12-200",
+   "type": "short",
+   "q": "Estimate the binding energy of a helium-4 nucleus given nuclear masses: proton 1.0073 u, neutron 1.0087 u, helium-4 nucleus 4.0026 u (1 u = 931.5 MeV/c²). Also find the binding energy per nucleon.",
+   "proposedAnswer": "Mass defect = 0.0294 u, so binding energy ≈ 27.4 MeV and about 6.85 MeV per nucleon.",
+   "keyPoints": [
+    "Δm = 2(1.0073 + 1.0087) - 4.0026 = 0.0294 u",
+    "BE = 0.0294 × 931.5 ≈ 27.4 MeV",
+    "BE per nucleon = 27.4/4 ≈ 6.85 MeV"
+   ]
+  },
+  {
+   "id": "physics-c12-201",
+   "type": "mcq",
+   "q": "The majority charge carriers in a p-type semiconductor are",
+   "options": [
+    "electrons",
+    "protons",
+    "negative ions",
+    "holes"
+   ]
+  },
+  {
+   "id": "physics-c12-202",
+   "type": "mcq",
+   "q": "The depletion region of a p-n junction consists of",
+   "options": [
+    "free electrons only",
+    "immobile ionised donor and acceptor atoms",
+    "holes only",
+    "neutral atoms"
+   ]
+  },
+  {
+   "id": "physics-c12-203",
+   "type": "mcq",
+   "q": "The approximate barrier potential of a silicon p-n junction at room temperature is",
+   "options": [
+    "0.3 V",
+    "1.1 V",
+    "0.7 V",
+    "3.0 V"
+   ]
+  },
+  {
+   "id": "physics-c12-204",
+   "type": "mcq",
+   "q": "A two-input NOR gate gives output 1 for the inputs",
+   "options": [
+    "both 0",
+    "A = 0, B = 1",
+    "A = 1, B = 0",
+    "both 1"
+   ]
+  },
+  {
+   "id": "physics-c12-205",
+   "type": "mcq",
+   "q": "In a doped silicon sample the electron concentration is 4.5 × 10^22 m^-3 and the intrinsic carrier density is 1.5 × 10^16 m^-3. The hole concentration is",
+   "options": [
+    "5 × 10^22 m^-3",
+    "5 × 10^9 m^-3",
+    "1.5 × 10^16 m^-3",
+    "3 × 10^-7 m^-3"
+   ]
+  },
+  {
+   "id": "physics-c12-206",
+   "type": "mcq",
+   "q": "In a transistor circuit the base current is 40 μA and the collector current is 2 mA. The current gain β is",
+   "options": [
+    "0.98",
+    "5",
+    "500",
+    "50"
+   ]
+  },
+  {
+   "id": "physics-c12-207",
+   "type": "short",
+   "q": "Distinguish between an intrinsic and an extrinsic semiconductor.",
+   "proposedAnswer": "An intrinsic semiconductor is pure, with equal numbers of electrons and holes produced thermally. An extrinsic semiconductor is doped with trivalent or pentavalent impurities, so one type of carrier greatly outnumbers the other and its conductivity is higher.",
+   "keyPoints": [
+    "Intrinsic: pure, n_e = n_h",
+    "Extrinsic: doped with impurities",
+    "Doping increases conductivity"
+   ]
+  },
+  {
+   "id": "physics-c12-208",
+   "type": "short",
+   "q": "A 9 V Zener diode in a regulator circuit is fed from a 12 V supply through a 200 Ω series resistor and has a 1 kΩ load across it. Find the load current, the total current and the Zener current.",
+   "proposedAnswer": "Load current = 9 mA; total current = 15 mA; Zener current = 6 mA.",
+   "keyPoints": [
+    "Load current = 9 V / 1000 Ω = 9 mA",
+    "Series current = (12 - 9)/200 = 15 mA",
+    "Zener current = 15 - 9 = 6 mA"
+   ]
+  },
+  {
+   "id": "physics-c12-209",
+   "type": "mcq",
+   "q": "Electric field lines due to static charges",
+   "options": [
+    "start on negative charges and end on positive charges",
+    "start and end at neutral points",
+    "start on positive charges and end on negative charges",
+    "exist only at infinity"
+   ]
+  },
+  {
+   "id": "physics-c12-210",
+   "type": "mcq",
+   "q": "The SI unit of electric flux is",
+   "options": [
+    "N/C",
+    "N m²/C",
+    "C/m²",
+    "N/m"
+   ]
+  },
+  {
+   "id": "physics-c12-211",
+   "type": "mcq",
+   "q": "A long straight wire has a uniform linear charge density of 5 × 10^-6 C/m. Taking 1/(4πε0) = 9 × 10^9 N m²/C², the electric field at a perpendicular distance of 0.9 m is",
+   "options": [
+    "5 × 10^4 N/C",
+    "2 × 10^5 N/C",
+    "1 × 10^4 N/C",
+    "1 × 10^5 N/C"
+   ]
+  },
+  {
+   "id": "physics-c12-212",
+   "type": "mcq",
+   "q": "A thin spherical shell of radius 0.1 m carries a charge of 10 nC. Taking k = 9 × 10^9 N m²/C², the electric field at a point 0.3 m from its centre is",
+   "options": [
+    "1000 N/C",
+    "3000 N/C",
+    "9000 N/C",
+    "100 N/C"
+   ]
+  },
+  {
+   "id": "physics-c12-213",
+   "type": "mcq",
+   "q": "Charges +q and +4q are placed a distance d apart. The point on the line joining them where the net electric field is zero is at a distance from +q of",
+   "options": [
+    "d/2",
+    "d/5",
+    "2d/3",
+    "d/3"
+   ]
+  },
+  {
+   "id": "physics-c12-214",
+   "type": "mcq",
+   "q": "A proton and an alpha particle are placed in the same uniform electric field. Taking the alpha particle's mass as four times the proton's, the ratio of the proton's acceleration to the alpha particle's is",
+   "options": [
+    "1 : 2",
+    "4 : 1",
+    "2 : 1",
+    "1 : 1"
+   ]
+  },
+  {
+   "id": "physics-c12-215",
+   "type": "short",
+   "q": "How many electrons must be removed from a neutral body to give it a charge of +1 μC? (e = 1.6 × 10^-19 C)",
+   "proposedAnswer": "6.25 × 10^12 electrons.",
+   "keyPoints": [
+    "q = ne so n = q/e",
+    "n = 10^-6/1.6 × 10^-19",
+    "n = 6.25 × 10^12"
+   ]
+  },
+  {
+   "id": "physics-c12-216",
+   "type": "short",
+   "q": "Using Gauss's law, show that the electric field outside a uniformly charged thin spherical shell is the same as if all its charge were at the centre.",
+   "proposedAnswer": "Take a concentric spherical Gaussian surface of radius r greater than the shell radius. By symmetry E is radial and constant on it, so flux = E × 4πr². Gauss's law gives E × 4πr² = Q/ε0, so E = Q/(4πε0 r²), the field of a point charge Q at the centre.",
+   "keyPoints": [
+    "Concentric spherical Gaussian surface and symmetry",
+    "E × 4πr² = Q/ε0",
+    "E = kQ/r², same as a point charge"
+   ]
+  },
+  {
+   "id": "physics-c12-217",
+   "type": "mcq",
+   "q": "The electric potential at a point is defined as the",
+   "options": [
+    "work done per unit positive test charge in bringing it from infinity to that point",
+    "force per unit charge at that point",
+    "total charge stored per unit volume",
+    "energy stored per unit area"
+   ]
+  },
+  {
+   "id": "physics-c12-218",
+   "type": "mcq",
+   "q": "For capacitors connected in series across a battery, the quantity that is the same on each capacitor is",
+   "options": [
+    "the potential difference",
+    "the stored energy",
+    "the capacitance",
+    "the charge"
+   ]
+  },
+  {
+   "id": "physics-c12-219",
+   "type": "mcq",
+   "q": "The capacitance of an isolated conducting sphere of radius 9 cm in air is (1/4πε0 = 9 × 10^9 N m²/C²)",
+   "options": [
+    "1 pF",
+    "10 pF",
+    "100 pF",
+    "0.1 pF"
+   ]
+  },
+  {
+   "id": "physics-c12-220",
+   "type": "mcq",
+   "q": "Point charges of 2 μC and 3 μC are 0.6 m apart in air. Their electrostatic potential energy is (k = 9 × 10^9 N m²/C²)",
+   "options": [
+    "0.9 J",
+    "0.009 J",
+    "0.09 J",
+    "0.18 J"
+   ]
+  },
+  {
+   "id": "physics-c12-221",
+   "type": "mcq",
+   "q": "Four equal charges +q are placed at the corners of a square of side a. The electric potential at the centre of the square is (k = 1/4πε0)",
+   "options": [
+    "4kq/a",
+    "4√2 kq/a",
+    "2√2 kq/a",
+    "zero"
+   ]
+  },
+  {
+   "id": "physics-c12-222",
+   "type": "mcq",
+   "q": "A parallel plate capacitor has plate separation 6 mm. A dielectric slab of thickness 4 mm and K = 2 is placed between the plates. The capacitance becomes how many times the air value?",
+   "options": [
+    "1.5",
+    "2",
+    "1.2",
+    "0.67"
+   ]
+  },
+  {
+   "id": "physics-c12-223",
+   "type": "short",
+   "q": "An electron is accelerated from rest through a potential difference of 100 V. Find its kinetic energy in joules and its final speed (e = 1.6 × 10^-19 C, m = 9.1 × 10^-31 kg).",
+   "proposedAnswer": "Kinetic energy = 1.6 × 10^-17 J (100 eV); speed ≈ 5.9 × 10^6 m/s.",
+   "keyPoints": [
+    "K = eV = 1.6 × 10^-19 × 100 = 1.6 × 10^-17 J",
+    "v = √(2K/m)",
+    "v = √(3.2 × 10^-17/9.1 × 10^-31) ≈ 5.9 × 10^6 m/s"
+   ]
+  },
+  {
+   "id": "physics-c12-224",
+   "type": "short",
+   "q": "Capacitors of 6 μF, 3 μF and 2 μF are connected in series across a 12 V battery. Find the charge on each and the potential difference across each.",
+   "proposedAnswer": "Equivalent capacitance 1 μF, charge on each capacitor 12 μC; potential differences 2 V, 4 V and 6 V respectively.",
+   "keyPoints": [
+    "1/C = 1/6 + 1/3 + 1/2 = 1 so C = 1 μF",
+    "Q = CV = 12 μC on each",
+    "V = Q/C gives 2 V, 4 V, 6 V which add to 12 V"
+   ]
+  },
+  {
+   "id": "physics-c12-225",
+   "type": "mcq",
+   "q": "A material whose resistance decreases as its temperature rises is",
+   "options": [
+    "copper",
+    "silver",
+    "nichrome",
+    "a semiconductor such as silicon"
+   ]
+  },
+  {
+   "id": "physics-c12-226",
+   "type": "mcq",
+   "q": "The SI unit of electron mobility is",
+   "options": [
+    "m/s",
+    "V/m",
+    "m² V^-1 s^-1",
+    "A/m²"
+   ]
+  },
+  {
+   "id": "physics-c12-227",
+   "type": "mcq",
+   "q": "A copper wire 100 m long and of cross-section 1 mm² has resistivity 1.7 × 10^-8 Ω m. Its resistance is",
+   "options": [
+    "1.7 Ω",
+    "17 Ω",
+    "0.17 Ω",
+    "170 Ω"
+   ]
+  },
+  {
+   "id": "physics-c12-228",
+   "type": "mcq",
+   "q": "A 1000 W heater is used for 3 hours every day for 30 days. The electrical energy consumed is",
+   "options": [
+    "30 kWh",
+    "90 kWh",
+    "9 kWh",
+    "900 kWh"
+   ]
+  },
+  {
+   "id": "physics-c12-229",
+   "type": "mcq",
+   "q": "Two cells of emf 2 V and 1 V, each of internal resistance 1 Ω, are joined in series with opposing polarities across an external resistor of 3 Ω. The current is",
+   "options": [
+    "0.2 A",
+    "0.6 A",
+    "1.0 A",
+    "0.33 A"
+   ]
+  },
+  {
+   "id": "physics-c12-230",
+   "type": "mcq",
+   "q": "A wire of resistance R is cut into four equal parts, and the four parts are connected in parallel. The equivalent resistance is",
+   "options": [
+    "R/4",
+    "4R",
+    "R/8",
+    "R/16"
+   ]
+  },
+  {
+   "id": "physics-c12-231",
+   "type": "short",
+   "q": "State Kirchhoff's two rules.",
+   "proposedAnswer": "Junction rule: the algebraic sum of currents meeting at a junction is zero, which expresses conservation of charge. Loop rule: the algebraic sum of potential differences around any closed loop is zero, which expresses conservation of energy.",
+   "keyPoints": [
+    "Junction rule: sum of currents at a node is zero (charge conservation)",
+    "Loop rule: sum of potential changes around a loop is zero (energy conservation)",
+    "Used for circuits that cannot be reduced by series and parallel rules"
+   ]
+  },
+  {
+   "id": "physics-c12-232",
+   "type": "short",
+   "q": "In a meter bridge an unknown resistance X is in the left gap and a 5 Ω resistance is in the right gap. The null point is found at 40 cm from the left end. Find X.",
+   "proposedAnswer": "X = 3.33 Ω (10/3 Ω).",
+   "keyPoints": [
+    "Balance condition X/5 = l/(100 - l)",
+    "= 40/60",
+    "X = 5 × 2/3 ≈ 3.33 Ω"
+   ]
+  },
+  {
+   "id": "physics-c12-233",
+   "type": "mcq",
+   "q": "The direction of the force on a current-carrying conductor in a magnetic field is given by",
+   "options": [
+    "the right-hand thumb rule",
+    "Fleming's left-hand rule",
+    "Lenz's law",
+    "Gauss's law"
+   ]
+  },
+  {
+   "id": "physics-c12-234",
+   "type": "mcq",
+   "q": "The magnetic field inside a long, tightly wound solenoid is",
+   "options": [
+    "uniform and parallel to its axis",
+    "zero",
+    "non-uniform and strongest at the ends",
+    "in circles around the axis"
+   ]
+  },
+  {
+   "id": "physics-c12-235",
+   "type": "mcq",
+   "q": "A wire 2 m long carrying 5 A is placed at 30° to a uniform magnetic field of 0.4 T. The force on it is",
+   "options": [
+    "4 N",
+    "1 N",
+    "2 N",
+    "0.5 N"
+   ]
+  },
+  {
+   "id": "physics-c12-236",
+   "type": "mcq",
+   "q": "A proton circles in a uniform magnetic field. If its kinetic energy is made four times as large, the radius of its path becomes",
+   "options": [
+    "the same",
+    "four times",
+    "√2 times",
+    "two times"
+   ]
+  },
+  {
+   "id": "physics-c12-237",
+   "type": "mcq",
+   "q": "In a velocity selector, crossed fields E = 2 × 10^4 V/m and B = 0.1 T are used. Particles passing undeflected have speed",
+   "options": [
+    "2 × 10^3 m/s",
+    "2 × 10^4 m/s",
+    "2 × 10^5 m/s",
+    "2 × 10^6 m/s"
+   ]
+  },
+  {
+   "id": "physics-c12-238",
+   "type": "mcq",
+   "q": "A wire of fixed length is bent into a circular coil of N turns instead of a single turn and carries the same current. The magnetic field at the centre increases by a factor of",
+   "options": [
+    "N",
+    "N²",
+    "1/N",
+    "N³"
+   ]
+  },
+  {
+   "id": "physics-c12-239",
+   "type": "short",
+   "q": "Write the expression for the Lorentz force on a charge q moving with velocity v in electric field E and magnetic field B, and state when the magnetic part vanishes.",
+   "proposedAnswer": "F = q(E + v × B). The magnetic part qv × B vanishes when v is zero or parallel (or anti-parallel) to B.",
+   "keyPoints": [
+    "F = qE + q(v × B)",
+    "Magnetic force magnitude qvB sinθ",
+    "Zero if the charge is at rest or moves along B"
+   ]
+  },
+  {
+   "id": "physics-c12-240",
+   "type": "short",
+   "q": "A toroid has 1000 turns and a mean radius of 10 cm and carries a current of 0.5 A. Find the magnetic field inside it (μ0 = 4π × 10^-7 T m/A).",
+   "proposedAnswer": "1 × 10^-3 T (1 mT).",
+   "keyPoints": [
+    "B = μ0NI/(2πr)",
+    "= 4π × 10^-7 × 1000 × 0.5/(2π × 0.1)",
+    "= 10^-3 T"
+   ]
+  },
+  {
+   "id": "physics-c12-241",
+   "type": "mcq",
+   "q": "The SI unit of magnetic permeability is",
+   "options": [
+    "T",
+    "A/m",
+    "T m/A",
+    "A"
+   ]
+  },
+  {
+   "id": "physics-c12-242",
+   "type": "mcq",
+   "q": "Which of the following is a paramagnetic substance?",
+   "options": [
+    "Bismuth",
+    "Copper",
+    "Water",
+    "Aluminium"
+   ]
+  },
+  {
+   "id": "physics-c12-243",
+   "type": "mcq",
+   "q": "A small bar magnet oscillates in a horizontal magnetic field. If the field strength is made four times as large, the time period of oscillation becomes",
+   "options": [
+    "twice",
+    "half",
+    "one-fourth",
+    "four times"
+   ]
+  },
+  {
+   "id": "physics-c12-244",
+   "type": "mcq",
+   "q": "At a point on the equatorial line of a bar magnet, the magnetic field is directed",
+   "options": [
+    "opposite to the magnetic moment",
+    "along the magnetic moment",
+    "perpendicular to the magnetic moment",
+    "zero"
+   ]
+  },
+  {
+   "id": "physics-c12-245",
+   "type": "mcq",
+   "q": "A thin bar magnet of magnetic moment M is bent into a semicircular arc. Its new magnetic moment is",
+   "options": [
+    "M",
+    "πM/2",
+    "M/2",
+    "2M/π"
+   ]
+  },
+  {
+   "id": "physics-c12-246",
+   "type": "mcq",
+   "q": "At a place the vertical component of the Earth's magnetic field is √3 times its horizontal component. The angle of dip is",
+   "options": [
+    "30°",
+    "45°",
+    "60°",
+    "90°"
+   ]
+  },
+  {
+   "id": "physics-c12-247",
+   "type": "short",
+   "q": "State Gauss's law for magnetism and state what it implies about magnetic monopoles.",
+   "proposedAnswer": "The net magnetic flux through any closed surface is zero. This implies that isolated magnetic monopoles do not exist, because magnetic field lines always form closed loops.",
+   "keyPoints": [
+    "Net magnetic flux through a closed surface = 0",
+    "Field lines are continuous closed loops",
+    "No isolated north or south poles"
+   ]
+  },
+  {
+   "id": "physics-c12-248",
+   "type": "short",
+   "q": "A bar magnet of moment 5 A m² lies at 30° to a uniform field of 0.25 T. Find the work done in rotating it to be perpendicular to the field.",
+   "proposedAnswer": "About 1.08 J.",
+   "keyPoints": [
+    "Work done = U_final - U_initial = MB(cos30° - cos90°)",
+    "= 5 × 0.25 × 0.866",
+    "≈ 1.08 J"
+   ]
+  },
+  {
+   "id": "physics-c12-249",
+   "type": "mcq",
+   "q": "Which of the following devices works on the principle of electromagnetic induction?",
+   "options": [
+    "AC generator",
+    "Electric motor",
+    "Moving coil galvanometer",
+    "Electrolytic cell"
+   ]
+  },
+  {
+   "id": "physics-c12-250",
+   "type": "mcq",
+   "q": "A bar magnet is held at rest near a stationary closed coil. The induced current in the coil is",
+   "options": [
+    "maximum",
+    "zero",
+    "dependent on the field strength alone",
+    "alternating"
+   ]
+  },
+  {
+   "id": "physics-c12-251",
+   "type": "mcq",
+   "q": "The mutual inductance of two coils is 0.5 H. If the current in one coil falls from 4 A to zero in 0.1 s, the emf induced in the other is",
+   "options": [
+    "2 V",
+    "200 V",
+    "5 V",
+    "20 V"
+   ]
+  },
+  {
+   "id": "physics-c12-252",
+   "type": "mcq",
+   "q": "A 20 mH inductor carries a current of 5 A. The energy stored in it is",
+   "options": [
+    "0.5 J",
+    "0.1 J",
+    "0.25 J",
+    "2.5 J"
+   ]
+  },
+  {
+   "id": "physics-c12-253",
+   "type": "mcq",
+   "q": "A conducting rod 0.5 m long moves at 10 m/s in a uniform field of 0.4 T. The velocity makes an angle of 30° with the field, and the rod is perpendicular to the plane containing the velocity and field. The emf induced across the rod is",
+   "options": [
+    "2 V",
+    "1 V",
+    "0.5 V",
+    "1.73 V"
+   ]
+  },
+  {
+   "id": "physics-c12-254",
+   "type": "mcq",
+   "q": "The north pole of a bar magnet is moved towards a closed circular coil. Viewed from the side of the magnet, the induced current in the coil is",
+   "options": [
+    "anticlockwise",
+    "clockwise",
+    "zero",
+    "alternating"
+   ]
+  },
+  {
+   "id": "physics-c12-255",
+   "type": "short",
+   "q": "State Lenz's law and explain why it is consistent with conservation of energy.",
+   "proposedAnswer": "The direction of an induced current is such that it opposes the change in flux that produced it. If it aided the change, the flux would keep growing, producing more current and energy without any work being done, which violates energy conservation.",
+   "keyPoints": [
+    "Induced current opposes the change in flux",
+    "Work must be done against the opposing effect",
+    "That work appears as electrical energy"
+   ]
+  },
+  {
+   "id": "physics-c12-256",
+   "type": "short",
+   "q": "A square coil of side 10 cm with 20 turns and resistance 5 Ω is placed with its plane perpendicular to a field of 0.5 T. The field falls uniformly to zero in 0.2 s. Find the induced emf, the current and the charge that flows.",
+   "proposedAnswer": "emf = 0.5 V; current = 0.1 A; charge = 0.02 C.",
+   "keyPoints": [
+    "ΔΦ = 0.5 × 0.01 = 5 × 10^-3 Wb per turn; emf = 20 × 5 × 10^-3/0.2 = 0.5 V",
+    "I = ε/R = 0.1 A",
+    "q = It = 0.1 × 0.2 = 0.02 C"
+   ]
+  },
+  {
+   "id": "physics-c12-257",
+   "type": "mcq",
+   "q": "The capacitive reactance of a capacitor varies with the frequency of the AC source as",
+   "options": [
+    "directly proportional to the frequency",
+    "independent of the frequency",
+    "proportional to the square of the frequency",
+    "inversely proportional to the frequency"
+   ]
+  },
+  {
+   "id": "physics-c12-258",
+   "type": "mcq",
+   "q": "Resonance occurs in a series LCR circuit when",
+   "options": [
+    "R = 0",
+    "L = C",
+    "X_L = X_C",
+    "the source voltage is zero"
+   ]
+  },
+  {
+   "id": "physics-c12-259",
+   "type": "mcq",
+   "q": "The current in an AC circuit is i = 4 sin(200πt) A. Its frequency is",
+   "options": [
+    "100 Hz",
+    "200 Hz",
+    "50 Hz",
+    "400 Hz"
+   ]
+  },
+  {
+   "id": "physics-c12-260",
+   "type": "mcq",
+   "q": "A series circuit has R = 8 Ω and impedance 10 Ω and carries 5 A rms. The average power consumed is",
+   "options": [
+    "250 W",
+    "200 W",
+    "125 W",
+    "160 W"
+   ]
+  },
+  {
+   "id": "physics-c12-261",
+   "type": "mcq",
+   "q": "An LC circuit has L = 1 mH and C = 10 μF. The frequency of its natural oscillations is closest to",
+   "options": [
+    "1.6 kHz",
+    "160 Hz",
+    "16 kHz",
+    "100 Hz"
+   ]
+  },
+  {
+   "id": "physics-c12-262",
+   "type": "mcq",
+   "q": "In a series circuit R = 6 Ω, X_L = 10 Ω and X_C = 2 Ω. The power factor is",
+   "options": [
+    "0.8",
+    "0.75",
+    "1.0",
+    "0.6"
+   ]
+  },
+  {
+   "id": "physics-c12-263",
+   "type": "short",
+   "q": "Why is electric power transmitted over long distances at high voltage?",
+   "proposedAnswer": "For a given power P = VI, a higher voltage means a smaller current. The power lost in the transmission lines is I²R, so a small current greatly reduces the loss. Transformers make it easy to step the voltage up for transmission and down for use.",
+   "keyPoints": [
+    "P = VI: higher V means lower I",
+    "Line loss = I²R falls sharply",
+    "AC allows easy voltage change with transformers"
+   ]
+  },
+  {
+   "id": "physics-c12-264",
+   "type": "short",
+   "q": "A 200 V rms AC source is connected to a series combination of R = 60 Ω and a capacitor with X_C = 80 Ω. Find the current and the rms voltages across R and across the capacitor.",
+   "proposedAnswer": "Current = 2 A; V_R = 120 V; V_C = 160 V.",
+   "keyPoints": [
+    "Z = √(60² + 80²) = 100 Ω",
+    "I = 200/100 = 2 A",
+    "V_R = 120 V, V_C = 160 V (and √(120² + 160²) = 200 V)"
+   ]
+  },
+  {
+   "id": "physics-c12-265",
+   "type": "mcq",
+   "q": "Which radiation is used in the remote control of a television?",
+   "options": [
+    "Ultraviolet",
+    "Infrared",
+    "X-rays",
+    "Radio waves"
+   ]
+  },
+  {
+   "id": "physics-c12-266",
+   "type": "mcq",
+   "q": "Electromagnetic waves are produced by",
+   "options": [
+    "accelerated charges",
+    "charges at rest",
+    "steady currents",
+    "static magnets"
+   ]
+  },
+  {
+   "id": "physics-c12-267",
+   "type": "mcq",
+   "q": "Which of the following lists the radiations in order of increasing wavelength?",
+   "options": [
+    "Radio waves, microwaves, infrared, visible light",
+    "Visible light, ultraviolet, X-rays, gamma rays",
+    "Gamma rays, X-rays, ultraviolet, infrared",
+    "Ultraviolet, X-rays, visible light, gamma rays"
+   ]
+  },
+  {
+   "id": "physics-c12-268",
+   "type": "mcq",
+   "q": "Sunlight takes about 500 s to reach the Earth. The Earth-Sun distance is about (c = 3 × 10^8 m/s)",
+   "options": [
+    "1.5 × 10^8 m",
+    "1.5 × 10^10 m",
+    "6 × 10^10 m",
+    "1.5 × 10^11 m"
+   ]
+  },
+  {
+   "id": "physics-c12-269",
+   "type": "mcq",
+   "q": "An electromagnetic wave in vacuum has electric field amplitude 100 V/m. Its average intensity is (ε0 = 8.85 × 10^-12 C²/N m², c = 3 × 10^8 m/s)",
+   "options": [
+    "1.33 W/m²",
+    "133 W/m²",
+    "13.3 W/m²",
+    "26.6 W/m²"
+   ]
+  },
+  {
+   "id": "physics-c12-270",
+   "type": "mcq",
+   "q": "Light of intensity 600 W/m² falls normally on a perfectly absorbing surface. The radiation pressure on it is (c = 3 × 10^8 m/s)",
+   "options": [
+    "1 × 10^-6 Pa",
+    "2 × 10^-6 Pa",
+    "4 × 10^-6 Pa",
+    "1.8 × 10^11 Pa"
+   ]
+  },
+  {
+   "id": "physics-c12-271",
+   "type": "short",
+   "q": "Name one use each of radio waves, microwaves and infrared waves.",
+   "proposedAnswer": "Radio waves are used for broadcasting and communication, microwaves for radar and cooking in ovens, and infrared waves for remote controls, thermal imaging and physiotherapy.",
+   "keyPoints": [
+    "Radio waves: broadcasting or communication",
+    "Microwaves: radar or microwave ovens",
+    "Infrared: remote controls or thermal imaging"
+   ]
+  },
+  {
+   "id": "physics-c12-272",
+   "type": "short",
+   "q": "Light of wavelength 5000 Å in vacuum enters water of refractive index 4/3. Find its frequency, speed and wavelength in water (c = 3 × 10^8 m/s).",
+   "proposedAnswer": "Frequency = 6 × 10^14 Hz (unchanged); speed = 2.25 × 10^8 m/s; wavelength = 3750 Å.",
+   "keyPoints": [
+    "f = c/λ = 3 × 10^8/5 × 10^-7 = 6 × 10^14 Hz and it does not change",
+    "v = c/n = 2.25 × 10^8 m/s",
+    "λ' = λ/n = 3750 Å"
+   ]
+  },
+  {
+   "id": "physics-c12-273",
+   "type": "mcq",
+   "q": "Which defect of vision is corrected by using a concave lens?",
+   "options": [
+    "Hypermetropia",
+    "Presbyopia",
+    "Myopia",
+    "Cataract"
+   ]
+  },
+  {
+   "id": "physics-c12-274",
+   "type": "mcq",
+   "q": "White light is dispersed by a glass prism because",
+   "options": [
+    "all colours have the same refractive index in glass",
+    "all colours reflect equally",
+    "the prism absorbs some colours",
+    "the refractive index of glass differs for different wavelengths"
+   ]
+  },
+  {
+   "id": "physics-c12-275",
+   "type": "mcq",
+   "q": "A double convex lens is made of glass of refractive index 1.5 with both faces of radius of curvature 20 cm. Its focal length in air is",
+   "options": [
+    "10 cm",
+    "20 cm",
+    "40 cm",
+    "30 cm"
+   ]
+  },
+  {
+   "id": "physics-c12-276",
+   "type": "mcq",
+   "q": "A convex mirror has a focal length of 20 cm. An object is placed 20 cm in front of it. The image is formed",
+   "options": [
+    "10 cm behind the mirror",
+    "20 cm behind the mirror",
+    "10 cm in front of the mirror",
+    "40 cm behind the mirror"
+   ]
+  },
+  {
+   "id": "physics-c12-277",
+   "type": "mcq",
+   "q": "Light passes from glass (refractive index 1.5) into water (refractive index 4/3). The critical angle for total internal reflection at this interface satisfies sin C =",
+   "options": [
+    "2/3",
+    "3/4",
+    "9/8",
+    "8/9"
+   ]
+  },
+  {
+   "id": "physics-c12-278",
+   "type": "mcq",
+   "q": "A glass convex lens is immersed in a liquid whose refractive index equals that of the glass. The lens then",
+   "options": [
+    "has a shorter focal length",
+    "has a negative focal length",
+    "behaves as a plain glass plate with infinite focal length",
+    "is unaffected"
+   ]
+  },
+  {
+   "id": "physics-c12-279",
+   "type": "short",
+   "q": "Two thin convex lenses of powers +4 D and +6 D are placed in contact. Find the combined power and focal length.",
+   "proposedAnswer": "Power = +10 D; focal length = 0.1 m = 10 cm.",
+   "keyPoints": [
+    "Powers add in contact: P = P1 + P2",
+    "= 4 + 6 = +10 D",
+    "f = 1/P = 0.1 m"
+   ]
+  },
+  {
+   "id": "physics-c12-280",
+   "type": "short",
+   "q": "A compound microscope has an objective of focal length 2 cm and an eyepiece of focal length 5 cm, with a tube length (separation) of 20 cm. Find its magnifying power for the final image at infinity (D = 25 cm).",
+   "proposedAnswer": "50.",
+   "keyPoints": [
+    "M = (L/fo)(D/fe)",
+    "= (20/2)(25/5)",
+    "= 10 × 5 = 50"
+   ]
+  },
+  {
+   "id": "physics-c12-281",
+   "type": "mcq",
+   "q": "When light passes from air into glass, which of its properties remains unchanged?",
+   "options": [
+    "Frequency",
+    "Wavelength",
+    "Speed",
+    "Amplitude"
+   ]
+  },
+  {
+   "id": "physics-c12-282",
+   "type": "mcq",
+   "q": "Which of the following can be polarised?",
+   "options": [
+    "Sound waves in air",
+    "Light waves",
+    "Ultrasonic waves in water",
+    "Longitudinal waves in a spring"
+   ]
+  },
+  {
+   "id": "physics-c12-283",
+   "type": "mcq",
+   "q": "In a double slit experiment the fringe width becomes twice as large when",
+   "options": [
+    "the slit separation is doubled",
+    "the wavelength is halved",
+    "the apparatus is placed in water",
+    "the distance to the screen is doubled"
+   ]
+  },
+  {
+   "id": "physics-c12-284",
+   "type": "mcq",
+   "q": "Plane polarised light of intensity I0 falls on an analyser whose axis makes 45° with the plane of polarisation. The transmitted intensity is",
+   "options": [
+    "I0",
+    "I0/4",
+    "I0/2",
+    "zero"
+   ]
+  },
+  {
+   "id": "physics-c12-285",
+   "type": "mcq",
+   "q": "In a double slit experiment light of wavelengths 400 nm and 600 nm is used together. The smallest non-zero path difference at which bright fringes of both wavelengths coincide is",
+   "options": [
+    "600 nm",
+    "1200 nm",
+    "2400 nm",
+    "400 nm"
+   ]
+  },
+  {
+   "id": "physics-c12-286",
+   "type": "mcq",
+   "q": "Two coherent sources have intensities in the ratio 9 : 1. The ratio of maximum to minimum intensity in the interference pattern is",
+   "options": [
+    "4 : 1",
+    "9 : 1",
+    "16 : 1",
+    "2 : 1"
+   ]
+  },
+  {
+   "id": "physics-c12-287",
+   "type": "short",
+   "q": "What is a wavefront? State Huygens' principle.",
+   "proposedAnswer": "A wavefront is a surface on which all points oscillate in the same phase. According to Huygens' principle each point of a wavefront acts as a source of secondary spherical wavelets, and the new wavefront at a later time is the surface tangent to these wavelets.",
+   "keyPoints": [
+    "Wavefront: locus of points in the same phase",
+    "Each point is a source of secondary wavelets",
+    "New wavefront is the common tangent to the wavelets"
+   ]
+  },
+  {
+   "id": "physics-c12-288",
+   "type": "short",
+   "q": "Light of wavelength 600 nm falls on a single slit of width 0.1 mm. Find the angular position of the first minimum and its distance from the centre of a screen 2 m away.",
+   "proposedAnswer": "Angle = 6 × 10^-3 rad (about 0.34°); distance = 12 mm.",
+   "keyPoints": [
+    "First minimum: a sinθ = λ",
+    "θ ≈ λ/a = 6 × 10^-7/10^-4 = 6 × 10^-3 rad",
+    "y = Dθ = 2 × 6 × 10^-3 = 12 mm"
+   ]
+  },
+  {
+   "id": "physics-c12-289",
+   "type": "mcq",
+   "q": "Which observation cannot be explained by the wave theory of light?",
+   "options": [
+    "Interference in thin films",
+    "Diffraction at a slit",
+    "Polarisation by a polaroid",
+    "Emission of photoelectrons with no time delay even at very low intensity"
+   ]
+  },
+  {
+   "id": "physics-c12-290",
+   "type": "mcq",
+   "q": "The wave associated with a moving electron is called a",
+   "options": [
+    "electromagnetic wave",
+    "longitudinal sound wave",
+    "de Broglie (matter) wave",
+    "mechanical wave in the ether"
+   ]
+  },
+  {
+   "id": "physics-c12-291",
+   "type": "mcq",
+   "q": "Light of frequency 2f0, where f0 is the threshold frequency, falls on a metal. The maximum kinetic energy of the photoelectrons is",
+   "options": [
+    "hf0",
+    "2hf0",
+    "3hf0",
+    "zero"
+   ]
+  },
+  {
+   "id": "physics-c12-292",
+   "type": "mcq",
+   "q": "A photon has energy 3.315 × 10^-19 J. Its frequency is (h = 6.63 × 10^-34 J s)",
+   "options": [
+    "5 × 10^13 Hz",
+    "5 × 10^14 Hz",
+    "5 × 10^15 Hz",
+    "2 × 10^14 Hz"
+   ]
+  },
+  {
+   "id": "physics-c12-293",
+   "type": "mcq",
+   "q": "A source emits 6.63 W of monochromatic light of wavelength 600 nm, all of it carried by photons. The number of photons emitted per second is (h = 6.63 × 10^-34 J s, c = 3 × 10^8 m/s)",
+   "options": [
+    "2 × 10^19",
+    "2 × 10^18",
+    "2 × 10^20",
+    "1.2 × 10^19"
+   ]
+  },
+  {
+   "id": "physics-c12-294",
+   "type": "mcq",
+   "q": "Using the relation λ(Å) = 12.27/√V for an electron accelerated through V volts, the de Broglie wavelength of an electron accelerated through 25 V is",
+   "options": [
+    "0.49 Å",
+    "24.5 Å",
+    "4.9 Å",
+    "2.45 Å"
+   ]
+  },
+  {
+   "id": "physics-c12-295",
+   "type": "short",
+   "q": "Define work function and stopping potential.",
+   "proposedAnswer": "The work function is the minimum energy needed to remove an electron from the surface of a metal. The stopping potential is the minimum negative potential on the collector that just stops the most energetic photoelectrons, so that eV0 = K_max.",
+   "keyPoints": [
+    "Work function: minimum energy to free an electron from the metal",
+    "Stopping potential: retarding potential that makes photocurrent zero",
+    "eV0 = K_max"
+   ]
+  },
+  {
+   "id": "physics-c12-296",
+   "type": "short",
+   "q": "Photoelectrons are emitted with a maximum kinetic energy of 2 eV. Find the stopping potential and the maximum speed of the electrons (m = 9.1 × 10^-31 kg, e = 1.6 × 10^-19 C).",
+   "proposedAnswer": "Stopping potential = 2 V; maximum speed ≈ 8.4 × 10^5 m/s.",
+   "keyPoints": [
+    "eV0 = K_max so V0 = 2 V",
+    "K_max = 2 × 1.6 × 10^-19 = 3.2 × 10^-19 J",
+    "v = √(2K/m) ≈ 8.4 × 10^5 m/s"
+   ]
+  },
+  {
+   "id": "physics-c12-297",
+   "type": "mcq",
+   "q": "According to Bohr's postulate, the angular momentum of an electron in a stationary orbit is",
+   "options": [
+    "nh",
+    "nh/2π",
+    "n²h",
+    "h/n"
+   ]
+  },
+  {
+   "id": "physics-c12-298",
+   "type": "mcq",
+   "q": "The force that holds nucleons together in a nucleus is the",
+   "options": [
+    "strong nuclear force, which has a short range",
+    "electrostatic force",
+    "long-range gravitational force",
+    "magnetic force between spins"
+   ]
+  },
+  {
+   "id": "physics-c12-299",
+   "type": "mcq",
+   "q": "Taking hc = 1240 eV nm, the shortest wavelength in the Lyman series of hydrogen (ionisation from n = 1) is closest to",
+   "options": [
+    "912 nm",
+    "122 nm",
+    "91 nm",
+    "656 nm"
+   ]
+  },
+  {
+   "id": "physics-c12-300",
+   "type": "mcq",
+   "q": "A sample contains 4 × 10^6 radioactive nuclei with a decay constant of 2 × 10^-3 s^-1. Its activity is",
+   "options": [
+    "2 × 10^9 Bq",
+    "8 × 10^6 Bq",
+    "8 × 10^2 Bq",
+    "8 × 10^3 Bq"
+   ]
+  },
+  {
+   "id": "physics-c12-301",
+   "type": "mcq",
+   "q": "Two deuterium nuclei fuse into helium-4. Given atomic masses: deuterium 2.0141 u and helium-4 4.0026 u, with 1 u = 931.5 MeV/c², the energy released is closest to",
+   "options": [
+    "2.4 MeV",
+    "12 MeV",
+    "24 MeV",
+    "48 MeV"
+   ]
+  },
+  {
+   "id": "physics-c12-302",
+   "type": "mcq",
+   "q": "In the Bohr model of hydrogen the speed of the electron in the n = 1 orbit compared with the n = 3 orbit is",
+   "options": [
+    "1/3 as large",
+    "3 times as large",
+    "9 times as large",
+    "1/9 as large"
+   ]
+  },
+  {
+   "id": "physics-c12-303",
+   "type": "short",
+   "q": "Define half-life and decay constant, and state the relation between them.",
+   "proposedAnswer": "Half-life is the time in which half of the radioactive nuclei in a sample decay. The decay constant is the probability per unit time that a nucleus decays (the fractional decay rate). They are related by T½ = 0.693/λ.",
+   "keyPoints": [
+    "Half-life: time for half the nuclei to decay",
+    "Decay constant λ: decay probability per unit time",
+    "T½ = ln 2/λ = 0.693/λ"
+   ]
+  },
+  {
+   "id": "physics-c12-304",
+   "type": "short",
+   "q": "Using the Rydberg constant R = 1.097 × 10^7 m^-1, find the wavelength of the first line of the Balmer series of hydrogen (n = 3 to n = 2).",
+   "proposedAnswer": "About 656 nm (6.56 × 10^-7 m).",
+   "keyPoints": [
+    "1/λ = R(1/2² - 1/3²)",
+    "= 1.097 × 10^7 × 5/36 = 1.524 × 10^6 m^-1",
+    "λ ≈ 6.56 × 10^-7 m"
+   ]
+  },
+  {
+   "id": "physics-c12-305",
+   "type": "mcq",
+   "q": "The energy gap of silicon is about",
+   "options": [
+    "0.01 eV",
+    "6 eV",
+    "1.1 eV",
+    "11 eV"
+   ]
+  },
+  {
+   "id": "physics-c12-306",
+   "type": "mcq",
+   "q": "A p-n junction diode is forward biased when the p-side is connected to the",
+   "options": [
+    "negative terminal of the battery",
+    "ground only",
+    "either terminal",
+    "positive terminal of the battery"
+   ]
+  },
+  {
+   "id": "physics-c12-307",
+   "type": "mcq",
+   "q": "An n-type semiconductor is",
+   "options": [
+    "negatively charged",
+    "electrically neutral",
+    "positively charged",
+    "charged, depending on the dopant"
+   ]
+  },
+  {
+   "id": "physics-c12-308",
+   "type": "mcq",
+   "q": "The output of a NAND gate is 0 when",
+   "options": [
+    "both inputs are 1",
+    "both inputs are 0",
+    "exactly one input is 1",
+    "at least one input is 0"
+   ]
+  },
+  {
+   "id": "physics-c12-309",
+   "type": "mcq",
+   "q": "In a common-emitter transistor amplifier, the phase difference between the output and input voltages is",
+   "options": [
+    "0°",
+    "90°",
+    "45°",
+    "180°"
+   ]
+  },
+  {
+   "id": "physics-c12-310",
+   "type": "mcq",
+   "q": "A photodiode is normally operated in",
+   "options": [
+    "forward bias",
+    "the unbiased state only",
+    "reverse bias",
+    "forward bias above the knee voltage"
+   ]
+  },
+  {
+   "id": "physics-c12-311",
+   "type": "short",
+   "q": "Explain briefly how a light emitting diode (LED) emits light.",
+   "proposedAnswer": "An LED is a forward-biased p-n junction. Electrons from the n-side and holes from the p-side cross the junction and recombine, and the energy released at recombination (approximately the band-gap energy) is emitted as photons.",
+   "keyPoints": [
+    "Operated in forward bias",
+    "Electrons and holes recombine near the junction",
+    "Energy released is emitted as light"
+   ]
+  },
+  {
+   "id": "physics-c12-312",
+   "type": "short",
+   "q": "In a common-emitter transistor circuit β = 100 and the base current is 20 μA. Find the collector current, the emitter current and the current gain α.",
+   "proposedAnswer": "Collector current = 2 mA; emitter current = 2.02 mA; α ≈ 0.99.",
+   "keyPoints": [
+    "IC = βIB = 100 × 20 μA = 2 mA",
+    "IE = IB + IC = 2.02 mA",
+    "α = IC/IE = β/(1 + β) ≈ 0.990"
+   ]
+  },
+  {
+   "id": "physics-c12-313",
+   "type": "mcq",
+   "q": "When a glass rod is rubbed with silk, the rod becomes positively charged because",
+   "options": [
+    "electrons move from the silk to the glass",
+    "electrons move from the glass to the silk",
+    "protons move from the glass to the silk",
+    "protons move from the silk to the glass"
+   ]
+  },
+  {
+   "id": "physics-c12-314",
+   "type": "mcq",
+   "q": "The electrostatic force between two point charges placed in a medium of dielectric constant K, compared with that in vacuum at the same separation, is",
+   "options": [
+    "K times larger",
+    "unchanged",
+    "K² times larger",
+    "K times smaller"
+   ]
+  },
+  {
+   "id": "physics-c12-315",
+   "type": "mcq",
+   "q": "An electron is placed in a uniform electric field of 2 × 10^4 N/C. The magnitude of the force on it is (e = 1.6 × 10^-19 C)",
+   "options": [
+    "3.2 × 10^-15 N",
+    "3.2 × 10^-23 N",
+    "1.6 × 10^-15 N",
+    "6.4 × 10^-15 N"
+   ]
+  },
+  {
+   "id": "physics-c12-316",
+   "type": "mcq",
+   "q": "A closed surface encloses a charge of 17.7 nC. The net electric flux through it is (ε0 = 8.85 × 10^-12 C²/N m²)",
+   "options": [
+    "200 N m²/C",
+    "20000 N m²/C",
+    "2000 N m²/C",
+    "0.002 N m²/C"
+   ]
+  },
+  {
+   "id": "physics-c12-317",
+   "type": "mcq",
+   "q": "A total charge Q is divided into two parts q and (Q - q) which are then separated by a fixed distance. The force between them is greatest when q equals",
+   "options": [
+    "Q/4",
+    "Q/3",
+    "Q/2",
+    "2Q/3"
+   ]
+  },
+  {
+   "id": "physics-c12-318",
+   "type": "mcq",
+   "q": "The electric field inside the cavity of a charged hollow conducting sphere (with no charge in the cavity) is zero because",
+   "options": [
+    "a Gaussian surface in the cavity encloses no charge and all the charge lies on the outer surface",
+    "the charges cancel pairwise at every point inside",
+    "the walls absorb the field",
+    "field lines are bent around the cavity"
+   ]
+  },
+  {
+   "id": "physics-c12-319",
+   "type": "short",
+   "q": "Find the force between charges +4 μC and -5 μC placed 0.3 m apart in air (k = 9 × 10^9 N m²/C²). State whether it is attractive or repulsive.",
+   "proposedAnswer": "2 N, attractive.",
+   "keyPoints": [
+    "F = k|q1q2|/r²",
+    "= 9 × 10^9 × 20 × 10^-12/0.09",
+    "= 2 N; unlike charges attract"
+   ]
+  },
+  {
+   "id": "physics-c12-320",
+   "type": "short",
+   "q": "Charges +2 μC and -2 μC are 20 cm apart in air. Find the electric field at the midpoint of the line joining them (k = 9 × 10^9 N m²/C²).",
+   "proposedAnswer": "3.6 × 10^6 N/C, directed from the positive towards the negative charge.",
+   "keyPoints": [
+    "Each charge is 0.1 m away and gives kq/r² = 1.8 × 10^6 N/C",
+    "Both fields point the same way (towards the negative charge)",
+    "Net E = 2 × 1.8 × 10^6 = 3.6 × 10^6 N/C"
+   ]
+  },
+  {
+   "id": "physics-c12-321",
+   "type": "mcq",
+   "q": "The energy stored per unit volume in an electric field E in vacuum is",
+   "options": [
+    "ε0E²",
+    "E²/(2ε0)",
+    "2ε0E²",
+    "½ε0E²"
+   ]
+  },
+  {
+   "id": "physics-c12-322",
+   "type": "mcq",
+   "q": "The electric field is directed",
+   "options": [
+    "from low to high potential",
+    "from high to low potential",
+    "along an equipotential surface",
+    "in random directions"
+   ]
+  },
+  {
+   "id": "physics-c12-323",
+   "type": "mcq",
+   "q": "A 5 μF capacitor holds a charge of 2.5 × 10^-4 C. The potential difference across it is",
+   "options": [
+    "12.5 V",
+    "500 V",
+    "50 V",
+    "5 V"
+   ]
+  },
+  {
+   "id": "physics-c12-324",
+   "type": "mcq",
+   "q": "The electric potential at 0.3 m from a point charge of -6 μC is (k = 9 × 10^9 N m²/C²)",
+   "options": [
+    "-1.8 × 10^5 V",
+    "+1.8 × 10^5 V",
+    "-1.8 × 10^4 V",
+    "-5.4 × 10^4 V"
+   ]
+  },
+  {
+   "id": "physics-c12-325",
+   "type": "mcq",
+   "q": "A parallel plate capacitor is charged and disconnected from the battery. The plates are then pulled apart to double their separation. The stored energy",
+   "options": [
+    "doubles",
+    "halves",
+    "stays the same",
+    "becomes four times"
+   ]
+  },
+  {
+   "id": "physics-c12-326",
+   "type": "mcq",
+   "q": "Two identical capacitors of capacitance C are joined in parallel, and this pair is joined in series with a third identical capacitor. The equivalent capacitance is",
+   "options": [
+    "3C",
+    "C/3",
+    "3C/2",
+    "2C/3"
+   ]
+  },
+  {
+   "id": "physics-c12-327",
+   "type": "short",
+   "q": "Find the energy stored in a 2 μF capacitor charged to 200 V.",
+   "proposedAnswer": "0.04 J.",
+   "keyPoints": [
+    "U = ½CV²",
+    "= 0.5 × 2 × 10^-6 × 4 × 10^4",
+    "= 0.04 J"
+   ]
+  },
+  {
+   "id": "physics-c12-328",
+   "type": "short",
+   "q": "Point A is at a potential of +30 V and point B at -20 V. How much work does the electric field do in moving a charge of +5 μC from A to B?",
+   "proposedAnswer": "2.5 × 10^-4 J, positive work done by the field.",
+   "keyPoints": [
+    "W = q(V_A - V_B)",
+    "= 5 × 10^-6 × 50",
+    "= 2.5 × 10^-4 J"
+   ]
+  },
+  {
+   "id": "physics-c12-329",
+   "type": "mcq",
+   "q": "Electric current is the rate of flow of",
+   "options": [
+    "energy",
+    "voltage",
+    "charge",
+    "power"
+   ]
+  },
+  {
+   "id": "physics-c12-330",
+   "type": "mcq",
+   "q": "Which of the following does not obey Ohm's law?",
+   "options": [
+    "A p-n junction diode",
+    "A copper wire at constant temperature",
+    "A nichrome wire at constant temperature",
+    "A silver wire at constant temperature"
+   ]
+  },
+  {
+   "id": "physics-c12-331",
+   "type": "mcq",
+   "q": "Three identical 6 Ω resistors can be combined to give a total of 9 Ω by connecting",
+   "options": [
+    "all three in parallel",
+    "all three in series",
+    "two in series and this pair in parallel with the third",
+    "two in parallel and this pair in series with the third"
+   ]
+  },
+  {
+   "id": "physics-c12-332",
+   "type": "mcq",
+   "q": "A current of 0.5 A flows for 10 minutes. The charge that passes is",
+   "options": [
+    "5 C",
+    "300 C",
+    "30 C",
+    "3000 C"
+   ]
+  },
+  {
+   "id": "physics-c12-333",
+   "type": "mcq",
+   "q": "A battery of emf 6 V and internal resistance 1 Ω is connected to a variable load. The maximum power that can be delivered to the load is",
+   "options": [
+    "36 W",
+    "18 W",
+    "6 W",
+    "9 W"
+   ]
+  },
+  {
+   "id": "physics-c12-334",
+   "type": "mcq",
+   "q": "Two wires of the same material have lengths in the ratio 1 : 2 and radii in the ratio 1 : 2. The ratio of their resistances R1 : R2 is",
+   "options": [
+    "1 : 2",
+    "2 : 1",
+    "1 : 1",
+    "4 : 1"
+   ]
+  },
+  {
+   "id": "physics-c12-335",
+   "type": "short",
+   "q": "Distinguish between the emf of a cell and its terminal voltage.",
+   "proposedAnswer": "The emf is the potential difference between the terminals when no current is drawn (open circuit). The terminal voltage is the potential difference when current I flows, and equals ε - Ir, so it is less than the emf while the cell is delivering current.",
+   "keyPoints": [
+    "emf is the open-circuit potential difference",
+    "Terminal voltage V = ε - Ir during discharge",
+    "V equals ε only when I = 0"
+   ]
+  },
+  {
+   "id": "physics-c12-336",
+   "type": "short",
+   "q": "Four identical cells, each of emf 1.5 V and internal resistance 0.5 Ω, supply a 4 Ω resistor. Find the current when the cells are connected (a) in series and (b) in parallel.",
+   "proposedAnswer": "(a) 1 A; (b) about 0.36 A.",
+   "keyPoints": [
+    "Series: ε = 6 V, r = 2 Ω so I = 6/(4 + 2) = 1 A",
+    "Parallel: ε = 1.5 V, r = 0.125 Ω",
+    "I = 1.5/4.125 ≈ 0.36 A"
+   ]
+  },
+  {
+   "id": "physics-c12-337",
+   "type": "mcq",
+   "q": "Two long parallel wires carry currents in opposite directions. They",
+   "options": [
+    "repel each other",
+    "attract each other",
+    "exert no force on each other",
+    "rotate about each other"
+   ]
+  },
+  {
+   "id": "physics-c12-338",
+   "type": "mcq",
+   "q": "A device used to accelerate charged particles to high energies using a magnetic field and an alternating electric field is the",
+   "options": [
+    "galvanometer",
+    "transformer",
+    "cyclotron",
+    "generator"
+   ]
+  },
+  {
+   "id": "physics-c12-339",
+   "type": "mcq",
+   "q": "A circular loop of radius 0.1 m carries a current of 2 A. Its magnetic moment is",
+   "options": [
+    "6.28 A m²",
+    "6.28 × 10^-2 A m²",
+    "0.2 A m²",
+    "3.14 A m²"
+   ]
+  },
+  {
+   "id": "physics-c12-340",
+   "type": "mcq",
+   "q": "The magnetic field at the centre of a semicircular wire of radius R carrying current I is",
+   "options": [
+    "μ0I/(2R)",
+    "μ0I/(2πR)",
+    "μ0I/R",
+    "μ0I/(4R)"
+   ]
+  },
+  {
+   "id": "physics-c12-341",
+   "type": "mcq",
+   "q": "A proton and a deuteron (same charge, twice the mass) enter the same uniform magnetic field with the same speed, perpendicular to it. The ratio of the radii of their paths r_p : r_d is",
+   "options": [
+    "2 : 1",
+    "1 : 2",
+    "1 : 1",
+    "1 : 4"
+   ]
+  },
+  {
+   "id": "physics-c12-342",
+   "type": "mcq",
+   "q": "A cyclotron with a magnetic field of 1 T and dee radius 0.5 m accelerates protons. The maximum kinetic energy is closest to (e = 1.6 × 10^-19 C, m = 1.67 × 10^-27 kg)",
+   "options": [
+    "6 MeV",
+    "24 MeV",
+    "12 MeV",
+    "1.2 MeV"
+   ]
+  },
+  {
+   "id": "physics-c12-343",
+   "type": "short",
+   "q": "Two long parallel wires 0.2 m apart carry currents of 4 A and 5 A in the same direction. Find the force per unit length between them (μ0/4π = 10^-7 T m/A).",
+   "proposedAnswer": "2 × 10^-5 N/m, attractive.",
+   "keyPoints": [
+    "F/L = μ0I1I2/(2πd)",
+    "= 2 × 10^-7 × 20/0.2",
+    "= 2 × 10^-5 N/m; parallel currents attract"
+   ]
+  },
+  {
+   "id": "physics-c12-344",
+   "type": "short",
+   "q": "An electron moves at 2 × 10^6 m/s at 60° to a uniform magnetic field of 0.01 T. Find the pitch of its helical path (m = 9.1 × 10^-31 kg, e = 1.6 × 10^-19 C).",
+   "proposedAnswer": "About 3.6 mm.",
+   "keyPoints": [
+    "Component along B: v∥ = v cos60° = 10^6 m/s",
+    "Period T = 2πm/(eB) ≈ 3.57 × 10^-9 s",
+    "Pitch = v∥T ≈ 3.6 × 10^-3 m"
+   ]
+  },
+  {
+   "id": "physics-c12-345",
+   "type": "mcq",
+   "q": "The magnetic susceptibility of a diamagnetic substance is",
+   "options": [
+    "large and positive",
+    "small and positive",
+    "zero",
+    "small and negative"
+   ]
+  },
+  {
+   "id": "physics-c12-346",
+   "type": "mcq",
+   "q": "A material suitable for making a permanent magnet should have",
+   "options": [
+    "high retentivity and low coercivity",
+    "high retentivity and high coercivity",
+    "low retentivity and low coercivity",
+    "low retentivity and high coercivity"
+   ]
+  },
+  {
+   "id": "physics-c12-347",
+   "type": "mcq",
+   "q": "A material has H = 1000 A/m and magnetisation M = 3000 A/m. Taking μ0 = 4π × 10^-7 T m/A, the magnetic field B is",
+   "options": [
+    "5.0 × 10^-3 T",
+    "1.26 × 10^-3 T",
+    "3.8 × 10^-3 T",
+    "5.0 T"
+   ]
+  },
+  {
+   "id": "physics-c12-348",
+   "type": "mcq",
+   "q": "If the distance from a short bar magnet along its axis is doubled, the axial magnetic field becomes",
+   "options": [
+    "half",
+    "one-fourth",
+    "one-eighth",
+    "one-sixteenth"
+   ]
+  },
+  {
+   "id": "physics-c12-349",
+   "type": "mcq",
+   "q": "A compass needle that can rotate freely only in a horizontal plane is placed at a magnetic pole of the Earth. It",
+   "options": [
+    "points to geographic north",
+    "points east",
+    "can rest in any direction because the horizontal field is zero",
+    "points vertically"
+   ]
+  },
+  {
+   "id": "physics-c12-350",
+   "type": "mcq",
+   "q": "The magnetic susceptibility of a superconductor, which behaves as a perfect diamagnet, is",
+   "options": [
+    "0",
+    "+1",
+    "large and positive",
+    "-1"
+   ]
+  },
+  {
+   "id": "physics-c12-351",
+   "type": "short",
+   "q": "Define magnetic susceptibility and relative permeability and give the relation between them.",
+   "proposedAnswer": "Magnetic susceptibility χ is the ratio of the magnetisation to the magnetising field, χ = M/H. Relative permeability μr is the ratio μ/μ0 = B/(μ0H). They are related by μr = 1 + χ.",
+   "keyPoints": [
+    "χ = M/H",
+    "μr = μ/μ0",
+    "μr = 1 + χ"
+   ]
+  },
+  {
+   "id": "physics-c12-352",
+   "type": "short",
+   "q": "A small bar magnet of moment of inertia 2 × 10^-5 kg m² and magnetic moment 0.5 A m² oscillates in a field of 0.4 T. Find its time period for small oscillations.",
+   "proposedAnswer": "About 0.063 s.",
+   "keyPoints": [
+    "T = 2π√(I/MB)",
+    "I/MB = 2 × 10^-5/(0.5 × 0.4) = 10^-4",
+    "T = 2π × 0.01 ≈ 0.063 s"
+   ]
+  },
+  {
+   "id": "physics-c12-353",
+   "type": "mcq",
+   "q": "The emf induced in a rotating coil in a uniform magnetic field is maximum when the plane of the coil is",
+   "options": [
+    "perpendicular to the field",
+    "parallel to the field",
+    "at 45° to the field",
+    "stationary"
+   ]
+  },
+  {
+   "id": "physics-c12-354",
+   "type": "mcq",
+   "q": "Eddy current losses in a transformer core are reduced by",
+   "options": [
+    "using a solid iron core",
+    "making the core thicker",
+    "using a very conducting core",
+    "laminating the core"
+   ]
+  },
+  {
+   "id": "physics-c12-355",
+   "type": "mcq",
+   "q": "The flux linked with a coil is Φ = (2t² + 3t) Wb, with t in seconds. The induced emf at t = 2 s is",
+   "options": [
+    "8 V",
+    "14 V",
+    "11 V",
+    "7 V"
+   ]
+  },
+  {
+   "id": "physics-c12-356",
+   "type": "mcq",
+   "q": "A long solenoid has 1000 turns, cross-sectional area 2 × 10^-4 m² and length 0.5 m. Its self-inductance is (μ0 = 4π × 10^-7 T m/A)",
+   "options": [
+    "5.0 × 10^-4 H",
+    "5.0 × 10^-3 H",
+    "1.0 × 10^-4 H",
+    "2.5 × 10^-2 H"
+   ]
+  },
+  {
+   "id": "physics-c12-357",
+   "type": "mcq",
+   "q": "The energy density of the magnetic field in a region where B = 0.1 T (in air, μ0 = 4π × 10^-7 T m/A) is closest to",
+   "options": [
+    "4 × 10^3 J/m³",
+    "4 × 10^4 J/m³",
+    "8 × 10^3 J/m³",
+    "400 J/m³"
+   ]
+  },
+  {
+   "id": "physics-c12-358",
+   "type": "mcq",
+   "q": "A rod 0.5 m long slides at 2 m/s on frictionless rails in a perpendicular field of 0.4 T. The circuit has a total resistance of 0.4 Ω. The external force needed to keep the speed constant is",
+   "options": [
+    "0.4 N",
+    "0.2 N",
+    "0.1 N",
+    "0.8 N"
+   ]
+  },
+  {
+   "id": "physics-c12-359",
+   "type": "short",
+   "q": "Distinguish between self-inductance and mutual inductance.",
+   "proposedAnswer": "Self-inductance relates the emf induced in a coil to the changing current in that same coil, ε = -L dI/dt. Mutual inductance relates the emf induced in one coil to the changing current in a neighbouring coil, ε2 = -M dI1/dt. Both are measured in henry.",
+   "keyPoints": [
+    "Self: induced in the same coil by its own current change",
+    "Mutual: induced in a second coil by the first coil's current change",
+    "Both measured in henry"
+   ]
+  },
+  {
+   "id": "physics-c12-360",
+   "type": "short",
+   "q": "An aircraft wing of span 30 m flies horizontally at 250 m/s where the vertical component of the Earth's field is 5 × 10^-5 T. Find the emf induced between the wing tips.",
+   "proposedAnswer": "0.375 V.",
+   "keyPoints": [
+    "ε = B_V l v",
+    "= 5 × 10^-5 × 30 × 250",
+    "= 0.375 V"
+   ]
+  },
+  {
+   "id": "physics-c12-361",
+   "type": "mcq",
+   "q": "A transformer works on the principle of",
+   "options": [
+    "electrostatic induction",
+    "self-induction only",
+    "mutual induction",
+    "Joule heating"
+   ]
+  },
+  {
+   "id": "physics-c12-362",
+   "type": "mcq",
+   "q": "A step-up transformer has",
+   "options": [
+    "more turns in the secondary than in the primary",
+    "equal turns in both coils",
+    "fewer turns in the secondary than in the primary",
+    "a direct current in the primary"
+   ]
+  },
+  {
+   "id": "physics-c12-363",
+   "type": "mcq",
+   "q": "The rms value of mains voltage is 220 V. Its peak value is closest to",
+   "options": [
+    "155 V",
+    "220 V",
+    "440 V",
+    "311 V"
+   ]
+  },
+  {
+   "id": "physics-c12-364",
+   "type": "mcq",
+   "q": "The average value of a sinusoidal alternating current over one full cycle is",
+   "options": [
+    "I0",
+    "zero",
+    "I0/√2",
+    "2I0/π"
+   ]
+  },
+  {
+   "id": "physics-c12-365",
+   "type": "mcq",
+   "q": "A 220 V, 50 Hz supply is applied across a resistor of 100 Ω in series with an inductor of (1/π) H. The phase angle between voltage and current is",
+   "options": [
+    "90°",
+    "30°",
+    "60°",
+    "45° (current lagging)"
+   ]
+  },
+  {
+   "id": "physics-c12-366",
+   "type": "mcq",
+   "q": "A series LCR circuit is driven at a frequency below its resonant frequency. The circuit behaves as",
+   "options": [
+    "a purely inductive circuit",
+    "a purely resistive circuit",
+    "a capacitive circuit",
+    "a short circuit"
+   ]
+  },
+  {
+   "id": "physics-c12-367",
+   "type": "short",
+   "q": "Define the rms value of an alternating current and state its relation to the peak value for a sinusoidal current.",
+   "proposedAnswer": "The rms value of an alternating current is the value of a steady current that produces the same heating effect in a resistor as the alternating current over a cycle. For a sinusoidal current I_rms = I0/√2 ≈ 0.707 I0.",
+   "keyPoints": [
+    "Equal heating effect to a steady direct current",
+    "Root mean square of the current over a cycle",
+    "I_rms = I0/√2"
+   ]
+  },
+  {
+   "id": "physics-c12-368",
+   "type": "short",
+   "q": "A transformer is 90% efficient. Its primary draws 5 A at 220 V and the secondary voltage is 22 V. Find the secondary current.",
+   "proposedAnswer": "45 A.",
+   "keyPoints": [
+    "Input power = 220 × 5 = 1100 W",
+    "Output power = 0.9 × 1100 = 990 W",
+    "I_s = 990/22 = 45 A"
+   ]
+  },
+  {
+   "id": "physics-c12-369",
+   "type": "mcq",
+   "q": "Electromagnetic waves were first produced and detected in the laboratory by",
+   "options": [
+    "Hertz",
+    "Newton",
+    "Faraday",
+    "Ampère"
+   ]
+  },
+  {
+   "id": "physics-c12-370",
+   "type": "mcq",
+   "q": "Which electromagnetic radiation is used in water purifiers to kill germs?",
+   "options": [
+    "Infrared",
+    "Radio waves",
+    "Ultraviolet",
+    "Microwaves"
+   ]
+  },
+  {
+   "id": "physics-c12-371",
+   "type": "mcq",
+   "q": "Which of these wavelengths lies in the visible part of the spectrum?",
+   "options": [
+    "100 nm",
+    "550 nm",
+    "1 mm",
+    "10^-11 m"
+   ]
+  },
+  {
+   "id": "physics-c12-372",
+   "type": "mcq",
+   "q": "The speed of electromagnetic waves in vacuum is related to the permeability μ0 and permittivity ε0 of free space by",
+   "options": [
+    "√(μ0ε0)",
+    "μ0ε0",
+    "√(μ0/ε0)",
+    "1/√(μ0ε0)"
+   ]
+  },
+  {
+   "id": "physics-c12-373",
+   "type": "mcq",
+   "q": "A microwave oven operates at a frequency of 2.45 GHz. The wavelength of the waves in air is closest to (c = 3 × 10^8 m/s)",
+   "options": [
+    "1.2 cm",
+    "12.2 cm",
+    "1.22 m",
+    "0.12 mm"
+   ]
+  },
+  {
+   "id": "physics-c12-374",
+   "type": "mcq",
+   "q": "The photon energy of electromagnetic radiation of wavelength 0.1 nm is (hc = 1240 eV nm)",
+   "options": [
+    "12.4 keV",
+    "124 eV",
+    "1.24 eV",
+    "124 keV"
+   ]
+  },
+  {
+   "id": "physics-c12-375",
+   "type": "short",
+   "q": "Why are microwaves used in radar systems?",
+   "proposedAnswer": "Microwaves have short wavelengths, so they can be formed into narrow, directional beams by small antennas. They are reflected well by aircraft, ships and rain, and the time taken by the echo gives the distance of the object.",
+   "keyPoints": [
+    "Short wavelength gives narrow, directional beams",
+    "Reflected by objects such as aircraft",
+    "Echo delay gives distance"
+   ]
+  },
+  {
+   "id": "physics-c12-376",
+   "type": "short",
+   "q": "The plates of a parallel plate capacitor have area 0.01 m². The electric field between them is changing at 5 × 10^12 V/(m s). Find the displacement current (ε0 = 8.85 × 10^-12 C²/N m²).",
+   "proposedAnswer": "About 0.44 A.",
+   "keyPoints": [
+    "I_d = ε0 dΦ_E/dt = ε0 A dE/dt",
+    "= 8.85 × 10^-12 × 0.01 × 5 × 10^12",
+    "≈ 0.44 A"
+   ]
+  },
+  {
+   "id": "physics-c12-377",
+   "type": "mcq",
+   "q": "A real image is one that",
+   "options": [
+    "cannot be obtained on a screen",
+    "is formed by diverging rays only",
+    "is always erect",
+    "is formed where rays actually meet and can be caught on a screen"
+   ]
+  },
+  {
+   "id": "physics-c12-378",
+   "type": "mcq",
+   "q": "In the Cartesian sign convention, the focal length of a concave mirror is",
+   "options": [
+    "positive",
+    "negative",
+    "zero",
+    "infinite"
+   ]
+  },
+  {
+   "id": "physics-c12-379",
+   "type": "mcq",
+   "q": "A ray of light enters glass of refractive index √3 from air at an angle of incidence of 60°. The angle of refraction is",
+   "options": [
+    "60°",
+    "45°",
+    "30°",
+    "15°"
+   ]
+  },
+  {
+   "id": "physics-c12-380",
+   "type": "mcq",
+   "q": "For light going from water (refractive index 4/3) to air, sin of the critical angle is",
+   "options": [
+    "3/4",
+    "4/3",
+    "1/2",
+    "√3/2"
+   ]
+  },
+  {
+   "id": "physics-c12-381",
+   "type": "mcq",
+   "q": "An object is placed 20 cm in front of a concave lens of focal length 20 cm. The image is",
+   "options": [
+    "40 cm from the lens, real",
+    "20 cm from the lens, real",
+    "10 cm from the lens on the same side as the object, virtual",
+    "10 cm from the lens on the other side, real"
+   ]
+  },
+  {
+   "id": "physics-c12-382",
+   "type": "mcq",
+   "q": "A thin convex lens of focal length f is cut into two halves by a plane containing the principal axis. Each half has a focal length of",
+   "options": [
+    "f/2",
+    "2f",
+    "4f",
+    "f"
+   ]
+  },
+  {
+   "id": "physics-c12-383",
+   "type": "short",
+   "q": "A concave mirror has a radius of curvature of 40 cm. An object is placed 30 cm in front of it. Find the position and magnification of the image.",
+   "proposedAnswer": "The image is 60 cm in front of the mirror, real and inverted, with magnification -2.",
+   "keyPoints": [
+    "f = -20 cm, u = -30 cm",
+    "1/v = 1/f - 1/u = -1/20 + 1/30 = -1/60 so v = -60 cm",
+    "m = -v/u = -2"
+   ]
+  },
+  {
+   "id": "physics-c12-384",
+   "type": "short",
+   "q": "The far point of a myopic person is 80 cm. What is the power of the lens needed to see distant objects clearly?",
+   "proposedAnswer": "-1.25 D (a concave lens of focal length 80 cm).",
+   "keyPoints": [
+    "The lens must form an image of a distant object at the far point, 80 cm",
+    "f = -80 cm = -0.8 m",
+    "P = 1/f = -1.25 D"
+   ]
+  },
+  {
+   "id": "physics-c12-385",
+   "type": "mcq",
+   "q": "The colours seen in a thin soap film are due to",
+   "options": [
+    "diffraction",
+    "interference",
+    "polarisation",
+    "dispersion"
+   ]
+  },
+  {
+   "id": "physics-c12-386",
+   "type": "mcq",
+   "q": "According to the wave theory, the speed of light in a denser medium compared with a rarer medium is",
+   "options": [
+    "greater",
+    "the same",
+    "infinite",
+    "less"
+   ]
+  },
+  {
+   "id": "physics-c12-387",
+   "type": "mcq",
+   "q": "Two waves interfere destructively when their path difference is λ/2. Their phase difference is",
+   "options": [
+    "π",
+    "π/2",
+    "2π",
+    "0"
+   ]
+  },
+  {
+   "id": "physics-c12-388",
+   "type": "mcq",
+   "q": "Two coherent beams, each of intensity I0, meet with a phase difference of 120°. The resultant intensity is",
+   "options": [
+    "4I0",
+    "2I0",
+    "I0",
+    "zero"
+   ]
+  },
+  {
+   "id": "physics-c12-389",
+   "type": "mcq",
+   "q": "In a double slit experiment the fringe width is 0.5 mm. The distance between the 5th bright fringe and the 2nd dark fringe on the same side of the centre is",
+   "options": [
+    "1.75 mm",
+    "1.25 mm",
+    "2.0 mm",
+    "3.25 mm"
+   ]
+  },
+  {
+   "id": "physics-c12-390",
+   "type": "mcq",
+   "q": "Light reflected from the surface of water of refractive index 4/3 is completely polarised when the angle of incidence is closest to",
+   "options": [
+    "37°",
+    "53°",
+    "45°",
+    "60°"
+   ]
+  },
+  {
+   "id": "physics-c12-391",
+   "type": "short",
+   "q": "Why do two independent sodium lamps not produce a sustained interference pattern?",
+   "proposedAnswer": "The light from separate atoms is emitted in random, short bursts, so the phase difference between the two lamps changes randomly and rapidly. The sources are therefore not coherent and the fringe pattern keeps shifting and averages out to uniform illumination.",
+   "keyPoints": [
+    "Independent sources are not coherent",
+    "Phase changes randomly about every 10^-10 s",
+    "Fringes wash out"
+   ]
+  },
+  {
+   "id": "physics-c12-392",
+   "type": "short",
+   "q": "Light of wavelength 500 nm falls on a single slit and produces a central maximum 2 cm wide on a screen 2 m away. Find the width of the slit.",
+   "proposedAnswer": "0.1 mm.",
+   "keyPoints": [
+    "Central width = 2λD/a",
+    "a = 2λD/width = 2 × 5 × 10^-7 × 2/0.02",
+    "a = 10^-4 m"
+   ]
+  },
+  {
+   "id": "physics-c12-393",
+   "type": "mcq",
+   "q": "The maximum kinetic energy of photoelectrons depends on",
+   "options": [
+    "the intensity of the light",
+    "the time of exposure",
+    "the frequency of the light and the metal used",
+    "the area of the emitting surface"
+   ]
+  },
+  {
+   "id": "physics-c12-394",
+   "type": "mcq",
+   "q": "The rest mass of a photon is",
+   "options": [
+    "zero",
+    "9.1 × 10^-31 kg",
+    "h/c",
+    "infinite"
+   ]
+  },
+  {
+   "id": "physics-c12-395",
+   "type": "mcq",
+   "q": "Using λ(Å) = 12.27/√V, the de Broglie wavelength of an electron accelerated through 1 V is",
+   "options": [
+    "1.2 Å",
+    "0.12 Å",
+    "120 Å",
+    "12.3 Å"
+   ]
+  },
+  {
+   "id": "physics-c12-396",
+   "type": "mcq",
+   "q": "Sodium has a work function of 2.3 eV. Light of wavelength 400 nm (photon energy 3.1 eV, from hc = 1240 eV nm) falls on it. The maximum kinetic energy of the photoelectrons is",
+   "options": [
+    "0.3 eV",
+    "0.8 eV",
+    "2.3 eV",
+    "5.4 eV"
+   ]
+  },
+  {
+   "id": "physics-c12-397",
+   "type": "mcq",
+   "q": "A 4 eV photon produces photoelectrons with a stopping potential of 1.5 V on a given metal. For a 6 eV photon on the same metal the stopping potential is",
+   "options": [
+    "2.25 V",
+    "6 V",
+    "4.5 V",
+    "3.5 V"
+   ]
+  },
+  {
+   "id": "physics-c12-398",
+   "type": "mcq",
+   "q": "An electron and a photon both have a wavelength of 1 Å. Which has the greater energy?",
+   "options": [
+    "The electron",
+    "They have equal energy",
+    "The photon",
+    "It depends on the medium"
+   ]
+  },
+  {
+   "id": "physics-c12-399",
+   "type": "short",
+   "q": "State three observations of the photoelectric effect that the wave theory of light cannot explain.",
+   "proposedAnswer": "(1) There is a threshold frequency below which no emission occurs, however intense the light. (2) The maximum kinetic energy of the electrons depends on the frequency and not on the intensity. (3) Emission is instantaneous, with no measurable time delay even at low intensity.",
+   "keyPoints": [
+    "Threshold frequency",
+    "K_max independent of intensity",
+    "No time lag in emission"
+   ]
+  },
+  {
+   "id": "physics-c12-400",
+   "type": "short",
+   "q": "Using λ(Å) = 12.27/√V, find the de Broglie wavelength of electrons accelerated through 54 V, as in the Davisson-Germer experiment.",
+   "proposedAnswer": "About 1.67 Å.",
+   "keyPoints": [
+    "λ = 12.27/√54",
+    "√54 ≈ 7.35",
+    "λ ≈ 1.67 Å"
+   ]
+  },
+  {
+   "id": "physics-c12-401",
+   "type": "mcq",
+   "q": "The ionisation energy of a hydrogen atom in its ground state is",
+   "options": [
+    "13.6 eV",
+    "3.4 eV",
+    "1.51 eV",
+    "27.2 eV"
+   ]
+  },
+  {
+   "id": "physics-c12-402",
+   "type": "mcq",
+   "q": "Which of the radiations from radioactive substances is the most penetrating?",
+   "options": [
+    "Alpha particles",
+    "Beta particles",
+    "Gamma rays",
+    "All are equally penetrating"
+   ]
+  },
+  {
+   "id": "physics-c12-403",
+   "type": "mcq",
+   "q": "Uranium-238 (Z = 92) decays to lead-206 (Z = 82) through a series of decays. The numbers of alpha and beta-minus particles emitted are",
+   "options": [
+    "6 alpha and 8 beta",
+    "8 alpha and 6 beta",
+    "4 alpha and 2 beta",
+    "8 alpha and 8 beta"
+   ]
+  },
+  {
+   "id": "physics-c12-404",
+   "type": "mcq",
+   "q": "The binding energy per nucleon is greatest for nuclei of mass number about",
+   "options": [
+    "4",
+    "238",
+    "2",
+    "56"
+   ]
+  },
+  {
+   "id": "physics-c12-405",
+   "type": "mcq",
+   "q": "A radioactive sample has a half-life of 2 days. The time needed for 87.5% of it to decay is",
+   "options": [
+    "4 days",
+    "6 days",
+    "8 days",
+    "7 days"
+   ]
+  },
+  {
+   "id": "physics-c12-406",
+   "type": "mcq",
+   "q": "Taking E_n = -13.6/n² eV, the energy of the photon emitted when a hydrogen atom drops from n = 4 to n = 1 is",
+   "options": [
+    "12.75 eV",
+    "10.2 eV",
+    "12.09 eV",
+    "0.85 eV"
+   ]
+  },
+  {
+   "id": "physics-c12-407",
+   "type": "short",
+   "q": "Compare alpha, beta and gamma radiations in terms of charge and penetrating power.",
+   "proposedAnswer": "Alpha particles carry +2e and are stopped by paper; beta particles carry -e (or +e for positrons) and are stopped by a few millimetres of aluminium; gamma rays are uncharged and very penetrating, needing thick lead or concrete to be absorbed.",
+   "keyPoints": [
+    "Alpha: +2e, least penetrating",
+    "Beta: ∓e, medium penetration",
+    "Gamma: neutral, most penetrating"
+   ]
+  },
+  {
+   "id": "physics-c12-408",
+   "type": "short",
+   "q": "A radioactive nuclide has a decay constant of 0.0693 per minute. Find its half-life and the fraction left after 30 minutes.",
+   "proposedAnswer": "Half-life = 10 minutes; fraction left = 1/8.",
+   "keyPoints": [
+    "T½ = 0.693/λ = 10 min",
+    "30 min = 3 half-lives",
+    "Fraction = (1/2)³ = 1/8"
+   ]
+  },
+  {
+   "id": "physics-c12-409",
+   "type": "mcq",
+   "q": "The number of valence electrons in a silicon atom is",
+   "options": [
+    "2",
+    "3",
+    "5",
+    "4"
+   ]
+  },
+  {
+   "id": "physics-c12-410",
+   "type": "mcq",
+   "q": "Which of the following is a suitable dopant for making an n-type semiconductor from silicon?",
+   "options": [
+    "Boron",
+    "Arsenic",
+    "Indium",
+    "Aluminium"
+   ]
+  },
+  {
+   "id": "physics-c12-411",
+   "type": "mcq",
+   "q": "A half-wave rectifier is fed with 50 Hz AC. The frequency of the pulsating output is",
+   "options": [
+    "25 Hz",
+    "100 Hz",
+    "50 Hz",
+    "200 Hz"
+   ]
+  },
+  {
+   "id": "physics-c12-412",
+   "type": "mcq",
+   "q": "In a forward-biased p-n junction, the current is mainly due to",
+   "options": [
+    "majority carriers diffusing across the junction",
+    "minority carriers drifting across the junction",
+    "thermally generated electron-hole pairs only",
+    "photons crossing the junction"
+   ]
+  },
+  {
+   "id": "physics-c12-413",
+   "type": "mcq",
+   "q": "A NOR gate has both of its inputs joined together. It then acts as a",
+   "options": [
+    "AND gate",
+    "OR gate",
+    "NOT gate",
+    "XOR gate"
+   ]
+  },
+  {
+   "id": "physics-c12-414",
+   "type": "mcq",
+   "q": "A light emitting diode is made from a material with a band gap of 2.0 eV. The wavelength of the light it emits is about (hc = 1240 eV nm)",
+   "options": [
+    "310 nm",
+    "1240 nm",
+    "2480 nm",
+    "620 nm"
+   ]
+  },
+  {
+   "id": "physics-c12-415",
+   "type": "short",
+   "q": "Explain how a p-n junction diode can be used as a rectifier.",
+   "proposedAnswer": "A diode conducts when forward biased and blocks when reverse biased. With an AC input it conducts during one half cycle and blocks the other, so the output current flows in one direction only, converting AC to pulsating DC.",
+   "keyPoints": [
+    "Conducts in forward bias only",
+    "Blocks in reverse bias",
+    "AC input gives unidirectional pulsating output"
+   ]
+  },
+  {
+   "id": "physics-c12-416",
+   "type": "short",
+   "q": "Write the truth table of a two-input NAND gate and explain why it is called a universal gate.",
+   "proposedAnswer": "Outputs for inputs (0,0), (0,1), (1,0), (1,1) are 1, 1, 1, 0. NAND is universal because NOT (join the inputs), AND (NAND followed by NOT) and OR (NOT-ed inputs fed into a NAND) can all be built from NAND gates alone.",
+   "keyPoints": [
+    "Output is 0 only when both inputs are 1",
+    "NOT is obtained by joining the inputs",
+    "AND and OR can be built from NAND gates, so any logic function is possible"
+   ]
+  },
+  {
+   "id": "physics-c12-417",
+   "type": "mcq",
+   "q": "Conservation of electric charge states that",
+   "options": [
+    "the total charge of an isolated system remains constant",
+    "charge can be destroyed when two bodies touch",
+    "only positive charge is conserved",
+    "charge is lost when a body is earthed and cannot be recovered"
+   ]
+  },
+  {
+   "id": "physics-c12-418",
+   "type": "mcq",
+   "q": "The SI unit of the permittivity of free space ε0 is",
+   "options": [
+    "N m²/C²",
+    "C/(N m)",
+    "C² N^-1 m^-2",
+    "N/C"
+   ]
+  },
+  {
+   "id": "physics-c12-419",
+   "type": "mcq",
+   "q": "The force between two point charges is F. If one charge is doubled and the distance between them is halved, the force becomes",
+   "options": [
+    "4F",
+    "8F",
+    "2F",
+    "16F"
+   ]
+  },
+  {
+   "id": "physics-c12-420",
+   "type": "mcq",
+   "q": "A short dipole has dipole moment 2 × 10^-8 C m. The electric field on its axis at a distance of 1 m (large compared with its length) is (1/4πε0 = 9 × 10^9 N m²/C²)",
+   "options": [
+    "90 N/C",
+    "180 N/C",
+    "3.6 × 10^3 N/C",
+    "360 N/C"
+   ]
+  },
+  {
+   "id": "physics-c12-421",
+   "type": "mcq",
+   "q": "A point charge q is placed at one corner of a cube. The electric flux through a face that does not touch that corner is",
+   "options": [
+    "q/ε0",
+    "q/(8ε0)",
+    "q/(6ε0)",
+    "q/(24ε0)"
+   ]
+  },
+  {
+   "id": "physics-c12-422",
+   "type": "mcq",
+   "q": "A small sphere of mass 10 g and charge 1 μC hangs from a thread in a horizontal uniform electric field of 10^5 N/C. Taking g = 10 m/s², the thread makes an angle with the vertical of",
+   "options": [
+    "30°",
+    "45°",
+    "60°",
+    "15°"
+   ]
+  },
+  {
+   "id": "physics-c12-423",
+   "type": "mcq",
+   "q": "One farad is equal to",
+   "options": [
+    "1 C × 1 V",
+    "1 V/C",
+    "1 C/V",
+    "1 J × 1 V"
+   ]
+  },
+  {
+   "id": "physics-c12-424",
+   "type": "mcq",
+   "q": "Inside a charged conducting sphere the electric potential is",
+   "options": [
+    "constant and equal to its value at the surface",
+    "zero",
+    "greatest at the centre",
+    "smallest at the centre"
+   ]
+  },
+  {
+   "id": "physics-c12-425",
+   "type": "mcq",
+   "q": "A potential difference of 400 V is applied across two parallel plates 2 cm apart. The electric field between them is",
+   "options": [
+    "200 V/m",
+    "800 V/m",
+    "8000 V/m",
+    "20000 V/m"
+   ]
+  },
+  {
+   "id": "physics-c12-426",
+   "type": "mcq",
+   "q": "Capacitors of 1 μF, 2 μF and 3 μF are connected in parallel across a 12 V battery. The total charge stored is",
+   "options": [
+    "12 μC",
+    "72 μC",
+    "6 μC",
+    "36 μC"
+   ]
+  },
+  {
+   "id": "physics-c12-427",
+   "type": "mcq",
+   "q": "A capacitor is charged from a battery through a resistor. The fraction of the energy supplied by the battery that is finally stored in the capacitor is",
+   "options": [
+    "all of it",
+    "one-half",
+    "one-quarter",
+    "two-thirds"
+   ]
+  },
+  {
+   "id": "physics-c12-428",
+   "type": "mcq",
+   "q": "Two conducting spheres of radii 5 cm and 10 cm are far apart and are joined by a thin wire. The ratio of the charges on them, q1 : q2, is",
+   "options": [
+    "2 : 1",
+    "1 : 4",
+    "1 : 2",
+    "1 : 1"
+   ]
+  },
+  {
+   "id": "physics-c12-429",
+   "type": "mcq",
+   "q": "The resistance of a uniform wire is",
+   "options": [
+    "inversely proportional to its length and its area",
+    "directly proportional to its length and inversely proportional to its area",
+    "directly proportional to its length and its area",
+    "inversely proportional to its length and directly proportional to its area"
+   ]
+  },
+  {
+   "id": "physics-c12-430",
+   "type": "mcq",
+   "q": "The material used for a fuse wire should have",
+   "options": [
+    "a high melting point",
+    "zero resistance",
+    "a very large thickness",
+    "a low melting point"
+   ]
+  },
+  {
+   "id": "physics-c12-431",
+   "type": "mcq",
+   "q": "A current of 2 A flows through a 4 Ω resistor. The power dissipated is",
+   "options": [
+    "8 W",
+    "32 W",
+    "16 W",
+    "2 W"
+   ]
+  },
+  {
+   "id": "physics-c12-432",
+   "type": "mcq",
+   "q": "A material has resistivity 2 × 10^-6 Ω m. Its conductivity is",
+   "options": [
+    "5 × 10^5 S/m",
+    "2 × 10^-6 S/m",
+    "5 × 10^-7 S/m",
+    "2 × 10^6 S/m"
+   ]
+  },
+  {
+   "id": "physics-c12-433",
+   "type": "mcq",
+   "q": "A 12 V battery of negligible internal resistance is joined to a 6 Ω resistor in series with a parallel combination of 6 Ω and 3 Ω resistors. The current through the 3 Ω resistor is",
+   "options": [
+    "1 A",
+    "0.5 A",
+    "1.5 A",
+    "2 A"
+   ]
+  },
+  {
+   "id": "physics-c12-434",
+   "type": "mcq",
+   "q": "Resistors R and 2R are connected in parallel across a battery. The ratio of the power dissipated in R to that in 2R is",
+   "options": [
+    "1 : 2",
+    "1 : 1",
+    "4 : 1",
+    "2 : 1"
+   ]
+  },
+  {
+   "id": "physics-c12-435",
+   "type": "mcq",
+   "q": "The magnetic field lines around a long straight current-carrying wire are",
+   "options": [
+    "radial lines",
+    "parallel to the wire",
+    "straight lines through the wire",
+    "concentric circles around the wire"
+   ]
+  },
+  {
+   "id": "physics-c12-436",
+   "type": "mcq",
+   "q": "A radial magnetic field is used in a moving coil galvanometer so that",
+   "options": [
+    "the coil moves faster",
+    "the deflection is proportional to the current",
+    "friction is removed",
+    "the field is stronger"
+   ]
+  },
+  {
+   "id": "physics-c12-437",
+   "type": "mcq",
+   "q": "A charge of 2 μC moves at 5 × 10^5 m/s at 30° to a magnetic field of 0.2 T. The force on it is",
+   "options": [
+    "0.1 N",
+    "0.2 N",
+    "0.05 N",
+    "1.0 N"
+   ]
+  },
+  {
+   "id": "physics-c12-438",
+   "type": "mcq",
+   "q": "Which statement about ideal measuring instruments is correct?",
+   "options": [
+    "Both an ammeter and a voltmeter have low resistance",
+    "An ammeter has high resistance and a voltmeter has low resistance",
+    "An ammeter has low resistance and is connected in series; a voltmeter has high resistance and is connected in parallel",
+    "Both are connected in series"
+   ]
+  },
+  {
+   "id": "physics-c12-439",
+   "type": "mcq",
+   "q": "Two concentric coplanar circular loops of radii 10 cm and 20 cm each carry 5 A in opposite senses. The magnetic field at the common centre is (μ0 = 4π × 10^-7 T m/A)",
+   "options": [
+    "4.7 × 10^-5 T",
+    "3.14 × 10^-5 T",
+    "1.57 × 10^-5 T",
+    "zero"
+   ]
+  },
+  {
+   "id": "physics-c12-440",
+   "type": "mcq",
+   "q": "A rectangular current loop is placed in a uniform magnetic field. The loop experiences",
+   "options": [
+    "zero net force, but possibly a non-zero torque",
+    "a non-zero net force and zero torque",
+    "a net force and a torque always",
+    "neither a force nor a torque in any orientation"
+   ]
+  },
+  {
+   "id": "physics-c12-441",
+   "type": "mcq",
+   "q": "Inside a bar magnet the magnetic field lines run from the",
+   "options": [
+    "south pole to the north pole",
+    "north pole to the south pole",
+    "centre to both poles",
+    "pole to pole in a random manner"
+   ]
+  },
+  {
+   "id": "physics-c12-442",
+   "type": "mcq",
+   "q": "The magnetic susceptibility of a ferromagnetic material is",
+   "options": [
+    "negative",
+    "small and positive",
+    "large and positive",
+    "zero"
+   ]
+  },
+  {
+   "id": "physics-c12-443",
+   "type": "mcq",
+   "q": "A magnetic dipole of moment 2 A m² is in a uniform field of 0.5 T. The work done in rotating it from the stable alignment (θ = 0°) to the opposite direction (θ = 180°) is",
+   "options": [
+    "0.5 J",
+    "1 J",
+    "4 J",
+    "2 J"
+   ]
+  },
+  {
+   "id": "physics-c12-444",
+   "type": "mcq",
+   "q": "A long solenoid with 1000 turns per metre carries 1 A and has a core of relative permeability 400. The magnetic field inside is (μ0 = 4π × 10^-7 T m/A)",
+   "options": [
+    "1.26 × 10^-3 T",
+    "0.50 T",
+    "5.0 T",
+    "0.05 T"
+   ]
+  },
+  {
+   "id": "physics-c12-445",
+   "type": "mcq",
+   "q": "The axial magnetic field of a short bar magnet at a distance of 0.2 m from its centre is 4 μT. The equatorial field at the same distance is",
+   "options": [
+    "8 μT",
+    "2 μT",
+    "4 μT",
+    "1 μT"
+   ]
+  },
+  {
+   "id": "physics-c12-446",
+   "type": "mcq",
+   "q": "Treating the Earth as a dipole of moment 8 × 10^22 A m² and radius 6.4 × 10^6 m, the equatorial surface field B = (μ0/4π)M/r³ is closest to (μ0/4π = 10^-7 T m/A)",
+   "options": [
+    "3 × 10^-3 T",
+    "3 × 10^-7 T",
+    "6 × 10^-5 T",
+    "3 × 10^-5 T"
+   ]
+  },
+  {
+   "id": "physics-c12-447",
+   "type": "mcq",
+   "q": "The direction of the induced current in a conductor moving in a magnetic field can be found with",
+   "options": [
+    "Fleming's left-hand rule",
+    "Ampère's swimming rule only",
+    "Fleming's right-hand rule",
+    "Coulomb's law"
+   ]
+  },
+  {
+   "id": "physics-c12-448",
+   "type": "mcq",
+   "q": "Which of the following does not affect the motional emf in a rod moving through a magnetic field?",
+   "options": [
+    "The mass of the rod",
+    "The length of the rod",
+    "The speed of the rod",
+    "The strength of the magnetic field"
+   ]
+  },
+  {
+   "id": "physics-c12-449",
+   "type": "mcq",
+   "q": "A coil of 200 turns and area 5 × 10^-3 m² is placed perpendicular to a field that rises uniformly from 0 to 0.8 T in 0.4 s. The induced emf is",
+   "options": [
+    "1 V",
+    "2 V",
+    "4 V",
+    "0.5 V"
+   ]
+  },
+  {
+   "id": "physics-c12-450",
+   "type": "mcq",
+   "q": "Two inductors of 2 mH and 3 mH are connected in series with negligible mutual coupling. The equivalent inductance is",
+   "options": [
+    "1.2 mH",
+    "6 mH",
+    "2.5 mH",
+    "5 mH"
+   ]
+  },
+  {
+   "id": "physics-c12-451",
+   "type": "mcq",
+   "q": "A coil of 100 turns and resistance 10 Ω is connected to a galvanometer. The flux through each turn changes by 0.02 Wb. The charge that flows through the circuit is",
+   "options": [
+    "0.02 C",
+    "2 C",
+    "20 C",
+    "0.2 C"
+   ]
+  },
+  {
+   "id": "physics-c12-452",
+   "type": "mcq",
+   "q": "A 0.2 H coil carries 5 A and the current is switched off in 1 ms. The average induced emf is",
+   "options": [
+    "1 V",
+    "100 V",
+    "1000 V",
+    "10^5 V"
+   ]
+  },
+  {
+   "id": "physics-c12-453",
+   "type": "mcq",
+   "q": "The power factor of an ideal inductor in an AC circuit is",
+   "options": [
+    "1",
+    "zero",
+    "0.5",
+    "infinite"
+   ]
+  },
+  {
+   "id": "physics-c12-454",
+   "type": "mcq",
+   "q": "An AC ammeter reads",
+   "options": [
+    "the peak value",
+    "the average value over a cycle",
+    "the instantaneous value",
+    "the rms value"
+   ]
+  },
+  {
+   "id": "physics-c12-455",
+   "type": "mcq",
+   "q": "A voltage v = 100 sin ωt is applied across a 50 Ω resistor. The average power dissipated is",
+   "options": [
+    "100 W",
+    "200 W",
+    "50 W",
+    "141 W"
+   ]
+  },
+  {
+   "id": "physics-c12-456",
+   "type": "mcq",
+   "q": "The capacitive reactance of a 2 μF capacitor at 50 Hz is closest to",
+   "options": [
+    "159 Ω",
+    "15920 Ω",
+    "1592 Ω",
+    "318 Ω"
+   ]
+  },
+  {
+   "id": "physics-c12-457",
+   "type": "mcq",
+   "q": "A series LC circuit has L = 1 H and C = 1 μF. Its resonant frequency is closest to",
+   "options": [
+    "159 Hz",
+    "1000 Hz",
+    "50 Hz",
+    "6283 Hz"
+   ]
+  },
+  {
+   "id": "physics-c12-458",
+   "type": "mcq",
+   "q": "In an ideal LC circuit the maximum charge on the capacitor is 2 μC and C = 1 μF. The total energy of the oscillation is",
+   "options": [
+    "4 μJ",
+    "2 μJ",
+    "1 μJ",
+    "0.5 μJ"
+   ]
+  },
+  {
+   "id": "physics-c12-459",
+   "type": "mcq",
+   "q": "Which of the following is not an electromagnetic wave?",
+   "options": [
+    "Radio waves",
+    "Visible light",
+    "Gamma rays",
+    "Ultrasonic waves"
+   ]
+  },
+  {
+   "id": "physics-c12-460",
+   "type": "mcq",
+   "q": "In an electromagnetic wave the electric and magnetic fields are",
+   "options": [
+    "parallel to each other",
+    "perpendicular to each other and in phase",
+    "perpendicular to each other and 90° out of phase",
+    "parallel and out of phase"
+   ]
+  },
+  {
+   "id": "physics-c12-461",
+   "type": "mcq",
+   "q": "A radio wave of frequency 60 MHz travels in vacuum. Its wavelength is (c = 3 × 10^8 m/s)",
+   "options": [
+    "0.2 m",
+    "20 m",
+    "5 m",
+    "50 m"
+   ]
+  },
+  {
+   "id": "physics-c12-462",
+   "type": "mcq",
+   "q": "The magnetic field amplitude of a plane electromagnetic wave in vacuum is 4 × 10^-8 T. The electric field amplitude is (c = 3 × 10^8 m/s)",
+   "options": [
+    "12 V/m",
+    "0.12 V/m",
+    "120 V/m",
+    "1.3 × 10^-16 V/m"
+   ]
+  },
+  {
+   "id": "physics-c12-463",
+   "type": "mcq",
+   "q": "A 100 W point source radiates electromagnetic waves uniformly in all directions. Ignoring losses, the intensity at 2 m from it is closest to",
+   "options": [
+    "0.5 W/m²",
+    "4 W/m²",
+    "2 W/m²",
+    "8 W/m²"
+   ]
+  },
+  {
+   "id": "physics-c12-464",
+   "type": "mcq",
+   "q": "A beam of electromagnetic radiation carries 6 × 10^-3 J of energy and is completely absorbed by a surface. The momentum delivered to the surface is (c = 3 × 10^8 m/s)",
+   "options": [
+    "1.8 × 10^6 kg m/s",
+    "2 × 10^-9 kg m/s",
+    "2 × 10^-13 kg m/s",
+    "2 × 10^-11 kg m/s"
+   ]
+  },
+  {
+   "id": "physics-c12-465",
+   "type": "short",
+   "q": "Explain briefly the greenhouse effect in terms of electromagnetic radiation.",
+   "proposedAnswer": "The Earth's surface, warmed by sunlight, emits infrared radiation. Greenhouse gases such as carbon dioxide and water vapour absorb part of this infrared and re-radiate it, including back towards the surface, so the lower atmosphere is warmer than it would otherwise be.",
+   "keyPoints": [
+    "Earth emits infrared radiation",
+    "Greenhouse gases absorb and re-emit it",
+    "Surface and lower atmosphere stay warmer"
+   ]
+  },
+  {
+   "id": "physics-c12-466",
+   "type": "mcq",
+   "q": "The image formed by a plane mirror is",
+   "options": [
+    "virtual, erect and of the same size as the object",
+    "real and inverted",
+    "magnified and virtual",
+    "inverted and of the same size"
+   ]
+  },
+  {
+   "id": "physics-c12-467",
+   "type": "mcq",
+   "q": "A ray of light passing through the optical centre of a thin lens",
+   "options": [
+    "bends towards the axis",
+    "is reflected",
+    "passes undeviated",
+    "becomes parallel to the axis"
+   ]
+  },
+  {
+   "id": "physics-c12-468",
+   "type": "mcq",
+   "q": "A prism of angle 60° has a minimum deviation of 30°. Its refractive index is",
+   "options": [
+    "1.5",
+    "1.73",
+    "1.33",
+    "1.41"
+   ]
+  },
+  {
+   "id": "physics-c12-469",
+   "type": "mcq",
+   "q": "An object is placed 30 cm from a convex lens of focal length 15 cm. The magnification of the image is",
+   "options": [
+    "+1",
+    "-1",
+    "-2",
+    "+2"
+   ]
+  },
+  {
+   "id": "physics-c12-470",
+   "type": "mcq",
+   "q": "An object is placed 8 cm in front of a concave mirror of focal length 12 cm. The image is",
+   "options": [
+    "real, inverted, formed 24 cm in front of the mirror",
+    "virtual, erect, formed 24 cm behind the mirror and magnified 3 times",
+    "virtual, erect, formed 4.8 cm behind the mirror and diminished",
+    "real, inverted, formed 4.8 cm in front of the mirror"
+   ]
+  },
+  {
+   "id": "physics-c12-471",
+   "type": "mcq",
+   "q": "A coin lies at the bottom of a beaker. A glass slab of thickness 6 cm and refractive index 1.5 is placed directly on top of the coin. Viewed from above, the coin appears raised by",
+   "options": [
+    "2 cm",
+    "4 cm",
+    "1 cm",
+    "6 cm"
+   ]
+  },
+  {
+   "id": "physics-c12-472",
+   "type": "short",
+   "q": "Find the focal length of a plano-convex lens of refractive index 1.5 whose curved surface has radius of curvature 15 cm.",
+   "proposedAnswer": "30 cm.",
+   "keyPoints": [
+    "1/f = (n - 1)(1/R1 - 1/R2) with R1 = 15 cm and R2 = infinity",
+    "= 0.5/15",
+    "f = 30 cm"
+   ]
+  },
+  {
+   "id": "physics-c12-473",
+   "type": "mcq",
+   "q": "In single slit diffraction the central maximum is",
+   "options": [
+    "the narrowest of all maxima",
+    "completely dark",
+    "the brightest and widest maximum",
+    "equal to the other maxima in width and brightness"
+   ]
+  },
+  {
+   "id": "physics-c12-474",
+   "type": "mcq",
+   "q": "Unpolarised light of intensity I0 passes through an ideal polariser. The transmitted intensity is",
+   "options": [
+    "I0/2",
+    "I0",
+    "I0/4",
+    "zero"
+   ]
+  },
+  {
+   "id": "physics-c12-475",
+   "type": "mcq",
+   "q": "In Young's experiment λ = 6000 Å, the slit separation is 0.4 mm and the screen is 1.2 m away. The fringe width is",
+   "options": [
+    "0.18 mm",
+    "1.8 mm",
+    "18 mm",
+    "3.6 mm"
+   ]
+  },
+  {
+   "id": "physics-c12-476",
+   "type": "mcq",
+   "q": "At the polarising (Brewster) angle, the angle between the reflected and refracted rays is",
+   "options": [
+    "0°",
+    "45°",
+    "180°",
+    "90°"
+   ]
+  },
+  {
+   "id": "physics-c12-477",
+   "type": "mcq",
+   "q": "Two polaroids are crossed. A third polaroid is inserted between them with its axis at 45° to both. Unpolarised light of intensity I0 falls on the first. The final transmitted intensity is",
+   "options": [
+    "0",
+    "I0/2",
+    "I0/4",
+    "I0/8"
+   ]
+  },
+  {
+   "id": "physics-c12-478",
+   "type": "mcq",
+   "q": "In Young's double slit experiment with two equal sources of intensity I0 each, the intensity at a point where the path difference is λ/6 is",
+   "options": [
+    "4I0",
+    "I0",
+    "3I0",
+    "2I0"
+   ]
+  },
+  {
+   "id": "physics-c12-479",
+   "type": "short",
+   "q": "State the principle of superposition and the conditions for constructive and destructive interference in terms of path difference.",
+   "proposedAnswer": "When two or more waves meet at a point, the resultant displacement is the vector sum of the individual displacements. Interference is constructive when the path difference is nλ (n = 0, 1, 2, ...) and destructive when it is (n + ½)λ.",
+   "keyPoints": [
+    "Resultant displacement is the sum of displacements",
+    "Constructive: path difference = nλ",
+    "Destructive: path difference = (n + ½)λ"
+   ]
+  },
+  {
+   "id": "physics-c12-480",
+   "type": "mcq",
+   "q": "The photoelectric saturation current for light above the threshold frequency is proportional to the",
+   "options": [
+    "frequency of the light",
+    "intensity of the light",
+    "stopping potential",
+    "work function"
+   ]
+  },
+  {
+   "id": "physics-c12-481",
+   "type": "mcq",
+   "q": "For the same speed, which of these has the longest de Broglie wavelength?",
+   "options": [
+    "Proton",
+    "Neutron",
+    "Alpha particle",
+    "Electron"
+   ]
+  },
+  {
+   "id": "physics-c12-482",
+   "type": "mcq",
+   "q": "Taking hc = 1240 eV nm, the energy of a photon of wavelength 620 nm is",
+   "options": [
+    "2.0 eV",
+    "0.5 eV",
+    "4.0 eV",
+    "1.0 eV"
+   ]
+  },
+  {
+   "id": "physics-c12-483",
+   "type": "mcq",
+   "q": "A metal has a work function of 2.65 × 10^-19 J. Its threshold frequency is (h = 6.63 × 10^-34 J s)",
+   "options": [
+    "4 × 10^13 Hz",
+    "2.5 × 10^14 Hz",
+    "4 × 10^14 Hz",
+    "1.6 × 10^15 Hz"
+   ]
+  },
+  {
+   "id": "physics-c12-484",
+   "type": "mcq",
+   "q": "A metal has work function 2 eV. The ratio of the maximum kinetic energies of photoelectrons for incident photons of 4 eV and 3 eV is",
+   "options": [
+    "2 : 1",
+    "4 : 3",
+    "1 : 2",
+    "3 : 2"
+   ]
+  },
+  {
+   "id": "physics-c12-485",
+   "type": "mcq",
+   "q": "A proton and an alpha particle are each accelerated from rest through the same potential difference. The ratio of their de Broglie wavelengths λ_p/λ_α is",
+   "options": [
+    "2",
+    "2√2",
+    "√2",
+    "8"
+   ]
+  },
+  {
+   "id": "physics-c12-486",
+   "type": "short",
+   "q": "State de Broglie's hypothesis and write the expression for the wavelength of a particle of mass m and kinetic energy K.",
+   "proposedAnswer": "Moving material particles have wave properties; a particle of momentum p has an associated wavelength λ = h/p. In terms of kinetic energy K, p = √(2mK), so λ = h/√(2mK).",
+   "keyPoints": [
+    "Matter has wave nature",
+    "λ = h/p",
+    "λ = h/√(2mK)"
+   ]
+  },
+  {
+   "id": "physics-c12-487",
+   "type": "mcq",
+   "q": "The mass number of a nucleus is equal to the number of",
+   "options": [
+    "protons only",
+    "neutrons only",
+    "electrons",
+    "protons and neutrons together"
+   ]
+  },
+  {
+   "id": "physics-c12-488",
+   "type": "mcq",
+   "q": "In a nuclear reactor the control rods are used to",
+   "options": [
+    "produce extra neutrons",
+    "absorb neutrons and control the rate of the reaction",
+    "cool the core",
+    "increase the number of fissions"
+   ]
+  },
+  {
+   "id": "physics-c12-489",
+   "type": "mcq",
+   "q": "The speed of the electron in the first Bohr orbit of hydrogen is about 2.2 × 10^6 m/s. Its speed in the n = 2 orbit is about",
+   "options": [
+    "2.2 × 10^6 m/s",
+    "4.4 × 10^6 m/s",
+    "1.1 × 10^6 m/s",
+    "5.5 × 10^5 m/s"
+   ]
+  },
+  {
+   "id": "physics-c12-490",
+   "type": "mcq",
+   "q": "If 1 g of matter were completely converted into energy, the energy released would be (c = 3 × 10^8 m/s)",
+   "options": [
+    "9 × 10^13 J",
+    "9 × 10^16 J",
+    "9 × 10^10 J",
+    "3 × 10^5 J"
+   ]
+  },
+  {
+   "id": "physics-c12-491",
+   "type": "mcq",
+   "q": "The density of nuclear matter, compared across different nuclei, is",
+   "options": [
+    "greater for heavier nuclei",
+    "smaller for heavier nuclei",
+    "nearly the same for all nuclei",
+    "dependent on the charge only"
+   ]
+  },
+  {
+   "id": "physics-c12-492",
+   "type": "mcq",
+   "q": "In the hydrogen Lyman series the ratio of the shortest to the longest wavelength is",
+   "options": [
+    "4/3",
+    "1/4",
+    "1/2",
+    "3/4"
+   ]
+  },
+  {
+   "id": "physics-c12-493",
+   "type": "short",
+   "q": "What is meant by the binding energy of a nucleus? Why is it released as energy when nucleons combine?",
+   "proposedAnswer": "The binding energy is the minimum energy needed to separate a nucleus into its individual protons and neutrons. The mass of a nucleus is less than the sum of the masses of its nucleons; this mass defect Δm is released as energy Δm c² when the nucleons bind together.",
+   "keyPoints": [
+    "Energy needed to separate the nucleus into nucleons",
+    "Mass defect Δm = sum of nucleon masses - nuclear mass",
+    "Binding energy = Δm c²"
+   ]
+  },
+  {
+   "id": "physics-c12-494",
+   "type": "mcq",
+   "q": "At absolute zero the conductivity of a pure semiconductor is",
+   "options": [
+    "zero",
+    "infinite",
+    "maximum",
+    "the same as that of a metal"
+   ]
+  },
+  {
+   "id": "physics-c12-495",
+   "type": "mcq",
+   "q": "The logic gate that is also called an inverter is the",
+   "options": [
+    "AND gate",
+    "OR gate",
+    "NOT gate",
+    "NAND gate"
+   ]
+  },
+  {
+   "id": "physics-c12-496",
+   "type": "mcq",
+   "q": "The number of diodes used in a full-wave bridge rectifier is",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  {
+   "id": "physics-c12-497",
+   "type": "mcq",
+   "q": "In a transistor the region that is thin and lightly doped is the",
+   "options": [
+    "emitter",
+    "base",
+    "collector",
+    "substrate"
+   ]
+  },
+  {
+   "id": "physics-c12-498",
+   "type": "mcq",
+   "q": "In a common-emitter transistor circuit the emitter current is 5.1 mA and the base current is 0.1 mA. The current gain β is",
+   "options": [
+    "51",
+    "50",
+    "5",
+    "0.98"
+   ]
+  },
+  {
+   "id": "physics-c12-499",
+   "type": "mcq",
+   "q": "Pure silicon has intrinsic carrier density 1.5 × 10^16 m^-3. It is doped with phosphorus so that the electron density is 10^22 m^-3. The hole density is",
+   "options": [
+    "2.25 × 10^10 m^-3",
+    "1.5 × 10^16 m^-3",
+    "10^22 m^-3",
+    "2.25 × 10^38 m^-3"
+   ]
+  },
+  {
+   "id": "physics-c12-500",
+   "type": "short",
+   "q": "Explain the terms depletion region and barrier potential in a p-n junction.",
+   "proposedAnswer": "When a p-n junction forms, electrons diffuse from the n-side and holes from the p-side and recombine near the junction, leaving a region with no mobile carriers but with fixed ionised atoms: the depletion region. The fixed charges set up an electric field and a potential difference across the region, the barrier potential, which opposes further diffusion.",
+   "keyPoints": [
+    "Depletion region: layer without mobile charge carriers",
+    "It contains immobile positive and negative ions",
+    "Barrier potential opposes further diffusion of carriers"
+   ]
+  }
+ ]
+}

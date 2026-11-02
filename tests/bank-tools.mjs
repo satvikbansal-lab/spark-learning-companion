@@ -64,7 +64,13 @@ function assemble(subject, klass) {
     }
   }
   if (!meta) throw new Error('the first part needs "topics"');
-  const questions = qs.slice(0, 500).map((q, i) => ({
+  // Over 500: trim from whichever topic has the most (its last-written ones), so no topic ends up thin.
+  while (qs.length > 500) {
+    const by = {}; for (const q of qs) by[q.topic] = (by[q.topic] || 0) + 1;
+    const big = Object.keys(by).sort((a, b) => by[b] - by[a])[0];
+    qs.splice(qs.map(q => q.topic).lastIndexOf(big), 1);
+  }
+  const questions = qs.map((q, i) => ({
     id: `${subject}-${Number(klass) ? 'c' + klass : 'exam'}-${String(i + 1).padStart(3, '0')}`, board: EXAMS.has(subject) ? SUBJECTS[subject] : 'CBSE', class: Number(klass), subject, topic: q.topic, level: q.level, type: q.type, q: q.q.trim(),
     ...(q.type === 'mcq' ? { options: q.options.map(o => o.trim()), answer: q.answer } : { answer: q.answer.trim(), keyPoints: q.keyPoints }),
     explanation: q.explanation.trim(), source: 'ai-drafted', status: 'unverified', reviewed: false
