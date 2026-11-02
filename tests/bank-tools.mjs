@@ -13,8 +13,17 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const here = dirname(fileURLToPath(import.meta.url)), root = join(here, 'bank');
-export const SUBJECTS = { science: 'Science (EVS in Classes 1-5)', social: 'Social Science (EVS in Classes 1-5)', english: 'English', hindi: 'Hindi' };
-const fileOf = (s, k) => join(root, s, `class-${k}.json`);
+export const SUBJECTS = {
+  science: 'Science (EVS in Classes 1-5)', social: 'Social Science (EVS in Classes 1-5)', english: 'English', hindi: 'Hindi',
+  computer: 'Computer Science and AI literacy',
+  physics: 'Physics', chemistry: 'Chemistry', biology: 'Biology', // Classes 11-12
+  accountancy: 'Accountancy', business: 'Business Studies', economics: 'Economics', history: 'History', geography: 'Geography', polsci: 'Political Science', psychology: 'Psychology', sociology: 'Sociology', // Class 11-12 electives
+  'jee-main': 'JEE Main practice (original, exam-style)', 'jee-adv': 'JEE Advanced practice (original, exam-style)', neet: 'NEET (UG) practice (original, exam-style)', cat: 'CAT practice (original, exam-style)', upsc: 'UPSC Prelims GS practice (original, exam-style)'
+};
+// Exam practice sets have no class: they are stored as "class 0" in tests/bank/<exam>/exam.json.
+export const EXAMS = new Set(['jee-main', 'jee-adv', 'neet', 'cat', 'upsc']);
+const CLASSES = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+const fileOf = (s, k) => join(root, s, Number(k) === 0 ? 'exam.json' : `class-${k}.json`);
 const read = p => JSON.parse(readFileSync(p, 'utf8'));
 const LETTERS = ['A', 'B', 'C', 'D'];
 
@@ -55,12 +64,12 @@ function assemble(subject, klass) {
   }
   if (!meta) throw new Error('the first part needs "topics"');
   const questions = qs.slice(0, 500).map((q, i) => ({
-    id: `${subject}-c${klass}-${String(i + 1).padStart(3, '0')}`, board: 'CBSE', class: Number(klass), subject, topic: q.topic, level: q.level, type: q.type, q: q.q.trim(),
+    id: `${subject}-${Number(klass) ? 'c' + klass : 'exam'}-${String(i + 1).padStart(3, '0')}`, board: EXAMS.has(subject) ? SUBJECTS[subject] : 'CBSE', class: Number(klass), subject, topic: q.topic, level: q.level, type: q.type, q: q.q.trim(),
     ...(q.type === 'mcq' ? { options: q.options.map(o => o.trim()), answer: q.answer } : { answer: q.answer.trim(), keyPoints: q.keyPoints }),
     explanation: q.explanation.trim(), source: 'ai-drafted', status: 'unverified', reviewed: false
   }));
   mkdirSync(join(root, subject), { recursive: true });
-  const out = { board: 'CBSE', class: Number(klass), subject, title: SUBJECTS[subject], topics: meta.topics, syllabus: 'unverified: topics are the drafting model’s reading of the NCERT/CBSE syllabus and have not been checked against the official documents', drafted_by: meta.model || 'claude', drafted_at: new Date().toISOString().slice(0, 10), crossCheck: null, questions };
+  const out = { board: EXAMS.has(subject) ? SUBJECTS[subject] : 'CBSE', class: Number(klass), subject, title: SUBJECTS[subject], topics: meta.topics, syllabus: 'unverified: topics are the drafting model\u2019s reading of the official syllabus (NCERT/CBSE, or the exam\u2019s notified syllabus) and have not been checked against the official documents', drafted_by: meta.model || 'claude', drafted_at: new Date().toISOString().slice(0, 10), crossCheck: null, questions };
   writeFileSync(fileOf(subject, klass), JSON.stringify(out, null, 1) + '\n');
   console.log(`${subject} class ${klass}: ${questions.length} questions kept, ${rejected.length} rejected → ${fileOf(subject, klass)}`);
   for (const r of rejected.slice(0, 10)) console.log('  rejected:', r.why.join(', '), '|', r.q);
@@ -95,18 +104,18 @@ function merge(subject, klass) {
 
 function status() {
   let total = 0;
-  for (const s of Object.keys(SUBJECTS)) for (let k = 1; k <= 12; k++) {
+  for (const s of Object.keys(SUBJECTS)) for (const k of CLASSES) {
     if (!existsSync(fileOf(s, k))) continue;
     const b = read(fileOf(s, k)), n = b.questions.length; total += n;
     const lv = [1, 2, 3].map(l => b.questions.filter(q => q.level === l).length).join('/'), mcq = b.questions.filter(q => q.type === 'mcq').length;
-    console.log(`${s.padEnd(8)} class ${String(k).padStart(2)}: ${String(n).padStart(3)} questions (${mcq} MCQ), levels ${lv}, ${b.topics.length} topics, cross-check ${b.crossCheck ? `${b.crossCheck.agree} agree / ${b.crossCheck.disagree} disagree / ${b.crossCheck.unsure} unsure` : 'not run'}`);
+    console.log(`${s.padEnd(11)} ${k ? 'class ' + String(k).padStart(2) : 'exam    '}: ${String(n).padStart(3)} questions (${mcq} MCQ), levels ${lv}, ${b.topics.length} topics, cross-check ${b.crossCheck ? `${b.crossCheck.agree} agree / ${b.crossCheck.disagree} disagree / ${b.crossCheck.unsure} unsure` : 'not run'}`);
   }
   console.log('total', total);
 }
 
 function sample(n = 40) {
   const all = [];
-  for (const s of Object.keys(SUBJECTS)) for (let k = 1; k <= 12; k++) if (existsSync(fileOf(s, k))) all.push(...read(fileOf(s, k)).questions);
+  for (const s of Object.keys(SUBJECTS)) for (const k of CLASSES) if (existsSync(fileOf(s, k))) all.push(...read(fileOf(s, k)).questions);
   const dis = all.filter(q => q.crossCheck && q.crossCheck.result !== 'agree');
   const rest = all.filter(q => !dis.includes(q)), step = Math.max(1, Math.floor(rest.length / n));
   const pick = [...dis, ...rest.filter((_, i) => i % step === 0).slice(0, n)];
@@ -118,7 +127,7 @@ function sample(n = 40) {
 async function exportReviewed() {
   const E = (await import('../spark-examples.js')).default;
   const out = [];
-  for (const s of Object.keys(SUBJECTS)) for (let k = 1; k <= 12; k++) if (existsSync(fileOf(s, k))) for (const q of read(fileOf(s, k)).questions) { const ex = E.fromBank(q); if (ex) out.push(ex); }
+  for (const s of Object.keys(SUBJECTS)) for (const k of CLASSES) if (existsSync(fileOf(s, k))) for (const q of read(fileOf(s, k)).questions) { const ex = E.fromBank(q); if (ex) out.push(ex); }
   writeFileSync(join(here, '..', 'examples', 'reviewed.json'), JSON.stringify(out) + '\n');
   console.log(`${out.length} reviewed questions → examples/reviewed.json`);
 }

@@ -58,12 +58,14 @@
 ${examples.map((e, i) => `--- Example ${i + 1} (${HOW[e.how]}) ---\nQuestion: ${e.q.slice(0, 600)}\nAnswer: ${e.a.slice(0, 1200)}`).join('\n')}`;
   }
 
+  /* Bank subjects → the subjects Spark's router uses (exam sets mix subjects, so they match any). */
+  const SUBJECT_OF = { science: 'science', physics: 'science', chemistry: 'science', biology: 'science', social: 'social', history: 'social', geography: 'social', polsci: 'social', economics: 'social', sociology: 'social', psychology: 'social', business: 'social', accountancy: 'math', english: 'english', hindi: 'hindi', computer: 'coding' };
   /* Bank questions a person marked reviewed, as examples (used by tests/bank-tools.mjs export-reviewed). */
   function fromBank(q) {
     if (!q || q.reviewed !== true) return null;
     const a = q.type === 'mcq' ? `(${q.answer}) ${q.options['ABCD'.indexOf(q.answer)]}. ${q.explanation}` : `${q.answer} ${q.explanation}`;
     const qq = q.type === 'mcq' ? `${q.q} ${q.options.map((o, i) => `(${'ABCD'[i]}) ${o}`).join(' ')}` : q.q;
-    return { id: q.id, q: qq, a, subject: q.subject === 'social' ? 'social' : q.subject, klass: `Class ${q.class}`, how: 'reviewed', ts: 0 };
+    return { id: q.id, q: qq, a, subject: SUBJECT_OF[q.subject] || 'general', klass: q.class ? `Class ${q.class}` : '', how: 'reviewed', ts: 0 };
   }
 
   return { tokens, add, retrieve, promptBlock, fromBank, MAX };
