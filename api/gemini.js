@@ -16,7 +16,7 @@ const MODEL = /^gemini-[a-z0-9.\-]{1,60}$/;
 const ALLOWED_MODEL = m => MODEL.test(m || '') && /(^|-)flash(-|$)/.test(m) && !/(^|-)(pro|ultra|image|live)(-|$)/.test(m);
 const SAFETY = ['HARM_CATEGORY_HARASSMENT', 'HARM_CATEGORY_HATE_SPEECH', 'HARM_CATEGORY_SEXUALLY_EXPLICIT', 'HARM_CATEGORY_DANGEROUS_CONTENT']
   .map(category => ({ category, threshold: 'BLOCK_MEDIUM_AND_ABOVE' }));
-const LIMITS = { contents: 80, parts: 3000, textChars: 400000, maxOutputTokens: 8192, perMinute: 30, perDay: 800 };
+const LIMITS = { contents: 80, parts: 3000, textChars: 400000, maxOutputTokens: 8192, perMinute: 120, perDay: 4000 }; // per network address: a whole classroom shares one school IP
 const GEN_KEYS = ['temperature', 'topP', 'topK', 'maxOutputTokens', 'thinkingConfig', 'responseMimeType', 'responseSchema', 'responseModalities', 'speechConfig', 'candidateCount', 'stopSequences'];
 const INLINE_MIME = /^(image\/(png|jpe?g|webp|heic|heif|gif)|application\/pdf|text\/plain)$/;
 
