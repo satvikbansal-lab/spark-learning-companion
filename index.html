@@ -2218,12 +2218,12 @@ async function solvePaper(p, all, only) {
   if (paperOpen() === p) renderPaper();
 }
 /* One request: Sparky solves these questions; each valid answer is stored, checked for free where possible, and kept. */
-async function solveBatch(p, batch) {
+async function solveBatch(p, batch, ahead) {
   if (!batch.length) return;
   const got = SparkPaper.readSolutions(await geminiJSON(SparkPaper.solvePrompt(batch, paperCtx(p)), SparkPaper.SOLVE_SCHEMA, PAPER_MODELS, 8000), batch);
   for (const q of batch) {
     if (got[q.n]) { p.solutions[q.n] = got[q.n]; delete p.checks[q.n]; exactPaperCheck(p, q); learnFromPaper(p, q); }
-    else p.failed[q.n] = (p.failed[q.n] || 0) + 1;
+    else if (!ahead) p.failed[q.n] = (p.failed[q.n] || 0) + 1; // a background miss doesn't count: the student's own check retries it
   }
   save();
 }
@@ -2379,14 +2379,22 @@ function paperQ(p, q) {
   return `<article class="pp-q st-${st || 'none'}" id="pq-${q.n}">${head(`<span class="pp-st st-${st || 'none'}">${STATE_LABEL[st]}</span>`)}${field}${work}${acts}${failedNote(p, q)}${result}</article>`;
 }
 
-/* Solves the question the student is checking, with the next unsolved ones in the same request. One job at a time. */
+/* Solves the question the student is checking on its own (one question is quick and reliable), then quietly solves
+   the next few in the background so their checks are instant. If the background job already has this question,
+   it waits for that instead of asking twice. */
+const PAPER_AHEAD = new Set(); // question numbers the background job is solving
 async function ensureSolved(p, n) {
-  while (PAPER_JOB) await PAPER_JOB.catch(() => {});
-  if (p.solutions[n]) return true;
-  if ((p.failed[n] || 0) >= 2) return false;
-  PAPER_JOB = solveBatch(p, SparkPaper.batchFor(p, n));
-  try { await PAPER_JOB; } finally { PAPER_JOB = null; }
+  if (PAPER_AHEAD.has(n) && PAPER_JOB) await PAPER_JOB.catch(() => {});
+  if (!p.solutions[n] && (p.failed[n] || 0) < 2) await solveBatch(p, [qOf(p, n)]);
+  solveAhead(p, n);
   return !!p.solutions[n];
+}
+function solveAhead(p, n) {
+  if (PAPER_JOB || !hasAI()) return;
+  const next = SparkPaper.batchFor(p, n, SparkPaper.BATCH).slice(1).filter(q => !CHECKING[q.n]).slice(0, 3);
+  if (!next.length) return;
+  next.forEach(q => PAPER_AHEAD.add(q.n));
+  PAPER_JOB = solveBatch(p, next, true).catch(() => {}).finally(() => { PAPER_JOB = null; PAPER_AHEAD.clear(); });
 }
 const qOf = (p, n) => p.questions.find(x => x.n === n);
 async function checkMine(p, n) {

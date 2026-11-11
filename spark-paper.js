@@ -130,6 +130,10 @@ Never invent data, constants or facts the question doesn't give or that aren't s
 
 ${qs.map(questionBlock).join('\n\n')}`;
   }
+  /* A model that loops sometimes writes the rest of its reply inside one field ("… \\n - whyNot: …"): keep the field's
+     own text and drop the leak. */
+  const LEAK = /(?:\\n|\n)\s*-\s*"?(?:n|answer|answerText|confidence|idea|steps|whyNot|trap|check|cantSolve)"?\s*:[\s\S]*$/;
+  const field = (v, max) => cleanText(String(v == null ? '' : v).replace(LEAK, ''), max);
   /* Validates the model's solutions against the questions. Returns { [n]: solution } for the valid ones. */
   function readSolutions(raw, qs) {
     const byN = new Map(qs.map(q => [q.n, q])), out = {};
@@ -145,9 +149,9 @@ ${qs.map(questionBlock).join('\n\n')}`;
         answer = m[0].replace('−', '-').replace(/\s+/g, '');
       }
       out[q.n] = {
-        answer, answerText: cleanText(s.answerText, 300) || answer, confidence: ['high', 'medium', 'low'].includes(s.confidence) ? s.confidence : 'low',
-        idea: cleanText(s.idea, 500), steps: (Array.isArray(s.steps) ? s.steps : []).map(x => cleanText(x, 1200)).filter(Boolean).slice(0, 8),
-        whyNot: cleanText(s.whyNot, 600), trap: cleanText(s.trap, 400), check: cleanText(s.check, 400), cantSolve: cleanText(s.cantSolve, 400), ts: Date.now()
+        answer, answerText: field(s.answerText, 300) || answer, confidence: ['high', 'medium', 'low'].includes(s.confidence) ? s.confidence : 'low',
+        idea: field(s.idea, 500), steps: (Array.isArray(s.steps) ? s.steps : []).map(x => field(x, 1200)).filter(Boolean).slice(0, 8),
+        whyNot: field(s.whyNot, 600), trap: field(s.trap, 400), check: field(s.check, 400), cantSolve: field(s.cantSolve, 400), ts: Date.now()
       };
       // Sparky only saw a description of the figure, or part of the question was unreadable: never "high".
       if ((q.unreadable || q.figure) && out[q.n].confidence === 'high') out[q.n].confidence = 'medium';
