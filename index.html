@@ -752,6 +752,63 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
 .pp-b { display: inline-block; margin-left: 6px; padding: 1px 9px; border-radius: 999px; font-size: 12.5px; background: color-mix(in srgb, var(--muted) 14%, transparent); color: var(--muted); }
 .pp-b.ok { background: color-mix(in srgb, var(--good) 14%, transparent); color: var(--good); }
 .pp-b.bad { background: color-mix(in srgb, var(--bad) 12%, transparent); color: var(--bad); }
+.pp-mode { display: inline-flex; padding: 3px; border-radius: 12px; background: var(--soft); gap: 3px; justify-self: start; }
+.pp-mode button { border: 0; background: none; color: var(--muted); font: inherit; font-size: 14px; padding: 7px 14px; border-radius: 9px; cursor: pointer; }
+.pp-mode button[aria-pressed="true"] { background: var(--panel); color: var(--ink); font-weight: 600; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+.pp-sticky { position: sticky; top: -40px; /* .page has 40px top padding */ z-index: 3; margin: 0 -8px; padding: 10px 8px 8px; background: var(--bg); display: grid; gap: 8px; border-bottom: 1px solid var(--line); }
+.pp-sticky .pp-score { padding: 0; background: none; font-size: 13.5px; color: var(--muted); }
+.pp-sticky .pp-score b { color: var(--ink); }
+.pp-prog { display: flex; gap: 10px 14px; align-items: center; flex-wrap: wrap; font-size: 14px; }
+.pp-bar-t { flex: 1; min-width: 80px; height: 6px; border-radius: 99px; background: var(--soft); overflow: hidden; }
+.pp-bar-t i { display: block; height: 100%; background: var(--accent); border-radius: inherit; transition: width .2s; }
+.pp-nav { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 2px; scrollbar-width: thin; }
+.pp-nav button { flex: none; min-width: 34px; height: 32px; padding: 0 6px; border-radius: 9px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; }
+.pp-nav .st-ans { border-color: var(--accent); color: var(--accent-text); }
+.pp-nav .st-ok { background: color-mix(in srgb, var(--good) 16%, var(--panel)); border-color: color-mix(in srgb, var(--good) 50%, transparent); color: var(--good); }
+.pp-nav .st-bad { background: color-mix(in srgb, var(--bad) 12%, var(--panel)); border-color: color-mix(in srgb, var(--bad) 45%, transparent); color: var(--bad); }
+.pp-nav .st-part { background: color-mix(in srgb, #E8A33A 16%, var(--panel)); border-color: color-mix(in srgb, #E8A33A 55%, transparent); }
+.pp-nav .st-seen { border-style: dashed; color: var(--muted); }
+.pp-q { scroll-margin-top: 120px; }
+.pp-q.st-ok { border-color: color-mix(in srgb, var(--good) 40%, var(--line)); }
+.pp-q.st-bad { border-color: color-mix(in srgb, var(--bad) 35%, var(--line)); }
+.pp-st { margin-left: auto; font-size: 12px; }
+.pp-q header .pp-st.st-ok { color: var(--good); border-color: color-mix(in srgb, var(--good) 45%, transparent); }
+.pp-q header .pp-st.st-bad { color: var(--bad); border-color: color-mix(in srgb, var(--bad) 40%, transparent); }
+.pp-q header .pp-st.st-ans { color: var(--accent-text); border-color: color-mix(in srgb, var(--accent) 45%, transparent); }
+.pp-choices { display: grid; gap: 8px; }
+.pp-choice { display: flex; gap: 10px; align-items: center; padding: 10px 12px; border: 1px solid var(--line); border-radius: 12px; background: var(--bg); cursor: pointer; min-width: 0; }
+.pp-choice:hover { border-color: color-mix(in srgb, var(--accent) 45%, var(--line)); }
+.pp-choice:has(input:checked) { border-color: var(--accent); background: var(--accent-soft); }
+.pp-choice:has(input:focus-visible) { outline: 2px solid var(--accent); outline-offset: 2px; }
+.pp-choice input { width: 18px; height: 18px; margin: 0; accent-color: var(--accent); flex: none; }
+.pp-choice b { flex: none; color: var(--muted); font-size: 13px; }
+.pp-choice span { min-width: 0; overflow-x: auto; }
+.pp-choice:has(input:disabled) { cursor: default; }
+.pp-q .pp-choice.right { border-color: color-mix(in srgb, var(--good) 55%, transparent); background: color-mix(in srgb, var(--good) 10%, transparent); }
+.pp-q .pp-choice.wrong { border-color: color-mix(in srgb, var(--bad) 50%, transparent); background: color-mix(in srgb, var(--bad) 8%, transparent); }
+.pp-num, .pp-write { display: grid; gap: 6px; font-size: 13px; color: var(--muted); }
+.pp-num input { width: min(220px, 100%); }
+.pp-num input, .pp-write textarea, .pp-work textarea { padding: 10px 12px; border-radius: 12px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); font: inherit; font-size: 15px; line-height: 1.5; }
+.pp-write textarea, .pp-work textarea { width: 100%; resize: vertical; min-height: 110px; box-sizing: border-box; }
+.pp-work textarea { min-height: 70px; margin-top: 6px; }
+.pp-num input:focus, .pp-write textarea:focus, .pp-work textarea:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+.pp-work summary { cursor: pointer; font-size: 13.5px; color: var(--muted); }
+.pp-busy { display: flex; gap: 8px; align-items: center; margin: 0; font-size: 14px; color: var(--muted); }
+.spin { width: 14px; height: 14px; border-radius: 50%; border: 2px solid var(--line); border-top-color: var(--accent); animation: ppspin .8s linear infinite; }
+@keyframes ppspin { to { transform: rotate(360deg); } }
+.pp-you { margin: 0; font-weight: 600; }
+.pp-fb { display: grid; gap: 8px; padding: 12px 14px; border-radius: 12px; background: var(--soft); border-left: 4px solid var(--muted); }
+.pp-fb.v-correct { border-left-color: var(--good); } .pp-fb.v-mostly { border-left-color: color-mix(in srgb, var(--good) 60%, #E8A33A); } .pp-fb.v-partly { border-left-color: #E8A33A; } .pp-fb.v-incorrect { border-left-color: var(--bad); }
+.pp-fb p { margin: 0; }
+.pp-fb-h span { color: var(--muted); font-size: 13px; }
+.pp-fl ul { margin: 4px 0 0; padding-left: 20px; display: grid; gap: 2px; }
+.pp-fl.good b { color: var(--good); } .pp-fl.bad b { color: var(--bad); }
+.pp-better { padding: 10px 12px; border-radius: 10px; background: var(--panel); border: 1px solid var(--line); }
+.pp-better p { margin: 6px 0 0; }
+.pp-model summary { cursor: pointer; font-weight: 600; font-size: 14px; }
+.pp-model[open] summary { margin-bottom: 6px; }
+@media (max-width: 820px) { .pp-sticky { top: -24px; } }
+@media (max-width: 560px) { .pp-sticky { gap: 6px; padding-top: 8px; } .pp-prog { gap: 6px 10px; font-size: 13px; } .pp-prog .btn { padding: 5px 10px; font-size: 13px; } .pp-sticky .pp-score { font-size: 12.5px; } .pp-nav button { min-width: 30px; height: 28px; } .pp-mode { justify-self: stretch; } .pp-mode button { flex: 1; padding: 7px 8px; } .pp-q { padding: 14px; } .pp-st { margin-left: 0; } }
 .steps3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin: 0; padding: 0; list-style: none; counter-reset: s; }
 .steps3 li { counter-increment: s; padding: 12px 14px; border-radius: 14px; background: var(--soft); font-size: 13.5px; color: var(--muted); }
 .steps3 li::before { content: counter(s); display: grid; place-items: center; width: 22px; height: 22px; margin-bottom: 6px; border-radius: 50%; background: var(--panel); color: var(--accent-text); font-weight: 600; font-size: 12px; }
@@ -2083,11 +2140,10 @@ function askFromHome(text) {
    answered it. Only the questions' text is kept, not the uploaded file. */
 const PAPER_MODELS = [DEFAULT_MODEL, 'gemini-3.5-flash', 'gemini-3.5-flash-lite', 'gemini-flash-lite-latest'];
 let PAPER_BUSY = '', PAPER_STOP = false, PAPER_EXAM = null;
-const PICKS = {}; // multiple-correct answers being chosen, before "Check my answer"
 const papers = () => (S.papers = S.papers || []);
 const paperOpen = () => papers().find(p => p.id === S.activePaperId) || null;
 const mdi = t => md(t).replace(/^\s*<p>([\s\S]*)<\/p>\s*$/, '$1'); // inline: no wrapping paragraph
-function newPaper(file, exam) { return { id: uid(), title: '', file, exam: exam || '', created: Date.now(), questions: [], answerKey: {}, solutions: {}, failed: {}, mine: {}, checks: {}, revealed: {}, tryFirst: false }; }
+function newPaper(file, exam) { return { id: uid(), title: '', file, exam: exam || '', created: Date.now(), questions: [], answerKey: {}, solutions: {}, failed: {}, mine: {}, checks: {}, revealed: {}, checked: {}, work: {}, feedback: {}, mode: 'practice' }; }
 
 function renderPaper() {
   const p = paperOpen();
@@ -2095,15 +2151,15 @@ function renderPaper() {
   if (PAPER_EXAM === null) PAPER_EXAM = S.settings.exam || '';
   const maxMB = S.settings.apiKey ? 15 : 3, EX = SparkPaper.EXAMS;
   $('#view').innerHTML = `<div class="page"><div class="page-in">
-    <header class="page-h"><h1>Solve a paper</h1><p>Upload a question paper or a mock test. ${esc(bn())} reads every question, solves it with an easy explanation, and tells you honestly how sure it is.</p></header>
+    <header class="page-h"><h1>Solve a paper</h1><p>Upload a question paper or a mock test and it becomes your own answer sheet: tick the options, type your answers, and check each one with ${esc(bn())} whenever you’re ready.</p></header>
     <div class="pp-exam"><label for="ppExam">Which exam is it for?</label><select id="ppExam"><option value="">School test (any class)</option>${Object.entries(EX).map(([k, e]) => `<option value="${k}" ${k === PAPER_EXAM ? 'selected' : ''}>${esc(e.name)}</option>`).join('')}</select></div>
     <div class="drop ${PAPER_BUSY ? 'busy' : ''}" id="ppDrop" role="button" tabindex="0" aria-label="Upload a question paper: a PDF or photos of its pages">
       <span class="ic">${uploadSvg}</span><b>Drop the question paper here</b><span>or <u>browse files</u> · one PDF, or photos of its pages (pick them all at once), up to ${maxMB} MB each</span>
     </div>
     <p class="drop-status" id="ppStatus" role="status" aria-live="polite">${esc(PAPER_BUSY)}</p>
-    <ol class="steps3"><li><b>Upload</b>A PDF or photos of the paper</li><li><b>Solve</b>${esc(bn())} solves 5 questions at a time and explains each one</li><li><b>Check</b>Try each one first, then see your score</li></ol>
-    <section aria-labelledby="ppList"><h2 class="h-sec" id="ppList">Your papers</h2>${papers().length ? `<div class="list">${papers().map(x => `<button class="row-card" data-open-paper="${x.id}"><span class="ic">${docSvg}</span><span class="rc-main"><b>${esc(x.title || x.file)}</b><span>${x.questions.length} questions · ${Object.keys(x.solutions).length} solved${EX[x.exam] ? ' · ' + esc(EX[x.exam].name) : ''} · ${ago(x.created)}</span></span></button>`).join('')}</div>` : '<p class="pv-small">No papers yet.</p>'}</section>
-    <p class="pv-small">Solving uses this site's free AI allowance: about one request for every 5 questions. The answers are made by AI and can be wrong; for anything important, check with your teacher or the official answer key.</p>
+    <ol class="steps3"><li><b>Upload</b>A PDF or photos of the paper</li><li><b>Solve it yourself</b>Tick options, type numbers, write answers (rough points are fine)</li><li><b>Check</b>Each answer with an explanation; written answers get marked with tips</li></ol>
+    <section aria-labelledby="ppList"><h2 class="h-sec" id="ppList">Your papers</h2>${papers().length ? `<div class="list">${papers().map(x => `<button class="row-card" data-open-paper="${x.id}"><span class="ic">${docSvg}</span><span class="rc-main"><b>${esc(x.title || x.file)}</b><span>${x.questions.length} questions · ${x.mode === 'practice' ? `${Object.values(x.mine || {}).filter(v => String(v).trim()).length} answered` : `${Object.keys(x.solutions).length} solved`}${EX[x.exam] ? ' · ' + esc(EX[x.exam].name) : ''} · ${ago(x.created)}</span></span></button>`).join('')}</div>` : '<p class="pv-small">No papers yet.</p>'}</section>
+    <p class="pv-small">Checking uses this site's free AI allowance: about one request for every 5 questions, plus one for each written answer you check. The answers are made by AI and can be wrong; for anything important, check with your teacher or the official answer key.</p>
   </div></div>`;
   const drop = $('#ppDrop'), pick = () => $('#paperIn').click();
   drop.onclick = pick;
@@ -2154,18 +2210,22 @@ async function solvePaper(p, all, only) {
     for (;;) {
       const batch = only ? p.questions.filter(q => only.includes(q.n)) : SparkPaper.nextBatch(p); if (!batch.length) break;
       PAPER_BUSY = `Solving ${batch.length > 1 ? `questions ${batch[0].n}–${batch[batch.length - 1].n}` : `question ${batch[0].n}`}…`; if (paperOpen() === p) renderPaper();
-      const raw = await geminiJSON(SparkPaper.solvePrompt(batch, { exam: p.exam, name: S.settings.name, grade: S.settings.grade, buddy: bn() }), SparkPaper.SOLVE_SCHEMA, PAPER_MODELS, 8000);
-      const got = SparkPaper.readSolutions(raw, batch);
-      for (const q of batch) {
-        if (got[q.n]) { p.solutions[q.n] = got[q.n]; delete p.checks[q.n]; exactPaperCheck(p, q); learnFromPaper(p, q); }
-        else p.failed[q.n] = (p.failed[q.n] || 0) + 1;
-      }
-      save();
+      await solveBatch(p, batch);
       if (!all || only || PAPER_STOP) break;
     }
   } catch (err) { toast(err.message || 'Could not solve those questions.'); }
   PAPER_BUSY = '';
   if (paperOpen() === p) renderPaper();
+}
+/* One request: Sparky solves these questions; each valid answer is stored, checked for free where possible, and kept. */
+async function solveBatch(p, batch) {
+  if (!batch.length) return;
+  const got = SparkPaper.readSolutions(await geminiJSON(SparkPaper.solvePrompt(batch, paperCtx(p)), SparkPaper.SOLVE_SCHEMA, PAPER_MODELS, 8000), batch);
+  for (const q of batch) {
+    if (got[q.n]) { p.solutions[q.n] = got[q.n]; delete p.checks[q.n]; exactPaperCheck(p, q); learnFromPaper(p, q); }
+    else p.failed[q.n] = (p.failed[q.n] || 0) + 1;
+  }
+  save();
 }
 /* Free: the exact checker, when it can read the question as one calculation or equation. */
 function exactPaperCheck(p, q) {
@@ -2197,7 +2257,8 @@ function paperAsk(p, n) {
   const q = p.questions.find(x => x.n === n), sol = p.solutions[n]; if (!q) return;
   const nbk = blankNotebook(); nbk.title = `${(p.title || p.file).slice(0, 28)} · Q${n}`;
   S.mode = 'nb'; S.tab = 'chat'; save(); render();
-  send(`Help me understand question ${n} from my practice paper.\n\n${SparkPaper.questionBlock(q)}${sol ? `\n\nYour answer was ${sol.answerText}. Explain it again step by step, as simply as you can.` : ''}`);
+  const mine = p.mode === 'practice' && p.mine && p.mine[n] ? String(p.mine[n]).trim() : '';
+  send(`Help me understand question ${n} from my practice paper.\n\n${SparkPaper.questionBlock(q)}${mine ? `\n\nMy answer was: ${mine}` : ''}${sol ? `\n\nYour answer was ${sol.answerText}. Explain it again step by step, as simply as you can${mine ? ', and tell me where my answer differs' : ''}.` : ''}`);
 }
 
 const CONF = { high: 'Sparky is sure', medium: 'Fairly sure', low: 'Sparky isn’t sure' };
@@ -2210,78 +2271,256 @@ function paperBadge(p, q, sol) {
   if (c && c.status === 'disagree') return `<span class="pp-b bad">⚠ A second check disagrees</span>`;
   return `<span class="pp-b ${sol.confidence === 'low' ? 'bad' : ''}">${CONF[sol.confidence]} · not checked</span>`;
 }
-function paperQ(p, q) {
-  const L = SparkPaper.LETTERS, sol = p.solutions[q.n], mine = p.mine[q.n], c = p.checks[q.n];
-  const waiting = p.tryFirst && sol && mine == null && !p.revealed[q.n]; // the student hasn't answered yet: keep it hidden
-  const ref = p.answerKey[q.n] != null ? p.answerKey[q.n] : sol && sol.answer;
-  const picked = mine != null ? SparkPaper.normAnswer(mine).split(',') : (PICKS[q.n] || []);
-  const opts = q.options.length ? `<ol class="pp-opts">${q.options.map((o, i) => {
-    const l = L[i], right = sol && !waiting && SparkPaper.normAnswer(ref).split(',').includes(l);
-    return `<li class="${right ? 'right' : ''} ${picked.includes(l) ? 'mine' : ''}">${waiting ? `<button class="pp-pick" data-pick="${q.n}" data-l="${l}" aria-pressed="${picked.includes(l)}">${l}</button>` : `<b>${l}</b>`}<span>${mdi(o)}</span></li>`;
-  }).join('')}</ol>` : '';
-  let tryRow = '';
-  if (waiting) tryRow = q.type === 'multi' ? `<div class="pp-acts"><button class="btn" data-pp-submit="${q.n}" ${picked.length ? '' : 'disabled'}>Check my answer</button><button class="btn ghost" data-pp-show="${q.n}">Show the answer</button></div>`
-    : q.type === 'numeric' ? `<form class="pp-acts" data-pp-num="${q.n}"><input name="a" inputmode="decimal" placeholder="Your answer" aria-label="Your answer to question ${q.n}"><button class="btn">Check</button><button type="button" class="btn ghost" data-pp-show="${q.n}">Show the answer</button></form>`
-    : q.type === 'mcq' ? `<div class="pp-acts"><span class="pv-small">Pick your answer above.</span><button class="btn ghost" data-pp-show="${q.n}">Show the answer</button></div>`
-    : `<div class="pp-acts"><span class="pv-small">Write your answer in your notebook first.</span><button class="btn" data-pp-show="${q.n}">Show the answer</button></div>`;
-  const you = mine != null && mine !== '' && sol ? (() => {
-    const ok = q.type === 'numeric' ? SparkPaper.matchesKey(q, { answer: mine }, ref) : SparkPaper.normAnswer(mine) === SparkPaper.normAnswer(ref);
-    return `<p class="pp-you ${ok ? 'ok' : 'bad'}">You answered ${esc(mine)} · ${ok ? '✓ right' : `the answer is ${esc(ref)}`}</p>`;
-  })() : '';
-  const solHTML = !sol ? (p.failed[q.n] >= 2 ? `<p class="pv-small">${esc(bn())} couldn’t solve this one reliably. <button class="linkish" data-pp-ask="${q.n}">Ask about it in a notebook</button></p>` : '')
-    : waiting ? '' : `<div class="pp-sol">
-      ${you}
-      <p class="pp-ans"><b>Answer:</b> ${mdi(sol.answerText)} ${paperBadge(p, q, sol)}</p>
+
+/* The answer sheet ("Solve it myself", the default): every question is a form field (a tick for options, a box for a
+   number, a page for a written answer, rough notes welcome). "Check answer" solves the question if needed (with the
+   next few unsolved ones in the same request, kept hidden) and marks it; a written answer is marked by Sparky against
+   a model answer. "See all solutions" is the older view: Sparky solves the paper and shows every answer. */
+const CHECKING = {}; // question number → what's happening, while it is being checked
+let PAPER_JOB = null, PAPER_SAVE_T = 0;
+const saveSoon = () => { clearTimeout(PAPER_SAVE_T); PAPER_SAVE_T = setTimeout(save, 600); };
+function paperFields(p) {
+  p.mine = p.mine || {}; p.checked = p.checked || {}; p.work = p.work || {}; p.feedback = p.feedback || {}; p.revealed = p.revealed || {};
+  if (!p.mode) { p.mode = p.tryFirst ? 'practice' : 'solutions'; if (p.tryFirst) for (const k of Object.keys(p.mine)) p.checked[k] = true; } // papers from before the answer sheet
+}
+const paperCtx = p => ({ exam: p.exam, name: S.settings.name, grade: S.settings.grade, buddy: bn() });
+const isAnswered = (p, q) => p.mine[q.n] != null && String(p.mine[q.n]).trim() !== '';
+const refOf = (p, q) => (p.answerKey[q.n] != null ? p.answerKey[q.n] : p.solutions[q.n] && p.solutions[q.n].answer);
+/* An answer as the student sees it: option letters with their text, e.g. "(A) 2 and (C) 13". */
+function answerLabel(q, a) {
+  if (!q.options.length) return String(a);
+  const ls = SparkPaper.normAnswer(a).split(',').filter(Boolean);
+  return ls.map(l => `(${l}) ${q.options[SparkPaper.LETTERS.indexOf(l)] || ''}`.trim()).join(' and ');
+}
+function isRight(p, q) {
+  const ref = refOf(p, q); if (ref == null || !isAnswered(p, q)) return false;
+  return q.type === 'numeric' ? SparkPaper.matchesKey(q, { answer: p.mine[q.n] }, ref) === true : SparkPaper.normAnswer(p.mine[q.n]) === SparkPaper.normAnswer(ref);
+}
+/* '' not answered · ans answered · ok / bad / part checked · seen looked at the answer */
+function qState(p, q) {
+  if (p.checked[q.n]) {
+    if (q.type === 'descriptive') { const f = p.feedback[q.n]; if (f) return f.verdict === 'correct' ? 'ok' : f.verdict === 'incorrect' ? 'bad' : 'part'; }
+    else if (p.solutions[q.n] || p.answerKey[q.n] != null) return isRight(p, q) ? 'ok' : 'bad';
+  }
+  if (p.revealed[q.n]) return 'seen';
+  return isAnswered(p, q) ? 'ans' : '';
+}
+const STATE_LABEL = { '': 'Not answered', ans: 'Answered', ok: 'Right', bad: 'Not right yet', part: 'Partly right', seen: 'Answer shown' };
+const VERDICT = { correct: '✓ Spot on', mostly: 'Nearly there', partly: 'A good start', incorrect: 'Not quite yet' };
+
+function solutionHTML(p, q, sol) {
+  const c = p.checks[q.n];
+  return `<p class="pp-ans"><b>Answer:</b> ${mdi(sol.answerText)} ${paperBadge(p, q, sol)}</p>
       ${c && c.note && c.status !== 'running' ? `<p class="pv-small">${esc(c.note)}</p>` : ''}
       ${sol.cantSolve ? `<p class="pp-note">⚠ ${esc(sol.cantSolve)}</p>` : ''}
       ${sol.idea ? `<p><b>💡 Key idea:</b> ${mdi(sol.idea)}</p>` : ''}
       ${sol.steps.length ? `<ol class="pp-steps">${sol.steps.map(s => `<li>${mdi(s)}</li>`).join('')}</ol>` : ''}
       ${sol.whyNot ? `<p><b>Why not the others:</b> ${mdi(sol.whyNot)}</p>` : ''}
       ${sol.trap ? `<p><b>⚠ Watch out:</b> ${mdi(sol.trap)}</p>` : ''}
-      ${sol.check ? `<p><b>✓ Quick check:</b> ${mdi(sol.check)}</p>` : ''}
-      <div class="pp-acts"><button class="btn" data-pp-check="${q.n}" ${c && c.status === 'running' ? 'disabled' : ''}>Double-check</button><button class="btn" data-pp-ask="${q.n}">Ask ${esc(bn())} about this</button><button class="btn ghost" data-pp-redo="${q.n}">Solve again</button></div>
-    </div>`;
-  return `<article class="pp-q" id="pq-${q.n}"><header><b>Q${q.n}</b>${q.subject ? `<span>${esc(q.subject)}</span>` : ''}${q.section ? `<span>${esc(q.section)}</span>` : ''}${q.unreadable ? '<span class="bad">part unreadable</span>' : ''}</header>
-    <div class="pp-text">${md(q.text)}</div>${q.figure ? `<p class="pv-small">🖼 Figure: ${esc(q.figure)}</p>` : ''}${opts}${tryRow}${solHTML}</article>`;
+      ${sol.check ? `<p><b>✓ Quick check:</b> ${mdi(sol.check)}</p>` : ''}`;
 }
+function feedbackHTML(q, f) {
+  const list = (title, xs, cls) => (xs.length ? `<div class="pp-fl ${cls}"><b>${title}</b><ul>${xs.map(x => `<li>${mdi(x)}</li>`).join('')}</ul></div>` : '');
+  const written = q.type === 'descriptive';
+  return `<div class="pp-fb v-${f.verdict}">
+    <p class="pp-fb-h"><b>${written ? VERDICT[f.verdict] : 'Where it went wrong'}</b>${f.marks != null ? ` <span>about ${f.marks} of ${q.marks} marks (${esc(bn())}’s estimate)</span>` : ''}</p>
+    <p>${mdi(f.summary)}</p>
+    ${list('✓ What you got right', f.good, 'good')}${list(written ? '＋ What’s missing' : 'Remember', f.missing, 'miss')}${list('✗ Fix these', f.mistakes, 'bad')}
+    ${f.better ? `<div class="pp-better"><b>A stronger version of your answer</b>${md(f.better)}</div>` : ''}
+    ${f.nextStep ? `<p><b>Next:</b> ${mdi(f.nextStep)}</p>` : ''}
+  </div>`;
+}
+const failedNote = (p, q) => (!p.solutions[q.n] && (p.failed[q.n] || 0) >= 2 ? `<p class="pv-small">${esc(bn())} couldn’t solve this one reliably. <button class="linkish" data-pp-ask="${q.n}">Ask about it in a notebook</button></p>` : '');
+
+function paperQ(p, q) {
+  const L = SparkPaper.LETTERS, sol = p.solutions[q.n], c = p.checks[q.n], st = qState(p, q);
+  const head = (chip) => `<header><b>Q${q.n}</b>${q.marks ? `<span>${q.marks} mark${q.marks === 1 ? '' : 's'}</span>` : ''}${q.subject ? `<span>${esc(q.subject)}</span>` : ''}${q.section ? `<span>${esc(q.section)}</span>` : ''}${q.unreadable ? '<span class="bad">part unreadable</span>' : ''}${chip}</header>
+    <div class="pp-text">${md(q.text)}</div>${q.figure ? `<p class="pv-small">🖼 Figure: ${esc(q.figure)}</p>` : ''}`;
+  if (p.mode !== 'practice') {
+    const ref = refOf(p, q);
+    const opts = q.options.length ? `<ol class="pp-opts">${q.options.map((o, i) => `<li class="${sol && SparkPaper.normAnswer(ref).split(',').includes(L[i]) ? 'right' : ''}"><b>${L[i]}</b><span>${mdi(o)}</span></li>`).join('')}</ol>` : '';
+    return `<article class="pp-q" id="pq-${q.n}">${head('')}${opts}${failedNote(p, q)}${sol ? `<div class="pp-sol">${solutionHTML(p, q, sol)}
+      <div class="pp-acts"><button class="btn" data-pp-check="${q.n}" ${c && c.status === 'running' ? 'disabled' : ''}>Double-check</button><button class="btn" data-pp-ask="${q.n}">Ask ${esc(bn())} about this</button><button class="btn ghost" data-pp-redo="${q.n}">Solve again</button></div></div>` : ''}</article>`;
+  }
+  const written = q.type === 'descriptive', done = st === 'ok' || st === 'bad' || st === 'part', seen = st === 'seen', locked = done || seen, busy = CHECKING[q.n];
+  const mine = p.mine[q.n] == null ? '' : String(p.mine[q.n]), picked = SparkPaper.normAnswer(mine).split(',').filter(Boolean), ref = refOf(p, q);
+  const rightSet = locked && ref != null ? SparkPaper.normAnswer(ref).split(',') : [];
+  let field = '';
+  if (q.type === 'mcq' || q.type === 'multi') {
+    field = `${q.type === 'multi' ? '<p class="pv-small">Tick every correct option.</p>' : ''}<div class="pp-choices" role="${q.type === 'mcq' ? 'radiogroup' : 'group'}" aria-label="Your answer to question ${q.n}">${q.options.map((o, i) => {
+      const l = L[i], on = picked.includes(l), cls = rightSet.includes(l) ? 'right' : on && locked ? 'wrong' : '';
+      return `<label class="pp-choice ${cls}"><input type="${q.type === 'mcq' ? 'radio' : 'checkbox'}" name="pq${q.n}" value="${l}" data-mine="${q.n}" ${on ? 'checked' : ''} ${locked ? 'disabled' : ''}><b>${l}</b><span>${mdi(o)}</span></label>`;
+    }).join('')}</div>`;
+  } else if (q.type === 'numeric') {
+    field = `<label class="pp-num"><span>Your answer</span><input data-mine="${q.n}" id="pqa-${q.n}" inputmode="decimal" autocomplete="off" value="${esc(mine)}" ${locked ? 'disabled' : ''}></label>`;
+  } else {
+    field = `<label class="pp-write"><span>Your answer</span><textarea data-mine="${q.n}" id="pqa-${q.n}" rows="5" ${done ? 'readonly' : ''} placeholder="Write your answer here. Rough points are fine: ${esc(bn())} will check them and help you turn them into a full answer.">${esc(mine)}</textarea></label>`;
+  }
+  const work = written ? '' : `<details class="pp-work" ${p.work[q.n] ? 'open' : ''}><summary>My working (optional)</summary><textarea data-work="${q.n}" id="pqw-${q.n}" rows="3" placeholder="Show your steps here. If the answer is wrong, ${esc(bn())} can find the slip.">${esc(p.work[q.n] || '')}</textarea></details>`;
+  let acts = '';
+  if (busy) acts = `<p class="pp-busy" role="status"><span class="spin" aria-hidden="true"></span>${esc(busy)}</p>`;
+  else if (!locked) acts = `<div class="pp-acts"><button class="btn pri" data-pp-mine="${q.n}" ${isAnswered(p, q) ? '' : 'disabled'}>${written ? `Check with ${esc(bn())}` : 'Check answer'}</button><button class="btn ghost" data-pp-show="${q.n}">${written ? `Show ${esc(bn())}’s answer` : 'Show the answer'}</button></div>`;
+  let result = '';
+  if (done && !written) {
+    const ok = st === 'ok';
+    result = `<div class="pp-sol"><p class="pp-you ${ok ? 'ok' : 'bad'}" role="status">${ok ? `✓ Right! The answer is ${mdi(answerLabel(q, ref))}.` : `✗ Not quite. You answered ${mdi(answerLabel(q, mine))}; the answer is ${mdi(answerLabel(q, ref))}.`}</p>
+      ${!ok && p.feedback[q.n] ? feedbackHTML(q, p.feedback[q.n]) : ''}
+      ${sol ? solutionHTML(p, q, sol) : `<p class="pv-small">Marked against the paper’s own answer key.</p>`}
+      ${busy ? '' : `<div class="pp-acts">${ok ? '' : `<button class="btn pri" data-pp-again="${q.n}">Try again</button>${p.feedback[q.n] ? '' : `<button class="btn" data-pp-mistake="${q.n}">Find my mistake</button>`}`}${sol ? `<button class="btn" data-pp-check="${q.n}" ${c && c.status === 'running' ? 'disabled' : ''}>Double-check</button>` : ''}<button class="btn ghost" data-pp-ask="${q.n}">Ask ${esc(bn())} about this</button></div>`}</div>`;
+  } else if (done && written) {
+    result = `<div class="pp-sol">${feedbackHTML(q, p.feedback[q.n])}
+      ${sol ? `<details class="pp-model"><summary>${esc(bn())}’s full answer</summary>${solutionHTML(p, q, sol)}</details>` : ''}
+      ${busy ? '' : `<div class="pp-acts"><button class="btn" data-pp-again="${q.n}">Edit my answer and check again</button><button class="btn ghost" data-pp-ask="${q.n}">Ask ${esc(bn())} about this</button></div>`}</div>`;
+  } else if (seen) {
+    result = `<div class="pp-sol"><p class="pv-small">You looked at the answer${isAnswered(p, q) ? '' : ' before answering'}. Try a similar question later to make sure it sticks.</p>
+      ${sol ? solutionHTML(p, q, sol) : ''}
+      <div class="pp-acts"><button class="btn" data-pp-unseen="${q.n}">Hide it and try myself</button><button class="btn ghost" data-pp-ask="${q.n}">Ask ${esc(bn())} about this</button></div></div>`;
+  }
+  return `<article class="pp-q st-${st || 'none'}" id="pq-${q.n}">${head(`<span class="pp-st st-${st || 'none'}">${STATE_LABEL[st]}</span>`)}${field}${work}${acts}${failedNote(p, q)}${result}</article>`;
+}
+
+/* Solves the question the student is checking, with the next unsolved ones in the same request. One job at a time. */
+async function ensureSolved(p, n) {
+  while (PAPER_JOB) await PAPER_JOB.catch(() => {});
+  if (p.solutions[n]) return true;
+  if ((p.failed[n] || 0) >= 2) return false;
+  PAPER_JOB = solveBatch(p, SparkPaper.batchFor(p, n));
+  try { await PAPER_JOB; } finally { PAPER_JOB = null; }
+  return !!p.solutions[n];
+}
+const qOf = (p, n) => p.questions.find(x => x.n === n);
+async function checkMine(p, n) {
+  const q = qOf(p, n); if (!q || !isAnswered(p, q) || CHECKING[n]) return;
+  if (!hasAI() && p.answerKey[n] == null) return toast(`${bn()} needs its AI connection to check answers.`);
+  const written = q.type === 'descriptive';
+  CHECKING[n] = written ? `${bn()} is reading your answer…` : 'Checking…'; paintQ(p, n);
+  try {
+    const solved = hasAI() ? await ensureSolved(p, n) : false;
+    if (written) {
+      if (!solved) throw new Error(`${bn()} couldn’t work out this question reliably. Ask about it in a notebook.`);
+      const f = SparkPaper.readFeedback(await geminiJSON(SparkPaper.feedbackPrompt(q, p.solutions[n], p.mine[n], '', paperCtx(p)), SparkPaper.FEEDBACK_SCHEMA, PAPER_MODELS, 3000), q);
+      if (!f) throw new Error(`${bn()} couldn’t mark that just now. Try again in a moment.`);
+      p.feedback[n] = f;
+    } else if (!solved && p.answerKey[n] == null) throw new Error(`${bn()} couldn’t solve this one reliably, so it can’t be marked. Ask about it in a notebook.`);
+    else delete p.feedback[n];
+    p.checked[n] = true; delete p.revealed[n];
+  } catch (e) { toast(e.message || 'Could not check that answer.'); }
+  delete CHECKING[n]; save();
+  if (paperOpen() === p) { paintQ(p, n, true); paintTop(p); }
+}
+async function findMistake(p, n) {
+  const q = qOf(p, n); if (!q || CHECKING[n]) return;
+  CHECKING[n] = `${bn()} is looking at your working…`; paintQ(p, n);
+  try {
+    const f = SparkPaper.readFeedback(await geminiJSON(SparkPaper.feedbackPrompt(q, p.solutions[n], p.mine[n], p.work[n] || '', paperCtx(p)), SparkPaper.FEEDBACK_SCHEMA, PAPER_MODELS, 2500), q);
+    if (!f) throw new Error(`${bn()} couldn’t look at that just now. Try again in a moment.`);
+    p.feedback[n] = f;
+  } catch (e) { toast(e.message || 'Could not look at your working.'); }
+  delete CHECKING[n]; save();
+  if (paperOpen() === p) paintQ(p, n, true);
+}
+async function showAnswer(p, n) {
+  const q = qOf(p, n); if (!q || CHECKING[n]) return;
+  if (!p.solutions[n]) {
+    if (!hasAI()) return toast(`${bn()} needs its AI connection to solve this.`);
+    CHECKING[n] = `${bn()} is solving it…`; paintQ(p, n);
+    try { if (!(await ensureSolved(p, n))) toast(`${bn()} couldn’t solve this one reliably. Ask about it in a notebook.`); } catch (e) { toast(e.message || 'Could not solve that question.'); }
+    delete CHECKING[n];
+  }
+  if (p.solutions[n]) p.revealed[n] = true;
+  save(); if (paperOpen() === p) { paintQ(p, n, true); paintTop(p); }
+}
+/* "Check all my answers": every ticked or typed answer not checked yet (written answers are checked one by one). */
+async function checkAll(p) {
+  const todo = p.questions.filter(q => q.type !== 'descriptive' && isAnswered(p, q) && !p.checked[q.n] && !CHECKING[q.n]);
+  for (const q of todo) CHECKING[q.n] = 'Waiting to be checked…';
+  paintTop(p); todo.forEach(q => paintQ(p, q.n));
+  for (const q of todo) { delete CHECKING[q.n]; await checkMine(p, q.n); }
+  const w = p.questions.filter(q => q.type === 'descriptive' && isAnswered(p, q) && !p.checked[q.n]).length;
+  if (w) toast(`${w} written answer${w === 1 ? '' : 's'} still to check: tap “Check with ${bn()}” on each one.`);
+}
+
+/* Redraw one question in place (typing elsewhere keeps its place and focus). */
+function paintQ(p, n, focusResult) {
+  const el = document.getElementById('pq-' + n); if (!el) return;
+  const had = el.contains(document.activeElement);
+  el.outerHTML = paperQ(p, qOf(p, n));
+  const now = document.getElementById('pq-' + n);
+  if (had || focusResult) { const t = now.querySelector('.pp-you, .pp-fb, .pp-acts .btn, textarea, input:not([disabled])'); if (t) { if (!t.matches('button, textarea, input')) t.tabIndex = -1; t.focus({ preventScroll: true }); } }
+  const chip = document.querySelector(`[data-go="${n}"]`); if (chip) { const st = qState(p, qOf(p, n)); chip.className = 'st-' + (st || 'none'); chip.setAttribute('aria-label', `Question ${n}: ${STATE_LABEL[st]}`); }
+}
+function topStats(p) {
+  const qs = p.questions, answered = qs.filter(q => isAnswered(p, q)).length, checked = qs.filter(q => ['ok', 'bad', 'part'].includes(qState(p, q))).length;
+  const attempts = {}; for (const q of qs) if (p.checked[q.n]) attempts[q.n] = p.mine[q.n];
+  const sc = SparkPaper.score(p, attempts, p.exam), written = qs.filter(q => q.type === 'descriptive' && p.checked[q.n] && p.feedback[q.n]);
+  const marks = written.filter(q => p.feedback[q.n].marks != null), wm = marks.reduce((a, q) => a + p.feedback[q.n].marks, 0), wt = marks.reduce((a, q) => a + q.marks, 0);
+  const left = qs.filter(q => q.type !== 'descriptive' && isAnswered(p, q) && !p.checked[q.n]).length, busy = Object.keys(CHECKING).length > 0;
+  return `<div class="pp-prog"><span><b>${answered}</b> of ${qs.length} answered · <b>${checked}</b> checked</span><span class="pp-bar-t" aria-hidden="true"><i style="width:${qs.length ? Math.round(100 * answered / qs.length) : 0}%"></i></span>
+    <button class="btn" id="ppCheckAll" ${left && !busy ? '' : 'disabled'}>Check all my answers${left ? ` (${left})` : ''}</button></div>
+    ${sc.total || written.length ? `<p class="pp-score" role="status">${sc.total ? `Choice and number questions: <b>${sc.right} of ${sc.total} right</b>${sc.marking ? ` · ${sc.marks} marks with the usual ${esc(sc.marking)} marking` : ''}.` : ''}${written.length ? ` Written answers: <b>${written.length} checked</b>${wt ? `, about ${wm} of ${wt} marks (${esc(bn())}’s estimate)` : ''}.` : ''}</p>` : ''}`;
+}
+function paintTop(p) { const t = $('#ppStats'); if (t) t.innerHTML = topStats(p); }
+
 function renderPaperDetail(p) {
-  const n = p.questions.length, d = Object.keys(p.solutions).length, left = SparkPaper.nextBatch(p).length, e = SparkPaper.examOf(p.exam), sc = SparkPaper.score(p, p.mine, p.exam);
-  const ref = sc.againstKey === sc.total ? 'the paper’s answer key' : sc.againstKey ? `the paper’s key where it has one, otherwise ${esc(bn())}’s answers` : `${esc(bn())}’s answers (not an official key)`;
-  $('#view').innerHTML = `<div class="page"><div class="page-in">
-    <header class="page-h"><button class="linkish" id="ppBack">← All papers</button><h1>${esc(p.title || p.file)}</h1><p>${n} questions${e ? ' · ' + esc(e.name) : ''} · ${d} solved${Object.keys(p.answerKey).length ? ' · this paper has its own answer key' : ''}</p></header>
-    <div class="pp-bar">
+  paperFields(p);
+  const scroller = $('#view .page'), top = scroller ? scroller.scrollTop : 0, focusId = document.activeElement && document.activeElement.id;
+  const n = p.questions.length, d = Object.keys(p.solutions).length, left = SparkPaper.nextBatch(p).length, e = SparkPaper.examOf(p.exam), practice = p.mode === 'practice';
+  $('#view').innerHTML = `<div class="page"><div class="page-in" id="ppWrap">
+    <header class="page-h"><button class="linkish" id="ppBack">← All papers</button><h1>${esc(p.title || p.file)}</h1><p>${n} questions${e ? ' · ' + esc(e.name) : ''}${Object.keys(p.answerKey).length ? ' · this paper has its own answer key' : ''}</p></header>
+    <div class="pp-mode" role="group" aria-label="How to use this paper"><button data-mode="practice" aria-pressed="${practice}">✍️ Solve it myself</button><button data-mode="solutions" aria-pressed="${!practice}">💡 See all solutions</button></div>
+    ${practice ? `<div class="pp-sticky"><div id="ppStats">${topStats(p)}</div>
+      <nav class="pp-nav" aria-label="Jump to a question">${p.questions.map(q => { const st = qState(p, q); return `<button data-go="${q.n}" class="st-${st || 'none'}" aria-label="Question ${q.n}: ${STATE_LABEL[st]}">${q.n}</button>`; }).join('')}</nav></div>`
+    : `<div class="pp-bar">
       <button class="btn pri" id="ppNext" ${PAPER_BUSY || !left ? 'disabled' : ''}>${PAPER_BUSY ? esc(PAPER_BUSY) : !left ? 'All solved' : d ? 'Solve the next 5' : 'Solve the first 5'}</button>
       <button class="btn" id="ppAll" ${PAPER_BUSY || !left ? 'disabled' : ''}>Solve all ${left ? `(${left} left)` : ''}</button>
-      ${PAPER_BUSY ? '<button class="btn ghost" id="ppStop">Stop after this</button>' : ''}
-      <label class="check"><input type="checkbox" id="ppTry" ${p.tryFirst ? 'checked' : ''}><span>Try it first: answers stay hidden until you answer</span></label>
-    </div>
-    ${sc.total ? `<p class="pp-score" role="status">Your score: <b>${sc.right} of ${sc.total} right</b>${sc.marking ? ` · ${sc.marks} marks with the usual ${esc(sc.marking)} marking` : ''}. Marked against ${ref}.</p>` : ''}
+      ${PAPER_BUSY ? '<button class="btn ghost" id="ppStop">Stop after this</button>' : ''}<span class="pv-small">${d} of ${n} solved</span>
+    </div>`}
     <div class="pp-qs" id="ppQs">${p.questions.map(q => paperQ(p, q)).join('')}</div>
-    <p class="pv-small">The answers are made by AI and can be wrong. "Matches the paper’s answer key" and "Checked a second way" mean an answer passed a check; "not checked" means it didn’t get one. <button class="linkish" id="ppDel">Delete this paper</button></p>
+    <p class="pv-small">${practice ? `Your answers are saved on this device as you type. ` : ''}The answers and marking are made by AI and can be wrong. "Matches the paper’s answer key" and "Checked a second way" mean an answer passed a check; "not checked" means it didn’t get one. <button class="linkish" id="ppDel">Delete this paper</button></p>
   </div></div>`;
+  const sc = $('#view .page'); if (sc) sc.scrollTop = top;
+  if (focusId && document.getElementById(focusId)) document.getElementById(focusId).focus({ preventScroll: true });
   $('#ppBack').onclick = () => { S.activePaperId = null; save(); renderPaper(); };
-  $('#ppNext').onclick = () => solvePaper(p, false);
-  $('#ppAll').onclick = () => { if (left > 30 && !confirm(`Solve all ${left} questions? That uses about ${Math.ceil(left / SparkPaper.BATCH)} requests of the free AI allowance.`)) return; solvePaper(p, true); };
+  if ($('#ppNext')) $('#ppNext').onclick = () => solvePaper(p, false);
+  if ($('#ppAll')) $('#ppAll').onclick = () => { if (left > 30 && !confirm(`Solve all ${left} questions? That uses about ${Math.ceil(left / SparkPaper.BATCH)} requests of the free AI allowance.`)) return; solvePaper(p, true); };
   if ($('#ppStop')) $('#ppStop').onclick = () => { PAPER_STOP = true; toast('Stopping after this group.'); };
-  $('#ppTry').onchange = ev => { p.tryFirst = ev.target.checked; save(); renderPaper(); };
-  $('#ppDel').onclick = () => { if (!confirm('Delete this paper and its answers from this device?')) return; S.papers = papers().filter(x => x !== p); S.activePaperId = null; save(); renderPaper(); };
-  const box = $('#ppQs');
-  box.onclick = ev => {
+  $('#ppDel').onclick = () => { if (!confirm('Delete this paper and your answers from this device?')) return; S.papers = papers().filter(x => x !== p); S.activePaperId = null; save(); renderPaper(); };
+  const wrap = $('#ppWrap');
+  wrap.onclick = ev => {
     const t = ev.target.closest('button'); if (!t) return;
     const num = k => Number(t.dataset[k]);
-    if (t.dataset.pick) {
-      const qn = num('pick'), q = p.questions.find(x => x.n === qn);
-      if (q.type === 'multi') { const s = new Set(PICKS[qn] || []); s.has(t.dataset.l) ? s.delete(t.dataset.l) : s.add(t.dataset.l); PICKS[qn] = [...s].sort(); }
-      else { p.mine[qn] = t.dataset.l; save(); }
-      return renderPaper();
-    }
-    if (t.dataset.ppSubmit) { const qn = num('ppSubmit'); p.mine[qn] = (PICKS[qn] || []).join(','); delete PICKS[qn]; save(); return renderPaper(); }
-    if (t.dataset.ppShow) { p.revealed[num('ppShow')] = true; save(); return renderPaper(); }
+    if (t.dataset.mode) { if (p.mode !== t.dataset.mode) { p.mode = t.dataset.mode; save(); renderPaper(); } return; }
+    if (t.id === 'ppCheckAll') return checkAll(p);
+    if (t.dataset.go) { const a = document.getElementById('pq-' + t.dataset.go); if (a) { a.scrollIntoView({ block: 'start', behavior: 'smooth' }); const f = a.querySelector('input:not([disabled]), textarea:not([readonly])'); if (f) setTimeout(() => f.focus({ preventScroll: true }), 300); } return; }
+    if (t.dataset.ppMine) return checkMine(p, num('ppMine'));
+    if (t.dataset.ppShow) return showAnswer(p, num('ppShow'));
+    if (t.dataset.ppMistake) return findMistake(p, num('ppMistake'));
+    if (t.dataset.ppAgain) { const qn = num('ppAgain'), q = qOf(p, qn); delete p.checked[qn]; delete p.feedback[qn]; if (q.type !== 'descriptive') delete p.mine[qn]; save(); paintQ(p, qn, true); return paintTop(p); }
+    if (t.dataset.ppUnseen) { const qn = num('ppUnseen'); delete p.revealed[qn]; save(); paintQ(p, qn, true); return paintTop(p); }
     if (t.dataset.ppCheck) return paperDoubleCheck(p, num('ppCheck'));
     if (t.dataset.ppAsk) return paperAsk(p, num('ppAsk'));
     if (t.dataset.ppRedo) { const qn = num('ppRedo'); delete p.solutions[qn]; delete p.checks[qn]; delete p.failed[qn]; save(); return solvePaper(p, false, [qn]); }
   };
-  box.onsubmit = ev => { const f = ev.target.closest('[data-pp-num]'); if (!f) return; ev.preventDefault(); const v = f.a.value.trim(); if (!v) return; p.mine[Number(f.dataset.ppNum)] = v; save(); renderPaper(); };
+  // Typing and ticking update the answer without redrawing the page.
+  const changed = (n) => {
+    const q = qOf(p, n), b = document.querySelector(`[data-pp-mine="${n}"]`); if (b) b.disabled = !isAnswered(p, q);
+    const chip = document.querySelector(`[data-go="${n}"]`); if (chip) { const st = qState(p, q); chip.className = 'st-' + (st || 'none'); chip.setAttribute('aria-label', `Question ${n}: ${STATE_LABEL[st]}`); }
+    const a = document.getElementById('pq-' + n), st = qState(p, q); if (a) { a.className = `pp-q st-${st || 'none'}`; const s = a.querySelector('.pp-st'); if (s) { s.className = `pp-st st-${st || 'none'}`; s.textContent = STATE_LABEL[st]; } }
+    const prog = $('#ppStats .pp-prog span'); if (prog) prog.innerHTML = `<b>${p.questions.filter(x => isAnswered(p, x)).length}</b> of ${p.questions.length} answered · <b>${p.questions.filter(x => ['ok', 'bad', 'part'].includes(qState(p, x))).length}</b> checked`;
+    const bar = $('#ppStats .pp-bar-t i'); if (bar) bar.style.width = Math.round(100 * p.questions.filter(x => isAnswered(p, x)).length / p.questions.length) + '%';
+    const all = $('#ppCheckAll'); if (all) { const left = p.questions.filter(x => x.type !== 'descriptive' && isAnswered(p, x) && !p.checked[x.n]).length; all.disabled = !left || Object.keys(CHECKING).length > 0; all.textContent = `Check all my answers${left ? ` (${left})` : ''}`; }
+  };
+  wrap.oninput = ev => {
+    const t = ev.target;
+    if (t.dataset.work) { p.work[Number(t.dataset.work)] = t.value; return saveSoon(); }
+    if (t.dataset.mine && t.type !== 'radio' && t.type !== 'checkbox') { const n = Number(t.dataset.mine); p.mine[n] = t.value; saveSoon(); changed(n); }
+  };
+  wrap.onchange = ev => {
+    const t = ev.target; if (!t.dataset.mine || (t.type !== 'radio' && t.type !== 'checkbox')) return;
+    const n = Number(t.dataset.mine);
+    p.mine[n] = t.type === 'radio' ? t.value : [...document.querySelectorAll(`input[name="pq${n}"]:checked`)].map(x => x.value).sort().join(',');
+    save(); changed(n);
+  };
 }
 
 /* ---------- learn from notes ---------- */
