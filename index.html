@@ -2151,7 +2151,7 @@ function renderPaper() {
   const p = paperOpen();
   if (p) return renderPaperDetail(p);
   if (PAPER_EXAM === null) PAPER_EXAM = S.settings.exam || '';
-  const maxMB = S.settings.apiKey ? 15 : 3, EX = SparkPaper.EXAMS;
+  const maxMB = UPLOAD_MB, EX = SparkPaper.EXAMS;
   $('#view').innerHTML = `<div class="page"><div class="page-in">
     <header class="page-h"><h1>Solve a paper</h1><p>Upload a question paper or a mock test and it becomes your own answer sheet: tick the options, type your answers, and check each one with ${esc(bn())} whenever you’re ready.</p></header>
     <div class="pp-exam"><label for="ppExam">Which exam is it for?</label><select id="ppExam"><option value="">School test (any class)</option>${Object.entries(EX).map(([k, e]) => `<option value="${k}" ${k === PAPER_EXAM ? 'selected' : ''}>${esc(e.name)}</option>`).join('')}</select></div>
@@ -2161,7 +2161,7 @@ function renderPaper() {
     <p class="drop-status" id="ppStatus" role="status" aria-live="polite">${esc(PAPER_BUSY)}</p>
     <ol class="steps3"><li><b>Upload</b>A PDF or photos of the paper</li><li><b>Solve it yourself</b>Tick options, type numbers, write answers (rough points are fine)</li><li><b>Check</b>Each answer with an explanation; written answers get marked with tips</li></ol>
     <section aria-labelledby="ppList"><h2 class="h-sec" id="ppList">Your papers</h2>${papers().length ? `<div class="list">${papers().map(x => `<button class="row-card" data-open-paper="${x.id}"><span class="ic">${docSvg}</span><span class="rc-main"><b>${esc(x.title || x.file)}</b><span>${x.questions.length} questions · ${x.mode === 'practice' ? `${Object.values(x.mine || {}).filter(v => String(v).trim()).length} answered` : `${Object.keys(x.solutions).length} solved`}${EX[x.exam] ? ' · ' + esc(EX[x.exam].name) : ''} · ${ago(x.created)}</span></span></button>`).join('')}</div>` : '<p class="pv-small">No papers yet.</p>'}</section>
-    <p class="pv-small">${esc(bn())} prepares every answer as soon as you upload, so checks are instant. That uses this site's free AI allowance: about one request per question, plus one for each written answer you check. The answers are made by AI and can be wrong; for anything important, check with your teacher or the official answer key.</p>
+    <p class="pv-small">${esc(bn())} prepares every answer as soon as you upload, so checks are instant. That uses this site's free AI allowance: about one request for each question you reach, plus one for each written answer you check. The answers are made by AI and can be wrong; for anything important, check with your teacher or the official answer key.</p>
   </div></div>`;
   const drop = $('#ppDrop'), pick = () => $('#paperIn').click();
   drop.onclick = pick;
@@ -2180,24 +2180,32 @@ async function uploadPaper(files) {
   if (PAPER_BUSY) return;
   if (!hasAI()) return toast(`${bn()} needs its AI connection to read a paper.`);
   const say = t => { PAPER_BUSY = t; const st = $('#ppStatus'); if (st) st.textContent = t; const d = $('#ppDrop'); if (d) d.classList.toggle('busy', !!t); };
-  const pdfs = files.filter(f => f.type === 'application/pdf' || /\.pdf$/i.test(f.name)), imgs = files.filter(f => f.type.startsWith('image/'));
+  const pdfs = files.filter(isPdfFile), imgs = files.filter(f => f.type.startsWith('image/'));
   if (!pdfs.length && !imgs.length) return toast('Upload the paper as a PDF or photos of its pages.');
   if (pdfs.length > 1 || (pdfs.length && imgs.length)) return toast('Upload one PDF, or photos of one paper’s pages.');
   if (imgs.length > 12) return toast('Up to 12 photos at a time.');
+  const huge = files.find(f => f.size > UPLOAD_MB * 1024 * 1024); if (huge) return toast(`${huge.name} is over ${UPLOAD_MB} MB. Try a smaller file.`);
   const parts = pdfs.length ? pdfs : imgs.sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true }));
   const p = newPaper(parts[0].name.replace(/\.[^.]+$/, '').replace(/[_-]+/g, ' ').trim().slice(0, 60) || 'Question paper', PAPER_EXAM);
   try {
-    for (let i = 0; i < parts.length; i++) {
-      say(parts.length > 1 ? `Reading page ${i + 1} of ${parts.length}…` : `Reading ${parts[i].name}…`);
-      const r = await readMaterial(parts[i]), file = [{ mime: r.mat.mime, data: r.data }];
-      if (imgs.length) { addChunk(p, await geminiJSON(SparkPaper.extractPrompt(nextN(p), true), SparkPaper.EXTRACT_SCHEMA, PAPER_MODELS, 8000, file)); continue; }
-      // A long paper is read about 40 questions at a time (one reply can only be so long).
-      for (let from = 1, guard = 0; guard < 12; guard++) {
-        const c = addChunk(p, await geminiJSON(SparkPaper.extractPrompt(from), SparkPaper.EXTRACT_SCHEMA, PAPER_MODELS, 8000, file));
-        say(`Read ${p.questions.length} questions so far…`);
+    // A long paper is read about 40 questions at a time (one reply can only be so long).
+    const readPdf = async (data, label) => {
+      for (let from = nextN(p), guard = 0; guard < 12; guard++) {
+        const c = addChunk(p, await geminiJSON(SparkPaper.extractPrompt(from), SparkPaper.EXTRACT_SCHEMA, PAPER_MODELS, 8000, [{ mime: 'application/pdf', data }]));
+        say(`${label}Read ${p.questions.length} questions so far…`);
         if (!c.more || !c.added) break;
         from = nextN(p);
       }
+    };
+    if (pdfs.length && pdfs[0].size > sendMax()) { // a big PDF: made lighter in the browser, then read part by part
+      const l = await lightenPdf(pdfs[0], sendMax(), false, (i, t) => say(`Preparing page ${i} of ${t}…`));
+      for (let k = 0; k < l.parts.length; k++) await readPdf(l.parts[k], l.parts.length > 1 ? `Part ${k + 1} of ${l.parts.length}: ` : '');
+      if (l.kept < l.pages) toast(`${bn()} read the first ${l.kept} of the paper’s ${l.pages} pages.`);
+    } else for (let i = 0; i < parts.length; i++) {
+      say(parts.length > 1 ? `Reading page ${i + 1} of ${parts.length}…` : `Reading ${parts[i].name}…`);
+      const r = await readMaterial(parts[i]), file = [{ mime: r.mat.mime, data: r.data }];
+      if (imgs.length) { addChunk(p, await geminiJSON(SparkPaper.extractPrompt(nextN(p), true), SparkPaper.EXTRACT_SCHEMA, PAPER_MODELS, 8000, file)); continue; }
+      await readPdf(r.data, '');
     }
     if (!p.questions.length) throw new Error(`${bn()} couldn’t find any questions in that file. Try a clearer photo, or a PDF whose text you can select.`);
     papers().unshift(p); S.activePaperId = p.id; save();
@@ -2383,13 +2391,14 @@ function paperQ(p, q) {
   return `<article class="pp-q st-${st || 'none'}" id="pq-${q.n}">${head(`<span class="pp-st st-${st || 'none'}">${STATE_LABEL[st]}</span>`)}${field}${work}${acts}${failedNote(p, q)}${result}</article>`;
 }
 
-/* Answers are prepared as soon as a paper is uploaded (or opened with questions still unsolved): one at a time, three
-   requests in parallel, so "Check answer" just shows an answer that is already there. One question per request,
+/* Answers are prepared ahead of the student, so "Check answer" just shows an answer that is already there: on upload
+   the first PREP_AHEAD questions, then always PREP_AHEAD past the furthest question they've touched (all of them in
+   "See all solutions"). Solving only what is likely to be checked keeps a half-done paper from costing a full one. One question per request,
    three requests at a time: bigger requests made the model slow, and sometimes loop and lose answers. If the student checks a question that isn't ready, it is
    solved on its own right away, or the request already solving it is awaited. */
 const INFLIGHT = new Map(); // "paperId:n" → the request solving that question
 const PREPARING = new Set(); // ids of papers being prepared
-const PREP_SIZE = 1, PREP_LANES = 3; // one question per request comes back fastest and most reliably
+const PREP_SIZE = 1, PREP_LANES = 3, PREP_AHEAD = 5; // one question per request comes back fastest and most reliably
 function solveTracked(p, qs, ahead) {
   const pr = solveBatch(p, qs, ahead).then(() => true, e => { if (!ahead) throw e; return false; });
   for (const q of qs) INFLIGHT.set(p.id + ':' + q.n, pr);
@@ -2402,7 +2411,10 @@ async function ensureSolved(p, n) {
   if (!p.solutions[n] && (p.failed[n] || 0) < 2) await solveTracked(p, [qOf(p, n)]);
   return !!p.solutions[n];
 }
-const unprepared = p => p.questions.filter(q => !p.solutions[q.n] && (p.failed[q.n] || 0) < 2);
+const prepLimit = p => (p.mode === 'practice' ? Math.max(PREP_AHEAD, (p.reach || 0) + PREP_AHEAD + 1) : Infinity);
+const unprepared = p => p.questions.filter((q, i) => i < prepLimit(p) && !p.solutions[q.n] && (p.failed[q.n] || 0) < 2);
+/* The student reached question n (answered, opened or jumped to it): keep the answers ahead of them ready. */
+function reached(p, n) { const i = p.questions.findIndex(q => q.n === n); if (i > (p.reach || 0)) { p.reach = i; saveSoon(); } prepareAnswers(p); }
 async function prepareAnswers(p) {
   if (PREPARING.has(p.id) || !hasAI() || !unprepared(p).length) return;
   PREPARING.add(p.id); if (paperOpen() === p) paintPrep(p);
@@ -2413,8 +2425,8 @@ async function prepareAnswers(p) {
 }
 function prepLine(p) {
   const n = p.questions.length, ready = p.questions.filter(q => p.solutions[q.n]).length;
-  if (PREPARING.has(p.id)) return `<p class="pp-prep" role="status"><span class="spin" aria-hidden="true"></span>${esc(bn())} is preparing the answers: <b>${ready} of ${n}</b> ready. Start answering, checks will be instant.</p>`;
-  if (ready === n) return `<p class="pp-prep ok">⚡ All answers ready: checks are instant.</p>`;
+  if (PREPARING.has(p.id)) return `<p class="pp-prep" role="status"><span class="spin" aria-hidden="true"></span>${esc(bn())} is getting answers ready ahead of you (${ready} of ${n} so far). Start answering, checks will be instant.</p>`;
+  if (ready) return `<p class="pp-prep ok">⚡ Checks are instant: ${esc(bn())} keeps the answers ready a few questions ahead of you.</p>`;
   return '';
 }
 function paintPrep(p) {
@@ -2424,6 +2436,7 @@ function paintPrep(p) {
 const qOf = (p, n) => p.questions.find(x => x.n === n);
 async function checkMine(p, n) {
   const q = qOf(p, n); if (!q || !isAnswered(p, q) || CHECKING[n]) return;
+  reached(p, n);
   if (!hasAI() && p.answerKey[n] == null) return toast(`${bn()} needs its AI connection to check answers.`);
   const written = q.type === 'descriptive';
   if (!written && (p.solutions[n] || !hasAI() && p.answerKey[n] != null)) { delete p.feedback[n]; p.checked[n] = true; delete p.revealed[n]; save(); paintQ(p, n, true); return paintTop(p); }
@@ -2527,7 +2540,7 @@ function renderPaperDetail(p) {
     const num = k => Number(t.dataset[k]);
     if (t.dataset.mode) { if (p.mode !== t.dataset.mode) { p.mode = t.dataset.mode; save(); renderPaper(); } return; }
     if (t.id === 'ppCheckAll') return checkAll(p);
-    if (t.dataset.go) { const a = document.getElementById('pq-' + t.dataset.go); if (a) { a.scrollIntoView({ block: 'start', behavior: 'smooth' }); const f = a.querySelector('input:not([disabled]), textarea:not([readonly])'); if (f) setTimeout(() => f.focus({ preventScroll: true }), 300); } return; }
+    if (t.dataset.go) { reached(p, Number(t.dataset.go)); const a = document.getElementById('pq-' + t.dataset.go); if (a) { a.scrollIntoView({ block: 'start', behavior: 'smooth' }); const f = a.querySelector('input:not([disabled]), textarea:not([readonly])'); if (f) setTimeout(() => f.focus({ preventScroll: true }), 300); } return; }
     if (t.dataset.ppMine) return checkMine(p, num('ppMine'));
     if (t.dataset.ppShow) return showAnswer(p, num('ppShow'));
     if (t.dataset.ppMistake) return findMistake(p, num('ppMistake'));
@@ -2549,13 +2562,13 @@ function renderPaperDetail(p) {
   wrap.oninput = ev => {
     const t = ev.target;
     if (t.dataset.work) { p.work[Number(t.dataset.work)] = t.value; return saveSoon(); }
-    if (t.dataset.mine && t.type !== 'radio' && t.type !== 'checkbox') { const n = Number(t.dataset.mine); p.mine[n] = t.value; saveSoon(); changed(n); }
+    if (t.dataset.mine && t.type !== 'radio' && t.type !== 'checkbox') { const n = Number(t.dataset.mine); p.mine[n] = t.value; saveSoon(); changed(n); if ((p.reach || 0) < p.questions.findIndex(q => q.n === n)) reached(p, n); }
   };
   wrap.onchange = ev => {
     const t = ev.target; if (!t.dataset.mine || (t.type !== 'radio' && t.type !== 'checkbox')) return;
     const n = Number(t.dataset.mine);
     p.mine[n] = t.type === 'radio' ? t.value : [...document.querySelectorAll(`input[name="pq${n}"]:checked`)].map(x => x.value).sort().join(',');
-    save(); changed(n);
+    save(); changed(n); reached(p, n);
   };
 }
 
@@ -2564,7 +2577,7 @@ const uploadSvg = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" s
 function renderNotesHub() {
   const all = []; for (const n of S.notebooks) for (const m of n.materials || []) all.push({ m, n });
   all.sort((a, b) => b.m.ts - a.m.ts);
-  const maxMB = S.settings.apiKey ? 15 : 3;
+  const maxMB = UPLOAD_MB;
   $('#view').innerHTML = `<div class="page"><div class="page-in">
     <header class="page-h"><h1>Learn from Notes</h1><p>Upload your class notes. ${esc(bn())} explains them in the easiest way, then you can quiz yourself.</p></header>
     <div class="drop" id="drop" role="button" tabindex="0" aria-label="Upload notes: a PDF, photo or text file">
@@ -2589,7 +2602,7 @@ async function uploadNotes(f) {
   if (busy) return say(`${bn()} is still answering a question. Try again in a moment.`, true);
   say(`Reading ${f.name}…`);
   try {
-    const r = await readMaterial(f);
+    const r = await readMaterial(f, (i, t) => say(`Preparing page ${i} of ${t}…`));
     const n = blankNotebook(); n.title = f.name.replace(/\.[^.]+$/, '').replace(/[_-]+/g, ' ').trim().slice(0, 40) || 'My notes';
     S.mode = 'nb'; S.tab = 'chat'; save(); render();
     await attachMaterial(n, r, 'Explain these notes to me in the easiest way');
@@ -2724,16 +2737,80 @@ $('#fileIn').onchange = async e => {
     await addMaterial(f);
   } catch (err) { toast(err.message || 'Could not read that file.'); }
 };
-async function readMaterial(f) {
+/* ---------- big files ----------
+   Spark's host accepts about 4.5 MB per request, and a file grows by a third when it is sent, so anything over about
+   3 MB can't go as it is (with the student's own Google key the limit is Google's, about 14 MB). Photos are already
+   shrunk. A bigger PDF (up to 20 MB) is redrawn in the browser as a lighter PDF of page pictures: pdf.js reads it,
+   jsPDF writes it. Notes become one file; a long question paper becomes several parts that are read one after another.
+   Nothing is sent until the light version is ready. */
+const UPLOAD_MB = 20;
+const sendMax = () => (S.settings.apiKey ? 14 : 2.9) * 1024 * 1024;
+const PDF_LIBS = {
+  pdfjs: ['https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js', 'sha384-/1qUCSGwTur9vjf/z9lmu/eCUYbpOTgSjmpbMQZ1/CtX2v/WcAIKqRv+U1DUCG6e'],
+  worker: ['https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.worker.min.js', 'sha384-SnzOobpRMLXZ52iJvZm/C0fYw0OQemTXzTjIsdsfMcrCtCEe9qgzxTd3RSklO5x2'],
+  jspdf: ['https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js', 'sha384-JcnsjUPPylna1s1fvi1u12X5qjY5OL56iySh75FdtrwhO/SWXgMjoVqcKyIIWOLk']
+};
+const loadScript = ([src, integrity]) => new Promise((res, rej) => { const el = document.createElement('script'); el.src = src; el.integrity = integrity; el.crossOrigin = 'anonymous'; el.onload = res; el.onerror = rej; document.head.appendChild(el); });
+let PDF_TOOLS = null;
+function pdfTools() {
+  return PDF_TOOLS = PDF_TOOLS || (async () => {
+    await Promise.all([loadScript(PDF_LIBS.pdfjs), loadScript(PDF_LIBS.jspdf)]);
+    const w = await fetch(PDF_LIBS.worker[0], { integrity: PDF_LIBS.worker[1] }).then(r => { if (!r.ok) throw new Error(); return r.blob(); });
+    window.pdfjsLib.GlobalWorkerOptions.workerSrc = URL.createObjectURL(w); // same-origin copy: browsers won't start a worker from a CDN
+    return { pdfjs: window.pdfjsLib, jsPDF: window.jspdf.jsPDF };
+  })().catch(() => { PDF_TOOLS = null; throw new Error('Couldn’t load the tools for big PDFs. Check your internet and try again.'); });
+}
+/* Returns { parts: [base64 PDF], pages, kept }. single: one part, made lighter (and, last resort, cut short) until it fits. */
+async function lightenPdf(file, max, single, onPage) {
+  const { pdfjs, jsPDF } = await pdfTools();
+  let doc; try { doc = await pdfjs.getDocument({ data: new Uint8Array(await file.arrayBuffer()) }).promise; } catch (e) { throw new Error('That PDF couldn’t be opened. It may be damaged or password-protected.'); }
+  const pages = doc.numPages, total = Math.min(pages, 80);
+  const render = async (i, width, q) => {
+    const page = await doc.getPage(i), v = page.getViewport({ scale: 1 }), vp = page.getViewport({ scale: Math.min(2.5, width / v.width) });
+    const c = document.createElement('canvas'); c.width = Math.round(vp.width); c.height = Math.round(vp.height);
+    const ctx = c.getContext('2d'); ctx.fillStyle = '#fff'; ctx.fillRect(0, 0, c.width, c.height);
+    await page.render({ canvasContext: ctx, viewport: vp }).promise; page.cleanup();
+    const url = c.toDataURL('image/jpeg', q); c.width = c.height = 0;
+    return { url, w: vp.width, h: vp.height, bytes: Math.ceil((url.length - 23) * 3 / 4) };
+  };
+  const pack = imgs => { const o = im => (im.w > im.h ? 'l' : 'p'); const pdf = new jsPDF({ orientation: o(imgs[0]), unit: 'pt', format: [imgs[0].w, imgs[0].h], compress: true }); imgs.forEach((im, k) => { if (k) pdf.addPage([im.w, im.h], o(im)); pdf.addImage(im.url, 'JPEG', 0, 0, im.w, im.h); }); return pdf.output('datauristring').split(',')[1]; };
+  const budget = max * 0.94; // room for the PDF's own structure
+  if (!single) { // question paper: sharp pages, split into parts that each fit
+    const parts = []; let cur = [], size = 0;
+    for (let i = 1; i <= total; i++) {
+      onPage && onPage(i, total);
+      let im = await render(i, 1400, 0.72); if (im.bytes > budget) im = await render(i, 1000, 0.55);
+      if (cur.length && size + im.bytes > budget) { parts.push(pack(cur)); cur = []; size = 0; }
+      cur.push(im); size += im.bytes;
+    }
+    if (cur.length) parts.push(pack(cur));
+    return { parts, pages, kept: total };
+  }
+  // notes: one file. The first two pages show which quality fits; then every page is drawn once at that quality.
+  const LEVELS = [[1300, 0.68], [1050, 0.56], [850, 0.45]], sample = Math.min(2, total);
+  let level = LEVELS[LEVELS.length - 1];
+  for (const [width, q] of LEVELS) {
+    let b = 0; for (let i = 1; i <= sample; i++) b += (await render(i, width, q)).bytes;
+    if (b / sample * total <= budget * 0.9) { level = [width, q]; break; }
+  }
+  const fit = []; let size = 0;
+  for (let i = 1; i <= total; i++) { onPage && onPage(i, total); const im = await render(i, level[0], level[1]); if (size + im.bytes > budget) break; fit.push(im); size += im.bytes; }
+  if (!fit.length) throw new Error('Even one page of that PDF is too big to send. Try a photo of the page instead.');
+  return { parts: [pack(fit)], pages, kept: fit.length };
+}
+const isPdfFile = f => f.type === 'application/pdf' || /\.pdf$/i.test(f.name);
+
+async function readMaterial(f, onPage) {
   const isPdf = f.type === 'application/pdf' || /\.pdf$/i.test(f.name), isImg = f.type.startsWith('image/');
   const isText = !isPdf && !isImg && (/^text\//.test(f.type) || /\.(txt|md)$/i.test(f.name));
   if (!isText && !isPdf && !isImg) throw new Error('Upload notes as a PDF, a photo, or a .txt file.');
-  const maxMB = S.settings.apiKey ? 15 : 3;
-  if (f.size > maxMB * 1024 * 1024) throw new Error(`That file is over ${maxMB} MB. Try a smaller PDF or a photo of the page.`);
-  let mime, data;
+  if (f.size > UPLOAD_MB * 1024 * 1024) throw new Error(`That file is over ${UPLOAD_MB} MB. Try a smaller PDF or a photo of the page.`);
+  let mime, data, note = '';
   if (isImg) { const s = await shrink(f); mime = s.mime; data = s.data.split(',')[1]; }
   else if (isText) { mime = 'text/plain'; data = b64(await f.text()); }
+  else if (f.size > sendMax()) { const l = await lightenPdf(f, sendMax(), true, onPage); mime = 'application/pdf'; data = l.parts[0]; if (l.kept < l.pages) note = `That PDF is long, so ${bn()} kept the first ${l.kept} of its ${l.pages} pages.`; }
   else { mime = 'application/pdf'; data = await fileB64(f); }
+  if (note) toast(note);
   return { mat: { id: uid(), name: f.name, mime, size: f.size, ts: Date.now() }, data };
 }
 async function attachMaterial(n, r, ask) {
