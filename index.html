@@ -2161,7 +2161,7 @@ function renderPaper() {
     <p class="drop-status" id="ppStatus" role="status" aria-live="polite">${esc(PAPER_BUSY)}</p>
     <ol class="steps3"><li><b>Upload</b>A PDF or photos of the paper</li><li><b>Solve it yourself</b>Tick options, type numbers, write answers (rough points are fine)</li><li><b>Check</b>Each answer with an explanation; written answers get marked with tips</li></ol>
     <section aria-labelledby="ppList"><h2 class="h-sec" id="ppList">Your papers</h2>${papers().length ? `<div class="list">${papers().map(x => `<button class="row-card" data-open-paper="${x.id}"><span class="ic">${docSvg}</span><span class="rc-main"><b>${esc(x.title || x.file)}</b><span>${x.questions.length} questions · ${x.mode === 'practice' ? `${Object.values(x.mine || {}).filter(v => String(v).trim()).length} answered` : `${Object.keys(x.solutions).length} solved`}${EX[x.exam] ? ' · ' + esc(EX[x.exam].name) : ''} · ${ago(x.created)}</span></span></button>`).join('')}</div>` : '<p class="pv-small">No papers yet.</p>'}</section>
-    <p class="pv-small">${esc(bn())} prepares every answer as soon as you upload, so checks are instant. That uses this site's free AI allowance: about one request for every 2 questions, plus one for each written answer you check. The answers are made by AI and can be wrong; for anything important, check with your teacher or the official answer key.</p>
+    <p class="pv-small">${esc(bn())} prepares every answer as soon as you upload, so checks are instant. That uses this site's free AI allowance: about one request per question, plus one for each written answer you check. The answers are made by AI and can be wrong; for anything important, check with your teacher or the official answer key.</p>
   </div></div>`;
   const drop = $('#ppDrop'), pick = () => $('#paperIn').click();
   drop.onclick = pick;
@@ -2223,7 +2223,7 @@ async function solvePaper(p, all, only) {
 /* One request: Sparky solves these questions; each valid answer is stored, checked for free where possible, and kept. */
 async function solveBatch(p, batch, ahead) {
   if (!batch.length) return;
-  const got = SparkPaper.readSolutions(await geminiJSON(SparkPaper.solvePrompt(batch, paperCtx(p)), SparkPaper.SOLVE_SCHEMA, PAPER_MODELS, 8000), batch);
+  const got = SparkPaper.readSolutions(await geminiJSON(SparkPaper.solvePrompt(batch, paperCtx(p)), SparkPaper.SOLVE_SCHEMA, PAPER_MODELS, 8000, [], 90000), batch); // a careful solve can take a while: cutting it off at 30 s and starting again was slower
   for (const q of batch) {
     if (got[q.n]) { p.solutions[q.n] = got[q.n]; delete p.checks[q.n]; exactPaperCheck(p, q); learnFromPaper(p, q); }
     else if (!ahead) p.failed[q.n] = (p.failed[q.n] || 0) + 1; // a background miss doesn't count: the student's own check retries it
@@ -2383,13 +2383,13 @@ function paperQ(p, q) {
   return `<article class="pp-q st-${st || 'none'}" id="pq-${q.n}">${head(`<span class="pp-st st-${st || 'none'}">${STATE_LABEL[st]}</span>`)}${field}${work}${acts}${failedNote(p, q)}${result}</article>`;
 }
 
-/* Answers are prepared as soon as a paper is uploaded (or opened with questions still unsolved): two at a time, two
-   requests in parallel, so "Check answer" just shows an answer that is already there. Two questions per request:
-   more than that made the model loop and lose answers. If the student checks a question that isn't ready, it is
+/* Answers are prepared as soon as a paper is uploaded (or opened with questions still unsolved): one at a time, three
+   requests in parallel, so "Check answer" just shows an answer that is already there. One question per request,
+   three requests at a time: bigger requests made the model slow, and sometimes loop and lose answers. If the student checks a question that isn't ready, it is
    solved on its own right away, or the request already solving it is awaited. */
 const INFLIGHT = new Map(); // "paperId:n" → the request solving that question
 const PREPARING = new Set(); // ids of papers being prepared
-const PREP_SIZE = 2, PREP_LANES = 2;
+const PREP_SIZE = 1, PREP_LANES = 3; // one question per request comes back fastest and most reliably
 function solveTracked(p, qs, ahead) {
   const pr = solveBatch(p, qs, ahead).then(() => true, e => { if (!ahead) throw e; return false; });
   for (const q of qs) INFLIGHT.set(p.id + ':' + q.n, pr);
@@ -2946,7 +2946,7 @@ async function geminiFetch(stream, build, prefer, want = {}) {
   }
   let last, searchRefused = null;
   const bg = !!prefer && !stream;
-  const call = p => aiPost(p.model, stream, build(p), bg ? 30000 : stream ? 45000 : 60000);
+  const call = p => aiPost(p.model, stream, build(p), want.timeout || (bg ? 30000 : stream ? 45000 : 60000));
   for (const p of plans) {
     if (COOL[p.model] > Date.now() && p.model !== models[models.length - 1]) continue;
     if (p.tools.search && TOOL_COOL.search > Date.now()) continue;
@@ -3016,9 +3016,9 @@ async function geminiStream(n, onText, onSources, extra, rt = {}) {
 const formalJSON = (prompt, schema, o = {}) => geminiJSON(prompt, schema, o.again ? ['gemini-3.5-flash-lite', 'gemini-flash-lite-latest', 'gemini-3.1-flash-lite'] : ['gemini-3.5-flash', 'gemini-3.5-flash-lite', 'gemini-flash-lite-latest'], 2000);
 /* What the student asked earlier in this notebook (their messages only, never Sparky's), for follow-ups like "I got 12". */
 const earlierAsks = (n, user) => n.messages.filter(m => m.role === 'user' && m !== user && m.text).slice(-3).map(m => m.text).join('\n');
-async function geminiJSON(prompt, schema, prefer = LITE_MODELS, maxTokens, files = []) {
+async function geminiJSON(prompt, schema, prefer = LITE_MODELS, maxTokens, files = [], timeout) {
   // files: [{ mime, data }] (base64), e.g. the student's uploaded notes for a study pack.
-  const r = await geminiFetch(false, () => ({ contents: [{ role: 'user', parts: [...files.map(f => ({ inlineData: { mimeType: f.mime, data: f.data } })), { text: prompt }] }], generationConfig: Object.assign({ temperature: 0.2, responseMimeType: 'application/json', responseSchema: schema }, maxTokens ? { maxOutputTokens: maxTokens } : {}) }), prefer);
+  const r = await geminiFetch(false, () => ({ contents: [{ role: 'user', parts: [...files.map(f => ({ inlineData: { mimeType: f.mime, data: f.data } })), { text: prompt }] }], generationConfig: Object.assign({ temperature: 0.2, responseMimeType: 'application/json', responseSchema: schema }, maxTokens ? { maxOutputTokens: maxTokens } : {}) }), prefer, timeout ? { timeout } : {});
   const j = await r.json();
   const parts = j.candidates && j.candidates[0] && j.candidates[0].content && j.candidates[0].content.parts;
   if (!parts) throw new Error('Gemini returned no result.');
