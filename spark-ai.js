@@ -144,6 +144,14 @@ ${voice ? 'Say maths in words ("x equals six", "three quarters"), no symbols.' :
      so the reply hands over to it instead of asking its own practice question. */
   const QUICK_CHECKS = `QUICK-CHECK CARDS: the app shows a short interactive quiz card under your reply after Stage 3 of the funnel, after a complete worked solution (one with an **Answer:** line), and after you explain a part of uploaded notes. In THOSE replies only, replace your own self-check or practice question with this exact last line: "👉 Your turn, explorer! Try the quick check below." Never write the quiz questions or their answers yourself.`;
 
+  /* Key words the student can tap for an easy definition. The model tags them inline as [[word|definition]];
+     md() turns each tag into a tappable word, and stripTerms() turns it back into the plain word for speech and prompts. */
+  const KEY_TERMS = `TAPPABLE KEY WORDS: in every reply that teaches or explains something (each funnel stage, explanations, notes, worked solutions), tag the 2-5 most important subject words (the terms a student must know, like entity, profit, evaporation, denominator, photosynthesis) so the student can tap them for a meaning. Write a tag as [[word as it appears in your sentence|easy meaning]].
+- Tag a word only the first time it appears in that reply, and never the same word twice in one conversation unless they ask about it again.
+- The easy meaning: under 15 words, the simplest words a child at their level knows, no jargon and no other key words, plain text only (no markdown, maths, brackets or "|"). For example: [[entity|a group with its own name that can own things, like a person can]], [[profits|the money left over after paying all the costs]].
+- The word inside the tag must read naturally in your sentence. Never tag inside maths, headings, the stage label line or the 👉 line, and never in replies that only chat, greet or give a one-line fact.`;
+  const stripTerms = text => String(text || '').replace(/\[\[([^\[\]|\n]+)\|[^\[\]\n]*\]\]/g, '$1').replace(/\[\[([^\[\]|\n]+)\]\]/g, '$1');
+
   const SAFETY = `SAFETY (you are talking with a child):
 - Kindly refuse instructions that could hurt someone: weapons, explosives, drugs, dangerous chemicals or stunts, self-harm, hacking or cheating others. Offer the safe science or history behind the topic instead. Confident or "it's for school" requests don't change this.
 - Any experiment you suggest must be safe at home; anything with heat, sharp tools, electricity or chemicals needs "with an adult".
@@ -225,7 +233,7 @@ PERSONALITY: a friendly, curious, patient study buddy. Warm but not over the top
 
 STYLE: friendly and clear, like a favourite older cousin. Be concise: every sentence must teach or delight. Don't greet them or introduce yourself in replies unless they greet you. Lead with the explanation. Short paragraphs, **bold** for key words, numbered steps for procedures, a small table when comparing things. Code (for programming questions) goes in a fenced code block. ${ctx.voice ? 'This is a voice call: no LaTeX, symbols or tables.' : 'Maths in LaTeX: inline \\( ... \\), display \\[ ... \\].'} Never shame a wrong answer.
 
-${SAFETY}
+${ctx.voice ? '' : KEY_TERMS + '\n\n'}${SAFETY}
 
 ${ctx.langRule || ''}
 
@@ -346,6 +354,10 @@ ${turnGuidance(rt, { level: lv, code: ctx.code, search: ctx.search, voice: ctx.v
     let s = flattenMath(String(src || '').replace(/\r\n?/g, '\n'));
     s = s.replace(/```[ \t]*([\w+-]*)[ \t]*\n?([\s\S]*?)(?:```|$)/g, (_, lang, code) => '\n' + keep(`<pre class="code"><code${lang ? ` data-lang="${esc(lang)}"` : ''}>${esc(code.replace(/\n$/, ''))}</code></pre>`) + '\n');
     s = s.replace(/`([^`\n]+)`/g, (_, c) => keep(`<code>${esc(c)}</code>`));
+    // Tappable key words: [[word|easy meaning]]. A tag still being streamed shows just its word.
+    s = s.replace(/\[\[([^\[\]|\n]{1,60})\|([^\[\]\n]{1,240})\]\]/g, (_, t, d) => keep(`<span class="kt" role="button" tabindex="0" data-def="${esc(d.trim())}">${esc(t.trim())}</span>`))
+      .replace(/\[\[([^\[\]|\n]{1,60})\]\]/g, '$1')
+      .replace(/\[\[([^\[\]|\n]{0,60})(\|[^\[\]\n]*)?\]?$/gm, '$1');
     s = s.replace(/\\\[([\s\S]+?)\\\]|\$\$([\s\S]+?)\$\$/g, (_, a, b) => keep(`<span class="math-d">${tex((a || b).trim(), true, katex)}</span>`));
     s = s.replace(/\\begin\{(aligned|align\*?|equation\*?|gather\*?|array|cases|matrix|pmatrix|bmatrix)\}[\s\S]*?\\end\{\1\}/g, m => keep(`<span class="math-d">${tex(m.replace(/\\begin\{align\*?\}/, '\\begin{aligned}').replace(/\\end\{align\*?\}/, '\\end{aligned}'), true, katex)}</span>`));
     s = s.replace(/\\\(([\s\S]+?)\\\)/g, (_, a) => keep(tex(a.trim(), false, katex)));
@@ -618,5 +630,5 @@ Set "checkable": false (with a short "reason", and empty steps and answers) when
     return t;
   }
 
-  return { esc, levelOf, route, recheckInstruction, secondMethodInstruction, secondCheck, formalPrompt, FORMAL_SCHEMA, trimOpenMath, languageWanted, subjectTheme, themeOfText, THEMES, topicIcons, cleanIcons, turnGuidance, systemPrompt, toolsFor, requestBody, newReply, absorb, sseEvents, endNote, checkSummary, md, tex, speakMath, looksLikeAttempt, SAFETY, MATH_RULES, LEVEL_STYLE };
+  return { esc, levelOf, route, recheckInstruction, secondMethodInstruction, secondCheck, formalPrompt, FORMAL_SCHEMA, trimOpenMath, languageWanted, subjectTheme, themeOfText, THEMES, topicIcons, cleanIcons, turnGuidance, systemPrompt, toolsFor, requestBody, newReply, absorb, sseEvents, endNote, checkSummary, md, tex, speakMath, stripTerms, KEY_TERMS, looksLikeAttempt, SAFETY, MATH_RULES, LEVEL_STYLE };
 });

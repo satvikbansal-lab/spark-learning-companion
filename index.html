@@ -267,6 +267,16 @@ svg { display: block; }
 .bubble table { border-collapse: collapse; font-size: 14px; }
 .bubble th, .bubble td { border: 1px solid var(--line); padding: 6px 10px; text-align: left; vertical-align: top; }
 .bubble th { background: var(--soft); font-weight: 600; }
+/* Tappable key words: tap one for an easy meaning in a bubble above it. */
+.kt { color: var(--accent); font-weight: 600; background: color-mix(in srgb, var(--accent) 10%, transparent); border-bottom: 2px dotted color-mix(in srgb, var(--accent) 65%, transparent); border-radius: 4px 4px 0 0; padding: 0 2px; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+.kt:hover, .kt.on { background: color-mix(in srgb, var(--accent) 20%, transparent); }
+.kt:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.kt-pop { position: fixed; z-index: 60; max-width: min(300px, calc(100vw - 24px)); background: var(--panel); color: var(--ink); border: 1px solid var(--line); border-top: 3px solid var(--accent); border-radius: 12px; padding: 10px 13px 11px; box-shadow: 0 12px 32px rgba(0,0,0,.18); font-size: 14px; line-height: 1.45; animation: ktIn .14s ease-out; }
+.kt-pop b { display: block; color: var(--accent); font-size: 13px; margin-bottom: 3px; text-transform: capitalize; }
+.kt-pop::after { content: ''; position: absolute; left: var(--ax, 50%); width: 10px; height: 10px; margin-left: -6px; background: var(--panel); border: 1px solid var(--line); transform: rotate(45deg); }
+.kt-pop.up::after { bottom: -6px; border-top: 0; border-left: 0; }
+.kt-pop.down::after { top: -7px; border-bottom: 0; border-right: 0; border-top: 3px solid var(--accent); border-left: 3px solid var(--accent); width: 8px; height: 8px; }
+@keyframes ktIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
 .check { display: flex; gap: 10px; align-items: start; font-size: 13.5px; }
 .check input { margin-top: 3px; accent-color: var(--accent); }
 .mats { max-width: 760px; width: calc(100% - 40px); margin: 10px auto 0; display: flex; gap: 6px; flex-wrap: wrap; align-items: center; font-size: 12.5px; }
@@ -2657,6 +2667,26 @@ function funnelHTML(n) {
     : f.step === 1 ? '<button class="funnel-next" data-funnel-next="Next, show me the final answer">Final answer ›</button>' : '';
   return `<div class="ladder funnel" aria-label="Spark Funnel: where you are in this question">${steps}${next}</div>`;
 }
+/* Key word meanings: tap a highlighted word for a small bubble above it; tap anywhere else, scroll or Escape to close. */
+let KT_OPEN = null;
+function closeTerm() { if (!KT_OPEN) return; KT_OPEN.pop.remove(); KT_OPEN.el.classList.remove('on'); KT_OPEN.el.setAttribute('aria-expanded', 'false'); KT_OPEN = null; }
+function openTerm(el) {
+  const same = KT_OPEN && KT_OPEN.el === el; closeTerm(); if (same) return;
+  const pop = document.createElement('div'); pop.className = 'kt-pop'; pop.setAttribute('role', 'tooltip');
+  pop.innerHTML = `<b>${esc(el.textContent)}</b>${esc(el.dataset.def || '')}`;
+  document.body.appendChild(pop);
+  const r = el.getBoundingClientRect(), w = pop.offsetWidth, h = pop.offsetHeight, pad = 12;
+  const left = Math.max(pad, Math.min(innerWidth - w - pad, r.left + r.width / 2 - w / 2));
+  const up = r.top - h - 10 >= pad;
+  pop.classList.add(up ? 'up' : 'down');
+  pop.style.left = left + 'px'; pop.style.top = (up ? r.top - h - 10 : r.bottom + 10) + 'px';
+  pop.style.setProperty('--ax', Math.max(14, Math.min(w - 14, r.left + r.width / 2 - left)) + 'px');
+  el.classList.add('on'); el.setAttribute('aria-expanded', 'true');
+  KT_OPEN = { el, pop };
+}
+document.addEventListener('click', e => { const t = e.target.closest && e.target.closest('.kt'); if (t) { e.preventDefault(); openTerm(t); } else if (KT_OPEN && !e.target.closest('.kt-pop')) closeTerm(); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeTerm(); else if ((e.key === 'Enter' || e.key === ' ') && e.target.classList && e.target.classList.contains('kt')) { e.preventDefault(); openTerm(e.target); } });
+document.addEventListener('scroll', closeTerm, true); addEventListener('resize', closeTerm);
 document.addEventListener('click', e => { const b = e.target.closest('[data-funnel-next]'); if (b && !busy) send(b.dataset.funnelNext); });
 function msgHTML(m) {
   if (m.kind === 'check') return checkHTML(m);
@@ -3415,7 +3445,7 @@ async function talk(text) {
 }
 function speechText(md) {
   const out = []; let skip = false;
-  for (const raw of String(md || '').split('\n')) {
+  for (const raw of SparkAI.stripTerms(md).split('\n')) {
     const l = raw.trim(), bare = l.replace(/[*_#>`]/g, '').trim();
     if (!bare || /^-{3,}$/.test(bare)) continue;
     if (/^stage\s*[123]\b/i.test(bare)) continue;
@@ -3429,7 +3459,7 @@ function speechText(md) {
   return out.join('\n');
 }
 function plainSpeech(md) {
-  return SparkAI.speakMath(String(md || '')).replace(/\|/g, ' ').replace(/```[\s\S]*?```/g, '').replace(/[*_`#>]/g, '').replace(/\[(.*?)\]\(.*?\)/g, '$1').replace(/^\s*[-•]\s+/gm, '').replace(/\n{2,}/g, '\n').trim();
+  return SparkAI.speakMath(SparkAI.stripTerms(md)).replace(/\|/g, ' ').replace(/```[\s\S]*?```/g, '').replace(/[*_`#>]/g, '').replace(/\[(.*?)\]\(.*?\)/g, '$1').replace(/^\s*[-•]\s+/gm, '').replace(/\n{2,}/g, '\n').trim();
 }
 /* Browsers only allow sound that starts from a tap. One shared player is unlocked on the first tap,
    then reused for every answer, so audio that arrives seconds later can still play. */
@@ -3992,7 +4022,7 @@ const isFinalStage = m => m && m.role === 'model' && !m.kind && !m.pending && /^
 function lessonContext(n, uptoId) {
   const msgs = n.messages.filter(m => !m.kind && !m.pending && m.text);
   const end = uptoId ? msgs.findIndex(m => m.id === uptoId) + 1 || msgs.length : msgs.length;
-  return msgs.slice(Math.max(0, end - 8), end).map(m => (m.role === 'user' ? 'STUDENT: ' : 'TEACHER: ') + m.text).join('\n\n');
+  return msgs.slice(Math.max(0, end - 8), end).map(m => (m.role === 'user' ? 'STUDENT: ' : 'TEACHER: ') + SparkAI.stripTerms(m.text)).join('\n\n');
 }
 async function makePractice(fromId, type) {
   const n = nb(); if (busy) return toast(`${bn()} is still answering. One moment.`);
