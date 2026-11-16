@@ -160,7 +160,7 @@ test('controls are validated; mandatory safety can’t be switched off', async (
   assert.equal(r.out.controls.sensitive, 'extra', 'an unknown level keeps the safe default');
   assert.equal(r.out.controls.klass, 'Class 6'); assert.equal(r.out.controls.goalDays, 5); assert.equal(r.out.controls.core, undefined);
   const child = await call({ op: 'child' }, { device: a.device });
-  assert.deepEqual(child.out.features, { voice: false, uploads: true, fun: true, web: true });
+  assert.deepEqual(child.out.features, { voice: false, uploads: true, fun: true, web: true, diaryPersonal: true });
   assert.equal(child.out.controls, undefined, 'the child’s device sees only which features are on');
 });
 const chatBody = (text, extra = {}) => Object.assign({ contents: [{ role: 'user', parts: [{ text }] }], systemInstruction: { parts: [{ text: 'You are Sparky.' }] }, safetySettings: [{ category: 'HARM_CATEGORY_SEXUALLY_EXPLICIT', threshold: 'BLOCK_MEDIUM_AND_ABOVE' }, { category: 'HARM_CATEGORY_HARASSMENT', threshold: 'BLOCK_MEDIUM_AND_ABOVE' }] }, extra);

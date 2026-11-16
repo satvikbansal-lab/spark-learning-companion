@@ -22,12 +22,12 @@
   const lockoutFor = n => (n < 5 ? 0 : [30, 60, 300, 900][n - 5] || 3600);
 
   /* ---------- content controls ---------- */
-  const DEFAULT_CONTROLS = { klass: '', style: 'standard', language: 'auto', homework: 'hints', sensitive: 'extra', web: false, voice: true, uploads: true, fun: true, alerts: 'important', reports: true, goalDays: 4 };
+  const DEFAULT_CONTROLS = { klass: '', style: 'standard', language: 'auto', homework: 'hints', sensitive: 'extra', web: false, voice: true, uploads: true, fun: true, alerts: 'important', reports: true, goalDays: 4, diaryPersonal: true };
   const OPTIONS = { style: ['simpler', 'standard', 'deeper'], language: ['auto', 'en', 'hi', 'pa'], homework: ['guide', 'hints', 'direct'], sensitive: ['standard', 'extra'], alerts: ['important', 'all', 'off'] };
   function cleanControls(input, base = DEFAULT_CONTROLS) {
     const c = Object.assign({}, DEFAULT_CONTROLS, base), i = input && typeof input === 'object' ? input : {};
     for (const k of Object.keys(OPTIONS)) if (OPTIONS[k].includes(i[k])) c[k] = i[k];
-    for (const k of ['web', 'voice', 'uploads', 'fun', 'reports']) if (typeof i[k] === 'boolean') c[k] = i[k];
+    for (const k of ['web', 'voice', 'uploads', 'fun', 'reports', 'diaryPersonal']) if (typeof i[k] === 'boolean') c[k] = i[k];
     if (typeof i.klass === 'string' && (i.klass === '' || /^Class (1[0-2]|[1-9])$/.test(i.klass))) c.klass = i.klass;
     if (Number.isInteger(i.goalDays) && i.goalDays >= 1 && i.goalDays <= 7) c.goalDays = i.goalDays;
     return c;

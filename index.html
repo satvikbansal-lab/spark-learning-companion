@@ -1417,7 +1417,7 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
   <label class="check"><input type="checkbox" id="sThink"><span><b>Think before answering</b><br>More accurate answers; replies start a few seconds later.</span></label>
   <label class="check"><input type="checkbox" id="sSearch"><span><b>Look up recent facts online</b><br>Only for questions about news, current leaders, prices and other things that change. Sources are shown under the answer. Needs Google Search on your Gemini plan; without it Spark says the answer may be out of date.</span></label>
   <label class="check"><input type="checkbox" id="sExamples"><span><b>Learn from checked answers</b><br>Answers that pass Spark’s checks are kept on this device as examples, so similar questions get a proven method. <span id="sExN"></span> <button type="button" class="linkish" id="sExClear">Clear them</button></span></label>
-  <label class="check"><input type="checkbox" id="sThoughts"><span><b>Let Spark learn from my Diary</b> (off unless you turn it on)<br>Spark never replies there. It reads your pages only to note what helps it teach you, and you can see and delete every note.</span></label>
+  <label class="check"><input type="checkbox" id="sThoughts"><span><b>Use my diary to personalise my lessons</b> (off unless you turn it on)<br>Spark keeps only short, safe things like “cricket” or “baking” to make examples you know. Spark never replies to your diary. See and change everything in My Learning World.</span></label>
   <div class="field"><label for="sName">Your first name</label><input id="sName" placeholder="Riya"></div>
   <div class="field"><label for="sGrade">Class</label><input id="sGrade" placeholder="Class 7"></div>
   <div class="field"><label for="sExam">Preparing for an exam?</label><select id="sExam"></select><p>Sparky teaches at that exam's level: every option checked, the usual traps, quick methods.</p></div>
@@ -1452,6 +1452,7 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
 <script src="spark-parent.js"></script>
 <script src="spark-paper.js"></script>
 <script src="spark-examples.js"></script>
+<script src="spark-learnmem.js"></script>
 <script src="spark-diary.js"></script>
 
 <script>
@@ -1504,6 +1505,14 @@ function fromSaved(s) {
   return s;
 }
 let S = load();
+/* My Learning World (spark-learnmem.js): kept apart from the diary, in its own storage key. Older versions saved
+   free-text notes from the diary into S.memories; those are removed here and replaced by short, approved values. */
+const LM_KEY = 'spark.learn.v1';
+let LM = (() => { try { return SparkLearn.fix(JSON.parse(localStorage.getItem(LM_KEY) || 'null')); } catch (e) { return SparkLearn.emptyStore(); } })();
+if (!localStorage.getItem(LM_KEY)) { LM.enabled = S.settings.readThoughts === true; }
+if (S.memories && S.memories.some(m => m.source === 'thoughts')) S.memories = S.memories.filter(m => m.source !== 'thoughts');
+function saveLM() { try { localStorage.setItem(LM_KEY, JSON.stringify(LM)); } catch (e) { console.warn('learning world not saved', e); } }
+saveLM();
 const BOOT_SAVED = S.savedAt || 0; // when the localStorage copy read at start-up was saved
 let busy = false, pendingImg = null;
 /* Everything is saved twice: in localStorage, which is read instantly at start-up but holds only about 5 MB, and in
@@ -1814,9 +1823,9 @@ $('#menuBtn').onclick = () => $('#app').classList.toggle('drawer');
 document.querySelector('.main').addEventListener('click', e => { if ($('#app').classList.contains('drawer') && !e.target.closest('#menuBtn')) closeDrawer(); });
 
 /* ---------- navigation ---------- */
-const PAGES = { home: 'Learn', nb: 'Study Notebooks', notes: 'Learn from Notes', thought: 'My Diary', diary: 'My Diary', progress: 'My Progress', teacher: 'Teacher workspace', space: 'My Study Space', paper: 'Solve a paper' };
+const PAGES = { home: 'Learn', nb: 'Study Notebooks', notes: 'Learn from Notes', thought: 'My Diary', diary: 'My Diary', world: 'My Learning World', progress: 'My Progress', teacher: 'Teacher workspace', space: 'My Study Space', paper: 'Solve a paper' };
 /* Three main areas: a notebook is part of Learn; notes and private pages belong to My Study Space. */
-const NAV_OF = { home: 'home', nb: 'home', space: 'space', notes: 'space', thought: 'diary', diary: 'diary', progress: 'progress' };
+const NAV_OF = { home: 'home', nb: 'home', space: 'space', notes: 'space', thought: 'diary', diary: 'diary', world: 'diary', progress: 'progress' };
 function go(where) {
   if (where === 'thought' && !Diary.live().length) { Diary.newPage(null); return; }
   S.mode = where; if (where === 'nb') S.tab = 'chat';
@@ -1883,6 +1892,7 @@ function renderMain() {
   if (S.mode === 'teacher') return renderTeacher();
   if (S.mode === 'paper') return renderPaper();
   if (S.mode === 'diary') return Diary.renderHome();
+  if (S.mode === 'world') return Diary.renderWorld();
   if (thought) { Diary.topBar(thought); return renderThought(); }
   const c = cur(); $('#titleIn').value = c.title;
   $('#titleIn').setAttribute('aria-label', thought ? 'Page title' : 'Notebook name');
@@ -2941,6 +2951,7 @@ async function send(textOverride, opts = {}) {
   if (S.settings.autoRead && !opts.voice && n.kind !== 'thought' && reply.text && !reply.text.startsWith('\u26A0')) setTimeout(() => readAloud(reply.id), 200);
   const sm = /^[\s*_#]*Stage\s*([123])/i.exec(reply.text || '');
   if (sm && n.kind !== 'thought') n.funnel = { step: Number(sm[1]) - 1 };
+  if (n._offer && n._offer.length && reply.text) { SparkLearn.logLesson(LM, n.title, n._offer, SparkLearn.usedIn(reply.text, n._offer)); saveLM(); n._offer = []; }
   save(); paint(); renderSide(); updateStrip(n);
   busy = false; const sb = $('#sendBtn'); if (sb) sb.disabled = false;
   let shown = Promise.resolve();
@@ -2997,12 +3008,32 @@ function systemPrompt(n, rt = {}) {
   return SparkAI.systemPrompt({
     buddy: bn(), name: s.name, grade: s.grade, teach: s.teach, langRule: langRule() + (SparkPaper.examRules(s.exam) ? '\n\n' + SparkPaper.examRules(s.exam) : '') + examplesFor(n, rt),
     memories: S.memories.filter(m => m.source !== 'thoughts').map(m => m.text),
-    personal: S.settings.readThoughts === true ? S.memories.filter(m => m.source === 'thoughts').map(m => m.text) : [],
+    familiar: familiarFor(n, rt),
     notebook: n.title, concepts: Object.entries(n.concepts).map(([k, v]) => `${k}: ${v.status} (${v.evidence})`),
     materials: (n.materials || []).map(m => m.name), others: S.notebooks.filter(x => x.id !== n.id).map(x => x.title),
     route: rt, code: !!(rt.tools && rt.tools.code), search: !!(rt.tools && rt.tools.search), voice: !!rt.voice,
     quizCards: quizzesOn() && !rt.voice
   }) + deviceRules();
+}
+/* The approved, relevant parts of My Learning World for this question, or nothing when personalisation is off. */
+const lmAllowed = () => { try { return feature('diaryPersonal') && !(S.parentLocal && S.parentLocal.controls && S.parentLocal.controls.diaryPersonal === false); } catch (e) { return true; } };
+const lmOn = () => !!LM.enabled && lmAllowed();
+function familiarFor(n, rt) {
+  n._offer = [];
+  if (!lmOn() || n.kind === 'thought') return '';
+  const lastQ = [...n.messages].reverse().find(m => m.role === 'user' && m.text);
+  const r = SparkLearn.retrieve(LM, { subject: rt.subject, text: (lastQ ? lastQ.text : '') + ' ' + (n.title || ''), max: 2 });
+  n._offer = r.familiar;
+  return SparkLearn.teachingContext(r);
+}
+/* Quiz questions start in a familiar setting and move to standard ones; after a topic has used familiar examples
+   twice, its quizzes stay standard so the idea transfers. */
+function quizFamiliar(n, lesson) {
+  if (!lmOn()) return '';
+  const topic = n.title || '';
+  if (LM.log.filter(l => l.topic === topic && l.used.length).length > 2) return '';
+  const r = SparkLearn.retrieve(LM, { subject: n.lastSubject || '', text: String(lesson || '').slice(-1500) + ' ' + topic, max: 1 });
+  return r.familiar[0] || '';
 }
 /* Device-only Parent View: the parent's rules go into Sparky's instructions here (in server mode the server adds them). */
 const deviceRules = () => (S.parentLocal && !(S.family && S.family.device) ? '\n\n' + SparkParent.parentRules(S.parentLocal.controls).replace('enforced by the server', 'applied by this app') : '');
@@ -3262,42 +3293,66 @@ function renderThoughtChat() {
 }
 function renderConversation() { if (S.mode === 'thought') renderThoughtChat(); else renderChat(); }
 function privateHTML(t) {
-  const learning = S.settings.readThoughts === true;
+  const learning = lmOn() && !LM.excluded[t.id];
   const line = t.chatOn ? 'Spark can read this page while "Talk with Spark" is on, and only replies in the side panel. Nobody else sees it.'
-    : learning ? 'Private. Spark never replies here and never shows this to anyone. It only reads quietly to understand you better.'
+    : learning ? 'Private. Spark never replies here. It only picks out safe words like “cricket” for your lessons (see My Learning World).'
     : 'Private. Spark doesn\u2019t read this page. Nobody else sees it.';
   const care = t.care ? `<div class="care" role="note"><b>It sounds like a lot is going on.</b> If something feels too heavy, please talk to a parent, teacher or another adult you trust. You can also call <b>Tele-MANAS 14416</b> (free, any time) or <b>Childline 1098</b>.<button id="careOk">OK</button></div>` : '';
   return `<div class="private">${lockSvg}<span>${line}</span></div>${care}`;
 }
 function wireCare(t) { const co = $('#careOk'); if (co) co.onclick = () => { t.care = false; save(); const c = document.querySelector('.care'); if (c) c.remove(); }; }
-let thoughtTimer = null;
-function scheduleThoughtLearning(t) { clearTimeout(thoughtTimer); thoughtTimer = setTimeout(() => learnFromThoughts(t).catch(e => console.warn('thought learning failed', e)), 6000); }
-const THOUGHT_SCHEMA = { type: 'OBJECT', properties: { insights: { type: 'ARRAY', items: { type: 'STRING' } }, wellbeingConcern: { type: 'BOOLEAN' } }, required: ['insights', 'wellbeingConcern'] };
-async function learnFromThoughts(t) {
-  // Off unless the student turns it on in Settings (readThoughts). The older learnThoughts setting was on by default,
-  // so it isn't carried over.
-  if (!hasAI() || S.settings.readThoughts !== true || t.trashed) return;
-  const text = pageText(t).slice(0, 6000);
-  if (text.length < 40 || text === t.learnedText) return;
-  const known = S.memories.filter(m => m.source === 'thoughts').map(m => m.text).join(' | ') || 'none';
-  const r = await geminiJSON(`You help a tutor personalise lessons for a student ${ageText()}. Below is one page of the student's PRIVATE journal. Read it only to understand them. Do not judge, advise or reply to it.
-
-JOURNAL PAGE:
-"""${text}"""
-
-Return:
-- insights: up to 5 NEW short notes (under 14 words each) that would help a tutor teach this student better: interests to use as examples, goals, how they like to learn, what they find hard or worry about in studies, energy or mood if it affects learning. Write them neutrally, e.g. "Loves cricket; use cricket examples". Never copy private details, secrets, other people's names or places. Skip anything already known: ${known}. Empty if nothing useful.
-- wellbeingConcern: true only if the writing suggests the student may be in danger, being harmed, or thinking about hurting themselves.`, THOUGHT_SCHEMA);
-  t.learnedText = text;
-  const now = Date.now();
-  for (const x of (r.insights || []).map(v => String(v).trim()).filter(Boolean)) if (!S.memories.some(m => m.text.toLowerCase() === x.toLowerCase())) S.memories.push({ id: uid(), text: x, ts: now, source: 'thoughts' });
-  const wasCare = t.care; t.care = !!r.wellbeingConcern;
-  save(); renderSide();
-  if (t.care && !wasCare && S.mode === 'thought' && th() === t && !document.querySelector('.care')) {
-    const p = document.querySelector('.private');
-    if (p) { p.insertAdjacentHTML('afterend', privateHTML(t).replace(/^<div class="private">[\s\S]*?<\/div>/, '')); wireCare(t); }
-  }
+/* ---------- diary → My Learning World ----------
+   Off unless the student turns it on (and a parent hasn't turned it off). A page is read once per version of its
+   text, in the background, a little after the student stops typing, so writing and saving are never slowed. Only the
+   short values the engine accepts are kept. Failed reads retry with back-off. Pages that are binned, deleted or
+   excluded stop counting at once. A small on-device check (no AI) still shows the helpline note if a page suggests a
+   child may be in danger; nothing about it is stored beyond that note. */
+let LEARN_T = null, LEARN_BUSY = false;
+function scheduleThoughtLearning(t) {
+  const hits = SparkParent.classify(pageText(t)).filter(h => h.category === 'self_harm' || h.category === 'abuse');
+  if (hits.length && !t.care) { t.care = true; save(); const p = document.querySelector('.private'); if (p && th() === t && !document.querySelector('.care')) { p.insertAdjacentHTML('afterend', privateHTML(t).replace(/^<div class="private">[\s\S]*?<\/div>/, '')); wireCare(t); } }
+  if (!lmOn()) return;
+  clearTimeout(LEARN_T); LEARN_T = setTimeout(() => pumpLearn().catch(e => console.warn('learning world update failed', e)), 15000);
 }
+function learnReconcile() {
+  const ok = new Set(S.thoughts.filter(t => !t.trashed).map(t => t.id));
+  const gone = new Set(); for (const m of LM.memories) for (const x of m.sources) if (!ok.has(x.entry)) gone.add(x.entry);
+  for (const id of Object.keys(LM.jobs)) if (!ok.has(id)) gone.add(id);
+  gone.forEach(id => SparkLearn.forgetEntry(LM, id));
+  if (gone.size) saveLM();
+}
+async function pumpLearn(opts = {}) {
+  learnReconcile();
+  if (!lmOn() || !hasAI() || LEARN_BUSY) return 0;
+  LEARN_BUSY = true; let done = 0;
+  try {
+    for (const t of S.thoughts.filter(x => !x.trashed)) {
+      if (!lmOn()) break;
+      if (LM.excluded[t.id]) continue;
+      const text = pageText(t), h = SparkLearn.hash(text), j = LM.jobs[t.id] || {};
+      if (j.hash === h && j.status === 'done' && !opts.force) continue;
+      if (text.length < 40) { SparkLearn.forgetEntry(LM, t.id); LM.jobs[t.id] = { hash: h, status: 'done', at: Date.now() }; saveLM(); continue; }
+      if (j.hash === h && j.status === 'failed' && !opts.force && (!j.next || j.next > Date.now())) continue;
+      if (!opts.force && S.mode === 'thought' && th() === t && Date.now() - (t.updated || 0) < 12000) continue; // still writing
+      const tries = j.hash === h ? (j.tries || 0) : 0;
+      LM.jobs[t.id] = { hash: h, status: 'running', tries };
+      try {
+        const r = await geminiJSON(SparkLearn.extractPrompt(text, ageText()), SparkLearn.EXTRACT_SCHEMA);
+        if (!lmOn() || LM.excluded[t.id] || t.trashed || !S.thoughts.includes(t)) { delete LM.jobs[t.id]; continue; }
+        SparkLearn.absorb(LM, t.id, r && r.items, Date.now());
+        LM.jobs[t.id] = { hash: h, status: 'done', at: Date.now() }; done++;
+      } catch (e) {
+        const n = tries + 1; LM.jobs[t.id] = { hash: h, status: 'failed', tries: n, next: SparkLearn.retryAt(n) };
+      }
+      saveLM();
+      if (opts.onProgress) opts.onProgress(t);
+    }
+  } finally { LEARN_BUSY = false; }
+  if (S.mode === 'world') Diary.renderWorld();
+  return done;
+}
+setTimeout(() => pumpLearn().catch(() => {}), 8000);
+setInterval(() => pumpLearn().catch(() => {}), 60000);
 function thoughtPrompt(t) {
   const s = S.settings;
   const page = pageText(t).slice(0, 6000) || '(the page is empty so far)';
@@ -3747,7 +3802,7 @@ async function fillCheck(n, m, after, opts = {}) {
     if (!quiz) {
       const lv = SparkAI.levelOf(S.settings.grade);
       const formats = m.opts.mode === 'test' ? 'mixed' : 'mcq';
-      const prompt = SparkQuiz.quizPrompt({ lesson: opts.lesson || m.opts.lesson || lessonContext(n, m.from), age: ageText(), band: lv.band, subject: m.opts.subject, visual: describeVisual(after && after.visual), notes: m.opts.notes, count: m.opts.count, startLevel: 1, formats, lang: plainLangRule() });
+      const prompt = SparkQuiz.quizPrompt({ lesson: opts.lesson || m.opts.lesson || lessonContext(n, m.from), familiar: quizFamiliar(n, opts.lesson || m.opts.lesson || lessonContext(n, m.from)), age: ageText(), band: lv.band, subject: m.opts.subject, visual: describeVisual(after && after.visual), notes: m.opts.notes, count: m.opts.count, startLevel: 1, formats, lang: plainLangRule() });
       const ask = extra => geminiJSON(prompt + (extra || ''), SparkQuiz.schemaFor(formats, m.opts.count), quizModels(), 4000);
       const raw = await ask();
       quiz = SparkQuiz.validate(raw, { subject: m.opts.subject, formats });
@@ -4159,7 +4214,7 @@ const LOCAL_OPS = {
   },
   async 'reset-request'() { const p = PL(); if (!p) throw plErr(404, 'Parent View isn’t set up on this device yet.'); if (!p.resetAt) { p.resetAt = Date.now() + 24 * 3600 * 1000; plAudit('PIN reset requested without the recovery code (takes effect after 24 hours)'); save(); } return { ok: true, resetAt: p.resetAt }; },
   async lock() { PV.localUnlocked = false; return { ok: true }; },
-  async child() { const p = PL(); if (!p) return { linked: false }; const c = p.controls; return { linked: true, features: { voice: c.voice, uploads: c.uploads, fun: c.fun, web: c.web }, homework: c.homework, language: c.language }; },
+  async child() { const p = PL(); if (!p) return { linked: false }; const c = p.controls; return { linked: true, features: { voice: c.voice, uploads: c.uploads, fun: c.fun, web: c.web, diaryPersonal: c.diaryPersonal }, homework: c.homework, language: c.language }; },
   async events() { return { ok: true, saved: 0 }; },
   /* ---- unlocked only ---- */
   async controls() { return { controls: SparkParent.cleanControls(PL().controls), options: SparkParent.OPTIONS }; },
@@ -4517,6 +4572,7 @@ async function pvSettings(pane) {
       ${toggle('web', 'Web lookups', 'For news and today’s facts. Off: Spark answers from what it knows and says it may be out of date.', ENF())}
       ${toggle('uploads', 'Photos and uploads', 'Homework photos and uploading notes.', ENF())}
       ${toggle('voice', 'Voice', 'Talking with Sparky and answers read aloud.', ENF())}
+      ${toggle('diaryPersonal', 'Diary-based personalisation', 'Lets your child choose to have Spark use safe interests from their diary (like cricket or baking) as lesson examples. Their diary is never shown to you or anyone else.', APPONLY)}
       ${toggle('fun', 'Fun extras', 'The DJ Sparky disco. Hidden in the app; it never reaches the AI, so there’s nothing to enforce.', APPONLY)}
       ${sectionHead('Reporting preferences')}
       ${radios('alerts')}
@@ -4533,7 +4589,7 @@ async function pvSettings(pane) {
     const pick = k => (document.querySelector(`[name="pc-${k}"]:checked`) || {}).value;
     const next = { klass: $('#pc-klass').value, goalDays: +$('#pc-goalDays').value };
     for (const k of Object.keys(CTRL)) next[k] = pick(k);
-    for (const k of ['web', 'voice', 'uploads', 'fun']) next[k] = $('#pc-' + k).checked;
+    for (const k of ['web', 'voice', 'uploads', 'fun', 'diaryPersonal']) next[k] = $('#pc-' + k).checked;
     const loosened = SENSITIVE_CHANGES.filter(([k, is]) => next[k] !== c[k] && is(next[k])).map(x => x[2]);
     if (loosened.length && !confirm(`Please confirm:\n\n• ${loosened.join('\n• ')}\n\nSave these changes?`)) return;
     try {
@@ -4960,7 +5016,7 @@ function openSettings() {
   $('#sTheme').innerHTML = Object.entries(THEMES).map(([k, n]) => `<option value="${k}">${n}</option>`).join('') + (feature('fun') ? '<option value="disco">🪩 Disco party with DJ Sparky</option>' : ''); $('#sTheme').value = s.theme;
   $('#sExam').innerHTML = '<option value="">No exam</option>' + Object.entries(SparkPaper.EXAMS).map(([k, e]) => `<option value="${k}">${e.name}</option>`).join(''); $('#sExam').value = s.exam || '';
   $('#sLang').innerHTML = Object.entries(LANGS).map(([k, l]) => `<option value="${k}">${l.name}</option>`).join(''); $('#sLang').value = s.lang || 'auto';
-  $('#sThink').checked = s.think !== false; $('#sSearch').checked = s.search !== false; $('#sThoughts').checked = s.readThoughts === true;
+  $('#sThink').checked = s.think !== false; $('#sSearch').checked = s.search !== false; $('#sThoughts').checked = LM.enabled === true;
   $('#sExamples').checked = s.learnExamples !== false; $('#sExN').textContent = `${(S.examples || []).length} learned so far.`;
   $('#setDlg').showModal();
 }
@@ -4972,7 +5028,7 @@ $('#setForm').onsubmit = e => {
   s.buddy = $('#sBuddy').value; s.buddyName = $('#sBuddyName').value.trim(); s.autoRead = $('#sAutoRead').checked; s.quizzes = $('#sQuiz').checked;
   s.voiceName = $('#sVoice').value; s.teach = $('#sTeach').value; s.lang = $('#sLang').value; s.exam = $('#sExam').value;
   const pickedTheme = $('#sTheme').value; if (THEMES[pickedTheme]) s.theme = pickedTheme; else if (pickedTheme === 'disco') setTimeout(startDisco, 300);
-  s.think = $('#sThink').checked; s.search = $('#sSearch').checked; s.readThoughts = $('#sThoughts').checked; s.learnExamples = $('#sExamples').checked;
+  s.think = $('#sThink').checked; s.search = $('#sSearch').checked; if (LM.enabled !== $('#sThoughts').checked) { LM.enabled = $('#sThoughts').checked; saveLM(); if (LM.enabled) setTimeout(() => pumpLearn().catch(() => {}), 1000); } s.readThoughts = LM.enabled; s.learnExamples = $('#sExamples').checked;
   save(); $('#setDlg').close(); render(); toast(s.apiKey ? 'Saved. Spark is using your Gemini key.' : SERVER_AI ? 'Saved. Spark is using this site\u2019s Gemini connection.' : 'Saved. Spark is in demo mode.');
 };
 $('#exportBtn').onclick = () => {

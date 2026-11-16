@@ -153,7 +153,7 @@ const OPS = {
   async child(st, req) {
     const fid = await familyOfDevice(st, req); if (!fid) return { linked: false };
     const c = await controlsOf(st, fid);
-    return { linked: true, features: { voice: c.voice, uploads: c.uploads, fun: c.fun, web: c.web }, homework: c.homework, language: c.language };
+    return { linked: true, features: { voice: c.voice, uploads: c.uploads, fun: c.fun, web: c.web, diaryPersonal: c.diaryPersonal }, homework: c.homework, language: c.language };
   },
   async events(st, req, res, b) {
     const fid = await familyOfDevice(st, req); if (!fid) return fail(res, 401, 'This device isn’t linked to Parent View.');

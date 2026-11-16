@@ -80,7 +80,8 @@ ${ctx.formats === 'mcq' ? `Every question is "mcq" with exactly 4 short options 
 Every question has "hint" (one nudge that does NOT give the answer away) and "why" (one or two friendly sentences explaining the right answer, specific to the idea). Each level-1 or level-2 question also has "simpler": an easier question on the same idea, in the same shape (with its own answer/options/math and "why"), for a student who got it wrong twice.
 Never put the answer in the question. Plain text only: write maths as 3/4, x², √2 (no LaTeX). Keep each question under 30 words. topic = the school topic in 1-3 words.${ctx.visual ? `
 A picture is shown with the lesson: ${ctx.visual}. Make at least one question about the picture (say "In the picture above…").` : ''}${ctx.notes ? `
-The lesson comes from the student's uploaded notes. Ask only about what the notes say; "page" = the page number the question is about, when you can see it.` : ''}${ctx.lang ? '\n' + ctx.lang : ''}
+The lesson comes from the student's uploaded notes. Ask only about what the notes say; "page" = the page number the question is about, when you can see it.` : ''}${ctx.familiar ? `
+FROM FAMILIAR TO GENERAL: the student knows ${ctx.familiar} well. Set question 1 (simple) in that familiar setting if it fits naturally; set the middle questions in other everyday settings; make the LAST question a standard textbook-style question with no familiar setting, so they show the idea works anywhere. Never mention how you know what they like.` : ''}${ctx.lang ? '\n' + ctx.lang : ''}
 
 LESSON:
 ${String(ctx.lesson || '').slice(-6000)}`;

@@ -34,6 +34,12 @@ const Diary = (() => {
   };
   const MOODS = [['😄', 'Great'], ['🙂', 'Good'], ['😐', 'Okay'], ['😴', 'Tired'], ['😔', 'Low'], ['😢', 'Sad'], ['😡', 'Angry'], ['🤩', 'Excited']];
   const FONTS = { sans: 'Default', serif: 'Storybook', mono: 'Typewriter' };
+  const STARTERS_BY = {
+    young: ['What was the best part of your day?', 'What made you laugh today?', 'Draw or write about your favourite toy', 'What animal would you like to be?', 'What would you like to do tomorrow?', 'Who did you play with today?'],
+    middle: ['What was the best part of your day?', 'What did you learn today?', 'Did anything surprise you?', 'What made you laugh?', 'What would you like to do tomorrow?', 'What new thing did you discover?', 'If I could have any superpower…'],
+    older: ['What did you learn today that you didn’t know yesterday?', 'Did anything surprise you this week?', 'Something I want to get better at, and how', 'What made you laugh today?', 'A question I can’t stop thinking about', 'What would make tomorrow a great day?', 'Three things I’m thankful for']
+  };
+  const starters = () => STARTERS_BY[SparkAI.levelOf(S.settings.grade).band] || STARTERS_BY.middle;
   const STARTERS = ['What made you smile today?', 'Something new I learned…', 'If I could have any superpower…', 'Three things I’m thankful for', 'My dream for this year', 'A funny thing that happened'];
   const COLORS = [['default', 'Default'], ['gray', 'Grey'], ['brown', 'Brown'], ['orange', 'Orange'], ['yellow', 'Yellow'], ['green', 'Green'], ['blue', 'Blue'], ['purple', 'Purple'], ['pink', 'Pink'], ['red', 'Red']];
 
@@ -85,15 +91,27 @@ const Diary = (() => {
     if (t.parentId) { const p = byId(t.parentId); if (p) p.html = (p.html || '').replace(new RegExp(`<div[^>]*data-page="${t.id}"[^>]*>[\\s\\S]*?</div>`, 'g'), ''); }
     S.mode = t.parentId && byId(t.parentId) && !byId(t.parentId).trashed ? 'thought' : 'diary';
     if (S.mode === 'thought') S.activeThoughtId = t.parentId;
-    save(); render();
+    save(); if (typeof learnReconcile === 'function') learnReconcile(); render();
     toast(`Moved “${t.title || 'Untitled'}” to the bin. You can bring it back from ${owner()}.`);
   }
   function restore(t) { const p = t.parentId && byId(t.parentId); if (!p || p.trashed) t.parentId = null; const when = t.trashed; for (const x of [t, ...descendants(t.id)]) if (x.trashed === when) delete x.trashed; save(); render(); toast('Page brought back'); }
   function destroy(t) {
     if (!confirm(`Delete “${t.title || 'Untitled'}” forever? Its writing and Spark chat can’t be brought back.`)) return;
     const gone = new Set([t.id, ...descendants(t.id).map(x => x.id)]);
+    for (const x of S.thoughts.filter(x => gone.has(x.id))) dropFiles(x);
     S.thoughts = S.thoughts.filter(x => !gone.has(x.id));
-    save(); render();
+    save(); if (typeof learnReconcile === 'function') learnReconcile(); render();
+  }
+  /* A page's pictures, drawings, voice notes and history live in IndexedDB; they go when the page goes. */
+  function dropFiles(t) {
+    for (const m of String(t.html || '').matchAll(/data-file="([^"]+)"/g)) idb.del(m[1]).catch(() => {});
+    idb.del('dyv:' + t.id).catch(() => {});
+  }
+  /* Everything in the diary, gone for good (from My Learning World's danger zone). */
+  function destroyAll() {
+    for (const t of S.thoughts) dropFiles(t);
+    S.thoughts = []; S.activeThoughtId = null; S.mode = 'diary';
+    save(); if (typeof learnReconcile === 'function') learnReconcile(); render();
   }
   function duplicate(t) {
     const c = create({ title: (t.title || 'Untitled') + ' (copy)', icon: t.icon, cover: t.cover, parentId: t.parentId, mood: t.mood, html: t.html });
@@ -124,6 +142,7 @@ const Diary = (() => {
     };
     const favs = live().filter(t => t.fav);
     return `<button class="dy-home ${S.mode === 'diary' ? 'active' : ''}" data-diary-home><span class="dy-ic">🏠</span>${esc(owner())} home</button>
+      <button class="dy-home ${S.mode === 'world' ? 'active' : ''}" data-world><span class="dy-ic">🌍</span>My Learning World</button>
       ${favs.length ? `<div class="dy-lbl">Favourites</div>${favs.map(t => `<button class="dy-home ${S.mode === 'thought' && t.id === S.activeThoughtId ? 'active' : ''}" data-open="${t.id}"><span class="dy-ic">${esc(t.icon)}</span><span class="t">${esc(t.title || 'Untitled')}</span></button>`).join('')}<div class="dy-lbl">Pages</div>` : ''}
       ${kids(null).map(t => row(t, 0)).join('')}
       <button class="dy-home dy-muted" data-new-page><span class="dy-ic">＋</span>Add a page</button>`;
@@ -134,6 +153,7 @@ const Diary = (() => {
       const sub = e.target.closest('[data-sub]'); if (sub) return newPage(sub.dataset.sub);
       const o = e.target.closest('[data-open]'); if (o) return open(o.dataset.open);
       if (e.target.closest('[data-diary-home]')) { S.mode = 'diary'; save(); closeDrawer(); return render(); }
+      if (e.target.closest('[data-world]')) { S.mode = 'world'; save(); closeDrawer(); return render(); }
       if (e.target.closest('[data-new-page]')) return newPage(null);
     };
   }
@@ -147,7 +167,20 @@ const Diary = (() => {
     while (days.has(d.toDateString())) { n++; d.setDate(d.getDate() - 1); }
     return n;
   }
-  let HOME = { tab: 'recent', q: '', sort: 'updated' };
+  let HOME = { tab: 'recent', q: '', sort: 'updated', tag: '', day: '', month: null };
+  const dayKey = ts => { const d = new Date(ts); return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); };
+  const allTags = () => [...new Set(live().flatMap(t => t.tags || []))].sort();
+  /* A month of the diary: a dot on each day with a page written or edited; tap a day to see its pages. */
+  function calendarHTML() {
+    const now = new Date(), m = HOME.month || { y: now.getFullYear(), m: now.getMonth() };
+    const first = new Date(m.y, m.m, 1), days = new Date(m.y, m.m + 1, 0).getDate(), lead = (first.getDay() + 6) % 7;
+    const count = {}; for (const t of live()) for (const k of new Set([dayKey(t.created), dayKey(t.updated)])) count[k] = (count[k] || 0) + 1;
+    const cells = []; for (let i = 0; i < lead; i++) cells.push('<span></span>');
+    for (let d = 1; d <= days; d++) { const k = `${m.y}-${String(m.m + 1).padStart(2, '0')}-${String(d).padStart(2, '0')}`, n = count[k] || 0, isToday = k === dayKey(Date.now());
+      cells.push(`<button class="cal-d ${n ? 'has' : ''} ${isToday ? 'today' : ''} ${HOME.day === k ? 'on' : ''}" data-day="${k}" aria-label="${new Date(m.y, m.m, d).toLocaleDateString(undefined, { day: 'numeric', month: 'long' })}${n ? `, ${n} page${n === 1 ? '' : 's'}` : ''}">${d}${n ? `<i>${n > 3 ? '•••' : '•'.repeat(n)}</i>` : ''}</button>`); }
+    return `<div class="dy-cal"><div class="cal-h"><button data-cal="-1" aria-label="Previous month">‹</button><b>${first.toLocaleDateString(undefined, { month: 'long', year: 'numeric' })}</b><button data-cal="1" aria-label="Next month">›</button></div>
+      <div class="cal-g">${['M', 'T', 'W', 'T', 'F', 'S', 'S'].map(x => `<span class="cal-w">${x}</span>`).join('')}${cells.join('')}</div></div>`;
+  }
   function renderHome() {
     const name = (S.settings.name || '').trim().split(/\s+/)[0];
     const hr = new Date().getHours(), hi = hr < 12 ? 'Good morning' : hr < 17 ? 'Good afternoon' : 'Good evening';
@@ -155,14 +188,17 @@ const Diary = (() => {
     $('#view').innerHTML = `<div class="dy-home-page"><div class="dy-cover-home" style="background:${COVERS[S.settings.diaryCover || 'candy'][1]}"><button class="dy-cover-btn" data-home-cover>Change cover</button></div>
       <div class="dy-home-in">
         <div class="dy-home-ic">📔</div>
-        <div class="dy-home-head"><div><h1>${esc(owner())}</h1><p class="dy-subtitle">${hi}${name ? ', ' + esc(name) : ''}! Your private space. Only you can see it. Spark joins a page only if you switch it on.</p></div>
-          <button class="dy-new" data-new-page>New page</button></div>
-        <div class="dy-stats"><span><b>${all.length}</b> page${all.length === 1 ? '' : 's'}</span><span><b>${all.reduce((n, t) => n + words(t), 0)}</b> words written</span><span><b>${streak()}</b>🔥 day streak</span></div>
-        <h2 class="dy-h">Start with a template</h2>
+        <div class="dy-home-head"><div><p class="dy-date">${esc(today())}</p><h1>${esc(owner())}</h1><p class="dy-subtitle">${hi}${name ? ', ' + esc(name) : ''}! Your private space. Only you can see it. Spark never replies here.</p></div>
+          <div class="dy-head-acts"><button class="dy-ghost" data-world-open>🌍 My Learning World</button><button class="dy-new" data-new-page>New page</button></div></div>
+        <div class="dy-stats"><span><b>${all.length}</b> page${all.length === 1 ? '' : 's'}</span><span><b>${all.reduce((n, t) => n + words(t), 0)}</b> words written</span><span><b>${streak()}</b>🔥 day streak</span><span><b>${Math.round(all.reduce((n, t) => n + (t.writeMs || 0), 0) / 6e4)}</b> min writing</span></div>
+        <div class="dy-two"><div><h2 class="dy-h">Start with a template</h2>
         <div class="dy-tpls">${TPL_LIST.map(([k, ic, l]) => `<button class="dy-tpl" data-tpl="${k}"><span>${ic}</span>${l}</button>`).join('')}</div>
+        <h2 class="dy-h">Need an idea? <span class="dy-muted">(only if you want one)</span></h2><div class="dy-prompts">${starters().slice(0, 4).map(x => `<button data-prompt="${esc(x)}">✏️ ${esc(x)}</button>`).join('')}</div></div>
+        <div id="dyCal">${calendarHTML()}</div></div>
+        ${allTags().length ? `<div class="dy-tagrow"><span class="dy-muted">Tags:</span>${allTags().map(g => `<button class="dy-tag ${HOME.tag === g ? 'on' : ''}" data-tagf="${esc(g)}">#${esc(g)}</button>`).join('')}</div>` : ''}
         <div class="dy-tabs" role="tablist">
           ${[['recent', '🕒', 'Recents'], ['fav', '⭐', 'Favourites'], ['mood', '🌈', 'Moods'], ['spark', '✦', 'With Spark'], ['bin', '🗑️', `Bin${bin.length ? ' · ' + bin.length : ''}`]].map(([k, ic, l]) => `<button role="tab" class="dy-tab ${HOME.tab === k ? 'on' : ''}" data-htab="${k}" aria-selected="${HOME.tab === k}">${ic} ${l}</button>`).join('')}
-          <span class="sp"></span><label class="dy-search">🔍<input id="dySearch" placeholder="Search pages" value="${esc(HOME.q)}" aria-label="Search diary pages"></label>
+          <span class="sp"></span><button class="dy-ghost sm" data-export title="Download all my pages">⬇️ Download</button><label class="dy-search">🔍<input id="dySearch" placeholder="Search words, tags or dates" value="${esc(HOME.q)}" aria-label="Search diary pages"></label>
         </div>
         <div id="dyTable"></div>
       </div></div>`;
@@ -171,6 +207,13 @@ const Diary = (() => {
     $('#view').querySelector('.dy-home-page').onclick = e => {
       const tb = e.target.closest('[data-htab]'); if (tb) { HOME.tab = tb.dataset.htab; return renderHome(); }
       const tp = e.target.closest('[data-tpl]'); if (tp) return newPage(null, tp.dataset.tpl);
+      const pr = e.target.closest('[data-prompt]'); if (pr) { const t = create({ title: pr.dataset.prompt.replace(/…$/, ''), html: '<p><br></p>' }); return open(t.id); }
+      if (e.target.closest('[data-world-open]')) { S.mode = 'world'; save(); return render(); }
+      if (e.target.closest('[data-export]')) return exportDiary(live());
+      const cm = e.target.closest('[data-cal]'); if (cm) { const now = new Date(), m = HOME.month || { y: now.getFullYear(), m: now.getMonth() }; const d = new Date(m.y, m.m + Number(cm.dataset.cal), 1); HOME.month = { y: d.getFullYear(), m: d.getMonth() }; $('#dyCal').innerHTML = calendarHTML(); return; }
+      const dd = e.target.closest('[data-day]'); if (dd) { HOME.day = HOME.day === dd.dataset.day ? '' : dd.dataset.day; $('#dyCal').innerHTML = calendarHTML(); return table(); }
+      const tf = e.target.closest('[data-tagf]'); if (tf) { HOME.tag = HOME.tag === tf.dataset.tagf ? '' : tf.dataset.tagf; return renderHome(); }
+      if (e.target.closest('[data-clear-filter]')) { HOME.day = ''; HOME.tag = ''; return renderHome(); }
       if (e.target.closest('[data-new-page]')) return newPage(null);
       if (e.target.closest('[data-home-cover]')) return coverMenu(e.target.closest('[data-home-cover]'), k => { S.settings.diaryCover = k || 'candy'; save(); renderHome(); });
       const so = e.target.closest('[data-sort]'); if (so) { HOME.sort = so.dataset.sort; return table(); }
@@ -186,20 +229,36 @@ const Diary = (() => {
     if (HOME.tab === 'fav') rows = rows.filter(t => t.fav);
     if (HOME.tab === 'mood') rows = rows.filter(t => t.mood);
     if (HOME.tab === 'spark') rows = rows.filter(t => t.chatOn);
-    if (q) rows = rows.filter(t => (t.title || '').toLowerCase().includes(q) || pageText(t).toLowerCase().includes(q));
+    if (HOME.tag) rows = rows.filter(t => (t.tags || []).includes(HOME.tag));
+    if (HOME.day) rows = rows.filter(t => dayKey(t.created) === HOME.day || dayKey(t.updated) === HOME.day);
+    // Search titles, writing, tags (with or without #) and dates ("16 nov", "november", "2026-11-16").
+    const dateText = ts => { const d = new Date(ts); return [dayKey(ts), d.toLocaleDateString(undefined, { day: 'numeric', month: 'short', year: 'numeric' }), d.toLocaleDateString(undefined, { day: 'numeric', month: 'long', year: 'numeric' }), d.toLocaleDateString(undefined, { weekday: 'long' })].join(' ').toLowerCase(); };
+    if (q) rows = rows.filter(t => (t.title || '').toLowerCase().includes(q) || pageText(t).toLowerCase().includes(q) || (t.tags || []).some(g => ('#' + g).includes(q.replace(/^#?/, '#'))) || dateText(t.created).includes(q) || dateText(t.updated).includes(q));
     const key = HOME.sort;
     rows.sort((a, b) => key === 'title' ? (a.title || '').localeCompare(b.title || '') : (b[key] || 0) - (a[key] || 0));
     const empty = { recent: 'No pages yet. Press New page or pick a template.', fav: 'No favourites yet. Open a page and tap ☆ at the top.', mood: 'No moods yet. Open a page and tap “Add mood”.', spark: 'Spark isn’t switched on for any page.', bin: 'The bin is empty.' }[HOME.tab];
     const th = (k, l, ic) => `<th><button data-sort="${k}" class="${key === k ? 'on' : ''}">${ic} ${l}</button></th>`;
-    box.innerHTML = rows.length ? `<table class="dy-table"><thead><tr>${th('title', 'Page name', '📄')}<th class="pl">🌈 Mood</th><th class="pl">📁 Inside</th>${th('created', 'Created', '🗓️')}${th('updated', 'Last edited', '🕒')}${HOME.tab === 'bin' ? '<th class="pl"></th>' : ''}</tr></thead><tbody>
+    const filt = HOME.day || HOME.tag ? `<p class="dy-filter">Showing ${HOME.day ? new Date(HOME.day + 'T12:00').toLocaleDateString(undefined, { day: 'numeric', month: 'long' }) : ''}${HOME.day && HOME.tag ? ' · ' : ''}${HOME.tag ? '#' + esc(HOME.tag) : ''} <button data-clear-filter>Show all</button></p>` : '';
+    box.innerHTML = filt + (rows.length ? `<table class="dy-table"><thead><tr>${th('title', 'Page name', '📄')}<th class="pl">🌈 Mood</th><th class="pl">📁 Inside</th>${th('created', 'Created', '🗓️')}${th('updated', 'Last edited', '🕒')}${HOME.tab === 'bin' ? '<th class="pl"></th>' : ''}</tr></thead><tbody>
       ${rows.map(t => { const p = t.parentId && byId(t.parentId); const m = MOODS.find(x => x[0] === t.mood);
-        return `<tr ${HOME.tab === 'bin' ? '' : `data-row="${t.id}" tabindex="0"`}><td class="dy-name"><span class="dy-nm"><span class="dy-ic">${esc(t.icon || '📄')}</span>${esc(t.title || 'Untitled')}${t.fav ? ' <span class="dy-star">★</span>' : ''}</span></td><td>${m ? `<span class="dy-chip">${m[0]} ${m[1]}</span>` : ''}</td><td>${p ? `<span class="dy-chip soft">${esc(p.icon)} ${esc(p.title || 'Untitled')}</span>` : '<span class="dy-muted">Diary</span>'}</td><td>${fmt(t.created)}</td><td>${fmt(t.updated)}</td>${HOME.tab === 'bin' ? `<td class="dy-acts"><button data-restore="${t.id}">Bring back</button><button data-destroy="${t.id}" class="danger">Delete forever</button></td>` : ''}</tr>`; }).join('')}
-    </tbody></table>` : `<p class="dy-empty">${empty}</p>`;
+        return `<tr ${HOME.tab === 'bin' ? '' : `data-row="${t.id}" tabindex="0"`}><td class="dy-name"><span class="dy-nm"><span class="dy-ic">${esc(t.icon || '📄')}</span>${esc(t.title || 'Untitled')}${t.fav ? ' <span class="dy-star">★</span>' : ''}${(t.tags || []).slice(0, 3).map(g => `<span class="dy-tag sm">#${esc(g)}</span>`).join('')}</span></td><td>${m ? `<span class="dy-chip">${m[0]} ${m[1]}</span>` : ''}</td><td>${p ? `<span class="dy-chip soft">${esc(p.icon)} ${esc(p.title || 'Untitled')}</span>` : '<span class="dy-muted">Diary</span>'}</td><td>${fmt(t.created)}</td><td>${fmt(t.updated)}</td>${HOME.tab === 'bin' ? `<td class="dy-acts"><button data-restore="${t.id}">Bring back</button><button data-destroy="${t.id}" class="danger">Delete forever</button></td>` : ''}</tr>`; }).join('')}
+    </tbody></table>` : `<p class="dy-empty">${HOME.day || HOME.tag || q ? 'No pages match.' : empty}</p>`);
     box.querySelectorAll('tr[data-row]').forEach(tr => tr.onkeydown = e => { if (e.key === 'Enter') open(tr.dataset.row); });
   }
 
   /* ---------- a page ---------- */
-  let saveTimer = null;
+  let saveTimer = null, PENDING = null, TYPING = { id: null, at: 0 };
+  const tagsHTML = t => (t.tags || []).map(g => `<span class="dy-tag">#${esc(g)}<button data-rmtag="${esc(g)}" aria-label="Remove tag ${esc(g)}">×</button></span>`).join('');
+  function addTag(t) {
+    const v = prompt('Add a tag (for example school, trip, cricket):'); if (!v) return;
+    const g = v.toLowerCase().replace(/^#/, '').replace(/[^a-z0-9\u0900-\u097f -]/g, '').trim().replace(/\s+/g, '-').slice(0, 24); if (!g) return;
+    t.tags = [...new Set([...(t.tags || []), g])].slice(0, 12); t.updated = Date.now(); save(); const b = $('#dyTags'); if (b) b.innerHTML = tagsHTML(t);
+  }
+  /* Saves a pending edit straight away (the tab is being hidden or closed). */
+  function flush() { if (PENDING) PENDING(); }
+  addEventListener('pagehide', flush);
+  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') flush(); });
+  addEventListener('beforeunload', flush);
   function renderPage(t) {
     const tr = trail(t), m = MOODS.find(x => x[0] === t.mood);
     const cover = t.cover && COVERS[t.cover];
@@ -208,25 +267,37 @@ const Diary = (() => {
         ${cover ? `<div class="dy-cover" style="background:${cover[1]}"><div class="dy-cover-acts"><button data-cover>Change cover</button><button data-cover-off>Remove</button></div></div>` : ''}
         <div class="dy-page ${t.wide ? 'wide' : ''} f-${t.font || 'sans'} ${cover ? '' : 'no-cover'}">
           <button class="dy-icon" data-icon aria-label="Change page icon" title="Change icon">${esc(t.icon || '📄')}</button>
-          <div class="dy-adders">${cover ? '' : '<button data-cover>🖼️ Add cover</button>'}${m ? '' : '<button data-mood>😊 Add mood</button>'}<button data-starter>💡 Need an idea?</button></div>
+          <div class="dy-adders">${cover ? '' : '<button data-cover>🖼️ Add cover</button>'}${m ? '' : '<button data-mood>😊 Add mood</button>'}<button data-starter>💡 Need an idea?</button><button data-addtag>🏷️ Add tag</button><button data-dictate>🎤 Talk to type</button></div>
           <h1 class="dy-title" contenteditable="${t.locked ? 'false' : 'true'}" spellcheck="true" data-ph="Untitled" aria-label="Page title">${esc(t.title || '')}</h1>
-          <div class="dy-meta">${m ? `<button class="dy-chip" data-mood>${m[0]} Feeling ${m[1].toLowerCase()}</button>` : ''}<span>${tr.length > 1 ? `In ${tr.slice(0, -1).map(p => `<button class="dy-link" data-go-page="${p.id}">${esc(p.icon)} ${esc(p.title || 'Untitled')}</button>`).join(' / ')} · ` : ''}Edited ${fmt(t.updated).toLowerCase()}</span><span id="dyWords">${words(t)} words</span><span class="saved" id="savedLbl">Saved</span>${t.locked ? '<span class="dy-chip soft">🔒 Locked</span>' : ''}</div>
+          <div class="dy-meta">${m ? `<button class="dy-chip" data-mood>${m[0]} Feeling ${m[1].toLowerCase()}</button>` : ''}<span>${tr.length > 1 ? `In ${tr.slice(0, -1).map(p => `<button class="dy-link" data-go-page="${p.id}">${esc(p.icon)} ${esc(p.title || 'Untitled')}</button>`).join(' / ')} · ` : ''}Edited ${fmt(t.updated).toLowerCase()}</span><span id="dyWords">${words(t)} words</span><span id="dyTime">${t.writeMs > 59000 ? '✍️ ' + Math.round(t.writeMs / 6e4) + ' min writing' : ''}</span><span class="saved" id="savedLbl">Saved</span>${t.locked ? '<span class="dy-chip soft">🔒 Locked</span>' : ''}</div>
+          <div class="dy-tagline" id="dyTags">${tagsHTML(t)}</div>
           ${privateHTML(t)}
           <div class="editor dy-editor" id="editor" contenteditable="${t.locked ? 'false' : 'true'}" spellcheck="true" aria-label="Page" data-ph="Write something, or type / for blocks">${t.html || ''}</div>
           <button class="dy-click-end" id="dyEnd" aria-label="Add a line at the end"></button>
         </div>
-        <div class="dy-mobar" aria-label="Writing tools"><button data-mo="slash">＋ Block</button><button data-mo="todo">☐</button><button data-mo="ul">•</button><button data-mo="h2">H</button><button data-mo="bold"><b>B</b></button><button data-mo="italic"><i>I</i></button><button data-mo="sticker">😀</button></div>
+        <div class="dy-mobar" aria-label="Writing tools"><button data-mo="slash">＋ Block</button><button data-mo="todo">☐</button><button data-mo="ul">•</button><button data-mo="h2">H</button><button data-mo="bold"><b>B</b></button><button data-mo="italic"><i>I</i></button><button data-mo="sticker">😀</button><button data-mo="image">🖼️</button><button data-mo="dictate">🎤</button></div>
       </div>
       ${t.chatOn ? '<aside class="tchat" id="tchat" aria-label="Talk with Spark about this page"></aside>' : ''}
     </div>`;
-    refreshPageLinks();
+    refreshPageLinks(); loadMedia($('#editor'));
     if (!$('#editor').firstElementChild) $('#editor').innerHTML = '<p><br></p>';
     const ed = $('#editor'), title = document.querySelector('.dy-title');
     try { document.execCommand('defaultParagraphSeparator', false, 'p'); } catch (e) {}
+    /* Saving: 0.4 s after the last change, at once when the page is hidden or closed, and never over a newer copy
+       saved in another tab without asking. Every few minutes a copy goes into the page's history. */
+    const commit = () => {
+      clearTimeout(saveTimer); PENDING = null;
+      if (!ed.isConnected) return;
+      t.html = clean(ed.innerHTML); t.updated = Date.now(); t.rev = (t.rev || 0) + 1; save(); renderSide();
+      const l = $('#savedLbl'); if (l) l.textContent = 'Saved'; const w = $('#dyWords'); if (w) w.textContent = words(t) + ' words';
+      const tm = $('#dyTime'); if (tm && t.writeMs > 59000) tm.textContent = '✍️ ' + Math.round(t.writeMs / 6e4) + ' min writing';
+      scheduleThoughtLearning(t); snapshot(t); announce(t);
+    };
     const changed = () => {
-      $('#savedLbl').textContent = 'Saving…'; clearTimeout(saveTimer);
-      saveTimer = setTimeout(() => { t.html = clean(ed.innerHTML); t.updated = Date.now(); save(); renderSide(); const l = $('#savedLbl'); if (l) l.textContent = 'Saved'; const w = $('#dyWords'); if (w) w.textContent = words(t) + ' words'; scheduleThoughtLearning(t); }, 400);
-      ed.classList.toggle('is-empty', !ed.textContent.trim() && !ed.querySelector('hr,.b-page,.todo,.callout,img'));
+      const now = Date.now(); if (TYPING.id === t.id && now - TYPING.at < 60000) t.writeMs = (t.writeMs || 0) + (now - TYPING.at); TYPING = { id: t.id, at: now };
+      $('#savedLbl').textContent = 'Saving…'; clearTimeout(saveTimer); PENDING = commit;
+      saveTimer = setTimeout(commit, 400);
+      ed.classList.toggle('is-empty', !ed.textContent.trim() && !ed.querySelector('hr,.b-page,.todo,.callout,img,.b-img,.b-audio'));
     };
     ed.classList.toggle('is-empty', !ed.textContent.trim() && !ed.querySelector('hr,.b-page,.todo,.callout,img'));
     title.oninput = () => { t.title = title.textContent.replace(/\n/g, ' ').trim(); t.updated = Date.now(); clearTimeout(saveTimer); saveTimer = setTimeout(() => { save(); renderSide(); }, 300); };
@@ -244,6 +315,9 @@ const Diary = (() => {
       if (b.hasAttribute('data-mood')) return moodMenu(b, mo => { t.mood = mo; save(); renderPage(t); renderSide(); });
       if (b.hasAttribute('data-starter')) return starterMenu(b, s => { if (t.locked) return; const h = el('h2'); h.textContent = s; const p = el('p'); if (ed.classList.contains('is-empty')) ed.innerHTML = ''; ed.append(h, p); focusStart(p); changed(); });
       if (b.dataset.goPage) return open(b.dataset.goPage);
+      if (b.hasAttribute('data-addtag')) return addTag(t);
+      const rt = b.dataset.rmtag; if (rt) { t.tags = (t.tags || []).filter(g => g !== rt); save(); $('#dyTags').innerHTML = tagsHTML(t); return; }
+      if (b.hasAttribute('data-dictate')) return dictate(ed, changed, b);
       if (b.dataset.mo) return mobile(b.dataset.mo, ed, changed);
     });
     if (t.chatOn) renderThoughtChat();
@@ -253,7 +327,7 @@ const Diary = (() => {
   function refreshPageLinks() {
     document.querySelectorAll('#editor .b-page').forEach(a => { const p = byId(a.dataset.page); if (!p || p.trashed) return a.remove(); a.innerHTML = `<span class="dy-ic">${esc(p.icon)}</span><span>${esc(p.title || 'Untitled')}</span>`; a.setAttribute('contenteditable', 'false'); });
   }
-  const clean = html => html.replace(/\s(?:draggable|data-drop)="[^"]*"/g, '').replace(/<div class="dy-drop[^"]*"><\/div>/g, '');
+  const clean = html => html.replace(/\s(?:draggable|data-drop)="[^"]*"/g, '').replace(/<div class="dy-drop[^"]*"><\/div>/g, '').replace(/(<(?:img|audio)\b[^>]*?)\ssrc="blob:[^"]*"/g, '$1');
 
   /* ---------- editor helpers ---------- */
   const el = (tag, cls) => { const e = document.createElement(tag); if (cls) e.className = cls; return e; };
@@ -288,6 +362,11 @@ const Diary = (() => {
     ['callout', '💡', 'Callout', 'A coloured box to make it stand out', 'callout box note'],
     ['hr', '—', 'Divider', 'A line to split things up', 'divider line hr'],
     ['code', '</>', 'Code', 'For coding practice', 'code program'],
+    ['image', '🖼️', 'Image', 'Add a photo or picture', 'image photo picture upload'],
+    ['drawing', '🎨', 'Drawing', 'Draw something with your finger or mouse', 'drawing draw sketch paint doodle'],
+    ['voice', '🎙️', 'Voice note', 'Record your voice', 'voice audio record recording'],
+    ['dictate', '🎤', 'Talk to type', 'Say it and Spark types it', 'speech dictate talk type'],
+    ['emoji', '😊', 'Emoji', 'Add an emoji in your writing', 'emoji smiley'],
     ['page', '📄', 'Page inside', 'A new page inside this one', 'page subpage'],
     ['sticker', '😀', 'Sticker', 'A big emoji', 'sticker emoji'],
     ['date', '📅', 'Today’s date', 'Add the date', 'date today time'],
@@ -492,6 +571,11 @@ const Diary = (() => {
     if (!via) { const s = getSelection(); const end = s.anchorNode === node ? s.anchorOffset : start + 1; const r = document.createRange(); r.setStart(node, start); r.setEnd(node, Math.max(end, start + 1)); r.deleteContents(); s.removeAllRanges(); const c = document.createRange(); c.setStart(node, start); c.collapse(true); s.addRange(c); }
     let b = caretBlock(ed);
     if (kind === 'date') { insertInline(today()); return changed(); }
+    if (kind === 'emoji') { const r = getSelection().rangeCount ? getSelection().getRangeAt(0).cloneRange() : null; return iconMenu(caretRect() ? { getBoundingClientRect: caretRect } : ed, ic => { if (r) { const s = getSelection(); s.removeAllRanges(); s.addRange(r); } ed.focus(); insertInline(ic); changed(); }); }
+    if (kind === 'image') return pickImage(b, ed, changed);
+    if (kind === 'drawing') return drawPad(b, ed, changed);
+    if (kind === 'voice') return recordVoice(b, ed, changed);
+    if (kind === 'dictate') return dictate(ed, changed);
     if (kind === 'sticker') { const ref = b; return iconMenu(caretRect() ? { getBoundingClientRect: caretRect } : ed, ic => { const st = el('div', 'b-sticker'); st.setAttribute('contenteditable', 'false'); st.textContent = ic; placeAfter(ref, st, ed); if (ref && !blockText(ref) && ref.tagName === 'P') ref.remove(); const p = make('p'); st.after(p); focusStart(p); changed(); }); }
     if (kind === 'mood') return moodMenu(caretRect() ? { getBoundingClientRect: caretRect } : ed, mo => { t.mood = mo; save(); const m = MOODS.find(x => x[0] === mo); if (m) insertInline(`${m[0]} Feeling ${m[1].toLowerCase()} `); changed(); });
     const empty = b && !blockText(b) && !(b.querySelector && b.querySelector('img'));
@@ -531,7 +615,7 @@ const Diary = (() => {
     box.onclick = e => { const b = e.target.closest('[data-mo2]'); if (b) { done(b.dataset.mo2 || null); closeMenus(); } };
   }
   function starterMenu(anchor, done) {
-    const box = popup(anchor, 'dy-picker', `<div class="dy-mh">Writing ideas</div>${STARTERS.map(s => `<button class="dy-mi" data-st="${esc(s)}"><span class="mi-ic">✏️</span><span><b>${esc(s)}</b></span></button>`).join('')}`);
+    const box = popup(anchor, 'dy-picker', `<div class="dy-mh">Writing ideas</div>${starters().map(s => `<button class="dy-mi" data-st="${esc(s)}"><span class="mi-ic">✏️</span><span><b>${esc(s)}</b></span></button>`).join('')}`);
     box.onclick = e => { const b = e.target.closest('[data-st]'); if (b) { done(b.dataset.st); closeMenus(); } };
   }
 
@@ -614,6 +698,8 @@ const Diary = (() => {
     const b = caretBlock(ed);
     if (k === 'slash') { openSlash(ed, t, changed, true); return; }
     if (k === 'bold' || k === 'italic') { document.execCommand(k); return changed(); }
+    if (k === 'image') return pickImage(b, ed, changed);
+    if (k === 'dictate') return dictate(ed, changed, document.querySelector('[data-mo="dictate"]'));
     if (k === 'sticker') { SLASH = { node: null, start: 0, ed, t, changed, via: true }; return chooseSlash('sticker'); }
     if (b && !blockText(b)) turnInto(b, k, ed); else insertAfter(b, k, ed, t);
     changed();
@@ -638,6 +724,9 @@ const Diary = (() => {
       <div class="dy-mh">Page</div>
       <button class="dy-mi" data-pm="sub"><span class="mi-ic">📄</span><span><b>Add a page inside</b></span></button>
       <button class="dy-mi" data-pm="dup"><span class="mi-ic">⧉</span><span><b>Duplicate</b></span></button>
+      <button class="dy-mi" data-pm="history"><span class="mi-ic">🕘</span><span><b>Page history</b><small>Go back to an earlier version</small></span></button>
+      <button class="dy-mi" data-pm="download"><span class="mi-ic">⬇️</span><span><b>Download this page</b></span></button>
+      ${typeof LM !== 'undefined' && LM.enabled ? `<button class="dy-mi" data-pm="exclude"><span class="mi-ic">🌍</span><span><b>Use for my lessons</b><small>Spark may pick safe interests from this page</small></span><span class="sw ${LM.excluded[t.id] ? '' : 'on'}"></span></button>` : ''}
       <button class="dy-mi" data-pm="move"><span class="mi-ic">↪</span><span><b>Move to…</b></span></button>
       <button class="dy-mi danger" data-pm="del"><span class="mi-ic">🗑️</span><span><b>Move to bin</b></span></button>
       <div class="dy-foot">${words(t)} words · created ${fmt(t.created).toLowerCase()} · edited ${fmt(t.updated).toLowerCase()}</div>`);
@@ -648,6 +737,9 @@ const Diary = (() => {
       if (a === 'wide') { t.wide = !t.wide; save(); renderPage(t); }
       if (a === 'lock') { t.locked = !t.locked; save(); renderPage(t); toast(t.locked ? 'Page locked' : 'Page unlocked'); }
       if (a === 'sub') newPage(t.id);
+      if (a === 'history') historyMenu(anchor, t);
+      if (a === 'download') exportDiary([t], (t.title || 'page').replace(/[^\w -]/g, '').slice(0, 40) || 'page');
+      if (a === 'exclude') { SparkLearn.setExcluded(LM, t.id, !LM.excluded[t.id]); saveLM(); toast(LM.excluded[t.id] ? 'Spark won’t use this page for your lessons' : 'Spark may use safe interests from this page'); if (!LM.excluded[t.id]) setTimeout(() => pumpLearn().catch(() => {}), 500); }
       if (a === 'dup') duplicate(t);
       if (a === 'del') trash(t);
       if (a === 'move') moveMenu(anchor, t);
@@ -661,5 +753,234 @@ const Diary = (() => {
     box.onclick = e => { const b = e.target.closest('[data-mv]'); if (!b) return; t.parentId = b.dataset.mv || null; t.order = Date.now(); save(); closeMenus(); render(); toast('Page moved'); };
   }
 
-  return { COVERS, MOODS, normalize, create, newPage, open, trash, restore, renderHome, renderPage, sideHTML, wireSide, topBar, plainTop, owner, live, kids, trail, closeMenus, TEMPLATES };
+  /* ---------- pictures, drawings and voice notes ----------
+     Files stay on this device in IndexedDB (never in the page text, which has to stay small). A page keeps only a
+     reference (data-file); the picture or sound is loaded when the page opens. */
+  const fileId = () => 'dyf:' + Math.random().toString(36).slice(2, 10) + Date.now().toString(36);
+  const URLS = new Map();
+  async function loadMedia(root) {
+    for (const box of root.querySelectorAll('.b-img[data-file], .b-audio[data-file]')) {
+      box.setAttribute('contenteditable', 'false');
+      const id = box.dataset.file, tag = box.classList.contains('b-img') ? 'img' : 'audio';
+      let elm = box.querySelector(tag); if (!elm) { elm = el(tag); if (tag === 'audio') elm.controls = true; box.prepend(elm); }
+      try {
+        let u = URLS.get(id);
+        if (!u) { const f = await idb.get(id); if (!f || !f.blob) { box.classList.add('missing'); continue; } u = URL.createObjectURL(f.blob); URLS.set(id, u); }
+        elm.src = u;
+      } catch (e) { box.classList.add('missing'); }
+    }
+  }
+  function placeMedia(ref, ed, html, changed) {
+    const box = tmp(html).firstElementChild;
+    placeAfter(ref, box, ed);
+    if (ref && ref.tagName === 'P' && !blockText(ref)) ref.remove();
+    const p = make('p'); box.after(p); focusStart(p);
+    loadMedia(ed); changed();
+  }
+  /* Photos are shrunk to at most 1600 px before saving, so a page full of pictures still loads instantly. */
+  function shrink(file, max = 1600) {
+    return new Promise((res, rej) => {
+      const img = new Image(), u = URL.createObjectURL(file);
+      img.onload = () => { const k = Math.min(1, max / Math.max(img.width, img.height)); const c = el('canvas'); c.width = Math.round(img.width * k); c.height = Math.round(img.height * k); c.getContext('2d').drawImage(img, 0, 0, c.width, c.height); URL.revokeObjectURL(u); c.toBlob(b => (b ? res(b) : rej(new Error('Could not read that picture'))), 'image/jpeg', 0.85); };
+      img.onerror = () => { URL.revokeObjectURL(u); rej(new Error('That file isn’t a picture Spark can open')); };
+      img.src = u;
+    });
+  }
+  function pickImage(ref, ed, changed) {
+    const inp = el('input'); inp.type = 'file'; inp.accept = 'image/*';
+    inp.onchange = async () => {
+      const f = inp.files && inp.files[0]; if (!f) return;
+      if (!/^image\//.test(f.type)) return toast('Please pick a picture.');
+      if (f.size > 25 * 1024 * 1024) return toast('That picture is too big (over 25 MB).');
+      try { const blob = await shrink(f); const id = fileId(); await idb.put({ id, blob, kind: 'diary-image', ts: Date.now() }); placeMedia(ref, ed, `<figure class="b-img" contenteditable="false" data-file="${id}"><img alt="My picture"></figure>`, changed); }
+      catch (e) { toast(e.message || 'Couldn’t add that picture.'); }
+    };
+    inp.click();
+  }
+  function modal(html) {
+    closeMenus();
+    const m = el('div', 'dy-modal'); m.innerHTML = `<div class="dy-modal-in" role="dialog" aria-modal="true">${html}</div>`;
+    document.body.appendChild(m); return m;
+  }
+  /* A drawing pad: colours, brush sizes, eraser, undo and clear. Works with a finger, a pen or a mouse. */
+  function drawPad(ref, ed, changed) {
+    const COL = ['#1f1f2e', '#ef4444', '#f97316', '#eab308', '#22c55e', '#3b82f6', '#a855f7', '#ec4899', '#8b5a2b'];
+    const m = modal(`<div class="dp-top"><b>🎨 Draw something</b><span class="sp"></span><button data-dp="undo" title="Undo">↶</button><button data-dp="clear">Clear</button></div>
+      <canvas class="dp-canvas" width="900" height="600" aria-label="Drawing area"></canvas>
+      <div class="dp-tools">${COL.map((c, i) => `<button class="dp-c ${i ? '' : 'on'}" data-col="${c}" style="background:${c}" aria-label="Colour"></button>`).join('')}<span class="sep"></span>${[4, 10, 20].map((w, i) => `<button class="dp-w ${i ? '' : 'on'}" data-w="${w}" aria-label="Brush size ${w}"><i style="width:${w}px;height:${w}px"></i></button>`).join('')}<button class="dp-e" data-eraser title="Eraser">🧽</button></div>
+      <div class="dp-acts"><button data-dp="cancel">Cancel</button><button class="pri" data-dp="save">Add to my page</button></div>`);
+    const cv = m.querySelector('canvas'), cx = cv.getContext('2d');
+    cx.fillStyle = '#fff'; cx.fillRect(0, 0, cv.width, cv.height); cx.lineCap = cx.lineJoin = 'round';
+    let col = COL[0], w = 4, erase = false, down = false, last = null; const undo = [];
+    const pos = e => { const r = cv.getBoundingClientRect(); return [(e.clientX - r.left) * cv.width / r.width, (e.clientY - r.top) * cv.height / r.height]; };
+    cv.onpointerdown = e => { down = true; cv.setPointerCapture(e.pointerId); undo.push(cx.getImageData(0, 0, cv.width, cv.height)); if (undo.length > 20) undo.shift(); last = pos(e); cx.beginPath(); cx.arc(last[0], last[1], w / 2, 0, 7); cx.fillStyle = erase ? '#fff' : col; cx.fill(); };
+    cv.onpointermove = e => { if (!down) return; const p = pos(e); cx.strokeStyle = erase ? '#fff' : col; cx.lineWidth = erase ? w * 3 : w; cx.beginPath(); cx.moveTo(last[0], last[1]); cx.lineTo(p[0], p[1]); cx.stroke(); last = p; };
+    cv.onpointerup = cv.onpointercancel = () => { down = false; };
+    m.onclick = async e => {
+      const c = e.target.closest('[data-col]'); if (c) { col = c.dataset.col; erase = false; m.querySelectorAll('.dp-c,.dp-e').forEach(x => x.classList.toggle('on', x === c)); return; }
+      const ww = e.target.closest('[data-w]'); if (ww) { w = Number(ww.dataset.w); m.querySelectorAll('.dp-w').forEach(x => x.classList.toggle('on', x === ww)); return; }
+      if (e.target.closest('[data-eraser]')) { erase = true; m.querySelectorAll('.dp-c,.dp-e').forEach(x => x.classList.toggle('on', x.hasAttribute('data-eraser'))); return; }
+      const a = e.target.closest('[data-dp]'); if (!a) return;
+      if (a.dataset.dp === 'undo' && undo.length) cx.putImageData(undo.pop(), 0, 0);
+      if (a.dataset.dp === 'clear') { undo.push(cx.getImageData(0, 0, cv.width, cv.height)); cx.fillStyle = '#fff'; cx.fillRect(0, 0, cv.width, cv.height); }
+      if (a.dataset.dp === 'cancel') m.remove();
+      if (a.dataset.dp === 'save') {
+        cv.toBlob(async blob => { try { const id = fileId(); await idb.put({ id, blob, kind: 'diary-drawing', ts: Date.now() }); m.remove(); placeMedia(ref, ed, `<figure class="b-img drawing" contenteditable="false" data-file="${id}"><img alt="My drawing"></figure>`, changed); } catch (err) { toast('Couldn’t save the drawing.'); } }, 'image/png');
+      }
+    };
+  }
+  /* A voice note: record, listen back, then keep or try again. Up to 5 minutes. */
+  async function recordVoice(ref, ed, changed) {
+    if (!navigator.mediaDevices || !window.MediaRecorder) return toast('Voice notes aren’t supported in this browser.');
+    let stream; try { stream = await navigator.mediaDevices.getUserMedia({ audio: true }); } catch (e) { return toast('Spark needs microphone permission to record.'); }
+    const m = modal(`<div class="vr"><div class="vr-dot"></div><b class="vr-t">0:00</b><p class="dy-muted">Recording… say whatever you like.</p><audio controls hidden></audio>
+      <div class="dp-acts"><button data-vr="cancel">Cancel</button><button class="pri" data-vr="stop">⏹ Stop</button><button data-vr="again" hidden>Record again</button><button class="pri" data-vr="keep" hidden>Add to my page</button></div></div>`);
+    let chunks = [], rec, blob = null, start, tick;
+    const begin = () => { chunks = []; rec = new MediaRecorder(stream); rec.ondataavailable = e => e.data.size && chunks.push(e.data); rec.onstop = () => { blob = new Blob(chunks, { type: rec.mimeType || 'audio/webm' }); const a = m.querySelector('audio'); a.src = URL.createObjectURL(blob); a.hidden = false; }; rec.start(); start = Date.now(); m.querySelector('.vr').classList.add('on');
+      tick = setInterval(() => { const s = Math.floor((Date.now() - start) / 1000); m.querySelector('.vr-t').textContent = `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`; if (s >= 300) stop(); }, 250); };
+    const stop = () => { clearInterval(tick); if (rec && rec.state !== 'inactive') rec.stop(); m.querySelector('.vr').classList.remove('on'); m.querySelector('[data-vr="stop"]').hidden = true; m.querySelector('[data-vr="again"]').hidden = m.querySelector('[data-vr="keep"]').hidden = false; m.querySelector('.vr p').textContent = 'Listen back, then keep it or try again.'; };
+    const end = () => { clearInterval(tick); try { if (rec && rec.state !== 'inactive') rec.stop(); } catch (e) {} stream.getTracks().forEach(x => x.stop()); m.remove(); };
+    m.onclick = async e => {
+      const a = e.target.closest('[data-vr]'); if (!a) return;
+      if (a.dataset.vr === 'stop') stop();
+      if (a.dataset.vr === 'cancel') end();
+      if (a.dataset.vr === 'again') { m.querySelector('audio').hidden = true; m.querySelector('[data-vr="stop"]').hidden = false; m.querySelector('[data-vr="again"]').hidden = m.querySelector('[data-vr="keep"]').hidden = true; m.querySelector('.vr p').textContent = 'Recording…'; begin(); }
+      if (a.dataset.vr === 'keep' && blob) { const id = fileId(); try { await idb.put({ id, blob, kind: 'diary-voice', ts: Date.now() }); } catch (err) { return toast('Couldn’t save the voice note.'); } end(); placeMedia(ref, ed, `<div class="b-audio" contenteditable="false" data-file="${id}"><span class="au-ic">🎙️</span></div>`, changed); }
+    };
+    begin();
+  }
+  /* Talk to type: the browser's own speech recognition writes what the child says where the cursor is. */
+  let DICT = null;
+  function dictate(ed, changed, btn) {
+    if (DICT) { DICT.stop(); return; }
+    const R = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (!R) return toast('Talk to type isn’t supported in this browser. Try Chrome or Edge.');
+    if (!ed.contains(getSelection().anchorNode)) focusEnd(ed.lastElementChild || ed);
+    const r = new R(); r.continuous = true; r.interimResults = false; r.lang = S.settings.lang === 'hi' ? 'hi-IN' : 'en-IN';
+    r.onresult = e => { for (let i = e.resultIndex; i < e.results.length; i++) if (e.results[i].isFinal) { const txt = e.results[i][0].transcript.trim(); if (txt) { ed.focus(); insertInline(txt.charAt(0).toUpperCase() + txt.slice(1) + ' '); changed(); } } };
+    const off = () => { DICT = null; document.querySelectorAll('[data-dictate],[data-mo="dictate"]').forEach(b => b.classList.remove('rec')); };
+    r.onend = off; r.onerror = e => { off(); if (e.error === 'not-allowed') toast('Spark needs microphone permission for talk to type.'); };
+    try { r.start(); DICT = r; document.querySelectorAll('[data-dictate],[data-mo="dictate"]').forEach(b => b.classList.add('rec')); toast('Listening… tap 🎤 again to stop'); } catch (e) { off(); }
+  }
+
+  /* ---------- page history ----------
+     Up to 30 earlier versions per page, at most one every 3 minutes, kept on this device. */
+  async function snapshot(t, force) {
+    try {
+      const id = 'dyv:' + t.id, rec = (await idb.get(id)) || { id, list: [] };
+      const last = rec.list[rec.list.length - 1];
+      if (!force && last && Date.now() - last.at < 180000) { last.html = t.html; last.title = t.title; last.at = Date.now(); }
+      else rec.list.push({ at: Date.now(), title: t.title, html: t.html });
+      if (rec.list.length > 30) rec.list = rec.list.slice(-30);
+      await idb.put(rec);
+    } catch (e) { /* history is a nice-to-have; saving the page already happened */ }
+  }
+  async function historyMenu(anchor, t) {
+    const rec = await idb.get('dyv:' + t.id).catch(() => null), list = rec ? rec.list.slice().reverse() : [];
+    const box = popup(anchor, 'dy-picker dy-pmenu', `<div class="dy-mh">Page history</div>${list.length ? list.map((v, i) => `<button class="dy-mi" data-ver="${i}"><span class="mi-ic">🕘</span><span><b>${esc(new Date(v.at).toLocaleString(undefined, { day: 'numeric', month: 'short', hour: 'numeric', minute: '2-digit' }))}</b><small>${esc((tmp(v.html).textContent || '').trim().slice(0, 60) || 'Empty page')}</small></span></button>`).join('') : '<p class="dy-empty">No earlier versions yet.</p>'}`);
+    box.style.left = ''; box.style.right = '12px';
+    box.onclick = async e => {
+      const b = e.target.closest('[data-ver]'); if (!b) return; const v = list[Number(b.dataset.ver)];
+      if (!confirm('Go back to this version? Your current version is kept in the history too.')) return;
+      await snapshot(t, true);
+      t.html = v.html; t.title = v.title || t.title; t.updated = Date.now(); save(); closeMenus(); renderSide(); renderPage(t); toast('Earlier version restored');
+    };
+  }
+
+  /* ---------- the same page open in two tabs ----------
+     Each save tells other tabs. A tab with no unsaved typing simply takes the newer copy; a tab in the middle of
+     typing asks which to keep, so neither tab silently overwrites the other. */
+  const BC = typeof BroadcastChannel !== 'undefined' ? new BroadcastChannel('spark-diary') : null;
+  function announce(t) { if (BC) BC.postMessage({ id: t.id, rev: t.rev, html: t.html, title: t.title, updated: t.updated }); }
+  if (BC) BC.onmessage = e => {
+    const d = e.data || {}, t = byId(d.id); if (!t || (d.updated || 0) <= (t.updated || 0)) return;
+    const open = S.mode === 'thought' && th() === t && $('#editor');
+    if (open && PENDING) {
+      if (document.querySelector('.dy-conflict')) return;
+      const bar = el('div', 'dy-conflict'); bar.innerHTML = `<span>This page was changed in another tab.</span><button data-cf="mine">Keep mine</button><button data-cf="theirs">Use the other one</button>`;
+      document.querySelector('.dy-meta').after(bar);
+      bar.onclick = ev => { const c = ev.target.closest('[data-cf]'); if (!c) return; bar.remove(); if (c.dataset.cf === 'mine') flush(); else { PENDING = null; clearTimeout(saveTimer); Object.assign(t, { html: d.html, title: d.title, updated: d.updated, rev: d.rev }); renderPage(t); } };
+      return;
+    }
+    Object.assign(t, { html: d.html, title: d.title, updated: d.updated, rev: d.rev });
+    if (open) renderPage(t); else renderSide();
+  };
+
+  /* ---------- download ----------
+     A single web page with the writing, pictures and drawings (voice notes are listed by name). */
+  async function exportDiary(pages, name) {
+    const blobUrl = async id => { try { const f = await idb.get(id); if (!f || !f.blob) return ''; return await new Promise(r => { const fr = new FileReader(); fr.onload = () => r(fr.result); fr.readAsDataURL(f.blob); }); } catch (e) { return ''; } };
+    const parts = [];
+    for (const t of pages.slice().sort((a, b) => (a.created || 0) - (b.created || 0))) {
+      const d = tmp(t.html || '');
+      for (const fig of d.querySelectorAll('.b-img[data-file]')) { const src = await blobUrl(fig.dataset.file); fig.innerHTML = src ? `<img src="${src}" alt="">` : '<em>(picture)</em>'; }
+      d.querySelectorAll('.b-audio').forEach(a => { a.innerHTML = '<em>🎙️ Voice note (kept in Spark)</em>'; });
+      d.querySelectorAll('.b-page').forEach(a => { const p = byId(a.dataset.page); a.textContent = '📄 ' + (p ? p.title || 'Untitled' : 'A page'); });
+      d.querySelectorAll('[contenteditable]').forEach(x => x.removeAttribute('contenteditable'));
+      const mo = MOODS.find(x => x[0] === t.mood);
+      parts.push(`<article><h1>${esc(t.icon || '')} ${esc(t.title || 'Untitled')}</h1><p class="meta">${esc(new Date(t.created).toLocaleString())}${mo ? ' · ' + mo[0] + ' ' + mo[1] : ''}${(t.tags || []).length ? ' · ' + t.tags.map(g => '#' + esc(g)).join(' ') : ''}</p>${d.innerHTML}</article>`);
+    }
+    const doc = `<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(owner())}</title><style>body{font:16px/1.65 -apple-system,Segoe UI,Roboto,sans-serif;max-width:760px;margin:40px auto;padding:0 20px;color:#222}article{border-bottom:1px solid #ddd;padding-bottom:28px;margin-bottom:28px}h1{font-size:28px}.meta{color:#888;font-size:13px}img{max-width:100%;border-radius:8px}.callout{background:#f6f3e8;padding:12px 14px;border-radius:8px;display:flex;gap:8px}.todo{display:flex;gap:8px}blockquote{border-left:3px solid #222;margin:0;padding-left:14px}</style></head><body><h1 style="font-size:36px">📔 ${esc(owner())}</h1><p class="meta">Downloaded ${esc(new Date().toLocaleString())} · ${pages.length} page${pages.length === 1 ? '' : 's'}</p>${parts.join('')}</body></html>`;
+    const a = el('a'); a.href = URL.createObjectURL(new Blob([doc], { type: 'text/html' })); a.download = (name || 'my-diary') + '.html'; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    toast('Your diary is downloading');
+  }
+
+  /* ---------- My Learning World ----------
+     What Spark may use from the diary to make lessons familiar, in the student's words, with full control. */
+  let WORLD = { busy: false, msg: '' };
+  function renderWorld() {
+    const allowed = typeof lmAllowed === 'function' ? lmAllowed() : true, on = !!LM.enabled && allowed;
+    const P = SparkLearn.profile(LM), sum = SparkLearn.summary(LM);
+    const pages = live();
+    const chip = x => `<span class="lw-chip ${x.usable ? '' : 'maybe'}" title="${x.usable ? 'Spark can use this' : 'Spark isn’t sure yet'}"><span class="lw-v">${esc(x.name)}</span><span class="lw-dots" aria-label="${Math.round(x.confidence * 100)}% sure">${'●'.repeat(Math.max(1, Math.round(x.confidence * 3)))}${'○'.repeat(3 - Math.max(1, Math.round(x.confidence * 3)))}</span><button data-why="${x.id}" aria-label="Why is ${esc(x.name)} here?" title="Why is this here?">?</button><button data-fix="${x.id}" aria-label="Change ${esc(x.name)}" title="Change">✎</button><button data-rm="${x.id}" aria-label="Remove ${esc(x.name)}" title="Remove">×</button></span>`;
+    const section = cat => { const c = SparkLearn.CATS[cat], items = P.categories[cat];
+      return `<section class="lw-sec"><h3>${c.icon} ${c.label}</h3><div class="lw-chips">${items.length ? items.map(chip).join('') : '<span class="dy-muted">Nothing yet.</span>'}
+        ${cat === 'style' ? SparkLearn.STYLES.filter(st => !items.some(i => i.name === st)).map(st => `<button class="lw-add-style" data-addstyle="${esc(st)}">+ ${esc(st)}</button>`).join('') : `<button class="lw-add" data-add="${cat}">+ Add</button>`}</div></section>`; };
+    const jobs = LM.jobs, failed = Object.values(jobs).filter(j => j.status === 'failed').length;
+    const status = !on ? '' : WORLD.msg || (Object.values(jobs).some(j => j.status === 'running') ? 'Spark is reading your pages…' : failed ? `${failed} page${failed === 1 ? '' : 's'} couldn’t be read yet. Spark will try again by itself.` : '');
+    const used = LM.log.slice(-8).reverse().filter(l => l.used.length);
+    $('#view').innerHTML = `<div class="lw-page"><div class="lw-in">
+      <header class="lw-hero">${typeof buddyImg === 'function' ? buddyImg('lw-buddy', true) : ''}<div><h1>My Learning World</h1>
+        <p class="lw-sum">${on ? (sum ? esc(sum) : 'As you write in your diary, Spark will notice things you enjoy, like sports, animals or baking, and use them to make lessons feel familiar.') : 'Spark can use things you enjoy, like cricket, animals or baking, to explain new ideas with examples you know. It’s off until you turn it on.'}</p></div></header>
+      <div class="lw-card lw-switch"><div><b>Use my diary to personalise my lessons</b><p>${allowed ? 'You can turn this on or off any time. Spark works just the same without it.' : 'Your parent has turned this off in Parent View.'}</p></div>
+        <button class="lw-tg ${on ? 'on' : ''}" role="switch" aria-checked="${on}" ${allowed ? '' : 'disabled'} data-toggle aria-label="Use my diary to personalise my lessons"><span></span></button></div>
+      <details class="lw-card lw-how" ${on ? '' : 'open'}><summary>How Spark uses this</summary><ul>
+        <li>🔒 <b>Your diary stays private.</b> Spark never replies to it, never shows it to anyone (not even Parent View) and never quotes it in lessons.</li>
+        <li>🧩 <b>Spark keeps only short, safe words</b> like “cricket”, “baking” or “school trip”, never your sentences. Each one shows which pages it came from.</li>
+        <li>🚫 <b>Never kept:</b> feelings, health, family or friendship problems, religion, politics, names or anything private. One mention isn’t enough either; Spark waits until it’s clear you enjoy something.</li>
+        <li>✏️ <b>You’re in charge:</b> remove or change anything, add your own, choose which pages count, or delete it all below.</li>
+        <li>🤖 When this is on, the writing on a page is sent once to Spark’s AI to pick out these words. It isn’t stored there by Spark.</li></ul></details>
+      ${status ? `<p class="lw-status">${esc(status)}</p>` : ''}
+      ${on ? `<div class="lw-grid">${['interest', 'activity', 'object', 'experience', 'subject_like', 'subject_hard', 'style'].map(section).join('')}</div>
+      ${P.removed.length ? `<section class="lw-sec"><h3>🗑️ Removed</h3><p class="dy-muted">Spark won’t use or re-add these.</p><div class="lw-chips">${P.removed.map(x => `<span class="lw-chip maybe"><span class="lw-v">${esc(x.name)}</span><button data-undo="${x.id}" title="Bring back">↺</button></span>`).join('')}</div></section>` : ''}
+      <section class="lw-sec"><h3>📔 Pages Spark can learn from</h3><p class="dy-muted">Turn a page off and everything it added goes away.</p>
+        <div class="lw-pages">${pages.length ? pages.map(t => { const j = jobs[t.id], ex = !!LM.excluded[t.id]; const st = ex ? 'Not used' : !j ? 'Waiting' : j.status === 'done' ? 'Read' : j.status === 'failed' ? 'Will retry' : 'Reading…'; return `<label class="lw-pg"><input type="checkbox" data-incl="${t.id}" ${ex ? '' : 'checked'}><span class="dy-ic">${esc(t.icon || '📄')}</span><span class="t">${esc(t.title || 'Untitled')}</span><span class="lw-st">${st}</span></label>`; }).join('') : '<p class="dy-muted">No diary pages yet.</p>'}</div></section>
+      ${used.length ? `<section class="lw-sec"><h3>✨ Recently in your lessons</h3><ul class="lw-log">${used.map(l => `<li><b>${esc(l.used.join(', '))}</b> helped explain <i>${esc(l.topic || 'a lesson')}</i></li>`).join('')}</ul></section>` : ''}` : ''}
+      <section class="lw-sec lw-danger"><h3>⚙️ Your data</h3><div class="lw-acts">
+        ${on ? `<button data-rebuild ${WORLD.busy ? 'disabled' : ''}>🔄 Re-read all my pages</button>` : ''}
+        <button data-export>⬇️ Download my diary</button>
+        <button class="danger" data-wipe>Delete my learning world</button>
+        <button class="danger" data-wipe-all>Delete all diary pages</button></div></section>
+    </div></div>`;
+    const root = $('#view').querySelector('.lw-page');
+    root.onclick = async e => {
+      const b = e.target.closest('button'); if (!b || b.disabled) return;
+      if (b.hasAttribute('data-toggle')) { LM.enabled = !LM.enabled; S.settings.readThoughts = LM.enabled; saveLM(); save(); if (LM.enabled) { WORLD.msg = 'Spark is reading your pages…'; renderWorld(); pumpLearn().catch(() => {}).finally(() => { WORLD.msg = ''; renderWorld(); }); } else renderWorld(); return; }
+      if (b.dataset.why) { const m = LM.memories.find(x => x.id === b.dataset.why); const src = [...new Set(m.sources.map(x => x.entry))].map(byId).filter(Boolean);
+        const box = popup(b, 'dy-picker', `<div class="dy-mh">Why “${esc(m.value)}” is here</div>${m.manual ? '<p class="lw-why">You added this yourself.</p>' : ''}${src.length ? `<p class="lw-why">Spark noticed it on ${src.length} page${src.length === 1 ? '' : 's'}${m.explicit ? ' where you said you enjoy it' : ''}:</p>${src.map(p => `<button class="dy-mi" data-open-pg="${p.id}"><span class="mi-ic">${esc(p.icon)}</span><span><b>${esc(p.title || 'Untitled')}</b><small>${esc(fmt(p.updated))}</small></span></button>`).join('')}` : ''}<p class="lw-why">${SparkLearn.usable(m) ? 'Spark can use it in your lessons.' : 'Spark isn’t sure yet, so it won’t use it until it comes up again.'}</p>`);
+        box.onclick = ev => { const o = ev.target.closest('[data-open-pg]'); if (o) { closeMenus(); open(o.dataset.openPg); } }; return; }
+      if (b.dataset.rm) { SparkLearn.remove(LM, b.dataset.rm); saveLM(); return renderWorld(); }
+      if (b.dataset.undo) { SparkLearn.restoreMemory(LM, b.dataset.undo); saveLM(); return renderWorld(); }
+      if (b.dataset.fix) { const m = LM.memories.find(x => x.id === b.dataset.fix); const v = prompt(`Change “${m.value}” to:`, m.value); if (v == null) return; if (!SparkLearn.correct(LM, m.id, v)) return toast('Spark can only keep a few plain words, and nothing private.'); saveLM(); return renderWorld(); }
+      if (b.dataset.add) { const c = SparkLearn.CATS[b.dataset.add]; const v = prompt(`Add ${c.one === 'interest' ? 'an' : 'a'} ${c.one} (a few words, like “football” or “science fair”):`); if (!v) return; if (!SparkLearn.addManual(LM, b.dataset.add, v)) return toast(b.dataset.add.startsWith('subject') ? 'Try a school subject or topic, like “science” or “fractions”.' : 'Spark can only keep a few plain words, and nothing private.'); saveLM(); return renderWorld(); }
+      if (b.dataset.addstyle) { SparkLearn.addManual(LM, 'style', b.dataset.addstyle); saveLM(); return renderWorld(); }
+      if (b.hasAttribute('data-rebuild')) { if (!hasAI()) return toast('Spark needs its AI connection to read pages.'); WORLD.busy = true; WORLD.msg = 'Re-reading your pages…'; renderWorld(); try { await pumpLearn({ force: true }); toast('Your learning world is up to date'); } finally { WORLD.busy = false; WORLD.msg = ''; renderWorld(); } return; }
+      if (b.hasAttribute('data-export')) return exportDiary(live());
+      if (b.hasAttribute('data-wipe')) { if (!confirm('Delete everything in My Learning World? Your diary pages stay. Spark will forget your interests (it can learn them again if personalisation stays on).')) return; SparkLearn.wipe(LM); LM.enabled = false; S.settings.readThoughts = false; saveLM(); save(); toast('Your learning world was deleted and personalisation is off'); return renderWorld(); }
+      if (b.hasAttribute('data-wipe-all')) { const n = S.thoughts.length; if (!n) return toast('There are no diary pages.'); const v = prompt(`This deletes all ${n} diary page${n === 1 ? '' : 's'}, their pictures and history, forever. Type DELETE to confirm.`); if (v !== 'DELETE') return; destroyAll(); SparkLearn.wipe(LM); saveLM(); toast('All diary pages were deleted'); S.mode = 'world'; save(); return render(); }
+    };
+    root.onchange = e => { const c = e.target.closest('[data-incl]'); if (!c) return; SparkLearn.setExcluded(LM, c.dataset.incl, !c.checked); saveLM(); if (c.checked) pumpLearn().catch(() => {}).finally(renderWorld); else renderWorld(); };
+  }
+
+  return { renderWorld, flush, destroyAll, exportDiary, calendarHTML, dayKey, COVERS, MOODS, normalize, create, newPage, open, trash, restore, renderHome, renderPage, sideHTML, wireSide, topBar, plainTop, owner, live, kids, trail, closeMenus, TEMPLATES };
 })();
