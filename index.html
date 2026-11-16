@@ -1313,6 +1313,7 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
 @media (max-width: 560px) { .dz-sparky { width: 130px; } .dz-say { font-size: 15px; top: 14vh; } .dz-ball { font-size: 54px; } .dz-back { --w: 15vw; --y: calc(26vh + 80px); } .dz-front { --w: 19vw; } .dz-mid { --y: 64px; } }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } .disco.crew-out .dz-dancer, .dz-lasers { visibility: hidden; } }
 </style>
+<link rel="stylesheet" href="spark-diary.css">
 </head>
 <body>
 <div class="app" id="app">
@@ -1321,14 +1322,14 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
     <nav class="main-nav" id="mainNav" aria-label="Main">
       <button class="nav-i" data-nav="home" title="Learn"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10.5 12 4l8 6.5V19a1 1 0 0 1-1 1h-4.5v-5.5h-5V20H5a1 1 0 0 1-1-1z"/></svg><span class="lbl">Learn</span></button>
       <button class="nav-i" data-nav="space" title="My Study Space"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5z"/><path d="M5 19.5A1.5 1.5 0 0 0 6.5 21H19v-3M9 7.5h6"/></svg><span class="lbl">My Study Space</span></button>
+      <button class="nav-i" data-nav="diary" title="My Diary"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h11a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6z"/><path d="M6 3v18M4 7h4M4 12h4M4 17h4M11 8h5"/></svg><span class="lbl" id="diaryNavLbl">My Diary</span></button>
       <button class="nav-i" data-nav="progress" title="My Progress"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h16M7 16v-4M12 16V7M17 16v-6"/></svg><span class="lbl">My Progress</span></button>
     </nav>
     <div class="side-scroll">
       <div class="sec-h"><button type="button" class="sec-toggle" data-sec="nb" aria-expanded="false" aria-controls="nbBox"><svg class="sec-chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg><h4>Notebooks</h4><span class="sec-count" id="nbCount"></span></button><button class="add" id="newNb" aria-label="New notebook" title="New notebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button></div>
       <div id="nbBox" hidden><nav class="nb-list" id="nbList" aria-label="Study notebooks"></nav></div>
-      <div class="sec-h"><button type="button" class="sec-toggle" data-sec="th" aria-expanded="false" aria-controls="thBox"><svg class="sec-chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg><h4>Thought pages</h4><span class="sec-count" id="thCount"></span></button><button class="add" id="newTh" aria-label="New page" title="New page"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button></div>
-      <div id="thBox" hidden><p class="sec-note">Private pages. Spark only joins a page if you switch it on.</p>
-      <nav class="nb-list" id="thList" aria-label="My Thoughts pages"></nav></div>
+      <div class="sec-h"><button type="button" class="sec-toggle" data-sec="th" aria-expanded="false" aria-controls="thBox"><svg class="sec-chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg><h4 id="thHead">My Diary</h4><span class="sec-count" id="thCount"></span></button><button class="add" id="newTh" aria-label="New diary page" title="New diary page"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button></div>
+      <div id="thBox" hidden><nav class="dy-side" id="thList" aria-label="Diary pages"></nav></div>
     </div>
     <div class="side-foot">
       <button class="side-btn" id="openParent" title="Parent view"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19a5.5 5.5 0 0 1 11 0"/><circle cx="17" cy="9.5" r="2.4"/><path d="M15.2 14.6A4.5 4.5 0 0 1 21 19"/></svg><span class="lbl">Parent view</span></button>
@@ -1350,6 +1351,8 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
         <button class="tab" data-tab="progress" role="tab">Progress</button>
       </div>
       <button class="spark-toggle" id="sparkToggle" role="switch" aria-checked="false" hidden><span class="sw" aria-hidden="true"></span>Talk with Spark</button>
+      <button class="icon-btn pg-btn" id="pgFav" hidden aria-label="Add to favourites">☆</button>
+      <button class="icon-btn pg-btn" id="pgMore" hidden aria-label="Page options" title="Page options">⋯</button>
       <button class="icon-btn" id="delNb" aria-label="Delete notebook" title="Delete notebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3"/></svg></button>
       <button class="icon-btn bulb" id="bulb" aria-label="Switch light / dark theme" title="Switch theme"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path class="glass" d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.6 10.8c.6.5 1 1.2 1.1 2V16h5v-.2c.1-.8.5-1.5 1.1-2A6 6 0 0 0 12 3z"/></svg></button>
     </header>
@@ -1414,7 +1417,7 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
   <label class="check"><input type="checkbox" id="sThink"><span><b>Think before answering</b><br>More accurate answers; replies start a few seconds later.</span></label>
   <label class="check"><input type="checkbox" id="sSearch"><span><b>Look up recent facts online</b><br>Only for questions about news, current leaders, prices and other things that change. Sources are shown under the answer. Needs Google Search on your Gemini plan; without it Spark says the answer may be out of date.</span></label>
   <label class="check"><input type="checkbox" id="sExamples"><span><b>Learn from checked answers</b><br>Answers that pass Spark’s checks are kept on this device as examples, so similar questions get a proven method. <span id="sExN"></span> <button type="button" class="linkish" id="sExClear">Clear them</button></span></label>
-  <label class="check"><input type="checkbox" id="sThoughts"><span><b>Let Spark learn from my Thoughts</b> (off unless you turn it on)<br>Spark never replies there. It reads your pages only to note what helps it teach you, and you can see and delete every note.</span></label>
+  <label class="check"><input type="checkbox" id="sThoughts"><span><b>Let Spark learn from my Diary</b> (off unless you turn it on)<br>Spark never replies there. It reads your pages only to note what helps it teach you, and you can see and delete every note.</span></label>
   <div class="field"><label for="sName">Your first name</label><input id="sName" placeholder="Riya"></div>
   <div class="field"><label for="sGrade">Class</label><input id="sGrade" placeholder="Class 7"></div>
   <div class="field"><label for="sExam">Preparing for an exam?</label><select id="sExam"></select><p>Sparky teaches at that exam's level: every option checked, the usual traps, quick methods.</p></div>
@@ -1449,6 +1452,7 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
 <script src="spark-parent.js"></script>
 <script src="spark-paper.js"></script>
 <script src="spark-examples.js"></script>
+<script src="spark-diary.js"></script>
 
 <script>
 'use strict';
@@ -1485,7 +1489,8 @@ function migrateThoughts(s) {
 }
 const DEFAULT_MODEL = 'gemini-flash-latest';
 function load() {
-  try { return fromSaved(JSON.parse(localStorage.getItem(LS))) || seed(); } catch (e) { return seed(); }
+  let s; try { s = fromSaved(JSON.parse(localStorage.getItem(LS))) || seed(); } catch (e) { s = seed(); }
+  Diary.normalize(s); return s;
 }
 /* A saved copy, tidied for this version of the app; null if it isn't Spark data. */
 function fromSaved(s) {
@@ -1780,8 +1785,8 @@ function renderSide() {
     return `<button class="nb ${S.mode === 'nb' && n.id === S.activeId ? 'active' : ''}" data-id="${n.id}"><span class="t">${esc(n.title || 'Untitled')}</span><span class="c">${cs.length ? solid + '/' + cs.length : ''}</span></button>`;
   }).join('');
   const day = ts => new Date(ts).toLocaleDateString(undefined, { day: 'numeric', month: 'short' });
-  $('#thList').innerHTML = S.thoughts.slice().sort((a, b) => b.updated - a.updated).map(t =>
-    `<button class="nb ${S.mode === 'thought' && t.id === S.activeThoughtId ? 'active' : ''}" data-id="${t.id}"><span class="t">${esc(t.title || 'Untitled page')}</span><span class="c">${t.chatOn ? 'Spark · ' : ''}${day(t.updated)}</span></button>`).join('');
+  $('#thList').innerHTML = Diary.sideHTML();
+  $('#thHead').textContent = Diary.owner(); $('#diaryNavLbl').textContent = Diary.owner();
   $('#memCount').textContent = S.memories.length;
   applySections();
   document.querySelectorAll('#mainNav [data-nav]').forEach(b => { if (b.dataset.nav === NAV_OF[S.mode]) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current'); });
@@ -1790,7 +1795,7 @@ const closeDrawer = () => $('#app').classList.remove('drawer');
 /* Notebooks and Thought pages fold open and closed; Spark remembers which are open. */
 function applySections() {
   const open = S.settings.open || {};
-  for (const [k, box, list] of [['nb', 'nbBox', S.notebooks], ['th', 'thBox', S.thoughts]]) {
+  for (const [k, box, list] of [['nb', 'nbBox', S.notebooks], ['th', 'thBox', Diary.live()]]) {
     const b = document.querySelector(`.sec-toggle[data-sec="${k}"]`); if (!b) continue;
     $('#' + box).hidden = !open[k];
     b.setAttribute('aria-expanded', String(!!open[k]));
@@ -1802,18 +1807,18 @@ function setSection(k, on) { S.settings.open = Object.assign({}, S.settings.open
 document.querySelectorAll('.sec-toggle').forEach(b => { b.onclick = () => setSection(b.dataset.sec, !((S.settings.open || {})[b.dataset.sec])); });
 function focusTitle() { const t = $('#titleIn'); t.focus(); t.select(); }
 $('#nbList').onclick = e => { const b = e.target.closest('.nb'); if (!b) return; S.mode = 'nb'; S.activeId = b.dataset.id; save(); closeDrawer(); render(); };
-$('#thList').onclick = e => { const b = e.target.closest('.nb'); if (!b) return; S.mode = 'thought'; S.activeThoughtId = b.dataset.id; save(); closeDrawer(); render(); };
+Diary.wireSide($('#thList'));
 $('#newNb').onclick = () => { setSection('nb', true); const n = newNotebook('New notebook'); S.notebooks.unshift(n); S.activeId = n.id; S.mode = 'nb'; S.tab = 'chat'; save(); render(); closeDrawer(); focusTitle(); };
-$('#newTh').onclick = () => { setSection('th', true); const t = newThought('Untitled page'); S.thoughts.unshift(t); S.activeThoughtId = t.id; S.mode = 'thought'; save(); render(); closeDrawer(); focusTitle(); };
+$('#newTh').onclick = () => Diary.newPage(null);
 $('#menuBtn').onclick = () => $('#app').classList.toggle('drawer');
 document.querySelector('.main').addEventListener('click', e => { if ($('#app').classList.contains('drawer') && !e.target.closest('#menuBtn')) closeDrawer(); });
 
 /* ---------- navigation ---------- */
-const PAGES = { home: 'Learn', nb: 'Study Notebooks', notes: 'Learn from Notes', thought: 'My Thoughts', progress: 'My Progress', teacher: 'Teacher workspace', space: 'My Study Space', paper: 'Solve a paper' };
+const PAGES = { home: 'Learn', nb: 'Study Notebooks', notes: 'Learn from Notes', thought: 'My Diary', diary: 'My Diary', progress: 'My Progress', teacher: 'Teacher workspace', space: 'My Study Space', paper: 'Solve a paper' };
 /* Three main areas: a notebook is part of Learn; notes and private pages belong to My Study Space. */
-const NAV_OF = { home: 'home', nb: 'home', space: 'space', notes: 'space', thought: 'space', progress: 'progress' };
+const NAV_OF = { home: 'home', nb: 'home', space: 'space', notes: 'space', thought: 'diary', diary: 'diary', progress: 'progress' };
 function go(where) {
-  if (where === 'thought' && !S.thoughts.length) { const t = newThought('Untitled page'); S.thoughts.unshift(t); S.activeThoughtId = t.id; }
+  if (where === 'thought' && !Diary.live().length) { Diary.newPage(null); return; }
   S.mode = where; if (where === 'nb') S.tab = 'chat';
   save(); closeDrawer(); render();
 }
@@ -1847,11 +1852,7 @@ const chevSvg = '<svg class="chev" width="16" height="16" viewBox="0 0 24 24" fi
 const solidOf = n => { const cs = Object.values(n.concepts || {}); return { solid: cs.filter(c => c.status === 'solid').length, total: cs.length }; };
 const barHTML = (solid, total) => `<span class="bar" role="img" aria-label="${solid} of ${total} concepts solid"><i style="width:${total ? Math.round(solid / total * 100) : 0}%"></i></span>`;
 $('#delNb').onclick = () => {
-  if (S.mode === 'thought') {
-    const t = th(); if (!t || !confirm(`Delete the page "${t.title}"? Its writing and its Spark conversation will be removed.`)) return;
-    S.thoughts = S.thoughts.filter(x => x.id !== t.id);
-    if (S.thoughts.length) S.activeThoughtId = S.thoughts[0].id; else S.mode = 'nb';
-  } else {
+  if (S.mode === 'thought') { const t = th(); if (t) Diary.trash(t); return; } else {
     const n = nb(); if (!confirm(`Delete "${n.title}"? Its chat, study notes and progress will be removed.`)) return;
     for (const m of n.materials || []) idb.del(m.id).catch(() => {});
     S.notebooks = S.notebooks.filter(x => x.id !== n.id); if (!S.notebooks.length) S.notebooks.push(newNotebook('New notebook'));
@@ -1868,10 +1869,11 @@ document.querySelector('.tabs').onclick = e => { const t = e.target.closest('.ta
 function render() { applyTheme(); applyBuddy(); applySide(); renderSide(); renderMain(); applySubjectBg(); applyTopicBg(); }
 function renderMain() {
   if (!PAGES[S.mode]) S.mode = 'home';
-  if (S.mode === 'thought' && !th()) S.mode = 'nb';
-  const thought = S.mode === 'thought' && th(), doc = S.mode === 'nb' || !!thought;
+  if (S.mode === 'thought' && !th()) S.mode = 'diary';
+  const thought = S.mode === 'thought' && th(), doc = S.mode === 'nb';
+  Diary.closeMenus(); Diary.plainTop();
   $('#titleIn').hidden = !doc; $('#delNb').hidden = !doc;
-  const tt = $('#topTitle'); tt.hidden = doc; tt.textContent = PAGES[S.mode];
+  const tt = $('#topTitle'); tt.hidden = doc; tt.textContent = S.mode === 'diary' ? Diary.owner() : PAGES[S.mode];
   document.querySelector('.tabs').hidden = S.mode !== 'nb';
   const tg = $('#sparkToggle'); tg.hidden = !thought; if (thought) tg.setAttribute('aria-checked', String(!!thought.chatOn));
   if (S.mode === 'home') return renderHome();
@@ -1880,6 +1882,8 @@ function renderMain() {
   if (S.mode === 'space') return renderSpace();
   if (S.mode === 'teacher') return renderTeacher();
   if (S.mode === 'paper') return renderPaper();
+  if (S.mode === 'diary') return Diary.renderHome();
+  if (thought) { Diary.topBar(thought); return renderThought(); }
   const c = cur(); $('#titleIn').value = c.title;
   $('#titleIn').setAttribute('aria-label', thought ? 'Page title' : 'Notebook name');
   $('#delNb').setAttribute('aria-label', thought ? 'Delete page' : 'Delete notebook'); $('#delNb').title = thought ? 'Delete page' : 'Delete notebook';
@@ -2125,18 +2129,18 @@ function renderSpace() {
   const notes = []; for (const n of S.notebooks) for (const m of n.materials || []) notes.push({ m, n });
   notes.sort((a, b) => b.m.ts - a.m.ts);
   const packs = S.notebooks.filter(n => n.pack);
-  const thoughts = S.thoughts.slice().sort((a, b) => (b.updated || 0) - (a.updated || 0));
+  const thoughts = Diary.live().sort((a, b) => (b.updated || 0) - (a.updated || 0));
   $('#view').innerHTML = `<div class="page"><div class="page-in">
     <header class="page-h"><h1>My Study Space</h1><p>Your notebooks, notes, study packs and private pages.</p></header>
     <div class="go-row"><button class="btn pri" id="spNew">New notebook</button>${feature('uploads') ? '<button class="btn" id="spUp">Upload notes</button>' : ''}</div>
     ${packs.length ? `<section aria-labelledby="spP"><h2 class="h-sec" id="spP">Study packs</h2><div class="list">${packs.map(n => `<button class="row-card" data-open-pack="${n.id}"><span class="ic">${docSvg}</span><span class="rc-main"><b>${esc(n.pack.title)}</b><span>${n.pack.units.length} parts · from ${esc(n.pack.from || 'your notes')}</span></span>${chevSvg}</button>`).join('')}</div></section>` : ''}
     <section aria-labelledby="spB"><h2 class="h-sec" id="spB">Notebooks</h2>${books.length ? `<div class="list">${books.map(n => { const p = solidOf(n); return `<button class="row-card" data-open-nb="${n.id}"><span class="rc-main"><b>${esc(n.title || 'Untitled')}</b><span>${ago(n.updated)}${p.total ? ` · ${p.solid}/${p.total} concepts solid` : ''}</span></span>${chevSvg}</button>`; }).join('')}</div>` : '<p class="none">No notebooks yet. Ask a question on Learn to start one.</p>'}</section>
     ${notes.length ? `<section aria-labelledby="spN"><h2 class="h-sec" id="spN">Uploaded notes</h2><div class="list">${notes.map(({ m, n }) => `<button class="row-card" data-open-nb="${n.id}"><span class="ic">${docSvg}</span><span class="rc-main"><b>${esc(m.name)}</b><span>In ${esc(n.title || 'Untitled')} · ${ago(m.ts)}${n.pack ? ' · study pack ready' : ''}</span></span>${chevSvg}</button>`).join('')}</div></section>` : ''}
-    <section aria-labelledby="spT"><h2 class="h-sec" id="spT">My Thoughts <span class="pv-tag soft">private</span></h2><p class="pv-small">Private pages. Spark only joins a page if you switch it on, and Parent View never shows them.</p>${thoughts.length ? `<div class="list">${thoughts.slice(0, 6).map(t => `<button class="row-card" data-open-th="${t.id}"><span class="rc-main"><b>${esc(t.title || 'Untitled page')}</b><span>${t.updated ? ago(t.updated) : ''}</span></span>${chevSvg}</button>`).join('')}</div>` : ''}<button class="btn" id="spThought">Open My Thoughts</button></section>
+    <section aria-labelledby="spT"><h2 class="h-sec" id="spT">${esc(Diary.owner())} <span class="pv-tag soft">private</span></h2><p class="pv-small">Private pages. Spark only joins a page if you switch it on, and Parent View never shows them.</p>${thoughts.length ? `<div class="list">${thoughts.slice(0, 6).map(t => `<button class="row-card" data-open-th="${t.id}"><span class="ic dy-ic">${esc(t.icon || '📄')}</span><span class="rc-main"><b>${esc(t.title || 'Untitled')}</b><span>${t.updated ? ago(t.updated) : ''}</span></span>${chevSvg}</button>`).join('')}</div>` : ''}<button class="btn" id="spThought">Open ${esc(Diary.owner())}</button></section>
   </div></div>`;
   $('#spNew').onclick = () => $('#newNb').click();
   const up = $('#spUp'); if (up) up.onclick = () => go('notes');
-  $('#spThought').onclick = () => go('thought');
+  $('#spThought').onclick = () => go('diary');
 }
 function askFromHome(text) {
   if (busy) return toast(`${bn()} is still answering. One moment.`);
@@ -3227,44 +3231,18 @@ function mockLearn(n, user) {
 
 /* ---------- My Thoughts: separate private pages, each with an optional Spark chat ---------- */
 function newThought(title) { return { id: uid(), kind: 'thought', title: title || 'Untitled page', created: Date.now(), updated: Date.now(), html: '', chatOn: false, messages: [], learnedText: '', care: false }; }
-function seedThought() { const t = newThought('My first page'); t.html = '<h1>My first page</h1><p>A place for anything: ideas, questions, worries, plans, things I noticed today.</p>'; return t; }
-const th = () => S.thoughts.find(t => t.id === S.activeThoughtId) || S.thoughts[0];
+function seedThought() {
+  const t = newThought('Welcome to my diary'); t.icon = '👋'; t.cover = 'candy';
+  t.html = '<p>This is your private diary. Only you can see it. Here’s how it works:</p><div class="todo"><input type="checkbox">&nbsp;<span>Tick me! ✨</span></div><div class="callout" data-color="purple"><span class="co-ic" contenteditable="false">💡</span><div class="co-tx">Type <b>/</b> anywhere to add headings, to-do lists, toggles, stickers and more.</div></div><div class="b-toggle"><div class="tg-head"><span class="tg-arrow" contenteditable="false">▶</span><span class="tg-text">Tap the arrow to open me</span></div><div class="tg-body"><p>Secret! You can hide things inside a toggle. 🤫</p></div></div><p>Change this page’s icon, cover or mood from the top. Each page can look different.</p>';
+  return t;
+}
+const th = () => S.thoughts.find(t => t.id === S.activeThoughtId && !t.trashed) || Diary.live()[0];
 const pageText = t => { const d = document.createElement('div'); d.innerHTML = t.html || ''; return d.innerText.trim(); };
 let noteTimer = null;
 function renderThought() {
   const t = th();
-  if (!t) { $('#view').innerHTML = '<div class="empty"><h2>No pages yet</h2><p>Press + next to My Thoughts to start one.</p></div>'; return; }
-  $('#view').innerHTML = `<div class="tpage ${t.chatOn ? 'with-chat' : ''}">
-    <div class="notes-wrap" id="notesWrap"><div class="notes-bar">
-      <button class="tb" data-cmd="h1" title="Big heading">H1</button>
-      <button class="tb" data-cmd="h2" title="Heading">H2</button>
-      <button class="tb" data-cmd="p" title="Text">Text</button>
-      <button class="tb" data-cmd="bold" title="Bold"><b>B</b></button>
-      <button class="tb" data-cmd="ul" title="Bullet list">• List</button>
-      <button class="tb" data-cmd="todo" title="Checkbox">☐ To-do</button>
-      <button class="tb" data-cmd="quote" title="Quote">“ Quote</button>
-      <button class="tb" data-cmd="hr" title="Divider">—</button>
-      <span class="sp"></span><span class="saved" id="savedLbl">Saved</span>
-    </div>${privateHTML(t)}<div class="editor" id="editor" contenteditable="true" spellcheck="true" aria-label="Page">${t.html || ''}</div></div>
-    ${t.chatOn ? '<aside class="tchat" id="tchat" aria-label="Talk with Spark about this page"></aside>' : ''}
-  </div>`;
-  const ed = $('#editor');
-  ed.oninput = () => { $('#savedLbl').textContent = 'Saving…'; clearTimeout(noteTimer); noteTimer = setTimeout(() => { t.html = ed.innerHTML; t.updated = Date.now(); save(); renderSide(); const l = $('#savedLbl'); if (l) l.textContent = 'Saved'; scheduleThoughtLearning(t); }, 400); };
-  wireCare(t);
-  ed.onclick = e => { if (e.target.matches('.todo input')) { e.target.toggleAttribute('checked', e.target.checked); ed.oninput(); } };
-  document.querySelector('.notes-bar').onmousedown = e => { if (e.target.closest('.tb')) e.preventDefault(); };
-  document.querySelector('.notes-bar').onclick = e => {
-    const b = e.target.closest('.tb'); if (!b) return; ed.focus(); const c = b.dataset.cmd;
-    if (c === 'h1' || c === 'h2' || c === 'p') document.execCommand('formatBlock', false, c);
-    else if (c === 'quote') document.execCommand('formatBlock', false, 'blockquote');
-    else if (c === 'bold') document.execCommand('bold');
-    else if (c === 'ul') document.execCommand('insertUnorderedList');
-    else if (c === 'hr') document.execCommand('insertHorizontalRule');
-    else if (c === 'todo') document.execCommand('insertHTML', false, '<div class="todo"><input type="checkbox">&nbsp;<span>To do</span></div>');
-    ed.oninput();
-  };
-  if (t.chatOn) renderThoughtChat();
-  if (!t.html) ed.focus();
+  if (!t) { S.mode = 'diary'; return renderMain(); }
+  Diary.renderPage(t);
 }
 function renderThoughtChat() {
   const t = th(), box = $('#tchat'); if (!t || !box) return;
@@ -3298,7 +3276,7 @@ const THOUGHT_SCHEMA = { type: 'OBJECT', properties: { insights: { type: 'ARRAY'
 async function learnFromThoughts(t) {
   // Off unless the student turns it on in Settings (readThoughts). The older learnThoughts setting was on by default,
   // so it isn't carried over.
-  if (!hasAI() || S.settings.readThoughts !== true) return;
+  if (!hasAI() || S.settings.readThoughts !== true || t.trashed) return;
   const text = pageText(t).slice(0, 6000);
   if (text.length < 40 || text === t.learnedText) return;
   const known = S.memories.filter(m => m.source === 'thoughts').map(m => m.text).join(' | ') || 'none';
@@ -3367,7 +3345,7 @@ function openVoice() {
   if (S.mode !== 'nb' && S.mode !== 'thought') { blankNotebook(); S.mode = 'nb'; S.tab = 'chat'; save(); render(); }
   if (S.mode === 'thought') { const t = th(); if (t && !t.chatOn) { t.chatOn = true; save(); renderMain(); renderSide(); toast('Spark is switched on for this page'); } }
   V.open = true; V.auto = true; $('#voice').hidden = false;
-  $('#vWhere').textContent = (S.mode === 'thought' ? 'Thoughts · ' : 'Notebook · ') + (cur().title || 'Untitled');
+  $('#vWhere').textContent = (S.mode === 'thought' ? 'Diary · ' : 'Notebook · ') + (cur().title || 'Untitled');
   $('#vHeard').textContent = ''; $('#vSaid').textContent = '';
   const name = S.settings.name ? ' ' + S.settings.name : '';
   const hello = S.mode === 'thought' ? `Hey${name}! I'm here. What's on your mind?` : `Hi${name}! It's ${bn()}. What are we learning today?`;
@@ -4499,7 +4477,7 @@ async function pvActivity(pane) {
     ${!r.items.length ? NO_ACTIVITY(PV.days) : `<div class="pvx-tl">${[...groups].map(([d, items]) => `<section><h4>${esc(pvDate(d))}</h4><ul>${items.map(it => `<li><time>${esc(pvTime(it.ts))}</time><span class="pvx-type">${esc(it.type)}</span><span class="pvx-top">${esc(it.topic)}</span><span class="pvx-res ${/first time/.test(it.result) ? 'ok' : /shown|Not yet/.test(it.result) ? 'help' : ''}">${esc(it.result)}</span></li>`).join('')}</ul></section>`).join('')}</div>`}
     <section class="pvx-card">${sectionHead('Privacy')}<div class="pv-priv">
       <p><b>Recorded for you:</b> lessons, quiz answers (right first time, after help, or answer shown), hints asked for, and topic names. Kept on Spark’s server for 60 days.</p>
-      <p><b>Never recorded or shown:</b> your child’s messages, their private My Thoughts pages, or notes they upload. There is no transcript viewer.</p>
+      <p><b>Never recorded or shown:</b> your child’s messages, their private diary pages, or notes they upload. There is no transcript viewer.</p>
       <p><b>Safety log:</b> only the kind of safety signal, when, and what Spark did (see Safety & settings).</p>
       <p><b>Your child knows:</b> their Settings explain what you can and can’t see.</p></div></section>`;
 }
@@ -4964,7 +4942,7 @@ function renderProgress() {
 
 /* ---------- memory dialog ---------- */
 function renderMem() {
-  $('#memList').innerHTML = S.memories.length ? S.memories.slice().reverse().map(m => `<div class="mem"><span>${esc(m.text)}${m.source === 'thoughts' ? '<em class="src-tag">from your Thoughts</em>' : ''}</span><button data-del="${m.id}">Forget</button></div>`).join('') : '<p class="none">Nothing yet. Spark adds short notes as you chat, like your goals or what you find tricky.</p>';
+  $('#memList').innerHTML = S.memories.length ? S.memories.slice().reverse().map(m => `<div class="mem"><span>${esc(m.text)}${m.source === 'thoughts' ? '<em class="src-tag">from your Diary</em>' : ''}</span><button data-del="${m.id}">Forget</button></div>`).join('') : '<p class="none">Nothing yet. Spark adds short notes as you chat, like your goals or what you find tricky.</p>';
 }
 $('#openMem').onclick = () => { renderMem(); $('#memDlg').showModal(); };
 $('#memClose').onclick = () => $('#memDlg').close();
